@@ -3521,7 +3521,7 @@
     "OperationType1": "GetPhysicalDamageR",
     "OperationTargetType1": "Target",
     "OperationValue1": [
-      "2500"
+      "3000"
     ],
     "OperationConditionType1": "None",
     "OperationType2": "GetMot",
@@ -3635,7 +3635,7 @@
     "OperationRadiusMm1": 9000,
     "OperationAngle1": 180,
     "OperationValue1": [
-      "100"
+      "350"
     ],
     "OperationConditionType1": "None",
     "OperationType2": "Down",
@@ -3706,7 +3706,7 @@
     "OperationRadiusMm1": 15000,
     "OperationAngle1": 45,
     "OperationValue1": [
-      "350"
+      "400"
     ],
     "OperationConditionType1": "None",
     "OperationType2": "GetMot",
@@ -3759,7 +3759,7 @@
     ],
     "OperationAngle1": 90,
     "OperationValue1": [
-      "100",
+      "230",
       "$ByMEHp4(700)",
       "NoCritical"
     ],
@@ -3895,8 +3895,8 @@
     "OperationRadiusMm1": 40000,
     "OperationWidth1": 4000,
     "OperationValue1": [
-      "200",
-      "$ByMEHp4(800)",
+      "330",
+      "$ByMEHp4(600)",
       "NoCritical"
     ],
     "OperationConditionType1": "None"
@@ -4214,8 +4214,9 @@
     "ViewTargetWhileUse": "True",
     "OperationType1": "GetPhysicalDamageR",
     "OperationTargetType1": "Target",
+    "OperationRadiusMm1": 500,
     "OperationValue1": [
-      "0",
+      "270",
       "$ByMEHp4(300)",
       "IgnoreDefence|NoCritical|IgnoreBlock"
     ],
@@ -4348,7 +4349,7 @@
     "TriggerDisabled": "True",
     "AttrType": "Physical",
     "TargetType": "RandomEnemy",
-    "TargetCount": 2,
+    "TargetCount": 3,
     "DeadTarget": "False",
     "IgnoreBlock": "TRUE",
     "RetargetOnFire": "False",
@@ -4356,8 +4357,8 @@
     "OperationType1": "GetPhysicalDamageR",
     "OperationTargetType1": "Target",
     "OperationValue1": [
-      "0",
-      "$ByMEHp4(1000)",
+      "270",
+      "$ByMEHp4(600)",
       "IgnoreDefence|NoCritical|IgnoreBlock"
     ],
     "OperationConditionType1": "None",
@@ -4400,7 +4401,7 @@
     "OperationType1": "ModPowerR",
     "OperationTargetType1": "Myself",
     "OperationValue1": [
-      "40"
+      "50"
     ],
     "OperationDurationMs1": 9999999,
     "OperationConditionType1": "None",
@@ -4978,7 +4979,7 @@
     "OperationType3": "ModDefensePower",
     "OperationTargetType3": "Myself",
     "OperationValue3": [
-      "-4500"
+      "-11000"
     ],
     "OperationType4": "OverrideStat",
     "OperationTargetType4": "Myself",
@@ -5099,8 +5100,8 @@
     "Index": 1130162,
     "TriggerType": "OnTimer",
     "TriggerValue": [
-      "30000",
-      "30000"
+      "12000",
+      "12000"
     ],
     "TriggerRatio": 1000,
     "AttrType": "Magical",
@@ -5115,8 +5116,9 @@
     "OperationType1": "ModDefensePower",
     "OperationTargetType1": "Myself",
     "OperationValue1": [
-      "370"
+      "320"
     ],
+    "OperationState1": "TurtleDmg",
     "OperationDurationMs1": 999999
   },
   {
@@ -6422,7 +6424,7 @@
     "OperationType1": "GetPhysicalDamageR",
     "OperationTargetType1": "Target",
     "OperationValue1": [
-      "3000"
+      "4000"
     ],
     "OperationConditionType1": "None",
     "OperationType2": "GetPhysicalDamageR",
@@ -6459,7 +6461,7 @@
     "OperationType1": "GetPhysicalDamageR",
     "OperationTargetType1": "Target",
     "OperationValue1": [
-      "3000"
+      "4000"
     ],
     "OperationConditionType1": "None"
   },
@@ -6475,7 +6477,7 @@
     ],
     "CancelOnWaveEnd": "TRUE",
     "TickTimeValue": [
-      "3200[1:2]",
+      "3200[1:2:4]",
       "4700[3]"
     ],
     "AttrType": "Magical",
@@ -6488,7 +6490,9 @@
     "OperationType1": "GetMagicalDamageR",
     "OperationTargetType1": "Target",
     "OperationValue1": [
-      "700"
+      "4500",
+      "0",
+      "Unavoidable"
     ],
     "OperationDelayMs1": [
       "0",
@@ -6497,14 +6501,29 @@
     ],
     "OperationConditionType1": "None",
     "OperationType2": "ModAttackSpeedR",
-    "OperationTargetType2": "Target",
+    "OperationTargetType2": "Parent",
     "OperationState2": "XanaSkill1",
     "OperationAddStateCount2": 1,
-    "OperationDurationMs2": 5000,
+    "OperationDurationMs2": 8000,
+    "OperationParent2": 1,
+    "OperationFlags2": [
+      "HasParent"
+    ],
     "OperationType3": "UseSkill",
     "OperationTargetType3": "Myself",
     "OperationValue3": [
       "550354"
+    ],
+    "OperationType4": "ModAttackPower",
+    "OperationTargetType4": "Parent",
+    "OperationValue4": [
+      "-500"
+    ],
+    "OperationState4": "XanaAttackDown2",
+    "OperationDurationMs4": 99999999,
+    "OperationParent4": 1,
+    "OperationFlags4": [
+      "HasParent"
     ]
   },
   {
@@ -6728,7 +6747,14 @@
     "OperationTargetType2": "Myself",
     "OperationValue2": [
       "550358"
-    ]
+    ],
+    "OperationType3": "ModDefensePower",
+    "OperationTargetType3": "Myself",
+    "OperationValue3": [
+      "-150"
+    ],
+    "OperationDurationMs3": 9999999,
+    "OperationMaxAccCount3": 1
   },
   {
     "Index": 550343,
@@ -6762,13 +6788,20 @@
     "DeadTarget": "False",
     "IgnoreBlock": "TRUE",
     "RetargetOnFire": "False",
-    "OperationType1": "ModDefensePower",
+    "OperationType1": "ModPhysicalDefensePower",
     "OperationTargetType1": "Myself",
     "OperationValue1": [
-      "8"
+      "20"
     ],
     "OperationState1": "XanaToughness",
-    "OperationDurationMs1": 9999999
+    "OperationDurationMs1": 9999999,
+    "OperationType2": "ModMagicalDefensePower",
+    "OperationTargetType2": "Myself",
+    "OperationValue2": [
+      "24"
+    ],
+    "OperationState2": "XanaToughness2",
+    "OperationDurationMs2": 9999999
   },
   {
     "Index": 550345,
@@ -6789,8 +6822,8 @@
     "OperationTargetType2": "Target",
     "OperationValue2": [
       "900",
-      "200",
-      "Unavoidable",
+      "400",
+      "Unavoidable|NoCritical",
       "None",
       "EndOfFinal"
     ],
@@ -6821,8 +6854,8 @@
     "OperationTargetType2": "Target",
     "OperationValue2": [
       "900",
-      "200",
-      "Unavoidable",
+      "400",
+      "Unavoidable|NoCritical",
       "None",
       "EndOfFinal"
     ],
@@ -6868,7 +6901,23 @@
     "OperationState2": "BossAttack2",
     "OperationDurationMs2": 9999999,
     "OperationConditionType2": "None",
-    "OperationDurationMs3": 9999999
+    "OperationDurationMs3": 9999999,
+    "OperationType4": "ModSkillPowerR",
+    "OperationTargetType4": "Myself",
+    "OperationValue4": [
+      "550300",
+      "0",
+      "50"
+    ],
+    "OperationDurationMs4": 999999,
+    "OperationType5": "ModSkillPowerR",
+    "OperationTargetType5": "Myself",
+    "OperationValue5": [
+      "550310",
+      "1",
+      "50"
+    ],
+    "OperationDurationMs5": 999999
   },
   {
     "Index": 550350,

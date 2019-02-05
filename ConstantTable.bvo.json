@@ -906,7 +906,7 @@
   },
   {
     "Key": "NumOfHeroIntroOneLineTip",
-    "Value": 18
+    "Value": 17
   },
   {
     "Key": "RecvFriendshipPoint",
@@ -986,7 +986,7 @@
   },
   {
     "Key": "AddRaidPointPercentagePerMember",
-    "Value": 15
+    "Value": 20
   },
   {
     "Key": "GuildRaidEnterCount",
@@ -1118,6 +1118,10 @@
   },
   {
     "Key": "UpdateFreeGachaInfoMin",
+    "Value": 1
+  },
+  {
+    "Key": "UpdateGachaInfoMin",
     "Value": 1
   },
   {
@@ -1391,11 +1395,11 @@
   },
   {
     "Key": "GlobalGuildSuppressApplyTime",
-    "Value": "[\"Sunday\",\"16:00:00\",\"Monday\",\"14:59:59\",\"Thursday\",\"16:00:00\",\"Friday\",\"14:59:59\"]"
+    "Value": "[\"Tuesday\",\"16:00:00\",\"Thursday\",\"14:59:59\"]"
   },
   {
     "Key": "GlobalGuildSuppressProgressTime",
-    "Value": "[\"Monday\",\"15:30:00\",\"Wednesday\",\"14:59:59\",\"Friday\",\"15:30:00\",\"Sunday\",\"14:59:59\"]"
+    "Value": "[\"Thursday\",\"15:30:00\",\"Tuesday\",\"14:59:59\"]"
   },
   {
     "Key": "GuildSuppressGlobalRewardBuffMin",
@@ -1455,6 +1459,18 @@
   },
   {
     "Key": "RankerMaxPageCount",
+    "Value": 10
+  },
+  {
+    "Key": "RecordsOfHonorViewMaxCount",
+    "Value": 3
+  },
+  {
+    "Key": "RecordsOfHonorRefreshTermSec",
+    "Value": 600
+  },
+  {
+    "Key": "RecordsOfHonorGetMaxCount",
     "Value": 10
   }
 ]

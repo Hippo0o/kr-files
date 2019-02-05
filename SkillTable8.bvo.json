@@ -7004,7 +7004,7 @@
     "OperationValue1": [
       "3412",
       "1",
-      "270",
+      "180",
       "None",
       "Ground",
       "160000"
@@ -12026,7 +12026,7 @@
     "OperationType4": "ModDefensePower",
     "OperationTargetType4": "Myself",
     "OperationValue4": [
-      "-3500"
+      "-8000"
     ],
     "OperationDurationMs4": 999999,
     "OperationType5": "ModHitCcChance",
@@ -12157,5 +12157,30 @@
     ],
     "OperationDurationMs1": 9999999,
     "OperationConditionType1": "None"
+  },
+  {
+    "Index": 880385,
+    "TriggerType": "OnTimer",
+    "TriggerValue": [
+      "30000",
+      "30000"
+    ],
+    "TriggerRatio": 1000,
+    "AttrType": "Magical",
+    "IgnoreStateType": [
+      "RaidDown"
+    ],
+    "TargetType": "Myself",
+    "TargetCount": 1,
+    "DeadTarget": "False",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "False",
+    "OperationType1": "ModDefensePower",
+    "OperationTargetType1": "Myself",
+    "OperationValue1": [
+      "900"
+    ],
+    "OperationState1": "LarkDmg",
+    "OperationDurationMs1": 999999
   }
 ]

@@ -258,5 +258,10 @@
     "Index": 52,
     "Name": "ByMaxHp2",
     "Expression": "$1*($Fc.MaxHp)/10000"
+  },
+  {
+    "Index": 53,
+    "Name": "ByMagicalCriticalPower",
+    "Expression": "$1*($Fc.MagicalCriticalPower)/1000"
   }
 ]

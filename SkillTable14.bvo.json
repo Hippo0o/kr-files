@@ -139,7 +139,7 @@
     "OperationType2": "Down",
     "OperationTargetType2": "Parent",
     "OperationValue2": [
-      "20000"
+      "18000"
     ],
     "OperationState2": "Down",
     "OperationDurationMs2": 7000,
@@ -256,43 +256,35 @@
     "CancelOnWaveEnd": "True",
     "TickTimeValue": [
       "200",
-      "600",
-      "1000",
-      "1400",
-      "1800",
+      "700",
+      "1200",
+      "1700",
       "2200",
-      "2600",
-      "3000",
-      "3400",
-      "3800",
+      "2700",
+      "3200",
+      "3700",
       "4200",
-      "4600",
-      "5000",
-      "5400",
-      "5800",
+      "4700",
+      "5200",
+      "5700",
       "6200",
-      "6600",
-      "7000",
-      "7400",
-      "7800",
+      "6700",
+      "7200",
+      "7700",
       "8200",
-      "8600",
-      "9000",
-      "9400",
-      "9800",
+      "8700",
+      "9200",
+      "9700",
       "10200",
-      "10600",
-      "11000",
-      "11400",
-      "11800",
+      "10700",
+      "11200",
+      "11700",
       "12200",
-      "12600",
-      "13000",
-      "13400",
-      "13800",
+      "12700",
+      "13200",
+      "13700",
       "14200",
-      "14600",
-      "15000"
+      "14700"
     ],
     "AttrType": "Magical",
     "TargetType": "Enemy",
@@ -306,14 +298,14 @@
     "OperationRadiusMm1": 30000,
     "OperationValue1": [
       "120",
-      "$ByMEHp4(700)"
+      "$ByMEHp4(500)"
     ],
     "OperationType2": "ModSkillPowerR",
     "OperationTargetType2": "Myself",
     "OperationValue2": [
       "880141",
       "1",
-      "20"
+      "35"
     ],
     "OperationState2": 880141,
     "OperationDurationMs2": 15000
@@ -394,7 +386,7 @@
     "OperationValue1": [
       "8802",
       "1",
-      "9",
+      "6",
       "None",
       "Ground",
       "31000",
@@ -405,7 +397,7 @@
     "OperationValue2": [
       "8802",
       "1",
-      "9",
+      "6",
       "None",
       "Ground",
       "31000",
@@ -416,7 +408,7 @@
     "OperationValue3": [
       "8802",
       "1",
-      "9",
+      "6",
       "None",
       "Ground",
       "30000",
@@ -427,21 +419,11 @@
     "OperationValue4": [
       "8802",
       "1",
-      "9",
+      "6",
       "None",
       "Ground",
       "30000",
       "-3500"
-    ],
-    "OperationType5": "SpawnCreature",
-    "OperationTargetType5": "Myself",
-    "OperationValue5": [
-      "8802",
-      "1",
-      "10",
-      "None",
-      "Ground",
-      "33500"
     ],
     "OperationType6": "UseSkill",
     "OperationTargetType6": "Myself",
@@ -516,7 +498,7 @@
     "OperationTargetType1": "Target",
     "OperationValue1": [
       "700",
-      "200",
+      "300",
       "Unavoidable|IgnoreDefence|NoCritical",
       "None",
       "EndOfFinal"
@@ -537,7 +519,7 @@
     "OperationTargetType1": "Myself",
     "OperationValue1": [
       "11",
-      "37000"
+      "35000"
     ],
     "OperationDelayMs1": [
       "0",
@@ -592,7 +574,14 @@
       "BaseAttack"
     ],
     "OperationState1": 880157,
-    "OperationDurationMs1": 999999
+    "OperationDurationMs1": 999999,
+    "OperationType2": "FilterTargetByState",
+    "OperationTargetType2": "Target",
+    "OperationValue2": [
+      "4630",
+      "Valok2"
+    ],
+    "OperationDurationMs2": 999999
   },
   {
     "Index": 880158,
@@ -710,51 +699,50 @@
     "DeadTarget": "False",
     "IgnoreBlock": "True",
     "RetargetOnFire": "False",
-    "OperationType1": "ModSkillValue",
+    "OperationType1": "ModSkill",
     "OperationTargetType1": "Myself",
     "OperationValue1": [
       "880152",
       "1",
-      "2",
-      "7"
+      "Value",
+      "7",
+      "2"
     ],
+    "OperationState1": "ValokHp1",
     "OperationDurationMs1": 999999,
-    "OperationType2": "ModSkillValue",
+    "OperationType2": "ModSkill",
     "OperationTargetType2": "Myself",
     "OperationValue2": [
       "880152",
       "2",
-      "2",
-      "7"
+      "Value",
+      "7",
+      "2"
     ],
+    "OperationState2": "ValokHp2",
     "OperationDurationMs2": 999999,
-    "OperationType3": "ModSkillValue",
+    "OperationType3": "ModSkill",
     "OperationTargetType3": "Myself",
     "OperationValue3": [
       "880152",
       "3",
-      "2",
-      "7"
+      "Value",
+      "7",
+      "2"
     ],
+    "OperationState3": "ValokHp3",
     "OperationDurationMs3": 999999,
-    "OperationType4": "ModSkillValue",
+    "OperationType4": "ModSkill",
     "OperationTargetType4": "Myself",
     "OperationValue4": [
       "880152",
       "4",
-      "2",
-      "7"
+      "Value",
+      "7",
+      "2"
     ],
-    "OperationDurationMs4": 999999,
-    "OperationType5": "ModSkillValue",
-    "OperationTargetType5": "Myself",
-    "OperationValue5": [
-      "880152",
-      "5",
-      "2",
-      "7"
-    ],
-    "OperationDurationMs5": 999999
+    "OperationState4": "ValokHp4",
+    "OperationDurationMs4": 999999
   },
   {
     "Index": 880162,
@@ -895,47 +883,17 @@
     "OperationType1": "ModDefensePower",
     "OperationTargetType1": "Myself",
     "OperationValue1": [
+      "-550"
+    ],
+    "OperationState1": "ValokDown1",
+    "OperationDurationMs1": 999999,
+    "OperationType2": "ModMagicalDefensePower",
+    "OperationTargetType2": "Myself",
+    "OperationValue2": [
       "-350"
     ],
-    "OperationDurationMs1": 999999
-  },
-  {
-    "Index": 880173,
-    "TriggerType": "OnWaveStart",
-    "TriggerRatio": 1000,
-    "AttrType": "Magical",
-    "IgnoreStateType": [
-      "CC",
-      "RaidDown"
-    ],
-    "TargetType": "Enemy",
-    "DeadTarget": "False",
-    "IgnoreBlock": "TRUE",
-    "RetargetOnFire": "False",
-    "OperationType1": "ModPowerR",
-    "OperationTargetType1": "Target",
-    "OperationValue1": [
-      "100"
-    ],
-    "OperationDurationMs1": 9999999,
-    "OperationType2": "ModMaxHpR",
-    "OperationTargetType2": "Target",
-    "OperationValue2": [
-      "100"
-    ],
-    "OperationDurationMs2": 9999999,
-    "OperationType3": "ModDefenceR",
-    "OperationTargetType3": "Target",
-    "OperationValue3": [
-      "100"
-    ],
-    "OperationDurationMs3": 9999999,
-    "OperationType4": "ModCriticalPowerR",
-    "OperationTargetType4": "Target",
-    "OperationValue4": [
-      "200"
-    ],
-    "OperationDurationMs4": 9999999
+    "OperationState2": "ValokDown2",
+    "OperationDurationMs2": 999999
   },
   {
     "Index": 880174,
@@ -995,16 +953,6 @@
       "30000",
       "-3500"
     ],
-    "OperationType5": "SpawnCreature",
-    "OperationTargetType5": "Myself",
-    "OperationValue5": [
-      "8804",
-      "1",
-      "1000",
-      "None",
-      "Ground",
-      "33500"
-    ],
     "OperationType6": "UseSkill",
     "OperationTargetType6": "Myself",
     "OperationValue6": [
@@ -1028,12 +976,50 @@
     "OperationTargetType1": "Target",
     "OperationValue1": [
       "700",
-      "200",
+      "300",
       "Unavoidable|IgnoreDefence|NoCritical",
       "None",
       "EndOfFinal"
     ],
     "OperationDurationMs1": 999999
+  },
+  {
+    "Index": 880173,
+    "TriggerType": "OnWaveStart",
+    "TriggerRatio": 1000,
+    "AttrType": "Magical",
+    "IgnoreStateType": [
+      "CC",
+      "RaidDown"
+    ],
+    "TargetType": "Enemy",
+    "DeadTarget": "False",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "False",
+    "OperationType1": "ModPowerR",
+    "OperationTargetType1": "Target",
+    "OperationValue1": [
+      "100"
+    ],
+    "OperationDurationMs1": 9999999,
+    "OperationType2": "ModMaxHpR",
+    "OperationTargetType2": "Target",
+    "OperationValue2": [
+      "100"
+    ],
+    "OperationDurationMs2": 9999999,
+    "OperationType3": "ModDefenceR",
+    "OperationTargetType3": "Target",
+    "OperationValue3": [
+      "100"
+    ],
+    "OperationDurationMs3": 9999999,
+    "OperationType4": "ModCriticalPowerR",
+    "OperationTargetType4": "Target",
+    "OperationValue4": [
+      "200"
+    ],
+    "OperationDurationMs4": 9999999
   },
   {
     "Index": 880210,

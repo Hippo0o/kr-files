@@ -7667,15 +7667,6 @@
   },
   {
     "Index": 10020,
-    "Command": "AddEquipItem",
-    "Argument": [
-      "51901",
-      " 0",
-      " 0"
-    ]
-  },
-  {
-    "Index": 10020,
     "Command": "WaitObject",
     "Argument": [
       "RightMenu(Clone)/Button_Hero",
@@ -8002,16 +7993,16 @@
   },
   {
     "Index": 10020,
+    "Command": "SkipEnd"
+  },
+  {
+    "Index": 10020,
     "Command": "SetHeroEquip",
     "Argument": [
       "1",
       " 1",
       " 51001"
     ]
-  },
-  {
-    "Index": 10020,
-    "Command": "SkipEnd"
   },
   {
     "Index": 10020,
@@ -8070,6 +8061,7 @@
   },
   {
     "Index": 10021,
+    "ReqIndex": "\uc7a5\ube44 \uc544\uc774\ucf58",
     "Command": "WaitObject",
     "Argument": [
       "HeroList(Clone)/EquipSlotGroup/EquipIcon_Weapon/ItemIconComponent(Clone)",
@@ -8142,6 +8134,7 @@
   },
   {
     "Index": 10021,
+    "ReqIndex": "\uac15\ud654 \ubc84\ud2bc",
     "Command": "WaitObject",
     "Argument": [
       "HeroEquipInfo(Clone)/Buttons/Button_Upgrade",
@@ -8198,12 +8191,25 @@
   },
   {
     "Index": 10021,
+    "ReqIndex": "\uc218\uce58 \uc870\uc808 \uc601\uc5ed",
     "Command": "WaitObject",
     "Argument": [
-      "HeroEquipUpgrade(Clone)/HeroEquipMaterialListPanel/EquipIconGrid/ItemIconComponent(Clone)",
+      "HeroEquipUpgrade(Clone)/Root/HeroEquipInfo/UpgradeValue/Sprite_CountBg",
       " 0",
       " 0.2",
       " 3"
+    ]
+  },
+  {
+    "Index": 10021,
+    "Command": "FocusWidget",
+    "Argument": [
+      "HeroEquipUpgrade(Clone)/Root/HeroEquipInfo/UpgradeValue/Sprite_CountBg",
+      " 0",
+      " -80",
+      " 0",
+      " 80",
+      " 0"
     ]
   },
   {
@@ -8212,33 +8218,82 @@
     "Argument": [
       "Center",
       " 0",
-      " -300",
+      " 150",
       " 2000",
       " 100",
-      " TUTORIAL_TEXT_235"
+      " TUTORIAL_TEXT_323"
+    ]
+  },
+  {
+    "Index": 10021,
+    "Command": "FocusAreaEffect",
+    "Argument": [
+      "UI.Common.Finger",
+      " 750",
+      " 150",
+      " 0",
+      " 100",
+      " True"
+    ]
+  },
+  {
+    "Index": 10021,
+    "Command": "WaitTouch"
+  },
+  {
+    "Index": 10021,
+    "Command": "ClearFocus",
+    "Argument": [
+      "True"
+    ]
+  },
+  {
+    "Index": 10021,
+    "Command": "ClearTooltip"
+  },
+  {
+    "Index": 10021,
+    "ReqIndex": "\ucd5c\ub300 \ubc84\ud2bc",
+    "Command": "WaitObject",
+    "Argument": [
+      "HeroEquipUpgrade(Clone)/Root/HeroEquipInfo/UpgradeValue/Button_Max",
+      " 0",
+      " 0.2",
+      " 3"
     ]
   },
   {
     "Index": 10021,
     "Command": "FocusWidget",
     "Argument": [
-      "HeroEquipUpgrade(Clone)/HeroEquipMaterialListPanel/EquipIconGrid/ItemIconComponent(Clone)",
+      "HeroEquipUpgrade(Clone)/Root/HeroEquipInfo/UpgradeValue/Button_Max",
       " 0",
       " 0",
       " 0",
       " 0",
-      " 0"
+      " 0",
+      " True"
     ]
   },
   {
     "Index": 10021,
-    "Command": "FocusWidgetEffect",
+    "Command": "ShowTooltip2",
     "Argument": [
-      "HeroEquipUpgrade(Clone)/HeroEquipMaterialListPanel/EquipIconGrid/ItemIconComponent(Clone)",
+      "Center",
       " 0",
-      " UI.Common.Finger",
-      " 0",
-      " 0",
+      " 150",
+      " 2000",
+      " 100",
+      " TUTORIAL_TEXT_324"
+    ]
+  },
+  {
+    "Index": 10021,
+    "Command": "FocusAreaEffect",
+    "Argument": [
+      "UI.Common.Finger",
+      " 800",
+      " 150",
       " 0",
       " 100",
       " True"
@@ -8246,16 +8301,7 @@
   },
   {
     "Index": 10021,
-    "Command": "WaitWidgetTouch",
-    "Argument": [
-      "HeroEquipUpgrade(Clone)/HeroEquipMaterialListPanel/EquipIconGrid/ItemIconComponent(Clone)",
-      " 0",
-      " 0",
-      " 0",
-      " 0",
-      " 0",
-      " True"
-    ]
+    "Command": "WaitTouch"
   },
   {
     "Index": 10021,
@@ -8272,7 +8318,7 @@
     "Index": 10021,
     "Command": "WaitObject",
     "Argument": [
-      "HeroEquipUpgrade(Clone)/Button_Upgrade",
+      "HeroEquipUpgrade(Clone)/Root/HeroEquipInfo/UpgradeValue/Button_Upgrade",
       " 0",
       " 0.2",
       " 3"
@@ -8280,35 +8326,10 @@
   },
   {
     "Index": 10021,
+    "ReqIndex": "\uac15\ud654\ud558\uae30 \ubc84\ud2bc",
     "Command": "FocusWidget",
     "Argument": [
-      "HeroEquipUpgrade(Clone)/ExpectedLevel/Pivot_UpgradeEquipItem/ItemIconComponent(Clone)",
-      " 0",
-      " 0",
-      " 0",
-      " 0",
-      " 0",
-      " True"
-    ]
-  },
-  {
-    "Index": 10021,
-    "Command": "FocusWidget",
-    "Argument": [
-      "HeroEquipUpgrade(Clone)/Sprite_Material_Frame/Upgrade/Pivot_MaterialEquipItem1/ItemIconComponent(Clone)",
-      " 0",
-      " 0",
-      " 0",
-      " 0",
-      " 0",
-      " True"
-    ]
-  },
-  {
-    "Index": 10021,
-    "Command": "FocusWidget",
-    "Argument": [
-      "HeroEquipUpgrade(Clone)/Button_Upgrade",
+      "HeroEquipUpgrade(Clone)/Root/HeroEquipInfo/UpgradeValue/Button_Upgrade",
       " 0",
       " 0",
       " 0",
@@ -8321,7 +8342,7 @@
     "Index": 10021,
     "Command": "FocusWidgetEffect",
     "Argument": [
-      "HeroEquipUpgrade(Clone)/Button_Upgrade",
+      "HeroEquipUpgrade(Clone)/Root/HeroEquipInfo/UpgradeValue/Button_Upgrade",
       " 0",
       " UI.Common.Finger",
       " 0",
@@ -8335,32 +8356,21 @@
     "Index": 10021,
     "Command": "WaitWidgetTouch",
     "Argument": [
-      "HeroEquipUpgrade(Clone)/Button_Upgrade",
+      "HeroEquipUpgrade(Clone)/Root/HeroEquipInfo/UpgradeValue/Button_Upgrade",
       " 0",
       " 0",
       " 0",
       " 0",
       " 0",
-      " False"
+      " True"
     ]
   },
   {
     "Index": 10021,
-    "Command": "PlaySound",
+    "Command": "ClearFocus",
     "Argument": [
-      "UI2.MainButton4"
+      "True"
     ]
-  },
-  {
-    "Index": 10021,
-    "Command": "PlaySound",
-    "Argument": [
-      "UI.Equip.LevelUp"
-    ]
-  },
-  {
-    "Index": 10021,
-    "Command": "ClearFocus"
   },
   {
     "Index": 10021,
@@ -8373,19 +8383,9 @@
   },
   {
     "Index": 10021,
-    "Command": "WaitObject",
-    "Argument": [
-      "HeroEquipUpgradeResultPopup(Clone)",
-      " 0",
-      " 0.2",
-      " 3"
-    ]
-  },
-  {
-    "Index": 10021,
     "Command": "WaitTime",
     "Argument": [
-      "0.3"
+      "0.8"
     ]
   },
   {
@@ -8414,13 +8414,6 @@
   {
     "Index": 10021,
     "Command": "WaitTouch"
-  },
-  {
-    "Index": 10021,
-    "Command": "PlaySound",
-    "Argument": [
-      "UI2.Button5"
-    ]
   },
   {
     "Index": 10021,
@@ -8484,14 +8477,6 @@
       "Resources/Prefab2/Window/MessagePopup/TutorialSkipPopup",
       " TUTORIAL_SKIP_NAME_008",
       " TUTORIAL_SKIP_DESC_008"
-    ]
-  },
-  {
-    "Index": 10021,
-    "Command": "RemoveEquipItem",
-    "Argument": [
-      "51901",
-      " 9999"
     ]
   },
   {
@@ -28684,6 +28669,7 @@
   },
   {
     "Index": 7000,
+    "ReqIndex": "\ub85c\uceec \ubcc0\uacbd\ud574\uc57c\ud568",
     "Command": "ShowTooltip2",
     "Argument": [
       "Center",
@@ -28842,6 +28828,7 @@
   },
   {
     "Index": 7000,
+    "ReqIndex": "\ub808\uc774\ub4dc \uc0dd\uc131 \ubc84\ud2bc \ud130\uce58",
     "Command": "WaitObject",
     "Argument": [
       "RaidList(Clone)/Panel/Root/RaidGrid/ClippingPanel/RaidListComponent(Clone)/Buttons/Button_Enter",
@@ -28909,6 +28896,106 @@
   },
   {
     "Index": 7000,
+    "ReqIndex": "\ud30c\ud2f0 \uc2f1\uae00 \ud3ec\ucee4\uc2a4",
+    "Command": "FocusWidget",
+    "Argument": [
+      "RaidLevelSelect(Clone)/Panel/Root/ToggleSingleParty",
+      " 0",
+      " 0",
+      " 0",
+      " 0",
+      " 0"
+    ]
+  },
+  {
+    "Index": 7000,
+    "ReqIndex": "\uc2f1\uae00 \uc124\uba85",
+    "Command": "ShowTooltip2",
+    "Argument": [
+      "Center",
+      " 0",
+      " -300",
+      " 2000",
+      " 100",
+      " TUTORIAL_TEXT_325"
+    ]
+  },
+  {
+    "Index": 7000,
+    "Command": "FocusAreaEffect",
+    "Argument": [
+      "UI.Common.Finger",
+      " 750",
+      " -300",
+      " 0",
+      " 100",
+      " True"
+    ]
+  },
+  {
+    "Index": 7000,
+    "Command": "WaitTouch"
+  },
+  {
+    "Index": 7000,
+    "Command": "ClearFocus"
+  },
+  {
+    "Index": 7000,
+    "Command": "ClearTooltip"
+  },
+  {
+    "Index": 7000,
+    "ReqIndex": "\ud30c\ud2f0 \uc2f1\uae00 \ud3ec\ucee4\uc2a4",
+    "Command": "FocusWidget",
+    "Argument": [
+      "RaidLevelSelect(Clone)/Panel/Root/ToggleSingleParty",
+      " 0",
+      " 0",
+      " 0",
+      " 0",
+      " 0"
+    ]
+  },
+  {
+    "Index": 7000,
+    "ReqIndex": "\ud30c\ud2f0 \uc124\uba85",
+    "Command": "ShowTooltip2",
+    "Argument": [
+      "Center",
+      " 0",
+      " -300",
+      " 2000",
+      " 100",
+      " TUTORIAL_TEXT_326"
+    ]
+  },
+  {
+    "Index": 7000,
+    "Command": "FocusAreaEffect",
+    "Argument": [
+      "UI.Common.Finger",
+      " 750",
+      " -300",
+      " 0",
+      " 100",
+      " True"
+    ]
+  },
+  {
+    "Index": 7000,
+    "Command": "WaitTouch"
+  },
+  {
+    "Index": 7000,
+    "Command": "ClearFocus"
+  },
+  {
+    "Index": 7000,
+    "Command": "ClearTooltip"
+  },
+  {
+    "Index": 7000,
     "Command": "FocusWidget",
     "Argument": [
       "RaidLevelSelect(Clone)/Root/CheckPublicRoom",
@@ -28967,7 +29054,7 @@
     "Index": 7000,
     "Command": "WaitObject",
     "Argument": [
-      "RaidLevelSelect(Clone)/Root/RaidButton_Yes",
+      "RaidLevelSelect(Clone)/Root/ButtonSingleMultiRoot/Button_EnterMultiRaid/Label_Yes",
       " 0",
       " 0.3",
       " 1"
@@ -28977,12 +29064,12 @@
     "Index": 7000,
     "Command": "FocusWidget",
     "Argument": [
-      "RaidLevelSelect(Clone)/Root/RaidButton_Yes",
+      "RaidLevelSelect(Clone)/Root/ButtonSingleMultiRoot/Button_EnterMultiRaid/Label_Yes",
       " 0",
-      " 0",
-      " 0",
-      " 0",
-      " 0"
+      " -50",
+      " -20",
+      " 50",
+      " 20"
     ]
   },
   {
@@ -29001,7 +29088,7 @@
     "Index": 7000,
     "Command": "FocusWidgetEffect",
     "Argument": [
-      "RaidLevelSelect(Clone)/Root/RaidButton_Yes",
+      "RaidLevelSelect(Clone)/Root/ButtonSingleMultiRoot/Button_EnterMultiRaid/Label_Yes",
       " 0",
       " UI.Common.Finger",
       " -200",
@@ -29015,12 +29102,13 @@
     "Index": 7000,
     "Command": "WaitWidgetTouch",
     "Argument": [
-      "RaidLevelSelect(Clone)/Root/RaidButton_Yes",
+      "RaidLevelSelect(Clone)/Root/ButtonSingleMultiRoot/Button_EnterMultiRaid/Label_Yes",
       " 0",
       " 0",
-      " 0",
-      " 0",
-      " 0",
+      " -50",
+      " -50",
+      " 50",
+      " 50",
       " False"
     ]
   },
@@ -29068,7 +29156,7 @@
     "Command": "FocusWidget",
     "Argument": [
       "RaidPartySetting(Clone)/Root/PartyPanel/Slots/SlotTemplate(Clone)",
-      " 2",
+      " 5",
       " -45",
       " -100",
       " 45",
@@ -29080,7 +29168,7 @@
     "Command": "FocusWidget",
     "Argument": [
       "RaidPartySetting(Clone)/Root/PartyPanel/Slots/SlotTemplate(Clone)",
-      " 3",
+      " 6",
       " -45",
       " -100",
       " 45",
@@ -29093,7 +29181,7 @@
     "Command": "FocusWidget",
     "Argument": [
       "RaidPartySetting(Clone)/Root/PartyPanel/Slots/SlotTemplate(Clone)",
-      " 4",
+      " 7",
       " -45",
       " -100",
       " 45",
@@ -29106,7 +29194,7 @@
     "Command": "FocusWidget",
     "Argument": [
       "RaidPartySetting(Clone)/Root/PartyPanel/Slots/SlotTemplate(Clone)",
-      " 5",
+      " 8",
       " -45",
       " -100",
       " 45",
@@ -33910,9 +33998,9 @@
       "EquipOptionRenew(Clone)/Root/UpgradeRoot/StatChange/StatGaugeRoot/Grid/GaugeTemplate(Clone)/Button_ConfirmSelect_None",
       " 0",
       " -750",
+      " -350",
       " 0",
-      " 0",
-      " 0"
+      " -320"
     ]
   },
   {
@@ -33959,9 +34047,9 @@
       "EquipOptionRenew(Clone)/Root/UpgradeRoot/StatChange/StatGaugeRoot/Grid/GaugeTemplate(Clone)/Button_ConfirmSelect_None",
       " 0",
       " 0",
+      " -350",
       " 0",
-      " 0",
-      " 0"
+      " -320"
     ]
   },
   {
@@ -33972,7 +34060,7 @@
       " 0",
       " UI.Common.Finger",
       " 0",
-      " 0",
+      " -350",
       " 0",
       " 0",
       " True"
@@ -33985,9 +34073,9 @@
       "EquipOptionRenew(Clone)/Root/UpgradeRoot/StatChange/StatGaugeRoot/Grid/GaugeTemplate(Clone)/Button_ConfirmSelect_None",
       " 0",
       " 0",
+      " -300",
       " 0",
-      " 0",
-      " 0",
+      " -100",
       " True"
     ]
   },
@@ -34178,7 +34266,7 @@
     "Command": "ChangeItemOption",
     "Argument": [
       "9999",
-      " 1",
+      " 4",
       " 805",
       " 1"
     ]

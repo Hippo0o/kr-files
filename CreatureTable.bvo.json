@@ -283,9 +283,10 @@
       "323"
     ],
     "ExtraSkill": [
-      "301",
+      "314",
       "334",
-      "344"
+      "344",
+      "335"
     ],
     "GetTranscendSkillPoint": [
       "10",
@@ -6231,135 +6232,6 @@
     "AddStamina": 1
   },
   {
-    "Index": 54,
-    "CodeName": "Hero.Lavril",
-    "OpenStatus": "New",
-    "OpenType": "None",
-    "Race": "Hero",
-    "TagType": "Priest",
-    "AttrType": [
-      "Magical"
-    ],
-    "AttackWeakType": [
-      "Fire"
-    ],
-    "PositionType": "Rear",
-    "PositionWeight": 100,
-    "MoveSpeed": 5000,
-    "MinDamageRate": 200,
-    "IgnoreCc": [
-      "False"
-    ],
-    "SizeMm": 500,
-    "HeightMm": 1700,
-    "GradeStoneItemCode": "SKILLBOOK_PRIEST_1",
-    "StarStoneItemCode": "NO_ITEM",
-    "BaseSkillIndex": 5400,
-    "SkillIndex1": 5410,
-    "SkillExtend1": [
-      "5411",
-      "5412",
-      "5413"
-    ],
-    "SkillIndex2": 5420,
-    "SkillExtend2": [
-      "5421",
-      "5422",
-      "5423"
-    ],
-    "SkillIndex3": 5430,
-    "SkillExtend3": [
-      "5431",
-      "5432",
-      "5433"
-    ],
-    "SkillIndex4": 5440,
-    "SkillExtend4": [
-      "5441",
-      "5442",
-      "5443"
-    ],
-    "ExtraSkill": [
-      "5424",
-      "5414",
-      "5435",
-      "5434",
-      "5444",
-      "5445",
-      "5446",
-      "5447",
-      "5448",
-      "5425",
-      "5426"
-    ],
-    "GetTranscendSkillPoint": [
-      "10",
-      "15",
-      "15",
-      "15",
-      "25"
-    ],
-    "TranscendSkill1": [
-      "60000001",
-      "60000002",
-      "60000003",
-      "60000004",
-      "60000033"
-    ],
-    "ReqSkillPoint1": [
-      "10",
-      "10",
-      "10",
-      "10",
-      "10"
-    ],
-    "TranscendSkill2": [
-      "60000029",
-      "60000030",
-      "60000031",
-      "60000032",
-      "60000040"
-    ],
-    "ReqSkillPoint2": [
-      "15",
-      "15",
-      "15",
-      "15",
-      "15"
-    ],
-    "TranscendSkill3": [
-      "60007510",
-      "60007511",
-      "60007520",
-      "60007521",
-      "60007530",
-      "60007531",
-      "60007540",
-      "60007541"
-    ],
-    "ReqSkillPoint3": [
-      "15",
-      "15",
-      "15",
-      "15",
-      "15",
-      "15",
-      "15",
-      "15"
-    ],
-    "TranscendSkill5": [
-      "60007550",
-      "60007551"
-    ],
-    "ReqSkillPoint5": [
-      "15",
-      "15"
-    ],
-    "StartHeroStar": 3,
-    "OpenDate": 190124,
-    "AddStamina": 1
-  },
-  {
     "Index": 53,
     "CodeName": "Hero.Shamilla",
     "OpenStatus": "Normal",
@@ -6481,6 +6353,147 @@
     ],
     "StartHeroStar": 3,
     "OpenDate": 180531,
+    "AddStamina": 1
+  },
+  {
+    "Index": 54,
+    "CodeName": "Hero.Lavril",
+    "OpenStatus": "New",
+    "OpenType": "Opened",
+    "Race": "Hero",
+    "TagType": "Priest",
+    "AttrType": [
+      "Magical"
+    ],
+    "AttackWeakType": [
+      "Fire"
+    ],
+    "PositionType": "Rear",
+    "PositionWeight": 100,
+    "MoveSpeed": 5000,
+    "MinDamageRate": 200,
+    "IgnoreCc": [
+      "False"
+    ],
+    "SizeMm": 500,
+    "HeightMm": 1700,
+    "GradeStoneItemCode": "SKILLBOOK_PRIEST_1",
+    "StarStoneItemCode": "NO_ITEM",
+    "BaseSkillIndex": 5400,
+    "SkillIndex1": 5410,
+    "SkillExtend1": [
+      "5411",
+      "5412",
+      "5413"
+    ],
+    "SkillIndex2": 5420,
+    "SkillExtend2": [
+      "5421",
+      "5422",
+      "5423"
+    ],
+    "LinkedSkillIndex2": 5425,
+    "LinkedSkillExtend2": [
+      "5421",
+      "5422",
+      "5423"
+    ],
+    "SkillIndex3": 5430,
+    "SkillExtend3": [
+      "5431",
+      "5432",
+      "5433"
+    ],
+    "SkillIndex4": 5440,
+    "SkillExtend4": [
+      "5441",
+      "5442",
+      "5443"
+    ],
+    "ExtraSkill": [
+      "5414",
+      "5415",
+      "5416",
+      "5417",
+      "5418",
+      "5419",
+      "5424",
+      "5425",
+      "5426",
+      "5434",
+      "5444",
+      "5445",
+      "5446",
+      "5447",
+      "5449",
+      "5448",
+      "5450"
+    ],
+    "GetTranscendSkillPoint": [
+      "10",
+      "15",
+      "15",
+      "15",
+      "25"
+    ],
+    "TranscendSkill1": [
+      "60000001",
+      "60000002",
+      "60000003",
+      "60000004",
+      "60000033"
+    ],
+    "ReqSkillPoint1": [
+      "10",
+      "10",
+      "10",
+      "10",
+      "10"
+    ],
+    "TranscendSkill2": [
+      "60000029",
+      "60000030",
+      "60000031",
+      "60000032",
+      "60000040"
+    ],
+    "ReqSkillPoint2": [
+      "15",
+      "15",
+      "15",
+      "15",
+      "15"
+    ],
+    "TranscendSkill3": [
+      "60005410",
+      "60005411",
+      "60005420",
+      "60005421",
+      "60005430",
+      "60005431",
+      "60005440",
+      "60005441"
+    ],
+    "ReqSkillPoint3": [
+      "15",
+      "15",
+      "15",
+      "15",
+      "15",
+      "15",
+      "15",
+      "15"
+    ],
+    "TranscendSkill5": [
+      "60005450",
+      "60005451"
+    ],
+    "ReqSkillPoint5": [
+      "15",
+      "15"
+    ],
+    "StartHeroStar": 3,
+    "OpenDate": 190124,
     "AddStamina": 1
   },
   {
@@ -6832,7 +6845,8 @@
       "5744",
       "5745",
       "5746",
-      "5756"
+      "5756",
+      "5758"
     ],
     "GetTranscendSkillPoint": [
       "10",
@@ -7049,7 +7063,7 @@
   {
     "Index": 59,
     "CodeName": "Hero.Lucias",
-    "OpenStatus": "New",
+    "OpenStatus": "Normal",
     "OpenType": "Opened",
     "Race": "Hero",
     "TagType": "Priest",
@@ -7102,7 +7116,9 @@
       "5927",
       "5934",
       "5935",
-      "5936"
+      "5936",
+      "5944",
+      "5945"
     ],
     "GetTranscendSkillPoint": [
       "10",
@@ -7174,7 +7190,7 @@
   {
     "Index": 60,
     "CodeName": "Hero.Chrisha",
-    "OpenStatus": "New",
+    "OpenStatus": "Normal",
     "OpenType": "Opened",
     "Race": "Hero",
     "TagType": "Mechanic",
@@ -8210,7 +8226,7 @@
   {
     "Index": 68,
     "CodeName": "Hero.Nia",
-    "OpenStatus": "New",
+    "OpenStatus": "Normal",
     "OpenType": "Opened",
     "Race": "Hero",
     "TagType": "Assassin",
@@ -8358,7 +8374,7 @@
     "Index": 69,
     "CodeName": "Hero.Esker",
     "OpenStatus": "New",
-    "OpenType": "None",
+    "OpenType": "Opened",
     "Race": "Hero",
     "TagType": "Wizard",
     "AttrType": [
@@ -8410,7 +8426,8 @@
       "6935",
       "6936",
       "6937",
-      "6939"
+      "6939",
+      "6925"
     ],
     "GetTranscendSkillPoint": [
       "10",
@@ -8476,7 +8493,7 @@
       "15"
     ],
     "StartHeroStar": 3,
-    "OpenDate": 171109,
+    "OpenDate": 190124,
     "AddStamina": 1
   },
   {
@@ -9150,7 +9167,7 @@
   {
     "Index": 94,
     "CodeName": "Hero.Juno",
-    "OpenStatus": "New",
+    "OpenStatus": "Normal",
     "OpenType": "RecruitOnly",
     "Race": "Hero",
     "TagType": "Priest",
@@ -9290,7 +9307,7 @@
   {
     "Index": 95,
     "CodeName": "Hero.Nicky",
-    "OpenStatus": "New",
+    "OpenStatus": "Normal",
     "OpenType": "RecruitOnly",
     "Race": "Hero",
     "TagType": "Warrior",
@@ -9566,9 +9583,10 @@
       "323"
     ],
     "ExtraSkill": [
-      "301",
+      "314",
       "334",
-      "344"
+      "344",
+      "335"
     ],
     "StartHeroStar": 1
   },
@@ -9845,7 +9863,8 @@
       "843"
     ],
     "ExtraSkill": [
-      "801"
+      "801",
+      "844"
     ],
     "StartHeroStar": 2
   },
@@ -10236,7 +10255,9 @@
     "ExtraSkill": [
       "1524",
       "1526",
-      "1535"
+      "1535",
+      "1544",
+      "1545"
     ],
     "StartHeroStar": 2
   },
@@ -11195,7 +11216,8 @@
       "3134",
       "3144",
       "3145",
-      "3146"
+      "3146",
+      "3147"
     ],
     "StartHeroStar": 3
   },
@@ -12397,6 +12419,76 @@
     "StartHeroStar": 3
   },
   {
+    "Index": 554,
+    "CodeName": "Monster.Ordeal.DarkLavril",
+    "ModelCode": "Hero.Lavril",
+    "ModelPrefix": "Trial",
+    "Race": "Hero",
+    "TagType": "Priest",
+    "AttrType": [
+      "Physical"
+    ],
+    "AttackWeakType": [
+      "Fire"
+    ],
+    "PositionType": "Middle",
+    "PositionWeight": 100,
+    "MoveSpeed": 5000,
+    "MinDamageRate": 200,
+    "IgnoreCc": [
+      "False"
+    ],
+    "SizeMm": 500,
+    "HeightMm": 2200,
+    "GradeStoneItemCode": "SKILLBOOK_PRIEST_1",
+    "StarStoneItemCode": "NO_ITEM",
+    "BaseSkillIndex": 5400,
+    "SkillIndex1": 5410,
+    "SkillExtend1": [
+      "5411",
+      "5412",
+      "5413"
+    ],
+    "SkillIndex2": 5420,
+    "SkillExtend2": [
+      "5421",
+      "5422",
+      "5423"
+    ],
+    "SkillIndex3": 5430,
+    "SkillExtend3": [
+      "5431",
+      "5432",
+      "5433"
+    ],
+    "SkillIndex4": 5440,
+    "SkillExtend4": [
+      "5441",
+      "5442",
+      "5443"
+    ],
+    "ExtraSkill": [
+      "5414",
+      "5415",
+      "5416",
+      "5417",
+      "5418",
+      "5419",
+      "5424",
+      "5425",
+      "5426",
+      "5434",
+      "5444",
+      "5445",
+      "5446",
+      "5447",
+      "5449",
+      "5448",
+      "5450"
+    ],
+    "StartHeroStar": 3
+  },
+  {
     "Index": 555,
     "CodeName": "Monster.Ordeal.DarkSeria",
     "ModelCode": "Hero.Seria",
@@ -12609,7 +12701,8 @@
       "5744",
       "5745",
       "5746",
-      "5756"
+      "5756",
+      "5758"
     ],
     "StartHeroStar": 3
   },
@@ -12737,7 +12830,9 @@
       "5927",
       "5934",
       "5935",
-      "5936"
+      "5936",
+      "5944",
+      "5945"
     ],
     "StartHeroStar": 3
   },
@@ -13313,21 +13408,78 @@
       "6843"
     ],
     "ExtraSkill": [
-      "6524",
-      "6525",
-      "6534",
-      "6535",
-      "6536",
-      "6537",
-      "6538",
-      "6544",
-      "6545",
-      "6546",
-      "6547",
-      "6514",
-      "6515",
-      "6526",
-      "6527"
+      "6819",
+      "6817",
+      "6818",
+      "6824",
+      "6825",
+      "6829",
+      "6839",
+      "6844",
+      "6845",
+      "6846",
+      "6816"
+    ],
+    "StartHeroStar": 3
+  },
+  {
+    "Index": 569,
+    "CodeName": "Monster.Ordeal.DarkEsker",
+    "ModelCode": "Hero.Esker",
+    "ModelPrefix": "Trial",
+    "Race": "Hero",
+    "TagType": "Wizard",
+    "AttrType": [
+      "Magical"
+    ],
+    "AttackWeakType": [
+      "Fire"
+    ],
+    "PositionType": "Rear",
+    "PositionWeight": 500,
+    "MoveSpeed": 5000,
+    "MinDamageRate": 200,
+    "IgnoreCc": [
+      "False"
+    ],
+    "SizeMm": 500,
+    "HeightMm": 2000,
+    "GradeStoneItemCode": "SKILLBOOK_WIZARD_1",
+    "StarStoneItemCode": "NO_ITEM",
+    "BaseSkillIndex": 6900,
+    "SkillIndex1": 6910,
+    "SkillExtend1": [
+      "6911",
+      "6912",
+      "6913"
+    ],
+    "SkillIndex2": 6920,
+    "SkillExtend2": [
+      "6921",
+      "6922",
+      "6923"
+    ],
+    "SkillIndex3": 6930,
+    "SkillExtend3": [
+      "6931",
+      "6932",
+      "6933"
+    ],
+    "SkillIndex4": 6940,
+    "SkillExtend4": [
+      "6941",
+      "6942",
+      "6943"
+    ],
+    "ExtraSkill": [
+      "6924",
+      "6914",
+      "6934",
+      "6935",
+      "6936",
+      "6937",
+      "6939",
+      "6925"
     ],
     "StartHeroStar": 3
   },
@@ -13736,9 +13888,6 @@
       "9443"
     ],
     "ExtraSkill": [
-      "9419",
-      "9429",
-      "9439",
       "9444",
       "9434",
       "9435",
@@ -13797,14 +13946,12 @@
       "9543"
     ],
     "ExtraSkill": [
-      "9514",
-      "9515",
       "9524",
       "9525",
-      "9526",
       "9534",
-      "9544",
-      "9535"
+      "9535",
+      "9536",
+      "9544"
     ],
     "StartHeroStar": 3
   },
@@ -13963,9 +14110,10 @@
       "323"
     ],
     "ExtraSkill": [
-      "301",
+      "314",
       "334",
-      "344"
+      "344",
+      "335"
     ],
     "StartHeroStar": 1
   },
@@ -14242,7 +14390,8 @@
       "843"
     ],
     "ExtraSkill": [
-      "801"
+      "801",
+      "844"
     ],
     "StartHeroStar": 2
   },
@@ -14633,7 +14782,9 @@
     "ExtraSkill": [
       "1524",
       "1526",
-      "1535"
+      "1535",
+      "1544",
+      "1545"
     ],
     "StartHeroStar": 2
   },
@@ -15592,7 +15743,8 @@
       "3134",
       "3144",
       "3145",
-      "3146"
+      "3146",
+      "3147"
     ],
     "StartHeroStar": 3
   },
@@ -16794,6 +16946,76 @@
     "StartHeroStar": 3
   },
   {
+    "Index": 654,
+    "CodeName": "Monster.Ordeal.LightLavril",
+    "ModelCode": "Hero.Lavril",
+    "ModelPrefix": "Trans",
+    "Race": "Hero",
+    "TagType": "Priest",
+    "AttrType": [
+      "Physical"
+    ],
+    "AttackWeakType": [
+      "Fire"
+    ],
+    "PositionType": "Middle",
+    "PositionWeight": 100,
+    "MoveSpeed": 5000,
+    "MinDamageRate": 200,
+    "IgnoreCc": [
+      "False"
+    ],
+    "SizeMm": 500,
+    "HeightMm": 2200,
+    "GradeStoneItemCode": "SKILLBOOK_PRIEST_1",
+    "StarStoneItemCode": "NO_ITEM",
+    "BaseSkillIndex": 5400,
+    "SkillIndex1": 5410,
+    "SkillExtend1": [
+      "5411",
+      "5412",
+      "5413"
+    ],
+    "SkillIndex2": 5420,
+    "SkillExtend2": [
+      "5421",
+      "5422",
+      "5423"
+    ],
+    "SkillIndex3": 5430,
+    "SkillExtend3": [
+      "5431",
+      "5432",
+      "5433"
+    ],
+    "SkillIndex4": 5440,
+    "SkillExtend4": [
+      "5441",
+      "5442",
+      "5443"
+    ],
+    "ExtraSkill": [
+      "5414",
+      "5415",
+      "5416",
+      "5417",
+      "5418",
+      "5419",
+      "5424",
+      "5425",
+      "5426",
+      "5434",
+      "5444",
+      "5445",
+      "5446",
+      "5447",
+      "5449",
+      "5448",
+      "5450"
+    ],
+    "StartHeroStar": 3
+  },
+  {
     "Index": 655,
     "CodeName": "Monster.Ordeal.LightSeria",
     "ModelCode": "Hero.Seria",
@@ -17006,7 +17228,8 @@
       "5744",
       "5745",
       "5746",
-      "5756"
+      "5756",
+      "5758"
     ],
     "StartHeroStar": 3
   },
@@ -17134,7 +17357,9 @@
       "5927",
       "5934",
       "5935",
-      "5936"
+      "5936",
+      "5944",
+      "5945"
     ],
     "StartHeroStar": 3
   },
@@ -17710,23 +17935,80 @@
       "6843"
     ],
     "ExtraSkill": [
-      "6524",
-      "6525",
-      "6534",
-      "6535",
-      "6536",
-      "6537",
-      "6538",
-      "6544",
-      "6545",
-      "6546",
-      "6547",
-      "6514",
-      "6515",
-      "6526",
-      "6527"
+      "6819",
+      "6817",
+      "6818",
+      "6824",
+      "6825",
+      "6829",
+      "6839",
+      "6844",
+      "6845",
+      "6846",
+      "6816"
     ],
     "StartHeroStar": 4
+  },
+  {
+    "Index": 669,
+    "CodeName": "Monster.Ordeal.LightEsker",
+    "ModelCode": "Hero.Esker",
+    "ModelPrefix": "Trans",
+    "Race": "Hero",
+    "TagType": "Wizard",
+    "AttrType": [
+      "Magical"
+    ],
+    "AttackWeakType": [
+      "Fire"
+    ],
+    "PositionType": "Rear",
+    "PositionWeight": 500,
+    "MoveSpeed": 5000,
+    "MinDamageRate": 200,
+    "IgnoreCc": [
+      "False"
+    ],
+    "SizeMm": 500,
+    "HeightMm": 2000,
+    "GradeStoneItemCode": "SKILLBOOK_WIZARD_1",
+    "StarStoneItemCode": "NO_ITEM",
+    "BaseSkillIndex": 6900,
+    "SkillIndex1": 6910,
+    "SkillExtend1": [
+      "6911",
+      "6912",
+      "6913"
+    ],
+    "SkillIndex2": 6920,
+    "SkillExtend2": [
+      "6921",
+      "6922",
+      "6923"
+    ],
+    "SkillIndex3": 6930,
+    "SkillExtend3": [
+      "6931",
+      "6932",
+      "6933"
+    ],
+    "SkillIndex4": 6940,
+    "SkillExtend4": [
+      "6941",
+      "6942",
+      "6943"
+    ],
+    "ExtraSkill": [
+      "6924",
+      "6914",
+      "6934",
+      "6935",
+      "6936",
+      "6937",
+      "6939",
+      "6925"
+    ],
+    "StartHeroStar": 3
   },
   {
     "Index": 673,
@@ -18133,9 +18415,6 @@
       "9443"
     ],
     "ExtraSkill": [
-      "9419",
-      "9429",
-      "9439",
       "9444",
       "9434",
       "9435",
@@ -18194,14 +18473,12 @@
       "9543"
     ],
     "ExtraSkill": [
-      "9514",
-      "9515",
       "9524",
       "9525",
-      "9526",
       "9534",
-      "9544",
-      "9535"
+      "9535",
+      "9536",
+      "9544"
     ],
     "StartHeroStar": 3
   },
@@ -24688,7 +24965,10 @@
     "SkillIndex1": 341210,
     "SkillIndex2": 341230,
     "SkillIndex3": 341240,
-    "SkillIndex4": 341220
+    "SkillIndex4": 341220,
+    "ExtraSkill": [
+      "340220"
+    ]
   },
   {
     "Index": 3413,
@@ -25067,8 +25347,6 @@
     "AttrType": [
       "Physical"
     ],
-    "ArchiveStory": "CREATURE_STORY_3415",
-    "ArchiveType": "GuildRaid",
     "AttackWeakType": [
       "Fire"
     ],
@@ -25409,6 +25687,9 @@
       "440444",
       "440490",
       "440491"
+    ],
+    "ShowInfoSkill": [
+      "440450"
     ]
   },
   {
@@ -25627,228 +25908,6 @@
       "441411",
       "441492",
       "441398"
-    ],
-    "ShowInfoSkill": [
-      "441492",
-      "441494"
-    ]
-  },
-  {
-    "Index": 4421,
-    "CodeName": "Raid.HardDragon.Fire_2",
-    "ModelCode": "Raid.Dragon.Fire",
-    "Race": "Dragon",
-    "AttrType": [
-      "Magical"
-    ],
-    "ArchiveStory": "CREATURE_STORY_4401",
-    "ArchiveType": "Raid",
-    "AttackWeakType": [
-      "Fire"
-    ],
-    "BlockDash": "True",
-    "PositionWeight": 20000,
-    "MoveSpeed": 5000,
-    "MinDamageRate": 200,
-    "IgnoreCc": [
-      "CC"
-    ],
-    "TransformType": "Wall",
-    "SizeMm": 5000,
-    "HeightMm": 7000,
-    "GradeStoneItemCode": "NO_ITEM",
-    "StarStoneItemCode": "NO_ITEM",
-    "BaseSkillIndex": 442100,
-    "SkillIndex1": 442110,
-    "SkillIndex2": 442120,
-    "SkillIndex3": 442130,
-    "SkillIndex4": 442140,
-    "ExtraSkill": [
-      "442101",
-      "442111",
-      "442180",
-      "442181",
-      "442182",
-      "442141",
-      "442142",
-      "442143",
-      "442144",
-      "442184",
-      "442190",
-      "442191",
-      "442192",
-      "442193",
-      "442194",
-      "442195",
-      "442196",
-      "442121",
-      "442197"
-    ],
-    "ShowInfoSkill": [
-      "441193",
-      "441197"
-    ]
-  },
-  {
-    "Index": 4422,
-    "CodeName": "Raid.HardDragon.Ice_2",
-    "ModelCode": "Raid.Dragon.Ice",
-    "Race": "Dragon",
-    "AttrType": [
-      "Magical"
-    ],
-    "ArchiveStory": "CREATURE_STORY_4402",
-    "ArchiveType": "Raid",
-    "AttackWeakType": [
-      "Fire"
-    ],
-    "BlockDash": "True",
-    "PositionWeight": 20000,
-    "MoveSpeed": 5000,
-    "MinDamageRate": 200,
-    "IgnoreCc": [
-      "CC"
-    ],
-    "TransformType": "Wall",
-    "SizeMm": 5000,
-    "HeightMm": 7000,
-    "GradeStoneItemCode": "NO_ITEM",
-    "StarStoneItemCode": "NO_ITEM",
-    "BaseSkillIndex": 442200,
-    "SkillIndex1": 442210,
-    "SkillIndex2": 442220,
-    "SkillIndex3": 442230,
-    "SkillIndex4": 442240,
-    "SkillIndex5": 442250,
-    "ExtraSkill": [
-      "442201",
-      "442280",
-      "442290",
-      "442292",
-      "442282",
-      "442279",
-      "442253",
-      "442293",
-      "442294",
-      "442295",
-      "442221",
-      "442296",
-      "442398",
-      "442211"
-    ],
-    "ShowInfoSkill": [
-      "441295"
-    ]
-  },
-  {
-    "Index": 4423,
-    "CodeName": "Raid.HardDragon.Poison_2",
-    "ModelCode": "Raid.Dragon.Poison",
-    "Race": "Dragon",
-    "AttrType": [
-      "Magical"
-    ],
-    "ArchiveStory": "CREATURE_STORY_4403",
-    "ArchiveType": "Raid",
-    "AttackWeakType": [
-      "Fire"
-    ],
-    "BlockDash": "True",
-    "PositionWeight": 20000,
-    "MoveSpeed": 5000,
-    "MinDamageRate": 200,
-    "IgnoreCc": [
-      "CC"
-    ],
-    "TransformType": "Wall",
-    "SizeMm": 5000,
-    "HeightMm": 7000,
-    "GradeStoneItemCode": "NO_ITEM",
-    "StarStoneItemCode": "NO_ITEM",
-    "BaseSkillIndex": 442300,
-    "SkillIndex1": 442310,
-    "SkillIndex2": 442320,
-    "SkillIndex3": 442330,
-    "SkillIndex4": 442340,
-    "ExtraSkill": [
-      "442301",
-      "442311",
-      "442312",
-      "442321",
-      "442341",
-      "442342",
-      "442343",
-      "442344",
-      "442380",
-      "442390",
-      "442379",
-      "442381",
-      "442382",
-      "442391",
-      "442392",
-      "442393",
-      "442394",
-      "442395",
-      "442398",
-      "442397",
-      "442396",
-      "442399"
-    ],
-    "ShowInfoSkill": [
-      "440390",
-      "4403310",
-      "4403400",
-      "441396"
-    ]
-  },
-  {
-    "Index": 4424,
-    "CodeName": "Raid.HardDragon.Black_2",
-    "ModelCode": "Raid.Dragon.Black",
-    "Race": "Dragon",
-    "AttrType": [
-      "Magical"
-    ],
-    "ArchiveStory": "CREATURE_STORY_4404",
-    "ArchiveType": "Raid",
-    "AttackWeakType": [
-      "Fire"
-    ],
-    "BlockDash": "True",
-    "PositionWeight": 20000,
-    "MoveSpeed": 5000,
-    "MinDamageRate": 200,
-    "IgnoreCc": [
-      "CC"
-    ],
-    "TransformType": "Wall",
-    "SizeMm": 5000,
-    "HeightMm": 7000,
-    "GradeStoneItemCode": "NO_ITEM",
-    "StarStoneItemCode": "NO_ITEM",
-    "BaseSkillIndex": 442400,
-    "SkillIndex1": 442410,
-    "SkillIndex2": 442420,
-    "SkillIndex3": 442430,
-    "SkillIndex4": 442440,
-    "ExtraSkill": [
-      "442401",
-      "442480",
-      "442481",
-      "442482",
-      "442441",
-      "442442",
-      "442443",
-      "442444",
-      "442490",
-      "442491",
-      "442493",
-      "442494",
-      "442495",
-      "442496",
-      "442411",
-      "442492",
-      "442398"
     ],
     "ShowInfoSkill": [
       "441492",
@@ -26282,6 +26341,7 @@
     ],
     "SizeMm": 500,
     "HeightMm": 1200,
+    "IsDestroyOnDied": "True",
     "GradeStoneItemCode": "NO_ITEM",
     "StarStoneItemCode": "NO_ITEM",
     "BaseSkillIndex": 6601100,
@@ -26306,6 +26366,7 @@
     ],
     "SizeMm": 500,
     "HeightMm": 1200,
+    "IsDestroyOnDied": "True",
     "GradeStoneItemCode": "NO_ITEM",
     "StarStoneItemCode": "NO_ITEM",
     "BaseSkillIndex": 6601200,
@@ -26336,6 +26397,7 @@
     "TransformType": "StaticPosition",
     "SizeMm": 800,
     "HeightMm": 5000,
+    "IsDestroyOnDied": "True",
     "GradeStoneItemCode": "NO_ITEM",
     "StarStoneItemCode": "NO_ITEM",
     "BaseSkillIndex": 6601300,
@@ -26366,6 +26428,7 @@
     ],
     "SizeMm": 1500,
     "HeightMm": 3500,
+    "IsDestroyOnDied": "True",
     "GradeStoneItemCode": "NO_ITEM",
     "StarStoneItemCode": "NO_ITEM",
     "BaseSkillIndex": 6601400,
@@ -26974,7 +27037,7 @@
       "CC"
     ],
     "TransformType": "StaticPosition,Wall",
-    "SizeMm": 6000,
+    "SizeMm": 5000,
     "HeightMm": 12000,
     "GradeStoneItemCode": "NO_ITEM",
     "StarStoneItemCode": "NO_ITEM",
@@ -27029,6 +27092,7 @@
     "TransformType": "StaticPosition",
     "SizeMm": 1000,
     "HeightMm": 3000,
+    "IsDestroyOnDied": "True",
     "GradeStoneItemCode": "NO_ITEM",
     "StarStoneItemCode": "NO_ITEM",
     "SkillIndex1": 880210,
@@ -27128,8 +27192,8 @@
       "880381",
       "880382",
       "880383",
-      "1130162",
-      "880384"
+      "880384",
+      "880385"
     ],
     "ShowInfoSkill": [
       "341850",
@@ -27155,6 +27219,7 @@
     "TransformType": "StaticPosition",
     "SizeMm": 1000,
     "HeightMm": 3000,
+    "IsDestroyOnDied": "True",
     "GradeStoneItemCode": "NO_ITEM",
     "StarStoneItemCode": "NO_ITEM",
     "SkillIndex1": 880410,
@@ -36025,6 +36090,7 @@
     ],
     "SizeMm": 300,
     "HeightMm": 500,
+    "IsDestroyOnDied": "True",
     "GradeStoneItemCode": "NO_ITEM",
     "StarStoneItemCode": "NO_ITEM",
     "BaseSkillIndex": 9022600,
@@ -37436,5 +37502,263 @@
   {
     "Index": 99997,
     "CodeName": "Monster.Empire.Swordsman"
+  },
+  {
+    "Index": 99996,
+    "CodeName": "Monster.Spider.SuperElite.Swamp"
+  },
+  {
+    "Index": 99995,
+    "CodeName": "Monster.Skeleton.ArcherEvilSpirit"
+  },
+  {
+    "Index": 99994,
+    "CodeName": "Monster.Slime.WarriorRotten"
+  },
+  {
+    "Index": 99993,
+    "CodeName": "Monster.Skeleton.GuardEvilSpirit"
+  },
+  {
+    "Index": 99992,
+    "CodeName": "NPC.Cocytus"
+  },
+  {
+    "Index": 99991,
+    "CodeName": "NPC.Monolith"
+  },
+  {
+    "Index": 99990,
+    "CodeName": "Monster.Guardian.Golem"
+  },
+  {
+    "Index": 99989,
+    "CodeName": "Monster.Guardian.Eraser"
+  },
+  {
+    "Index": 99988,
+    "CodeName": "Monster.Guardian.EraserElite"
+  },
+  {
+    "Index": 99987,
+    "CodeName": "Monster.Guardian.EraserSuperElite"
+  },
+  {
+    "Index": 999001,
+    "CodeName": "Raid.HardDragon.Fire_2",
+    "ModelCode": "Raid.Dragon.Fire",
+    "Race": "Dragon",
+    "AttrType": [
+      "Magical"
+    ],
+    "ArchiveStory": "CREATURE_STORY_4401",
+    "AttackWeakType": [
+      "Fire"
+    ],
+    "BlockDash": "True",
+    "PositionWeight": 20000,
+    "MoveSpeed": 5000,
+    "MinDamageRate": 200,
+    "IgnoreCc": [
+      "CC"
+    ],
+    "TransformType": "Wall",
+    "SizeMm": 5000,
+    "HeightMm": 7000,
+    "GradeStoneItemCode": "NO_ITEM",
+    "StarStoneItemCode": "NO_ITEM",
+    "BaseSkillIndex": 442100,
+    "SkillIndex1": 442110,
+    "SkillIndex2": 442120,
+    "SkillIndex3": 442130,
+    "SkillIndex4": 442140,
+    "ExtraSkill": [
+      "442101",
+      "442111",
+      "442180",
+      "442181",
+      "442182",
+      "442141",
+      "442142",
+      "442143",
+      "442144",
+      "442184",
+      "442190",
+      "442191",
+      "442192",
+      "442193",
+      "442194",
+      "442195",
+      "442196",
+      "442121",
+      "442197"
+    ],
+    "ShowInfoSkill": [
+      "441193",
+      "441197"
+    ]
+  },
+  {
+    "Index": 999002,
+    "CodeName": "Raid.HardDragon.Ice_2",
+    "ModelCode": "Raid.Dragon.Ice",
+    "Race": "Dragon",
+    "AttrType": [
+      "Magical"
+    ],
+    "ArchiveStory": "CREATURE_STORY_4402",
+    "AttackWeakType": [
+      "Fire"
+    ],
+    "BlockDash": "True",
+    "PositionWeight": 20000,
+    "MoveSpeed": 5000,
+    "MinDamageRate": 200,
+    "IgnoreCc": [
+      "CC"
+    ],
+    "TransformType": "Wall",
+    "SizeMm": 5000,
+    "HeightMm": 7000,
+    "GradeStoneItemCode": "NO_ITEM",
+    "StarStoneItemCode": "NO_ITEM",
+    "BaseSkillIndex": 442200,
+    "SkillIndex1": 442210,
+    "SkillIndex2": 442220,
+    "SkillIndex3": 442230,
+    "SkillIndex4": 442240,
+    "SkillIndex5": 442250,
+    "ExtraSkill": [
+      "442201",
+      "442280",
+      "442290",
+      "442292",
+      "442282",
+      "442279",
+      "442253",
+      "442293",
+      "442294",
+      "442295",
+      "442221",
+      "442296",
+      "442398",
+      "442211"
+    ],
+    "ShowInfoSkill": [
+      "441295"
+    ]
+  },
+  {
+    "Index": 999003,
+    "CodeName": "Raid.HardDragon.Poison_2",
+    "ModelCode": "Raid.Dragon.Poison",
+    "Race": "Dragon",
+    "AttrType": [
+      "Magical"
+    ],
+    "ArchiveStory": "CREATURE_STORY_4403",
+    "AttackWeakType": [
+      "Fire"
+    ],
+    "BlockDash": "True",
+    "PositionWeight": 20000,
+    "MoveSpeed": 5000,
+    "MinDamageRate": 200,
+    "IgnoreCc": [
+      "CC"
+    ],
+    "TransformType": "Wall",
+    "SizeMm": 5000,
+    "HeightMm": 7000,
+    "GradeStoneItemCode": "NO_ITEM",
+    "StarStoneItemCode": "NO_ITEM",
+    "BaseSkillIndex": 442300,
+    "SkillIndex1": 442310,
+    "SkillIndex2": 442320,
+    "SkillIndex3": 442330,
+    "SkillIndex4": 442340,
+    "ExtraSkill": [
+      "442301",
+      "442311",
+      "442312",
+      "442321",
+      "442341",
+      "442342",
+      "442343",
+      "442344",
+      "442380",
+      "442390",
+      "442379",
+      "442381",
+      "442382",
+      "442391",
+      "442392",
+      "442393",
+      "442394",
+      "442395",
+      "442398",
+      "442397",
+      "442396",
+      "442399"
+    ],
+    "ShowInfoSkill": [
+      "440390",
+      "4403310",
+      "4403400",
+      "441396"
+    ]
+  },
+  {
+    "Index": 999004,
+    "CodeName": "Raid.HardDragon.Black_2",
+    "ModelCode": "Raid.Dragon.Black",
+    "Race": "Dragon",
+    "AttrType": [
+      "Magical"
+    ],
+    "ArchiveStory": "CREATURE_STORY_4404",
+    "AttackWeakType": [
+      "Fire"
+    ],
+    "BlockDash": "True",
+    "PositionWeight": 20000,
+    "MoveSpeed": 5000,
+    "MinDamageRate": 200,
+    "IgnoreCc": [
+      "CC"
+    ],
+    "TransformType": "Wall",
+    "SizeMm": 5000,
+    "HeightMm": 7000,
+    "GradeStoneItemCode": "NO_ITEM",
+    "StarStoneItemCode": "NO_ITEM",
+    "BaseSkillIndex": 442400,
+    "SkillIndex1": 442410,
+    "SkillIndex2": 442420,
+    "SkillIndex3": 442430,
+    "SkillIndex4": 442440,
+    "ExtraSkill": [
+      "442401",
+      "442480",
+      "442481",
+      "442482",
+      "442441",
+      "442442",
+      "442443",
+      "442444",
+      "442490",
+      "442491",
+      "442493",
+      "442494",
+      "442495",
+      "442496",
+      "442411",
+      "442492",
+      "442398"
+    ],
+    "ShowInfoSkill": [
+      "441492",
+      "441494"
+    ]
   }
 ]
