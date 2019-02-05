@@ -1,0 +1,1010 @@
+[
+  {
+    "ChapterIndex": 99,
+    "DungeonIndex": -1,
+    "PositionX": 2482,
+    "PositionY": 1486
+  },
+  {
+    "ChapterIndex": 1,
+    "DungeonIndex": -1,
+    "PositionX": 2482,
+    "PositionY": 1486,
+    "PopupImagePath": "Portal/LastPosition/LastPosition_Chpter_1"
+  },
+  {
+    "ChapterIndex": 2,
+    "DungeonIndex": -1,
+    "PositionX": 3004,
+    "PositionY": 1112,
+    "PopupImagePath": "Portal/LastPosition/LastPosition_Chpter_2"
+  },
+  {
+    "ChapterIndex": 3,
+    "DungeonIndex": -1,
+    "PositionX": 2882,
+    "PositionY": 734,
+    "PopupImagePath": "Portal/LastPosition/LastPosition_Chpter_3"
+  },
+  {
+    "ChapterIndex": 4,
+    "DungeonIndex": -1,
+    "PositionX": 2262,
+    "PositionY": 1192,
+    "PopupImagePath": "Portal/LastPosition/LastPosition_Chpter_4"
+  },
+  {
+    "ChapterIndex": 5,
+    "DungeonIndex": -1,
+    "PositionX": 1418,
+    "PositionY": 1768,
+    "PopupImagePath": "Portal/LastPosition/LastPosition_Chpter_5"
+  },
+  {
+    "ChapterIndex": 6,
+    "DungeonIndex": -1,
+    "PositionX": 1258,
+    "PositionY": 1222,
+    "PopupImagePath": "Portal/LastPosition/LastPosition_Chpter_6"
+  },
+  {
+    "ChapterIndex": 7,
+    "DungeonIndex": -1,
+    "PositionX": 2127,
+    "PositionY": 405,
+    "PopupImagePath": "Portal/LastPosition/LastPosition_Chpter_7"
+  },
+  {
+    "ChapterIndex": 8,
+    "DungeonIndex": -1,
+    "PositionX": 1230,
+    "PositionY": 400,
+    "PopupImagePath": "Portal/LastPosition/LastPosition_Chpter_8"
+  },
+  {
+    "ChapterIndex": 101,
+    "DungeonIndex": -1,
+    "PositionX": 2482,
+    "PositionY": 1486,
+    "PopupImagePath": "Portal/PopupImage/Ch1_UpperDungeon"
+  },
+  {
+    "ChapterIndex": 102,
+    "DungeonIndex": -1,
+    "PositionX": 3004,
+    "PositionY": 1112,
+    "PopupImagePath": "Portal/PopupImage/Ch2_UpperDungeon"
+  },
+  {
+    "ChapterIndex": 103,
+    "DungeonIndex": -1,
+    "PositionX": 2882,
+    "PositionY": 734,
+    "PopupImagePath": "Portal/PopupImage/Ch3_UpperDungeon"
+  },
+  {
+    "ChapterIndex": 104,
+    "DungeonIndex": -1,
+    "PositionX": 2262,
+    "PositionY": 1192,
+    "PopupImagePath": "Portal/PopupImage/Ch4_UpperDungeon"
+  },
+  {
+    "ChapterIndex": 105,
+    "DungeonIndex": -1,
+    "PositionX": 1418,
+    "PositionY": 1768,
+    "PopupImagePath": "Portal/PopupImage/Ch5_UpperDungeon"
+  },
+  {
+    "ChapterIndex": 106,
+    "DungeonIndex": -1,
+    "PositionX": 1258,
+    "PositionY": 1222,
+    "PopupImagePath": "Portal/PopupImage/Ch6_UpperDungeon"
+  },
+  {
+    "ChapterIndex": 107,
+    "DungeonIndex": -1,
+    "PositionX": 2127,
+    "PositionY": 405,
+    "PopupImagePath": "Portal/PopupImage/Ch7_UpperDungeon"
+  },
+  {
+    "ChapterIndex": 108,
+    "DungeonIndex": -1,
+    "PositionX": 2327,
+    "PositionY": 605,
+    "PopupImagePath": "Portal/PopupImage/Ch8_UpperDungeon"
+  },
+  {
+    "ChapterIndex": 995,
+    "DungeonIndex": -1,
+    "PositionX": 2420,
+    "PositionY": 1520
+  },
+  {
+    "ChapterIndex": 1,
+    "DungeonIndex": 28,
+    "Name": "TOWN_TEXT",
+    "PositionX": 2196,
+    "PositionY": 1588,
+    "ImagePath": "Portal/LandMark/Ch1_Town",
+    "HasChild": "true",
+    "TitleDescKey": "LOCATION_ORVEL_NAME"
+  },
+  {
+    "ChapterIndex": 99,
+    "DungeonIndex": 8,
+    "Name": "PORTAL_SHOP_NORMAL",
+    "ParentNode": [
+      "1",
+      "28"
+    ],
+    "PositionX": 2196,
+    "PositionY": 1737,
+    "ImagePath": "Portal/NameTag/Town_Shop",
+    "PopupImagePath": "Portal/PopupImage/Ch1_Shop",
+    "ExecuteNodeFunction": "true"
+  },
+  {
+    "ChapterIndex": 99,
+    "DungeonIndex": 2,
+    "Name": "NODE_PUB_NAME",
+    "ParentNode": [
+      "1",
+      "28"
+    ],
+    "PositionX": 2196,
+    "PositionY": 2062,
+    "ImagePath": "Portal/NameTag/Town_HeroInn",
+    "PopupImagePath": "Portal/PopupImage/Ch1_HeroInn",
+    "ExecuteNodeFunction": "true"
+  },
+  {
+    "ChapterIndex": 99,
+    "DungeonIndex": 3,
+    "Name": "NODE_PRISON_NAME",
+    "ParentNode": [
+      "1",
+      "28"
+    ],
+    "PositionX": 2196,
+    "PositionY": 1802,
+    "ImagePath": "Portal/NameTag/Town_Prison",
+    "PopupImagePath": "Portal/PopupImage/Ch1_Prison",
+    "ExecuteNodeFunction": "true"
+  },
+  {
+    "ChapterIndex": 99,
+    "DungeonIndex": 4,
+    "Name": "PVP_TEXT",
+    "ParentNode": [
+      "1",
+      "28"
+    ],
+    "PositionX": 2196,
+    "PositionY": 1867,
+    "ImagePath": "Portal/NameTag/Town_Arena",
+    "PopupImagePath": "Portal/PopupImage/Ch1_Arena",
+    "ExecuteNodeFunction": "true"
+  },
+  {
+    "ChapterIndex": 99,
+    "DungeonIndex": 9,
+    "Name": "NODE_FORGE_NAME",
+    "ParentNode": [
+      "1",
+      "28"
+    ],
+    "PositionX": 2196,
+    "PositionY": 1932,
+    "ImagePath": "Portal/NameTag/Town_Forge",
+    "PopupImagePath": "Portal/PopupImage/Ch1_Forge",
+    "ExecuteNodeFunction": "true"
+  },
+  {
+    "ChapterIndex": 99,
+    "DungeonIndex": 6,
+    "Name": "NODE_CASTLE_NAME",
+    "ParentNode": [
+      "1",
+      "28"
+    ],
+    "PositionX": 2196,
+    "PositionY": 1997,
+    "ImagePath": "Portal/NameTag/Town_Royal",
+    "PopupImagePath": "Portal/PopupImage/Ch1_Royal",
+    "ExecuteNodeFunction": "true"
+  },
+  {
+    "ChapterIndex": 99,
+    "DungeonIndex": 5,
+    "Name": "CONTENT_GUILD",
+    "ParentNode": [
+      "1",
+      "28"
+    ],
+    "PositionX": 2196,
+    "PositionY": 1997,
+    "ImagePath": "Portal/NameTag/Town_Guild",
+    "PopupImagePath": "Portal/PopupImage/Ch1_Guild",
+    "ExecuteNodeFunction": "true"
+  },
+  {
+    "ChapterIndex": 99,
+    "DungeonIndex": 10,
+    "Name": "NODE_SQUARE_NAME",
+    "ParentNode": [
+      "1",
+      "28"
+    ],
+    "PositionX": 2196,
+    "PositionY": 1997,
+    "ImagePath": "Portal/NameTag/Town_Square",
+    "PopupImagePath": "Portal/PopupImage/Ch1_Square",
+    "ExecuteNodeFunction": "true",
+    "Hidden": "true"
+  },
+  {
+    "ChapterIndex": 99,
+    "DungeonIndex": 11,
+    "Name": "NODE_SQUARE_NAME",
+    "ParentNode": [
+      "1",
+      "28"
+    ],
+    "PositionX": 2196,
+    "PositionY": 1997,
+    "ImagePath": "Portal/NameTag/Town_Square",
+    "PopupImagePath": "Portal/PopupImage/Ch1_Square",
+    "ExecuteNodeFunction": "true",
+    "Hidden": "true"
+  },
+  {
+    "ChapterIndex": 99,
+    "DungeonIndex": 12,
+    "Name": "NODE_SQUARE_NAME",
+    "ParentNode": [
+      "1",
+      "28"
+    ],
+    "PositionX": 2196,
+    "PositionY": 1997,
+    "ImagePath": "Portal/NameTag/Town_Luna",
+    "PopupImagePath": "Portal/PopupImage/Ch1_Square_Luna",
+    "ExecuteNodeFunction": "true",
+    "Hidden": "true"
+  },
+  {
+    "ChapterIndex": 99,
+    "DungeonIndex": 13,
+    "Name": "NODE_SQUARE_NAME",
+    "ParentNode": [
+      "1",
+      "28"
+    ],
+    "PositionX": 2196,
+    "PositionY": 1997,
+    "ImagePath": "Portal/NameTag/Town_Square",
+    "PopupImagePath": "Portal/PopupImage/Ch1_Square",
+    "ExecuteNodeFunction": "true",
+    "Hidden": "true"
+  },
+  {
+    "ChapterIndex": 99,
+    "DungeonIndex": 14,
+    "Name": "NODE_SQUARE_NAME",
+    "ParentNode": [
+      "1",
+      "28"
+    ],
+    "PositionX": 2196,
+    "PositionY": 1997,
+    "ImagePath": "Portal/NameTag/Town_Square",
+    "PopupImagePath": "Portal/PopupImage/Ch1_Square",
+    "ExecuteNodeFunction": "true",
+    "Hidden": "true"
+  },
+  {
+    "ChapterIndex": 99,
+    "DungeonIndex": 15,
+    "Name": "NODE_SQUARE_NAME",
+    "ParentNode": [
+      "1",
+      "28"
+    ],
+    "PositionX": 2196,
+    "PositionY": 1997,
+    "ImagePath": "Portal/NameTag/Town_Square",
+    "PopupImagePath": "Portal/PopupImage/Ch1_Square",
+    "ExecuteNodeFunction": "true",
+    "Hidden": "true"
+  },
+  {
+    "ChapterIndex": 99,
+    "DungeonIndex": 16,
+    "Name": "NODE_SQUARE_NAME",
+    "ParentNode": [
+      "1",
+      "28"
+    ],
+    "PositionX": 2196,
+    "PositionY": 1997,
+    "ImagePath": "Portal/NameTag/Town_Square",
+    "PopupImagePath": "Portal/PopupImage/Ch1_Square",
+    "ExecuteNodeFunction": "true",
+    "Hidden": "true"
+  },
+  {
+    "ChapterIndex": 99,
+    "DungeonIndex": 17,
+    "Name": "NODE_SQUARE_NAME",
+    "ParentNode": [
+      "1",
+      "28"
+    ],
+    "PositionX": 2196,
+    "PositionY": 1997,
+    "ImagePath": "Portal/NameTag/Town_Square",
+    "PopupImagePath": "Portal/PopupImage/Ch1_Square",
+    "ExecuteNodeFunction": "true",
+    "Hidden": "true"
+  },
+  {
+    "ChapterIndex": 99,
+    "DungeonIndex": 18,
+    "Name": "NODE_SQUARE_NAME",
+    "ParentNode": [
+      "1",
+      "28"
+    ],
+    "PositionX": 2196,
+    "PositionY": 1997,
+    "ImagePath": "Portal/NameTag/Town_Square",
+    "PopupImagePath": "Portal/PopupImage/Ch1_Square",
+    "ExecuteNodeFunction": "true",
+    "Hidden": "true"
+  },
+  {
+    "ChapterIndex": 99,
+    "DungeonIndex": 19,
+    "Name": "NODE_SQUARE_NAME",
+    "ParentNode": [
+      "1",
+      "28"
+    ],
+    "PositionX": 2196,
+    "PositionY": 1997,
+    "ImagePath": "Portal/NameTag/Town_Square",
+    "PopupImagePath": "Portal/PopupImage/Ch1_Square",
+    "ExecuteNodeFunction": "true",
+    "Hidden": "true"
+  },
+  {
+    "ChapterIndex": 99,
+    "DungeonIndex": 20,
+    "Name": "NODE_SQUARE_NAME",
+    "ParentNode": [
+      "1",
+      "28"
+    ],
+    "PositionX": 2196,
+    "PositionY": 1997,
+    "ImagePath": "Portal/NameTag/Town_Square",
+    "PopupImagePath": "Portal/PopupImage/Ch1_Square",
+    "ExecuteNodeFunction": "true",
+    "Hidden": "true"
+  },
+  {
+    "ChapterIndex": 99,
+    "DungeonIndex": 21,
+    "Name": "NODE_SQUARE_NAME",
+    "ParentNode": [
+      "1",
+      "28"
+    ],
+    "PositionX": 2196,
+    "PositionY": 1997,
+    "ImagePath": "Portal/NameTag/Town_Square",
+    "PopupImagePath": "Portal/PopupImage/Ch1_Square",
+    "ExecuteNodeFunction": "true",
+    "Hidden": "true"
+  },
+  {
+    "ChapterIndex": 99,
+    "DungeonIndex": 22,
+    "Name": "NODE_SQUARE_NAME",
+    "ParentNode": [
+      "1",
+      "28"
+    ],
+    "PositionX": 2196,
+    "PositionY": 1997,
+    "ImagePath": "Portal/NameTag/Town_Square",
+    "PopupImagePath": "Portal/PopupImage/Ch1_Square",
+    "ExecuteNodeFunction": "true",
+    "Hidden": "true"
+  },
+  {
+    "ChapterIndex": 99,
+    "DungeonIndex": 23,
+    "Name": "NODE_SQUARE_NAME",
+    "ParentNode": [
+      "1",
+      "28"
+    ],
+    "PositionX": 2196,
+    "PositionY": 1997,
+    "ImagePath": "Portal/NameTag/Town_Square",
+    "PopupImagePath": "Portal/PopupImage/Ch1_Square",
+    "ExecuteNodeFunction": "true",
+    "Hidden": "true"
+  },
+  {
+    "ChapterIndex": 995,
+    "DungeonIndex": 9,
+    "Name": "GUILD_TERRITORY",
+    "PositionX": 2133,
+    "PositionY": 1840,
+    "ImagePath": "Portal/LandMark/Ch1_GuildConstruction",
+    "HasChild": "true",
+    "Condition": [
+      "GuildExist",
+      "99",
+      "5"
+    ],
+    "TitleDescKey": "GUILD_TERRITORY"
+  },
+  {
+    "ChapterIndex": 995,
+    "DungeonIndex": 1,
+    "Name": "GUILD_HEADQUARTER",
+    "ParentNode": [
+      "995",
+      "9"
+    ],
+    "PositionX": 2196,
+    "PositionY": 2062,
+    "ImagePath": "Portal/NameTag/Guild_Headquarter",
+    "PopupImagePath": "Portal/PopupImage/Guild_Headquarter",
+    "ExecuteNodeFunction": "true"
+  },
+  {
+    "ChapterIndex": 995,
+    "DungeonIndex": 2,
+    "Name": "GUILD_TRAINING_CENTER",
+    "ParentNode": [
+      "995",
+      "9"
+    ],
+    "PositionX": 2196,
+    "PositionY": 1737,
+    "ImagePath": "Portal/NameTag/Guild_Camp",
+    "PopupImagePath": "Portal/PopupImage/Guild_Camp",
+    "ExecuteNodeFunction": "true"
+  },
+  {
+    "ChapterIndex": 995,
+    "DungeonIndex": 3,
+    "Name": "GUILD_SHOP",
+    "ParentNode": [
+      "995",
+      "9"
+    ],
+    "PositionX": 2196,
+    "PositionY": 1802,
+    "ImagePath": "Portal/NameTag/Guild_Shop",
+    "PopupImagePath": "Portal/PopupImage/Guild_Shop",
+    "ExecuteNodeFunction": "true"
+  },
+  {
+    "ChapterIndex": 995,
+    "DungeonIndex": 4,
+    "Name": "GUILD_RAID_BUILDING",
+    "ParentNode": [
+      "995",
+      "9"
+    ],
+    "PositionX": 2196,
+    "PositionY": 1867,
+    "ImagePath": "Portal/NameTag/Guild_Raid",
+    "PopupImagePath": "Portal/PopupImage/Guild_Raid",
+    "ExecuteNodeFunction": "true"
+  },
+  {
+    "ChapterIndex": 995,
+    "DungeonIndex": 5,
+    "Name": "GUILD_SUPPRESS_BUILDING",
+    "ParentNode": [
+      "995",
+      "9"
+    ],
+    "PositionX": 2196,
+    "PositionY": 1932,
+    "ImagePath": "Portal/NameTag/Guild_Suppress",
+    "PopupImagePath": "Portal/PopupImage/Guild_Suppress",
+    "ExecuteNodeFunction": "true"
+  },
+  {
+    "ChapterIndex": 995,
+    "DungeonIndex": 6,
+    "Name": "RANK_BOARD_TITLE",
+    "ParentNode": [
+      "995",
+      "9"
+    ],
+    "PositionX": 2196,
+    "PositionY": 1997,
+    "ImagePath": "Portal/NameTag/Guild_Rankboard",
+    "PopupImagePath": "Portal/PopupImage/Guild_Rankboard",
+    "ExecuteNodeFunction": "true"
+  },
+  {
+    "ChapterIndex": 1,
+    "DungeonIndex": 26,
+    "Name": "NODE_WORLDTREE_NAME",
+    "PositionX": 2482,
+    "PositionY": 1400,
+    "ImagePath": "Portal/LandMark/Ch1_WorldTree",
+    "PopupImagePath": "Portal/PopupImage/Ch1_WorldTree"
+  },
+  {
+    "ChapterIndex": 1,
+    "DungeonIndex": 27,
+    "Name": "NODE_TEMPLE_NAME",
+    "PositionX": 2922,
+    "PositionY": 1703,
+    "ImagePath": "Portal/LandMark/Ch1_HallofHero",
+    "PopupImagePath": "Portal/PopupImage/Ch1_HallofHero"
+  },
+  {
+    "ChapterIndex": 2,
+    "DungeonIndex": 27,
+    "Name": "CHALLENGETOWER_TITLE",
+    "PositionX": 2687,
+    "PositionY": 1050,
+    "ImagePath": "Portal/LandMark/Ch2_ChallengeTower",
+    "PopupImagePath": "Portal/PopupImage/Ch2_ChallengeTower"
+  },
+  {
+    "ChapterIndex": 101,
+    "DungeonIndex": 1,
+    "Name": "PARTY_DUNGEON_CHAPTER1",
+    "ParentNode": [
+      "100",
+      " 2"
+    ],
+    "PositionX": 2790,
+    "PositionY": 1428,
+    "ImagePath": "Portal/NameTag/Upper_ungeon_01",
+    "PopupImagePath": "Portal/PopupImage/Ch1_UpperDungeon"
+  },
+  {
+    "ChapterIndex": 102,
+    "DungeonIndex": 1,
+    "Name": "PARTY_DUNGEON_CHAPTER2",
+    "ParentNode": [
+      "100",
+      " 2"
+    ],
+    "PositionX": 3324,
+    "PositionY": 1063,
+    "ImagePath": "Portal/NameTag/Upper_ungeon_02",
+    "PopupImagePath": "Portal/PopupImage/Ch2_UpperDungeon"
+  },
+  {
+    "ChapterIndex": 2,
+    "DungeonIndex": 26,
+    "Name": "GOLEM_SUPERELITE_NAME_1",
+    "ParentNode": [
+      "100",
+      " 3"
+    ],
+    "PositionX": 3004,
+    "PositionY": 1112,
+    "ImagePath": "Portal/NameTag/Conquest_02",
+    "PopupImagePath": "Portal/PopupImage/Ch2_Hunting"
+  },
+  {
+    "ChapterIndex": 103,
+    "DungeonIndex": 1,
+    "Name": "PARTY_DUNGEON_CHAPTER3",
+    "ParentNode": [
+      "100",
+      " 2"
+    ],
+    "PositionX": 2882,
+    "PositionY": 734,
+    "ImagePath": "Portal/NameTag/Upper_ungeon_03",
+    "PopupImagePath": "Portal/PopupImage/Ch3_UpperDungeon"
+  },
+  {
+    "ChapterIndex": 3,
+    "DungeonIndex": 26,
+    "Name": "BOSS_WARTROLL_NAME_1",
+    "ParentNode": [
+      "100",
+      " 3"
+    ],
+    "PositionX": 2482,
+    "PositionY": 622,
+    "ImagePath": "Portal/NameTag/Conquest_03",
+    "PopupImagePath": "Portal/PopupImage/Ch3_Hunting"
+  },
+  {
+    "ChapterIndex": 4,
+    "DungeonIndex": 26,
+    "Name": "BOSS_GOATWARRIOR_NAME_1",
+    "ParentNode": [
+      "100",
+      " 3"
+    ],
+    "PositionX": 2262,
+    "PositionY": 1192,
+    "ImagePath": "Portal/NameTag/Conquest_04",
+    "PopupImagePath": "Portal/PopupImage/Ch4_Hunting"
+  },
+  {
+    "ChapterIndex": 104,
+    "DungeonIndex": 1,
+    "Name": "PARTY_DUNGEON_CHAPTER4",
+    "ParentNode": [
+      "100",
+      " 2"
+    ],
+    "PositionX": 2016,
+    "PositionY": 974,
+    "ImagePath": "Portal/NameTag/Upper_ungeon_04",
+    "PopupImagePath": "Portal/PopupImage/Ch4_UpperDungeon"
+  },
+  {
+    "ChapterIndex": 5,
+    "DungeonIndex": 26,
+    "Name": "BOSS_MADASSASSIN_NAME_1",
+    "ParentNode": [
+      "100",
+      " 3"
+    ],
+    "PositionX": 1418,
+    "PositionY": 1768,
+    "ImagePath": "Portal/NameTag/Conquest_05",
+    "PopupImagePath": "Portal/PopupImage/Ch5_Hunting"
+  },
+  {
+    "ChapterIndex": 105,
+    "DungeonIndex": 1,
+    "Name": "PARTY_DUNGEON_CHAPTER5",
+    "ParentNode": [
+      "100",
+      " 2"
+    ],
+    "PositionX": 1258,
+    "PositionY": 1561,
+    "ImagePath": "Portal/NameTag/Upper_ungeon_05",
+    "PopupImagePath": "Portal/PopupImage/Ch5_UpperDungeon"
+  },
+  {
+    "ChapterIndex": 6,
+    "DungeonIndex": 26,
+    "Name": "CREATURE_NAME_27002",
+    "ParentNode": [
+      "100",
+      " 3"
+    ],
+    "PositionX": 1258,
+    "PositionY": 1222,
+    "ImagePath": "Portal/NameTag/Conquest_06",
+    "PopupImagePath": "Portal/PopupImage/Ch6_Hunting"
+  },
+  {
+    "ChapterIndex": 106,
+    "DungeonIndex": 1,
+    "Name": "PARTY_DUNGEON_CHAPTER6",
+    "ParentNode": [
+      "100",
+      " 2"
+    ],
+    "PositionX": 1660,
+    "PositionY": 1222,
+    "ImagePath": "Portal/NameTag/Upper_ungeon_06",
+    "PopupImagePath": "Portal/PopupImage/Ch6_UpperDungeon"
+  },
+  {
+    "ChapterIndex": 7,
+    "DungeonIndex": 26,
+    "Name": "CREATURE_NAME_10401",
+    "ParentNode": [
+      "100",
+      " 3"
+    ],
+    "PositionX": 2297,
+    "PositionY": 313,
+    "ImagePath": "Portal/NameTag/Conquest_07",
+    "PopupImagePath": "Portal/PopupImage/Ch7_Hunting"
+  },
+  {
+    "ChapterIndex": 107,
+    "DungeonIndex": 8,
+    "Name": "PARTY_DUNGEON_CHAPTER7",
+    "ParentNode": [
+      "100",
+      " 2"
+    ],
+    "PositionX": 1959,
+    "PositionY": 563,
+    "ImagePath": "Portal/NameTag/Upper_ungeon_07",
+    "PopupImagePath": "Portal/PopupImage/Ch7_UpperDungeon"
+  },
+  {
+    "ChapterIndex": 8,
+    "DungeonIndex": 35,
+    "Name": "CHAPTER8_BOSS4_NAME",
+    "ParentNode": [
+      "100",
+      " 3"
+    ],
+    "PositionX": 2297,
+    "PositionY": 313,
+    "ImagePath": "Portal/NameTag/Conquest_08",
+    "PopupImagePath": "Portal/PopupImage/Ch8_Hunting"
+  },
+  {
+    "ChapterIndex": 108,
+    "DungeonIndex": 8,
+    "Name": "PARTY_DUNGEON_CHAPTER8",
+    "ParentNode": [
+      "100",
+      " 2"
+    ],
+    "PositionX": 1959,
+    "PositionY": 563,
+    "ImagePath": "Portal/NameTag/Upper_Dungeon_08",
+    "PopupImagePath": "Portal/PopupImage/Ch8_UpperDungeon"
+  },
+  {
+    "ChapterIndex": 100,
+    "DungeonIndex": 1,
+    "Name": "PORTAL.LAST_BATTLE_POSITION",
+    "PositionX": 2196,
+    "PositionY": 1588,
+    "ImagePath": "UI/Button/Btn_MoveChapter",
+    "ShortCutButton": "true"
+  },
+  {
+    "ChapterIndex": 100,
+    "DungeonIndex": 2,
+    "Name": "LOCATION_HIDEOUT_NAME",
+    "PositionX": 2196,
+    "PositionY": 1588,
+    "ImagePath": "UI/Button/Btn_AdvancedDungeon",
+    "HasChild": "true",
+    "ShortCutButton": "true"
+  },
+  {
+    "ChapterIndex": 100,
+    "DungeonIndex": 3,
+    "Name": "LOCATION_HUNTING_NAME",
+    "PositionX": 2196,
+    "PositionY": 1588,
+    "ImagePath": "UI/Button/Btn_subjugateBattle",
+    "HasChild": "true",
+    "ShortCutButton": "true"
+  },
+  {
+    "ChapterIndex": 100,
+    "DungeonIndex": 4,
+    "Name": "ADVENTURE_NOTICE_TITLE",
+    "PositionX": 2196,
+    "PositionY": 1588,
+    "ImagePath": "UI/Button/Btn_AdventureNoticeTitle",
+    "HasChild": "true",
+    "ShortCutButton": "true",
+    "TitleDescKey": "ADVENTURE_NOTICE_TITLE",
+    "ContentsShortCutButton": "true"
+  },
+  {
+    "ChapterIndex": 1,
+    "DungeonIndex": 1,
+    "Name": "MAP_LAMUS_PLAIN",
+    "PositionX": 2560,
+    "PositionY": 1690,
+    "ImagePath": "Portal/LandMark/Ch1_LandMark_Image",
+    "PopupImagePath": "Portal/LastPosition/LastPosition_Chpter_1"
+  },
+  {
+    "ChapterIndex": 2,
+    "DungeonIndex": 1,
+    "Name": "MAP_ELLIDORA_FOREST",
+    "PositionX": 3050,
+    "PositionY": 1180,
+    "ImagePath": "Portal/LandMark/Ch2_LandMark_Image",
+    "PopupImagePath": "Portal/LastPosition/LastPosition_Chpter_2"
+  },
+  {
+    "ChapterIndex": 3,
+    "DungeonIndex": 1,
+    "Name": "MAP_KRAD_MOUNTAIN",
+    "PositionX": 3030,
+    "PositionY": 550,
+    "ImagePath": "Portal/LandMark/Ch3_LandMark_Image",
+    "PopupImagePath": "Portal/LastPosition/LastPosition_Chpter_3"
+  },
+  {
+    "ChapterIndex": 4,
+    "DungeonIndex": 1,
+    "Name": "MAP_KRAD_FOREST",
+    "PositionX": 2300,
+    "PositionY": 1000,
+    "ImagePath": "Portal/LandMark/Ch4_LandMark_Image",
+    "PopupImagePath": "Portal/LastPosition/LastPosition_Chpter_4"
+  },
+  {
+    "ChapterIndex": 5,
+    "DungeonIndex": 1,
+    "Name": "MAP_SICRAKAM_PLAIN",
+    "PositionX": 1530,
+    "PositionY": 1700,
+    "ImagePath": "Portal/LandMark/Ch5_LandMark_Image",
+    "PopupImagePath": "Portal/LastPosition/LastPosition_Chpter_5"
+  },
+  {
+    "ChapterIndex": 6,
+    "DungeonIndex": 1,
+    "Name": "MAP_HALLA_DESERT",
+    "PositionX": 1460,
+    "PositionY": 1180,
+    "ImagePath": "Portal/LandMark/Ch6_LandMark_Image",
+    "PopupImagePath": "Portal/LastPosition/LastPosition_Chpter_6"
+  },
+  {
+    "ChapterIndex": 7,
+    "DungeonIndex": 1,
+    "Name": "MAP_BALLUTUA_SNOW_MOUNTAIN",
+    "PositionX": 2080,
+    "PositionY": 460,
+    "ImagePath": "Portal/LandMark/Ch7_LandMark_Image",
+    "PopupImagePath": "Portal/LastPosition/LastPosition_Chpter_7"
+  },
+  {
+    "ChapterIndex": 8,
+    "DungeonIndex": 1,
+    "Name": "MAP_DIZARSTOM_VOLCANO",
+    "PositionX": 1230,
+    "PositionY": 400,
+    "ImagePath": "Portal/LandMark/Ch8_LandMark_Image",
+    "PopupImagePath": "Portal/LastPosition/LastPosition_Chpter_8"
+  },
+  {
+    "ChapterIndex": 4001,
+    "DungeonIndex": 1,
+    "Name": "ROYALDUNGEON_NAME",
+    "ParentNode": [
+      "100",
+      "4"
+    ],
+    "ImagePath": "Portal/NameTag/AdventureNoticeTitle_Royal",
+    "PopupImagePath": "Portal/PopupImage/Ch1_Royal",
+    "AdventureNoticeCode": "AdventureNotice_Labyrinth"
+  },
+  {
+    "ChapterIndex": 20001,
+    "DungeonIndex": 1,
+    "Name": "NODE_PRISON_NAME",
+    "ParentNode": [
+      "100",
+      "4"
+    ],
+    "ImagePath": "Portal/NameTag/AdventureNoticeTitle_Prison",
+    "PopupImagePath": "Portal/PopupImage/Ch1_Prison",
+    "AdventureNoticeCode": "AdventureNotice_Prison"
+  },
+  {
+    "ChapterIndex": 7002,
+    "DungeonIndex": 1,
+    "Name": "BROADCAST.BROADCAST_TAG_WORLDBOSS",
+    "ParentNode": [
+      "100",
+      "4"
+    ],
+    "ImagePath": "Portal/NameTag/AdventureNoticeTitle_WorldBoss",
+    "PopupImagePath": "Portal/PopupImage/WorldBoss_Popup",
+    "AdventureNoticeCode": "AdventureNotice_GlobalWorldBoss"
+  },
+  {
+    "ChapterIndex": 6001,
+    "DungeonIndex": 1,
+    "Name": "BROADCAST.BROADCAST_TAG_GUILDRAID",
+    "ParentNode": [
+      "100",
+      "4"
+    ],
+    "ImagePath": "Portal/NameTag/AdventureNoticeTitle_Raid",
+    "PopupImagePath": "Portal/PopupImage/Guild_Raid",
+    "AdventureNoticeCode": "AdventureNotice_GuildRaid"
+  },
+  {
+    "ChapterIndex": 5001,
+    "DungeonIndex": 1,
+    "Name": "CHALLENGETOWER_TITLE",
+    "ParentNode": [
+      "100",
+      "4"
+    ],
+    "ImagePath": "Portal/NameTag/AdventureNoticeTitle_ChallengeTower",
+    "PopupImagePath": "Portal/PopupImage/Ch2_ChallengeTower",
+    "AdventureNoticeCode": "AdventureNotice_ChallengeTower"
+  },
+  {
+    "ChapterIndex": 2001,
+    "DungeonIndex": 1,
+    "Name": "TOWER_TRIAL",
+    "ParentNode": [
+      "100",
+      "4"
+    ],
+    "ImagePath": "Portal/NameTag/AdventureNoticeTitle_OrdealTower",
+    "PopupImagePath": "Portal/PopupImage/Ch1_HallofHero",
+    "AdventureNoticeCode": "AdventureNotice_OrdealTower"
+  },
+  {
+    "ChapterIndex": 1000,
+    "DungeonIndex": 1,
+    "Name": "PVP_PVP1",
+    "ParentNode": [
+      "100",
+      "4"
+    ],
+    "ImagePath": "Portal/NameTag/AdventureNoticeTitle_Arena",
+    "PopupImagePath": "Portal/PopupImage/Ch1_Arena",
+    "AdventureNoticeCode": "AdventureNotice_Arena"
+  },
+  {
+    "ChapterIndex": 1000,
+    "DungeonIndex": 2,
+    "Name": "PVP_PVP2",
+    "ParentNode": [
+      "100",
+      "4"
+    ],
+    "ImagePath": "Portal/NameTag/AdventureNoticeTitle_Arena",
+    "PopupImagePath": "Portal/PopupImage/Ch1_Arena",
+    "AdventureNoticeCode": "AdventureNotice_ArenaBanPick"
+  },
+  {
+    "ChapterIndex": 9001,
+    "DungeonIndex": 1,
+    "Name": "MAZE_NAME",
+    "ParentNode": [
+      "100",
+      "4"
+    ],
+    "ImagePath": "Portal/NameTag/AdventureNoticeTitle_Royal",
+    "PopupImagePath": "Portal/PopupImage/Ch1_Royal",
+    "AdventureNoticeCode": "AdventureNotice_Maze"
+  },
+  {
+    "ChapterIndex": 9900,
+    "DungeonIndex": 1,
+    "Name": "GUILD_PUNITIVE_EXPEDITION_TITLE",
+    "ParentNode": [
+      "100",
+      "4"
+    ],
+    "ImagePath": "Portal/NameTag/AdventureNoticeTitle_Suppress",
+    "PopupImagePath": "Portal/PopupImage/Guild_Suppress",
+    "AdventureNoticeCode": "AdventureNotice_GuildSuppress"
+  },
+  {
+    "ChapterIndex": 5100,
+    "DungeonIndex": 1,
+    "Name": "TREASURE_HOUSE_TITLE",
+    "ParentNode": [
+      "100",
+      "4"
+    ],
+    "ImagePath": "Portal/NameTag/AdventureNoticeTitle_TreasureHouse",
+    "PopupImagePath": "Portal/PopupImage/Ch6_TreasureHouse",
+    "AdventureNoticeCode": "AdventureNotice_TreasureHouse"
+  }
+]

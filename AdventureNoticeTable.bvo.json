@@ -1,0 +1,183 @@
+[
+  {
+    "Code": "AdventureNotice_Labyrinth",
+    "Action": [
+      "OpenTower",
+      "999"
+    ],
+    "StaminaType": "UndergroundLabyrinthKey",
+    "EnableEvent": "true",
+    "NodeChapterIndex": 99,
+    "NodeDungeonIndex": 6
+  },
+  {
+    "Code": "AdventureNotice_Prison",
+    "Action": [
+      "EnterPrison"
+    ],
+    "StaminaType": "UndergroundPrisonKey",
+    "TutorialIndex": 2120,
+    "EnableEvent": "true",
+    "NodeChapterIndex": 99,
+    "NodeDungeonIndex": 3
+  },
+  {
+    "Code": "AdventureNotice_WorldBoss",
+    "Action": [
+      "OpenWorldBoss"
+    ],
+    "StaminaType": " WorldBossTicket",
+    "OpenCondition": [
+      "System",
+      " MenuOpenCheckManager",
+      " WorldBoss"
+    ],
+    "TutorialIndex": 6001,
+    "DisableText": "WORLDBOSS_DISABLE_DES"
+  },
+  {
+    "Code": "AdventureNotice_GlobalWorldBoss",
+    "Action": [
+      "OpenWorldBoss"
+    ],
+    "StaminaType": " WorldBossGlobalTicket",
+    "OpenCondition": [
+      "System",
+      " MenuOpenCheckManager",
+      " WorldBoss"
+    ],
+    "TutorialIndex": 6001,
+    "DisableText": "WORLDBOSS_DISABLE_DES"
+  },
+  {
+    "Code": "AdventureNotice_GuildRaid",
+    "Action": [
+      "GuildRaid"
+    ],
+    "StaminaType": "GuildRaidTicket",
+    "OpenCondition": [
+      "Table",
+      " NPCTable",
+      " GuildRaid",
+      " EntryMenuCondition1"
+    ],
+    "DisableText": "GUILDRAID_DISABLE_DES",
+    "NodeChapterIndex": 995,
+    "NodeDungeonIndex": 4
+  },
+  {
+    "Code": "AdventureNotice_ChallengeTower",
+    "Action": [
+      "OpenTower",
+      "21"
+    ],
+    "StaminaType": "ChallengeTowerKey",
+    "OpenCondition": [
+      "System",
+      " CanGoDungeon",
+      "2",
+      "27"
+    ],
+    "TutorialIndex": 5000,
+    "DisableText": "CHALLENGETOWER_DISABLE_DES",
+    "NodeChapterIndex": 2,
+    "NodeDungeonIndex": 27
+  },
+  {
+    "Code": "AdventureNotice_OrdealTower",
+    "Action": [
+      "OpenTower",
+      "11"
+    ],
+    "StaminaType": "None",
+    "OpenCondition": [
+      "Table",
+      " NPCTable",
+      " HallofHero",
+      " EntryMenuCondition3"
+    ],
+    "TutorialIndex": 2180,
+    "DisableText": "ORDEALTOWER_DISABLE_DES",
+    "NodeChapterIndex": 1,
+    "NodeDungeonIndex": 27
+  },
+  {
+    "Code": "AdventureNotice_Arena",
+    "Action": [
+      "OpenArena"
+    ],
+    "StaminaType": "Sword",
+    "TutorialIndex": 2130,
+    "NodeChapterIndex": 99,
+    "NodeDungeonIndex": 4
+  },
+  {
+    "Code": "AdventureNotice_ArenaBanPick",
+    "Action": [
+      "OpenArenaBanPick"
+    ],
+    "StaminaType": "Sword2",
+    "OpenCondition": [
+      "System",
+      " MatchManagement",
+      " CheckBanPickCondition"
+    ],
+    "TutorialIndex": 2130,
+    "DisableText": "ARENA2_DISABLE_DES",
+    "NodeChapterIndex": 99,
+    "NodeDungeonIndex": 4
+  },
+  {
+    "Code": "AdventureNotice_Maze",
+    "Action": [
+      "OpenMazeTowerList"
+    ],
+    "StaminaType": "MazeKey",
+    "OpenCondition": [
+      "Table",
+      " NPCTable",
+      " RoyalShop",
+      " EntryMenuCondition2"
+    ],
+    "TutorialIndex": 8000,
+    "DisableText": "MAZE_DISABLE_DES",
+    "NodeChapterIndex": 99,
+    "NodeDungeonIndex": 6
+  },
+  {
+    "Code": "AdventureNotice_GuildSuppress",
+    "Action": [
+      "OpenGuildSuppress"
+    ],
+    "StaminaType": "GuildSuppressKey",
+    "OpenCondition": [
+      "Table",
+      " NPCTable",
+      " GuildRaid",
+      " EntryMenuCondition1"
+    ],
+    "TutorialIndex": 9300,
+    "DisableText": "GUILDRAID_DISABLE_DES",
+    "NodeChapterIndex": 995,
+    "NodeDungeonIndex": 5
+  },
+  {
+    "Code": "AdventureNotice_TreasureHouse",
+    "Action": [
+      "OpenDungeonInfo",
+      "5100",
+      "1"
+    ],
+    "StaminaType": "TreasureHouseKey",
+    "OpenCondition": [
+      "System",
+      " CanGoDungeon",
+      "6",
+      "27"
+    ],
+    "TutorialIndex": 9400,
+    "DisableText": "TREASUREHOUSE_DISABLE_DES",
+    "NodeChapterIndex": 6,
+    "NodeDungeonIndex": 27
+  }
+]

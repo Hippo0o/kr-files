@@ -1,0 +1,206 @@
+[
+  {
+    "StateType": "Electronic",
+    "ConditionType": "StackCountEqual",
+    "ConditionValue": [
+      "5"
+    ],
+    "ActionType1": "SetState",
+    "ActionValue1": [
+      "Stun",
+      "3000"
+    ],
+    "ActionType2": "ClearState",
+    "ActionValue2": [
+      "Electronic"
+    ]
+  },
+  {
+    "StateType": "DragonSnow",
+    "ConditionType": "StackCountEqual",
+    "ConditionValue": [
+      "10"
+    ],
+    "ActionType1": "UseSkill",
+    "ActionValue1": [
+      "440293"
+    ],
+    "ActionType2": "ClearState",
+    "ActionValue2": [
+      "DragonSnow"
+    ]
+  },
+  {
+    "StateType": "OrcPowerUp1",
+    "ConditionType": "StackCountEqual",
+    "ConditionValue": [
+      "100"
+    ],
+    "ActionType1": "UseSkill",
+    "ActionValue1": [
+      "340750"
+    ],
+    "ActionType2": "ClearState",
+    "ActionValue2": [
+      "OrcPowerUp1"
+    ],
+    "ActionType3": "ClearState",
+    "ActionValue3": [
+      "OrcDefUp1"
+    ]
+  },
+  {
+    "StateType": "Mabiel",
+    "ConditionType": "StackCountEqual",
+    "ConditionValue": [
+      "1"
+    ],
+    "ActionType1": "UseSkill",
+    "ActionValue1": [
+      "340542"
+    ],
+    "ActionType2": "ClearState",
+    "ActionValue2": [
+      "Mabiel"
+    ]
+  },
+  {
+    "StateType": "MountainDef1",
+    "ConditionType": "StackCountEqual",
+    "ConditionValue": [
+      "5"
+    ],
+    "ActionType1": "UseSkill",
+    "ActionValue1": [
+      "550124"
+    ],
+    "ActionType2": "ClearState",
+    "ActionValue2": [
+      "MountainDef1"
+    ]
+  },
+  {
+    "StateType": "EnviSnow",
+    "ConditionType": "StackCountEqual",
+    "ConditionValue": [
+      "5"
+    ],
+    "ActionType1": "UseSkill",
+    "ActionValue1": [
+      "3100099"
+    ],
+    "ActionType2": "ClearState",
+    "ActionValue2": [
+      "EnviSnow"
+    ]
+  },
+  {
+    "StateType": 60001251,
+    "ConditionType": "StackCountEqual",
+    "ConditionValue": [
+      "50"
+    ],
+    "ActionType1": "UseSkill",
+    "ActionValue1": [
+      "1244"
+    ],
+    "ActionType2": "ClearState",
+    "ActionValue2": [
+      "60001251"
+    ]
+  },
+  {
+    "StateType": "Orc2PowerUp1",
+    "ConditionType": "StackCountEqual",
+    "ConditionValue": [
+      "100"
+    ],
+    "ActionType1": "UseSkill",
+    "ActionValue1": [
+      "6400150"
+    ],
+    "ActionType2": "ClearState",
+    "ActionValue2": [
+      "Orc2PowerUp1"
+    ],
+    "ActionType3": "ClearState",
+    "ActionValue3": [
+      "Orc2DefUp1"
+    ]
+  },
+  {
+    "StateType": "Mabiel1",
+    "ConditionType": "StackCountEqual",
+    "ConditionValue": [
+      "1"
+    ],
+    "ActionType1": "UseSkill",
+    "ActionValue1": [
+      "341542"
+    ],
+    "ActionType2": "ClearState",
+    "ActionValue2": [
+      "Mabiel1"
+    ]
+  },
+  {
+    "StateType": "DragonSnow1",
+    "ConditionType": "StackCountEqual",
+    "ConditionValue": [
+      "10"
+    ],
+    "ActionType1": "UseSkill",
+    "ActionValue1": [
+      "441293"
+    ],
+    "ActionType2": "ClearState",
+    "ActionValue2": [
+      "DragonSnow1"
+    ]
+  },
+  {
+    "StateType": "Inferno",
+    "ConditionType": "StackCountEqual",
+    "ConditionValue": [
+      "5"
+    ],
+    "ActionType1": "UseSkill",
+    "ActionValue1": [
+      "3200099"
+    ],
+    "ActionType2": "ClearState",
+    "ActionValue2": [
+      "Inferno"
+    ]
+  },
+  {
+    "StateType": "SummerMaviel",
+    "ConditionType": "StackCountEqual",
+    "ConditionValue": [
+      "1"
+    ],
+    "ActionType1": "UseSkill",
+    "ActionValue1": [
+      "4003122"
+    ],
+    "ActionType2": "ClearState",
+    "ActionValue2": [
+      "SummerMaviel"
+    ]
+  },
+  {
+    "StateType": "NiaStack",
+    "ConditionType": "StackCountEqual",
+    "ConditionValue": [
+      "4"
+    ],
+    "ActionType1": "UseSkill",
+    "ActionValue1": [
+      "6844"
+    ],
+    "ActionType2": "ClearState",
+    "ActionValue2": [
+      "NiaStack"
+    ]
+  }
+]

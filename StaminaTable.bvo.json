@@ -1,0 +1,269 @@
+[
+  {
+    "StaminaType": "Chicken",
+    "UpdateType": "Regen",
+    "AttributeName": "Stamina",
+    "MaxCountType": "TeamLevelDataAndHeroCount",
+    "MaxCountValue": "MaxStamina",
+    "AllowOverflow": "True",
+    "RegenTimeType": "TeamLevelData",
+    "RegenTimeValue": "RechargeStaminaSec",
+    "AutoRepeatStopMsgKey": "REPEATBATTLE_FAIL_STAMINA",
+    "HeroBonusTooltipDesc": "TooltipDesc_Chicken"
+  },
+  {
+    "StaminaType": "Sword",
+    "UpdateType": "Regen",
+    "AttributeName": "Sword",
+    "MaxCountType": "Fixed",
+    "MaxCountValue": 10,
+    "ResetCount": [
+      "10"
+    ],
+    "AllowOverflow": "True",
+    "RegenTimeType": "Fixed",
+    "RegenTimeValue": 1800,
+    "RechargeCostType": "Fixed",
+    "RechargeGemValue": [
+      "100"
+    ],
+    "ChangeReason": "RechargeSword",
+    "PopupStringKey": "RECHARGE_ARENATICKET_MESSAGE",
+    "HeroBonusTooltipDesc": "TooltipDesc_Sword"
+  },
+  {
+    "StaminaType": "UndergroundPrisonKey",
+    "UpdateType": "Reset",
+    "ResetType": "Init",
+    "AttributeName": "UndergroundPrisonKey",
+    "MaxCountType": "Fixed",
+    "MaxCountValue": 5,
+    "ResetCount": [
+      "5"
+    ],
+    "AllowOverflow": "True",
+    "RechargeCostType": "Fixed",
+    "RechargeGemValue": [
+      "100",
+      "200",
+      "400",
+      "800",
+      "1200",
+      "1600"
+    ],
+    "ChangeReason": "RechargeUndergroundPrisonKey",
+    "PopupStringKey": "TRIAL_RESET_PLAY_KEY_CONFIRM",
+    "HeroBonusTooltipDesc": "TooltipDesc_UndergroundPrisonKey"
+  },
+  {
+    "StaminaType": "UndergroundLabyrinthKey",
+    "UpdateType": "Reset",
+    "ResetType": "Init",
+    "AttributeName": "UndergroundLabyrinthKey",
+    "MaxCountType": "Fixed",
+    "MaxCountValue": 5,
+    "ResetCount": [
+      "5"
+    ],
+    "AllowOverflow": "True",
+    "AutoRepeatStopMsgKey": "REPEATBATTLE_FAIL_LABYRINTHKEY",
+    "HeroBonusTooltipDesc": "TooltipDesc_UndergroundLabyrinthKey"
+  },
+  {
+    "StaminaType": "HideoutKey",
+    "UpdateType": "Reset",
+    "ResetType": "Init",
+    "AttributeName": "HideoutKey",
+    "MaxCountType": "Fixed",
+    "MaxCountValue": 5,
+    "ResetCount": [
+      "5"
+    ],
+    "AllowOverflow": "True",
+    "RechargeCostType": "Fixed",
+    "RechargeGemValue": [
+      "100",
+      "200",
+      "400",
+      "800",
+      "1200",
+      "1600"
+    ],
+    "ChangeReason": "RechargeHideoutKey",
+    "PopupStringKey": "UPPERDUNGEON_RESET_MESSAGE1",
+    "AutoRepeatStopMsgKey": "REPEATBATTLE_FAIL_TICKET",
+    "HeroBonusTooltipDesc": "TooltipDesc_HideoutKey"
+  },
+  {
+    "StaminaType": "ChallengeTowerKey",
+    "UpdateType": "Regen",
+    "AttributeName": "ChallengeTowerKey",
+    "MaxCountType": "Fixed",
+    "MaxCountValue": 5,
+    "AllowOverflow": "True",
+    "RegenTimeType": "Fixed",
+    "RegenTimeValue": 7200,
+    "AutoRepeatStopMsgKey": "REPEATBATTLE_FAIL_CHALLENGE",
+    "HeroBonusTooltipDesc": "TooltipDesc_ChallengeTowerKey"
+  },
+  {
+    "StaminaType": "GuildRaidTicket",
+    "UpdateType": "Reset",
+    "ResetType": "Init",
+    "AttributeName": "GuildRaidTicket",
+    "MaxCountType": "Fixed",
+    "MaxCountValue": 4,
+    "ResetCount": [
+      "2"
+    ],
+    "AllowOverflow": "True",
+    "HeroBonusTooltipDesc": "TooltipDesc_GuildRaidTicket"
+  },
+  {
+    "StaminaType": "WorldBossTicket",
+    "UpdateType": "Reset",
+    "ResetType": "Init",
+    "AttributeName": "WorldBossTicket",
+    "MaxCountType": "Fixed",
+    "MaxCountValue": 2,
+    "ResetCount": [
+      "0",
+      "2",
+      "2",
+      "2",
+      "2",
+      "2",
+      "4"
+    ],
+    "AllowOverflow": "True",
+    "HeroBonusTooltipDesc": "TooltipDesc_WorldBossTicket"
+  },
+  {
+    "StaminaType": "EventDungeonTicket",
+    "UpdateType": "Reset",
+    "ResetType": "Init",
+    "AttributeName": "EventDungeonTicket",
+    "MaxCountType": "Fixed",
+    "MaxCountValue": 6,
+    "ResetCount": [
+      "6"
+    ],
+    "AllowOverflow": "True",
+    "RechargeCostType": "Fixed",
+    "ChangeReason": "RechargeEventDungeonTicket",
+    "PopupStringKey": "TRIAL_RESET_PLAY_KEY_CONFIRM",
+    "AutoRepeatStopMsgKey": "REPEATBATTLE_FAIL_TICKET",
+    "HeroBonusTooltipDesc": "TooltipDesc_EventDungeonTicket"
+  },
+  {
+    "StaminaType": "Sword2",
+    "UpdateType": "Reset",
+    "ResetType": "Init",
+    "AttributeName": "Sword2",
+    "MaxCountType": "Fixed",
+    "MaxCountValue": 30,
+    "ResetCount": [
+      "30"
+    ],
+    "AllowOverflow": "True",
+    "UtcResetHour": [
+      "9"
+    ],
+    "HeroBonusTooltipDesc": "TooltipDesc_Sword2"
+  },
+  {
+    "StaminaType": "MazeKey",
+    "UpdateType": "Reset",
+    "ResetType": "InitMonthly",
+    "AttributeName": "MazeKey",
+    "MaxCountType": "FixedMaxCount",
+    "MaxCountValue": 40,
+    "ResetCount": [
+      "5"
+    ],
+    "AllowOverflow": "True",
+    "RechargeCostType": "Fixed",
+    "RechargeGemValue": [
+      "100",
+      "200",
+      "400",
+      "800",
+      "1200",
+      "1600",
+      "2000"
+    ],
+    "MonthlyResetDate": [
+      "16"
+    ],
+    "ChangeReason": "RechargeMazeKey",
+    "PopupStringKey": "TRIAL_RESET_PLAY_KEY_CONFIRM_COUNT",
+    "AutoRepeatStopMsgKey": "REPEATBATTLE_FAIL_TICKET",
+    "HeroBonusTooltipDesc": "TooltipDesc_MazeKey"
+  },
+  {
+    "StaminaType": "GuildSuppressKey",
+    "UpdateType": "None",
+    "AttributeName": "GuildSuppressKey",
+    "MaxCountType": "Fixed",
+    "MaxCountValue": 2,
+    "ResetCount": [
+      "2"
+    ],
+    "AllowOverflow": "True",
+    "HeroBonusTooltipDesc": "TooltipDesc_GuildSuppressKey"
+  },
+  {
+    "StaminaType": "TreasureHouseKey",
+    "UpdateType": "None",
+    "AttributeName": "TreasureHouseKey",
+    "MaxCountType": "Fixed",
+    "MaxCountValue": 1,
+    "ResetCount": [
+      "1"
+    ],
+    "AllowOverflow": "True",
+    "AutoRepeatStopMsgKey": "REPEATBATTLE_FAIL_TREASURE_HOUSE",
+    "HeroBonusTooltipDesc": "TooltipDesc_TreasureHouseKey"
+  },
+  {
+    "StaminaType": "EventWorldBossTicket",
+    "UpdateType": "Reset",
+    "ResetType": "Init",
+    "AttributeName": "EventWorldBossTicket",
+    "MaxCountType": "Fixed",
+    "MaxCountValue": 2,
+    "ResetCount": [
+      "2",
+      "2",
+      "2",
+      "2",
+      "2",
+      "2",
+      "2"
+    ],
+    "AllowOverflow": "True",
+    "HeroBonusTooltipDesc": "TooltipDesc_EventWorldBossTicket"
+  },
+  {
+    "StaminaType": "WorldBossGlobalTicket",
+    "UpdateType": "Reset",
+    "ResetType": "Init",
+    "AttributeName": "WorldBossGlobalTicket",
+    "MaxCountType": "Fixed",
+    "MaxCountValue": 2,
+    "ResetCount": [
+      "0",
+      "2",
+      "2",
+      "2",
+      "2",
+      "2",
+      "2"
+    ],
+    "AllowOverflow": "True",
+    "UtcResetHour": [
+      "9"
+    ],
+    "HeroBonusTooltipDesc": "TooltipDesc_WorldBossGlobalTicket"
+  }
+]

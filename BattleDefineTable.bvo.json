@@ -1,0 +1,731 @@
+[
+  {
+    "Code": "Replay_BattleMenu",
+    "ApplyLevelPenalty": "FALSE",
+    "BattleMenu": "TimeStatus, SystemButton, Hud, BoosterStatus, ReplayExitButton"
+  },
+  {
+    "Code": "Campaign",
+    "MaxTime": 90,
+    "ExtraTime": 240,
+    "AutoRepeatStarCount": 1,
+    "ApplyLevelPenalty": "FALSE",
+    "DamageMeterFlag": "ShowAllPlayer",
+    "RetryCondition": [
+      "Win",
+      "Lose"
+    ],
+    "BattleMenu": "TimeStatus, SystemButton, SystemButtonAuto, WaveStatus, LootingStatus, Retry, DamageMeter, HeroParty, Hud, BoosterStatus, QuestStatus, Chat, EmoticonPopup"
+  },
+  {
+    "Code": "Campaign_8",
+    "MaxTime": 180,
+    "ExtraTime": 240,
+    "AutoRepeatStarCount": 1,
+    "ApplyLevelPenalty": "FALSE",
+    "DamageMeterFlag": "ShowAi",
+    "RetryCondition": [
+      "Win",
+      "Lose"
+    ],
+    "BattleMenu": "TimeStatus, SystemButton, SystemButtonAuto, WaveStatus, LootingStatus, Retry, DamageMeter, HeroParty, Hud, BoosterStatus, QuestStatus, Chat, EmoticonPopup"
+  },
+  {
+    "Code": "NonAuto",
+    "MaxTime": 90,
+    "ExtraTime": 240,
+    "AutoPlayStarCount": 99,
+    "FastSpeedStarCount": 99,
+    "AutoRepeatStarCount": 99,
+    "ApplyLevelPenalty": "FALSE",
+    "RetryCondition": [
+      "Win",
+      "Lose"
+    ],
+    "BattleMenu": "TimeStatus, SystemButton, SystemButtonAuto, WaveStatus, LootingStatus, Retry, DamageMeter, HeroParty, Hud, BoosterStatus"
+  },
+  {
+    "Code": "ClearAuto",
+    "MaxTime": 90,
+    "ExtraTime": 240,
+    "AutoPlayStarCount": 1,
+    "FastSpeedStarCount": 1,
+    "AutoRepeatStarCount": 1,
+    "ApplyLevelPenalty": "FALSE",
+    "RetryCondition": [
+      "Win",
+      "Lose"
+    ],
+    "BattleMenu": "TimeStatus, SystemButton, SystemButtonAuto, WaveStatus, LootingStatus, Retry, DamageMeter, HeroParty, Hud, BoosterStatus"
+  },
+  {
+    "Code": "Auto",
+    "MaxTime": 90,
+    "ExtraTime": 240,
+    "AutoRepeatStarCount": 1,
+    "ApplyLevelPenalty": "FALSE",
+    "RetryCondition": [
+      "Win",
+      "Lose"
+    ],
+    "BattleMenu": "TimeStatus, SystemButton, SystemButtonAuto, WaveStatus, LootingStatus, Retry, DamageMeter, HeroParty, Hud, BoosterStatus"
+  },
+  {
+    "Code": "Tutorial",
+    "MaxTime": 999999,
+    "ExtraTime": 999999,
+    "AutoPlayStarCount": 99,
+    "FastSpeedStarCount": 99,
+    "AutoRepeatStarCount": 99,
+    "ApplyLevelPenalty": "FALSE",
+    "DenyRaidInvite": "TRUE",
+    "DenyDuel": "TRUE",
+    "BattleMenu": "WaveStatus, HeroParty, Hud"
+  },
+  {
+    "Code": "Tutorial2",
+    "MaxTime": 999999,
+    "ExtraTime": 999999,
+    "AutoPlayStarCount": 99,
+    "FastSpeedStarCount": 99,
+    "AutoRepeatStarCount": 99,
+    "ApplyLevelPenalty": "FALSE",
+    "DenyRaidInvite": "TRUE",
+    "DenyDuel": "TRUE"
+  },
+  {
+    "Code": "TutorialAuto",
+    "MaxTime": 999999,
+    "ExtraTime": 999999,
+    "AutoRepeatStarCount": 1,
+    "ApplyLevelPenalty": "FALSE",
+    "DenyRaidInvite": "TRUE",
+    "DenyDuel": "TRUE",
+    "BattleMenu": "SystemButtonAuto, WaveStatus, HeroParty, Hud"
+  },
+  {
+    "Code": "Trial",
+    "MaxTime": 120,
+    "ExtraTime": 480,
+    "AutoRepeatStarCount": 99,
+    "ApplyLevelPenalty": "FALSE",
+    "RetryCondition": [
+      "Lose"
+    ],
+    "BattleMenu": "TimeStatus, SystemButton, SystemButtonAuto, DamageMeter, HeroParty, Hud, BoosterStatus, Retry"
+  },
+  {
+    "Code": "Arena",
+    "MaxTime": 90,
+    "AutoPlayStarCount": 99,
+    "FastSpeedStarCount": 99,
+    "AutoRepeatStarCount": 99,
+    "ApplyLevelPenalty": "FALSE",
+    "FastSkillTooltip": "TRUE",
+    "DenyRaidInvite": "TRUE",
+    "DenyDuel": "TRUE",
+    "RetryCondition": [
+      "Win",
+      "Lose"
+    ],
+    "ModStatType1": "MaxHp",
+    "ModStatRatioM1": 1750,
+    "BattleMenu": "TimeStatus, HeroParty, DamageMeter, Hud, SystemButtonAutoSimple, EmoticonPopup,PvpGiveUp",
+    "SkillCameraOff": "TRUE"
+  },
+  {
+    "Code": "Arena2",
+    "MaxTime": 90,
+    "AutoPlayStarCount": 99,
+    "FastSpeedStarCount": 99,
+    "AutoRepeatStarCount": 99,
+    "ApplyLevelPenalty": "FALSE",
+    "FastSkillTooltip": "TRUE",
+    "DenyRaidInvite": "TRUE",
+    "DenyDuel": "TRUE",
+    "RetryCondition": [
+      "Win",
+      "Lose"
+    ],
+    "ModStatType1": "MaxHp",
+    "ModStatRatioM1": 1750,
+    "BattleMenu": "TimeStatus, HeroParty, DamageMeter, Hud, SystemButtonAutoSimple, EmoticonPopup,PvpGiveUp",
+    "SkillCameraOff": "TRUE"
+  },
+  {
+    "Code": "Prison",
+    "MaxTime": 90,
+    "ExtraTime": 240,
+    "AutoRepeatStarCount": 1,
+    "ApplyLevelPenalty": "FALSE",
+    "RetryCondition": [
+      "Win",
+      "Lose"
+    ],
+    "BattleMenu": "TimeStatus, SystemButton, SystemButtonAuto, WaveStatus, HeroParty, DamageMeter, Hud, Retry, BoosterStatus, Chat"
+  },
+  {
+    "Code": "Tower",
+    "MaxTime": 90,
+    "ExtraTime": 240,
+    "AutoRepeatStarCount": 1,
+    "ApplyLevelPenalty": "FALSE",
+    "RetryCondition": [
+      "Win",
+      "Lose"
+    ],
+    "BattleMenu": "TimeStatus, SystemButton, SystemButtonAuto, HeroParty, DamageMeter, Hud, Retry, BoosterStatus, Chat"
+  },
+  {
+    "Code": "OrdealTower",
+    "MaxTime": 90,
+    "ExtraTime": 240,
+    "AutoRepeatStarCount": 99,
+    "ApplyLevelPenalty": "FALSE",
+    "RetryCondition": [
+      "Lose"
+    ],
+    "BattleMenu": "TimeStatus, SystemButton, SystemButtonAuto, HeroParty, DamageMeter, Hud, BoosterStatus, Chat, Retry"
+  },
+  {
+    "Code": "ChallengeTower",
+    "MaxTime": 90,
+    "ExtraTime": 30,
+    "AutoRepeatStarCount": 1,
+    "ApplyLevelPenalty": "FALSE",
+    "RetryCondition": [
+      "Win",
+      "Lose"
+    ],
+    "BattleMenu": "TimeStatus, SystemButton, SystemButtonAuto, HeroParty, DamageMeter, Hud, Retry, BoosterStatus, Chat"
+  },
+  {
+    "Code": "Pit",
+    "MaxTime": 90,
+    "ExtraTime": 240,
+    "AutoRepeatStarCount": 1,
+    "ApplyLevelPenalty": "FALSE",
+    "BattleMenu": "TimeStatus, SystemButton, SystemButtonAuto, HeroParty, DamageMeter, Hud, BoosterStatus, Chat"
+  },
+  {
+    "Code": "Labyrinth",
+    "MaxTime": 90,
+    "ExtraTime": 240,
+    "AutoRepeatStarCount": 1,
+    "ApplyLevelPenalty": "FALSE",
+    "RetryCondition": [
+      "Win",
+      "Lose"
+    ],
+    "BattleMenu": "TimeStatus, SystemButton, SystemButtonAuto, HeroParty, DamageMeter, Hud, Retry, BoosterStatus, Chat"
+  },
+  {
+    "Code": "Event",
+    "MaxTime": 90,
+    "ExtraTime": 240,
+    "AutoRepeatStarCount": 1,
+    "ApplyLevelPenalty": "FALSE",
+    "DamageMeterFlag": "ShowAllPlayer",
+    "RetryCondition": [
+      "Win",
+      "Lose"
+    ],
+    "BattleMenu": "TimeStatus, SystemButton, SystemButtonAuto, HeroParty, DamageMeter, Hud, BoosterStatus, Retry, Chat"
+  },
+  {
+    "Code": "Party",
+    "MaxTime": 90,
+    "ExtraTime": 240,
+    "AutoPlayStarCount": 99,
+    "FastSpeedStarCount": 99,
+    "ApplyLevelPenalty": "FALSE",
+    "DenyRaidInvite": "TRUE",
+    "DenyDuel": "TRUE",
+    "BattleMenu": "TimeStatus, WaveStatus, HeroParty, DamageMeter, Hud, BoosterStatus, PartyExitButton, EmoticonPopup"
+  },
+  {
+    "Code": "Raid",
+    "MaxTime": 180,
+    "AutoPlayStarCount": 99,
+    "FastSpeedStarCount": 99,
+    "ApplyLevelPenalty": "FALSE",
+    "DenyRaidInvite": "TRUE",
+    "DenyDuel": "TRUE",
+    "DamageMeterFlag": "ShowAllPlayer",
+    "BattleMenu": "TimeStatus, HeroParty, DamageMeter, Hud, BoosterStatus, SystemButton, Emoti, Chat, SystemButtonAutoSimple, PartyExitButton, EmoticonPopup",
+    "SkillCameraOff": "TRUE"
+  },
+  {
+    "Code": "IceRaid",
+    "MaxTime": 300,
+    "AutoPlayStarCount": 99,
+    "FastSpeedStarCount": 99,
+    "ApplyLevelPenalty": "FALSE",
+    "DenyRaidInvite": "TRUE",
+    "DenyDuel": "TRUE",
+    "DamageMeterFlag": "ShowAllPlayer",
+    "BattleMenu": "TimeStatus, HeroParty, DamageMeter, Hud, BoosterStatus, SystemButton, Emoti, Chat, SystemButtonAutoSimple, PartyExitButton, EmoticonPopup",
+    "SkillCameraOff": "TRUE"
+  },
+  {
+    "Code": "BlackRaid",
+    "MaxTime": 600,
+    "AutoPlayStarCount": 99,
+    "FastSpeedStarCount": 99,
+    "ApplyLevelPenalty": "FALSE",
+    "DenyRaidInvite": "TRUE",
+    "DenyDuel": "TRUE",
+    "DamageMeterFlag": "ShowAllPlayer",
+    "BattleMenu": "TimeStatus, HeroParty, DamageMeter, Hud, BoosterStatus, SystemButton, Emoti, Chat, SystemButtonAutoSimple, PartyExitButton, EmoticonPopup",
+    "SkillCameraOff": "TRUE"
+  },
+  {
+    "Code": "GreenRaid",
+    "MaxTime": 300,
+    "AutoPlayStarCount": 99,
+    "FastSpeedStarCount": 99,
+    "ApplyLevelPenalty": "FALSE",
+    "DenyRaidInvite": "TRUE",
+    "DenyDuel": "TRUE",
+    "DamageMeterFlag": "ShowAllPlayer",
+    "BattleMenu": "TimeStatus, HeroParty, DamageMeter, Hud, BoosterStatus, SystemButton, Emoti, Chat, SystemButtonAutoSimple, PartyExitButton, EmoticonPopup",
+    "SkillCameraOff": "TRUE"
+  },
+  {
+    "Code": "Test",
+    "MaxTime": 999999,
+    "ExtraTime": 999999,
+    "StartMpRatioM": 6000,
+    "AutoPlayStarCount": 99,
+    "FastSpeedStarCount": 99,
+    "AutoRepeatStarCount": 99,
+    "ApplyLevelPenalty": "FALSE",
+    "RetryCondition": [
+      "Win",
+      "Lose"
+    ],
+    "BattleMenu": "ExitButton, DamageMeter, HeroParty, Hud"
+  },
+  {
+    "Code": "Scenario",
+    "MaxTime": 999999,
+    "ExtraTime": 999999,
+    "AutoRepeatStarCount": 1,
+    "ApplyLevelPenalty": "FALSE",
+    "RetryCondition": [
+      "Lose"
+    ],
+    "BattleMenu": "SystemButton, SystemButtonAuto, WaveStatus, LootingStatus, Retry, DamageMeter, HeroParty, Hud, BoosterStatus, QuestStatus"
+  },
+  {
+    "Code": "GuildRaid",
+    "MaxTime": 300,
+    "ExtraTime": 30,
+    "AutoRepeatStarCount": 99,
+    "ApplyLevelPenalty": "FALSE",
+    "DenyRaidInvite": "TRUE",
+    "DenyDuel": "TRUE",
+    "BattleMenu": "SystemButtonAuto, TimeStatus, HeroParty, DamageMeter, Hud, BoosterStatus, Chat, GuildRaidScoreStatus"
+  },
+  {
+    "Code": "WorldBoss",
+    "MaxTime": 300,
+    "ExtraTime": 30,
+    "AutoRepeatStarCount": 99,
+    "ApplyLevelPenalty": "FALSE",
+    "DenyRaidInvite": "TRUE",
+    "DenyDuel": "TRUE",
+    "HPPercent": "TRUE",
+    "DisableBossHUD": "TRUE",
+    "DamageMeterFlag": "ShowAi",
+    "RetryCondition": [
+      "Win",
+      "Lose"
+    ],
+    "BattleCameraName": "WorldBoss",
+    "BattleMenu": "SystemButtonAuto, TimeStatus, HeroParty, DamageMeter, Hud, BoosterStatus, Chat, WorldBossScoreStatus, SystemButton, Retry"
+  },
+  {
+    "Code": "WorldBoss.Poseidon",
+    "MaxTime": 300,
+    "ExtraTime": 30,
+    "AutoRepeatStarCount": 99,
+    "ApplyLevelPenalty": "FALSE",
+    "DenyRaidInvite": "TRUE",
+    "DenyDuel": "TRUE",
+    "HPPercent": "TRUE",
+    "DisableBossHUD": "TRUE",
+    "DamageMeterFlag": "ShowAi",
+    "RetryCondition": [
+      "Win",
+      "Lose"
+    ],
+    "BattleCameraName": "WorldBoss.Poseidon",
+    "BattleMenu": "SystemButtonAuto, TimeStatus, HeroParty, DamageMeter, Hud, BoosterStatus, Chat, WorldBossScoreStatus, SystemButton, Retry"
+  },
+  {
+    "Code": "SingleRaid",
+    "MaxTime": 180,
+    "AutoPlayStarCount": 99,
+    "FastSpeedStarCount": 99,
+    "AutoRepeatStarCount": 99,
+    "ApplyLevelPenalty": "FALSE",
+    "DenyRaidInvite": "TRUE",
+    "DenyDuel": "TRUE",
+    "DamageMeterFlag": "ShowAi",
+    "BattleMenu": "TimeStatus, HeroParty, DamageMeter, Hud, BoosterStatus, SystemButton, Chat, SystemButtonAutoSimple",
+    "SkillCameraOff": "TRUE"
+  },
+  {
+    "Code": "ChallengeRaid",
+    "MaxTime": 300,
+    "AutoPlayStarCount": 99,
+    "FastSpeedStarCount": 99,
+    "AutoRepeatStarCount": 99,
+    "ApplyLevelPenalty": "FALSE",
+    "DenyRaidInvite": "TRUE",
+    "DenyDuel": "TRUE",
+    "DamageMeterFlag": "ShowAllPlayer",
+    "BattleMenu": "TimeStatus, HeroParty, DamageMeter, Hud, BoosterStatus, SystemButton, Emoti, Chat, EmoticonPopup",
+    "SkillCameraOff": "TRUE"
+  },
+  {
+    "Code": "WorldBoss.EventPoseidon",
+    "MaxTime": 120,
+    "ExtraTime": 30,
+    "AutoRepeatStarCount": 99,
+    "ApplyLevelPenalty": "FALSE",
+    "DenyRaidInvite": "TRUE",
+    "DenyDuel": "TRUE",
+    "HPPercent": "TRUE",
+    "DisableBossHUD": "TRUE",
+    "DamageMeterFlag": "ShowAi",
+    "RetryCondition": [
+      "Win",
+      "Lose"
+    ],
+    "BattleCameraName": "WorldBoss.Poseidon",
+    "BattleMenu": "SystemButtonAuto, TimeStatus, HeroParty, DamageMeter, Hud, BoosterStatus, Chat, WorldBossScoreStatus, SystemButton, Retry"
+  },
+  {
+    "Code": "DpsTest",
+    "MaxTime": 300,
+    "ExtraTime": 30,
+    "AutoRepeatStarCount": 99,
+    "ApplyLevelPenalty": "FALSE",
+    "DenyRaidInvite": "TRUE",
+    "DenyDuel": "TRUE",
+    "DisableBossHUD": "TRUE",
+    "DamageMeterFlag": "ShowAi",
+    "RetryCondition": [
+      "Win",
+      "Lose"
+    ],
+    "BattleMenu": "SystemButtonAuto, TimeStatus, HeroParty, DamageMeter, Hud, BoosterStatus, Chat, GuildRaidScoreStatus, SystemButton, Retry"
+  },
+  {
+    "Code": "Raid_Hard",
+    "MaxTime": 180,
+    "AutoPlayStarCount": 99,
+    "FastSpeedStarCount": 99,
+    "AutoRepeatStarCount": 99,
+    "ApplyLevelPenalty": "FALSE",
+    "DenyRaidInvite": "TRUE",
+    "DenyDuel": "TRUE",
+    "DamageMeterFlag": "ShowAllPlayer",
+    "BattleMenu": "TimeStatus, HeroParty, DamageMeter, Hud, BoosterStatus, SystemButton, Emoti, Chat, EmoticonPopup",
+    "SkillCameraOff": "TRUE"
+  },
+  {
+    "Code": "IceRaid_Hard",
+    "MaxTime": 300,
+    "AutoPlayStarCount": 99,
+    "FastSpeedStarCount": 99,
+    "AutoRepeatStarCount": 99,
+    "ApplyLevelPenalty": "FALSE",
+    "DenyRaidInvite": "TRUE",
+    "DenyDuel": "TRUE",
+    "DamageMeterFlag": "ShowAllPlayer",
+    "BattleMenu": "TimeStatus, HeroParty, DamageMeter, Hud, BoosterStatus, SystemButton, Emoti, Chat, EmoticonPopup",
+    "SkillCameraOff": "TRUE"
+  },
+  {
+    "Code": "BlackRaid_Hard",
+    "MaxTime": 600,
+    "AutoPlayStarCount": 99,
+    "FastSpeedStarCount": 99,
+    "AutoRepeatStarCount": 99,
+    "ApplyLevelPenalty": "FALSE",
+    "DenyRaidInvite": "TRUE",
+    "DenyDuel": "TRUE",
+    "DamageMeterFlag": "ShowAllPlayer",
+    "BattleMenu": "TimeStatus, HeroParty, DamageMeter, Hud, BoosterStatus, SystemButton, Emoti, Chat, EmoticonPopup",
+    "SkillCameraOff": "TRUE"
+  },
+  {
+    "Code": "GreenRaid_Hard",
+    "MaxTime": 300,
+    "AutoPlayStarCount": 99,
+    "FastSpeedStarCount": 99,
+    "AutoRepeatStarCount": 99,
+    "ApplyLevelPenalty": "FALSE",
+    "DenyRaidInvite": "TRUE",
+    "DenyDuel": "TRUE",
+    "DamageMeterFlag": "ShowAllPlayer",
+    "BattleMenu": "TimeStatus, HeroParty, DamageMeter, Hud, BoosterStatus, SystemButton, Emoti, Chat, EmoticonPopup",
+    "SkillCameraOff": "TRUE"
+  },
+  {
+    "Code": "Raid_Tutorial",
+    "MaxTime": 999999,
+    "ExtraTime": 999999,
+    "AutoPlayStarCount": 99,
+    "FastSpeedStarCount": 99,
+    "AutoRepeatStarCount": 99,
+    "ApplyLevelPenalty": "FALSE",
+    "DenyRaidInvite": "TRUE",
+    "DenyDuel": "TRUE",
+    "DamageMeterFlag": "ShowAllPlayer",
+    "BattleMenu": "HeroParty, Hud, Emoti",
+    "SkillCameraOff": "TRUE"
+  },
+  {
+    "Code": "Raid_Hard_Solo",
+    "MaxTime": 180,
+    "ApplyLevelPenalty": "FALSE",
+    "DenyRaidInvite": "TRUE",
+    "DenyDuel": "TRUE",
+    "DamageMeterFlag": "ShowAi",
+    "BattleMenu": "TimeStatus, HeroParty, DamageMeter, Hud, BoosterStatus, SystemButton, Chat, SystemButtonAutoSimple",
+    "IgnoreDropItem": "TRUE",
+    "SkillCameraOff": "TRUE"
+  },
+  {
+    "Code": "IceRaid_Hard_Solo",
+    "MaxTime": 300,
+    "ApplyLevelPenalty": "FALSE",
+    "DenyRaidInvite": "TRUE",
+    "DenyDuel": "TRUE",
+    "DamageMeterFlag": "ShowAi",
+    "BattleMenu": "TimeStatus, HeroParty, DamageMeter, Hud, BoosterStatus, SystemButton, Chat, SystemButtonAutoSimple",
+    "IgnoreDropItem": "TRUE",
+    "SkillCameraOff": "TRUE"
+  },
+  {
+    "Code": "BlackRaid_Hard_Solo",
+    "MaxTime": 600,
+    "ApplyLevelPenalty": "FALSE",
+    "DenyRaidInvite": "TRUE",
+    "DenyDuel": "TRUE",
+    "DamageMeterFlag": "ShowAi",
+    "BattleMenu": "TimeStatus, HeroParty, DamageMeter, Hud, BoosterStatus, SystemButton, Chat, SystemButtonAutoSimple",
+    "IgnoreDropItem": "TRUE",
+    "SkillCameraOff": "TRUE"
+  },
+  {
+    "Code": "GreenRaid_Hard_Solo",
+    "MaxTime": 300,
+    "ApplyLevelPenalty": "FALSE",
+    "DenyRaidInvite": "TRUE",
+    "DenyDuel": "TRUE",
+    "DamageMeterFlag": "ShowAi",
+    "BattleMenu": "TimeStatus, HeroParty, DamageMeter, Hud, BoosterStatus, SystemButton, Chat, SystemButtonAutoSimple",
+    "IgnoreDropItem": "TRUE",
+    "SkillCameraOff": "TRUE"
+  },
+  {
+    "Code": "Maze",
+    "MaxTime": 240,
+    "ExtraTime": 240,
+    "AutoRepeatStarCount": 1,
+    "ApplyLevelPenalty": "FALSE",
+    "RetryCondition": [
+      "Win",
+      "Lose"
+    ],
+    "BattleMenu": "TimeStatus, SystemButton, SystemButtonAuto, HeroParty, DamageMeter, Hud, Retry, BoosterStatus, Chat"
+  },
+  {
+    "Code": "ChallengeRaidSingle",
+    "MaxTime": 300,
+    "ApplyLevelPenalty": "FALSE",
+    "DenyRaidInvite": "TRUE",
+    "DenyDuel": "TRUE",
+    "DamageMeterFlag": "ShowAi",
+    "BattleMenu": "TimeStatus, HeroParty, DamageMeter, Hud, BoosterStatus, SystemButton, Chat",
+    "IgnoreDropItem": "TRUE",
+    "SkillCameraOff": "TRUE"
+  },
+  {
+    "Code": "Campaign_SubStory",
+    "MaxTime": 90,
+    "ExtraTime": 240,
+    "AutoRepeatStarCount": 99,
+    "ApplyLevelPenalty": "FALSE",
+    "DamageMeterFlag": "ShowAllPlayer",
+    "RetryCondition": [
+      "Win",
+      "Lose"
+    ],
+    "BattleMenu": "TimeStatus, WaveStatus, LootingStatus, HeroParty, DamageMeter,Hud, BoosterStatus, QuestStatus, Chat",
+    "IgnoreDropItem": "TRUE"
+  },
+  {
+    "Code": "Campaign_SubStoryBoss",
+    "MaxTime": 90,
+    "ExtraTime": 240,
+    "AutoRepeatStarCount": 1,
+    "ApplyLevelPenalty": "FALSE",
+    "DamageMeterFlag": "ShowAllPlayer",
+    "RetryCondition": [
+      "Win",
+      "Lose"
+    ],
+    "BattleMenu": "TimeStatus, SystemButton, SystemButtonAuto, WaveStatus, LootingStatus, Retry, DamageMeter, HeroParty, Hud, BoosterStatus, QuestStatus, Chat",
+    "IgnoreDropItem": "TRUE"
+  },
+  {
+    "Code": "GuildSuppress",
+    "MaxTime": 300,
+    "ExtraTime": 30,
+    "AutoRepeatStarCount": 99,
+    "ApplyLevelPenalty": "FALSE",
+    "DenyRaidInvite": "TRUE",
+    "DenyDuel": "TRUE",
+    "HPPercent": "TRUE",
+    "DamageMeterFlag": "ShowAllPlayer",
+    "BattleCameraName": "GuildSuppress",
+    "BattleMenu": "SystemButtonAutoSimple, TimeStatus, HeroParty, DamageMeter, Hud, BoosterStatus, Chat, GuildSuppressScorestatus, EmoticonPopup",
+    "SkillCameraOff": "TRUE"
+  },
+  {
+    "Code": "GuildSuppress1",
+    "MaxTime": 300,
+    "ExtraTime": 30,
+    "AutoRepeatStarCount": 99,
+    "ApplyLevelPenalty": "FALSE",
+    "DenyRaidInvite": "TRUE",
+    "DenyDuel": "TRUE",
+    "HPPercent": "TRUE",
+    "DamageMeterFlag": "ShowAllPlayer",
+    "BattleMenu": "SystemButtonAutoSimple, TimeStatus, HeroParty, DamageMeter, Hud, BoosterStatus, Chat, GuildSuppressScorestatus, EmoticonPopup",
+    "SkillCameraOff": "TRUE"
+  },
+  {
+    "Code": "Campaign_SubStoryBoss1",
+    "MaxTime": 150,
+    "ExtraTime": 240,
+    "AutoRepeatStarCount": 1,
+    "ApplyLevelPenalty": "FALSE",
+    "DamageMeterFlag": "ShowAllPlayer",
+    "RetryCondition": [
+      "Win",
+      "Lose"
+    ],
+    "BattleMenu": "TimeStatus, SystemButton, SystemButtonAuto, WaveStatus, LootingStatus, Retry, DamageMeter, HeroParty, Hud, BoosterStatus, QuestStatus, Chat",
+    "IgnoreDropItem": "TRUE"
+  },
+  {
+    "Code": "ChallengeRaidSingle_Damage",
+    "MaxTime": 180,
+    "ExtraTime": 30,
+    "AutoRepeatStarCount": 1,
+    "ApplyLevelPenalty": "FALSE",
+    "DenyRaidInvite": "TRUE",
+    "DenyDuel": "TRUE",
+    "HPPercent": "TRUE",
+    "DamageMeterFlag": "ShowAi",
+    "BattleMenu": "TimeStatus, HeroParty, DamageMeter, Hud, BoosterStatus, SystemButton, Chat, ChallengeRaidScorestatus, SystemButtonAutoSimple",
+    "IgnoreDropItem": "TRUE",
+    "SkillCameraOff": "TRUE"
+  },
+  {
+    "Code": "Campaign_SubStoryBoss2",
+    "MaxTime": 120,
+    "ExtraTime": 240,
+    "AutoRepeatStarCount": 1,
+    "ApplyLevelPenalty": "FALSE",
+    "DamageMeterFlag": "ShowAllPlayer",
+    "RetryCondition": [
+      "Win",
+      "Lose"
+    ],
+    "BattleMenu": "TimeStatus, SystemButton, SystemButtonAuto, WaveStatus, LootingStatus, Retry, DamageMeter, HeroParty, Hud, BoosterStatus, QuestStatus, Chat",
+    "IgnoreDropItem": "TRUE"
+  },
+  {
+    "Code": "TreasureHouse",
+    "MaxTime": 30,
+    "AutoRepeatStarCount": 1,
+    "ApplyLevelPenalty": "FALSE",
+    "HPPercent": "TRUE",
+    "DamageMeterFlag": "ShowAllPlayer",
+    "RetryCondition": [
+      "Win",
+      "Lose"
+    ],
+    "BattleMenu": "TimeStatus, SystemButtonAuto, WaveStatus, LootingStatus, Retry, DamageMeter, HeroParty, Hud, BoosterStatus, QuestStatus, Chat"
+  },
+  {
+    "Code": "GuildSuppressSingle",
+    "MaxTime": 300,
+    "ExtraTime": 30,
+    "AutoRepeatStarCount": 99,
+    "ApplyLevelPenalty": "FALSE",
+    "DenyRaidInvite": "TRUE",
+    "DenyDuel": "TRUE",
+    "HPPercent": "TRUE",
+    "DamageMeterFlag": "ShowAi",
+    "BattleCameraName": "GuildSuppress",
+    "BattleMenu": "SystemButtonAutoSimple, TimeStatus, HeroParty, DamageMeter, Hud, BoosterStatus, Chat, GuildSuppressScorestatus",
+    "SkillCameraOff": "TRUE"
+  },
+  {
+    "Code": "GuildSuppress1Single",
+    "MaxTime": 300,
+    "ExtraTime": 30,
+    "AutoRepeatStarCount": 99,
+    "ApplyLevelPenalty": "FALSE",
+    "DenyRaidInvite": "TRUE",
+    "DenyDuel": "TRUE",
+    "HPPercent": "TRUE",
+    "DamageMeterFlag": "ShowAi",
+    "BattleMenu": "SystemButtonAutoSimple, TimeStatus, HeroParty, DamageMeter, Hud, BoosterStatus, Chat, GuildSuppressScorestatus",
+    "SkillCameraOff": "TRUE"
+  },
+  {
+    "Code": "WorldBoss.EventMountain",
+    "MaxTime": 120,
+    "ExtraTime": 30,
+    "AutoRepeatStarCount": 99,
+    "ApplyLevelPenalty": "FALSE",
+    "DenyRaidInvite": "TRUE",
+    "DenyDuel": "TRUE",
+    "HPPercent": "TRUE",
+    "DisableBossHUD": "TRUE",
+    "DamageMeterFlag": "ShowAi",
+    "RetryCondition": [
+      "Win",
+      "Lose"
+    ],
+    "BattleCameraName": "WorldBoss",
+    "BattleMenu": "SystemButtonAuto, TimeStatus, HeroParty, DamageMeter, Hud, BoosterStatus, Chat, WorldBossScoreStatus, SystemButton, Retry"
+  },
+  {
+    "Code": "WorldBoss.Xanadus",
+    "MaxTime": 210,
+    "AutoRepeatStarCount": 99,
+    "ApplyLevelPenalty": "FALSE",
+    "DenyRaidInvite": "TRUE",
+    "DenyDuel": "TRUE",
+    "HPPercent": "TRUE",
+    "DisableBossHUD": "TRUE",
+    "DamageMeterFlag": "ShowAi",
+    "RetryCondition": [
+      "Win",
+      "Lose"
+    ],
+    "BattleCameraName": "WorldBoss.Xanadus",
+    "BattleMenu": "SystemButtonAuto, TimeStatus, HeroParty, DamageMeter, Hud, BoosterStatus, Chat, WorldBossScoreStatus, SystemButton, Retry"
+  }
+]

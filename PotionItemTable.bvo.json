@@ -1,0 +1,511 @@
+[
+  {
+    "ItemCode": "EXPPOTION_EMPTY_1",
+    "ActionType": "GetHeroExp",
+    "ActionValue": 10
+  },
+  {
+    "ItemCode": "EXPPOTION_EMPTY_2",
+    "ActionType": "GetHeroExp",
+    "ActionValue": 20
+  },
+  {
+    "ItemCode": "EXPPOTION_EMPTY_3",
+    "ActionType": "GetHeroExp",
+    "ActionValue": 40
+  },
+  {
+    "ItemCode": "EXPPOTION_EMPTY_4",
+    "ActionType": "GetHeroExp",
+    "ActionValue": 80
+  },
+  {
+    "ItemCode": "EXPPOTION_FULL_1",
+    "ActionType": "GetHeroExp",
+    "ActionValue": 200
+  },
+  {
+    "ItemCode": "EXPPOTION_FULL_2",
+    "ActionType": "GetHeroExp",
+    "ActionValue": 1000
+  },
+  {
+    "ItemCode": "EXPPOTION_FULL_3",
+    "ActionType": "GetHeroExp",
+    "ActionValue": 5000
+  },
+  {
+    "ItemCode": "EXPPOTION_FULL_4",
+    "ActionType": "GetHeroExp",
+    "ActionValue": 25000
+  },
+  {
+    "ItemCode": "EXPPOTION_FULL_5",
+    "ActionType": "GetHeroExp",
+    "ActionValue": 125000
+  },
+  {
+    "ItemCode": "EXPPOTION_FULL_6",
+    "ActionType": "GetHeroExp",
+    "ActionValue": 250000
+  },
+  {
+    "ItemCode": "STAMINAPOTION_1",
+    "ActionType": "RecoverStamina",
+    "ActionValue": 20
+  },
+  {
+    "ItemCode": "STAMINAPOTION_2",
+    "ActionType": "RecoverStamina",
+    "ActionValue": 40
+  },
+  {
+    "ItemCode": "STAMINAPOTION_3",
+    "ActionType": "RecoverStamina",
+    "ActionValue": 60
+  },
+  {
+    "ItemCode": "STAMINAPOTION_4",
+    "ActionType": "RecoverStamina",
+    "ActionValue": 80
+  },
+  {
+    "ItemCode": "STAMINAPOTION_5",
+    "ActionType": "RecoverStamina",
+    "ActionValue": 100
+  },
+  {
+    "ItemCode": "STAMINAPOTION_6",
+    "ActionType": "RecoverStamina",
+    "ActionValue": 120
+  },
+  {
+    "ItemCode": "STAMINA_POTION_S",
+    "ActionType": "RecoverStamina",
+    "ActionValue": 150
+  },
+  {
+    "ItemCode": "STAMINA_POTION_L",
+    "ActionType": "RecoverStamina",
+    "ActionValue": 500
+  },
+  {
+    "ItemCode": "TOWER_CUBE_1",
+    "ActionType": "RecoverStamina",
+    "ActionValue": 5,
+    "ActionSubValue": "ChallengeTowerKey"
+  },
+  {
+    "ItemCode": "ROYALVAULT_KEY_5",
+    "ActionType": "RecoverStamina",
+    "ActionValue": 5,
+    "ActionSubValue": "UndergroundLabyrinthKey"
+  },
+  {
+    "ItemCode": "LABYRINTH_KEY_5",
+    "ActionType": "RecoverStamina",
+    "ActionValue": 5,
+    "ActionSubValue": "UndergroundPrisonKey"
+  },
+  {
+    "ItemCode": "STAMINAPOTION_10",
+    "ActionType": "RecoverStamina",
+    "ActionValue": 750,
+    "BoosterCodes": [
+      "BOOSTER_GOLD_30M"
+    ]
+  },
+  {
+    "ItemCode": "STAMINAPOTION_11",
+    "ActionType": "RecoverStamina",
+    "ActionValue": 750,
+    "BoosterCodes": [
+      "BOOSTER_EXP_30M"
+    ]
+  },
+  {
+    "ItemCode": "STAMINAPOTION_12",
+    "ActionType": "RecoverStamina",
+    "ActionValue": 1000,
+    "BoosterCodes": [
+      "BOOSTER_GOLD_1H"
+    ]
+  },
+  {
+    "ItemCode": "STAMINAPOTION_13",
+    "ActionType": "RecoverStamina",
+    "ActionValue": 1000,
+    "BoosterCodes": [
+      "BOOSTER_EXP_1H"
+    ]
+  },
+  {
+    "ItemCode": "STAMINAPOTION_14",
+    "ActionType": "RecoverStamina",
+    "ActionValue": 1500,
+    "BoosterCodes": [
+      "BOOSTER_GOLD_1H",
+      "BOOSTER_EXP_1H"
+    ]
+  },
+  {
+    "ItemCode": "HIDEOUT_KEY_5",
+    "ActionType": "RecoverHideoutKey",
+    "ActionValue": 5,
+    "ActionSubValue": "HideoutKey"
+  },
+  {
+    "ItemCode": "WORLDBOSS_KEY_1",
+    "ActionType": "RecoverStamina",
+    "ActionValue": 1,
+    "ActionSubValue": "WorldBossTicket"
+  },
+  {
+    "ItemCode": "RUBYFLASK_FULL_0",
+    "ActionType": "RecoverGem",
+    "ActionValue": 2,
+    "UIEffectPrefabName": "PotionEffect_RecoverGem",
+    "UIEffectValue": [
+      "Game UI Root/Contents Group/IconConfirmPopup(Clone)/Panel/Root/Button_Yes",
+      "Game UI Root/Contents Group/TopmostMenu(Clone)/Panel/Root/ResourceUi_Root/Table/WidgetGem/Sprite_GemIcon"
+    ]
+  },
+  {
+    "ItemCode": "RUBYFLASK_FULL_1",
+    "ActionType": "RecoverGem",
+    "ActionValue": 22,
+    "UIEffectPrefabName": "PotionEffect_RecoverGem",
+    "UIEffectValue": [
+      "Game UI Root/Contents Group/IconConfirmPopup(Clone)/Panel/Root/Button_Yes",
+      "Game UI Root/Contents Group/TopmostMenu(Clone)/Panel/Root/ResourceUi_Root/Table/WidgetGem/Sprite_GemIcon"
+    ]
+  },
+  {
+    "ItemCode": "RUBYFLASK_FULL_2",
+    "ActionType": "RecoverGem",
+    "ActionValue": 240,
+    "UIEffectPrefabName": "PotionEffect_RecoverGem",
+    "UIEffectValue": [
+      "Game UI Root/Contents Group/IconConfirmPopup(Clone)/Panel/Root/Button_Yes",
+      "Game UI Root/Contents Group/TopmostMenu(Clone)/Panel/Root/ResourceUi_Root/Table/WidgetGem/Sprite_GemIcon"
+    ]
+  },
+  {
+    "ItemCode": "RUBYFLASK_FULL_11",
+    "ActionType": "RecoverGem",
+    "ActionValue": 2,
+    "UIEffectPrefabName": "PotionEffect_RecoverGem",
+    "UIEffectValue": [
+      "Game UI Root/Contents Group/IconConfirmPopup(Clone)/Panel/Root/Button_Yes",
+      "Game UI Root/Contents Group/TopmostMenu(Clone)/Panel/Root/ResourceUi_Root/Table/WidgetGem/Sprite_GemIcon"
+    ]
+  },
+  {
+    "ItemCode": "RUBYFLASK_FULL_12",
+    "ActionType": "RecoverGem",
+    "ActionValue": 5,
+    "UIEffectPrefabName": "PotionEffect_RecoverGem",
+    "UIEffectValue": [
+      "Game UI Root/Contents Group/IconConfirmPopup(Clone)/Panel/Root/Button_Yes",
+      "Game UI Root/Contents Group/TopmostMenu(Clone)/Panel/Root/ResourceUi_Root/Table/WidgetGem/Sprite_GemIcon"
+    ]
+  },
+  {
+    "ItemCode": "RUBYFLASK_FULL_13",
+    "ActionType": "RecoverGem",
+    "ActionValue": 20,
+    "UIEffectPrefabName": "PotionEffect_RecoverGem",
+    "UIEffectValue": [
+      "Game UI Root/Contents Group/IconConfirmPopup(Clone)/Panel/Root/Button_Yes",
+      "Game UI Root/Contents Group/TopmostMenu(Clone)/Panel/Root/ResourceUi_Root/Table/WidgetGem/Sprite_GemIcon"
+    ]
+  },
+  {
+    "ItemCode": "WORLDBOSS_KEY_2",
+    "ActionType": "RecoverStamina",
+    "ActionValue": 1,
+    "ActionSubValue": "WorldBossTicket"
+  },
+  {
+    "ItemCode": "EVENT_STAMINAPOTION_1",
+    "ActionType": "RecoverStamina",
+    "ActionValue": 40
+  },
+  {
+    "ItemCode": "EVENT_STAMINAPOTION_2",
+    "ActionType": "RecoverStamina",
+    "ActionValue": 40
+  },
+  {
+    "ItemCode": "EVENT_STAMINAPOTION_3",
+    "ActionType": "RecoverStamina",
+    "ActionValue": 40
+  },
+  {
+    "ItemCode": "EVENT_STAMINAPOTION_4",
+    "ActionType": "RecoverStamina",
+    "ActionValue": 40
+  },
+  {
+    "ItemCode": "EVENT_STAMINAPOTION_5",
+    "ActionType": "RecoverStamina",
+    "ActionValue": 40
+  },
+  {
+    "ItemCode": "EVENT_STAMINAPOTION_6",
+    "ActionType": "RecoverStamina",
+    "ActionValue": 40
+  },
+  {
+    "ItemCode": "EVENT_STAMINAPOTION_7",
+    "ActionType": "RecoverStamina",
+    "ActionValue": 40
+  },
+  {
+    "ItemCode": "EVENTFLASK_FULL_1",
+    "ActionType": "GetHeroExp",
+    "ActionValue": 2000000
+  },
+  {
+    "ItemCode": "EVENTFLASK_FULL_2",
+    "ActionType": "GetHeroExp",
+    "ActionValue": 2000000
+  },
+  {
+    "ItemCode": "EVENTFLASK_FULL_3",
+    "ActionType": "GetHeroExp",
+    "ActionValue": 2000000
+  },
+  {
+    "ItemCode": "EVENTFLASK_FULL_4",
+    "ActionType": "GetHeroExp",
+    "ActionValue": 2000000
+  },
+  {
+    "ItemCode": "EVENTFLASK_FULL_5",
+    "ActionType": "RecoverStamina",
+    "ActionValue": 1000
+  },
+  {
+    "ItemCode": "EVENTFLASK_FULL_6",
+    "ActionType": "RecoverStamina",
+    "ActionValue": 1000
+  },
+  {
+    "ItemCode": "EVENTFLASK_FULL_7",
+    "ActionType": "RecoverStamina",
+    "ActionValue": 1000
+  },
+  {
+    "ItemCode": "EVENTFLASK_FULL_8",
+    "ActionType": "RecoverStamina",
+    "ActionValue": 1000
+  },
+  {
+    "ItemCode": "EVENTFLASK_FULL_9",
+    "ActionType": "RecoverGem",
+    "ActionValue": 500,
+    "UIEffectPrefabName": "PotionEffect_RecoverGem",
+    "UIEffectValue": [
+      "Game UI Root/Contents Group/IconConfirmPopup(Clone)/Panel/Root/Button_Yes",
+      "Game UI Root/Contents Group/TopmostMenu(Clone)/Panel/Root/ResourceUi_Root/Table/WidgetGem/Sprite_GemIcon"
+    ]
+  },
+  {
+    "ItemCode": "EVENTFLASK_FULL_10",
+    "ActionType": "RecoverGem",
+    "ActionValue": 500,
+    "UIEffectPrefabName": "PotionEffect_RecoverGem",
+    "UIEffectValue": [
+      "Game UI Root/Contents Group/IconConfirmPopup(Clone)/Panel/Root/Button_Yes",
+      "Game UI Root/Contents Group/TopmostMenu(Clone)/Panel/Root/ResourceUi_Root/Table/WidgetGem/Sprite_GemIcon"
+    ]
+  },
+  {
+    "ItemCode": "EVENTFLASK_FULL_11",
+    "ActionType": "RecoverGem",
+    "ActionValue": 500,
+    "UIEffectPrefabName": "PotionEffect_RecoverGem",
+    "UIEffectValue": [
+      "Game UI Root/Contents Group/IconConfirmPopup(Clone)/Panel/Root/Button_Yes",
+      "Game UI Root/Contents Group/TopmostMenu(Clone)/Panel/Root/ResourceUi_Root/Table/WidgetGem/Sprite_GemIcon"
+    ]
+  },
+  {
+    "ItemCode": "EVENTFLASK_FULL_12",
+    "ActionType": "RecoverGem",
+    "ActionValue": 500,
+    "UIEffectPrefabName": "PotionEffect_RecoverGem",
+    "UIEffectValue": [
+      "Game UI Root/Contents Group/IconConfirmPopup(Clone)/Panel/Root/Button_Yes",
+      "Game UI Root/Contents Group/TopmostMenu(Clone)/Panel/Root/ResourceUi_Root/Table/WidgetGem/Sprite_GemIcon"
+    ]
+  },
+  {
+    "ItemCode": "STAMINA_POTION_FULL",
+    "ActionType": "RecoverStaminaPercent",
+    "ActionValue": 100
+  },
+  {
+    "ItemCode": "ITEM_INVEN_PACKAGE_80",
+    "ActionType": "ExtendEquip",
+    "ActionValue": 10
+  },
+  {
+    "ItemCode": "ITEM_INVEN_PACKAGE_400",
+    "ActionType": "ExtendEquip",
+    "ActionValue": 50
+  },
+  {
+    "ItemCode": "ITEM_INVEN_PACKAGE_720",
+    "ActionType": "ExtendEquip",
+    "ActionValue": 90
+  },
+  {
+    "ItemCode": "EXPPOTION_EVENT_1",
+    "ActionType": "GetHeroExp",
+    "ActionValue": 100000
+  },
+  {
+    "ItemCode": "EVENTFLASK_FULL_13",
+    "ActionType": "GetHeroExp",
+    "ActionValue": 1000000
+  },
+  {
+    "ItemCode": "EVENTFLASK_FULL_14",
+    "ActionType": "RecoverStamina",
+    "ActionValue": 200
+  },
+  {
+    "ItemCode": "EVENTFLASK_FULL_15",
+    "ActionType": "RecoverGem",
+    "ActionValue": 300,
+    "UIEffectPrefabName": "PotionEffect_RecoverGem",
+    "UIEffectValue": [
+      "Game UI Root/Contents Group/IconConfirmPopup(Clone)/Panel/Root/Button_Yes",
+      "Game UI Root/Contents Group/TopmostMenu(Clone)/Panel/Root/ResourceUi_Root/Table/WidgetGem/Sprite_GemIcon"
+    ]
+  },
+  {
+    "ItemCode": "ARENA1_SWORD_5",
+    "ActionType": "RecoverStamina",
+    "ActionValue": 5,
+    "ActionSubValue": "Sword"
+  },
+  {
+    "ItemCode": "ARCHIVE_VALOG",
+    "ActionType": "CompleteArchive",
+    "ActionValue": 10,
+    "ActionValue2": 8,
+    "ActionSubValue": 8801,
+    "AutoUse": "true"
+  },
+  {
+    "ItemCode": "SUPPRESS_KEY_2",
+    "ActionType": "RecoverStamina",
+    "ActionValue": 2,
+    "ActionSubValue": "GuildSuppressKey"
+  },
+  {
+    "ItemCode": "ACHIEVEMENT_WIN_SUPPRESS",
+    "ActionType": "CompleteAchievement",
+    "ActionValue": 1,
+    "ActionSubValue": "WinGuildSuppress",
+    "AutoUse": "true"
+  },
+  {
+    "ItemCode": "SUMMER_TICKET_1",
+    "ActionType": "RecoverStamina",
+    "ActionValue": 1,
+    "ActionSubValue": "EventDungeonTicket"
+  },
+  {
+    "ItemCode": "GOLD_CUBE",
+    "ActionType": "RecoverStamina",
+    "ActionValue": 1,
+    "ActionSubValue": "TreasureHouseKey"
+  },
+  {
+    "ItemCode": "EVENT_STAMINABOOSTER_1",
+    "ActionType": "RecoverStamina",
+    "ActionValue": 200,
+    "BoosterCodes": [
+      "BOOSTER_EVENT_CHUSEOK_EXP",
+      "BOOSTER_EVENT_CHUSEOK_GOLD"
+    ]
+  },
+  {
+    "ItemCode": "ITEM_CHEST_PACKAGE_40",
+    "ActionType": "ExtendChest",
+    "ActionValue": 10
+  },
+  {
+    "ItemCode": "ITEM_CHEST_PACKAGE_200",
+    "ActionType": "ExtendChest",
+    "ActionValue": 50
+  },
+  {
+    "ItemCode": "WORLDBOSS_KEY_3",
+    "ActionType": "RecoverStamina",
+    "ActionValue": 1,
+    "ActionSubValue": "WorldBossGlobalTicket"
+  },
+  {
+    "ItemCode": "EVENT_COOKIE_STICK",
+    "ActionType": "RecoverStamina",
+    "ActionValue": 1111
+  },
+  {
+    "ItemCode": "EVENT_COOKIE_STICK_CHOCOLATE",
+    "ActionType": "RecoverStamina",
+    "ActionValue": 3000,
+    "BoosterCodes": [
+      "BOOSTER_EVENT_COOKIE_STICK_GOLD",
+      "BOOSTER_EVENT_COOKIE_STICK_EXP"
+    ]
+  },
+  {
+    "ItemCode": "EVENT_COOKIE_STICK_STRAWBERRY",
+    "ActionType": "RecoverStamina",
+    "ActionValue": 3000,
+    "BoosterCodes": [
+      "BOOSTER_EVENT_COOKIE_STICK_ITEM"
+    ]
+  },
+  {
+    "ItemCode": "EVENT_2018_THANKSGIVING_FOOD_STAMINA",
+    "ActionType": "RecoverStamina",
+    "ActionValue": 30
+  },
+  {
+    "ItemCode": "EVENT_2018_THANKSGIVING_FOOD_EXPBOOSTER",
+    "ActionType": "RecoverStamina",
+    "ActionValue": 30,
+    "BoosterCodes": [
+      "BOOSTER_EVENT_THANKSGIVING_2018_EXP"
+    ]
+  },
+  {
+    "ItemCode": "EVENT_2018_THANKSGIVING_FOOD_GOLDBOOSTER",
+    "ActionType": "RecoverStamina",
+    "ActionValue": 30,
+    "BoosterCodes": [
+      "BOOSTER_EVENT_THANKSGIVING_2018_GOLD"
+    ]
+  },
+  {
+    "ItemCode": "TRANSCEND_5POINT",
+    "ActionType": "AddTranscendPoint",
+    "ActionValue": 5
+  },
+  {
+    "ItemCode": "TRANSCEND_10POINT",
+    "ActionType": "AddTranscendPoint",
+    "ActionValue": 10
+  },
+  {
+    "ItemCode": "TRANSCEND_15POINT",
+    "ActionType": "AddTranscendPoint",
+    "ActionValue": 15
+  }
+]

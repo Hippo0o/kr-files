@@ -1,0 +1,154 @@
+[
+  {
+    "Index": 1,
+    "GuideType": "UseShop",
+    "Condition1": [
+      "Count",
+      "PvpCoin",
+      "30000",
+      "Up"
+    ],
+    "TutorialIndex": 2130,
+    "TextKey": "PLAYERGUIDE_0001",
+    "MoveTaskType": "MoveToNode",
+    "MoveTaskValue": [
+      "99",
+      "4",
+      "True"
+    ]
+  },
+  {
+    "Index": 2,
+    "GuideType": "UseShop",
+    "Condition1": [
+      "Count",
+      "GloryPoint",
+      "5000",
+      "Up"
+    ],
+    "TutorialIndex": 2130,
+    "TextKey": "PLAYERGUIDE_0002",
+    "MoveTaskType": "MoveToNode",
+    "MoveTaskValue": [
+      "99",
+      "4",
+      "True"
+    ]
+  },
+  {
+    "Index": 3,
+    "GuideType": "UseShop",
+    "Condition1": [
+      "Count",
+      "RankingPoint",
+      "4000",
+      "Up"
+    ],
+    "TutorialIndex": 2130,
+    "TextKey": "PLAYERGUIDE_0003",
+    "MoveTaskType": "MoveToNode",
+    "MoveTaskValue": [
+      "99",
+      "4",
+      "True"
+    ]
+  },
+  {
+    "Index": 4,
+    "GuideType": "UseShop",
+    "Condition1": [
+      "Count",
+      "RaidPoint",
+      "500000",
+      "Up"
+    ],
+    "TutorialIndex": 7000,
+    "TextKey": "PLAYERGUIDE_0004",
+    "MoveTaskType": "MoveToNode",
+    "MoveTaskValue": [
+      "99",
+      "9",
+      "True"
+    ]
+  },
+  {
+    "Index": 5,
+    "GuideType": "UseShop",
+    "Condition1": [
+      "Count",
+      "WorldBossPoint",
+      "45000",
+      "Up"
+    ],
+    "TutorialIndex": 6000,
+    "TextKey": "PLAYERGUIDE_0005",
+    "MoveTaskType": "MoveToNode",
+    "MoveTaskValue": [
+      "99",
+      "6",
+      "True"
+    ]
+  },
+  {
+    "Index": 6,
+    "GuideType": "UseContent",
+    "Condition1": [
+      "ClearMaze",
+      "0",
+      "Equal",
+      "0",
+      "Up"
+    ],
+    "Condition2": [
+      "Count",
+      "MazeKey",
+      "40",
+      "Equal"
+    ],
+    "TutorialIndex": 8000,
+    "TextKey": "PLAYERGUIDE_0006",
+    "MoveTaskType": "MoveToNode",
+    "MoveTaskValue": [
+      "99",
+      "6",
+      "True"
+    ]
+  },
+  {
+    "Index": 7,
+    "GuideType": "UseContent",
+    "Condition1": [
+      "ClearOrdealTower",
+      "0",
+      "Equal",
+      "11520",
+      "Up"
+    ],
+    "TutorialIndex": 2180,
+    "TextKey": "PLAYERGUIDE_0007",
+    "MoveTaskType": "MoveToNode",
+    "MoveTaskValue": [
+      "1",
+      "27",
+      "True"
+    ]
+  },
+  {
+    "Index": 9,
+    "GuideType": "UseContent",
+    "Condition1": [
+      "Count",
+      "GOLD_CUBE_FRAGMENT",
+      "20000",
+      "Up"
+    ],
+    "TutorialIndex": 9400,
+    "TextKey": "PLAYERGUIDE_0008",
+    "MoveTaskType": "MoveToNode",
+    "MoveTaskValue": [
+      "6",
+      "27",
+      "True"
+    ]
+  }
+]

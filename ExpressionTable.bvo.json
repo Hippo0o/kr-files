@@ -1,0 +1,262 @@
+[
+  {
+    "Index": 1,
+    "Name": "Test",
+    "Expression": "(2 + $1) * $ME.Hp"
+  },
+  {
+    "Index": 2,
+    "Name": "ByHpRatioM",
+    "Expression": "$1*(1000-$ME.HpRatioM)/1000"
+  },
+  {
+    "Index": 3,
+    "Name": "ByHpRatioM2",
+    "Expression": "$1*(1000-$ME.HpRatioM/2)/1000"
+  },
+  {
+    "Index": 4,
+    "Name": "ByTargeHpRatioM",
+    "Expression": "$1*(1000-$TC.HpRatioM)/1000"
+  },
+  {
+    "Index": 5,
+    "Name": "ByStateCountPoison",
+    "Expression": "$1*$TC.StateCount(Poison)"
+  },
+  {
+    "Index": 6,
+    "Name": "ByPhysicalDefense",
+    "Expression": "$1*($Fc.PhysicalDefense)/1000"
+  },
+  {
+    "Index": 7,
+    "Name": "AddTargetHpRatioM",
+    "Expression": "$1*(2000-$TC.HpRatioM)/1000"
+  },
+  {
+    "Index": 8,
+    "Name": "ByCleoBurn",
+    "Expression": "$1*$TC.StateCount(CleoBurn)"
+  },
+  {
+    "Index": 9,
+    "Name": "ByMorrahBurn",
+    "Expression": "$1*$TC.StateCount(MorrahBurn)"
+  },
+  {
+    "Index": 10,
+    "Name": "ByDown",
+    "Expression": "$1*$TC.StateCount(Down)"
+  },
+  {
+    "Index": 11,
+    "Name": "ByBleeding",
+    "Expression": "$1*$TC.StateCount(Bleeding)"
+  },
+  {
+    "Index": 12,
+    "Name": "ByPoison",
+    "Expression": "$1*$TC.StateCount(Poison)"
+  },
+  {
+    "Index": 13,
+    "Name": "ByFrozen",
+    "Expression": "$1*$TC.StateCount(Frozen)"
+  },
+  {
+    "Index": 14,
+    "Name": "ByRodinaTarget",
+    "Expression": "$1*(1000+500*$TC.StateCount(RodinaTarget))/1000"
+  },
+  {
+    "Index": 15,
+    "Name": "ByJaneStack",
+    "Expression": "$1*$TC.StateCount(JaneStack)"
+  },
+  {
+    "Index": 16,
+    "Name": "ByTargetDistanceMm",
+    "Expression": "$1*(49000000+$Fc.DistanceMm*$Fc.DistanceMm)/49000000"
+  },
+  {
+    "Index": 17,
+    "Name": "DistanceTest",
+    "Expression": "$Fc.DistanceMm+0"
+  },
+  {
+    "Index": 18,
+    "Name": "By20MmTargetDistanceMm",
+    "Expression": "$1*(0-$Fc.DistanceMm)/11000"
+  },
+  {
+    "Index": 19,
+    "Name": "AddByEnemyCount",
+    "Expression": "$EnemyCount*$1"
+  },
+  {
+    "Index": 20,
+    "Name": "ByTargetPhysicalDefense",
+    "Expression": "$1/1000*($Tc.PhysicalDefense)"
+  },
+  {
+    "Index": 21,
+    "Name": "ByTargetMagicalDefense",
+    "Expression": "$1/1000*($Tc.MagicalDefense)"
+  },
+  {
+    "Index": 22,
+    "Name": "ByNicxPower",
+    "Expression": "$1*$Fc.StateCount(NicxPower)"
+  },
+  {
+    "Index": 23,
+    "Name": "ByAnnetteCharge",
+    "Expression": "$1*$TC.StateCount(AnnetteCharge)"
+  },
+  {
+    "Index": 24,
+    "Name": "ByAnnettePower",
+    "Expression": "$1*$TC.StateCount(AnnettePower)"
+  },
+  {
+    "Index": 25,
+    "Name": "ByTargetHp",
+    "Expression": "$Tc.Hp*100/$1"
+  },
+  {
+    "Index": 26,
+    "Name": "BySummoneeCount",
+    "Expression": "$ME.SummoneeCount*$1"
+  },
+  {
+    "Index": 27,
+    "Name": "ByMagicalAttacker",
+    "Expression": "$1*$TC.MagicalAttack*$1/1000"
+  },
+  {
+    "Index": 28,
+    "Name": "ByMagicalDefense",
+    "Expression": "$1*($Fc.MagicalDefense)/1000"
+  },
+  {
+    "Index": 29,
+    "Name": "ByMaxHp",
+    "Expression": "$1*($Fc.MaxHp)/1000"
+  },
+  {
+    "Index": 30,
+    "Name": "ByPhysicalAttack",
+    "Expression": "$1*($Fc.PhysicalAttack)/1000"
+  },
+  {
+    "Index": 31,
+    "Name": "By3210",
+    "Expression": "$1*$Tc.StateCount(3210)"
+  },
+  {
+    "Index": 32,
+    "Name": "ByViskaSoul",
+    "Expression": "$1*$Fc.StateCount(ViskaSoul)"
+  },
+  {
+    "Index": 33,
+    "Name": "AddByAllyCount",
+    "Expression": "$AllyCount*$1"
+  },
+  {
+    "Index": 34,
+    "Name": "ByTargetHp2",
+    "Expression": "$Fc.MaxHp*100/$1"
+  },
+  {
+    "Index": 35,
+    "Name": "ByTargetHp3",
+    "Expression": "$Tc.MaxHp*100/$1"
+  },
+  {
+    "Index": 36,
+    "Name": "ByMEHp3",
+    "Expression": "$ME.MaxHp*100/$1"
+  },
+  {
+    "Index": 37,
+    "Name": "ByMEHp4",
+    "Expression": "$ME.Hp*100/$1"
+  },
+  {
+    "Index": 38,
+    "Name": "ByTargetMaxHpR",
+    "Expression": "$Tc.MaxHp*$1/1000"
+  },
+  {
+    "Index": 39,
+    "Name": "ByDecBossCcGaugeR",
+    "Expression": "$1*($BossCcMaxGauge-$BossCcCurGauge)/$BossCcMaxGauge"
+  },
+  {
+    "Index": 40,
+    "Name": "ByTargetPhysicalDefense2",
+    "Expression": "$1*($FC.PhysicalDefense)/1000"
+  },
+  {
+    "Index": 41,
+    "Name": "ByPhysicalAttack2",
+    "Expression": "$1*($TC.PhysicalAttack)/1000"
+  },
+  {
+    "Index": 42,
+    "Name": "ByTargetDistanceMm2",
+    "Expression": "$1*(64000000+$Fc.DistanceMm*$Fc.DistanceMm)/64000000"
+  },
+  {
+    "Index": 43,
+    "Name": "ByTargetMpRatio",
+    "Expression": "$1*(2000-$TC.MpRatioM)/1000"
+  },
+  {
+    "Index": 44,
+    "Name": "AddTargetHpRatioM2",
+    "Expression": "$1*(3000-$TC.HpRatioM*2)/1000"
+  },
+  {
+    "Index": 45,
+    "Name": "ByTargetMpRatio2",
+    "Expression": "$1*$TC.MpRatioM/1000"
+  },
+  {
+    "Index": 46,
+    "Name": "ByTargetMp",
+    "Expression": "$1*$TC.Mp/1000"
+  },
+  {
+    "Index": 47,
+    "Name": "ByMeMagicalDefence",
+    "Expression": "$1*($Me.MagicalDefense)/1000"
+  },
+  {
+    "Index": 48,
+    "Name": "ByRequinaPoison",
+    "Expression": "$1*$Tc.StateCount(5040)"
+  },
+  {
+    "Index": 49,
+    "Name": "ByTimeMs",
+    "Expression": "$1*$TimeMs/1000"
+  },
+  {
+    "Index": 50,
+    "Name": "ByTargetMpOnTime",
+    "Expression": "$1*$TC.MpOnTime/1000"
+  },
+  {
+    "Index": 51,
+    "Name": "ByTargeHpRatioM22",
+    "Expression": "$1*(1000000-$TC.HpRatioM*$TC.HpRatioM)/1000000"
+  },
+  {
+    "Index": 52,
+    "Name": "ByMaxHp2",
+    "Expression": "$1*($Fc.MaxHp)/10000"
+  }
+]

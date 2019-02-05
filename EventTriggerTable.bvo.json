@@ -1,0 +1,7301 @@
+[
+  {
+    "Index": 1,
+    "Category": "Tutorial",
+    "EventType": "Login",
+    "Command": "StartTutorial",
+    "Argument": [
+      "1000"
+    ]
+  },
+  {
+    "Index": 2,
+    "Category": "Tutorial",
+    "EventType": "EnterEntryMenu",
+    "EventCondition": [
+      "99",
+      "8"
+    ],
+    "CurrentCondition": [
+      "CompleteDungeon",
+      "1",
+      "203",
+      "True"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "2000"
+    ]
+  },
+  {
+    "Index": 4,
+    "Category": "Tutorial",
+    "EventType": "EnterEntryMenu",
+    "EventCondition": [
+      "99",
+      "3"
+    ],
+    "CurrentCondition": [
+      "CompleteDungeon",
+      "1",
+      "203",
+      "True"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "2120"
+    ]
+  },
+  {
+    "Index": 5,
+    "Category": "Tutorial",
+    "EventType": "EnterEntryMenu",
+    "EventCondition": [
+      "99",
+      "4"
+    ],
+    "CurrentCondition": [
+      "CompleteDungeon",
+      "1",
+      "203",
+      "True"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "2130"
+    ]
+  },
+  {
+    "Index": 6,
+    "Category": "Tutorial",
+    "EventType": "EnterEntryMenu",
+    "EventCondition": [
+      "99",
+      "9"
+    ],
+    "CurrentCondition": [
+      "CompleteDungeon",
+      "1",
+      "203",
+      "True"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "2140"
+    ]
+  },
+  {
+    "Index": 7,
+    "Category": "Tutorial",
+    "EventType": "EnterEntryMenu",
+    "EventCondition": [
+      "3",
+      "26"
+    ],
+    "CurrentCondition": [
+      "CompleteDungeon",
+      "3",
+      "19",
+      "True"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "3000"
+    ]
+  },
+  {
+    "Index": 9,
+    "Category": "Tutorial",
+    "EventType": "EnterEntryMenu",
+    "EventCondition": [
+      "2",
+      "27"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "5000"
+    ]
+  },
+  {
+    "Index": 10,
+    "Category": "Tutorial",
+    "EventType": "OpenWorldBossRanking",
+    "EventCondition": [
+      "true"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "6000"
+    ]
+  },
+  {
+    "Index": 11,
+    "Category": "Tutorial",
+    "EventType": "OpenSubPartySetting",
+    "EventCondition": [
+      "WorldBoss"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "6001"
+    ]
+  },
+  {
+    "Index": 12,
+    "Category": "Tutorial",
+    "EventType": "EnterHeroTranscendSkillListPage",
+    "EventCondition": [
+      "HasPoint",
+      "true"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "6002"
+    ]
+  },
+  {
+    "Index": 13,
+    "Category": "Tutorial",
+    "EventType": "LeaveEntryMenu",
+    "EventCondition": [
+      "99",
+      "6"
+    ],
+    "CurrentCondition": [
+      "CompleteDungeon",
+      "2",
+      "1",
+      "False"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "2149"
+    ]
+  },
+  {
+    "Index": 14,
+    "Category": "Tutorial",
+    "EventType": "EnterLobby",
+    "CurrentCondition": [
+      "CompleteDungeon",
+      "2",
+      "1",
+      "False"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "2150"
+    ]
+  },
+  {
+    "Index": 15,
+    "Category": "Tutorial",
+    "EventType": "LeaveEntryMenu",
+    "EventCondition": [
+      "99",
+      "5"
+    ],
+    "CurrentCondition": [
+      "CompleteDungeon",
+      "2",
+      "1",
+      "False"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "2159"
+    ]
+  },
+  {
+    "Index": 16,
+    "Category": "Tutorial",
+    "EventType": "EnterLobby",
+    "CurrentCondition": [
+      "CompleteDungeon",
+      "2",
+      "1",
+      "False"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "2160"
+    ]
+  },
+  {
+    "Index": 17,
+    "Category": "Tutorial",
+    "EventType": "EnterLobby",
+    "CurrentCondition": [
+      "CompleteDungeon",
+      "2",
+      "1",
+      "False"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "2162"
+    ]
+  },
+  {
+    "Index": 18,
+    "Category": "Tutorial",
+    "EventType": "EnterLobby",
+    "CurrentCondition": [
+      "CompleteDungeon",
+      "2",
+      "10",
+      "True",
+      "2",
+      "11",
+      "False"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "2170"
+    ]
+  },
+  {
+    "Index": 19,
+    "Category": "Tutorial",
+    "EventType": "OpenTowerOfOrdeal",
+    "EventCondition": [
+      "1",
+      "27"
+    ],
+    "CurrentCondition": [
+      "CompleteDungeon",
+      "2001",
+      "1",
+      "False"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "2180"
+    ]
+  },
+  {
+    "Index": 20,
+    "Category": "Tutorial",
+    "EventType": "OpenRaidSelect",
+    "Command": "StartTutorial",
+    "Argument": [
+      "7000"
+    ]
+  },
+  {
+    "Index": 21,
+    "Category": "Tutorial",
+    "EventType": "OpenMaze",
+    "Command": "StartTutorial",
+    "Argument": [
+      "8000"
+    ]
+  },
+  {
+    "Index": 22,
+    "Category": "Tutorial",
+    "EventType": "OpenGuildConstruction",
+    "Command": "StartTutorial",
+    "Argument": [
+      "9100"
+    ]
+  },
+  {
+    "Index": 23,
+    "Category": "Tutorial",
+    "EventType": "OpenGuildTrainingCenter",
+    "Command": "StartTutorial",
+    "Argument": [
+      "9200"
+    ]
+  },
+  {
+    "Index": 24,
+    "Category": "Tutorial",
+    "EventType": "OpenGuildSuppress",
+    "Command": "StartTutorial",
+    "Argument": [
+      "9300"
+    ]
+  },
+  {
+    "Index": 25,
+    "Category": "Tutorial",
+    "EventType": "EnterChapter",
+    "EventCondition": [
+      "6"
+    ],
+    "CurrentCondition": [
+      "OpenNode",
+      "6",
+      "27"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "9400"
+    ]
+  },
+  {
+    "Index": 26,
+    "Category": "Tutorial",
+    "EventType": "OpenRenewEquip",
+    "Command": "StartTutorial",
+    "Argument": [
+      "9500"
+    ]
+  },
+  {
+    "Index": 27,
+    "Category": "Tutorial",
+    "EventType": "EntryMenuLoadCompleted",
+    "EventCondition": [
+      "99",
+      "22"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "9600"
+    ]
+  },
+  {
+    "Index": 101,
+    "Category": "Tutorial",
+    "EventType": "EnterEntryMenu",
+    "EventCondition": [
+      "30001",
+      "1"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "100"
+    ]
+  },
+  {
+    "Index": 102,
+    "Category": "MainScenario",
+    "EventType": "EnterScenarioBattle",
+    "EventCondition": [
+      "30001",
+      "1"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/E_H1_Main_2"
+    ]
+  },
+  {
+    "Index": 103,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "30001",
+      "1",
+      "2"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/E_H1_Main_3"
+    ]
+  },
+  {
+    "Index": 104,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "30001",
+      "1",
+      "3"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/E_H1_Main_4"
+    ]
+  },
+  {
+    "Index": 105,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveStart",
+    "EventCondition": [
+      "30001",
+      "1",
+      "3"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/E_H1_Main_4_1"
+    ]
+  },
+  {
+    "Index": 106,
+    "Category": "MainScenario",
+    "EventType": "ScenarioBattleEnd",
+    "EventCondition": [
+      "30001",
+      "3",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/E_H1_Main_5"
+    ]
+  },
+  {
+    "Index": 107,
+    "Category": "MainScenario",
+    "EventType": "EnterScenarioBattle",
+    "EventCondition": [
+      "30001",
+      "6"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/E_H1_Main_6"
+    ]
+  },
+  {
+    "Index": 108,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "30001",
+      "6",
+      "4"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/E_H1_Main_7"
+    ]
+  },
+  {
+    "Index": 109,
+    "Category": "MainScenario",
+    "EventType": "ScenarioBattleEnd",
+    "EventCondition": [
+      "30001",
+      "6",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/E_H1_Main_8"
+    ]
+  },
+  {
+    "Index": 201,
+    "Category": "Tutorial",
+    "EventType": "EnterEntryMenu",
+    "EventCondition": [
+      "30020",
+      "1"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "200"
+    ]
+  },
+  {
+    "Index": 202,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "30020",
+      "1",
+      "3"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/E_C1_Main_2"
+    ]
+  },
+  {
+    "Index": 203,
+    "Category": "MainScenario",
+    "EventType": "ScenarioBattleEnd",
+    "EventCondition": [
+      "30020",
+      "1",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/E_C1_Main_3"
+    ]
+  },
+  {
+    "Index": 204,
+    "Category": "MainScenario",
+    "EventType": "EnterScenarioBattle",
+    "EventCondition": [
+      "30020",
+      "2"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/E_C1_Main_4"
+    ]
+  },
+  {
+    "Index": 205,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveStart",
+    "EventCondition": [
+      "30020",
+      "2",
+      "3"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/E_C1_Main_5"
+    ]
+  },
+  {
+    "Index": 206,
+    "Category": "MainScenario",
+    "EventType": "ScenarioBattleEnd",
+    "EventCondition": [
+      "30020",
+      "2",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/E_C1_Main_6"
+    ]
+  },
+  {
+    "Index": 207,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveStart",
+    "EventCondition": [
+      "30020",
+      "3",
+      "3"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/E_C1_Main_7"
+    ]
+  },
+  {
+    "Index": 208,
+    "Category": "MainScenario",
+    "EventType": "ScenarioBattleEnd",
+    "EventCondition": [
+      "30020",
+      "3",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/E_C1_Main_8"
+    ]
+  },
+  {
+    "Index": 301,
+    "Category": "Tutorial",
+    "EventType": "EnterEntryMenu",
+    "EventCondition": [
+      "30003",
+      "1"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "300"
+    ]
+  },
+  {
+    "Index": 302,
+    "Category": "MainScenario",
+    "EventType": "EnterScenarioBattle",
+    "EventCondition": [
+      "30003",
+      "1"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/Summer/E_S1_Main_1"
+    ]
+  },
+  {
+    "Index": 303,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "30003",
+      "1",
+      "1"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/Summer/E_S1_Main_2"
+    ]
+  },
+  {
+    "Index": 304,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "30003",
+      "1",
+      "2"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/Summer/E_S1_Main_3"
+    ]
+  },
+  {
+    "Index": 305,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "30003",
+      "1",
+      "3"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/Summer/E_S1_Main_4"
+    ]
+  },
+  {
+    "Index": 306,
+    "Category": "MainScenario",
+    "EventType": "ScenarioBattleEnd",
+    "EventCondition": [
+      "30003",
+      "1",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/Summer/E_S1_Main_5"
+    ]
+  },
+  {
+    "Index": 307,
+    "Category": "MainScenario",
+    "EventType": "EnterScenarioBattle",
+    "EventCondition": [
+      "30003",
+      "2"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/Summer/E_S1_Main_6"
+    ]
+  },
+  {
+    "Index": 308,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "30003",
+      "2",
+      "1"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/Summer/E_S1_Main_7"
+    ]
+  },
+  {
+    "Index": 309,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "30003",
+      "2",
+      "2"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/Summer/E_S1_Main_8"
+    ]
+  },
+  {
+    "Index": 310,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "30003",
+      "2",
+      "3"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/Summer/E_S1_Main_9"
+    ]
+  },
+  {
+    "Index": 311,
+    "Category": "MainScenario",
+    "EventType": "ScenarioBattleEnd",
+    "EventCondition": [
+      "30003",
+      "2",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/Summer/E_S1_Main_10"
+    ]
+  },
+  {
+    "Index": 312,
+    "Category": "MainScenario",
+    "EventType": "EnterScenarioBattle",
+    "EventCondition": [
+      "30003",
+      "3"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/Summer/E_S1_Main_11"
+    ]
+  },
+  {
+    "Index": 313,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "30003",
+      "3",
+      "1"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/Summer/E_S1_Main_12"
+    ]
+  },
+  {
+    "Index": 314,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "30003",
+      "3",
+      "2"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/Summer/E_S1_Main_13"
+    ]
+  },
+  {
+    "Index": 315,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "30003",
+      "3",
+      "3"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/Summer/E_S1_Main_14"
+    ]
+  },
+  {
+    "Index": 316,
+    "Category": "MainScenario",
+    "EventType": "ScenarioBattleEnd",
+    "EventCondition": [
+      "30003",
+      "3",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/Summer/E_S1_Main_15"
+    ]
+  },
+  {
+    "Index": 317,
+    "Category": "MainScenario",
+    "EventType": "EnterScenarioBattle",
+    "EventCondition": [
+      "30003",
+      "4"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/Summer/E_S1_Main_16"
+    ]
+  },
+  {
+    "Index": 318,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "30003",
+      "4",
+      "1"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/Summer/E_S1_Main_17"
+    ]
+  },
+  {
+    "Index": 319,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "30003",
+      "4",
+      "2"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/Summer/E_S1_Main_18"
+    ]
+  },
+  {
+    "Index": 320,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "30003",
+      "4",
+      "3"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/Summer/E_S1_Main_19"
+    ]
+  },
+  {
+    "Index": 321,
+    "Category": "MainScenario",
+    "EventType": "ScenarioBattleEnd",
+    "EventCondition": [
+      "30003",
+      "4",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/Summer/E_S1_Main_20"
+    ]
+  },
+  {
+    "Index": 322,
+    "Category": "MainScenario",
+    "EventType": "EnterScenarioBattle",
+    "EventCondition": [
+      "30003",
+      "5"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/Summer/E_S1_Main_21"
+    ]
+  },
+  {
+    "Index": 323,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "30003",
+      "5",
+      "1"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/Summer/E_S1_Main_22"
+    ]
+  },
+  {
+    "Index": 324,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "30003",
+      "5",
+      "2"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/Summer/E_S1_Main_23"
+    ]
+  },
+  {
+    "Index": 325,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "30003",
+      "5",
+      "3"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/Summer/E_S1_Main_24"
+    ]
+  },
+  {
+    "Index": 326,
+    "Category": "MainScenario",
+    "EventType": "ScenarioBattleEnd",
+    "EventCondition": [
+      "30003",
+      "5",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/Summer/E_S1_Main_25"
+    ]
+  },
+  {
+    "Index": 327,
+    "Category": "MainScenario",
+    "EventType": "EnterScenarioBattle",
+    "EventCondition": [
+      "30003",
+      "6"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/Summer/E_S1_Main_26"
+    ]
+  },
+  {
+    "Index": 328,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "30003",
+      "6",
+      "1"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/Summer/E_S1_Main_27"
+    ]
+  },
+  {
+    "Index": 329,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "30003",
+      "6",
+      "2"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/Summer/E_S1_Main_28"
+    ]
+  },
+  {
+    "Index": 330,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "30003",
+      "6",
+      "3"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/Summer/E_S1_Main_29"
+    ]
+  },
+  {
+    "Index": 331,
+    "Category": "MainScenario",
+    "EventType": "ScenarioBattleEnd",
+    "EventCondition": [
+      "30003",
+      "6",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/Summer/E_S1_Main_30"
+    ]
+  },
+  {
+    "Index": 401,
+    "Category": "Tutorial",
+    "EventType": "EnterEntryMenu",
+    "EventCondition": [
+      "30010",
+      "1"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "400"
+    ]
+  },
+  {
+    "Index": 402,
+    "Category": "MainScenario",
+    "EventType": "EnterScenarioBattle",
+    "EventCondition": [
+      "30010",
+      "1"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/Halloween2018/E_H2_Main_1"
+    ]
+  },
+  {
+    "Index": 403,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "30010",
+      "1",
+      "2"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/Halloween2018/E_H2_Main_2"
+    ]
+  },
+  {
+    "Index": 404,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "30010",
+      "1",
+      "3"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/Halloween2018/E_H2_Main_3"
+    ]
+  },
+  {
+    "Index": 405,
+    "Category": "MainScenario",
+    "EventType": "ScenarioBattleEnd",
+    "EventCondition": [
+      "30010",
+      "1",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/Halloween2018/E_H2_Main_4"
+    ]
+  },
+  {
+    "Index": 406,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "30010",
+      "2",
+      "3"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/Halloween2018/E_H2_Main_5"
+    ]
+  },
+  {
+    "Index": 407,
+    "Category": "MainScenario",
+    "EventType": "ScenarioBattleEnd",
+    "EventCondition": [
+      "30010",
+      "2",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/Halloween2018/E_H2_Main_6"
+    ]
+  },
+  {
+    "Index": 408,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "30010",
+      "3",
+      "3"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/Halloween2018/E_H2_Main_7"
+    ]
+  },
+  {
+    "Index": 409,
+    "Category": "MainScenario",
+    "EventType": "ScenarioBattleEnd",
+    "EventCondition": [
+      "30010",
+      "3",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/Halloween2018/E_H2_Main_8"
+    ]
+  },
+  {
+    "Index": 410,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "30010",
+      "4",
+      "3"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/Halloween2018/E_H2_Main_9"
+    ]
+  },
+  {
+    "Index": 411,
+    "Category": "MainScenario",
+    "EventType": "ScenarioBattleEnd",
+    "EventCondition": [
+      "30010",
+      "4",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/Halloween2018/E_H2_Main_10"
+    ]
+  },
+  {
+    "Index": 412,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "30010",
+      "5",
+      "3"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/Halloween2018/E_H2_Main_11"
+    ]
+  },
+  {
+    "Index": 413,
+    "Category": "MainScenario",
+    "EventType": "ScenarioBattleEnd",
+    "EventCondition": [
+      "30010",
+      "5",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/Halloween2018/E_H2_Main_12"
+    ]
+  },
+  {
+    "Index": 414,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "30010",
+      "6",
+      "1"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/Halloween2018/E_H2_Main_13"
+    ]
+  },
+  {
+    "Index": 415,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "30010",
+      "6",
+      "3"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/Halloween2018/E_H2_Main_14"
+    ]
+  },
+  {
+    "Index": 501,
+    "Category": "Tutorial",
+    "EventType": "EnterEntryMenu",
+    "EventCondition": [
+      "30021",
+      "1"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "500"
+    ]
+  },
+  {
+    "Index": 502,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "30021",
+      "1",
+      "1"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/Christmas2018/E_C2_Main_1"
+    ]
+  },
+  {
+    "Index": 503,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "30021",
+      "1",
+      "2"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/Christmas2018/E_C2_Main_2"
+    ]
+  },
+  {
+    "Index": 504,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "30021",
+      "1",
+      "3"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/Christmas2018/E_C2_Main_3"
+    ]
+  },
+  {
+    "Index": 505,
+    "Category": "MainScenario",
+    "EventType": "ScenarioBattleEnd",
+    "EventCondition": [
+      "30021",
+      "1",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/Christmas2018/E_C2_Main_4"
+    ]
+  },
+  {
+    "Index": 506,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "30021",
+      "2",
+      "1"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/Christmas2018/E_C2_Main_5"
+    ]
+  },
+  {
+    "Index": 507,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "30021",
+      "2",
+      "3"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/Christmas2018/E_C2_Main_6"
+    ]
+  },
+  {
+    "Index": 508,
+    "Category": "MainScenario",
+    "EventType": "ScenarioBattleEnd",
+    "EventCondition": [
+      "30021",
+      "2",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/Christmas2018/E_C2_Main_7"
+    ]
+  },
+  {
+    "Index": 509,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "30021",
+      "3",
+      "3"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/Christmas2018/E_C2_Main_8"
+    ]
+  },
+  {
+    "Index": 510,
+    "Category": "MainScenario",
+    "EventType": "ScenarioBattleEnd",
+    "EventCondition": [
+      "30021",
+      "3",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/Christmas2018/E_C2_Main_9"
+    ]
+  },
+  {
+    "Index": 511,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "30021",
+      "4",
+      "3"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/Christmas2018/E_C2_Main_10"
+    ]
+  },
+  {
+    "Index": 512,
+    "Category": "MainScenario",
+    "EventType": "ScenarioBattleEnd",
+    "EventCondition": [
+      "30021",
+      "4",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/Christmas2018/E_C2_Main_11"
+    ]
+  },
+  {
+    "Index": 513,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "30021",
+      "5",
+      "3"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/Christmas2018/E_C2_Main_12"
+    ]
+  },
+  {
+    "Index": 514,
+    "Category": "MainScenario",
+    "EventType": "ScenarioBattleEnd",
+    "EventCondition": [
+      "30021",
+      "5",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/Christmas2018/E_C2_Main_13"
+    ]
+  },
+  {
+    "Index": 515,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "30021",
+      "6",
+      "1"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/Christmas2018/E_C2_Main_14"
+    ]
+  },
+  {
+    "Index": 516,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "30021",
+      "6",
+      "3"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/Christmas2018/E_C2_Main_15"
+    ]
+  },
+  {
+    "Index": 517,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveEnd",
+    "EventCondition": [
+      "30021",
+      "6",
+      "3"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/Christmas2018/E_C2_Main_16"
+    ]
+  },
+  {
+    "Index": 518,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "30021",
+      "6",
+      "4"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/Christmas2018/E_C2_Main_17"
+    ]
+  },
+  {
+    "Index": 10000,
+    "Category": "MainScenario",
+    "EventType": "EnterLobby",
+    "EventCondition": [
+      "1",
+      "201"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "10000"
+    ]
+  },
+  {
+    "Index": 10001,
+    "Category": "MainScenario",
+    "EventType": "EnterLobby",
+    "CurrentCondition": [
+      "CompleteDungeon",
+      "1",
+      "201",
+      "True"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "10001"
+    ]
+  },
+  {
+    "Index": 10002,
+    "Category": "MainScenario",
+    "EventType": "EnterLobby",
+    "CurrentCondition": [
+      "CompleteDungeon",
+      "1",
+      "201",
+      "True"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "10002"
+    ]
+  },
+  {
+    "Index": 10003,
+    "Category": "MainScenario",
+    "EventType": "EnterLobby",
+    "CurrentCondition": [
+      "CompleteDungeon",
+      "1",
+      "201",
+      "True"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "10020"
+    ]
+  },
+  {
+    "Index": 10004,
+    "Category": "MainScenario",
+    "EventType": "EnterLobby",
+    "CurrentCondition": [
+      "CompleteDungeon",
+      "1",
+      "201",
+      "True"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "10021"
+    ]
+  },
+  {
+    "Index": 10005,
+    "Category": "MainScenario",
+    "EventType": "EnterLobby",
+    "CurrentCondition": [
+      "CompleteDungeon",
+      "1",
+      "201",
+      "True"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "10010"
+    ]
+  },
+  {
+    "Index": 10006,
+    "Category": "MainScenario",
+    "EventType": "EnterLobby",
+    "CurrentCondition": [
+      "CompleteDungeon",
+      "1",
+      "202",
+      "True"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "10030"
+    ]
+  },
+  {
+    "Index": 10007,
+    "Category": "MainScenario",
+    "EventType": "EnterLobby",
+    "CurrentCondition": [
+      "CompleteDungeon",
+      "1",
+      "202",
+      "True"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "10031"
+    ]
+  },
+  {
+    "Index": 10008,
+    "Category": "MainScenario",
+    "EventType": "EnterLobby",
+    "CurrentCondition": [
+      "CompleteDungeon",
+      "1",
+      "202",
+      "True"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "10110"
+    ]
+  },
+  {
+    "Index": 10009,
+    "Category": "MainScenario",
+    "EventType": "EnterLobby",
+    "CurrentCondition": [
+      "CompleteDungeon",
+      "1",
+      "203",
+      "True",
+      "1",
+      "204",
+      "False"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "10200"
+    ]
+  },
+  {
+    "Index": 10109,
+    "Category": "MainScenario",
+    "EventType": "PlayerVisitNode",
+    "EventCondition": [
+      "1",
+      "4"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "10200"
+    ]
+  },
+  {
+    "Index": 10209,
+    "Category": "MainScenario",
+    "EventType": "EnterLobby",
+    "CurrentCondition": [
+      "CompleteDungeon",
+      "1",
+      "203",
+      "True"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "10200"
+    ]
+  },
+  {
+    "Index": 10201,
+    "Category": "MainScenario",
+    "EventType": "PlayerVisitNode",
+    "EventCondition": [
+      "1",
+      "4"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "10201"
+    ]
+  },
+  {
+    "Index": 11201,
+    "Category": "MainScenario",
+    "EventType": "EnterLobby",
+    "CurrentCondition": [
+      "CompleteDungeon",
+      "1",
+      "4",
+      "True"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "10201"
+    ]
+  },
+  {
+    "Index": 10011,
+    "Category": "MainScenario",
+    "EventType": "OnClickStartBattle",
+    "EventCondition": [
+      "1",
+      "205",
+      "Easy"
+    ],
+    "CurrentCondition": [
+      "CompleteDungeon",
+      "1",
+      "205",
+      "False"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "10220"
+    ]
+  },
+  {
+    "Index": 10012,
+    "Category": "MainScenario",
+    "EventType": "OnClickStartBattle",
+    "EventCondition": [
+      "1",
+      "206",
+      "Easy"
+    ],
+    "CurrentCondition": [
+      "CompleteDungeon",
+      "1",
+      "206",
+      "False"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "10230"
+    ]
+  },
+  {
+    "Index": 10019,
+    "Category": "MainScenario",
+    "EventType": "EnterLobby",
+    "CurrentCondition": [
+      "CompleteDungeon",
+      "1",
+      "11",
+      "True"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "12000"
+    ]
+  },
+  {
+    "Index": 10020,
+    "Category": "MainScenario",
+    "EventType": "EnterLobby",
+    "CurrentCondition": [
+      "CompleteDungeon",
+      "1",
+      "11",
+      "True"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "12001"
+    ]
+  },
+  {
+    "Index": 10024,
+    "Category": "MainScenario",
+    "EventType": "NodeFunctionMenu",
+    "EventCondition": [
+      "1",
+      "26"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "14000"
+    ]
+  },
+  {
+    "Index": 10025,
+    "Category": "MainScenario",
+    "EventType": "EnterLobby",
+    "Command": "StartTutorial",
+    "Argument": [
+      "14010"
+    ]
+  },
+  {
+    "Index": 10026,
+    "Category": "MainScenario",
+    "EventType": "EnterLobby",
+    "Command": "StartTutorial",
+    "Argument": [
+      "14020"
+    ]
+  },
+  {
+    "Index": 10029,
+    "Category": "Tutorial",
+    "EventType": "EnterLobby",
+    "CurrentCondition": [
+      "CompleteDungeon",
+      "1",
+      "20",
+      "true"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "13020"
+    ]
+  },
+  {
+    "Index": 10030,
+    "Category": "MainScenario",
+    "EventType": "ChapterMove",
+    "EventCondition": [
+      "1"
+    ],
+    "CurrentCondition": [
+      "CompleteDungeon",
+      "1",
+      "20",
+      "True",
+      "2",
+      "1",
+      "False"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "15000"
+    ]
+  },
+  {
+    "Index": 10031,
+    "Category": "MainScenario",
+    "EventType": "OnClickMoveChapter",
+    "EventCondition": [
+      "1",
+      "29"
+    ],
+    "CurrentCondition": [
+      "AnyHeroLevel",
+      "15",
+      "False"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "16000"
+    ]
+  },
+  {
+    "Index": 10085,
+    "Category": "MainScenario",
+    "EventType": "EnterLobby",
+    "CurrentCondition": [
+      "LastDungeonResult",
+      "1",
+      "13",
+      "True",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH1_18"
+    ]
+  },
+  {
+    "Index": 10100,
+    "Category": "MainScenario",
+    "EventType": "EnterScenarioBattle",
+    "EventCondition": [
+      "1",
+      "18"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH1_23"
+    ]
+  },
+  {
+    "Index": 10103,
+    "Category": "MainScenario",
+    "EventType": "EnterLobby",
+    "CurrentCondition": [
+      "LastDungeonResult",
+      "1",
+      "19",
+      "True",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH1_24"
+    ]
+  },
+  {
+    "Index": 10104,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "1",
+      "20",
+      "2"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "12040"
+    ]
+  },
+  {
+    "Index": 17010,
+    "Category": "MainScenario",
+    "EventType": "OnClickStartBattle",
+    "EventCondition": [
+      "1",
+      "1",
+      "Easy",
+      "True"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "17010"
+    ]
+  },
+  {
+    "Index": 17021,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "1",
+      "2",
+      "1"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "17021"
+    ]
+  },
+  {
+    "Index": 17031,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "1",
+      "3",
+      "1"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "17031"
+    ]
+  },
+  {
+    "Index": 17049,
+    "Category": "MainScenario",
+    "EventType": "EnterScenarioBattle",
+    "EventCondition": [
+      "1",
+      "4"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "17049"
+    ]
+  },
+  {
+    "Index": 17040,
+    "Category": "MainScenario",
+    "EventType": "ScenarioBattleBegin",
+    "EventCondition": [
+      "1",
+      "4"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "10210"
+    ]
+  },
+  {
+    "Index": 17041,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "1",
+      "4",
+      "2"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "17041"
+    ]
+  },
+  {
+    "Index": 17042,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveEnd",
+    "EventCondition": [
+      "1",
+      "4",
+      "2"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH1_6"
+    ]
+  },
+  {
+    "Index": 17050,
+    "Category": "MainScenario",
+    "EventType": "OnClickStartBattle",
+    "EventCondition": [
+      "1",
+      "5",
+      "Easy",
+      "True"
+    ],
+    "CurrentCondition": [
+      "CompleteDungeon",
+      "1",
+      "205",
+      "True"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "17050"
+    ]
+  },
+  {
+    "Index": 17060,
+    "Category": "MainScenario",
+    "EventType": "OnClickStartBattle",
+    "EventCondition": [
+      "1",
+      "6",
+      "Easy",
+      "True"
+    ],
+    "CurrentCondition": [
+      "CompleteDungeon",
+      "1",
+      "206",
+      "True"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "17060"
+    ]
+  },
+  {
+    "Index": 17071,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "1",
+      "7",
+      "4"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "17071"
+    ]
+  },
+  {
+    "Index": 17079,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "999",
+      "999",
+      "999"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "17079"
+    ]
+  },
+  {
+    "Index": 17072,
+    "Category": "MainScenario",
+    "EventType": "EnterLobby",
+    "CurrentCondition": [
+      "LastDungeonResult",
+      "1",
+      "7",
+      "True",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH1_12"
+    ]
+  },
+  {
+    "Index": 17081,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "1",
+      "8",
+      "1"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "17081"
+    ]
+  },
+  {
+    "Index": 17082,
+    "Category": "MainScenario",
+    "EventType": "ScenarioBattleEnd",
+    "EventCondition": [
+      "1",
+      "8",
+      "Left"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH1_14"
+    ]
+  },
+  {
+    "Index": 17091,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "1",
+      "9",
+      "1"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "17091"
+    ]
+  },
+  {
+    "Index": 17092,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "1",
+      "9",
+      "2"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "17092"
+    ]
+  },
+  {
+    "Index": 17093,
+    "Category": "MainScenario",
+    "EventType": "ScenarioBattleEnd",
+    "EventCondition": [
+      "1",
+      "9",
+      "Left"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH1_16"
+    ]
+  },
+  {
+    "Index": 17101,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "1",
+      "10",
+      "1"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH1_17"
+    ]
+  },
+  {
+    "Index": 17102,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "1",
+      "10",
+      "3"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "17102"
+    ]
+  },
+  {
+    "Index": 17100,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "999",
+      "999",
+      "999"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "17100"
+    ]
+  },
+  {
+    "Index": 17109,
+    "Category": "MainScenario",
+    "EventType": "EnterLobby",
+    "CurrentCondition": [
+      "CompleteDungeon",
+      "1",
+      "10",
+      "true"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "10501"
+    ]
+  },
+  {
+    "Index": 17111,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveEnd",
+    "EventCondition": [
+      "1",
+      "11",
+      "2"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CS1_11B"
+    ]
+  },
+  {
+    "Index": 17112,
+    "Category": "MainScenario",
+    "EventType": "ScenarioBattleEnd",
+    "EventCondition": [
+      "1",
+      "11",
+      "Left"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CS1_11C"
+    ]
+  },
+  {
+    "Index": 20000,
+    "Category": "MainScenario",
+    "EventType": "ChapterMove",
+    "EventCondition": [
+      "2"
+    ],
+    "CurrentCondition": [
+      "CompleteDungeon",
+      "1",
+      "20",
+      "True"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "20000"
+    ]
+  },
+  {
+    "Index": 20030,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "2",
+      "3",
+      "2"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "20030"
+    ]
+  },
+  {
+    "Index": 20031,
+    "Category": "MainScenario",
+    "EventType": "EnterLobby",
+    "CurrentCondition": [
+      "LastDungeonResult",
+      "2",
+      "3",
+      "True",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH2_Main_2"
+    ]
+  },
+  {
+    "Index": 20040,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "2",
+      "4",
+      "1"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "20040"
+    ]
+  },
+  {
+    "Index": 20041,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveEnd",
+    "EventCondition": [
+      "2",
+      "4",
+      "2"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "20041"
+    ]
+  },
+  {
+    "Index": 20050,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "2",
+      "5",
+      "1"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "20050"
+    ]
+  },
+  {
+    "Index": 20051,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveEnd",
+    "EventCondition": [
+      "2",
+      "5",
+      "3"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "20051"
+    ]
+  },
+  {
+    "Index": 20052,
+    "Category": "MainScenario",
+    "EventType": "EnterLobby",
+    "CurrentCondition": [
+      "LastDungeonResult",
+      "2",
+      "5",
+      "True",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH2_Main_7"
+    ]
+  },
+  {
+    "Index": 20060,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "2",
+      "6",
+      "1"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "20060"
+    ]
+  },
+  {
+    "Index": 20070,
+    "Category": "MainScenario",
+    "EventType": "EnterLobby",
+    "CurrentCondition": [
+      "CompleteDungeon",
+      "2",
+      "7",
+      "True"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "20070"
+    ]
+  },
+  {
+    "Index": 20080,
+    "Category": "MainScenario",
+    "EventType": "PlayerVisitNode",
+    "EventCondition": [
+      "2",
+      "8"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "20080"
+    ]
+  },
+  {
+    "Index": 20081,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "2",
+      "8",
+      "1"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "20081"
+    ]
+  },
+  {
+    "Index": 20110,
+    "Category": "MainScenario",
+    "EventType": "EnterScenarioBattle",
+    "EventCondition": [
+      "2",
+      "11"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH2_Main_11_0"
+    ]
+  },
+  {
+    "Index": 20111,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "2",
+      "11",
+      "1"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "20111"
+    ]
+  },
+  {
+    "Index": 20112,
+    "Category": "MainScenario",
+    "EventType": "ScenarioBattleEnd",
+    "EventCondition": [
+      "2",
+      "11",
+      "Left"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH2_Main_12"
+    ]
+  },
+  {
+    "Index": 20113,
+    "Category": "MainScenario",
+    "EventType": "EnterLobby",
+    "CurrentCondition": [
+      "LastDungeonResult",
+      "2",
+      "11",
+      "True",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH2_Main_13"
+    ]
+  },
+  {
+    "Index": 20140,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "2",
+      "14",
+      "1"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "20140"
+    ]
+  },
+  {
+    "Index": 20141,
+    "Category": "MainScenario",
+    "EventType": "EnterLobby",
+    "CurrentCondition": [
+      "LastDungeonResult",
+      "2",
+      "14",
+      "True",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH2_Main_15"
+    ]
+  },
+  {
+    "Index": 20150,
+    "Category": "MainScenario",
+    "EventType": "EnterScenarioBattle",
+    "EventCondition": [
+      "2",
+      "15"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH2_Main_16_0"
+    ]
+  },
+  {
+    "Index": 20151,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "2",
+      "15",
+      "3"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "20151"
+    ]
+  },
+  {
+    "Index": 20152,
+    "Category": "MainScenario",
+    "EventType": "ScenarioBattleEnd",
+    "EventCondition": [
+      "2",
+      "15",
+      "Left"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH2_Main_17"
+    ]
+  },
+  {
+    "Index": 20180,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "2",
+      "18",
+      "1"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "20180"
+    ]
+  },
+  {
+    "Index": 20181,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "999",
+      "999",
+      "999"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "20181"
+    ]
+  },
+  {
+    "Index": 20182,
+    "Category": "MainScenario",
+    "EventType": "EnterLobby",
+    "CurrentCondition": [
+      "LastDungeonResult",
+      "2",
+      "18",
+      "True",
+      "True"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "20182"
+    ]
+  },
+  {
+    "Index": 20210,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveEnd",
+    "EventCondition": [
+      "2",
+      "21",
+      "3"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "20210"
+    ]
+  },
+  {
+    "Index": 20212,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "999",
+      "999",
+      "999"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "20212"
+    ]
+  },
+  {
+    "Index": 20213,
+    "Category": "MainScenario",
+    "EventType": "ScenarioBattleEnd",
+    "EventCondition": [
+      "2",
+      "21",
+      "Left"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH2_Main_26"
+    ]
+  },
+  {
+    "Index": 20214,
+    "Category": "MainScenario",
+    "EventType": "EnterLobby",
+    "CurrentCondition": [
+      "LastDungeonResult",
+      "2",
+      "21",
+      "True",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH2_Main_27"
+    ]
+  },
+  {
+    "Index": 30000,
+    "Category": "MainScenario",
+    "EventType": "ChapterMove",
+    "EventCondition": [
+      "3"
+    ],
+    "CurrentCondition": [
+      "CompleteDungeon",
+      "2",
+      "21",
+      "True"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "30000"
+    ]
+  },
+  {
+    "Index": 30030,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "3",
+      "3",
+      "1"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "30030"
+    ]
+  },
+  {
+    "Index": 30031,
+    "Category": "MainScenario",
+    "EventType": "ScenarioBattleEnd",
+    "EventCondition": [
+      "3",
+      "3",
+      "Left"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH3_Main_2"
+    ]
+  },
+  {
+    "Index": 30040,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "3",
+      "4",
+      "2"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "30040"
+    ]
+  },
+  {
+    "Index": 30041,
+    "Category": "MainScenario",
+    "EventType": "ScenarioBattleEnd",
+    "EventCondition": [
+      "3",
+      "4",
+      "Left"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH3_Main_4"
+    ]
+  },
+  {
+    "Index": 30070,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "3",
+      "7",
+      "1"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "30070"
+    ]
+  },
+  {
+    "Index": 30071,
+    "Category": "MainScenario",
+    "EventType": "ScenarioBattleEnd",
+    "EventCondition": [
+      "3",
+      "7",
+      "Left"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH3_Main_6"
+    ]
+  },
+  {
+    "Index": 30080,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "3",
+      "8",
+      "1"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "30080"
+    ]
+  },
+  {
+    "Index": 30081,
+    "Category": "MainScenario",
+    "EventType": "ScenarioBattleEnd",
+    "EventCondition": [
+      "3",
+      "8",
+      "Left"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH3_Main_8"
+    ]
+  },
+  {
+    "Index": 30090,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "3",
+      "9",
+      "1"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "30090"
+    ]
+  },
+  {
+    "Index": 30091,
+    "Category": "MainScenario",
+    "EventType": "ScenarioBattleEnd",
+    "EventCondition": [
+      "3",
+      "9",
+      "Left"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH3_Main_10"
+    ]
+  },
+  {
+    "Index": 30102,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "3",
+      "10",
+      "3"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "30102"
+    ]
+  },
+  {
+    "Index": 33100,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "999",
+      "999",
+      "999"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "34100"
+    ]
+  },
+  {
+    "Index": 30101,
+    "Category": "MainScenario",
+    "EventType": "EnterLobby",
+    "CurrentCondition": [
+      "LastDungeonResult",
+      "3",
+      "10",
+      "True",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH3_Main_12"
+    ]
+  },
+  {
+    "Index": 30110,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "3",
+      "11",
+      "1"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH3_Main_13"
+    ]
+  },
+  {
+    "Index": 30111,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "3",
+      "11",
+      "4"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "30111"
+    ]
+  },
+  {
+    "Index": 30112,
+    "Category": "MainScenario",
+    "EventType": "ScenarioBattleEnd",
+    "EventCondition": [
+      "3",
+      "11",
+      "Left"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH3_Main_15"
+    ]
+  },
+  {
+    "Index": 30120,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "3",
+      "12",
+      "1"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH3_Main_16"
+    ]
+  },
+  {
+    "Index": 30140,
+    "Category": "MainScenario",
+    "EventType": "EnterLobby",
+    "CurrentCondition": [
+      "LastDungeonResult",
+      "3",
+      "14",
+      "True",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH3_Main_17"
+    ]
+  },
+  {
+    "Index": 30160,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "3",
+      "16",
+      "4"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "30160"
+    ]
+  },
+  {
+    "Index": 33160,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "999",
+      "999",
+      "999"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "33160"
+    ]
+  },
+  {
+    "Index": 30164,
+    "Category": "MainScenario",
+    "EventType": "EnterLobby",
+    "CurrentCondition": [
+      "LastDungeonResult",
+      "3",
+      "16",
+      "True",
+      "True"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "30164"
+    ]
+  },
+  {
+    "Index": 30170,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "3",
+      "17",
+      "1"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "30170"
+    ]
+  },
+  {
+    "Index": 30190,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "3",
+      "19",
+      "1"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH3_Main_23"
+    ]
+  },
+  {
+    "Index": 30191,
+    "Category": "MainScenario",
+    "EventType": "EnterLobby",
+    "CurrentCondition": [
+      "LastDungeonResult",
+      "3",
+      "19",
+      "True",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH3_Main_24_PG"
+    ]
+  },
+  {
+    "Index": 33220,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "999",
+      "999",
+      "999"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "33220"
+    ]
+  },
+  {
+    "Index": 30221,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "3",
+      "22",
+      "4"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "30221"
+    ]
+  },
+  {
+    "Index": 30222,
+    "Category": "MainScenario",
+    "EventType": "ScenarioBattleEnd",
+    "EventCondition": [
+      "3",
+      "22",
+      "Left"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH3_Main_27"
+    ]
+  },
+  {
+    "Index": 30223,
+    "Category": "MainScenario",
+    "EventType": "EnterLobby",
+    "CurrentCondition": [
+      "LastDungeonResult",
+      "3",
+      "22",
+      "True",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH3_Main_28"
+    ]
+  },
+  {
+    "Index": 30290,
+    "Category": "MainScenario",
+    "EventType": "PlayerVisitNode",
+    "EventCondition": [
+      "3",
+      "29"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "30290"
+    ]
+  },
+  {
+    "Index": 40000,
+    "Category": "MainScenario",
+    "EventType": "ChapterMove",
+    "EventCondition": [
+      "4"
+    ],
+    "CurrentCondition": [
+      "CompleteDungeon",
+      "3",
+      "22",
+      "True"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "40000"
+    ]
+  },
+  {
+    "Index": 40010,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "4",
+      "1",
+      "1"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "40010"
+    ]
+  },
+  {
+    "Index": 40011,
+    "Category": "MainScenario",
+    "EventType": "EnterLobby",
+    "CurrentCondition": [
+      "LastDungeonResult",
+      "4",
+      "1",
+      "True",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH4_Main_2"
+    ]
+  },
+  {
+    "Index": 40020,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "4",
+      "2",
+      "1"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "40020"
+    ]
+  },
+  {
+    "Index": 40030,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "4",
+      "3",
+      "1"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "40030"
+    ]
+  },
+  {
+    "Index": 40031,
+    "Category": "MainScenario",
+    "EventType": "EnterLobby",
+    "CurrentCondition": [
+      "LastDungeonResult",
+      "4",
+      "3",
+      "True",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH4_Sub_3"
+    ]
+  },
+  {
+    "Index": 40100,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "4",
+      "10",
+      "2"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "40100"
+    ]
+  },
+  {
+    "Index": 40070,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "4",
+      "7",
+      "1"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "40070"
+    ]
+  },
+  {
+    "Index": 40071,
+    "Category": "MainScenario",
+    "EventType": "EnterLobby",
+    "CurrentCondition": [
+      "LastDungeonResult",
+      "4",
+      "7",
+      "True",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH4_Main_4"
+    ]
+  },
+  {
+    "Index": 40140,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "4",
+      "14",
+      "1"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "40140"
+    ]
+  },
+  {
+    "Index": 40141,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "4",
+      "14",
+      "2"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "40141"
+    ]
+  },
+  {
+    "Index": 40142,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "4",
+      "14",
+      "3"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "40142"
+    ]
+  },
+  {
+    "Index": 40130,
+    "Category": "MainScenario",
+    "EventType": "EnterScenarioBattle",
+    "EventCondition": [
+      "4",
+      "13"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH4_Main_6"
+    ]
+  },
+  {
+    "Index": 40131,
+    "Category": "MainScenario",
+    "EventType": "ScenarioBattleEnd",
+    "EventCondition": [
+      "4",
+      "13",
+      "Left"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH4_Main_7"
+    ]
+  },
+  {
+    "Index": 40132,
+    "Category": "MainScenario",
+    "EventType": "EnterLobby",
+    "CurrentCondition": [
+      "LastDungeonResult",
+      "4",
+      "13",
+      "True",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH4_Main_8"
+    ]
+  },
+  {
+    "Index": 40143,
+    "Category": "MainScenario",
+    "EventType": "ScenarioBattleEnd",
+    "EventCondition": [
+      "4",
+      "14",
+      "Left"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH4_Main_12"
+    ]
+  },
+  {
+    "Index": 40150,
+    "Category": "MainScenario",
+    "EventType": "EnterScenarioBattle",
+    "EventCondition": [
+      "4",
+      "15"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH4_Main_13"
+    ]
+  },
+  {
+    "Index": 40180,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "4",
+      "18",
+      "4"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "41180"
+    ]
+  },
+  {
+    "Index": 40181,
+    "Category": "MainScenario",
+    "EventType": "EnterLobby",
+    "CurrentCondition": [
+      "LastDungeonResult",
+      "4",
+      "18",
+      "True",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH4_Main_15"
+    ]
+  },
+  {
+    "Index": 40210,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "4",
+      "21",
+      "3"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "40210"
+    ]
+  },
+  {
+    "Index": 40211,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveEnd",
+    "EventCondition": [
+      "4",
+      "21",
+      "3"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "40211"
+    ]
+  },
+  {
+    "Index": 40212,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "4",
+      "21",
+      "4"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "40212"
+    ]
+  },
+  {
+    "Index": 40213,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "999",
+      "999",
+      "999"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "40213"
+    ]
+  },
+  {
+    "Index": 40214,
+    "Category": "MainScenario",
+    "EventType": "EnterLobby",
+    "CurrentCondition": [
+      "LastDungeonResult",
+      "4",
+      "21",
+      "True",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH4_Main_20"
+    ]
+  },
+  {
+    "Index": 40215,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "4",
+      "21",
+      "3"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "40215"
+    ]
+  },
+  {
+    "Index": 50000,
+    "Category": "MainScenario",
+    "EventType": "ChapterMove",
+    "EventCondition": [
+      "5"
+    ],
+    "CurrentCondition": [
+      "CompleteDungeon",
+      "4",
+      "21",
+      "True"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "50000"
+    ]
+  },
+  {
+    "Index": 50001,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "5",
+      "001",
+      "1"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "50001"
+    ]
+  },
+  {
+    "Index": 50002,
+    "Category": "MainScenario",
+    "EventType": "EnterLobby",
+    "CurrentCondition": [
+      "LastDungeonResult",
+      "5",
+      "1",
+      "True",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH5_Sub_2"
+    ]
+  },
+  {
+    "Index": 50010,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "5",
+      "002",
+      "1"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "50201"
+    ]
+  },
+  {
+    "Index": 50011,
+    "Category": "MainScenario",
+    "EventType": "ScenarioBattleEnd",
+    "EventCondition": [
+      "5",
+      "002",
+      "Left"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH5_Main_2"
+    ]
+  },
+  {
+    "Index": 50203,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveEnd",
+    "EventCondition": [
+      "5",
+      "003",
+      "2"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "50203"
+    ]
+  },
+  {
+    "Index": 50204,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "5",
+      "003",
+      "4"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "50204"
+    ]
+  },
+  {
+    "Index": 50133,
+    "Category": "MainScenario",
+    "EventType": "EnterLobby",
+    "CurrentCondition": [
+      "LastDungeonResult",
+      "5",
+      "003",
+      "True",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH5_Main_5"
+    ]
+  },
+  {
+    "Index": 50004,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "5",
+      "004",
+      "1"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "50004"
+    ]
+  },
+  {
+    "Index": 50006,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "5",
+      "006",
+      "1"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "50006"
+    ]
+  },
+  {
+    "Index": 50090,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveEnd",
+    "EventCondition": [
+      "5",
+      "009",
+      "3"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "50090"
+    ]
+  },
+  {
+    "Index": 50091,
+    "Category": "MainScenario",
+    "EventType": "ScenarioBattleEnd",
+    "EventCondition": [
+      "5",
+      "009",
+      "Left"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH5_Main_7"
+    ]
+  },
+  {
+    "Index": 50092,
+    "Category": "MainScenario",
+    "EventType": "EnterLobby",
+    "CurrentCondition": [
+      "LastDungeonResult",
+      "5",
+      "009",
+      "True",
+      "True"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "50092"
+    ]
+  },
+  {
+    "Index": 50101,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "5",
+      "010",
+      "1"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "50101"
+    ]
+  },
+  {
+    "Index": 50102,
+    "Category": "MainScenario",
+    "EventType": "ScenarioBattleEnd",
+    "EventCondition": [
+      "5",
+      "010",
+      "Left"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH5_Main_10"
+    ]
+  },
+  {
+    "Index": 50103,
+    "Category": "MainScenario",
+    "EventType": "EnterLobby",
+    "CurrentCondition": [
+      "LastDungeonResult",
+      "5",
+      "010",
+      "True",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH5_Main_11"
+    ]
+  },
+  {
+    "Index": 50110,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "5",
+      "011",
+      "1"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "50110"
+    ]
+  },
+  {
+    "Index": 50111,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveEnd",
+    "EventCondition": [
+      "5",
+      "011",
+      "1"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "50111"
+    ]
+  },
+  {
+    "Index": 50112,
+    "Category": "MainScenario",
+    "EventType": "EnterLobby",
+    "CurrentCondition": [
+      "LastDungeonResult",
+      "5",
+      "011",
+      "True",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH5_Main_14"
+    ]
+  },
+  {
+    "Index": 50213,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "5",
+      "013",
+      "1"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "50213"
+    ]
+  },
+  {
+    "Index": 50130,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveEnd",
+    "EventCondition": [
+      "5",
+      "013",
+      "1"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "50130"
+    ]
+  },
+  {
+    "Index": 50214,
+    "Category": "MainScenario",
+    "EventType": "EnterLobby",
+    "CurrentCondition": [
+      "LastDungeonResult",
+      "5",
+      "013",
+      "True",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH5_Main_17"
+    ]
+  },
+  {
+    "Index": 50140,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "5",
+      "014",
+      "2"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "50140"
+    ]
+  },
+  {
+    "Index": 50150,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "5",
+      "015",
+      "4"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "50150"
+    ]
+  },
+  {
+    "Index": 50151,
+    "Category": "MainScenario",
+    "EventType": "ScenarioBattleEnd",
+    "EventCondition": [
+      "5",
+      "015",
+      "Left"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH5_Main_20"
+    ]
+  },
+  {
+    "Index": 50216,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveEnd",
+    "EventCondition": [
+      "5",
+      "016",
+      "1"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "50216"
+    ]
+  },
+  {
+    "Index": 50170,
+    "Category": "MainScenario",
+    "EventType": "EnterLobby",
+    "CurrentCondition": [
+      "LastDungeonResult",
+      "5",
+      "017",
+      "True",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH5_Main_22"
+    ]
+  },
+  {
+    "Index": 50180,
+    "Category": "MainScenario",
+    "EventType": "EnterLobby",
+    "CurrentCondition": [
+      "LastDungeonResult",
+      "5",
+      "018",
+      "True",
+      "True"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "50180"
+    ]
+  },
+  {
+    "Index": 50181,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "5",
+      "018",
+      "4"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "50181"
+    ]
+  },
+  {
+    "Index": 50190,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "5",
+      "019",
+      "1"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "50190"
+    ]
+  },
+  {
+    "Index": 50191,
+    "Category": "MainScenario",
+    "EventType": "ScenarioBattleEnd",
+    "EventCondition": [
+      "5",
+      "019",
+      "Left"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH5_Main_26"
+    ]
+  },
+  {
+    "Index": 50192,
+    "Category": "MainScenario",
+    "EventType": "EnterLobby",
+    "CurrentCondition": [
+      "LastDungeonResult",
+      "5",
+      "019",
+      "True",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH5_Main_27"
+    ]
+  },
+  {
+    "Index": 50221,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "5",
+      "021",
+      "1"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "50221"
+    ]
+  },
+  {
+    "Index": 50212,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveEnd",
+    "EventCondition": [
+      "5",
+      "021",
+      "2"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "50212"
+    ]
+  },
+  {
+    "Index": 50222,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "5",
+      "021",
+      "3"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "50222"
+    ]
+  },
+  {
+    "Index": 53221,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "999",
+      "999",
+      "999"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "53221"
+    ]
+  },
+  {
+    "Index": 50223,
+    "Category": "MainScenario",
+    "EventType": "ScenarioBattleEnd",
+    "EventCondition": [
+      "5",
+      "021",
+      "Left"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH5_Main_32"
+    ]
+  },
+  {
+    "Index": 50219,
+    "Category": "MainScenario",
+    "EventType": "EnterLobby",
+    "CurrentCondition": [
+      "LastDungeonResult",
+      "5",
+      "021",
+      "True",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH5_Main_33"
+    ]
+  },
+  {
+    "Index": 60000,
+    "Category": "MainScenario",
+    "EventType": "ChapterMove",
+    "EventCondition": [
+      "6"
+    ],
+    "CurrentCondition": [
+      "CompleteDungeon",
+      "5",
+      "21",
+      "True"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "60000"
+    ]
+  },
+  {
+    "Index": 60204,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveEnd",
+    "EventCondition": [
+      "6",
+      "004",
+      "2"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH6_Main_6"
+    ]
+  },
+  {
+    "Index": 60205,
+    "Category": "MainScenario",
+    "EventType": "ScenarioBattleEnd",
+    "EventCondition": [
+      "6",
+      "004",
+      "Left"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH6_Main_7"
+    ]
+  },
+  {
+    "Index": 60206,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "6",
+      "005",
+      "5"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH6_Main_8"
+    ]
+  },
+  {
+    "Index": 60207,
+    "Category": "MainScenario",
+    "EventType": "ScenarioBattleEnd",
+    "EventCondition": [
+      "6",
+      "005",
+      "Left"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH6_Main_9"
+    ]
+  },
+  {
+    "Index": 60208,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveEnd",
+    "EventCondition": [
+      "6",
+      "006",
+      "2"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH6_Main_10"
+    ]
+  },
+  {
+    "Index": 60209,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveEnd",
+    "EventCondition": [
+      "6",
+      "007",
+      "1"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH6_Main_11"
+    ]
+  },
+  {
+    "Index": 60071,
+    "Category": "MainScenario",
+    "EventType": "EnterLobby",
+    "CurrentCondition": [
+      "LastDungeonResult",
+      "6",
+      "7",
+      "True",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH6_Sub_2"
+    ]
+  },
+  {
+    "Index": 60218,
+    "Category": "MainScenario",
+    "EventType": "EnterScenarioBattle",
+    "EventCondition": [
+      "6",
+      "018"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH6_Main_20"
+    ]
+  },
+  {
+    "Index": 60219,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "6",
+      "018",
+      "1"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH6_Main_21"
+    ]
+  },
+  {
+    "Index": 60220,
+    "Category": "MainScenario",
+    "EventType": "EnterLobby",
+    "CurrentCondition": [
+      "LastDungeonResult",
+      "6",
+      "019",
+      "True",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH6_Main_22"
+    ]
+  },
+  {
+    "Index": 60001,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "6",
+      "001",
+      "1"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH6_Sub_1"
+    ]
+  },
+  {
+    "Index": 60010,
+    "Category": "MainScenario",
+    "EventType": "EnterLobby",
+    "CurrentCondition": [
+      "LastDungeonResult",
+      "6",
+      "001",
+      "True",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH6_Main_1"
+    ]
+  },
+  {
+    "Index": 60020,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "6",
+      "002",
+      "1"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH6_Main_2"
+    ]
+  },
+  {
+    "Index": 60021,
+    "Category": "MainScenario",
+    "EventType": "EnterLobby",
+    "CurrentCondition": [
+      "LastDungeonResult",
+      "6",
+      "002",
+      "True",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH6_Main_3"
+    ]
+  },
+  {
+    "Index": 60030,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "6",
+      "003",
+      "1"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH6_Main_4"
+    ]
+  },
+  {
+    "Index": 60031,
+    "Category": "MainScenario",
+    "EventType": "ScenarioBattleEnd",
+    "EventCondition": [
+      "6",
+      "003",
+      "Left"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH6_Main_5"
+    ]
+  },
+  {
+    "Index": 60090,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "6",
+      "009",
+      "1"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH6_Main_12"
+    ]
+  },
+  {
+    "Index": 60091,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "6",
+      "009",
+      "3"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH6_Main_13"
+    ]
+  },
+  {
+    "Index": 60092,
+    "Category": "MainScenario",
+    "EventType": "ScenarioBattleEnd",
+    "EventCondition": [
+      "6",
+      "009",
+      "Left"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH6_Main_14"
+    ]
+  },
+  {
+    "Index": 60100,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveEnd",
+    "EventCondition": [
+      "6",
+      "010",
+      "2"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH6_Main_15"
+    ]
+  },
+  {
+    "Index": 60101,
+    "Category": "MainScenario",
+    "EventType": "EnterLobby",
+    "CurrentCondition": [
+      "LastDungeonResult",
+      "6",
+      "010",
+      "True",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH6_Main_16"
+    ]
+  },
+  {
+    "Index": 60130,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "6",
+      "013",
+      "1"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH6_Main_18"
+    ]
+  },
+  {
+    "Index": 60131,
+    "Category": "MainScenario",
+    "EventType": "EnterLobby",
+    "CurrentCondition": [
+      "LastDungeonResult",
+      "6",
+      "013",
+      "True",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH6_Main_19"
+    ]
+  },
+  {
+    "Index": 60210,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "6",
+      "021",
+      "4"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH6_Main_23"
+    ]
+  },
+  {
+    "Index": 60211,
+    "Category": "MainScenario",
+    "EventType": "ScenarioBattleEnd",
+    "EventCondition": [
+      "6",
+      "021",
+      "Left"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH6_Main_24"
+    ]
+  },
+  {
+    "Index": 60290,
+    "Category": "MainScenario",
+    "EventType": "PlayerVisitNode",
+    "EventCondition": [
+      "6",
+      "29"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "60290"
+    ]
+  },
+  {
+    "Index": 60120,
+    "Category": "MainScenario",
+    "EventType": "EnterScenarioBattle",
+    "EventCondition": [
+      "6",
+      "012"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH6_Main_17"
+    ]
+  },
+  {
+    "Index": 70000,
+    "Category": "MainScenario",
+    "EventType": "ChapterMove",
+    "EventCondition": [
+      "7"
+    ],
+    "CurrentCondition": [
+      "CompleteDungeon",
+      "6",
+      "21",
+      "True"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "70000"
+    ]
+  },
+  {
+    "Index": 70001,
+    "Category": "MainScenario",
+    "EventType": "NodeFunctionMenu",
+    "EventCondition": [
+      "117",
+      "4"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "70001"
+    ]
+  },
+  {
+    "Index": 70011,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "7",
+      "1",
+      "3"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH7_Main_1"
+    ]
+  },
+  {
+    "Index": 70012,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveEnd",
+    "EventCondition": [
+      "7",
+      "1",
+      "3"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH7_Main_2"
+    ]
+  },
+  {
+    "Index": 70021,
+    "Category": "MainScenario",
+    "EventType": "EnterScenarioBattle",
+    "EventCondition": [
+      "7",
+      "2"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH7_Main_3"
+    ]
+  },
+  {
+    "Index": 70022,
+    "Category": "MainScenario",
+    "EventType": "ScenarioBattleEnd",
+    "EventCondition": [
+      "7",
+      "2",
+      "Left"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH7_Main_4"
+    ]
+  },
+  {
+    "Index": 70023,
+    "Category": "MainScenario",
+    "EventType": "EnterLobby",
+    "CurrentCondition": [
+      "LastDungeonResult",
+      "7",
+      "2",
+      "True",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH7_Main_5"
+    ]
+  },
+  {
+    "Index": 70031,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "7",
+      "3",
+      "1"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH7_Main_6"
+    ]
+  },
+  {
+    "Index": 70032,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveEnd",
+    "EventCondition": [
+      "7",
+      "3",
+      "1"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH7_Main_7"
+    ]
+  },
+  {
+    "Index": 70050,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "7",
+      "5",
+      "4"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH7_Lei_1"
+    ]
+  },
+  {
+    "Index": 70061,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "7",
+      "6",
+      "1"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH7_Main_8"
+    ]
+  },
+  {
+    "Index": 70062,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "7",
+      "6",
+      "4"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH7_Main_9"
+    ]
+  },
+  {
+    "Index": 70063,
+    "Category": "MainScenario",
+    "EventType": "ScenarioBattleEnd",
+    "EventCondition": [
+      "7",
+      "6",
+      "Left"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH7_Main_10"
+    ]
+  },
+  {
+    "Index": 70002,
+    "Category": "MainScenario",
+    "EventType": "PlayerVisitNode",
+    "EventCondition": [
+      "7",
+      "30"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "70002"
+    ]
+  },
+  {
+    "Index": 70003,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "117",
+      "3",
+      "1"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH7_Main_12"
+    ]
+  },
+  {
+    "Index": 70004,
+    "Category": "MainScenario",
+    "EventType": "EnterLobby",
+    "CurrentCondition": [
+      "LastDungeonResult",
+      "117",
+      "3",
+      "True",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH7_Main_13"
+    ]
+  },
+  {
+    "Index": 70005,
+    "Category": "MainScenario",
+    "EventType": "PlayerVisitNode",
+    "EventCondition": [
+      "117",
+      "4"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "70005"
+    ]
+  },
+  {
+    "Index": 70071,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveEnd",
+    "EventCondition": [
+      "7",
+      "7",
+      "2"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH7_Main_16"
+    ]
+  },
+  {
+    "Index": 70072,
+    "Category": "MainScenario",
+    "EventType": "EnterLobby",
+    "CurrentCondition": [
+      "LastDungeonResult",
+      "7",
+      "7",
+      "True",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH7_Main_17"
+    ]
+  },
+  {
+    "Index": 70080,
+    "Category": "MainScenario",
+    "EventType": "EnterLobby",
+    "CurrentCondition": [
+      "LastDungeonResult",
+      "7",
+      "8",
+      "True",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH7_Main_18"
+    ]
+  },
+  {
+    "Index": 70090,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "7",
+      "9",
+      "5"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH7_Lei_2"
+    ]
+  },
+  {
+    "Index": 70100,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "7",
+      "10",
+      "4"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH7_Lei_3"
+    ]
+  },
+  {
+    "Index": 70101,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveStart",
+    "EventCondition": [
+      "7",
+      "10",
+      "4"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH7_Lei_3_1"
+    ]
+  },
+  {
+    "Index": 70102,
+    "Category": "MainScenario",
+    "EventType": "EnterLobby",
+    "CurrentCondition": [
+      "LastDungeonResult",
+      "7",
+      "10",
+      "True",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH7_Lei_4"
+    ]
+  },
+  {
+    "Index": 70121,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "7",
+      "12",
+      "4"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH7_Lei_5"
+    ]
+  },
+  {
+    "Index": 70122,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "999",
+      "999",
+      "999"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH7_Main_21"
+    ]
+  },
+  {
+    "Index": 70123,
+    "Category": "MainScenario",
+    "EventType": "EnterLobby",
+    "CurrentCondition": [
+      "LastDungeonResult",
+      "7",
+      "12",
+      "True",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH7_Main_22"
+    ]
+  },
+  {
+    "Index": 100040002,
+    "Category": "SubStory",
+    "EventType": "EnterSubStoryNode",
+    "EventCondition": [
+      "100040",
+      "2"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Theo/Sub1_Theo_2_1"
+    ]
+  },
+  {
+    "Index": 100040003,
+    "Category": "SubStory",
+    "EventType": "EnterBattle",
+    "EventCondition": [
+      "100040",
+      "2",
+      "1"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Theo/Sub1_Theo_2_2"
+    ]
+  },
+  {
+    "Index": 100040004,
+    "Category": "SubStory",
+    "EventType": "WaveReady",
+    "EventCondition": [
+      "100040",
+      "2",
+      "1"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Theo/Sub1_Theo_2_3-6"
+    ]
+  },
+  {
+    "Index": 100040005,
+    "Category": "SubStory",
+    "EventType": "WaveReady",
+    "EventCondition": [
+      "100040",
+      "2",
+      "1"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Theo/Sub1_Theo_2_7"
+    ]
+  },
+  {
+    "Index": 100040006,
+    "Category": "SubStory",
+    "EventType": "WaveReady",
+    "EventCondition": [
+      "100040",
+      "2",
+      "1"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Theo/Sub1_Theo_2_8"
+    ]
+  },
+  {
+    "Index": 100040007,
+    "Category": "SubStory",
+    "EventType": "EnterLobby",
+    "CurrentCondition": [
+      "LastDungeonResult",
+      "100040",
+      "2",
+      "False",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Theo/Sub1_Theo_2_10"
+    ]
+  },
+  {
+    "Index": 100040008,
+    "Category": "SubStory",
+    "EventType": "EnterSubStoryNode",
+    "EventCondition": [
+      "100040",
+      "3"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Theo/Sub1_Theo_3_1"
+    ]
+  },
+  {
+    "Index": 100040009,
+    "Category": "SubStory",
+    "EventType": "WaveReady",
+    "EventCondition": [
+      "100040",
+      "3",
+      "1"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Theo/Sub1_Theo_3_2"
+    ]
+  },
+  {
+    "Index": 100040010,
+    "Category": "SubStory",
+    "EventType": "EnterSubStoryNode",
+    "EventCondition": [
+      "100040",
+      "4"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Theo/Sub1_Theo_3_4"
+    ]
+  },
+  {
+    "Index": 100040011,
+    "Category": "SubStory",
+    "EventType": "EnterBattle",
+    "EventCondition": [
+      "100040",
+      "4",
+      "1"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Theo/Sub1_Theo_3_5"
+    ]
+  },
+  {
+    "Index": 100040012,
+    "Category": "SubStory",
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Theo/Sub1_Theo_3_6-7"
+    ]
+  },
+  {
+    "Index": 100040013,
+    "Category": "SubStory",
+    "EventType": "BattleEnd",
+    "EventCondition": [
+      "100040",
+      "4",
+      "Left"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Theo/Sub1_Theo_3_8"
+    ]
+  },
+  {
+    "Index": 100040014,
+    "Category": "SubStory",
+    "EventType": "EnterLobby",
+    "CurrentCondition": [
+      "LastDungeonResult",
+      "100040",
+      "4",
+      "False",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Theo/Sub1_Theo_3_9"
+    ]
+  },
+  {
+    "Index": 100040015,
+    "Category": "SubStory",
+    "EventType": "EnterSubStoryNode",
+    "EventCondition": [
+      "100040",
+      "5"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Theo/Sub1_Theo_4_1"
+    ]
+  },
+  {
+    "Index": 100040016,
+    "Category": "SubStory",
+    "EventType": "WaveReady",
+    "EventCondition": [
+      "100040",
+      "5",
+      "1"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Theo/Sub1_Theo_4_2"
+    ]
+  },
+  {
+    "Index": 100040017,
+    "Category": "SubStory",
+    "EventType": "WaveReady",
+    "EventCondition": [
+      "100040",
+      "5",
+      "2"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Theo/Sub1_Theo_4_3"
+    ]
+  },
+  {
+    "Index": 100040018,
+    "Category": "SubStory",
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Theo/Sub1_Theo_4_4"
+    ]
+  },
+  {
+    "Index": 100040019,
+    "Category": "SubStory",
+    "EventCondition": [
+      "100040",
+      "5",
+      "2"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Theo/Sub1_Theo_4_5"
+    ]
+  },
+  {
+    "Index": 100040020,
+    "Category": "SubStory",
+    "EventType": "EnterBattle",
+    "EventCondition": [
+      "100040",
+      "6",
+      "1"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Theo/Sub1_Theo_4_6"
+    ]
+  },
+  {
+    "Index": 100040021,
+    "Category": "SubStory",
+    "EventType": "EnterLobby",
+    "CurrentCondition": [
+      "LastDungeonResult",
+      "100040",
+      "6",
+      "False",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Theo/Sub1_Theo_4_7"
+    ]
+  },
+  {
+    "Index": 100040022,
+    "Category": "SubStory",
+    "EventType": "EnterSubStoryNode",
+    "EventCondition": [
+      "100040",
+      "7"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Theo/Sub1_Theo_4_8"
+    ]
+  },
+  {
+    "Index": 100040023,
+    "Category": "SubStory",
+    "EventType": "EnterBattle",
+    "EventCondition": [
+      "100040",
+      "7",
+      "1"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Theo/Sub1_Theo_4_9"
+    ]
+  },
+  {
+    "Index": 100040024,
+    "Category": "SubStory",
+    "EventType": "WaveReady",
+    "EventCondition": [
+      "100040",
+      "8",
+      "1"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Theo/Sub1_Theo_4_10"
+    ]
+  },
+  {
+    "Index": 100040025,
+    "Category": "SubStory",
+    "EventType": "EnterLobby",
+    "CurrentCondition": [
+      "LastDungeonResult",
+      "100040",
+      "8",
+      "False",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Theo/Sub1_Theo_4_11"
+    ]
+  },
+  {
+    "Index": 100040026,
+    "Category": "SubStory",
+    "EventCondition": [
+      "100040",
+      "2",
+      "1"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Theo/Sub1_Theo_2_9"
+    ]
+  },
+  {
+    "Index": 100040027,
+    "Category": "SubStory",
+    "EventCondition": [
+      "100040",
+      "5",
+      "2"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Theo/Sub1_Theo_4_5_1"
+    ]
+  },
+  {
+    "Index": 100040028,
+    "Category": "SubStory",
+    "EventType": "WaveReady",
+    "EventCondition": [
+      "100040",
+      "4",
+      "1"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Theo/Sub1_Theo_3_6-7_1"
+    ]
+  },
+  {
+    "Index": 100043001,
+    "Category": "SubStory",
+    "EventType": "EnterBattle",
+    "EventCondition": [
+      "100043",
+      "1"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Viska/Sub1_Viska_1_1"
+    ]
+  },
+  {
+    "Index": 100043002,
+    "Category": "SubStory",
+    "EventType": "WaveReady",
+    "EventCondition": [
+      "100043",
+      "1",
+      "2"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Viska/Sub1_Viska_1_2"
+    ]
+  },
+  {
+    "Index": 100043003,
+    "Category": "SubStory",
+    "EventType": "WaveReady",
+    "EventCondition": [
+      "100043",
+      "1",
+      "3"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Viska/Sub1_Viska_1_3"
+    ]
+  },
+  {
+    "Index": 100043004,
+    "Category": "SubStory",
+    "EventType": "BattleEnd",
+    "EventCondition": [
+      "100043",
+      "1",
+      "Left"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Viska/Sub1_Viska_1_4"
+    ]
+  },
+  {
+    "Index": 100043005,
+    "Category": "SubStory",
+    "EventType": "EnterBattle",
+    "EventCondition": [
+      "100043",
+      "2"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Viska/Sub1_Viska_2_1"
+    ]
+  },
+  {
+    "Index": 100043006,
+    "Category": "SubStory",
+    "EventCondition": [
+      "100043",
+      "2",
+      "1"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Viska/Sub1_Viska_2_2"
+    ]
+  },
+  {
+    "Index": 100043007,
+    "Category": "SubStory",
+    "EventType": "EnterBattle",
+    "EventCondition": [
+      "100043",
+      "3"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Viska/Sub1_Viska_3_1"
+    ]
+  },
+  {
+    "Index": 100043008,
+    "Category": "SubStory",
+    "EventType": "WaveReady",
+    "EventCondition": [
+      "100043",
+      "3",
+      "1"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Viska/Sub1_Viska_3_2"
+    ]
+  },
+  {
+    "Index": 100043009,
+    "Category": "SubStory",
+    "EventType": "WaveReady",
+    "EventCondition": [
+      "100043",
+      "3",
+      "2"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Viska/Sub1_Viska_3_3"
+    ]
+  },
+  {
+    "Index": 100043010,
+    "Category": "SubStory",
+    "EventType": "WaveEnd",
+    "EventCondition": [
+      "100043",
+      "3",
+      "2"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Viska/Sub1_Viska_3_3_2"
+    ]
+  },
+  {
+    "Index": 100043011,
+    "Category": "SubStory",
+    "EventType": "BattleEnd",
+    "EventCondition": [
+      "100043",
+      "3",
+      "Left"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Viska/Sub1_Viska_3_4"
+    ]
+  },
+  {
+    "Index": 100043012,
+    "Category": "SubStory",
+    "EventType": "EnterLobby",
+    "CurrentCondition": [
+      "LastDungeonResult",
+      "100043",
+      "3",
+      "False",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Viska/Sub1_Viska_3_5"
+    ]
+  },
+  {
+    "Index": 100043013,
+    "Category": "SubStory",
+    "EventType": "EnterBattle",
+    "EventCondition": [
+      "100043",
+      "4"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Viska/Sub1_Viska_4_1"
+    ]
+  },
+  {
+    "Index": 100043014,
+    "Category": "SubStory",
+    "EventType": "WaveReady",
+    "EventCondition": [
+      "100043",
+      "4",
+      "2"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Viska/Sub1_Viska_4_2-1"
+    ]
+  },
+  {
+    "Index": 100043015,
+    "Category": "SubStory",
+    "EventCondition": [
+      "100043",
+      "4",
+      "2"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Viska/Sub1_Viska_4_2-2"
+    ]
+  },
+  {
+    "Index": 100043016,
+    "Category": "SubStory",
+    "EventType": "WaveEnd",
+    "EventCondition": [
+      "100043",
+      "4",
+      "2"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Viska/Sub1_Viska_4_3"
+    ]
+  },
+  {
+    "Index": 100043017,
+    "Category": "SubStory",
+    "EventType": "WaveReady",
+    "EventCondition": [
+      "100043",
+      "4",
+      "3"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Viska/Sub1_Viska_4_4"
+    ]
+  },
+  {
+    "Index": 100043018,
+    "Category": "SubStory",
+    "EventCondition": [
+      "100043",
+      "4",
+      "4"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Viska/Sub1_Viska_4_5"
+    ]
+  },
+  {
+    "Index": 80000,
+    "Category": "MainScenario",
+    "EventType": "ChapterMove",
+    "EventCondition": [
+      "8"
+    ],
+    "CurrentCondition": [
+      "CompleteDungeon",
+      "7",
+      "12",
+      "True"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "80000"
+    ]
+  },
+  {
+    "Index": 80001,
+    "Category": "MainScenario",
+    "EventType": "ScenarioBattleEnd",
+    "EventCondition": [
+      "8",
+      "3",
+      "Left"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH8_Main_1"
+    ]
+  },
+  {
+    "Index": 80002,
+    "Category": "MainScenario",
+    "EventType": "EnterLobby",
+    "CurrentCondition": [
+      "LastDungeonResult",
+      "8",
+      "3",
+      "True",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH8_Main_2"
+    ]
+  },
+  {
+    "Index": 80003,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "8",
+      "5",
+      "1"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH8_Main_3"
+    ]
+  },
+  {
+    "Index": 80004,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "8",
+      "5",
+      "3"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH8_Main_4"
+    ]
+  },
+  {
+    "Index": 80005,
+    "Category": "MainScenario",
+    "EventType": "EnterLobby",
+    "CurrentCondition": [
+      "LastDungeonResult",
+      "8",
+      "5",
+      "True",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH8_Main_5"
+    ]
+  },
+  {
+    "Index": 80006,
+    "Category": "MainScenario",
+    "EventType": "EnterScenarioBattle",
+    "EventCondition": [
+      "8",
+      "6"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH8_Main_6"
+    ]
+  },
+  {
+    "Index": 80007,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "8",
+      "7",
+      "2"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH8_Main_7"
+    ]
+  },
+  {
+    "Index": 80008,
+    "Category": "MainScenario",
+    "EventType": "EnterLobby",
+    "CurrentCondition": [
+      "LastDungeonResult",
+      "8",
+      "7",
+      "True",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH8_Main_8"
+    ]
+  },
+  {
+    "Index": 80009,
+    "Category": "MainScenario",
+    "EventType": "EnterLobby",
+    "CurrentCondition": [
+      "LastDungeonResult",
+      "8",
+      "8",
+      "True",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH8_Main_9"
+    ]
+  },
+  {
+    "Index": 80010,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "8",
+      "9",
+      "1"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH8_Main_10"
+    ]
+  },
+  {
+    "Index": 80011,
+    "Category": "MainScenario",
+    "EventType": "ScenarioBattleEnd",
+    "EventCondition": [
+      "8",
+      "9",
+      "Left"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH8_Main_11"
+    ]
+  },
+  {
+    "Index": 80012,
+    "Category": "MainScenario",
+    "EventType": "EnterLobby",
+    "CurrentCondition": [
+      "LastDungeonResult",
+      "8",
+      "9",
+      "True",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH8_Main_12"
+    ]
+  },
+  {
+    "Index": 80013,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "8",
+      "10",
+      "1"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH8_Main_13"
+    ]
+  },
+  {
+    "Index": 80014,
+    "Category": "MainScenario",
+    "EventCondition": [
+      "8",
+      "10",
+      "1"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH8_Main_14"
+    ]
+  },
+  {
+    "Index": 80015,
+    "Category": "MainScenario",
+    "EventCondition": [
+      "8",
+      "11",
+      "1"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH8_Main_15"
+    ]
+  },
+  {
+    "Index": 80016,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveEnd",
+    "EventCondition": [
+      "8",
+      "12",
+      "2"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH8_Main_16"
+    ]
+  },
+  {
+    "Index": 80017,
+    "Category": "MainScenario",
+    "EventCondition": [
+      "8",
+      "12",
+      "3"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH8_Main_17"
+    ]
+  },
+  {
+    "Index": 80018,
+    "Category": "MainScenario",
+    "EventType": "EnterLobby",
+    "CurrentCondition": [
+      "LastDungeonResult",
+      "8",
+      "12",
+      "True",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH8_Main_18"
+    ]
+  },
+  {
+    "Index": 80019,
+    "Category": "MainScenario",
+    "EventType": "EnterLobby",
+    "CurrentCondition": [
+      "LastDungeonResult",
+      "8",
+      "13",
+      "True",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH8_Main_19"
+    ]
+  },
+  {
+    "Index": 80020,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "8",
+      "15",
+      "1"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH8_Main_20"
+    ]
+  },
+  {
+    "Index": 80021,
+    "Category": "MainScenario",
+    "EventCondition": [
+      "8",
+      "15",
+      "1"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH8_Main_21"
+    ]
+  },
+  {
+    "Index": 80022,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "8",
+      "16",
+      "1"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH8_Main_22"
+    ]
+  },
+  {
+    "Index": 80023,
+    "Category": "MainScenario",
+    "EventType": "ScenarioBattleEnd",
+    "EventCondition": [
+      "8",
+      "16",
+      "Left"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH8_Main_23"
+    ]
+  },
+  {
+    "Index": 80024,
+    "Category": "MainScenario",
+    "EventType": "ScenarioBattleEnd",
+    "EventCondition": [
+      "8",
+      "17",
+      "Left"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH8_Main_24"
+    ]
+  },
+  {
+    "Index": 80025,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "8",
+      "18",
+      "3"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH8_Main_25"
+    ]
+  },
+  {
+    "Index": 80026,
+    "Category": "MainScenario",
+    "EventCondition": [
+      "8",
+      "18",
+      "3"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH8_Main_26"
+    ]
+  },
+  {
+    "Index": 80027,
+    "Category": "MainScenario",
+    "EventType": "EnterLobby",
+    "CurrentCondition": [
+      "LastDungeonResult",
+      "8",
+      "18",
+      "True",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH8_Main_27"
+    ]
+  },
+  {
+    "Index": 80028,
+    "Category": "MainScenario",
+    "EventType": "ScenarioBattleEnd",
+    "EventCondition": [
+      "8",
+      "20",
+      "Left"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH8_Main_28"
+    ]
+  },
+  {
+    "Index": 80029,
+    "Category": "MainScenario",
+    "EventType": "EnterLobby",
+    "CurrentCondition": [
+      "LastDungeonResult",
+      "8",
+      "22",
+      "True",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH8_Main_29"
+    ]
+  },
+  {
+    "Index": 80030,
+    "Category": "MainScenario",
+    "EventType": "EnterLobby",
+    "CurrentCondition": [
+      "LastDungeonResult",
+      "8",
+      "23",
+      "True",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH8_Main_30"
+    ]
+  },
+  {
+    "Index": 80031,
+    "Category": "MainScenario",
+    "EventType": "EnterScenarioBattle",
+    "EventCondition": [
+      "8",
+      "26"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH8_Main_31"
+    ]
+  },
+  {
+    "Index": 80032,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "8",
+      "26",
+      "4"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH8_Main_32"
+    ]
+  },
+  {
+    "Index": 80033,
+    "Category": "MainScenario",
+    "EventCondition": [
+      "8",
+      "26",
+      "4"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH8_Main_33"
+    ]
+  },
+  {
+    "Index": 80034,
+    "Category": "MainScenario",
+    "EventType": "EnterLobby",
+    "CurrentCondition": [
+      "LastDungeonResult",
+      "8",
+      "26",
+      "True",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH8_Main_34"
+    ]
+  },
+  {
+    "Index": 80035,
+    "Category": "MainScenario",
+    "EventType": "PlayerVisitNode",
+    "EventCondition": [
+      "8",
+      "29"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "80001"
+    ]
+  },
+  {
+    "Index": 100044001,
+    "Category": "SubStory",
+    "EventCondition": [
+      "100044",
+      "2",
+      "1"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Priscilla/Sub1_Priscilla_2_1"
+    ]
+  },
+  {
+    "Index": 100044002,
+    "Category": "SubStory",
+    "EventType": "BattleEnd",
+    "EventCondition": [
+      "100044",
+      "2",
+      "Left"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Priscilla/Sub1_Priscilla_2_2"
+    ]
+  },
+  {
+    "Index": 100044003,
+    "Category": "SubStory",
+    "EventType": "EnterSubStoryNode",
+    "EventCondition": [
+      "100044",
+      "3"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Priscilla/Sub1_Priscilla_3_1"
+    ]
+  },
+  {
+    "Index": 100044004,
+    "Category": "SubStory",
+    "EventType": "WaveReady",
+    "EventCondition": [
+      "100044",
+      "3",
+      "3"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Priscilla/Sub1_Priscilla_3_1_1"
+    ]
+  },
+  {
+    "Index": 100044005,
+    "Category": "SubStory",
+    "EventCondition": [
+      "100044",
+      "3",
+      "3"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Priscilla/Sub1_Priscilla_3_2"
+    ]
+  },
+  {
+    "Index": 100044006,
+    "Category": "SubStory",
+    "EventType": "WaveEnd",
+    "EventCondition": [
+      "100044",
+      "3",
+      "3"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Priscilla/Sub1_Priscilla_3_2_1"
+    ]
+  },
+  {
+    "Index": 100044007,
+    "Category": "SubStory",
+    "EventType": "EnterLobby",
+    "CurrentCondition": [
+      "LastDungeonResult",
+      "100044",
+      "3",
+      "False",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Priscilla/Sub1_Priscilla_3_3"
+    ]
+  },
+  {
+    "Index": 100044008,
+    "Category": "SubStory",
+    "EventType": "EnterSubStoryNode",
+    "EventCondition": [
+      "100044",
+      "4"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Priscilla/Sub1_Priscilla_4_1"
+    ]
+  },
+  {
+    "Index": 100044009,
+    "Category": "SubStory",
+    "EventType": "EnterBattle",
+    "EventCondition": [
+      "100044",
+      "4"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Priscilla/Sub1_Priscilla_4_2"
+    ]
+  },
+  {
+    "Index": 100044010,
+    "Category": "SubStory",
+    "EventCondition": [
+      "100044",
+      "4",
+      "1"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Priscilla/Sub1_Priscilla_4_3"
+    ]
+  },
+  {
+    "Index": 100044011,
+    "Category": "SubStory",
+    "EventType": "BattleEnd",
+    "EventCondition": [
+      "100044",
+      "4",
+      "Left"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Priscilla/Sub1_Priscilla_4_3_2"
+    ]
+  },
+  {
+    "Index": 100044012,
+    "Category": "SubStory",
+    "EventType": "EnterSubStoryNode",
+    "EventCondition": [
+      "100044",
+      "5"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Priscilla/Sub1_Priscilla_5_1"
+    ]
+  },
+  {
+    "Index": 100044013,
+    "Category": "SubStory",
+    "EventType": "WaveReady",
+    "EventCondition": [
+      "100044",
+      "5",
+      "1"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Priscilla/Sub1_Priscilla_5_2"
+    ]
+  },
+  {
+    "Index": 100044014,
+    "Category": "SubStory",
+    "EventType": "EnterSubStoryNode",
+    "EventCondition": [
+      "100044",
+      "6"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Priscilla/Sub1_Priscilla_6_1"
+    ]
+  },
+  {
+    "Index": 100044015,
+    "Category": "SubStory",
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Priscilla/Sub1_Priscilla_6_2"
+    ]
+  },
+  {
+    "Index": 100044016,
+    "Category": "SubStory",
+    "EventType": "BattleEnd",
+    "EventCondition": [
+      "100044",
+      "6",
+      "Left"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Priscilla/Sub1_Priscilla_6_3"
+    ]
+  },
+  {
+    "Index": 100044017,
+    "Category": "SubStory",
+    "EventType": "EnterBattle",
+    "EventCondition": [
+      "100044",
+      "7"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Priscilla/Sub1_Priscilla_6_4"
+    ]
+  },
+  {
+    "Index": 100044018,
+    "Category": "SubStory",
+    "EventType": "EnterLobby",
+    "CurrentCondition": [
+      "LastDungeonResult",
+      "100044",
+      "7",
+      "False",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Priscilla/Sub1_Priscilla_6_5"
+    ]
+  },
+  {
+    "Index": 100044019,
+    "Category": "SubStory"
+  },
+  {
+    "Index": 100044020,
+    "Category": "SubStory",
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Priscilla/Sub1_Priscilla_6_1_1"
+    ]
+  },
+  {
+    "Index": 100017001,
+    "Category": "SubStory",
+    "EventType": "EnterBattle",
+    "EventCondition": [
+      "100017",
+      "1"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Dimael/Sub1_Dimael_1_1"
+    ]
+  },
+  {
+    "Index": 100017002,
+    "Category": "SubStory",
+    "EventType": "WaveReady",
+    "EventCondition": [
+      "100017",
+      "1",
+      "2"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Dimael/Sub1_Dimael_1_2"
+    ]
+  },
+  {
+    "Index": 100017003,
+    "Category": "SubStory",
+    "EventType": "WaveReady",
+    "EventCondition": [
+      "100017",
+      "1",
+      "3"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Dimael/Sub1_Dimael_1_3"
+    ]
+  },
+  {
+    "Index": 100017004,
+    "Category": "SubStory",
+    "EventType": "BattleEnd",
+    "EventCondition": [
+      "100017",
+      "1",
+      "Left"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Dimael/Sub1_Dimael_1_4"
+    ]
+  },
+  {
+    "Index": 100017005,
+    "Category": "SubStory",
+    "EventType": "EnterBattle",
+    "EventCondition": [
+      "100017",
+      "2"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Dimael/Sub1_Dimael_2_1"
+    ]
+  },
+  {
+    "Index": 100017006,
+    "Category": "SubStory",
+    "EventType": "WaveReady",
+    "EventCondition": [
+      "100017",
+      "2",
+      "1"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Dimael/Sub1_Dimael_2_2"
+    ]
+  },
+  {
+    "Index": 100017007,
+    "Category": "SubStory",
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Dimael/Sub1_Dimael_2_3"
+    ]
+  },
+  {
+    "Index": 100017008,
+    "Category": "SubStory",
+    "EventType": "EnterLobby",
+    "CurrentCondition": [
+      "LastDungeonResult",
+      "100017",
+      "2",
+      "False",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Dimael/Sub1_Dimael_3_1"
+    ]
+  },
+  {
+    "Index": 100017009,
+    "Category": "SubStory",
+    "EventType": "WaveReady",
+    "EventCondition": [
+      "100017",
+      "3",
+      "1"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Dimael/Sub1_Dimael_3_2"
+    ]
+  },
+  {
+    "Index": 100017010,
+    "Category": "SubStory",
+    "EventType": "EnterLobby",
+    "CurrentCondition": [
+      "LastDungeonResult",
+      "100017",
+      "4",
+      "False",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Dimael/Sub1_Dimael_3_3"
+    ]
+  },
+  {
+    "Index": 100017011,
+    "Category": "SubStory",
+    "EventType": "EnterBattle",
+    "EventCondition": [
+      "100017",
+      "5"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Dimael/Sub1_Dimael_5_1_1"
+    ]
+  },
+  {
+    "Index": 100017012,
+    "Category": "SubStory",
+    "EventType": "WaveReady",
+    "EventCondition": [
+      "100017",
+      "5",
+      "1"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Dimael/Sub1_Dimael_5_1_2"
+    ]
+  },
+  {
+    "Index": 100017013,
+    "Category": "SubStory",
+    "EventType": "WaveReady",
+    "EventCondition": [
+      "100017",
+      "5",
+      "2"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Dimael/Sub1_Dimael_5_2"
+    ]
+  },
+  {
+    "Index": 100017014,
+    "Category": "SubStory",
+    "EventType": "WaveReady",
+    "EventCondition": [
+      "100017",
+      "5",
+      "3"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Dimael/Sub1_Dimael_5_3"
+    ]
+  },
+  {
+    "Index": 100017015,
+    "Category": "SubStory",
+    "EventType": "WaveReady",
+    "EventCondition": [
+      "100017",
+      "5",
+      "4"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Dimael/Sub1_Dimael_5_4_1"
+    ]
+  },
+  {
+    "Index": 100017016,
+    "Category": "SubStory",
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Dimael/Sub1_Dimael_5_4_2"
+    ]
+  },
+  {
+    "Index": 100017017,
+    "Category": "SubStory",
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Dimael/Sub1_Dimael_5_4_3"
+    ]
+  },
+  {
+    "Index": 100017018,
+    "Category": "SubStory",
+    "EventType": "EnterLobby",
+    "CurrentCondition": [
+      "LastDungeonResult",
+      "100017",
+      "5",
+      "False",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Dimael/Sub1_Dimael_6_1"
+    ]
+  },
+  {
+    "Index": 100017019,
+    "Category": "SubStory",
+    "EventType": "EnterBattle",
+    "EventCondition": [
+      "100017",
+      "6"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Dimael/Sub1_Dimael_6_2"
+    ]
+  },
+  {
+    "Index": 100017020,
+    "Category": "SubStory",
+    "EventType": "WaveEnd",
+    "EventCondition": [
+      "100017",
+      "6",
+      "1"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Dimael/Sub1_Dimael_6_3"
+    ]
+  },
+  {
+    "Index": 100017021,
+    "Category": "SubStory",
+    "EventType": "WaveReady",
+    "EventCondition": [
+      "100017",
+      "6",
+      "3"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Dimael/Sub1_Dimael_6_4"
+    ]
+  },
+  {
+    "Index": 100017022,
+    "Category": "SubStory",
+    "EventType": "BattleEnd",
+    "EventCondition": [
+      "100017",
+      "6",
+      "Left"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Dimael/Sub1_Dimael_7_1"
+    ]
+  },
+  {
+    "Index": 100017023,
+    "Category": "SubStory",
+    "EventType": "BattleEnd",
+    "EventCondition": [
+      "100017",
+      "7",
+      "Left"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Dimael/Sub1_Dimael_7_2"
+    ]
+  },
+  {
+    "Index": 100017024,
+    "Category": "SubStory",
+    "EventType": "EnterLobby",
+    "CurrentCondition": [
+      "LastDungeonResult",
+      "100017",
+      "7",
+      "False",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Dimael/Sub1_Dimael_8_1"
+    ]
+  },
+  {
+    "Index": 100017025,
+    "Category": "SubStory",
+    "EventType": "WaveReady",
+    "EventCondition": [
+      "100017",
+      "8",
+      "1"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Dimael/Sub1_Dimael_8_2"
+    ]
+  },
+  {
+    "Index": 100017026,
+    "Category": "SubStory",
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Dimael/Sub1_Dimael_8_3"
+    ]
+  },
+  {
+    "Index": 100017027,
+    "Category": "SubStory",
+    "EventType": "EnterLobby",
+    "CurrentCondition": [
+      "LastDungeonResult",
+      "100017",
+      "8",
+      "False",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Dimael/Sub1_Dimael_8_4"
+    ]
+  },
+  {
+    "Index": 100017028,
+    "Category": "SubStory",
+    "EventType": "EnterBattle",
+    "EventCondition": [
+      "100017",
+      "9"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Dimael/Sub1_Dimael_9_1"
+    ]
+  },
+  {
+    "Index": 100017029,
+    "Category": "SubStory",
+    "EventType": "WaveReady",
+    "EventCondition": [
+      "100017",
+      "9",
+      "1"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Dimael/Sub1_Dimael_9_2"
+    ]
+  },
+  {
+    "Index": 100017030,
+    "Category": "SubStory",
+    "EventType": "EnterLobby",
+    "CurrentCondition": [
+      "LastDungeonResult",
+      "100017",
+      "9",
+      "False",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Dimael/Sub1_Dimael_9_3"
+    ]
+  },
+  {
+    "Index": 100016001,
+    "Category": "SubStory",
+    "EventType": "EnterBattle",
+    "EventCondition": [
+      "100016",
+      "2"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Rephy/Sub1_Rephy_1_3"
+    ]
+  },
+  {
+    "Index": 100016002,
+    "Category": "SubStory",
+    "EventType": "WaveEnd",
+    "EventCondition": [
+      "100016",
+      "2",
+      "1"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Rephy/Sub1_Rephy_1_4"
+    ]
+  },
+  {
+    "Index": 100016003,
+    "Category": "SubStory",
+    "EventType": "BattleEnd",
+    "EventCondition": [
+      "100016",
+      "2",
+      "Left"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Rephy/Sub1_Rephy_1_5"
+    ]
+  },
+  {
+    "Index": 100016004,
+    "Category": "SubStory",
+    "EventType": "EnterBattle",
+    "EventCondition": [
+      "100016",
+      "4"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Rephy/Sub1_Rephy_2_2"
+    ]
+  },
+  {
+    "Index": 100016005,
+    "Category": "SubStory",
+    "EventType": "BattleBegin",
+    "EventCondition": [
+      "100016",
+      "4"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Rephy/Sub1_Rephy_2_3"
+    ]
+  },
+  {
+    "Index": 100016006,
+    "Category": "SubStory",
+    "EventType": "WaveEnd",
+    "EventCondition": [
+      "100016",
+      "4",
+      "1"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Rephy/Sub1_Rephy_2_4"
+    ]
+  },
+  {
+    "Index": 100016007,
+    "Category": "SubStory",
+    "EventType": "WaveEnd",
+    "EventCondition": [
+      "100016",
+      "4",
+      "2"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Rephy/Sub1_Rephy_2_5"
+    ]
+  },
+  {
+    "Index": 100016008,
+    "Category": "SubStory",
+    "EventType": "EnterLobby",
+    "CurrentCondition": [
+      "LastDungeonResult",
+      "100016",
+      "4",
+      "False",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Rephy/Sub1_Rephy_2_6"
+    ]
+  },
+  {
+    "Index": 100016009,
+    "Category": "SubStory",
+    "EventType": "EnterBattle",
+    "EventCondition": [
+      "100016",
+      "5"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Rephy/Sub1_Rephy_3_1"
+    ]
+  },
+  {
+    "Index": 100016010,
+    "Category": "SubStory",
+    "EventType": "BattleBegin",
+    "EventCondition": [
+      "100016",
+      "5",
+      "1"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Rephy/Sub1_Rephy_3_2"
+    ]
+  },
+  {
+    "Index": 100016011,
+    "Category": "SubStory",
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Rephy/Sub1_Rephy_3_3"
+    ]
+  },
+  {
+    "Index": 100016012,
+    "Category": "SubStory",
+    "EventType": "WaveEnd",
+    "EventCondition": [
+      "100016",
+      "5",
+      "2"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Rephy/Sub1_Rephy_3_4"
+    ]
+  },
+  {
+    "Index": 100016013,
+    "Category": "SubStory",
+    "EventType": "BattleEnd",
+    "EventCondition": [
+      "100016",
+      "5",
+      "Left"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Rephy/Sub1_Rephy_3_5"
+    ]
+  },
+  {
+    "Index": 100016014,
+    "Category": "SubStory",
+    "EventType": "EnterBattle",
+    "EventCondition": [
+      "100016",
+      "9"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Rephy/Sub1_Rephy_4_1"
+    ]
+  },
+  {
+    "Index": 100016015,
+    "Category": "SubStory",
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Rephy/Sub1_Rephy_4_2"
+    ]
+  },
+  {
+    "Index": 100016016,
+    "Category": "SubStory",
+    "EventType": "WaveEnd",
+    "EventCondition": [
+      "100016",
+      "9",
+      "2"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Rephy/Sub1_Rephy_4_3"
+    ]
+  },
+  {
+    "Index": 100016017,
+    "Category": "SubStory",
+    "EventType": "WaveReady",
+    "EventCondition": [
+      "100016",
+      "9",
+      "3"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Rephy/Sub1_Rephy_4_3_1"
+    ]
+  },
+  {
+    "Index": 100016018,
+    "Category": "SubStory",
+    "EventType": "BattleEnd",
+    "EventCondition": [
+      "100016",
+      "9",
+      "Left"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Rephy/Sub1_Rephy_4_4"
+    ]
+  },
+  {
+    "Index": 100016019,
+    "Category": "SubStory",
+    "EventType": "EnterLobby",
+    "CurrentCondition": [
+      "LastDungeonResult",
+      "100016",
+      "9",
+      "False",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Rephy/Sub1_Rephy_4_5"
+    ]
+  },
+  {
+    "Index": 100052001,
+    "Category": "SubStory",
+    "EventType": "EnterBattle",
+    "EventCondition": [
+      "100052",
+      "1"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Crow/Sub1_Crow_1_1_2"
+    ]
+  },
+  {
+    "Index": 100052002,
+    "Category": "SubStory",
+    "EventType": "WaveReady",
+    "EventCondition": [
+      "100052",
+      "1",
+      "2"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Crow/Sub1_Crow_1_3"
+    ]
+  },
+  {
+    "Index": 100052003,
+    "Category": "SubStory",
+    "EventType": "BattleEnd",
+    "EventCondition": [
+      "100052",
+      "1",
+      "Left"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Crow/Sub1_Crow_1_4"
+    ]
+  },
+  {
+    "Index": 100052004,
+    "Category": "SubStory",
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Crow/Sub1_Crow_2_1"
+    ]
+  },
+  {
+    "Index": 100052005,
+    "Category": "SubStory",
+    "EventType": "EnterBattle",
+    "EventCondition": [
+      "100052",
+      "3"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Crow/Sub1_Crow_3_1"
+    ]
+  },
+  {
+    "Index": 100052006,
+    "Category": "SubStory",
+    "EventType": "WaveReady",
+    "EventCondition": [
+      "100052",
+      "3",
+      "1"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Crow/Sub1_Crow_3_2"
+    ]
+  },
+  {
+    "Index": 100052007,
+    "Category": "SubStory",
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Crow/Sub1_Crow_3_3"
+    ]
+  },
+  {
+    "Index": 100052008,
+    "Category": "SubStory",
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Crow/Sub1_Crow_3_4"
+    ]
+  },
+  {
+    "Index": 100052009,
+    "Category": "SubStory",
+    "EventType": "BattleEnd",
+    "EventCondition": [
+      "100052",
+      "3",
+      "Left"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Crow/Sub1_Crow_3_5"
+    ]
+  },
+  {
+    "Index": 100052010,
+    "Category": "SubStory",
+    "EventType": "EnterBattle",
+    "EventCondition": [
+      "100052",
+      "4"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Crow/Sub1_Crow_4_1"
+    ]
+  },
+  {
+    "Index": 100052011,
+    "Category": "SubStory",
+    "EventType": "WaveReady",
+    "EventCondition": [
+      "100052",
+      "4",
+      "2"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Crow/Sub1_Crow_4_2"
+    ]
+  },
+  {
+    "Index": 100052012,
+    "Category": "SubStory",
+    "EventType": "BattleEnd",
+    "EventCondition": [
+      "100052",
+      "4",
+      "Left"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Crow/Sub1_Crow_4_3"
+    ]
+  },
+  {
+    "Index": 100052013,
+    "Category": "SubStory",
+    "EventType": "EnterBattle",
+    "EventCondition": [
+      "100052",
+      "5"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Crow/Sub1_Crow_5_1"
+    ]
+  },
+  {
+    "Index": 100052014,
+    "Category": "SubStory",
+    "EventType": "WaveReady",
+    "EventCondition": [
+      "100052",
+      "5",
+      "1"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Crow/Sub1_Crow_5_2"
+    ]
+  },
+  {
+    "Index": 100052015,
+    "Category": "SubStory",
+    "EventType": "WaveReady",
+    "EventCondition": [
+      "100052",
+      "5",
+      "2"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Crow/Sub1_Crow_5_3"
+    ]
+  },
+  {
+    "Index": 100052016,
+    "Category": "SubStory",
+    "EventType": "WaveEnd",
+    "EventCondition": [
+      "100052",
+      "5",
+      "3"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Crow/Sub1_Crow_5_4"
+    ]
+  },
+  {
+    "Index": 100052017,
+    "Category": "SubStory",
+    "EventType": "BattleEnd",
+    "EventCondition": [
+      "100052",
+      "5",
+      "Left"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Crow/Sub1_Crow_5_5"
+    ]
+  },
+  {
+    "Index": 100052018,
+    "Category": "SubStory",
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Crow/Sub1_Crow_5_5_1"
+    ]
+  },
+  {
+    "Index": 100052019,
+    "Category": "SubStory",
+    "EventType": "EnterBattle",
+    "EventCondition": [
+      "100052",
+      "7"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Crow/Sub1_Crow_6_1"
+    ]
+  },
+  {
+    "Index": 100052020,
+    "Category": "SubStory",
+    "EventType": "WaveReady",
+    "EventCondition": [
+      "100052",
+      "7",
+      "1"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Crow/Sub1_Crow_6_2"
+    ]
+  },
+  {
+    "Index": 100052021,
+    "Category": "SubStory",
+    "EventType": "WaveReady",
+    "EventCondition": [
+      "100052",
+      "7",
+      "2"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Crow/Sub1_Crow_6_3"
+    ]
+  },
+  {
+    "Index": 100052022,
+    "Category": "SubStory",
+    "EventType": "BattleEnd",
+    "EventCondition": [
+      "100052",
+      "7",
+      "Left"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Crow/Sub1_Crow_6_4"
+    ]
+  },
+  {
+    "Index": 100052023,
+    "Category": "SubStory",
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Crow/Sub1_Crow_7_1"
+    ]
+  },
+  {
+    "Index": 100052024,
+    "Category": "SubStory",
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Crow/Sub1_Crow_8_1"
+    ]
+  },
+  {
+    "Index": 100052025,
+    "Category": "SubStory",
+    "EventType": "EnterBattle",
+    "EventCondition": [
+      "100052",
+      "10"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Crow/Sub1_Crow_9_1"
+    ]
+  },
+  {
+    "Index": 100052026,
+    "Category": "SubStory",
+    "EventType": "WaveReady",
+    "EventCondition": [
+      "100052",
+      "10",
+      "1"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Crow/Sub1_Crow_9_2"
+    ]
+  },
+  {
+    "Index": 100052027,
+    "Category": "SubStory",
+    "EventType": "WaveReady",
+    "EventCondition": [
+      "100052",
+      "10",
+      "2"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Crow/Sub1_Crow_9_3"
+    ]
+  },
+  {
+    "Index": 100052028,
+    "Category": "SubStory",
+    "EventType": "WaveReady",
+    "EventCondition": [
+      "100052",
+      "10",
+      "3"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Crow/Sub1_Crow_9_4"
+    ]
+  },
+  {
+    "Index": 100052029,
+    "Category": "SubStory",
+    "EventType": "BattleEnd",
+    "EventCondition": [
+      "100052",
+      "10",
+      "Left"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Crow/Sub1_Crow_9_5"
+    ]
+  },
+  {
+    "Index": 100052030,
+    "Category": "SubStory",
+    "EventType": "WaveReady",
+    "EventCondition": [
+      "100052",
+      "11",
+      "1"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Crow/Sub1_Crow_10_1"
+    ]
+  },
+  {
+    "Index": 100052031,
+    "Category": "SubStory",
+    "EventType": "WaveEnd",
+    "EventCondition": [
+      "100052",
+      "11",
+      "1"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Crow/Sub1_Crow_10_2"
+    ]
+  },
+  {
+    "Index": 100052032,
+    "Category": "SubStory",
+    "EventType": "WaveEnd",
+    "EventCondition": [
+      "100052",
+      "11",
+      "2"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Crow/Sub1_Crow_10_3"
+    ]
+  },
+  {
+    "Index": 100052033,
+    "Category": "SubStory",
+    "EventType": "WaveReady",
+    "EventCondition": [
+      "100052",
+      "11",
+      "4"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Crow/Sub1_Crow_10_4"
+    ]
+  },
+  {
+    "Index": 100052034,
+    "Category": "SubStory",
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Crow/Sub1_Crow_11_1"
+    ]
+  },
+  {
+    "Index": 100052035,
+    "Category": "SubStory",
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Crow/Sub1_Crow_12_1"
+    ]
+  },
+  {
+    "Index": 100052036,
+    "Category": "SubStory",
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Crow/Sub1_Crow_13_1"
+    ]
+  },
+  {
+    "Index": 100052037,
+    "Category": "SubStory",
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Crow/Sub1_Crow_10_4_1"
+    ]
+  },
+  {
+    "Index": 100052038,
+    "Category": "SubStory",
+    "EventType": "WaveReady",
+    "EventCondition": [
+      "100052",
+      "5",
+      "3"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Crow/Sub1_Crow_5_3_2"
+    ]
+  }
+]

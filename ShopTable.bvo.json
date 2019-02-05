@@ -1,0 +1,444 @@
+[
+  {
+    "Index": 1,
+    "Code": "Normal",
+    "HeroIndex": 90,
+    "BuyCostType": "Gold",
+    "MaxStock": 6,
+    "Timeline": [
+      "SHOP_DEFAULT"
+    ],
+    "Buyline": [
+      "NPC_NORMALSHOP_BUY01",
+      "NPC.NormalShop.Buy01",
+      "Buy",
+      "NPC_NORMALSHOP_BUY02",
+      "NPC.NormalShop.Buy02",
+      "Buy"
+    ],
+    "RestockSecond": 3600,
+    "RestockGem": 25
+  },
+  {
+    "Index": 2,
+    "Code": "Goblin",
+    "BuyCostType": "Gold",
+    "MaxStock": 6,
+    "Timeline": [
+      "SHOP_DEFAULT"
+    ],
+    "Buyline": [
+      "NPC_GOBLINSHOP_BUY01",
+      "NPC.GoblinShop.Buy01",
+      "Buy",
+      "NPC_GOBLINSHOP_BUY02",
+      "NPC.GoblinShop.Buy02",
+      "Buy"
+    ]
+  },
+  {
+    "Index": 3,
+    "Code": "Arena",
+    "HeroIndex": 91,
+    "BuyCostType": "PvpCoin",
+    "Timeline": [
+      "SHOP_DEFAULT"
+    ],
+    "Buyline": [
+      "NPC_ARENASHOP_BUY01",
+      "NPC.ArenaShop.Buy01",
+      "Buy",
+      "NPC_ARENASHOP_BUY02",
+      "NPC.ArenaShop.Buy02",
+      "Buy"
+    ],
+    "GroupTitleKey": "GROUP_TITLE_1",
+    "BeforeBuyConfirm": "True"
+  },
+  {
+    "Index": 4,
+    "Code": "Guild",
+    "HeroIndex": 92,
+    "BuyCostType": "GuildPoint",
+    "Timeline": [
+      "SHOP_DEFAULT"
+    ],
+    "Buyline": [
+      "NPC_GUILDSHOP2_BUY01",
+      "NPC.GuildShop2.Buy01",
+      "Buy",
+      "NPC_GUILDSHOP2_BUY02",
+      "NPC.GuildShop2.Buy02",
+      "Buy"
+    ],
+    "UseGroupIndexForLevel": "True"
+  },
+  {
+    "Index": 5,
+    "Code": "BlackMarket",
+    "BuyCostType": "Gem"
+  },
+  {
+    "Index": 6,
+    "Code": "Royal",
+    "BuyCostType": "RoyalPoint",
+    "Timeline": [
+      "SHOP_DEFAULT"
+    ],
+    "Buyline": [
+      "NPC_ROYALSHOP_BUY01",
+      "NPC.RoyalShop.Buy01",
+      "Buy",
+      "NPC_ROYALSHOP_BUY02",
+      "NPC.RoyalShop.Buy02",
+      "Buy"
+    ]
+  },
+  {
+    "Index": 7,
+    "Code": "Skillbook",
+    "BuyCostType": "Gold",
+    "MaxStock": 6,
+    "Timeline": [
+      "SHOP_DEFAULT"
+    ],
+    "Buyline": [
+      "NPC_BOOKSHOP_BUY01",
+      "NPC.BookShop.Buy01",
+      "Buy",
+      "NPC_BOOKSHOP_BUY02",
+      "NPC.BookShop.Buy02",
+      "Buy"
+    ]
+  },
+  {
+    "Index": 8,
+    "Code": "Soulstone",
+    "BuyCostType": "Gold",
+    "MaxStock": 6,
+    "Timeline": [
+      "SHOP_DEFAULT"
+    ],
+    "Buyline": [
+      "NPC_SOULGEMSHOP_BUY01",
+      "NPC.SoulGemShop.Buy01",
+      "Buy",
+      "NPC_SOULGEMSHOP_BUY02",
+      "NPC.SoulGemShop.Buy02",
+      "Buy"
+    ]
+  },
+  {
+    "Index": 9,
+    "Code": "Rune",
+    "BuyCostType": "Gold",
+    "MaxStock": 6,
+    "Timeline": [
+      "SHOP_DEFAULT"
+    ],
+    "Buyline": [
+      "NPC_RUNESHOP_BUY01",
+      "NPC.RuneShop.Buy01",
+      "Buy",
+      "\nNPC_RUNESHOP_BUY02",
+      "NPC.RuneShop.Buy02",
+      "Buy"
+    ]
+  },
+  {
+    "Index": 10,
+    "Code": "Inn",
+    "HeroIndex": 94,
+    "BuyCostType": "FriendshipPoint",
+    "Timeline": [
+      "SHOP_DEFAULT"
+    ],
+    "Buyline": [
+      "NPC_INN_BUY01",
+      "NPC.Inn.Buy01",
+      "Buy",
+      "\nNPC_INN_BUY02",
+      "NPC.Inn.Buy02",
+      "Buy"
+    ]
+  },
+  {
+    "Index": 11,
+    "Code": "Raid",
+    "BuyCostType": "RaidPoint",
+    "Timeline": [
+      "SHOP_DEFAULT"
+    ],
+    "Buyline": [
+      "NPC_BLACKSMITH_BUY01",
+      "NPC.Blacksmith.Buy01",
+      "Touch",
+      "NPC_BLACKSMITH_BUY02",
+      "NPC.Blacksmith.Buy02",
+      "Touch"
+    ],
+    "GroupTitleKey": "GROUP_TITLE_2"
+  },
+  {
+    "Index": 12,
+    "Code": "WorldBoss",
+    "HeroIndex": 93,
+    "BuyCostType": "WorldBossPoint",
+    "Timeline": [
+      "SHOP_DEFAULT"
+    ],
+    "Buyline": [
+      "NPC_ROYALSHOP_BUY01",
+      "NPC.RoyalShop.Buy01",
+      "Buy",
+      "NPC_ROYALSHOP_BUY02",
+      "NPC.RoyalShop.Buy02",
+      "Buy"
+    ]
+  },
+  {
+    "Index": 13,
+    "Code": "MaiGemShop",
+    "BuyCostType": "Gem",
+    "MaxStock": 6,
+    "Timeline": [
+      "SHOP_DEFAULT"
+    ],
+    "Buyline": [
+      "NPC_NORMALSHOP_BUY01",
+      "NPC.NormalShop.Buy01",
+      "Buy",
+      "NPC_NORMALSHOP_BUY02",
+      "NPC.NormalShop.Buy02",
+      "Buy"
+    ],
+    "BeforeBuyConfirm": "True",
+    "RestockSecond": 21600,
+    "RestockGem": 100,
+    "EventOnly": 1
+  },
+  {
+    "Index": 14,
+    "Code": "HalloweenShop",
+    "BuyCostType": "EventDungeonPoint",
+    "Timeline": [
+      "SHOP_DEFAULT"
+    ],
+    "Buyline": [
+      "NPC_NORMALSHOP_BUY01",
+      "NPC.NormalShop.Buy01",
+      "Buy",
+      "NPC_NORMALSHOP_BUY02",
+      "NPC.NormalShop.Buy02",
+      "Buy"
+    ],
+    "EventOnly": 1
+  },
+  {
+    "Index": 15,
+    "Code": "PickBanShop",
+    "BuyCostType": "GloryPoint",
+    "BuyCostTypeUI": [
+      "GloryPoint",
+      "RankingPoint"
+    ],
+    "BuyCostTypeIconSprite": [
+      "GloryPoint",
+      "Arena_Point"
+    ],
+    "Timeline": [
+      "SHOP_DEFAULT"
+    ],
+    "Buyline": [
+      "NPC_ARENASHOP_BUY01",
+      "NPC.ArenaShop.Buy01",
+      "Buy",
+      "NPC_ARENASHOP_BUY02",
+      "NPC.ArenaShop.Buy02",
+      "Buy"
+    ],
+    "BeforeBuyConfirm": "True"
+  },
+  {
+    "Index": 16,
+    "Code": "ChristmasShop",
+    "BuyCostType": "EventDungeonPoint",
+    "BuyCostTypeUI": [
+      "EventDungeonPoint",
+      "EventDungeonPoint2"
+    ],
+    "BuyCostTypeIconSprite": [
+      "SantaCookie",
+      "JingleBells"
+    ],
+    "Timeline": [
+      "SHOP_DEFAULT"
+    ],
+    "Buyline": [
+      "NPC_SOULGEMSHOP_BUY03",
+      "NPC.SoulGemShop.Buy03",
+      "Buy",
+      "NPC_SOULGEMSHOP_BUY04",
+      "NPC.SoulGemShop.Buy04",
+      "Buy"
+    ],
+    "EventOnly": 1
+  },
+  {
+    "Index": 17,
+    "Code": "ThanksgivingShop",
+    "BuyCostType": "EventGiftPoint",
+    "BuyCostTypeIconSprite": [
+      "ArenaCoin"
+    ],
+    "Timeline": [
+      "SHOP_DEFAULT"
+    ],
+    "Buyline": [
+      "NPC_INN_BUY04",
+      "NPC.Inn.Buy02",
+      "Buy"
+    ],
+    "EventOnly": 1
+  },
+  {
+    "Index": 18,
+    "Code": "LunarNewYearShop",
+    "BuyCostType": "EventDungeonPoint",
+    "BuyCostTypeUI": [
+      "EventDungeonPoint"
+    ],
+    "BuyCostTypeIconSprite": [
+      "LunarNewYearCoin"
+    ],
+    "Timeline": [
+      "SHOP_DEFAULT"
+    ],
+    "Buyline": [
+      "NPC_LUNA_BUY01",
+      "InnReaction.Luna01",
+      "InnReaction",
+      "NPC_LUNA_BUY02",
+      "InnReaction.Luna01",
+      "InnReaction"
+    ],
+    "EventOnly": 1
+  },
+  {
+    "Index": 19,
+    "Code": "ChildrensRainbowShop",
+    "BuyCostType": "EventDungeonPoint",
+    "BuyCostTypeUI": [
+      "EventDungeonPoint"
+    ],
+    "BuyCostTypeIconSprite": [
+      "RainbowCoin"
+    ],
+    "Timeline": [
+      "SHOP_DEFAULT"
+    ],
+    "Buyline": [
+      "INN_REQUINA_GIFT01",
+      "InnReaction.Requina01",
+      "InnReaction"
+    ],
+    "EventOnly": 1
+  },
+  {
+    "Index": 20,
+    "Code": "GuildRaidShop",
+    "HeroIndex": 92,
+    "BuyCostType": "GuildPoint",
+    "Timeline": [
+      "SHOP_DEFAULT"
+    ],
+    "Buyline": [
+      "NPC_GUILDSHOP2_BUY01",
+      "NPC.GuildShop2.Buy01",
+      "Buy",
+      "NPC_GUILDSHOP2_BUY02",
+      "NPC.GuildShop2.Buy02",
+      "Buy"
+    ]
+  },
+  {
+    "Index": 21,
+    "Code": "GuildShop",
+    "HeroIndex": 92,
+    "BuyCostType": "GuildPoint",
+    "Timeline": [
+      "SHOP_DEFAULT"
+    ],
+    "Buyline": [
+      "NPC_GUILDSHOP_BUY01",
+      "NPC.GuildShop.Buy01",
+      "Buy",
+      "NPC_GUILDSHOP_BUY02",
+      "NPC.GuildShop.Buy02",
+      "Buy"
+    ]
+  },
+  {
+    "Index": 22,
+    "Code": "SummerShop",
+    "BuyCostType": "EventDungeonPoint",
+    "BuyCostTypeUI": [
+      "EventDungeonPoint"
+    ],
+    "BuyCostTypeIconSprite": [
+      "EVENT_SUMMER_FESTIVAL_COIN_ICON"
+    ],
+    "Timeline": [
+      "SHOP_DEFAULT"
+    ],
+    "Buyline": [
+      "NPC_TALISHA_BUY01",
+      "NPC.SoulGemShop.Buy03",
+      "Buy",
+      "NPC_TALISHA_BUY02",
+      "NPC.SoulGemShop.Buy04",
+      "Buy"
+    ],
+    "EventOnly": 1
+  },
+  {
+    "Index": 23,
+    "Code": "ChallengeTowerShop",
+    "BuyCostType": "EventDungeonPoint3",
+    "BuyCostTypeUI": [
+      "EventDungeonPoint3"
+    ],
+    "BuyCostTypeIconSprite": [
+      "LunarNewYearCoin"
+    ],
+    "Timeline": [
+      "SHOP_DEFAULT"
+    ],
+    "Buyline": [
+      "NPC_TOWEROFCHALLENGE_WELCOME02",
+      "NPC.TowerOfChallenge.Welcome02",
+      "Buy",
+      "NPC_TOWEROFCHALLENGE_TOUCH02",
+      " NPC.TowerOfChallenge.Touch02",
+      "Buy"
+    ],
+    "EventOnly": 1
+  },
+  {
+    "Index": 24,
+    "Code": "2018_Halloween_Shop",
+    "BuyCostType": "EventDungeonPoint",
+    "Timeline": [
+      "SHOP_DEFAULT"
+    ],
+    "Buyline": [
+      "NPC_TALISHA_BUY01",
+      "NPC.SoulGemShop.Buy03",
+      "Buy",
+      "NPC_TALISHA_BUY02",
+      "NPC.SoulGemShop.Buy04",
+      "Buy"
+    ],
+    "EventOnly": 1
+  }
+]

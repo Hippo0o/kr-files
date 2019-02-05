@@ -1,0 +1,2459 @@
+[
+  {
+    "ChapterIndex": 1,
+    "Name": "STORY_RE_TITLE_10000",
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH1_0"
+    ]
+  },
+  {
+    "ChapterIndex": 1,
+    "Name": "STORY_RE_TITLE_10010",
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH1_1"
+    ]
+  },
+  {
+    "ChapterIndex": 1,
+    "Name": "STORY_RE_TITLE_10020",
+    "Command": "StartTutorial",
+    "Argument": [
+      "17010"
+    ]
+  },
+  {
+    "ChapterIndex": 1,
+    "Name": "STORY_RE_TITLE_10030",
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Tutorial/Equip1"
+    ]
+  },
+  {
+    "ChapterIndex": 1,
+    "Name": "STORY_RE_TITLE_10031",
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Tutorial/Equip2"
+    ]
+  },
+  {
+    "ChapterIndex": 1,
+    "Name": "STORY_RE_TITLE_10040",
+    "Command": "StartDungeon",
+    "Argument": [
+      "1",
+      "2"
+    ]
+  },
+  {
+    "ChapterIndex": 1,
+    "Name": "STORY_RE_TITLE_10041",
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Tutorial/Skill"
+    ]
+  },
+  {
+    "ChapterIndex": 1,
+    "Name": "STORY_RE_TITLE_10050",
+    "Command": "StartDungeon",
+    "Argument": [
+      "1",
+      "3"
+    ]
+  },
+  {
+    "ChapterIndex": 1,
+    "Name": "STORY_RE_TITLE_10051",
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Tutorial/Gacha"
+    ]
+  },
+  {
+    "ChapterIndex": 1,
+    "Name": "STORY_RE_TITLE_10060",
+    "Command": "StartDungeon",
+    "Argument": [
+      "1",
+      "4"
+    ]
+  },
+  {
+    "ChapterIndex": 1,
+    "Name": "STORY_RE_TITLE_10070",
+    "Command": "StartTutorial",
+    "Argument": [
+      "17050"
+    ]
+  },
+  {
+    "ChapterIndex": 1,
+    "Name": "STORY_RE_TITLE_10080",
+    "Command": "StartTutorial",
+    "Argument": [
+      "17060"
+    ]
+  },
+  {
+    "ChapterIndex": 1,
+    "Name": "STORY_RE_TITLE_10090",
+    "Command": "StartDungeon",
+    "Argument": [
+      "1",
+      "7"
+    ]
+  },
+  {
+    "ChapterIndex": 1,
+    "Name": "STORY_RE_TITLE_10100",
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH1_12"
+    ]
+  },
+  {
+    "ChapterIndex": 1,
+    "Name": "STORY_RE_TITLE_10110",
+    "Command": "StartDungeon",
+    "Argument": [
+      "1",
+      "8"
+    ]
+  },
+  {
+    "ChapterIndex": 1,
+    "Name": "STORY_RE_TITLE_10120",
+    "Command": "StartDungeon",
+    "Argument": [
+      "1",
+      "9"
+    ]
+  },
+  {
+    "ChapterIndex": 1,
+    "Name": "STORY_RE_TITLE_10130",
+    "Command": "StartDungeon",
+    "Argument": [
+      "1",
+      "10"
+    ]
+  },
+  {
+    "ChapterIndex": 1,
+    "Name": "STORY_RE_TITLE_10140",
+    "Command": "StartDungeon",
+    "Argument": [
+      "1",
+      "11"
+    ]
+  },
+  {
+    "ChapterIndex": 1,
+    "Name": "STORY_RE_TITLE_10150",
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Tutorial/Hall_1"
+    ]
+  },
+  {
+    "ChapterIndex": 1,
+    "Name": "STORY_RE_TITLE_10160",
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Tutorial/Hall_2"
+    ]
+  },
+  {
+    "ChapterIndex": 1,
+    "Name": "STORY_RE_TITLE_10170",
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Tutorial/Hall_3"
+    ]
+  },
+  {
+    "ChapterIndex": 1,
+    "Name": "STORY_RE_TITLE_10180",
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Tutorial/Hall_4"
+    ]
+  },
+  {
+    "ChapterIndex": 1,
+    "Name": "STORY_RE_TITLE_10190",
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH1_18"
+    ]
+  },
+  {
+    "ChapterIndex": 1,
+    "Name": "STORY_RE_TITLE_10200",
+    "Command": "StartTutorial",
+    "Argument": [
+      "14001"
+    ]
+  },
+  {
+    "ChapterIndex": 1,
+    "Name": "STORY_RE_TITLE_10210",
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH1_22"
+    ]
+  },
+  {
+    "ChapterIndex": 1,
+    "Name": "STORY_RE_TITLE_10220",
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Tutorial/Unique"
+    ]
+  },
+  {
+    "ChapterIndex": 1,
+    "Name": "STORY_RE_TITLE_10230",
+    "Condition": [
+      "CompleteDungeon",
+      "1",
+      "18",
+      "True"
+    ],
+    "Command": "StartDungeon",
+    "Argument": [
+      "1",
+      "18"
+    ]
+  },
+  {
+    "ChapterIndex": 1,
+    "Name": "STORY_RE_TITLE_10240",
+    "Condition": [
+      "CompleteDungeon",
+      "1",
+      "19",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH1_24"
+    ]
+  },
+  {
+    "ChapterIndex": 1,
+    "Name": "STORY_RE_TITLE_10250",
+    "Condition": [
+      "CompleteDungeon",
+      "1",
+      "20",
+      "True"
+    ],
+    "Command": "StartDungeon",
+    "Argument": [
+      "1",
+      "20"
+    ]
+  },
+  {
+    "ChapterIndex": 1,
+    "Name": "STORY_RE_TITLE_10260",
+    "Condition": [
+      "CompleteDungeon",
+      "1",
+      "20",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH1_26"
+    ]
+  },
+  {
+    "ChapterIndex": 1,
+    "Name": "STORY_RE_TITLE_10270",
+    "Condition": [
+      "CompleteDungeon",
+      "1",
+      "20",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH1_27"
+    ]
+  },
+  {
+    "ChapterIndex": 1,
+    "Name": "STORY_RE_TITLE_10280",
+    "Condition": [
+      "CompleteDungeon",
+      "1",
+      "20",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Tutorial/Portal1"
+    ]
+  },
+  {
+    "ChapterIndex": 1,
+    "Name": "STORY_RE_TITLE_10290",
+    "Condition": [
+      "CompleteDungeon",
+      "1",
+      "20",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH1_28"
+    ]
+  },
+  {
+    "ChapterIndex": 1,
+    "Name": "STORY_RE_TITLE_10300",
+    "Condition": [
+      "CompleteDungeon",
+      "1",
+      "20",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Tutorial/Castle_2017"
+    ]
+  },
+  {
+    "ChapterIndex": 2,
+    "Name": "STORY_RE_TITLE_20000",
+    "Condition": [
+      "CompleteTutorial",
+      "20000",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH2_Main_1"
+    ]
+  },
+  {
+    "ChapterIndex": 2,
+    "Name": "STORY_RE_TITLE_20010",
+    "Condition": [
+      "CompleteDungeon",
+      "2",
+      "3",
+      "True"
+    ],
+    "Command": "StartDungeon",
+    "Argument": [
+      "2",
+      "3"
+    ]
+  },
+  {
+    "ChapterIndex": 2,
+    "Name": "STORY_RE_TITLE_20020",
+    "Condition": [
+      "CompleteDungeon",
+      "2",
+      "3",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH2_Main_2"
+    ]
+  },
+  {
+    "ChapterIndex": 2,
+    "Name": "STORY_RE_TITLE_20030",
+    "Condition": [
+      "CompleteDungeon",
+      "2",
+      "4",
+      "True"
+    ],
+    "Command": "StartDungeon",
+    "Argument": [
+      "2",
+      "4"
+    ]
+  },
+  {
+    "ChapterIndex": 2,
+    "Name": "STORY_RE_TITLE_20040",
+    "Condition": [
+      "CompleteDungeon",
+      "2",
+      "5",
+      "True"
+    ],
+    "Command": "StartDungeon",
+    "Argument": [
+      "2",
+      "5"
+    ]
+  },
+  {
+    "ChapterIndex": 2,
+    "Name": "STORY_RE_TITLE_20050",
+    "Condition": [
+      "CompleteDungeon",
+      "2",
+      "5",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH2_Main_7"
+    ]
+  },
+  {
+    "ChapterIndex": 2,
+    "Name": "STORY_RE_TITLE_20060",
+    "Condition": [
+      "CompleteDungeon",
+      "2",
+      "6",
+      "True"
+    ],
+    "Command": "StartDungeon",
+    "Argument": [
+      "2",
+      "6"
+    ]
+  },
+  {
+    "ChapterIndex": 2,
+    "Name": "STORY_RE_TITLE_20070",
+    "Condition": [
+      "CompleteTutorial",
+      "20080",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH2_Main_9"
+    ]
+  },
+  {
+    "ChapterIndex": 2,
+    "Name": "STORY_RE_TITLE_20080",
+    "Condition": [
+      "CompleteDungeon",
+      "2",
+      "8",
+      "True"
+    ],
+    "Command": "StartDungeon",
+    "Argument": [
+      "2",
+      "8"
+    ]
+  },
+  {
+    "ChapterIndex": 2,
+    "Name": "STORY_RE_TITLE_20090",
+    "Condition": [
+      "CompleteDungeon",
+      "2",
+      "11",
+      "True"
+    ],
+    "Command": "StartDungeon",
+    "Argument": [
+      "2",
+      "11"
+    ]
+  },
+  {
+    "ChapterIndex": 2,
+    "Name": "STORY_RE_TITLE_20100",
+    "Condition": [
+      "CompleteDungeon",
+      "2",
+      "11",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH2_Main_13"
+    ]
+  },
+  {
+    "ChapterIndex": 2,
+    "Name": "STORY_RE_TITLE_20110",
+    "Condition": [
+      "CompleteDungeon",
+      "2",
+      "14",
+      "True"
+    ],
+    "Command": "StartDungeon",
+    "Argument": [
+      "2",
+      "14"
+    ]
+  },
+  {
+    "ChapterIndex": 2,
+    "Name": "STORY_RE_TITLE_20120",
+    "Condition": [
+      "CompleteDungeon",
+      "2",
+      "14",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH2_Main_15"
+    ]
+  },
+  {
+    "ChapterIndex": 2,
+    "Name": "STORY_RE_TITLE_20130",
+    "Condition": [
+      "CompleteDungeon",
+      "2",
+      "15",
+      "True"
+    ],
+    "Command": "StartDungeon",
+    "Argument": [
+      "2",
+      "15"
+    ]
+  },
+  {
+    "ChapterIndex": 2,
+    "Name": "STORY_RE_TITLE_20140",
+    "Condition": [
+      "CompleteDungeon",
+      "2",
+      "18",
+      "True"
+    ],
+    "Command": "StartDungeon",
+    "Argument": [
+      "2",
+      "18"
+    ]
+  },
+  {
+    "ChapterIndex": 2,
+    "Name": "STORY_RE_TITLE_20150",
+    "Condition": [
+      "CompleteDungeon",
+      "2",
+      "18",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH2_Main_20"
+    ]
+  },
+  {
+    "ChapterIndex": 2,
+    "Name": "STORY_RE_TITLE_20160",
+    "Condition": [
+      "CompleteDungeon",
+      "2",
+      "18",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH2_Main_21"
+    ]
+  },
+  {
+    "ChapterIndex": 2,
+    "Name": "STORY_RE_TITLE_20170",
+    "Condition": [
+      "CompleteDungeon",
+      "2",
+      "21",
+      "True"
+    ],
+    "Command": "StartDungeon",
+    "Argument": [
+      "2",
+      "21"
+    ]
+  },
+  {
+    "ChapterIndex": 2,
+    "Name": "STORY_RE_TITLE_20180",
+    "Condition": [
+      "CompleteDungeon",
+      "2",
+      "21",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH2_Main_27"
+    ]
+  },
+  {
+    "ChapterIndex": 3,
+    "Name": "STORY_RE_TITLE_30010",
+    "Condition": [
+      "CompleteDungeon",
+      "3",
+      "3",
+      "True"
+    ],
+    "Command": "StartDungeon",
+    "Argument": [
+      "3",
+      "3"
+    ]
+  },
+  {
+    "ChapterIndex": 3,
+    "Name": "STORY_RE_TITLE_30020",
+    "Condition": [
+      "CompleteDungeon",
+      "3",
+      "4",
+      "True"
+    ],
+    "Command": "StartDungeon",
+    "Argument": [
+      "3",
+      "4"
+    ]
+  },
+  {
+    "ChapterIndex": 3,
+    "Name": "STORY_RE_TITLE_30030",
+    "Condition": [
+      "CompleteDungeon",
+      "3",
+      "7",
+      "True"
+    ],
+    "Command": "StartDungeon",
+    "Argument": [
+      "3",
+      "7"
+    ]
+  },
+  {
+    "ChapterIndex": 3,
+    "Name": "STORY_RE_TITLE_30040",
+    "Condition": [
+      "CompleteDungeon",
+      "3",
+      "8",
+      "True"
+    ],
+    "Command": "StartDungeon",
+    "Argument": [
+      "3",
+      "8"
+    ]
+  },
+  {
+    "ChapterIndex": 3,
+    "Name": "STORY_RE_TITLE_30050",
+    "Condition": [
+      "CompleteDungeon",
+      "3",
+      "9",
+      "True"
+    ],
+    "Command": "StartDungeon",
+    "Argument": [
+      "3",
+      "9"
+    ]
+  },
+  {
+    "ChapterIndex": 3,
+    "Name": "STORY_RE_TITLE_30060",
+    "Condition": [
+      "CompleteDungeon",
+      "3",
+      "10",
+      "True"
+    ],
+    "Command": "StartDungeon",
+    "Argument": [
+      "3",
+      "10"
+    ]
+  },
+  {
+    "ChapterIndex": 3,
+    "Name": "STORY_RE_TITLE_30070",
+    "Condition": [
+      "CompleteDungeon",
+      "3",
+      "10",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH3_Main_12"
+    ]
+  },
+  {
+    "ChapterIndex": 3,
+    "Name": "STORY_RE_TITLE_30080",
+    "Condition": [
+      "CompleteDungeon",
+      "3",
+      "11",
+      "True"
+    ],
+    "Command": "StartDungeon",
+    "Argument": [
+      "3",
+      "11"
+    ]
+  },
+  {
+    "ChapterIndex": 3,
+    "Name": "STORY_RE_TITLE_30090",
+    "Condition": [
+      "CompleteDungeon",
+      "3",
+      "12",
+      "True"
+    ],
+    "Command": "StartDungeon",
+    "Argument": [
+      "3",
+      "12"
+    ]
+  },
+  {
+    "ChapterIndex": 3,
+    "Name": "STORY_RE_TITLE_30100",
+    "Condition": [
+      "CompleteDungeon",
+      "3",
+      "14",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH3_Main_17"
+    ]
+  },
+  {
+    "ChapterIndex": 3,
+    "Name": "STORY_RE_TITLE_30110",
+    "Condition": [
+      "CompleteDungeon",
+      "3",
+      "16",
+      "True"
+    ],
+    "Command": "StartDungeon",
+    "Argument": [
+      "3",
+      "16"
+    ]
+  },
+  {
+    "ChapterIndex": 3,
+    "Name": "STORY_RE_TITLE_30120",
+    "Condition": [
+      "CompleteDungeon",
+      "3",
+      "16",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH3_Main_21"
+    ]
+  },
+  {
+    "ChapterIndex": 3,
+    "Name": "STORY_RE_TITLE_30130",
+    "Condition": [
+      "CompleteDungeon",
+      "3",
+      "17",
+      "True"
+    ],
+    "Command": "StartDungeon",
+    "Argument": [
+      "3",
+      "17"
+    ]
+  },
+  {
+    "ChapterIndex": 3,
+    "Name": "STORY_RE_TITLE_30140",
+    "Condition": [
+      "CompleteDungeon",
+      "3",
+      "19",
+      "True"
+    ],
+    "Command": "StartDungeon",
+    "Argument": [
+      "3",
+      "19"
+    ]
+  },
+  {
+    "ChapterIndex": 3,
+    "Name": "STORY_RE_TITLE_30150",
+    "Condition": [
+      "CompleteDungeon",
+      "3",
+      "19",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH3_Main_24"
+    ]
+  },
+  {
+    "ChapterIndex": 3,
+    "Name": "STORY_RE_TITLE_30160",
+    "Condition": [
+      "CompleteDungeon",
+      "3",
+      "22",
+      "True"
+    ],
+    "Command": "StartDungeon",
+    "Argument": [
+      "3",
+      "22"
+    ]
+  },
+  {
+    "ChapterIndex": 3,
+    "Name": "STORY_RE_TITLE_30170",
+    "Condition": [
+      "CompleteDungeon",
+      "3",
+      "22",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH3_Main_28"
+    ]
+  },
+  {
+    "ChapterIndex": 3,
+    "Name": "STORY_RE_TITLE_30180",
+    "Condition": [
+      "CompleteTutorial",
+      "30290",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH3_Main_29"
+    ]
+  },
+  {
+    "ChapterIndex": 4,
+    "Name": "STORY_RE_TITLE_40000",
+    "Condition": [
+      "CompleteTutorial",
+      "40000",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH4_Main_0"
+    ]
+  },
+  {
+    "ChapterIndex": 4,
+    "Name": "STORY_RE_TITLE_40010",
+    "Condition": [
+      "CompleteDungeon",
+      "4",
+      "1",
+      "True"
+    ],
+    "Command": "StartDungeon",
+    "Argument": [
+      "4",
+      "1"
+    ]
+  },
+  {
+    "ChapterIndex": 4,
+    "Name": "STORY_RE_TITLE_40020",
+    "Condition": [
+      "CompleteDungeon",
+      "4",
+      "1",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH4_Main_2"
+    ]
+  },
+  {
+    "ChapterIndex": 4,
+    "Name": "STORY_RE_TITLE_40030",
+    "Condition": [
+      "CompleteDungeon",
+      "4",
+      "2",
+      "True"
+    ],
+    "Command": "StartDungeon",
+    "Argument": [
+      "4",
+      "2"
+    ]
+  },
+  {
+    "ChapterIndex": 4,
+    "Name": "STORY_RE_TITLE_40040",
+    "Condition": [
+      "CompleteDungeon",
+      "4",
+      "3",
+      "True"
+    ],
+    "Command": "StartDungeon",
+    "Argument": [
+      "4",
+      "3"
+    ]
+  },
+  {
+    "ChapterIndex": 4,
+    "Name": "STORY_RE_TITLE_40050",
+    "Condition": [
+      "CompleteDungeon",
+      "4",
+      "3",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH4_Sub_3"
+    ]
+  },
+  {
+    "ChapterIndex": 4,
+    "Name": "STORY_RE_TITLE_40060",
+    "Condition": [
+      "CompleteDungeon",
+      "4",
+      "7",
+      "True"
+    ],
+    "Command": "StartDungeon",
+    "Argument": [
+      "4",
+      "7"
+    ]
+  },
+  {
+    "ChapterIndex": 4,
+    "Name": "STORY_RE_TITLE_40070",
+    "Condition": [
+      "CompleteDungeon",
+      "4",
+      "7",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH4_Main_4"
+    ]
+  },
+  {
+    "ChapterIndex": 4,
+    "Name": "STORY_RE_TITLE_40080",
+    "Condition": [
+      "CompleteDungeon",
+      "4",
+      "10",
+      "True"
+    ],
+    "Command": "StartDungeon",
+    "Argument": [
+      "4",
+      "10"
+    ]
+  },
+  {
+    "ChapterIndex": 4,
+    "Name": "STORY_RE_TITLE_40090",
+    "Condition": [
+      "CompleteDungeon",
+      "4",
+      "13",
+      "True"
+    ],
+    "Command": "StartDungeon",
+    "Argument": [
+      "4",
+      "13"
+    ]
+  },
+  {
+    "ChapterIndex": 4,
+    "Name": "STORY_RE_TITLE_40100",
+    "Condition": [
+      "CompleteDungeon",
+      "4",
+      "13",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH4_Main_8"
+    ]
+  },
+  {
+    "ChapterIndex": 4,
+    "Name": "STORY_RE_TITLE_40110",
+    "Condition": [
+      "CompleteDungeon",
+      "4",
+      "14",
+      "True"
+    ],
+    "Command": "StartDungeon",
+    "Argument": [
+      "4",
+      "14"
+    ]
+  },
+  {
+    "ChapterIndex": 4,
+    "Name": "STORY_RE_TITLE_40120",
+    "Condition": [
+      "CompleteDungeon",
+      "4",
+      "15",
+      "True"
+    ],
+    "Command": "StartDungeon",
+    "Argument": [
+      "4",
+      "15"
+    ]
+  },
+  {
+    "ChapterIndex": 4,
+    "Name": "STORY_RE_TITLE_40130",
+    "Condition": [
+      "CompleteDungeon",
+      "4",
+      "18",
+      "True"
+    ],
+    "Command": "StartDungeon",
+    "Argument": [
+      "4",
+      "18"
+    ]
+  },
+  {
+    "ChapterIndex": 4,
+    "Name": "STORY_RE_TITLE_40140",
+    "Condition": [
+      "CompleteDungeon",
+      "4",
+      "18",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH4_Main_15"
+    ]
+  },
+  {
+    "ChapterIndex": 4,
+    "Name": "STORY_RE_TITLE_40150",
+    "Condition": [
+      "CompleteDungeon",
+      "4",
+      "21",
+      "True"
+    ],
+    "Command": "StartDungeon",
+    "Argument": [
+      "4",
+      "21"
+    ]
+  },
+  {
+    "ChapterIndex": 4,
+    "Name": "STORY_RE_TITLE_40160",
+    "Condition": [
+      "CompleteDungeon",
+      "4",
+      "21",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH4_Main_20"
+    ]
+  },
+  {
+    "ChapterIndex": 5,
+    "Name": "STORY_RE_TITLE_50000",
+    "Condition": [
+      "CompleteTutorial",
+      "50000",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH5_Main_0"
+    ]
+  },
+  {
+    "ChapterIndex": 5,
+    "Name": "STORY_RE_TITLE_50010",
+    "Condition": [
+      "CompleteDungeon",
+      "5",
+      "1",
+      "True"
+    ],
+    "Command": "StartDungeon",
+    "Argument": [
+      "5",
+      "1"
+    ]
+  },
+  {
+    "ChapterIndex": 5,
+    "Name": "STORY_RE_TITLE_50020",
+    "Condition": [
+      "CompleteDungeon",
+      "5",
+      "1",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH5_Sub_2"
+    ]
+  },
+  {
+    "ChapterIndex": 5,
+    "Name": "STORY_RE_TITLE_50030",
+    "Condition": [
+      "CompleteDungeon",
+      "5",
+      "2",
+      "True"
+    ],
+    "Command": "StartDungeon",
+    "Argument": [
+      "5",
+      "2"
+    ]
+  },
+  {
+    "ChapterIndex": 5,
+    "Name": "STORY_RE_TITLE_50040",
+    "Condition": [
+      "CompleteDungeon",
+      "5",
+      "3",
+      "True"
+    ],
+    "Command": "StartDungeon",
+    "Argument": [
+      "5",
+      "3"
+    ]
+  },
+  {
+    "ChapterIndex": 5,
+    "Name": "STORY_RE_TITLE_50050",
+    "Condition": [
+      "CompleteDungeon",
+      "5",
+      "3",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH5_Main_5"
+    ]
+  },
+  {
+    "ChapterIndex": 5,
+    "Name": "STORY_RE_TITLE_50060",
+    "Condition": [
+      "CompleteDungeon",
+      "5",
+      "4",
+      "True"
+    ],
+    "Command": "StartDungeon",
+    "Argument": [
+      "5",
+      "4"
+    ]
+  },
+  {
+    "ChapterIndex": 5,
+    "Name": "STORY_RE_TITLE_50070",
+    "Condition": [
+      "CompleteDungeon",
+      "5",
+      "6",
+      "True"
+    ],
+    "Command": "StartDungeon",
+    "Argument": [
+      "5",
+      "6"
+    ]
+  },
+  {
+    "ChapterIndex": 5,
+    "Name": "STORY_RE_TITLE_50080",
+    "Condition": [
+      "CompleteDungeon",
+      "5",
+      "9",
+      "True"
+    ],
+    "Command": "StartDungeon",
+    "Argument": [
+      "5",
+      "9"
+    ]
+  },
+  {
+    "ChapterIndex": 5,
+    "Name": "STORY_RE_TITLE_50090",
+    "Condition": [
+      "CompleteDungeon",
+      "5",
+      "9",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH5_Main_8"
+    ]
+  },
+  {
+    "ChapterIndex": 5,
+    "Name": "STORY_RE_TITLE_50100",
+    "Condition": [
+      "CompleteDungeon",
+      "5",
+      "10",
+      "True"
+    ],
+    "Command": "StartDungeon",
+    "Argument": [
+      "5",
+      "10"
+    ]
+  },
+  {
+    "ChapterIndex": 5,
+    "Name": "STORY_RE_TITLE_50110",
+    "Condition": [
+      "CompleteDungeon",
+      "5",
+      "10",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH5_Main_11"
+    ]
+  },
+  {
+    "ChapterIndex": 5,
+    "Name": "STORY_RE_TITLE_50120",
+    "Condition": [
+      "CompleteDungeon",
+      "5",
+      "11",
+      "True"
+    ],
+    "Command": "StartDungeon",
+    "Argument": [
+      "5",
+      "11"
+    ]
+  },
+  {
+    "ChapterIndex": 5,
+    "Name": "STORY_RE_TITLE_50130",
+    "Condition": [
+      "CompleteDungeon",
+      "5",
+      "11",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH5_Main_14"
+    ]
+  },
+  {
+    "ChapterIndex": 5,
+    "Name": "STORY_RE_TITLE_50140",
+    "Condition": [
+      "CompleteDungeon",
+      "5",
+      "13",
+      "True"
+    ],
+    "Command": "StartDungeon",
+    "Argument": [
+      "5",
+      "13"
+    ]
+  },
+  {
+    "ChapterIndex": 5,
+    "Name": "STORY_RE_TITLE_50150",
+    "Condition": [
+      "CompleteDungeon",
+      "5",
+      "13",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH5_Main_17"
+    ]
+  },
+  {
+    "ChapterIndex": 5,
+    "Name": "STORY_RE_TITLE_50160",
+    "Condition": [
+      "CompleteDungeon",
+      "5",
+      "14",
+      "True"
+    ],
+    "Command": "StartDungeon",
+    "Argument": [
+      "5",
+      "14"
+    ]
+  },
+  {
+    "ChapterIndex": 5,
+    "Name": "STORY_RE_TITLE_50170",
+    "Condition": [
+      "CompleteDungeon",
+      "5",
+      "15",
+      "True"
+    ],
+    "Command": "StartDungeon",
+    "Argument": [
+      "5",
+      "15"
+    ]
+  },
+  {
+    "ChapterIndex": 5,
+    "Name": "STORY_RE_TITLE_50180",
+    "Condition": [
+      "CompleteDungeon",
+      "5",
+      "16",
+      "True"
+    ],
+    "Command": "StartDungeon",
+    "Argument": [
+      "5",
+      "16"
+    ]
+  },
+  {
+    "ChapterIndex": 5,
+    "Name": "STORY_RE_TITLE_50190",
+    "Condition": [
+      "CompleteDungeon",
+      "5",
+      "17",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH5_Main_22"
+    ]
+  },
+  {
+    "ChapterIndex": 5,
+    "Name": "STORY_RE_TITLE_50200",
+    "Condition": [
+      "CompleteDungeon",
+      "5",
+      "18",
+      "True"
+    ],
+    "Command": "StartDungeon",
+    "Argument": [
+      "5",
+      "18"
+    ]
+  },
+  {
+    "ChapterIndex": 5,
+    "Name": "STORY_RE_TITLE_50210",
+    "Condition": [
+      "CompleteDungeon",
+      "5",
+      "18",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH5_Main_24"
+    ]
+  },
+  {
+    "ChapterIndex": 5,
+    "Name": "STORY_RE_TITLE_50220",
+    "Condition": [
+      "CompleteDungeon",
+      "5",
+      "19",
+      "True"
+    ],
+    "Command": "StartDungeon",
+    "Argument": [
+      "5",
+      "19"
+    ]
+  },
+  {
+    "ChapterIndex": 5,
+    "Name": "STORY_RE_TITLE_50230",
+    "Condition": [
+      "CompleteDungeon",
+      "5",
+      "19",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH5_Main_27"
+    ]
+  },
+  {
+    "ChapterIndex": 5,
+    "Name": "STORY_RE_TITLE_50240",
+    "Condition": [
+      "CompleteDungeon",
+      "5",
+      "21",
+      "True"
+    ],
+    "Command": "StartDungeon",
+    "Argument": [
+      "5",
+      "21"
+    ]
+  },
+  {
+    "ChapterIndex": 5,
+    "Name": "STORY_RE_TITLE_50250",
+    "Condition": [
+      "CompleteDungeon",
+      "5",
+      "21",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH5_Main_33"
+    ]
+  },
+  {
+    "ChapterIndex": 6,
+    "Name": "STORY_RE_TITLE_60000",
+    "Condition": [
+      "CompleteTutorial",
+      "60000",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH6_Main_0"
+    ]
+  },
+  {
+    "ChapterIndex": 6,
+    "Name": "STORY_RE_TITLE_60010",
+    "Condition": [
+      "CompleteDungeon",
+      "6",
+      "1",
+      "True"
+    ],
+    "Command": "StartDungeon",
+    "Argument": [
+      "6",
+      "1"
+    ]
+  },
+  {
+    "ChapterIndex": 6,
+    "Name": "STORY_RE_TITLE_60020",
+    "Condition": [
+      "CompleteDungeon",
+      "6",
+      "1",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH6_Main_1"
+    ]
+  },
+  {
+    "ChapterIndex": 6,
+    "Name": "STORY_RE_TITLE_60030",
+    "Condition": [
+      "CompleteDungeon",
+      "6",
+      "2",
+      "True"
+    ],
+    "Command": "StartDungeon",
+    "Argument": [
+      "6",
+      "2"
+    ]
+  },
+  {
+    "ChapterIndex": 6,
+    "Name": "STORY_RE_TITLE_60040",
+    "Condition": [
+      "CompleteDungeon",
+      "6",
+      "2",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH6_Main_3"
+    ]
+  },
+  {
+    "ChapterIndex": 6,
+    "Name": "STORY_RE_TITLE_60050",
+    "Condition": [
+      "CompleteDungeon",
+      "6",
+      "3",
+      "True"
+    ],
+    "Command": "StartDungeon",
+    "Argument": [
+      "6",
+      "3"
+    ]
+  },
+  {
+    "ChapterIndex": 6,
+    "Name": "STORY_RE_TITLE_60060",
+    "Condition": [
+      "CompleteDungeon",
+      "6",
+      "4",
+      "True"
+    ],
+    "Command": "StartDungeon",
+    "Argument": [
+      "6",
+      "4"
+    ]
+  },
+  {
+    "ChapterIndex": 6,
+    "Name": "STORY_RE_TITLE_60070",
+    "Condition": [
+      "CompleteDungeon",
+      "6",
+      "5",
+      "True"
+    ],
+    "Command": "StartDungeon",
+    "Argument": [
+      "6",
+      "5"
+    ]
+  },
+  {
+    "ChapterIndex": 6,
+    "Name": "STORY_RE_TITLE_60080",
+    "Condition": [
+      "CompleteDungeon",
+      "6",
+      "6",
+      "True"
+    ],
+    "Command": "StartDungeon",
+    "Argument": [
+      "6",
+      "6"
+    ]
+  },
+  {
+    "ChapterIndex": 6,
+    "Name": "STORY_RE_TITLE_60090",
+    "Condition": [
+      "CompleteDungeon",
+      "6",
+      "7",
+      "True"
+    ],
+    "Command": "StartDungeon",
+    "Argument": [
+      "6",
+      "7"
+    ]
+  },
+  {
+    "ChapterIndex": 6,
+    "Name": "STORY_RE_TITLE_60100",
+    "Condition": [
+      "CompleteDungeon",
+      "6",
+      "7",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH6_Sub_2"
+    ]
+  },
+  {
+    "ChapterIndex": 6,
+    "Name": "STORY_RE_TITLE_60110",
+    "Condition": [
+      "CompleteDungeon",
+      "6",
+      "9",
+      "True"
+    ],
+    "Command": "StartDungeon",
+    "Argument": [
+      "6",
+      "9"
+    ]
+  },
+  {
+    "ChapterIndex": 6,
+    "Name": "STORY_RE_TITLE_60120",
+    "Condition": [
+      "CompleteDungeon",
+      "6",
+      "10",
+      "True"
+    ],
+    "Command": "StartDungeon",
+    "Argument": [
+      "6",
+      "10"
+    ]
+  },
+  {
+    "ChapterIndex": 6,
+    "Name": "STORY_RE_TITLE_60130",
+    "Condition": [
+      "CompleteDungeon",
+      "6",
+      "10",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH6_Main_16"
+    ]
+  },
+  {
+    "ChapterIndex": 6,
+    "Name": "STORY_RE_TITLE_60140",
+    "Condition": [
+      "CompleteDungeon",
+      "6",
+      "12",
+      "True"
+    ],
+    "Command": "StartDungeon",
+    "Argument": [
+      "6",
+      "12"
+    ]
+  },
+  {
+    "ChapterIndex": 6,
+    "Name": "STORY_RE_TITLE_60150",
+    "Condition": [
+      "CompleteDungeon",
+      "6",
+      "13",
+      "True"
+    ],
+    "Command": "StartDungeon",
+    "Argument": [
+      "6",
+      "13"
+    ]
+  },
+  {
+    "ChapterIndex": 6,
+    "Name": "STORY_RE_TITLE_60160",
+    "Condition": [
+      "CompleteDungeon",
+      "6",
+      "13",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH6_Main_19"
+    ]
+  },
+  {
+    "ChapterIndex": 6,
+    "Name": "STORY_RE_TITLE_60170",
+    "Condition": [
+      "CompleteDungeon",
+      "6",
+      "18",
+      "True"
+    ],
+    "Command": "StartDungeon",
+    "Argument": [
+      "6",
+      "18"
+    ]
+  },
+  {
+    "ChapterIndex": 6,
+    "Name": "STORY_RE_TITLE_60180",
+    "Condition": [
+      "CompleteDungeon",
+      "6",
+      "19",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH6_Main_22"
+    ]
+  },
+  {
+    "ChapterIndex": 6,
+    "Name": "STORY_RE_TITLE_60190",
+    "Condition": [
+      "CompleteDungeon",
+      "6",
+      "21",
+      "True"
+    ],
+    "Command": "StartDungeon",
+    "Argument": [
+      "6",
+      "21"
+    ]
+  },
+  {
+    "ChapterIndex": 6,
+    "Name": "STORY_RE_TITLE_60200",
+    "Condition": [
+      "CompleteTutorial",
+      "60290",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH6_Main_25"
+    ]
+  },
+  {
+    "ChapterIndex": 7,
+    "Name": "STORY_RE_TITLE_70000",
+    "Condition": [
+      "CompleteTutorial",
+      "70000",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH7_Main_0"
+    ]
+  },
+  {
+    "ChapterIndex": 7,
+    "Name": "STORY_RE_TITLE_70010",
+    "Condition": [
+      "CompleteDungeon",
+      "7",
+      "1",
+      "True"
+    ],
+    "Command": "StartDungeon",
+    "Argument": [
+      "7",
+      "1"
+    ]
+  },
+  {
+    "ChapterIndex": 7,
+    "Name": "STORY_RE_TITLE_70020",
+    "Condition": [
+      "CompleteDungeon",
+      "7",
+      "2",
+      "True"
+    ],
+    "Command": "StartDungeon",
+    "Argument": [
+      "7",
+      "2"
+    ]
+  },
+  {
+    "ChapterIndex": 7,
+    "Name": "STORY_RE_TITLE_70030",
+    "Condition": [
+      "CompleteDungeon",
+      "7",
+      "2",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH7_Main_5"
+    ]
+  },
+  {
+    "ChapterIndex": 7,
+    "Name": "STORY_RE_TITLE_70040",
+    "Condition": [
+      "CompleteDungeon",
+      "7",
+      "3",
+      "True"
+    ],
+    "Command": "StartDungeon",
+    "Argument": [
+      "7",
+      "3"
+    ]
+  },
+  {
+    "ChapterIndex": 7,
+    "Name": "STORY_RE_TITLE_70050",
+    "Condition": [
+      "CompleteDungeon",
+      "7",
+      "5",
+      "True"
+    ],
+    "Command": "StartDungeon",
+    "Argument": [
+      "7",
+      "5"
+    ]
+  },
+  {
+    "ChapterIndex": 7,
+    "Name": "STORY_RE_TITLE_70060",
+    "Condition": [
+      "CompleteDungeon",
+      "7",
+      "6",
+      "True"
+    ],
+    "Command": "StartDungeon",
+    "Argument": [
+      "7",
+      "6"
+    ]
+  },
+  {
+    "ChapterIndex": 7,
+    "Name": "STORY_RE_TITLE_70070",
+    "Condition": [
+      "CompleteTutorial",
+      "70002",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH7_Main_11"
+    ]
+  },
+  {
+    "ChapterIndex": 7,
+    "Name": "STORY_RE_TITLE_70080",
+    "Condition": [
+      "CompleteDungeon",
+      "117",
+      "3",
+      "True"
+    ],
+    "Command": "StartDungeon",
+    "Argument": [
+      "117",
+      "3"
+    ]
+  },
+  {
+    "ChapterIndex": 7,
+    "Name": "STORY_RE_TITLE_70090",
+    "Condition": [
+      "CompleteDungeon",
+      "117",
+      "3",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH7_Main_13"
+    ]
+  },
+  {
+    "ChapterIndex": 7,
+    "Name": "STORY_RE_TITLE_70100",
+    "Condition": [
+      "CompleteTutorial",
+      "70005",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH7_Main_14"
+    ]
+  },
+  {
+    "ChapterIndex": 7,
+    "Name": "STORY_RE_TITLE_70101",
+    "Condition": [
+      "CompleteTutorial",
+      "70001",
+      "True"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "70001"
+    ]
+  },
+  {
+    "ChapterIndex": 7,
+    "Name": "STORY_RE_TITLE_70110",
+    "Condition": [
+      "CompleteDungeon",
+      "7",
+      "7",
+      "True"
+    ],
+    "Command": "StartDungeon",
+    "Argument": [
+      "7",
+      "7"
+    ]
+  },
+  {
+    "ChapterIndex": 7,
+    "Name": "STORY_RE_TITLE_70120",
+    "Condition": [
+      "CompleteDungeon",
+      "7",
+      "7",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH7_Main_17"
+    ]
+  },
+  {
+    "ChapterIndex": 7,
+    "Name": "STORY_RE_TITLE_70130",
+    "Condition": [
+      "CompleteDungeon",
+      "7",
+      "8",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH7_Main_18"
+    ]
+  },
+  {
+    "ChapterIndex": 7,
+    "Name": "STORY_RE_TITLE_70140",
+    "Condition": [
+      "CompleteDungeon",
+      "7",
+      "9",
+      "True"
+    ],
+    "Command": "StartDungeon",
+    "Argument": [
+      "7",
+      "9"
+    ]
+  },
+  {
+    "ChapterIndex": 7,
+    "Name": "STORY_RE_TITLE_70150",
+    "Condition": [
+      "CompleteDungeon",
+      "7",
+      "10",
+      "True"
+    ],
+    "Command": "StartDungeon",
+    "Argument": [
+      "7",
+      "10"
+    ]
+  },
+  {
+    "ChapterIndex": 7,
+    "Name": "STORY_RE_TITLE_70160",
+    "Condition": [
+      "CompleteDungeon",
+      "7",
+      "10",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH7_Lei_4"
+    ]
+  },
+  {
+    "ChapterIndex": 7,
+    "Name": "STORY_RE_TITLE_70170",
+    "Condition": [
+      "CompleteDungeon",
+      "7",
+      "12",
+      "True"
+    ],
+    "Command": "StartDungeon",
+    "Argument": [
+      "7",
+      "12"
+    ]
+  },
+  {
+    "ChapterIndex": 7,
+    "Name": "STORY_RE_TITLE_70180",
+    "Condition": [
+      "CompleteDungeon",
+      "7",
+      "12",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH7_Main_22"
+    ]
+  },
+  {
+    "ChapterIndex": 8,
+    "Name": "STORY_RE_TITLE_80000",
+    "Condition": [
+      "CompleteTutorial",
+      "80000",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH8_Main_0"
+    ]
+  },
+  {
+    "ChapterIndex": 8,
+    "Name": "STORY_RE_TITLE_80010",
+    "Condition": [
+      "CompleteDungeon",
+      "8",
+      "3",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH8_Main_2and1"
+    ]
+  },
+  {
+    "ChapterIndex": 8,
+    "Name": "STORY_RE_TITLE_80020",
+    "Condition": [
+      "CompleteDungeon",
+      "8",
+      "5",
+      "True"
+    ],
+    "Command": "StartDungeon",
+    "Argument": [
+      "8",
+      "5"
+    ]
+  },
+  {
+    "ChapterIndex": 8,
+    "Name": "STORY_RE_TITLE_80030",
+    "Condition": [
+      "CompleteDungeon",
+      "8",
+      "5",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH8_Main_5"
+    ]
+  },
+  {
+    "ChapterIndex": 8,
+    "Name": "STORY_RE_TITLE_80040",
+    "Condition": [
+      "CompleteDungeon",
+      "8",
+      "6",
+      "True"
+    ],
+    "Command": "StartDungeon",
+    "Argument": [
+      "8",
+      "6"
+    ]
+  },
+  {
+    "ChapterIndex": 8,
+    "Name": "STORY_RE_TITLE_80050",
+    "Condition": [
+      "CompleteDungeon",
+      "8",
+      "7",
+      "True"
+    ],
+    "Command": "StartDungeon",
+    "Argument": [
+      "8",
+      "7"
+    ]
+  },
+  {
+    "ChapterIndex": 8,
+    "Name": "STORY_RE_TITLE_80060",
+    "Condition": [
+      "CompleteDungeon",
+      "8",
+      "7",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH8_Main_8"
+    ]
+  },
+  {
+    "ChapterIndex": 8,
+    "Name": "STORY_RE_TITLE_80070",
+    "Condition": [
+      "CompleteDungeon",
+      "8",
+      "8",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH8_Main_9"
+    ]
+  },
+  {
+    "ChapterIndex": 8,
+    "Name": "STORY_RE_TITLE_80080",
+    "Condition": [
+      "CompleteDungeon",
+      "8",
+      "9",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH8_Main_10"
+    ]
+  },
+  {
+    "ChapterIndex": 8,
+    "Name": "STORY_RE_TITLE_80090",
+    "Condition": [
+      "CompleteDungeon",
+      "8",
+      "9",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH8_Main_1112"
+    ]
+  },
+  {
+    "ChapterIndex": 8,
+    "Name": "STORY_RE_TITLE_80100",
+    "Condition": [
+      "CompleteDungeon",
+      "8",
+      "10",
+      "True"
+    ],
+    "Command": "StartDungeon",
+    "Argument": [
+      "8",
+      "10"
+    ]
+  },
+  {
+    "ChapterIndex": 8,
+    "Name": "STORY_RE_TITLE_80110",
+    "Condition": [
+      "CompleteDungeon",
+      "8",
+      "11",
+      "True"
+    ],
+    "Command": "StartDungeon",
+    "Argument": [
+      "8",
+      "11"
+    ]
+  },
+  {
+    "ChapterIndex": 8,
+    "Name": "STORY_RE_TITLE_80120",
+    "Condition": [
+      "CompleteDungeon",
+      "8",
+      "12",
+      "True"
+    ],
+    "Command": "StartDungeon",
+    "Argument": [
+      "8",
+      "12"
+    ]
+  },
+  {
+    "ChapterIndex": 8,
+    "Name": "STORY_RE_TITLE_80130",
+    "Condition": [
+      "CompleteDungeon",
+      "8",
+      "12",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH8_Main_18"
+    ]
+  },
+  {
+    "ChapterIndex": 8,
+    "Name": "STORY_RE_TITLE_80140",
+    "Condition": [
+      "CompleteDungeon",
+      "8",
+      "13",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH8_Main_19"
+    ]
+  },
+  {
+    "ChapterIndex": 8,
+    "Name": "STORY_RE_TITLE_80150",
+    "Condition": [
+      "CompleteDungeon",
+      "8",
+      "15",
+      "True"
+    ],
+    "Command": "StartDungeon",
+    "Argument": [
+      "8",
+      "15"
+    ]
+  },
+  {
+    "ChapterIndex": 8,
+    "Name": "STORY_RE_TITLE_80160",
+    "Condition": [
+      "CompleteDungeon",
+      "8",
+      "16",
+      "True"
+    ],
+    "Command": "StartDungeon",
+    "Argument": [
+      "8",
+      "16"
+    ]
+  },
+  {
+    "ChapterIndex": 8,
+    "Name": "STORY_RE_TITLE_80170",
+    "Condition": [
+      "CompleteDungeon",
+      "8",
+      "17",
+      "True"
+    ],
+    "Command": "StartDungeon",
+    "Argument": [
+      "8",
+      "17"
+    ]
+  },
+  {
+    "ChapterIndex": 8,
+    "Name": "STORY_RE_TITLE_80180",
+    "Condition": [
+      "CompleteDungeon",
+      "8",
+      "18",
+      "True"
+    ],
+    "Command": "StartDungeon",
+    "Argument": [
+      "8",
+      "18"
+    ]
+  },
+  {
+    "ChapterIndex": 8,
+    "Name": "STORY_RE_TITLE_80190",
+    "Condition": [
+      "CompleteDungeon",
+      "8",
+      "18",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH8_Main_27"
+    ]
+  },
+  {
+    "ChapterIndex": 8,
+    "Name": "STORY_RE_TITLE_80200",
+    "Condition": [
+      "CompleteDungeon",
+      "8",
+      "20",
+      "True"
+    ],
+    "Command": "StartDungeon",
+    "Argument": [
+      "8",
+      "20"
+    ]
+  },
+  {
+    "ChapterIndex": 8,
+    "Name": "STORY_RE_TITLE_80210",
+    "Condition": [
+      "CompleteDungeon",
+      "8",
+      "22",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH8_Main_29"
+    ]
+  },
+  {
+    "ChapterIndex": 8,
+    "Name": "STORY_RE_TITLE_80220",
+    "Condition": [
+      "CompleteDungeon",
+      "8",
+      "23",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH8_Main_30"
+    ]
+  },
+  {
+    "ChapterIndex": 8,
+    "Name": "STORY_RE_TITLE_80230",
+    "Condition": [
+      "CompleteDungeon",
+      "8",
+      "26",
+      "True"
+    ],
+    "Command": "StartDungeon",
+    "Argument": [
+      "8",
+      "26"
+    ]
+  },
+  {
+    "ChapterIndex": 8,
+    "Name": "STORY_RE_TITLE_80240",
+    "Condition": [
+      "CompleteDungeon",
+      "8",
+      "26",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH8_Main_34"
+    ]
+  },
+  {
+    "ChapterIndex": 8,
+    "Name": "STORY_RE_TITLE_80250",
+    "Condition": [
+      "CompleteTutorial",
+      "80001",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH8_Main_35"
+    ]
+  }
+]

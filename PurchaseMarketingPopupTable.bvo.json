@@ -1,0 +1,908 @@
+[
+  {
+    "Index": 1,
+    "PurchaseIndices": [
+      "1"
+    ],
+    "PopupPriority": 1,
+    "Type": "BuyHeroAndWeapon",
+    "PopupPrefabName": "PurchaseMarketingPopup",
+    "TitleStringKey": "PopupTitleString.001",
+    "DescStringKey": "PopupDescString.001",
+    "PopupImage": "BMPopup/Img/1",
+    "PushSendMinute": [
+      "1440",
+      "8640"
+    ],
+    "PushLocalText": [
+      "RECOMMENDED_DEALER_LIMITED_PACKAGE_AFTER_PUSH_LOCALTEXT1",
+      "RECOMMENDED_DEALER_LIMITED_PACKAGE_AFTER_PUSH_LOCALTEXT2"
+    ]
+  },
+  {
+    "Index": 2,
+    "PurchaseIndices": [
+      "2"
+    ],
+    "PopupPriority": 2,
+    "Type": "BuyHeroAndWeapon",
+    "PopupPrefabName": "PurchaseMarketingPopup",
+    "TitleStringKey": "PopupTitleString.002",
+    "DescStringKey": "PopupDescString.002",
+    "PopupImage": "BMPopup/Img/6",
+    "Condition1": [
+      "BuyItem",
+      "400001",
+      "1"
+    ],
+    "Condition2": [
+      "UseSelectionItem",
+      "987",
+      "9"
+    ],
+    "Condition3": [
+      "CompleteDungeon",
+      "1",
+      "17",
+      "True"
+    ],
+    "OpenCondition": "EndBattleReward",
+    "SkipCondition1": [
+      "AutoNextBattle",
+      "True"
+    ],
+    "SkipCondition2": [
+      "AutoRepeatBattle",
+      "True"
+    ],
+    "SkipCondition3": [
+      "CheckMultiplay",
+      "True"
+    ]
+  },
+  {
+    "Index": 3,
+    "PurchaseIndices": [
+      "3"
+    ],
+    "PopupPriority": 2,
+    "Type": "BuyHeroAndWeapon",
+    "PopupPrefabName": "PurchaseMarketingPopup",
+    "TitleStringKey": "PopupTitleString.007",
+    "DescStringKey": "PopupDescString.007",
+    "PopupImage": "BMPopup/Img/7",
+    "Condition1": [
+      "BuyItem",
+      "400001",
+      "1"
+    ],
+    "Condition2": [
+      "UseSelectionItem",
+      "987",
+      "10"
+    ],
+    "Condition3": [
+      "CompleteDungeon",
+      "1",
+      "17",
+      "True"
+    ],
+    "OpenCondition": "EndBattleReward",
+    "SkipCondition1": [
+      "AutoNextBattle",
+      "True"
+    ],
+    "SkipCondition2": [
+      "AutoRepeatBattle",
+      "True"
+    ],
+    "SkipCondition3": [
+      "CheckMultiplay",
+      "True"
+    ]
+  },
+  {
+    "Index": 4,
+    "PurchaseIndices": [
+      "4"
+    ],
+    "PopupPriority": 2,
+    "Type": "BuyHeroAndWeapon",
+    "PopupPrefabName": "PurchaseMarketingPopup",
+    "TitleStringKey": "PopupTitleString.003",
+    "DescStringKey": "PopupDescString.003",
+    "PopupImage": "BMPopup/Img/5",
+    "Condition1": [
+      "BuyItem",
+      "400001",
+      "1"
+    ],
+    "Condition2": [
+      "UseSelectionItem",
+      "987",
+      "29"
+    ],
+    "Condition3": [
+      "CompleteDungeon",
+      "1",
+      "17",
+      "True"
+    ],
+    "OpenCondition": "EndBattleReward",
+    "SkipCondition1": [
+      "AutoNextBattle",
+      "True"
+    ],
+    "SkipCondition2": [
+      "AutoRepeatBattle",
+      "True"
+    ],
+    "SkipCondition3": [
+      "CheckMultiplay",
+      "True"
+    ]
+  },
+  {
+    "Index": 5,
+    "PurchaseIndices": [
+      "5"
+    ],
+    "PopupPriority": 2,
+    "Type": "BuyHeroAndWeapon",
+    "PopupPrefabName": "PurchaseMarketingPopup",
+    "TitleStringKey": "PopupTitleString.004",
+    "DescStringKey": "PopupDescString.004",
+    "PopupImage": "BMPopup/Img/2",
+    "Condition1": [
+      "BuyItem",
+      "400001",
+      "1"
+    ],
+    "Condition2": [
+      "UseSelectionItem",
+      "987",
+      "31"
+    ],
+    "Condition3": [
+      "CompleteDungeon",
+      "1",
+      "17",
+      "True"
+    ],
+    "OpenCondition": "EndBattleReward",
+    "SkipCondition1": [
+      "AutoNextBattle",
+      "True"
+    ],
+    "SkipCondition2": [
+      "AutoRepeatBattle",
+      "True"
+    ],
+    "SkipCondition3": [
+      "CheckMultiplay",
+      "True"
+    ]
+  },
+  {
+    "Index": 6,
+    "PurchaseIndices": [
+      "6"
+    ],
+    "PopupPriority": 2,
+    "Type": "BuyHeroAndWeapon",
+    "PopupPrefabName": "PurchaseMarketingPopup",
+    "TitleStringKey": "PopupTitleString.005",
+    "DescStringKey": "PopupDescString.005",
+    "PopupImage": "BMPopup/Img/3",
+    "Condition1": [
+      "BuyItem",
+      "400001",
+      "1"
+    ],
+    "Condition2": [
+      "UseSelectionItem",
+      "987",
+      "40"
+    ],
+    "Condition3": [
+      "CompleteDungeon",
+      "1",
+      "17",
+      "True"
+    ],
+    "OpenCondition": "EndBattleReward",
+    "SkipCondition1": [
+      "AutoNextBattle",
+      "True"
+    ],
+    "SkipCondition2": [
+      "AutoRepeatBattle",
+      "True"
+    ],
+    "SkipCondition3": [
+      "CheckMultiplay",
+      "True"
+    ]
+  },
+  {
+    "Index": 7,
+    "PurchaseIndices": [
+      "7"
+    ],
+    "PopupPriority": 2,
+    "Type": "BuyHeroAndWeapon",
+    "PopupPrefabName": "PurchaseMarketingPopup",
+    "TitleStringKey": "PopupTitleString.006",
+    "DescStringKey": "PopupDescString.006",
+    "PopupImage": "BMPopup/Img/4",
+    "Condition1": [
+      "BuyItem",
+      "400001",
+      "1"
+    ],
+    "Condition2": [
+      "UseSelectionItem",
+      "987",
+      "64"
+    ],
+    "Condition3": [
+      "CompleteDungeon",
+      "1",
+      "17",
+      "True"
+    ],
+    "OpenCondition": "EndBattleReward",
+    "SkipCondition1": [
+      "AutoNextBattle",
+      "True"
+    ],
+    "SkipCondition2": [
+      "AutoRepeatBattle",
+      "True"
+    ],
+    "SkipCondition3": [
+      "CheckMultiplay",
+      "True"
+    ]
+  },
+  {
+    "Index": 8,
+    "PurchaseIndices": [
+      "8",
+      "9"
+    ],
+    "PopupPriority": 3,
+    "Type": "NovicePackage",
+    "PopupPrefabName": "NoviceMarketingPopup",
+    "TitleStringKey": "NEWBIE_PROMOTION_POPUP_TITLE",
+    "DescStringKey": "NEWBIE_PROMOTION_POPUP_DESC",
+    "PopupImage": "BMPopup/Img/NoviceBM",
+    "RemindMinutes": 1440
+  },
+  {
+    "Index": 10001,
+    "PurchaseIndices": [
+      "10001"
+    ],
+    "PopupPriority": 3,
+    "Type": "RecommendDealer_2019",
+    "PopupPrefabName": "PurchaseMarketingPopup",
+    "TitleStringKey": "PopupTitleString.001",
+    "DescStringKey": "PopupDescString.001",
+    "PopupImage": "BMPopup/Img/NEWBIE_RECOMMEND_DEALER_POPUP",
+    "Condition1": [
+      "CompleteDungeon",
+      "1",
+      "9",
+      "True"
+    ],
+    "OpenCondition": "EndBattleReward",
+    "SkipCondition1": [
+      "AutoNextBattle",
+      "True"
+    ],
+    "SkipCondition2": [
+      "AutoRepeatBattle",
+      "True"
+    ],
+    "SkipCondition3": [
+      "CheckMultiplay",
+      "True"
+    ]
+  },
+  {
+    "Index": 10002,
+    "PurchaseIndices": [
+      "10002"
+    ],
+    "PopupPriority": 3,
+    "Type": "RecommendDealer_2019",
+    "PopupPrefabName": "PurchaseMarketingPopup",
+    "TitleStringKey": "NEWBIE_RECOMMEND_DEALER_WEAPON_EPIS",
+    "DescStringKey": "NEWBIE_RECOMMEND_DEALER_WEAPON_EPIS_DESC1",
+    "PopupImage": "BMPopup/Img/NEWBIE_RECOMMEND_WEAPON_POPUP_EPIS",
+    "Condition1": [
+      "BuyItem",
+      "400010",
+      "1"
+    ],
+    "Condition2": [
+      "UseSelectionItem",
+      "967",
+      "9"
+    ],
+    "Condition3": [
+      "CompleteDungeon",
+      "1",
+      "14",
+      "True"
+    ],
+    "OpenCondition": "EndBattleReward",
+    "SkipCondition1": [
+      "AutoNextBattle",
+      "True"
+    ],
+    "SkipCondition2": [
+      "AutoRepeatBattle",
+      "True"
+    ],
+    "SkipCondition3": [
+      "CheckMultiplay",
+      "True"
+    ]
+  },
+  {
+    "Index": 10003,
+    "PurchaseIndices": [
+      "10003"
+    ],
+    "PopupPriority": 3,
+    "Type": "RecommendDealer_2019",
+    "PopupPrefabName": "PurchaseMarketingPopup",
+    "TitleStringKey": "NEWBIE_RECOMMEND_DEALER_WEAPON_NYX",
+    "DescStringKey": "NEWBIE_RECOMMEND_DEALER_WEAPON_NYX_DESC1",
+    "PopupImage": "BMPopup/Img/NEWBIE_RECOMMEND_WEAPON_POPUP_NYX",
+    "Condition1": [
+      "BuyItem",
+      "400010",
+      "1"
+    ],
+    "Condition2": [
+      "UseSelectionItem",
+      "967",
+      "33"
+    ],
+    "Condition3": [
+      "CompleteDungeon",
+      "1",
+      "14",
+      "True"
+    ],
+    "OpenCondition": "EndBattleReward",
+    "SkipCondition1": [
+      "AutoNextBattle",
+      "True"
+    ],
+    "SkipCondition2": [
+      "AutoRepeatBattle",
+      "True"
+    ],
+    "SkipCondition3": [
+      "CheckMultiplay",
+      "True"
+    ]
+  },
+  {
+    "Index": 10004,
+    "PurchaseIndices": [
+      "10004"
+    ],
+    "PopupPriority": 3,
+    "Type": "RecommendDealer_2019",
+    "PopupPrefabName": "PurchaseMarketingPopup",
+    "TitleStringKey": "NEWBIE_RECOMMEND_DEALER_WEAPON_MIRURU",
+    "DescStringKey": "NEWBIE_RECOMMEND_DEALER_WEAPON_MIRURU_DESC1",
+    "PopupImage": "BMPopup/Img/NEWBIE_RECOMMEND_WEAPON_POPUP_MIRURU",
+    "Condition1": [
+      "BuyItem",
+      "400010",
+      "1"
+    ],
+    "Condition2": [
+      "UseSelectionItem",
+      "967",
+      "12"
+    ],
+    "Condition3": [
+      "CompleteDungeon",
+      "1",
+      "14",
+      "True"
+    ],
+    "OpenCondition": "EndBattleReward",
+    "SkipCondition1": [
+      "AutoNextBattle",
+      "True"
+    ],
+    "SkipCondition2": [
+      "AutoRepeatBattle",
+      "True"
+    ],
+    "SkipCondition3": [
+      "CheckMultiplay",
+      "True"
+    ]
+  },
+  {
+    "Index": 10005,
+    "PurchaseIndices": [
+      "10005"
+    ],
+    "PopupPriority": 3,
+    "Type": "RecommendDealer_2019",
+    "PopupPrefabName": "PurchaseMarketingPopup",
+    "TitleStringKey": "NEWBIE_RECOMMEND_DEALER_WEAPON_ZAFIR",
+    "DescStringKey": "NEWBIE_RECOMMEND_DEALER_WEAPON_ZAFIR_DESC1",
+    "PopupImage": "BMPopup/Img/NEWBIE_RECOMMEND_WEAPON_POPUP_ZAFIR",
+    "Condition1": [
+      "BuyItem",
+      "400010",
+      "1"
+    ],
+    "Condition2": [
+      "UseSelectionItem",
+      "967",
+      "46"
+    ],
+    "Condition3": [
+      "CompleteDungeon",
+      "1",
+      "14",
+      "True"
+    ],
+    "OpenCondition": "EndBattleReward",
+    "SkipCondition1": [
+      "AutoNextBattle",
+      "True"
+    ],
+    "SkipCondition2": [
+      "AutoRepeatBattle",
+      "True"
+    ],
+    "SkipCondition3": [
+      "CheckMultiplay",
+      "True"
+    ]
+  },
+  {
+    "Index": 10006,
+    "PurchaseIndices": [
+      "10006"
+    ],
+    "PopupPriority": 3,
+    "Type": "RecommendDealer_2019",
+    "PopupPrefabName": "PurchaseMarketingPopup",
+    "TitleStringKey": "NEWBIE_RECOMMEND_DEALER_WEAPON_THEO",
+    "DescStringKey": "NEWBIE_RECOMMEND_DEALER_WEAPON_THEO_DESC1",
+    "PopupImage": "BMPopup/Img/NEWBIE_RECOMMEND_WEAPON_POPUP_THEO",
+    "Condition1": [
+      "BuyItem",
+      "400010",
+      "1"
+    ],
+    "Condition2": [
+      "UseSelectionItem",
+      "967",
+      "40"
+    ],
+    "Condition3": [
+      "CompleteDungeon",
+      "1",
+      "14",
+      "True"
+    ],
+    "OpenCondition": "EndBattleReward",
+    "SkipCondition1": [
+      "AutoNextBattle",
+      "True"
+    ],
+    "SkipCondition2": [
+      "AutoRepeatBattle",
+      "True"
+    ],
+    "SkipCondition3": [
+      "CheckMultiplay",
+      "True"
+    ]
+  },
+  {
+    "Index": 10007,
+    "PurchaseIndices": [
+      "10007"
+    ],
+    "PopupPriority": 3,
+    "Type": "RecommendDealer_2019",
+    "PopupPrefabName": "PurchaseMarketingPopup",
+    "TitleStringKey": "NEWBIE_RECOMMEND_DEALER_WEAPON_ARTEMIA",
+    "DescStringKey": "NEWBIE_RECOMMEND_DEALER_WEAPON_ARTEMIA_DESC1",
+    "PopupImage": "BMPopup/Img/NEWBIE_RECOMMEND_WEAPON_POPUP_ARTEMIA",
+    "Condition1": [
+      "BuyItem",
+      "400010",
+      "1"
+    ],
+    "Condition2": [
+      "UseSelectionItem",
+      "967",
+      "64"
+    ],
+    "Condition3": [
+      "CompleteDungeon",
+      "1",
+      "14",
+      "True"
+    ],
+    "OpenCondition": "EndBattleReward",
+    "SkipCondition1": [
+      "AutoNextBattle",
+      "True"
+    ],
+    "SkipCondition2": [
+      "AutoRepeatBattle",
+      "True"
+    ],
+    "SkipCondition3": [
+      "CheckMultiplay",
+      "True"
+    ]
+  },
+  {
+    "Index": 10008,
+    "PurchaseIndices": [
+      "10008"
+    ],
+    "PopupPriority": 3,
+    "Type": "RecommendDealer_2019",
+    "PopupPrefabName": "PurchaseMarketingPopup",
+    "TitleStringKey": "NEWBIE_RECOMMEND_DEALER_TREASURE_EPIS",
+    "DescStringKey": "NEWBIE_RECOMMEND_DEALER_TREASURE_EPIS_DESC1",
+    "PopupImage": "BMPopup/Img/NEWBIE_RECOMMEND_TREASURE_POPUP_EPIS",
+    "Condition1": [
+      "BuyItem",
+      "400011",
+      "1"
+    ],
+    "Condition2": [
+      "CompleteDungeon",
+      "1",
+      "18",
+      "True"
+    ],
+    "OpenCondition": "EndBattleReward",
+    "SkipCondition1": [
+      "AutoNextBattle",
+      "True"
+    ],
+    "SkipCondition2": [
+      "AutoRepeatBattle",
+      "True"
+    ],
+    "SkipCondition3": [
+      "CheckMultiplay",
+      "True"
+    ]
+  },
+  {
+    "Index": 10009,
+    "PurchaseIndices": [
+      "10009"
+    ],
+    "PopupPriority": 3,
+    "Type": "RecommendDealer_2019",
+    "PopupPrefabName": "PurchaseMarketingPopup",
+    "TitleStringKey": "NEWBIE_RECOMMEND_DEALER_TREASURE_NYX",
+    "DescStringKey": "NEWBIE_RECOMMEND_DEALER_TREASURE_NYX_DESC1",
+    "PopupImage": "BMPopup/Img/NEWBIE_RECOMMEND_TREASURE_POPUP_NYX",
+    "Condition1": [
+      "BuyItem",
+      "400012",
+      "1"
+    ],
+    "Condition2": [
+      "CompleteDungeon",
+      "1",
+      "18",
+      "True"
+    ],
+    "OpenCondition": "EndBattleReward",
+    "SkipCondition1": [
+      "AutoNextBattle",
+      "True"
+    ],
+    "SkipCondition2": [
+      "AutoRepeatBattle",
+      "True"
+    ],
+    "SkipCondition3": [
+      "CheckMultiplay",
+      "True"
+    ]
+  },
+  {
+    "Index": 10010,
+    "PurchaseIndices": [
+      "10010"
+    ],
+    "PopupPriority": 3,
+    "Type": "RecommendDealer_2019",
+    "PopupPrefabName": "PurchaseMarketingPopup",
+    "TitleStringKey": "NEWBIE_RECOMMEND_DEALER_TREASURE_MIRURU",
+    "DescStringKey": "NEWBIE_RECOMMEND_DEALER_TREASURE_MIRURU_DESC1",
+    "PopupImage": "BMPopup/Img/NEWBIE_RECOMMEND_TREASURE_POPUP_MIRURU",
+    "Condition1": [
+      "BuyItem",
+      "400013",
+      "1"
+    ],
+    "Condition2": [
+      "CompleteDungeon",
+      "1",
+      "18",
+      "True"
+    ],
+    "OpenCondition": "EndBattleReward",
+    "SkipCondition1": [
+      "AutoNextBattle",
+      "True"
+    ],
+    "SkipCondition2": [
+      "AutoRepeatBattle",
+      "True"
+    ],
+    "SkipCondition3": [
+      "CheckMultiplay",
+      "True"
+    ]
+  },
+  {
+    "Index": 10011,
+    "PurchaseIndices": [
+      "10011"
+    ],
+    "PopupPriority": 3,
+    "Type": "RecommendDealer_2019",
+    "PopupPrefabName": "PurchaseMarketingPopup",
+    "TitleStringKey": "NEWBIE_RECOMMEND_DEALER_TREASURE_ZAFIR",
+    "DescStringKey": "NEWBIE_RECOMMEND_DEALER_TREASURE_ZAFIR_DESC1",
+    "PopupImage": "BMPopup/Img/NEWBIE_RECOMMEND_TREASURE_POPUP_ZAFIR",
+    "Condition1": [
+      "BuyItem",
+      "400014",
+      "1"
+    ],
+    "Condition2": [
+      "CompleteDungeon",
+      "1",
+      "18",
+      "True"
+    ],
+    "OpenCondition": "EndBattleReward",
+    "SkipCondition1": [
+      "AutoNextBattle",
+      "True"
+    ],
+    "SkipCondition2": [
+      "AutoRepeatBattle",
+      "True"
+    ],
+    "SkipCondition3": [
+      "CheckMultiplay",
+      "True"
+    ]
+  },
+  {
+    "Index": 10012,
+    "PurchaseIndices": [
+      "10012"
+    ],
+    "PopupPriority": 3,
+    "Type": "RecommendDealer_2019",
+    "PopupPrefabName": "PurchaseMarketingPopup",
+    "TitleStringKey": "NEWBIE_RECOMMEND_DEALER_TREASURE_THEO",
+    "DescStringKey": "NEWBIE_RECOMMEND_DEALER_TREASURE_THEO_DESC1",
+    "PopupImage": "BMPopup/Img/NEWBIE_RECOMMEND_TREASURE_POPUP_THEO",
+    "Condition1": [
+      "BuyItem",
+      "400015",
+      "1"
+    ],
+    "Condition2": [
+      "CompleteDungeon",
+      "1",
+      "18",
+      "True"
+    ],
+    "OpenCondition": "EndBattleReward",
+    "SkipCondition1": [
+      "AutoNextBattle",
+      "True"
+    ],
+    "SkipCondition2": [
+      "AutoRepeatBattle",
+      "True"
+    ],
+    "SkipCondition3": [
+      "CheckMultiplay",
+      "True"
+    ]
+  },
+  {
+    "Index": 10013,
+    "PurchaseIndices": [
+      "10013"
+    ],
+    "PopupPriority": 3,
+    "Type": "RecommendDealer_2019",
+    "PopupPrefabName": "PurchaseMarketingPopup",
+    "TitleStringKey": "NEWBIE_RECOMMEND_DEALER_TREASURE_ARTEMIA",
+    "DescStringKey": "NEWBIE_RECOMMEND_DEALER_TREASURE_ARTEMIA_DESC1",
+    "PopupImage": "BMPopup/Img/NEWBIE_RECOMMEND_TREASURE_POPUP_ARTEMIA",
+    "Condition1": [
+      "BuyItem",
+      "400016",
+      "1"
+    ],
+    "Condition2": [
+      "CompleteDungeon",
+      "1",
+      "18",
+      "True"
+    ],
+    "OpenCondition": "EndBattleReward",
+    "SkipCondition1": [
+      "AutoNextBattle",
+      "True"
+    ],
+    "SkipCondition2": [
+      "AutoRepeatBattle",
+      "True"
+    ],
+    "SkipCondition3": [
+      "CheckMultiplay",
+      "True"
+    ]
+  },
+  {
+    "Index": 20001,
+    "PurchaseIndices": [
+      "20001",
+      " 20002"
+    ],
+    "PopupPriority": 4,
+    "Type": "NovicePackage1_2019",
+    "PopupPrefabName": "NoviceMarketingPopup",
+    "TitleStringKey": "NEWBIE_PROMOTION_POPUP_TITLE",
+    "DescStringKey": "NEWBIE_PROMOTION_POPUP_DESC_2019",
+    "PopupImage": "BMPopup/Img/2019_MAY_BM1_POPUP",
+    "Condition1": [
+      "CompleteDungeon",
+      "1",
+      "5",
+      "True"
+    ],
+    "OpenCondition": "EnterLobby",
+    "RemindMinutes": 1440
+  },
+  {
+    "Index": 30001,
+    "PurchaseIndices": [
+      "30001"
+    ],
+    "PopupPriority": 5,
+    "Type": "RecommendTanker_2019",
+    "PopupPrefabName": "PurchaseMarketingPopup",
+    "TitleStringKey": "NEWBIE_RECOMMEND_TANKER_PACKAGE_POPUP_TITLE",
+    "DescStringKey": "NEWBIE_RECOMMEND_TANKER_PACKAGE_POPUP_DESC",
+    "PopupImage": "BMPopup/Img/NEWBIE_RECOMMEND_TANKER_POPUP",
+    "Condition1": [
+      "CompleteDungeon",
+      "2",
+      "4",
+      "True"
+    ],
+    "OpenCondition": "EndBattleReward",
+    "SkipCondition1": [
+      "AutoNextBattle",
+      "True"
+    ],
+    "SkipCondition2": [
+      "AutoRepeatBattle",
+      "True"
+    ],
+    "SkipCondition3": [
+      "CheckMultiplay",
+      "True"
+    ]
+  },
+  {
+    "Index": 40001,
+    "PurchaseIndices": [
+      "40001"
+    ],
+    "PopupPriority": 6,
+    "Type": "RecommendSupporter_2019",
+    "PopupPrefabName": "PurchaseMarketingPopup",
+    "TitleStringKey": "NEWBIE_RECOMMEND_SURPORTER_PACKAGE_POPUP_TITLE",
+    "DescStringKey": "NEWBIE_RECOMMEND_SURPORTER_PACKAGE_POPUP_DESC",
+    "PopupImage": "BMPopup/Img/NEWBIE_RECOMMEND_SURPORTER_POPUP",
+    "Condition1": [
+      "CompleteDungeon",
+      "4",
+      "4",
+      "True"
+    ],
+    "OpenCondition": "EndBattleReward",
+    "SkipCondition1": [
+      "AutoNextBattle",
+      "True"
+    ],
+    "SkipCondition2": [
+      "AutoRepeatBattle",
+      "True"
+    ],
+    "SkipCondition3": [
+      "CheckMultiplay",
+      "True"
+    ]
+  },
+  {
+    "Index": 50001,
+    "PurchaseIndices": [
+      "50001"
+    ],
+    "PopupPriority": 7,
+    "Type": "RecommendArtifact_2019",
+    "PopupPrefabName": "PurchaseMarketingPopup",
+    "TitleStringKey": "NEWBIE_RECOMMEND_ARTIFACT_POPUP_TITLE",
+    "DescStringKey": "NEWBIE_RECOMMEND_ARTIFACT_POPUP_DESC",
+    "PopupImage": "BMPopup/Img/NEWBIE_RECOMMEND_ARTIFACT_POPUP",
+    "Condition1": [
+      "CompleteDungeon",
+      "5001",
+      "5",
+      "True"
+    ],
+    "OpenCondition": "EndBattleReward",
+    "SkipCondition1": [
+      "AutoNextBattle",
+      "True"
+    ],
+    "SkipCondition2": [
+      "AutoRepeatBattle",
+      "True"
+    ],
+    "SkipCondition3": [
+      "CheckMultiplay",
+      "True"
+    ]
+  },
+  {
+    "Index": 60001,
+    "PurchaseIndices": [
+      "60001",
+      " 60002"
+    ],
+    "PopupPriority": 8,
+    "Type": "NovicePackage2_2019",
+    "PopupPrefabName": "NoviceMarketingPopup",
+    "TitleStringKey": "2019_NEWBIE_PROMOTION_POPUP2_TITLE",
+    "PopupImage": "BMPopup/Img/2019_MAY_BM2_POPUP",
+    "Condition1": [
+      "AnyHeroStar",
+      "5",
+      "True"
+    ],
+    "OpenCondition": "EnterLobby",
+    "RemindMinutes": 1440
+  }
+]

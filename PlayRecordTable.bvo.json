@@ -1,0 +1,682 @@
+[
+  {
+    "Index": 1,
+    "Category": "General",
+    "Title": "PLAY_RECORDS_STARTDATE",
+    "ActionType": "RegisterAccount",
+    "ActionCalculateType": "Set",
+    "ActionValueAttribute": "Date",
+    "DisplayType": "Date"
+  },
+  {
+    "Index": 2,
+    "Category": "General",
+    "Title": "PLAY_RECORDS_TOTAL_LOGIN",
+    "ActionType": "LoginDaily",
+    "ActionCalculateType": "Set",
+    "ActionValueAttribute": "LoginDailyCount",
+    "DisplayType": "Day",
+    "MoveTaskType": "OpenAccumulateLogin",
+    "ButtonLabelText": "PLAYRECORD_REWARD_INFO"
+  },
+  {
+    "Index": 3,
+    "Category": "General",
+    "Title": "PLAY_RECORDS_CONTINUE_LOGIN",
+    "ActionType": "LoginDaily",
+    "ActionCalculateType": "Set",
+    "ActionValueAttribute": "SuccessiveDayCount",
+    "DisplayType": "Day"
+  },
+  {
+    "Index": 4,
+    "Category": "General",
+    "Title": "PLAY_RECORDS_CONTINUE_LOGIN_HIGH",
+    "ActionType": "LoginDaily",
+    "ActionCalculateType": "Max",
+    "ActionValueAttribute": "SuccessiveDayCount",
+    "DisplayType": "Day"
+  },
+  {
+    "Index": 6,
+    "Category": "General",
+    "Title": "PLAY_RECORDS_CHAPTER",
+    "ActionType": "ClearDungeon",
+    "ActionCalculateType": "Max",
+    "ActionValueAttribute": "ChapterIndex",
+    "ConditionKey1": "MainField",
+    "ConditionCompare1": "Equal",
+    "ConditionValue1": [
+      "True"
+    ],
+    "DisplayType": "Chapter"
+  },
+  {
+    "Index": 7,
+    "Category": "General",
+    "Title": "PLAY_RECORDS_COSTUME_AMOUNT",
+    "StateType": "CostumeCount",
+    "StateValue": [
+      "1"
+    ],
+    "DisplayType": "Count",
+    "AppendComma": "True"
+  },
+  {
+    "Index": 11,
+    "Category": "General",
+    "Title": "PLAY_RECORDS_CONSUME_SPECIAL_SUMMON",
+    "ActionType": "ExecEquipGacha",
+    "ActionCalculateType": "Sum",
+    "ActionValueAttribute": "BidCount",
+    "ConditionKey1": "GachaIndex",
+    "ConditionCompare1": "In",
+    "ConditionValue1": [
+      "3",
+      "4"
+    ],
+    "DisplayType": "ActionCount",
+    "AppendComma": "True"
+  },
+  {
+    "Index": 12,
+    "Category": "General",
+    "Title": "PLAY_RECORDS_NORMAL_SUMMON",
+    "ActionType": "ExecEquipGacha",
+    "ActionCalculateType": "Sum",
+    "ActionValueAttribute": "BidCount",
+    "ConditionKey1": "GachaIndex",
+    "ConditionCompare1": "In",
+    "ConditionValue1": [
+      "1",
+      "2"
+    ],
+    "DisplayType": "ActionCount",
+    "AppendComma": "True"
+  },
+  {
+    "Index": 101,
+    "Category": "Hero",
+    "Title": "PLAY_RECORDS_HERO_GET",
+    "StateType": "HeroCountOfStar",
+    "StateValue": [
+      "1"
+    ],
+    "DisplayType": "HeroCount"
+  },
+  {
+    "Index": 102,
+    "Category": "Hero",
+    "Title": "PLAY_RECORDS_HERO_80LEVEL",
+    "StateType": "HeroCountOfLevel",
+    "StateValue": [
+      "80"
+    ],
+    "DisplayType": "HeroCount"
+  },
+  {
+    "Index": 103,
+    "Category": "Hero",
+    "Title": "PLAY_RECORDS_HERO_1TRANS",
+    "StateType": "HeroCountOfTranscended",
+    "StateValue": [
+      "1",
+      "True"
+    ],
+    "DisplayType": "HeroCount"
+  },
+  {
+    "Index": 104,
+    "Category": "Hero",
+    "Title": "PLAY_RECORDS_HERO_2TRANS",
+    "StateType": "HeroCountOfTranscended",
+    "StateValue": [
+      "2",
+      "True"
+    ],
+    "DisplayType": "HeroCount"
+  },
+  {
+    "Index": 105,
+    "Category": "Hero",
+    "Title": "PLAY_RECORDS_HERO_3TRANS",
+    "StateType": "HeroCountOfTranscended",
+    "StateValue": [
+      "3",
+      "True"
+    ],
+    "DisplayType": "HeroCount"
+  },
+  {
+    "Index": 106,
+    "Category": "Hero",
+    "Title": "PLAY_RECORDS_HERO_4TRANS",
+    "StateType": "HeroCountOfTranscended",
+    "StateValue": [
+      "4",
+      "True"
+    ],
+    "DisplayType": "HeroCount"
+  },
+  {
+    "Index": 107,
+    "Category": "Hero",
+    "Title": "PLAY_RECORDS_HERO_5TRANS",
+    "StateType": "HeroCountOfTranscended",
+    "StateValue": [
+      "5",
+      "True"
+    ],
+    "DisplayType": "HeroCount"
+  },
+  {
+    "Index": 108,
+    "Category": "Hero",
+    "Title": "PLAY_RECORDS_HERO_SKILLMASTER",
+    "StateType": "HeroCountOfSkillExtend",
+    "StateValue": [
+      "4"
+    ],
+    "DisplayType": "HeroCount"
+  },
+  {
+    "Index": 201,
+    "Category": "Item",
+    "Title": "PLAY_RECORDS_UNIQUEWEAPON",
+    "ActionType": "AddEquip",
+    "ActionCalculateType": "Sum",
+    "ActionValueAttribute": 1,
+    "ConditionKey1": "PartType",
+    "ConditionCompare1": "Equal",
+    "ConditionValue1": [
+      "Weapon"
+    ],
+    "ConditionKey2": "DetailIndex",
+    "ConditionCompare2": "In",
+    "ConditionValue2": [
+      "90001",
+      "90003"
+    ],
+    "DisplayType": "ActionCount"
+  },
+  {
+    "Index": 203,
+    "Category": "Item",
+    "Title": "PLAY_RECORDS_UNIQUE_WEAPON_STAR",
+    "ActionType": "UpgradeEquipStar",
+    "ActionCalculateType": "Max",
+    "ActionValueAttribute": "NewStar",
+    "ConditionKey1": "PartType",
+    "ConditionCompare1": "Equal",
+    "ConditionValue1": [
+      "Weapon"
+    ],
+    "ConditionKey2": "Success",
+    "ConditionCompare2": "Equal",
+    "ConditionValue2": [
+      "True"
+    ],
+    "ConditionKey3": "DetailIndex",
+    "ConditionCompare3": "In",
+    "ConditionValue3": [
+      "90001",
+      "90003"
+    ],
+    "DisplayType": "EquipStar"
+  },
+  {
+    "Index": 204,
+    "Category": "Item",
+    "Title": "PLAY_RECORDS_ARTIFACT",
+    "ActionType": "AddEquip",
+    "ActionCalculateType": "Sum",
+    "ActionValueAttribute": 1,
+    "ConditionKey1": "PartType",
+    "ConditionCompare1": "Equal",
+    "ConditionValue1": [
+      "Artifact"
+    ],
+    "DisplayType": "ActionCount"
+  },
+  {
+    "Index": 206,
+    "Category": "Item",
+    "Title": "PLAY_RECORDS_ARTIFACT_STAR",
+    "ActionType": "UpgradeEquipStar",
+    "ActionCalculateType": "Max",
+    "ActionValueAttribute": "NewStar",
+    "ConditionKey1": "PartType",
+    "ConditionCompare1": "Equal",
+    "ConditionValue1": [
+      "Artifact"
+    ],
+    "ConditionKey2": "Success",
+    "ConditionCompare2": "Equal",
+    "ConditionValue2": [
+      "True"
+    ],
+    "DisplayType": "EquipStar"
+  },
+  {
+    "Index": 207,
+    "Category": "Item",
+    "Title": "PLAY_RECORDS_LEGACY_AMOUNT",
+    "ActionType": "AddEquip",
+    "ActionCalculateType": "Sum",
+    "ActionValueAttribute": 1,
+    "ConditionKey1": "PartType",
+    "ConditionCompare1": "Equal",
+    "ConditionValue1": [
+      "Treasure"
+    ],
+    "ConditionKey2": "DetailIndex",
+    "ConditionCompare2": "Equal",
+    "ConditionValue2": [
+      "90004"
+    ],
+    "DisplayType": "ActionCount"
+  },
+  {
+    "Index": 209,
+    "Category": "Item",
+    "Title": "PLAY_RECORDS_LEGACY_STAR",
+    "ActionType": "UpgradeEquipStar",
+    "ActionCalculateType": "Max",
+    "ActionValueAttribute": "NewStar",
+    "ConditionKey1": "PartType",
+    "ConditionCompare1": "Equal",
+    "ConditionValue1": [
+      "Treasure"
+    ],
+    "ConditionKey2": "Success",
+    "ConditionCompare2": "Equal",
+    "ConditionValue2": [
+      "True"
+    ],
+    "ConditionKey3": "DetailIndex",
+    "ConditionCompare3": "Equal",
+    "ConditionValue3": [
+      "90004"
+    ],
+    "DisplayType": "EquipStar"
+  },
+  {
+    "Index": 401,
+    "Category": "Arena",
+    "SubCategoryTitle": "PLAY_RECORDS_VICTORY",
+    "Title": "PLAY_RECORDS_ARENA_BEST_SCORE",
+    "ActionType": "EndArena",
+    "ActionCalculateType": "Max",
+    "ActionValueAttribute": "NewMatchScore",
+    "ConditionKey1": "ArenaType",
+    "ConditionCompare1": "Equal",
+    "ConditionValue1": [
+      "Normal"
+    ],
+    "ConditionKey2": "Win",
+    "ConditionCompare2": "Equal",
+    "ConditionValue2": [
+      "True"
+    ],
+    "DisplayType": "Score"
+  },
+  {
+    "Index": 402,
+    "Category": "Arena",
+    "Title": "PLAY_RECORDS_ARENA_BEST_TIER",
+    "StateType": "MaxMatchTierIndex",
+    "StateValue": [
+      "Normal"
+    ],
+    "DisplayType": "ArenaGrade"
+  },
+  {
+    "Index": 403,
+    "Category": "Arena",
+    "Title": "PLAY_RECORDS_ARENA_STREAK",
+    "ActionType": "EndArena",
+    "ActionCalculateType": "Max",
+    "ActionValueAttribute": "SuccessiveWin",
+    "ConditionKey1": "ArenaType",
+    "ConditionCompare1": "Equal",
+    "ConditionValue1": [
+      "Normal"
+    ],
+    "ConditionKey2": "Win",
+    "ConditionCompare2": "Equal",
+    "ConditionValue2": [
+      "True"
+    ],
+    "DisplayType": "WinCount"
+  },
+  {
+    "Index": 404,
+    "Category": "Arena",
+    "Title": "PLAY_RECORD_TOTAL_WIN",
+    "ActionType": "EndArena",
+    "ActionCalculateType": "Sum",
+    "ActionValueAttribute": 1,
+    "ConditionKey1": "ArenaType",
+    "ConditionCompare1": "Equal",
+    "ConditionValue1": [
+      "Normal"
+    ],
+    "ConditionKey2": "Win",
+    "ConditionCompare2": "Equal",
+    "ConditionValue2": [
+      "True"
+    ],
+    "DisplayType": "WinCount"
+  },
+  {
+    "Index": 405,
+    "Category": "Arena",
+    "Title": "PLAY_RECORD_TOTAL_LOSE",
+    "ActionType": "EndArena",
+    "ActionCalculateType": "Sum",
+    "ActionValueAttribute": 1,
+    "ConditionKey1": "ArenaType",
+    "ConditionCompare1": "Equal",
+    "ConditionValue1": [
+      "Normal"
+    ],
+    "ConditionKey2": "Win",
+    "ConditionCompare2": "Equal",
+    "ConditionValue2": [
+      "False"
+    ],
+    "DisplayType": "LoseCount"
+  },
+  {
+    "Index": 602,
+    "Category": "Battle",
+    "Title": "PLAY_RECORDS_EASY_CLEAR",
+    "ActionType": "ClearDungeon",
+    "ActionCalculateType": "Sum",
+    "ActionValueAttribute": 1,
+    "ConditionKey1": "MainField",
+    "ConditionCompare1": "Equal",
+    "ConditionValue1": [
+      "True"
+    ],
+    "ConditionKey2": "DifficultyName",
+    "ConditionCompare2": "Equal",
+    "ConditionValue2": [
+      "Easy"
+    ],
+    "DisplayType": "ActionCount"
+  },
+  {
+    "Index": 603,
+    "Category": "Battle",
+    "Title": "PLAY_RECORDS_NORMAL_CLEAR",
+    "ActionType": "ClearDungeon",
+    "ActionCalculateType": "Sum",
+    "ActionValueAttribute": 1,
+    "ConditionKey1": "MainField",
+    "ConditionCompare1": "Equal",
+    "ConditionValue1": [
+      "True"
+    ],
+    "ConditionKey2": "DifficultyName",
+    "ConditionCompare2": "Equal",
+    "ConditionValue2": [
+      "Normal"
+    ],
+    "DisplayType": "ActionCount"
+  },
+  {
+    "Index": 604,
+    "Category": "Battle",
+    "Title": "PLAY_RECORDS_HARD_CLEAR",
+    "ActionType": "ClearDungeon",
+    "ActionCalculateType": "Sum",
+    "ActionValueAttribute": 1,
+    "ConditionKey1": "MainField",
+    "ConditionCompare1": "Equal",
+    "ConditionValue1": [
+      "True"
+    ],
+    "ConditionKey2": "DifficultyName",
+    "ConditionCompare2": "Equal",
+    "ConditionValue2": [
+      "Hard"
+    ],
+    "DisplayType": "ActionCount"
+  },
+  {
+    "Index": 605,
+    "Category": "Battle",
+    "Title": "PLAY_RECORDS_HELL_CLEAR",
+    "ActionType": "ClearDungeon",
+    "ActionCalculateType": "Sum",
+    "ActionValueAttribute": 1,
+    "ConditionKey1": "MainField",
+    "ConditionCompare1": "Equal",
+    "ConditionValue1": [
+      "True"
+    ],
+    "ConditionKey2": "DifficultyName",
+    "ConditionCompare2": "Equal",
+    "ConditionValue2": [
+      "Hell"
+    ],
+    "DisplayType": "ActionCount"
+  },
+  {
+    "Index": 606,
+    "Category": "Battle",
+    "Title": "PLAY_RECORDS_RAID_RED_CLEAR",
+    "ActionType": "ClearDungeon",
+    "ActionCalculateType": "Sum",
+    "ActionValueAttribute": 1,
+    "ConditionKey1": "RaidIndex",
+    "ConditionCompare1": "Equal",
+    "ConditionValue1": [
+      "1"
+    ],
+    "DisplayType": "ActionCount"
+  },
+  {
+    "Index": 607,
+    "Category": "Battle",
+    "Title": "PLAY_RECORDS_RAID_RED_LEVEL",
+    "ActionType": "ClearDungeon",
+    "ActionCalculateType": "Max",
+    "ActionValueAttribute": "RaidLevel",
+    "ConditionKey1": "RaidIndex",
+    "ConditionCompare1": "Equal",
+    "ConditionValue1": [
+      "1"
+    ],
+    "DisplayType": "RaidBossLevel"
+  },
+  {
+    "Index": 608,
+    "Category": "Battle",
+    "Title": "PLAY_RECORDS_RAID_POISON_CLEAR",
+    "ActionType": "ClearDungeon",
+    "ActionCalculateType": "Sum",
+    "ActionValueAttribute": 1,
+    "ConditionKey1": "RaidIndex",
+    "ConditionCompare1": "Equal",
+    "ConditionValue1": [
+      "3"
+    ],
+    "DisplayType": "ActionCount"
+  },
+  {
+    "Index": 609,
+    "Category": "Battle",
+    "Title": "PLAY_RECORDS_RAID_POISON_LEVEL",
+    "ActionType": "ClearDungeon",
+    "ActionCalculateType": "Max",
+    "ActionValueAttribute": "RaidLevel",
+    "ConditionKey1": "RaidIndex",
+    "ConditionCompare1": "Equal",
+    "ConditionValue1": [
+      "3"
+    ],
+    "DisplayType": "RaidBossLevel"
+  },
+  {
+    "Index": 610,
+    "Category": "Battle",
+    "Title": "PLAY_RECORDS_RAID_FROST_CLEAR",
+    "ActionType": "ClearDungeon",
+    "ActionCalculateType": "Sum",
+    "ActionValueAttribute": 1,
+    "ConditionKey1": "RaidIndex",
+    "ConditionCompare1": "Equal",
+    "ConditionValue1": [
+      "2"
+    ],
+    "DisplayType": "ActionCount"
+  },
+  {
+    "Index": 611,
+    "Category": "Battle",
+    "Title": "PLAY_RECORDS_RAID_FROST_LEVEL",
+    "ActionType": "ClearDungeon",
+    "ActionCalculateType": "Max",
+    "ActionValueAttribute": "RaidLevel",
+    "ConditionKey1": "RaidIndex",
+    "ConditionCompare1": "Equal",
+    "ConditionValue1": [
+      "2"
+    ],
+    "DisplayType": "RaidBossLevel"
+  },
+  {
+    "Index": 612,
+    "Category": "Battle",
+    "Title": "PLAY_RECORDS_RAID_BLACK_CLEAR",
+    "ActionType": "ClearDungeon",
+    "ActionCalculateType": "Sum",
+    "ActionValueAttribute": 1,
+    "ConditionKey1": "RaidIndex",
+    "ConditionCompare1": "Equal",
+    "ConditionValue1": [
+      "4"
+    ],
+    "DisplayType": "ActionCount"
+  },
+  {
+    "Index": 613,
+    "Category": "Battle",
+    "Title": "PLAY_RECORDS_RAID_BLACK_LEVEL",
+    "ActionType": "ClearDungeon",
+    "ActionCalculateType": "Max",
+    "ActionValueAttribute": "RaidLevel",
+    "ConditionKey1": "RaidIndex",
+    "ConditionCompare1": "Equal",
+    "ConditionValue1": [
+      "4"
+    ],
+    "DisplayType": "RaidBossLevel"
+  },
+  {
+    "Index": 614,
+    "Category": "Battle",
+    "Title": "PLAY_RECORDS_RAID_CHALLENGE_CLEAR",
+    "ActionType": "ClearDungeon",
+    "ActionCalculateType": "Sum",
+    "ActionValueAttribute": 1,
+    "ConditionKey1": "RaidIndex",
+    "ConditionCompare1": "In",
+    "ConditionValue1": [
+      "50001",
+      "50002",
+      "50003",
+      "50004",
+      "50005",
+      "50006",
+      "50007"
+    ],
+    "DisplayType": "ActionCount"
+  },
+  {
+    "Index": 619,
+    "Category": "Battle",
+    "Title": "PLAY_RECORDS_CHALLENGE_TOWER_CLEAR",
+    "ActionType": "ClearDungeon",
+    "ActionCalculateType": "Sum",
+    "ActionValueAttribute": 1,
+    "ConditionKey1": "BattleType",
+    "ConditionCompare1": "Equal",
+    "ConditionValue1": [
+      "ChallengeTower"
+    ],
+    "DisplayType": "ActionCount"
+  },
+  {
+    "Index": 620,
+    "Category": "Battle",
+    "Title": "PLAY_RECORDS_CHALLENGE_TOWER_BEST",
+    "ActionType": "ClearDungeon",
+    "ActionCalculateType": "Max",
+    "ActionValueAttribute": "TowerFloor",
+    "ConditionKey1": "TowerIndex",
+    "ConditionCompare1": "Equal",
+    "ConditionValue1": [
+      "21"
+    ],
+    "DisplayType": "Floor"
+  },
+  {
+    "Index": 621,
+    "Category": "Battle",
+    "Title": "PLAY_RECORDS_ROYAL_DUNGEON_CLEAR",
+    "ActionType": "ClearDungeon",
+    "ActionCalculateType": "Sum",
+    "ActionValueAttribute": 1,
+    "ConditionKey1": "BattleType",
+    "ConditionCompare1": "Equal",
+    "ConditionValue1": [
+      "Labyrinth"
+    ],
+    "DisplayType": "ActionCount"
+  },
+  {
+    "Index": 622,
+    "Category": "Battle",
+    "Title": "PLAY_RECORDS_ROYAL_DUNGEON_BEST",
+    "ActionType": "ClearDungeon",
+    "ActionCalculateType": "Max",
+    "ActionValueAttribute": "TowerFloor",
+    "ConditionKey1": "TowerIndex",
+    "ConditionCompare1": "Equal",
+    "ConditionValue1": [
+      "999"
+    ],
+    "DisplayType": "Floor"
+  },
+  {
+    "Index": 623,
+    "Category": "Battle",
+    "Title": "ROYAL_DUNGEON_ORDEAL_TOWER_CLEAR",
+    "ActionType": "ClearDungeon",
+    "ActionCalculateType": "Sum",
+    "ActionValueAttribute": 1,
+    "ConditionKey1": "BattleType",
+    "ConditionCompare1": "Equal",
+    "ConditionValue1": [
+      "OrdealTower"
+    ],
+    "DisplayType": "ActionCount"
+  },
+  {
+    "Index": 625,
+    "Category": "Battle",
+    "Title": "ROYAL_DUNGEON_UNDERGROUND_CLEAR",
+    "ActionType": "ClearDungeon",
+    "ActionCalculateType": "Sum",
+    "ActionValueAttribute": 1,
+    "ConditionKey1": "BattleType",
+    "ConditionCompare1": "Equal",
+    "ConditionValue1": [
+      "Prison"
+    ],
+    "DisplayType": "ActionCount"
+  }
+]

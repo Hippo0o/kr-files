@@ -1,0 +1,3018 @@
+[
+  {
+    "Code": "Square",
+    "OnOpenEntryMenu": [
+      "INN_CASSANDRA_GREETING02",
+      " InnReaction.Requina01",
+      " InnReaction",
+      "\nINN_REQUINA_CONNECT_GREETING_MAX",
+      " InnReaction.Requina01",
+      " InnReaction"
+    ],
+    "OnTouch": [
+      "INN_REQUINA_GREETING01",
+      " InnReaction.Requina01",
+      " InnReaction",
+      "\nINN_OPHELIA_GREETING02",
+      " InnReaction.Requina01",
+      " InnReaction"
+    ],
+    "EntryMenuButton1": [
+      "MENU_USE_SHOP",
+      "OpenShop",
+      "ChildrensRainbowShop"
+    ],
+    "EntryMenuCondition1": "EventExist,EventShop,ChildrensRainbowShop",
+    "EntryMenuButton2": [
+      "HALLOWEEN_DUNGEON",
+      "OpenEventDungeon",
+      "30003",
+      "1"
+    ],
+    "EntryMenuCondition2": "EventExist,EventDungeon,30003",
+    "CreatureIndex": 40016,
+    "NpcOffset": [
+      "-80",
+      "50"
+    ],
+    "NpcAngle": -50,
+    "NpcScale": 110,
+    "MenuIconType": "Square",
+    "MenuTitleKey": "SQUARE_NAME_NORMAL_SUB"
+  },
+  {
+    "Code": "Square1",
+    "OnOpenEntryMenu": [
+      "NPC_SOULGEMSHOP_WELCOME04",
+      " NPC.SoulGemShop.Welcome04",
+      " Buy",
+      " \nNPC_SOULGEMSHOP_WELCOME05",
+      " NPC.SoulGemShop.Welcome05",
+      " Buy",
+      " \nNPC_SOULGEMSHOP_WELCOME06",
+      " NPC.SoulGemShop.Welcome06",
+      " Buy"
+    ],
+    "OnTouch": [
+      "NPC_SOULGEMSHOP_TOUCH07",
+      " NPC.SoulGemShop.Touch07",
+      " Touch",
+      " \nNPC_SOULGEMSHOP_TOUCH08",
+      " NPC.SoulGemShop.Touch08",
+      " Touch",
+      " \nNPC_SOULGEMSHOP_TOUCH09",
+      " NPC.SoulGemShop.Touch09",
+      " Touch",
+      " \nNPC_SOULGEMSHOP_TOUCH10",
+      " NPC.SoulGemShop.Touch10",
+      " Touch",
+      " \nNPC_SOULGEMSHOP_TOUCH11",
+      " NPC.SoulGemShop.Touch11",
+      " Touch",
+      " \nNPC_SOULGEMSHOP_TOUCH12",
+      " NPC.SoulGemShop.Touch12",
+      " Touch"
+    ],
+    "CreatureIndex": 805,
+    "NpcOffset": [
+      "-80",
+      "50"
+    ],
+    "NpcAngle": -50,
+    "NpcScale": 120,
+    "MenuIconType": "Square1",
+    "MenuTitleKey": "SQUARE_NAME_NORMAL_SUB"
+  },
+  {
+    "Code": "Square2",
+    "OnOpenEntryMenu": [
+      "NPC_SOULGEMSHOP_WELCOME04",
+      " NPC.SoulGemShop.Welcome04",
+      " Buy",
+      " \nNPC_SOULGEMSHOP_WELCOME05",
+      " NPC.SoulGemShop.Welcome05",
+      " Buy",
+      " \nNPC_SOULGEMSHOP_WELCOME06",
+      " NPC.SoulGemShop.Welcome06",
+      " Buy"
+    ],
+    "OnTouch": [
+      "NPC_SOULGEMSHOP_TOUCH07",
+      " NPC.SoulGemShop.Touch07",
+      " Touch",
+      " \nNPC_SOULGEMSHOP_TOUCH08",
+      " NPC.SoulGemShop.Touch08",
+      " Touch",
+      " \nNPC_SOULGEMSHOP_TOUCH09",
+      " NPC.SoulGemShop.Touch09",
+      " Touch",
+      " \nNPC_SOULGEMSHOP_TOUCH10",
+      " NPC.SoulGemShop.Touch10",
+      " Touch",
+      " \nNPC_SOULGEMSHOP_TOUCH11",
+      " NPC.SoulGemShop.Touch11",
+      " Touch",
+      " \nNPC_SOULGEMSHOP_TOUCH12",
+      " NPC.SoulGemShop.Touch12",
+      " Touch"
+    ],
+    "EntryMenuButton1": [
+      "CHRISTMAS_DUNGEON",
+      "OpenEventDungeon",
+      "30002",
+      "1"
+    ],
+    "EntryMenuCondition1": "EventExist,EventDungeon,30002",
+    "EntryMenuButton2": [
+      "MENU_USE_SHOP_CHRISTMAS",
+      "OpenShop",
+      "ChristmasShop"
+    ],
+    "EntryMenuCondition2": "EventExist,EventShop,ChristmasShop",
+    "EntryMenuButton3": [
+      "MENU_USE_HELP_CHRISTMAS",
+      "OpenHelp",
+      "HELP_CHRISTMAS_EVENT_TITLE",
+      "HELP_CHRISTMAS_EVENT_CONTENT"
+    ],
+    "EntryMenuCondition3": "EventExist,EventShop,ChristmasShop",
+    "CreatureIndex": 805,
+    "NpcOffset": [
+      "-80",
+      "50"
+    ],
+    "NpcAngle": -50,
+    "NpcScale": 120,
+    "MenuIconType": "Square2",
+    "MenuTitleKey": "SQUARE_NAME_NORMAL_SUB"
+  },
+  {
+    "Code": "Square3",
+    "OnOpenEntryMenu": [
+      "NPC_SOULGEMSHOP_WELCOME04",
+      " NPC.SoulGemShop.Welcome04",
+      " Buy",
+      " \nNPC_SOULGEMSHOP_WELCOME05",
+      " NPC.SoulGemShop.Welcome05",
+      " Buy",
+      " \nNPC_SOULGEMSHOP_WELCOME06",
+      " NPC.SoulGemShop.Welcome06",
+      " Buy"
+    ],
+    "OnTouch": [
+      "NPC_SOULGEMSHOP_TOUCH07",
+      " NPC.SoulGemShop.Touch07",
+      " Touch",
+      " \nNPC_SOULGEMSHOP_TOUCH08",
+      " NPC.SoulGemShop.Touch08",
+      " Touch",
+      " \nNPC_SOULGEMSHOP_TOUCH09",
+      " NPC.SoulGemShop.Touch09",
+      " Touch",
+      " \nNPC_SOULGEMSHOP_TOUCH10",
+      " NPC.SoulGemShop.Touch10",
+      " Touch",
+      " \nNPC_SOULGEMSHOP_TOUCH11",
+      " NPC.SoulGemShop.Touch11",
+      " Touch",
+      " \nNPC_SOULGEMSHOP_TOUCH12",
+      " NPC.SoulGemShop.Touch12",
+      " Touch"
+    ],
+    "EntryMenuButton1": [
+      "HALLOWEEN_DUNGEON",
+      "OpenEventDungeon",
+      "30010",
+      "1"
+    ],
+    "EntryMenuCondition1": "EventExist,EventDungeon,30010",
+    "EntryMenuButton2": [
+      "MENU_USE_SHOP_HALLOWEEN",
+      "OpenShop",
+      "2018_Halloween_Shop"
+    ],
+    "EntryMenuCondition2": "EventExist,EventShop,2018_Halloween_Shop",
+    "CreatureIndex": 805,
+    "NpcOffset": [
+      "-80",
+      "50"
+    ],
+    "NpcAngle": -50,
+    "NpcScale": 120,
+    "MenuIconType": "2018_halloween_title",
+    "MenuTitleKey": "SQUARE_NAME_NORMAL_SUB"
+  },
+  {
+    "Code": "Square_Summer",
+    "OnOpenEntryMenu": [
+      "NPC_TALISHA_WELCOME01",
+      " NPC.SoulGemShop.Welcome04",
+      " Buy",
+      " \nNPC_TALISHA_WELCOME02",
+      " NPC.SoulGemShop.Welcome05",
+      " Buy"
+    ],
+    "OnTouch": [
+      "NPC_TALISHA_TOUCH01",
+      " NPC.SoulGemShop.Touch07",
+      " Touch",
+      " \nNPC_TALISHA_TOUCH02",
+      " NPC.SoulGemShop.Touch08",
+      " Touch"
+    ],
+    "EntryMenuButton1": [
+      "SUMMER_DUNGEON",
+      "OpenEventDungeon",
+      "30003",
+      "1"
+    ],
+    "EntryMenuCondition1": "EventExist,EventDungeon,30003",
+    "EntryMenuButton2": [
+      "MENU_USE_SHOP_SUMMER",
+      "OpenShop",
+      "SummerShop"
+    ],
+    "EntryMenuCondition2": "EventExist,EventShop,SummerShop",
+    "EntryMenuButton3": [
+      "MENU_USE_HELP_SUMMER",
+      "OpenHelp",
+      "HELP_SUMMER_EVENT_TITLE",
+      "HELP_SUMMER_EVENT_CONTENT"
+    ],
+    "EntryMenuCondition3": "EventExist,EventShop,SummerShop",
+    "CreatureIndex": 805,
+    "NpcOffset": [
+      "-80",
+      "50"
+    ],
+    "NpcAngle": -50,
+    "NpcScale": 120,
+    "MenuIconType": "Square_Summer",
+    "MenuTitleKey": "SQUARE_NAME_NORMAL_SUB"
+  },
+  {
+    "Code": "Square_SideQuest_Gold",
+    "OnOpenEntryMenu": [
+      "NPC_TALISHA_WELCOME03",
+      " NPC.SoulGemShop.Welcome04",
+      " Buy",
+      " \nNPC_TALISHA_WELCOME03",
+      " NPC.SoulGemShop.Welcome04",
+      " Buy"
+    ],
+    "OnTouch": [
+      "NPC_TALISHA_TOUCH03",
+      " NPC.SoulGemShop.Touch07",
+      " Touch",
+      " \nNPC_TALISHA_TOUCH03",
+      " NPC.SoulGemShop.Touch07",
+      " Touch"
+    ],
+    "EntryMenuButton1": [
+      "SQUARE_SIDEQUEST_NAME_GOLD",
+      "OpenEventDungeon",
+      "40001",
+      "1",
+      "true"
+    ],
+    "EntryMenuCondition1": "EventExist,EventDungeon,40001",
+    "EntryMenuButton2": [
+      "SQUARE_SIDEQUEST_INFO_TITLE",
+      "OpenHelp",
+      "SQUARE_SIDEQUEST_INFO_SUBTITLE_GOLD",
+      "SQUARE_SIDEQUEST_DESC_GOLD"
+    ],
+    "EntryMenuCondition2": "EventExist,EventDungeon,40001",
+    "CreatureIndex": 805,
+    "NpcOffset": [
+      "-80",
+      "50"
+    ],
+    "NpcAngle": -50,
+    "NpcScale": 120,
+    "MenuIconType": "Square_SideQuest",
+    "MenuTitleKey": "SQUARE_NAME_NORMAL_SUB"
+  },
+  {
+    "Code": "Square_SideQuest_EXP",
+    "OnOpenEntryMenu": [
+      "NPC_TALISHA_WELCOME03",
+      " NPC.SoulGemShop.Welcome04",
+      " Buy",
+      " \nNPC_TALISHA_WELCOME03",
+      " NPC.SoulGemShop.Welcome04",
+      " Buy"
+    ],
+    "OnTouch": [
+      "NPC_TALISHA_TOUCH03",
+      " NPC.SoulGemShop.Touch07",
+      " Touch",
+      " \nNPC_TALISHA_TOUCH03",
+      " NPC.SoulGemShop.Touch07",
+      " Touch"
+    ],
+    "EntryMenuButton1": [
+      "SQUARE_SIDEQUEST_NAME_EXP",
+      "OpenEventDungeon",
+      "40002",
+      "1",
+      "true"
+    ],
+    "EntryMenuCondition1": "EventExist,EventDungeon,40002",
+    "EntryMenuButton2": [
+      "SQUARE_SIDEQUEST_INFO_TITLE",
+      "OpenHelp",
+      "SQUARE_SIDEQUEST_INFO_SUBTITLE_EXP",
+      "SQUARE_SIDEQUEST_DESC_EXP"
+    ],
+    "EntryMenuCondition2": "EventExist,EventDungeon,40002",
+    "CreatureIndex": 805,
+    "NpcOffset": [
+      "-80",
+      "50"
+    ],
+    "NpcAngle": -50,
+    "NpcScale": 120,
+    "MenuIconType": "Square_SideQuest",
+    "MenuTitleKey": "SQUARE_NAME_NORMAL_SUB"
+  },
+  {
+    "Code": "Square_SideQuest_Powder",
+    "OnOpenEntryMenu": [
+      "NPC_TALISHA_WELCOME03",
+      " NPC.SoulGemShop.Welcome04",
+      " Buy",
+      " \nNPC_TALISHA_WELCOME03",
+      " NPC.SoulGemShop.Welcome04",
+      " Buy"
+    ],
+    "OnTouch": [
+      "NPC_TALISHA_TOUCH03",
+      " NPC.SoulGemShop.Touch07",
+      " Touch",
+      " \nNPC_TALISHA_TOUCH03",
+      " NPC.SoulGemShop.Touch07",
+      " Touch"
+    ],
+    "EntryMenuButton1": [
+      "SQUARE_SIDEQUEST_NAME_POWDER",
+      "OpenEventDungeon",
+      "40003",
+      "1",
+      "true"
+    ],
+    "EntryMenuCondition1": "EventExist,EventDungeon,40003",
+    "EntryMenuButton2": [
+      "SQUARE_SIDEQUEST_INFO_TITLE",
+      "OpenHelp",
+      "SQUARE_SIDEQUEST_INFO_SUBTITLE_POWDER",
+      "SQUARE_SIDEQUEST_DESC_POWDER"
+    ],
+    "EntryMenuCondition2": "EventExist,EventDungeon,40003",
+    "CreatureIndex": 805,
+    "NpcOffset": [
+      "-80",
+      "50"
+    ],
+    "NpcAngle": -50,
+    "NpcScale": 120,
+    "MenuIconType": "Square_SideQuest",
+    "MenuTitleKey": "SQUARE_NAME_NORMAL_SUB"
+  },
+  {
+    "Code": "Square_SideQuest_Rune",
+    "OnOpenEntryMenu": [
+      "NPC_TALISHA_WELCOME03",
+      " NPC.SoulGemShop.Welcome04",
+      " Buy",
+      " \nNPC_TALISHA_WELCOME03",
+      " NPC.SoulGemShop.Welcome04",
+      " Buy"
+    ],
+    "OnTouch": [
+      "NPC_TALISHA_TOUCH03",
+      " NPC.SoulGemShop.Touch07",
+      " Touch",
+      " \nNPC_TALISHA_TOUCH03",
+      " NPC.SoulGemShop.Touch07",
+      " Touch"
+    ],
+    "EntryMenuButton1": [
+      "SQUARE_SIDEQUEST_NAME_RUNE",
+      "OpenEventDungeon",
+      "40004",
+      "1",
+      "true"
+    ],
+    "EntryMenuCondition1": "EventExist,EventDungeon,40004",
+    "EntryMenuButton2": [
+      "SQUARE_SIDEQUEST_INFO_TITLE",
+      "OpenHelp",
+      "SQUARE_SIDEQUEST_INFO_SUBTITLE_RUNE",
+      "SQUARE_SIDEQUEST_DESC_RUNE"
+    ],
+    "EntryMenuCondition2": "EventExist,EventDungeon,40004",
+    "CreatureIndex": 805,
+    "NpcOffset": [
+      "-80",
+      "50"
+    ],
+    "NpcAngle": -50,
+    "NpcScale": 120,
+    "MenuIconType": "Square_SideQuest",
+    "MenuTitleKey": "SQUARE_NAME_NORMAL_SUB"
+  },
+  {
+    "Code": "Square_SideQuest_Fragment",
+    "OnOpenEntryMenu": [
+      "NPC_TALISHA_WELCOME03",
+      " NPC.SoulGemShop.Welcome04",
+      " Buy",
+      " \nNPC_TALISHA_WELCOME03",
+      " NPC.SoulGemShop.Welcome04",
+      " Buy"
+    ],
+    "OnTouch": [
+      "NPC_TALISHA_TOUCH03",
+      " NPC.SoulGemShop.Touch07",
+      " Touch",
+      " \nNPC_TALISHA_TOUCH03",
+      " NPC.SoulGemShop.Touch07",
+      " Touch"
+    ],
+    "EntryMenuButton1": [
+      "SQUARE_SIDEQUEST_NAME_FRAGMENT",
+      "OpenEventDungeon",
+      "40005",
+      "1",
+      "true"
+    ],
+    "EntryMenuCondition1": "EventExist,EventDungeon,40005",
+    "EntryMenuButton2": [
+      "SQUARE_SIDEQUEST_INFO_TITLE",
+      "OpenHelp",
+      "SQUARE_SIDEQUEST_INFO_SUBTITLE_FRAGMENT",
+      "SQUARE_SIDEQUEST_DESC_FRAGMENT"
+    ],
+    "EntryMenuCondition2": "EventExist,EventDungeon,40005",
+    "CreatureIndex": 805,
+    "NpcOffset": [
+      "-80",
+      "50"
+    ],
+    "NpcAngle": -50,
+    "NpcScale": 120,
+    "MenuIconType": "Square_SideQuest",
+    "MenuTitleKey": "SQUARE_NAME_NORMAL_SUB"
+  },
+  {
+    "Code": "Square_Thanksgiving",
+    "HeroIndex": 805,
+    "OnOpenEntryMenu": [
+      "NPC_SOULGEMSHOP_WELCOME04",
+      " NPC.SoulGemShop.Welcome04",
+      " Buy",
+      " \nNPC_SOULGEMSHOP_WELCOME05",
+      " NPC.SoulGemShop.Welcome05",
+      " Buy",
+      " \nNPC_SOULGEMSHOP_WELCOME06",
+      " NPC.SoulGemShop.Welcome06",
+      " Buy"
+    ],
+    "OnTouch": [
+      "NPC_SOULGEMSHOP_TOUCH07",
+      " NPC.SoulGemShop.Touch07",
+      " Touch",
+      " \nNPC_SOULGEMSHOP_TOUCH08",
+      " NPC.SoulGemShop.Touch08",
+      " Touch",
+      " \nNPC_SOULGEMSHOP_TOUCH09",
+      " NPC.SoulGemShop.Touch09",
+      " Touch",
+      " \nNPC_SOULGEMSHOP_TOUCH10",
+      " NPC.SoulGemShop.Touch10",
+      " Touch",
+      " \nNPC_SOULGEMSHOP_TOUCH11",
+      " NPC.SoulGemShop.Touch11",
+      " Touch",
+      " \nNPC_SOULGEMSHOP_TOUCH12",
+      " NPC.SoulGemShop.Touch12",
+      " Touch"
+    ],
+    "EntryMenuButton1": [
+      "MENU_NPC_FOOD",
+      "OpenNPCRecruiteView",
+      "",
+      "Event"
+    ],
+    "EntryMenuCondition1": "EventExist,EventShop,ThanksgivingShop",
+    "EntryMenuButton2": [
+      "HELP_THANKSGIVING_EVENT_TITLE",
+      "OpenHelp",
+      "HELP_THANKSGIVING_EVENT_TITLE",
+      "HELP_THANKSGIVING_EVENT_DESC"
+    ],
+    "EntryMenuCondition2": "EventExist,EventShop,ThanksgivingShop",
+    "EntryMenuButton3": [
+      "SQUARE_SIDEQUEST_NAME_EXP",
+      "OpenEventDungeon",
+      "40002",
+      "1",
+      "true"
+    ],
+    "EntryMenuCondition3": "EventExist,EventDungeon,40002",
+    "EntryMenuButton4": [
+      "SQUARE_SIDEQUEST_INFO_TITLE",
+      "OpenHelp",
+      "SQUARE_SIDEQUEST_INFO_SUBTITLE_EXP",
+      "SQUARE_SIDEQUEST_DESC_EXP"
+    ],
+    "EntryMenuCondition4": "EventExist,EventDungeon,40002",
+    "CreatureIndex": 805,
+    "NpcOffset": [
+      "-80",
+      "50"
+    ],
+    "NpcAngle": -50,
+    "NpcScale": 120,
+    "MenuIconType": "Square_Thanksgiving",
+    "MenuTitleKey": "SQUARE_NAME_NORMAL_SUB"
+  },
+  {
+    "Code": "Square_Cristmas_2018_1",
+    "OnOpenEntryMenu": [
+      "NPC_SOULGEMSHOP_WELCOME04",
+      " NPC.SoulGemShop.Welcome04",
+      " Buy",
+      " \nNPC_SOULGEMSHOP_WELCOME05",
+      " NPC.SoulGemShop.Welcome05",
+      " Buy",
+      " \nNPC_SOULGEMSHOP_WELCOME06",
+      " NPC.SoulGemShop.Welcome06",
+      " Buy"
+    ],
+    "OnTouch": [
+      "NPC_SOULGEMSHOP_TOUCH07",
+      " NPC.SoulGemShop.Touch07",
+      " Touch",
+      " \nNPC_SOULGEMSHOP_TOUCH08",
+      " NPC.SoulGemShop.Touch08",
+      " Touch",
+      " \nNPC_SOULGEMSHOP_TOUCH09",
+      " NPC.SoulGemShop.Touch09",
+      " Touch",
+      " \nNPC_SOULGEMSHOP_TOUCH10",
+      " NPC.SoulGemShop.Touch10",
+      " Touch",
+      " \nNPC_SOULGEMSHOP_TOUCH11",
+      " NPC.SoulGemShop.Touch11",
+      " Touch",
+      " \nNPC_SOULGEMSHOP_TOUCH12",
+      " NPC.SoulGemShop.Touch12",
+      " Touch"
+    ],
+    "EntryMenuButton1": [
+      "CHRISTMAS_DUNGEON",
+      "OpenEventDungeon",
+      "30020",
+      "1"
+    ],
+    "EntryMenuCondition1": "EventExist,EventDungeon,30020",
+    "EntryMenuButton2": [
+      "MENU_USE_DECO",
+      "OpenNPCGiftView",
+      "EventChristmas",
+      "EVENT_CHRISTMAS_2017",
+      "40045"
+    ],
+    "EntryMenuCondition2": "EventExist,EventShop,ChristmasShop",
+    "EntryMenuButton3": [
+      "MENU_USE_HELP_CHRISTMAS",
+      "OpenHelpList",
+      "EVENT_CHRISTMAS_2017"
+    ],
+    "EntryMenuCondition3": "EventExist,EventShop,ChristmasShop",
+    "CreatureIndex": 805,
+    "NpcOffset": [
+      "-80",
+      "50"
+    ],
+    "NpcAngle": -50,
+    "NpcScale": 120,
+    "MenuIconType": "Square_Christmas_2018",
+    "MenuTitleKey": "SQUARE_NAME_NORMAL_SUB"
+  },
+  {
+    "Code": "Square_Christmas_2018_2",
+    "OnOpenEntryMenu": [
+      "NPC_SOULGEMSHOP_WELCOME04",
+      " NPC.SoulGemShop.Welcome04",
+      " Buy",
+      " \nNPC_SOULGEMSHOP_WELCOME05",
+      " NPC.SoulGemShop.Welcome05",
+      " Buy",
+      " \nNPC_SOULGEMSHOP_WELCOME06",
+      " NPC.SoulGemShop.Welcome06",
+      " Buy"
+    ],
+    "OnTouch": [
+      "NPC_SOULGEMSHOP_TOUCH07",
+      " NPC.SoulGemShop.Touch07",
+      " Touch",
+      " \nNPC_SOULGEMSHOP_TOUCH08",
+      " NPC.SoulGemShop.Touch08",
+      " Touch",
+      " \nNPC_SOULGEMSHOP_TOUCH09",
+      " NPC.SoulGemShop.Touch09",
+      " Touch",
+      " \nNPC_SOULGEMSHOP_TOUCH10",
+      " NPC.SoulGemShop.Touch10",
+      " Touch",
+      " \nNPC_SOULGEMSHOP_TOUCH11",
+      " NPC.SoulGemShop.Touch11",
+      " Touch",
+      " \nNPC_SOULGEMSHOP_TOUCH12",
+      " NPC.SoulGemShop.Touch12",
+      " Touch"
+    ],
+    "EntryMenuButton1": [
+      "CHRISTMAS_DUNGEON",
+      "OpenEventDungeon",
+      "30021",
+      "1"
+    ],
+    "EntryMenuCondition1": "EventExist,EventDungeon,30021",
+    "EntryMenuButton2": [
+      "MENU_USE_DECO",
+      "OpenNPCGiftView",
+      "EventChristmas",
+      "EVENT_CHRISTMAS_2017",
+      "40046"
+    ],
+    "EntryMenuCondition2": "EventExist,EventShop,ChristmasShop",
+    "EntryMenuButton3": [
+      "MENU_USE_HELP_CHRISTMAS",
+      "OpenHelpList",
+      "EVENT_CHRISTMAS_2017"
+    ],
+    "EntryMenuCondition3": "EventExist,EventShop,ChristmasShop",
+    "CreatureIndex": 805,
+    "NpcOffset": [
+      "-80",
+      "50"
+    ],
+    "NpcAngle": -50,
+    "NpcScale": 120,
+    "MenuIconType": "Event_Christmas_Button_2018",
+    "MenuTitleKey": "SQUARE_NAME_NORMAL_SUB"
+  },
+  {
+    "Code": "Square_SideQuest_Double",
+    "OnOpenEntryMenu": [
+      "NPC_TALISHA_WELCOME03",
+      " NPC.SoulGemShop.Welcome04",
+      " Buy",
+      " \nNPC_TALISHA_WELCOME03",
+      " NPC.SoulGemShop.Welcome04",
+      " Buy"
+    ],
+    "OnTouch": [
+      "NPC_TALISHA_TOUCH03",
+      " NPC.SoulGemShop.Touch07",
+      " Touch",
+      " \nNPC_TALISHA_TOUCH03",
+      " NPC.SoulGemShop.Touch07",
+      " Touch"
+    ],
+    "EntryMenuButton1": [
+      "SQUARE_SIDEQUEST_NAME_POWDER",
+      "OpenEventDungeon",
+      "40003",
+      "1",
+      "true"
+    ],
+    "EntryMenuCondition1": "EventExist,EventDungeon,40003",
+    "EntryMenuButton2": [
+      "SQUARE_SIDEQUEST_INFO_TITLE_POWDER",
+      "OpenHelp",
+      "SQUARE_SIDEQUEST_INFO_SUBTITLE_POWDER",
+      "SQUARE_SIDEQUEST_DESC_POWDER"
+    ],
+    "EntryMenuCondition2": "EventExist,EventDungeon,40003",
+    "EntryMenuButton3": [
+      "SQUARE_SIDEQUEST_NAME_RUNE",
+      "OpenEventDungeon",
+      "40004",
+      "1",
+      "true"
+    ],
+    "EntryMenuCondition3": "EventExist,EventDungeon,40004",
+    "EntryMenuButton4": [
+      "SQUARE_SIDEQUEST_INFO_TITLE_RUNE",
+      "OpenHelp",
+      "SQUARE_SIDEQUEST_INFO_SUBTITLE_RUNE",
+      "SQUARE_SIDEQUEST_DESC_RUNE"
+    ],
+    "EntryMenuCondition4": "EventExist,EventDungeon,40004",
+    "CreatureIndex": 805,
+    "NpcOffset": [
+      "-80",
+      "50"
+    ],
+    "NpcAngle": -50,
+    "NpcScale": 120,
+    "MenuIconType": "Square_SideQuest",
+    "MenuTitleKey": "SQUARE_NAME_NORMAL_SUB"
+  },
+  {
+    "Code": "NormalShop",
+    "HeroIndex": 90,
+    "ShowHeroBuffIcon": "True",
+    "OnOpenEntryMenu": [
+      "NPC_NORMALSHOP_WELCOME01",
+      " NPC.NormalShop.Welcome01",
+      " Buy",
+      " \nNPC_NORMALSHOP_WELCOME02",
+      " NPC.NormalShop.Welcome02",
+      " Buy",
+      " \nNPC_NORMALSHOP_WELCOME03",
+      " NPC.NormalShop.Welcome03",
+      " Buy"
+    ],
+    "OnTouch": [
+      "NPC_NORMALSHOP_TOUCH01",
+      " NPC.NormalShop.Touch01",
+      " Touch",
+      " \nNPC_NORMALSHOP_TOUCH02",
+      " NPC.NormalShop.Touch02",
+      " Touch",
+      " \nNPC_NORMALSHOP_TOUCH03",
+      " NPC.NormalShop.Touch03",
+      " Touch",
+      " \nNPC_NORMALSHOP_TOUCH04",
+      " NPC.NormalShop.Touch04",
+      " Touch",
+      " \nNPC_NORMALSHOP_TOUCH05",
+      " NPC.NormalShop.Touch05",
+      " Touch",
+      " \nNPC_NORMALSHOP_TOUCH06",
+      " NPC.NormalShop.Touch06",
+      " Touch"
+    ],
+    "EntryMenuButton1": [
+      "MENU_USE_SHOP",
+      "OpenShop",
+      "Normal"
+    ],
+    "BottomEntryMenuButton1": [
+      "MENU_NPC_GIFT",
+      "OpenNPCRecruiteView",
+      "GiftButton",
+      "Recruit"
+    ],
+    "CreatureIndex": 801,
+    "NpcOffset": [
+      "-80",
+      "50"
+    ],
+    "NpcAngle": -50,
+    "NpcScale": 120,
+    "MenuIconType": "Shop",
+    "MenuTitleKey": "SHOP_NAME_NORMAL_SUB"
+  },
+  {
+    "Code": "NormalShop_Holloween",
+    "HeroIndex": 90,
+    "ShowHeroBuffIcon": "True",
+    "OnOpenEntryMenu": [
+      "NPC_NORMALSHOP_WELCOME01",
+      " NPC.NormalShop.Welcome01",
+      " Buy",
+      " \nNPC_NORMALSHOP_WELCOME02",
+      " NPC.NormalShop.Welcome02",
+      " Buy",
+      " \nNPC_NORMALSHOP_WELCOME03",
+      " NPC.NormalShop.Welcome03",
+      " Buy"
+    ],
+    "OnTouch": [
+      "NPC_NORMALSHOP_TOUCH01",
+      " NPC.NormalShop.Touch01",
+      " Touch",
+      " \nNPC_NORMALSHOP_TOUCH02",
+      " NPC.NormalShop.Touch02",
+      " Touch",
+      " \nNPC_NORMALSHOP_TOUCH03",
+      " NPC.NormalShop.Touch03",
+      " Touch",
+      " \nNPC_NORMALSHOP_TOUCH04",
+      " NPC.NormalShop.Touch04",
+      " Touch",
+      " \nNPC_NORMALSHOP_TOUCH05",
+      " NPC.NormalShop.Touch05",
+      " Touch",
+      " \nNPC_NORMALSHOP_TOUCH06",
+      " NPC.NormalShop.Touch06",
+      " Touch"
+    ],
+    "EntryMenuButton1": [
+      "MENU_USE_SHOP",
+      "OpenShop",
+      "Normal"
+    ],
+    "EntryMenuButton2": [
+      "HALLOWEEN_DUNGEON",
+      "OpenEventDungeon",
+      "30001",
+      "1"
+    ],
+    "EntryMenuCondition2": "EventExist,EventDungeon,30001",
+    "EntryMenuButton3": [
+      "MENU_USE_SHOP_HALLOWEEN",
+      "OpenShop",
+      "HalloweenShop"
+    ],
+    "EntryMenuCondition3": "EventExist,EventShop,HalloweenShop",
+    "BottomEntryMenuButton1": [
+      "MENU_NPC_GIFT",
+      "OpenNPCRecruiteView",
+      "GiftButton",
+      "Recruit"
+    ],
+    "CreatureIndex": 801,
+    "NpcOffset": [
+      "-80",
+      "50"
+    ],
+    "NpcAngle": -50,
+    "NpcScale": 120,
+    "MenuIconType": "Shop",
+    "MenuTitleKey": "SHOP_NAME_NORMAL_SUB"
+  },
+  {
+    "Code": "ArenaShop",
+    "HeroIndex": 91,
+    "ShowHeroBuffIcon": "True",
+    "OnOpenEntryMenu": [
+      "NPC_ARENASHOP_WELCOME01",
+      " NPC.ArenaShop.Welcome01",
+      " Buy",
+      " \nNPC_ARENASHOP_WELCOME02",
+      " NPC.ArenaShop.Welcome02",
+      " Buy",
+      " \nNPC_ARENASHOP_WELCOME03",
+      " NPC.ArenaShop.Welcome03",
+      " Buy"
+    ],
+    "OnTouch": [
+      "NPC_ARENASHOP_TOUCH01",
+      " NPC.ArenaShop.Touch01",
+      " Touch",
+      " \nNPC_ARENASHOP_TOUCH02",
+      " NPC.ArenaShop.Touch02",
+      " Touch",
+      " \nNPC_ARENASHOP_TOUCH03",
+      " NPC.ArenaShop.Touch03",
+      " Touch",
+      " \nNPC_ARENASHOP_TOUCH04",
+      " NPC.ArenaShop.Touch04",
+      " Touch"
+    ],
+    "EntryMenuButton1": [
+      "MATCH_SELECT",
+      "SelectArena"
+    ],
+    "EntryMenuButton2": [
+      "MENU_USE_SHOP_PVP1",
+      "OpenShop",
+      "Arena"
+    ],
+    "EntryMenuButton3": [
+      "MENU_USE_SHOP_PVP2",
+      "OpenShop",
+      "PickBanShop"
+    ],
+    "BottomEntryMenuButton1": [
+      "MENU_NPC_GIFT",
+      "OpenNPCRecruiteView",
+      "GiftButton",
+      "Recruit"
+    ],
+    "CreatureIndex": 802,
+    "NpcOffset": [
+      "-10",
+      "70"
+    ],
+    "NpcAngle": -90,
+    "NpcScale": 100,
+    "MenuIconType": "Arena",
+    "MenuTitleKey": "ARENA"
+  },
+  {
+    "Code": "GoblinShop",
+    "OnOpenEntryMenu": [
+      "NPC_GOBLINSHOP_WELCOME01",
+      " NPC.GoblinShop.Welcome01",
+      " Buy",
+      " \nNPC_GOBLINSHOP_WELCOME02",
+      " NPC.GoblinShop.Welcome02",
+      " Buy",
+      " \nNPC_GOBLINSHOP_WELCOME03",
+      " NPC.GoblinShop.Welcome03",
+      " Buy"
+    ],
+    "OnTouch": [
+      "NPC_GOBLINSHOP_TOUCH01",
+      " NPC.GoblinShop.Touch01",
+      " Touch",
+      " \nNPC_GOBLINSHOP_TOUCH02",
+      " NPC.GoblinShop.Touch02",
+      " Touch",
+      " \nNPC_GOBLINSHOP_TOUCH03",
+      " NPC.GoblinShop.Touch03",
+      " Touch",
+      " \nNPC_GOBLINSHOP_TOUCH04",
+      " NPC.GoblinShop.Touch04",
+      " Touch",
+      " \nNPC_GOBLINSHOP_TOUCH05",
+      " NPC.GoblinShop.Touch05",
+      " Touch",
+      " \nNPC_GOBLINSHOP_TOUCH06",
+      " NPC.GoblinShop.Touch06",
+      " Touch"
+    ],
+    "EntryMenuButton1": [
+      "MENU_USE_SHOP",
+      "OpenShop",
+      "Goblin"
+    ],
+    "CreatureIndex": 803,
+    "NpcOffset": [
+      "100",
+      "0"
+    ],
+    "NpcAngle": -90,
+    "NpcScale": 100,
+    "MenuIconType": "GoblinShop",
+    "MenuTitleKey": "SHOP_NAME_GOBLIN_SUB"
+  },
+  {
+    "Code": "SoulstoneShop",
+    "OnOpenEntryMenu": [
+      "NPC_SOULGEMSHOP_WELCOME01",
+      " NPC.SoulGemShop.Welcome01",
+      " Buy",
+      " \nNPC_SOULGEMSHOP_WELCOME02",
+      " NPC.SoulGemShop.Welcome02",
+      " Buy",
+      " \nNPC_SOULGEMSHOP_WELCOME03",
+      " NPC.SoulGemShop.Welcome03",
+      " Buy"
+    ],
+    "OnTouch": [
+      "NPC_SOULGEMSHOP_TOUCH01",
+      " NPC.SoulGemShop.Touch01",
+      " Touch",
+      " \nNPC_SOULGEMSHOP_TOUCH02",
+      " NPC.SoulGemShop.Touch02",
+      " Touch",
+      " \nNPC_SOULGEMSHOP_TOUCH03",
+      " NPC.SoulGemShop.Touch03",
+      " Touch",
+      " \nNPC_SOULGEMSHOP_TOUCH04",
+      " NPC.SoulGemShop.Touch04",
+      " Touch",
+      " \nNPC_SOULGEMSHOP_TOUCH05",
+      " NPC.SoulGemShop.Touch05",
+      " Touch",
+      " \nNPC_SOULGEMSHOP_TOUCH06",
+      " NPC.SoulGemShop.Touch06",
+      " Touch"
+    ],
+    "EntryMenuButton1": [
+      "MENU_USE_SHOP",
+      "OpenShop",
+      "Soulstone"
+    ],
+    "CreatureIndex": 805,
+    "NpcOffset": [
+      "100",
+      "0"
+    ],
+    "NpcAngle": -90,
+    "NpcScale": 100,
+    "MenuIconType": "SoulShop",
+    "MenuTitleKey": "SHOP_NAME_SOULSTONE_SUB"
+  },
+  {
+    "Code": "RuneShop",
+    "OnOpenEntryMenu": [
+      "NPC_RUNESHOP_WELCOME01",
+      " NPC.RuneShop.Welcome01",
+      " Buy",
+      " \nNPC_RUNESHOP_WELCOME02",
+      " NPC.RuneShop.Welcome02",
+      " Buy",
+      " \nNPC_RUNESHOP_WELCOME03",
+      " NPC.RuneShop.Welcome03",
+      " Buy"
+    ],
+    "OnTouch": [
+      "NPC_RUNESHOP_TOUCH01",
+      " NPC.RuneShop.Touch01",
+      " Touch",
+      " \nNPC_RUNESHOP_TOUCH02",
+      " NPC.RuneShop.Touch02",
+      " Touch",
+      " \nNPC_RUNESHOP_TOUCH03",
+      " NPC.RuneShop.Touch03",
+      " Touch",
+      " \nNPC_RUNESHOP_TOUCH04",
+      " NPC.RuneShop.Touch04",
+      " Touch",
+      " \nNPC_RUNESHOP_TOUCH05",
+      " NPC.RuneShop.Touch05",
+      " Touch",
+      " \nNPC_RUNESHOP_TOUCH06",
+      " NPC.RuneShop.Touch06",
+      " Touch"
+    ],
+    "EntryMenuButton1": [
+      "MENU_USE_SHOP",
+      "OpenShop",
+      "Rune"
+    ],
+    "CreatureIndex": 814,
+    "NpcOffset": [
+      "0",
+      "50"
+    ],
+    "NpcAngle": -90,
+    "NpcScale": 100,
+    "MenuIconType": "RuneShop",
+    "MenuTitleKey": "SHOP_NAME_RUNE_SUB"
+  },
+  {
+    "Code": "RoyalShop",
+    "HeroIndex": 93,
+    "ShowHeroBuffIcon": "True",
+    "OnOpenEntryMenu": [
+      "NPC_ROYALSHOP_WELCOME01",
+      " NPC.RoyalShop.Welcome01",
+      " Touch",
+      " \nNPC_ROYALSHOP_WELCOME02",
+      " NPC.RoyalShop.Welcome02",
+      " Touch",
+      " \nNPC_ROYALSHOP_WELCOME03",
+      " NPC.RoyalShop.Welcome03",
+      " Touch"
+    ],
+    "OnTouch": [
+      "NPC_ROYALSHOP_TOUCH01",
+      " NPC.RoyalShop.Touch01",
+      " Touch",
+      " \nNPC_ROYALSHOP_TOUCH02",
+      " NPC.RoyalShop.Touch02",
+      " Touch",
+      " \nNPC_ROYALSHOP_TOUCH03",
+      " NPC.RoyalShop.Touch03",
+      " Touch",
+      " \nNPC_ROYALSHOP_TOUCH04",
+      " NPC.RoyalShop.Touch04",
+      " Touch",
+      " \nNPC_ROYALSHOP_TOUCH05",
+      " NPC.RoyalShop.Touch05",
+      " Touch",
+      " \nNPC_ROYALSHOP_TOUCH06",
+      " NPC.RoyalShop.Touch06",
+      " Touch"
+    ],
+    "EntryMenuButton1": [
+      "UNDERGROUND_LABYRINTH",
+      "OpenTower",
+      "999"
+    ],
+    "EntryMenuEvent1": [
+      "DropBonusEvent",
+      "BonusStamina;UndergroundLabyrinthKey;BonusStaminaWidget"
+    ],
+    "EntryMenuButton2": [
+      "MAZE_NAME",
+      "OpenMazeTowerList"
+    ],
+    "EntryMenuCondition2": "ClearDungeon,7,12,Easy",
+    "EntryMenuButton3": [
+      "MENU_USE_SHOP",
+      "OpenShop",
+      "WorldBoss"
+    ],
+    "BottomEntryMenuButton1": [
+      "MENU_NPC_GIFT",
+      "OpenNPCRecruiteView",
+      "GiftButton",
+      "Recruit"
+    ],
+    "CreatureIndex": 806,
+    "NpcOffset": [
+      "-120",
+      "40"
+    ],
+    "NpcAngle": -70,
+    "NpcScale": 100,
+    "MenuIconType": "Royal",
+    "MenuTitleKey": "LOCATION_TOWN_ORVEL_NAME"
+  },
+  {
+    "Code": "Stockade",
+    "HeroIndex": 95,
+    "ShowHeroBuffIcon": "True",
+    "OnOpenEntryMenu": [
+      "NPC_STOCKADESHOP_WELCOME01",
+      " NPC.Stockade.Welcome01",
+      " Welcome",
+      " \nNPC_STOCKADESHOP_WELCOME02",
+      " NPC.Stockade.Welcome02",
+      " Welcome",
+      " \nNPC_STOCKADESHOP_WELCOME03",
+      " NPC.Stockade.Welcome03",
+      " Welcome"
+    ],
+    "OnTouch": [
+      "NPC_STOCKADESHOP_TOUCH01",
+      " NPC.Stockade.Touch01",
+      " Touch",
+      " \nNPC_STOCKADESHOP_TOUCH02",
+      " NPC.Stockade.Touch02",
+      " Touch",
+      " \nNPC_STOCKADESHOP_TOUCH03",
+      " NPC.Stockade.Touch03",
+      " Touch",
+      " \nNPC_STOCKADESHOP_TOUCH04",
+      " NPC.Stockade.Touch04",
+      " Touch",
+      " \nNPC_STOCKADESHOP_TOUCH05",
+      " NPC.Stockade.Touch05",
+      " Touch",
+      " \nNPC_STOCKADESHOP_TOUCH06",
+      " NPC.Stockade.Touch06",
+      " Touch"
+    ],
+    "EntryMenuButton1": [
+      "ENTER_TRIAL_DUNGEON",
+      "EnterPrison"
+    ],
+    "EntryMenuEvent1": [
+      "Always",
+      "PrisonWidget",
+      "DropBonusEvent",
+      "BonusStamina;UndergroundPrisonKey;BonusStaminaWidget"
+    ],
+    "BottomEntryMenuButton1": [
+      "MENU_NPC_GIFT",
+      "OpenNPCRecruiteView",
+      "GiftButton",
+      "Recruit"
+    ],
+    "CreatureIndex": 808,
+    "NpcOffset": [
+      "100",
+      "50"
+    ],
+    "NpcAngle": -130,
+    "NpcScale": 100,
+    "MiniGuideIndex": 2,
+    "MenuIconType": "Prison",
+    "MenuTitleKey": "NODE_PRISON_NAME"
+  },
+  {
+    "Code": "HallofHero",
+    "OnOpenEntryMenu": [
+      "NPC_HALLOFHERO_WELCOME01",
+      " NPC.HallofHero.Welcome01",
+      " Touch",
+      " \nNPC_HALLOFHERO_WELCOME02",
+      " NPC.HallofHero.Welcome02",
+      " Touch",
+      " \nNPC_HALLOFHERO_WELCOME03",
+      " NPC.HallofHero.Welcome03",
+      " Touch"
+    ],
+    "OnTouch": [
+      "NPC_HALLOFHERO_TOUCH01",
+      " NPC.HallofHero.Touch01",
+      " Touch",
+      " \nNPC_HALLOFHERO_TOUCH02",
+      " NPC.HallofHero.Touch02",
+      " Touch",
+      " \nNPC_HALLOFHERO_TOUCH03",
+      " NPC.HallofHero.Touch03",
+      " Touch",
+      " \nNPC_HALLOFHERO_TOUCH04",
+      " NPC.HallofHero.Touch04",
+      " Touch",
+      " \nNPC_HALLOFHERO_TOUCH05",
+      " NPC.HallofHero.Touch05",
+      " Touch",
+      " \nNPC_HALLOFHERO_TOUCH06",
+      " NPC.HallofHero.Touch06",
+      " Touch"
+    ],
+    "EntryMenuButton1": [
+      "TRIAL_DUNGEON",
+      "EnterClassTrialSelect"
+    ],
+    "EntryMenuButton2": [
+      "HERO_PURIFY_ROOM",
+      "EnterPurifyRoom"
+    ],
+    "EntryMenuEvent2": [
+      "DropBonusEvent",
+      "DiscountPurify;;DiscountWidget"
+    ],
+    "EntryMenuButton3": [
+      "CONTENT_TOWER_OF_ORDEAL",
+      "OpenTower",
+      "11"
+    ],
+    "EntryMenuCondition3": "HasMaxStarHero,true",
+    "CreatureIndex": 809,
+    "NpcOffset": [
+      "80",
+      "-20"
+    ],
+    "NpcAngle": -100,
+    "NpcScale": 100,
+    "NpcCondition": [
+      "CompleteTutorial",
+      "12000",
+      "TRUE"
+    ],
+    "MenuIconType": "Temple",
+    "MenuTitleKey": "HERO_SANCTUARY"
+  },
+  {
+    "Code": "WorldTree",
+    "OnOpenEntryMenu": [
+      "NPC_WOLDTREE_WELCOME01",
+      " NPC.WorldTree.Welcome01",
+      " Welcome",
+      " \nNPC_WOLDTREE_WELCOME02",
+      " NPC.WorldTree.Welcome02",
+      " Welcome",
+      " \nNPC_WOLDTREE_WELCOME03",
+      " NPC.WorldTree.Welcome03",
+      " Welcome"
+    ],
+    "OnTouch": [
+      "NPC_WOLDTREE_TOUCH01",
+      " NPC.WorldTree.Touch01",
+      " Touch",
+      " \nNPC_WOLDTREE_TOUCH02",
+      " NPC.WorldTree.Touch02",
+      " Touch",
+      " \nNPC_WOLDTREE_TOUCH03",
+      " NPC.WorldTree.Touch03",
+      " Touch",
+      " \nNPC_WOLDTREE_TOUCH04",
+      " NPC.WorldTree.Touch04",
+      " Touch",
+      " \nNPC_WOLDTREE_TOUCH05",
+      " NPC.WorldTree.Touch05",
+      " Touch",
+      " \nNPC_WOLDTREE_TOUCH06",
+      " NPC.WorldTree.Touch06",
+      " Touch"
+    ],
+    "EntryMenuButton1": [
+      "WORLDTREE_MAIN_STORY",
+      "OpenMainStory"
+    ],
+    "EntryMenuButton2": [
+      "WORLDTREE_SUB_STORY",
+      "OpenSubStory"
+    ],
+    "CreatureIndex": 700,
+    "NpcAngle": -90,
+    "NpcScale": 150,
+    "NpcCondition": [
+      "CompleteTutorial",
+      "14000",
+      "TRUE"
+    ],
+    "MiniGuideIndex": 14,
+    "MenuIconType": "WorldTree",
+    "MenuTitleKey": "NODE_WORLDTREE_NAME"
+  },
+  {
+    "Code": "ChapterPIT3",
+    "OnOpenEntryMenu": [
+      "NPC_PIT_WELCOME01",
+      " NPC.Pit.Welcome01",
+      " Touch",
+      " \nNPC_PIT_WELCOME02",
+      " NPC.Pit.Welcome02",
+      " Touch",
+      " \nNPC_PIT_WELCOME03",
+      " NPC.Pit.Welcome03",
+      " Touch"
+    ],
+    "OnTouch": [
+      "NPC_PIT_TOUCH01",
+      " NPC.Pit.Touch01",
+      " Touch",
+      " \nNPC_PIT_TOUCH02",
+      " NPC.Pit.Touch02",
+      " Touch",
+      " \nNPC_PIT_TOUCH03",
+      " NPC.Pit.Touch03",
+      " Touch",
+      " \nNPC_PIT_TOUCH04",
+      " NPC.Pit.Touch04",
+      " Touch",
+      " \nNPC_PIT_TOUCH05",
+      " NPC.Pit.Touch05",
+      " Touch",
+      " \nNPC_PIT_TOUCH06",
+      " NPC.Pit.Touch06",
+      " Touch"
+    ],
+    "EntryMenuButton1": [
+      "NODE_PIT_CHAPTER3_NAME",
+      "OpenTower",
+      "1"
+    ],
+    "CreatureIndex": 811,
+    "NpcOffset": [
+      "-120",
+      "0"
+    ],
+    "NpcAngle": -45,
+    "NpcScale": 100,
+    "MenuIconType": "Pit",
+    "MenuTitleKey": "NODE_PIT_CHAPTER3_NAME"
+  },
+  {
+    "Code": "ChapterPIT2",
+    "OnOpenEntryMenu": [
+      "NPC_PIT_WELCOME01",
+      " NPC.Pit.Welcome01",
+      " Touch",
+      " \nNPC_PIT_WELCOME02",
+      " NPC.Pit.Welcome02",
+      " Touch",
+      " \nNPC_PIT_WELCOME03",
+      " NPC.Pit.Welcome03",
+      " Touch"
+    ],
+    "OnTouch": [
+      "NPC_PIT_TOUCH01",
+      " NPC.Pit.Touch01",
+      " Touch",
+      " \nNPC_PIT_TOUCH02",
+      " NPC.Pit.Touch02",
+      " Touch",
+      " \nNPC_PIT_TOUCH03",
+      " NPC.Pit.Touch03",
+      " Touch",
+      " \nNPC_PIT_TOUCH04",
+      " NPC.Pit.Touch04",
+      " Touch",
+      " \nNPC_PIT_TOUCH05",
+      " NPC.Pit.Touch05",
+      " Touch",
+      " \nNPC_PIT_TOUCH06",
+      " NPC.Pit.Touch06",
+      " Touch"
+    ],
+    "EntryMenuButton1": [
+      "NODE_PIT_CHAPTER5_NAME",
+      "OpenTower",
+      "2"
+    ],
+    "CreatureIndex": 812,
+    "NpcOffset": [
+      "-120",
+      "0"
+    ],
+    "NpcAngle": -45,
+    "NpcScale": 100,
+    "MenuIconType": "Pit",
+    "MenuTitleKey": "NODE_PIT_CHAPTER5_NAME"
+  },
+  {
+    "Code": "ChapterPIT4",
+    "OnOpenEntryMenu": [
+      "NPC_PIT_WELCOME01",
+      " NPC.Pit.Welcome01",
+      " Touch",
+      " \nNPC_PIT_WELCOME02",
+      " NPC.Pit.Welcome02",
+      " Touch",
+      " \nNPC_PIT_WELCOME03",
+      " NPC.Pit.Welcome03",
+      " Touch"
+    ],
+    "OnTouch": [
+      "NPC_PIT_TOUCH01",
+      " NPC.Pit.Touch01",
+      " Touch",
+      " \nNPC_PIT_TOUCH02",
+      " NPC.Pit.Touch02",
+      " Touch",
+      " \nNPC_PIT_TOUCH03",
+      " NPC.Pit.Touch03",
+      " Touch",
+      " \nNPC_PIT_TOUCH04",
+      " NPC.Pit.Touch04",
+      " Touch",
+      " \nNPC_PIT_TOUCH05",
+      " NPC.Pit.Touch05",
+      " Touch",
+      " \nNPC_PIT_TOUCH06",
+      " NPC.Pit.Touch06",
+      " Touch"
+    ],
+    "EntryMenuButton1": [
+      "NODE_PIT_CHAPTER7_NAME",
+      "OpenTower",
+      "3"
+    ],
+    "CreatureIndex": 810,
+    "NpcOffset": [
+      "100",
+      "30"
+    ],
+    "NpcAngle": -90,
+    "NpcScale": 100,
+    "MenuIconType": "Pit",
+    "MenuTitleKey": "NODE_PIT_CHAPTER7_NAME"
+  },
+  {
+    "Code": "Forge",
+    "OnOpenEntryMenu": [
+      "NPC_BLACKSMITH_WELCOME01",
+      " NPC.Blacksmith.Welcome01",
+      " Welcome",
+      " \nNPC_BLACKSMITH_WELCOME02",
+      " NPC.Blacksmith.Welcome02",
+      " Welcome",
+      " \nNPC_BLACKSMITH_WELCOME03",
+      " NPC.Blacksmith.Welcome03",
+      " Welcome"
+    ],
+    "OnTouch": [
+      "NPC_BLACKSMITH_TOUCH01",
+      " NPC.Blacksmith.Touch01",
+      " Touch",
+      " \nNPC_BLACKSMITH_TOUCH02",
+      " NPC.Blacksmith.Touch02",
+      " Touch",
+      " \nNPC_BLACKSMITH_TOUCH03",
+      " NPC.Blacksmith.Touch03",
+      " Touch",
+      " \nNPC_BLACKSMITH_TOUCH04",
+      " NPC.Blacksmith.Touch04",
+      " Touch",
+      " \nNPC_BLACKSMITH_TOUCH05",
+      " NPC.Blacksmith.Touch05",
+      " Touch",
+      " \nNPC_BLACKSMITH_TOUCH06",
+      " NPC.Blacksmith.Touch06",
+      " Touch"
+    ],
+    "EntryMenuButton1": [
+      "SMITHY_EQUIPMENT_REFORGE",
+      "OpenSubMenu"
+    ],
+    "ChildIndices1": [
+      "2",
+      "3",
+      "4",
+      "7"
+    ],
+    "EntryMenuButton2": [
+      "SMITHY_STAR_UPGRADE",
+      "OpenEquipAwaken",
+      "EntryMenu/Smith/Equip_Awaken_BG",
+      "SMITHY_STAR_UPGRADE_DESC"
+    ],
+    "EntryMenuEvent2": [
+      "DropBonusEvent",
+      "DiscountAwakeEquip;;DiscountWidget"
+    ],
+    "ParentIndex2": 1,
+    "EntryMenuButton3": [
+      "SMITHY_OPTION_UPGRADE",
+      "OpenEquipOptionUpgrade",
+      "EntryMenu/Smith/Equip_OptionUpgrade_BG",
+      "SMITHY_OPTION_UPGRADE_DESC"
+    ],
+    "EntryMenuEvent3": [
+      "DropBonusEvent",
+      "DiscountEquipItemOptionUpgrade;;DiscountWidget"
+    ],
+    "ParentIndex3": 1,
+    "EntryMenuButton4": [
+      "SMITHY_OPTION_RENEW",
+      "OpenEquipOptionRenew",
+      "EntryMenu/Smith/Equip_OptionRenew_BG",
+      "SMITHY_OPTION_RENEW_DESC"
+    ],
+    "EntryMenuEvent4": [
+      "DropBonusEvent",
+      "DiscountEquipItemOptionRenew;;DiscountWidget"
+    ],
+    "ParentIndex4": 1,
+    "EntryMenuButton5": [
+      "SMITHY_TIER_UPGRADE",
+      "OpenTierUpgrade"
+    ],
+    "EntryMenuButton6": [
+      "MENU_USE_SHOP",
+      "OpenShop",
+      "Raid"
+    ],
+    "EntryMenuButton7": [
+      "SMITHY_OPTION_ENCHANT",
+      "OpenEquipEnchantOption",
+      "EntryMenu/Smith/Equip_OptionEnchant_BG",
+      "SMITHY_OPTION_ENCHANT_DESC"
+    ],
+    "ParentIndex7": 1,
+    "CreatureIndex": 813,
+    "NpcOffset": [
+      "140",
+      "0"
+    ],
+    "NpcAngle": -90,
+    "NpcScale": 100,
+    "MenuIconType": "Forge",
+    "MenuTitleKey": "NODE_FORGE_NAME"
+  },
+  {
+    "Code": "HeroInn",
+    "HeroIndex": 94,
+    "ShowHeroBuffIcon": "True",
+    "OnOpenEntryMenu": [
+      "NPC_INN_WELCOME01",
+      " NPC.Inn.Welcome01",
+      " Buy",
+      " \nNPC_INN_WELCOME02",
+      " NPC.Inn.Welcome02",
+      " Buy",
+      " \nNPC_INN_WELCOME03",
+      " NPC.Inn.Welcome03",
+      " Buy"
+    ],
+    "OnTouch": [
+      "NPC_INN_TOUCH01",
+      " NPC.Inn.Touch01",
+      " Touch",
+      " \nNPC_INN_TOUCH02",
+      " NPC.Inn.Touch02",
+      " Touch",
+      " \nNPC_INN_TOUCH03",
+      " NPC.Inn.Touch03",
+      " Touch",
+      " \nNPC_INN_TOUCH04",
+      " NPC.Inn.Touch04",
+      " Touch",
+      " \nNPC_INN_TOUCH05",
+      " NPC.Inn.Touch05",
+      " Touch",
+      " \nNPC_INN_TOUCH06",
+      " NPC.Inn.Touch06",
+      " Touch"
+    ],
+    "EntryMenuButton1": [
+      "NODE_HEROINN_SCOUT",
+      "OpenScoutHero"
+    ],
+    "EntryMenuEvent1": [
+      "DropBonusEvent",
+      "BonusFriendlyPoint;;EventWidget"
+    ],
+    "EntryMenuButton2": [
+      "MENU_USE_SHOP",
+      "OpenShop",
+      "Inn"
+    ],
+    "BottomEntryMenuButton1": [
+      "MENU_NPC_GIFT",
+      "OpenNPCRecruiteView",
+      "GiftButton",
+      "Recruit"
+    ],
+    "CreatureIndex": 815,
+    "NpcOffset": [
+      "100",
+      "50"
+    ],
+    "NpcAngle": -90,
+    "NpcScale": 100,
+    "MiniGuideIndex": 8,
+    "MenuIconType": "HeroInn",
+    "MenuTitleKey": "NODE_PUB_NAME"
+  },
+  {
+    "Code": "ChallengeTower",
+    "OnOpenEntryMenu": [
+      "NPC_TOWEROFCHALLENGE_WELCOME01",
+      " NPC.TowerOfChallenge.Welcome01",
+      " Buy",
+      " \nNPC_TOWEROFCHALLENGE_WELCOME02",
+      " NPC.TowerOfChallenge.Welcome02",
+      " Buy",
+      " \nNPC_TOWEROFCHALLENGE_WELCOME03",
+      " NPC.TowerOfChallenge.Welcome03",
+      " Buy"
+    ],
+    "OnTouch": [
+      "NPC_TOWEROFCHALLENGE_TOUCH01",
+      " NPC.TowerOfChallenge.Touch01",
+      " Touch",
+      " \nNPC_TOWEROFCHALLENGE_TOUCH02",
+      " NPC.TowerOfChallenge.Touch02",
+      " Touch",
+      " \nNPC_TOWEROFCHALLENGE_TOUCH03",
+      " NPC.TowerOfChallenge.Touch03",
+      " Touch",
+      " \nNPC_TOWEROFCHALLENGE_TOUCH04",
+      " NPC.TowerOfChallenge.Touch04",
+      " Touch",
+      " \nNPC_TOWEROFCHALLENGE_TOUCH05",
+      " NPC.TowerOfChallenge.Touch05",
+      " Touch",
+      " \nNPC_TOWEROFCHALLENGE_TOUCH06",
+      " NPC.TowerOfChallenge.Touch06",
+      " Touch"
+    ],
+    "EntryMenuButton1": [
+      "CHALLENGETOWER_TITLE",
+      "OpenTower",
+      "21"
+    ],
+    "EntryMenuEvent1": [
+      "DropBonusEvent",
+      "EventShop;ChallengeTowerShop;EventWidget"
+    ],
+    "EntryMenuButton2": [
+      "CHALLENGETOWER_ENTRY_RELIC",
+      "OpenRestoreArtifact"
+    ],
+    "EntryMenuEvent2": [
+      "ItemCountByCode",
+      "MATERIAL_56;1000;EnoughWidget"
+    ],
+    "EntryMenuButton3": [
+      "MENU_USE_SHOP_TOWER21",
+      "OpenShop",
+      "ChallengeTowerShop"
+    ],
+    "EntryMenuCondition3": "EventExist,EventShop,ChallengeTowerShop",
+    "EntryMenuEvent3": [
+      "DropBonusEvent",
+      "EventShop;ChallengeTowerShop;EventWidget"
+    ],
+    "CreatureIndex": 818,
+    "NpcOffset": [
+      "-100",
+      "0"
+    ],
+    "NpcAngle": -90,
+    "NpcScale": 100,
+    "NpcCondition": [
+      "CompleteTutorial",
+      "5000",
+      "TRUE"
+    ],
+    "MiniGuideIndex": 5,
+    "MenuIconType": "ChallengeTower",
+    "MenuTitleKey": "CHALLENGETOWER_TITLE"
+  },
+  {
+    "Code": "ChapterBoss100",
+    "CreatureIndex": 5003,
+    "NpcAngle": -80,
+    "NpcScale": 100
+  },
+  {
+    "Code": "ChapterBoss101",
+    "CreatureIndex": 1101,
+    "NpcAngle": -45,
+    "NpcScale": 125
+  },
+  {
+    "Code": "ChapterBoss102",
+    "CreatureIndex": 1103,
+    "NpcAngle": -45,
+    "NpcScale": 125
+  },
+  {
+    "Code": "ChapterBoss103",
+    "CreatureIndex": 1301,
+    "NpcAngle": -135,
+    "NpcScale": 100
+  },
+  {
+    "Code": "ChapterMonster101",
+    "CreatureIndex": 21201,
+    "NpcAngle": -45,
+    "NpcScale": 110
+  },
+  {
+    "Code": "Chapter1Dungeon1",
+    "CreatureIndex": 1101,
+    "NpcAngle": -45,
+    "NpcScale": 110
+  },
+  {
+    "Code": "Chapter1Dungeon2",
+    "CreatureIndex": 1007,
+    "NpcAngle": -45,
+    "NpcScale": 50
+  },
+  {
+    "Code": "Chapter1Dungeon3",
+    "CreatureIndex": 1102,
+    "NpcAngle": -45,
+    "NpcScale": 110
+  },
+  {
+    "Code": "Chapter1Dungeon4",
+    "CreatureIndex": 1004,
+    "NpcOffset": [
+      "0",
+      "25"
+    ],
+    "NpcAngle": -45,
+    "NpcScale": 60
+  },
+  {
+    "Code": "Chapter1Dungeon5",
+    "CreatureIndex": 1006,
+    "NpcAngle": -45,
+    "NpcScale": 110
+  },
+  {
+    "Code": "Chapter1Dungeon6",
+    "CreatureIndex": 1103,
+    "NpcAngle": -45,
+    "NpcScale": 110
+  },
+  {
+    "Code": "Chapter1Dungeon7",
+    "CreatureIndex": 1201,
+    "NpcAngle": -45,
+    "NpcScale": 130
+  },
+  {
+    "Code": "Chapter1Dungeon8",
+    "CreatureIndex": 1301,
+    "NpcAngle": -45,
+    "NpcScale": 130
+  },
+  {
+    "Code": "ChapterBoss200",
+    "CreatureIndex": 9003,
+    "NpcAngle": -45,
+    "NpcScale": 75
+  },
+  {
+    "Code": "ChapterBoss201",
+    "CreatureIndex": 10101,
+    "NpcAngle": -90,
+    "NpcScale": 90
+  },
+  {
+    "Code": "ChapterBoss202",
+    "CreatureIndex": 11102,
+    "NpcAngle": -90,
+    "NpcScale": 95
+  },
+  {
+    "Code": "ChapterBoss203",
+    "CreatureIndex": 2301,
+    "NpcAngle": -90,
+    "NpcScale": 80
+  },
+  {
+    "Code": "ChapterMonster201",
+    "CreatureIndex": 4201,
+    "NpcOffset": [
+      "-120",
+      "50"
+    ],
+    "NpcAngle": -45,
+    "NpcScale": 65
+  },
+  {
+    "Code": "Chapter2Dungeon1",
+    "CreatureIndex": 11003,
+    "NpcAngle": -45,
+    "NpcScale": 110
+  },
+  {
+    "Code": "Chapter2Dungeon2",
+    "CreatureIndex": 11001,
+    "NpcAngle": -45,
+    "NpcScale": 110
+  },
+  {
+    "Code": "Chapter2Dungeon3",
+    "CreatureIndex": 11002,
+    "NpcAngle": -45,
+    "NpcScale": 110
+  },
+  {
+    "Code": "Chapter2Dungeon4",
+    "CreatureIndex": 11003,
+    "NpcAngle": -45,
+    "NpcScale": 110
+  },
+  {
+    "Code": "Chapter2Dungeon5",
+    "CreatureIndex": 11101,
+    "NpcAngle": -45,
+    "NpcScale": 110
+  },
+  {
+    "Code": "Chapter2Dungeon6",
+    "CreatureIndex": 11102,
+    "NpcAngle": -45,
+    "NpcScale": 110
+  },
+  {
+    "Code": "Chapter2Dungeon7",
+    "CreatureIndex": 11203,
+    "NpcAngle": -45,
+    "NpcScale": 130
+  },
+  {
+    "Code": "Chapter2Dungeon8",
+    "CreatureIndex": 2301,
+    "NpcAngle": -45,
+    "NpcScale": 130
+  },
+  {
+    "Code": "ChapterBoss300",
+    "CreatureIndex": 21201,
+    "NpcAngle": -45,
+    "NpcScale": 100
+  },
+  {
+    "Code": "ChapterBoss301",
+    "CreatureIndex": 2101,
+    "NpcAngle": -45,
+    "NpcScale": 100
+  },
+  {
+    "Code": "ChapterBoss302",
+    "CreatureIndex": 2103,
+    "NpcAngle": -45,
+    "NpcScale": 80
+  },
+  {
+    "Code": "ChapterBoss303",
+    "CreatureIndex": 3301,
+    "NpcAngle": -45,
+    "NpcScale": 70
+  },
+  {
+    "Code": "ChapterMonster301",
+    "CreatureIndex": 8301,
+    "NpcOffset": [
+      "-80",
+      "110"
+    ],
+    "NpcAngle": -45,
+    "NpcScale": 60
+  },
+  {
+    "Code": "Chapter3Dungeon1",
+    "CreatureIndex": 2101,
+    "NpcAngle": -45,
+    "NpcScale": 90
+  },
+  {
+    "Code": "Chapter3Dungeon2",
+    "CreatureIndex": 2007,
+    "NpcAngle": -45,
+    "NpcScale": 50
+  },
+  {
+    "Code": "Chapter3Dungeon3",
+    "CreatureIndex": 2103,
+    "NpcAngle": -45,
+    "NpcScale": 90
+  },
+  {
+    "Code": "Chapter3Dungeon4",
+    "CreatureIndex": 2005,
+    "NpcAngle": -45,
+    "NpcScale": 90
+  },
+  {
+    "Code": "Chapter3Dungeon5",
+    "CreatureIndex": 2004,
+    "NpcAngle": -45,
+    "NpcScale": 90
+  },
+  {
+    "Code": "Chapter3Dungeon6",
+    "CreatureIndex": 2102,
+    "NpcAngle": -45,
+    "NpcScale": 90
+  },
+  {
+    "Code": "Chapter3Dungeon7",
+    "CreatureIndex": 2203,
+    "NpcAngle": -45,
+    "NpcScale": 90
+  },
+  {
+    "Code": "Chapter3Dungeon8",
+    "CreatureIndex": 3301,
+    "NpcAngle": -45,
+    "NpcScale": 130
+  },
+  {
+    "Code": "ChapterBoss400",
+    "CreatureIndex": 5201,
+    "NpcAngle": -100,
+    "NpcScale": 90
+  },
+  {
+    "Code": "ChapterBoss401",
+    "CreatureIndex": 7102,
+    "NpcAngle": -45,
+    "NpcScale": 110
+  },
+  {
+    "Code": "ChapterBoss402",
+    "CreatureIndex": 7006,
+    "NpcScale": 50
+  },
+  {
+    "Code": "ChapterBoss403",
+    "CreatureIndex": 4301,
+    "NpcAngle": -45,
+    "NpcScale": 60
+  },
+  {
+    "Code": "ChapterMonster401",
+    "CreatureIndex": 18101,
+    "NpcAngle": -45,
+    "NpcScale": 50
+  },
+  {
+    "Code": "Chapter4Dungeon1",
+    "CreatureIndex": 7101,
+    "NpcAngle": -15,
+    "NpcScale": 110
+  },
+  {
+    "Code": "Chapter4Dungeon2",
+    "CreatureIndex": 7102,
+    "NpcAngle": -15,
+    "NpcScale": 110
+  },
+  {
+    "Code": "Chapter4Dungeon3",
+    "CreatureIndex": 7104,
+    "NpcAngle": -15,
+    "NpcScale": 110
+  },
+  {
+    "Code": "Chapter4Dungeon4",
+    "CreatureIndex": 7103,
+    "NpcAngle": -15,
+    "NpcScale": 110
+  },
+  {
+    "Code": "Chapter4Dungeon5",
+    "CreatureIndex": 7007,
+    "NpcAngle": -15,
+    "NpcScale": 80
+  },
+  {
+    "Code": "Chapter4Dungeon6",
+    "CreatureIndex": 7202,
+    "NpcAngle": -60,
+    "NpcScale": 120
+  },
+  {
+    "Code": "Chapter4Dungeon7",
+    "CreatureIndex": 7206,
+    "NpcAngle": -60,
+    "NpcScale": 60
+  },
+  {
+    "Code": "Chapter4Dungeon8",
+    "CreatureIndex": 4301,
+    "NpcAngle": -60,
+    "NpcScale": 110
+  },
+  {
+    "Code": "ChapterBoss500",
+    "CreatureIndex": 16101,
+    "NpcAngle": -45,
+    "NpcScale": 70
+  },
+  {
+    "Code": "ChapterBoss501",
+    "CreatureIndex": 24011,
+    "NpcAngle": -45,
+    "NpcScale": 80
+  },
+  {
+    "Code": "ChapterBoss502",
+    "CreatureIndex": 12002,
+    "NpcAngle": -45,
+    "NpcScale": 110
+  },
+  {
+    "Code": "ChapterBoss503",
+    "CreatureIndex": 5301,
+    "NpcScale": 110
+  },
+  {
+    "Code": "ChapterMonster501",
+    "CreatureIndex": 5401,
+    "NpcOffset": [
+      "-20",
+      "100"
+    ],
+    "NpcAngle": -90,
+    "NpcScale": 100
+  },
+  {
+    "Code": "Chapter5Dungeon1",
+    "CreatureIndex": 12011,
+    "NpcAngle": -45,
+    "NpcScale": 110
+  },
+  {
+    "Code": "Chapter5Dungeon2",
+    "CreatureIndex": 12006,
+    "NpcAngle": -180,
+    "NpcScale": 60
+  },
+  {
+    "Code": "Chapter5Dungeon3",
+    "CreatureIndex": 12014,
+    "NpcAngle": -45,
+    "NpcScale": 110
+  },
+  {
+    "Code": "Chapter5Dungeon4",
+    "CreatureIndex": 12102,
+    "NpcAngle": -45,
+    "NpcScale": 120
+  },
+  {
+    "Code": "Chapter5Dungeon5",
+    "CreatureIndex": 12101,
+    "NpcAngle": -45,
+    "NpcScale": 110
+  },
+  {
+    "Code": "Chapter5Dungeon6",
+    "CreatureIndex": 12012,
+    "NpcAngle": -45,
+    "NpcScale": 120
+  },
+  {
+    "Code": "Chapter5Dungeon7",
+    "CreatureIndex": 12104,
+    "NpcAngle": -45,
+    "NpcScale": 110
+  },
+  {
+    "Code": "Chapter5Dungeon8",
+    "CreatureIndex": 5301,
+    "NpcScale": 130
+  },
+  {
+    "Code": "Tower"
+  },
+  {
+    "Code": "ChapterBoss600",
+    "CreatureIndex": 1301,
+    "NpcAngle": -45,
+    "NpcScale": 100
+  },
+  {
+    "Code": "ChapterBoss601",
+    "CreatureIndex": 30104,
+    "NpcAngle": -90,
+    "NpcScale": 100
+  },
+  {
+    "Code": "ChapterBoss602",
+    "CreatureIndex": 29102,
+    "NpcAngle": -80,
+    "NpcScale": 100
+  },
+  {
+    "Code": "ChapterBoss603",
+    "CreatureIndex": 9301,
+    "NpcAngle": -45,
+    "NpcScale": 60
+  },
+  {
+    "Code": "ChapterMonster601",
+    "CreatureIndex": 27002,
+    "NpcAngle": -115,
+    "NpcScale": 100
+  },
+  {
+    "Code": "Chapter6Dungeon1",
+    "CreatureIndex": 30002,
+    "NpcAngle": -120,
+    "NpcScale": 100
+  },
+  {
+    "Code": "Chapter6Dungeon2",
+    "CreatureIndex": 30003,
+    "NpcAngle": -90,
+    "NpcScale": 100
+  },
+  {
+    "Code": "Chapter6Dungeon3",
+    "CreatureIndex": 30101,
+    "NpcAngle": -45,
+    "NpcScale": 100
+  },
+  {
+    "Code": "Chapter6Dungeon4",
+    "CreatureIndex": 30011,
+    "NpcAngle": -130,
+    "NpcScale": 100
+  },
+  {
+    "Code": "Chapter6Dungeon5",
+    "CreatureIndex": 30004,
+    "NpcScale": 100
+  },
+  {
+    "Code": "Chapter6Dungeon6",
+    "CreatureIndex": 30014,
+    "NpcAngle": -45,
+    "NpcScale": 100
+  },
+  {
+    "Code": "Chapter6Dungeon7",
+    "CreatureIndex": 30104,
+    "NpcAngle": -90,
+    "NpcScale": 100
+  },
+  {
+    "Code": "ChapterBoss700",
+    "CreatureIndex": 10104,
+    "NpcAngle": -100,
+    "NpcScale": 100
+  },
+  {
+    "Code": "ChapterBoss701",
+    "CreatureIndex": 31011,
+    "NpcAngle": -170,
+    "NpcScale": 80
+  },
+  {
+    "Code": "ChapterBoss702",
+    "CreatureIndex": 7105,
+    "NpcScale": 100
+  },
+  {
+    "Code": "ChapterBoss703",
+    "CreatureIndex": 10301,
+    "NpcAngle": -45,
+    "NpcScale": 70
+  },
+  {
+    "Code": "ChapterMonster701",
+    "CreatureIndex": 10401,
+    "NpcOffset": [
+      "50",
+      "50"
+    ],
+    "NpcAngle": -90,
+    "NpcScale": 40
+  },
+  {
+    "Code": "Chapter7Dungeon1",
+    "CreatureIndex": 31001,
+    "NpcAngle": -90,
+    "NpcScale": 80
+  },
+  {
+    "Code": "Chapter7Dungeon2",
+    "CreatureIndex": 31013,
+    "NpcAngle": -90,
+    "NpcScale": 80
+  },
+  {
+    "Code": "Chapter7Dungeon3",
+    "CreatureIndex": 31011,
+    "NpcAngle": -90,
+    "NpcScale": 80
+  },
+  {
+    "Code": "Chapter7Dungeon4",
+    "CreatureIndex": 31003,
+    "NpcAngle": -90,
+    "NpcScale": 80
+  },
+  {
+    "Code": "Chapter7Dungeon5",
+    "CreatureIndex": 31002,
+    "NpcScale": 80
+  },
+  {
+    "Code": "Chapter7Dungeon6",
+    "CreatureIndex": 31101,
+    "NpcAngle": -45,
+    "NpcScale": 80
+  },
+  {
+    "Code": "Chapter7Dungeon7",
+    "CreatureIndex": 31103,
+    "NpcAngle": -45,
+    "NpcScale": 80
+  },
+  {
+    "Code": "ChapterBoss800",
+    "CreatureIndex": 32203,
+    "NpcAngle": -100,
+    "NpcScale": 100
+  },
+  {
+    "Code": "ChapterBoss801",
+    "CreatureIndex": 32207,
+    "NpcOffset": [
+      "100",
+      "50"
+    ],
+    "NpcAngle": -100,
+    "NpcScale": 70
+  },
+  {
+    "Code": "ChapterBoss802",
+    "CreatureIndex": 32202,
+    "NpcAngle": -100,
+    "NpcScale": 100
+  },
+  {
+    "Code": "ChapterBoss803",
+    "CreatureIndex": 32320,
+    "NpcAngle": -45,
+    "NpcScale": 90
+  },
+  {
+    "Code": "ChapterMonster801",
+    "CreatureIndex": 32206,
+    "NpcOffset": [
+      "-200",
+      "50"
+    ],
+    "NpcAngle": -45,
+    "NpcScale": 100
+  },
+  {
+    "Code": "Chapter8Dungeon1",
+    "CreatureIndex": 32101,
+    "NpcAngle": -90,
+    "NpcScale": 80
+  },
+  {
+    "Code": "Chapter8Dungeon2",
+    "CreatureIndex": 32102,
+    "NpcAngle": -90,
+    "NpcScale": 80
+  },
+  {
+    "Code": "Chapter8Dungeon3",
+    "CreatureIndex": 32103,
+    "NpcAngle": -90,
+    "NpcScale": 80
+  },
+  {
+    "Code": "Chapter8Dungeon4",
+    "CreatureIndex": 32104,
+    "NpcAngle": -90,
+    "NpcScale": 80
+  },
+  {
+    "Code": "Chapter8Dungeon5",
+    "CreatureIndex": 32203,
+    "NpcScale": 80
+  },
+  {
+    "Code": "Chapter8Dungeon6",
+    "CreatureIndex": 32204,
+    "NpcAngle": -45,
+    "NpcScale": 80
+  },
+  {
+    "Code": "Chapter8Dungeon7",
+    "CreatureIndex": 32202,
+    "NpcAngle": -45,
+    "NpcScale": 80
+  },
+  {
+    "Code": "GuildRaidBoss1",
+    "CreatureIndex": 3301,
+    "NpcAngle": -60,
+    "NpcScale": 80
+  },
+  {
+    "Code": "GuildRaidBoss2",
+    "CreatureIndex": 5401,
+    "NpcAngle": -60,
+    "NpcScale": 120
+  },
+  {
+    "Code": "GuildRaidBoss3",
+    "CreatureIndex": 3406,
+    "NpcAngle": -120,
+    "NpcScale": 120
+  },
+  {
+    "Code": "GuildRaidBoss4",
+    "CreatureIndex": 4301,
+    "NpcAngle": -60,
+    "NpcScale": 80
+  },
+  {
+    "Code": "GuildRaidBoss5",
+    "CreatureIndex": 7301,
+    "NpcAngle": -90,
+    "NpcScale": 50
+  },
+  {
+    "Code": "GuildRaidBoss6",
+    "CreatureIndex": 3401,
+    "NpcAngle": -45,
+    "NpcScale": 50
+  },
+  {
+    "Code": "Boss.OrcSword2",
+    "CreatureIndex": 64001,
+    "NpcAngle": -45,
+    "NpcScale": 50
+  },
+  {
+    "Code": "SubStoryBoss01",
+    "CreatureIndex": 4301,
+    "NpcOffset": [
+      "-200",
+      "0"
+    ],
+    "NpcAngle": 40,
+    "NpcScale": 60
+  },
+  {
+    "Code": "SubStoryBoss02",
+    "CreatureIndex": 50019,
+    "CreatureStar": 5,
+    "NpcOffset": [
+      "-150",
+      "50"
+    ],
+    "NpcAngle": -60,
+    "NpcScale": 90
+  },
+  {
+    "Code": "SubStoryBoss03",
+    "CreatureIndex": 50038,
+    "CreatureStar": 5,
+    "NpcOffset": [
+      "150",
+      "0"
+    ],
+    "NpcAngle": -135,
+    "NpcScale": 90
+  },
+  {
+    "Code": "SubStoryBoss04",
+    "CreatureIndex": 8301,
+    "NpcOffset": [
+      "150",
+      "70"
+    ],
+    "NpcAngle": -135,
+    "NpcScale": 60
+  },
+  {
+    "Code": "SubStoryBoss05",
+    "CreatureIndex": 7202,
+    "NpcOffset": [
+      "-50",
+      "50"
+    ],
+    "NpcAngle": -25,
+    "NpcScale": 90
+  },
+  {
+    "Code": "SubStoryBoss06",
+    "CreatureIndex": 21,
+    "CreatureStar": 3,
+    "NpcOffset": [
+      "150",
+      "0"
+    ],
+    "NpcAngle": -135,
+    "NpcScale": 90
+  },
+  {
+    "Code": "SubStoryBoss07",
+    "CreatureIndex": 6301,
+    "NpcOffset": [
+      "150",
+      "70"
+    ],
+    "NpcAngle": -135,
+    "NpcScale": 60
+  },
+  {
+    "Code": "SubStoryBoss08",
+    "CreatureIndex": 5401,
+    "NpcOffset": [
+      "0",
+      "50"
+    ],
+    "NpcAngle": -60,
+    "NpcScale": 120
+  },
+  {
+    "Code": "SubStoryBoss09",
+    "CreatureIndex": 13001,
+    "NpcOffset": [
+      "0",
+      "50"
+    ],
+    "NpcAngle": -60,
+    "NpcScale": 100
+  },
+  {
+    "Code": "SubStoryBoss10",
+    "CreatureIndex": 3401,
+    "NpcOffset": [
+      "200",
+      "25"
+    ],
+    "NpcAngle": -135,
+    "NpcScale": 40
+  },
+  {
+    "Code": "SubStoryBoss11",
+    "CreatureIndex": 50033,
+    "NpcOffset": [
+      "0",
+      "100"
+    ],
+    "NpcAngle": -60,
+    "NpcScale": 100
+  },
+  {
+    "Code": "SubStoryBoss12",
+    "CreatureIndex": 10,
+    "CreatureStar": 2,
+    "NpcOffset": [
+      "-50",
+      "50"
+    ],
+    "NpcAngle": -60,
+    "NpcScale": 100
+  },
+  {
+    "Code": "SubStoryBoss13",
+    "CreatureIndex": 11,
+    "CreatureStar": 3,
+    "NpcOffset": [
+      "0",
+      "50"
+    ],
+    "NpcAngle": -60,
+    "NpcScale": 110
+  },
+  {
+    "Code": "SubStoryBoss14",
+    "CreatureIndex": 50034,
+    "CreatureStar": 4,
+    "NpcOffset": [
+      "100",
+      "50"
+    ],
+    "NpcAngle": -135,
+    "NpcScale": 100
+  },
+  {
+    "Code": "SubStoryBoss15",
+    "CreatureIndex": 50039,
+    "NpcOffset": [
+      "100",
+      "100"
+    ],
+    "NpcAngle": 45,
+    "NpcScale": 100
+  },
+  {
+    "Code": "SubStoryBoss16",
+    "CreatureIndex": 50045,
+    "NpcOffset": [
+      "-100",
+      "100"
+    ],
+    "NpcAngle": -25,
+    "NpcScale": 120
+  },
+  {
+    "Code": "SubStoryBoss17",
+    "CreatureIndex": 12005,
+    "NpcOffset": [
+      "-100",
+      "0"
+    ],
+    "NpcAngle": 60,
+    "NpcScale": 90
+  },
+  {
+    "Code": "SubStoryBoss18",
+    "CreatureIndex": 7202,
+    "NpcOffset": [
+      "100",
+      "100"
+    ],
+    "NpcAngle": -105,
+    "NpcScale": 90
+  },
+  {
+    "Code": "SubStoryBoss19",
+    "CreatureIndex": 7206,
+    "NpcOffset": [
+      "200",
+      "100"
+    ],
+    "NpcAngle": -135,
+    "NpcScale": 60
+  },
+  {
+    "Code": "SubStoryBoss20",
+    "CreatureIndex": 73,
+    "CreatureStar": 3,
+    "NpcOffset": [
+      "60",
+      "100"
+    ],
+    "NpcAngle": -135,
+    "NpcScale": 120
+  },
+  {
+    "Code": "SubStoryHero01",
+    "CreatureIndex": 50061,
+    "NpcOffset": [
+      "200",
+      "0"
+    ],
+    "NpcAngle": -90,
+    "NpcScale": 120
+  },
+  {
+    "Code": "SubStoryHero02",
+    "CreatureIndex": 39,
+    "CreatureStar": 5,
+    "NpcOffset": [
+      "10",
+      "100"
+    ],
+    "NpcAngle": -135,
+    "NpcScale": 120
+  },
+  {
+    "Code": "SubStoryHero03",
+    "CreatureIndex": 50062,
+    "NpcOffset": [
+      "-100",
+      "150"
+    ],
+    "NpcAngle": -105,
+    "NpcScale": 120
+  },
+  {
+    "Code": "SubStoryHero04",
+    "CreatureIndex": 35,
+    "CreatureStar": 4,
+    "NpcOffset": [
+      "200",
+      "0"
+    ],
+    "NpcAngle": -135,
+    "NpcScale": 120
+  },
+  {
+    "Code": "SubStoryHero05",
+    "CreatureIndex": 60,
+    "CreatureStar": 4,
+    "NpcOffset": [
+      "100",
+      "50"
+    ],
+    "NpcAngle": -115,
+    "NpcScale": 120
+  },
+  {
+    "Code": "SubStoryHero06",
+    "CreatureIndex": 52,
+    "CreatureStar": 5,
+    "NpcOffset": [
+      "-160",
+      "0"
+    ],
+    "NpcAngle": -60,
+    "NpcScale": 120
+  },
+  {
+    "Code": "SubStoryNPC01",
+    "CreatureIndex": 50060,
+    "NpcOffset": [
+      "100",
+      "50"
+    ],
+    "NpcAngle": -135,
+    "NpcScale": 120
+  },
+  {
+    "Code": "SubStoryNPC02",
+    "CreatureIndex": 50057,
+    "NpcOffset": [
+      "0",
+      "100"
+    ],
+    "NpcAngle": -105,
+    "NpcScale": 120
+  },
+  {
+    "Code": "SubStoryNPC03",
+    "CreatureIndex": 50058,
+    "NpcOffset": [
+      "30",
+      "300"
+    ],
+    "NpcAngle": -135,
+    "NpcScale": 120
+  },
+  {
+    "Code": "SubStoryNPC04",
+    "CreatureIndex": 50059,
+    "NpcOffset": [
+      "130",
+      "-30"
+    ],
+    "NpcAngle": -135,
+    "NpcScale": 300
+  },
+  {
+    "Code": "GuildSuppress",
+    "OnOpenEntryMenu": [
+      "NPC_GUILDSUPPRESS_WELCOME01",
+      " NPC.GuildSuppress.Welcome01",
+      " Touch",
+      "\nNPC_GUILDSUPPRESS_WELCOME02",
+      " NPC.GuildSuppress.Welcome02",
+      " Touch",
+      "\nNPC_GUILDSUPPRESS_WELCOME03",
+      " NPC.GuildSuppress.Welcome03",
+      " Touch"
+    ],
+    "OnTouch": [
+      "NPC_GUILDSUPPRESS_TOUCH01",
+      " NPC.GuildSuppress.Touch01",
+      " Touch",
+      "\r\nNPC_GUILDSUPPRESS_TOUCH02",
+      " NPC.GuildSuppress.Touch02",
+      " Touch",
+      "\nNPC_GUILDSUPPRESS_TOUCH03",
+      " NPC.GuildSuppress.Touch03",
+      " Touch",
+      "\nNPC_GUILDSUPPRESS_TOUCH04",
+      " NPC.GuildSuppress.Touch04",
+      " Touch",
+      "\nNPC_GUILDSUPPRESS_TOUCH05",
+      " NPC.GuildSuppress.Touch05",
+      " Touch",
+      "\nNPC_GUILDSUPPRESS_TOUCH06",
+      " NPC.GuildSuppress.Touch06",
+      " Touch"
+    ],
+    "EntryMenuButton1": [
+      "GUILD_PUNITIVE_EXPEDITION_TITLE",
+      "OpenGuildSuppress"
+    ],
+    "EntryMenuButton2": [
+      "GUILD_SUPPRESS_BAN_LIST",
+      "OpenGuildSuppressBanList"
+    ],
+    "BuffIconName1": "Guild_Activity_Restrict",
+    "BuffIconCondition1": "GuildActivityRestrict",
+    "CreatureIndex": 822,
+    "NpcOffset": [
+      "-140",
+      "10"
+    ],
+    "NpcAngle": -50,
+    "NpcScale": 120,
+    "MiniGuideIndex": 12,
+    "MenuIconType": "GuildSuppress",
+    "MenuTitleKey": "GUILD_SUPPRESS_BUILDING"
+  },
+  {
+    "Code": "GuildRankingBoard",
+    "EntryMenuButton1": [
+      "RANK_BOARD_PUNITIVE_EXPEDITION_TITLE",
+      "OpenGuildRankingBoard",
+      "SuppressRanking"
+    ],
+    "MenuIconType": "GuildRankingBoard",
+    "MenuTitleKey": "RANK_BOARD_TITLE"
+  },
+  {
+    "Code": "GuildHeadQuarter",
+    "HeroIndex": 92,
+    "OnOpenEntryMenu": [
+      "NPC_GUILDSHOP_WELCOME01",
+      " NPC.GuildShop.Welcome01",
+      " Buy",
+      "\nNPC_GUILDSHOP_WELCOME02",
+      " NPC.GuildShop.Welcome02",
+      " Buy"
+    ],
+    "OnTouch": [
+      "NPC_GUILDSHOP_TOUCH01",
+      " NPC.GuildShop.Touch01",
+      " Touch",
+      " \nNPC_GUILDSHOP_TOUCH02",
+      " NPC.GuildShop.Touch02",
+      " Touch",
+      " \nNPC_GUILDSHOP_TOUCH03",
+      " NPC.GuildShop.Touch03",
+      " Touch",
+      " \nNPC_GUILDSHOP_TOUCH04",
+      " NPC.GuildShop.Touch04",
+      " Touch",
+      " \nNPC_GUILDSHOP_TOUCH05",
+      " NPC.GuildShop.Touch05",
+      " Touch",
+      " \nNPC_GUILDSHOP_TOUCH06",
+      " NPC.GuildShop.Touch06",
+      " Touch"
+    ],
+    "EntryMenuButton1": [
+      "GUILD_INFORM",
+      "GuildInform"
+    ],
+    "EntryMenuCondition1": "GuildExist,true",
+    "EntryMenuButton2": [
+      "GUILD_BUILD_MANAGE",
+      "GuildConstruction"
+    ],
+    "EntryMenuCondition2": "GuildExist,true",
+    "BottomEntryMenuButton1": [
+      "MENU_NPC_GIFT",
+      "OpenNPCRecruiteView",
+      "GiftButton",
+      "Recruit"
+    ],
+    "CreatureIndex": 807,
+    "NpcOffset": [
+      "-140",
+      "10"
+    ],
+    "NpcAngle": -50,
+    "NpcScale": 120,
+    "MenuIconType": "Guild",
+    "MenuTitleKey": "GUILD_HEADQUARTER"
+  },
+  {
+    "Code": "GuildTrainingCenter",
+    "OnOpenEntryMenu": [
+      "NPC_GUILDTRAINING_WELCOME01",
+      " NPC.GuildTraining.Welcome01",
+      " Buy2",
+      "\nNPC_GUILDTRAINING_WELCOME02",
+      " NPC.GuildTraining.Welcome02",
+      " Buy2",
+      "\nNPC_GUILDTRAINING_WELCOME03",
+      " NPC.GuildTraining.Welcome03",
+      " Buy2"
+    ],
+    "OnTouch": [
+      "NPC_GUILDTRAINING_TOUCH01",
+      " NPC.GuildTraining.Touch01",
+      " Touch",
+      " \nNPC_GUILDTRAINING_TOUCH02",
+      " NPC.GuildTraining.Touch02",
+      " Touch",
+      " \nNPC_GUILDTRAINING_TOUCH03",
+      " NPC.GuildTraining.Touch03",
+      " Touch",
+      " \nNPC_GUILDTRAINING_TOUCH04",
+      " NPC.GuildTraining.Touch04",
+      " Touch",
+      " \nNPC_GUILDTRAINING_TOUCH05",
+      " NPC.GuildTraining.Touch05",
+      " Touch",
+      " \nNPC_GUILDTRAINING_TOUCH06",
+      " NPC.GuildTraining.Touch06",
+      " Touch"
+    ],
+    "EntryMenuButton1": [
+      "GUILD_TRAINING_CENTER",
+      "OpenGuildTrainingCenter"
+    ],
+    "CreatureIndex": 820,
+    "NpcOffset": [
+      "120",
+      "-30"
+    ],
+    "NpcAngle": -150,
+    "NpcScale": 120,
+    "MiniGuideIndex": 13,
+    "MenuIconType": "GuildTrainingCenter",
+    "MenuTitleKey": "GUILD_TRAINING_CENTER"
+  },
+  {
+    "Code": "GuildShop",
+    "OnOpenEntryMenu": [
+      "NPC_GUILDSHOP2_WELCOME01",
+      " NPC.GuildShop2.Welcome01",
+      " Touch",
+      " \nNPC_GUILDSHOP2_WELCOME02",
+      " NPC.GuildShop2.Welcome02",
+      " Touch",
+      " \nNPC_GUILDSHOP2_WELCOME03",
+      " NPC.GuildShop2.Welcome03",
+      " Touch"
+    ],
+    "OnTouch": [
+      "NPC_GUILDSHOP2_TOUCH01",
+      " NPC.GuildShop2.Touch01",
+      " Touch",
+      "\nNPC_GUILDSHOP2_TOUCH02",
+      " NPC.GuildShop2.Touch02",
+      " Touch",
+      "\nNPC_GUILDSHOP2_TOUCH03",
+      " NPC.GuildShop2.Touch03",
+      " Touch",
+      "\nNPC_GUILDSHOP2_TOUCH04",
+      " NPC.GuildShop2.Touch04",
+      " Touch",
+      "\nNPC_GUILDSHOP2_TOUCH05",
+      " NPC.GuildShop2.Touch05",
+      " Touch",
+      "\nNPC_GUILDSHOP2_TOUCH06",
+      " NPC.GuildShop2.Touch06",
+      " Touch"
+    ],
+    "EntryMenuButton1": [
+      "MENU_USE_SHOP",
+      "OpenShop",
+      "Guild"
+    ],
+    "EntryMenuButton2": [
+      "MENU_USE_GUILD_RAID_SHOP",
+      "OpenShop",
+      "GuildRaidShop"
+    ],
+    "EntryMenuCondition2": "GuildExist,true",
+    "CreatureIndex": 819,
+    "NpcOffset": [
+      "-140",
+      "10"
+    ],
+    "NpcAngle": -50,
+    "NpcScale": 100,
+    "MenuIconType": "GuildShop",
+    "MenuTitleKey": "GUILD_SHOP"
+  },
+  {
+    "Code": "GuildRaid",
+    "OnOpenEntryMenu": [
+      "NPC_GUILDRAID_WELCOME01",
+      " NPC.GuildRaid.Welcome01",
+      " Touch",
+      " \nNPC_GUILDRAID_WELCOME02",
+      " NPC.GuildRaid.Welcome02",
+      " Touch",
+      " \nNPC_GUILDRAID_WELCOME03",
+      " NPC.GuildRaid.Welcome03",
+      " Touch"
+    ],
+    "OnTouch": [
+      "NPC_GUILDRAID_TOUCH01",
+      " NPC.GuildRaid.Touch01",
+      " Touch",
+      " \nNPC_GUILDRAID_TOUCH02",
+      " NPC.GuildRaid.Touch02",
+      " Touch",
+      " \nNPC_GUILDRAID_TOUCH03",
+      " NPC.GuildRaid.Touch03",
+      " Touch",
+      " \nNPC_GUILDRAID_TOUCH04",
+      " NPC.GuildRaid.Touch04",
+      " Touch",
+      " \nNPC_GUILDRAID_TOUCH05",
+      " NPC.GuildRaid.Touch05",
+      " Touch",
+      " \nNPC_GUILDRAID_TOUCH06",
+      " NPC.GuildRaid.Touch06",
+      " Touch"
+    ],
+    "EntryMenuButton1": [
+      "GUILD_RAID",
+      "GuildRaid"
+    ],
+    "EntryMenuCondition1": "GuildExist,true",
+    "BuffIconName1": "Guild_Activity_Restrict",
+    "BuffIconCondition1": "GuildActivityRestrict",
+    "CreatureIndex": 821,
+    "NpcOffset": [
+      "180",
+      "-60"
+    ],
+    "NpcAngle": -125,
+    "NpcScale": 120,
+    "MenuIconType": "GuildRaid",
+    "MenuTitleKey": "GUILD_RAID_BUILDING"
+  },
+  {
+    "Code": "GuildOffice",
+    "HeroIndex": 92,
+    "ShowHeroBuffIcon": "True",
+    "OnOpenEntryMenu": [
+      "NPC_GUILDSHOP_WELCOME01",
+      " NPC.GuildShop.Welcome01",
+      " Buy",
+      " \nNPC_GUILDSHOP_WELCOME02",
+      " NPC.GuildShop.Welcome02",
+      " Buy",
+      " \nNPC_GUILDSHOP_WELCOME03",
+      " NPC.GuildShop.Welcome03",
+      " Buy"
+    ],
+    "OnTouch": [
+      "NPC_GUILDSHOP_TOUCH01",
+      " NPC.GuildShop.Touch01",
+      " Touch",
+      " \nNPC_GUILDSHOP_TOUCH02",
+      " NPC.GuildShop.Touch02",
+      " Touch",
+      " \nNPC_GUILDSHOP_TOUCH03",
+      " NPC.GuildShop.Touch03",
+      " Touch",
+      " \nNPC_GUILDSHOP_TOUCH04",
+      " NPC.GuildShop.Touch04",
+      " Touch",
+      " \nNPC_GUILDSHOP_TOUCH05",
+      " NPC.GuildShop.Touch05",
+      " Touch",
+      " \nNPC_GUILDSHOP_TOUCH06",
+      " NPC.GuildShop.Touch06",
+      " Touch"
+    ],
+    "EntryMenuButton1": [
+      "GUILD_CREATE",
+      "CreateGuild"
+    ],
+    "EntryMenuCondition1": "GuildExist,false",
+    "EntryMenuButton2": [
+      "GUILD_FIND",
+      "FindGuild"
+    ],
+    "EntryMenuCondition2": "GuildExist,false",
+    "EntryMenuButton3": [
+      "MENU_USE_SHOP",
+      "OpenShop",
+      "GuildShop"
+    ],
+    "BottomEntryMenuButton1": [
+      "MENU_NPC_GIFT",
+      "OpenNPCRecruiteView",
+      "GiftButton",
+      "Recruit"
+    ],
+    "BuffIconName1": "Guild_Activity_Restrict",
+    "BuffIconCondition1": "GuildActivityRestrict",
+    "CreatureIndex": 807,
+    "NpcOffset": [
+      "-140",
+      "10"
+    ],
+    "NpcAngle": -50,
+    "NpcScale": 120,
+    "MiniGuideIndex": 1,
+    "MenuIconType": "Guild",
+    "MenuTitleKey": "CONTENT_GUILD"
+  }
+]
