@@ -1152,6 +1152,25 @@
     "OperationDurationMs1": 2000
   },
   {
+    "Index": 702005,
+    "TriggerType": "OnTimer",
+    "TriggerValue": [
+      "1000",
+      "1000"
+    ],
+    "TriggerRatio": 1000,
+    "TargetType": "Myself",
+    "TargetCount": 1,
+    "DeadTarget": "False",
+    "IgnoreBlock": "True",
+    "RetargetOnFire": "False",
+    "OperationType1": "GetHeal",
+    "OperationTargetType1": "Target",
+    "OperationValue1": [
+      "1500"
+    ]
+  },
+  {
     "Index": 4004790,
     "TriggerType": "None",
     "TriggerRatio": 1000,
@@ -2241,7 +2260,17 @@
       "200"
     ],
     "OperationState2": 5940,
-    "OperationDurationMs2": 10000
+    "OperationDurationMs2": 10000,
+    "OperationType3": "ModPowerR",
+    "OperationTargetType3": "Target",
+    "OperationValue3": [
+      "80"
+    ],
+    "OperationState3": 91005940,
+    "OperationDurationMs3": 5000,
+    "OperationFlags3": [
+      "Disabled"
+    ]
   },
   {
     "Index": 5941,
@@ -3807,6 +3836,26 @@
     ],
     "OperationFlags3": [
       "Disabled"
+    ],
+    "OperationType4": "ModPowerR",
+    "OperationTargetType4": "Myself",
+    "OperationValue4": [
+      "200"
+    ],
+    "OperationState4": 91006640,
+    "OperationDurationMs4": 5000,
+    "OperationFlags4": [
+      "Disabled"
+    ],
+    "OperationType5": "ModAttackSpeedR",
+    "OperationTargetType5": "Myself",
+    "OperationValue5": [
+      "100"
+    ],
+    "OperationState5": "91006640_2",
+    "OperationDurationMs5": 5000,
+    "OperationFlags5": [
+      "Disabled"
     ]
   },
   {
@@ -5001,6 +5050,33 @@
     "OperationState2": "ZafirSpeed",
     "OperationAddStateCount2": 1,
     "OperationDurationMs2": 5000
+  },
+  {
+    "Index": 4647,
+    "TriggerType": "OnCriticalSkill",
+    "TriggerValue": [
+      "4644",
+      "None",
+      "Dot"
+    ],
+    "TriggerRatio": 1000,
+    "TriggerDisabled": "True",
+    "AttrType": "Physical",
+    "TargetType": "TriggerTarget",
+    "TargetCount": 1,
+    "DeadTarget": "False",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "TRUE",
+    "OperationType1": "Stun",
+    "OperationTargetType1": "Target",
+    "OperationDurationMs1": 2000,
+    "OperationType2": "ModPhysicalWeakness",
+    "OperationTargetType2": "Target",
+    "OperationValue2": [
+      "100"
+    ],
+    "OperationState2": 91004640,
+    "OperationDurationMs2": 10000
   },
   {
     "Index": 90000460,
@@ -8104,7 +8180,15 @@
       "2",
       "100"
     ],
-    "OperationConditionType1": "None"
+    "OperationConditionType1": "None",
+    "OperationType2": "ModSkillPowerR",
+    "OperationTargetType2": "Myself",
+    "OperationValue2": [
+      "6847",
+      "2",
+      "100"
+    ],
+    "OperationConditionType2": "None"
   },
   {
     "Index": 6842,
@@ -8123,7 +8207,15 @@
       "2",
       "150"
     ],
-    "OperationConditionType1": "None"
+    "OperationConditionType1": "None",
+    "OperationType2": "ModSkillPowerR",
+    "OperationTargetType2": "Myself",
+    "OperationValue2": [
+      "6847",
+      "2",
+      "150"
+    ],
+    "OperationConditionType2": "None"
   },
   {
     "Index": 6843,
@@ -8142,7 +8234,15 @@
       "2",
       "250"
     ],
-    "OperationConditionType1": "None"
+    "OperationConditionType1": "None",
+    "OperationType2": "ModSkillPowerR",
+    "OperationTargetType2": "Myself",
+    "OperationValue2": [
+      "6847",
+      "2",
+      "250"
+    ],
+    "OperationConditionType2": "None"
   },
   {
     "Index": 6844,
@@ -8205,6 +8305,12 @@
       "3",
       "-1000",
       "UsingSkill"
+    ],
+    "OperationType6": "ImmuneCc",
+    "OperationTargetType6": "Myself",
+    "OperationDurationMs6": 1000,
+    "OperationFlags6": [
+      "Disabled"
     ]
   },
   {
@@ -8274,6 +8380,48 @@
       "6840",
       "3"
     ]
+  },
+  {
+    "Index": 6847,
+    "ReqIndex": 6840,
+    "FollowLevelIndex": 6840,
+    "TriggerType": "OnWaveStart",
+    "TriggerRatio": 1000,
+    "TriggerDisabled": "True",
+    "TriggerFlag": [
+      "UpdateSkillCondition"
+    ],
+    "AttrType": "Physical",
+    "IgnoreStateType": [
+      "CC"
+    ],
+    "TargetType": "Myself",
+    "TargetCount": 1,
+    "DeadTarget": "False",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "False",
+    "OperationType1": "ModDefence",
+    "OperationTargetType1": "Myself",
+    "OperationState1": "NiaStack",
+    "OperationDurationMs1": 999999,
+    "OperationType2": "ModPower",
+    "OperationTargetType2": "Myself",
+    "OperationValue2": [
+      "20"
+    ],
+    "OperationValueFactor2": [
+      "5",
+      "20"
+    ],
+    "OperationState2": "NiaSkill4_Buff1",
+    "OperationDurationMs2": 20000,
+    "OperationType3": "ModDodgeChance",
+    "OperationTargetType3": "Myself",
+    "OperationValue3": [
+      "20"
+    ],
+    "OperationState3": "NiaSkill4_Buff2",
+    "OperationDurationMs3": 20000
   },
   {
     "Index": 90000680,

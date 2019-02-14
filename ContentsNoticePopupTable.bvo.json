@@ -178,5 +178,24 @@
     ],
     "ContentsStatusType": "BanPick",
     "ContentsStatusSubType": "None"
+  },
+  {
+    "Index": 10,
+    "ContentsType": "BanPick",
+    "PopupType": "GlobalEnd",
+    "ContentsImagePath": "WorldBoss/BossInfo/Match_BanPick",
+    "TitleDescKey": "ARENA_MATCHBANPICK_END_TITLE",
+    "UseRank": "True",
+    "OpenCondition": [
+      "System",
+      " MatchManagement",
+      " CheckBanPickCondition"
+    ],
+    "TutorialIndex": 2130,
+    "OpenAction": [
+      "OpenArenaBanPick"
+    ],
+    "ContentsStatusType": "BanPick",
+    "ContentsStatusSubType": "None"
   }
 ]

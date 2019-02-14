@@ -769,7 +769,8 @@
     ],
     "ExtraSkill": [
       "734",
-      "714"
+      "714",
+      "744"
     ],
     "GetTranscendSkillPoint": [
       "10",
@@ -1254,6 +1255,10 @@
       "1121",
       "1122",
       "1123"
+    ],
+    "ExtraSkill": [
+      "1124",
+      "1125"
     ],
     "GetTranscendSkillPoint": [
       "10",
@@ -2220,7 +2225,8 @@
     "ExtraSkill": [
       "1914",
       "1924",
-      "1901"
+      "1901",
+      "1944"
     ],
     "GetTranscendSkillPoint": [
       "10",
@@ -3182,7 +3188,8 @@
       "2644",
       "2645",
       "2646",
-      "2634"
+      "2634",
+      "2647"
     ],
     "GetTranscendSkillPoint": [
       "10",
@@ -4171,7 +4178,8 @@
       "3444",
       "3446",
       "3447",
-      "3435"
+      "3435",
+      "3448"
     ],
     "GetTranscendSkillPoint": [
       "10",
@@ -4547,7 +4555,8 @@
       "3735",
       "3744",
       "3745",
-      "3724"
+      "3724",
+      "3746"
     ],
     "GetTranscendSkillPoint": [
       "10",
@@ -5295,7 +5304,8 @@
       "4315",
       "4316",
       "4334",
-      "4344"
+      "4344",
+      "4345"
     ],
     "GetTranscendSkillPoint": [
       "10",
@@ -5665,7 +5675,8 @@
       "4634",
       "4644",
       "4645",
-      "4646"
+      "4646",
+      "4647"
     ],
     "GetTranscendSkillPoint": [
       "10",
@@ -7247,7 +7258,10 @@
       "6047",
       "6024",
       "6034",
-      "6015"
+      "6015",
+      "6016",
+      "6025",
+      "6035"
     ],
     "GetTranscendSkillPoint": [
       "10",
@@ -7621,7 +7635,8 @@
     "ExtraSkill": [
       "6314",
       "6324",
-      "6344"
+      "6344",
+      "6345"
     ],
     "GetTranscendSkillPoint": [
       "10",
@@ -7878,7 +7893,8 @@
       "6514",
       "6515",
       "6526",
-      "6527"
+      "6527",
+      "6548"
     ],
     "GetTranscendSkillPoint": [
       "10",
@@ -8301,7 +8317,8 @@
       "6844",
       "6845",
       "6846",
-      "6816"
+      "6816",
+      "6847"
     ],
     "GetTranscendSkillPoint": [
       "10",
@@ -8626,6 +8643,129 @@
     ],
     "StartHeroStar": 3,
     "OpenDate": 180531,
+    "AddStamina": 1
+  },
+  {
+    "Index": 87,
+    "CodeName": "Hero.Glenwys",
+    "OpenStatus": "Normal",
+    "OpenType": "None",
+    "Race": "Hero",
+    "TagType": "Knight",
+    "AttrType": [
+      "Physical"
+    ],
+    "AttackWeakType": [
+      "Fire"
+    ],
+    "PositionType": "Forward",
+    "PositionWeight": 700,
+    "MoveSpeed": 5000,
+    "MinDamageRate": 200,
+    "IgnoreCc": [
+      "False"
+    ],
+    "SizeMm": 500,
+    "HeightMm": 1750,
+    "GradeStoneItemCode": "SKILLBOOK_KNIGHT_1",
+    "StarStoneItemCode": "NO_ITEM",
+    "BaseSkillIndex": 8700,
+    "SkillIndex1": 8710,
+    "SkillExtend1": [
+      "8711",
+      "8712",
+      "8713"
+    ],
+    "SkillIndex2": 8720,
+    "SkillExtend2": [
+      "8721",
+      "8722",
+      "8723"
+    ],
+    "SkillIndex3": 8730,
+    "SkillExtend3": [
+      "8731",
+      "8732",
+      "8733"
+    ],
+    "SkillIndex4": 8740,
+    "SkillExtend4": [
+      "8741",
+      "8742",
+      "8743"
+    ],
+    "ExtraSkill": [
+      "8744",
+      "8745",
+      "8746",
+      "8747",
+      "8724"
+    ],
+    "GetTranscendSkillPoint": [
+      "10",
+      "15",
+      "15",
+      "15",
+      "25"
+    ],
+    "TranscendSkill1": [
+      "60000001",
+      "60000002",
+      "60000003",
+      "60000004",
+      "60000033"
+    ],
+    "ReqSkillPoint1": [
+      "10",
+      "10",
+      "10",
+      "10",
+      "10"
+    ],
+    "TranscendSkill2": [
+      "60000005",
+      "60000006",
+      "60000007",
+      "60000008",
+      "60000034"
+    ],
+    "ReqSkillPoint2": [
+      "15",
+      "15",
+      "15",
+      "15",
+      "15"
+    ],
+    "TranscendSkill3": [
+      "60008710",
+      "60008711",
+      "60008720",
+      "60008721",
+      "60008730",
+      "60008731",
+      "60008740",
+      "60008741"
+    ],
+    "ReqSkillPoint3": [
+      "15",
+      "15",
+      "15",
+      "15",
+      "15",
+      "15",
+      "15",
+      "15"
+    ],
+    "TranscendSkill5": [
+      "60008750",
+      "60008751"
+    ],
+    "ReqSkillPoint5": [
+      "15",
+      "15"
+    ],
+    "StartHeroStar": 3,
+    "OpenDate": 190226,
     "AddStamina": 1
   },
   {
@@ -9235,7 +9375,8 @@
       "9434",
       "9435",
       "9445",
-      "9446"
+      "9446",
+      "9447"
     ],
     "GetTranscendSkillPoint": [
       "10",
@@ -9359,7 +9500,8 @@
       "9534",
       "9535",
       "9536",
-      "9544"
+      "9544",
+      "9545"
     ],
     "GetTranscendSkillPoint": [
       "10",
@@ -9426,6 +9568,129 @@
     ],
     "StartHeroStar": 4,
     "OpenDate": 181122,
+    "AddStamina": 1
+  },
+  {
+    "Index": 96,
+    "CodeName": "Hero.Dosarta",
+    "OpenStatus": "Normal",
+    "OpenType": "None",
+    "Race": "Hero",
+    "TagType": "Knight",
+    "AttrType": [
+      "Magical"
+    ],
+    "AttackWeakType": [
+      "Fire"
+    ],
+    "PositionType": "Forward",
+    "PositionWeight": 700,
+    "MoveSpeed": 5000,
+    "MinDamageRate": 200,
+    "IgnoreCc": [
+      "False"
+    ],
+    "SizeMm": 500,
+    "HeightMm": 1900,
+    "GradeStoneItemCode": "SKILLBOOK_KNIGHT_1",
+    "StarStoneItemCode": "NO_ITEM",
+    "BaseSkillIndex": 9600,
+    "SkillIndex1": 9610,
+    "SkillExtend1": [
+      "9611",
+      "9612",
+      "9613"
+    ],
+    "SkillIndex2": 9620,
+    "SkillExtend2": [
+      "9621",
+      "9622",
+      "9623"
+    ],
+    "SkillIndex3": 9630,
+    "SkillExtend3": [
+      "9631",
+      "9632",
+      "9633"
+    ],
+    "SkillIndex4": 9640,
+    "SkillExtend4": [
+      "9641",
+      "9642",
+      "9643"
+    ],
+    "ExtraSkill": [
+      "9614",
+      "9634",
+      "9644",
+      "9636",
+      "9645"
+    ],
+    "GetTranscendSkillPoint": [
+      "10",
+      "15",
+      "15",
+      "15",
+      "25"
+    ],
+    "TranscendSkill1": [
+      "60000001",
+      "60000002",
+      "60000003",
+      "60000004",
+      "60000033"
+    ],
+    "ReqSkillPoint1": [
+      "10",
+      "10",
+      "10",
+      "10",
+      "10"
+    ],
+    "TranscendSkill2": [
+      "60000005",
+      "60000006",
+      "60000007",
+      "60000008",
+      "60000034"
+    ],
+    "ReqSkillPoint2": [
+      "15",
+      "15",
+      "15",
+      "15",
+      "15"
+    ],
+    "TranscendSkill3": [
+      "60009610",
+      "60009611",
+      "60009620",
+      "60009621",
+      "60009630",
+      "60009631",
+      "60009640",
+      "60009641"
+    ],
+    "ReqSkillPoint3": [
+      "15",
+      "15",
+      "15",
+      "15",
+      "15",
+      "15",
+      "15",
+      "15"
+    ],
+    "TranscendSkill5": [
+      "60009650",
+      "60009651"
+    ],
+    "ReqSkillPoint5": [
+      "15",
+      "15"
+    ],
+    "StartHeroStar": 4,
+    "OpenDate": 190226,
     "AddStamina": 1
   },
   {
@@ -13956,6 +14221,57 @@
     "StartHeroStar": 3
   },
   {
+    "Index": 596,
+    "CodeName": "Monster.Ordeal.DarkDosarta",
+    "ModelCode": "Hero.Dosarta",
+    "ModelPrefix": "Trial",
+    "Race": "Hero",
+    "TagType": "Knight",
+    "AttrType": [
+      "Magical"
+    ],
+    "AttackWeakType": [
+      "Fire"
+    ],
+    "PositionType": "Forward",
+    "PositionWeight": 700,
+    "MoveSpeed": 5000,
+    "MinDamageRate": 200,
+    "IgnoreCc": [
+      "False"
+    ],
+    "SizeMm": 600,
+    "HeightMm": 1900,
+    "GradeStoneItemCode": "SKILLBOOK_KNIGHT_1",
+    "StarStoneItemCode": "NO_ITEM",
+    "BaseSkillIndex": 9600,
+    "SkillIndex1": 9610,
+    "SkillExtend1": [
+      "9611",
+      "9612",
+      "9613"
+    ],
+    "SkillIndex2": 9620,
+    "SkillExtend2": [
+      "9621",
+      "9622",
+      "9623"
+    ],
+    "SkillIndex3": 9630,
+    "SkillExtend3": [
+      "9631",
+      "9632",
+      "9633"
+    ],
+    "SkillIndex4": 9640,
+    "SkillExtend4": [
+      "9641",
+      "9642",
+      "9643"
+    ],
+    "StartHeroStar": 3
+  },
+  {
     "Index": 601,
     "CodeName": "Monster.Ordeal.LightKasel",
     "ModelCode": "Hero.Kasel",
@@ -18479,6 +18795,57 @@
       "9535",
       "9536",
       "9544"
+    ],
+    "StartHeroStar": 3
+  },
+  {
+    "Index": 696,
+    "CodeName": "Monster.Ordeal.LightDosarta",
+    "ModelCode": "Hero.Dosarta",
+    "ModelPrefix": "Trans",
+    "Race": "Hero",
+    "TagType": "Knight",
+    "AttrType": [
+      "Magical"
+    ],
+    "AttackWeakType": [
+      "Fire"
+    ],
+    "PositionType": "Forward",
+    "PositionWeight": 700,
+    "MoveSpeed": 5000,
+    "MinDamageRate": 200,
+    "IgnoreCc": [
+      "False"
+    ],
+    "SizeMm": 600,
+    "HeightMm": 1900,
+    "GradeStoneItemCode": "SKILLBOOK_KNIGHT_1",
+    "StarStoneItemCode": "NO_ITEM",
+    "BaseSkillIndex": 9600,
+    "SkillIndex1": 9610,
+    "SkillExtend1": [
+      "9611",
+      "9612",
+      "9613"
+    ],
+    "SkillIndex2": 9620,
+    "SkillExtend2": [
+      "9621",
+      "9622",
+      "9623"
+    ],
+    "SkillIndex3": 9630,
+    "SkillExtend3": [
+      "9631",
+      "9632",
+      "9633"
+    ],
+    "SkillIndex4": 9640,
+    "SkillExtend4": [
+      "9641",
+      "9642",
+      "9643"
     ],
     "StartHeroStar": 3
   },
@@ -26122,6 +26489,57 @@
     ]
   },
   {
+    "Index": 55099,
+    "CodeName": "WorldBoss.Poseidon",
+    "Race": "Spirit",
+    "AttrType": [
+      "Magical"
+    ],
+    "AttackWeakType": [
+      "Fire"
+    ],
+    "BlockDash": "True",
+    "PositionWeight": 20000,
+    "MinDamageRate": 200,
+    "IgnoreCc": [
+      "CC"
+    ],
+    "TransformType": "StaticPosition,Wall",
+    "SizeMm": 2500,
+    "HeightMm": 8000,
+    "GradeStoneItemCode": "NO_ITEM",
+    "StarStoneItemCode": "NO_ITEM",
+    "BaseSkillIndex": 550200,
+    "SkillIndex1": 550210,
+    "SkillIndex2": 550220,
+    "SkillIndex3": 550230,
+    "SkillIndex4": 550240,
+    "ExtraSkill": [
+      "550201",
+      "550202",
+      "550231",
+      "550232",
+      "550233",
+      "550234",
+      "550241",
+      "550221",
+      "550222",
+      "550223",
+      "550225",
+      "550260",
+      "550203",
+      "550211",
+      "550221",
+      "550235",
+      "550241"
+    ],
+    "ShowInfoSkill": [
+      "550222",
+      "550225",
+      "550241"
+    ]
+  },
+  {
     "Index": 55021,
     "CodeName": "WorldBoss.Dryad",
     "ModelCode": "Monster.Dryad.SpearElite",
@@ -26598,6 +27016,7 @@
     ],
     "SizeMm": 1000,
     "HeightMm": 3400,
+    "IsDestroyOnDied": "True",
     "GradeStoneItemCode": "NO_ITEM",
     "StarStoneItemCode": "NO_ITEM",
     "BaseSkillIndex": 6604100,
@@ -29106,6 +29525,658 @@
       "440101",
       "440145"
     ]
+  },
+  {
+    "Index": 33001,
+    "CodeName": "Monster.Spider.FireSwamp",
+    "ModelCode": "Monster.Spider.Fire",
+    "ModelPrefix": "Swamp",
+    "Race": "Beast",
+    "AttrType": [
+      "Magical"
+    ],
+    "AttackWeakType": [
+      "Fire"
+    ],
+    "MoveSpeed": 5000,
+    "MinDamageRate": 200,
+    "IgnoreCc": [
+      "False"
+    ],
+    "SizeMm": 700,
+    "HeightMm": 1000,
+    "GradeStoneItemCode": "NO_ITEM",
+    "StarStoneItemCode": "NO_ITEM",
+    "BaseSkillIndex": 3300100,
+    "SkillIndex1": 3300110
+  },
+  {
+    "Index": 33002,
+    "CodeName": "Monster.Spider.SuperEliteSwamp",
+    "ModelCode": "Monster.Spider.SuperElite",
+    "ModelPrefix": "Swamp",
+    "Race": "Beast",
+    "AttrType": [
+      "Magical"
+    ],
+    "AttackWeakType": [
+      "Fire"
+    ],
+    "PositionWeight": 3000,
+    "MoveSpeed": 5000,
+    "MinDamageRate": 200,
+    "IgnoreCc": [
+      "False"
+    ],
+    "SizeMm": 1400,
+    "HeightMm": 1000,
+    "GradeStoneItemCode": "NO_ITEM",
+    "StarStoneItemCode": "NO_ITEM",
+    "BaseSkillIndex": 3300200,
+    "SkillIndex1": 3300210,
+    "SkillIndex2": 3300220,
+    "SkillIndex3": 3300230,
+    "ExtraSkill": [
+      "3300221"
+    ]
+  },
+  {
+    "Index": 33003,
+    "CodeName": "Monster.Spider.EggSwamp",
+    "ModelCode": "Monster.Spider.Egg",
+    "ModelPrefix": "Swamp",
+    "Race": "Beast",
+    "AttrType": [
+      "Physical"
+    ],
+    "AttackWeakType": [
+      "Fire"
+    ],
+    "MinDamageRate": 200,
+    "IgnoreCc": [
+      "Knockback",
+      "Down",
+      "Stun",
+      "Pulling",
+      "Stone"
+    ],
+    "TransformType": "StaticPosition",
+    "SizeMm": 2000,
+    "HeightMm": 2000,
+    "GradeStoneItemCode": "NO_ITEM",
+    "StarStoneItemCode": "NO_ITEM",
+    "BaseSkillIndex": 3300300
+  },
+  {
+    "Index": 33004,
+    "CodeName": "Monster.Slime.WarriorRotten",
+    "ModelCode": "Monster.Slime.Warrior",
+    "ModelPrefix": "Rotten",
+    "Race": "Slime",
+    "AttrType": [
+      "Physical"
+    ],
+    "AttackWeakType": [
+      "Fire"
+    ],
+    "MoveSpeed": 5000,
+    "MinDamageRate": 200,
+    "IgnoreCc": [
+      "False"
+    ],
+    "SizeMm": 500,
+    "HeightMm": 1000,
+    "GradeStoneItemCode": "NO_ITEM",
+    "StarStoneItemCode": "NO_ITEM",
+    "BaseSkillIndex": 3300400,
+    "SkillIndex1": 3300410
+  },
+  {
+    "Index": 33005,
+    "CodeName": "Monster.Skeleton.GuardCosEvilSpirit",
+    "ModelCode": "Monster.Skeleton.Guard",
+    "ModelPrefix": "CosEvilSpirit",
+    "Race": "Undead",
+    "AttrType": [
+      "Physical"
+    ],
+    "AttackWeakType": [
+      "Fire"
+    ],
+    "MoveSpeed": 575,
+    "MinDamageRate": 200,
+    "IgnoreCc": [
+      "False"
+    ],
+    "SizeMm": 500,
+    "HeightMm": 1500,
+    "GradeStoneItemCode": "NO_ITEM",
+    "StarStoneItemCode": "NO_ITEM",
+    "BaseSkillIndex": 3300500,
+    "SkillIndex1": 3300510
+  },
+  {
+    "Index": 33006,
+    "CodeName": "Monster.Skeleton.ArcherCosEvilSpirit",
+    "ModelCode": "Monster.Skeleton.Archer",
+    "ModelPrefix": "CosEvilSpirit",
+    "Race": "Undead",
+    "AttrType": [
+      "Physical"
+    ],
+    "AttackWeakType": [
+      "Fire"
+    ],
+    "MoveSpeed": 750,
+    "MinDamageRate": 200,
+    "IgnoreCc": [
+      "False"
+    ],
+    "SizeMm": 500,
+    "HeightMm": 1500,
+    "GradeStoneItemCode": "NO_ITEM",
+    "StarStoneItemCode": "NO_ITEM",
+    "BaseSkillIndex": 3300600,
+    "SkillIndex1": 3300610
+  },
+  {
+    "Index": 33007,
+    "CodeName": "Monster.WraithofRegrets.Normal",
+    "Race": "Undead",
+    "AttrType": [
+      "Magical"
+    ],
+    "AttackWeakType": [
+      "Fire"
+    ],
+    "MoveSpeed": 5000,
+    "MinDamageRate": 200,
+    "IgnoreCc": [
+      "False"
+    ],
+    "SizeMm": 500,
+    "HeightMm": 2000,
+    "GradeStoneItemCode": "NO_ITEM",
+    "StarStoneItemCode": "NO_ITEM",
+    "BaseSkillIndex": 3300700,
+    "SkillIndex1": 3300710
+  },
+  {
+    "Index": 33008,
+    "CodeName": "Monster.WraithofRegrets.Elite",
+    "Race": "Undead",
+    "AttrType": [
+      "Magical"
+    ],
+    "AttackWeakType": [
+      "Fire"
+    ],
+    "PositionWeight": 1500,
+    "MoveSpeed": 5000,
+    "MinDamageRate": 200,
+    "IgnoreCc": [
+      "False"
+    ],
+    "SizeMm": 500,
+    "HeightMm": 2000,
+    "GradeStoneItemCode": "NO_ITEM",
+    "StarStoneItemCode": "NO_ITEM",
+    "BaseSkillIndex": 3300800,
+    "SkillIndex1": 3300810,
+    "SkillIndex2": 3300820
+  },
+  {
+    "Index": 33009,
+    "CodeName": "Monster.Rotten.Totem",
+    "Race": "Structure",
+    "AttrType": [
+      "Magical"
+    ],
+    "PositionWeight": 1500,
+    "MoveSpeed": 575,
+    "MinDamageRate": 200,
+    "IgnoreCc": [
+      "CC"
+    ],
+    "SizeMm": 1000,
+    "HeightMm": 2800,
+    "GradeStoneItemCode": "NO_ITEM",
+    "StarStoneItemCode": "NO_ITEM",
+    "BaseSkillIndex": 3300900
+  },
+  {
+    "Index": 33010,
+    "CodeName": "Monster.StinkyGoblin.Normal",
+    "Race": "Goblin",
+    "AttrType": [
+      "Physical"
+    ],
+    "AttackWeakType": [
+      "Fire"
+    ],
+    "MoveSpeed": 5000,
+    "MinDamageRate": 200,
+    "IgnoreCc": [
+      "False"
+    ],
+    "SizeMm": 500,
+    "HeightMm": 2000,
+    "GradeStoneItemCode": "NO_ITEM",
+    "StarStoneItemCode": "NO_ITEM",
+    "BaseSkillIndex": 3301000,
+    "SkillIndex1": 3301010
+  },
+  {
+    "Index": 33011,
+    "CodeName": "Monster.StinkyGoblin.Elite",
+    "Race": "Goblin",
+    "AttrType": [
+      "Physical"
+    ],
+    "AttackWeakType": [
+      "Fire"
+    ],
+    "PositionWeight": 1500,
+    "MoveSpeed": 5000,
+    "MinDamageRate": 200,
+    "IgnoreCc": [
+      "False"
+    ],
+    "SizeMm": 500,
+    "HeightMm": 2000,
+    "GradeStoneItemCode": "NO_ITEM",
+    "StarStoneItemCode": "NO_ITEM",
+    "BaseSkillIndex": 3301100,
+    "SkillIndex1": 3301110,
+    "SkillIndex2": 3301120
+  },
+  {
+    "Index": 33012,
+    "CodeName": "Monster.Empire.Knight",
+    "Race": "Human",
+    "AttrType": [
+      "Physical"
+    ],
+    "AttackWeakType": [
+      "Fire"
+    ],
+    "MoveSpeed": 5000,
+    "MinDamageRate": 200,
+    "IgnoreCc": [
+      "False"
+    ],
+    "SizeMm": 500,
+    "HeightMm": 2000,
+    "GradeStoneItemCode": "NO_ITEM",
+    "StarStoneItemCode": "NO_ITEM",
+    "BaseSkillIndex": 3301200,
+    "SkillIndex1": 3301210,
+    "SkillIndex2": 3301220,
+    "SkillIndex3": 3301230
+  },
+  {
+    "Index": 33013,
+    "CodeName": "Monster.Empire.Swordsman",
+    "Race": "Human",
+    "AttrType": [
+      "Physical"
+    ],
+    "AttackWeakType": [
+      "Fire"
+    ],
+    "MoveSpeed": 5000,
+    "MinDamageRate": 200,
+    "IgnoreCc": [
+      "False"
+    ],
+    "SizeMm": 500,
+    "HeightMm": 2000,
+    "GradeStoneItemCode": "NO_ITEM",
+    "StarStoneItemCode": "NO_ITEM",
+    "BaseSkillIndex": 3301300,
+    "SkillIndex1": 3301310,
+    "SkillIndex2": 3301320,
+    "SkillIndex3": 3301330
+  },
+  {
+    "Index": 33014,
+    "CodeName": "Monster.Empire.Gunner",
+    "Race": "Human",
+    "AttrType": [
+      "Physical"
+    ],
+    "AttackWeakType": [
+      "Fire"
+    ],
+    "MoveSpeed": 5000,
+    "MinDamageRate": 200,
+    "IgnoreCc": [
+      "False"
+    ],
+    "SizeMm": 500,
+    "HeightMm": 2000,
+    "GradeStoneItemCode": "NO_ITEM",
+    "StarStoneItemCode": "NO_ITEM",
+    "BaseSkillIndex": 3301400,
+    "SkillIndex1": 3301410,
+    "SkillIndex2": 3301420,
+    "SkillIndex3": 3301430
+  },
+  {
+    "Index": 33015,
+    "CodeName": "Monster.Guardian.Golem",
+    "Race": "Guardian",
+    "AttrType": [
+      "Physical"
+    ],
+    "MoveSpeed": 575,
+    "MinDamageRate": 200,
+    "IgnoreCc": [
+      "False"
+    ],
+    "SizeMm": 1100,
+    "HeightMm": 2100,
+    "GradeStoneItemCode": "NO_ITEM",
+    "StarStoneItemCode": "NO_ITEM",
+    "BaseSkillIndex": 3301500,
+    "SkillIndex1": 3301510
+  },
+  {
+    "Index": 33016,
+    "CodeName": "Monster.Guardian.GolemElite",
+    "Race": "Guardian",
+    "AttrType": [
+      "Physical"
+    ],
+    "PositionWeight": 1500,
+    "MoveSpeed": 575,
+    "MinDamageRate": 200,
+    "IgnoreCc": [
+      "False"
+    ],
+    "SizeMm": 1100,
+    "HeightMm": 2100,
+    "GradeStoneItemCode": "NO_ITEM",
+    "StarStoneItemCode": "NO_ITEM",
+    "BaseSkillIndex": 3301600,
+    "SkillIndex1": 3301610,
+    "SkillIndex2": 3301620
+  },
+  {
+    "Index": 33017,
+    "CodeName": "Monster.Guardian.GolemSuperElite",
+    "Race": "Guardian",
+    "AttrType": [
+      "Physical"
+    ],
+    "PositionWeight": 3000,
+    "MoveSpeed": 575,
+    "MinDamageRate": 200,
+    "IgnoreCc": [
+      "False"
+    ],
+    "SizeMm": 1100,
+    "HeightMm": 2100,
+    "GradeStoneItemCode": "NO_ITEM",
+    "StarStoneItemCode": "NO_ITEM",
+    "BaseSkillIndex": 3301700,
+    "SkillIndex1": 3301710,
+    "SkillIndex2": 3301720,
+    "SkillIndex3": 3301730
+  },
+  {
+    "Index": 33018,
+    "CodeName": "Monster.Guardian.Meginor",
+    "Race": "Guardian",
+    "AttrType": [
+      "Physical"
+    ],
+    "MoveSpeed": 575,
+    "MinDamageRate": 200,
+    "IgnoreCc": [
+      "False"
+    ],
+    "SizeMm": 700,
+    "HeightMm": 2100,
+    "GradeStoneItemCode": "NO_ITEM",
+    "StarStoneItemCode": "NO_ITEM",
+    "BaseSkillIndex": 3301800,
+    "SkillIndex1": 3301810
+  },
+  {
+    "Index": 33019,
+    "CodeName": "Monster.Guardian.MeginorElite",
+    "Race": "Guardian",
+    "AttrType": [
+      "Physical"
+    ],
+    "PositionWeight": 1500,
+    "MoveSpeed": 575,
+    "MinDamageRate": 200,
+    "IgnoreCc": [
+      "False"
+    ],
+    "SizeMm": 700,
+    "HeightMm": 2100,
+    "GradeStoneItemCode": "NO_ITEM",
+    "StarStoneItemCode": "NO_ITEM",
+    "BaseSkillIndex": 3301900,
+    "SkillIndex1": 3301910,
+    "SkillIndex2": 3301920
+  },
+  {
+    "Index": 33020,
+    "CodeName": "Monster.Guardian.MeginorSuperElite",
+    "Race": "Guardian",
+    "AttrType": [
+      "Physical"
+    ],
+    "PositionWeight": 3000,
+    "MoveSpeed": 575,
+    "MinDamageRate": 200,
+    "IgnoreCc": [
+      "False"
+    ],
+    "SizeMm": 700,
+    "HeightMm": 2100,
+    "GradeStoneItemCode": "NO_ITEM",
+    "StarStoneItemCode": "NO_ITEM",
+    "BaseSkillIndex": 3302000,
+    "SkillIndex1": 3302010,
+    "SkillIndex2": 3302020,
+    "SkillIndex3": 3302030
+  },
+  {
+    "Index": 33021,
+    "CodeName": "Monster.Guardian.Eraser",
+    "Race": "Guardian",
+    "AttrType": [
+      "Magical"
+    ],
+    "MoveSpeed": 575,
+    "MinDamageRate": 200,
+    "IgnoreCc": [
+      "False"
+    ],
+    "SizeMm": 1100,
+    "HeightMm": 2100,
+    "GradeStoneItemCode": "NO_ITEM",
+    "StarStoneItemCode": "NO_ITEM",
+    "BaseSkillIndex": 3302100,
+    "SkillIndex1": 3302110
+  },
+  {
+    "Index": 33022,
+    "CodeName": "Monster.Guardian.EraserElite",
+    "Race": "Guardian",
+    "AttrType": [
+      "Magical"
+    ],
+    "PositionWeight": 1500,
+    "MoveSpeed": 575,
+    "MinDamageRate": 200,
+    "IgnoreCc": [
+      "False"
+    ],
+    "SizeMm": 1100,
+    "HeightMm": 2100,
+    "GradeStoneItemCode": "NO_ITEM",
+    "StarStoneItemCode": "NO_ITEM",
+    "BaseSkillIndex": 3302200,
+    "SkillIndex1": 3302210,
+    "SkillIndex2": 3302220
+  },
+  {
+    "Index": 33023,
+    "CodeName": "Monster.Guardian.EraserSuperElite",
+    "Race": "Guardian",
+    "AttrType": [
+      "Magical"
+    ],
+    "PositionWeight": 3000,
+    "MoveSpeed": 575,
+    "MinDamageRate": 200,
+    "IgnoreCc": [
+      "False"
+    ],
+    "SizeMm": 1100,
+    "HeightMm": 2100,
+    "GradeStoneItemCode": "NO_ITEM",
+    "StarStoneItemCode": "NO_ITEM",
+    "BaseSkillIndex": 3302300,
+    "SkillIndex1": 3302310,
+    "SkillIndex2": 3302320,
+    "SkillIndex3": 3302330
+  },
+  {
+    "Index": 33024,
+    "CodeName": "Monster.Guardian.Remor",
+    "Race": "Guardian",
+    "AttrType": [
+      "Magical"
+    ],
+    "MoveSpeed": 575,
+    "MinDamageRate": 200,
+    "IgnoreCc": [
+      "False"
+    ],
+    "SizeMm": 1100,
+    "HeightMm": 2100,
+    "GradeStoneItemCode": "NO_ITEM",
+    "StarStoneItemCode": "NO_ITEM",
+    "BaseSkillIndex": 3302400,
+    "SkillIndex1": 3302410
+  },
+  {
+    "Index": 33025,
+    "CodeName": "Monster.Guardian.RemorElite",
+    "Race": "Guardian",
+    "AttrType": [
+      "Magical"
+    ],
+    "PositionWeight": 1500,
+    "MoveSpeed": 575,
+    "MinDamageRate": 200,
+    "IgnoreCc": [
+      "False"
+    ],
+    "SizeMm": 1100,
+    "HeightMm": 2100,
+    "GradeStoneItemCode": "NO_ITEM",
+    "StarStoneItemCode": "NO_ITEM",
+    "BaseSkillIndex": 3302500,
+    "SkillIndex1": 3302510,
+    "SkillIndex2": 3302520
+  },
+  {
+    "Index": 33026,
+    "CodeName": "Monster.Guardian.RemorSuperElite",
+    "Race": "Guardian",
+    "AttrType": [
+      "Magical"
+    ],
+    "PositionWeight": 3000,
+    "MoveSpeed": 575,
+    "MinDamageRate": 200,
+    "IgnoreCc": [
+      "False"
+    ],
+    "SizeMm": 1100,
+    "HeightMm": 2100,
+    "GradeStoneItemCode": "NO_ITEM",
+    "StarStoneItemCode": "NO_ITEM",
+    "BaseSkillIndex": 3302600,
+    "SkillIndex1": 3302610,
+    "SkillIndex2": 3302620,
+    "SkillIndex3": 3302630
+  },
+  {
+    "Index": 33027,
+    "CodeName": "Boss.KibehOd",
+    "Race": "Guardian",
+    "AttrType": [
+      "Physical"
+    ],
+    "PositionWeight": 5000,
+    "MoveSpeed": 575,
+    "MinDamageRate": 200,
+    "IgnoreCc": [
+      "False"
+    ],
+    "SizeMm": 1100,
+    "HeightMm": 2100,
+    "GradeStoneItemCode": "NO_ITEM",
+    "StarStoneItemCode": "NO_ITEM",
+    "BaseSkillIndex": 3302700,
+    "SkillIndex1": 3302710,
+    "SkillIndex2": 3302720,
+    "SkillIndex3": 3302730
+  },
+  {
+    "Index": 33028,
+    "CodeName": "Boss.Pancironne",
+    "ModelCode": "Hero.Pancironne",
+    "Race": "Hero",
+    "AttrType": [
+      "Physical"
+    ],
+    "PositionWeight": 5000,
+    "MoveSpeed": 575,
+    "MinDamageRate": 200,
+    "IgnoreCc": [
+      "False"
+    ],
+    "SizeMm": 1100,
+    "HeightMm": 2100,
+    "GradeStoneItemCode": "NO_ITEM",
+    "StarStoneItemCode": "NO_ITEM",
+    "BaseSkillIndex": 3302800,
+    "SkillIndex1": 3302810,
+    "SkillIndex2": 3302820,
+    "SkillIndex3": 3302830
+  },
+  {
+    "Index": 33029,
+    "CodeName": "Boss.Lucikiel",
+    "ModelCode": "Hero.Lucikiel",
+    "Race": "Hero",
+    "AttrType": [
+      "Magical"
+    ],
+    "PositionWeight": 5000,
+    "MoveSpeed": 575,
+    "MinDamageRate": 200,
+    "IgnoreCc": [
+      "False"
+    ],
+    "SizeMm": 1100,
+    "HeightMm": 2100,
+    "GradeStoneItemCode": "NO_ITEM",
+    "StarStoneItemCode": "NO_ITEM",
+    "BaseSkillIndex": 3302900,
+    "SkillIndex1": 3302910,
+    "SkillIndex2": 3302920,
+    "SkillIndex3": 3302930
   },
   {
     "Index": 64001,
@@ -37493,15 +38564,15 @@
   },
   {
     "Index": 99999,
-    "CodeName": "Monster.Empire.Gunner"
+    "CodeName": "Monster.StinkyGoblin"
   },
   {
     "Index": 99998,
-    "CodeName": "Monster.Empire.Knight"
+    "CodeName": "Hero.Pancironne"
   },
   {
     "Index": 99997,
-    "CodeName": "Monster.Empire.Swordsman"
+    "CodeName": "Hero.Lucikiel"
   },
   {
     "Index": 99996,
@@ -37513,7 +38584,7 @@
   },
   {
     "Index": 99994,
-    "CodeName": "Monster.Slime.WarriorRotten"
+    "CodeName": "Boss.BlackKnightKyle"
   },
   {
     "Index": 99993,
@@ -37526,22 +38597,6 @@
   {
     "Index": 99991,
     "CodeName": "NPC.Monolith"
-  },
-  {
-    "Index": 99990,
-    "CodeName": "Monster.Guardian.Golem"
-  },
-  {
-    "Index": 99989,
-    "CodeName": "Monster.Guardian.Eraser"
-  },
-  {
-    "Index": 99988,
-    "CodeName": "Monster.Guardian.EraserElite"
-  },
-  {
-    "Index": 99987,
-    "CodeName": "Monster.Guardian.EraserSuperElite"
   },
   {
     "Index": 999001,

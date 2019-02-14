@@ -14601,6 +14601,34 @@
     "OperationMaxAccCount2": 1
   },
   {
+    "Index": 550398,
+    "TriggerType": "OnWaveStart",
+    "TriggerRatio": 1000,
+    "AttrType": "Magical",
+    "TargetType": "Enemy",
+    "DeadTarget": "False",
+    "IgnoreBlock": "True",
+    "RetargetOnFire": "False",
+    "OperationType1": "SetSkill",
+    "OperationTargetType1": "Target",
+    "OperationValue1": [
+      "5520",
+      "1",
+      "Value",
+      "0"
+    ],
+    "OperationDurationMs1": 9999999,
+    "OperationType2": "SetSkill",
+    "OperationTargetType2": "Target",
+    "OperationValue2": [
+      "5515",
+      "1",
+      "Width",
+      "1400"
+    ],
+    "OperationDurationMs2": 9999999
+  },
+  {
     "Index": 550399,
     "TriggerType": "OnWaveStart",
     "TriggerRatio": 1000,

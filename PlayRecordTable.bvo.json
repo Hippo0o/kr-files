@@ -115,6 +115,16 @@
     "DisplayType": "HeroCount"
   },
   {
+    "Index": 109,
+    "Category": "Hero",
+    "Title": "PLAY_RECORDS_HERO_90LEVEL",
+    "StateType": "HeroCountOfLevel",
+    "StateValue": [
+      "90"
+    ],
+    "DisplayType": "HeroCount"
+  },
+  {
     "Index": 103,
     "Category": "Hero",
     "Title": "PLAY_RECORDS_HERO_1TRANS",
@@ -481,23 +491,6 @@
     "DisplayType": "ActionCount"
   },
   {
-    "Index": 607,
-    "Category": "Battle",
-    "Title": "PLAY_RECORDS_RAID_RED_LEVEL",
-    "ActionType": "ClearDungeon",
-    "ActionCalculateType": "Max",
-    "ActionValueAttribute": "RaidLevel",
-    "ConditionKey1": "RaidIndex",
-    "ConditionCompare1": "In",
-    "ConditionValue1": [
-      "1",
-      "101",
-      "11",
-      "21"
-    ],
-    "DisplayType": "RaidBossLevel"
-  },
-  {
     "Index": 608,
     "Category": "Battle",
     "Title": "PLAY_RECORDS_RAID_POISON_CLEAR",
@@ -513,23 +506,6 @@
       "23"
     ],
     "DisplayType": "ActionCount"
-  },
-  {
-    "Index": 609,
-    "Category": "Battle",
-    "Title": "PLAY_RECORDS_RAID_POISON_LEVEL",
-    "ActionType": "ClearDungeon",
-    "ActionCalculateType": "Max",
-    "ActionValueAttribute": "RaidLevel",
-    "ConditionKey1": "RaidIndex",
-    "ConditionCompare1": "In",
-    "ConditionValue1": [
-      "3",
-      "103",
-      "13",
-      "23"
-    ],
-    "DisplayType": "RaidBossLevel"
   },
   {
     "Index": 610,
@@ -549,23 +525,6 @@
     "DisplayType": "ActionCount"
   },
   {
-    "Index": 611,
-    "Category": "Battle",
-    "Title": "PLAY_RECORDS_RAID_FROST_LEVEL",
-    "ActionType": "ClearDungeon",
-    "ActionCalculateType": "Max",
-    "ActionValueAttribute": "RaidLevel",
-    "ConditionKey1": "RaidIndex",
-    "ConditionCompare1": "In",
-    "ConditionValue1": [
-      "2",
-      "102",
-      "12",
-      "22"
-    ],
-    "DisplayType": "RaidBossLevel"
-  },
-  {
     "Index": 612,
     "Category": "Battle",
     "Title": "PLAY_RECORDS_RAID_BLACK_CLEAR",
@@ -581,23 +540,6 @@
       "24"
     ],
     "DisplayType": "ActionCount"
-  },
-  {
-    "Index": 613,
-    "Category": "Battle",
-    "Title": "PLAY_RECORDS_RAID_BLACK_LEVEL",
-    "ActionType": "ClearDungeon",
-    "ActionCalculateType": "Max",
-    "ActionValueAttribute": "RaidLevel",
-    "ConditionKey1": "RaidIndex",
-    "ConditionCompare1": "In",
-    "ConditionValue1": [
-      "4",
-      "104",
-      "14",
-      "24"
-    ],
-    "DisplayType": "RaidBossLevel"
   },
   {
     "Index": 614,
