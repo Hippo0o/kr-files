@@ -14110,6 +14110,11 @@
     "OperationRadiusMm1": 4500,
     "OperationValue1": [
       "1000"
+    ],
+    "OperationDelayMs1": [
+      "1200",
+      "0",
+      "0"
     ]
   },
   {
@@ -14132,7 +14137,7 @@
     "OperationValue1": [
       "-500"
     ],
-    "OperationState1": "Negative2",
+    "OperationState1": 60009611,
     "OperationDurationMs1": 5000
   },
   {
@@ -14200,7 +14205,7 @@
     "Index": 60009631,
     "TriggerType": "OnAttack",
     "TriggerValue": [
-      "9630",
+      "9630;9634",
       "None",
       "Dot"
     ],
@@ -14324,7 +14329,13 @@
       "8720",
       "5"
     ],
-    "OperationConditionType1": "None"
+    "OperationConditionType1": "None",
+    "OperationType2": "ModSkillEnabled",
+    "OperationTargetType2": "Myself",
+    "OperationValue2": [
+      "8720",
+      "6"
+    ]
   },
   {
     "Index": 60008721,
@@ -14342,7 +14353,7 @@
       "8720",
       "2",
       "DurationMs",
-      "1000"
+      "500"
     ],
     "OperationType2": "ModSkill",
     "OperationTargetType2": "Myself",
@@ -14350,7 +14361,7 @@
       "8720",
       "4",
       "DurationMs",
-      "1000"
+      "500"
     ]
   },
   {
@@ -14366,7 +14377,7 @@
     "OperationType1": "ModSkillEnabled",
     "OperationTargetType1": "Myself",
     "OperationValue1": [
-      "8720",
+      "8730",
       "5"
     ]
   },
@@ -14442,7 +14453,7 @@
       "2",
       "Value",
       "-200",
-      "1"
+      "2"
     ]
   }
 ]

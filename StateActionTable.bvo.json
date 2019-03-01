@@ -202,5 +202,20 @@
     "ActionValue2": [
       "NiaStack"
     ]
+  },
+  {
+    "StateType": "Swamp",
+    "ConditionType": "StackCountEqual",
+    "ConditionValue": [
+      "10"
+    ],
+    "ActionType1": "UseSkill",
+    "ActionValue1": [
+      "3300008"
+    ],
+    "ActionType2": "ClearState",
+    "ActionValue2": [
+      "Swamp"
+    ]
   }
 ]

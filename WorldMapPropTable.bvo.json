@@ -452,6 +452,54 @@
     ]
   },
   {
+    "ChapterIndex": 9,
+    "PositionX": -818,
+    "PositionY": -1464,
+    "Scale": 100,
+    "PropType": "Prefab",
+    "PropName": "DefaultLabel_3",
+    "PropAction": [
+      "SetText",
+      "LabelName",
+      "0",
+      "PARTY_DUNGEON_CHAPTER9",
+      "30",
+      "000000"
+    ]
+  },
+  {
+    "ChapterIndex": 9,
+    "PositionX": -1727,
+    "PositionY": 1216,
+    "Scale": 100,
+    "PropType": "Prefab",
+    "PropName": "DefaultLabel_XP",
+    "PropAction": [
+      "SetText",
+      "LabelName",
+      "0",
+      "NODE_HUNTING_NAME",
+      "30",
+      "000000"
+    ]
+  },
+  {
+    "ChapterIndex": 9,
+    "PositionX": 170,
+    "PositionY": -388,
+    "Scale": 100,
+    "PropType": "Prefab",
+    "PropName": "DefaultLabel_3",
+    "PropAction": [
+      "SetText",
+      "LabelName",
+      "0",
+      "NODE_MULTIDUNGEON_NAME",
+      "30",
+      "000000"
+    ]
+  },
+  {
     "ChapterIndex": 1,
     "PositionX": 709,
     "PositionY": 185,
@@ -574,6 +622,20 @@
     "ConditionArgs": [
       "8",
       "26",
+      "true"
+    ]
+  },
+  {
+    "ChapterIndex": 9,
+    "PositionX": -822,
+    "PositionY": -1382,
+    "Scale": 60,
+    "PropType": "WorldEffect",
+    "PropName": "UI.WorldMap.Indicator.Fraction",
+    "ConditionType": "ClearDungeon",
+    "ConditionArgs": [
+      "9",
+      "23",
       "true"
     ]
   },
@@ -1090,6 +1152,66 @@
     "Scale": 100,
     "PropType": "Prefab",
     "PropName": "TimeReduction_Item",
+    "PropAction": [
+      "SetLayer",
+      "Bottom3DUI"
+    ]
+  },
+  {
+    "ChapterIndex": 9,
+    "PositionX": -200,
+    "PositionY": 950,
+    "Scale": 100,
+    "PropType": "Prefab",
+    "PropName": "TimeReduction_Item",
+    "PropAction": [
+      "SetLayer",
+      "Bottom3DUI"
+    ]
+  },
+  {
+    "ChapterIndex": 9,
+    "PositionX": 1100,
+    "PositionY": 450,
+    "Scale": 100,
+    "PropType": "Prefab",
+    "PropName": "TimeReduction_XP",
+    "PropAction": [
+      "SetLayer",
+      "Bottom3DUI"
+    ]
+  },
+  {
+    "ChapterIndex": 9,
+    "PositionX": -250,
+    "PositionY": -150,
+    "Scale": 100,
+    "PropType": "Prefab",
+    "PropName": "TimeReduction_Gold",
+    "PropAction": [
+      "SetLayer",
+      "Bottom3DUI"
+    ]
+  },
+  {
+    "ChapterIndex": 9,
+    "PositionX": 1200,
+    "PositionY": -650,
+    "Scale": 100,
+    "PropType": "Prefab",
+    "PropName": "TimeReduction_Item",
+    "PropAction": [
+      "SetLayer",
+      "Bottom3DUI"
+    ]
+  },
+  {
+    "ChapterIndex": 9,
+    "PositionX": 395,
+    "PositionY": -458,
+    "Scale": 100,
+    "PropType": "Prefab",
+    "PropName": "TimeReduction_Party",
     "PropAction": [
       "SetLayer",
       "Bottom3DUI"

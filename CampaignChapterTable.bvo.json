@@ -667,6 +667,53 @@
     "MaxDifficulty": "Hell"
   },
   {
+    "Index": 9,
+    "Name": "MAP_GARGOSS_SWAMP",
+    "Type": "WorldMap",
+    "MainField": "True",
+    "NodeOpenEffect": "True",
+    "CheckNodeVisitable": "True",
+    "IsOpen": "True",
+    "Map": "Map09",
+    "MapSizeX": 4096,
+    "MapSizeY": 4096,
+    "StartNodeIndex": 28,
+    "UserStatType": [
+      "Gold"
+    ],
+    "StaminaType": "Chicken",
+    "OccurRaid": "True",
+    "BgmCode": "BGM2.Map.Chapter9",
+    "BasePortalImageName": "ChapterMap.KradForest",
+    "ReqChapterIndex": 8,
+    "ReqDungeonIndex": 26,
+    "ReqDungeonDifficulty": "Easy",
+    "EasyRewardType": "Gold",
+    "EasyRewardCount": 20000000,
+    "NormalRewardType": "Item",
+    "NormalRewardCode": "INFINITYSTONE_1",
+    "NormalRewardCount": 5,
+    "HardRewardType": "Gem",
+    "HardRewardCount": 1500,
+    "HellRewardType": "Item",
+    "HellRewardCode": "TREASURE_UNIQUE_SELECT_ITEM",
+    "HellRewardCount": 1,
+    "HellMode_ReqChapterIndex": 9,
+    "HellMode_ReqDungeonIndex": 23,
+    "HellMode_ReqDungeonDifficulty": "Hell",
+    "NormalEquipGachaTable": "NormalGachaItemTable8",
+    "BonusNormalEquipGachaTable": "BonusNormalGachaItemTable8",
+    "HighEquipGachaTable": "HighGachaItemTable8",
+    "BonusHighEquipGachaTable": "BonusHighGachaItemTable8",
+    "ShowMenuButtons": [
+      "ScenarioQuest",
+      "Attendance5Days",
+      "GPGS",
+      "AttendanceReturn5Days"
+    ],
+    "MaxDifficulty": "Hard"
+  },
+  {
     "Index": 101,
     "Name": "PARTY_DUNGEON_CHAPTER1",
     "Type": "WorldMap",
@@ -904,6 +951,82 @@
       "ScenarioQuest",
       "Attendance5Days",
       "FractionInfo",
+      "GPGS",
+      "AttendanceReturn5Days"
+    ]
+  },
+  {
+    "Index": 109,
+    "Name": "PARTY_DUNGEON_CHAPTER9",
+    "Type": "WorldMap",
+    "CheckNodeVisitable": "TRUE",
+    "IsOpen": "TRUE",
+    "Map": "Chapter9_Dungeon",
+    "MapSizeX": 4096,
+    "MapSizeY": 2048,
+    "StartNodeIndex": 1,
+    "UserStatType": [
+      "Gold"
+    ],
+    "StaminaType": "HideoutKey",
+    "BgmCode": "BGM2.Battle.Chapter9.Ruin",
+    "BasePortalImageName": "ChapterMap.KradForest",
+    "ReqChapterIndex": 9,
+    "ReqDungeonIndex": 23,
+    "ReqDungeonDifficulty": "Easy",
+    "ShowMenuButtons": [
+      "ScenarioQuest",
+      "Attendance5Days",
+      "FractionInfo",
+      "GPGS",
+      "AttendanceReturn5Days"
+    ]
+  },
+  {
+    "Index": 95,
+    "Name": "TOWN_TEXT",
+    "Type": "WorldMap",
+    "IsOpen": "TRUE",
+    "Map": "Chapter9_5",
+    "MapSizeX": 4096,
+    "MapSizeY": 2048,
+    "StartNodeIndex": 1,
+    "ForcedAvatarIndex": 100001,
+    "UserStatType": [
+      "Gold"
+    ],
+    "StaminaType": "Chicken",
+    "BgmCode": "BGM2.Battle.Chapter9-5.OrvelRuin",
+    "ReqChapterIndex": 9,
+    "ReqDungeonIndex": 23,
+    "ReqDungeonDifficulty": "Easy",
+    "ShowMenuButtons": [
+      "ScenarioQuest",
+      "Attendance5Days",
+      "GPGS",
+      "AttendanceReturn5Days"
+    ]
+  },
+  {
+    "Index": 96,
+    "Name": "TOWN_TEXT",
+    "Type": "WorldMap",
+    "IsOpen": "TRUE",
+    "Map": "Town",
+    "MapSizeX": 4096,
+    "MapSizeY": 2048,
+    "StartNodeIndex": 1,
+    "UserStatType": [
+      "Gold"
+    ],
+    "StaminaType": "Chicken",
+    "BgmCode": "BGM2.Battle.Chapter9-5.OrvelRuin",
+    "ReqChapterIndex": 9,
+    "ReqDungeonIndex": 23,
+    "ReqDungeonDifficulty": "Easy",
+    "ShowMenuButtons": [
+      "ScenarioQuest",
+      "Attendance5Days",
       "GPGS",
       "AttendanceReturn5Days"
     ]
@@ -2665,6 +2788,20 @@
     "Description": "TRIAL_HERO_CHASE_TEXT"
   },
   {
+    "Index": 10087,
+    "Name": "HERO_GLENWYS",
+    "Type": "Trial",
+    "IsOpen": "TRUE",
+    "Map": "Map01",
+    "MapSizeX": 4096,
+    "MapSizeY": 4096,
+    "UserStatType": [
+      "Gold"
+    ],
+    "StaminaType": "None",
+    "Description": "TRIAL_HERO_GLENWYS_TEXT"
+  },
+  {
     "Index": 10090,
     "Name": "HERO_MAY",
     "Type": "Trial",
@@ -2747,6 +2884,20 @@
     ],
     "StaminaType": "None",
     "Description": "TRIAL_HERO_NICKY_TEXT"
+  },
+  {
+    "Index": 10096,
+    "Name": "HERO_DOSARTA",
+    "Type": "Trial",
+    "IsOpen": "TRUE",
+    "Map": "Map01",
+    "MapSizeX": 4096,
+    "MapSizeY": 4096,
+    "UserStatType": [
+      "Gold"
+    ],
+    "StaminaType": "None",
+    "Description": "TRIAL_HERO_DOSARTA_TEXT"
   },
   {
     "Index": 20001,

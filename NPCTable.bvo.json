@@ -764,6 +764,12 @@
       "OpenShop",
       "Normal"
     ],
+    "EntryMenuButton2": [
+      "SHOP_NAME_MAIGEMSHOP",
+      "OpenShop",
+      "MaiGemShop"
+    ],
+    "EntryMenuCondition2": "EventExist,EventShop,MaiGemShop",
     "BottomEntryMenuButton1": [
       "MENU_NPC_GIFT",
       "OpenNPCRecruiteView",
@@ -1616,6 +1622,8 @@
   },
   {
     "Code": "ChallengeTower",
+    "HeroIndex": 96,
+    "ShowHeroBuffIcon": "True",
     "OnOpenEntryMenu": [
       "NPC_TOWEROFCHALLENGE_WELCOME01",
       " NPC.TowerOfChallenge.Welcome01",
@@ -1673,6 +1681,12 @@
     "EntryMenuEvent3": [
       "DropBonusEvent",
       "EventShop;ChallengeTowerShop;EventWidget"
+    ],
+    "BottomEntryMenuButton1": [
+      "MENU_NPC_GIFT",
+      "OpenNPCRecruiteView",
+      "GiftButton",
+      "Recruit"
     ],
     "CreatureIndex": 818,
     "NpcOffset": [
@@ -2319,6 +2333,146 @@
     "CreatureIndex": 32202,
     "NpcAngle": -45,
     "NpcScale": 80
+  },
+  {
+    "Code": "ChapterBoss900",
+    "CreatureIndex": 33008,
+    "NpcOffset": [
+      "-80",
+      "60"
+    ],
+    "NpcAngle": -45,
+    "NpcScale": 140
+  },
+  {
+    "Code": "ChapterBoss901",
+    "CreatureIndex": 33011,
+    "NpcOffset": [
+      "-60",
+      "60"
+    ],
+    "NpcAngle": -45,
+    "NpcScale": 100
+  },
+  {
+    "Code": "ChapterBoss902",
+    "CreatureIndex": 33113,
+    "NpcOffset": [
+      "0",
+      "80"
+    ],
+    "NpcAngle": -90,
+    "NpcScale": 120
+  },
+  {
+    "Code": "ChapterBoss903",
+    "CreatureIndex": 33214,
+    "NpcOffset": [
+      "-10",
+      "90"
+    ],
+    "NpcAngle": -80,
+    "NpcScale": 120
+  },
+  {
+    "Code": "ChapterBoss904",
+    "CreatureIndex": 33027,
+    "NpcOffset": [
+      "-30",
+      "55"
+    ],
+    "NpcAngle": -65,
+    "NpcScale": 60
+  },
+  {
+    "Code": "ChapterMonster901",
+    "CreatureIndex": 33002,
+    "NpcOffset": [
+      "-80",
+      "80"
+    ],
+    "NpcAngle": -45,
+    "NpcScale": 100
+  },
+  {
+    "Code": "Chapter9Dungeon1",
+    "CreatureIndex": 33212,
+    "NpcOffset": [
+      "0",
+      "50"
+    ],
+    "NpcAngle": -60,
+    "NpcScale": 100
+  },
+  {
+    "Code": "Chapter9Dungeon2",
+    "CreatureIndex": 33213,
+    "NpcOffset": [
+      "0",
+      "50"
+    ],
+    "NpcAngle": -60,
+    "NpcScale": 100
+  },
+  {
+    "Code": "Chapter9Dungeon3",
+    "CreatureIndex": 33214,
+    "NpcOffset": [
+      "0",
+      "50"
+    ],
+    "NpcAngle": -60,
+    "NpcScale": 100
+  },
+  {
+    "Code": "Chapter9Dungeon4",
+    "CreatureIndex": 33017,
+    "NpcOffset": [
+      "0",
+      "50"
+    ],
+    "NpcAngle": -60,
+    "NpcScale": 80
+  },
+  {
+    "Code": "Chapter9Dungeon5",
+    "CreatureIndex": 33020,
+    "NpcOffset": [
+      "0",
+      "100"
+    ],
+    "NpcAngle": -30,
+    "NpcScale": 90
+  },
+  {
+    "Code": "Chapter9Dungeon6",
+    "CreatureIndex": 33023,
+    "NpcOffset": [
+      "0",
+      "50"
+    ],
+    "NpcAngle": -120,
+    "NpcScale": 100
+  },
+  {
+    "Code": "Chapter9Dungeon7",
+    "CreatureIndex": 33026,
+    "NpcOffset": [
+      "0",
+      "50"
+    ],
+    "NpcAngle": -120,
+    "NpcScale": 60
+  },
+  {
+    "Code": "Chapter9Multi",
+    "CreatureIndex": 33033,
+    "NpcOffset": [
+      "-100",
+      "50"
+    ],
+    "NpcAngle": -60,
+    "NpcScale": 160
   },
   {
     "Code": "GuildRaidBoss1",

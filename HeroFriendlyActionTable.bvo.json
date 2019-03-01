@@ -5025,6 +5025,81 @@
     ]
   },
   {
+    "HeroIndex": 87,
+    "BaseSpeak": [
+      "INN_GLENWYS_INNIDLE01"
+    ],
+    "Action1": "Greeting",
+    "ActionResponse1": [
+      "INN_GLENWYS_GREETING01",
+      "InnReaction.Glenwys01",
+      " InnReaction"
+    ],
+    "Action2": "Conversation",
+    "ActionResponse2": [
+      "INN_GLENWYS_CONVERSATION01",
+      "InnReaction.Glenwys01",
+      " InnReaction",
+      "\nINN_GLENWYS_CONVERSATION02",
+      "InnReaction.Glenwys01",
+      " InnReaction",
+      "\nINN_GLENWYS_CONVERSATION03",
+      "InnReaction.Glenwys01",
+      " InnReaction"
+    ],
+    "Action3": "Gift",
+    "ActionResponse3": [
+      "INN_GLENWYS_GIFT01",
+      "InnReaction.Glenwys01",
+      " InnReaction"
+    ],
+    "Action4": "Closeness_Greeting",
+    "ActionResponse4": [
+      "INN_GLENWYS_GREETING02",
+      "InnReaction.Glenwys01",
+      " InnReaction"
+    ],
+    "Action5": "Closeness_Conversation",
+    "ActionResponse5": [
+      "INN_GLENWYS_CONVERSATION04",
+      "InnReaction.Glenwys01",
+      " InnReaction",
+      "\nINN_GLENWYS_CONVERSATION05",
+      "InnReaction.Glenwys01",
+      " InnReaction"
+    ],
+    "Action6": "Closeness_Gift",
+    "ActionResponse6": [
+      "INN_GLENWYS_GIFT02",
+      "InnReaction.Glenwys01",
+      " InnReaction"
+    ],
+    "Action1_MAX": "Greeting_Max",
+    "Response1_MAX": [
+      "INN_GLENWYS_CONNECT_GREETING_MAX",
+      " InnReaction.Glenwys01",
+      " InnReaction"
+    ],
+    "MaxAction1": "Connect_Talk_1",
+    "MaxResponse1": [
+      "INN_GLENWYS_CONNECT_CONVERSATION01",
+      " InnReaction.Glenwys01",
+      " InnReaction"
+    ],
+    "MaxAction2": "Connect_Talk_2",
+    "MaxResponse2": [
+      "INN_GLENWYS_CONNECT_CONVERSATION02",
+      " InnReaction.Glenwys01",
+      " InnReaction"
+    ],
+    "MaxAction3": "Connect_Talk_3",
+    "MaxResponse3": [
+      "INN_GLENWYS_CONNECT_CONVERSATION03",
+      " InnReaction.Glenwys01",
+      " InnReaction"
+    ]
+  },
+  {
     "HeroIndex": 90,
     "BaseSpeak": [
       "INN_MAY_INNIDLE01"
@@ -5471,6 +5546,81 @@
     "MaxResponse3": [
       "INN_NICKY_CONNECT_CONVERSATION03",
       " InnReaction.NICKY01",
+      " InnReaction"
+    ]
+  },
+  {
+    "HeroIndex": 96,
+    "BaseSpeak": [
+      "INN_DOSARTA_INNIDLE01"
+    ],
+    "Action1": "Greeting",
+    "ActionResponse1": [
+      "INN_DOSARTA_GREETING01",
+      "InnReaction.DOSARTA01",
+      " InnReaction"
+    ],
+    "Action2": "Conversation",
+    "ActionResponse2": [
+      "INN_DOSARTA_CONVERSATION01",
+      "InnReaction.DOSARTA01",
+      " InnReaction",
+      "\nINN_DOSARTA_CONVERSATION02",
+      "InnReaction.DOSARTA01",
+      " InnReaction",
+      "\nINN_DOSARTA_CONVERSATION03",
+      "InnReaction.DOSARTA01",
+      " InnReaction"
+    ],
+    "Action3": "Gift",
+    "ActionResponse3": [
+      "INN_DOSARTA_GIFT01",
+      "InnReaction.DOSARTA01",
+      " InnReaction"
+    ],
+    "Action4": "Closeness_Greeting",
+    "ActionResponse4": [
+      "INN_DOSARTA_GREETING02",
+      "InnReaction.DOSARTA01",
+      " InnReaction"
+    ],
+    "Action5": "Closeness_Conversation",
+    "ActionResponse5": [
+      "INN_DOSARTA_CONVERSATION04",
+      "InnReaction.DOSARTA01",
+      " InnReaction",
+      "\nINN_DOSARTA_CONVERSATION05",
+      "InnReaction.DOSARTA01",
+      " InnReaction"
+    ],
+    "Action6": "Closeness_Gift",
+    "ActionResponse6": [
+      "INN_DOSARTA_GIFT02",
+      "InnReaction.DOSARTA01",
+      " InnReaction"
+    ],
+    "Action1_MAX": "Greeting_Max",
+    "Response1_MAX": [
+      "INN_DOSARTA_CONNECT_GREETING_MAX",
+      " InnReaction.DOSARTA01",
+      " InnReaction"
+    ],
+    "MaxAction1": "Connect_Talk_1",
+    "MaxResponse1": [
+      "INN_DOSARTA_CONNECT_CONVERSATION01",
+      " InnReaction.DOSARTA01",
+      " InnReaction"
+    ],
+    "MaxAction2": "Connect_Talk_2",
+    "MaxResponse2": [
+      "INN_DOSARTA_CONNECT_CONVERSATION02",
+      " InnReaction.DOSARTA01",
+      " InnReaction"
+    ],
+    "MaxAction3": "Connect_Talk_3",
+    "MaxResponse3": [
+      "INN_DOSARTA_CONNECT_CONVERSATION03",
+      " InnReaction.DOSARTA01",
       " InnReaction"
     ]
   }

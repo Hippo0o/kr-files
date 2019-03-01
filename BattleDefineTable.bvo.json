@@ -18,7 +18,7 @@
     "BattleMenu": "TimeStatus, SystemButton, SystemButtonAuto, WaveStatus, LootingStatus, Retry, DamageMeter, HeroParty, Hud, BoosterStatus, QuestStatus, Chat, EmoticonPopup"
   },
   {
-    "Code": "Campaign_8",
+    "Code": "Campaign_8_Single",
     "MaxTime": 180,
     "ExtraTime": 240,
     "AutoRepeatStarCount": 1,
@@ -29,6 +29,33 @@
       "Lose"
     ],
     "BattleMenu": "TimeStatus, SystemButton, SystemButtonAuto, WaveStatus, LootingStatus, Retry, DamageMeter, HeroParty, Hud, BoosterStatus, QuestStatus, Chat, EmoticonPopup"
+  },
+  {
+    "Code": "Campaign_Chapter9",
+    "MaxTime": 60,
+    "ExtraTime": 300,
+    "AutoRepeatStarCount": 1,
+    "ApplyLevelPenalty": "FALSE",
+    "DamageMeterFlag": "ShowAll",
+    "RetryCondition": [
+      "Win",
+      "Lose"
+    ],
+    "BattleMenu": "TimeStatus, SystemButton, SystemButtonAuto, WaveStatus, LootingStatus, Retry, DamageMeter, HeroParty, Hud, BoosterStatus, QuestStatus, Chat, EmoticonPopup"
+  },
+  {
+    "Code": "MulitOnly",
+    "MaxTime": 180,
+    "ExtraTime": 240,
+    "AutoRepeatStarCount": 1,
+    "ApplyLevelPenalty": "FALSE",
+    "DamageMeterFlag": "ShowAllPlayer",
+    "RetryCondition": [
+      "Win",
+      "Lose"
+    ],
+    "BattleMenu": "TimeStatus, SystemButton, SystemButtonAuto, WaveStatus, LootingStatus, Retry, DamageMeter, HeroParty, Hud, BoosterStatus, QuestStatus, Chat, EmoticonPopup",
+    "SkillCameraOff": "TRUE"
   },
   {
     "Code": "NonAuto",
@@ -318,6 +345,18 @@
     "BattleMenu": "SystemButton, SystemButtonAuto, WaveStatus, LootingStatus, Retry, DamageMeter, HeroParty, Hud, BoosterStatus, QuestStatus"
   },
   {
+    "Code": "Scenario_8",
+    "MaxTime": 999999,
+    "ExtraTime": 999999,
+    "AutoRepeatStarCount": 1,
+    "ApplyLevelPenalty": "FALSE",
+    "DamageMeterFlag": "ShowAi",
+    "RetryCondition": [
+      "Lose"
+    ],
+    "BattleMenu": "SystemButton, SystemButtonAuto, WaveStatus, LootingStatus, Retry, DamageMeter, HeroParty, Hud, BoosterStatus, QuestStatus"
+  },
+  {
     "Code": "GuildRaid",
     "MaxTime": 300,
     "ExtraTime": 30,
@@ -548,7 +587,7 @@
   },
   {
     "Code": "Campaign_SubStory",
-    "MaxTime": 90,
+    "MaxTime": 300,
     "ExtraTime": 240,
     "AutoRepeatStarCount": 99,
     "ApplyLevelPenalty": "FALSE",

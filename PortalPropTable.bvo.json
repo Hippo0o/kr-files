@@ -90,12 +90,23 @@
     ]
   },
   {
+    "ChapterIndex": "0",
+    "PositionX": 224,
+    "PositionY": -388,
+    "Scale": 100,
+    "PropType": "Effect",
+    "PropName": "UI.EventPopup",
+    "ConditionType": "BonusEvent",
+    "ConditionArgs": [
+      "EventShop",
+      "MaiGemShop"
+    ]
+  },
+  {
     "ChapterIndex": 99,
     "DungeonIndex": 8,
-    "ConditionType": "ShopRestockEffect",
+    "ConditionType": "BonusEvent",
     "ConditionArgs": [
-      "8",
-      "13",
       "EventShop",
       "MaiGemShop"
     ]

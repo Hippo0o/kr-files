@@ -7252,5 +7252,1107 @@
     "CreatureDirAngle": 15,
     "CameraHeightAdd": 3.5,
     "CameraAngleX": 5
+  },
+  {
+    "Group": 46,
+    "Step": 1,
+    "Title": "SCENARIO_QUEST_TITLE_4601_RE",
+    "DetailTitle": "SCENARIO_QUEST_DETAIL_TITLE_4601_RE",
+    "StateType": "DungeonCleared",
+    "StateValue": [
+      "9",
+      "1"
+    ],
+    "AutoComplete": "TRUE",
+    "MoveTaskType": "MoveToNode",
+    "MoveTaskValue": [
+      "9",
+      "1",
+      "True"
+    ],
+    "RewardIndex": 600670,
+    "DetailPopupDesc": "SCENARIO_QUEST_POPUP_DESC_4601_RE",
+    "DetailPopupImg": "Portrait/EventDungeon/Event_Halloween_Jane",
+    "CreatureIndex": 3,
+    "PreviewBg": "Chapter_9_Front",
+    "CreatureScale": 3.5,
+    "CreatureDirAngle": 15,
+    "CameraHeightAdd": 1.8,
+    "CameraAngleX": 5
+  },
+  {
+    "Group": 46,
+    "Step": 2,
+    "Title": "SCENARIO_QUEST_TITLE_4602_RE",
+    "DetailTitle": "SCENARIO_QUEST_DETAIL_TITLE_4602_RE",
+    "StateType": "EnterRaid",
+    "ReqProgress": 7,
+    "AutoComplete": "FALSE",
+    "ConditionKey1": "RaidIndex",
+    "ConditionCompare1": "In",
+    "ConditionValue1": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "11",
+      "12",
+      "13",
+      "14",
+      "21",
+      "22",
+      "23",
+      "24",
+      "101",
+      "102",
+      "103",
+      "104"
+    ],
+    "MoveTaskType": "OpenRaid",
+    "RewardIndex": 600671,
+    "DetailPopupDesc": "SCENARIO_QUEST_POPUP_DESC_4602_RE",
+    "DetailPopupImg": "Portrait/EventDungeon/Event_Halloween_Jane",
+    "CreatureIndex": 45,
+    "PreviewBg": "RaidBoss_BlackDragon",
+    "CreatureScale": 4,
+    "CreatureDirAngle": 15,
+    "CameraHeightAdd": "0.6",
+    "CameraAngleX": 5
+  },
+  {
+    "Group": 46,
+    "Step": 3,
+    "Title": "SCENARIO_QUEST_TITLE_4603_RE",
+    "DetailTitle": "SCENARIO_QUEST_DETAIL_TITLE_4603_RE",
+    "StateType": "Enchant",
+    "ReqProgress": 1,
+    "AutoComplete": "FALSE",
+    "MoveTaskType": "MoveToNode",
+    "MoveTaskValue": [
+      "99",
+      "9",
+      "True"
+    ],
+    "RewardIndex": 600672,
+    "DetailPopupDesc": "SCENARIO_QUEST_POPUP_DESC_4603_RE",
+    "DetailPopupImg": "Portrait/EventDungeon/Event_Halloween_Jane",
+    "CreatureIndex": 813,
+    "PreviewBg": "RaidBoss_RedDragon",
+    "CreatureScale": 4,
+    "CreatureDirAngle": -5,
+    "CameraHeightAdd": 3,
+    "CameraAngleX": 5
+  },
+  {
+    "Group": 46,
+    "Step": 4,
+    "Title": "SCENARIO_QUEST_TITLE_4604_RE",
+    "DetailTitle": "SCENARIO_QUEST_DETAIL_TITLE_4604_RE",
+    "StateType": "DungeonCleared",
+    "StateValue": [
+      "9",
+      "14"
+    ],
+    "AutoComplete": "TRUE",
+    "MoveTaskType": "MoveToNode",
+    "MoveTaskValue": [
+      "9",
+      "14",
+      "True"
+    ],
+    "RewardIndex": 600673,
+    "DetailPopupDesc": "SCENARIO_QUEST_POPUP_DESC_4604_RE",
+    "DetailPopupImg": "Portrait/EventDungeon/Event_Halloween_Jane",
+    "CreatureIndex": 3,
+    "PreviewBg": "Chapter_9_Back",
+    "CreatureScale": 3.5,
+    "CreatureDirAngle": 15,
+    "CameraHeightAdd": 1.8,
+    "CameraAngleX": 5
+  },
+  {
+    "Group": 46,
+    "Step": 5,
+    "Title": "SCENARIO_QUEST_TITLE_4605_RE",
+    "DetailTitle": "SCENARIO_QUEST_DETAIL_TITLE_4605_RE",
+    "StateType": "BreakEquip",
+    "ReqProgress": 5,
+    "AutoComplete": "False",
+    "MoveTaskType": "OpenInventory",
+    "MoveTaskValue": [
+      "Equip"
+    ],
+    "RewardIndex": 600674,
+    "DetailPopupDesc": "SCENARIO_QUEST_POPUP_DESC_4605_RE",
+    "DetailPopupImg": "Portrait/EventDungeon/Event_Halloween_Jane",
+    "CreatureIndex": 813,
+    "PreviewBg": "RaidBoss_RedDragon",
+    "CreatureScale": 4,
+    "CreatureDirAngle": -5,
+    "CameraHeightAdd": 3,
+    "CameraAngleX": 5
+  },
+  {
+    "Group": 46,
+    "Step": 6,
+    "Title": "SCENARIO_QUEST_TITLE_4606_RE",
+    "DetailTitle": "SCENARIO_QUEST_DETAIL_TITLE_4606_RE",
+    "StateType": "ExecEquipGacha",
+    "ReqProgress": 1,
+    "AutoComplete": "FALSE",
+    "MoveTaskType": "OpenPayShop",
+    "MoveTaskValue": [
+      "503"
+    ],
+    "RewardIndex": 600675,
+    "DetailPopupDesc": "SCENARIO_QUEST_POPUP_DESC_4606_RE",
+    "DetailPopupImg": "Portrait/EventDungeon/Event_Halloween_Jane",
+    "CreatureIndex": 2,
+    "PreviewBg": "Normal",
+    "CreatureScale": 4,
+    "CreatureDirAngle": 29,
+    "CameraHeightAdd": 1.8,
+    "CameraAngleX": 5
+  },
+  {
+    "Group": 47,
+    "Step": 1,
+    "Title": "SCENARIO_QUEST_TITLE_4701_RE",
+    "DetailTitle": "SCENARIO_QUEST_DETAIL_TITLE_4701_RE",
+    "StateType": "DungeonCleared",
+    "StateValue": [
+      "9",
+      "20"
+    ],
+    "AutoComplete": "TRUE",
+    "MoveTaskType": "MoveToNode",
+    "MoveTaskValue": [
+      "9",
+      "20",
+      "True"
+    ],
+    "RewardIndex": 600676,
+    "DetailPopupDesc": "SCENARIO_QUEST_POPUP_DESC_4701_RE",
+    "DetailPopupImg": "Portrait/EventDungeon/Event_Halloween_Jane",
+    "CreatureIndex": 3,
+    "PreviewBg": "Chapter_9_Back",
+    "CreatureScale": 3.5,
+    "CreatureDirAngle": 15,
+    "CameraHeightAdd": 1.8,
+    "CameraAngleX": 5
+  },
+  {
+    "Group": 47,
+    "Step": 2,
+    "Title": "SCENARIO_QUEST_TITLE_4702_RE",
+    "DetailTitle": "SCENARIO_QUEST_DETAIL_TITLE_4702_RE",
+    "StateType": "EnterArena",
+    "ReqProgress": 3,
+    "AutoComplete": "FALSE",
+    "MoveTaskType": "MoveToNode",
+    "MoveTaskValue": [
+      "99",
+      "4",
+      "True"
+    ],
+    "RewardIndex": 600677,
+    "DetailPopupDesc": "SCENARIO_QUEST_POPUP_DESC_4702_RE",
+    "DetailPopupImg": "Portrait/EventDungeon/Event_Halloween_Jane",
+    "CreatureIndex": 91,
+    "PreviewBg": "BanPick_Reward",
+    "CreatureScale": 4,
+    "CreatureDirAngle": 15,
+    "CameraHeightAdd": 1.8,
+    "CameraAngleX": 5
+  },
+  {
+    "Group": 47,
+    "Step": 3,
+    "Title": "SCENARIO_QUEST_TITLE_4703_RE",
+    "DetailTitle": "SCENARIO_QUEST_DETAIL_TITLE_4703_RE",
+    "StateType": "AwakenGear",
+    "ReqProgress": 3,
+    "AutoComplete": "FALSE",
+    "MoveTaskType": "MoveToNode",
+    "MoveTaskValue": [
+      "99",
+      "9",
+      "True"
+    ],
+    "RewardIndex": 600678,
+    "DetailPopupDesc": "SCENARIO_QUEST_POPUP_DESC_4703_RE",
+    "DetailPopupImg": "Portrait/EventDungeon/Event_Halloween_Jane",
+    "CreatureIndex": 813,
+    "PreviewBg": "RaidBoss_RedDragon",
+    "CreatureScale": 4,
+    "CreatureDirAngle": -5,
+    "CameraHeightAdd": 3,
+    "CameraAngleX": 5
+  },
+  {
+    "Group": 47,
+    "Step": 4,
+    "Title": "SCENARIO_QUEST_TITLE_4704_RE",
+    "DetailTitle": "SCENARIO_QUEST_DETAIL_TITLE_4704_RE",
+    "StateType": "DungeonCleared",
+    "StateValue": [
+      "9",
+      "23"
+    ],
+    "AutoComplete": "TRUE",
+    "MoveTaskType": "MoveToNode",
+    "MoveTaskValue": [
+      "9",
+      "23",
+      "True"
+    ],
+    "RewardIndex": 600679,
+    "DetailPopupDesc": "SCENARIO_QUEST_POPUP_DESC_4704_RE",
+    "DetailPopupImg": "Portrait/EventDungeon/Event_Halloween_Jane",
+    "CreatureIndex": 3,
+    "PreviewBg": "Chapter_9_Back",
+    "CreatureScale": 3.5,
+    "CreatureDirAngle": 15,
+    "CameraHeightAdd": 1.8,
+    "CameraAngleX": 5
+  },
+  {
+    "Group": 47,
+    "Step": 5,
+    "Title": "SCENARIO_QUEST_TITLE_4705_RE",
+    "DetailTitle": "SCENARIO_QUEST_DETAIL_TITLE_4705_RE",
+    "StateType": "ClearDungeon",
+    "AutoComplete": "False",
+    "ConditionKey1": "ChapterIndex",
+    "ConditionCompare1": "Equal",
+    "ConditionValue1": [
+      "9"
+    ],
+    "ConditionKey2": "DungeonIndex",
+    "ConditionCompare2": "Equal",
+    "ConditionValue2": [
+      "48"
+    ],
+    "ConditionKey3": "Difficulty",
+    "ConditionCompare3": "In",
+    "ConditionValue3": [
+      "1",
+      "2"
+    ],
+    "MoveTaskType": "MoveToNode",
+    "MoveTaskValue": [
+      "9",
+      "48",
+      "True"
+    ],
+    "RewardIndex": 600680,
+    "DetailPopupDesc": "SCENARIO_QUEST_POPUP_DESC_4705_RE",
+    "DetailPopupImg": "Portrait/EventDungeon/Event_Halloween_Jane",
+    "CreatureIndex": 3,
+    "PreviewBg": "Chapter_9_Back",
+    "CreatureScale": 3.5,
+    "CreatureDirAngle": 15,
+    "CameraHeightAdd": 1.8,
+    "CameraAngleX": 5
+  },
+  {
+    "Group": 47,
+    "Step": 6,
+    "Title": "SCENARIO_QUEST_TITLE_4706_RE",
+    "DetailTitle": "SCENARIO_QUEST_DETAIL_TITLE_4706_RE",
+    "StateType": "EnterRaid",
+    "ReqProgress": 7,
+    "AutoComplete": "FALSE",
+    "ConditionKey1": "RaidIndex",
+    "ConditionCompare1": "In",
+    "ConditionValue1": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "11",
+      "12",
+      "13",
+      "14",
+      "21",
+      "22",
+      "23",
+      "24",
+      "101",
+      "102",
+      "103",
+      "104"
+    ],
+    "MoveTaskType": "OpenRaid",
+    "RewardIndex": 600681,
+    "DetailPopupDesc": "SCENARIO_QUEST_POPUP_DESC_4706_RE",
+    "DetailPopupImg": "Portrait/EventDungeon/Event_Halloween_Jane",
+    "CreatureIndex": 45,
+    "PreviewBg": "RaidBoss_BlackDragon",
+    "CreatureScale": 4,
+    "CreatureDirAngle": 15,
+    "CameraHeightAdd": "0.6",
+    "CameraAngleX": 5
+  },
+  {
+    "Group": 48,
+    "Step": 1,
+    "Title": "SCENARIO_QUEST_TITLE_4801_RE",
+    "DetailTitle": "SCENARIO_QUEST_DETAIL_TITLE_4801_RE",
+    "StateType": "ClearDungeon",
+    "AutoComplete": "FALSE",
+    "ConditionKey1": "ChapterIndex",
+    "ConditionCompare1": "Equal",
+    "ConditionValue1": [
+      "9"
+    ],
+    "ConditionKey2": "DungeonIndex",
+    "ConditionCompare2": "Equal",
+    "ConditionValue2": [
+      "6"
+    ],
+    "ConditionKey3": "Difficulty",
+    "ConditionCompare3": "Equal",
+    "ConditionValue3": [
+      "1"
+    ],
+    "MoveTaskType": "MoveToNode",
+    "MoveTaskValue": [
+      "9",
+      "6",
+      "True"
+    ],
+    "RewardIndex": 600682,
+    "DetailPopupDesc": "SCENARIO_QUEST_POPUP_DESC_4801_RE",
+    "DetailPopupImg": "Portrait/EventDungeon/Event_Halloween_Jane",
+    "CreatureIndex": 3,
+    "PreviewBg": "Chapter_9_Front",
+    "CreatureScale": 3.5,
+    "CreatureDirAngle": 15,
+    "CameraHeightAdd": 1.8,
+    "CameraAngleX": 5
+  },
+  {
+    "Group": 48,
+    "Step": 2,
+    "Title": "SCENARIO_QUEST_TITLE_4802_RE",
+    "DetailTitle": "SCENARIO_QUEST_DETAIL_TITLE_4802_RE",
+    "StateType": "BuyShopItem",
+    "ConditionKey1": "ShopIndex",
+    "ConditionCompare1": "Equal",
+    "ConditionValue1": [
+      "1"
+    ],
+    "MoveTaskType": "MoveToNode",
+    "MoveTaskValue": [
+      "99",
+      "8",
+      "True"
+    ],
+    "RewardIndex": 600683,
+    "DetailPopupDesc": "SCENARIO_QUEST_POPUP_DESC_4802_RE",
+    "DetailPopupImg": "Portrait/EventDungeon/Event_Halloween_Jane",
+    "CreatureIndex": 90,
+    "PreviewBg": "Normal",
+    "CreatureScale": 4,
+    "CreatureDirAngle": 36,
+    "CameraHeightAdd": "0.4",
+    "CameraAngleX": 5
+  },
+  {
+    "Group": 48,
+    "Step": 3,
+    "Title": "SCENARIO_QUEST_TITLE_4803_RE",
+    "DetailTitle": "SCENARIO_QUEST_DETAIL_TITLE_4803_RE",
+    "StateType": "CraftItem",
+    "ReqProgress": 2,
+    "AutoComplete": "FALSE",
+    "ConditionKey1": "CraftIndex",
+    "ConditionCompare1": "Equal",
+    "ConditionValue1": [
+      "16"
+    ],
+    "MoveTaskType": "OpenInventory",
+    "MoveTaskValue": [
+      "Craft"
+    ],
+    "RewardIndex": 600684,
+    "DetailPopupDesc": "SCENARIO_QUEST_POPUP_DESC_4803_RE",
+    "DetailPopupImg": "Portrait/EventDungeon/Event_Halloween_Jane",
+    "CreatureIndex": 815,
+    "PreviewBg": "WorldBoss_Poseidon",
+    "CreatureScale": 4,
+    "CreatureDirAngle": 4,
+    "CameraHeightAdd": 1.8,
+    "CameraAngleX": 5
+  },
+  {
+    "Group": 48,
+    "Step": 4,
+    "Title": "SCENARIO_QUEST_TITLE_4804_RE",
+    "DetailTitle": "SCENARIO_QUEST_DETAIL_TITLE_4804_RE",
+    "StateType": "ClearDungeon",
+    "AutoComplete": "FALSE",
+    "ConditionKey1": "ChapterIndex",
+    "ConditionCompare1": "Equal",
+    "ConditionValue1": [
+      "9"
+    ],
+    "ConditionKey2": "DungeonIndex",
+    "ConditionCompare2": "Equal",
+    "ConditionValue2": [
+      "11"
+    ],
+    "ConditionKey3": "Difficulty",
+    "ConditionCompare3": "Equal",
+    "ConditionValue3": [
+      "1"
+    ],
+    "MoveTaskType": "MoveToNode",
+    "MoveTaskValue": [
+      "9",
+      "11",
+      "True"
+    ],
+    "RewardIndex": 600685,
+    "DetailPopupDesc": "SCENARIO_QUEST_POPUP_DESC_4804_RE",
+    "DetailPopupImg": "Portrait/EventDungeon/Event_Halloween_Jane",
+    "CreatureIndex": 3,
+    "PreviewBg": "Chapter_9_Front",
+    "CreatureScale": 3.5,
+    "CreatureDirAngle": 15,
+    "CameraHeightAdd": 1.8,
+    "CameraAngleX": 5
+  },
+  {
+    "Group": 48,
+    "Step": 5,
+    "Title": "SCENARIO_QUEST_TITLE_4805_RE",
+    "DetailTitle": "SCENARIO_QUEST_DETAIL_TITLE_4805_RE",
+    "StateType": "EnterArena",
+    "ReqProgress": 5,
+    "AutoComplete": "FALSE",
+    "MoveTaskType": "MoveToNode",
+    "MoveTaskValue": [
+      "99",
+      "4",
+      "True"
+    ],
+    "RewardIndex": 600686,
+    "DetailPopupDesc": "SCENARIO_QUEST_POPUP_DESC_4805_RE",
+    "DetailPopupImg": "Portrait/EventDungeon/Event_Halloween_Jane",
+    "CreatureIndex": 91,
+    "PreviewBg": "BanPick_Reward",
+    "CreatureScale": 4,
+    "CreatureDirAngle": 15,
+    "CameraHeightAdd": 1.8,
+    "CameraAngleX": 5
+  },
+  {
+    "Group": 48,
+    "Step": 6,
+    "Title": "SCENARIO_QUEST_TITLE_4806_RE",
+    "DetailTitle": "SCENARIO_QUEST_DETAIL_TITLE_4806_RE",
+    "StateType": "HeroCountOfTranscended",
+    "StateValue": [
+      "5"
+    ],
+    "ReqProgress": 15,
+    "AutoComplete": "TRUE",
+    "MoveTaskType": "MoveToNode",
+    "MoveTaskValue": [
+      "1",
+      "27",
+      "True"
+    ],
+    "RewardIndex": 600687,
+    "DetailPopupDesc": "SCENARIO_QUEST_POPUP_DESC_4806_RE",
+    "DetailPopupImg": "Portrait/EventDungeon/Event_Halloween_Jane",
+    "CreatureIndex": 809,
+    "PreviewBg": "BanPick_Reward",
+    "CreatureScale": 4,
+    "CreatureDirAngle": 15,
+    "CameraHeightAdd": 3.5,
+    "CameraAngleX": 5
+  },
+  {
+    "Group": 49,
+    "Step": 1,
+    "Title": "SCENARIO_QUEST_TITLE_4901_RE",
+    "DetailTitle": "SCENARIO_QUEST_DETAIL_TITLE_4901_RE",
+    "StateType": "ClearDungeon",
+    "AutoComplete": "FALSE",
+    "ConditionKey1": "ChapterIndex",
+    "ConditionCompare1": "Equal",
+    "ConditionValue1": [
+      "9"
+    ],
+    "ConditionKey2": "DungeonIndex",
+    "ConditionCompare2": "Equal",
+    "ConditionValue2": [
+      "17"
+    ],
+    "ConditionKey3": "Difficulty",
+    "ConditionCompare3": "Equal",
+    "ConditionValue3": [
+      "1"
+    ],
+    "MoveTaskType": "MoveToNode",
+    "MoveTaskValue": [
+      "9",
+      "17",
+      "True"
+    ],
+    "RewardIndex": 600688,
+    "DetailPopupDesc": "SCENARIO_QUEST_POPUP_DESC_4901_RE",
+    "DetailPopupImg": "Portrait/EventDungeon/Event_Halloween_Jane",
+    "CreatureIndex": 3,
+    "PreviewBg": "Chapter_9_Back",
+    "CreatureScale": 3.5,
+    "CreatureDirAngle": 15,
+    "CameraHeightAdd": 1.8,
+    "CameraAngleX": 5
+  },
+  {
+    "Group": 49,
+    "Step": 2,
+    "Title": "SCENARIO_QUEST_TITLE_4902_RE",
+    "DetailTitle": "SCENARIO_QUEST_DETAIL_TITLE_4902_RE",
+    "StateType": "UpgradeEquipOption",
+    "ReqProgress": 5,
+    "AutoComplete": "FALSE",
+    "MoveTaskType": "MoveToNode",
+    "MoveTaskValue": [
+      "99",
+      "9",
+      "True"
+    ],
+    "RewardIndex": 600689,
+    "DetailPopupDesc": "SCENARIO_QUEST_POPUP_DESC_4902_RE",
+    "DetailPopupImg": "Portrait/EventDungeon/Event_Halloween_Jane",
+    "CreatureIndex": 813,
+    "PreviewBg": "RaidBoss_RedDragon",
+    "CreatureScale": 4,
+    "CreatureDirAngle": -5,
+    "CameraHeightAdd": 3,
+    "CameraAngleX": 5
+  },
+  {
+    "Group": 49,
+    "Step": 3,
+    "Title": "SCENARIO_QUEST_TITLE_4903_RE",
+    "DetailTitle": "SCENARIO_QUEST_DETAIL_TITLE_4903_RE",
+    "StateType": "EnterRaid",
+    "ReqProgress": 7,
+    "AutoComplete": "FALSE",
+    "ConditionKey1": "RaidIndex",
+    "ConditionCompare1": "In",
+    "ConditionValue1": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "11",
+      "12",
+      "13",
+      "14",
+      "21",
+      "22",
+      "23",
+      "24",
+      "101",
+      "102",
+      "103",
+      "104"
+    ],
+    "MoveTaskType": "OpenRaid",
+    "RewardIndex": 600690,
+    "DetailPopupDesc": "SCENARIO_QUEST_POPUP_DESC_4903_RE",
+    "DetailPopupImg": "Portrait/EventDungeon/Event_Halloween_Jane",
+    "CreatureIndex": 45,
+    "PreviewBg": "RaidBoss_BlackDragon",
+    "CreatureScale": 4,
+    "CreatureDirAngle": 15,
+    "CameraHeightAdd": "0.6",
+    "CameraAngleX": 5
+  },
+  {
+    "Group": 49,
+    "Step": 4,
+    "Title": "SCENARIO_QUEST_TITLE_4904_RE",
+    "DetailTitle": "SCENARIO_QUEST_DETAIL_TITLE_4904_RE",
+    "StateType": "ClearDungeon",
+    "AutoComplete": "FALSE",
+    "ConditionKey1": "ChapterIndex",
+    "ConditionCompare1": "Equal",
+    "ConditionValue1": [
+      "9"
+    ],
+    "ConditionKey2": "DungeonIndex",
+    "ConditionCompare2": "Equal",
+    "ConditionValue2": [
+      "23"
+    ],
+    "ConditionKey3": "Difficulty",
+    "ConditionCompare3": "Equal",
+    "ConditionValue3": [
+      "1"
+    ],
+    "MoveTaskType": "MoveToNode",
+    "MoveTaskValue": [
+      "9",
+      "23",
+      "True"
+    ],
+    "RewardIndex": 600691,
+    "DetailPopupDesc": "SCENARIO_QUEST_POPUP_DESC_4904_RE",
+    "DetailPopupImg": "Portrait/EventDungeon/Event_Halloween_Jane",
+    "CreatureIndex": 3,
+    "PreviewBg": "Chapter_9_Back",
+    "CreatureScale": 3.5,
+    "CreatureDirAngle": 15,
+    "CameraHeightAdd": 1.8,
+    "CameraAngleX": 5
+  },
+  {
+    "Group": 49,
+    "Step": 5,
+    "Title": "SCENARIO_QUEST_TITLE_4905_RE",
+    "DetailTitle": "SCENARIO_QUEST_DETAIL_TITLE_4905_RE",
+    "StateType": "BreakEquip",
+    "ReqProgress": 7,
+    "AutoComplete": "False",
+    "MoveTaskType": "OpenInventory",
+    "MoveTaskValue": [
+      "Equip"
+    ],
+    "RewardIndex": 600692,
+    "DetailPopupDesc": "SCENARIO_QUEST_POPUP_DESC_4905_RE",
+    "DetailPopupImg": "Portrait/EventDungeon/Event_Halloween_Jane",
+    "CreatureIndex": 813,
+    "PreviewBg": "RaidBoss_RedDragon",
+    "CreatureScale": 4,
+    "CreatureDirAngle": -5,
+    "CameraHeightAdd": 3,
+    "CameraAngleX": 5
+  },
+  {
+    "Group": 49,
+    "Step": 6,
+    "Title": "SCENARIO_QUEST_TITLE_4906_RE",
+    "DetailTitle": "SCENARIO_QUEST_DETAIL_TITLE_4906_RE",
+    "StateType": "ClearDungeon",
+    "AutoComplete": "False",
+    "ConditionKey1": "ChapterIndex",
+    "ConditionCompare1": "Equal",
+    "ConditionValue1": [
+      "9"
+    ],
+    "ConditionKey2": "DungeonIndex",
+    "ConditionCompare2": "Equal",
+    "ConditionValue2": [
+      "48"
+    ],
+    "ConditionKey3": "Difficulty",
+    "ConditionCompare3": "In",
+    "ConditionValue3": [
+      "1",
+      "2"
+    ],
+    "MoveTaskType": "MoveToNode",
+    "MoveTaskValue": [
+      "9",
+      "48",
+      "True"
+    ],
+    "RewardIndex": 600693,
+    "DetailPopupDesc": "SCENARIO_QUEST_POPUP_DESC_4906_RE",
+    "DetailPopupImg": "Portrait/EventDungeon/Event_Halloween_Jane",
+    "CreatureIndex": 3,
+    "PreviewBg": "Chapter_9_Back",
+    "CreatureScale": 3.5,
+    "CreatureDirAngle": 15,
+    "CameraHeightAdd": 1.8,
+    "CameraAngleX": 5
+  },
+  {
+    "Group": 50,
+    "Step": 1,
+    "Title": "SCENARIO_QUEST_TITLE_5001_RE",
+    "DetailTitle": "SCENARIO_QUEST_DETAIL_TITLE_5001_RE",
+    "StateType": "ClearDungeon",
+    "AutoComplete": "FALSE",
+    "ConditionKey1": "ChapterIndex",
+    "ConditionCompare1": "Equal",
+    "ConditionValue1": [
+      "9"
+    ],
+    "ConditionKey2": "DungeonIndex",
+    "ConditionCompare2": "Equal",
+    "ConditionValue2": [
+      "5"
+    ],
+    "ConditionKey3": "Difficulty",
+    "ConditionCompare3": "Equal",
+    "ConditionValue3": [
+      "2"
+    ],
+    "MoveTaskType": "MoveToNode",
+    "MoveTaskValue": [
+      "9",
+      "5",
+      "True"
+    ],
+    "RewardIndex": 600694,
+    "DetailPopupDesc": "SCENARIO_QUEST_POPUP_DESC_5001_RE",
+    "DetailPopupImg": "Portrait/EventDungeon/Event_Halloween_Jane",
+    "CreatureIndex": 3,
+    "PreviewBg": "Chapter_9_Front",
+    "CreatureScale": 3.5,
+    "CreatureDirAngle": 15,
+    "CameraHeightAdd": 1.8,
+    "CameraAngleX": 5
+  },
+  {
+    "Group": 50,
+    "Step": 2,
+    "Title": "SCENARIO_QUEST_TITLE_5002_RE",
+    "DetailTitle": "SCENARIO_QUEST_DETAIL_TITLE_5002_RE",
+    "StateType": "Enchant",
+    "ReqProgress": 2,
+    "AutoComplete": "FALSE",
+    "MoveTaskType": "MoveToNode",
+    "MoveTaskValue": [
+      "99",
+      "9",
+      "True"
+    ],
+    "RewardIndex": 600695,
+    "DetailPopupDesc": "SCENARIO_QUEST_POPUP_DESC_5002_RE",
+    "DetailPopupImg": "Portrait/EventDungeon/Event_Halloween_Jane",
+    "CreatureIndex": 813,
+    "PreviewBg": "RaidBoss_RedDragon",
+    "CreatureScale": 4,
+    "CreatureDirAngle": -5,
+    "CameraHeightAdd": 3,
+    "CameraAngleX": 5
+  },
+  {
+    "Group": 50,
+    "Step": 3,
+    "Title": "SCENARIO_QUEST_TITLE_5003_RE",
+    "DetailTitle": "SCENARIO_QUEST_DETAIL_TITLE_5003_RE",
+    "StateType": "ExecEquipGacha",
+    "ReqProgress": 1,
+    "AutoComplete": "FALSE",
+    "MoveTaskType": "OpenPayShop",
+    "MoveTaskValue": [
+      "503"
+    ],
+    "RewardIndex": 600696,
+    "DetailPopupDesc": "SCENARIO_QUEST_POPUP_DESC_5003_RE",
+    "DetailPopupImg": "Portrait/EventDungeon/Event_Halloween_Jane",
+    "CreatureIndex": 2,
+    "PreviewBg": "Normal",
+    "CreatureScale": 4,
+    "CreatureDirAngle": 29,
+    "CameraHeightAdd": 1.8,
+    "CameraAngleX": 5
+  },
+  {
+    "Group": 50,
+    "Step": 4,
+    "Title": "SCENARIO_QUEST_TITLE_5004_RE",
+    "DetailTitle": "SCENARIO_QUEST_DETAIL_TITLE_5004_RE",
+    "StateType": "ClearDungeon",
+    "AutoComplete": "FALSE",
+    "ConditionKey1": "ChapterIndex",
+    "ConditionCompare1": "Equal",
+    "ConditionValue1": [
+      "9"
+    ],
+    "ConditionKey2": "DungeonIndex",
+    "ConditionCompare2": "Equal",
+    "ConditionValue2": [
+      "11"
+    ],
+    "ConditionKey3": "Difficulty",
+    "ConditionCompare3": "Equal",
+    "ConditionValue3": [
+      "2"
+    ],
+    "MoveTaskType": "MoveToNode",
+    "MoveTaskValue": [
+      "9",
+      "11",
+      "True"
+    ],
+    "RewardIndex": 600697,
+    "DetailPopupDesc": "SCENARIO_QUEST_POPUP_DESC_5004_RE",
+    "DetailPopupImg": "Portrait/EventDungeon/Event_Halloween_Jane",
+    "CreatureIndex": 3,
+    "PreviewBg": "Chapter_9_Front",
+    "CreatureScale": 3.5,
+    "CreatureDirAngle": 15,
+    "CameraHeightAdd": 1.8,
+    "CameraAngleX": 5
+  },
+  {
+    "Group": 50,
+    "Step": 5,
+    "Title": "SCENARIO_QUEST_TITLE_5005_RE",
+    "DetailTitle": "SCENARIO_QUEST_DETAIL_TITLE_5005_RE",
+    "StateType": "EnterRaid",
+    "ReqProgress": 10,
+    "AutoComplete": "FALSE",
+    "ConditionKey1": "RaidIndex",
+    "ConditionCompare1": "In",
+    "ConditionValue1": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "11",
+      "12",
+      "13",
+      "14",
+      "21",
+      "22",
+      "23",
+      "24",
+      "101",
+      "102",
+      "103",
+      "104"
+    ],
+    "MoveTaskType": "OpenRaid",
+    "RewardIndex": 600698,
+    "DetailPopupDesc": "SCENARIO_QUEST_POPUP_DESC_5005_RE",
+    "DetailPopupImg": "Portrait/EventDungeon/Event_Halloween_Jane",
+    "CreatureIndex": 45,
+    "PreviewBg": "RaidBoss_BlackDragon",
+    "CreatureScale": 4,
+    "CreatureDirAngle": 15,
+    "CameraHeightAdd": "0.6",
+    "CameraAngleX": 5
+  },
+  {
+    "Group": 50,
+    "Step": 6,
+    "Title": "SCENARIO_QUEST_TITLE_5006_RE",
+    "DetailTitle": "SCENARIO_QUEST_DETAIL_TITLE_5006_RE",
+    "StateType": "AwakenGear",
+    "ReqProgress": 5,
+    "AutoComplete": "FALSE",
+    "MoveTaskType": "MoveToNode",
+    "MoveTaskValue": [
+      "99",
+      "9",
+      "True"
+    ],
+    "RewardIndex": 600699,
+    "DetailPopupDesc": "SCENARIO_QUEST_POPUP_DESC_5006_RE",
+    "DetailPopupImg": "Portrait/EventDungeon/Event_Halloween_Jane",
+    "CreatureIndex": 813,
+    "PreviewBg": "RaidBoss_RedDragon",
+    "CreatureScale": 4,
+    "CreatureDirAngle": -5,
+    "CameraHeightAdd": 3,
+    "CameraAngleX": 5
+  },
+  {
+    "Group": 51,
+    "Step": 1,
+    "Title": "SCENARIO_QUEST_TITLE_5101_RE",
+    "DetailTitle": "SCENARIO_QUEST_DETAIL_TITLE_5101_RE",
+    "StateType": "ClearDungeon",
+    "AutoComplete": "FALSE",
+    "ConditionKey1": "ChapterIndex",
+    "ConditionCompare1": "Equal",
+    "ConditionValue1": [
+      "9"
+    ],
+    "ConditionKey2": "DungeonIndex",
+    "ConditionCompare2": "Equal",
+    "ConditionValue2": [
+      "19"
+    ],
+    "ConditionKey3": "Difficulty",
+    "ConditionCompare3": "Equal",
+    "ConditionValue3": [
+      "2"
+    ],
+    "MoveTaskType": "MoveToNode",
+    "MoveTaskValue": [
+      "9",
+      "19",
+      "True"
+    ],
+    "RewardIndex": 600700,
+    "DetailPopupDesc": "SCENARIO_QUEST_POPUP_DESC_5101_RE",
+    "DetailPopupImg": "Portrait/EventDungeon/Event_Halloween_Jane",
+    "CreatureIndex": 3,
+    "PreviewBg": "Chapter_9_Back",
+    "CreatureScale": 3.5,
+    "CreatureDirAngle": 15,
+    "CameraHeightAdd": 1.8,
+    "CameraAngleX": 5
+  },
+  {
+    "Group": 51,
+    "Step": 2,
+    "Title": "SCENARIO_QUEST_TITLE_5102_RE",
+    "DetailTitle": "SCENARIO_QUEST_DETAIL_TITLE_5102_RE",
+    "StateType": "BuyShopItem",
+    "ReqProgress": 2,
+    "AutoComplete": "FALSE",
+    "ConditionKey1": "ShopIndex",
+    "ConditionCompare1": "Equal",
+    "ConditionValue1": [
+      "1"
+    ],
+    "MoveTaskType": "MoveToNode",
+    "MoveTaskValue": [
+      "99",
+      "8",
+      "True"
+    ],
+    "RewardIndex": 600701,
+    "DetailPopupDesc": "SCENARIO_QUEST_POPUP_DESC_5102_RE",
+    "DetailPopupImg": "Portrait/EventDungeon/Event_Halloween_Jane",
+    "CreatureIndex": 90,
+    "PreviewBg": "Normal",
+    "CreatureScale": 4,
+    "CreatureDirAngle": 36,
+    "CameraHeightAdd": "0.4",
+    "CameraAngleX": 5
+  },
+  {
+    "Group": 51,
+    "Step": 3,
+    "Title": "SCENARIO_QUEST_TITLE_5103_RE",
+    "DetailTitle": "SCENARIO_QUEST_DETAIL_TITLE_5103_RE",
+    "StateType": "UpgradeEquipOption",
+    "ReqProgress": 10,
+    "AutoComplete": "FALSE",
+    "MoveTaskType": "MoveToNode",
+    "MoveTaskValue": [
+      "99",
+      "9",
+      "True"
+    ],
+    "RewardIndex": 600702,
+    "DetailPopupDesc": "SCENARIO_QUEST_POPUP_DESC_5103_RE",
+    "DetailPopupImg": "Portrait/EventDungeon/Event_Halloween_Jane",
+    "CreatureIndex": 813,
+    "PreviewBg": "RaidBoss_RedDragon",
+    "CreatureScale": 4,
+    "CreatureDirAngle": -5,
+    "CameraHeightAdd": 3,
+    "CameraAngleX": 5
+  },
+  {
+    "Group": 51,
+    "Step": 4,
+    "Title": "SCENARIO_QUEST_TITLE_5104_RE",
+    "DetailTitle": "SCENARIO_QUEST_DETAIL_TITLE_5104_RE",
+    "StateType": "ClearDungeon",
+    "AutoComplete": "FALSE",
+    "ConditionKey1": "ChapterIndex",
+    "ConditionCompare1": "Equal",
+    "ConditionValue1": [
+      "9"
+    ],
+    "ConditionKey2": "DungeonIndex",
+    "ConditionCompare2": "Equal",
+    "ConditionValue2": [
+      "23"
+    ],
+    "ConditionKey3": "Difficulty",
+    "ConditionCompare3": "Equal",
+    "ConditionValue3": [
+      "2"
+    ],
+    "MoveTaskType": "MoveToNode",
+    "MoveTaskValue": [
+      "9",
+      "23",
+      "True"
+    ],
+    "RewardIndex": 600703,
+    "DetailPopupDesc": "SCENARIO_QUEST_POPUP_DESC_5104_RE",
+    "DetailPopupImg": "Portrait/EventDungeon/Event_Halloween_Jane",
+    "CreatureIndex": 3,
+    "PreviewBg": "Chapter_9_Back",
+    "CreatureScale": 3.5,
+    "CreatureDirAngle": 15,
+    "CameraHeightAdd": 1.8,
+    "CameraAngleX": 5
+  },
+  {
+    "Group": 51,
+    "Step": 5,
+    "Title": "SCENARIO_QUEST_TITLE_5105_RE",
+    "DetailTitle": "SCENARIO_QUEST_DETAIL_TITLE_5105_RE",
+    "StateType": "EnterRaid",
+    "ReqProgress": 10,
+    "AutoComplete": "FALSE",
+    "ConditionKey1": "RaidIndex",
+    "ConditionCompare1": "In",
+    "ConditionValue1": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "11",
+      "12",
+      "13",
+      "14",
+      "21",
+      "22",
+      "23",
+      "24",
+      "101",
+      "102",
+      "103",
+      "104"
+    ],
+    "MoveTaskType": "OpenRaid",
+    "RewardIndex": 600704,
+    "DetailPopupDesc": "SCENARIO_QUEST_POPUP_DESC_5105_RE",
+    "DetailPopupImg": "Portrait/EventDungeon/Event_Halloween_Jane",
+    "CreatureIndex": 45,
+    "PreviewBg": "RaidBoss_BlackDragon",
+    "CreatureScale": 4,
+    "CreatureDirAngle": 15,
+    "CameraHeightAdd": "0.6",
+    "CameraAngleX": 5
+  },
+  {
+    "Group": 51,
+    "Step": 6,
+    "Title": "SCENARIO_QUEST_TITLE_5106_RE",
+    "DetailTitle": "SCENARIO_QUEST_DETAIL_TITLE_5106_RE",
+    "StateType": "HeroCountOfTranscended",
+    "StateValue": [
+      "5"
+    ],
+    "ReqProgress": 18,
+    "AutoComplete": "TRUE",
+    "MoveTaskType": "MoveToNode",
+    "MoveTaskValue": [
+      "1",
+      "27",
+      "True"
+    ],
+    "RewardIndex": 600705,
+    "DetailPopupDesc": "SCENARIO_QUEST_POPUP_DESC_5106_RE",
+    "DetailPopupImg": "Portrait/EventDungeon/Event_Halloween_Jane",
+    "CreatureIndex": 809,
+    "PreviewBg": "BanPick_Reward",
+    "CreatureScale": 4,
+    "CreatureDirAngle": 15,
+    "CameraHeightAdd": 3.5,
+    "CameraAngleX": 5
   }
 ]

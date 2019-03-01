@@ -1862,30 +1862,20 @@
   },
   {
     "Index": 80,
-    "TriggerType": "OnTimer",
-    "TriggerValue": [
-      "5000",
-      "5000"
-    ],
+    "TriggerType": "OnStart",
     "TriggerRatio": 1000,
     "AttrType": "None",
-    "ClearStateType": [
+    "IgnoreStateType": [
       "CC"
     ],
     "TargetType": "Myself",
     "TargetCount": 1,
     "DeadTarget": "False",
     "RetargetOnFire": "False",
-    "OperationType1": "ModToughness",
+    "OperationType1": "ModAttackSpeedR",
     "OperationTargetType1": "Myself",
-    "OperationState1": "Chapter7HELL",
-    "OperationDurationMs1": 500,
-    "OperationType2": "Cleanse",
-    "OperationTargetType2": "Parent",
-    "OperationConditionType2": "None",
-    "OperationParent2": 1,
-    "OperationFlags2": [
-      "HasParent"
+    "OperationValue1": [
+      "250"
     ]
   },
   {
@@ -1905,6 +1895,741 @@
     ],
     "OperationState1": "EventChapterAtk",
     "OperationDurationMs1": 9999999
+  },
+  {
+    "Index": 82,
+    "TriggerType": "OnHpRatio",
+    "TriggerValue": [
+      "0",
+      "0",
+      "405"
+    ],
+    "TriggerRatio": 1000,
+    "TriggerFlag": [
+      "CancelUsingSkill"
+    ],
+    "CoolTimeMs": 1800000,
+    "AttrType": "None",
+    "ClearStateType": [
+      "CC"
+    ],
+    "IgnoreStateType": [
+      "CC"
+    ],
+    "TargetType": "Myself",
+    "TargetCount": 1,
+    "DeadTarget": "False",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "False",
+    "OperationType1": "RaiseEventTrigger",
+    "OperationTargetType1": "Myself",
+    "OperationValue1": [
+      "EventTrigger",
+      "90011"
+    ],
+    "OperationConditionType1": "None",
+    "OperationType2": "ClearSkillOperation",
+    "OperationTargetType2": "Myself",
+    "OperationValue2": [
+      "39",
+      "1"
+    ],
+    "OperationDelayMs2": [
+      "500",
+      "0",
+      "0"
+    ]
+  },
+  {
+    "Index": 83,
+    "TriggerType": "OnHpRatio",
+    "TriggerValue": [
+      "0",
+      "0",
+      "240"
+    ],
+    "TriggerRatio": 1000,
+    "TriggerFlag": [
+      "CancelUsingSkill"
+    ],
+    "CoolTimeMs": 1800000,
+    "AttrType": "None",
+    "ClearStateType": [
+      "CC"
+    ],
+    "IgnoreStateType": [
+      "CC"
+    ],
+    "TargetType": "Myself",
+    "TargetCount": 1,
+    "DeadTarget": "False",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "False",
+    "OperationType1": "RaiseEventTrigger",
+    "OperationTargetType1": "Myself",
+    "OperationValue1": [
+      "EventTrigger",
+      "90027"
+    ],
+    "OperationConditionType1": "None",
+    "OperationType2": "ClearSkillOperation",
+    "OperationTargetType2": "Myself",
+    "OperationValue2": [
+      "35",
+      "1"
+    ],
+    "OperationDelayMs2": [
+      "500",
+      "0",
+      "0"
+    ]
+  },
+  {
+    "Index": 84,
+    "TriggerType": "OnHpRatio",
+    "TriggerValue": [
+      "0",
+      "406",
+      "705"
+    ],
+    "TriggerRatio": 1000,
+    "TriggerFlag": [
+      "CancelUsingSkill"
+    ],
+    "CoolTimeMs": 1800000,
+    "AttrType": "None",
+    "ClearStateType": [
+      "CC"
+    ],
+    "IgnoreStateType": [
+      "CC"
+    ],
+    "TargetType": "Myself",
+    "TargetCount": 1,
+    "DeadTarget": "False",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "False",
+    "OperationType1": "RaiseEventTrigger",
+    "OperationTargetType1": "Myself",
+    "OperationValue1": [
+      "EventTrigger",
+      "90031"
+    ],
+    "OperationConditionType1": "None",
+    "OperationType2": "ClearSkillOperation",
+    "OperationTargetType2": "Myself",
+    "OperationValue2": [
+      "37",
+      "1"
+    ],
+    "OperationDelayMs2": [
+      "500",
+      "0",
+      "0"
+    ]
+  },
+  {
+    "Index": 85,
+    "TriggerType": "OnHpRatio",
+    "TriggerValue": [
+      "0",
+      "206",
+      "405"
+    ],
+    "TriggerRatio": 1000,
+    "TriggerFlag": [
+      "CancelUsingSkill"
+    ],
+    "CoolTimeMs": 1800000,
+    "AttrType": "None",
+    "ClearStateType": [
+      "CC"
+    ],
+    "IgnoreStateType": [
+      "CC"
+    ],
+    "TargetType": "Myself",
+    "TargetCount": 1,
+    "DeadTarget": "False",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "False",
+    "OperationType1": "RaiseEventTrigger",
+    "OperationTargetType1": "Myself",
+    "OperationValue1": [
+      "EventTrigger",
+      "90032"
+    ],
+    "OperationConditionType1": "None",
+    "OperationType2": "ClearSkillOperation",
+    "OperationTargetType2": "Myself",
+    "OperationValue2": [
+      "39",
+      "1"
+    ],
+    "OperationDelayMs2": [
+      "500",
+      "0",
+      "0"
+    ]
+  },
+  {
+    "Index": 86,
+    "TriggerType": "OnHpRatio",
+    "TriggerValue": [
+      "0",
+      "0",
+      "205"
+    ],
+    "TriggerRatio": 1000,
+    "TriggerFlag": [
+      "CancelUsingSkill"
+    ],
+    "CoolTimeMs": 1800000,
+    "AttrType": "None",
+    "ClearStateType": [
+      "CC"
+    ],
+    "IgnoreStateType": [
+      "CC"
+    ],
+    "TargetType": "Myself",
+    "TargetCount": 1,
+    "DeadTarget": "False",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "False",
+    "OperationType1": "RaiseEventTrigger",
+    "OperationTargetType1": "Myself",
+    "OperationValue1": [
+      "EventTrigger",
+      "90033"
+    ],
+    "OperationConditionType1": "None"
+  },
+  {
+    "Index": 87,
+    "TriggerType": "OnHpRatio",
+    "TriggerValue": [
+      "0",
+      "406",
+      "705"
+    ],
+    "TriggerRatio": 1000,
+    "TriggerFlag": [
+      "CancelUsingSkill"
+    ],
+    "CoolTimeMs": 1800000,
+    "AttrType": "None",
+    "ClearStateType": [
+      "CC"
+    ],
+    "IgnoreStateType": [
+      "CC"
+    ],
+    "TargetType": "Myself",
+    "TargetCount": 1,
+    "DeadTarget": "False",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "False",
+    "OperationType1": "RaiseEventTrigger",
+    "OperationTargetType1": "Myself",
+    "OperationValue1": [
+      "EventTrigger",
+      "90035"
+    ],
+    "OperationConditionType1": "None",
+    "OperationType2": "ClearSkillOperation",
+    "OperationTargetType2": "Myself",
+    "OperationValue2": [
+      "37",
+      "1"
+    ],
+    "OperationDelayMs2": [
+      "500",
+      "0",
+      "0"
+    ]
+  },
+  {
+    "Index": 88,
+    "TriggerType": "OnHpRatio",
+    "TriggerValue": [
+      "0",
+      "206",
+      "405"
+    ],
+    "TriggerRatio": 1000,
+    "TriggerFlag": [
+      "CancelUsingSkill"
+    ],
+    "CoolTimeMs": 1800000,
+    "AttrType": "None",
+    "ClearStateType": [
+      "CC"
+    ],
+    "IgnoreStateType": [
+      "CC"
+    ],
+    "TargetType": "Myself",
+    "TargetCount": 1,
+    "DeadTarget": "False",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "False",
+    "OperationType1": "RaiseEventTrigger",
+    "OperationTargetType1": "Myself",
+    "OperationValue1": [
+      "EventTrigger",
+      "90036"
+    ],
+    "OperationConditionType1": "None",
+    "OperationType2": "ClearSkillOperation",
+    "OperationTargetType2": "Myself",
+    "OperationValue2": [
+      "39",
+      "1"
+    ],
+    "OperationDelayMs2": [
+      "500",
+      "0",
+      "0"
+    ]
+  },
+  {
+    "Index": 89,
+    "TriggerType": "OnHpRatio",
+    "TriggerValue": [
+      "0",
+      "0",
+      "205"
+    ],
+    "TriggerRatio": 1000,
+    "TriggerFlag": [
+      "CancelUsingSkill"
+    ],
+    "CoolTimeMs": 1800000,
+    "AttrType": "None",
+    "ClearStateType": [
+      "CC"
+    ],
+    "IgnoreStateType": [
+      "CC"
+    ],
+    "TargetType": "Myself",
+    "TargetCount": 1,
+    "DeadTarget": "False",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "False",
+    "OperationType1": "RaiseEventTrigger",
+    "OperationTargetType1": "Myself",
+    "OperationValue1": [
+      "EventTrigger",
+      "90037"
+    ],
+    "OperationConditionType1": "None"
+  },
+  {
+    "Index": 90,
+    "TriggerType": "OnHpRatio",
+    "TriggerValue": [
+      "0",
+      "0",
+      "820"
+    ],
+    "TriggerRatio": 1000,
+    "TriggerFlag": [
+      "CancelUsingSkill"
+    ],
+    "CoolTimeMs": 1800000,
+    "AttrType": "None",
+    "ClearStateType": [
+      "CC"
+    ],
+    "IgnoreStateType": [
+      "CC"
+    ],
+    "TargetType": "Ally",
+    "DeadTarget": "False",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "False",
+    "OperationType1": "RaiseEventTrigger",
+    "OperationTargetType1": "Myself",
+    "OperationValue1": [
+      "EventTrigger",
+      "90041"
+    ],
+    "OperationDelayMs1": [
+      "0",
+      "0",
+      "0"
+    ],
+    "OperationConditionType1": "None",
+    "OperationType2": "ClearSkillOperation",
+    "OperationTargetType2": "Myself",
+    "OperationValue2": [
+      "33",
+      "1"
+    ],
+    "OperationDelayMs2": [
+      "500",
+      "0",
+      "0"
+    ],
+    "OperationType3": "ClearSkillOperation",
+    "OperationTargetType3": "Target",
+    "OperationValue3": [
+      "50000186",
+      "1"
+    ],
+    "OperationDelayMs3": [
+      "0",
+      "0",
+      "0"
+    ],
+    "OperationType4": "RaiseEventTrigger",
+    "OperationTargetType4": "Myself",
+    "OperationValue4": [
+      "EventTrigger",
+      "90066"
+    ],
+    "OperationDelayMs4": [
+      "1000",
+      "0",
+      "0"
+    ],
+    "OperationConditionType4": "None",
+    "OperationMaxAccCount4": 1
+  },
+  {
+    "Index": 91,
+    "TriggerType": "OnFireSkill",
+    "TriggerValue": [
+      "5210"
+    ],
+    "TriggerRatio": 1000,
+    "CoolTimeMs": 1800000,
+    "AttrType": "None",
+    "ClearStateType": [
+      "CC"
+    ],
+    "IgnoreStateType": [
+      "CC"
+    ],
+    "TargetType": "Myself",
+    "TargetCount": 1,
+    "DeadTarget": "False",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "False",
+    "OperationType1": "RaiseEventTrigger",
+    "OperationTargetType1": "Myself",
+    "OperationValue1": [
+      "EventTrigger",
+      "90042"
+    ],
+    "OperationDelayMs1": [
+      "4300",
+      "0",
+      "0"
+    ],
+    "OperationType2": "ModActiveCooltimeR",
+    "OperationTargetType2": "Myself",
+    "OperationValue2": [
+      "3",
+      "-1000",
+      "InCoolTime"
+    ],
+    "OperationDelayMs2": [
+      "3500",
+      "0",
+      "0"
+    ]
+  },
+  {
+    "Index": 92,
+    "TriggerType": "OnHpRatio",
+    "TriggerValue": [
+      "0",
+      "0",
+      "305"
+    ],
+    "TriggerRatio": 1000,
+    "TriggerFlag": [
+      "CancelUsingSkill"
+    ],
+    "CoolTimeMs": 1800000,
+    "AttrType": "None",
+    "ClearStateType": [
+      "CC"
+    ],
+    "IgnoreStateType": [
+      "CC"
+    ],
+    "TargetType": "Myself",
+    "TargetCount": 1,
+    "DeadTarget": "False",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "False",
+    "OperationType1": "RaiseEventTrigger",
+    "OperationTargetType1": "Myself",
+    "OperationValue1": [
+      "EventTrigger",
+      "90043"
+    ],
+    "OperationConditionType1": "None"
+  },
+  {
+    "Index": 93,
+    "TriggerType": "OnHpRatio",
+    "TriggerValue": [
+      "0",
+      "0",
+      "305"
+    ],
+    "TriggerRatio": 1000,
+    "TriggerFlag": [
+      "CancelUsingSkill"
+    ],
+    "CoolTimeMs": 1800000,
+    "AttrType": "None",
+    "ClearStateType": [
+      "CC"
+    ],
+    "IgnoreStateType": [
+      "CC"
+    ],
+    "TargetType": "Enemy",
+    "TargetCount": 1,
+    "DeadTarget": "False",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "False",
+    "OperationType1": "RaiseEventTrigger",
+    "OperationTargetType1": "Myself",
+    "OperationValue1": [
+      "EventTrigger",
+      "90051"
+    ],
+    "OperationConditionType1": "None",
+    "OperationType2": "ClearSkillOperation",
+    "OperationTargetType2": "Myself",
+    "OperationValue2": [
+      "35",
+      "1"
+    ],
+    "OperationDelayMs2": [
+      "500",
+      "0",
+      "0"
+    ],
+    "OperationType3": "ModToughness",
+    "OperationTargetType3": "Target",
+    "OperationState3": "CrowSub6",
+    "OperationDurationMs3": 10000,
+    "OperationType4": "ModToughness",
+    "OperationTargetType4": "Myself",
+    "OperationState4": "CrowSub6",
+    "OperationDurationMs4": 10000
+  },
+  {
+    "Index": 94,
+    "TriggerType": "OnHpRatio",
+    "TriggerValue": [
+      "0",
+      "505",
+      "705"
+    ],
+    "TriggerRatio": 1000,
+    "TriggerFlag": [
+      "CancelUsingSkill"
+    ],
+    "CoolTimeMs": 1800000,
+    "AttrType": "None",
+    "ClearStateType": [
+      "CC"
+    ],
+    "IgnoreStateType": [
+      "CC"
+    ],
+    "TargetType": "Myself",
+    "TargetCount": 1,
+    "DeadTarget": "False",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "False",
+    "OperationType1": "RaiseEventTrigger",
+    "OperationTargetType1": "Myself",
+    "OperationValue1": [
+      "EventTrigger",
+      "90056"
+    ],
+    "OperationConditionType1": "None",
+    "OperationType2": "ClearSkillOperation",
+    "OperationTargetType2": "Myself",
+    "OperationValue2": [
+      "37",
+      "1"
+    ],
+    "OperationDelayMs2": [
+      "500",
+      "0",
+      "0"
+    ]
+  },
+  {
+    "Index": 95,
+    "TriggerType": "OnHpRatio",
+    "TriggerValue": [
+      "0",
+      "206",
+      "505"
+    ],
+    "TriggerRatio": 1000,
+    "TriggerFlag": [
+      "CancelUsingSkill"
+    ],
+    "CoolTimeMs": 1800000,
+    "AttrType": "None",
+    "ClearStateType": [
+      "CC"
+    ],
+    "IgnoreStateType": [
+      "CC"
+    ],
+    "TargetType": "Myself",
+    "TargetCount": 1,
+    "DeadTarget": "False",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "False",
+    "OperationType1": "RaiseEventTrigger",
+    "OperationTargetType1": "Myself",
+    "OperationValue1": [
+      "EventTrigger",
+      "90057"
+    ],
+    "OperationConditionType1": "None",
+    "OperationType2": "ClearSkillOperation",
+    "OperationTargetType2": "Myself",
+    "OperationValue2": [
+      "33",
+      "1"
+    ],
+    "OperationDelayMs2": [
+      "500",
+      "0",
+      "0"
+    ]
+  },
+  {
+    "Index": 96,
+    "TriggerType": "OnHpRatio",
+    "TriggerValue": [
+      "0",
+      "0",
+      "205"
+    ],
+    "TriggerRatio": 1000,
+    "TriggerFlag": [
+      "CancelUsingSkill"
+    ],
+    "CoolTimeMs": 1800000,
+    "AttrType": "None",
+    "ClearStateType": [
+      "CC"
+    ],
+    "IgnoreStateType": [
+      "CC"
+    ],
+    "TargetType": "Myself",
+    "TargetCount": 1,
+    "DeadTarget": "False",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "False",
+    "OperationType1": "RaiseEventTrigger",
+    "OperationTargetType1": "Myself",
+    "OperationValue1": [
+      "EventTrigger",
+      "90058"
+    ],
+    "OperationConditionType1": "None"
+  },
+  {
+    "Index": 97,
+    "TriggerType": "OnHpRatio",
+    "TriggerValue": [
+      "0",
+      "305",
+      "505"
+    ],
+    "TriggerRatio": 1000,
+    "TriggerFlag": [
+      "CancelUsingSkill"
+    ],
+    "CoolTimeMs": 1800000,
+    "AttrType": "None",
+    "ClearStateType": [
+      "CC"
+    ],
+    "IgnoreStateType": [
+      "CC"
+    ],
+    "TargetType": "Myself",
+    "TargetCount": 1,
+    "DeadTarget": "False",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "False",
+    "OperationType1": "ClearSkillOperation",
+    "OperationTargetType1": "Myself",
+    "OperationValue1": [
+      "33",
+      "1"
+    ],
+    "OperationDelayMs1": [
+      "500",
+      "0",
+      "0"
+    ]
+  },
+  {
+    "Index": 98,
+    "TriggerType": "OnHpRatio",
+    "TriggerValue": [
+      "0",
+      "0",
+      "300"
+    ],
+    "TriggerRatio": 1000,
+    "TriggerFlag": [
+      "CancelUsingSkill"
+    ],
+    "CoolTimeMs": 1800000,
+    "AttrType": "None",
+    "ClearStateType": [
+      "CC"
+    ],
+    "IgnoreStateType": [
+      "CC"
+    ],
+    "TargetType": "Myself",
+    "TargetCount": 1,
+    "DeadTarget": "False",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "False",
+    "OperationType1": "RaiseEventTrigger",
+    "OperationTargetType1": "Myself",
+    "OperationValue1": [
+      "EventTrigger",
+      "90061"
+    ],
+    "OperationDelayMs1": [
+      "1000",
+      "0",
+      "0"
+    ],
+    "OperationConditionType1": "None",
+    "OperationMaxAccCount1": 1,
+    "OperationType2": "ClearState",
+    "OperationTargetType2": "Myself",
+    "OperationTargetSelectType2": "Opponent",
+    "OperationRadiusMm2": 99999,
+    "OperationValue2": [
+      "CrowSub6"
+    ]
   },
   {
     "Index": 100,
@@ -2300,6 +3025,12 @@
       "1000"
     ],
     "AttrType": "Physical",
+    "ClearStateType": [
+      "None"
+    ],
+    "IgnoreStateType": [
+      "None"
+    ],
     "TargetType": "Enemy",
     "TargetCount": 1,
     "MaxRangeMm": 5000,
@@ -2447,6 +3178,34 @@
       "-100",
       "1",
       "False"
+    ]
+  },
+  {
+    "Index": 147,
+    "TriggerType": "NextSkill",
+    "TriggerRatio": 1000,
+    "DurationTimeMs": [
+      "300"
+    ],
+    "CancelOnWaveEnd": "True",
+    "AttrType": "Physical",
+    "ClearStateType": [
+      "None"
+    ],
+    "IgnoreStateType": [
+      "None"
+    ],
+    "TargetType": "Enemy",
+    "TargetCount": 1,
+    "MaxRangeMm": 5000,
+    "DeadTarget": "False",
+    "RetargetOnFire": "False",
+    "OperationType1": "DashToTarget",
+    "OperationTargetType1": "Myself",
+    "OperationValue1": [
+      "-1200",
+      "1000",
+      "True"
     ]
   },
   {
@@ -2748,6 +3507,21 @@
     "OperationConditionType1": "None"
   },
   {
+    "Index": 124,
+    "TriggerType": "OnStart",
+    "TriggerRatio": 1000,
+    "AttrType": "Physical",
+    "TargetType": "Myself",
+    "TargetCount": 1,
+    "DeadTarget": "False",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "FALSE",
+    "OperationType1": "ModPower",
+    "OperationTargetType1": "Myself",
+    "OperationState1": "KaselKyle",
+    "OperationConditionType1": "None"
+  },
+  {
     "Index": 90000010,
     "TriggerType": "OnAttack",
     "TriggerValue": [
@@ -2766,7 +3540,9 @@
     "OperationType1": "GetPhysicalDamageR",
     "OperationTargetType1": "Target",
     "OperationValue1": [
-      "1600"
+      "1600",
+      "0",
+      "None"
     ],
     "OperationConditionType1": "None"
   },
@@ -2789,7 +3565,9 @@
     "OperationType1": "GetPhysicalDamageR",
     "OperationTargetType1": "Target",
     "OperationValue1": [
-      "1920"
+      "1920",
+      "0",
+      "None"
     ],
     "OperationConditionType1": "None"
   },
@@ -2812,7 +3590,9 @@
     "OperationType1": "GetPhysicalDamageR",
     "OperationTargetType1": "Target",
     "OperationValue1": [
-      "2300"
+      "2300",
+      "0",
+      "None"
     ],
     "OperationConditionType1": "None"
   },
@@ -2835,7 +3615,9 @@
     "OperationType1": "GetPhysicalDamageR",
     "OperationTargetType1": "Target",
     "OperationValue1": [
-      "2760"
+      "2760",
+      "0",
+      "None"
     ],
     "OperationConditionType1": "None"
   },
@@ -2858,7 +3640,9 @@
     "OperationType1": "GetPhysicalDamageR",
     "OperationTargetType1": "Target",
     "OperationValue1": [
-      "3310"
+      "3310",
+      "0",
+      "None"
     ],
     "OperationConditionType1": "None"
   },
@@ -2881,7 +3665,9 @@
     "OperationType1": "GetPhysicalDamageR",
     "OperationTargetType1": "Target",
     "OperationValue1": [
-      "4000"
+      "4000",
+      "0",
+      "None"
     ],
     "OperationConditionType1": "None"
   },
