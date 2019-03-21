@@ -8647,6 +8647,138 @@
     "AddStamina": 1
   },
   {
+    "Index": 78,
+    "CodeName": "Hero.Bernheim",
+    "OpenStatus": "Normal",
+    "OpenType": "None",
+    "Race": "Hero",
+    "TagType": "Warrior",
+    "AttrType": [
+      "Magical"
+    ],
+    "AttackWeakType": [
+      "Fire"
+    ],
+    "PositionType": "Forward",
+    "PositionWeight": 600,
+    "MoveSpeed": 5000,
+    "MinDamageRate": 200,
+    "IgnoreCc": [
+      "False"
+    ],
+    "SizeMm": 800,
+    "HeightMm": 2000,
+    "GradeStoneItemCode": "SKILLBOOK_WARRIOR_1",
+    "StarStoneItemCode": "NO_ITEM",
+    "BaseSkillIndex": 7800,
+    "SkillIndex1": 7810,
+    "SkillExtend1": [
+      "7811",
+      "7812",
+      "7813"
+    ],
+    "SkillIndex2": 7820,
+    "SkillExtend2": [
+      "7821",
+      "7822",
+      "7823"
+    ],
+    "SkillIndex3": 7830,
+    "SkillExtend3": [
+      "7831",
+      "7832",
+      "7833"
+    ],
+    "SkillIndex4": 7840,
+    "SkillExtend4": [
+      "7841",
+      "7842",
+      "7843"
+    ],
+    "ExtraSkill": [
+      "7844",
+      "7834",
+      "7835",
+      "7825",
+      "7845",
+      "7805",
+      "7826",
+      "7804",
+      "60007852",
+      "7824",
+      "7828",
+      "7829",
+      "7827",
+      "7815"
+    ],
+    "GetTranscendSkillPoint": [
+      "10",
+      "15",
+      "15",
+      "15",
+      "25"
+    ],
+    "TranscendSkill1": [
+      "60000001",
+      "60000002",
+      "60000003",
+      "60000004",
+      "60000033"
+    ],
+    "ReqSkillPoint1": [
+      "10",
+      "10",
+      "10",
+      "10",
+      "10"
+    ],
+    "TranscendSkill2": [
+      "60000009",
+      "60000010",
+      "60000011",
+      "60000012",
+      "60000035"
+    ],
+    "ReqSkillPoint2": [
+      "15",
+      "15",
+      "15",
+      "15",
+      "15"
+    ],
+    "TranscendSkill3": [
+      "60007810",
+      "60007811",
+      "60007820",
+      "60007821",
+      "60007830",
+      "60007831",
+      "60007840",
+      "60007841"
+    ],
+    "ReqSkillPoint3": [
+      "15",
+      "15",
+      "15",
+      "15",
+      "15",
+      "15",
+      "15",
+      "15"
+    ],
+    "TranscendSkill5": [
+      "60007850",
+      "60007851"
+    ],
+    "ReqSkillPoint5": [
+      "15",
+      "15"
+    ],
+    "StartHeroStar": 3,
+    "OpenDate": 180531,
+    "AddStamina": 1
+  },
+  {
     "Index": 87,
     "CodeName": "Hero.Glenwys",
     "OpenStatus": "New",
@@ -13836,6 +13968,73 @@
     "StartHeroStar": 2
   },
   {
+    "Index": 578,
+    "CodeName": "Monster.Ordeal.DarkBernheim",
+    "ModelCode": "Hero.Bernheim",
+    "ModelPrefix": "Trial",
+    "Race": "Hero",
+    "TagType": "Warrior",
+    "AttrType": [
+      "Magical"
+    ],
+    "AttackWeakType": [
+      "Fire"
+    ],
+    "PositionType": "Forward",
+    "PositionWeight": 600,
+    "MoveSpeed": 5000,
+    "MinDamageRate": 200,
+    "IgnoreCc": [
+      "False"
+    ],
+    "SizeMm": 700,
+    "HeightMm": 2200,
+    "GradeStoneItemCode": "SKILLBOOK_WARRIOR_1",
+    "StarStoneItemCode": "NO_ITEM",
+    "BaseSkillIndex": 7800,
+    "SkillIndex1": 7810,
+    "SkillExtend1": [
+      "7811",
+      "7812",
+      "7813"
+    ],
+    "SkillIndex2": 7820,
+    "SkillExtend2": [
+      "7821",
+      "7822",
+      "7823"
+    ],
+    "SkillIndex3": 7830,
+    "SkillExtend3": [
+      "7831",
+      "7832",
+      "7833"
+    ],
+    "SkillIndex4": 7840,
+    "SkillExtend4": [
+      "7841",
+      "7842",
+      "7843"
+    ],
+    "ExtraSkill": [
+      "7844",
+      "7834",
+      "7835",
+      "7825",
+      "7845",
+      "7805",
+      "7826",
+      "7804",
+      "60007852",
+      "7824",
+      "7828",
+      "7829",
+      "7827",
+      "7815"
+    ],
+    "StartHeroStar": 2
+  },
+  {
     "Index": 587,
     "CodeName": "Monster.Ordeal.DarkGlenwys",
     "ModelCode": "Hero.Glenwys",
@@ -18496,6 +18695,73 @@
       "7329",
       "7327",
       "7315"
+    ],
+    "StartHeroStar": 2
+  },
+  {
+    "Index": 678,
+    "CodeName": "Monster.Ordeal.LightBernheim",
+    "ModelCode": "Hero.Bernheim",
+    "ModelPrefix": "Trans",
+    "Race": "Hero",
+    "TagType": "Warrior",
+    "AttrType": [
+      "Magical"
+    ],
+    "AttackWeakType": [
+      "Fire"
+    ],
+    "PositionType": "Forward",
+    "PositionWeight": 600,
+    "MoveSpeed": 5000,
+    "MinDamageRate": 200,
+    "IgnoreCc": [
+      "False"
+    ],
+    "SizeMm": 700,
+    "HeightMm": 2200,
+    "GradeStoneItemCode": "SKILLBOOK_WARRIOR_1",
+    "StarStoneItemCode": "NO_ITEM",
+    "BaseSkillIndex": 7800,
+    "SkillIndex1": 7810,
+    "SkillExtend1": [
+      "7811",
+      "7812",
+      "7813"
+    ],
+    "SkillIndex2": 7820,
+    "SkillExtend2": [
+      "7821",
+      "7822",
+      "7823"
+    ],
+    "SkillIndex3": 7830,
+    "SkillExtend3": [
+      "7831",
+      "7832",
+      "7833"
+    ],
+    "SkillIndex4": 7840,
+    "SkillExtend4": [
+      "7841",
+      "7842",
+      "7843"
+    ],
+    "ExtraSkill": [
+      "7844",
+      "7834",
+      "7835",
+      "7825",
+      "7845",
+      "7805",
+      "7826",
+      "7804",
+      "60007852",
+      "7824",
+      "7828",
+      "7829",
+      "7827",
+      "7815"
     ],
     "StartHeroStar": 2
   },
@@ -39304,39 +39570,7 @@
   },
   {
     "Index": 99999,
-    "CodeName": "Monster.StinkyGoblin"
-  },
-  {
-    "Index": 99998,
-    "CodeName": "Hero.Pancironne"
-  },
-  {
-    "Index": 99997,
-    "CodeName": "Hero.Lucikiel"
-  },
-  {
-    "Index": 99996,
-    "CodeName": "Monster.Spider.SuperElite.Swamp"
-  },
-  {
-    "Index": 99995,
-    "CodeName": "Monster.Skeleton.ArcherEvilSpirit"
-  },
-  {
-    "Index": 99994,
-    "CodeName": "Boss.BlackKnightKyle"
-  },
-  {
-    "Index": 99993,
-    "CodeName": "Monster.Skeleton.GuardEvilSpirit"
-  },
-  {
-    "Index": 99992,
-    "CodeName": "NPC.Cocytus"
-  },
-  {
-    "Index": 99991,
-    "CodeName": "NPC.Monolith"
+    "CodeName": "Hero.Bernheim"
   },
   {
     "Index": 999001,
@@ -39554,6 +39788,972 @@
     "ShowInfoSkill": [
       "441492",
       "441494"
+    ]
+  },
+  {
+    "Index": 40062,
+    "CodeName": "Monster.Event.2019_School.Demia",
+    "ModelCode": "Hero.Demia",
+    "ModelPrefix": "Cos16SL",
+    "OpenStatus": "Normal",
+    "Race": "Hero",
+    "TagType": "Knight",
+    "AttrType": [
+      "Physical"
+    ],
+    "AttackWeakType": [
+      "Fire"
+    ],
+    "PositionType": "Forward",
+    "PositionWeight": 700,
+    "MoveSpeed": 5000,
+    "MinDamageRate": 200,
+    "IgnoreCc": [
+      "False"
+    ],
+    "SizeMm": 500,
+    "HeightMm": 2000,
+    "GradeStoneItemCode": "SKILLBOOK_KNIGHT_1",
+    "StarStoneItemCode": "NO_ITEM",
+    "BaseSkillIndex": 2000,
+    "SkillIndex1": 2010,
+    "SkillExtend1": [
+      "2011",
+      "2012",
+      "2013"
+    ],
+    "SkillIndex2": 2020,
+    "SkillExtend2": [
+      "2021",
+      "2022",
+      "2023"
+    ],
+    "SkillIndex3": 2030,
+    "SkillExtend3": [
+      "2031",
+      "2032",
+      "2033"
+    ],
+    "SkillIndex4": 2040,
+    "SkillExtend4": [
+      "2041",
+      "2042",
+      "2043"
+    ],
+    "ExtraSkill": [
+      "2024",
+      "2034",
+      "2035",
+      "2036",
+      "2044"
+    ],
+    "GetTranscendSkillPoint": [
+      "10",
+      "15",
+      "15",
+      "15",
+      "25"
+    ],
+    "TranscendSkill1": [
+      "60000001",
+      "60000002",
+      "60000003",
+      "60000004",
+      "60000033"
+    ],
+    "ReqSkillPoint1": [
+      "10",
+      "10",
+      "10",
+      "10",
+      "10"
+    ],
+    "TranscendSkill2": [
+      "60000005",
+      "60000006",
+      "60000007",
+      "60000008",
+      "60000034"
+    ],
+    "ReqSkillPoint2": [
+      "15",
+      "15",
+      "15",
+      "15",
+      "15"
+    ],
+    "TranscendSkill3": [
+      "60002010",
+      "60002011",
+      "60002020",
+      "60002021",
+      "60002030",
+      "60002031",
+      "60002040",
+      "60002041"
+    ],
+    "ReqSkillPoint3": [
+      "15",
+      "15",
+      "15",
+      "15",
+      "15",
+      "15",
+      "15",
+      "15"
+    ],
+    "TranscendSkill5": [
+      "60002050",
+      "60002051"
+    ],
+    "ReqSkillPoint5": [
+      "15",
+      "15"
+    ]
+  },
+  {
+    "Index": 40063,
+    "CodeName": "Monster.Event.2019_School.Lorraine",
+    "ModelCode": "Hero.Lorraine",
+    "ModelPrefix": "Cos16SL",
+    "OpenStatus": "Normal",
+    "Race": "Hero",
+    "TagType": "Wizard",
+    "AttrType": [
+      "Magical"
+    ],
+    "AttackWeakType": [
+      "Fire"
+    ],
+    "PositionType": "Middle",
+    "PositionWeight": 200,
+    "MoveSpeed": 5000,
+    "MinDamageRate": 200,
+    "IgnoreCc": [
+      "False"
+    ],
+    "SizeMm": 500,
+    "HeightMm": 2000,
+    "GradeStoneItemCode": "SKILLBOOK_WIZARD_1",
+    "StarStoneItemCode": "NO_ITEM",
+    "BaseSkillIndex": 1300,
+    "SkillIndex1": 1310,
+    "SkillExtend1": [
+      "1311",
+      "1312",
+      "1313"
+    ],
+    "SkillIndex2": 1340,
+    "SkillExtend2": [
+      "1341",
+      "1342",
+      "1343"
+    ],
+    "SkillIndex3": 1330,
+    "SkillExtend3": [
+      "1331",
+      "1332",
+      "1333"
+    ],
+    "SkillIndex4": 1320,
+    "SkillExtend4": [
+      "1321",
+      "1322",
+      "1323"
+    ],
+    "ExtraSkill": [
+      "1314",
+      "1315",
+      "1316",
+      "1344",
+      "1345",
+      "1334",
+      "1324"
+    ],
+    "GetTranscendSkillPoint": [
+      "10",
+      "15",
+      "15",
+      "15",
+      "25"
+    ],
+    "TranscendSkill1": [
+      "60000001",
+      "60000002",
+      "60000003",
+      "60000004",
+      "60000033"
+    ],
+    "ReqSkillPoint1": [
+      "10",
+      "10",
+      "10",
+      "10",
+      "10"
+    ],
+    "TranscendSkill2": [
+      "60000025",
+      "60000026",
+      "60000027",
+      "60000028",
+      "60000039"
+    ],
+    "ReqSkillPoint2": [
+      "15",
+      "15",
+      "15",
+      "15",
+      "15"
+    ],
+    "TranscendSkill3": [
+      "60001310",
+      "60001311",
+      "60001320",
+      "60001321",
+      "60001330",
+      "60001331",
+      "60001340",
+      "60001341"
+    ],
+    "ReqSkillPoint3": [
+      "15",
+      "15",
+      "15",
+      "15",
+      "15",
+      "15",
+      "15",
+      "15"
+    ],
+    "TranscendSkill5": [
+      "60001350",
+      "60001351"
+    ],
+    "ReqSkillPoint5": [
+      "15",
+      "15"
+    ]
+  },
+  {
+    "Index": 40064,
+    "CodeName": "Monster.Event.2019_School.Pavel",
+    "ModelCode": "Hero.Pavel",
+    "ModelPrefix": "Cos16SL",
+    "OpenStatus": "Normal",
+    "Race": "Hero",
+    "TagType": "Wizard",
+    "AttrType": [
+      "Magical"
+    ],
+    "AttackWeakType": [
+      "Fire"
+    ],
+    "PositionType": "Middle",
+    "PositionWeight": 200,
+    "MoveSpeed": 5000,
+    "MinDamageRate": 200,
+    "IgnoreCc": [
+      "False"
+    ],
+    "SizeMm": 500,
+    "HeightMm": 2000,
+    "GradeStoneItemCode": "SKILLBOOK_WIZARD_1",
+    "StarStoneItemCode": "NO_ITEM",
+    "BaseSkillIndex": 1900,
+    "SkillIndex1": 1910,
+    "SkillExtend1": [
+      "1911",
+      "1912",
+      "1913"
+    ],
+    "SkillIndex2": 1920,
+    "SkillExtend2": [
+      "1921",
+      "1922",
+      "1923"
+    ],
+    "SkillIndex3": 1930,
+    "SkillExtend3": [
+      "1931",
+      "1932",
+      "1933"
+    ],
+    "SkillIndex4": 1940,
+    "SkillExtend4": [
+      "1941",
+      "1942",
+      "1943"
+    ],
+    "ExtraSkill": [
+      "1914",
+      "1924",
+      "1901",
+      "1944"
+    ],
+    "GetTranscendSkillPoint": [
+      "10",
+      "15",
+      "15",
+      "15",
+      "25"
+    ],
+    "TranscendSkill1": [
+      "60000001",
+      "60000002",
+      "60000003",
+      "60000004",
+      "60000033"
+    ],
+    "ReqSkillPoint1": [
+      "10",
+      "10",
+      "10",
+      "10",
+      "10"
+    ],
+    "TranscendSkill2": [
+      "60000025",
+      "60000026",
+      "60000027",
+      "60000028",
+      "60000039"
+    ],
+    "ReqSkillPoint2": [
+      "15",
+      "15",
+      "15",
+      "15",
+      "15"
+    ],
+    "TranscendSkill3": [
+      "60001910",
+      "60001911",
+      "60001920",
+      "60001921",
+      "60001930",
+      "60001931",
+      "60001940",
+      "60001941"
+    ],
+    "ReqSkillPoint3": [
+      "15",
+      "15",
+      "15",
+      "15",
+      "15",
+      "15",
+      "15",
+      "15"
+    ],
+    "TranscendSkill5": [
+      "60001950",
+      "60001951"
+    ],
+    "ReqSkillPoint5": [
+      "15",
+      "15"
+    ]
+  },
+  {
+    "Index": 40065,
+    "CodeName": "Monster.Event.2019_School.Oddy",
+    "ModelCode": "Hero.Oddy",
+    "ModelPrefix": "Cos18SL",
+    "OpenStatus": "Normal",
+    "Race": "Hero",
+    "TagType": "Mechanic",
+    "AttrType": [
+      "Magical"
+    ],
+    "AttackWeakType": [
+      "Fire"
+    ],
+    "PositionType": "Middle",
+    "PositionWeight": 200,
+    "MoveSpeed": 5000,
+    "MinDamageRate": 200,
+    "IgnoreCc": [
+      "False"
+    ],
+    "SizeMm": 500,
+    "HeightMm": 1650,
+    "GradeStoneItemCode": "SKILLBOOK_MECHANIC_1",
+    "StarStoneItemCode": "NO_ITEM",
+    "BaseSkillIndex": 4200,
+    "SkillIndex1": 4210,
+    "SkillExtend1": [
+      "4211",
+      "4212",
+      "4213"
+    ],
+    "SkillIndex2": 4220,
+    "SkillExtend2": [
+      "4221",
+      "4222",
+      "4223"
+    ],
+    "SkillIndex3": 4230,
+    "SkillExtend3": [
+      "4231",
+      "4232",
+      "4233"
+    ],
+    "SkillIndex4": 4240,
+    "SkillExtend4": [
+      "4241",
+      "4242",
+      "4243"
+    ],
+    "ExtraSkill": [
+      "4224",
+      "4234",
+      "4244"
+    ],
+    "GetTranscendSkillPoint": [
+      "10",
+      "15",
+      "15",
+      "15",
+      "25"
+    ],
+    "TranscendSkill1": [
+      "60000001",
+      "60000002",
+      "60000003",
+      "60000004",
+      "60000033"
+    ],
+    "ReqSkillPoint1": [
+      "10",
+      "10",
+      "10",
+      "10",
+      "10"
+    ],
+    "TranscendSkill2": [
+      "60000021",
+      "60000022",
+      "60000023",
+      "60000024",
+      "60000038"
+    ],
+    "ReqSkillPoint2": [
+      "15",
+      "15",
+      "15",
+      "15",
+      "15"
+    ],
+    "TranscendSkill3": [
+      "60004210",
+      "60004211",
+      "60004220",
+      "60004221",
+      "60004230",
+      "60004231",
+      "60004240",
+      "60004241"
+    ],
+    "ReqSkillPoint3": [
+      "15",
+      "15",
+      "15",
+      "15",
+      "15",
+      "15",
+      "15",
+      "15"
+    ],
+    "TranscendSkill5": [
+      "60004250",
+      "60004251"
+    ],
+    "ReqSkillPoint5": [
+      "15",
+      "15"
+    ]
+  },
+  {
+    "Index": 40066,
+    "CodeName": "Monster.Event.2019_School.Mediana",
+    "ModelCode": "Hero.Mediana",
+    "ModelPrefix": "Cos18SL",
+    "OpenStatus": "Normal",
+    "Race": "Hero",
+    "TagType": "Priest",
+    "AttrType": [
+      "Physical"
+    ],
+    "AttackWeakType": [
+      "Fire"
+    ],
+    "PositionType": "Rear",
+    "PositionWeight": 100,
+    "MoveSpeed": 5000,
+    "MinDamageRate": 200,
+    "IgnoreCc": [
+      "False"
+    ],
+    "SizeMm": 500,
+    "HeightMm": 2000,
+    "GradeStoneItemCode": "SKILLBOOK_PRIEST_1",
+    "StarStoneItemCode": "NO_ITEM",
+    "BaseSkillIndex": 4100,
+    "SkillIndex1": 4110,
+    "SkillExtend1": [
+      "4111",
+      "4112",
+      "4113"
+    ],
+    "SkillIndex2": 4120,
+    "SkillExtend2": [
+      "4121",
+      "4122",
+      "4123"
+    ],
+    "SkillIndex3": 4130,
+    "SkillExtend3": [
+      "4131",
+      "4132",
+      "4133"
+    ],
+    "SkillIndex4": 4140,
+    "SkillExtend4": [
+      "4141",
+      "4142",
+      "4143"
+    ],
+    "ExtraSkill": [
+      "4124",
+      "4125",
+      "4144",
+      "4145"
+    ],
+    "GetTranscendSkillPoint": [
+      "10",
+      "15",
+      "15",
+      "15",
+      "25"
+    ],
+    "TranscendSkill1": [
+      "60000001",
+      "60000002",
+      "60000003",
+      "60000004",
+      "60000033"
+    ],
+    "ReqSkillPoint1": [
+      "10",
+      "10",
+      "10",
+      "10",
+      "10"
+    ],
+    "TranscendSkill2": [
+      "60000029",
+      "60000030",
+      "60000031",
+      "60000032",
+      "60000040"
+    ],
+    "ReqSkillPoint2": [
+      "15",
+      "15",
+      "15",
+      "15",
+      "15"
+    ],
+    "TranscendSkill3": [
+      "60004110",
+      "60004111",
+      "60004120",
+      "60004121",
+      "60004130",
+      "60004131",
+      "60004140",
+      "60004141"
+    ],
+    "ReqSkillPoint3": [
+      "15",
+      "15",
+      "15",
+      "15",
+      "15",
+      "15",
+      "15",
+      "15"
+    ],
+    "TranscendSkill5": [
+      "60004150",
+      "60004151"
+    ],
+    "ReqSkillPoint5": [
+      "15",
+      "15"
+    ]
+  },
+  {
+    "Index": 40067,
+    "CodeName": "Monster.Event.2019_School.Viska",
+    "ModelCode": "Hero.Viska",
+    "ModelPrefix": "Cos18SL",
+    "OpenStatus": "Normal",
+    "Race": "Hero",
+    "TagType": "Warrior",
+    "AttrType": [
+      "Magical"
+    ],
+    "AttackWeakType": [
+      "Fire"
+    ],
+    "PositionType": "Forward",
+    "PositionWeight": 600,
+    "MoveSpeed": 5000,
+    "MinDamageRate": 200,
+    "IgnoreCc": [
+      "False"
+    ],
+    "SizeMm": 500,
+    "HeightMm": 1850,
+    "GradeStoneItemCode": "SKILLBOOK_WARRIOR_1",
+    "StarStoneItemCode": "NO_ITEM",
+    "BaseSkillIndex": 4300,
+    "SkillIndex1": 4310,
+    "SkillExtend1": [
+      "4311",
+      "4312",
+      "4313"
+    ],
+    "SkillIndex2": 4320,
+    "SkillExtend2": [
+      "4321",
+      "4322",
+      "4323"
+    ],
+    "SkillIndex3": 4330,
+    "SkillExtend3": [
+      "4331",
+      "4332",
+      "4333"
+    ],
+    "SkillIndex4": 4340,
+    "SkillExtend4": [
+      "4341",
+      "4342",
+      "4343"
+    ],
+    "ExtraSkill": [
+      "4314",
+      "4315",
+      "4316",
+      "4334",
+      "4344",
+      "4345"
+    ],
+    "GetTranscendSkillPoint": [
+      "10",
+      "15",
+      "15",
+      "15",
+      "25"
+    ],
+    "TranscendSkill1": [
+      "60000001",
+      "60000002",
+      "60000003",
+      "60000004",
+      "60000033"
+    ],
+    "ReqSkillPoint1": [
+      "10",
+      "10",
+      "10",
+      "10",
+      "10"
+    ],
+    "TranscendSkill2": [
+      "60000009",
+      "60000010",
+      "60000011",
+      "60000012",
+      "60000035"
+    ],
+    "ReqSkillPoint2": [
+      "15",
+      "15",
+      "15",
+      "15",
+      "15"
+    ],
+    "TranscendSkill3": [
+      "60004310",
+      "60004311",
+      "60004320",
+      "60004321",
+      "60004330",
+      "60004331",
+      "60004340",
+      "60004341"
+    ],
+    "ReqSkillPoint3": [
+      "15",
+      "15",
+      "15",
+      "15",
+      "15",
+      "15",
+      "15",
+      "15"
+    ],
+    "TranscendSkill5": [
+      "60004350",
+      "60004351"
+    ],
+    "ReqSkillPoint5": [
+      "15",
+      "15"
+    ]
+  },
+  {
+    "Index": 40068,
+    "CodeName": "Monster.Event.2019_School.Ophelia",
+    "ModelCode": "Hero.Ophelia",
+    "ModelPrefix": "Cos18SL",
+    "OpenStatus": "Normal",
+    "Race": "Hero",
+    "TagType": "Wizard",
+    "AttrType": [
+      "Magical"
+    ],
+    "AttackWeakType": [
+      "Fire"
+    ],
+    "PositionType": "Rear",
+    "PositionWeight": 500,
+    "MoveSpeed": 5000,
+    "MinDamageRate": 200,
+    "IgnoreCc": [
+      "False"
+    ],
+    "SizeMm": 500,
+    "HeightMm": 1900,
+    "GradeStoneItemCode": "SKILLBOOK_WIZARD_1",
+    "StarStoneItemCode": "NO_ITEM",
+    "BaseSkillIndex": 4900,
+    "SkillIndex1": 4910,
+    "SkillExtend1": [
+      "4911",
+      "4912",
+      "4913"
+    ],
+    "SkillIndex2": 4920,
+    "SkillExtend2": [
+      "4921",
+      "4922",
+      "4923"
+    ],
+    "SkillIndex3": 4930,
+    "SkillExtend3": [
+      "4931",
+      "4932",
+      "4933"
+    ],
+    "SkillIndex4": 4940,
+    "SkillExtend4": [
+      "4941",
+      "4942",
+      "4943"
+    ],
+    "ExtraSkill": [
+      "4914",
+      "4924",
+      "4934",
+      "4935",
+      "4936",
+      "4944",
+      "4926",
+      "4916"
+    ],
+    "GetTranscendSkillPoint": [
+      "10",
+      "15",
+      "15",
+      "15",
+      "25"
+    ],
+    "TranscendSkill1": [
+      "60000001",
+      "60000002",
+      "60000003",
+      "60000004",
+      "60000033"
+    ],
+    "ReqSkillPoint1": [
+      "10",
+      "10",
+      "10",
+      "10",
+      "10"
+    ],
+    "TranscendSkill2": [
+      "60000025",
+      "60000026",
+      "60000027",
+      "60000028",
+      "60000039"
+    ],
+    "ReqSkillPoint2": [
+      "15",
+      "15",
+      "15",
+      "15",
+      "15"
+    ],
+    "TranscendSkill3": [
+      "60004910",
+      "60004911",
+      "60004920",
+      "60004921",
+      "60004930",
+      "60004931",
+      "60004940",
+      "60004941"
+    ],
+    "ReqSkillPoint3": [
+      "15",
+      "15",
+      "15",
+      "15",
+      "15",
+      "15",
+      "15",
+      "15"
+    ],
+    "TranscendSkill5": [
+      "60004950",
+      "60004951"
+    ],
+    "ReqSkillPoint5": [
+      "15",
+      "15"
+    ]
+  },
+  {
+    "Index": 40069,
+    "CodeName": "Monster.Event.2019_School.Gau",
+    "ModelCode": "Hero.Gau",
+    "ModelPrefix": "Cos16SL",
+    "OpenStatus": "Normal",
+    "Race": "Hero",
+    "TagType": "Warrior",
+    "AttrType": [
+      "Physical"
+    ],
+    "AttackWeakType": [
+      "Fire"
+    ],
+    "PositionType": "Forward",
+    "PositionWeight": 600,
+    "MoveSpeed": 5000,
+    "MinDamageRate": 200,
+    "IgnoreCc": [
+      "False"
+    ],
+    "SizeMm": 700,
+    "HeightMm": 2200,
+    "GradeStoneItemCode": "SKILLBOOK_WARRIOR_1",
+    "StarStoneItemCode": "NO_ITEM",
+    "BaseSkillIndex": 500,
+    "SkillIndex1": 520,
+    "SkillExtend1": [
+      "521",
+      "522",
+      "523"
+    ],
+    "SkillIndex2": 510,
+    "SkillExtend2": [
+      "511",
+      "512",
+      "513"
+    ],
+    "SkillIndex3": 530,
+    "SkillExtend3": [
+      "531",
+      "532",
+      "533"
+    ],
+    "SkillIndex4": 540,
+    "SkillExtend4": [
+      "541",
+      "542",
+      "543"
+    ],
+    "ExtraSkill": [
+      "544"
+    ],
+    "GetTranscendSkillPoint": [
+      "10",
+      "15",
+      "15",
+      "15",
+      "25"
+    ],
+    "TranscendSkill1": [
+      "60000001",
+      "60000002",
+      "60000003",
+      "60000004",
+      "60000033"
+    ],
+    "ReqSkillPoint1": [
+      "10",
+      "10",
+      "10",
+      "10",
+      "10"
+    ],
+    "TranscendSkill2": [
+      "60000009",
+      "60000010",
+      "60000011",
+      "60000012",
+      "60000035"
+    ],
+    "ReqSkillPoint2": [
+      "15",
+      "15",
+      "15",
+      "15",
+      "15"
+    ],
+    "TranscendSkill3": [
+      "60000510",
+      "60000511",
+      "60000520",
+      "60000521",
+      "60000530",
+      "60000531",
+      "60000540",
+      "60000541"
+    ],
+    "ReqSkillPoint3": [
+      "15",
+      "15",
+      "15",
+      "15",
+      "15",
+      "15",
+      "15",
+      "15"
+    ],
+    "TranscendSkill5": [
+      "60000550",
+      "60000551"
+    ],
+    "ReqSkillPoint5": [
+      "15",
+      "15"
     ]
   }
 ]

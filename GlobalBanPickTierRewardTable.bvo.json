@@ -270,16 +270,25 @@
     "SeasonReward": 1300
   },
   {
-    "TierIndex": 70,
-    "MinRank": 400,
-    "MaxRank": -1,
+    "TierIndex": 71,
+    "MinRank": 500,
+    "MaxRank": 599,
     "AttendanceReward": 25,
     "WinReward": 40,
     "WeeklyReward": 80,
     "SeasonReward": 1800
   },
   {
-    "TierIndex": 70,
+    "TierIndex": 72,
+    "MinRank": 400,
+    "MaxRank": 499,
+    "AttendanceReward": 25,
+    "WinReward": 40,
+    "WeeklyReward": 80,
+    "SeasonReward": 1800
+  },
+  {
+    "TierIndex": 73,
     "MinRank": 300,
     "MaxRank": 399,
     "AttendanceReward": 25,
@@ -288,7 +297,7 @@
     "SeasonReward": 1800
   },
   {
-    "TierIndex": 70,
+    "TierIndex": 74,
     "MinRank": 200,
     "MaxRank": 299,
     "AttendanceReward": 25,
@@ -297,8 +306,7 @@
     "SeasonReward": 1800
   },
   {
-    "TierIndex": 70,
-    "MinRank": 100,
+    "TierIndex": 75,
     "MaxRank": 199,
     "AttendanceReward": 25,
     "WinReward": 40,
@@ -306,49 +314,88 @@
     "SeasonReward": 1800
   },
   {
-    "TierIndex": 70,
-    "MinRank": 3,
-    "MaxRank": 99,
+    "TierIndex": 80,
+    "MinRank": 75,
+    "MaxRank": -1,
     "AttendanceReward": 25,
-    "WinReward": 40,
-    "WeeklyReward": 80,
-    "SeasonReward": 1800
+    "WinReward": 45,
+    "WeeklyReward": 100,
+    "SeasonReward": 2100
   },
   {
-    "TierIndex": 70,
+    "TierIndex": 80,
+    "MinRank": 50,
+    "MaxRank": 74,
+    "AttendanceReward": 25,
+    "WinReward": 45,
+    "WeeklyReward": 100,
+    "SeasonReward": 2100
+  },
+  {
+    "TierIndex": 80,
+    "MinRank": 25,
+    "MaxRank": 49,
+    "AttendanceReward": 25,
+    "WinReward": 45,
+    "WeeklyReward": 100,
+    "SeasonReward": 2100
+  },
+  {
+    "TierIndex": 80,
+    "MinRank": 10,
+    "MaxRank": 24,
+    "AttendanceReward": 25,
+    "WinReward": 45,
+    "WeeklyReward": 100,
+    "SeasonReward": 2100
+  },
+  {
+    "TierIndex": 80,
+    "MinRank": 3,
+    "MaxRank": 9,
+    "AttendanceReward": 25,
+    "WinReward": 45,
+    "WeeklyReward": 100,
+    "SeasonReward": 2100
+  },
+  {
+    "TierIndex": 80,
     "MinRank": 2,
     "MaxRank": 2,
     "AttendanceReward": 25,
-    "WinReward": 45,
+    "WinReward": 50,
     "WeeklyReward": 120,
     "SeasonReward": 2500,
     "ServerBuff": [
       "BonusGold",
       "2"
-    ]
+    ],
+    "DropBonusEventMessage": "GLOBAL_MATCH_BANPICK_REWARD_SERVER_BURF_USER_RANK_3"
   },
   {
-    "TierIndex": 70,
+    "TierIndex": 80,
     "MinRank": 1,
     "MaxRank": 1,
     "AttendanceReward": 25,
-    "WinReward": 45,
+    "WinReward": 50,
     "WeeklyReward": 120,
     "SeasonReward": 2500,
     "ServerBuff": [
       "BonusGold",
       "3"
-    ]
+    ],
+    "DropBonusEventMessage": "GLOBAL_MATCH_BANPICK_REWARD_SERVER_BURF_USER_RANK_2"
   },
   {
-    "TierIndex": 70,
+    "TierIndex": 80,
     "AttendanceReward": 25,
-    "WinReward": 45,
+    "WinReward": 50,
     "WeeklyReward": 120,
     "SeasonReward": 2500,
     "ServerBuff": [
       "BonusGold",
       "5"
-    ]
+    ],
+    "DropBonusEventMessage": "GLOBAL_MATCH_BANPICK_REWARD_SERVER_BURF_USER_RANK_1"
   }
 ]

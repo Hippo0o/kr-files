@@ -4005,10 +4005,11 @@
   },
   {
     "Index": 660510,
+    "NextIndex": 660500,
     "TriggerType": "OnAuto",
     "TriggerRatio": 1000,
     "CoolTimeMs": 18000,
-    "InitialCoolTimeMs": 20000,
+    "InitialCoolTimeMs": 18000,
     "ActingTimeMs": 2400,
     "DurationTimeMs": [
       "5600"
@@ -4038,7 +4039,7 @@
     ],
     "OperationAngle1": 90,
     "OperationValue1": [
-      "$ByTargetDistanceMm(940)"
+      "$ByTargetDistanceMm(1100)"
     ],
     "OperationType2": "Down",
     "OperationTargetType2": "Parent",
@@ -4088,7 +4089,7 @@
     "TriggerType": "OnAuto",
     "TriggerRatio": 1000,
     "CoolTimeMs": 25000,
-    "InitialCoolTimeMs": 5000,
+    "InitialCoolTimeMs": 10000,
     "ActingTimeMs": 1700,
     "SoloTimeMs": 1,
     "DurationTimeMs": [
@@ -4152,7 +4153,7 @@
     "OperationType3": "ModToughness",
     "OperationTargetType3": "Myself",
     "OperationValue3": [
-      "300"
+      "500"
     ],
     "OperationState3": "Positive",
     "OperationDurationMs3": 300
@@ -4163,7 +4164,7 @@
     "TriggerType": "OnAuto",
     "TriggerRatio": 1000,
     "CoolTimeMs": 18000,
-    "InitialCoolTimeMs": 15000,
+    "InitialCoolTimeMs": 12000,
     "ActingTimeMs": 3800,
     "DurationTimeMs": [
       "5500"
@@ -4191,14 +4192,14 @@
     ],
     "OperationAngle1": 90,
     "OperationValue1": [
-      "2500"
+      "2000"
     ],
     "OperationType2": "GetMagicalDamageR",
     "OperationTargetType2": "Myself",
     "OperationAreaOffsetMm2": 9000,
     "OperationRadiusMm2": 2000,
     "OperationValue2": [
-      "2000"
+      "3000"
     ],
     "OperationType3": "Down",
     "OperationTargetType3": "Parent",
@@ -4215,7 +4216,7 @@
     "OperationTargetType4": "Myself",
     "OperationValue4": [
       "660510",
-      "-300",
+      "-500",
       "1",
       "True"
     ]
@@ -4308,7 +4309,7 @@
     "OperationType1": "Down",
     "OperationTargetType1": "Myself",
     "OperationState1": "Down",
-    "OperationDurationMs1": 5000
+    "OperationDurationMs1": 3000
   },
   {
     "Index": 660550,
@@ -4329,10 +4330,10 @@
     "DeadTarget": "False",
     "IgnoreBlock": "TRUE",
     "RetargetOnFire": "False",
-    "OperationType1": "ModWeakness",
+    "OperationType1": "ModDefensePower",
     "OperationTargetType1": "Myself",
     "OperationValue1": [
-      "10"
+      "-10"
     ],
     "OperationState1": "SithraelWeak",
     "OperationDurationMs1": 3000
@@ -4378,17 +4379,17 @@
     "OperationType4": "ModPhysicalDefence",
     "OperationTargetType4": "Myself",
     "OperationValue4": [
-      "37000"
+      "38000"
     ],
     "OperationType5": "ModHitCcChance",
     "OperationTargetType5": "Myself",
     "OperationValue5": [
-      "300"
+      "500"
     ],
-    "OperationType6": "ModToughness",
+    "OperationType6": "ModDefensePower",
     "OperationTargetType6": "Myself",
     "OperationValue6": [
-      "300"
+      "400"
     ]
   },
   {
@@ -4608,8 +4609,8 @@
     "Index": 660561,
     "TriggerType": "OnTimer",
     "TriggerValue": [
-      "19000",
-      "19000"
+      "20000",
+      "20000"
     ],
     "TriggerRatio": 1000,
     "CancelOnWaveEnd": "TRUE",
@@ -4660,8 +4661,8 @@
     "Index": 660562,
     "TriggerType": "OnTimer",
     "TriggerValue": [
-      "12000",
-      "12000"
+      "11000",
+      "11000"
     ],
     "TriggerRatio": 1000,
     "CancelOnWaveEnd": "TRUE",
@@ -4678,7 +4679,7 @@
     "OperationType1": "ModPowerR",
     "OperationTargetType1": "Myself",
     "OperationValue1": [
-      "25"
+      "20"
     ],
     "OperationDurationMs1": 9999999,
     "OperationConditionType1": "None",
@@ -5697,7 +5698,8 @@
       "5800"
     ],
     "TickTimeValue": [
-      "4000"
+      "3900[6]",
+      "4000[1:2:3:4:5]"
     ],
     "AttrType": "Physical",
     "TargetType": "Enemy",
@@ -5710,7 +5712,7 @@
     "OperationTargetType1": "Myself",
     "OperationRadiusMm1": 5500,
     "OperationValue1": [
-      "1000",
+      "500",
       "$ByMEHp4(400)",
       "NoCritical|IgnoreImmune|Unavoidable|IgnoreToughness|IgnoreWeakness"
     ],
@@ -5750,7 +5752,10 @@
       "0",
       "0"
     ],
-    "OperationDurationMs5": 6000
+    "OperationDurationMs5": 6000,
+    "OperationType6": "Dispel",
+    "OperationTargetType6": "Myself",
+    "OperationRadiusMm6": 5500
   },
   {
     "Index": 660631,

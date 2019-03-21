@@ -2147,6 +2147,38 @@
     "OperationDurationMs4": 99999999
   },
   {
+    "Index": 60007850,
+    "TriggerType": "OnStart",
+    "TriggerRatio": 1000,
+    "DeadTarget": "False",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "FALSE",
+    "OperationType1": "ModMaxHpR",
+    "OperationTargetType1": "Myself",
+    "OperationValue1": [
+      "150"
+    ],
+    "OperationDurationMs1": 999999,
+    "OperationType2": "ModDefenceR",
+    "OperationTargetType2": "Myself",
+    "OperationValue2": [
+      "150"
+    ],
+    "OperationDurationMs2": 9999999,
+    "OperationType3": "ModPowerR",
+    "OperationTargetType3": "Myself",
+    "OperationValue3": [
+      "150"
+    ],
+    "OperationDurationMs3": 99999999,
+    "OperationType4": "ModCriticalChance",
+    "OperationTargetType4": "Myself",
+    "OperationValue4": [
+      "100"
+    ],
+    "OperationDurationMs4": 99999999
+  },
+  {
     "Index": 60008750,
     "TriggerType": "OnStart",
     "TriggerRatio": 1000,
@@ -4964,5 +4996,30 @@
     "OperationTargetType1": "Myself",
     "OperationState1": 60009651,
     "OperationDurationMs1": 2000
+  },
+  {
+    "Index": 60007851,
+    "TriggerType": "OnBaseAttack",
+    "TriggerRatio": 1000,
+    "AttrType": "None",
+    "TargetType": "TriggerTarget",
+    "TargetCount": 1,
+    "DeadTarget": "FALSE",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "FALSE",
+    "OperationType1": "ModMagicalWeakness",
+    "OperationTargetType1": "Target",
+    "OperationValue1": [
+      "10"
+    ],
+    "OperationState1": 60007851,
+    "OperationDurationMs1": 10000,
+    "OperationType2": "ModMagicalDefenceR",
+    "OperationTargetType2": "Target",
+    "OperationValue2": [
+      "-10"
+    ],
+    "OperationState2": "60007851_2",
+    "OperationDurationMs2": 10000
   }
 ]

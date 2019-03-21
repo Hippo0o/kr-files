@@ -34515,7 +34515,7 @@
   },
   {
     "Index": 3300010,
-    "TriggerType": "NextSkill",
+    "TriggerType": "OnStart",
     "TriggerRatio": 1000,
     "AttrType": "None",
     "IgnoreStateType": [
@@ -34526,13 +34526,12 @@
     "TargetCount": 1,
     "DeadTarget": "False",
     "RetargetOnFire": "FALSE",
-    "OperationType1": "CreateShieldR",
+    "OperationType1": "EnablePassiveSkill",
     "OperationTargetType1": "Target",
     "OperationValue1": [
-      "0",
-      "$ByTargetMaxHpR(350)"
+      "3300013",
+      "True"
     ],
-    "OperationState1": "SwampShield",
     "OperationDurationMs1": 9999999
   },
   {
@@ -34584,6 +34583,32 @@
     "OperationValue1": [
       "-200"
     ],
+    "OperationDurationMs1": 9999999
+  },
+  {
+    "Index": 3300013,
+    "TriggerType": "OnTimer",
+    "TriggerValue": [
+      "20000",
+      "20000"
+    ],
+    "TriggerRatio": 1000,
+    "AttrType": "None",
+    "IgnoreStateType": [
+      "CC",
+      "RaidDown"
+    ],
+    "TargetType": "Myself",
+    "TargetCount": 1,
+    "DeadTarget": "False",
+    "RetargetOnFire": "FALSE",
+    "OperationType1": "CreateShieldR",
+    "OperationTargetType1": "Target",
+    "OperationValue1": [
+      "0",
+      "$ByTargetMaxHpR(350)"
+    ],
+    "OperationState1": "SwampShield",
     "OperationDurationMs1": 9999999
   },
   {
@@ -34978,7 +35003,7 @@
     "OperationValue1": [
       "33001",
       "2",
-      "1000"
+      "500"
     ],
     "OperationConditionType1": "None"
   },
