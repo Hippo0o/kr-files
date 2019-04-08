@@ -1409,7 +1409,7 @@
     "OperationType1": "GetPhysicalDamageR",
     "OperationTargetType1": "Target",
     "OperationValue1": [
-      "1100"
+      "1500"
     ],
     "OperationConditionType1": "None"
   },
@@ -1417,7 +1417,7 @@
     "Index": 770310,
     "TriggerType": "OnAuto",
     "TriggerRatio": 1000,
-    "CoolTimeMs": 11000,
+    "CoolTimeMs": 10000,
     "DurationTimeMs": [
       "3800"
     ],
@@ -1542,9 +1542,9 @@
     "OperationValue2": [
       "600",
       "0",
-      "NoCritical",
+      "NoCritical|Unavoidable",
       "Down",
-      "1200"
+      "7000"
     ],
     "OperationType3": "Down",
     "OperationTargetType3": "Parent",
@@ -1656,7 +1656,27 @@
     "OperationValue2": [
       "100"
     ],
-    "OperationDurationMs2": 999999
+    "OperationDurationMs2": 999999,
+    "OperationType3": "ModDefensePower",
+    "OperationTargetType3": "Myself",
+    "OperationValue3": [
+      "950"
+    ],
+    "OperationType4": "ModDefensePower",
+    "OperationTargetType4": "Myself",
+    "OperationValue4": [
+      "-350"
+    ],
+    "OperationDelayMs4": [
+      "60000",
+      "0",
+      "0"
+    ],
+    "OperationType5": "ModToughness",
+    "OperationTargetType5": "Myself",
+    "OperationValue5": [
+      "400"
+    ]
   },
   {
     "Index": 770361,
@@ -1681,7 +1701,7 @@
     "OperationValue1": [
       "770300",
       "1",
-      "350"
+      "250"
     ],
     "OperationDurationMs1": 9999999
   },
@@ -1689,8 +1709,8 @@
     "Index": 770362,
     "TriggerType": "OnTimer",
     "TriggerValue": [
-      "10000",
-      "10000"
+      "13000",
+      "13000"
     ],
     "TriggerRatio": 1000,
     "AttrType": "Physical",
@@ -1717,150 +1737,18 @@
       "1",
       "200"
     ],
-    "OperationDurationMs2": 9999999
+    "OperationDurationMs2": 9999999,
+    "OperationType3": "ModDefensePower",
+    "OperationTargetType3": "Myself",
+    "OperationValue3": [
+      "-195"
+    ],
+    "OperationDurationMs3": 9999999
   },
   {
     "Index": 770350,
     "TriggerType": "NextSkill",
     "TriggerRatio": 1000,
-    "AttrType": "None",
-    "IgnoreStateType": [
-      "CC",
-      "RaidDown"
-    ],
-    "TargetType": "Myself",
-    "TargetCount": 1,
-    "DeadTarget": "False",
-    "IgnoreBlock": "TRUE",
-    "RetargetOnFire": "False",
-    "OperationType1": "ModPowerR",
-    "OperationTargetType1": "Myself",
-    "OperationState1": "OrcKe1",
-    "OperationAddStateCount1": 1,
-    "OperationDurationMs1": 9999999,
-    "OperationConditionType1": "NotState",
-    "OperationConditionValue1": [
-      "OrcKe2"
-    ],
-    "OperationType2": "UseSkill",
-    "OperationTargetType2": "Myself",
-    "OperationValue2": [
-      "770354"
-    ],
-    "OperationConditionType2": "StateCount",
-    "OperationConditionValue2": [
-      "OrcKe1",
-      "4",
-      "MoreOrEqual"
-    ],
-    "OperationType3": "ClearState",
-    "OperationTargetType3": "Myself",
-    "OperationValue3": [
-      "OrcKe1"
-    ],
-    "OperationConditionType3": "StateCount",
-    "OperationConditionValue3": [
-      "OrcKe1",
-      "4",
-      "MoreOrEqual"
-    ]
-  },
-  {
-    "Index": 770351,
-    "TriggerRatio": 1000,
-    "CoolTimeMs": 10000,
-    "AttrType": "None",
-    "IgnoreStateType": [
-      "CC",
-      "RaidDown"
-    ],
-    "TargetType": "Myself",
-    "TargetCount": 1,
-    "DeadTarget": "False",
-    "IgnoreBlock": "TRUE",
-    "RetargetOnFire": "False",
-    "OperationType1": "ModPowerR",
-    "OperationTargetType1": "Myself",
-    "OperationState1": "OrcKe1",
-    "OperationAddStateCount1": 1,
-    "OperationDurationMs1": 9999999,
-    "OperationConditionType1": "NotState",
-    "OperationConditionValue1": [
-      "OrcKe2"
-    ],
-    "OperationType2": "UseSkill",
-    "OperationTargetType2": "Myself",
-    "OperationValue2": [
-      "770354"
-    ],
-    "OperationConditionType2": "StateCount",
-    "OperationConditionValue2": [
-      "OrcKe1",
-      "4",
-      "MoreOrEqual"
-    ],
-    "OperationType3": "ClearState",
-    "OperationTargetType3": "Myself",
-    "OperationValue3": [
-      "OrcKe1"
-    ],
-    "OperationConditionType3": "StateCount",
-    "OperationConditionValue3": [
-      "OrcKe1",
-      "4",
-      "MoreOrEqual"
-    ]
-  },
-  {
-    "Index": 770352,
-    "TriggerRatio": 1000,
-    "CoolTimeMs": 10000,
-    "AttrType": "None",
-    "IgnoreStateType": [
-      "CC",
-      "RaidDown"
-    ],
-    "TargetType": "Myself",
-    "TargetCount": 1,
-    "DeadTarget": "False",
-    "IgnoreBlock": "TRUE",
-    "RetargetOnFire": "False",
-    "OperationType1": "ModPowerR",
-    "OperationTargetType1": "Myself",
-    "OperationState1": "OrcKe1",
-    "OperationAddStateCount1": 1,
-    "OperationDurationMs1": 9999999,
-    "OperationConditionType1": "NotState",
-    "OperationConditionValue1": [
-      "OrcKe2"
-    ],
-    "OperationType2": "UseSkill",
-    "OperationTargetType2": "Myself",
-    "OperationValue2": [
-      "770354"
-    ],
-    "OperationConditionType2": "StateCount",
-    "OperationConditionValue2": [
-      "OrcKe1",
-      "4",
-      "MoreOrEqual"
-    ],
-    "OperationType3": "ClearState",
-    "OperationTargetType3": "Myself",
-    "OperationValue3": [
-      "OrcKe1"
-    ],
-    "OperationConditionType3": "StateCount",
-    "OperationConditionValue3": [
-      "OrcKe1",
-      "4",
-      "MoreOrEqual"
-    ]
-  },
-  {
-    "Index": 770353,
-    "TriggerRatio": 1000,
-    "CoolTimeMs": 10000,
     "AttrType": "None",
     "IgnoreStateType": [
       "CC",
@@ -1918,10 +1806,12 @@
     "DeadTarget": "False",
     "IgnoreBlock": "TRUE",
     "RetargetOnFire": "False",
-    "OperationType1": "ModPowerR",
+    "OperationType1": "ModSkillPowerR",
     "OperationTargetType1": "Myself",
     "OperationValue1": [
-      "800"
+      "770300",
+      "1",
+      "3000"
     ],
     "OperationState1": "OrcKe2_1",
     "OperationDurationMs1": 10000,
@@ -1935,7 +1825,7 @@
     "OperationValue3": [
       "AttackSpeed",
       "Custom",
-      "2300"
+      "3000"
     ],
     "OperationState3": "OrcKe2",
     "OperationDurationMs3": 10000,
@@ -1970,7 +1860,13 @@
     "OperationParent6": 4,
     "OperationFlags6": [
       "HasParent"
-    ]
+    ],
+    "OperationType7": "ModAttackPower",
+    "OperationTargetType7": "Myself",
+    "OperationValue7": [
+      "2000"
+    ],
+    "OperationDurationMs7": 10000
   },
   {
     "Index": 770355,
@@ -2045,7 +1941,7 @@
     "OperationType1": "ModWeakness",
     "OperationTargetType1": "Myself",
     "OperationValue1": [
-      "200"
+      "950"
     ],
     "OperationState1": "RaidDown",
     "OperationDurationMs1": 7000,
@@ -2062,6 +1958,12 @@
     "OperationTargetType3": "Myself",
     "OperationValue3": [
       "OrcKe2"
-    ]
+    ],
+    "OperationType4": "ModDefensePower",
+    "OperationTargetType4": "Myself",
+    "OperationValue4": [
+      "-400"
+    ],
+    "OperationDurationMs4": 7000
   }
 ]

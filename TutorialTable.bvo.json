@@ -2396,159 +2396,6 @@
     "Command": "ClearFocus"
   },
   {
-    "Index": 2149,
-    "ReqIndex": 13020,
-    "Command": "EnterLobby"
-  },
-  {
-    "Index": 2150,
-    "ReqIndex": 13020,
-    "Command": "PlayCutScene",
-    "Argument": [
-      "CutScene/Tutorial/Guild1"
-    ]
-  },
-  {
-    "Index": 2150,
-    "Command": "WaitCutScene"
-  },
-  {
-    "Index": 2150,
-    "Command": "OpenMenuOpenPopup",
-    "Argument": [
-      "514",
-      "441",
-      "320",
-      "0",
-      "0.5",
-      "1.5"
-    ]
-  },
-  {
-    "Index": 2150,
-    "Command": "PlaySound",
-    "Argument": [
-      "UI2.Event01"
-    ]
-  },
-  {
-    "Index": 2150,
-    "Command": "WaitObject",
-    "Argument": [
-      "MenuOpenWindow(Clone)/ButtonClose",
-      " 0",
-      " 0.3",
-      " 3"
-    ]
-  },
-  {
-    "Index": 2150,
-    "Command": "WaitWidgetTouch",
-    "Argument": [
-      "MenuOpenWindow(Clone)/ButtonClose",
-      " 0",
-      " 0",
-      " 0",
-      " 0",
-      " 0",
-      " True"
-    ]
-  },
-  {
-    "Index": 2150,
-    "Command": "PlaySound",
-    "Argument": [
-      "Attack.Spin05"
-    ]
-  },
-  {
-    "Index": 2150,
-    "Command": "WaitTime",
-    "Argument": [
-      "0.6"
-    ]
-  },
-  {
-    "Index": 2150,
-    "Command": "PlaySound",
-    "Argument": [
-      "UI2.TakeReward"
-    ]
-  },
-  {
-    "Index": 2150,
-    "Command": "WaitTime",
-    "Argument": [
-      "0.9"
-    ]
-  },
-  {
-    "Index": 2150,
-    "Command": "WorldMapPlayerMove",
-    "Argument": [
-      "99",
-      " 5",
-      " False"
-    ]
-  },
-  {
-    "Index": 2150,
-    "Command": "WaitObject",
-    "Argument": [
-      "NodeFunctionMenu(Clone)/MainButton/Button_Guild",
-      " 0",
-      " 0.3",
-      " 3"
-    ]
-  },
-  {
-    "Index": 2150,
-    "Command": "FocusWidget",
-    "Argument": [
-      "NodeFunctionMenu(Clone)/MainButton/Button_Guild",
-      " 0",
-      " 0",
-      " 0",
-      " 0",
-      " 0"
-    ]
-  },
-  {
-    "Index": 2150,
-    "Command": "FocusWidgetEffect",
-    "Argument": [
-      "NodeFunctionMenu(Clone)/MainButton/Button_Guild",
-      " 0",
-      " UI.Common.Finger",
-      " -50",
-      " 0",
-      " -110",
-      " 100",
-      " True"
-    ]
-  },
-  {
-    "Index": 2150,
-    "Command": "WaitWidgetTouch",
-    "Argument": [
-      "NodeFunctionMenu(Clone)/MainButton/Button_Guild",
-      " 0",
-      " 0",
-      " 0",
-      " 0",
-      " 0",
-      " True"
-    ]
-  },
-  {
-    "Index": 2150,
-    "Command": "ClearTooltip"
-  },
-  {
-    "Index": 2150,
-    "Command": "ClearFocus"
-  },
-  {
     "Index": 2150,
     "Command": "PlayCutScene",
     "Argument": [
@@ -2557,7 +2404,28 @@
   },
   {
     "Index": 2150,
+    "Command": "OpenEntryMenu",
+    "Argument": [
+      "99",
+      " 5",
+      " True",
+      " False"
+    ]
+  },
+  {
+    "Index": 2150,
     "Command": "WaitCutScene"
+  },
+  {
+    "Index": 2150,
+    "Command": "WaitTime",
+    "Argument": [
+      "0.5"
+    ]
+  },
+  {
+    "Index": 2150,
+    "Command": "SkipStart"
   },
   {
     "Index": 2150,
@@ -2582,10 +2450,6 @@
       " 100",
       " TUTORIAL_TEXT_246"
     ]
-  },
-  {
-    "Index": 2150,
-    "Command": "SkipStart"
   },
   {
     "Index": 2150,
@@ -2647,12 +2511,8 @@
       " 0",
       " 0",
       " 0",
-      " False"
+      " True"
     ]
-  },
-  {
-    "Index": 2150,
-    "Command": "WaitTouch"
   },
   {
     "Index": 2150,
@@ -2664,16 +2524,9 @@
   },
   {
     "Index": 2150,
-    "Command": "OpenEntryMenuShop",
-    "Argument": [
-      "4"
-    ]
-  },
-  {
-    "Index": 2150,
     "Command": "FocusWidget",
     "Argument": [
-      "TopmostMenu(Clone)/ResourceUi_Root/Table/WidgetGuildPoint",
+      "TopmostMenu(Clone)/ResourceUi_Root/Table/MainPlayerAssetInfo",
       " 0",
       " 0",
       " 50",
@@ -2719,6 +2572,54 @@
   },
   {
     "Index": 2150,
+    "Command": "FocusWidget",
+    "Argument": [
+      "TopmostMenu(Clone)/BackButtonTitle_Root/Button_Exit",
+      " 0",
+      " 0",
+      " 0",
+      " 0",
+      " 0"
+    ]
+  },
+  {
+    "Index": 2150,
+    "Command": "FocusWidgetEffect",
+    "Argument": [
+      "TopmostMenu(Clone)/BackButtonTitle_Root/Button_Exit",
+      " 0",
+      " UI.Common.Finger",
+      " 0",
+      " 0",
+      " 0",
+      " 0",
+      " True "
+    ]
+  },
+  {
+    "Index": 2150,
+    "Command": "WaitWidgetTouch",
+    "Argument": [
+      "TopmostMenu(Clone)/BackButtonTitle_Root/Button_Exit",
+      " 0",
+      " 0",
+      " 0",
+      " 0",
+      " 0",
+      " True",
+      " True"
+    ]
+  },
+  {
+    "Index": 2150,
+    "Command": "ClearTooltip"
+  },
+  {
+    "Index": 2150,
+    "Command": "ClearFocus"
+  },
+  {
+    "Index": 2150,
     "Command": "SkipEnd",
     "Argument": [
       "Resources/Prefab2/Window/MessagePopup/TutorialSkipPopup",
@@ -2728,159 +2629,7 @@
   },
   {
     "Index": 2150,
-    "Command": "CloseAllPopup"
-  },
-  {
-    "Index": 2159,
-    "ReqIndex": 2150,
     "Command": "EnterLobby"
-  },
-  {
-    "Index": 2160,
-    "ReqIndex": 2150,
-    "Command": "OpenMenuOpenPopup",
-    "Argument": [
-      "514",
-      "441",
-      "640",
-      "0",
-      "0.5",
-      "1.5"
-    ]
-  },
-  {
-    "Index": 2160,
-    "Command": "PlaySound",
-    "Argument": [
-      "UI2.Event01"
-    ]
-  },
-  {
-    "Index": 2160,
-    "Command": "WaitObject",
-    "Argument": [
-      "MenuOpenWindow(Clone)/ButtonClose",
-      " 0",
-      " 0.3",
-      " 3"
-    ]
-  },
-  {
-    "Index": 2160,
-    "Command": "WaitWidgetTouch",
-    "Argument": [
-      "MenuOpenWindow(Clone)/ButtonClose",
-      " 0",
-      " 0",
-      " 0",
-      " 0",
-      " 0",
-      " True"
-    ]
-  },
-  {
-    "Index": 2160,
-    "Command": "PlaySound",
-    "Argument": [
-      "Attack.Spin05"
-    ]
-  },
-  {
-    "Index": 2160,
-    "Command": "WaitTime",
-    "Argument": [
-      "0.6"
-    ]
-  },
-  {
-    "Index": 2160,
-    "Command": "PlaySound",
-    "Argument": [
-      "UI2.TakeReward"
-    ]
-  },
-  {
-    "Index": 2160,
-    "Command": "WaitTime",
-    "Argument": [
-      "0.9"
-    ]
-  },
-  {
-    "Index": 2160,
-    "Command": "PlayCutScene",
-    "Argument": [
-      "CutScene/Tutorial/Inn0"
-    ]
-  },
-  {
-    "Index": 2160,
-    "Command": "WaitCutScene"
-  },
-  {
-    "Index": 2160,
-    "Command": "WorldMapPlayerMove",
-    "Argument": [
-      "99",
-      " 2",
-      " False"
-    ]
-  },
-  {
-    "Index": 2160,
-    "Command": "WaitObject",
-    "Argument": [
-      "NodeFunctionMenu(Clone)/MainButton/Button_Pub",
-      " 0",
-      " 0.3"
-    ]
-  },
-  {
-    "Index": 2160,
-    "Command": "FocusWidget",
-    "Argument": [
-      "NodeFunctionMenu(Clone)/MainButton/Button_Pub",
-      " 0 ",
-      "0 ",
-      "0 ",
-      "0 ",
-      "0"
-    ]
-  },
-  {
-    "Index": 2160,
-    "Command": "FocusWidgetEffect",
-    "Argument": [
-      "NodeFunctionMenu(Clone)/MainButton/Button_Pub",
-      " 0",
-      " UI.Common.Finger",
-      " -50",
-      " 0",
-      " -115",
-      " 100",
-      " True"
-    ]
-  },
-  {
-    "Index": 2160,
-    "Command": "WaitWidgetTouch",
-    "Argument": [
-      "NodeFunctionMenu(Clone)/MainButton/Button_Pub",
-      " 0",
-      " 0",
-      " 0",
-      " 0",
-      " 0",
-      " True"
-    ]
-  },
-  {
-    "Index": 2160,
-    "Command": "ClearTooltip"
-  },
-  {
-    "Index": 2160,
-    "Command": "ClearFocus"
   },
   {
     "Index": 2160,
@@ -2891,7 +2640,28 @@
   },
   {
     "Index": 2160,
+    "Command": "OpenEntryMenu",
+    "Argument": [
+      "99",
+      " 2",
+      " True",
+      " False"
+    ]
+  },
+  {
+    "Index": 2160,
     "Command": "WaitCutScene"
+  },
+  {
+    "Index": 2160,
+    "Command": "WaitTime",
+    "Argument": [
+      "0.5"
+    ]
+  },
+  {
+    "Index": 2160,
+    "Command": "SkipStart"
   },
   {
     "Index": 2160,
@@ -2904,10 +2674,6 @@
       " 0 ",
       "0"
     ]
-  },
-  {
-    "Index": 2160,
-    "Command": "SkipStart"
   },
   {
     "Index": 2160,
@@ -2948,48 +2714,6 @@
   {
     "Index": 2160,
     "Command": "SkipEnd"
-  },
-  {
-    "Index": 2160,
-    "Command": "NextTutorial",
-    "Argument": [
-      "2161"
-    ]
-  },
-  {
-    "Index": 2161,
-    "Command": "EnterLobby"
-  },
-  {
-    "Index": 2161,
-    "Command": "WaitEvent",
-    "Argument": [
-      "EnterLobby"
-    ]
-  },
-  {
-    "Index": 2161,
-    "Command": "NextTutorial",
-    "Argument": [
-      "2162"
-    ],
-    "RewardIndex": 81006,
-    "HideRewardPopup": "True"
-  },
-  {
-    "Index": 2162,
-    "ReqIndex": 2160,
-    "Command": "ReserveLobbyPopup",
-    "Argument": [
-      "GetNewHero2"
-    ]
-  },
-  {
-    "Index": 2162,
-    "Command": "ReserveLobbyPopup",
-    "Argument": [
-      "TeamLevelupPopup"
-    ]
   },
   {
     "Index": 2170,
@@ -3223,6 +2947,168 @@
       "Resources/Prefab2/Window/MessagePopup/TutorialSkipPopup",
       " TUTORIAL_SKIP_NAME_006",
       " TUTORIAL_SKIP_DESC_006"
+    ]
+  },
+  {
+    "Index": 13020,
+    "Command": "PlayCutScene",
+    "Argument": [
+      "CutScene/Tutorial/Castle_2017"
+    ]
+  },
+  {
+    "Index": 13020,
+    "Command": "OpenEntryMenu",
+    "Argument": [
+      "99",
+      " 6",
+      " True",
+      " False"
+    ]
+  },
+  {
+    "Index": 13020,
+    "Command": "WaitCutScene"
+  },
+  {
+    "Index": 13020,
+    "Command": "WaitTime",
+    "Argument": [
+      "0.5"
+    ]
+  },
+  {
+    "Index": 13020,
+    "Command": "ClearFocus",
+    "Argument": [
+      "True"
+    ]
+  },
+  {
+    "Index": 13020,
+    "Command": "SkipStart"
+  },
+  {
+    "Index": 13020,
+    "Command": "ShowTooltip2",
+    "Argument": [
+      "Center",
+      " 0",
+      " -200",
+      " 2000",
+      " 100",
+      " TUTORIAL_TEXT_105"
+    ]
+  },
+  {
+    "Index": 13020,
+    "Command": "FocusAreaEffect",
+    "Argument": [
+      "UI.Common.Finger",
+      " 750",
+      " -200",
+      " 0",
+      " 100",
+      " True"
+    ]
+  },
+  {
+    "Index": 13020,
+    "Command": "WaitTouch"
+  },
+  {
+    "Index": 13020,
+    "Command": "ClearTooltip"
+  },
+  {
+    "Index": 13020,
+    "Command": "ClearFocus",
+    "Argument": [
+      "True"
+    ]
+  },
+  {
+    "Index": 13020,
+    "Command": "ShowTooltip2",
+    "Argument": [
+      "Center",
+      " 0",
+      " -200",
+      " 2000",
+      " 100",
+      " TUTORIAL_TEXT_117"
+    ]
+  },
+  {
+    "Index": 13020,
+    "Command": "FocusAreaEffect",
+    "Argument": [
+      "UI.Common.Finger",
+      " 750",
+      " -200",
+      " 0",
+      " 100",
+      " True"
+    ]
+  },
+  {
+    "Index": 13020,
+    "Command": "WaitTouch"
+  },
+  {
+    "Index": 13020,
+    "Command": "ClearTooltip"
+  },
+  {
+    "Index": 13020,
+    "Command": "ClearFocus",
+    "Argument": [
+      "True"
+    ]
+  },
+  {
+    "Index": 13020,
+    "Command": "ShowTooltip2",
+    "Argument": [
+      "Center",
+      " 0",
+      " -200",
+      " 2000",
+      " 100",
+      " TUTORIAL_TEXT_118"
+    ]
+  },
+  {
+    "Index": 13020,
+    "Command": "FocusAreaEffect",
+    "Argument": [
+      "UI.Common.Finger",
+      " 750",
+      " -200",
+      " 0",
+      " 100",
+      " True"
+    ]
+  },
+  {
+    "Index": 13020,
+    "Command": "WaitTouch"
+  },
+  {
+    "Index": 13020,
+    "Command": "ClearTooltip"
+  },
+  {
+    "Index": 13020,
+    "Command": "ClearFocus"
+  },
+  {
+    "Index": 13020,
+    "Command": "SkipEnd",
+    "Argument": [
+      "Resources/Prefab2/Window/MessagePopup/TutorialSkipPopup",
+      " TUTORIAL_SKIP_NAME_013",
+      " TUTORIAL_SKIP_DESC_013"
     ]
   },
   {
@@ -8578,7 +8464,8 @@
       " 0",
       " 0",
       " 150",
-      " 110"
+      " 110",
+      " True"
     ]
   },
   {
@@ -8596,10 +8483,7 @@
   },
   {
     "Index": 10030,
-    "Command": "ClearFocus",
-    "Argument": [
-      "True"
-    ]
+    "Command": "ClearFocus"
   },
   {
     "Index": 10030,
@@ -8990,11 +8874,61 @@
   },
   {
     "Index": 10031,
+    "Command": "FocusWidget",
+    "Argument": [
+      "HeroList(Clone)/HeroSkillListPanel/SkillListGrid/HeroSkillSubComponent(Clone)",
+      " 0",
+      " 0",
+      " 0",
+      " 0",
+      " 0"
+    ]
+  },
+  {
+    "Index": 10031,
+    "Command": "FocusWidgetEffect",
+    "Argument": [
+      "HeroList(Clone)/HeroSkillListPanel/SkillListGrid/HeroSkillSubComponent(Clone)",
+      " 0",
+      " UI.Common.Finger",
+      " 0",
+      " 0",
+      " 0",
+      " 100",
+      " True"
+    ]
+  },
+  {
+    "Index": 10031,
+    "Command": "WaitWidgetTouch",
+    "Argument": [
+      "HeroList(Clone)/HeroSkillListPanel/SkillListGrid/HeroSkillSubComponent(Clone)",
+      " 0",
+      " 0",
+      " 0",
+      " 0",
+      " 0",
+      " True"
+    ]
+  },
+  {
+    "Index": 10031,
+    "Command": "ClearFocus",
+    "Argument": [
+      "True"
+    ]
+  },
+  {
+    "Index": 10031,
+    "Command": "ClearTooltip"
+  },
+  {
+    "Index": 10031,
     "Command": "ShowTooltip2",
     "Argument": [
       "Center",
       " 0",
-      " -200",
+      " 0",
       " 2000",
       " 100",
       " TUTORIAL_TEXT_239"
@@ -9013,7 +8947,7 @@
     "Argument": [
       "UI.Common.Finger",
       " 800",
-      " -200",
+      " 0",
       " 0",
       " 100"
     ]
@@ -9053,7 +8987,7 @@
     "Argument": [
       "Center",
       " 0",
-      " -200",
+      " 0",
       " 2000",
       " 100",
       " TUTORIAL_TEXT_242"
@@ -9130,57 +9064,8 @@
     "Index": 10031,
     "Command": "WaitTime",
     "Argument": [
-      "2"
+      "1"
     ]
-  },
-  {
-    "Index": 10031,
-    "Command": "FocusAreaEffect",
-    "Argument": [
-      "UI.Common.Finger",
-      " 800",
-      " -200",
-      " 0",
-      " 100"
-    ]
-  },
-  {
-    "Index": 10031,
-    "Command": "FocusWidget",
-    "Argument": [
-      "HeroList(Clone)/HeroGrid/ClippingPanel/HeroPortraitSmall(Clone)",
-      " 0",
-      " 0",
-      " 0",
-      " 0",
-      " 0",
-      " True"
-    ]
-  },
-  {
-    "Index": 10031,
-    "Command": "FocusWidget",
-    "Argument": [
-      "HeroSkillDesc(Clone)/WidgetCurSkillLevelDesc/Sprite_Title",
-      " 0",
-      " 0",
-      " 0",
-      " 0",
-      " 0",
-      " True"
-    ]
-  },
-  {
-    "Index": 10031,
-    "Command": "WaitTouch"
-  },
-  {
-    "Index": 10031,
-    "Command": "ClearFocus"
-  },
-  {
-    "Index": 10031,
-    "Command": "ClearTooltip"
   },
   {
     "Index": 10031,
@@ -9188,7 +9073,7 @@
     "Argument": [
       "Center",
       " 0",
-      " 200",
+      " 0",
       " 2000",
       " 100",
       " TUTORIAL_TEXT_240"
@@ -9200,7 +9085,7 @@
     "Argument": [
       "UI.Common.Finger",
       " 800",
-      " 200",
+      " 0",
       " 0",
       " 100"
     ]
@@ -21266,7 +21151,7 @@
   },
   {
     "Index": 14020,
-    "Command": "FocusAreaEffect"
+    "Command": "WaitTouch"
   },
   {
     "Index": 14020,
@@ -22499,7 +22384,8 @@
     "Repeatable": "True"
   },
   {
-    "Index": 13020,
+    "Index": 17000,
+    "ReqIndex": "\uc0c1\uae09 \ub358\uc804",
     "Command": "WaitObject",
     "Argument": [
       "RightMenu(Clone)/MenuAnchor/AnimationRoot/GameObject/Buttons/Button_Quest",
@@ -22509,7 +22395,7 @@
     ]
   },
   {
-    "Index": 13020,
+    "Index": 17000,
     "Command": "WorldMapPlayerMove",
     "Argument": [
       "1",
@@ -22518,21 +22404,21 @@
     ]
   },
   {
-    "Index": 13020,
+    "Index": 17000,
     "Command": "PlayCutScene",
     "Argument": [
       "CutScene/CH1_26"
     ]
   },
   {
-    "Index": 13020,
+    "Index": 17000,
     "Command": "WaitCutScene",
     "Argument": [
       "2"
     ]
   },
   {
-    "Index": 13020,
+    "Index": 17000,
     "Command": "ZoomMapNode",
     "Argument": [
       "30",
@@ -22540,11 +22426,11 @@
     ]
   },
   {
-    "Index": 13020,
+    "Index": 17000,
     "Command": "WaitCutScene"
   },
   {
-    "Index": 13020,
+    "Index": 17000,
     "Command": "WorldMapPlayerMove",
     "Argument": [
       "1",
@@ -22553,7 +22439,7 @@
     ]
   },
   {
-    "Index": 13020,
+    "Index": 17000,
     "Command": "ZoomMapNode",
     "Argument": [
       "30",
@@ -22561,25 +22447,25 @@
     ]
   },
   {
-    "Index": 13020,
+    "Index": 17000,
     "Command": "PlayCutScene",
     "Argument": [
       "CutScene/CH1_27"
     ]
   },
   {
-    "Index": 13020,
+    "Index": 17000,
     "Command": "WaitCutScene"
   },
   {
-    "Index": 13020,
+    "Index": 17000,
     "Command": "SkipStart",
     "Argument": [
       "Jump"
     ]
   },
   {
-    "Index": 13020,
+    "Index": 17000,
     "Command": "ShowTooltip2",
     "Argument": [
       "Center",
@@ -22591,7 +22477,7 @@
     ]
   },
   {
-    "Index": 13020,
+    "Index": 17000,
     "Command": "FocusAreaEffect",
     "Argument": [
       "UI.Common.Finger",
@@ -22602,26 +22488,26 @@
     ]
   },
   {
-    "Index": 13020,
+    "Index": 17000,
     "Command": "WaitTouch"
   },
   {
-    "Index": 13020,
+    "Index": 17000,
     "Command": "PlaySound",
     "Argument": [
       "UI2.Button5"
     ]
   },
   {
-    "Index": 13020,
+    "Index": 17000,
     "Command": "ClearTooltip"
   },
   {
-    "Index": 13020,
+    "Index": 17000,
     "Command": "ClearFocus"
   },
   {
-    "Index": 13020,
+    "Index": 17000,
     "Command": "ShowTooltip2",
     "Argument": [
       "Center",
@@ -22633,7 +22519,7 @@
     ]
   },
   {
-    "Index": 13020,
+    "Index": 17000,
     "Command": "FocusAreaEffect",
     "Argument": [
       "UI.Common.Finger",
@@ -22644,26 +22530,26 @@
     ]
   },
   {
-    "Index": 13020,
+    "Index": 17000,
     "Command": "WaitTouch"
   },
   {
-    "Index": 13020,
+    "Index": 17000,
     "Command": "PlaySound",
     "Argument": [
       "UI2.Button5"
     ]
   },
   {
-    "Index": 13020,
+    "Index": 17000,
     "Command": "ClearTooltip"
   },
   {
-    "Index": 13020,
+    "Index": 17000,
     "Command": "ClearFocus"
   },
   {
-    "Index": 13020,
+    "Index": 17000,
     "Command": "ShowTooltip2",
     "Argument": [
       "Center",
@@ -22675,7 +22561,7 @@
     ]
   },
   {
-    "Index": 13020,
+    "Index": 17000,
     "Command": "FocusAreaEffect",
     "Argument": [
       "UI.Common.Finger",
@@ -22686,26 +22572,26 @@
     ]
   },
   {
-    "Index": 13020,
+    "Index": 17000,
     "Command": "WaitTouch"
   },
   {
-    "Index": 13020,
+    "Index": 17000,
     "Command": "PlaySound",
     "Argument": [
       "UI2.Button5"
     ]
   },
   {
-    "Index": 13020,
+    "Index": 17000,
     "Command": "ClearTooltip"
   },
   {
-    "Index": 13020,
+    "Index": 17000,
     "Command": "ClearFocus"
   },
   {
-    "Index": 13020,
+    "Index": 17000,
     "Command": "ShowTooltip2",
     "Argument": [
       "Center",
@@ -22717,7 +22603,7 @@
     ]
   },
   {
-    "Index": 13020,
+    "Index": 17000,
     "Command": "FocusAreaEffect",
     "Argument": [
       "UI.Common.Finger",
@@ -22728,26 +22614,26 @@
     ]
   },
   {
-    "Index": 13020,
+    "Index": 17000,
     "Command": "WaitTouch"
   },
   {
-    "Index": 13020,
+    "Index": 17000,
     "Command": "PlaySound",
     "Argument": [
       "UI2.Button5"
     ]
   },
   {
-    "Index": 13020,
+    "Index": 17000,
     "Command": "ClearTooltip"
   },
   {
-    "Index": 13020,
+    "Index": 17000,
     "Command": "ClearFocus"
   },
   {
-    "Index": 13020,
+    "Index": 17000,
     "Command": "SkipEnd",
     "Argument": [
       "Resources/Prefab2/Window/MessagePopup/TutorialSkipPopup",
@@ -22756,18 +22642,171 @@
     ]
   },
   {
-    "Index": 13020,
+    "Index": 17000,
+    "ReqIndex": "2\ucc55\ud130\ub85c \uc774\ub3d9",
+    "Command": "WaitTime",
+    "Argument": [
+      "0.5"
+    ]
+  },
+  {
+    "Index": 17000,
+    "Command": "ZoomMapNode",
+    "Argument": [
+      "29",
+      " 1"
+    ]
+  },
+  {
+    "Index": 17000,
+    "Command": "FocusWidget",
+    "Argument": [
+      "MapLayout(Clone)/Panel_WorldMap/NodeRoot/29_MoveChapter/EffectRoot/VisitableObject",
+      " 0",
+      " 0",
+      " 0",
+      " 0",
+      " 0"
+    ]
+  },
+  {
+    "Index": 17000,
+    "Command": "FocusWidgetEffect",
+    "Argument": [
+      "MapLayout(Clone)/Panel_WorldMap/NodeRoot/29_MoveChapter/EffectRoot/VisitableObject",
+      " 0",
+      " UI.Common.Finger",
+      " 0",
+      " 0",
+      " 150",
+      " 100",
+      " True"
+    ]
+  },
+  {
+    "Index": 17000,
+    "Command": "WaitWidgetTouch",
+    "Argument": [
+      "MapLayout(Clone)/Panel_WorldMap/NodeRoot/29_MoveChapter/EffectRoot/VisitableObject",
+      " 0",
+      " 0",
+      " 0",
+      " 0",
+      " 0",
+      " True"
+    ]
+  },
+  {
+    "Index": 17000,
+    "Command": "ClearFocus"
+  },
+  {
+    "Index": 17000,
+    "Command": "ClearTooltip"
+  },
+  {
+    "Index": 17000,
+    "Command": "WorldMapPlayerMove",
+    "Argument": [
+      "1",
+      " 29",
+      " False"
+    ]
+  },
+  {
+    "Index": 17000,
+    "Command": "WaitTime",
+    "Argument": [
+      "0.5"
+    ]
+  },
+  {
+    "Index": 17000,
+    "Command": "FocusWidget",
+    "Argument": [
+      "NodeFunctionMenu(Clone)/MainButton/Button_MoveChapter",
+      " 0",
+      " 0",
+      " 0",
+      " 0",
+      " 0"
+    ]
+  },
+  {
+    "Index": 17000,
+    "Command": "FocusWidgetEffect",
+    "Argument": [
+      "NodeFunctionMenu(Clone)/MainButton/Button_MoveChapter",
+      " 0",
+      " UI.Common.Finger",
+      " 0",
+      " 0",
+      " 150",
+      " 100",
+      " True"
+    ]
+  },
+  {
+    "Index": 17000,
+    "Command": "WaitWidgetTouch",
+    "Argument": [
+      "NodeFunctionMenu(Clone)/MainButton/Button_MoveChapter",
+      " 0",
+      " 0",
+      " 0",
+      " 0",
+      " 0",
+      " True"
+    ]
+  },
+  {
+    "Index": 17000,
+    "Command": "ClearFocus"
+  },
+  {
+    "Index": 17000,
+    "Command": "ClearTooltip"
+  },
+  {
+    "Index": 17000,
+    "Command": "NextTutorial",
+    "Argument": [
+      "17001"
+    ]
+  },
+  {
+    "Index": 17001,
+    "ReqIndex": 17000,
+    "Command": "WaitTime",
+    "Argument": [
+      "0.5"
+    ]
+  },
+  {
+    "Index": 17001,
+    "Command": "PlayCutScene",
+    "Argument": [
+      "CutScene/CH2_Main_1"
+    ]
+  },
+  {
+    "Index": 17001,
+    "Command": "WaitCutScene"
+  },
+  {
+    "Index": 17001,
     "Command": "PlayCutScene",
     "Argument": [
       "CutScene/Tutorial/Portal1"
     ]
   },
   {
-    "Index": 13020,
+    "Index": 17001,
     "Command": "WaitCutScene"
   },
   {
-    "Index": 13020,
+    "Index": 17001,
+    "ReqIndex": "\ud3ec\ud0c8 \ubc84\ud2bc \ub4f1\uc7a5",
     "Command": "OpenMenuOpenPopup",
     "Argument": [
       "514",
@@ -22779,14 +22818,14 @@
     ]
   },
   {
-    "Index": 13020,
+    "Index": 17001,
     "Command": "PlaySound",
     "Argument": [
       "UI2.Event01"
     ]
   },
   {
-    "Index": 13020,
+    "Index": 17001,
     "Command": "WaitObject",
     "Argument": [
       "MenuOpenWindow(Clone)/ButtonClose",
@@ -22796,7 +22835,7 @@
     ]
   },
   {
-    "Index": 13020,
+    "Index": 17001,
     "Command": "WaitWidgetTouch",
     "Argument": [
       "MenuOpenWindow(Clone)/ButtonClose",
@@ -22809,35 +22848,35 @@
     ]
   },
   {
-    "Index": 13020,
+    "Index": 17001,
     "Command": "PlaySound",
     "Argument": [
       "Attack.Spin05"
     ]
   },
   {
-    "Index": 13020,
+    "Index": 17001,
     "Command": "WaitTime",
     "Argument": [
       "0.6"
     ]
   },
   {
-    "Index": 13020,
+    "Index": 17001,
     "Command": "PlaySound",
     "Argument": [
       "UI2.TakeReward"
     ]
   },
   {
-    "Index": 13020,
+    "Index": 17001,
     "Command": "WaitTime",
     "Argument": [
       "0.9"
     ]
   },
   {
-    "Index": 13020,
+    "Index": 17001,
     "Command": "WaitObject",
     "Argument": [
       "RightMenu(Clone)/MenuAnchor/AnimationRoot/GameObject/Buttons/Button_Portal",
@@ -22847,7 +22886,7 @@
     ]
   },
   {
-    "Index": 13020,
+    "Index": 17001,
     "Command": "FocusWidget",
     "Argument": [
       "RightMenu(Clone)/MenuAnchor/AnimationRoot/GameObject/Buttons/Button_Portal",
@@ -22859,7 +22898,7 @@
     ]
   },
   {
-    "Index": 13020,
+    "Index": 17001,
     "Command": "FocusWidgetEffect",
     "Argument": [
       "RightMenu(Clone)/MenuAnchor/AnimationRoot/GameObject/Buttons/Button_Portal",
@@ -22873,7 +22912,7 @@
     ]
   },
   {
-    "Index": 13020,
+    "Index": 17001,
     "Command": "ShowTooltip2",
     "Argument": [
       "Center",
@@ -22885,7 +22924,7 @@
     ]
   },
   {
-    "Index": 13020,
+    "Index": 17001,
     "Command": "WaitWidgetTouch",
     "Argument": [
       "RightMenu(Clone)/MenuAnchor/AnimationRoot/GameObject/Buttons/Button_Portal",
@@ -22898,22 +22937,22 @@
     ]
   },
   {
-    "Index": 13020,
+    "Index": 17001,
     "Command": "ClearFocus"
   },
   {
-    "Index": 13020,
+    "Index": 17001,
     "Command": "ClearTooltip"
   },
   {
-    "Index": 13020,
+    "Index": 17001,
     "Command": "WaitTime",
     "Argument": [
-      "1"
+      "0.3"
     ]
   },
   {
-    "Index": 13020,
+    "Index": 17001,
     "Command": "WaitObject",
     "Argument": [
       "PortalSelect3(Clone)/MapRoot/PortalComponentLarge(Clone)/Texture_Portal",
@@ -22923,19 +22962,7 @@
     ]
   },
   {
-    "Index": 13020,
-    "Command": "FocusAreaEffect",
-    "Argument": [
-      "UI.Common.Finger",
-      " 750",
-      " 200",
-      " 0",
-      " 100",
-      " True"
-    ]
-  },
-  {
-    "Index": 13020,
+    "Index": 17001,
     "Command": "ShowTooltip2",
     "Argument": [
       "Center",
@@ -22947,18 +22974,7 @@
     ]
   },
   {
-    "Index": 13020,
-    "Command": "WaitTouch"
-  },
-  {
-    "Index": 13020,
-    "Command": "PlaySound",
-    "Argument": [
-      "UI2.Button5"
-    ]
-  },
-  {
-    "Index": 13020,
+    "Index": 17001,
     "Command": "FocusAreaEffect",
     "Argument": [
       "UI.Common.Finger",
@@ -22970,7 +22986,36 @@
     ]
   },
   {
-    "Index": 13020,
+    "Index": 17001,
+    "Command": "WaitTouch"
+  },
+  {
+    "Index": 17001,
+    "Command": "ClearFocus"
+  },
+  {
+    "Index": 17001,
+    "Command": "ClearTooltip"
+  },
+  {
+    "Index": 17001,
+    "Command": "WaitTime",
+    "Argument": [
+      "0.3"
+    ]
+  },
+  {
+    "Index": 17001,
+    "Command": "WaitObject",
+    "Argument": [
+      "PortalSelect3(Clone)/MapRoot/PortalComponentLarge(Clone)/Texture_Portal",
+      " 0",
+      " 0.3",
+      " 10"
+    ]
+  },
+  {
+    "Index": 17001,
     "Command": "ShowTooltip2",
     "Argument": [
       "Center",
@@ -22982,18 +23027,115 @@
     ]
   },
   {
-    "Index": 13020,
-    "Command": "WaitTouch"
-  },
-  {
-    "Index": 13020,
-    "Command": "PlaySound",
+    "Index": 17001,
+    "Command": "FocusAreaEffect",
     "Argument": [
-      "UI2.Button5"
+      "UI.Common.Finger",
+      " 750",
+      " 200",
+      " 0",
+      " 100",
+      " True"
     ]
   },
   {
-    "Index": 13020,
+    "Index": 17001,
+    "Command": "WaitTouch"
+  },
+  {
+    "Index": 17001,
+    "Command": "ClearFocus"
+  },
+  {
+    "Index": 17001,
+    "Command": "ClearTooltip"
+  },
+  {
+    "Index": 17001,
+    "ReqIndex": "\ud654\uba74 \uc774\ub3d9",
+    "Command": "MovePortalChapter",
+    "Argument": [
+      "1.0",
+      " 5",
+      " 0",
+      " 0",
+      " False"
+    ]
+  },
+  {
+    "Index": 17001,
+    "Command": "WaitTime",
+    "Argument": [
+      "0.3"
+    ]
+  },
+  {
+    "Index": 17001,
+    "Command": "WaitObject",
+    "Argument": [
+      "PortalSelect3(Clone)/MapRoot/PortalComponentLarge(Clone)/Texture_Portal",
+      " 0",
+      " 0.3",
+      " 10"
+    ]
+  },
+  {
+    "Index": 17001,
+    "Command": "FocusWidget",
+    "Argument": [
+      "PortalSelect3(Clone)/MapRoot/PortalComponentLarge(Clone)",
+      " 11",
+      " 0",
+      " 0",
+      " 0",
+      " 0"
+    ]
+  },
+  {
+    "Index": 17001,
+    "Command": "ShowTooltip2",
+    "Argument": [
+      "Center",
+      " 0",
+      " 300",
+      " 2000",
+      " 100",
+      " TUTORIAL_TEXT_327"
+    ]
+  },
+  {
+    "Index": 17001,
+    "Command": "FocusAreaEffect",
+    "Argument": [
+      "UI.Common.Finger",
+      " 750",
+      " 300",
+      " 0",
+      " 100",
+      " True"
+    ]
+  },
+  {
+    "Index": 17001,
+    "Command": "WaitTouch"
+  },
+  {
+    "Index": 17001,
+    "Command": "ClearFocus"
+  },
+  {
+    "Index": 17001,
+    "Command": "ClearTooltip"
+  },
+  {
+    "Index": 17001,
+    "Command": "WaitTime",
+    "Argument": [
+      "0.3"
+    ]
+  },
+  {
+    "Index": 17001,
     "Command": "FocusWidget",
     "Argument": [
       "PortalSelect3(Clone)/MapRoot/PortalComponentLarge(Clone)/Texture_Portal",
@@ -23005,7 +23147,7 @@
     ]
   },
   {
-    "Index": 13020,
+    "Index": 17001,
     "Command": "FocusWidgetEffect",
     "Argument": [
       "PortalSelect3(Clone)/MapRoot/PortalComponentLarge(Clone)/Texture_Portal",
@@ -23019,19 +23161,19 @@
     ]
   },
   {
-    "Index": 13020,
+    "Index": 17001,
     "Command": "ShowTooltip2",
     "Argument": [
       "Center",
       " 0",
-      " 200",
+      " -180",
       " 2000",
       " 100",
       " TUTORIAL_TEXT_75"
     ]
   },
   {
-    "Index": 13020,
+    "Index": 17001,
     "Command": "WaitWidgetTouch",
     "Argument": [
       "PortalSelect3(Clone)/MapRoot/PortalComponentLarge(Clone)/Texture_Portal",
@@ -23044,15 +23186,16 @@
     ]
   },
   {
-    "Index": 13020,
+    "Index": 17001,
     "Command": "ClearFocus"
   },
   {
-    "Index": 13020,
+    "Index": 17001,
     "Command": "ClearTooltip"
   },
   {
-    "Index": 13020,
+    "Index": 17001,
+    "ReqIndex": "\uc218\ub3c4\uc5d0\uc11c \uc655\uc131 \uc120\ud0dd",
     "Command": "WaitObject",
     "Argument": [
       "PortalChildListPopup(Clone)/Panel/Root/PortalComponentGrid/ClippingPanel/Grid/PortalComponent2(Clone)",
@@ -23062,7 +23205,7 @@
     ]
   },
   {
-    "Index": 13020,
+    "Index": 17001,
     "Command": "FocusWidget",
     "Argument": [
       "PortalChildListPopup(Clone)/Panel/Root/PortalComponentGrid/ClippingPanel/Grid/PortalComponent2(Clone)",
@@ -23074,7 +23217,7 @@
     ]
   },
   {
-    "Index": 13020,
+    "Index": 17001,
     "Command": "FocusWidgetEffect",
     "Argument": [
       "PortalChildListPopup(Clone)/Panel/Root/PortalComponentGrid/ClippingPanel/Grid/PortalComponent2(Clone)",
@@ -23088,7 +23231,7 @@
     ]
   },
   {
-    "Index": 13020,
+    "Index": 17001,
     "Command": "WaitWidgetTouch",
     "Argument": [
       "PortalChildListPopup(Clone)/Panel/Root/PortalComponentGrid/ClippingPanel/Grid/PortalComponent2(Clone)",
@@ -23101,23 +23244,23 @@
     ]
   },
   {
-    "Index": 13020,
+    "Index": 17001,
     "Command": "ClearFocus"
   },
   {
-    "Index": 13020,
+    "Index": 17001,
     "Command": "ClearTooltip"
   },
   {
-    "Index": 13020,
+    "Index": 17001,
     "Command": "CloseAllPopup"
   },
   {
-    "Index": 13020,
+    "Index": 17001,
     "Command": "CloseAllWindow"
   },
   {
-    "Index": 13020,
+    "Index": 17001,
     "Command": "WorldMapPlayerMove",
     "Argument": [
       "99",
@@ -23126,57 +23269,54 @@
     ]
   },
   {
-    "Index": 13020,
+    "Index": 17001,
+    "Command": "NextTutorial",
+    "Argument": [
+      "20001"
+    ]
+  },
+  {
+    "Index": 20001,
+    "ReqIndex": 17001,
+    "Command": "WaitTime",
+    "Argument": [
+      "0.8"
+    ]
+  },
+  {
+    "Index": 20001,
+    "Command": "OpenMenuOpenPopup",
+    "Argument": [
+      "514",
+      "441",
+      "640",
+      "0",
+      "0.5",
+      "1.5"
+    ]
+  },
+  {
+    "Index": 20001,
+    "Command": "PlaySound",
+    "Argument": [
+      "UI2.Event01"
+    ]
+  },
+  {
+    "Index": 20001,
     "Command": "WaitObject",
     "Argument": [
-      "MapLayout(Clone)/Panel_WorldMap/NodeRoot/2_Pub",
+      "MenuOpenWindow(Clone)/ButtonClose",
       " 0",
       " 0.3",
       " 3"
     ]
   },
   {
-    "Index": 13020,
-    "Command": "PlayCutScene",
-    "Argument": [
-      "CutScene/CH1_28"
-    ]
-  },
-  {
-    "Index": 13020,
-    "Command": "WaitCutScene"
-  },
-  {
-    "Index": 13020,
-    "Command": "FocusWidget",
-    "Argument": [
-      "NodeFunctionMenu(Clone)/MainButton/Button_Castle",
-      " 0",
-      " 0",
-      " 0",
-      " 0",
-      " 0"
-    ]
-  },
-  {
-    "Index": 13020,
-    "Command": "FocusWidgetEffect",
-    "Argument": [
-      "NodeFunctionMenu(Clone)/MainButton/Button_Castle",
-      " 0",
-      " UI.Common.Finger",
-      " -40",
-      " 0",
-      " -115",
-      " 100",
-      " True"
-    ]
-  },
-  {
-    "Index": 13020,
+    "Index": 20001,
     "Command": "WaitWidgetTouch",
     "Argument": [
-      "NodeFunctionMenu(Clone)/MainButton/Button_Castle",
+      "MenuOpenWindow(Clone)/ButtonClose",
       " 0",
       " 0",
       " 0",
@@ -23186,198 +23326,138 @@
     ]
   },
   {
-    "Index": 13020,
-    "Command": "ClearTooltip"
-  },
-  {
-    "Index": 13020,
-    "Command": "ClearFocus"
-  },
-  {
-    "Index": 13020,
-    "Command": "PlayCutScene",
+    "Index": 20001,
+    "Command": "PlaySound",
     "Argument": [
-      "CutScene/Tutorial/Castle_2017"
+      "Attack.Spin05"
     ]
   },
   {
-    "Index": 13020,
-    "Command": "OpenEntryMenu",
-    "Argument": [
-      "99",
-      " 6",
-      " True",
-      " False"
-    ]
-  },
-  {
-    "Index": 13020,
-    "Command": "WaitCutScene"
-  },
-  {
-    "Index": 13020,
+    "Index": 20001,
     "Command": "WaitTime",
     "Argument": [
-      "0.5"
+      "0.6"
     ]
   },
   {
-    "Index": 13020,
-    "Command": "ClearFocus",
+    "Index": 20001,
+    "Command": "PlaySound",
     "Argument": [
-      "True"
+      "UI2.TakeReward"
     ]
   },
   {
-    "Index": 13020,
-    "Command": "SkipStart"
+    "Index": 20001,
+    "Command": "WaitTime",
+    "Argument": [
+      "0.9"
+    ]
   },
   {
-    "Index": 13020,
-    "Command": "ShowTooltip2",
+    "Index": 20001,
+    "Command": "NextTutorial",
     "Argument": [
-      "Center",
+      "2161"
+    ]
+  },
+  {
+    "Index": 2161,
+    "ReqIndex": 20001,
+    "Command": "OpenMenuOpenPopup",
+    "Argument": [
+      "514",
+      "441",
+      "320",
+      "0",
+      "0.5",
+      "1.5"
+    ]
+  },
+  {
+    "Index": 2161,
+    "Command": "PlaySound",
+    "Argument": [
+      "UI2.Event01"
+    ]
+  },
+  {
+    "Index": 2161,
+    "Command": "WaitObject",
+    "Argument": [
+      "MenuOpenWindow(Clone)/ButtonClose",
       " 0",
-      " -200",
-      " 2000",
-      " 100",
-      " TUTORIAL_TEXT_105"
+      " 0.3",
+      " 3"
     ]
   },
   {
-    "Index": 13020,
-    "Command": "FocusAreaEffect",
+    "Index": 2161,
+    "Command": "WaitWidgetTouch",
     "Argument": [
-      "UI.Common.Finger",
-      " 750",
-      " -200",
+      "MenuOpenWindow(Clone)/ButtonClose",
       " 0",
-      " 100",
+      " 0",
+      " 0",
+      " 0",
+      " 0",
       " True"
     ]
   },
   {
-    "Index": 13020,
-    "Command": "WaitTouch"
-  },
-  {
-    "Index": 13020,
+    "Index": 2161,
     "Command": "PlaySound",
     "Argument": [
-      "UI2.Button5"
+      "Attack.Spin05"
     ]
   },
   {
-    "Index": 13020,
-    "Command": "ClearTooltip"
-  },
-  {
-    "Index": 13020,
-    "Command": "ClearFocus",
+    "Index": 2161,
+    "Command": "WaitTime",
     "Argument": [
-      "True"
+      "0.6"
     ]
   },
   {
-    "Index": 13020,
-    "Command": "ShowTooltip2",
-    "Argument": [
-      "Center",
-      " 0",
-      " -200",
-      " 2000",
-      " 100",
-      " TUTORIAL_TEXT_117"
-    ]
-  },
-  {
-    "Index": 13020,
-    "Command": "FocusAreaEffect",
-    "Argument": [
-      "UI.Common.Finger",
-      " 750",
-      " -200",
-      " 0",
-      " 100",
-      " True"
-    ]
-  },
-  {
-    "Index": 13020,
-    "Command": "WaitTouch"
-  },
-  {
-    "Index": 13020,
+    "Index": 2161,
     "Command": "PlaySound",
     "Argument": [
-      "UI2.Button5"
+      "UI2.TakeReward"
     ]
   },
   {
-    "Index": 13020,
-    "Command": "ClearTooltip"
-  },
-  {
-    "Index": 13020,
-    "Command": "ClearFocus",
+    "Index": 2161,
+    "Command": "WaitTime",
     "Argument": [
-      "True"
+      "0.9"
     ]
   },
   {
-    "Index": 13020,
-    "Command": "ShowTooltip2",
+    "Index": 2161,
+    "Command": "NextTutorial",
     "Argument": [
-      "Center",
-      " 0",
-      " -200",
-      " 2000",
-      " 100",
-      " TUTORIAL_TEXT_118"
+      "2162"
+    ],
+    "RewardIndex": 81006,
+    "HideRewardPopup": "True"
+  },
+  {
+    "Index": 2162,
+    "ReqIndex": 2161,
+    "Command": "ReserveLobbyPopup",
+    "Argument": [
+      "GetNewHero2"
     ]
   },
   {
-    "Index": 13020,
-    "Command": "FocusAreaEffect",
+    "Index": 2162,
+    "Command": "ReserveLobbyPopup",
     "Argument": [
-      "UI.Common.Finger",
-      " 750",
-      " -200",
-      " 0",
-      " 100",
-      " True"
-    ]
-  },
-  {
-    "Index": 13020,
-    "Command": "WaitTouch"
-  },
-  {
-    "Index": 13020,
-    "Command": "PlaySound",
-    "Argument": [
-      "UI2.Button5"
-    ]
-  },
-  {
-    "Index": 13020,
-    "Command": "ClearTooltip"
-  },
-  {
-    "Index": 13020,
-    "Command": "ClearFocus"
-  },
-  {
-    "Index": 13020,
-    "Command": "SkipEnd",
-    "Argument": [
-      "Resources/Prefab2/Window/MessagePopup/TutorialSkipPopup",
-      " TUTORIAL_SKIP_NAME_013",
-      " TUTORIAL_SKIP_DESC_013"
+      "TeamLevelupPopup"
     ]
   },
   {
     "Index": 20000,
+    "ReqIndex": "\uc0ac\uc6a9\uc548\ud568",
     "Command": "PlayCutScene",
     "Argument": [
       "CutScene/CH2_Main_1"
@@ -23385,6 +23465,7 @@
   },
   {
     "Index": 20000,
+    "ReqIndex": "\uc0ac\uc6a9\uc548\ud568",
     "Command": "WaitCutScene"
   },
   {

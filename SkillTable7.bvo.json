@@ -2455,26 +2455,24 @@
   },
   {
     "Index": 60000251,
-    "TriggerType": "OnHeal",
+    "TriggerType": "OnStart",
     "TriggerRatio": 1000,
     "AttrType": "None",
-    "IgnoreStateType": [
-      "CC"
-    ],
-    "TargetType": "TriggerTarget",
+    "TargetType": "Myself",
     "TargetCount": 1,
     "DeadTarget": "False",
     "IgnoreBlock": "TRUE",
     "RetargetOnFire": "FALSE",
     "OperationType1": "ModPower",
-    "OperationTargetType1": "Target",
+    "OperationTargetType1": "Myself",
+    "OperationRadiusMm1": 99999,
     "OperationValue1": [
       "$ByPhysicalAttack(50)"
     ],
-    "OperationState1": 60000251,
-    "OperationDurationMs1": 5000,
-    "OperationRecalculateValueByStats1": [
-      "PhysicalAttack"
+    "OperationDelayMs1": [
+      "200",
+      "0",
+      "0"
     ]
   },
   {
@@ -3441,31 +3439,24 @@
   },
   {
     "Index": 60003051,
-    "TriggerType": "OnHeal",
+    "TriggerType": "OnTimer",
+    "TriggerValue": [
+      "3000",
+      "3000"
+    ],
     "TriggerRatio": 1000,
     "AttrType": "Magical",
     "IgnoreStateType": [
       "CC"
     ],
-    "TargetType": "TriggerTarget",
-    "TargetCount": 1,
+    "TargetType": "Ally",
     "DeadTarget": "FALSE",
     "IgnoreBlock": "TRUE",
     "RetargetOnFire": "FALSE",
-    "OperationType1": "ModMagicalDefence",
+    "OperationType1": "GetMana",
     "OperationTargetType1": "Target",
     "OperationValue1": [
-      "$ByPhysicalAttack(50)"
-    ],
-    "OperationState1": 60003051,
-    "OperationDurationMs1": 10000,
-    "OperationRecalculateValueByStats1": [
-      "PhysicalAttack"
-    ],
-    "OperationType2": "GetMana",
-    "OperationTargetType2": "Target",
-    "OperationValue2": [
-      "75"
+      "350"
     ]
   },
   {

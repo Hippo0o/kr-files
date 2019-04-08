@@ -13557,14 +13557,14 @@
     "OperationValue1": [
       "7830",
       "1",
-      "500"
+      "200"
     ],
     "OperationType2": "ModSkillPowerR",
     "OperationTargetType2": "Myself",
     "OperationValue2": [
       "7830",
       "2",
-      "500"
+      "200"
     ],
     "OperationType3": "ModSkillEnabled",
     "OperationTargetType3": "Myself",
@@ -13572,13 +13572,12 @@
       "7830",
       "4"
     ],
-    "OperationType4": "SetSkill",
+    "OperationType4": "ModSkillPowerR",
     "OperationTargetType4": "Myself",
     "OperationValue4": [
-      "7830",
-      "4",
-      "ConditionValue",
-      "120"
+      "7834",
+      "1",
+      "200"
     ]
   },
   {
@@ -13596,14 +13595,14 @@
     "OperationValue1": [
       "7830",
       "1",
-      "500"
+      "240"
     ],
     "OperationType2": "ModSkillPowerR",
     "OperationTargetType2": "Myself",
     "OperationValue2": [
       "7830",
       "2",
-      "500"
+      "240"
     ],
     "OperationType3": "ModSkillEnabled",
     "OperationTargetType3": "Myself",
@@ -13611,13 +13610,12 @@
       "7830",
       "4"
     ],
-    "OperationType4": "SetSkill",
+    "OperationType4": "ModSkillPowerR",
     "OperationTargetType4": "Myself",
     "OperationValue4": [
-      "7830",
-      "4",
-      "ConditionValue",
-      "140"
+      "7834",
+      "1",
+      "240"
     ]
   },
   {
@@ -13635,14 +13633,14 @@
     "OperationValue1": [
       "7830",
       "1",
-      "500"
+      "290"
     ],
     "OperationType2": "ModSkillPowerR",
     "OperationTargetType2": "Myself",
     "OperationValue2": [
       "7830",
       "2",
-      "500"
+      "290"
     ],
     "OperationType3": "ModSkillEnabled",
     "OperationTargetType3": "Myself",
@@ -13650,13 +13648,12 @@
       "7830",
       "4"
     ],
-    "OperationType4": "SetSkill",
+    "OperationType4": "ModSkillPowerR",
     "OperationTargetType4": "Myself",
     "OperationValue4": [
-      "7830",
-      "4",
-      "ConditionValue",
-      "170"
+      "7834",
+      "1",
+      "290"
     ]
   },
   {
@@ -13674,14 +13671,14 @@
     "OperationValue1": [
       "7830",
       "1",
-      "500"
+      "350"
     ],
     "OperationType2": "ModSkillPowerR",
     "OperationTargetType2": "Myself",
     "OperationValue2": [
       "7830",
       "2",
-      "500"
+      "350"
     ],
     "OperationType3": "ModSkillEnabled",
     "OperationTargetType3": "Myself",
@@ -13689,13 +13686,12 @@
       "7830",
       "4"
     ],
-    "OperationType4": "SetSkill",
+    "OperationType4": "ModSkillPowerR",
     "OperationTargetType4": "Myself",
     "OperationValue4": [
-      "7830",
-      "4",
-      "ConditionValue",
-      "210"
+      "7834",
+      "1",
+      "350"
     ]
   },
   {
@@ -13713,14 +13709,14 @@
     "OperationValue1": [
       "7830",
       "1",
-      "500"
+      "420"
     ],
     "OperationType2": "ModSkillPowerR",
     "OperationTargetType2": "Myself",
     "OperationValue2": [
       "7830",
       "2",
-      "500"
+      "420"
     ],
     "OperationType3": "ModSkillEnabled",
     "OperationTargetType3": "Myself",
@@ -13728,13 +13724,12 @@
       "7830",
       "4"
     ],
-    "OperationType4": "SetSkill",
+    "OperationType4": "ModSkillPowerR",
     "OperationTargetType4": "Myself",
     "OperationValue4": [
-      "7830",
-      "4",
-      "ConditionValue",
-      "250"
+      "7834",
+      "1",
+      "420"
     ]
   },
   {
@@ -13767,13 +13762,12 @@
       "7830",
       "4"
     ],
-    "OperationType4": "SetSkill",
+    "OperationType4": "ModSkillPowerR",
     "OperationTargetType4": "Myself",
     "OperationValue4": [
-      "7830",
-      "4",
-      "ConditionValue",
-      "300"
+      "7834",
+      "1",
+      "500"
     ]
   },
   {
@@ -35472,7 +35466,19 @@
       "SkillClearStateType",
       "CC"
     ],
-    "OperationConditionType3": "None"
+    "OperationConditionType3": "None",
+    "OperationType4": "ModSkillEnabled",
+    "OperationTargetType4": "Myself",
+    "OperationValue4": [
+      "1710",
+      "5"
+    ],
+    "OperationType5": "ModSkillEnabled",
+    "OperationTargetType5": "Myself",
+    "OperationValue5": [
+      "1714",
+      "5"
+    ]
   },
   {
     "Index": 91001711,
@@ -35509,7 +35515,19 @@
       "SkillClearStateType",
       "CC"
     ],
-    "OperationConditionType3": "None"
+    "OperationConditionType3": "None",
+    "OperationType4": "ModSkillEnabled",
+    "OperationTargetType4": "Myself",
+    "OperationValue4": [
+      "1710",
+      "5"
+    ],
+    "OperationType5": "ModSkillEnabled",
+    "OperationTargetType5": "Myself",
+    "OperationValue5": [
+      "1714",
+      "5"
+    ]
   },
   {
     "Index": 91001712,
@@ -35546,7 +35564,19 @@
       "SkillClearStateType",
       "CC"
     ],
-    "OperationConditionType3": "None"
+    "OperationConditionType3": "None",
+    "OperationType4": "ModSkillEnabled",
+    "OperationTargetType4": "Myself",
+    "OperationValue4": [
+      "1710",
+      "5"
+    ],
+    "OperationType5": "ModSkillEnabled",
+    "OperationTargetType5": "Myself",
+    "OperationValue5": [
+      "1714",
+      "5"
+    ]
   },
   {
     "Index": 91001713,
@@ -35583,7 +35613,19 @@
       "SkillClearStateType",
       "CC"
     ],
-    "OperationConditionType3": "None"
+    "OperationConditionType3": "None",
+    "OperationType4": "ModSkillEnabled",
+    "OperationTargetType4": "Myself",
+    "OperationValue4": [
+      "1710",
+      "5"
+    ],
+    "OperationType5": "ModSkillEnabled",
+    "OperationTargetType5": "Myself",
+    "OperationValue5": [
+      "1714",
+      "5"
+    ]
   },
   {
     "Index": 91001714,
@@ -35620,7 +35662,19 @@
       "SkillClearStateType",
       "CC"
     ],
-    "OperationConditionType3": "None"
+    "OperationConditionType3": "None",
+    "OperationType4": "ModSkillEnabled",
+    "OperationTargetType4": "Myself",
+    "OperationValue4": [
+      "1710",
+      "5"
+    ],
+    "OperationType5": "ModSkillEnabled",
+    "OperationTargetType5": "Myself",
+    "OperationValue5": [
+      "1714",
+      "5"
+    ]
   },
   {
     "Index": 91001715,
@@ -35657,7 +35711,19 @@
       "SkillClearStateType",
       "CC"
     ],
-    "OperationConditionType3": "None"
+    "OperationConditionType3": "None",
+    "OperationType4": "ModSkillEnabled",
+    "OperationTargetType4": "Myself",
+    "OperationValue4": [
+      "1710",
+      "5"
+    ],
+    "OperationType5": "ModSkillEnabled",
+    "OperationTargetType5": "Myself",
+    "OperationValue5": [
+      "1714",
+      "5"
+    ]
   },
   {
     "Index": 91001810,

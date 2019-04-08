@@ -263,5 +263,15 @@
     "Index": 53,
     "Name": "ByMagicalCriticalPower",
     "Expression": "$1*($Fc.MagicalCriticalPower)/1000"
+  },
+  {
+    "Index": 54,
+    "Name": "ByLewsiaCurse",
+    "Expression": "$1*$Fc.StateCount(LewsiaCurse)"
+  },
+  {
+    "Index": 55,
+    "Name": "ByTargeHpRatioM9",
+    "Expression": "$1*(1000-$TC.HpRatioM*9/10)/1000"
   }
 ]

@@ -5324,11 +5324,13 @@
     "DeadTarget": "False",
     "IgnoreBlock": "TRUE",
     "RetargetOnFire": "FALSE",
-    "OperationType1": "ModSkillEnabled",
+    "OperationType1": "SetSkill",
     "OperationTargetType1": "Myself",
     "OperationValue1": [
       "3020",
-      "3"
+      "0",
+      "SkillTargetType",
+      "MaxPhysicalPowerAlly"
     ],
     "OperationConditionType1": "None"
   },
@@ -5342,11 +5344,13 @@
     "DeadTarget": "False",
     "IgnoreBlock": "TRUE",
     "RetargetOnFire": "FALSE",
-    "OperationType1": "ModSkillEnabled",
+    "OperationType1": "ModSkill",
     "OperationTargetType1": "Myself",
     "OperationValue1": [
       "3020",
-      "4"
+      "0",
+      "SkillMp",
+      "-1000"
     ],
     "OperationConditionType1": "None"
   },
@@ -5422,7 +5426,7 @@
     "OperationValue2": [
       "3040",
       "2",
-      "400"
+      "600"
     ]
   },
   {
@@ -9224,21 +9228,21 @@
     "OperationValue1": [
       "9010_1",
       "MaxStack",
-      "7"
+      "8"
     ],
     "OperationType2": "ChangeStateValue",
     "OperationTargetType2": "Myself",
     "OperationValue2": [
       "9010_2",
       "MaxStack",
-      "7"
+      "8"
     ],
     "OperationType3": "ChangeStateValue",
     "OperationTargetType3": "Myself",
     "OperationValue3": [
       "9010_3",
       "MaxStack",
-      "7"
+      "8"
     ]
   },
   {
@@ -13279,12 +13283,6 @@
     "OperationTargetType2": "Myself",
     "OperationValue2": [
       "9524",
-      "6"
-    ],
-    "OperationType3": "ModSkillEnabled",
-    "OperationTargetType3": "Myself",
-    "OperationValue3": [
-      "9525",
       "3"
     ]
   },
@@ -13352,34 +13350,10 @@
     "OperationTargetType2": "Myself",
     "OperationValue2": [
       "9535",
-      "1",
+      "2",
       "1000"
     ],
-    "OperationConditionType2": "None",
-    "OperationType3": "ModSkillPowerR",
-    "OperationTargetType3": "Myself",
-    "OperationValue3": [
-      "9535",
-      "3",
-      "1000"
-    ],
-    "OperationConditionType3": "None",
-    "OperationType4": "ModSkillPowerR",
-    "OperationTargetType4": "Myself",
-    "OperationValue4": [
-      "9535",
-      "5",
-      "1000"
-    ],
-    "OperationConditionType4": "None",
-    "OperationType5": "ModSkillPowerR",
-    "OperationTargetType5": "Myself",
-    "OperationValue5": [
-      "9535",
-      "8",
-      "1000"
-    ],
-    "OperationConditionType5": "None"
+    "OperationConditionType2": "None"
   },
   {
     "Index": 60009540,
@@ -13419,6 +13393,14 @@
     "OperationValue4": [
       "9544",
       "5"
+    ],
+    "OperationType5": "ModSkill",
+    "OperationTargetType5": "Myself",
+    "OperationValue5": [
+      "9544",
+      "6",
+      "DurationMs",
+      "5000"
     ]
   },
   {
@@ -13431,11 +13413,11 @@
     "DeadTarget": "False",
     "IgnoreBlock": "TRUE",
     "RetargetOnFire": "FALSE",
-    "OperationType1": "ModAttackByBoss",
+    "OperationType1": "ModSkillEnabled",
     "OperationTargetType1": "Myself",
     "OperationValue1": [
-      "True",
-      "150"
+      "9544",
+      "7"
     ]
   },
   {
@@ -14174,14 +14156,6 @@
     "OperationValue1": [
       "9620",
       "4"
-    ],
-    "OperationType2": "ModSkill",
-    "OperationTargetType2": "Myself",
-    "OperationValue2": [
-      "9620",
-      "0",
-      "SkillMp",
-      "1000"
     ]
   },
   {
@@ -14562,7 +14536,7 @@
       "7844",
       "2",
       "Value",
-      "5000",
+      "8000",
       "1"
     ],
     "OperationType2": "ModSkill",
@@ -14571,7 +14545,7 @@
       "7820",
       "2",
       "DurationMs",
-      "10000"
+      "8000"
     ],
     "OperationType3": "ModSkill",
     "OperationTargetType3": "Myself",
@@ -14579,7 +14553,7 @@
       "7820",
       "3",
       "DurationMs",
-      "10000"
+      "8000"
     ]
   },
   {

@@ -4027,6 +4027,17 @@
       "HasParent",
       "Negative",
       "Disabled"
+    ],
+    "OperationType4": "ModWeakness",
+    "OperationTargetType4": "Parent",
+    "OperationValue4": [
+      "250"
+    ],
+    "OperationState4": "240_Weakness",
+    "OperationDurationMs4": 6000,
+    "OperationParent4": 1,
+    "OperationFlags4": [
+      "HasParent"
     ]
   },
   {
@@ -4229,152 +4240,290 @@
     "OperationConditionType1": "None"
   },
   {
-    "Index": 90000020,
-    "TriggerType": "OnFireSkill",
+    "Index": 224,
+    "TriggerType": "OnTimer",
     "TriggerValue": [
+      "8000",
+      "8000"
+    ],
+    "TriggerRatio": 1000,
+    "AttrType": "Magical",
+    "TargetType": "MaxPhysicalPowerAlly",
+    "TargetCount": 1,
+    "DeadTarget": "False",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "FALSE",
+    "OperationType1": "ModCriticalChance",
+    "OperationTargetType1": "Target",
+    "OperationValue1": [
+      "300"
+    ],
+    "OperationState1": "UniqueFrey",
+    "OperationDurationMs1": 8000,
+    "OperationConditionType1": "SkillLevel",
+    "OperationConditionValue1": [
+      "90000020"
+    ],
+    "OperationType2": "ModCriticalChance",
+    "OperationTargetType2": "Target",
+    "OperationValue2": [
+      "300"
+    ],
+    "OperationState2": "UniqueFrey",
+    "OperationDurationMs2": 8000,
+    "OperationConditionType2": "SkillLevel",
+    "OperationConditionValue2": [
+      "90000021"
+    ],
+    "OperationType3": "ModCriticalChance",
+    "OperationTargetType3": "Target",
+    "OperationValue3": [
+      "300"
+    ],
+    "OperationState3": "UniqueFrey",
+    "OperationDurationMs3": 8000,
+    "OperationConditionType3": "SkillLevel",
+    "OperationConditionValue3": [
+      "90000022"
+    ],
+    "OperationType4": "ModCriticalChance",
+    "OperationTargetType4": "Target",
+    "OperationValue4": [
+      "300"
+    ],
+    "OperationState4": "UniqueFrey",
+    "OperationDurationMs4": 8000,
+    "OperationConditionType4": "SkillLevel",
+    "OperationConditionValue4": [
+      "90000023"
+    ],
+    "OperationType5": "ModCriticalChance",
+    "OperationTargetType5": "Target",
+    "OperationValue5": [
+      "300"
+    ],
+    "OperationState5": "UniqueFrey",
+    "OperationDurationMs5": 8000,
+    "OperationConditionType5": "SkillLevel",
+    "OperationConditionValue5": [
+      "90000024"
+    ],
+    "OperationType6": "ModCriticalChance",
+    "OperationTargetType6": "Target",
+    "OperationValue6": [
+      "300"
+    ],
+    "OperationState6": "UniqueFrey",
+    "OperationDurationMs6": 8000,
+    "OperationConditionType6": "SkillLevel",
+    "OperationConditionValue6": [
+      "90000025"
+    ]
+  },
+  {
+    "Index": 225,
+    "TriggerType": "OnTimer",
+    "TriggerValue": [
+      "8000",
+      "8000"
+    ],
+    "TriggerRatio": 1000,
+    "AttrType": "Magical",
+    "TargetType": "MaxPhysicalPowerAlly",
+    "TargetCount": 1,
+    "DeadTarget": "False",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "FALSE",
+    "OperationType1": "ModCriticalPower",
+    "OperationTargetType1": "Target",
+    "OperationValue1": [
       "200"
     ],
-    "TriggerRatio": 400,
+    "OperationState1": "UniqueFrey2",
+    "OperationDurationMs1": 8000,
+    "OperationConditionType1": "SkillLevel",
+    "OperationConditionValue1": [
+      "90000020"
+    ],
+    "OperationType2": "ModCriticalPower",
+    "OperationTargetType2": "Target",
+    "OperationValue2": [
+      "240"
+    ],
+    "OperationState2": "UniqueFrey2",
+    "OperationDurationMs2": 8000,
+    "OperationConditionType2": "SkillLevel",
+    "OperationConditionValue2": [
+      "90000021"
+    ],
+    "OperationType3": "ModCriticalPower",
+    "OperationTargetType3": "Target",
+    "OperationValue3": [
+      "290"
+    ],
+    "OperationState3": "UniqueFrey2",
+    "OperationDurationMs3": 8000,
+    "OperationConditionType3": "SkillLevel",
+    "OperationConditionValue3": [
+      "90000022"
+    ],
+    "OperationType4": "ModCriticalPower",
+    "OperationTargetType4": "Target",
+    "OperationValue4": [
+      "350"
+    ],
+    "OperationState4": "UniqueFrey2",
+    "OperationDurationMs4": 8000,
+    "OperationConditionType4": "SkillLevel",
+    "OperationConditionValue4": [
+      "90000023"
+    ],
+    "OperationType5": "ModCriticalPower",
+    "OperationTargetType5": "Target",
+    "OperationValue5": [
+      "420"
+    ],
+    "OperationState5": "UniqueFrey2",
+    "OperationDurationMs5": 8000,
+    "OperationConditionType5": "SkillLevel",
+    "OperationConditionValue5": [
+      "90000024"
+    ],
+    "OperationType6": "ModCriticalPower",
+    "OperationTargetType6": "Target",
+    "OperationValue6": [
+      "500"
+    ],
+    "OperationState6": "UniqueFrey2",
+    "OperationDurationMs6": 8000,
+    "OperationConditionType6": "SkillLevel",
+    "OperationConditionValue6": [
+      "90000025"
+    ]
+  },
+  {
+    "Index": 90000020,
+    "TriggerType": "OnTimer",
+    "TriggerValue": [
+      "8000",
+      "8000"
+    ],
+    "TriggerRatio": 1000,
     "AttrType": "None",
     "TargetType": "MinHpAlly",
-    "TargetCount": 1,
+    "TargetCount": 4,
     "DeadTarget": "False",
     "IgnoreBlock": "TRUE",
     "RetargetOnFire": "False",
     "OperationType1": "GetHealR",
     "OperationTargetType1": "Target",
     "OperationValue1": [
-      "420"
-    ],
-    "OperationDelayMs1": [
-      "0",
-      "200",
-      "0"
+      "800"
     ],
     "OperationConditionType1": "None"
   },
   {
     "Index": 90000021,
-    "TriggerType": "OnFireSkill",
+    "TriggerType": "OnTimer",
     "TriggerValue": [
-      "200"
+      "8000",
+      "8000"
     ],
-    "TriggerRatio": 400,
+    "TriggerRatio": 1000,
     "AttrType": "None",
     "TargetType": "MinHpAlly",
-    "TargetCount": 1,
+    "TargetCount": 4,
     "DeadTarget": "False",
     "IgnoreBlock": "TRUE",
     "RetargetOnFire": "False",
     "OperationType1": "GetHealR",
     "OperationTargetType1": "Target",
     "OperationValue1": [
-      "504"
-    ],
-    "OperationDelayMs1": [
-      "0",
-      "200",
-      "0"
+      "960"
     ],
     "OperationConditionType1": "None"
   },
   {
     "Index": 90000022,
-    "TriggerType": "OnFireSkill",
+    "TriggerType": "OnTimer",
     "TriggerValue": [
-      "200"
+      "8000",
+      "8000"
     ],
-    "TriggerRatio": 400,
+    "TriggerRatio": 1000,
     "AttrType": "None",
     "TargetType": "MinHpAlly",
-    "TargetCount": 1,
+    "TargetCount": 4,
     "DeadTarget": "False",
     "IgnoreBlock": "TRUE",
     "RetargetOnFire": "False",
     "OperationType1": "GetHealR",
     "OperationTargetType1": "Target",
     "OperationValue1": [
-      "588"
-    ],
-    "OperationDelayMs1": [
-      "0",
-      "200",
-      "0"
+      "1150"
     ],
     "OperationConditionType1": "None"
   },
   {
     "Index": 90000023,
-    "TriggerType": "OnFireSkill",
+    "TriggerType": "OnTimer",
     "TriggerValue": [
-      "200"
+      "8000",
+      "8000"
     ],
-    "TriggerRatio": 400,
+    "TriggerRatio": 1000,
     "AttrType": "None",
     "TargetType": "MinHpAlly",
-    "TargetCount": 1,
+    "TargetCount": 4,
     "DeadTarget": "False",
     "IgnoreBlock": "TRUE",
     "RetargetOnFire": "False",
     "OperationType1": "GetHealR",
     "OperationTargetType1": "Target",
     "OperationValue1": [
-      "714"
-    ],
-    "OperationDelayMs1": [
-      "0",
-      "200",
-      "0"
+      "1380"
     ],
     "OperationConditionType1": "None"
   },
   {
     "Index": 90000024,
-    "TriggerType": "OnFireSkill",
+    "TriggerType": "OnTimer",
     "TriggerValue": [
-      "200"
+      "8000",
+      "8000"
     ],
-    "TriggerRatio": 400,
+    "TriggerRatio": 1000,
     "AttrType": "None",
     "TargetType": "MinHpAlly",
-    "TargetCount": 1,
+    "TargetCount": 4,
     "DeadTarget": "False",
     "IgnoreBlock": "TRUE",
     "RetargetOnFire": "False",
     "OperationType1": "GetHealR",
     "OperationTargetType1": "Target",
     "OperationValue1": [
-      "861"
-    ],
-    "OperationDelayMs1": [
-      "0",
-      "200",
-      "0"
+      "1650"
     ],
     "OperationConditionType1": "None"
   },
   {
     "Index": 90000025,
-    "TriggerType": "OnFireSkill",
+    "TriggerType": "OnTimer",
     "TriggerValue": [
-      "200"
+      "8000",
+      "8000"
     ],
-    "TriggerRatio": 400,
+    "TriggerRatio": 1000,
     "AttrType": "None",
     "TargetType": "MinHpAlly",
-    "TargetCount": 1,
+    "TargetCount": 4,
     "DeadTarget": "False",
     "IgnoreBlock": "TRUE",
     "RetargetOnFire": "False",
     "OperationType1": "GetHealR",
     "OperationTargetType1": "Target",
     "OperationValue1": [
-      "1050"
-    ],
-    "OperationDelayMs1": [
-      "0",
-      "200",
-      "0"
+      "2000"
     ],
     "OperationConditionType1": "None"
   },
@@ -18223,6 +18372,11 @@
     "OperationConditionType4": "None",
     "OperationFlags4": [
       "WhileSkillUse"
+    ],
+    "OperationType5": "Cleanse",
+    "OperationTargetType5": "Myself",
+    "OperationFlags5": [
+      "Disabled"
     ]
   },
   {
@@ -18448,7 +18602,11 @@
     "OperationFlags4": [
       "WhileSkillUse"
     ],
-    "OperationConditionType5": "None"
+    "OperationType5": "Cleanse",
+    "OperationTargetType5": "Myself",
+    "OperationFlags5": [
+      "Disabled"
+    ]
   },
   {
     "Index": 1715,
@@ -31599,14 +31757,14 @@
     "OperationType1": "GetHealR",
     "OperationTargetType1": "Target",
     "OperationValue1": [
-      "$ByTargeHpRatioM(6244)",
-      "$ByTargeHpRatioM(995)"
+      "$ByTargeHpRatioM9(7493)",
+      "$ByTargeHpRatioM9(1200)"
     ],
     "OperationValueFactor1": [
       "0",
       "0",
       "5",
-      "995"
+      "1200"
     ],
     "OperationDelayMs1": [
       "0",
@@ -31639,6 +31797,17 @@
     "OperationFlags3": [
       "HasParent",
       "Disabled"
+    ],
+    "OperationType4": "ModMagicalToughness",
+    "OperationTargetType4": "Parent",
+    "OperationValue4": [
+      "150"
+    ],
+    "OperationState4": "3010_Heal",
+    "OperationDurationMs4": 5000,
+    "OperationParent4": 1,
+    "OperationFlags4": [
+      "HasParent"
     ]
   },
   {
@@ -31759,34 +31928,25 @@
     "OperationFlags2": [
       "HasParent"
     ],
-    "OperationType3": "ModPowerR",
-    "OperationTargetType3": "Parent",
-    "OperationValue3": [
-      "300"
-    ],
-    "OperationState3": "Positive",
-    "OperationDurationMs3": 10000,
-    "OperationParent3": 1,
-    "OperationFlags3": [
-      "HasParent",
-      "Disabled"
-    ],
-    "OperationType4": "ModMagicalCriticalDodgeChance",
-    "OperationTargetType4": "Parent",
-    "OperationValue4": [
-      "250"
-    ],
-    "OperationState4": "Positive",
-    "OperationDurationMs4": 10000,
-    "OperationParent4": 1,
-    "OperationFlags4": [
-      "HasParent",
-      "Disabled"
-    ],
     "OperationType5": "Cleanse",
     "OperationTargetType5": "Target",
     "OperationFlags5": [
       "Disabled"
+    ],
+    "OperationType6": "ModPower",
+    "OperationTargetType6": "Parent",
+    "OperationValue6": [
+      "150"
+    ],
+    "OperationValueFactor6": [
+      "5",
+      "150"
+    ],
+    "OperationState6": "3020_Shield",
+    "OperationDurationMs6": 15000,
+    "OperationParent6": 1,
+    "OperationFlags6": [
+      "HasParent"
     ]
   },
   {
@@ -32133,99 +32293,293 @@
     "OperationConditionType1": "None"
   },
   {
-    "Index": 90000300,
-    "TriggerType": "OnCriticalSkill",
+    "Index": 3044,
+    "TriggerType": "OnTimer",
+    "TriggerValue": [
+      "5000",
+      "5000"
+    ],
     "TriggerRatio": 1000,
-    "AttrType": "None",
+    "TriggerDisabled": "True",
+    "AttrType": "Magical",
     "TargetType": "MinHpAlly",
     "TargetCount": 1,
     "DeadTarget": "False",
     "IgnoreBlock": "TRUE",
-    "RetargetOnFire": "TRUE",
-    "OperationType1": "GetHealByDamageR",
+    "RetargetOnFire": "FALSE",
+    "OperationType1": "GetHealR",
     "OperationTargetType1": "Target",
     "OperationValue1": [
-      "800"
+      "1000"
+    ],
+    "OperationDelayMs1": [
+      "0",
+      "80",
+      "0"
+    ]
+  },
+  {
+    "Index": 90000300,
+    "TriggerType": "OnStart",
+    "TriggerRatio": 1000,
+    "AttrType": "None",
+    "TargetType": "Myself",
+    "TargetCount": 1,
+    "DeadTarget": "False",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "TRUE",
+    "OperationType1": "ModRecoverPower",
+    "OperationTargetType1": "Myself",
+    "OperationRadiusMm1": 50000,
+    "OperationValue1": [
+      "80"
+    ],
+    "OperationDurationMs1": 9999999,
+    "OperationType2": "ModMagicalDefence",
+    "OperationTargetType2": "Myself",
+    "OperationRadiusMm2": 50000,
+    "OperationValue2": [
+      "$ByPhysicalAttack(50)"
+    ],
+    "OperationDelayMs2": [
+      "200",
+      "0",
+      "0"
+    ],
+    "OperationType3": "EnablePassiveSkill",
+    "OperationTargetType3": "Myself",
+    "OperationValue3": [
+      "3044",
+      "True"
+    ],
+    "OperationType4": "SetSkill",
+    "OperationTargetType4": "Myself",
+    "OperationValue4": [
+      "3044",
+      "1",
+      "Value",
+      "1000",
+      "0"
     ]
   },
   {
     "Index": 90000301,
-    "TriggerType": "OnCriticalSkill",
+    "TriggerType": "OnStart",
     "TriggerRatio": 1000,
     "AttrType": "None",
-    "TargetType": "MinHpAlly",
+    "TargetType": "Myself",
     "TargetCount": 1,
     "DeadTarget": "False",
     "IgnoreBlock": "TRUE",
     "RetargetOnFire": "TRUE",
-    "OperationType1": "GetHealByDamageR",
-    "OperationTargetType1": "Target",
+    "OperationType1": "ModRecoverPower",
+    "OperationTargetType1": "Myself",
+    "OperationRadiusMm1": 50000,
     "OperationValue1": [
-      "960"
+      "100"
+    ],
+    "OperationDurationMs1": 9999999,
+    "OperationType2": "ModMagicalDefence",
+    "OperationTargetType2": "Myself",
+    "OperationRadiusMm2": 50000,
+    "OperationValue2": [
+      "$ByPhysicalAttack(50)"
+    ],
+    "OperationDelayMs2": [
+      "200",
+      "0",
+      "0"
+    ],
+    "OperationType3": "EnablePassiveSkill",
+    "OperationTargetType3": "Myself",
+    "OperationValue3": [
+      "3044",
+      "True"
+    ],
+    "OperationType4": "SetSkill",
+    "OperationTargetType4": "Myself",
+    "OperationValue4": [
+      "3044",
+      "1",
+      "Value",
+      "1200",
+      "0"
     ]
   },
   {
     "Index": 90000302,
-    "TriggerType": "OnCriticalSkill",
+    "TriggerType": "OnStart",
     "TriggerRatio": 1000,
     "AttrType": "None",
-    "TargetType": "MinHpAlly",
+    "TargetType": "Myself",
     "TargetCount": 1,
     "DeadTarget": "False",
     "IgnoreBlock": "TRUE",
     "RetargetOnFire": "TRUE",
-    "OperationType1": "GetHealByDamageR",
-    "OperationTargetType1": "Target",
+    "OperationType1": "ModRecoverPower",
+    "OperationTargetType1": "Myself",
+    "OperationRadiusMm1": 50000,
     "OperationValue1": [
-      "1150"
+      "120"
+    ],
+    "OperationDurationMs1": 9999999,
+    "OperationType2": "ModMagicalDefence",
+    "OperationTargetType2": "Myself",
+    "OperationRadiusMm2": 50000,
+    "OperationValue2": [
+      "$ByPhysicalAttack(50)"
+    ],
+    "OperationDelayMs2": [
+      "200",
+      "0",
+      "0"
+    ],
+    "OperationType3": "EnablePassiveSkill",
+    "OperationTargetType3": "Myself",
+    "OperationValue3": [
+      "3044",
+      "True"
+    ],
+    "OperationType4": "SetSkill",
+    "OperationTargetType4": "Myself",
+    "OperationValue4": [
+      "3044",
+      "1",
+      "Value",
+      "1400",
+      "0"
     ]
   },
   {
     "Index": 90000303,
-    "TriggerType": "OnCriticalSkill",
+    "TriggerType": "OnStart",
     "TriggerRatio": 1000,
     "AttrType": "None",
-    "TargetType": "MinHpAlly",
+    "TargetType": "Myself",
     "TargetCount": 1,
     "DeadTarget": "False",
     "IgnoreBlock": "TRUE",
     "RetargetOnFire": "TRUE",
-    "OperationType1": "GetHealByDamageR",
-    "OperationTargetType1": "Target",
+    "OperationType1": "ModRecoverPower",
+    "OperationTargetType1": "Myself",
+    "OperationRadiusMm1": 50000,
     "OperationValue1": [
-      "1380"
+      "140"
+    ],
+    "OperationDurationMs1": 9999999,
+    "OperationType2": "ModMagicalDefence",
+    "OperationTargetType2": "Myself",
+    "OperationRadiusMm2": 50000,
+    "OperationValue2": [
+      "$ByPhysicalAttack(50)"
+    ],
+    "OperationDelayMs2": [
+      "200",
+      "0",
+      "0"
+    ],
+    "OperationType3": "EnablePassiveSkill",
+    "OperationTargetType3": "Myself",
+    "OperationValue3": [
+      "3044",
+      "True"
+    ],
+    "OperationType4": "SetSkill",
+    "OperationTargetType4": "Myself",
+    "OperationValue4": [
+      "3044",
+      "1",
+      "Value",
+      "1700",
+      "0"
     ]
   },
   {
     "Index": 90000304,
-    "TriggerType": "OnCriticalSkill",
+    "TriggerType": "OnStart",
     "TriggerRatio": 1000,
     "AttrType": "None",
-    "TargetType": "MinHpAlly",
+    "TargetType": "Myself",
     "TargetCount": 1,
     "DeadTarget": "False",
     "IgnoreBlock": "TRUE",
     "RetargetOnFire": "TRUE",
-    "OperationType1": "GetHealByDamageR",
-    "OperationTargetType1": "Target",
+    "OperationType1": "ModRecoverPower",
+    "OperationTargetType1": "Myself",
+    "OperationRadiusMm1": 50000,
     "OperationValue1": [
-      "1660"
+      "170"
+    ],
+    "OperationDurationMs1": 9999999,
+    "OperationType2": "ModMagicalDefence",
+    "OperationTargetType2": "Myself",
+    "OperationRadiusMm2": 50000,
+    "OperationValue2": [
+      "$ByPhysicalAttack(50)"
+    ],
+    "OperationDelayMs2": [
+      "200",
+      "0",
+      "0"
+    ],
+    "OperationType3": "EnablePassiveSkill",
+    "OperationTargetType3": "Myself",
+    "OperationValue3": [
+      "3044",
+      "True"
+    ],
+    "OperationType4": "SetSkill",
+    "OperationTargetType4": "Myself",
+    "OperationValue4": [
+      "3044",
+      "1",
+      "Value",
+      "2100",
+      "0"
     ]
   },
   {
     "Index": 90000305,
-    "TriggerType": "OnCriticalSkill",
+    "TriggerType": "OnStart",
     "TriggerRatio": 1000,
     "AttrType": "None",
-    "TargetType": "MinHpAlly",
+    "TargetType": "Myself",
     "TargetCount": 1,
     "DeadTarget": "False",
     "IgnoreBlock": "TRUE",
     "RetargetOnFire": "TRUE",
-    "OperationType1": "GetHealByDamageR",
-    "OperationTargetType1": "Target",
+    "OperationType1": "ModRecoverPower",
+    "OperationTargetType1": "Myself",
+    "OperationRadiusMm1": 50000,
     "OperationValue1": [
-      "2000"
+      "200"
+    ],
+    "OperationDurationMs1": 9999999,
+    "OperationType2": "ModMagicalDefence",
+    "OperationTargetType2": "Myself",
+    "OperationRadiusMm2": 50000,
+    "OperationValue2": [
+      "$ByPhysicalAttack(50)"
+    ],
+    "OperationDelayMs2": [
+      "200",
+      "0",
+      "0"
+    ],
+    "OperationType3": "EnablePassiveSkill",
+    "OperationTargetType3": "Myself",
+    "OperationValue3": [
+      "3044",
+      "True"
+    ],
+    "OperationType4": "SetSkill",
+    "OperationTargetType4": "Myself",
+    "OperationValue4": [
+      "3044",
+      "1",
+      "Value",
+      "2500",
+      "0"
     ]
   },
   {
