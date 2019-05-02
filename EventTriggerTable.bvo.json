@@ -1554,21 +1554,6 @@
     ]
   },
   {
-    "Index": 10007,
-    "Category": "MainScenario",
-    "EventType": "EnterLobby",
-    "CurrentCondition": [
-      "CompleteDungeon",
-      "1",
-      "202",
-      "True"
-    ],
-    "Command": "StartTutorial",
-    "Argument": [
-      "10031"
-    ]
-  },
-  {
     "Index": 10008,
     "Category": "MainScenario",
     "EventType": "EnterLobby",
@@ -6316,6 +6301,243 @@
     "Command": "StartCutScene",
     "Argument": [
       "CutScene/CH95_Main_1_6_1"
+    ]
+  },
+  {
+    "Index": 95014,
+    "Category": "SubStory",
+    "EventType": "EnterBattle",
+    "EventCondition": [
+      "95",
+      "3"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH95_Main_3_1"
+    ]
+  },
+  {
+    "Index": 95015,
+    "Category": "SubStory",
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH95_Main_3_2"
+    ]
+  },
+  {
+    "Index": 95016,
+    "Category": "SubStory",
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH95_Main_3_3_1"
+    ]
+  },
+  {
+    "Index": 95017,
+    "Category": "SubStory",
+    "EventType": "WaveReady",
+    "EventCondition": [
+      "95",
+      "4",
+      "1"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH95_Main_4_1"
+    ]
+  },
+  {
+    "Index": 95018,
+    "Category": "SubStory",
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH95_Main_4_2"
+    ]
+  },
+  {
+    "Index": 95019,
+    "Category": "SubStory",
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH95_Main_4_3"
+    ]
+  },
+  {
+    "Index": 95020,
+    "Category": "SubStory",
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH95_Main_4_4"
+    ]
+  },
+  {
+    "Index": 95021,
+    "Category": "SubStory",
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH95_Main_4_5"
+    ]
+  },
+  {
+    "Index": 95022,
+    "Category": "SubStory",
+    "EventType": "BattleEnd",
+    "EventCondition": [
+      "95",
+      "5"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH95_Main_4_6"
+    ]
+  },
+  {
+    "Index": 95023,
+    "Category": "SubStory",
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH95_Main_5_1"
+    ]
+  },
+  {
+    "Index": 95024,
+    "Category": "SubStory",
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH95_Main_5_2"
+    ]
+  },
+  {
+    "Index": 95025,
+    "Category": "SubStory",
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH95_Main_5_3"
+    ]
+  },
+  {
+    "Index": 95026,
+    "Category": "SubStory",
+    "EventType": "BattleEnd",
+    "EventCondition": [
+      "97",
+      "2"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH95_Main_5_4"
+    ]
+  },
+  {
+    "Index": 95027,
+    "Category": "SubStory",
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH9_End_1_1"
+    ]
+  },
+  {
+    "Index": 95028,
+    "Category": "SubStory",
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH95_Main_3_3_2"
+    ]
+  },
+  {
+    "Index": 95029,
+    "Category": "SubStory",
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH9.5_Challenge_DemonkingKasel_1"
+    ]
+  },
+  {
+    "Index": 95030,
+    "Category": "SubStory",
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CH9.5_Challenge_DemonkingKasel_2"
+    ]
+  },
+  {
+    "Index": 97001,
+    "Category": "SubStory",
+    "Command": "StartTutorial",
+    "Argument": [
+      "97001"
+    ]
+  },
+  {
+    "Index": 97002,
+    "Category": "SubStory",
+    "Command": "StartTutorial",
+    "Argument": [
+      "97002"
+    ]
+  },
+  {
+    "Index": 97003,
+    "Category": "SubStory",
+    "Command": "StartTutorial",
+    "Argument": [
+      "97003"
+    ]
+  },
+  {
+    "Index": 97004,
+    "Category": "SubStory",
+    "Command": "StartTutorial",
+    "Argument": [
+      "97004"
+    ]
+  },
+  {
+    "Index": 97005,
+    "Category": "SubStory",
+    "Command": "StartTutorial",
+    "Argument": [
+      "97005"
+    ]
+  },
+  {
+    "Index": 97006,
+    "Category": "SubStory",
+    "Command": "StartTutorial",
+    "Argument": [
+      "97006"
+    ]
+  },
+  {
+    "Index": 97007,
+    "Category": "SubStory",
+    "Command": "StartTutorial",
+    "Argument": [
+      "97007"
+    ]
+  },
+  {
+    "Index": 97008,
+    "Category": "SubStory",
+    "Command": "StartTutorial",
+    "Argument": [
+      "97008"
+    ]
+  },
+  {
+    "Index": 97009,
+    "Category": "SubStory",
+    "Command": "StartTutorial",
+    "Argument": [
+      "97009"
+    ]
+  },
+  {
+    "Index": 97010,
+    "Category": "SubStory",
+    "Command": "StartTutorial",
+    "Argument": [
+      "97010"
     ]
   },
   {

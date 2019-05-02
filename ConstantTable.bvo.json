@@ -24,6 +24,10 @@
     "Value": "C3KGY8TI9SB9NA6H"
   },
   {
+    "Key": "ServerResultFailIgnoreErrorCodes",
+    "Value": "[\"NoGuild\",\"WaitMore\"]"
+  },
+  {
     "Key": "NpcFightPowerPenalty",
     "Value": 90
   },
@@ -162,7 +166,7 @@
   },
   {
     "Key": "MatchBanPickGlobalRewardBuffDungeonType",
-    "Value": "Campaign,Labyrinth,Event,Boss,ChallengeTower,Hideout"
+    "Value": "Campaign,Labyrinth,Conquest,Boss,ChallengeTower,Hideout"
   },
   {
     "Key": "InitialPlayerGold"
@@ -227,34 +231,6 @@
   {
     "Key": "EquipRunePreservePrice",
     "Value": 250
-  },
-  {
-    "Key": "LockedEquipSlotIndices",
-    "Value": "[5,6]"
-  },
-  {
-    "Key": "EquipItemUnlockCostType5",
-    "Value": "Gold"
-  },
-  {
-    "Key": "EquipItemUnlockPrice5",
-    "Value": 2000000
-  },
-  {
-    "Key": "EquipItemUnlockHeroLevel5",
-    "Value": 1
-  },
-  {
-    "Key": "EquipItemUnlockCostType6",
-    "Value": "Gold"
-  },
-  {
-    "Key": "EquipItemUnlockPrice6",
-    "Value": 3000000
-  },
-  {
-    "Key": "EquipItemUnlockHeroLevel6",
-    "Value": 50
   },
   {
     "Key": "MaxSellItemCount",
@@ -551,7 +527,7 @@
   },
   {
     "Key": "MaxHideoutDungeonTryCount",
-    "Value": 5
+    "Value": 3
   },
   {
     "Key": "ResetHideoutDungeonCountMax",
@@ -732,15 +708,15 @@
   },
   {
     "Key": "ReqHeroLevelSkillSlot2",
-    "Value": 5
+    "Value": 1
   },
   {
     "Key": "ReqHeroLevelSkillSlot3",
-    "Value": 15
+    "Value": 1
   },
   {
     "Key": "ReqHeroLevelSkillSlot4",
-    "Value": 30
+    "Value": 1
   },
   {
     "Key": "ReqHeroLevelSkillSlot5",
@@ -1069,6 +1045,18 @@
     "Value": 2000
   },
   {
+    "Key": "MaxConquestDungeonTryCount",
+    "Value": 3
+  },
+  {
+    "Key": "ResetConquestDungeonCountMax",
+    "Value": 7
+  },
+  {
+    "Key": "ResetConquestDungeonGem",
+    "Value": "[100,200,400,800,1200,1600,2000]"
+  },
+  {
     "Key": "ExpBoosterPackageShopItemIndex",
     "Value": 1001
   },
@@ -1078,7 +1066,7 @@
   },
   {
     "Key": "ExpBoosterPackageBattleTypes",
-    "Value": "[\\\"Campaign\\\",\\\"Boss\\\",\\\"Event\\\",\\\"ChallengeTower\\\",\\\"Labyrinth\\\",\\\"Hideout\\\"]"
+    "Value": "[\\\"Campaign\\\",\\\"Boss\\\",\\\"Conquest\\\",\\\"ChallengeTower\\\",\\\"Labyrinth\\\",\\\"Hideout\\\"]"
   },
   {
     "Key": "ExpBoosterPackageItemCode",
@@ -1094,7 +1082,7 @@
   },
   {
     "Key": "GoldBoosterPackageBattleTypes",
-    "Value": "[\\\"Campaign\\\",\\\"Boss\\\",\\\"Event\\\",\\\"ChallengeTower\\\",\\\"Labyrinth\\\",\\\"Hideout\\\"]"
+    "Value": "[\\\"Campaign\\\",\\\"Boss\\\",\\\"Conquest\\\",\\\"ChallengeTower\\\",\\\"Labyrinth\\\",\\\"Hideout\\\"]"
   },
   {
     "Key": "GoldBoosterPackageItemCode",
@@ -1391,7 +1379,7 @@
   },
   {
     "Key": "WorldBossGlobalRewardBuffDungeonType",
-    "Value": "Campaign,Labyrinth,Event,Boss,ChallengeTower,Hideout"
+    "Value": "Campaign,Labyrinth,Conquest,Boss,ChallengeTower,Hideout"
   },
   {
     "Key": "WorldBossGlobalCachingPeriodSec",
@@ -1415,11 +1403,11 @@
   },
   {
     "Key": "GuildSuppressGlobalRewardBuffMin",
-    "Value": 80635
+    "Value": 119515
   },
   {
     "Key": "GuildSuppressGlobalRewardBuffDungeonType",
-    "Value": "Campaign,Labyrinth,Event,Boss,ChallengeTower,Hideout"
+    "Value": "Campaign,Labyrinth,Conquest,Boss,ChallengeTower,Hideout"
   },
   {
     "Key": "GuildSuppressGlobalCachingPeriodSec",
@@ -1463,7 +1451,11 @@
   },
   {
     "Key": "ClearPartyBattleTypes",
-    "Value": "[\"Campaign\",\"Boss\",\"Event\",\"ChallengeTower\",\"Labyrinth\",\"Hideout\",\"Maze\"]"
+    "Value": "[\"Campaign\",\"Boss\",\"Conquest\",\"ChallengeTower\",\"Labyrinth\",\"Hideout\",\"Maze\"]"
+  },
+  {
+    "Key": "IntegrityChapterIndex",
+    "Value": 4
   },
   {
     "Key": "RankerPerPage",
@@ -1492,5 +1484,17 @@
   {
     "Key": "LowVideoModels",
     "Value": "[\"Xperia XZ2 Compact\",\"Sony H8314\"]"
+  },
+  {
+    "Key": "ResetClassBuff",
+    "Value": "[\"Gem\",500]"
+  },
+  {
+    "Key": "ClassBuffContentsOpenPoint",
+    "Value": 40
+  },
+  {
+    "Key": "ClassBuffDungeonType",
+    "Value": "[\"Campaign\",\"CustomCampaign\",\"Trial\",\"Arena\",\"GuildSuppress\",\"Conquest\",\"Tower\",\"Labyrinth\",\"Event\",\"Party\",\"Boss\",\"Prison\",\"SquareSideQuest\",\"Raid\",\"HardRaid\",\"OrdealTower\",\"ChallengeTower\",\"GuildRaid\",\"RaidSingle\",\"WorldBoss\",\"Maze\",\"SubStoryBoss\",\"ChallengeRaid\",\"ChallengeRaidSingle\",\"Hideout\",\"EventDungeon\"]"
   }
 ]

@@ -986,6 +986,7 @@
     "Index": 95,
     "Name": "TOWN_TEXT",
     "Type": "WorldMap",
+    "NodeOpenEffect": "TRUE",
     "IsOpen": "TRUE",
     "Map": "Chapter9_5",
     "MapSizeX": 4096,
@@ -1030,6 +1031,35 @@
       "GPGS",
       "AttendanceReturn5Days"
     ]
+  },
+  {
+    "Index": 97,
+    "Name": "LOCATION_ORVIS_NAME",
+    "Type": "WorldMap",
+    "NodeOpenEffect": "TRUE",
+    "IsOpen": "TRUE",
+    "Map": "SubStory",
+    "MapSizeX": 4096,
+    "MapSizeY": 2048,
+    "ForcedAvatarIndex": 1503,
+    "UserStatType": [
+      "Gold"
+    ],
+    "StaminaType": "Chicken",
+    "BgmCode": "BGM2.Battle.Chapter9-5.OrvelRuin",
+    "ReqChapterIndex": 95,
+    "ReqDungeonIndex": 5,
+    "ReqDungeonDifficulty": "Easy",
+    "HellMode_ReqChapterIndex": 97,
+    "HellMode_ReqDungeonIndex": 2,
+    "HellMode_ReqDungeonDifficulty": "Easy",
+    "ShowMenuButtons": [
+      "ScenarioQuest",
+      "Attendance5Days",
+      "GPGS",
+      "AttendanceReturn5Days"
+    ],
+    "MaxDifficulty": "Hell"
   },
   {
     "Index": 99,

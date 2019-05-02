@@ -1603,6 +1603,38 @@
     "OperationDurationMs4": 99999999
   },
   {
+    "Index": 60004750,
+    "TriggerType": "OnStart",
+    "TriggerRatio": 1000,
+    "DeadTarget": "False",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "FALSE",
+    "OperationType1": "ModMaxHpR",
+    "OperationTargetType1": "Myself",
+    "OperationValue1": [
+      "150"
+    ],
+    "OperationDurationMs1": 999999,
+    "OperationType2": "ModDefenceR",
+    "OperationTargetType2": "Myself",
+    "OperationValue2": [
+      "150"
+    ],
+    "OperationDurationMs2": 9999999,
+    "OperationType3": "ModPowerR",
+    "OperationTargetType3": "Myself",
+    "OperationValue3": [
+      "150"
+    ],
+    "OperationDurationMs3": 99999999,
+    "OperationType4": "ModCriticalPower",
+    "OperationTargetType4": "Myself",
+    "OperationValue4": [
+      "200"
+    ],
+    "OperationDurationMs4": 99999999
+  },
+  {
     "Index": 60005450,
     "TriggerType": "OnStart",
     "TriggerRatio": 1000,
@@ -5012,5 +5044,30 @@
     ],
     "OperationState2": "60007851_2",
     "OperationDurationMs2": 10000
+  },
+  {
+    "Index": 60004751,
+    "TriggerType": "OnStart",
+    "TriggerRatio": 1000,
+    "IgnoreStateType": [
+      "CC"
+    ],
+    "TargetType": "Myself",
+    "TargetCount": 1,
+    "DeadTarget": "False",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "FALSE",
+    "OperationType1": "EnablePassiveSkill",
+    "OperationTargetType1": "Myself",
+    "OperationValue1": [
+      "4745",
+      "True"
+    ],
+    "OperationType2": "EnablePassiveSkill",
+    "OperationTargetType2": "Myself",
+    "OperationValue2": [
+      "4746",
+      "True"
+    ]
   }
 ]

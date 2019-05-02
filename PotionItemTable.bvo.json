@@ -98,13 +98,13 @@
   {
     "ItemCode": "ROYALVAULT_KEY_5",
     "ActionType": "RecoverStamina",
-    "ActionValue": 5,
+    "ActionValue": 3,
     "ActionSubValue": "UndergroundLabyrinthKey"
   },
   {
     "ItemCode": "LABYRINTH_KEY_5",
     "ActionType": "RecoverStamina",
-    "ActionValue": 5,
+    "ActionValue": 3,
     "ActionSubValue": "UndergroundPrisonKey"
   },
   {
@@ -151,7 +151,7 @@
   {
     "ItemCode": "HIDEOUT_KEY_5",
     "ActionType": "RecoverHideoutKey",
-    "ActionValue": 5,
+    "ActionValue": 3,
     "ActionSubValue": "HideoutKey"
   },
   {
@@ -522,5 +522,11 @@
     "ItemCode": "EVENTFLASK_GEM_1",
     "ActionType": "RecoverGem",
     "ActionValue": 100
+  },
+  {
+    "ItemCode": "CONQUEST_KEY_5",
+    "ActionType": "RecoverConquestKey",
+    "ActionValue": 3,
+    "ActionSubValue": "ConquestKey"
   }
 ]

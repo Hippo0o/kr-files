@@ -600,6 +600,36 @@
     "IgnoreDropItem": "TRUE"
   },
   {
+    "Code": "Campaign_SubStory95",
+    "MaxTime": 300,
+    "ExtraTime": 240,
+    "AutoRepeatStarCount": 99,
+    "ApplyLevelPenalty": "FALSE",
+    "DamageMeterFlag": "ShowAllPlayer",
+    "RetryCondition": [
+      "Win",
+      "Lose"
+    ],
+    "BattleMenu": "TimeStatus, WaveStatus, LootingStatus, HeroParty, DamageMeter,Hud, BoosterStatus, QuestStatus, Chat",
+    "IgnoreDropItem": "TRUE",
+    "SkillCameraOff": "TRUE"
+  },
+  {
+    "Code": "Campaign_SubStory95_2",
+    "MaxTime": 300,
+    "ExtraTime": 240,
+    "AutoRepeatStarCount": 99,
+    "ApplyLevelPenalty": "FALSE",
+    "DamageMeterFlag": "ShowAllPlayer",
+    "RetryCondition": [
+      "Win",
+      "Lose"
+    ],
+    "BattleMenu": "TimeStatus, WaveStatus, LootingStatus, HeroParty, DamageMeter,Hud, BoosterStatus, QuestStatus, Chat",
+    "IgnoreDropItem": "TRUE",
+    "SkillCameraOff": "TRUE"
+  },
+  {
     "Code": "Campaign_SubStoryBoss",
     "MaxTime": 90,
     "ExtraTime": 240,
@@ -611,7 +641,8 @@
       "Lose"
     ],
     "BattleMenu": "TimeStatus, SystemButton, SystemButtonAuto, WaveStatus, LootingStatus, Retry, DamageMeter, HeroParty, Hud, BoosterStatus, QuestStatus, Chat",
-    "IgnoreDropItem": "TRUE"
+    "IgnoreDropItem": "TRUE",
+    "SkillCameraOff": "TRUE"
   },
   {
     "Code": "GuildSuppress",

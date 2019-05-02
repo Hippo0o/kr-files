@@ -1253,7 +1253,13 @@
       "EventTrigger",
       "53221"
     ],
-    "OperationConditionType1": "None"
+    "OperationConditionType1": "None",
+    "OperationType2": "ClearState",
+    "OperationTargetType2": "Myself",
+    "OperationValue2": [
+      "Tutorial",
+      "0"
+    ]
   },
   {
     "Index": 57,
@@ -2630,6 +2636,77 @@
     "OperationValue2": [
       "CrowSub6"
     ]
+  },
+  {
+    "Index": 200031,
+    "TriggerType": "OnStart",
+    "TriggerRatio": 1000,
+    "AttrType": "None",
+    "ClearStateType": [
+      "CC"
+    ],
+    "IgnoreStateType": [
+      "CC"
+    ],
+    "TargetType": "Myself",
+    "TargetCount": 1,
+    "DeadTarget": "False",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "False",
+    "OperationType1": "ModPhysicalToughness",
+    "OperationTargetType1": "Myself",
+    "OperationValue1": [
+      "2000"
+    ]
+  },
+  {
+    "Index": 200032,
+    "TriggerType": "OnStart",
+    "TriggerRatio": 1000,
+    "AttrType": "None",
+    "ClearStateType": [
+      "CC"
+    ],
+    "IgnoreStateType": [
+      "CC"
+    ],
+    "TargetType": "Myself",
+    "TargetCount": 1,
+    "DeadTarget": "False",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "False",
+    "OperationType1": "ModMagicalToughness",
+    "OperationTargetType1": "Myself",
+    "OperationValue1": [
+      "2000"
+    ]
+  },
+  {
+    "Index": 200033,
+    "TriggerType": "OnTimer",
+    "TriggerValue": [
+      "100",
+      "100"
+    ],
+    "TriggerRatio": 1000,
+    "AttrType": "None",
+    "ClearStateType": [
+      "CC"
+    ],
+    "IgnoreStateType": [
+      "CC"
+    ],
+    "TargetType": "Myself",
+    "TargetCount": 1,
+    "DeadTarget": "False",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "False",
+    "OperationType1": "ClearState",
+    "OperationTargetType1": "Myself",
+    "OperationValue1": [
+      "PhysicalImmune_S"
+    ],
+    "OperationConditionType1": "None"
   },
   {
     "Index": 100,
@@ -4873,7 +4950,7 @@
     "TargetType": "Enemy",
     "DeadTarget": "False",
     "IgnoreBlock": "TRUE",
-    "RetargetOnFire": "False",
+    "RetargetOnFire": "TRUE",
     "OperationType1": "GetStateDamageR",
     "OperationTargetType1": "Target",
     "OperationValue1": [
@@ -19387,7 +19464,7 @@
     "TickTimeValue": [
       "200[1:2]",
       "400[1:2]",
-      "600[1:2]"
+      "500[1:2]"
     ],
     "AttrType": "None",
     "BaseAttack": "TRUE",
@@ -43871,7 +43948,13 @@
       "100"
     ],
     "OperationState1": "Artifact35",
-    "OperationDurationMs1": 4000
+    "OperationDurationMs1": 4000,
+    "OperationType2": "UsePassiveSkill",
+    "OperationTargetType2": "Myself",
+    "OperationValue2": [
+      "80000356"
+    ],
+    "OperationDurationMs2": 4000
   },
   {
     "Index": 80000351,
@@ -43888,7 +43971,13 @@
       "100"
     ],
     "OperationState1": "Artifact35",
-    "OperationDurationMs1": 5000
+    "OperationDurationMs1": 5000,
+    "OperationType2": "UsePassiveSkill",
+    "OperationTargetType2": "Myself",
+    "OperationValue2": [
+      "80000356"
+    ],
+    "OperationDurationMs2": 5000
   },
   {
     "Index": 80000352,
@@ -43905,7 +43994,13 @@
       "100"
     ],
     "OperationState1": "Artifact35",
-    "OperationDurationMs1": 6000
+    "OperationDurationMs1": 6000,
+    "OperationType2": "UsePassiveSkill",
+    "OperationTargetType2": "Myself",
+    "OperationValue2": [
+      "80000356"
+    ],
+    "OperationDurationMs2": 6000
   },
   {
     "Index": 80000353,
@@ -43922,7 +44017,13 @@
       "100"
     ],
     "OperationState1": "Artifact35",
-    "OperationDurationMs1": 7000
+    "OperationDurationMs1": 7000,
+    "OperationType2": "UsePassiveSkill",
+    "OperationTargetType2": "Myself",
+    "OperationValue2": [
+      "80000356"
+    ],
+    "OperationDurationMs2": 7000
   },
   {
     "Index": 80000354,
@@ -43939,7 +44040,13 @@
       "100"
     ],
     "OperationState1": "Artifact35",
-    "OperationDurationMs1": 8000
+    "OperationDurationMs1": 8000,
+    "OperationType2": "UsePassiveSkill",
+    "OperationTargetType2": "Myself",
+    "OperationValue2": [
+      "80000356"
+    ],
+    "OperationDurationMs2": 8000
   },
   {
     "Index": 80000355,
@@ -43956,7 +44063,38 @@
       "100"
     ],
     "OperationState1": "Artifact35",
-    "OperationDurationMs1": 9000
+    "OperationDurationMs1": 9000,
+    "OperationType2": "UsePassiveSkill",
+    "OperationTargetType2": "Myself",
+    "OperationValue2": [
+      "80000356"
+    ],
+    "OperationDurationMs2": 9000
+  },
+  {
+    "Index": 80000356,
+    "TriggerType": "OnHpRatio",
+    "TriggerValue": [
+      "0",
+      "0",
+      "150"
+    ],
+    "TriggerRatio": 1000,
+    "CoolTimeMs": 9000,
+    "TargetType": "Myself",
+    "TargetCount": 1,
+    "DeadTarget": "False",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "False",
+    "OperationType1": "ModAttackByRace",
+    "OperationTargetType1": "Myself",
+    "OperationValue1": [
+      "Hero",
+      "-700",
+      "0"
+    ],
+    "OperationState1": "Artifact35_1",
+    "OperationDurationMs1": 5000
   },
   {
     "Index": 80000360,

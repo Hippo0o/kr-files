@@ -76,6 +76,20 @@
     "PopupImagePath": "Portal/LastPosition/LastPosition_Chpter_9.5"
   },
   {
+    "ChapterIndex": 96,
+    "DungeonIndex": -1,
+    "PositionX": 660,
+    "PositionY": 1420,
+    "PopupImagePath": "Portal/LastPosition/LastPosition_Chpter_9.5"
+  },
+  {
+    "ChapterIndex": 97,
+    "DungeonIndex": -1,
+    "PositionX": 660,
+    "PositionY": 1420,
+    "PopupImagePath": "Portal/LastPosition/LastPosition_Chpter_9.5"
+  },
+  {
     "ChapterIndex": 101,
     "DungeonIndex": -1,
     "PositionX": 2482,
@@ -872,7 +886,13 @@
     "PositionX": 2560,
     "PositionY": 1690,
     "ImagePath": "Portal/LandMark/Ch1_LandMark_Image",
-    "PopupImagePath": "Portal/LastPosition/LastPosition_Chpter_1"
+    "PopupImagePath": "Portal/LastPosition/LastPosition_Chpter_1",
+    "Condition": [
+      "ClearDungeon",
+      "1",
+      "1"
+    ],
+    "OpenEffectPortalIndex": 5
   },
   {
     "ChapterIndex": 2,
@@ -881,7 +901,13 @@
     "PositionX": 3050,
     "PositionY": 1180,
     "ImagePath": "Portal/LandMark/Ch2_LandMark_Image",
-    "PopupImagePath": "Portal/LastPosition/LastPosition_Chpter_2"
+    "PopupImagePath": "Portal/LastPosition/LastPosition_Chpter_2",
+    "Condition": [
+      "ClearDungeon",
+      "1",
+      "20"
+    ],
+    "OpenEffectPortalIndex": 6
   },
   {
     "ChapterIndex": 3,
@@ -890,7 +916,13 @@
     "PositionX": 3030,
     "PositionY": 550,
     "ImagePath": "Portal/LandMark/Ch3_LandMark_Image",
-    "PopupImagePath": "Portal/LastPosition/LastPosition_Chpter_3"
+    "PopupImagePath": "Portal/LastPosition/LastPosition_Chpter_3",
+    "Condition": [
+      "ClearDungeon",
+      "2",
+      "21"
+    ],
+    "OpenEffectPortalIndex": 7
   },
   {
     "ChapterIndex": 4,
@@ -899,7 +931,13 @@
     "PositionX": 2300,
     "PositionY": 1000,
     "ImagePath": "Portal/LandMark/Ch4_LandMark_Image",
-    "PopupImagePath": "Portal/LastPosition/LastPosition_Chpter_4"
+    "PopupImagePath": "Portal/LastPosition/LastPosition_Chpter_4",
+    "Condition": [
+      "ClearDungeon",
+      "3",
+      "22"
+    ],
+    "OpenEffectPortalIndex": 8
   },
   {
     "ChapterIndex": 5,
@@ -908,7 +946,13 @@
     "PositionX": 1530,
     "PositionY": 1700,
     "ImagePath": "Portal/LandMark/Ch5_LandMark_Image",
-    "PopupImagePath": "Portal/LastPosition/LastPosition_Chpter_5"
+    "PopupImagePath": "Portal/LastPosition/LastPosition_Chpter_5",
+    "Condition": [
+      "ClearDungeon",
+      "4",
+      "21"
+    ],
+    "OpenEffectPortalIndex": 9
   },
   {
     "ChapterIndex": 6,
@@ -917,7 +961,13 @@
     "PositionX": 1460,
     "PositionY": 1180,
     "ImagePath": "Portal/LandMark/Ch6_LandMark_Image",
-    "PopupImagePath": "Portal/LastPosition/LastPosition_Chpter_6"
+    "PopupImagePath": "Portal/LastPosition/LastPosition_Chpter_6",
+    "Condition": [
+      "ClearDungeon",
+      "5",
+      "21"
+    ],
+    "OpenEffectPortalIndex": 10
   },
   {
     "ChapterIndex": 7,
@@ -926,7 +976,13 @@
     "PositionX": 2080,
     "PositionY": 460,
     "ImagePath": "Portal/LandMark/Ch7_LandMark_Image",
-    "PopupImagePath": "Portal/LastPosition/LastPosition_Chpter_7"
+    "PopupImagePath": "Portal/LastPosition/LastPosition_Chpter_7",
+    "Condition": [
+      "ClearDungeon",
+      "6",
+      "21"
+    ],
+    "OpenEffectPortalIndex": 11
   },
   {
     "ChapterIndex": 8,
@@ -935,7 +991,13 @@
     "PositionX": 1230,
     "PositionY": 400,
     "ImagePath": "Portal/LandMark/Ch8_LandMark_Image",
-    "PopupImagePath": "Portal/LastPosition/LastPosition_Chpter_8"
+    "PopupImagePath": "Portal/LastPosition/LastPosition_Chpter_8",
+    "Condition": [
+      "ClearDungeon",
+      "7",
+      "12"
+    ],
+    "OpenEffectPortalIndex": 12
   },
   {
     "ChapterIndex": 9,
@@ -944,16 +1006,28 @@
     "PositionX": 395,
     "PositionY": 780,
     "ImagePath": "Portal/LandMark/Ch9_LandMark_Image",
-    "PopupImagePath": "Portal/LastPosition/LastPosition_Chpter_9"
+    "PopupImagePath": "Portal/LastPosition/LastPosition_Chpter_9",
+    "Condition": [
+      "ClearDungeon",
+      "8",
+      "26"
+    ],
+    "OpenEffectPortalIndex": 13
   },
   {
     "ChapterIndex": 9,
-    "DungeonIndex": 29,
+    "DungeonIndex": 23,
     "Name": "BOSS_DUNGEON_CHAPTER9_BOSS4",
     "PositionX": 660,
     "PositionY": 1420,
     "ImagePath": "Portal/LandMark/Ch9.5_LandMark_Image",
-    "PopupImagePath": "Portal/LastPosition/LastPosition_Chpter_9.5"
+    "PopupImagePath": "Portal/LastPosition/LastPosition_Chpter_9.5",
+    "Condition": [
+      "ClearDungeon",
+      "9",
+      "23"
+    ],
+    "OpenEffectPortalIndex": 14
   },
   {
     "ChapterIndex": 4001,

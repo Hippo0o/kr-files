@@ -6935,7 +6935,7 @@
     "OperationTargetType1": "Myself",
     "OperationRadiusMm1": 4000,
     "OperationValue1": [
-      "1500",
+      "3000",
       "0",
       "IgnoreBlock"
     ],
@@ -7095,7 +7095,7 @@
     "OperationTargetType5": "Myself",
     "OperationRadiusMm5": 50000,
     "OperationValue5": [
-      "-250"
+      "-350"
     ],
     "OperationState5": 660741,
     "OperationDurationMs5": 999999,
@@ -7145,6 +7145,16 @@
     "OperationConditionType2": "NotState",
     "OperationConditionValue2": [
       "660740"
+    ],
+    "OperationType3": "ClearState",
+    "OperationTargetType3": "Myself",
+    "OperationValue3": [
+      "660770_4",
+      "0"
+    ],
+    "OperationConditionType3": "NotState",
+    "OperationConditionValue3": [
+      "660740"
     ]
   },
   {
@@ -7161,7 +7171,7 @@
     "OperationTargetType1": "Myself",
     "OperationValue1": [
       "0",
-      "$ByMaxHp2(290)"
+      "$ByMaxHp2(850)"
     ],
     "OperationState1": 660740,
     "OperationDurationMs1": 8400,
@@ -7254,12 +7264,12 @@
       "600"
     ],
     "OperationDurationMs2": 999999,
-    "OperationType3": "ModPhysicalToughness",
-    "OperationTargetType3": "Myself",
-    "OperationValue3": [
-      "300"
+    "OperationType4": "ModDefensePower",
+    "OperationTargetType4": "Myself",
+    "OperationValue4": [
+      "200"
     ],
-    "OperationDurationMs3": 999999
+    "OperationDurationMs4": 99999
   },
   {
     "Index": 660751,
@@ -7293,8 +7303,8 @@
     "Index": 660752,
     "TriggerType": "OnTimer",
     "TriggerValue": [
-      "12000",
-      "12000"
+      "14000",
+      "14000"
     ],
     "TriggerRatio": 1000,
     "CancelOnWaveEnd": "TRUE",
@@ -7311,7 +7321,7 @@
     "OperationType1": "ModPowerR",
     "OperationTargetType1": "Myself",
     "OperationValue1": [
-      "21"
+      "22"
     ],
     "OperationDurationMs1": 9999999,
     "OperationConditionType1": "None",
@@ -7348,7 +7358,7 @@
     "OperationType1": "ModWeakness",
     "OperationTargetType1": "Myself",
     "OperationValue1": [
-      "400"
+      "900"
     ],
     "OperationState1": "RaidDown",
     "OperationDurationMs1": 7000
@@ -7397,6 +7407,19 @@
       "660770",
       "4",
       "MoreOrEqual"
+    ],
+    "OperationType4": "ModPhysicalToughness",
+    "OperationTargetType4": "Myself",
+    "OperationValue4": [
+      "300"
+    ],
+    "OperationState4": "660770_4",
+    "OperationDurationMs4": 8400,
+    "OperationConditionType4": "StateCount",
+    "OperationConditionValue4": [
+      "660770",
+      "4",
+      "MoreOrEqual"
     ]
   },
   {
@@ -7423,7 +7446,7 @@
     "OperationTargetType1": "Target",
     "OperationRadiusMm1": 2000,
     "OperationValue1": [
-      "1000",
+      "2000",
       "0",
       "IgnoreBlock"
     ],

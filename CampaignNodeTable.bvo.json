@@ -11027,9 +11027,11 @@
     ],
     "UiPositionX": 1490,
     "UiPositionY": 1011,
+    "NextNodeIndex": [
+      "102"
+    ],
     "Oneway": "False",
-    "Opened": "True",
-    "MenuOpenCondition": "NotReady"
+    "Opened": "False"
   },
   {
     "ChapterIndex": 95,
@@ -11047,7 +11049,7 @@
       "103"
     ],
     "Oneway": "False",
-    "Opened": "True"
+    "Opened": "False"
   },
   {
     "ChapterIndex": 95,
@@ -11059,16 +11061,35 @@
       "4",
       "True"
     ],
+    "UiPositionX": 2887,
+    "UiPositionY": 1481,
+    "NextNodeIndex": [
+      "6"
+    ],
+    "Oneway": "False",
+    "Opened": "False"
+  },
+  {
+    "ChapterIndex": 95,
+    "DungeonIndex": 6,
+    "NodePrefab": "MoveChapter/Down",
+    "FunctionButton": "MoveChapter",
+    "Function": "MoveChapter",
+    "Value": [
+      "97",
+      "1",
+      "Down"
+    ],
     "UiPositionX": 3327,
     "UiPositionY": 1608,
     "Oneway": "False",
-    "Opened": "True"
+    "Opened": "False"
   },
   {
     "ChapterIndex": 95,
     "DungeonIndex": 100,
     "Oneway": "False",
-    "Opened": "False"
+    "Opened": "True"
   },
   {
     "ChapterIndex": 95,
@@ -11081,18 +11102,20 @@
       "3"
     ],
     "Oneway": "False",
-    "Opened": "True"
+    "Opened": "False"
   },
   {
     "ChapterIndex": 95,
     "DungeonIndex": 102,
+    "NodePrefab": "Bridge",
+    "FunctionButton": "Bridge",
     "UiPositionX": 1833,
     "UiPositionY": 1133,
     "NextNodeIndex": [
       "4"
     ],
     "Oneway": "False",
-    "Opened": "True"
+    "Opened": "False"
   },
   {
     "ChapterIndex": 95,
@@ -11102,23 +11125,10 @@
     "UiPositionX": 2465,
     "UiPositionY": 1295,
     "NextNodeIndex": [
-      "104"
-    ],
-    "Oneway": "False",
-    "Opened": "True"
-  },
-  {
-    "ChapterIndex": 95,
-    "DungeonIndex": 104,
-    "NodePrefab": "Bridge",
-    "FunctionButton": "Bridge",
-    "UiPositionX": 2887,
-    "UiPositionY": 1481,
-    "NextNodeIndex": [
       "5"
     ],
     "Oneway": "False",
-    "Opened": "True"
+    "Opened": "False"
   },
   {
     "ChapterIndex": 96,
@@ -11180,6 +11190,233 @@
     ],
     "Oneway": "False",
     "Opened": "True"
+  },
+  {
+    "ChapterIndex": 97,
+    "DungeonIndex": 1,
+    "NodePrefab": "MoveChapter/Right",
+    "FunctionButton": "MoveChapter",
+    "Function": "MoveChapter",
+    "Value": [
+      "95",
+      "6",
+      "Up"
+    ],
+    "UiPositionX": 2157,
+    "UiPositionY": 1418,
+    "NextNodeIndex": [
+      "2",
+      "12"
+    ],
+    "Oneway": "False",
+    "Opened": "True"
+  },
+  {
+    "ChapterIndex": 97,
+    "DungeonIndex": 2,
+    "NodePrefab": "NonDecoMainField",
+    "FunctionButton": "SubStoryBattle",
+    "Function": "SubStoryBattle",
+    "UiPositionX": 2397,
+    "UiPositionY": 1453,
+    "NextNodeIndex": [
+      "104"
+    ],
+    "Oneway": "False",
+    "Opened": "False"
+  },
+  {
+    "ChapterIndex": 97,
+    "DungeonIndex": 3,
+    "NodePrefab": "NonDecoMainField",
+    "FunctionButton": "SubStoryEvent",
+    "Function": "SubStoryEvent",
+    "UiPositionX": 2503,
+    "UiPositionY": 1613,
+    "Oneway": "False",
+    "Opened": "False"
+  },
+  {
+    "ChapterIndex": 97,
+    "DungeonIndex": 4,
+    "NodePrefab": "NonDecoMainField",
+    "FunctionButton": "SubStoryEvent",
+    "Function": "SubStoryEvent",
+    "UiPositionX": 2876,
+    "UiPositionY": 1579,
+    "Oneway": "False",
+    "Opened": "False"
+  },
+  {
+    "ChapterIndex": 97,
+    "DungeonIndex": 5,
+    "NodePrefab": "NonDecoMainField",
+    "FunctionButton": "SubStoryEvent",
+    "Function": "SubStoryEvent",
+    "UiPositionX": 2503,
+    "UiPositionY": 1269,
+    "Oneway": "False",
+    "Opened": "False",
+    "NodeOpenStyle": "Multi",
+    "NodeOpenValues": [
+      "1.9",
+      "1945",
+      "1100"
+    ]
+  },
+  {
+    "ChapterIndex": 97,
+    "DungeonIndex": 6,
+    "NodePrefab": "NonDecoMainField",
+    "FunctionButton": "SubStoryEvent",
+    "Function": "SubStoryEvent",
+    "UiPositionX": 2765,
+    "UiPositionY": 979,
+    "Oneway": "False",
+    "Opened": "False"
+  },
+  {
+    "ChapterIndex": 97,
+    "DungeonIndex": 7,
+    "NodePrefab": "NonDecoMainField",
+    "FunctionButton": "SubStoryEvent",
+    "Function": "SubStoryEvent",
+    "UiPositionX": 1430,
+    "UiPositionY": 1631,
+    "Oneway": "False",
+    "Opened": "False"
+  },
+  {
+    "ChapterIndex": 97,
+    "DungeonIndex": 8,
+    "NodePrefab": "NonDecoMainField",
+    "FunctionButton": "SubStoryEvent",
+    "Function": "SubStoryEvent",
+    "UiPositionX": 1682,
+    "UiPositionY": 932,
+    "Oneway": "False",
+    "Opened": "False"
+  },
+  {
+    "ChapterIndex": 97,
+    "DungeonIndex": 9,
+    "NodePrefab": "NonDecoMainField",
+    "FunctionButton": "SubStoryEvent",
+    "Function": "SubStoryEvent",
+    "UiPositionX": 2200,
+    "UiPositionY": 196,
+    "Oneway": "False",
+    "Opened": "False"
+  },
+  {
+    "ChapterIndex": 97,
+    "DungeonIndex": 10,
+    "NodePrefab": "NonDecoMainField",
+    "FunctionButton": "SubStoryEvent",
+    "Function": "SubStoryEvent",
+    "UiPositionX": 1481,
+    "UiPositionY": 513,
+    "Oneway": "False",
+    "Opened": "False"
+  },
+  {
+    "ChapterIndex": 97,
+    "DungeonIndex": 11,
+    "NodePrefab": "NonDecoMainField",
+    "FunctionButton": "SubStoryEvent",
+    "Function": "SubStoryEvent",
+    "UiPositionX": 777,
+    "UiPositionY": 1239,
+    "Oneway": "False",
+    "Opened": "False"
+  },
+  {
+    "ChapterIndex": 97,
+    "DungeonIndex": 12,
+    "NodePrefab": "NonDecoBossField",
+    "FunctionButton": "SubStoryBoss",
+    "Function": "SubStoryBoss",
+    "UiPositionX": 2157,
+    "UiPositionY": 1608,
+    "Oneway": "False",
+    "Opened": "False",
+    "ReqCondition": [
+      "CompleteDungeon",
+      " 97",
+      " 2",
+      " true"
+    ],
+    "PortalNameCode": "NODE_SUBSTORYBOSS_NAME"
+  },
+  {
+    "ChapterIndex": 97,
+    "DungeonIndex": 101,
+    "NodePrefab": "Bridge",
+    "FunctionButton": "Bridge",
+    "UiPositionX": 2644,
+    "UiPositionY": 1458,
+    "NextNodeIndex": [
+      "3",
+      "4"
+    ],
+    "Oneway": "False",
+    "Opened": "False"
+  },
+  {
+    "ChapterIndex": 97,
+    "DungeonIndex": 102,
+    "NodePrefab": "Bridge",
+    "FunctionButton": "Bridge",
+    "UiPositionX": 2176,
+    "UiPositionY": 779,
+    "NextNodeIndex": [
+      "6",
+      "9",
+      "10"
+    ],
+    "Oneway": "False",
+    "Opened": "False"
+  },
+  {
+    "ChapterIndex": 97,
+    "DungeonIndex": 103,
+    "NodePrefab": "Bridge",
+    "FunctionButton": "Bridge",
+    "UiPositionX": 1500,
+    "UiPositionY": 1238,
+    "NextNodeIndex": [
+      "7",
+      "8",
+      "11"
+    ],
+    "Oneway": "False",
+    "Opened": "False"
+  },
+  {
+    "ChapterIndex": 97,
+    "DungeonIndex": 104,
+    "NodePrefab": "Bridge",
+    "FunctionButton": "Bridge",
+    "Code": [
+      "97-2",
+      "True"
+    ],
+    "UiPositionX": 2503,
+    "UiPositionY": 1327,
+    "NextNodeIndex": [
+      "5",
+      "101",
+      "102",
+      "103"
+    ],
+    "Oneway": "False",
+    "Opened": "False",
+    "MenuOpenCondition": "ClearDungeon",
+    "MenuOpenConditionArgs": [
+      "97",
+      "2",
+      "Easy"
+    ]
   },
   {
     "ChapterIndex": 99,

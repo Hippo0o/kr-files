@@ -4640,7 +4640,7 @@
     ]
   },
   {
-    "ChapterIndex": 95,
+    "ChapterIndex": 96,
     "DungeonIndex": 2,
     "Difficulty": "Easy",
     "WaveIndex": 1,
@@ -4655,7 +4655,32 @@
     "BossSkillOpen": 4,
     "BossGrade": "Raid",
     "BossOffsetMx": 20000,
-    "BossScaleR": 1400,
+    "BossVisualInfo": "NormalBoss",
+    "BossAddExtraSkill": [
+      "5006011",
+      "5006012",
+      "5006013",
+      "5006014",
+      "50000247",
+      "35"
+    ]
+  },
+  {
+    "ChapterIndex": 95,
+    "DungeonIndex": 2,
+    "Difficulty": "Easy",
+    "WaveIndex": 1,
+    "AreaPositionIsRelative": "True",
+    "AreaPositionMx": 10000,
+    "AreaSizeMx": 80000,
+    "Star": 5,
+    "SkillOpen": 3,
+    "Level": 90,
+    "Tier": 91432,
+    "BossCreatureIndex": 33033,
+    "BossSkillOpen": 4,
+    "BossGrade": "Raid",
+    "BossOffsetMx": 20000,
     "BossVisualInfo": "NormalBoss",
     "BossAddExtraSkill": [
       "5006011",
@@ -4677,9 +4702,12 @@
     "Star": 1,
     "SkillOpen": 3,
     "Level": 90,
-    "Tier": 91432,
+    "Tier": 1000950332,
     "BossCreatureIndex": 62,
-    "BossSkillOpen": 4
+    "BossSkillOpen": 4,
+    "BossGrade": "Boss",
+    "BossOffsetMx": 20000,
+    "BossWeaponIndex": 1062
   },
   {
     "ChapterIndex": 95,
@@ -4689,12 +4717,28 @@
     "AreaPositionIsRelative": "True",
     "AreaPositionMx": 10000,
     "AreaSizeMx": 80000,
-    "Star": 1,
+    "Star": 3,
     "SkillOpen": 3,
     "Level": 90,
-    "Tier": 91432,
-    "BossCreatureIndex": 62,
-    "BossSkillOpen": 4
+    "Tier": 1000950332,
+    "BossCreatureIndex": 15,
+    "BossSkillOpen": 4,
+    "BossGrade": "Boss",
+    "BossOffsetMx": 15000,
+    "BossOffsetMz": 2000,
+    "BossWeaponIndex": 1015,
+    "BossAddExtraSkill": [
+      "5006018"
+    ],
+    "CreatureIndex1": 20,
+    "WeaponIndex1": 1020,
+    "CreatureAddExtraSkill1": [
+      "5006019",
+      "5006020",
+      "5006021",
+      "5006024",
+      "50000258"
+    ]
   },
   {
     "ChapterIndex": 95,
@@ -4704,53 +4748,110 @@
     "AreaPositionIsRelative": "True",
     "AreaPositionMx": 10000,
     "AreaSizeMx": 80000,
-    "Star": 1,
+    "Star": 5,
     "SkillOpen": 3,
     "Level": 90,
-    "Tier": 91432,
-    "BossCreatureIndex": 62,
-    "BossSkillOpen": 4
-  },
-  {
-    "ChapterIndex": 95,
-    "DungeonIndex": 6,
-    "Difficulty": "Easy",
-    "WaveIndex": 1,
-    "AreaPositionIsRelative": "True",
-    "AreaPositionMx": 10000,
-    "AreaSizeMx": 80000,
-    "Star": 1,
-    "SkillOpen": 3,
-    "Level": 90,
-    "Tier": 91432,
-    "BossCreatureIndex": 62,
-    "BossSkillOpen": 4
-  },
-  {
-    "ChapterIndex": 96,
-    "DungeonIndex": 2,
-    "Difficulty": "Easy",
-    "WaveIndex": 1,
-    "AreaPositionIsRelative": "True",
-    "AreaPositionMx": 10000,
-    "AreaSizeMx": 80000,
-    "Star": 1,
-    "SkillOpen": 3,
-    "Level": 90,
-    "Tier": 91432,
-    "BossCreatureIndex": 33033,
+    "Tier": 1000950231,
+    "BossCreatureIndex": 36,
     "BossSkillOpen": 4,
-    "BossGrade": "Raid",
-    "BossOffsetMx": 20000,
-    "BossScaleR": 1400,
+    "BossTier": 1000950331,
     "BossVisualInfo": "NormalBoss",
+    "BossWeaponIndex": 1036,
     "BossAddExtraSkill": [
-      "5006011",
-      "5006012",
-      "5006013",
-      "5006014",
-      "50000247",
-      "35"
+      "5006025"
+    ],
+    "CreatureIndex1": 62,
+    "WeaponIndex1": 1062,
+    "CreatureAddExtraSkill1": [
+      "5006027"
+    ],
+    "CreatureIndex2": 24,
+    "WeaponIndex2": 1024,
+    "CreatureAddExtraSkill2": [
+      "5006036",
+      "5006039"
+    ],
+    "CreatureIndex3": 59,
+    "WeaponIndex3": 1059,
+    "CreatureAddExtraSkill3": [
+      "5006037"
+    ],
+    "CreatureIndex4": 93,
+    "WeaponIndex4": 1093,
+    "CreatureAddExtraSkill4": [
+      "5006038"
+    ]
+  },
+  {
+    "ChapterIndex": 97,
+    "DungeonIndex": 2,
+    "Difficulty": "Esay",
+    "WaveIndex": 1,
+    "AreaPositionIsRelative": "True",
+    "AreaPositionMx": 10000,
+    "AreaSizeMx": 80000,
+    "Star": 3,
+    "SkillOpen": 3,
+    "Level": 90,
+    "Tier": 1000950334,
+    "BossCreatureIndex": 15,
+    "BossSkillOpen": 4,
+    "BossGrade": "Boss",
+    "BossOffsetMx": 10000,
+    "BossWeaponIndex": 1015,
+    "BossAddExtraSkill": [
+      "50000256",
+      "50000257"
+    ]
+  },
+  {
+    "ChapterIndex": 97,
+    "DungeonIndex": 12,
+    "Difficulty": "Hard",
+    "WaveIndex": 1,
+    "AreaPositionIsRelative": "True",
+    "AreaPositionMx": 10000,
+    "AreaSizeMx": 80000,
+    "Star": 1,
+    "SkillOpen": 3,
+    "Level": 87,
+    "Tier": 90431,
+    "BossCreatureIndex": 33040,
+    "BossTier": 1000951931,
+    "BossGrade": "Raid",
+    "BossVisualInfo": "KaselFallen",
+    "BossAddExtraSkill": [
+      "3304050",
+      "3304053"
+    ],
+    "CreatureVisualInfo1": "KaselFallen"
+  },
+  {
+    "ChapterIndex": 97,
+    "DungeonIndex": 12,
+    "Difficulty": "Hell",
+    "WaveIndex": 1,
+    "AreaPositionIsRelative": "True",
+    "AreaPositionMx": 10000,
+    "AreaSizeMx": 80000,
+    "Star": 1,
+    "SkillOpen": 3,
+    "Level": 90,
+    "Tier": 90431,
+    "BossCreatureIndex": 33040,
+    "BossTier": 1000951831,
+    "BossGrade": "Raid",
+    "BossVisualInfo": "KaselFallen",
+    "BossAddExtraSkill": [
+      "3304050",
+      "3304054"
+    ],
+    "CreatureIndex1": 33041,
+    "CreatureTier1": 1000951731,
+    "CreatureVisualInfo1": "KaselFallen",
+    "CreatureAddExtraSkill1": [
+      "3304050",
+      "3304151"
     ]
   }
 ]

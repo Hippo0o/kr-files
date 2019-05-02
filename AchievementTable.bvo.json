@@ -190,7 +190,7 @@
     "Reward2Type": "Item",
     "Reward2Code": "EXPPOTION_FULL_4",
     "Reward2Value": 2,
-    "MoveTaskType": "MoveToLastEventDungeon",
+    "MoveTaskType": "MoveToLastConquestDungeon",
     "OpenCondition": [
       "System",
       "CanGoDungeon",
@@ -469,7 +469,7 @@
     "Reward2Type": "Item",
     "Reward2Code": "EXPPOTION_FULL_4",
     "Reward2Value": 5,
-    "MoveTaskType": "MoveToLastEventDungeon",
+    "MoveTaskType": "MoveToLastConquestDungeon",
     "OpenCondition": [
       "System",
       "CanGoDungeon",
@@ -12937,21 +12937,6 @@
     "ReqValue": 1,
     "RewardType": "Booster",
     "RewardCode": "BOOSTER_GOLD_TEST_MISSION",
-    "RewardValue": 1
-  },
-  {
-    "Index": 815,
-    "Step": 1,
-    "ShowIndex": 1,
-    "Type": "EventOnce",
-    "SubType": "Goods",
-    "EventName": "EventMission",
-    "ReqType": "ConsumePackageItem",
-    "ReqValue": 40234,
-    "ReqSub1Type": "Count",
-    "ReqSub1Value": 7,
-    "RewardType": "Item",
-    "RewardCode": "TRANSCEND_5POINT",
     "RewardValue": 1
   },
   {
