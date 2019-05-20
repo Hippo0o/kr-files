@@ -7199,6 +7199,36 @@
     "AttrType": "Magical"
   },
   {
+    "Index": 550372,
+    "TriggerType": "OnWaveStart",
+    "TriggerRatio": 1000,
+    "AttrType": "Magical",
+    "TargetType": "Myself",
+    "TargetCount": 1,
+    "DeadTarget": "False",
+    "IgnoreBlock": "True",
+    "RetargetOnFire": "False",
+    "OperationType1": "SetSkill",
+    "OperationTargetType1": "Myself",
+    "OperationValue1": [
+      "550344",
+      "1",
+      "Value",
+      "3",
+      "0"
+    ],
+    "OperationDurationMs1": 9999999,
+    "OperationType2": "ModAttackPower",
+    "OperationTargetType2": "Myself",
+    "OperationValue2": [
+      "-300"
+    ],
+    "OperationDurationMs2": 9999999
+  },
+  {
+    "Index": 550373
+  },
+  {
     "Index": 550380
   },
   {

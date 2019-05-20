@@ -1627,10 +1627,10 @@
       "150"
     ],
     "OperationDurationMs3": 99999999,
-    "OperationType4": "ModCriticalPower",
+    "OperationType4": "ModAttackSpeedR",
     "OperationTargetType4": "Myself",
     "OperationValue4": [
-      "200"
+      "100"
     ],
     "OperationDurationMs4": 99999999
   },
@@ -5047,8 +5047,15 @@
   },
   {
     "Index": 60004751,
-    "TriggerType": "OnStart",
+    "TriggerType": "OnWaveStart",
+    "TriggerValue": [
+      "0",
+      "1"
+    ],
     "TriggerRatio": 1000,
+    "TriggerFlag": [
+      "UpdateSkillCondition"
+    ],
     "IgnoreStateType": [
       "CC"
     ],
@@ -5057,17 +5064,28 @@
     "DeadTarget": "False",
     "IgnoreBlock": "TRUE",
     "RetargetOnFire": "FALSE",
-    "OperationType1": "EnablePassiveSkill",
+    "OperationType1": "ModDodgeChance",
     "OperationTargetType1": "Myself",
     "OperationValue1": [
-      "4745",
-      "True"
+      "300"
     ],
-    "OperationType2": "EnablePassiveSkill",
+    "OperationState1": "Yuria_5_Dodge",
+    "OperationAddStateCount1": 1,
+    "OperationDurationMs1": 20000,
+    "OperationType2": "ModToughness",
     "OperationTargetType2": "Myself",
     "OperationValue2": [
+      "300"
+    ],
+    "OperationState2": "Yuria_5_Block",
+    "OperationAddStateCount2": 1,
+    "OperationDurationMs2": 20000,
+    "OperationType3": "EnablePassiveSkill",
+    "OperationTargetType3": "Myself",
+    "OperationValue3": [
       "4746",
       "True"
-    ]
+    ],
+    "OperationDurationMs3": 20000
   }
 ]

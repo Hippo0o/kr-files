@@ -5175,6 +5175,81 @@
     ]
   },
   {
+    "HeroIndex": 47,
+    "BaseSpeak": [
+      "INN_YURIA_INNIDLE01"
+    ],
+    "Action1": "Greeting",
+    "ActionResponse1": [
+      "INN_YURIA_GREETING01",
+      "InnReaction.Yuria01",
+      " InnReaction"
+    ],
+    "Action2": "Conversation",
+    "ActionResponse2": [
+      "INN_YURIA_CONVERSATION01",
+      "InnReaction.Yuria01",
+      " InnReaction",
+      "\nINN_YURIA_CONVERSATION02",
+      "InnReaction.Yuria01",
+      " InnReaction",
+      "\nINN_YURIA_CONVERSATION03",
+      "InnReaction.Yuria01",
+      " InnReaction"
+    ],
+    "Action3": "Gift",
+    "ActionResponse3": [
+      "INN_YURIA_GIFT01",
+      "InnReaction.Yuria01",
+      " InnReaction"
+    ],
+    "Action4": "Closeness_Greeting",
+    "ActionResponse4": [
+      "INN_YURIA_GREETING02",
+      "InnReaction.Yuria01",
+      " InnReaction"
+    ],
+    "Action5": "Closeness_Conversation",
+    "ActionResponse5": [
+      "INN_YURIA_CONVERSATION04",
+      "InnReaction.Yuria01",
+      " InnReaction",
+      "\nINN_YURIA_CONVERSATION05",
+      "InnReaction.Yuria01",
+      " InnReaction"
+    ],
+    "Action6": "Closeness_Gift",
+    "ActionResponse6": [
+      "INN_YURIA_GIFT02",
+      "InnReaction.Yuria01",
+      " InnReaction"
+    ],
+    "Action1_MAX": "Greeting_Max",
+    "Response1_MAX": [
+      "INN_YURIA_CONNECT_GREETING_MAX",
+      " InnReaction.Yuria01",
+      " InnReaction"
+    ],
+    "MaxAction1": "Connect_Talk_1",
+    "MaxResponse1": [
+      "INN_YURIA_CONNECT_CONVERSATION01",
+      " InnReaction.Yuria01",
+      " InnReaction"
+    ],
+    "MaxAction2": "Connect_Talk_2",
+    "MaxResponse2": [
+      "INN_YURIA_CONNECT_CONVERSATION02",
+      " InnReaction.Yuria01",
+      " InnReaction"
+    ],
+    "MaxAction3": "Connect_Talk_3",
+    "MaxResponse3": [
+      "INN_YURIA_CONNECT_CONVERSATION03",
+      " InnReaction.Yuria01",
+      " InnReaction"
+    ]
+  },
+  {
     "HeroIndex": 90,
     "BaseSpeak": [
       "INN_MAY_INNIDLE01"

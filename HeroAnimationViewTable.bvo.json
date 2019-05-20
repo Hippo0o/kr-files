@@ -368,14 +368,14 @@
     "HeroIndex": 1,
     "Animation": "Walk1",
     "AnimationText": "HERO_ACTION_WALK1",
-    "IconType": "Icon_Idle"
+    "IconType": "Icon_Dash"
   },
   {
     "Index": 154,
     "HeroIndex": 1,
     "Animation": "Walk2",
     "AnimationText": "HERO_ACTION_WALK2",
-    "IconType": "Icon_Idle"
+    "IconType": "Icon_Dash"
   },
   {
     "Index": 155,
@@ -809,7 +809,7 @@
     "HeroIndex": 2,
     "Animation": "Walk",
     "AnimationText": "HERO_ACTION_WALK",
-    "IconType": "Icon_Idle"
+    "IconType": "Icon_Dash"
   },
   {
     "Index": 257,
@@ -1166,7 +1166,7 @@
     "HeroIndex": 3,
     "Animation": "Walk",
     "AnimationText": "HERO_ACTION_WALK",
-    "IconType": "Icon_Idle"
+    "IconType": "Icon_Dash"
   },
   {
     "Index": 401,
@@ -1481,7 +1481,7 @@
     "HeroIndex": 4,
     "Animation": "Walk",
     "AnimationText": "HERO_ACTION_WALK",
-    "IconType": "Icon_Idle"
+    "IconType": "Icon_Dash"
   },
   {
     "Index": 501,
@@ -2828,6 +2828,13 @@
     "IconType": "Icon_Dash"
   },
   {
+    "Index": 1034,
+    "HeroIndex": 10,
+    "Animation": "Shock",
+    "AnimationText": "HERO_ACTION_SHOCK",
+    "IconType": "Icon_Negative"
+  },
+  {
     "Index": 1101,
     "HeroIndex": 11,
     "Animation": "Idle",
@@ -3133,7 +3140,7 @@
     "HeroIndex": 11,
     "Animation": "Walk",
     "AnimationText": "HERO_ACTION_WALK",
-    "IconType": "Icon_Idle"
+    "IconType": "Icon_Dash"
   },
   {
     "Index": 1145,
@@ -3903,7 +3910,7 @@
     "HeroIndex": 15,
     "Animation": "Walk",
     "AnimationText": "HERO_ACTION_WALK",
-    "IconType": "Icon_Idle"
+    "IconType": "Icon_Dash"
   },
   {
     "Index": 1540,
@@ -3946,6 +3953,34 @@
     "Animation": "HoldBack",
     "AnimationText": "HERO_ACTION_HOLDBACK",
     "IconType": "Icon_Attack"
+  },
+  {
+    "Index": 1546,
+    "HeroIndex": 15,
+    "Animation": "Desperate",
+    "AnimationText": "HERO_ACTION_DESPERATE",
+    "IconType": "Icon_Lose"
+  },
+  {
+    "Index": 1547,
+    "HeroIndex": 15,
+    "Animation": "Sobbing",
+    "AnimationText": "HERO_ACTION_SOBBING",
+    "IconType": "Icon_Lose"
+  },
+  {
+    "Index": 1548,
+    "HeroIndex": 15,
+    "Animation": "Exhausted",
+    "AnimationText": "HERO_ACTION_EXHAUSTED",
+    "IconType": "Icon_Lose"
+  },
+  {
+    "Index": 1549,
+    "HeroIndex": 15,
+    "Animation": "Stand",
+    "AnimationText": "HERO_ACTION_STAND",
+    "IconType": "Icon_Idle"
   },
   {
     "Index": 1601,
@@ -4981,7 +5016,7 @@
     "HeroIndex": 20,
     "Animation": "Walk",
     "AnimationText": "HERO_ACTION_WALK",
-    "IconType": "Icon_Idle"
+    "IconType": "Icon_Dash"
   },
   {
     "Index": 2022,
@@ -5660,7 +5695,7 @@
     "HeroIndex": 23,
     "Animation": "Walk",
     "AnimationText": "HERO_ACTION_WALK",
-    "IconType": "Icon_Idle"
+    "IconType": "Icon_Dash"
   },
   {
     "Index": 2340,
@@ -6514,7 +6549,7 @@
     "HeroIndex": 28,
     "Animation": "Walk",
     "AnimationText": "HERO_ACTION_WALK",
-    "IconType": "Icon_Idle"
+    "IconType": "Icon_Dash"
   },
   {
     "Index": 2901,
@@ -7767,7 +7802,7 @@
     "HeroIndex": 35,
     "Animation": "Walk",
     "AnimationText": "HERO_ACTION_WALK",
-    "IconType": "Icon_Idle"
+    "IconType": "Icon_Dash"
   },
   {
     "Index": 3524,
@@ -7957,6 +7992,13 @@
     "Animation": "Doubt",
     "AnimationText": "HERO_ACTION_DOUBT",
     "IconType": "Icon_Negative"
+  },
+  {
+    "Index": 3623,
+    "HeroIndex": 36,
+    "Animation": "Walk",
+    "AnimationText": "HERO_ACTION_WALK",
+    "IconType": "Icon_Dash"
   },
   {
     "Index": 3701,
@@ -10066,11 +10108,151 @@
     "IconType": "Icon_Positive"
   },
   {
-    "Index": 4901,
-    "HeroIndex": 49,
+    "Index": 4621,
+    "HeroIndex": 46,
+    "Animation": "Surprise",
+    "AnimationText": "HERO_ACTION_SLIGHTSURPRISE",
+    "IconType": "Icon_Negative"
+  },
+  {
+    "Index": 4622,
+    "HeroIndex": 46,
+    "Animation": "Bittersmile",
+    "AnimationText": "HERO_ACTION_BITTERSMILE",
+    "IconType": "Icon_Positive"
+  },
+  {
+    "Index": 4623,
+    "HeroIndex": 46,
+    "Animation": "Worry",
+    "AnimationText": "HERO_ACTION_WORRYDUTY",
+    "IconType": "Icon_Negative"
+  },
+  {
+    "Index": 4701,
+    "HeroIndex": 47,
     "Animation": "Idle",
     "AnimationText": "HERO_ACTION_IDLE",
     "IconType": "Icon_Idle"
+  },
+  {
+    "Index": 4702,
+    "HeroIndex": 47,
+    "Animation": "BattleIdle",
+    "AnimationText": "HERO_ACTION_BATTLEIDLE",
+    "IconType": "Icon_Idle"
+  },
+  {
+    "Index": 4703,
+    "HeroIndex": 47,
+    "Animation": "Run",
+    "AnimationText": "HERO_ACTION_RUN",
+    "IconType": "Icon_Dash"
+  },
+  {
+    "Index": 4704,
+    "HeroIndex": 47,
+    "Animation": "Die",
+    "AnimationText": "HERO_ACTION_DIE",
+    "IconType": "Icon_Lose"
+  },
+  {
+    "Index": 4705,
+    "HeroIndex": 47,
+    "Animation": "Damage",
+    "AnimationText": "HERO_ACTION_DAMAGE",
+    "IconType": "Icon_Idle"
+  },
+  {
+    "Index": 4706,
+    "HeroIndex": 47,
+    "Animation": "Stun",
+    "AnimationText": "HERO_ACTION_STUN",
+    "IconType": "Icon_Idle"
+  },
+  {
+    "Index": 4707,
+    "HeroIndex": 47,
+    "Animation": "Down",
+    "AnimationText": "HERO_ACTION_DOWN",
+    "IconType": "Icon_Lose"
+  },
+  {
+    "Index": 4708,
+    "HeroIndex": 47,
+    "Animation": "Attack1",
+    "AnimationText": "HERO_ACTION_ATTACK1",
+    "IconType": "Icon_Attack"
+  },
+  {
+    "Index": 4709,
+    "HeroIndex": 47,
+    "Animation": "Skill1",
+    "AnimationText": "SKILL_NAME_4710",
+    "IconType": "Icon_Attack"
+  },
+  {
+    "Index": 4710,
+    "HeroIndex": 47,
+    "Animation": "Skill2",
+    "AnimationText": "SKILL_NAME_4720",
+    "IconType": "Icon_Attack"
+  },
+  {
+    "Index": 4711,
+    "HeroIndex": 47,
+    "Animation": "Skill3",
+    "AnimationText": "SKILL_NAME_4730",
+    "IconType": "Icon_Attack"
+  },
+  {
+    "Index": 4712,
+    "HeroIndex": 47,
+    "Animation": "Victory",
+    "AnimationText": "HERO_ACTION_VICTORY",
+    "IconType": "Icon_Positive"
+  },
+  {
+    "Index": 4713,
+    "HeroIndex": 47,
+    "Animation": "InnIdle",
+    "AnimationText": "HERO_ACTION_INNIDLE",
+    "IconType": "Icon_Idle"
+  },
+  {
+    "Index": 4714,
+    "HeroIndex": 47,
+    "Animation": "InnReaction",
+    "AnimationText": "HERO_ACTION_INNREACTION",
+    "IconType": "Icon_Positive"
+  },
+  {
+    "Index": 4715,
+    "HeroIndex": 47,
+    "Animation": "Purify1",
+    "AnimationText": "HERO_ACTION_PURIFY1",
+    "IconType": "Icon_Purify"
+  },
+  {
+    "Index": 4716,
+    "HeroIndex": 47,
+    "Animation": "Purify2",
+    "AnimationText": "HERO_ACTION_PURIFY2",
+    "IconType": "Icon_Purify"
+  },
+  {
+    "Index": 4717,
+    "HeroIndex": 47,
+    "Animation": "PurifyReaction1",
+    "AnimationText": "HERO_ACTION_PURIFYREACTION1",
+    "IconType": "Icon_Purify"
+  },
+  {
+    "Index": 4718,
+    "HeroIndex": 47,
+    "Animation": "PurifyReaction2",
+    "AnimationText": "HERO_ACTION_PURIFYREACTION2",
+    "IconType": "Icon_Purify"
   },
   {
     "Index": 4902,
@@ -10756,7 +10938,7 @@
     "HeroIndex": 52,
     "Animation": "Walk",
     "AnimationText": "HERO_ACTION_WALK",
-    "IconType": "Icon_Idle"
+    "IconType": "Icon_Dash"
   },
   {
     "Index": 5235,
@@ -11673,6 +11855,34 @@
     "HeroIndex": 58,
     "Animation": "Smile",
     "AnimationText": "HERO_ACTION_SMILE",
+    "IconType": "Icon_Positive"
+  },
+  {
+    "Index": 5821,
+    "HeroIndex": 58,
+    "Animation": "Worry",
+    "AnimationText": "HERO_ACTION_WORRYDUTY",
+    "IconType": "Icon_Negative"
+  },
+  {
+    "Index": 5822,
+    "HeroIndex": 58,
+    "Animation": "Surprise",
+    "AnimationText": "HERO_ACTION_SLIGHTSURPRISE",
+    "IconType": "Icon_Negative"
+  },
+  {
+    "Index": 5823,
+    "HeroIndex": 58,
+    "Animation": "Normal",
+    "AnimationText": "HERO_ACTION_NORMAL0",
+    "IconType": "Icon_Idle"
+  },
+  {
+    "Index": 5824,
+    "HeroIndex": 58,
+    "Animation": "Politeness",
+    "AnimationText": "HERO_ACTION_POLITENESS",
     "IconType": "Icon_Positive"
   },
   {

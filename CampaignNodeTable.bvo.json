@@ -11910,6 +11910,40 @@
   },
   {
     "ChapterIndex": 99,
+    "DungeonIndex": 25,
+    "NodePrefab": "Square",
+    "FunctionButton": "Event_Picnic_Button",
+    "Function": "EntryMenu",
+    "Code": [
+      "NODE_SQUARE_NAME"
+    ],
+    "UiPositionX": 2516,
+    "UiPositionY": 1346,
+    "NextNodeIndex": [
+      "129",
+      "103"
+    ],
+    "Oneway": "False",
+    "Opened": "True",
+    "Hidden": "True",
+    "EntryNPCCode": "Square_Picnic_2019",
+    "ContentsType": "Square"
+  },
+  {
+    "ChapterIndex": 99,
+    "DungeonIndex": 26,
+    "NodePrefab": "HonoraryChamber",
+    "FunctionButton": "HonoraryChamber",
+    "Function": "HonoraryChamber",
+    "Code": [
+      "HONORARY_TEXT"
+    ],
+    "UiPositionX": 2480,
+    "UiPositionY": 660,
+    "Opened": "True"
+  },
+  {
+    "ChapterIndex": 99,
     "DungeonIndex": 101,
     "UiPositionX": 3241,
     "UiPositionY": 1503,

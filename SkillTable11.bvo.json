@@ -15040,12 +15040,12 @@
     "NextIndex": 4701,
     "TriggerType": "None",
     "TriggerRatio": 1000,
-    "ActingTimeMs": 900,
+    "ActingTimeMs": 1000,
     "DurationTimeMs": [
       "2200"
     ],
     "TickTimeValue": [
-      "900"
+      "1000"
     ],
     "AttrType": "None",
     "BaseAttack": "TRUE",
@@ -15059,7 +15059,7 @@
     "OperationType1": "GetMagicalDamageR",
     "OperationTargetType1": "Target",
     "OperationValue1": [
-      "800"
+      "600"
     ],
     "OperationDelayMs1": [
       "0",
@@ -15071,8 +15071,12 @@
     "Index": 4701,
     "TriggerType": "NextSkill",
     "TriggerRatio": 1000,
+    "ActingTimeMs": 100,
     "DurationTimeMs": [
       "1100"
+    ],
+    "TickTimeValue": [
+      "100"
     ],
     "AttrType": "None",
     "BaseAttack": "TRUE",
@@ -15086,7 +15090,7 @@
     "OperationType1": "GetMagicalDamageR",
     "OperationTargetType1": "Target",
     "OperationValue1": [
-      "800"
+      "600"
     ],
     "OperationDelayMs1": [
       "0",
@@ -15100,14 +15104,15 @@
     "TriggerRatio": 1000,
     "Mp": 2000,
     "CoolTimeMs": 12000,
-    "ActingTimeMs": 1500,
+    "ActingTimeMs": 1100,
     "SoloTimeMs": 400,
     "DurationTimeMs": [
-      "3200"
+      "2500"
     ],
     "CancelOnWaveEnd": "True",
     "TickTimeValue": [
-      "1600"
+      "0[4]",
+      "1100[1:2:3:5:6]"
     ],
     "AttrType": "Magical",
     "TargetType": "Enemy",
@@ -15120,15 +15125,15 @@
     "OperationType1": "GetMagicalDamageR",
     "OperationTargetType1": "Target",
     "OperationValue1": [
-      "4288",
-      "889",
+      "3688",
+      "769",
       "IgnoreBlock"
     ],
     "OperationValueFactor1": [
       "0",
       "0",
       "5",
-      "889"
+      "769"
     ],
     "OperationDelayMs1": [
       "0",
@@ -15145,15 +15150,15 @@
     "OperationType2": "GetMagicalDamageR",
     "OperationTargetType2": "Target",
     "OperationValue2": [
-      "4288",
-      "889",
+      "3688",
+      "769",
       "IgnoreDefence|IgnoreBlock"
     ],
     "OperationValueFactor2": [
       "0",
       "0",
       "5",
-      "889"
+      "769"
     ],
     "OperationDelayMs2": [
       "0",
@@ -15167,15 +15172,6 @@
     "OperationFlags2": [
       "CheckConditionOnBegin"
     ],
-    "OperationType3": "GetMana",
-    "OperationTargetType3": "Parent",
-    "OperationValue3": [
-      "-500"
-    ],
-    "OperationParent3": 1,
-    "OperationFlags3": [
-      "HasParent"
-    ],
     "OperationType4": "ImmuneCc",
     "OperationTargetType4": "Myself",
     "OperationState4": "ImmuneCc",
@@ -15183,25 +15179,6 @@
     "OperationFlags4": [
       "WhileSkillUse",
       "Disabled"
-    ],
-    "OperationType5": "Stun",
-    "OperationTargetType5": "Parent",
-    "OperationState5": "Stun",
-    "OperationDurationMs5": 3000,
-    "OperationParent5": 1,
-    "OperationFlags5": [
-      "HasParent",
-      "Disabled"
-    ],
-    "OperationType6": "ModAttackSpeedR",
-    "OperationTargetType6": "Myself",
-    "OperationValue6": [
-      "500"
-    ],
-    "OperationDurationMs6": 999999,
-    "OperationMaxAccCount6": 1,
-    "OperationFlags6": [
-      "WhileSkillUse"
     ]
   },
   {
@@ -15305,6 +15282,18 @@
     "OperationValue2": [
       "Yuria_3_AttackSpeedDown",
       "0"
+    ],
+    "OperationType3": "GetMana",
+    "OperationTargetType3": "Target",
+    "OperationValue3": [
+      "-500"
+    ],
+    "OperationType4": "Stun",
+    "OperationTargetType4": "Target",
+    "OperationState4": "Stun",
+    "OperationDurationMs4": 3000,
+    "OperationFlags4": [
+      "Disabled"
     ]
   },
   {
@@ -15330,7 +15319,6 @@
     ],
     "TargetType": "Myself",
     "TargetCount": 1,
-    "MaxRangeMm": 30000,
     "DeadTarget": "False",
     "IgnoreBlock": "TRUE",
     "RetargetOnFire": "False",
@@ -15348,7 +15336,7 @@
       "1035"
     ],
     "OperationState1": "Yuria_2_Shield",
-    "OperationDurationMs1": 15000,
+    "OperationDurationMs1": 10000,
     "OperationConditionType1": "None",
     "OperationType2": "ModCriticalChance",
     "OperationTargetType2": "Parent",
@@ -15356,16 +15344,20 @@
       "300"
     ],
     "OperationState2": "Yuria_2_CriticalPower",
-    "OperationDurationMs2": 15000,
+    "OperationDurationMs2": 10000,
     "OperationParent2": 1,
     "OperationFlags2": [
       "HasParent"
     ],
     "OperationType3": "ModToughness",
-    "OperationTargetType3": "Myself",
+    "OperationTargetType3": "Parent",
     "OperationState3": "Yuria_2_Count",
     "OperationAddStateCount3": 1,
-    "OperationDurationMs3": 15000,
+    "OperationDurationMs3": 10000,
+    "OperationParent3": 1,
+    "OperationFlags3": [
+      "HasParent"
+    ],
     "OperationType4": "Cleanse",
     "OperationTargetType4": "Myself",
     "OperationConditionType4": "None",
@@ -15378,11 +15370,12 @@
     "OperationFlags5": [
       "Disabled"
     ],
-    "OperationType6": "ModPhysicalBlockChance",
+    "OperationType6": "ModPhysicalToughness",
     "OperationTargetType6": "Parent",
     "OperationValue6": [
       "200"
     ],
+    "OperationDurationMs6": 10000,
     "OperationParent6": 1,
     "OperationFlags6": [
       "HasParent",
@@ -15485,7 +15478,6 @@
     "AttrType": "Magical",
     "TargetType": "MaxPhysicalPowerFriend",
     "TargetCount": 1,
-    "MaxRangeMm": 30000,
     "DeadTarget": "False",
     "IgnoreBlock": "TRUE",
     "RetargetOnFire": "False",
@@ -15503,7 +15495,7 @@
       "1035"
     ],
     "OperationState1": "Yuria_2_Shield",
-    "OperationDurationMs1": 15000,
+    "OperationDurationMs1": 10000,
     "OperationConditionType1": "None",
     "OperationType2": "ModCriticalChance",
     "OperationTargetType2": "Parent",
@@ -15511,16 +15503,17 @@
       "300"
     ],
     "OperationState2": "Yuria_2_CriticalPower",
-    "OperationDurationMs2": 15000,
+    "OperationDurationMs2": 10000,
     "OperationParent2": 1,
     "OperationFlags2": [
       "HasParent"
     ],
-    "OperationType3": "ModPhysicalBlockChance",
+    "OperationType3": "ModPhysicalToughness",
     "OperationTargetType3": "Parent",
     "OperationValue3": [
       "200"
     ],
+    "OperationDurationMs3": 10000,
     "OperationParent3": 1,
     "OperationFlags3": [
       "HasParent",
@@ -15557,14 +15550,14 @@
     "OperationType1": "GetMagicalDamageR",
     "OperationTargetType1": "Target",
     "OperationValue1": [
-      "6002",
-      "1243"
+      "5502",
+      "1143"
     ],
     "OperationValueFactor1": [
       "0",
       "0",
       "5",
-      "1243"
+      "1143"
     ],
     "OperationDelayMs1": [
       "0",
@@ -15610,11 +15603,9 @@
     "OperationDelayMs5": [
       "0",
       "0",
-      "400"
+      "300"
     ],
-    "OperationParent5": 1,
     "OperationFlags5": [
-      "HasParent",
       "Disabled"
     ]
   },
@@ -15688,11 +15679,11 @@
     "OperationType1": "ModDefence",
     "OperationTargetType1": "Myself",
     "OperationValue1": [
-      "45"
+      "41"
     ],
     "OperationValueFactor1": [
       "5",
-      "45"
+      "41"
     ],
     "OperationState1": "Yuria_4_Defence",
     "OperationAddStateCount1": 1,
@@ -15780,45 +15771,11 @@
     "OperationType1": "ModMagicalWeakness",
     "OperationTargetType1": "Target",
     "OperationValue1": [
-      "20"
+      "10"
     ],
     "OperationState1": "Yuria_4_MagicalWeakness",
     "OperationAddStateCount1": 1,
     "OperationDurationMs1": 999999
-  },
-  {
-    "Index": 4745,
-    "TriggerType": "OnWaveStart",
-    "TriggerRatio": 1000,
-    "TriggerDisabled": "TRUE",
-    "TriggerFlag": [
-      "UpdateSkillCondition"
-    ],
-    "AttrType": "Magical",
-    "IgnoreStateType": [
-      "CC"
-    ],
-    "TargetType": "Myself",
-    "TargetCount": 1,
-    "DeadTarget": "False",
-    "IgnoreBlock": "TRUE",
-    "RetargetOnFire": "FALSE",
-    "OperationType1": "ModDodgeChance",
-    "OperationTargetType1": "Myself",
-    "OperationValue1": [
-      "500"
-    ],
-    "OperationState1": "Yuria_5_Dodge",
-    "OperationAddStateCount1": 1,
-    "OperationDurationMs1": 20000,
-    "OperationType2": "ModBlockChance",
-    "OperationTargetType2": "Myself",
-    "OperationValue2": [
-      "500"
-    ],
-    "OperationState2": "Yuria_5_Block",
-    "OperationAddStateCount2": 1,
-    "OperationDurationMs2": 20000
   },
   {
     "Index": 4746,
@@ -15828,7 +15785,7 @@
       "CC"
     ],
     "TriggerRatio": 1000,
-    "TriggerDisabled": "True",
+    "TriggerDisabled": "TRUE",
     "CoolTimeMs": 999999,
     "AttrType": "Magical",
     "IgnoreStateType": [
@@ -15849,12 +15806,14 @@
     "OperationType3": "ClearState",
     "OperationTargetType3": "Myself",
     "OperationValue3": [
-      "Yuria_5_Dodge"
+      "Yuria_5_Dodge",
+      "0"
     ],
-    "OperationType4": "Clearstate",
+    "OperationType4": "ClearState",
     "OperationTargetType4": "Myself",
     "OperationValue4": [
-      "Yuria_5_Block"
+      "Yuria_5_Block",
+      "0"
     ]
   },
   {
@@ -15910,7 +15869,7 @@
     ],
     "OperationState2": "Unique_Yuria_2",
     "OperationAddStateCount2": 1,
-    "OperationDurationMs2": 5000,
+    "OperationDurationMs2": 10000,
     "OperationConditionType2": "None"
   },
   {
@@ -16150,7 +16109,7 @@
       "4748",
       "1",
       "Value",
-      "20",
+      "21",
       "0"
     ],
     "OperationType5": "SetSkill",
@@ -16159,7 +16118,7 @@
       "4748",
       "2",
       "Value",
-      "20",
+      "21",
       "0"
     ]
   },

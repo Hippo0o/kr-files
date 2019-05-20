@@ -50934,6 +50934,322 @@
     "OperationMaxAccCount2": 1
   },
   {
+    "Index": 80005080,
+    "NextIndex": 80005086,
+    "TriggerType": "OnWaveStart",
+    "TriggerRatio": 1000,
+    "IgnoreStateType": [
+      "CC"
+    ],
+    "TargetType": "Myself",
+    "TargetCount": 1,
+    "DeadTarget": "False",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "False",
+    "OperationType1": "ModPowerR",
+    "OperationTargetType1": "Target",
+    "OperationValue1": [
+      "100"
+    ],
+    "OperationState1": "Artifact508",
+    "OperationDurationMs1": 20000,
+    "OperationFlags1": [
+      "OverrideAllState",
+      "DelayIgnoreAttackSpeed"
+    ],
+    "OperationType2": "ModPowerR",
+    "OperationTargetType2": "Myself",
+    "OperationRadiusMm2": 30000,
+    "OperationValue2": [
+      "100"
+    ],
+    "OperationDelayMs2": [
+      "200"
+    ],
+    "OperationState2": "Artifact508",
+    "OperationDurationMs2": 20000,
+    "OperationConditionType2": "State",
+    "OperationConditionValue2": [
+      "Artifact508_2"
+    ],
+    "OperationFlags2": [
+      "CheckConditionOnBegin",
+      "OverrideAllState",
+      "DelayIgnoreAttackSpeed"
+    ]
+  },
+  {
+    "Index": 80005081,
+    "NextIndex": 80005086,
+    "TriggerType": "OnWaveStart",
+    "TriggerRatio": 1000,
+    "IgnoreStateType": [
+      "CC"
+    ],
+    "TargetType": "Myself",
+    "TargetCount": 1,
+    "DeadTarget": "False",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "False",
+    "OperationType1": "ModPowerR",
+    "OperationTargetType1": "Target",
+    "OperationValue1": [
+      "120"
+    ],
+    "OperationDelayMs1": [
+      "100"
+    ],
+    "OperationState1": "Artifact508",
+    "OperationDurationMs1": 20000,
+    "OperationFlags1": [
+      "OverrideAllState",
+      "DelayIgnoreAttackSpeed"
+    ],
+    "OperationType2": "ModPowerR",
+    "OperationTargetType2": "Myself",
+    "OperationRadiusMm2": 30000,
+    "OperationValue2": [
+      "120"
+    ],
+    "OperationDelayMs2": [
+      "300"
+    ],
+    "OperationState2": "Artifact508",
+    "OperationDurationMs2": 20000,
+    "OperationConditionType2": "State",
+    "OperationConditionValue2": [
+      "Artifact508_2"
+    ],
+    "OperationFlags2": [
+      "CheckConditionOnBegin",
+      "OverrideAllState",
+      "DelayIgnoreAttackSpeed"
+    ]
+  },
+  {
+    "Index": 80005082,
+    "NextIndex": 80005086,
+    "TriggerType": "OnWaveStart",
+    "TriggerRatio": 1000,
+    "IgnoreStateType": [
+      "CC"
+    ],
+    "TargetType": "Myself",
+    "TargetCount": 1,
+    "DeadTarget": "False",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "False",
+    "OperationType1": "ModPowerR",
+    "OperationTargetType1": "Target",
+    "OperationValue1": [
+      "140"
+    ],
+    "OperationDelayMs1": [
+      "200"
+    ],
+    "OperationState1": "Artifact508",
+    "OperationDurationMs1": 20000,
+    "OperationFlags1": [
+      "OverrideAllState",
+      "DelayIgnoreAttackSpeed"
+    ],
+    "OperationType2": "ModPowerR",
+    "OperationTargetType2": "Myself",
+    "OperationRadiusMm2": 30000,
+    "OperationValue2": [
+      "140"
+    ],
+    "OperationDelayMs2": [
+      "400"
+    ],
+    "OperationState2": "Artifact508",
+    "OperationDurationMs2": 20000,
+    "OperationConditionType2": "State",
+    "OperationConditionValue2": [
+      "Artifact508_2"
+    ],
+    "OperationFlags2": [
+      "CheckConditionOnBegin",
+      "OverrideAllState",
+      "DelayIgnoreAttackSpeed"
+    ]
+  },
+  {
+    "Index": 80005083,
+    "NextIndex": 80005086,
+    "TriggerType": "OnWaveStart",
+    "TriggerRatio": 1000,
+    "IgnoreStateType": [
+      "CC"
+    ],
+    "TargetType": "Myself",
+    "TargetCount": 1,
+    "DeadTarget": "False",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "False",
+    "OperationType1": "ModPowerR",
+    "OperationTargetType1": "Target",
+    "OperationValue1": [
+      "170"
+    ],
+    "OperationDelayMs1": [
+      "300"
+    ],
+    "OperationState1": "Artifact508",
+    "OperationDurationMs1": 20000,
+    "OperationFlags1": [
+      "OverrideAllState",
+      "DelayIgnoreAttackSpeed"
+    ],
+    "OperationType2": "ModPowerR",
+    "OperationTargetType2": "Myself",
+    "OperationRadiusMm2": 30000,
+    "OperationValue2": [
+      "170"
+    ],
+    "OperationDelayMs2": [
+      "500"
+    ],
+    "OperationState2": "Artifact508",
+    "OperationDurationMs2": 20000,
+    "OperationConditionType2": "State",
+    "OperationConditionValue2": [
+      "Artifact508_2"
+    ],
+    "OperationFlags2": [
+      "CheckConditionOnBegin",
+      "OverrideAllState",
+      "DelayIgnoreAttackSpeed"
+    ]
+  },
+  {
+    "Index": 80005084,
+    "NextIndex": 80005086,
+    "TriggerType": "OnWaveStart",
+    "TriggerRatio": 1000,
+    "IgnoreStateType": [
+      "CC"
+    ],
+    "TargetType": "Myself",
+    "TargetCount": 1,
+    "DeadTarget": "False",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "False",
+    "OperationType1": "ModPowerR",
+    "OperationTargetType1": "Target",
+    "OperationValue1": [
+      "210"
+    ],
+    "OperationDelayMs1": [
+      "400"
+    ],
+    "OperationState1": "Artifact508",
+    "OperationDurationMs1": 20000,
+    "OperationFlags1": [
+      "OverrideAllState",
+      "DelayIgnoreAttackSpeed"
+    ],
+    "OperationType2": "ModPowerR",
+    "OperationTargetType2": "Myself",
+    "OperationRadiusMm2": 30000,
+    "OperationValue2": [
+      "210"
+    ],
+    "OperationDelayMs2": [
+      "600"
+    ],
+    "OperationState2": "Artifact508",
+    "OperationDurationMs2": 20000,
+    "OperationConditionType2": "State",
+    "OperationConditionValue2": [
+      "Artifact508_2"
+    ],
+    "OperationFlags2": [
+      "CheckConditionOnBegin",
+      "OverrideAllState",
+      "DelayIgnoreAttackSpeed"
+    ]
+  },
+  {
+    "Index": 80005085,
+    "NextIndex": 80005086,
+    "TriggerType": "OnWaveStart",
+    "TriggerRatio": 1000,
+    "IgnoreStateType": [
+      "CC"
+    ],
+    "TargetType": "Myself",
+    "TargetCount": 1,
+    "DeadTarget": "False",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "False",
+    "OperationType1": "ModPowerR",
+    "OperationTargetType1": "Target",
+    "OperationValue1": [
+      "250"
+    ],
+    "OperationDelayMs1": [
+      "500"
+    ],
+    "OperationState1": "Artifact508",
+    "OperationDurationMs1": 20000,
+    "OperationFlags1": [
+      "OverrideAllState",
+      "DelayIgnoreAttackSpeed"
+    ],
+    "OperationType2": "ModPowerR",
+    "OperationTargetType2": "Myself",
+    "OperationRadiusMm2": 30000,
+    "OperationValue2": [
+      "250"
+    ],
+    "OperationDelayMs2": [
+      "700"
+    ],
+    "OperationState2": "Artifact508",
+    "OperationDurationMs2": 20000,
+    "OperationConditionType2": "State",
+    "OperationConditionValue2": [
+      "Artifact508_2"
+    ],
+    "OperationFlags2": [
+      "CheckConditionOnBegin",
+      "OverrideAllState",
+      "DelayIgnoreAttackSpeed"
+    ]
+  },
+  {
+    "Index": 80005086,
+    "TriggerType": "NextSkill",
+    "TriggerRatio": 1000,
+    "IgnoreStateType": [
+      "CC"
+    ],
+    "TargetType": "MaxPhysicalPowerFriend",
+    "TargetCount": 1,
+    "DeadTarget": "False",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "False",
+    "OperationType1": "ClearState",
+    "OperationTargetType1": "Myself",
+    "OperationRadiusMm1": 30000,
+    "OperationValue1": [
+      "Artifact508_2",
+      "0"
+    ],
+    "OperationType2": "ModPowerR",
+    "OperationTargetType2": "Target",
+    "OperationDelayMs2": [
+      "100"
+    ],
+    "OperationState2": "Artifact508_2",
+    "OperationDurationMs2": 20000,
+    "OperationFlags2": [
+      "OverrideAllState",
+      "DelayIgnoreAttackSpeed"
+    ]
+  },
+  {
     "Index": 80009980,
     "TriggerType": "OnWaveStart",
     "TriggerRatio": 1000,

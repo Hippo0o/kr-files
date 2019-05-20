@@ -788,6 +788,69 @@
     "MenuTitleKey": "SQUARE_NAME_NORMAL_SUB"
   },
   {
+    "Code": "Square_Picnic_2019",
+    "OnOpenEntryMenu": [
+      "NPC_SOULGEMSHOP_WELCOME04",
+      " NPC.SoulGemShop.Welcome04",
+      " Buy",
+      " \nNPC_SOULGEMSHOP_WELCOME05",
+      " NPC.SoulGemShop.Welcome05",
+      " Buy",
+      " \nNPC_SOULGEMSHOP_WELCOME06",
+      " NPC.SoulGemShop.Welcome06",
+      " Buy"
+    ],
+    "OnTouch": [
+      "NPC_SOULGEMSHOP_TOUCH07",
+      " NPC.SoulGemShop.Touch07",
+      " Touch",
+      " \nNPC_SOULGEMSHOP_TOUCH08",
+      " NPC.SoulGemShop.Touch08",
+      " Touch",
+      " \nNPC_SOULGEMSHOP_TOUCH09",
+      " NPC.SoulGemShop.Touch09",
+      " Touch",
+      " \nNPC_SOULGEMSHOP_TOUCH10",
+      " NPC.SoulGemShop.Touch10",
+      " Touch",
+      " \nNPC_SOULGEMSHOP_TOUCH11",
+      " NPC.SoulGemShop.Touch11",
+      " Touch",
+      " \nNPC_SOULGEMSHOP_TOUCH12",
+      " NPC.SoulGemShop.Touch12",
+      " Touch"
+    ],
+    "EntryMenuButton1": [
+      "MENU_EVENT_DUNGEON",
+      "OpenEventDungeon",
+      "30023",
+      "1"
+    ],
+    "EntryMenuCondition1": "EventExist,EventDungeon,30023",
+    "EntryMenuButton2": [
+      "MENU_EVENT_SHOP",
+      "OpenShop",
+      "2019_Picnic_Shop"
+    ],
+    "EntryMenuCondition2": "EventExist,EventShop,2019_Picnic_Shop",
+    "EntryMenuButton3": [
+      "MENU_EVENT_HELP",
+      "OpenHelp",
+      "PICNIC_EVENT_NAME",
+      "PICNIC_EVENT_DECS"
+    ],
+    "EntryMenuCondition3": "EventExist,EventShop,2019_Picnic_Shop",
+    "CreatureIndex": 805,
+    "NpcOffset": [
+      "-80",
+      "50"
+    ],
+    "NpcAngle": -50,
+    "NpcScale": 120,
+    "MenuIconType": "Picnic",
+    "MenuTitleKey": "SQUARE_NAME_NORMAL_SUB"
+  },
+  {
     "Code": "NormalShop",
     "HeroIndex": 90,
     "ShowHeroBuffIcon": "True",
