@@ -18438,6 +18438,373 @@
     "OperationTickTimeMs6": 300
   },
   {
+    "Index": 50000266,
+    "TriggerType": "NextSkill",
+    "TriggerRatio": 1000,
+    "AttrType": "None",
+    "TargetType": "Myself",
+    "TargetCount": 1,
+    "DeadTarget": "False",
+    "IgnoreBlock": "True",
+    "RetargetOnFire": "False",
+    "OperationType1": "OverrideStat",
+    "OperationTargetType1": "Myself",
+    "OperationRadiusMm1": 30000,
+    "OperationValue1": [
+      "MpRegenRatioM",
+      "Custom",
+      "0"
+    ],
+    "OperationDurationMs1": 999999,
+    "OperationType2": "ModSkill",
+    "OperationTargetType2": "Myself",
+    "OperationRadiusMm2": 30000,
+    "OperationValue2": [
+      "1534",
+      "3",
+      "DurationMs",
+      "-1800"
+    ],
+    "OperationDurationMs2": 999999,
+    "OperationType3": "OverrideStat",
+    "OperationTargetType3": "Myself",
+    "OperationTargetSelectType3": "Opponent",
+    "OperationRadiusMm3": 30000,
+    "OperationValue3": [
+      "MpRegenRatioM",
+      "Custom",
+      "0"
+    ],
+    "OperationDurationMs3": 999999,
+    "OperationType4": "ModSkill",
+    "OperationTargetType4": "Myself",
+    "OperationTargetSelectType4": "Opponent",
+    "OperationRadiusMm4": 30000,
+    "OperationValue4": [
+      "2310",
+      "3",
+      "Value",
+      "3000"
+    ],
+    "OperationDurationMs4": 999999,
+    "OperationType5": "ModSkill",
+    "OperationTargetType5": "Myself",
+    "OperationTargetSelectType5": "Opponent",
+    "OperationRadiusMm5": 30000,
+    "OperationValue5": [
+      "2320",
+      "2",
+      "DurationMs",
+      "-18000"
+    ],
+    "OperationDurationMs5": 999999,
+    "OperationType6": "ModSkillDisabled",
+    "OperationTargetType6": "Myself",
+    "OperationRadiusMm6": 30000,
+    "OperationValue6": [
+      "440",
+      "1"
+    ],
+    "OperationDurationMs6": 999999,
+    "OperationType7": "ModSkill",
+    "OperationTargetType7": "Myself",
+    "OperationTargetSelectType7": "Opponent",
+    "OperationRadiusMm7": 30000,
+    "OperationValue7": [
+      "2330",
+      "0",
+      "SkillTargetType",
+      "FarEnemy"
+    ],
+    "OperationDurationMs7": 999999,
+    "OperationType8": "ModSkill",
+    "OperationTargetType8": "Myself",
+    "OperationTargetSelectType8": "Opponent",
+    "OperationRadiusMm8": 30000,
+    "OperationValue8": [
+      "2330",
+      "0",
+      "SkillMaxRangeMm",
+      "100000"
+    ],
+    "OperationDurationMs8": 999999
+  },
+  {
+    "Index": 50000267,
+    "TriggerType": "NextSkill",
+    "TriggerRatio": 1000,
+    "AttrType": "None",
+    "TargetType": "Myself",
+    "TargetCount": 1,
+    "DeadTarget": "False",
+    "IgnoreBlock": "True",
+    "RetargetOnFire": "False",
+    "OperationType1": "GetManaR",
+    "OperationTargetType1": "Myself",
+    "OperationRadiusMm1": 30000,
+    "OperationValue1": [
+      "-1000"
+    ],
+    "OperationType2": "GetManaR",
+    "OperationTargetType2": "Myself",
+    "OperationTargetSelectType2": "Opponent",
+    "OperationRadiusMm2": 30000,
+    "OperationValue2": [
+      "-1000"
+    ],
+    "OperationType3": "ModHitCcChance",
+    "OperationTargetType3": "Myself",
+    "OperationTargetSelectType3": "Opponent",
+    "OperationRadiusMm3": 30000,
+    "OperationValue3": [
+      "1000"
+    ],
+    "OperationDurationMs3": 999999,
+    "OperationType4": "ModHitChance",
+    "OperationTargetType4": "Myself",
+    "OperationTargetSelectType4": "Opponent",
+    "OperationRadiusMm4": 30000,
+    "OperationValue4": [
+      "1000"
+    ],
+    "OperationDurationMs4": 999999,
+    "OperationType5": "ModSkill",
+    "OperationTargetType5": "Myself",
+    "OperationTargetSelectType5": "Opponent",
+    "OperationRadiusMm5": 30000,
+    "OperationValue5": [
+      "1130",
+      "0",
+      "RadiusMm",
+      "100000"
+    ],
+    "OperationDurationMs5": 999999,
+    "OperationType6": "OverrideStat",
+    "OperationTargetType6": "Myself",
+    "OperationTargetSelectType6": "Opponent",
+    "OperationRadiusMm6": 30000,
+    "OperationValue6": [
+      "MpRegenRatioM",
+      "Custom",
+      "0"
+    ],
+    "OperationType7": "ModSkill",
+    "OperationTargetType7": "Myself",
+    "OperationTargetSelectType7": "Opponent",
+    "OperationRadiusMm7": 30000,
+    "OperationValue7": [
+      "1130",
+      "3",
+      "DurationMs",
+      "-5000"
+    ],
+    "OperationDurationMs7": 999999,
+    "OperationType8": "ModSkillDisabled",
+    "OperationTargetType8": "Myself",
+    "OperationTargetSelectType8": "Opponent",
+    "OperationRadiusMm8": 30000,
+    "OperationValue8": [
+      "2330",
+      "1"
+    ],
+    "OperationDurationMs8": 999999
+  },
+  {
+    "Index": 50000268,
+    "TriggerType": "NextSkill",
+    "TriggerRatio": 1000,
+    "ActingTimeMs": 1300,
+    "SoloTimeMs": 400,
+    "DurationTimeMs": [
+      "4400"
+    ],
+    "CancelOnWaveEnd": "True",
+    "TickTimeValue": [
+      "1300[1:2:6]",
+      "1800[1:2:6]",
+      "2300[1:2:6]",
+      "2800[1:2:6]",
+      "3300[1:3:4:5:6]"
+    ],
+    "AttrType": "Magical",
+    "TargetType": "FarEnemy",
+    "TargetCount": 1,
+    "DeadTarget": "False",
+    "IgnoreBlock": "True",
+    "RetargetOnFire": "False",
+    "OperationType1": "GetMagicalDamageR",
+    "OperationTargetType1": "Myself",
+    "OperationAreaOffsetMm1": 6000,
+    "OperationRadiusMm1": 100000,
+    "OperationValue1": [
+      "1000"
+    ],
+    "OperationConditionType1": "None",
+    "OperationType2": "Pulling",
+    "OperationTargetType2": "Myself",
+    "OperationAreaOffsetMm2": 6000,
+    "OperationRadiusMm2": 5000,
+    "OperationValue2": [
+      "1500",
+      "6000",
+      "1000",
+      "True"
+    ],
+    "OperationDurationMs2": 1000,
+    "OperationConditionType2": "None",
+    "OperationParent2": 1,
+    "OperationFlags2": [
+      "HasParent"
+    ],
+    "OperationType3": "Knockback",
+    "OperationTargetType3": "Parent",
+    "OperationValue3": [
+      "6000",
+      "View"
+    ],
+    "OperationDurationMs3": 10000,
+    "OperationConditionType3": "NotState",
+    "OperationConditionValue3": [
+      "KaselKyle"
+    ],
+    "OperationParent3": 1,
+    "OperationFlags3": [
+      "HasParent",
+      "CheckConditionOnBegin"
+    ],
+    "OperationType4": "Knockback",
+    "OperationTargetType4": "Parent",
+    "OperationValue4": [
+      "3000",
+      "View"
+    ],
+    "OperationDurationMs4": 10000,
+    "OperationConditionType4": "State",
+    "OperationConditionValue4": [
+      "KaselKyle"
+    ],
+    "OperationParent4": 1,
+    "OperationFlags4": [
+      "HasParent",
+      "CheckConditionOnBegin"
+    ]
+  },
+  {
+    "Index": 50000269,
+    "TriggerType": "NextSkill",
+    "TriggerRatio": 1000,
+    "AttrType": "None",
+    "TargetType": "Myself",
+    "TargetCount": 1,
+    "DeadTarget": "False",
+    "IgnoreBlock": "True",
+    "RetargetOnFire": "False",
+    "OperationType1": "SetSkill",
+    "OperationTargetType1": "Myself",
+    "OperationValue1": [
+      "110",
+      "0",
+      "SkillMaxRangeMm",
+      "100000"
+    ],
+    "OperationState1": "KaselKyle",
+    "OperationDurationMs1": 999999,
+    "OperationType2": "SetSkill",
+    "OperationTargetType2": "Myself",
+    "OperationValue2": [
+      "140",
+      "0",
+      "SkillMaxRangeMm",
+      "100000"
+    ],
+    "OperationDurationMs2": 999999,
+    "OperationType3": "SetSkill",
+    "OperationTargetType3": "Myself",
+    "OperationValue3": [
+      "144",
+      "0",
+      "SkillMaxRangeMm",
+      "100000"
+    ],
+    "OperationDurationMs3": 999999,
+    "OperationType4": "Cleanse",
+    "OperationTargetType4": "Myself",
+    "OperationRadiusMm4": 30000,
+    "OperationType5": "Cleanse",
+    "OperationTargetType5": "Myself",
+    "OperationTargetSelectType5": "Opponent",
+    "OperationRadiusMm5": 30000,
+    "OperationType6": "Dispel",
+    "OperationTargetType6": "Myself",
+    "OperationRadiusMm6": 30000,
+    "OperationType7": "Dispel",
+    "OperationTargetType7": "Myself",
+    "OperationTargetSelectType7": "Opponent",
+    "OperationRadiusMm7": 30000
+  },
+  {
+    "Index": 50000270,
+    "TriggerType": "NextSkill",
+    "TriggerRatio": 1000,
+    "AttrType": "None",
+    "TargetType": "Myself",
+    "TargetCount": 1,
+    "DeadTarget": "False",
+    "IgnoreBlock": "True",
+    "RetargetOnFire": "False",
+    "OperationType1": "SetSkill",
+    "OperationTargetType1": "Myself",
+    "OperationValue1": [
+      "3303800",
+      "0",
+      "SkillMaxRangeMm",
+      "3000"
+    ],
+    "OperationDurationMs1": 999999,
+    "OperationType2": "SetSkill",
+    "OperationTargetType2": "Myself",
+    "OperationValue2": [
+      "3303801",
+      "0",
+      "SkillMaxRangeMm",
+      "3000"
+    ],
+    "OperationDurationMs2": 999999,
+    "OperationType3": "SetSkill",
+    "OperationTargetType3": "Myself",
+    "OperationValue3": [
+      "3303802",
+      "0",
+      "SkillMaxRangeMm",
+      "3000"
+    ],
+    "OperationDurationMs3": 999999,
+    "OperationType4": "SetSkill",
+    "OperationTargetType4": "Myself",
+    "OperationValue4": [
+      "3303803",
+      "0",
+      "SkillMaxRangeMm",
+      "3000"
+    ],
+    "OperationDurationMs4": 999999,
+    "OperationType5": "OverrideStat",
+    "OperationTargetType5": "Myself",
+    "OperationValue5": [
+      "MpRegenRatioM",
+      "Custom",
+      "0"
+    ],
+    "OperationDurationMs5": 9999999,
+    "OperationType6": "GetMot",
+    "OperationTargetType6": "Myself",
+    "OperationValue6": [
+      "500"
+    ],
+    "OperationDurationMs6": 999999,
+    "OperationTickTimeMs6": 300
+  },
+  {
     "Index": 5006011,
     "TriggerType": "OnTimer",
     "TriggerValue": [

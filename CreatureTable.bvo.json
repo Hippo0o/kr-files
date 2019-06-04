@@ -4713,7 +4713,8 @@
       "3735",
       "3744",
       "3745",
-      "3746"
+      "3746",
+      "3703"
     ],
     "GetTranscendSkillPoint": [
       "10",
@@ -8931,6 +8932,145 @@
     "HeroPositionText2": "HERO_POSITION_5",
     "HeroPositionIcon3": "icon_raidmacro_attack_Buffs",
     "HeroPositionText3": "HERO_POSITION_48"
+  },
+  {
+    "Index": 70,
+    "CodeName": "Hero.Cecilia",
+    "OpenStatus": "Normal",
+    "OpenType": "None",
+    "Race": "Hero",
+    "TagType": "Mechanic",
+    "AttrType": [
+      "Physical"
+    ],
+    "AttackWeakType": [
+      "Fire"
+    ],
+    "PositionType": "Forward",
+    "PositionWeight": 400,
+    "MoveSpeed": 5000,
+    "MinDamageRate": 200,
+    "IgnoreCc": [
+      "False"
+    ],
+    "SizeMm": 600,
+    "HeightMm": 2000,
+    "GradeStoneItemCode": "SKILLBOOK_MECHANIC_1",
+    "StarStoneItemCode": "NO_ITEM",
+    "BaseSkillIndex": 7000,
+    "SkillIndex1": 7010,
+    "SkillExtend1": [
+      "7011",
+      "7012",
+      "7013"
+    ],
+    "LinkedSkillIndex1": 7016,
+    "LinkedSkillExtend1": [
+      "7011",
+      "7012",
+      "7013"
+    ],
+    "SkillIndex2": 7020,
+    "SkillExtend2": [
+      "7021",
+      "7022",
+      "7023"
+    ],
+    "SkillIndex3": 7030,
+    "SkillExtend3": [
+      "7031",
+      "7032",
+      "7033"
+    ],
+    "LinkedSkillIndex3": 7034,
+    "LinkedSkillExtend3": [
+      "7031",
+      "7032",
+      "7033"
+    ],
+    "SkillIndex4": 7040,
+    "SkillExtend4": [
+      "7041",
+      "7042",
+      "7043"
+    ],
+    "ExtraSkill": [
+      "7014",
+      "7015",
+      "7016",
+      "7017",
+      "7024",
+      "7025",
+      "7034",
+      "7026",
+      "7027",
+      "7028"
+    ],
+    "GetTranscendSkillPoint": [
+      "10",
+      "15",
+      "15",
+      "15",
+      "25"
+    ],
+    "TranscendSkill1": [
+      "60000001",
+      "60000002",
+      "60000003",
+      "60000004",
+      "60000033"
+    ],
+    "ReqSkillPoint1": [
+      "10",
+      "10",
+      "10",
+      "10",
+      "10"
+    ],
+    "TranscendSkill2": [
+      "60000021",
+      "60000022",
+      "60000023",
+      "60000024",
+      "60000038"
+    ],
+    "ReqSkillPoint2": [
+      "15",
+      "15",
+      "15",
+      "15",
+      "15"
+    ],
+    "TranscendSkill3": [
+      "60007010",
+      "60007011",
+      "60007020",
+      "60007021",
+      "60007030",
+      "60007031",
+      "60007040",
+      "60007041"
+    ],
+    "ReqSkillPoint3": [
+      "15",
+      "15",
+      "15",
+      "15",
+      "15",
+      "15",
+      "15",
+      "15"
+    ],
+    "TranscendSkill5": [
+      "60007050",
+      "60007051"
+    ],
+    "ReqSkillPoint5": [
+      "15",
+      "15"
+    ],
+    "StartHeroStar": 3,
+    "OpenDate": 190613
   },
   {
     "Index": 73,
@@ -14360,6 +14500,70 @@
     "StartHeroStar": 3
   },
   {
+    "Index": 570,
+    "CodeName": "Monster.Ordeal.DarkCeceilia",
+    "ModelCode": "Hero.Cecilia",
+    "ModelPrefix": "Trial",
+    "Race": "Hero",
+    "TagType": "Mechanic",
+    "AttrType": [
+      "Physical"
+    ],
+    "AttackWeakType": [
+      "Fire"
+    ],
+    "PositionType": "Forward",
+    "PositionWeight": 400,
+    "MoveSpeed": 5000,
+    "MinDamageRate": 200,
+    "IgnoreCc": [
+      "False"
+    ],
+    "SizeMm": 600,
+    "HeightMm": 2000,
+    "GradeStoneItemCode": "SKILLBOOK_MECHANIC_1",
+    "StarStoneItemCode": "NO_ITEM",
+    "BaseSkillIndex": 7000,
+    "SkillIndex1": 7010,
+    "SkillExtend1": [
+      "7011",
+      "7012",
+      "7013"
+    ],
+    "SkillIndex2": 7020,
+    "SkillExtend2": [
+      "7021",
+      "7022",
+      "7023"
+    ],
+    "SkillIndex3": 7030,
+    "SkillExtend3": [
+      "7031",
+      "7032",
+      "7033"
+    ],
+    "SkillIndex4": 7040,
+    "SkillExtend4": [
+      "7041",
+      "7042",
+      "7043"
+    ],
+    "ExtraSkill": [
+      "7024",
+      "7014",
+      "7035",
+      "7034",
+      "7044",
+      "7045",
+      "7046",
+      "7047",
+      "7048",
+      "7025",
+      "7026"
+    ],
+    "StartHeroStar": 3
+  },
+  {
     "Index": 573,
     "CodeName": "Monster.Ordeal.DarkChase",
     "ModelCode": "Hero.Chase",
@@ -14423,7 +14627,7 @@
       "7327",
       "7315"
     ],
-    "StartHeroStar": 2
+    "StartHeroStar": 3
   },
   {
     "Index": 578,
@@ -14479,7 +14683,7 @@
       "7834",
       "7844"
     ],
-    "StartHeroStar": 2
+    "StartHeroStar": 3
   },
   {
     "Index": 587,
@@ -18362,7 +18566,7 @@
       "5839",
       "5814"
     ],
-    "StartHeroStar": 2
+    "StartHeroStar": 3
   },
   {
     "Index": 659,
@@ -19014,7 +19218,7 @@
       "6816",
       "6847"
     ],
-    "StartHeroStar": 4
+    "StartHeroStar": 3
   },
   {
     "Index": 669,
@@ -19074,6 +19278,70 @@
       "6937",
       "6939",
       "6925"
+    ],
+    "StartHeroStar": 3
+  },
+  {
+    "Index": 670,
+    "CodeName": "Monster.Ordeal.LightCecilia",
+    "ModelCode": "Hero.Cecilia",
+    "ModelPrefix": "Trans",
+    "Race": "Hero",
+    "TagType": "Mechanic",
+    "AttrType": [
+      "Physical"
+    ],
+    "AttackWeakType": [
+      "Fire"
+    ],
+    "PositionType": "Forward",
+    "PositionWeight": 400,
+    "MoveSpeed": 5000,
+    "MinDamageRate": 200,
+    "IgnoreCc": [
+      "False"
+    ],
+    "SizeMm": 600,
+    "HeightMm": 2000,
+    "GradeStoneItemCode": "SKILLBOOK_MECHANIC_1",
+    "StarStoneItemCode": "NO_ITEM",
+    "BaseSkillIndex": 7000,
+    "SkillIndex1": 7010,
+    "SkillExtend1": [
+      "7011",
+      "7012",
+      "7013"
+    ],
+    "SkillIndex2": 7020,
+    "SkillExtend2": [
+      "7021",
+      "7022",
+      "7023"
+    ],
+    "SkillIndex3": 7030,
+    "SkillExtend3": [
+      "7031",
+      "7032",
+      "7033"
+    ],
+    "SkillIndex4": 7040,
+    "SkillExtend4": [
+      "7041",
+      "7042",
+      "7043"
+    ],
+    "ExtraSkill": [
+      "7024",
+      "7014",
+      "7035",
+      "7034",
+      "7044",
+      "7045",
+      "7046",
+      "7047",
+      "7048",
+      "7025",
+      "7026"
     ],
     "StartHeroStar": 3
   },
@@ -19197,7 +19465,7 @@
       "7834",
       "7844"
     ],
-    "StartHeroStar": 2
+    "StartHeroStar": 3
   },
   {
     "Index": 687,
@@ -28045,6 +28313,34 @@
     ]
   },
   {
+    "Index": 6608,
+    "CodeName": "Raid.Draconian.Kallax",
+    "Race": "Draconian",
+    "AttrType": [
+      "Magical"
+    ],
+    "AttackWeakType": [
+      "Fire"
+    ],
+    "BlockDash": "True",
+    "PositionWeight": 15000,
+    "MoveSpeed": 8000,
+    "MinDamageRate": 200,
+    "IgnoreCc": [
+      "CC"
+    ],
+    "TransformType": "Wall",
+    "SizeMm": 2600,
+    "HeightMm": 2600,
+    "GradeStoneItemCode": "NO_ITEM",
+    "StarStoneItemCode": "NO_ITEM",
+    "BaseSkillIndex": 660800,
+    "SkillIndex1": 660810,
+    "SkillIndex2": 660820,
+    "SkillIndex3": 660830,
+    "SkillIndex4": 660840
+  },
+  {
     "Index": 7701,
     "CodeName": "Raid.Rank.Goblin.Urkak",
     "ModelCode": "Raid.Goblin.Urkak",
@@ -28308,6 +28604,35 @@
       "660750",
       "660751"
     ]
+  },
+  {
+    "Index": 7708,
+    "CodeName": "Raid.Rank.Draconian.Kallax",
+    "ModelCode": "Raid.Draconian.Kallax",
+    "Race": "Draconian",
+    "AttrType": [
+      "Magical"
+    ],
+    "AttackWeakType": [
+      "Fire"
+    ],
+    "BlockDash": "True",
+    "PositionWeight": 15000,
+    "MoveSpeed": 8000,
+    "MinDamageRate": 200,
+    "IgnoreCc": [
+      "CC"
+    ],
+    "TransformType": "Wall",
+    "SizeMm": 2600,
+    "HeightMm": 2700,
+    "GradeStoneItemCode": "NO_ITEM",
+    "StarStoneItemCode": "NO_ITEM",
+    "BaseSkillIndex": 770800,
+    "SkillIndex1": 770810,
+    "SkillIndex2": 770820,
+    "SkillIndex3": 770830,
+    "SkillIndex4": 770840
   },
   {
     "Index": 8801,

@@ -1217,7 +1217,7 @@
     "OperationType2": "ModAttackPower",
     "OperationTargetType2": "Parent",
     "OperationValue2": [
-      "-500"
+      "-550"
     ],
     "OperationState2": 660220,
     "OperationDurationMs2": 15000,
@@ -1298,7 +1298,7 @@
     "OperationAngle1": 90,
     "OperationValue1": [
       "0",
-      "$ByMEHp3(900)",
+      "$ByMEHp3(850)",
       "NoCritical|IgnoreDefence|IgnoreBlock|IgnoreToughness|IgnoreWeakness"
     ],
     "OperationConditionType1": "None",
@@ -1309,7 +1309,7 @@
     "OperationAngle2": 90,
     "OperationValue2": [
       "0",
-      "$ByMEHp3(930)",
+      "$ByMEHp3(910)",
       "NoCritical|IgnoreDefence|IgnoreBlock|IgnoreToughness|IgnoreWeakness"
     ],
     "OperationType3": "Knockback",
@@ -8159,5 +8159,252 @@
     "OperationValue7": [
       "770770"
     ]
+  },
+  {
+    "Index": 660800,
+    "TriggerType": "None",
+    "TriggerRatio": 1000,
+    "DurationTimeMs": [
+      "3000"
+    ],
+    "TickTimeValue": [
+      "400",
+      "800",
+      "1100",
+      "2200"
+    ],
+    "AttrType": "Magical",
+    "TargetType": "Enemy",
+    "TargetCount": 1,
+    "MaxRangeMm": 5000,
+    "DeadTarget": "False",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "False"
+  },
+  {
+    "Index": 660810,
+    "NextIndex": 660820,
+    "TriggerType": "OnAuto",
+    "TriggerRatio": 1000,
+    "CoolTimeMs": 11000,
+    "InitialCoolTimeMs": 3000,
+    "DurationTimeMs": [
+      "4300"
+    ],
+    "TickTimeValue": [
+      "3000[4]",
+      "3100[1:2:3]",
+      "4200[7]"
+    ],
+    "AttrType": "Magical",
+    "TargetType": "FarEnemy",
+    "TargetCount": 1,
+    "DeadTarget": "False",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "False"
+  },
+  {
+    "Index": 660820,
+    "TriggerType": "NextSkill",
+    "TriggerRatio": 1000,
+    "DurationTimeMs": [
+      "4500"
+    ],
+    "TickTimeValue": [
+      "2100[1]",
+      "2400[1]",
+      "3600[2:3:4]",
+      "4400[7]"
+    ],
+    "AttrType": "Magical",
+    "TargetType": "FarEnemy",
+    "TargetCount": 1,
+    "DeadTarget": "False",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "False"
+  },
+  {
+    "Index": 660830,
+    "TriggerType": "OnAuto",
+    "TriggerRatio": 1000,
+    "CoolTimeMs": 12000,
+    "InitialCoolTimeMs": 5000,
+    "DurationTimeMs": [
+      "4400"
+    ],
+    "TickTimeValue": [
+      "3400[1:2:3]",
+      "4300[7]"
+    ],
+    "AttrType": "Magical",
+    "TargetType": "Enemy",
+    "TargetCount": 1,
+    "MaxRangeMm": 5000,
+    "DeadTarget": "False",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "False"
+  },
+  {
+    "Index": 660840,
+    "TriggerType": "NextSkill",
+    "TriggerRatio": 1000,
+    "TriggerFlag": [
+      "CancelUsingSkill"
+    ],
+    "DurationTimeMs": [
+      "10100"
+    ],
+    "TickTimeValue": [
+      "0[1]",
+      "100[6]",
+      "7400[2:3]",
+      "9100[4:5]"
+    ],
+    "AttrType": "Magical",
+    "TargetType": "Enemy",
+    "TargetCount": 1,
+    "DeadTarget": "False",
+    "IgnoreBlock": "False",
+    "RetargetOnFire": "False"
+  },
+  {
+    "Index": 660841,
+    "TriggerType": "OnTimer",
+    "TriggerValue": [
+      "100",
+      "100"
+    ],
+    "TriggerRatio": 1000,
+    "TriggerDisabled": "True",
+    "AttrType": "Magical",
+    "TargetType": "Myself",
+    "TargetCount": 1,
+    "DeadTarget": "False",
+    "IgnoreBlock": "False",
+    "RetargetOnFire": "False"
+  },
+  {
+    "Index": 660842,
+    "TriggerType": "NextSkill",
+    "TriggerRatio": 1000,
+    "AttrType": "Magical",
+    "TargetType": "Myself",
+    "TargetCount": 1,
+    "DeadTarget": "False",
+    "IgnoreBlock": "False",
+    "RetargetOnFire": "False"
+  },
+  {
+    "Index": 660850,
+    "TriggerType": "OnStart",
+    "TriggerRatio": 1000,
+    "AttrType": "None",
+    "IgnoreStateType": [
+      "CC",
+      "RaidDown"
+    ],
+    "TargetType": "Myself",
+    "TargetCount": 1,
+    "DeadTarget": "False",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "False"
+  },
+  {
+    "Index": 660851,
+    "TriggerType": "OnTimer",
+    "TriggerValue": [
+      "20000",
+      "20000"
+    ],
+    "TriggerRatio": 1000,
+    "CancelOnWaveEnd": "TRUE",
+    "AttrType": "Magical",
+    "IgnoreStateType": [
+      "CC",
+      "RaidDown"
+    ],
+    "TargetType": "Myself",
+    "TargetCount": 1,
+    "DeadTarget": "False",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "False"
+  },
+  {
+    "Index": 660852,
+    "TriggerType": "OnTimer",
+    "TriggerValue": [
+      "14000",
+      "14000"
+    ],
+    "TriggerRatio": 1000,
+    "CancelOnWaveEnd": "TRUE",
+    "AttrType": "Magical",
+    "IgnoreStateType": [
+      "CC",
+      "RaidDown"
+    ],
+    "TargetType": "Myself",
+    "TargetCount": 1,
+    "DeadTarget": "False",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "False"
+  },
+  {
+    "Index": 660860,
+    "TriggerType": "NextSkill",
+    "TriggerRatio": 1000,
+    "TriggerFlag": [
+      "CancelUsingSkill"
+    ],
+    "CancelOnWaveEnd": "TRUE",
+    "AttrType": "Magical",
+    "StateType": [
+      "ImmuneCc"
+    ],
+    "IgnoreStateType": [
+      "CC",
+      "RaidDown"
+    ],
+    "TargetType": "Myself",
+    "TargetCount": 1,
+    "DeadTarget": "False",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "False"
+  },
+  {
+    "Index": 660870,
+    "TriggerType": "NextSkill",
+    "TriggerRatio": 1000,
+    "AttrType": "Magical",
+    "IgnoreStateType": [
+      "CC",
+      "RaidDown"
+    ],
+    "TargetType": "Myself",
+    "TargetCount": 1,
+    "DeadTarget": "False",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "False"
+  },
+  {
+    "Index": 660880,
+    "TriggerType": "NextSkill",
+    "TriggerRatio": 1000,
+    "DurationTimeMs": [
+      "4500"
+    ],
+    "TickTimeValue": [
+      "2100[1]",
+      "2400[1]",
+      "3600[2:3:4]",
+      "4400[7]"
+    ],
+    "AttrType": "Magical",
+    "TargetType": "Enemy",
+    "TargetCount": 1,
+    "MaxRangeMm": 4000,
+    "DeadTarget": "False",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "False"
   }
 ]

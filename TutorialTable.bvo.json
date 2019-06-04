@@ -5129,7 +5129,7 @@
     "Index": 10000,
     "Command": "WaitCutScene",
     "Argument": [
-      "2"
+      "3"
     ]
   },
   {
@@ -5174,7 +5174,7 @@
     "Index": 10000,
     "Command": "WaitCutScene",
     "Argument": [
-      "29"
+      "36"
     ]
   },
   {
@@ -6192,7 +6192,7 @@
     "Index": 17010,
     "Command": "WaitCutScene",
     "Argument": [
-      "2"
+      "3"
     ],
     "Repeatable": "True"
   },
@@ -6244,7 +6244,7 @@
     "Index": 17010,
     "Command": "WaitCutScene",
     "Argument": [
-      "29"
+      "36"
     ],
     "Repeatable": "True"
   },
@@ -7472,17 +7472,6 @@
   },
   {
     "Index": 10020,
-    "Command": "PlayCutScene",
-    "Argument": [
-      "CutScene/Tutorial/Equip1"
-    ]
-  },
-  {
-    "Index": 10020,
-    "Command": "WaitCutScene"
-  },
-  {
-    "Index": 10020,
     "Command": "OpenMenuOpenPopup",
     "Argument": [
       "514",
@@ -7924,19 +7913,8 @@
     "Index": 10021,
     "Command": "WaitTime",
     "Argument": [
-      "0.1"
+      "0.5"
     ]
-  },
-  {
-    "Index": 10021,
-    "Command": "PlayCutScene",
-    "Argument": [
-      "CutScene/Tutorial/Equip2_New"
-    ]
-  },
-  {
-    "Index": 10021,
-    "Command": "WaitCutScene"
   },
   {
     "Index": 10021,
@@ -8403,19 +8381,8 @@
     "Index": 10030,
     "Command": "WaitTime",
     "Argument": [
-      "0.3"
+      "0.5"
     ]
-  },
-  {
-    "Index": 10030,
-    "Command": "PlayCutScene",
-    "Argument": [
-      "CutScene/Tutorial/Skill"
-    ]
-  },
-  {
-    "Index": 10030,
-    "Command": "WaitCutScene"
   },
   {
     "Index": 10030,
@@ -9370,8 +9337,7 @@
     "Index": 10110,
     "Command": "PlayNodeTree",
     "Argument": [
-      "Story/Common",
-      " CutsceneStart"
+      "Story/Common"
     ]
   },
   {
@@ -9388,14 +9354,6 @@
   },
   {
     "Index": 10110,
-    "Command": "SetFunctionality",
-    "Argument": [
-      "SkipBattleStartEffect",
-      " True"
-    ]
-  },
-  {
-    "Index": 10110,
     "Command": "WaitEvent",
     "Argument": [
       "WaveReady"
@@ -9405,8 +9363,7 @@
     "Index": 10110,
     "Command": "PlayNodeTree",
     "Argument": [
-      "Story/Common",
-      "MakeAllDummy"
+      "Story/Common"
     ]
   },
   {
@@ -9438,29 +9395,11 @@
   },
   {
     "Index": 10110,
-    "Command": "SetBattleCamera",
-    "Argument": [
-      "Freeze"
-    ]
-  },
-  {
-    "Index": 10110,
     "Command": "PlayNodeTree",
     "Argument": [
       "Story/1_3_SC",
       "SlimeAppear"
     ]
-  },
-  {
-    "Index": 10110,
-    "Command": "PlayCutScene",
-    "Argument": [
-      "CutScene/CH1_5"
-    ]
-  },
-  {
-    "Index": 10110,
-    "Command": "WaitCutScene"
   },
   {
     "Index": 10110,
@@ -9741,56 +9680,6 @@
       "DisableAutoBattle",
       " True"
     ],
-    "Repeatable": "True"
-  },
-  {
-    "Index": 17031,
-    "Command": "PlayNodeTree",
-    "Argument": [
-      "Story/Common",
-      " CutsceneStart"
-    ],
-    "Repeatable": "True"
-  },
-  {
-    "Index": 17031,
-    "Command": "WaitNodeTree",
-    "Repeatable": "True"
-  },
-  {
-    "Index": 17031,
-    "Command": "PlayNodeTree",
-    "Argument": [
-      "Story/1_3_SC",
-      "Focus0"
-    ],
-    "Repeatable": "True"
-  },
-  {
-    "Index": 17031,
-    "Command": "PlayCutScene",
-    "Argument": [
-      "CutScene/CH1_5"
-    ],
-    "Repeatable": "True"
-  },
-  {
-    "Index": 17031,
-    "Command": "WaitCutScene",
-    "Repeatable": "True"
-  },
-  {
-    "Index": 17031,
-    "Command": "PlayNodeTree",
-    "Argument": [
-      "Story/Common",
-      " CutsceneEnd"
-    ],
-    "Repeatable": "True"
-  },
-  {
-    "Index": 17031,
-    "Command": "WaitNodeTree",
     "Repeatable": "True"
   },
   {
@@ -10802,8 +10691,7 @@
     "Index": 17041,
     "Command": "PlayNodeTree",
     "Argument": [
-      "Story/Common",
-      " CutsceneStart"
+      "Story/Common"
     ],
     "Repeatable": "True"
   },
@@ -10816,30 +10704,7 @@
     "Index": 17041,
     "Command": "PlayNodeTree",
     "Argument": [
-      "Story/1_4",
-      "1"
-    ],
-    "Repeatable": "True"
-  },
-  {
-    "Index": 17041,
-    "Command": "PlayCutScene",
-    "Argument": [
-      "CutScene/CS1_4A_S"
-    ],
-    "Repeatable": "True"
-  },
-  {
-    "Index": 17041,
-    "Command": "WaitCutScene",
-    "Repeatable": "True"
-  },
-  {
-    "Index": 17041,
-    "Command": "PlayNodeTree",
-    "Argument": [
-      "Story/Common",
-      " CutsceneEnd"
+      "Story/Common"
     ],
     "Repeatable": "True"
   },
@@ -11377,7 +11242,7 @@
     "Index": 10220,
     "Command": "WaitCutScene",
     "Argument": [
-      "1"
+      "2"
     ]
   },
   {
@@ -11662,7 +11527,7 @@
     "Index": 10220,
     "Command": "WaitCutScene",
     "Argument": [
-      "9"
+      "10"
     ]
   },
   {
@@ -11905,20 +11770,6 @@
   },
   {
     "Index": 10220,
-    "Command": "PlayCutScene",
-    "Argument": [
-      "CutScene/CS1_5C"
-    ]
-  },
-  {
-    "Index": 10220,
-    "Command": "WaitCutScene",
-    "Argument": [
-      "2"
-    ]
-  },
-  {
-    "Index": 10220,
     "Command": "PlayNodeTree",
     "Argument": [
       "Story/1_5_CS",
@@ -11940,6 +11791,17 @@
       "Story/1_5_CS",
       " FocusBattle"
     ]
+  },
+  {
+    "Index": 10220,
+    "Command": "PlayCutScene",
+    "Argument": [
+      "CutScene/CS1_5C"
+    ]
+  },
+  {
+    "Index": 10220,
+    "Command": "WaitCutScene"
   },
   {
     "Index": 10220,
@@ -12471,7 +12333,7 @@
     "Index": 17050,
     "Command": "WaitCutScene",
     "Argument": [
-      "1"
+      "2"
     ],
     "Repeatable": "True"
   },
@@ -12648,7 +12510,7 @@
     "Index": 17050,
     "Command": "WaitCutScene",
     "Argument": [
-      "9"
+      "10"
     ],
     "Repeatable": "True"
   },
@@ -12802,22 +12664,6 @@
   },
   {
     "Index": 17050,
-    "Command": "PlayCutScene",
-    "Argument": [
-      "CutScene/CS1_5C"
-    ],
-    "Repeatable": "True"
-  },
-  {
-    "Index": 17050,
-    "Command": "WaitCutScene",
-    "Argument": [
-      "2"
-    ],
-    "Repeatable": "True"
-  },
-  {
-    "Index": 17050,
     "Command": "PlayNodeTree",
     "Argument": [
       "Story/1_5_CS",
@@ -12842,6 +12688,19 @@
       "Story/1_5_CS",
       " FocusBattle"
     ],
+    "Repeatable": "True"
+  },
+  {
+    "Index": 17050,
+    "Command": "PlayCutScene",
+    "Argument": [
+      "CutScene/CS1_5C"
+    ],
+    "Repeatable": "True"
+  },
+  {
+    "Index": 17050,
+    "Command": "WaitCutScene",
     "Repeatable": "True"
   },
   {
@@ -13769,7 +13628,7 @@
     "Index": 10230,
     "Command": "WaitCutScene",
     "Argument": [
-      "5"
+      "6"
     ]
   },
   {
@@ -14644,7 +14503,7 @@
     "Index": 17060,
     "Command": "WaitCutScene",
     "Argument": [
-      "5"
+      "6"
     ],
     "Repeatable": "True"
   },
@@ -15048,7 +14907,7 @@
     "Index": 10300,
     "Command": "WaitCutScene",
     "Argument": [
-      "9"
+      "12"
     ]
   },
   {
@@ -15387,7 +15246,7 @@
     "Index": 17079,
     "Command": "WaitCutScene",
     "Argument": [
-      "9"
+      "12"
     ],
     "Repeatable": "True"
   },
@@ -16803,17 +16662,6 @@
   },
   {
     "Index": 10500,
-    "Command": "PlayCutScene",
-    "Argument": [
-      "CutScene/CH1_17"
-    ]
-  },
-  {
-    "Index": 10500,
-    "Command": "WaitCutScene"
-  },
-  {
-    "Index": 10500,
     "Command": "PlayNodeTree",
     "Argument": [
       "Story/Common",
@@ -17949,7 +17797,7 @@
     "Index": 12000,
     "Command": "WaitCutScene",
     "Argument": [
-      "1"
+      "2"
     ]
   },
   {
@@ -20129,17 +19977,6 @@
     ]
   },
   {
-    "Index": 12020,
-    "Command": "PlayCutScene",
-    "Argument": [
-      "CutScene/CH1_18"
-    ]
-  },
-  {
-    "Index": 12020,
-    "Command": "WaitCutScene"
-  },
-  {
     "Index": 13000,
     "Command": "PlayCutScene",
     "Argument": [
@@ -20429,7 +20266,7 @@
     "Index": 14000,
     "Command": "WaitTime",
     "Argument": [
-      "2"
+      "5"
     ]
   },
   {
@@ -20443,14 +20280,7 @@
     "Index": 14000,
     "Command": "WaitCutScene",
     "Argument": [
-      "6"
-    ]
-  },
-  {
-    "Index": 14000,
-    "Command": "SetBattleCamera",
-    "Argument": [
-      "Freeze"
+      "12"
     ]
   },
   {
@@ -20471,13 +20301,6 @@
   },
   {
     "Index": 14000,
-    "Command": "SetBattleCamera",
-    "Argument": [
-      "Battle"
-    ]
-  },
-  {
-    "Index": 14000,
     "Command": "PlayNodeTree",
     "Argument": [
       "Story/1_17",
@@ -20488,7 +20311,21 @@
     "Index": 14000,
     "Command": "WaitTime",
     "Argument": [
-      "3"
+      "10"
+    ]
+  },
+  {
+    "Index": 14000,
+    "Command": "PlayCutScene",
+    "Argument": [
+      "CutScene/CH1_20"
+    ]
+  },
+  {
+    "Index": 14000,
+    "Command": "WaitCutScene",
+    "Argument": [
+      "8"
     ]
   },
   {
@@ -20508,13 +20345,6 @@
     "Command": "WaitTime",
     "Argument": [
       "1.5"
-    ]
-  },
-  {
-    "Index": 14000,
-    "Command": "PlayCutScene",
-    "Argument": [
-      "CutScene/CH1_20"
     ]
   },
   {
@@ -20540,7 +20370,7 @@
     "Index": 14000,
     "Command": "WaitCutScene",
     "Argument": [
-      "22"
+      "36"
     ]
   },
   {
@@ -20697,17 +20527,6 @@
   },
   {
     "Index": 14020,
-    "Command": "PlayCutScene",
-    "Argument": [
-      "CutScene/Tutorial/Unique"
-    ]
-  },
-  {
-    "Index": 14020,
-    "Command": "WaitCutScene"
-  },
-  {
-    "Index": 14020,
     "Command": "WaitTime",
     "Argument": [
       "0.5"
@@ -20853,72 +20672,11 @@
   },
   {
     "Index": 14020,
-    "Command": "ClearFocus"
-  },
-  {
-    "Index": 14020,
     "Command": "SkipEnd"
   },
   {
     "Index": 14020,
-    "Command": "NextTutorial",
-    "Argument": [
-      "14030"
-    ]
-  },
-  {
-    "Index": 14030,
-    "Command": "FocusWidget",
-    "Argument": [
-      "NodeFunctionMenu(Clone)/MainButton/Button_WorldTree"
-    ]
-  },
-  {
-    "Index": 14030,
-    "Command": "SkipStart",
-    "Argument": [
-      "Jump"
-    ]
-  },
-  {
-    "Index": 14030,
-    "Command": "ShowTooltip2",
-    "Argument": [
-      "Center",
-      " 0",
-      " 0",
-      " 2000",
-      " 100",
-      " TUTORIAL_TEXT_243"
-    ]
-  },
-  {
-    "Index": 14030,
-    "Command": "FocusAreaEffect",
-    "Argument": [
-      "UI.Common.Finger",
-      " 750",
-      " 0",
-      " 0",
-      " 100",
-      " True"
-    ]
-  },
-  {
-    "Index": 14030,
-    "Command": "WaitTouch"
-  },
-  {
-    "Index": 14030,
-    "Command": "ClearTooltip"
-  },
-  {
-    "Index": 14030,
     "Command": "ClearFocus"
-  },
-  {
-    "Index": 14030,
-    "Command": "SkipEnd"
   },
   {
     "Index": 14001,
@@ -20990,7 +20748,7 @@
     "Index": 14001,
     "Command": "WaitTime",
     "Argument": [
-      "2"
+      "5"
     ]
   },
   {
@@ -21004,14 +20762,7 @@
     "Index": 14001,
     "Command": "WaitCutScene",
     "Argument": [
-      "6"
-    ]
-  },
-  {
-    "Index": 14001,
-    "Command": "SetBattleCamera",
-    "Argument": [
-      "Freeze"
+      "12"
     ]
   },
   {
@@ -21032,13 +20783,6 @@
   },
   {
     "Index": 14001,
-    "Command": "SetBattleCamera",
-    "Argument": [
-      "Battle"
-    ]
-  },
-  {
-    "Index": 14001,
     "Command": "PlayNodeTree",
     "Argument": [
       "Story/1_17",
@@ -21049,7 +20793,21 @@
     "Index": 14001,
     "Command": "WaitTime",
     "Argument": [
-      "3"
+      "10"
+    ]
+  },
+  {
+    "Index": 14001,
+    "Command": "PlayCutScene",
+    "Argument": [
+      "CutScene/CH1_20"
+    ]
+  },
+  {
+    "Index": 14001,
+    "Command": "WaitCutScene",
+    "Argument": [
+      "8"
     ]
   },
   {
@@ -21069,13 +20827,6 @@
     "Command": "WaitTime",
     "Argument": [
       "1.5"
-    ]
-  },
-  {
-    "Index": 14001,
-    "Command": "PlayCutScene",
-    "Argument": [
-      "CutScene/CH1_20"
     ]
   },
   {
@@ -21101,7 +20852,7 @@
     "Index": 14001,
     "Command": "WaitCutScene",
     "Argument": [
-      "22"
+      "36"
     ]
   },
   {
@@ -22101,7 +21852,7 @@
     "Index": 17000,
     "Command": "WaitCutScene",
     "Argument": [
-      "2"
+      "3"
     ]
   },
   {

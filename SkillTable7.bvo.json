@@ -2147,6 +2147,38 @@
     "OperationDurationMs4": 99999999
   },
   {
+    "Index": 60007050,
+    "TriggerType": "OnStart",
+    "TriggerRatio": 1000,
+    "DeadTarget": "False",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "FALSE",
+    "OperationType1": "ModMaxHpR",
+    "OperationTargetType1": "Myself",
+    "OperationValue1": [
+      "150"
+    ],
+    "OperationDurationMs1": 999999,
+    "OperationType2": "ModDefenceR",
+    "OperationTargetType2": "Myself",
+    "OperationValue2": [
+      "150"
+    ],
+    "OperationDurationMs2": 9999999,
+    "OperationType3": "ModPowerR",
+    "OperationTargetType3": "Myself",
+    "OperationValue3": [
+      "150"
+    ],
+    "OperationDurationMs3": 99999999,
+    "OperationType4": "ModCriticalPower",
+    "OperationTargetType4": "Myself",
+    "OperationValue4": [
+      "200"
+    ],
+    "OperationDurationMs4": 99999999
+  },
+  {
     "Index": 60007350,
     "TriggerType": "OnStart",
     "TriggerRatio": 1000,
@@ -2558,7 +2590,24 @@
     "OperationConditionValue2": [
       "Hero"
     ],
-    "OperationConditionReverseCheck2": "True"
+    "OperationConditionReverseCheck2": "True",
+    "OperationType3": "ModMagicalWeakness",
+    "OperationTargetType3": "Target",
+    "OperationValue3": [
+      "300"
+    ],
+    "OperationState3": 60000351,
+    "OperationDurationMs3": 999999,
+    "OperationConditionType3": "StateCount",
+    "OperationConditionValue3": [
+      "CleoBurn",
+      "10",
+      "MoreOrEqual"
+    ],
+    "OperationFlags3": [
+      "CheckConditionOnBegin",
+      "ExpireOnConditionFail"
+    ]
   },
   {
     "Index": 60000451,
@@ -3707,7 +3756,14 @@
       "3719",
       "True"
     ],
-    "OperationDurationMs1": 999999
+    "OperationDurationMs1": 999999,
+    "OperationType2": "EnablePassiveSkill",
+    "OperationTargetType2": "Myself",
+    "OperationValue2": [
+      "3703",
+      "True"
+    ],
+    "OperationDurationMs2": 999999
   },
   {
     "Index": 60003851,
@@ -5087,5 +5143,27 @@
       "True"
     ],
     "OperationDurationMs3": 20000
+  },
+  {
+    "Index": 60007051,
+    "TriggerType": "OnAttack",
+    "TriggerValue": [
+      "7024",
+      "None",
+      "Dot"
+    ],
+    "TriggerRatio": 1000,
+    "TargetType": "Myself",
+    "TargetCount": 1,
+    "DeadTarget": "FALSE",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "FALSE",
+    "OperationType1": "ModPowerR",
+    "OperationTargetType1": "Myself",
+    "OperationValue1": [
+      "5"
+    ],
+    "OperationState1": "60007051_1",
+    "OperationDurationMs1": 99999
   }
 ]

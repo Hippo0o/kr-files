@@ -6707,7 +6707,7 @@
       "9600"
     ],
     "AttrType": "Magical",
-    "TargetType": "Enemy",
+    "TargetType": "Myself",
     "TargetCount": 1,
     "DeadTarget": "False",
     "IgnoreBlock": "TRUE",
@@ -6715,6 +6715,7 @@
     "ViewTargetWhileUse": "TRUE",
     "OperationType1": "GetMagicalDamageR",
     "OperationTargetType1": "Myself",
+    "OperationTargetSelectType1": "Opponent",
     "OperationRadiusMm1": 50000,
     "OperationValue1": [
       "300",

@@ -2,7 +2,7 @@
   {
     "ChapterIndex": 99,
     "PositionX": -1052,
-    "PositionY": 653,
+    "PositionY": 210,
     "Scale": 100,
     "PropType": "Prefab",
     "PropName": "DefaultLabel_1",
@@ -18,7 +18,7 @@
   {
     "ChapterIndex": 99,
     "PositionX": 747,
-    "PositionY": 831,
+    "PositionY": 310,
     "Scale": 100,
     "PropType": "Prefab",
     "PropName": "DefaultLabel_1",
@@ -33,8 +33,8 @@
   },
   {
     "ChapterIndex": 99,
-    "PositionX": 1500,
-    "PositionY": 641,
+    "PositionX": 1568,
+    "PositionY": 147,
     "Scale": 100,
     "PropType": "Prefab",
     "PropName": "DefaultLabel_1",
@@ -50,7 +50,7 @@
   {
     "ChapterIndex": 99,
     "PositionX": 1228,
-    "PositionY": 49,
+    "PositionY": -472,
     "Scale": 100,
     "PropType": "Prefab",
     "PropName": "DefaultLabel_1",
@@ -66,7 +66,7 @@
   {
     "ChapterIndex": 99,
     "PositionX": -1117,
-    "PositionY": 35,
+    "PositionY": -477,
     "Scale": 100,
     "PropType": "Prefab",
     "PropName": "DefaultLabel_1",
@@ -82,7 +82,7 @@
   {
     "ChapterIndex": 99,
     "PositionX": 379,
-    "PositionY": -777,
+    "PositionY": -1279,
     "Scale": 100,
     "PropType": "Prefab",
     "PropName": "DefaultLabel_2",
@@ -97,8 +97,8 @@
   },
   {
     "ChapterIndex": 99,
-    "PositionX": 119,
-    "PositionY": 599,
+    "PositionX": 45,
+    "PositionY": 96,
     "Scale": 100,
     "PropType": "Prefab",
     "PropName": "DefaultLabel_1",
@@ -112,9 +112,41 @@
     ]
   },
   {
+    "ChapterIndex": 99,
+    "PositionX": -800,
+    "PositionY": 1200,
+    "Scale": 100,
+    "PropType": "Prefab",
+    "PropName": "DefaultLabel_1",
+    "PropAction": [
+      "SetText",
+      "LabelName",
+      "0",
+      "NODE_LIBRARY_NAME",
+      "30",
+      "000000"
+    ]
+  },
+  {
+    "ChapterIndex": 99,
+    "PositionX": 180,
+    "PositionY": 1050,
+    "Scale": 100,
+    "PropType": "Prefab",
+    "PropName": "DefaultLabel_1",
+    "PropAction": [
+      "SetText",
+      "LabelName",
+      "0",
+      "HONOR_RECORD_TITLE",
+      "30",
+      "000000"
+    ]
+  },
+  {
     "ChapterIndex": 1,
-    "PositionX": 899,
-    "PositionY": 458,
+    "PositionX": 813,
+    "PositionY": 362,
     "Scale": 100,
     "PropType": "Prefab",
     "PropName": "DefaultLabel_3",
@@ -129,8 +161,8 @@
   },
   {
     "ChapterIndex": 1,
-    "PositionX": -453,
-    "PositionY": 671,
+    "PositionX": -457,
+    "PositionY": 695,
     "Scale": 100,
     "PropType": "Prefab",
     "PropName": "DefaultLabel_3",
@@ -661,8 +693,8 @@
   },
   {
     "ChapterIndex": 99,
-    "PositionX": 566,
-    "PositionY": 10,
+    "PositionX": 517,
+    "PositionY": -507,
     "Scale": 140,
     "PropType": "Effect",
     "PropName": "UI.EventPopup",
@@ -708,8 +740,8 @@
   },
   {
     "ChapterIndex": 99,
-    "PositionX": 490,
-    "PositionY": -86,
+    "PositionX": 517,
+    "PositionY": -507,
     "Scale": 140,
     "PropType": "Effect",
     "PropName": "UI.EventPopup",
@@ -722,7 +754,7 @@
   {
     "ChapterIndex": 99,
     "PositionX": -875,
-    "PositionY": -159,
+    "PositionY": -676,
     "Scale": 140,
     "PropType": "Effect",
     "PropName": "UI.NewPopup",
@@ -737,7 +769,7 @@
   {
     "ChapterIndex": 99,
     "PositionX": -875,
-    "PositionY": -109,
+    "PositionY": -626,
     "Scale": 140,
     "PropType": "Effect",
     "PropName": "UI.NewPopup",
@@ -761,6 +793,15 @@
       "EventShop",
       "ChildrensRainbowShop"
     ]
+  },
+  {
+    "ChapterIndex": 99,
+    "PositionX": -600,
+    "PositionY": 1000,
+    "Scale": 140,
+    "PropType": "Effect",
+    "PropName": "UI.NewPopup",
+    "ConditionType": "MonthlyHeroRewardable"
   },
   {
     "ChapterIndex": 995,
@@ -1480,6 +1521,51 @@
       "97",
       "2",
       "true"
+    ]
+  },
+  {
+    "ChapterIndex": 99,
+    "PositionX": 180,
+    "PositionY": 646,
+    "Scale": 100,
+    "PropType": "Prefab",
+    "PropName": "RenderFacadeProp",
+    "PropAction": [
+      "SetHonorRenderFacade",
+      "WorldBoss",
+      "120",
+      "270",
+      "-10"
+    ]
+  },
+  {
+    "ChapterIndex": 99,
+    "PositionX": -13,
+    "PositionY": 634,
+    "Scale": 100,
+    "PropType": "Prefab",
+    "PropName": "RenderFacadeProp",
+    "PropAction": [
+      "SetHonorRenderFacade",
+      "BanPick",
+      "120",
+      "270",
+      "0"
+    ]
+  },
+  {
+    "ChapterIndex": 99,
+    "PositionX": 368,
+    "PositionY": 655,
+    "Scale": 100,
+    "PropType": "Prefab",
+    "PropName": "RenderFacadeProp",
+    "PropAction": [
+      "SetHonorRenderFacade",
+      "GuildSuppress",
+      "120",
+      "270",
+      "-18"
     ]
   }
 ]

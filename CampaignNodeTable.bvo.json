@@ -105,7 +105,8 @@
     "UiPositionX": 717,
     "UiPositionY": 1426,
     "NextNodeIndex": [
-      "104"
+      "104",
+      "31"
     ],
     "Oneway": "False",
     "Opened": "False",
@@ -264,7 +265,8 @@
     "UiPositionX": 3276,
     "UiPositionY": 1292,
     "NextNodeIndex": [
-      "113"
+      "113",
+      "32"
     ],
     "Oneway": "False",
     "Opened": "False",
@@ -390,7 +392,8 @@
     "UiPositionX": 2882,
     "UiPositionY": 390,
     "NextNodeIndex": [
-      "127"
+      "127",
+      "33"
     ],
     "Oneway": "False",
     "Opened": "False",
@@ -456,6 +459,51 @@
     "Oneway": "False",
     "Opened": "False",
     "PortalImageCode": "ChapterMap.LamusPlain"
+  },
+  {
+    "ChapterIndex": 1,
+    "DungeonIndex": 31,
+    "NodePrefab": "DecoNameMainField",
+    "FunctionButton": "SubStoryEvent",
+    "Function": "SubStoryEvent",
+    "Code": [
+      "1-4-1",
+      "True"
+    ],
+    "UiPositionX": 448,
+    "UiPositionY": 1522,
+    "Oneway": "False",
+    "Opened": "False"
+  },
+  {
+    "ChapterIndex": 1,
+    "DungeonIndex": 32,
+    "NodePrefab": "DecoNameMainField",
+    "FunctionButton": "SubStoryEvent",
+    "Function": "SubStoryEvent",
+    "Code": [
+      "1-12-1",
+      "True"
+    ],
+    "UiPositionX": 3072,
+    "UiPositionY": 1168,
+    "Oneway": "False",
+    "Opened": "False"
+  },
+  {
+    "ChapterIndex": 1,
+    "DungeonIndex": 33,
+    "NodePrefab": "DecoNameMainField",
+    "FunctionButton": "SubStoryEvent",
+    "Function": "SubStoryEvent",
+    "Code": [
+      "1-20-2",
+      "True"
+    ],
+    "UiPositionX": 3057,
+    "UiPositionY": 569,
+    "Oneway": "False",
+    "Opened": "False"
   },
   {
     "ChapterIndex": 1,
@@ -11429,8 +11477,8 @@
       "28",
       "Down"
     ],
-    "UiPositionX": 3518,
-    "UiPositionY": 1589,
+    "UiPositionX": 3536,
+    "UiPositionY": 2604,
     "NextNodeIndex": [
       "101"
     ],
@@ -11451,8 +11499,8 @@
     "Code": [
       "NODE_PUB_NAME"
     ],
-    "UiPositionX": 3208,
-    "UiPositionY": 1392,
+    "UiPositionX": 3256,
+    "UiPositionY": 2426,
     "Oneway": "False",
     "Opened": "True",
     "PortalNameCode": "NODE_PUB_NAME",
@@ -11470,8 +11518,8 @@
     "Code": [
       "NODE_PRISON_NAME"
     ],
-    "UiPositionX": 3144,
-    "UiPositionY": 797,
+    "UiPositionX": 3252,
+    "UiPositionY": 1824,
     "Oneway": "False",
     "Opened": "True",
     "PortalPositionX": 2210,
@@ -11496,8 +11544,8 @@
     "Value": [
       "Arena"
     ],
-    "UiPositionX": 2929,
-    "UiPositionY": 694,
+    "UiPositionX": 2928,
+    "UiPositionY": 1772,
     "Oneway": "False",
     "Opened": "True",
     "PortalPositionX": 2210,
@@ -11527,8 +11575,8 @@
       "995",
       "9"
     ],
-    "UiPositionX": 2233,
-    "UiPositionY": 853,
+    "UiPositionX": 2224,
+    "UiPositionY": 1886,
     "Oneway": "False",
     "Opened": "True",
     "EntryNPCCode": "GuildOffice",
@@ -11547,8 +11595,8 @@
     "Value": [
       "Royal"
     ],
-    "UiPositionX": 1280,
-    "UiPositionY": 911,
+    "UiPositionX": 1272,
+    "UiPositionY": 1920,
     "Oneway": "False",
     "Opened": "True",
     "EntryNPCCode": "RoyalShop",
@@ -11564,8 +11612,8 @@
     "Code": [
       "NODE_SHOP_TOWN"
     ],
-    "UiPositionX": 1155,
-    "UiPositionY": 1458,
+    "UiPositionX": 1160,
+    "UiPositionY": 2512,
     "Oneway": "False",
     "Opened": "True",
     "PortalPositionX": 2210,
@@ -11586,8 +11634,8 @@
     "Code": [
       "NODE_FORGE_NAME"
     ],
-    "UiPositionX": 1926,
-    "UiPositionY": 1678,
+    "UiPositionX": 1924,
+    "UiPositionY": 2712,
     "Oneway": "False",
     "Opened": "True",
     "EntryNPCCode": "Forge",
@@ -11602,8 +11650,8 @@
     "Code": [
       "NODE_SQUARE_NAME"
     ],
-    "UiPositionX": 2516,
-    "UiPositionY": 1346,
+    "UiPositionX": 2536,
+    "UiPositionY": 2380,
     "NextNodeIndex": [
       "129",
       "103"
@@ -11623,8 +11671,8 @@
     "Code": [
       "NODE_SQUARE_NAME"
     ],
-    "UiPositionX": 2516,
-    "UiPositionY": 1346,
+    "UiPositionX": 2536,
+    "UiPositionY": 2380,
     "NextNodeIndex": [
       "129",
       "103"
@@ -11644,8 +11692,8 @@
     "Code": [
       "NODE_SQUARE_NAME"
     ],
-    "UiPositionX": 2516,
-    "UiPositionY": 1346,
+    "UiPositionX": 2536,
+    "UiPositionY": 2380,
     "NextNodeIndex": [
       "129",
       "103"
@@ -11665,8 +11713,8 @@
     "Code": [
       "NODE_SQUARE_NAME"
     ],
-    "UiPositionX": 2516,
-    "UiPositionY": 1346,
+    "UiPositionX": 2536,
+    "UiPositionY": 2380,
     "NextNodeIndex": [
       "129",
       "103"
@@ -11686,8 +11734,8 @@
     "Code": [
       "NODE_SQUARE_NAME"
     ],
-    "UiPositionX": 2516,
-    "UiPositionY": 1346,
+    "UiPositionX": 2536,
+    "UiPositionY": 2380,
     "NextNodeIndex": [
       "129",
       "103"
@@ -11707,8 +11755,8 @@
     "Code": [
       "NODE_SQUARE_NAME"
     ],
-    "UiPositionX": 2516,
-    "UiPositionY": 1346,
+    "UiPositionX": 2536,
+    "UiPositionY": 2380,
     "NextNodeIndex": [
       "129",
       "103"
@@ -11728,8 +11776,8 @@
     "Code": [
       "NODE_SQUARE_NAME"
     ],
-    "UiPositionX": 2516,
-    "UiPositionY": 1346,
+    "UiPositionX": 2536,
+    "UiPositionY": 2380,
     "NextNodeIndex": [
       "129",
       "103"
@@ -11749,8 +11797,8 @@
     "Code": [
       "NODE_SQUARE_NAME"
     ],
-    "UiPositionX": 2516,
-    "UiPositionY": 1346,
+    "UiPositionX": 2536,
+    "UiPositionY": 2380,
     "NextNodeIndex": [
       "129",
       "103"
@@ -11770,8 +11818,8 @@
     "Code": [
       "NODE_SQUARE_NAME"
     ],
-    "UiPositionX": 2516,
-    "UiPositionY": 1346,
+    "UiPositionX": 2536,
+    "UiPositionY": 2380,
     "NextNodeIndex": [
       "129",
       "103"
@@ -11791,8 +11839,8 @@
     "Code": [
       "NODE_SQUARE_NAME"
     ],
-    "UiPositionX": 2516,
-    "UiPositionY": 1346,
+    "UiPositionX": 2536,
+    "UiPositionY": 2380,
     "NextNodeIndex": [
       "129",
       "103"
@@ -11812,8 +11860,8 @@
     "Code": [
       "NODE_SQUARE_NAME"
     ],
-    "UiPositionX": 2516,
-    "UiPositionY": 1346,
+    "UiPositionX": 2536,
+    "UiPositionY": 2380,
     "NextNodeIndex": [
       "129",
       "103"
@@ -11833,8 +11881,8 @@
     "Code": [
       "NODE_SQUARE_NAME"
     ],
-    "UiPositionX": 2516,
-    "UiPositionY": 1346,
+    "UiPositionX": 2536,
+    "UiPositionY": 2380,
     "NextNodeIndex": [
       "129",
       "103"
@@ -11854,8 +11902,8 @@
     "Code": [
       "NODE_SQUARE_NAME"
     ],
-    "UiPositionX": 2516,
-    "UiPositionY": 1346,
+    "UiPositionX": 2536,
+    "UiPositionY": 2380,
     "NextNodeIndex": [
       "129",
       "103"
@@ -11875,8 +11923,8 @@
     "Code": [
       "NODE_SQUARE_NAME"
     ],
-    "UiPositionX": 2516,
-    "UiPositionY": 1346,
+    "UiPositionX": 2536,
+    "UiPositionY": 2380,
     "NextNodeIndex": [
       "129",
       "103"
@@ -11896,8 +11944,8 @@
     "Code": [
       "NODE_SQUARE_NAME"
     ],
-    "UiPositionX": 2516,
-    "UiPositionY": 1346,
+    "UiPositionX": 2536,
+    "UiPositionY": 2380,
     "NextNodeIndex": [
       "129",
       "103"
@@ -11917,8 +11965,8 @@
     "Code": [
       "NODE_SQUARE_NAME"
     ],
-    "UiPositionX": 2516,
-    "UiPositionY": 1346,
+    "UiPositionX": 2536,
+    "UiPositionY": 2380,
     "NextNodeIndex": [
       "129",
       "103"
@@ -11938,15 +11986,31 @@
     "Code": [
       "HONORARY_TEXT"
     ],
-    "UiPositionX": 2480,
-    "UiPositionY": 660,
+    "UiPositionX": 2278,
+    "UiPositionY": 1233,
     "Opened": "True"
   },
   {
     "ChapterIndex": 99,
+    "DungeonIndex": 27,
+    "NodePrefab": "Library",
+    "FunctionButton": "Library",
+    "Function": "EntryMenu",
+    "Code": [
+      "NODE_LIBRARY_NAME"
+    ],
+    "UiPositionX": 1454,
+    "UiPositionY": 810,
+    "Oneway": "False",
+    "Opened": "True",
+    "EntryNPCCode": "Library",
+    "ContentsType": "Library"
+  },
+  {
+    "ChapterIndex": 99,
     "DungeonIndex": 101,
-    "UiPositionX": 3241,
-    "UiPositionY": 1503,
+    "UiPositionX": 3221,
+    "UiPositionY": 2537,
     "NextNodeIndex": [
       "2",
       "102"
@@ -11957,8 +12021,8 @@
   {
     "ChapterIndex": 99,
     "DungeonIndex": 102,
-    "UiPositionX": 3072,
-    "UiPositionY": 1440,
+    "UiPositionX": 3052,
+    "UiPositionY": 2474,
     "NextNodeIndex": [
       "103",
       "2"
@@ -11969,8 +12033,8 @@
   {
     "ChapterIndex": 99,
     "DungeonIndex": 103,
-    "UiPositionX": 2684,
-    "UiPositionY": 1334,
+    "UiPositionX": 2664,
+    "UiPositionY": 2368,
     "NextNodeIndex": [
       "104"
     ],
@@ -11980,8 +12044,8 @@
   {
     "ChapterIndex": 99,
     "DungeonIndex": 104,
-    "UiPositionX": 2628,
-    "UiPositionY": 1259,
+    "UiPositionX": 2608,
+    "UiPositionY": 2293,
     "NextNodeIndex": [
       "105"
     ],
@@ -11991,8 +12055,8 @@
   {
     "ChapterIndex": 99,
     "DungeonIndex": 105,
-    "UiPositionX": 2646,
-    "UiPositionY": 1154,
+    "UiPositionX": 2626,
+    "UiPositionY": 2188,
     "NextNodeIndex": [
       "106"
     ],
@@ -12002,8 +12066,8 @@
   {
     "ChapterIndex": 99,
     "DungeonIndex": 106,
-    "UiPositionX": 2616,
-    "UiPositionY": 1046,
+    "UiPositionX": 2596,
+    "UiPositionY": 2080,
     "NextNodeIndex": [
       "107",
       "110"
@@ -12014,8 +12078,8 @@
   {
     "ChapterIndex": 99,
     "DungeonIndex": 107,
-    "UiPositionX": 2674,
-    "UiPositionY": 956,
+    "UiPositionX": 2654,
+    "UiPositionY": 1990,
     "NextNodeIndex": [
       "108"
     ],
@@ -12025,8 +12089,8 @@
   {
     "ChapterIndex": 99,
     "DungeonIndex": 108,
-    "UiPositionX": 2796,
-    "UiPositionY": 866,
+    "UiPositionX": 2776,
+    "UiPositionY": 1900,
     "NextNodeIndex": [
       "109"
     ],
@@ -12036,8 +12100,8 @@
   {
     "ChapterIndex": 99,
     "DungeonIndex": 109,
-    "UiPositionX": 2918,
-    "UiPositionY": 797,
+    "UiPositionX": 2898,
+    "UiPositionY": 1831,
     "NextNodeIndex": [
       "3",
       "4"
@@ -12048,11 +12112,12 @@
   {
     "ChapterIndex": 99,
     "DungeonIndex": 110,
-    "UiPositionX": 2485,
-    "UiPositionY": 982,
+    "UiPositionX": 2465,
+    "UiPositionY": 2016,
     "NextNodeIndex": [
       "111",
-      "108"
+      "108",
+      "132"
     ],
     "Oneway": "False",
     "Opened": "False"
@@ -12060,11 +12125,12 @@
   {
     "ChapterIndex": 99,
     "DungeonIndex": 111,
-    "UiPositionX": 2339,
-    "UiPositionY": 941,
+    "UiPositionX": 2319,
+    "UiPositionY": 1975,
     "NextNodeIndex": [
       "112",
-      "5"
+      "5",
+      "132"
     ],
     "Oneway": "False",
     "Opened": "False"
@@ -12072,8 +12138,8 @@
   {
     "ChapterIndex": 99,
     "DungeonIndex": 112,
-    "UiPositionX": 2156,
-    "UiPositionY": 945,
+    "UiPositionX": 2136,
+    "UiPositionY": 1979,
     "NextNodeIndex": [
       "113",
       "5"
@@ -12084,8 +12150,8 @@
   {
     "ChapterIndex": 99,
     "DungeonIndex": 113,
-    "UiPositionX": 1997,
-    "UiPositionY": 971,
+    "UiPositionX": 1977,
+    "UiPositionY": 2005,
     "NextNodeIndex": [
       "114"
     ],
@@ -12095,8 +12161,8 @@
   {
     "ChapterIndex": 99,
     "DungeonIndex": 114,
-    "UiPositionX": 1866,
-    "UiPositionY": 1026,
+    "UiPositionX": 1846,
+    "UiPositionY": 2060,
     "NextNodeIndex": [
       "115"
     ],
@@ -12106,8 +12172,8 @@
   {
     "ChapterIndex": 99,
     "DungeonIndex": 115,
-    "UiPositionX": 1792,
-    "UiPositionY": 1101,
+    "UiPositionX": 1772,
+    "UiPositionY": 2135,
     "NextNodeIndex": [
       "116",
       "118"
@@ -12118,8 +12184,8 @@
   {
     "ChapterIndex": 99,
     "DungeonIndex": 116,
-    "UiPositionX": 1634,
-    "UiPositionY": 1046,
+    "UiPositionX": 1614,
+    "UiPositionY": 2080,
     "NextNodeIndex": [
       "117"
     ],
@@ -12129,8 +12195,8 @@
   {
     "ChapterIndex": 99,
     "DungeonIndex": 117,
-    "UiPositionX": 1454,
-    "UiPositionY": 982,
+    "UiPositionX": 1434,
+    "UiPositionY": 2016,
     "NextNodeIndex": [
       "6"
     ],
@@ -12140,8 +12206,8 @@
   {
     "ChapterIndex": 99,
     "DungeonIndex": 118,
-    "UiPositionX": 1783,
-    "UiPositionY": 1191,
+    "UiPositionX": 1763,
+    "UiPositionY": 2225,
     "NextNodeIndex": [
       "119"
     ],
@@ -12151,8 +12217,8 @@
   {
     "ChapterIndex": 99,
     "DungeonIndex": 119,
-    "UiPositionX": 1829,
-    "UiPositionY": 1275,
+    "UiPositionX": 1809,
+    "UiPositionY": 2309,
     "NextNodeIndex": [
       "120",
       "126"
@@ -12163,8 +12229,8 @@
   {
     "ChapterIndex": 99,
     "DungeonIndex": 120,
-    "UiPositionX": 1754,
-    "UiPositionY": 1388,
+    "UiPositionX": 1734,
+    "UiPositionY": 2422,
     "NextNodeIndex": [
       "121",
       "127"
@@ -12175,8 +12241,8 @@
   {
     "ChapterIndex": 99,
     "DungeonIndex": 121,
-    "UiPositionX": 1656,
-    "UiPositionY": 1511,
+    "UiPositionX": 1636,
+    "UiPositionY": 2545,
     "NextNodeIndex": [
       "122",
       "127"
@@ -12187,8 +12253,8 @@
   {
     "ChapterIndex": 99,
     "DungeonIndex": 122,
-    "UiPositionX": 1566,
-    "UiPositionY": 1627,
+    "UiPositionX": 1546,
+    "UiPositionY": 2661,
     "NextNodeIndex": [
       "123",
       "125"
@@ -12199,8 +12265,8 @@
   {
     "ChapterIndex": 99,
     "DungeonIndex": 123,
-    "UiPositionX": 1429,
-    "UiPositionY": 1525,
+    "UiPositionX": 1409,
+    "UiPositionY": 2559,
     "NextNodeIndex": [
       "124"
     ],
@@ -12210,8 +12276,8 @@
   {
     "ChapterIndex": 99,
     "DungeonIndex": 124,
-    "UiPositionX": 1247,
-    "UiPositionY": 1497,
+    "UiPositionX": 1227,
+    "UiPositionY": 2531,
     "NextNodeIndex": [
       "8"
     ],
@@ -12221,8 +12287,8 @@
   {
     "ChapterIndex": 99,
     "DungeonIndex": 125,
-    "UiPositionX": 1773,
-    "UiPositionY": 1641,
+    "UiPositionX": 1753,
+    "UiPositionY": 2675,
     "NextNodeIndex": [
       "9"
     ],
@@ -12232,8 +12298,8 @@
   {
     "ChapterIndex": 99,
     "DungeonIndex": 126,
-    "UiPositionX": 1941,
-    "UiPositionY": 1346,
+    "UiPositionX": 1921,
+    "UiPositionY": 2380,
     "NextNodeIndex": [
       "127",
       "120"
@@ -12244,8 +12310,8 @@
   {
     "ChapterIndex": 99,
     "DungeonIndex": 127,
-    "UiPositionX": 2090,
-    "UiPositionY": 1388,
+    "UiPositionX": 2070,
+    "UiPositionY": 2422,
     "NextNodeIndex": [
       "128",
       "121"
@@ -12256,8 +12322,8 @@
   {
     "ChapterIndex": 99,
     "DungeonIndex": 128,
-    "UiPositionX": 2244,
-    "UiPositionY": 1399,
+    "UiPositionX": 2224,
+    "UiPositionY": 2433,
     "NextNodeIndex": [
       "129",
       "131"
@@ -12268,8 +12334,8 @@
   {
     "ChapterIndex": 99,
     "DungeonIndex": 129,
-    "UiPositionX": 2401,
-    "UiPositionY": 1376,
+    "UiPositionX": 2381,
+    "UiPositionY": 2410,
     "NextNodeIndex": [
       "130"
     ],
@@ -12279,8 +12345,8 @@
   {
     "ChapterIndex": 99,
     "DungeonIndex": 130,
-    "UiPositionX": 2516,
-    "UiPositionY": 1346,
+    "UiPositionX": 2496,
+    "UiPositionY": 2380,
     "NextNodeIndex": [
       "103",
       "104"
@@ -12291,11 +12357,181 @@
   {
     "ChapterIndex": 99,
     "DungeonIndex": 131,
-    "UiPositionX": 2144,
-    "UiPositionY": 1532,
+    "UiPositionX": 2124,
+    "UiPositionY": 2566,
     "NextNodeIndex": [
       "9",
       "128"
+    ],
+    "Oneway": "False",
+    "Opened": "False"
+  },
+  {
+    "ChapterIndex": 99,
+    "DungeonIndex": 132,
+    "UiPositionX": 2403,
+    "UiPositionY": 1916,
+    "NextNodeIndex": [
+      "133"
+    ],
+    "Oneway": "False",
+    "Opened": "False"
+  },
+  {
+    "ChapterIndex": 99,
+    "DungeonIndex": 133,
+    "UiPositionX": 2451,
+    "UiPositionY": 1815,
+    "NextNodeIndex": [
+      "134",
+      "145",
+      "5"
+    ],
+    "Oneway": "False",
+    "Opened": "False"
+  },
+  {
+    "ChapterIndex": 99,
+    "DungeonIndex": 134,
+    "UiPositionX": 2415,
+    "UiPositionY": 1698,
+    "NextNodeIndex": [
+      "135",
+      "145"
+    ],
+    "Oneway": "False",
+    "Opened": "False"
+  },
+  {
+    "ChapterIndex": 99,
+    "DungeonIndex": 135,
+    "UiPositionX": 2340,
+    "UiPositionY": 1586,
+    "NextNodeIndex": [
+      "136"
+    ],
+    "Oneway": "False",
+    "Opened": "False"
+  },
+  {
+    "ChapterIndex": 99,
+    "DungeonIndex": 136,
+    "UiPositionX": 2321,
+    "UiPositionY": 1459,
+    "NextNodeIndex": [
+      "137"
+    ],
+    "Oneway": "False",
+    "Opened": "False"
+  },
+  {
+    "ChapterIndex": 99,
+    "DungeonIndex": 137,
+    "UiPositionX": 2260,
+    "UiPositionY": 1357,
+    "NextNodeIndex": [
+      "138",
+      "26"
+    ],
+    "Oneway": "False",
+    "Opened": "False"
+  },
+  {
+    "ChapterIndex": 99,
+    "DungeonIndex": 138,
+    "UiPositionX": 2111,
+    "UiPositionY": 1278,
+    "NextNodeIndex": [
+      "139",
+      "26"
+    ],
+    "Oneway": "False",
+    "Opened": "False"
+  },
+  {
+    "ChapterIndex": 99,
+    "DungeonIndex": 139,
+    "UiPositionX": 1971,
+    "UiPositionY": 1220,
+    "NextNodeIndex": [
+      "140"
+    ],
+    "Oneway": "False",
+    "Opened": "False"
+  },
+  {
+    "ChapterIndex": 99,
+    "DungeonIndex": 140,
+    "UiPositionX": 1783,
+    "UiPositionY": 1134,
+    "NextNodeIndex": [
+      "141"
+    ],
+    "Oneway": "False",
+    "Opened": "False"
+  },
+  {
+    "ChapterIndex": 99,
+    "DungeonIndex": 141,
+    "UiPositionX": 1667,
+    "UiPositionY": 1048,
+    "NextNodeIndex": [
+      "142"
+    ],
+    "Oneway": "False",
+    "Opened": "False"
+  },
+  {
+    "ChapterIndex": 99,
+    "DungeonIndex": 142,
+    "UiPositionX": 1529,
+    "UiPositionY": 990,
+    "NextNodeIndex": [
+      "143"
+    ],
+    "Oneway": "False",
+    "Opened": "False"
+  },
+  {
+    "ChapterIndex": 99,
+    "DungeonIndex": 143,
+    "UiPositionX": 1411,
+    "UiPositionY": 965,
+    "NextNodeIndex": [
+      "144"
+    ],
+    "Oneway": "False",
+    "Opened": "False"
+  },
+  {
+    "ChapterIndex": 99,
+    "DungeonIndex": 144,
+    "UiPositionX": 1384,
+    "UiPositionY": 888,
+    "NextNodeIndex": [
+      "27"
+    ],
+    "Oneway": "False",
+    "Opened": "False"
+  },
+  {
+    "ChapterIndex": 99,
+    "DungeonIndex": 145,
+    "UiPositionX": 2583,
+    "UiPositionY": 1741,
+    "NextNodeIndex": [
+      "146"
+    ],
+    "Oneway": "False",
+    "Opened": "False"
+  },
+  {
+    "ChapterIndex": 99,
+    "DungeonIndex": 146,
+    "UiPositionX": 2747,
+    "UiPositionY": 1759,
+    "NextNodeIndex": [
+      "4"
     ],
     "Oneway": "False",
     "Opened": "False"
@@ -14510,8 +14746,8 @@
     "Oneway": "False",
     "Opened": "False",
     "ResetNodeIndex": [
-      "1",
-      "26"
+      "99",
+      "27"
     ]
   },
   {
@@ -14528,8 +14764,8 @@
     "Oneway": "False",
     "Opened": "False",
     "ResetNodeIndex": [
-      "1",
-      "26"
+      "99",
+      "27"
     ],
     "EntryNPCCode": "SubStoryBoss01",
     "ControlNPC": "True"
@@ -14548,8 +14784,8 @@
     "Oneway": "False",
     "Opened": "False",
     "ResetNodeIndex": [
-      "1",
-      "26"
+      "99",
+      "27"
     ]
   },
   {
@@ -14566,8 +14802,8 @@
     "Oneway": "False",
     "Opened": "False",
     "ResetNodeIndex": [
-      "1",
-      "26"
+      "99",
+      "27"
     ],
     "EntryNPCCode": "SubStoryBoss02",
     "ControlNPC": "True"
@@ -14586,8 +14822,8 @@
     "Oneway": "False",
     "Opened": "False",
     "ResetNodeIndex": [
-      "1",
-      "26"
+      "99",
+      "27"
     ],
     "EntryNPCCode": "SubStoryBoss03",
     "ControlNPC": "True"
@@ -14606,8 +14842,8 @@
     "Oneway": "False",
     "Opened": "False",
     "ResetNodeIndex": [
-      "1",
-      "26"
+      "99",
+      "27"
     ],
     "EntryNPCCode": "SubStoryBoss04",
     "ControlNPC": "True"
@@ -14626,8 +14862,8 @@
     "Oneway": "False",
     "Opened": "False",
     "ResetNodeIndex": [
-      "1",
-      "26"
+      "99",
+      "27"
     ]
   },
   {
@@ -14644,8 +14880,8 @@
     "Oneway": "False",
     "Opened": "False",
     "ResetNodeIndex": [
-      "1",
-      "26"
+      "99",
+      "27"
     ],
     "EntryNPCCode": "SubStoryBoss05",
     "ControlNPC": "True"
@@ -14661,8 +14897,8 @@
     "Oneway": "False",
     "Opened": "False",
     "ResetNodeIndex": [
-      "1",
-      "26"
+      "99",
+      "27"
     ],
     "PortalNameCode": "NODE_SUBSTORYBOSS_NAME"
   },
@@ -14679,8 +14915,8 @@
     "Oneway": "False",
     "Opened": "False",
     "ResetNodeIndex": [
-      "1",
-      "26"
+      "99",
+      "27"
     ]
   },
   {
@@ -14696,8 +14932,8 @@
     "Oneway": "False",
     "Opened": "False",
     "ResetNodeIndex": [
-      "1",
-      "26"
+      "99",
+      "27"
     ]
   },
   {
@@ -14713,8 +14949,8 @@
     "Oneway": "False",
     "Opened": "False",
     "ResetNodeIndex": [
-      "1",
-      "26"
+      "99",
+      "27"
     ]
   },
   {
@@ -14730,8 +14966,8 @@
     "Oneway": "False",
     "Opened": "False",
     "ResetNodeIndex": [
-      "1",
-      "26"
+      "99",
+      "27"
     ]
   },
   {
@@ -14747,8 +14983,8 @@
     "Oneway": "False",
     "Opened": "False",
     "ResetNodeIndex": [
-      "1",
-      "26"
+      "99",
+      "27"
     ]
   },
   {
@@ -14764,8 +15000,8 @@
     "Oneway": "False",
     "Opened": "False",
     "ResetNodeIndex": [
-      "1",
-      "26"
+      "99",
+      "27"
     ]
   },
   {
@@ -14781,8 +15017,8 @@
     "Oneway": "False",
     "Opened": "False",
     "ResetNodeIndex": [
-      "1",
-      "26"
+      "99",
+      "27"
     ]
   },
   {
@@ -14796,8 +15032,8 @@
     "Oneway": "False",
     "Opened": "True",
     "ResetNodeIndex": [
-      "1",
-      "26"
+      "99",
+      "27"
     ]
   },
   {
@@ -14814,8 +15050,8 @@
     "Oneway": "False",
     "Opened": "False",
     "ResetNodeIndex": [
-      "1",
-      "26"
+      "99",
+      "27"
     ]
   },
   {
@@ -14832,8 +15068,8 @@
     "Oneway": "False",
     "Opened": "False",
     "ResetNodeIndex": [
-      "1",
-      "26"
+      "99",
+      "27"
     ],
     "EntryNPCCode": "SubStoryBoss06",
     "ControlNPC": "True"
@@ -14852,8 +15088,8 @@
     "Oneway": "False",
     "Opened": "False",
     "ResetNodeIndex": [
-      "1",
-      "26"
+      "99",
+      "27"
     ]
   },
   {
@@ -14870,8 +15106,8 @@
     "Oneway": "False",
     "Opened": "False",
     "ResetNodeIndex": [
-      "1",
-      "26"
+      "99",
+      "27"
     ],
     "EntryNPCCode": "SubStoryBoss01",
     "ControlNPC": "True"
@@ -14887,8 +15123,8 @@
     "Oneway": "False",
     "Opened": "False",
     "ResetNodeIndex": [
-      "1",
-      "26"
+      "99",
+      "27"
     ],
     "PortalNameCode": "NODE_SUBSTORYBOSS_NAME"
   },
@@ -14905,8 +15141,8 @@
     "Oneway": "False",
     "Opened": "False",
     "ResetNodeIndex": [
-      "1",
-      "26"
+      "99",
+      "27"
     ]
   },
   {
@@ -14922,8 +15158,8 @@
     "Oneway": "False",
     "Opened": "False",
     "ResetNodeIndex": [
-      "1",
-      "26"
+      "99",
+      "27"
     ]
   },
   {
@@ -14939,8 +15175,8 @@
     "Oneway": "False",
     "Opened": "False",
     "ResetNodeIndex": [
-      "1",
-      "26"
+      "99",
+      "27"
     ]
   },
   {
@@ -14956,8 +15192,8 @@
     "Oneway": "False",
     "Opened": "False",
     "ResetNodeIndex": [
-      "1",
-      "26"
+      "99",
+      "27"
     ]
   },
   {
@@ -14973,8 +15209,8 @@
     "Oneway": "False",
     "Opened": "False",
     "ResetNodeIndex": [
-      "1",
-      "26"
+      "99",
+      "27"
     ]
   },
   {
@@ -14986,8 +15222,8 @@
     "Oneway": "False",
     "Opened": "True",
     "ResetNodeIndex": [
-      "1",
-      "26"
+      "99",
+      "27"
     ]
   },
   {
@@ -15004,8 +15240,8 @@
     "Oneway": "False",
     "Opened": "False",
     "ResetNodeIndex": [
-      "1",
-      "26"
+      "99",
+      "27"
     ]
   },
   {
@@ -15022,8 +15258,8 @@
     "Oneway": "False",
     "Opened": "False",
     "ResetNodeIndex": [
-      "1",
-      "26"
+      "99",
+      "27"
     ],
     "EntryNPCCode": "SubStoryBoss05",
     "ControlNPC": "True"
@@ -15042,8 +15278,8 @@
     "Oneway": "False",
     "Opened": "False",
     "ResetNodeIndex": [
-      "1",
-      "26"
+      "99",
+      "27"
     ],
     "EntryNPCCode": "SubStoryBoss07",
     "ControlNPC": "True"
@@ -15062,8 +15298,8 @@
     "Oneway": "False",
     "Opened": "False",
     "ResetNodeIndex": [
-      "1",
-      "26"
+      "99",
+      "27"
     ],
     "EntryNPCCode": "SubStoryBoss08",
     "ControlNPC": "True"
@@ -15082,8 +15318,8 @@
     "Oneway": "False",
     "Opened": "False",
     "ResetNodeIndex": [
-      "1",
-      "26"
+      "99",
+      "27"
     ]
   },
   {
@@ -15100,8 +15336,8 @@
     "Oneway": "False",
     "Opened": "False",
     "ResetNodeIndex": [
-      "1",
-      "26"
+      "99",
+      "27"
     ],
     "EntryNPCCode": "SubStoryBoss09",
     "ControlNPC": "True"
@@ -15120,8 +15356,8 @@
     "Oneway": "False",
     "Opened": "False",
     "ResetNodeIndex": [
-      "1",
-      "26"
+      "99",
+      "27"
     ],
     "EntryNPCCode": "SubStoryBoss10",
     "ControlNPC": "True"
@@ -15137,8 +15373,8 @@
     "Oneway": "False",
     "Opened": "False",
     "ResetNodeIndex": [
-      "1",
-      "26"
+      "99",
+      "27"
     ],
     "PortalNameCode": "NODE_SUBSTORYBOSS_NAME"
   },
@@ -15155,8 +15391,8 @@
     "Oneway": "False",
     "Opened": "False",
     "ResetNodeIndex": [
-      "1",
-      "26"
+      "99",
+      "27"
     ]
   },
   {
@@ -15172,8 +15408,8 @@
     "Oneway": "False",
     "Opened": "False",
     "ResetNodeIndex": [
-      "1",
-      "26"
+      "99",
+      "27"
     ]
   },
   {
@@ -15189,8 +15425,8 @@
     "Oneway": "False",
     "Opened": "False",
     "ResetNodeIndex": [
-      "1",
-      "26"
+      "99",
+      "27"
     ]
   },
   {
@@ -15206,8 +15442,8 @@
     "Oneway": "False",
     "Opened": "False",
     "ResetNodeIndex": [
-      "1",
-      "26"
+      "99",
+      "27"
     ]
   },
   {
@@ -15223,8 +15459,8 @@
     "Oneway": "False",
     "Opened": "False",
     "ResetNodeIndex": [
-      "1",
-      "26"
+      "99",
+      "27"
     ]
   },
   {
@@ -15240,8 +15476,8 @@
     "Oneway": "False",
     "Opened": "False",
     "ResetNodeIndex": [
-      "1",
-      "26"
+      "99",
+      "27"
     ]
   },
   {
@@ -15257,8 +15493,8 @@
     "Oneway": "False",
     "Opened": "False",
     "ResetNodeIndex": [
-      "1",
-      "26"
+      "99",
+      "27"
     ]
   },
   {
@@ -15274,8 +15510,8 @@
     "Oneway": "False",
     "Opened": "False",
     "ResetNodeIndex": [
-      "1",
-      "26"
+      "99",
+      "27"
     ]
   },
   {
@@ -15291,8 +15527,8 @@
     "Oneway": "False",
     "Opened": "False",
     "ResetNodeIndex": [
-      "1",
-      "26"
+      "99",
+      "27"
     ]
   },
   {
@@ -15308,8 +15544,8 @@
     "Oneway": "False",
     "Opened": "False",
     "ResetNodeIndex": [
-      "1",
-      "26"
+      "99",
+      "27"
     ]
   },
   {
@@ -15321,8 +15557,8 @@
     "Oneway": "False",
     "Opened": "True",
     "ResetNodeIndex": [
-      "1",
-      "26"
+      "99",
+      "27"
     ]
   },
   {
@@ -15339,8 +15575,8 @@
     "Oneway": "False",
     "Opened": "False",
     "ResetNodeIndex": [
-      "1",
-      "26"
+      "99",
+      "27"
     ],
     "EntryNPCCode": "SubStoryBoss11",
     "ControlNPC": "True"
@@ -15359,8 +15595,8 @@
     "Oneway": "False",
     "Opened": "False",
     "ResetNodeIndex": [
-      "1",
-      "26"
+      "99",
+      "27"
     ],
     "EntryNPCCode": "SubStoryBoss12",
     "ControlNPC": "True"
@@ -15379,8 +15615,8 @@
     "Oneway": "False",
     "Opened": "False",
     "ResetNodeIndex": [
-      "1",
-      "26"
+      "99",
+      "27"
     ]
   },
   {
@@ -15397,8 +15633,8 @@
     "Oneway": "False",
     "Opened": "False",
     "ResetNodeIndex": [
-      "1",
-      "26"
+      "99",
+      "27"
     ]
   },
   {
@@ -15415,8 +15651,8 @@
     "Oneway": "False",
     "Opened": "False",
     "ResetNodeIndex": [
-      "1",
-      "26"
+      "99",
+      "27"
     ]
   },
   {
@@ -15433,8 +15669,8 @@
     "Oneway": "False",
     "Opened": "False",
     "ResetNodeIndex": [
-      "1",
-      "26"
+      "99",
+      "27"
     ],
     "EntryNPCCode": "SubStoryBoss07",
     "ControlNPC": "True"
@@ -15453,8 +15689,8 @@
     "Oneway": "False",
     "Opened": "False",
     "ResetNodeIndex": [
-      "1",
-      "26"
+      "99",
+      "27"
     ],
     "EntryNPCCode": "SubStoryBoss13",
     "ControlNPC": "True"
@@ -15473,8 +15709,8 @@
     "Oneway": "False",
     "Opened": "False",
     "ResetNodeIndex": [
-      "1",
-      "26"
+      "99",
+      "27"
     ],
     "EntryNPCCode": "SubStoryBoss14",
     "ControlNPC": "True"
@@ -15493,8 +15729,8 @@
     "Oneway": "False",
     "Opened": "False",
     "ResetNodeIndex": [
-      "1",
-      "26"
+      "99",
+      "27"
     ],
     "EntryNPCCode": "SubStoryBoss15",
     "ControlNPC": "True"
@@ -15510,8 +15746,8 @@
     "Oneway": "False",
     "Opened": "False",
     "ResetNodeIndex": [
-      "1",
-      "26"
+      "99",
+      "27"
     ],
     "PortalNameCode": "NODE_SUBSTORYBOSS_NAME"
   },
@@ -15528,8 +15764,8 @@
     "Oneway": "False",
     "Opened": "False",
     "ResetNodeIndex": [
-      "1",
-      "26"
+      "99",
+      "27"
     ]
   },
   {
@@ -15545,8 +15781,8 @@
     "Oneway": "False",
     "Opened": "False",
     "ResetNodeIndex": [
-      "1",
-      "26"
+      "99",
+      "27"
     ]
   },
   {
@@ -15562,8 +15798,8 @@
     "Oneway": "False",
     "Opened": "False",
     "ResetNodeIndex": [
-      "1",
-      "26"
+      "99",
+      "27"
     ]
   },
   {
@@ -15579,8 +15815,8 @@
     "Oneway": "False",
     "Opened": "False",
     "ResetNodeIndex": [
-      "1",
-      "26"
+      "99",
+      "27"
     ]
   },
   {
@@ -15596,8 +15832,8 @@
     "Oneway": "False",
     "Opened": "False",
     "ResetNodeIndex": [
-      "1",
-      "26"
+      "99",
+      "27"
     ]
   },
   {
@@ -15609,8 +15845,8 @@
     "Oneway": "False",
     "Opened": "True",
     "ResetNodeIndex": [
-      "1",
-      "26"
+      "99",
+      "27"
     ]
   },
   {
@@ -15627,8 +15863,8 @@
     "Oneway": "False",
     "Opened": "False",
     "ResetNodeIndex": [
-      "1",
-      "26"
+      "99",
+      "27"
     ]
   },
   {
@@ -15645,8 +15881,8 @@
     "Oneway": "False",
     "Opened": "False",
     "ResetNodeIndex": [
-      "1",
-      "26"
+      "99",
+      "27"
     ],
     "EntryNPCCode": "SubStoryBoss16",
     "ControlNPC": "True"
@@ -15665,8 +15901,8 @@
     "Oneway": "False",
     "Opened": "False",
     "ResetNodeIndex": [
-      "1",
-      "26"
+      "99",
+      "27"
     ]
   },
   {
@@ -15683,8 +15919,8 @@
     "Oneway": "False",
     "Opened": "False",
     "ResetNodeIndex": [
-      "1",
-      "26"
+      "99",
+      "27"
     ],
     "EntryNPCCode": "SubStoryBoss17",
     "ControlNPC": "True"
@@ -15703,8 +15939,8 @@
     "Oneway": "False",
     "Opened": "False",
     "ResetNodeIndex": [
-      "1",
-      "26"
+      "99",
+      "27"
     ],
     "EntryNPCCode": "SubStoryBoss18",
     "ControlNPC": "True"
@@ -15723,8 +15959,8 @@
     "Oneway": "False",
     "Opened": "False",
     "ResetNodeIndex": [
-      "1",
-      "26"
+      "99",
+      "27"
     ]
   },
   {
@@ -15741,8 +15977,8 @@
     "Oneway": "False",
     "Opened": "False",
     "ResetNodeIndex": [
-      "1",
-      "26"
+      "99",
+      "27"
     ]
   },
   {
@@ -15759,8 +15995,8 @@
     "Oneway": "False",
     "Opened": "False",
     "ResetNodeIndex": [
-      "1",
-      "26"
+      "99",
+      "27"
     ]
   },
   {
@@ -15777,8 +16013,8 @@
     "Oneway": "False",
     "Opened": "False",
     "ResetNodeIndex": [
-      "1",
-      "26"
+      "99",
+      "27"
     ],
     "EntryNPCCode": "SubStoryBoss19",
     "ControlNPC": "True"
@@ -15794,8 +16030,8 @@
     "Oneway": "False",
     "Opened": "False",
     "ResetNodeIndex": [
-      "1",
-      "26"
+      "99",
+      "27"
     ],
     "PortalNameCode": "NODE_SUBSTORYBOSS_NAME"
   },
@@ -15812,8 +16048,8 @@
     "Oneway": "False",
     "Opened": "False",
     "ResetNodeIndex": [
-      "1",
-      "26"
+      "99",
+      "27"
     ]
   },
   {
@@ -15829,8 +16065,8 @@
     "Oneway": "False",
     "Opened": "False",
     "ResetNodeIndex": [
-      "1",
-      "26"
+      "99",
+      "27"
     ]
   },
   {
@@ -15846,8 +16082,8 @@
     "Oneway": "False",
     "Opened": "False",
     "ResetNodeIndex": [
-      "1",
-      "26"
+      "99",
+      "27"
     ]
   },
   {
@@ -15863,8 +16099,8 @@
     "Oneway": "False",
     "Opened": "False",
     "ResetNodeIndex": [
-      "1",
-      "26"
+      "99",
+      "27"
     ]
   },
   {
@@ -15876,8 +16112,8 @@
     "Oneway": "False",
     "Opened": "True",
     "ResetNodeIndex": [
-      "1",
-      "26"
+      "99",
+      "27"
     ]
   },
   {
@@ -15894,8 +16130,8 @@
     "Oneway": "False",
     "Opened": "False",
     "ResetNodeIndex": [
-      "1",
-      "26"
+      "99",
+      "27"
     ],
     "EntryNPCCode": "SubStoryHero01",
     "ControlNPC": "True"
@@ -15914,8 +16150,8 @@
     "Oneway": "False",
     "Opened": "False",
     "ResetNodeIndex": [
-      "1",
-      "26"
+      "99",
+      "27"
     ]
   },
   {
@@ -15932,8 +16168,8 @@
     "Oneway": "False",
     "Opened": "False",
     "ResetNodeIndex": [
-      "1",
-      "26"
+      "99",
+      "27"
     ],
     "EntryNPCCode": "SubStoryBoss20",
     "ControlNPC": "True"
@@ -15952,8 +16188,8 @@
     "Oneway": "False",
     "Opened": "False",
     "ResetNodeIndex": [
-      "1",
-      "26"
+      "99",
+      "27"
     ],
     "EntryNPCCode": "SubStoryHero02",
     "ControlNPC": "True"
@@ -15973,8 +16209,8 @@
     "Oneway": "False",
     "Opened": "False",
     "ResetNodeIndex": [
-      "1",
-      "26"
+      "99",
+      "27"
     ],
     "EntryNPCCode": "SubStoryHero03",
     "ControlNPC": "True"
@@ -15993,8 +16229,8 @@
     "Oneway": "False",
     "Opened": "False",
     "ResetNodeIndex": [
-      "1",
-      "26"
+      "99",
+      "27"
     ]
   },
   {
@@ -16011,8 +16247,8 @@
     "Oneway": "False",
     "Opened": "False",
     "ResetNodeIndex": [
-      "1",
-      "26"
+      "99",
+      "27"
     ],
     "EntryNPCCode": "SubStoryHero04",
     "ControlNPC": "True"
@@ -16031,8 +16267,8 @@
     "Oneway": "False",
     "Opened": "False",
     "ResetNodeIndex": [
-      "1",
-      "26"
+      "99",
+      "27"
     ],
     "EntryNPCCode": "SubStoryHero05",
     "ControlNPC": "True"
@@ -16051,8 +16287,8 @@
     "Oneway": "False",
     "Opened": "False",
     "ResetNodeIndex": [
-      "1",
-      "26"
+      "99",
+      "27"
     ],
     "EntryNPCCode": "SubStoryNPC01",
     "ControlNPC": "True"
@@ -16071,8 +16307,8 @@
     "Oneway": "False",
     "Opened": "False",
     "ResetNodeIndex": [
-      "1",
-      "26"
+      "99",
+      "27"
     ],
     "EntryNPCCode": "SubStoryNPC02",
     "ControlNPC": "True"
@@ -16091,8 +16327,8 @@
     "Oneway": "False",
     "Opened": "False",
     "ResetNodeIndex": [
-      "1",
-      "26"
+      "99",
+      "27"
     ],
     "EntryNPCCode": "SubStoryNPC03",
     "ControlNPC": "True"
@@ -16111,8 +16347,8 @@
     "Oneway": "False",
     "Opened": "False",
     "ResetNodeIndex": [
-      "1",
-      "26"
+      "99",
+      "27"
     ],
     "EntryNPCCode": "SubStoryHero06",
     "ControlNPC": "True"
@@ -16131,8 +16367,8 @@
     "Oneway": "False",
     "Opened": "False",
     "ResetNodeIndex": [
-      "1",
-      "26"
+      "99",
+      "27"
     ]
   },
   {
@@ -16149,8 +16385,8 @@
     "Oneway": "False",
     "Opened": "False",
     "ResetNodeIndex": [
-      "1",
-      "26"
+      "99",
+      "27"
     ],
     "EntryNPCCode": "SubStoryNPC04",
     "ControlNPC": "True"
@@ -16166,8 +16402,8 @@
     "Oneway": "False",
     "Opened": "False",
     "ResetNodeIndex": [
-      "1",
-      "26"
+      "99",
+      "27"
     ],
     "PortalNameCode": "NODE_SUBSTORYBOSS_NAME"
   },
@@ -16184,8 +16420,8 @@
     "Oneway": "False",
     "Opened": "False",
     "ResetNodeIndex": [
-      "1",
-      "26"
+      "99",
+      "27"
     ]
   },
   {
@@ -16201,8 +16437,8 @@
     "Oneway": "False",
     "Opened": "False",
     "ResetNodeIndex": [
-      "1",
-      "26"
+      "99",
+      "27"
     ]
   },
   {
@@ -16218,8 +16454,8 @@
     "Oneway": "False",
     "Opened": "False",
     "ResetNodeIndex": [
-      "1",
-      "26"
+      "99",
+      "27"
     ]
   },
   {
@@ -16235,8 +16471,8 @@
     "Oneway": "False",
     "Opened": "False",
     "ResetNodeIndex": [
-      "1",
-      "26"
+      "99",
+      "27"
     ]
   },
   {
@@ -16252,8 +16488,8 @@
     "Oneway": "False",
     "Opened": "False",
     "ResetNodeIndex": [
-      "1",
-      "26"
+      "99",
+      "27"
     ]
   },
   {
@@ -16269,8 +16505,8 @@
     "Oneway": "False",
     "Opened": "False",
     "ResetNodeIndex": [
-      "1",
-      "26"
+      "99",
+      "27"
     ],
     "ReqCondition": [
       "CompleteDungeon",
@@ -16292,8 +16528,8 @@
     "Oneway": "False",
     "Opened": "False",
     "ResetNodeIndex": [
-      "1",
-      "26"
+      "99",
+      "27"
     ]
   },
   {
@@ -16309,8 +16545,8 @@
     "Oneway": "False",
     "Opened": "False",
     "ResetNodeIndex": [
-      "1",
-      "26"
+      "99",
+      "27"
     ]
   },
   {
@@ -16326,8 +16562,8 @@
     "Oneway": "False",
     "Opened": "False",
     "ResetNodeIndex": [
-      "1",
-      "26"
+      "99",
+      "27"
     ]
   },
   {
@@ -16343,8 +16579,8 @@
     "Oneway": "False",
     "Opened": "False",
     "ResetNodeIndex": [
-      "1",
-      "26"
+      "99",
+      "27"
     ]
   },
   {
@@ -16360,8 +16596,8 @@
     "Oneway": "False",
     "Opened": "False",
     "ResetNodeIndex": [
-      "1",
-      "26"
+      "99",
+      "27"
     ]
   },
   {
@@ -16377,8 +16613,8 @@
     "Oneway": "False",
     "Opened": "False",
     "ResetNodeIndex": [
-      "1",
-      "26"
+      "99",
+      "27"
     ]
   },
   {
@@ -16394,8 +16630,8 @@
     "Oneway": "False",
     "Opened": "False",
     "ResetNodeIndex": [
-      "1",
-      "26"
+      "99",
+      "27"
     ]
   },
   {
@@ -16411,8 +16647,8 @@
     "Oneway": "False",
     "Opened": "False",
     "ResetNodeIndex": [
-      "1",
-      "26"
+      "99",
+      "27"
     ]
   },
   {
@@ -16424,8 +16660,8 @@
     "Oneway": "False",
     "Opened": "True",
     "ResetNodeIndex": [
-      "1",
-      "26"
+      "99",
+      "27"
     ]
   },
   {
@@ -16439,8 +16675,8 @@
     "Oneway": "False",
     "Opened": "False",
     "ResetNodeIndex": [
-      "1",
-      "26"
+      "99",
+      "27"
     ]
   }
 ]
