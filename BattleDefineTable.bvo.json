@@ -783,5 +783,22 @@
     ],
     "BattleCameraName": "WorldBoss.Xanadus",
     "BattleMenu": "SystemButtonAuto, TimeStatus, HeroParty, DamageMeter, Hud, BoosterStatus, Chat, WorldBossScoreStatus, SystemButton, Retry"
+  },
+  {
+    "Code": "GodKing",
+    "MaxTime": 60,
+    "ExtraTime": 20,
+    "AutoPlayStarCount": 99,
+    "AutoRepeatStarCount": 99,
+    "ApplyLevelPenalty": "FALSE",
+    "DenyRaidInvite": "TRUE",
+    "DenyDuel": "TRUE",
+    "HPPercent": "TRUE",
+    "DamageMeterFlag": "ShowAllPlayer",
+    "RetryCondition": [
+      "Win",
+      "Lose"
+    ],
+    "BattleMenu": "TimeStatus, HeroParty, DamageMeter, Hud, BoosterStatus, Chat, SystemButton, Retry"
   }
 ]

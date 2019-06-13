@@ -5426,6 +5426,9 @@
   },
   {
     "Index": 10238,
+    "GoldRate": 1000,
+    "GoldMin": 37000000,
+    "GoldMax": 37000000,
     "LuaPointRate": 1000,
     "LuaPointMin": 33,
     "LuaPointMax": 33,
@@ -5474,6 +5477,9 @@
   },
   {
     "Index": 10240,
+    "LuaPointRate": 1000,
+    "LuaPointMin": 1,
+    "LuaPointMax": 1,
     "Item1Rate": 1000,
     "Item1Code": "EXPPOTION_FULL_5",
     "Item1CountMin": 100,
@@ -5481,6 +5487,9 @@
   },
   {
     "Index": 10241,
+    "LuaPointRate": 1000,
+    "LuaPointMin": 1,
+    "LuaPointMax": 1,
     "Item1Rate": 1000,
     "Item1Code": "FRAGMENT_SELECT",
     "Item1CountMin": 200,
@@ -5488,6 +5497,9 @@
   },
   {
     "Index": 10242,
+    "LuaPointRate": 1000,
+    "LuaPointMin": 1,
+    "LuaPointMax": 1,
     "Item1Rate": 1000,
     "Item1Code": "SKILLBOOK_SELECT_1",
     "Item1CountMin": 150,
@@ -5507,6 +5519,9 @@
   },
   {
     "Index": 10243,
+    "LuaPointRate": 1000,
+    "LuaPointMin": 1,
+    "LuaPointMax": 1,
     "Item1Rate": 1000,
     "Item1Code": "STAMINA_POTION_S",
     "Item1CountMin": 20,
@@ -5514,12 +5529,19 @@
   },
   {
     "Index": 10244,
-    "GoldRate": 1000,
-    "GoldMin": 10000000,
-    "GoldMax": 10000000
+    "LuaPointRate": 1000,
+    "LuaPointMin": 1,
+    "LuaPointMax": 1,
+    "Item1Rate": 1000,
+    "Item1Code": "Gold",
+    "Item1CountMin": 10000000,
+    "Item1CountMax": 10000000
   },
   {
     "Index": 10245,
+    "LuaPointRate": 1000,
+    "LuaPointMin": 1,
+    "LuaPointMax": 1,
     "Item1Rate": 1000,
     "Item1Code": "BOOSTER_EXP_TEST",
     "Item1CountMin": 3,
@@ -5915,6 +5937,91 @@
     "Item1Code": "PACKAGE_NEW_2018_PUMPKIN_GROUP",
     "Item1CountMin": 1,
     "Item1CountMax": 1
+  },
+  {
+    "Index": 10276,
+    "LuaPointRate": 1000,
+    "LuaPointMin": 130,
+    "LuaPointMax": 130,
+    "Item1Rate": 1000,
+    "Item1Code": "WEAPON_UNIQUE_SELECT_ITEM_CHARA_70_1",
+    "Item1CountMin": 1,
+    "Item1CountMax": 1,
+    "Item2Rate": 1000,
+    "Item2Code": "TREASURE_UNIQUE_SELECT_ITEM_CHARA_70",
+    "Item2CountMin": 2,
+    "Item2CountMax": 2,
+    "Item3Rate": 1000,
+    "Item3Code": "TRANSCEND_5POINT",
+    "Item3CountMin": 1,
+    "Item3CountMax": 1
+  },
+  {
+    "Index": 10277,
+    "LuaPointRate": 1000,
+    "LuaPointMin": 130,
+    "LuaPointMax": 130,
+    "Item1Rate": 1000,
+    "Item1Code": "INFINITYSTONE_1",
+    "Item1CountMin": 14,
+    "Item1CountMax": 14,
+    "Item2Rate": 1000,
+    "Item2Code": "ESSENCE_3",
+    "Item2CountMin": 270,
+    "Item2CountMax": 270,
+    "Item3Rate": 1000,
+    "Item3Code": "ESSENCE_4",
+    "Item3CountMin": 270,
+    "Item3CountMax": 270,
+    "Item4Rate": 1000,
+    "Item4Code": "ESSENCE_7",
+    "Item4CountMin": 270,
+    "Item4CountMax": 270,
+    "Item5Rate": 1000,
+    "Item5Code": "TRANSCEND_5POINT",
+    "Item5CountMin": 1,
+    "Item5CountMax": 1
+  },
+  {
+    "Index": 10278,
+    "LuaPointRate": 1000,
+    "LuaPointMin": 33,
+    "LuaPointMax": 33,
+    "Item1Rate": 1000,
+    "Item1Code": "PACKAGE_BOX_ANCIENT_GOD_KING_2019",
+    "Item1CountMin": 30,
+    "Item1CountMax": 30
+  },
+  {
+    "Index": 10279,
+    "LuaPointRate": 1000,
+    "LuaPointMin": 33,
+    "LuaPointMax": 33,
+    "Item1Rate": 1000,
+    "Item1Code": "PACKAGE_BOX_NEW_HERO_RANDOM_UNIQUE_GEAR_8",
+    "Item1CountMin": 2,
+    "Item1CountMax": 2
+  },
+  {
+    "Index": 10280,
+    "Item1Rate": 1000,
+    "Item1Code": "PACKAGE_NEW_HERO_RANDOM_UNIQUE_GEAR_GROUP_8",
+    "Item1CountMin": 1,
+    "Item1CountMax": 1
+  },
+  {
+    "Index": 10281,
+    "LuaPointRate": 1000,
+    "LuaPointMin": 60,
+    "LuaPointMax": 60,
+    "Item1Rate": 1000,
+    "Item1Code": "PACKAGE1_HERO_SELECT_TRANS_13",
+    "Item1CountMin": 1,
+    "Item1CountMax": 1,
+    "Item2Rate": 1000,
+    "Item2Code": "EXPPOTION_FULL_5",
+    "Item2CountMin": 1370,
+    "Item2CountMax": 1370
   },
   {
     "Index": 100,
@@ -33752,6 +33859,33 @@
     "Item1CountMax": 1
   },
   {
+    "Index": 81008,
+    "Item1Rate": 1000,
+    "Item1Code": "WEAPON_WARRIOR_1_40_1",
+    "Item1CountMin": 1,
+    "Item1CountMax": 1,
+    "Item1CustomOptionIndex": 6
+  },
+  {
+    "Index": 81009,
+    "Item1Rate": 1000,
+    "Item1Code": "SKILLBOOK_WARRIOR_1",
+    "Item1CountMin": 20,
+    "Item1CountMax": 20,
+    "Item2Rate": 1000,
+    "Item2Code": "SKILLBOOK_WARRIOR_2",
+    "Item2CountMin": 20,
+    "Item2CountMax": 20,
+    "Item3Rate": 1000,
+    "Item3Code": "SKILLBOOK_WARRIOR_3",
+    "Item3CountMin": 20,
+    "Item3CountMax": 20,
+    "Item4Rate": 1000,
+    "Item4Code": "SKILLBOOK_WARRIOR_4",
+    "Item4CountMin": 20,
+    "Item4CountMax": 20
+  },
+  {
     "Index": 90001,
     "GemRate": 1000,
     "GemMin": 10,
@@ -35524,6 +35658,27 @@
     "Index": 100695,
     "Item1Rate": 1000,
     "Item1Code": "DARKNESS_ESKER_5",
+    "Item1CountMin": 1,
+    "Item1CountMax": 1
+  },
+  {
+    "Index": 100703,
+    "Item1Rate": 1000,
+    "Item1Code": "DARKNESS_CECILIA_3",
+    "Item1CountMin": 1,
+    "Item1CountMax": 1
+  },
+  {
+    "Index": 100704,
+    "Item1Rate": 1000,
+    "Item1Code": "DARKNESS_CECILIA_4",
+    "Item1CountMin": 1,
+    "Item1CountMax": 1
+  },
+  {
+    "Index": 100705,
+    "Item1Rate": 1000,
+    "Item1Code": "DARKNESS_CECILIA_5",
     "Item1CountMin": 1,
     "Item1CountMax": 1
   },
@@ -38114,6 +38269,41 @@
     "Index": 101695,
     "Item1Rate": 1000,
     "Item1Code": "LIGHTNESS_ESKER_5",
+    "Item1CountMin": 1,
+    "Item1CountMax": 1
+  },
+  {
+    "Index": 101701,
+    "Item1Rate": 1000,
+    "Item1Code": "LIGHTNESS_CECILIA_1",
+    "Item1CountMin": 1,
+    "Item1CountMax": 1
+  },
+  {
+    "Index": 101702,
+    "Item1Rate": 1000,
+    "Item1Code": "LIGHTNESS_CECILIA_2",
+    "Item1CountMin": 1,
+    "Item1CountMax": 1
+  },
+  {
+    "Index": 101703,
+    "Item1Rate": 1000,
+    "Item1Code": "LIGHTNESS_CECILIA_3",
+    "Item1CountMin": 1,
+    "Item1CountMax": 1
+  },
+  {
+    "Index": 101704,
+    "Item1Rate": 1000,
+    "Item1Code": "LIGHTNESS_CECILIA_4",
+    "Item1CountMin": 1,
+    "Item1CountMax": 1
+  },
+  {
+    "Index": 101705,
+    "Item1Rate": 1000,
+    "Item1Code": "LIGHTNESS_CECILIA_5",
     "Item1CountMin": 1,
     "Item1CountMax": 1
   },
@@ -51713,8 +51903,8 @@
     "GemMax": 225,
     "Item1Rate": 1000,
     "Item1Code": "WorldBossPoint",
-    "Item1CountMin": 600,
-    "Item1CountMax": 600
+    "Item1CountMin": 750,
+    "Item1CountMax": 750
   },
   {
     "Index": 300015,
@@ -51723,8 +51913,8 @@
     "GemMax": 150,
     "Item1Rate": 1000,
     "Item1Code": "WorldBossPoint",
-    "Item1CountMin": 400,
-    "Item1CountMax": 400
+    "Item1CountMin": 600,
+    "Item1CountMax": 600
   },
   {
     "Index": 301001,
@@ -51735,111 +51925,6 @@
     "Item1Code": "WEAPON_UNIQUE_RANDOM_ITEM",
     "Item1CountMin": 1,
     "Item1CountMax": 1
-  },
-  {
-    "Index": 300101,
-    "Item1Rate": 1000,
-    "Item1Code": "WorldBossPoint",
-    "Item1CountMin": 2000,
-    "Item1CountMax": 2000
-  },
-  {
-    "Index": 300102,
-    "Item1Rate": 1000,
-    "Item1Code": "WorldBossPoint",
-    "Item1CountMin": 1800,
-    "Item1CountMax": 1800
-  },
-  {
-    "Index": 300103,
-    "Item1Rate": 1000,
-    "Item1Code": "WorldBossPoint",
-    "Item1CountMin": 1700,
-    "Item1CountMax": 1700
-  },
-  {
-    "Index": 300104,
-    "Item1Rate": 1000,
-    "Item1Code": "WorldBossPoint",
-    "Item1CountMin": 1600,
-    "Item1CountMax": 1600
-  },
-  {
-    "Index": 300105,
-    "Item1Rate": 1000,
-    "Item1Code": "WorldBossPoint",
-    "Item1CountMin": 1500,
-    "Item1CountMax": 1500
-  },
-  {
-    "Index": 300106,
-    "Item1Rate": 1000,
-    "Item1Code": "WorldBossPoint",
-    "Item1CountMin": 1450,
-    "Item1CountMax": 1450
-  },
-  {
-    "Index": 300107,
-    "Item1Rate": 1000,
-    "Item1Code": "WorldBossPoint",
-    "Item1CountMin": 1300,
-    "Item1CountMax": 1300
-  },
-  {
-    "Index": 300108,
-    "Item1Rate": 1000,
-    "Item1Code": "WorldBossPoint",
-    "Item1CountMin": 1200,
-    "Item1CountMax": 1200
-  },
-  {
-    "Index": 300109,
-    "Item1Rate": 1000,
-    "Item1Code": "WorldBossPoint",
-    "Item1CountMin": 1100,
-    "Item1CountMax": 1100
-  },
-  {
-    "Index": 300110,
-    "Item1Rate": 1000,
-    "Item1Code": "WorldBossPoint",
-    "Item1CountMin": 1000,
-    "Item1CountMax": 1000
-  },
-  {
-    "Index": 300111,
-    "Item1Rate": 1000,
-    "Item1Code": "WorldBossPoint",
-    "Item1CountMin": 900,
-    "Item1CountMax": 900
-  },
-  {
-    "Index": 300112,
-    "Item1Rate": 1000,
-    "Item1Code": "WorldBossPoint",
-    "Item1CountMin": 850,
-    "Item1CountMax": 850
-  },
-  {
-    "Index": 300113,
-    "Item1Rate": 1000,
-    "Item1Code": "WorldBossPoint",
-    "Item1CountMin": 800,
-    "Item1CountMax": 800
-  },
-  {
-    "Index": 300114,
-    "Item1Rate": 1000,
-    "Item1Code": "WorldBossPoint",
-    "Item1CountMin": 750,
-    "Item1CountMax": 750
-  },
-  {
-    "Index": 300115,
-    "Item1Rate": 1000,
-    "Item1Code": "WorldBossPoint",
-    "Item1CountMin": 600,
-    "Item1CountMax": 600
   },
   {
     "Index": 302001,
@@ -51894,113 +51979,113 @@
     "Index": 300201,
     "Item1Rate": 1000,
     "Item1Code": "WorldBossPoint",
-    "Item1CountMin": 2000,
-    "Item1CountMax": 2000
+    "Item1CountMin": 14000,
+    "Item1CountMax": 14000
   },
   {
     "Index": 300202,
     "Item1Rate": 1000,
     "Item1Code": "WorldBossPoint",
-    "Item1CountMin": 1800,
-    "Item1CountMax": 1800
+    "Item1CountMin": 12600,
+    "Item1CountMax": 12600
   },
   {
     "Index": 300203,
     "Item1Rate": 1000,
     "Item1Code": "WorldBossPoint",
-    "Item1CountMin": 1700,
-    "Item1CountMax": 1700
+    "Item1CountMin": 11900,
+    "Item1CountMax": 11900
   },
   {
     "Index": 300204,
     "Item1Rate": 1000,
     "Item1Code": "WorldBossPoint",
-    "Item1CountMin": 1600,
-    "Item1CountMax": 1600
+    "Item1CountMin": 11200,
+    "Item1CountMax": 11200
   },
   {
     "Index": 300205,
     "Item1Rate": 1000,
     "Item1Code": "WorldBossPoint",
-    "Item1CountMin": 1550,
-    "Item1CountMax": 1550
+    "Item1CountMin": 10850,
+    "Item1CountMax": 10850
   },
   {
     "Index": 300206,
     "Item1Rate": 1000,
     "Item1Code": "WorldBossPoint",
-    "Item1CountMin": 1500,
-    "Item1CountMax": 1500
+    "Item1CountMin": 10500,
+    "Item1CountMax": 10500
   },
   {
     "Index": 300207,
     "Item1Rate": 1000,
     "Item1Code": "WorldBossPoint",
-    "Item1CountMin": 1450,
-    "Item1CountMax": 1450
+    "Item1CountMin": 10150,
+    "Item1CountMax": 10150
   },
   {
     "Index": 300208,
     "Item1Rate": 1000,
     "Item1Code": "WorldBossPoint",
-    "Item1CountMin": 1300,
-    "Item1CountMax": 1300
+    "Item1CountMin": 9100,
+    "Item1CountMax": 9100
   },
   {
     "Index": 300209,
     "Item1Rate": 1000,
     "Item1Code": "WorldBossPoint",
-    "Item1CountMin": 1200,
-    "Item1CountMax": 1200
+    "Item1CountMin": 8400,
+    "Item1CountMax": 8400
   },
   {
     "Index": 300210,
     "Item1Rate": 1000,
     "Item1Code": "WorldBossPoint",
-    "Item1CountMin": 1100,
-    "Item1CountMax": 1100
+    "Item1CountMin": 7700,
+    "Item1CountMax": 7700
   },
   {
     "Index": 300211,
     "Item1Rate": 1000,
     "Item1Code": "WorldBossPoint",
-    "Item1CountMin": 1000,
-    "Item1CountMax": 1000
+    "Item1CountMin": 7000,
+    "Item1CountMax": 7000
   },
   {
     "Index": 300212,
     "Item1Rate": 1000,
     "Item1Code": "WorldBossPoint",
-    "Item1CountMin": 900,
-    "Item1CountMax": 900
+    "Item1CountMin": 6300,
+    "Item1CountMax": 6300
   },
   {
     "Index": 300213,
     "Item1Rate": 1000,
     "Item1Code": "WorldBossPoint",
-    "Item1CountMin": 850,
-    "Item1CountMax": 850
+    "Item1CountMin": 5950,
+    "Item1CountMax": 5950
   },
   {
     "Index": 300214,
     "Item1Rate": 1000,
     "Item1Code": "WorldBossPoint",
-    "Item1CountMin": 800,
-    "Item1CountMax": 800
+    "Item1CountMin": 5600,
+    "Item1CountMax": 5600
   },
   {
     "Index": 300215,
     "Item1Rate": 1000,
     "Item1Code": "WorldBossPoint",
-    "Item1CountMin": 600,
-    "Item1CountMax": 600
+    "Item1CountMin": 4200,
+    "Item1CountMax": 4200
   },
   {
     "Index": 300216,
     "Item1Rate": 1000,
     "Item1Code": "WorldBossPoint",
-    "Item1CountMin": 400,
-    "Item1CountMax": 400
+    "Item1CountMin": 2800,
+    "Item1CountMax": 2800
   },
   {
     "Index": 303001,
@@ -53993,6 +54078,20 @@
     "Item1CountMax": 1
   },
   {
+    "Index": 700031,
+    "Item1Rate": 1000,
+    "Item1Code": "PACKAGE_GODKING_REWARD_GROUP",
+    "Item1CountMin": 1,
+    "Item1CountMax": 1
+  },
+  {
+    "Index": 700032,
+    "Item1Rate": 1000,
+    "Item1Code": "PACKAGE_BOX_ANCIENT_GOD_KING_2019_GROUP",
+    "Item1CountMin": 1,
+    "Item1CountMax": 1
+  },
+  {
     "Index": 800001,
     "GoldRate": 1000,
     "GoldMin": 1200,
@@ -54369,6 +54468,69 @@
     "Item2Code": "GOLD_CUBE_FRAGMENT",
     "Item2CountMin": 150,
     "Item2CountMax": 150
+  },
+  {
+    "Index": 800056,
+    "Item1Rate": 1000,
+    "Item1Code": "EVENT_GODKING_ACCESSORY",
+    "Item1CountMin": 80,
+    "Item1CountMax": 80
+  },
+  {
+    "Index": 800057,
+    "Item1Rate": 1000,
+    "Item1Code": "EVENT_GODKING_ACCESSORY",
+    "Item1CountMin": 90,
+    "Item1CountMax": 90
+  },
+  {
+    "Index": 800058,
+    "Item1Rate": 1000,
+    "Item1Code": "EVENT_GODKING_ACCESSORY",
+    "Item1CountMin": 65,
+    "Item1CountMax": 65
+  },
+  {
+    "Index": 800059,
+    "Item1Rate": 1000,
+    "Item1Code": "EVENT_GODKING_ACCESSORY",
+    "Item1CountMin": 70,
+    "Item1CountMax": 70
+  },
+  {
+    "Index": 800060,
+    "Item1Rate": 1000,
+    "Item1Code": "PRESENT_NPC_COMMON_3",
+    "Item1CountMin": 10,
+    "Item1CountMax": 10
+  },
+  {
+    "Index": 800061,
+    "Item1Rate": 1000,
+    "Item1Code": "MATERIAL_56",
+    "Item1CountMin": 300,
+    "Item1CountMax": 300
+  },
+  {
+    "Index": 800062,
+    "Item1Rate": 1000,
+    "Item1Code": "TREASURE_UNIQUE_FRAGMENT",
+    "Item1CountMin": 200,
+    "Item1CountMax": 200
+  },
+  {
+    "Index": 800063,
+    "Item1Rate": 1000,
+    "Item1Code": "UNIQUE_WEAPON_FRAGMENT",
+    "Item1CountMin": 200,
+    "Item1CountMax": 200
+  },
+  {
+    "Index": 800064,
+    "Item1Rate": 1000,
+    "Item1Code": "EVENT_GODKING_ACCESSORY",
+    "Item1CountMin": 105,
+    "Item1CountMax": 105
   },
   {
     "Index": 810001,
@@ -55663,6 +55825,34 @@
     "Index": 720023,
     "Item1Rate": 6000,
     "Item1Code": "COSTUME_SELECT_ITEM_CHAMPION_4_4",
+    "Item1CountMin": 1,
+    "Item1CountMax": 1
+  },
+  {
+    "Index": 720024,
+    "Item1Rate": 6000,
+    "Item1Code": "COSTUME_SELECT_ITEM_CHAMPION_5_1",
+    "Item1CountMin": 1,
+    "Item1CountMax": 1
+  },
+  {
+    "Index": 720025,
+    "Item1Rate": 6000,
+    "Item1Code": "COSTUME_SELECT_ITEM_CHAMPION_5_2",
+    "Item1CountMin": 1,
+    "Item1CountMax": 1
+  },
+  {
+    "Index": 720026,
+    "Item1Rate": 6000,
+    "Item1Code": "COSTUME_SELECT_ITEM_CHAMPION_5_3",
+    "Item1CountMin": 1,
+    "Item1CountMax": 1
+  },
+  {
+    "Index": 720027,
+    "Item1Rate": 6000,
+    "Item1Code": "COSTUME_SELECT_ITEM_CHAMPION_5_4",
     "Item1CountMin": 1,
     "Item1CountMax": 1
   },
@@ -96489,57 +96679,57 @@
     "Index": 996201,
     "Item1Rate": 1000,
     "Item1Code": "HONOR_LEAGUE_DAILY_BOX_BRONZE",
-    "Item1CountMin": 1,
-    "Item1CountMax": 1
+    "Item1CountMin": 7,
+    "Item1CountMax": 7
   },
   {
     "Index": 996202,
     "Item1Rate": 1000,
     "Item1Code": "HONOR_LEAGUE_DAILY_BOX_SILVER",
-    "Item1CountMin": 1,
-    "Item1CountMax": 1
+    "Item1CountMin": 7,
+    "Item1CountMax": 7
   },
   {
     "Index": 996203,
     "Item1Rate": 1000,
     "Item1Code": "HONOR_LEAGUE_DAILY_BOX_GOLD",
-    "Item1CountMin": 1,
-    "Item1CountMax": 1
+    "Item1CountMin": 7,
+    "Item1CountMax": 7
   },
   {
     "Index": 996204,
     "Item1Rate": 1000,
     "Item1Code": "HONOR_LEAGUE_DAILY_BOX_PLATINUM",
-    "Item1CountMin": 1,
-    "Item1CountMax": 1
+    "Item1CountMin": 7,
+    "Item1CountMax": 7
   },
   {
     "Index": 996205,
     "Item1Rate": 1000,
     "Item1Code": "HONOR_LEAGUE_DAILY_BOX_DIAMOND",
-    "Item1CountMin": 1,
-    "Item1CountMax": 1
+    "Item1CountMin": 7,
+    "Item1CountMax": 7
   },
   {
     "Index": 996206,
     "Item1Rate": 1000,
     "Item1Code": "HONOR_LEAGUE_DAILY_BOX_MASTER",
-    "Item1CountMin": 1,
-    "Item1CountMax": 1
+    "Item1CountMin": 7,
+    "Item1CountMax": 7
   },
   {
     "Index": 996207,
     "Item1Rate": 1000,
     "Item1Code": "HONOR_LEAGUE_DAILY_BOX_CHALLENGER",
-    "Item1CountMin": 1,
-    "Item1CountMax": 1
+    "Item1CountMin": 7,
+    "Item1CountMax": 7
   },
   {
     "Index": 996208,
     "Item1Rate": 1000,
     "Item1Code": "HONOR_LEAGUE_DAILY_BOX_CHAMPION",
-    "Item1CountMin": 1,
-    "Item1CountMax": 1
+    "Item1CountMin": 7,
+    "Item1CountMax": 7
   },
   {
     "Index": 996109,
@@ -96920,6 +97110,83 @@
     "Item1CountMax": 1
   },
   {
+    "Index": 900047,
+    "Item1Rate": 1000,
+    "Item1Code": "TREASURE_UNIQUE_FRAGMENT",
+    "Item1CountMin": 100,
+    "Item1CountMax": 100
+  },
+  {
+    "Index": 900048,
+    "Item1Rate": 1000,
+    "Item1Code": "INFINITYSTONE_1",
+    "Item1CountMin": 2,
+    "Item1CountMax": 2
+  },
+  {
+    "Index": 900049,
+    "Item1Rate": 1000,
+    "Item1Code": "TREASURE_UNIQUE_FRAGMENT",
+    "Item1CountMin": 150,
+    "Item1CountMax": 150
+  },
+  {
+    "Index": 900050,
+    "Item1Rate": 1000,
+    "Item1Code": "FREE_AUGMENTATION",
+    "Item1CountMin": 5,
+    "Item1CountMax": 5
+  },
+  {
+    "Index": 900051,
+    "Item1Rate": 1000,
+    "Item1Code": "TREASURE_UNIQUE_FRAGMENT",
+    "Item1CountMin": 200,
+    "Item1CountMax": 200
+  },
+  {
+    "Index": 900052,
+    "Item1Rate": 1000,
+    "Item1Code": "MATERIAL_56",
+    "Item1CountMin": 200,
+    "Item1CountMax": 200
+  },
+  {
+    "Index": 900053,
+    "Item1Rate": 1000,
+    "Item1Code": "FREE_EQUIPGACHA_4",
+    "Item1CountMin": 1,
+    "Item1CountMax": 1
+  },
+  {
+    "Index": 900054,
+    "Item1Rate": 1000,
+    "Item1Code": "TREASURE_UNIQUE_FRAGMENT",
+    "Item1CountMin": 250,
+    "Item1CountMax": 250
+  },
+  {
+    "Index": 900055,
+    "Item1Rate": 1000,
+    "Item1Code": "TRANSCEND_5POINT",
+    "Item1CountMin": 1,
+    "Item1CountMax": 1
+  },
+  {
+    "Index": 900056,
+    "Item1Rate": 1000,
+    "Item1Code": "ARTIFACT_UNIQUE_509",
+    "Item1CountMin": 1,
+    "Item1CountMax": 1
+  },
+  {
+    "Index": 900057,
+    "Item1Rate": 1000,
+    "Item1Code": "PACKAGE_GODKING_REWARD",
+    "Item1CountMin": 1,
+    "Item1CountMax": 1
+  },
+  {
     "Index": 50001,
     "GoldRate": 1000,
     "GoldMin": 10000,
@@ -97178,5 +97445,185 @@
     "Item1Code": "TREASURE_UNIQUE_RANDOM_FRAGMENT",
     "Item1CountMin": 100,
     "Item1CountMax": 100
+  },
+  {
+    "Index": 7000001,
+    "GoldRate": 1000,
+    "GoldMin": 500000,
+    "GoldMax": 500000
+  },
+  {
+    "Index": 7000002,
+    "Item1Rate": 1000,
+    "Item1Code": "PACKAGE_PAY_BOOSTER_EXP_GOLD_1HOUR_1",
+    "Item1CountMin": 1,
+    "Item1CountMax": 1
+  },
+  {
+    "Index": 7000003,
+    "Item1Rate": 1000,
+    "Item1Code": "EXPPOTION_FULL_4",
+    "Item1CountMin": 50,
+    "Item1CountMax": 50
+  },
+  {
+    "Index": 7000004,
+    "Item1Rate": 1000,
+    "Item1Code": "STAMINA_POTION_S",
+    "Item1CountMin": 10,
+    "Item1CountMax": 10
+  },
+  {
+    "Index": 7000005,
+    "Item1Rate": 1000,
+    "Item1Code": "INFINITYSTONE_2",
+    "Item1CountMin": 200,
+    "Item1CountMax": 200
+  },
+  {
+    "Index": 7000006,
+    "Item1Rate": 1000,
+    "Item1Code": "FREE_EQUIPGACHA_3",
+    "Item1CountMin": 3,
+    "Item1CountMax": 3
+  },
+  {
+    "Index": 7000007,
+    "GoldRate": 1000,
+    "GoldMin": 5000000,
+    "GoldMax": 5000000
+  },
+  {
+    "Index": 7000008,
+    "Item1Rate": 1000,
+    "Item1Code": "PACKAGE_PAY_BOOSTER_EXP_GOLD_1DAY_1",
+    "Item1CountMin": 1,
+    "Item1CountMax": 1
+  },
+  {
+    "Index": 7000009,
+    "Item1Rate": 1000,
+    "Item1Code": "EXPPOTION_FULL_5",
+    "Item1CountMin": 50,
+    "Item1CountMax": 50
+  },
+  {
+    "Index": 7000010,
+    "Item1Rate": 1000,
+    "Item1Code": "STAMINA_POTION_S",
+    "Item1CountMin": 30,
+    "Item1CountMax": 30
+  },
+  {
+    "Index": 7000011,
+    "Item1Rate": 1000,
+    "Item1Code": "INFINITYSTONE_2",
+    "Item1CountMin": 1000,
+    "Item1CountMax": 1000
+  },
+  {
+    "Index": 7000012,
+    "Item1Rate": 1000,
+    "Item1Code": "FREE_EQUIPGACHA_4",
+    "Item1CountMin": 1,
+    "Item1CountMax": 1
+  },
+  {
+    "Index": 7000013,
+    "Item1Rate": 1000,
+    "Item1Code": "PACKAGE_FRAGMENT",
+    "Item1CountMin": 100,
+    "Item1CountMax": 100
+  },
+  {
+    "Index": 7000014,
+    "Item1Rate": 1000,
+    "Item1Code": "PACKAGE_ESSENCE",
+    "Item1CountMin": 20,
+    "Item1CountMax": 20
+  },
+  {
+    "Index": 7000015,
+    "Item1Rate": 1000,
+    "Item1Code": "PACKAGE_SKILLBOOK_RANDOM",
+    "Item1CountMin": 200,
+    "Item1CountMax": 200
+  },
+  {
+    "Index": 7000016,
+    "Item1Rate": 1000,
+    "Item1Code": "MATERIAL_56",
+    "Item1CountMin": 100,
+    "Item1CountMax": 100
+  },
+  {
+    "Index": 7000017,
+    "Item1Rate": 1000,
+    "Item1Code": "TREASURE_UNIQUE_RANDOM_ITEM",
+    "Item1CountMin": 1,
+    "Item1CountMax": 1
+  },
+  {
+    "Index": 7000018,
+    "Item1Rate": 1000,
+    "Item1Code": "WEAPON_UNIQUE_RANDOM_ITEM",
+    "Item1CountMin": 1,
+    "Item1CountMax": 1
+  },
+  {
+    "Index": 7000019,
+    "Item1Rate": 1000,
+    "Item1Code": "PACKAGE_FRAGMENT",
+    "Item1CountMin": 500,
+    "Item1CountMax": 500
+  },
+  {
+    "Index": 7000020,
+    "Item1Rate": 1000,
+    "Item1Code": "PACKAGE_ESSENCE",
+    "Item1CountMin": 100,
+    "Item1CountMax": 100
+  },
+  {
+    "Index": 7000021,
+    "Item1Rate": 1000,
+    "Item1Code": "PACKAGE_SKILLBOOK_RANDOM",
+    "Item1CountMin": 1000,
+    "Item1CountMax": 1000
+  },
+  {
+    "Index": 7000022,
+    "Item1Rate": 1000,
+    "Item1Code": "MATERIAL_56",
+    "Item1CountMin": 500,
+    "Item1CountMax": 500
+  },
+  {
+    "Index": 7000023,
+    "Item1Rate": 1000,
+    "Item1Code": "TREASURE_UNIQUE_RANDOM_ITEM",
+    "Item1CountMin": 2,
+    "Item1CountMax": 2
+  },
+  {
+    "Index": 7000024,
+    "Item1Rate": 1000,
+    "Item1Code": "WEAPON_UNIQUE_RANDOM_ITEM",
+    "Item1CountMin": 2,
+    "Item1CountMax": 2
+  },
+  {
+    "Index": 7000025,
+    "Item1Rate": 1000,
+    "Item1Code": "PACKAGE_RUNE_40",
+    "Item1CountMin": 2,
+    "Item1CountMax": 2
+  },
+  {
+    "Index": 7000026,
+    "Item1Rate": 1000,
+    "Item1Code": "INFINITYSTONE_1",
+    "Item1CountMin": 1,
+    "Item1CountMax": 1
   }
 ]

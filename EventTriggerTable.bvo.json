@@ -1451,6 +1451,187 @@
     ]
   },
   {
+    "Index": 601,
+    "Category": "Tutorial",
+    "EventType": "EnterEntryMenu",
+    "EventCondition": [
+      "30024",
+      "1"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "501"
+    ]
+  },
+  {
+    "Index": 602,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "30024",
+      "1",
+      "1"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/Aegina1/Aegina02"
+    ]
+  },
+  {
+    "Index": 603,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "30024",
+      "1",
+      "2"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/Aegina1/Aegina03"
+    ]
+  },
+  {
+    "Index": 604,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveEnd",
+    "EventCondition": [
+      "30024",
+      "1",
+      "2"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/Aegina1/Aegina04"
+    ]
+  },
+  {
+    "Index": 605,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "30024",
+      "1",
+      "3"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/Aegina1/Aegina05"
+    ]
+  },
+  {
+    "Index": 606,
+    "Category": "MainScenario",
+    "EventType": "ScenarioBattleEnd",
+    "EventCondition": [
+      "30024",
+      "1",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/Aegina1/Aegina06"
+    ]
+  },
+  {
+    "Index": 607,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "30024",
+      "2",
+      "1"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/Aegina1/Aegina07"
+    ]
+  },
+  {
+    "Index": 608,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "30024",
+      "2",
+      "2"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/Aegina1/Aegina08"
+    ]
+  },
+  {
+    "Index": 609,
+    "Category": "MainScenario",
+    "EventType": "ScenarioBattleEnd",
+    "EventCondition": [
+      "30024",
+      "2",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/Aegina1/Aegina09"
+    ]
+  },
+  {
+    "Index": 610,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "30024",
+      "3",
+      "1"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/Aegina1/Aegina10"
+    ]
+  },
+  {
+    "Index": 611,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveEnd",
+    "EventCondition": [
+      "30024",
+      "3",
+      "1"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/Aegina1/Aegina11"
+    ]
+  },
+  {
+    "Index": 612,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "30024",
+      "3",
+      "2"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/Aegina1/Aegina12"
+    ]
+  },
+  {
+    "Index": 613,
+    "Category": "MainScenario",
+    "EventType": "ScenarioBattleEnd",
+    "EventCondition": [
+      "30024",
+      "3",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/Aegina1/Aegina13"
+    ]
+  },
+  {
     "Index": 10000,
     "Category": "MainScenario",
     "EventType": "EnterLobby",

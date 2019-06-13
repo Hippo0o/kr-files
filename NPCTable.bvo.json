@@ -851,6 +851,71 @@
     "MenuTitleKey": "SQUARE_NAME_NORMAL_SUB"
   },
   {
+    "Code": "Square_Godking_2019",
+    "HeroIndex": 823,
+    "OnOpenEntryMenu": [
+      "NPC_LWSHOP_WELCOME01",
+      " NPC.Lwshop.Welcome01",
+      " Welcome",
+      "\nNPC_LWSHOP_WELCOME02",
+      " NPC.Lwshop.Welcome02",
+      " Welcome",
+      "\nNPC_LWSHOP_WELCOME03",
+      " NPC.Lwshop.Welcome03",
+      " Welcome"
+    ],
+    "OnTouch": [
+      "NPC_LWSHOP_TOUCH01",
+      " NPC.Lwshop.Touch01",
+      " Touch1",
+      "\nNPC_LWSHOP_TOUCH02",
+      " NPC.Lwshop.Touch02",
+      " Touch1",
+      "\nNPC_LWSHOP_TOUCH03",
+      " NPC.Lwshop.Touch03",
+      " Touch1",
+      "\nNPC_LWSHOP_TOUCH04",
+      " NPC.Lwshop.Touch04",
+      " Touch1",
+      "\nNPC_LWSHOP_TOUCH05",
+      " NPC.Lwshop.Touch05",
+      " Touch1",
+      "\nNPC_LWSHOP_TOUCH06",
+      " NPC.Lwshop.Touch06",
+      " Touch1"
+    ],
+    "EntryMenuButton1": [
+      "MENU_EVENT_GODKINGSTORY",
+      "OpenEventDungeon",
+      "30024",
+      "1"
+    ],
+    "EntryMenuCondition1": "EventExist,EventDungeon,30024",
+    "EntryMenuButton2": [
+      "HEROINN_GIFT",
+      "OpenNPCRecruiteView",
+      "2019_Godking_Shop",
+      "EventGodKing"
+    ],
+    "EntryMenuCondition2": "EventExist,EventShop,2019_Godking_Shop",
+    "EntryMenuButton3": [
+      "MENU_EVENT_HELP",
+      "OpenHelp",
+      "GODKING_EVENT_NAME",
+      "GODKING_EVENT_DESC"
+    ],
+    "EntryMenuCondition3": "EventExist,EventShop,2019_Godking_Shop",
+    "CreatureIndex": 823,
+    "NpcOffset": [
+      "-180",
+      "50"
+    ],
+    "NpcAngle": -50,
+    "NpcScale": 110,
+    "MenuIconType": "EVENT_GODKING_BUTTON",
+    "MenuTitleKey": "SQUARE_NAME_NORMAL_SUB"
+  },
+  {
     "Code": "NormalShop",
     "HeroIndex": 90,
     "ShowHeroBuffIcon": "True",

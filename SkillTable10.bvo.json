@@ -65075,324 +65075,480 @@
     "TriggerType": "OnWaveStart",
     "TriggerRatio": 1000,
     "AttrType": "Physical",
-    "TargetType": "MaxPhysicalPowerFriend",
+    "TargetType": "Myself",
     "TargetCount": 1,
     "DeadTarget": "False",
     "IgnoreBlock": "TRUE",
     "RetargetOnFire": "False",
-    "OperationType1": "ModCriticalPower",
+    "OperationType1": "ModSkillPowerR",
     "OperationTargetType1": "Myself",
     "OperationValue1": [
-      "300"
-    ],
-    "OperationState1": "GlenSkill4_2",
-    "OperationDurationMs1": 20000,
-    "OperationType2": "ModCriticalPower",
-    "OperationTargetType2": "Target",
-    "OperationValue2": [
-      "300"
-    ],
-    "OperationState2": "GlenSkill4_2",
-    "OperationDurationMs2": 20000,
-    "OperationType3": "ModAttackByRace",
-    "OperationTargetType3": "Target",
-    "OperationValue3": [
-      "Hero",
-      "100",
-      "0",
-      "TRUE"
-    ],
-    "OperationState3": "GlenSkill4_3",
-    "OperationDurationMs3": 20000,
-    "OperationType4": "ModAttackByRace",
-    "OperationTargetType4": "Myself",
-    "OperationValue4": [
-      "Hero",
-      "100",
-      "0",
-      "TRUE"
-    ],
-    "OperationState4": "GlenSkill4_4",
-    "OperationDurationMs4": 20000,
-    "OperationType5": "ModSkillPowerR",
-    "OperationTargetType5": "Myself",
-    "OperationValue5": [
       "8740",
       "1",
       "500"
     ],
-    "OperationState5": "GlenWysSkill4",
-    "OperationDurationMs5": 9999999
+    "OperationState1": "GlenWysSkill4",
+    "OperationDurationMs1": 9999999,
+    "OperationType2": "UseSkill",
+    "OperationTargetType2": "Myself",
+    "OperationValue2": [
+      "8747"
+    ],
+    "OperationDelayMs2": [
+      "200",
+      "0",
+      "0"
+    ],
+    "OperationDurationMs2": 999999,
+    "OperationType3": "UseSkill",
+    "OperationTargetType3": "Myself",
+    "OperationValue3": [
+      "8748"
+    ],
+    "OperationDelayMs3": [
+      "200",
+      "0",
+      "0"
+    ],
+    "OperationDurationMs3": 999999,
+    "OperationType4": "SetSkill",
+    "OperationTargetType4": "Myself",
+    "OperationValue4": [
+      "8747",
+      "1",
+      "Value",
+      "300"
+    ],
+    "OperationDurationMs4": 999999,
+    "OperationType5": "SetSkill",
+    "OperationTargetType5": "Myself",
+    "OperationValue5": [
+      "8748",
+      "1",
+      "Value",
+      "300"
+    ],
+    "OperationDurationMs5": 999999,
+    "OperationType6": "SetSkill",
+    "OperationTargetType6": "Myself",
+    "OperationValue6": [
+      "8747",
+      "2",
+      "Value",
+      "100",
+      "1"
+    ],
+    "OperationDurationMs6": 999999,
+    "OperationType7": "SetSkill",
+    "OperationTargetType7": "Myself",
+    "OperationValue7": [
+      "8748",
+      "2",
+      "Value",
+      "100",
+      "1"
+    ],
+    "OperationDurationMs7": 999999
   },
   {
     "Index": 91008741,
     "TriggerType": "OnWaveStart",
     "TriggerRatio": 1000,
     "AttrType": "Physical",
-    "TargetType": "MaxPhysicalPowerFriend",
+    "TargetType": "Myself",
     "TargetCount": 1,
     "DeadTarget": "False",
     "IgnoreBlock": "TRUE",
     "RetargetOnFire": "False",
-    "OperationType1": "ModCriticalPower",
+    "OperationType1": "ModSkillPowerR",
     "OperationTargetType1": "Myself",
     "OperationValue1": [
-      "360"
-    ],
-    "OperationState1": "GlenSkill4_2",
-    "OperationDurationMs1": 20000,
-    "OperationType2": "ModCriticalPower",
-    "OperationTargetType2": "Target",
-    "OperationValue2": [
-      "360"
-    ],
-    "OperationState2": "GlenSkill4_2",
-    "OperationDurationMs2": 20000,
-    "OperationType3": "ModAttackByRace",
-    "OperationTargetType3": "Target",
-    "OperationValue3": [
-      "Hero",
-      "120",
-      "0",
-      "TRUE"
-    ],
-    "OperationState3": "GlenSkill4_3",
-    "OperationDurationMs3": 20000,
-    "OperationType4": "ModAttackByRace",
-    "OperationTargetType4": "Myself",
-    "OperationValue4": [
-      "Hero",
-      "120",
-      "0",
-      "TRUE"
-    ],
-    "OperationState4": "GlenSkill4_4",
-    "OperationDurationMs4": 20000,
-    "OperationType5": "ModSkillPowerR",
-    "OperationTargetType5": "Myself",
-    "OperationValue5": [
       "8740",
       "1",
       "500"
     ],
-    "OperationState5": "GlenWysSkill4",
-    "OperationDurationMs5": 9999999
+    "OperationState1": "GlenWysSkill4",
+    "OperationDurationMs1": 9999999,
+    "OperationType2": "UseSkill",
+    "OperationTargetType2": "Myself",
+    "OperationValue2": [
+      "8747"
+    ],
+    "OperationDelayMs2": [
+      "200",
+      "0",
+      "0"
+    ],
+    "OperationDurationMs2": 999999,
+    "OperationType3": "UseSkill",
+    "OperationTargetType3": "Myself",
+    "OperationValue3": [
+      "8748"
+    ],
+    "OperationDelayMs3": [
+      "200",
+      "0",
+      "0"
+    ],
+    "OperationDurationMs3": 999999,
+    "OperationType4": "SetSkill",
+    "OperationTargetType4": "Myself",
+    "OperationValue4": [
+      "8747",
+      "1",
+      "Value",
+      "360"
+    ],
+    "OperationDurationMs4": 999999,
+    "OperationType5": "SetSkill",
+    "OperationTargetType5": "Myself",
+    "OperationValue5": [
+      "8748",
+      "1",
+      "Value",
+      "360"
+    ],
+    "OperationDurationMs5": 999999,
+    "OperationType6": "SetSkill",
+    "OperationTargetType6": "Myself",
+    "OperationValue6": [
+      "8747",
+      "2",
+      "Value",
+      "120",
+      "1"
+    ],
+    "OperationDurationMs6": 999999,
+    "OperationType7": "SetSkill",
+    "OperationTargetType7": "Myself",
+    "OperationValue7": [
+      "8748",
+      "2",
+      "Value",
+      "120",
+      "1"
+    ],
+    "OperationDurationMs7": 999999
   },
   {
     "Index": 91008742,
     "TriggerType": "OnWaveStart",
     "TriggerRatio": 1000,
     "AttrType": "Physical",
-    "TargetType": "MaxPhysicalPowerFriend",
+    "TargetType": "Myself",
     "TargetCount": 1,
     "DeadTarget": "False",
     "IgnoreBlock": "TRUE",
     "RetargetOnFire": "False",
-    "OperationType1": "ModCriticalPower",
+    "OperationType1": "ModSkillPowerR",
     "OperationTargetType1": "Myself",
     "OperationValue1": [
-      "420"
-    ],
-    "OperationState1": "GlenSkill4_2",
-    "OperationDurationMs1": 20000,
-    "OperationType2": "ModCriticalPower",
-    "OperationTargetType2": "Target",
-    "OperationValue2": [
-      "420"
-    ],
-    "OperationState2": "GlenSkill4_2",
-    "OperationDurationMs2": 20000,
-    "OperationType3": "ModAttackByRace",
-    "OperationTargetType3": "Target",
-    "OperationValue3": [
-      "Hero",
-      "140",
-      "0",
-      "TRUE"
-    ],
-    "OperationState3": "GlenSkill4_3",
-    "OperationDurationMs3": 20000,
-    "OperationType4": "ModAttackByRace",
-    "OperationTargetType4": "Myself",
-    "OperationValue4": [
-      "Hero",
-      "140",
-      "0",
-      "TRUE"
-    ],
-    "OperationState4": "GlenSkill4_4",
-    "OperationDurationMs4": 20000,
-    "OperationType5": "ModSkillPowerR",
-    "OperationTargetType5": "Myself",
-    "OperationValue5": [
       "8740",
       "1",
       "500"
     ],
-    "OperationState5": "GlenWysSkill4",
-    "OperationDurationMs5": 9999999
+    "OperationState1": "GlenWysSkill4",
+    "OperationDurationMs1": 9999999,
+    "OperationType2": "UseSkill",
+    "OperationTargetType2": "Myself",
+    "OperationValue2": [
+      "8747"
+    ],
+    "OperationDelayMs2": [
+      "200",
+      "0",
+      "0"
+    ],
+    "OperationDurationMs2": 999999,
+    "OperationType3": "UseSkill",
+    "OperationTargetType3": "Myself",
+    "OperationValue3": [
+      "8748"
+    ],
+    "OperationDelayMs3": [
+      "200",
+      "0",
+      "0"
+    ],
+    "OperationDurationMs3": 999999,
+    "OperationType4": "SetSkill",
+    "OperationTargetType4": "Myself",
+    "OperationValue4": [
+      "8747",
+      "1",
+      "Value",
+      "420"
+    ],
+    "OperationDurationMs4": 999999,
+    "OperationType5": "SetSkill",
+    "OperationTargetType5": "Myself",
+    "OperationValue5": [
+      "8748",
+      "1",
+      "Value",
+      "420"
+    ],
+    "OperationDurationMs5": 999999,
+    "OperationType6": "SetSkill",
+    "OperationTargetType6": "Myself",
+    "OperationValue6": [
+      "8747",
+      "2",
+      "Value",
+      "140",
+      "1"
+    ],
+    "OperationDurationMs6": 999999,
+    "OperationType7": "SetSkill",
+    "OperationTargetType7": "Myself",
+    "OperationValue7": [
+      "8748",
+      "2",
+      "Value",
+      "140",
+      "1"
+    ],
+    "OperationDurationMs7": 999999
   },
   {
     "Index": 91008743,
     "TriggerType": "OnWaveStart",
     "TriggerRatio": 1000,
     "AttrType": "Physical",
-    "TargetType": "MaxPhysicalPowerFriend",
+    "TargetType": "Myself",
     "TargetCount": 1,
     "DeadTarget": "False",
     "IgnoreBlock": "TRUE",
     "RetargetOnFire": "False",
-    "OperationType1": "ModCriticalPower",
+    "OperationType1": "ModSkillPowerR",
     "OperationTargetType1": "Myself",
     "OperationValue1": [
-      "510"
-    ],
-    "OperationState1": "GlenSkill4_2",
-    "OperationDurationMs1": 20000,
-    "OperationType2": "ModCriticalPower",
-    "OperationTargetType2": "Target",
-    "OperationValue2": [
-      "510"
-    ],
-    "OperationState2": "GlenSkill4_2",
-    "OperationDurationMs2": 20000,
-    "OperationType3": "ModAttackByRace",
-    "OperationTargetType3": "Target",
-    "OperationValue3": [
-      "Hero",
-      "170",
-      "0",
-      "TRUE"
-    ],
-    "OperationState3": "GlenSkill4_3",
-    "OperationDurationMs3": 20000,
-    "OperationType4": "ModAttackByRace",
-    "OperationTargetType4": "Myself",
-    "OperationValue4": [
-      "Hero",
-      "170",
-      "0",
-      "TRUE"
-    ],
-    "OperationState4": "GlenSkill4_4",
-    "OperationDurationMs4": 20000,
-    "OperationType5": "ModSkillPowerR",
-    "OperationTargetType5": "Myself",
-    "OperationValue5": [
       "8740",
       "1",
       "500"
     ],
-    "OperationState5": "GlenWysSkill4",
-    "OperationDurationMs5": 9999999
+    "OperationState1": "GlenWysSkill4",
+    "OperationDurationMs1": 9999999,
+    "OperationType2": "UseSkill",
+    "OperationTargetType2": "Myself",
+    "OperationValue2": [
+      "8747"
+    ],
+    "OperationDelayMs2": [
+      "200",
+      "0",
+      "0"
+    ],
+    "OperationDurationMs2": 999999,
+    "OperationType3": "UseSkill",
+    "OperationTargetType3": "Myself",
+    "OperationValue3": [
+      "8748"
+    ],
+    "OperationDelayMs3": [
+      "200",
+      "0",
+      "0"
+    ],
+    "OperationDurationMs3": 999999,
+    "OperationType4": "SetSkill",
+    "OperationTargetType4": "Myself",
+    "OperationValue4": [
+      "8747",
+      "1",
+      "Value",
+      "500"
+    ],
+    "OperationDurationMs4": 999999,
+    "OperationType5": "SetSkill",
+    "OperationTargetType5": "Myself",
+    "OperationValue5": [
+      "8748",
+      "1",
+      "Value",
+      "500"
+    ],
+    "OperationDurationMs5": 999999,
+    "OperationType6": "SetSkill",
+    "OperationTargetType6": "Myself",
+    "OperationValue6": [
+      "8747",
+      "2",
+      "Value",
+      "170",
+      "1"
+    ],
+    "OperationDurationMs6": 999999,
+    "OperationType7": "SetSkill",
+    "OperationTargetType7": "Myself",
+    "OperationValue7": [
+      "8748",
+      "2",
+      "Value",
+      "170",
+      "1"
+    ],
+    "OperationDurationMs7": 999999
   },
   {
     "Index": 91008744,
     "TriggerType": "OnWaveStart",
     "TriggerRatio": 1000,
     "AttrType": "Physical",
-    "TargetType": "MaxPhysicalPowerFriend",
+    "TargetType": "Myself",
     "TargetCount": 1,
     "DeadTarget": "False",
     "IgnoreBlock": "TRUE",
     "RetargetOnFire": "False",
-    "OperationType1": "ModCriticalPower",
+    "OperationType1": "ModSkillPowerR",
     "OperationTargetType1": "Myself",
     "OperationValue1": [
-      "630"
-    ],
-    "OperationState1": "GlenSkill4_2",
-    "OperationDurationMs1": 20000,
-    "OperationType2": "ModCriticalPower",
-    "OperationTargetType2": "Target",
-    "OperationValue2": [
-      "630"
-    ],
-    "OperationState2": "GlenSkill4_2",
-    "OperationDurationMs2": 20000,
-    "OperationType3": "ModAttackByRace",
-    "OperationTargetType3": "Target",
-    "OperationValue3": [
-      "Hero",
-      "210",
-      "0",
-      "TRUE"
-    ],
-    "OperationState3": "GlenSkill4_3",
-    "OperationDurationMs3": 20000,
-    "OperationType4": "ModAttackByRace",
-    "OperationTargetType4": "Myself",
-    "OperationValue4": [
-      "Hero",
-      "210",
-      "0",
-      "TRUE"
-    ],
-    "OperationState4": "GlenSkill4_4",
-    "OperationDurationMs4": 20000,
-    "OperationType5": "ModSkillPowerR",
-    "OperationTargetType5": "Myself",
-    "OperationValue5": [
       "8740",
       "1",
       "500"
     ],
-    "OperationState5": "GlenWysSkill4",
-    "OperationDurationMs5": 9999999
+    "OperationState1": "GlenWysSkill4",
+    "OperationDurationMs1": 9999999,
+    "OperationType2": "UseSkill",
+    "OperationTargetType2": "Myself",
+    "OperationValue2": [
+      "8747"
+    ],
+    "OperationDelayMs2": [
+      "200",
+      "0",
+      "0"
+    ],
+    "OperationDurationMs2": 999999,
+    "OperationType3": "UseSkill",
+    "OperationTargetType3": "Myself",
+    "OperationValue3": [
+      "8748"
+    ],
+    "OperationDelayMs3": [
+      "200",
+      "0",
+      "0"
+    ],
+    "OperationDurationMs3": 999999,
+    "OperationType4": "SetSkill",
+    "OperationTargetType4": "Myself",
+    "OperationValue4": [
+      "8747",
+      "1",
+      "Value",
+      "630"
+    ],
+    "OperationDurationMs4": 999999,
+    "OperationType5": "SetSkill",
+    "OperationTargetType5": "Myself",
+    "OperationValue5": [
+      "8748",
+      "1",
+      "Value",
+      "630"
+    ],
+    "OperationDurationMs5": 999999,
+    "OperationType6": "SetSkill",
+    "OperationTargetType6": "Myself",
+    "OperationValue6": [
+      "8747",
+      "2",
+      "Value",
+      "210",
+      "1"
+    ],
+    "OperationDurationMs6": 999999,
+    "OperationType7": "SetSkill",
+    "OperationTargetType7": "Myself",
+    "OperationValue7": [
+      "8748",
+      "2",
+      "Value",
+      "210",
+      "1"
+    ],
+    "OperationDurationMs7": 999999
   },
   {
     "Index": 91008745,
     "TriggerType": "OnWaveStart",
     "TriggerRatio": 1000,
     "AttrType": "Physical",
-    "TargetType": "MaxPhysicalPowerFriend",
+    "TargetType": "Myself",
     "TargetCount": 1,
     "DeadTarget": "False",
     "IgnoreBlock": "TRUE",
     "RetargetOnFire": "False",
-    "OperationType1": "ModCriticalPower",
+    "OperationType1": "ModSkillPowerR",
     "OperationTargetType1": "Myself",
     "OperationValue1": [
-      "750"
-    ],
-    "OperationState1": "GlenSkill4_2",
-    "OperationDurationMs1": 20000,
-    "OperationType2": "ModCriticalPower",
-    "OperationTargetType2": "Target",
-    "OperationValue2": [
-      "750"
-    ],
-    "OperationState2": "GlenSkill4_2",
-    "OperationDurationMs2": 20000,
-    "OperationType3": "ModAttackByRace",
-    "OperationTargetType3": "Target",
-    "OperationValue3": [
-      "Hero",
-      "250",
-      "0",
-      "TRUE"
-    ],
-    "OperationState3": "GlenSkill4_3",
-    "OperationDurationMs3": 20000,
-    "OperationType4": "ModAttackByRace",
-    "OperationTargetType4": "Myself",
-    "OperationValue4": [
-      "Hero",
-      "250",
-      "0",
-      "TRUE"
-    ],
-    "OperationState4": "GlenSkill4_4",
-    "OperationDurationMs4": 20000,
-    "OperationType5": "ModSkillPowerR",
-    "OperationTargetType5": "Myself",
-    "OperationValue5": [
       "8740",
       "1",
       "500"
     ],
-    "OperationState5": "GlenWysSkill4",
-    "OperationDurationMs5": 9999999
+    "OperationState1": "GlenWysSkill4",
+    "OperationDurationMs1": 9999999,
+    "OperationType2": "UseSkill",
+    "OperationTargetType2": "Myself",
+    "OperationValue2": [
+      "8747"
+    ],
+    "OperationDelayMs2": [
+      "200",
+      "0",
+      "0"
+    ],
+    "OperationDurationMs2": 999999,
+    "OperationType3": "UseSkill",
+    "OperationTargetType3": "Myself",
+    "OperationValue3": [
+      "8748"
+    ],
+    "OperationDelayMs3": [
+      "200",
+      "0",
+      "0"
+    ],
+    "OperationDurationMs3": 999999,
+    "OperationType4": "SetSkill",
+    "OperationTargetType4": "Myself",
+    "OperationValue4": [
+      "8747",
+      "1",
+      "Value",
+      "750"
+    ],
+    "OperationDurationMs4": 999999,
+    "OperationType5": "SetSkill",
+    "OperationTargetType5": "Myself",
+    "OperationValue5": [
+      "8748",
+      "1",
+      "Value",
+      "750"
+    ],
+    "OperationDurationMs5": 999999,
+    "OperationType6": "SetSkill",
+    "OperationTargetType6": "Myself",
+    "OperationValue6": [
+      "8747",
+      "2",
+      "Value",
+      "250",
+      "1"
+    ],
+    "OperationDurationMs6": 999999,
+    "OperationType7": "SetSkill",
+    "OperationTargetType7": "Myself",
+    "OperationValue7": [
+      "8748",
+      "2",
+      "Value",
+      "250",
+      "1"
+    ],
+    "OperationDurationMs7": 999999
   },
   {
     "Index": 91009040,

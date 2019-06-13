@@ -1846,6 +1846,11 @@
     "OperationType2": "GetPhysicalDamageR",
     "OperationTargetType2": "Target",
     "OperationRadiusMm2": 2000,
+    "OperationValue2": [
+      "1950",
+      "310",
+      "None"
+    ],
     "OperationValueFactor2": [
       "0",
       "0",
@@ -14847,6 +14852,62 @@
     ]
   },
   {
+    "Index": 8747,
+    "TriggerType": "NextSkill",
+    "TriggerRatio": 1000,
+    "AttrType": "Physical",
+    "TargetType": "Myself",
+    "TargetCount": 1,
+    "DeadTarget": "False",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "False",
+    "OperationType1": "ModCriticalPower",
+    "OperationTargetType1": "Target",
+    "OperationValue1": [
+      "300"
+    ],
+    "OperationState1": "GlenSkill4_2",
+    "OperationDurationMs1": 20000,
+    "OperationType2": "ModAttackByRace",
+    "OperationTargetType2": "Target",
+    "OperationValue2": [
+      "Hero",
+      "100",
+      "0",
+      "TRUE"
+    ],
+    "OperationState2": "GlenSkill4_3",
+    "OperationDurationMs2": 20000
+  },
+  {
+    "Index": 8748,
+    "TriggerType": "NextSkill",
+    "TriggerRatio": 1000,
+    "AttrType": "Physical",
+    "TargetType": "MaxPhysicalPowerFriend",
+    "TargetCount": 1,
+    "DeadTarget": "False",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "False",
+    "OperationType1": "ModCriticalPower",
+    "OperationTargetType1": "Target",
+    "OperationValue1": [
+      "300"
+    ],
+    "OperationState1": "GlenSkill4_2",
+    "OperationDurationMs1": 20000,
+    "OperationType2": "ModAttackByRace",
+    "OperationTargetType2": "Target",
+    "OperationValue2": [
+      "Hero",
+      "100",
+      "0",
+      "TRUE"
+    ],
+    "OperationState2": "GlenSkill4_3",
+    "OperationDurationMs2": 20000
+  },
+  {
     "Index": 90000870,
     "TriggerType": "OnStart",
     "TriggerRatio": 1000,
@@ -16178,15 +16239,17 @@
     ],
     "CancelOnWaveEnd": "True",
     "TickTimeValue": [
-      "300",
-      "900",
-      "1300"
+      "100[3]",
+      "300[1:2]",
+      "900[1:2]",
+      "1000[3]",
+      "1300[1:2]"
     ],
     "AttrType": "None",
     "BaseAttack": "TRUE",
     "TargetType": "Enemy",
     "TargetCount": 1,
-    "MaxRangeMm": 1500,
+    "MaxRangeMm": 2500,
     "DeadTarget": "False",
     "IgnoreBlock": "TRUE",
     "RetargetOnFire": "TRUE",
@@ -16207,6 +16270,12 @@
     ],
     "OperationFlags2": [
       "ExcludeTarget"
+    ],
+    "OperationType3": "DashToTarget",
+    "OperationTargetType3": "Myself",
+    "OperationValue3": [
+      "1500",
+      "100"
     ]
   },
   {
@@ -16219,15 +16288,17 @@
       "1800"
     ],
     "TickTimeValue": [
-      "400",
-      "900",
-      "1400"
+      "0[3]",
+      "400[1:2]",
+      "900[1:2]",
+      "1100[3]",
+      "1400[1:2]"
     ],
     "AttrType": "None",
     "BaseAttack": "TRUE",
     "TargetType": "Enemy",
     "TargetCount": 1,
-    "MaxRangeMm": 1500,
+    "MaxRangeMm": 2500,
     "DeadTarget": "False",
     "IgnoreBlock": "TRUE",
     "RetargetOnFire": "TRUE",
@@ -16248,6 +16319,12 @@
     ],
     "OperationFlags2": [
       "ExcludeTarget"
+    ],
+    "OperationType3": "DashToTarget",
+    "OperationTargetType3": "Myself",
+    "OperationValue3": [
+      "1500",
+      "100"
     ]
   },
   {
@@ -16259,6 +16336,7 @@
       "1800"
     ],
     "TickTimeValue": [
+      "0[3]",
       "400[2]",
       "500[2]",
       "600[2]",
@@ -16269,7 +16347,7 @@
     "BaseAttack": "TRUE",
     "TargetType": "Enemy",
     "TargetCount": 1,
-    "MaxRangeMm": 1500,
+    "MaxRangeMm": 2500,
     "DeadTarget": "False",
     "IgnoreBlock": "TRUE",
     "RetargetOnFire": "TRUE",
@@ -16287,6 +16365,12 @@
       "500",
       "None",
       "Unavoidable"
+    ],
+    "OperationType3": "DashToTarget",
+    "OperationTargetType3": "Myself",
+    "OperationValue3": [
+      "1500",
+      "100"
     ]
   },
   {
@@ -16310,7 +16394,7 @@
     "TargetCount": 1,
     "DeadTarget": "False",
     "IgnoreBlock": "TRUE",
-    "RetargetOnFire": "False",
+    "RetargetOnFire": "TRUE",
     "OperationType1": "ModAttackSpeedR",
     "OperationTargetType1": "Target",
     "OperationValue1": [
@@ -16539,7 +16623,7 @@
     "AttrType": "Physical",
     "TargetType": "Enemy",
     "TargetCount": 1,
-    "MaxRangeMm": 2000,
+    "MaxRangeMm": 2500,
     "DeadTarget": "False",
     "IgnoreBlock": "TRUE",
     "RetargetOnFire": "False",
@@ -16760,6 +16844,7 @@
     "OperationType1": "GetPhysicalDamageR",
     "OperationTargetType1": "Myself",
     "OperationRadiusMm1": 3000,
+    "OperationAngle1": 90,
     "OperationValue1": [
       "2450",
       "485",
@@ -17012,13 +17097,13 @@
     "AttrType": "Physical",
     "TargetType": "Enemy",
     "TargetCount": 1,
-    "MaxRangeMm": 2000,
+    "MaxRangeMm": 2500,
     "DeadTarget": "False",
     "IgnoreBlock": "TRUE",
     "RetargetOnFire": "False",
     "OperationType1": "GetPhysicalDamageR",
     "OperationTargetType1": "Myself",
-    "OperationRadiusMm1": 3000,
+    "OperationRadiusMm1": 2500,
     "OperationValue1": [
       "1213",
       "218",
@@ -17031,8 +17116,10 @@
       "218"
     ],
     "OperationType2": "GetPhysicalDamageR",
-    "OperationTargetType2": "Target",
-    "OperationRadiusMm2": 2000,
+    "OperationTargetType2": "Myself",
+    "OperationRadiusMm2": 3000,
+    "OperationWidth2": 1500,
+    "OperationAngle2": 90,
     "OperationValue2": [
       "3945",
       "615",
@@ -17212,14 +17299,14 @@
     "ActingTimeMs": 1300,
     "SoloTimeMs": 400,
     "DurationTimeMs": [
-      "3000"
+      "3500"
     ],
     "CancelOnWaveEnd": "True",
     "TickTimeValue": [
       "0[3:4:5:7]",
       "300[6]",
-      "1300[8]",
-      "1500[1:2]"
+      "1600[8]",
+      "1900[1:2]"
     ],
     "AttrType": "Physical",
     "TargetType": "Enemy",
@@ -17229,7 +17316,7 @@
     "RetargetOnFire": "False",
     "OperationType1": "GetPhysicalDamageR",
     "OperationTargetType1": "Target",
-    "OperationRadiusMm1": 2500,
+    "OperationRadiusMm1": 2000,
     "OperationValue1": [
       "12345",
       "1888",
@@ -17271,8 +17358,8 @@
     "OperationType6": "DashToTarget",
     "OperationTargetType6": "Myself",
     "OperationValue6": [
-      "7000",
-      "200",
+      "5000",
+      "300",
       "True"
     ],
     "OperationType7": "OverrideStat",
@@ -17290,7 +17377,7 @@
     "OperationTargetType8": "Myself",
     "OperationValue8": [
       "1200",
-      "200"
+      "100"
     ]
   },
   {
@@ -17306,11 +17393,11 @@
     "OperationType1": "ModDefence",
     "OperationTargetType1": "Myself",
     "OperationValue1": [
-      "27"
+      "21"
     ],
     "OperationValueFactor1": [
       "5",
-      "27"
+      "21"
     ],
     "OperationType2": "FilterTargetByState",
     "OperationTargetType2": "Myself",
