@@ -1,0 +1,560 @@
+[
+  {
+    "Index": 1,
+    "Key": "Class_Knight",
+    "Group": "CreatureTag",
+    "ReferenceValue": "Knight",
+    "IsDefault": "False",
+    "Step": 1,
+    "Show": "True",
+    "LocalKey": "CLASS_DESC_KNIGHT"
+  },
+  {
+    "Index": 2,
+    "Key": "Class_Warrior",
+    "Group": "CreatureTag",
+    "ReferenceValue": "Warrior",
+    "IsDefault": "False",
+    "Step": 2,
+    "Show": "True",
+    "LocalKey": "CLASS_DESC_WARRIOR"
+  },
+  {
+    "Index": 3,
+    "Key": "Class_Assassin",
+    "Group": "CreatureTag",
+    "ReferenceValue": "Assassin",
+    "IsDefault": "False",
+    "Step": 3,
+    "Show": "True",
+    "LocalKey": "CLASS_DESC_ASSASSIN"
+  },
+  {
+    "Index": 4,
+    "Key": "Class_Archer",
+    "Group": "CreatureTag",
+    "ReferenceValue": "Archer",
+    "IsDefault": "False",
+    "Step": 4,
+    "Show": "True",
+    "LocalKey": "CLASS_DESC_ARCHER"
+  },
+  {
+    "Index": 5,
+    "Key": "Class_Mechanic",
+    "Group": "CreatureTag",
+    "ReferenceValue": "Mechanic",
+    "IsDefault": "False",
+    "Step": 5,
+    "Show": "True",
+    "LocalKey": "CLASS_DESC_MECHANIC"
+  },
+  {
+    "Index": 6,
+    "Key": "Class_Wizard",
+    "Group": "CreatureTag",
+    "ReferenceValue": "Wizard",
+    "IsDefault": "False",
+    "Step": 6,
+    "Show": "True",
+    "LocalKey": "CLASS_DESC_WIZARD"
+  },
+  {
+    "Index": 7,
+    "Key": "Class_Priest",
+    "Group": "CreatureTag",
+    "ReferenceValue": "Priest",
+    "IsDefault": "False",
+    "Step": 7,
+    "Show": "True",
+    "LocalKey": "CLASS_DESC_PRIEST"
+  },
+  {
+    "Index": 100,
+    "Key": "Type_Weapon",
+    "Group": "EquipPart",
+    "ReferenceValue": "Weapon",
+    "IsDefault": "False",
+    "Step": 1,
+    "Show": "True",
+    "LocalKey": "EQUIP_PART_TYPE.WEAPON"
+  },
+  {
+    "Index": 101,
+    "Key": "Type_Armor",
+    "Group": "EquipPart",
+    "ReferenceValue": "Armor",
+    "IsDefault": "False",
+    "Step": 2,
+    "Show": "True",
+    "LocalKey": "EQUIP_PART_TYPE.ARMOR"
+  },
+  {
+    "Index": 102,
+    "Key": "Type_SecondGear",
+    "Group": "EquipPart",
+    "ReferenceValue": "SecondGear",
+    "IsDefault": "False",
+    "Step": 3,
+    "Show": "True",
+    "LocalKey": "EQUIP_PART_TYPE.SECOND_GEAR"
+  },
+  {
+    "Index": 103,
+    "Key": "Type_Accessory",
+    "Group": "EquipPart",
+    "ReferenceValue": "Accessory",
+    "IsDefault": "False",
+    "Step": 4,
+    "Show": "True",
+    "LocalKey": "EQUIP_PART_TYPE.ACCESSORY"
+  },
+  {
+    "Index": 104,
+    "Key": "Type_Orb",
+    "Group": "EquipPart",
+    "ReferenceValue": "Orb",
+    "IsDefault": "False",
+    "Step": 5,
+    "Show": "True",
+    "LocalKey": "EQUIP_PART_TYPE.ORB"
+  },
+  {
+    "Index": 105,
+    "Key": "Type_Artifact",
+    "Group": "EquipPart",
+    "ReferenceValue": "Artifact",
+    "IsDefault": "False",
+    "Step": 6,
+    "Show": "True",
+    "LocalKey": "EQUIP_PART_TYPE.ARTIFACT"
+  },
+  {
+    "Index": 106,
+    "Key": "Type_Treasure",
+    "Group": "EquipPart",
+    "ReferenceValue": "Treasure",
+    "IsDefault": "False",
+    "Step": 7,
+    "Show": "True",
+    "LocalKey": "EQUIP_PART_TYPE.TREASURE"
+  },
+  {
+    "Index": 107,
+    "Key": "Type_ETC",
+    "Group": "EquipPart",
+    "ReferenceValue": -1,
+    "IsDefault": "False",
+    "Step": 8,
+    "Show": "True",
+    "LocalKey": "OPTION_ETC"
+  },
+  {
+    "Index": 200,
+    "Key": "Grade_Common",
+    "Group": "Grade",
+    "ReferenceValue": 1,
+    "IsDefault": "False",
+    "Step": 1,
+    "Show": "True",
+    "LocalKey": "ITEM_GRADE_1"
+  },
+  {
+    "Index": 201,
+    "Key": "Grade_Uncommon",
+    "Group": "Grade",
+    "ReferenceValue": 2,
+    "IsDefault": "False",
+    "Step": 2,
+    "Show": "True",
+    "LocalKey": "ITEM_GRADE_2"
+  },
+  {
+    "Index": 202,
+    "Key": "Grade_Rare",
+    "Group": "Grade",
+    "ReferenceValue": 3,
+    "IsDefault": "False",
+    "Step": 3,
+    "Show": "True",
+    "LocalKey": "ITEM_GRADE_3"
+  },
+  {
+    "Index": 203,
+    "Key": "Grade_Heroic",
+    "Group": "Grade",
+    "ReferenceValue": 4,
+    "IsDefault": "False",
+    "Step": 4,
+    "Show": "True",
+    "LocalKey": "ITEM_GRADE_4"
+  },
+  {
+    "Index": 204,
+    "Key": "Grade_Ancient",
+    "Group": "Grade",
+    "ReferenceValue": 5,
+    "IsDefault": "False",
+    "Step": 5,
+    "Show": "True",
+    "LocalKey": "ITEM_GRADE_5"
+  },
+  {
+    "Index": 205,
+    "Key": "Grade_Legendary",
+    "Group": "Grade",
+    "ReferenceValue": 6,
+    "IsDefault": "False",
+    "Step": 6,
+    "Show": "True",
+    "LocalKey": "ITEM_GRADE_6"
+  },
+  {
+    "Index": 206,
+    "Key": "Grade_Unique",
+    "Group": "Grade",
+    "ReferenceValue": 90,
+    "IsDefault": "False",
+    "Step": 7,
+    "Show": "True",
+    "LocalKey": "ITEM_GRADE_90"
+  },
+  {
+    "Index": 300,
+    "Key": "Tier_1",
+    "Group": "Tier",
+    "ReferenceValue": 1,
+    "IsDefault": "False",
+    "Step": 1,
+    "Show": "True",
+    "LocalKey": "EQUIP_FILTER_1T"
+  },
+  {
+    "Index": 301,
+    "Key": "Tier_2",
+    "Group": "Tier",
+    "ReferenceValue": 2,
+    "IsDefault": "False",
+    "Step": 2,
+    "Show": "True",
+    "LocalKey": "EQUIP_FILTER_2T"
+  },
+  {
+    "Index": 302,
+    "Key": "Tier_3",
+    "Group": "Tier",
+    "ReferenceValue": 3,
+    "IsDefault": "False",
+    "Step": 3,
+    "Show": "True",
+    "LocalKey": "EQUIP_FILTER_3T"
+  },
+  {
+    "Index": 303,
+    "Key": "Tier_4",
+    "Group": "Tier",
+    "ReferenceValue": 4,
+    "IsDefault": "False",
+    "Step": 4,
+    "Show": "True",
+    "LocalKey": "EQUIP_FILTER_4T"
+  },
+  {
+    "Index": 304,
+    "Key": "Tier_5",
+    "Group": "Tier",
+    "ReferenceValue": 5,
+    "IsDefault": "False",
+    "Step": 5,
+    "Show": "True",
+    "LocalKey": "EQUIP_FILTER_5T"
+  },
+  {
+    "Index": 305,
+    "Key": "Tier_6",
+    "Group": "Tier",
+    "ReferenceValue": 6,
+    "IsDefault": "False",
+    "Step": 6,
+    "Show": "True",
+    "LocalKey": "EQUIP_FILTER_6T"
+  },
+  {
+    "Index": 306,
+    "Key": "Tier_7",
+    "Group": "Tier",
+    "ReferenceValue": 7,
+    "IsDefault": "False",
+    "Step": 7,
+    "Show": "True",
+    "LocalKey": "EQUIP_FILTER_7T"
+  },
+  {
+    "Index": 307,
+    "Key": "Tier_8",
+    "Group": "Tier",
+    "ReferenceValue": 8,
+    "IsDefault": "False",
+    "Step": 8,
+    "Show": "True",
+    "LocalKey": "EQUIP_FILTER_8T"
+  },
+  {
+    "Index": 308,
+    "Key": "Tier_10",
+    "Group": "Tier",
+    "ReferenceValue": 10,
+    "IsDefault": "False",
+    "Step": 10,
+    "Show": "True",
+    "LocalKey": "EQUIP_FILTER_10T"
+  },
+  {
+    "Index": 400,
+    "Key": "Star_0",
+    "Group": "Star",
+    "IsDefault": "False",
+    "Step": 1,
+    "Show": "True",
+    "LocalKey": "EQUIP_FILTER_STAR_0"
+  },
+  {
+    "Index": 401,
+    "Key": "Star_1",
+    "Group": "Star",
+    "ReferenceValue": 1,
+    "IsDefault": "False",
+    "Step": 2,
+    "Show": "True",
+    "LocalKey": "EQUIP_FILTER_STAR_1"
+  },
+  {
+    "Index": 402,
+    "Key": "Star_2",
+    "Group": "Star",
+    "ReferenceValue": 2,
+    "IsDefault": "False",
+    "Step": 3,
+    "Show": "True",
+    "LocalKey": "EQUIP_FILTER_STAR_2"
+  },
+  {
+    "Index": 403,
+    "Key": "Star_3",
+    "Group": "Star",
+    "ReferenceValue": 3,
+    "IsDefault": "False",
+    "Step": 4,
+    "Show": "True",
+    "LocalKey": "EQUIP_FILTER_STAR_3"
+  },
+  {
+    "Index": 404,
+    "Key": "Star_4",
+    "Group": "Star",
+    "ReferenceValue": 4,
+    "IsDefault": "False",
+    "Step": 5,
+    "Show": "True",
+    "LocalKey": "EQUIP_FILTER_STAR_4"
+  },
+  {
+    "Index": 405,
+    "Key": "Star_5",
+    "Group": "Star",
+    "ReferenceValue": 5,
+    "IsDefault": "False",
+    "Step": 6,
+    "Show": "True",
+    "LocalKey": "EQUIP_FILTER_STAR_5"
+  },
+  {
+    "Index": 500,
+    "Key": "Lock_Unlocked",
+    "Group": "LockState",
+    "IsDefault": "False",
+    "Step": 2,
+    "Show": "True",
+    "LocalKey": "EQUIP_FILTER_SORT_UNLOCK"
+  },
+  {
+    "Index": 501,
+    "Key": "Lock_Locked",
+    "Group": "LockState",
+    "ReferenceValue": 1,
+    "IsDefault": "False",
+    "Step": 1,
+    "Show": "True",
+    "LocalKey": "EQUIP_FILTER_SORT_LOCK"
+  },
+  {
+    "Index": 600,
+    "Key": "LegendSet_Fire",
+    "Group": "LegendSet",
+    "ReferenceValue": 1,
+    "IsDefault": "False",
+    "Step": 1,
+    "Show": "True",
+    "LocalKey": "EQUIP_FILTER_SORT_RAID_RED"
+  },
+  {
+    "Index": 601,
+    "Key": "LegendSet_Frost",
+    "Group": "LegendSet",
+    "ReferenceValue": 2,
+    "IsDefault": "False",
+    "Step": 2,
+    "Show": "True",
+    "LocalKey": "EQUIP_FILTER_SORT_RAID_BLUE"
+  },
+  {
+    "Index": 602,
+    "Key": "LegendSet_Poison",
+    "Group": "LegendSet",
+    "ReferenceValue": 3,
+    "IsDefault": "False",
+    "Step": 3,
+    "Show": "True",
+    "LocalKey": "EQUIP_FILTER_SORT_RAID_GREEN"
+  },
+  {
+    "Index": 603,
+    "Key": "LegendSet_Dark",
+    "Group": "LegendSet",
+    "ReferenceValue": 4,
+    "IsDefault": "False",
+    "Step": 4,
+    "Show": "True",
+    "LocalKey": "EQUIP_FILTER_SORT_RAID_BLACK"
+  },
+  {
+    "Index": 604,
+    "Key": "LegendSet_Magma",
+    "Group": "LegendSet",
+    "ReferenceValue": 5,
+    "IsDefault": "False",
+    "Step": 5,
+    "Show": "True",
+    "LocalKey": "CONTENT_CHAPTER8_NAME "
+  },
+  {
+    "Index": 605,
+    "Key": "LegendSet_Legend",
+    "Group": "LegendSet",
+    "ReferenceValue": 6,
+    "IsDefault": "False",
+    "Step": 6,
+    "Show": "True",
+    "LocalKey": "EQUIP_FILTER_SORT_LEGENDARY"
+  },
+  {
+    "Index": 606,
+    "Key": "LegendSet_Beast",
+    "Group": "LegendSet",
+    "ReferenceValue": 102,
+    "IsDefault": "False",
+    "Step": 7,
+    "Show": "True",
+    "LocalKey": "GUILD_RAID_MANTICORE6_TITLE"
+  },
+  {
+    "Index": 607,
+    "Key": "LegendSet_Hero_Suppresion",
+    "Group": "LegendSet",
+    "ReferenceValue": 7,
+    "IsDefault": "False",
+    "Step": 8,
+    "Show": "True",
+    "LocalKey": "EQUIP_FILTER_SORT_HERO_SUPPRESSION"
+  },
+  {
+    "Index": 608,
+    "Key": "LegendSet_Hero_Protection",
+    "Group": "LegendSet",
+    "ReferenceValue": 8,
+    "IsDefault": "False",
+    "Step": 9,
+    "Show": "True",
+    "LocalKey": "EQUIP_FILTER_SORT_HERO_PROTECTION"
+  },
+  {
+    "Index": 609,
+    "Key": "LegendSet_Hero_DarkLegion",
+    "Group": "LegendSet",
+    "ReferenceValue": 9,
+    "IsDefault": "False",
+    "Step": 10,
+    "Show": "True",
+    "LocalKey": "EQUIP_FILTER_SORT_DARK_LEGION"
+  },
+  {
+    "Index": 610,
+    "Key": "LegendSet_Hero_ETC",
+    "Group": "LegendSet",
+    "ReferenceValue": -1,
+    "IsDefault": "False",
+    "Step": 11,
+    "Show": "True",
+    "LocalKey": "OPTION_ETC"
+  },
+  {
+    "Index": 700,
+    "Key": "IsNew_New",
+    "Group": "New",
+    "ReferenceValue": "True",
+    "IsDefault": "False",
+    "Step": 1,
+    "Show": "True",
+    "LocalKey": "EQUIP_FILTER_SORT_NEW_ITEM"
+  },
+  {
+    "Index": 701,
+    "Key": "IsNew_Old",
+    "Group": "New",
+    "ReferenceValue": "False",
+    "IsDefault": "False",
+    "Step": 2,
+    "Show": "True",
+    "LocalKey": "EQUIP_FILTER_SORT_PRE_ITEM"
+  },
+  {
+    "Index": 800,
+    "Key": "EquipState_Equipped",
+    "Group": "Equiped",
+    "ReferenceValue": "True",
+    "IsDefault": "False",
+    "Step": 1,
+    "Show": "True",
+    "LocalKey": "EQUIP_FILTER_SORT_EQUIP"
+  },
+  {
+    "Index": 801,
+    "Key": "EquipState_UnEquipped",
+    "Group": "Equiped",
+    "ReferenceValue": "False",
+    "IsDefault": "True",
+    "Step": 2,
+    "Show": "True",
+    "LocalKey": "EQUIP_FILTER_SORT_UNEQUIP"
+  },
+  {
+    "Index": 900,
+    "Key": "SavedSlot_Saved",
+    "Group": "SavedSlot",
+    "ReferenceValue": "True",
+    "IsDefault": "False",
+    "Step": 1,
+    "Show": "True",
+    "LocalKey": "EQUIP_FILTER_SORT_STORAGE"
+  },
+  {
+    "Index": 901,
+    "Key": "SavedSlot_UnSaved",
+    "Group": "SavedSlot",
+    "ReferenceValue": "False",
+    "IsDefault": "True",
+    "Step": 2,
+    "Show": "True",
+    "LocalKey": "EQUIP_FILTER_SORT_NOSTORAGE"
+  }
+]

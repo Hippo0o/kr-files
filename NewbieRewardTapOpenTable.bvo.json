@@ -1,0 +1,48 @@
+[
+  {
+    "TabIndex": 1,
+    "TabName": "BENEFIT_NEWBIE_SPECIALPRESENT",
+    "TabType": "Attendance"
+  },
+  {
+    "TabIndex": 2,
+    "TabName": "BENEFIT_NEWBIE_HERO",
+    "TabType": "SpecialPriceProduct"
+  },
+  {
+    "TabIndex": 3,
+    "TabName": "BENEFIT_NEWBIE_TEAMLEVELUP",
+    "TabType": "TeamLevelUp",
+    "Condition": [
+      "CheckTeamLevel",
+      "5"
+    ]
+  },
+  {
+    "TabIndex": 4,
+    "TabName": "BENEFIT_NEWBIE_STAGEPASS",
+    "TabType": "StageClear",
+    "Condition": [
+      "CompleteDungeon",
+      "1",
+      "20",
+      "True"
+    ]
+  },
+  {
+    "TabIndex": 5,
+    "TabName": "BENEFIT_NEWBIE_MAYRECOMMEND",
+    "TabType": "MayRecommend",
+    "Condition": [
+      "CompleteDungeon",
+      "1",
+      "9",
+      "True"
+    ]
+  },
+  {
+    "TabIndex": 6,
+    "TabName": "BENEFIT_NEWBIE_1DOLLARSHOP",
+    "TabType": "OneDollarShop"
+  }
+]

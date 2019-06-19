@@ -1,0 +1,102 @@
+[
+  {
+    "Index": 1,
+    "Key": "CreatureTag",
+    "Step": 3,
+    "LocalKey": "GROUP_TITLE_1",
+    "Show": "TRUE",
+    "FieldTypeName": "NShared.CreatureTagType",
+    "FieldName": "TagType",
+    "DataTypeName": "NShared.EquipItemData"
+  },
+  {
+    "Index": 2,
+    "Key": "EquipPart",
+    "Step": 4,
+    "LocalKey": "STAT_PARTTYPE",
+    "Show": "TRUE",
+    "FieldTypeName": "NShared.EquipPartType",
+    "FieldName": "PartType",
+    "DataTypeName": "NShared.EquipItemData"
+  },
+  {
+    "Index": 3,
+    "Key": "Grade",
+    "Step": 5,
+    "LocalKey": "STAT_GRADE",
+    "Show": "TRUE",
+    "FieldTypeName": "System.Byte",
+    "FieldName": "Grade",
+    "DataTypeName": "NShared.ItemData"
+  },
+  {
+    "Index": 4,
+    "Key": "Tier",
+    "Step": 6,
+    "LocalKey": "GROUP_TITLE_2",
+    "Show": "TRUE",
+    "FieldTypeName": "System.Int16",
+    "FieldName": "Tier",
+    "DataTypeName": "NShared.EquipItemData"
+  },
+  {
+    "Index": 5,
+    "Key": "Star",
+    "Step": 7,
+    "LocalKey": "STAT_STAR",
+    "Show": "TRUE",
+    "FieldTypeName": "System.Int32",
+    "FieldName": "Star",
+    "DataTypeName": "NShared.EquipItemInfo"
+  },
+  {
+    "Index": 6,
+    "Key": "LegendSet",
+    "Step": 2,
+    "LocalKey": "EQUIP_FILTER_SORT_LEGENDARY_SET",
+    "Show": "TRUE",
+    "FieldTypeName": "System.Int32",
+    "FieldName": "SetIndex",
+    "DataTypeName": "NShared.EquipItemData"
+  },
+  {
+    "Index": 7,
+    "Key": "LockState",
+    "Step": 8,
+    "LocalKey": "EQUIP_FILTER_SORT_LOCKING",
+    "Show": "TRUE",
+    "FieldTypeName": "System.Byte",
+    "FieldName": "Locked",
+    "DataTypeName": "NShared.EquipItemInfo"
+  },
+  {
+    "Index": 8,
+    "Key": "New",
+    "Step": 1,
+    "LocalKey": "EQUIP_FILTER_SORT_ACQUIRED",
+    "Show": "TRUE",
+    "FieldTypeName": "System.Boolean",
+    "FieldName": "IsNew",
+    "DataTypeName": "NShared.EquipItemInfo"
+  },
+  {
+    "Index": 9,
+    "Key": "Equiped",
+    "Step": 9,
+    "LocalKey": "EQUIP_FILTER_SORT_HEROES_EQUIP",
+    "Show": "TRUE",
+    "FieldTypeName": "System.Boolean",
+    "FieldName": "IsEquipped",
+    "DataTypeName": "NShared.EquipItemInfo"
+  },
+  {
+    "Index": 10,
+    "Key": "SavedSlot",
+    "Step": 10,
+    "LocalKey": "EQUIP_STORAGE_SLOT_TITLE",
+    "Show": "TRUE",
+    "FieldTypeName": "System.Boolean",
+    "FieldName": "IsSavedSlot",
+    "DataTypeName": "NShared.EquipItemInfo"
+  }
+]
