@@ -131,36 +131,6 @@
     ]
   },
   {
-    "Index": 70,
-    "GameOptionTab": "Game",
-    "ChildRoot": "false",
-    "SaveValue": "true",
-    "OptionName": "OPTION_GAME_PLAYGUIDE",
-    "GameOptionComponent": "Toggle3",
-    "ClassName": "NGame2.GameOptionData",
-    "FieldName": "Show_PlayGuide",
-    "OptionDataType": "System.Boolean",
-    "ValueLocalKey1": "OPTION_ON",
-    "Value1": "True",
-    "ValueLocalKey2": "OPTION_OFF",
-    "Value2": "False"
-  },
-  {
-    "Index": 71,
-    "GameOptionTab": "Game",
-    "ChildRoot": "false",
-    "SaveValue": "true",
-    "OptionName": "QUEST_AUTO_POPUP_OPTION",
-    "GameOptionComponent": "Toggle3",
-    "ClassName": "NGame2.GameOptionData",
-    "FieldName": "Show_QuestGuide",
-    "OptionDataType": "System.Boolean",
-    "ValueLocalKey1": "OPTION_ON",
-    "Value1": "True",
-    "ValueLocalKey2": "OPTION_OFF",
-    "Value2": "False"
-  },
-  {
     "Index": 80,
     "GameOptionTab": "Game",
     "ChildRoot": "false",
@@ -226,6 +196,24 @@
     "GameOptionComponent": "Toggle3",
     "ClassName": "NVespa.SystemOptionData",
     "FieldName": "Chat_AllowEtcWhisper",
+    "OptionDataType": "System.Boolean",
+    "ValueLocalKey1": "OPTION_ALLOW",
+    "Value1": "True",
+    "ValueLocalKey2": "OPTION_BLOCK",
+    "Value2": "False",
+    "DisableGroup2": [
+      "80"
+    ]
+  },
+  {
+    "Index": 130,
+    "GameOptionTab": "Game",
+    "ChildRoot": "false",
+    "SaveValue": "true",
+    "OptionName": "OPTION_GAME_CUTSCEAN_CUSTOMIZE_ACCESSORY",
+    "GameOptionComponent": "Toggle3",
+    "ClassName": "NVespa.SystemOptionData",
+    "FieldName": "Costume_AllowCutSceneAccessory",
     "OptionDataType": "System.Boolean",
     "ValueLocalKey1": "OPTION_ALLOW",
     "Value1": "True",

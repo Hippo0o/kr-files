@@ -3681,7 +3681,7 @@
   },
   {
     "Code": "Hero.Artemia",
-    "HeroViewViewSize": "0.4",
+    "HeroViewViewSize": "0.45",
     "HeroViewOffset": [
       "0",
       "-0.08",
@@ -3736,9 +3736,9 @@
     "MatchPickBanScale": 700,
     "FullViewZoomInDistance": 2,
     "FullViewZoomInOffset": [
-      "0",
       "-0.1",
-      "0"
+      "0.2",
+      "-2"
     ],
     "FullViewZoomOutDistance": 7.5,
     "FullViewZoomOutOffset": [
@@ -6294,6 +6294,86 @@
       "0"
     ],
     "MatchPickBanScale": 700,
+    "FullViewZoomInDistance": 2,
+    "FullViewZoomInOffset": [
+      "0",
+      "-0.1",
+      "0"
+    ],
+    "FullViewZoomOutDistance": 7,
+    "FullViewZoomOutOffset": [
+      "0",
+      " -0.1",
+      " 0"
+    ],
+    "ArchiveViewZoomInDistance": 2,
+    "ArchiveViewZoomInOffset": [
+      "0",
+      "-0.1",
+      "0"
+    ],
+    "ArchiveViewZoomOutDistance": 7,
+    "ArchiveViewZoomOutOffset": [
+      "0",
+      " -0.1",
+      " 0"
+    ]
+  },
+  {
+    "Code": "Hero.Dakaris",
+    "HeroViewViewSize": "0.44",
+    "HeroViewOffset": [
+      "0",
+      "-0.15",
+      "0"
+    ],
+    "DetailViewZoomInDistance": 2,
+    "DetailViewZoomInOffset": [
+      "0",
+      "-0.1",
+      "0"
+    ],
+    "DetailViewZoomOutDistance": 7,
+    "DetailViewZoomOutOffset": [
+      "0",
+      " -0.1",
+      " 0"
+    ],
+    "PurifyDarknessOffset": [
+      "-0.041",
+      "1.162",
+      "0.821"
+    ],
+    "PurifyCameraScale": 1.15,
+    "PurifyCameraOffset": [
+      "0",
+      " -0.25",
+      " 0"
+    ],
+    "PayShopOffset": [
+      "-80",
+      " -520"
+    ],
+    "PayShopScale": 350,
+    "HeroInnOffset": [
+      "0",
+      "-840",
+      "300"
+    ],
+    "HeroInnScale": 650,
+    "HeroInnMotion": "InnIdle",
+    "EntryMenuOffset": [
+      "-0.03",
+      " -0.09",
+      " 0"
+    ],
+    "EntryMenuScale": 1.04,
+    "MatchPickBanOffset": [
+      "0",
+      "-1090",
+      "0"
+    ],
+    "MatchPickBanScale": 670,
     "FullViewZoomInDistance": 2,
     "FullViewZoomInOffset": [
       "0",
@@ -9410,5 +9490,63 @@
     ],
     "ArchiveCameraAngleY": -25,
     "ArchivePreviewBg": "Chapter_9_Front"
+  },
+  {
+    "Code": "Raid.Draconic.Kallax",
+    "DetailViewZoomInOffset": [
+      "0",
+      " 0",
+      " 0"
+    ],
+    "DetailViewZoomOutDistance": 9.5,
+    "DetailViewZoomOutOffset": [
+      "0",
+      "-0.18",
+      "0"
+    ],
+    "ArchiveViewZoomInDistance": 2,
+    "ArchiveViewZoomInOffset": [
+      "0",
+      "0",
+      "0"
+    ],
+    "ArchiveViewZoomOutDistance": 8,
+    "ArchiveViewZoomOutOffset": [
+      "0",
+      "-0.46",
+      "0"
+    ],
+    "ArchiveCameraAngleX": 1.54,
+    "ArchiveCameraAngleY": -60,
+    "ArchivePreviewBg": "Chapter_8"
+  },
+  {
+    "Code": "Raid.Rank.Draconic.Kallax",
+    "DetailViewZoomInOffset": [
+      "0",
+      " 0",
+      " 0"
+    ],
+    "DetailViewZoomOutDistance": 9.5,
+    "DetailViewZoomOutOffset": [
+      "0",
+      "-0.18",
+      "0"
+    ],
+    "ArchiveViewZoomInDistance": 2,
+    "ArchiveViewZoomInOffset": [
+      "0",
+      "0",
+      "0"
+    ],
+    "ArchiveViewZoomOutDistance": 8,
+    "ArchiveViewZoomOutOffset": [
+      "0",
+      "-0.46",
+      "0"
+    ],
+    "ArchiveCameraAngleX": 1.54,
+    "ArchiveCameraAngleY": -60,
+    "ArchivePreviewBg": "Chapter_8"
   }
 ]

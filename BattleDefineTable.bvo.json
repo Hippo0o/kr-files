@@ -180,6 +180,24 @@
     "SkillCameraOff": "TRUE"
   },
   {
+    "Code": "Arena3",
+    "MaxTime": 90,
+    "FastSpeedStarCount": 99,
+    "AutoRepeatStarCount": 99,
+    "ApplyLevelPenalty": "FALSE",
+    "FastSkillTooltip": "TRUE",
+    "DenyRaidInvite": "TRUE",
+    "DenyDuel": "TRUE",
+    "RetryCondition": [
+      "Win",
+      "Lose"
+    ],
+    "ModStatType1": "MaxHp",
+    "ModStatRatioM1": 1750,
+    "BattleMenu": "HeroParty, DamageMeter, Hud, SystemButtonAutoSimple, EmoticonPopup,PvpGiveUp",
+    "SkillCameraOff": "TRUE"
+  },
+  {
     "Code": "Prison",
     "MaxTime": 90,
     "ExtraTime": 240,
@@ -800,5 +818,25 @@
       "Lose"
     ],
     "BattleMenu": "TimeStatus, HeroParty, DamageMeter, Hud, BoosterStatus, Chat, SystemButton, Retry"
+  },
+  {
+    "Code": "FieldRaid",
+    "MaxTime": 120,
+    "ApplyLevelPenalty": "FALSE",
+    "DenyRaidInvite": "TRUE",
+    "DenyDuel": "TRUE",
+    "DamageMeterFlag": "ShowAllPlayer",
+    "BattleMenu": "TimeStatus, HeroParty, DamageMeter, Hud, BoosterStatus, SystemButton, Emoti, Chat, SystemButtonAutoSimple, PartyExitButton, EmoticonPopup, WaveStatus",
+    "SkillCameraOff": "TRUE"
+  },
+  {
+    "Code": "FieldRaidSingle",
+    "MaxTime": 120,
+    "ApplyLevelPenalty": "FALSE",
+    "DenyRaidInvite": "TRUE",
+    "DenyDuel": "TRUE",
+    "DamageMeterFlag": "ShowAi",
+    "BattleMenu": "TimeStatus, HeroParty, DamageMeter, Hud, BoosterStatus, SystemButton, Chat, SystemButtonAutoSimple, WaveStatus",
+    "SkillCameraOff": "TRUE"
   }
 ]

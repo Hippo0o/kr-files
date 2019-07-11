@@ -332,6 +332,33 @@
     ]
   },
   {
+    "Index": 28,
+    "Category": "Tutorial",
+    "EventType": "OpenHeroList",
+    "Command": "StartTutorial",
+    "Argument": [
+      "10020"
+    ]
+  },
+  {
+    "Index": 29,
+    "Category": "Tutorial",
+    "EventType": "EnterHeroSkillListPage",
+    "Command": "StartTutorial",
+    "Argument": [
+      "10030"
+    ]
+  },
+  {
+    "Index": 30,
+    "Category": "Tutorial",
+    "EventType": "EnterHeroEquipListPage",
+    "Command": "StartTutorial",
+    "Argument": [
+      "10021"
+    ]
+  },
+  {
     "Index": 101,
     "Category": "Tutorial",
     "EventType": "EnterEntryMenu",
@@ -1675,36 +1702,6 @@
     ]
   },
   {
-    "Index": 10003,
-    "Category": "MainScenario",
-    "EventType": "EnterLobby",
-    "CurrentCondition": [
-      "CompleteDungeon",
-      "1",
-      "201",
-      "True"
-    ],
-    "Command": "StartTutorial",
-    "Argument": [
-      "10020"
-    ]
-  },
-  {
-    "Index": 10004,
-    "Category": "MainScenario",
-    "EventType": "EnterLobby",
-    "CurrentCondition": [
-      "CompleteDungeon",
-      "1",
-      "201",
-      "True"
-    ],
-    "Command": "StartTutorial",
-    "Argument": [
-      "10021"
-    ]
-  },
-  {
     "Index": 10005,
     "Category": "MainScenario",
     "EventType": "EnterLobby",
@@ -1717,21 +1714,6 @@
     "Command": "StartTutorial",
     "Argument": [
       "10010"
-    ]
-  },
-  {
-    "Index": 10006,
-    "Category": "MainScenario",
-    "EventType": "EnterLobby",
-    "CurrentCondition": [
-      "CompleteDungeon",
-      "1",
-      "202",
-      "True"
-    ],
-    "Command": "StartTutorial",
-    "Argument": [
-      "10030"
     ]
   },
   {
@@ -1824,13 +1806,41 @@
     ]
   },
   {
+    "Index": 10202,
+    "Category": "MainScenario",
+    "EventType": "PlayerVisitNode",
+    "EventCondition": [
+      "1",
+      "4"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "10202"
+    ]
+  },
+  {
+    "Index": 11202,
+    "Category": "MainScenario",
+    "EventType": "EnterLobby",
+    "CurrentCondition": [
+      "CompleteDungeon",
+      "1",
+      "4",
+      "True"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "10202"
+    ]
+  },
+  {
     "Index": 10011,
     "Category": "MainScenario",
     "EventType": "OnClickStartBattle",
     "EventCondition": [
       "1",
       "205",
-      "Easy"
+      "Normal"
     ],
     "CurrentCondition": [
       "CompleteDungeon",
@@ -1850,7 +1860,7 @@
     "EventCondition": [
       "1",
       "206",
-      "Easy"
+      "Normal"
     ],
     "CurrentCondition": [
       "CompleteDungeon",
@@ -1922,45 +1932,6 @@
     "Command": "StartTutorial",
     "Argument": [
       "14020"
-    ]
-  },
-  {
-    "Index": 10030,
-    "Category": "MainScenario",
-    "EventType": "ChapterMove",
-    "EventCondition": [
-      "1"
-    ],
-    "CurrentCondition": [
-      "CompleteDungeon",
-      "1",
-      "20",
-      "True",
-      "2",
-      "1",
-      "False"
-    ],
-    "Command": "StartTutorial",
-    "Argument": [
-      "15000"
-    ]
-  },
-  {
-    "Index": 10031,
-    "Category": "MainScenario",
-    "EventType": "OnClickMoveChapter",
-    "EventCondition": [
-      "1",
-      "29"
-    ],
-    "CurrentCondition": [
-      "AnyHeroLevel",
-      "15",
-      "False"
-    ],
-    "Command": "StartTutorial",
-    "Argument": [
-      "16000"
     ]
   },
   {
@@ -2103,7 +2074,7 @@
     "EventCondition": [
       "1",
       "1",
-      "Easy",
+      "Normal",
       "True"
     ],
     "Command": "StartTutorial",
@@ -2200,7 +2171,7 @@
     "EventCondition": [
       "1",
       "5",
-      "Easy",
+      "Normal",
       "True"
     ],
     "CurrentCondition": [
@@ -2221,7 +2192,7 @@
     "EventCondition": [
       "1",
       "6",
-      "Easy",
+      "Normal",
       "True"
     ],
     "CurrentCondition": [
@@ -2375,21 +2346,6 @@
     "Command": "StartTutorial",
     "Argument": [
       "17100"
-    ]
-  },
-  {
-    "Index": 17109,
-    "Category": "MainScenario",
-    "EventType": "EnterLobby",
-    "CurrentCondition": [
-      "CompleteDungeon",
-      "1",
-      "10",
-      "true"
-    ],
-    "Command": "StartTutorial",
-    "Argument": [
-      "10501"
     ]
   },
   {

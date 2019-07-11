@@ -2643,6 +2643,28 @@
     ]
   },
   {
+    "Index": 99,
+    "TriggerType": "OnWaveStart",
+    "TriggerRatio": 1000,
+    "TriggerFlag": [
+      "CancelUsingSkill"
+    ],
+    "CoolTimeMs": 1800000,
+    "AttrType": "None",
+    "TargetType": "Myself",
+    "TargetCount": 1,
+    "DeadTarget": "False",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "False",
+    "OperationType1": "Stun",
+    "OperationTargetType1": "Myself",
+    "OperationState1": "Stun",
+    "OperationDurationMs1": 1500,
+    "OperationFlags1": [
+      "IgnoreResist"
+    ]
+  },
+  {
     "Index": 200031,
     "TriggerType": "OnStart",
     "TriggerRatio": 1000,

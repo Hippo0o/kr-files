@@ -5051,7 +5051,8 @@
     "Command": "EnterBattle",
     "Argument": [
       "1",
-      " 201"
+      "201",
+      "Normal"
     ]
   },
   {
@@ -5958,7 +5959,7 @@
     "Command": "EndBattleReward",
     "Argument": [
       "AddHeroExp",
-      " 50",
+      " 15",
       " 1",
       " 2",
       " AddEquipItem",
@@ -5971,7 +5972,7 @@
       " AddGold",
       " 1200",
       " AddGem",
-      " 5",
+      " 37",
       " 1"
     ]
   },
@@ -6071,7 +6072,7 @@
     ],
     "RewardAction": [
       "AddHeroExp",
-      " 50",
+      " 15",
       " 1",
       " 2"
     ],
@@ -6094,7 +6095,8 @@
     "Command": "EnterBattle",
     "Argument": [
       "1",
-      " 201"
+      "201",
+      "Normal"
     ],
     "Repeatable": "True"
   },
@@ -6589,7 +6591,7 @@
     "Index": 10002,
     "Command": "NextTutorial",
     "Argument": [
-      "10020"
+      "10010"
     ]
   },
   {
@@ -7077,7 +7079,8 @@
     "Command": "EnterBattle",
     "Argument": [
       "1",
-      " 202"
+      "202",
+      "Normal"
     ]
   },
   {
@@ -7240,7 +7243,7 @@
     "Command": "EndBattleReward",
     "Argument": [
       "AddHeroExp",
-      " 100",
+      " 40",
       " 1",
       " 2",
       " 3",
@@ -7255,7 +7258,7 @@
       " AddGold",
       " 1200",
       " AddGem",
-      " 5",
+      " 37",
       " 1"
     ]
   },
@@ -7351,12 +7354,12 @@
     "Index": 10010,
     "Command": "NextTutorial",
     "Argument": [
-      "10030"
+      "10110"
     ],
     "RewardIndex": 80002,
     "RewardAction": [
       "AddHeroExp",
-      " 100",
+      " 40",
       " 1",
       " 2",
       " 3",
@@ -7452,19 +7455,6 @@
   },
   {
     "Index": 10020,
-    "Command": "WorldMapPlayerMove",
-    "Argument": [
-      "1",
-      " 1",
-      " True"
-    ]
-  },
-  {
-    "Index": 10020,
-    "Command": "CloseAllPopup"
-  },
-  {
-    "Index": 10020,
     "Command": "WaitTime",
     "Argument": [
       "0.5"
@@ -7472,139 +7462,7 @@
   },
   {
     "Index": 10020,
-    "Command": "OpenMenuOpenPopup",
-    "Argument": [
-      "514",
-      "441",
-      "0",
-      "0",
-      "0.5",
-      "1.5"
-    ]
-  },
-  {
-    "Index": 10020,
-    "Command": "PlaySound",
-    "Argument": [
-      "UI2.Event01"
-    ]
-  },
-  {
-    "Index": 10020,
-    "Command": "WaitObject",
-    "Argument": [
-      "MenuOpenWindow(Clone)/ButtonClose",
-      " 0",
-      " 0.3",
-      " 3"
-    ]
-  },
-  {
-    "Index": 10020,
-    "Command": "WaitWidgetTouch",
-    "Argument": [
-      "MenuOpenWindow(Clone)/ButtonClose",
-      " 0",
-      " 0",
-      " 0",
-      " 0",
-      " 0",
-      " True"
-    ]
-  },
-  {
-    "Index": 10020,
-    "Command": "PlaySound",
-    "Argument": [
-      "Attack.Spin05"
-    ]
-  },
-  {
-    "Index": 10020,
-    "Command": "WaitTime",
-    "Argument": [
-      "0.6"
-    ]
-  },
-  {
-    "Index": 10020,
-    "Command": "PlaySound",
-    "Argument": [
-      "UI2.TakeReward"
-    ]
-  },
-  {
-    "Index": 10020,
-    "Command": "WaitTime",
-    "Argument": [
-      "0.9"
-    ]
-  },
-  {
-    "Index": 10020,
-    "Command": "WaitObject",
-    "Argument": [
-      "RightMenu(Clone)/Button_Hero",
-      " 0",
-      " 0.2",
-      " 3"
-    ]
-  },
-  {
-    "Index": 10020,
-    "Command": "ShowTooltip2",
-    "Argument": [
-      "Center",
-      " 0",
-      " 0",
-      " 2000",
-      " 100",
-      " TUTORIAL_TEXT_231"
-    ]
-  },
-  {
-    "Index": 10020,
-    "Command": "SkipStart",
-    "Argument": [
-      "Jump"
-    ]
-  },
-  {
-    "Index": 10020,
-    "Command": "FocusWidgetEffect",
-    "Argument": [
-      "RightMenu(Clone)/Button_Hero",
-      " 0",
-      " UI.Common.Finger",
-      " 0",
-      " 0",
-      " 150",
-      " 110"
-    ]
-  },
-  {
-    "Index": 10020,
-    "Command": "WaitWidgetTouch",
-    "Argument": [
-      "RightMenu(Clone)/Button_Hero",
-      " 0",
-      " 0",
-      " -20",
-      " 0",
-      " 10",
-      " True"
-    ]
-  },
-  {
-    "Index": 10020,
-    "Command": "ClearFocus"
-  },
-  {
-    "Index": 10020,
-    "Command": "ClearTooltip"
-  },
-  {
-    "Index": 10020,
+    "ReqIndex": "\uc601\uc6c5 \ubaa9\ub85d",
     "Command": "WaitObject",
     "Argument": [
       "HeroDeck2(Clone)/GridPortrait/HeroPortrait(Clone)",
@@ -7617,12 +7475,50 @@
     "Index": 10020,
     "Command": "ShowTooltip2",
     "Argument": [
-      "Left",
-      " -480",
+      "Center",
+      " 0",
+      " 50",
+      " 2000",
+      " 100",
+      " TUTORIAL_TEXT_331"
+    ]
+  },
+  {
+    "Index": 10020,
+    "Command": "FocusAreaEffect",
+    "Argument": [
+      "UI.Common.Finger",
+      " 750",
+      " 50",
       " 0",
       " 100",
-      " 2000",
-      " TUTORIAL_TEXT_232"
+      " True"
+    ]
+  },
+  {
+    "Index": 10020,
+    "Command": "WaitTouch"
+  },
+  {
+    "Index": 10020,
+    "Command": "ClearFocus",
+    "Argument": [
+      "True"
+    ]
+  },
+  {
+    "Index": 10020,
+    "Command": "ClearTooltip"
+  },
+  {
+    "Index": 10020,
+    "ReqIndex": "\uce74\uc140 \ud3ec\ud2b8\ub808\uc774\ud2b8 \uc120\ud0dd",
+    "Command": "WaitObject",
+    "Argument": [
+      "HeroDeck2(Clone)/GridPortrait/HeroPortrait(Clone)",
+      " 0",
+      " 0.2",
+      " 3"
     ]
   },
   {
@@ -7677,6 +7573,7 @@
   },
   {
     "Index": 10020,
+    "ReqIndex": "\uc601\uc6c5 \uc815\ubcf4",
     "Command": "WaitObject",
     "Argument": [
       "HeroList(Clone)/EquipSlotGroup/EquipIcon_Weapon/ItemIconComponent(Clone)",
@@ -7691,33 +7588,19 @@
     "Argument": [
       "Center",
       " 0",
-      " -300",
+      " 50",
       " 2000",
       " 100",
-      " TUTORIAL_TEXT_233"
+      " TUTORIAL_TEXT_332"
     ]
   },
   {
     "Index": 10020,
-    "Command": "FocusWidget",
+    "Command": "FocusAreaEffect",
     "Argument": [
-      "HeroList(Clone)/EquipSlotGroup/EquipIcon_Weapon/ItemIconComponent(Clone)",
-      " 0",
-      " 0",
-      " 0",
-      " 0",
-      " 0"
-    ]
-  },
-  {
-    "Index": 10020,
-    "Command": "FocusWidgetEffect",
-    "Argument": [
-      "HeroList(Clone)/EquipSlotGroup/EquipIcon_Weapon/ItemIconComponent(Clone)",
-      " 0",
-      " UI.Common.Finger",
-      " 0",
-      " 0",
+      "UI.Common.Finger",
+      " 750",
+      " 50",
       " 0",
       " 100",
       " True"
@@ -7725,16 +7608,7 @@
   },
   {
     "Index": 10020,
-    "Command": "WaitWidgetTouch",
-    "Argument": [
-      "HeroList(Clone)/EquipSlotGroup/EquipIcon_Weapon/ItemIconComponent(Clone)",
-      " 0",
-      " 0",
-      " 0",
-      " 0",
-      " 0",
-      " True"
-    ]
+    "Command": "WaitTouch"
   },
   {
     "Index": 10020,
@@ -7749,171 +7623,42 @@
   },
   {
     "Index": 10020,
-    "Command": "WaitObject",
-    "Argument": [
-      "HeroList(Clone)/EquipIconGrid/ItemIconComponent(Clone)",
-      " 0",
-      " 0.2",
-      " 3"
-    ]
-  },
-  {
-    "Index": 10020,
-    "Command": "FocusWidget",
-    "Argument": [
-      "HeroList(Clone)/EquipIconGrid/ItemIconComponent(Clone)",
-      " 0",
-      " 0",
-      " 0",
-      " 0",
-      " 0"
-    ]
-  },
-  {
-    "Index": 10020,
-    "Command": "FocusWidgetEffect",
-    "Argument": [
-      "HeroList(Clone)/EquipIconGrid/ItemIconComponent(Clone)",
-      " 0",
-      " UI.Common.Finger",
-      " 0",
-      " 0",
-      " 0",
-      " 100",
-      " True"
-    ]
-  },
-  {
-    "Index": 10020,
-    "Command": "WaitWidgetTouch",
-    "Argument": [
-      "HeroList(Clone)/EquipIconGrid/ItemIconComponent(Clone)",
-      " 0",
-      " 0",
-      " 0",
-      " 0",
-      " 0",
-      " True"
-    ]
-  },
-  {
-    "Index": 10020,
-    "Command": "ClearFocus",
-    "Argument": [
-      "True"
-    ]
-  },
-  {
-    "Index": 10020,
-    "Command": "WaitObject",
-    "Argument": [
-      "InvenEquipInfo(Clone)/Buttons/Button_Equip",
-      " 0",
-      " 0.2",
-      " 3"
-    ]
-  },
-  {
-    "Index": 10020,
-    "Command": "FocusWidget",
-    "Argument": [
-      "InvenEquipInfo(Clone)/Buttons/Button_Equip",
-      " 0",
-      " 0",
-      " 0",
-      " 0",
-      " 0"
-    ]
-  },
-  {
-    "Index": 10020,
-    "Command": "FocusWidgetEffect",
-    "Argument": [
-      "InvenEquipInfo(Clone)/Buttons/Button_Equip",
-      " 0",
-      " UI.Common.Finger",
-      " 0",
-      " 0",
-      " 150",
-      " 110",
-      " True"
-    ]
-  },
-  {
-    "Index": 10020,
-    "Command": "WaitWidgetTouch",
-    "Argument": [
-      "InvenEquipInfo(Clone)/Buttons/Button_Equip",
-      " 0",
-      " 0",
-      " 0",
-      " 0",
-      " 0",
-      " False"
-    ]
-  },
-  {
-    "Index": 10020,
-    "Command": "PlaySound",
-    "Argument": [
-      "Item.Equip.Sword"
-    ]
-  },
-  {
-    "Index": 10020,
-    "Command": "ClearFocus",
-    "Argument": [
-      "True"
-    ]
-  },
-  {
-    "Index": 10020,
-    "Command": "SkipEnd"
-  },
-  {
-    "Index": 10020,
-    "Command": "SetHeroEquip",
-    "Argument": [
-      "1",
-      " 1",
-      " 51001"
-    ]
-  },
-  {
-    "Index": 10020,
     "Command": "NextTutorial",
     "Argument": [
       "10021"
-    ],
-    "RewardAction": [
-      "SetHeroEquip",
-      " 1",
-      " 1",
-      " 51001"
     ]
   },
   {
     "Index": 10021,
-    "Command": "WorldMapPlayerMove",
+    "ReqIndex": 10020,
+    "Command": "WaitObject",
     "Argument": [
-      "1",
-      " 1",
-      " True"
+      "HeroList(Clone)/EquipSlotGroup/EquipIcon_Weapon/ItemIconComponent(Clone)",
+      " 0",
+      " 0.2",
+      " 3"
     ]
   },
   {
     "Index": 10021,
-    "Command": "OpenHeroWindow",
+    "ReqIndex": "\ud29c\ud1a0\ub9ac\uc5bc \uc6a9 \uc544\uc774\ud15c \uc9c0\uae09",
+    "Command": "AddCustomEquipItem",
     "Argument": [
-      "1",
-      " Equip"
+      "6",
+      "9999"
     ]
   },
   {
     "Index": 10021,
-    "Command": "WaitTime",
+    "ReqIndex": "\ubb34\uae30 \uc2ac\ub86f \uc120\ud0dd",
+    "Command": "ShowTooltip2",
     "Argument": [
-      "0.5"
+      "Center",
+      " 0",
+      " -300",
+      " 2000",
+      " 100",
+      " TUTORIAL_TEXT_333"
     ]
   },
   {
@@ -7925,29 +7670,6 @@
   },
   {
     "Index": 10021,
-    "ReqIndex": "\uc7a5\ube44 \uc544\uc774\ucf58",
-    "Command": "WaitObject",
-    "Argument": [
-      "HeroList(Clone)/EquipSlotGroup/EquipIcon_Weapon/ItemIconComponent(Clone)",
-      " 0",
-      " 0.2",
-      " 3"
-    ]
-  },
-  {
-    "Index": 10021,
-    "Command": "ShowTooltip2",
-    "Argument": [
-      "Center",
-      " 0",
-      " -300",
-      " 2000",
-      " 100",
-      " TUTORIAL_TEXT_234"
-    ]
-  },
-  {
-    "Index": 10021,
     "Command": "FocusWidget",
     "Argument": [
       "HeroList(Clone)/EquipSlotGroup/EquipIcon_Weapon/ItemIconComponent(Clone)",
@@ -7998,10 +7720,10 @@
   },
   {
     "Index": 10021,
-    "ReqIndex": "\uac15\ud654 \ubc84\ud2bc",
+    "ReqIndex": "\uc9c0\uae09\ub41c \uc544\uc774\ud15c \uc120\ud0dd",
     "Command": "WaitObject",
     "Argument": [
-      "InvenEquipInfoUIContainer(Clone)/WidgetCenterRoot/Buttons/Button_Upgrade",
+      "HeroList(Clone)/EquipIconGrid/ItemIconComponent(Clone)",
       " 0",
       " 0.2",
       " 3"
@@ -8009,9 +7731,21 @@
   },
   {
     "Index": 10021,
+    "Command": "ShowTooltip2",
+    "Argument": [
+      "Center",
+      " 0",
+      " -200",
+      " 2000",
+      " 100",
+      " TUTORIAL_TEXT_334"
+    ]
+  },
+  {
+    "Index": 10021,
     "Command": "FocusWidget",
     "Argument": [
-      "InvenEquipInfoUIContainer(Clone)/WidgetCenterRoot/Buttons/Button_Upgrade",
+      "HeroList(Clone)/EquipIconGrid/ItemIconComponent(Clone)",
       " 0",
       " 0",
       " 0",
@@ -8023,12 +7757,12 @@
     "Index": 10021,
     "Command": "FocusWidgetEffect",
     "Argument": [
-      "InvenEquipInfoUIContainer(Clone)/WidgetCenterRoot/Buttons/Button_Upgrade",
+      "HeroList(Clone)/EquipIconGrid/ItemIconComponent(Clone)",
       " 0",
       " UI.Common.Finger",
       " 0",
       " 0",
-      " 150",
+      " 0",
       " 100",
       " True"
     ]
@@ -8037,7 +7771,7 @@
     "Index": 10021,
     "Command": "WaitWidgetTouch",
     "Argument": [
-      "InvenEquipInfoUIContainer(Clone)/WidgetCenterRoot/Buttons/Button_Upgrade",
+      "HeroList(Clone)/EquipIconGrid/ItemIconComponent(Clone)",
       " 0",
       " 0",
       " 0",
@@ -8055,10 +7789,14 @@
   },
   {
     "Index": 10021,
-    "ReqIndex": "\uc218\uce58 \uc870\uc808 \uc601\uc5ed",
+    "Command": "ClearTooltip"
+  },
+  {
+    "Index": 10021,
+    "ReqIndex": "\uc7a5\ucc29/\uac15\ud654 \uac00\ub2a5",
     "Command": "WaitObject",
     "Argument": [
-      "HeroEquipUpgrade(Clone)/Root/HeroEquipInfo/UpgradeValue/Sprite_CountBg",
+      "InvenEquipInfoUIContainer(Clone)/WidgetRightRoot/InvenEquipInfo(Clone)/Buttons",
       " 0",
       " 0.2",
       " 3"
@@ -8068,11 +7806,11 @@
     "Index": 10021,
     "Command": "FocusWidget",
     "Argument": [
-      "HeroEquipUpgrade(Clone)/Root/HeroEquipInfo/UpgradeValue/Sprite_CountBg",
+      "InvenEquipInfoUIContainer(Clone)/WidgetRightRoot/InvenEquipInfo(Clone)/Buttons",
+      " 0",
       " 0",
       " -80",
       " 0",
-      " 80",
       " 0"
     ]
   },
@@ -8082,10 +7820,10 @@
     "Argument": [
       "Center",
       " 0",
-      " 150",
+      " 50",
       " 2000",
       " 100",
-      " TUTORIAL_TEXT_323"
+      " TUTORIAL_TEXT_335"
     ]
   },
   {
@@ -8094,7 +7832,7 @@
     "Argument": [
       "UI.Common.Finger",
       " 750",
-      " 150",
+      " 50",
       " 0",
       " 100",
       " True"
@@ -8117,10 +7855,10 @@
   },
   {
     "Index": 10021,
-    "ReqIndex": "\ucd5c\ub300 \ubc84\ud2bc",
+    "ReqIndex": "X \ubc84\ud2bc \uc120\ud0dd",
     "Command": "WaitObject",
     "Argument": [
-      "HeroEquipUpgrade(Clone)/Root/HeroEquipInfo/UpgradeValue/Button_Max",
+      "InvenEquipInfoUIContainer(Clone)/WidgetRightRoot/InvenEquipInfo(Clone)/Sprite_Title/Button_Close",
       " 0",
       " 0.2",
       " 3"
@@ -8130,168 +7868,7 @@
     "Index": 10021,
     "Command": "FocusWidget",
     "Argument": [
-      "HeroEquipUpgrade(Clone)/Root/HeroEquipInfo/UpgradeValue/Button_Max",
-      " 0",
-      " 0",
-      " 0",
-      " 0",
-      " 0",
-      " True"
-    ]
-  },
-  {
-    "Index": 10021,
-    "Command": "ShowTooltip2",
-    "Argument": [
-      "Center",
-      " 0",
-      " 150",
-      " 2000",
-      " 100",
-      " TUTORIAL_TEXT_324"
-    ]
-  },
-  {
-    "Index": 10021,
-    "Command": "FocusAreaEffect",
-    "Argument": [
-      "UI.Common.Finger",
-      " 800",
-      " 150",
-      " 0",
-      " 100",
-      " True"
-    ]
-  },
-  {
-    "Index": 10021,
-    "Command": "WaitTouch"
-  },
-  {
-    "Index": 10021,
-    "Command": "ClearFocus",
-    "Argument": [
-      "True"
-    ]
-  },
-  {
-    "Index": 10021,
-    "Command": "ClearTooltip"
-  },
-  {
-    "Index": 10021,
-    "Command": "WaitObject",
-    "Argument": [
-      "HeroEquipUpgrade(Clone)/Root/HeroEquipInfo/UpgradeValue/Button_Upgrade",
-      " 0",
-      " 0.2",
-      " 3"
-    ]
-  },
-  {
-    "Index": 10021,
-    "ReqIndex": "\uac15\ud654\ud558\uae30 \ubc84\ud2bc",
-    "Command": "FocusWidget",
-    "Argument": [
-      "HeroEquipUpgrade(Clone)/Root/HeroEquipInfo/UpgradeValue/Button_Upgrade",
-      " 0",
-      " 0",
-      " 0",
-      " 0",
-      " 0",
-      " True"
-    ]
-  },
-  {
-    "Index": 10021,
-    "Command": "FocusWidgetEffect",
-    "Argument": [
-      "HeroEquipUpgrade(Clone)/Root/HeroEquipInfo/UpgradeValue/Button_Upgrade",
-      " 0",
-      " UI.Common.Finger",
-      " 0",
-      " 0",
-      " 150",
-      " 100",
-      " True"
-    ]
-  },
-  {
-    "Index": 10021,
-    "Command": "WaitWidgetTouch",
-    "Argument": [
-      "HeroEquipUpgrade(Clone)/Root/HeroEquipInfo/UpgradeValue/Button_Upgrade",
-      " 0",
-      " 0",
-      " 0",
-      " 0",
-      " 0",
-      " True"
-    ]
-  },
-  {
-    "Index": 10021,
-    "Command": "ClearFocus",
-    "Argument": [
-      "True"
-    ]
-  },
-  {
-    "Index": 10021,
-    "Command": "UpgradeHeroEquip",
-    "Argument": [
-      "1",
-      " 0",
-      " 2"
-    ]
-  },
-  {
-    "Index": 10021,
-    "Command": "WaitTime",
-    "Argument": [
-      "0.8"
-    ]
-  },
-  {
-    "Index": 10021,
-    "Command": "ShowTooltip2",
-    "Argument": [
-      "Center",
-      " 0",
-      " -200",
-      " 2000",
-      " 100",
-      " TUTORIAL_TEXT_6"
-    ]
-  },
-  {
-    "Index": 10021,
-    "Command": "FocusAreaEffect",
-    "Argument": [
-      "UI.Common.Finger",
-      " 750",
-      " -200",
-      " 0",
-      " 100"
-    ]
-  },
-  {
-    "Index": 10021,
-    "Command": "WaitTouch"
-  },
-  {
-    "Index": 10021,
-    "Command": "ClearTooltip"
-  },
-  {
-    "Index": 10021,
-    "Command": "ClearFocus"
-  },
-  {
-    "Index": 10021,
-    "Command": "FocusWidget",
-    "Argument": [
-      "TopmostMenu(Clone)/BackButtonTitle_Root/Button_Exit",
+      "InvenEquipInfoUIContainer(Clone)/WidgetRightRoot/InvenEquipInfo(Clone)/Sprite_Title/Button_Close",
       " 0",
       " 0",
       " 0",
@@ -8303,7 +7880,7 @@
     "Index": 10021,
     "Command": "FocusWidgetEffect",
     "Argument": [
-      "TopmostMenu(Clone)/BackButtonTitle_Root/Button_Exit",
+      "InvenEquipInfoUIContainer(Clone)/WidgetRightRoot/InvenEquipInfo(Clone)/Sprite_Title/Button_Close",
       " 0",
       " UI.Common.Finger",
       " 0",
@@ -8317,13 +7894,31 @@
     "Index": 10021,
     "Command": "WaitWidgetTouch",
     "Argument": [
-      "TopmostMenu(Clone)/BackButtonTitle_Root/Button_Exit",
+      "InvenEquipInfoUIContainer(Clone)/WidgetRightRoot/InvenEquipInfo(Clone)/Sprite_Title/Button_Close",
       " 0",
       " 0",
       " 0",
       " 0",
       " 0",
-      " False"
+      " True"
+    ]
+  },
+  {
+    "Index": 10021,
+    "Command": "SkipEnd"
+  },
+  {
+    "Index": 10021,
+    "Command": "CloseWindow",
+    "Argument": [
+      "InvenEquipInfoUIContainer(Clone)/WidgetRightRoot/InvenEquipInfo(Clone)"
+    ]
+  },
+  {
+    "Index": 10021,
+    "Command": "ClearFocus",
+    "Argument": [
+      "True"
     ]
   },
   {
@@ -8332,10 +7927,134 @@
   },
   {
     "Index": 10021,
-    "Command": "ClearFocus"
+    "Command": "NextTutorial",
+    "Argument": [
+      "10501"
+    ]
   },
   {
-    "Index": 10021,
+    "Index": 10501,
+    "ReqIndex": 10021,
+    "Command": "WaitObject",
+    "Argument": [
+      "HeroList(Clone)/HeroEquipListPanel/InventoryButton/Button_AutoEquip",
+      " 0",
+      " 0.2",
+      " 5"
+    ]
+  },
+  {
+    "Index": 10501,
+    "ReqIndex": "\uc790\ub3d9 \uc7a5\ucc29 \ubc84\ud2bc",
+    "Command": "ShowTooltip2",
+    "Argument": [
+      "Center",
+      " 0",
+      " 0",
+      " 2000",
+      " 100",
+      " TUTORIAL_TEXT_336"
+    ]
+  },
+  {
+    "Index": 10501,
+    "Command": "SkipStart",
+    "Argument": [
+      "Jump"
+    ]
+  },
+  {
+    "Index": 10501,
+    "Command": "FocusWidget",
+    "Argument": [
+      "HeroList(Clone)/HeroEquipListPanel/InventoryButton/Button_AutoEquip",
+      " 0",
+      " 0",
+      " 0",
+      " 0",
+      " 0",
+      " True"
+    ]
+  },
+  {
+    "Index": 10501,
+    "Command": "FocusAreaEffect",
+    "Argument": [
+      "UI.Common.Finger",
+      " 750",
+      " 0",
+      " 0",
+      " 100",
+      " True"
+    ]
+  },
+  {
+    "Index": 10501,
+    "Command": "WaitTouch"
+  },
+  {
+    "Index": 10501,
+    "Command": "ClearFocus",
+    "Argument": [
+      "True"
+    ]
+  },
+  {
+    "Index": 10501,
+    "Command": "ClearTooltip"
+  },
+  {
+    "Index": 10501,
+    "ReqIndex": "\uc544\uc774\ud15c \uc9c0\uae09 \ubb38\uad6c",
+    "Command": "WaitObject",
+    "Argument": [
+      "HeroList(Clone)/HeroEquipListPanel/InventoryButton/Button_AutoEquip",
+      " 0",
+      " 0.2",
+      " 5"
+    ]
+  },
+  {
+    "Index": 10501,
+    "Command": "ShowTooltip2",
+    "Argument": [
+      "Center",
+      " 0",
+      " 0",
+      " 2000",
+      " 100",
+      " TUTORIAL_TEXT_337"
+    ]
+  },
+  {
+    "Index": 10501,
+    "Command": "FocusAreaEffect",
+    "Argument": [
+      "UI.Common.Finger",
+      " 750",
+      " 0",
+      " 0",
+      " 100",
+      " True"
+    ]
+  },
+  {
+    "Index": 10501,
+    "Command": "WaitTouch"
+  },
+  {
+    "Index": 10501,
+    "Command": "ClearFocus",
+    "Argument": [
+      "True"
+    ]
+  },
+  {
+    "Index": 10501,
+    "Command": "ClearTooltip"
+  },
+  {
+    "Index": 10501,
     "Command": "SkipEnd",
     "Argument": [
       "Resources/Prefab2/Window/MessagePopup/TutorialSkipPopup",
@@ -8344,59 +8063,30 @@
     ]
   },
   {
-    "Index": 10021,
-    "Command": "CloseAllWindow"
-  },
-  {
-    "Index": 10021,
-    "Command": "WaitTime",
+    "Index": 10501,
+    "Command": "RemoveEquipItem",
     "Argument": [
-      "0.5"
+      "51401",
+      "9999"
     ]
   },
   {
-    "Index": 10021,
-    "Command": "NextTutorial",
-    "Argument": [
-      "10010"
-    ],
-    "RewardAction": [
-      "UpgradeHeroEquip",
-      "51001",
-      "1",
-      "0"
-    ],
-    "HideRewardPopup": "True"
+    "Index": 10501,
+    "Command": "CloseAllPopup",
+    "RewardIndex": 81008
   },
   {
     "Index": 10030,
-    "Command": "WorldMapPlayerMove",
+    "Command": "CloseWindow",
     "Argument": [
-      "1",
-      " 2",
-      " True"
-    ]
-  },
-  {
-    "Index": 10030,
-    "Command": "WaitTime",
-    "Argument": [
-      "0.5"
-    ]
-  },
-  {
-    "Index": 10030,
-    "Command": "AddItem",
-    "Argument": [
-      "30006",
-      " 20"
+      "HeroSkillDesc(Clone)"
     ]
   },
   {
     "Index": 10030,
     "Command": "WaitObject",
     "Argument": [
-      "RightMenu(Clone)/Button_Hero",
+      "HeroList(Clone)/Hero3DViewPanel/MenuButtons/Toggle_SkillButtonNormal",
       " 0",
       " 0.2",
       " 3"
@@ -8404,14 +8094,15 @@
   },
   {
     "Index": 10030,
-    "Command": "FocusWidget",
+    "ReqIndex": "\uc2a4\ud0ac \uc815\ubcf4 \ubb38\uad6c \ucd9c\ub825",
+    "Command": "ShowTooltip2",
     "Argument": [
-      "RightMenu(Clone)/Button_Hero",
+      "Center",
       " 0",
       " 0",
-      " 0",
-      " 0",
-      " 0"
+      " 2000",
+      " 100",
+      " TUTORIAL_TEXT_338"
     ]
   },
   {
@@ -8423,406 +8114,14 @@
   },
   {
     "Index": 10030,
-    "Command": "FocusWidgetEffect",
-    "Argument": [
-      "RightMenu(Clone)/Button_Hero",
-      " 0",
-      " UI.Common.Finger",
-      " 0",
-      " 0",
-      " 150",
-      " 110",
-      " True"
-    ]
-  },
-  {
-    "Index": 10030,
-    "Command": "WaitWidgetTouch",
-    "Argument": [
-      "RightMenu(Clone)/Button_Hero",
-      " 0",
-      " 0",
-      " 0",
-      " 0",
-      " 0",
-      " True"
-    ]
-  },
-  {
-    "Index": 10030,
-    "Command": "ClearFocus"
-  },
-  {
-    "Index": 10030,
-    "Command": "WaitObject",
-    "Argument": [
-      "HeroDeck2(Clone)/GridPortrait/HeroPortrait(Clone)",
-      " 0",
-      " 0.2",
-      " 3"
-    ]
-  },
-  {
-    "Index": 10030,
-    "Command": "FocusWidget",
-    "Argument": [
-      "HeroDeck2(Clone)/GridPortrait/HeroPortrait(Clone)",
-      " 0",
-      " 0",
-      " 0",
-      " 0",
-      " 0"
-    ]
-  },
-  {
-    "Index": 10030,
-    "Command": "FocusWidgetEffect",
-    "Argument": [
-      "HeroDeck2(Clone)/GridPortrait/HeroPortrait(Clone)",
-      " 0",
-      " UI.Common.Finger",
-      " 0",
-      " -100",
-      " 0",
-      " 0",
-      " True"
-    ]
-  },
-  {
-    "Index": 10030,
-    "Command": "WaitWidgetTouch",
-    "Argument": [
-      "HeroDeck2(Clone)/GridPortrait/HeroPortrait(Clone)",
-      " 0",
-      " 0",
-      " 0",
-      " 0",
-      " 0",
-      " True"
-    ]
-  },
-  {
-    "Index": 10030,
-    "Command": "ClearFocus",
-    "Argument": [
-      "True"
-    ]
-  },
-  {
-    "Index": 10030,
-    "Command": "WaitObject",
-    "Argument": [
-      "HeroList(Clone)/Hero3DViewPanel/MenuButtons/Toggle_SkillButtonNormal",
-      " 0",
-      " 0.2",
-      " 3"
-    ]
-  },
-  {
-    "Index": 10030,
-    "ReqIndex": "\uc2a4\ud0ac \ubc84\ud2bc \uc785\ub825",
-    "Command": "ShowTooltip2",
-    "Argument": [
-      "Center",
-      " 0",
-      " 0",
-      " 2000",
-      " 100",
-      " TUTORIAL_TEXT_236"
-    ]
-  },
-  {
-    "Index": 10030,
-    "Command": "FocusWidget",
-    "Argument": [
-      "HeroList(Clone)/Hero3DViewPanel/MenuButtons/Toggle_SkillButtonNormal",
-      " 0",
-      " 0",
-      " 0",
-      " 0",
-      " 0"
-    ]
-  },
-  {
-    "Index": 10030,
-    "Command": "FocusWidgetEffect",
-    "Argument": [
-      "HeroList(Clone)/Hero3DViewPanel/MenuButtons/Toggle_SkillButtonNormal",
-      " 0",
-      " UI.Common.Finger",
-      " 0",
-      " 0",
-      " 150",
-      " 110",
-      " True"
-    ]
-  },
-  {
-    "Index": 10030,
-    "Command": "WaitWidgetTouch",
-    "Argument": [
-      "HeroList(Clone)/Hero3DViewPanel/MenuButtons/Toggle_SkillButtonNormal",
-      " 0",
-      " 0",
-      " 0",
-      " 0",
-      " 0",
-      " True"
-    ]
-  },
-  {
-    "Index": 10030,
-    "Command": "ClearFocus",
-    "Argument": [
-      "True"
-    ]
-  },
-  {
-    "Index": 10030,
-    "Command": "ClearTooltip"
-  },
-  {
-    "Index": 10030,
-    "Command": "WaitObject",
-    "Argument": [
-      "HeroList(Clone)/HeroSkillListPanel/SkillListGrid/HeroSkillSubComponent(Clone)",
-      " 0",
-      " 0.2",
-      " 3"
-    ]
-  },
-  {
-    "Index": 10030,
-    "ReqIndex": "\uce74\uc140 1\uc2a4\ud0ac \uc120\ud0dd",
-    "Command": "ShowTooltip2",
-    "Argument": [
-      "Center",
-      " 0",
-      " -100",
-      " 2000",
-      " 100",
-      " TUTORIAL_TEXT_237"
-    ]
-  },
-  {
-    "Index": 10030,
-    "Command": "FocusWidget",
-    "Argument": [
-      "HeroList(Clone)/HeroSkillListPanel/SkillListGrid/HeroSkillSubComponent(Clone)",
-      " 0",
-      " 0",
-      " 0",
-      " 0",
-      " 0"
-    ]
-  },
-  {
-    "Index": 10030,
-    "Command": "FocusWidgetEffect",
-    "Argument": [
-      "HeroList(Clone)/HeroSkillListPanel/SkillListGrid/HeroSkillSubComponent(Clone)",
-      " 0",
-      " UI.Common.Finger",
-      " 0",
-      " 0",
-      " 0",
-      " 100",
-      " True"
-    ]
-  },
-  {
-    "Index": 10030,
-    "Command": "WaitWidgetTouch",
-    "Argument": [
-      "HeroList(Clone)/HeroSkillListPanel/SkillListGrid/HeroSkillSubComponent(Clone)",
-      " 0",
-      " 0",
-      " 0",
-      " 0",
-      " 0",
-      " True"
-    ]
-  },
-  {
-    "Index": 10030,
-    "Command": "ClearFocus",
-    "Argument": [
-      "True"
-    ]
-  },
-  {
-    "Index": 10030,
-    "Command": "ClearTooltip"
-  },
-  {
-    "Index": 10030,
-    "Command": "WaitObject",
-    "Argument": [
-      "HeroSkillDesc(Clone)/ExtendSkillGrid/ExtendSkill1/Button_Learn",
-      " 0",
-      " 0.2",
-      " 3"
-    ]
-  },
-  {
-    "Index": 10030,
-    "ReqIndex": "\ud2b9\uc131 \uac15\ud654",
-    "Command": "ShowTooltip2",
-    "Argument": [
-      "Center",
-      " 0",
-      " -200",
-      " 2000",
-      " 100",
-      " TUTORIAL_TEXT_238"
-    ]
-  },
-  {
-    "Index": 10030,
-    "Command": "FocusWidget",
-    "Argument": [
-      "HeroSkillDesc(Clone)/ExtendSkillGrid/ExtendSkill1/Button_Learn",
-      " 0",
-      " 0",
-      " 0",
-      " 0",
-      " 0",
-      " True"
-    ]
-  },
-  {
-    "Index": 10030,
-    "Command": "FocusWidgetEffect",
-    "Argument": [
-      "HeroSkillDesc(Clone)/ExtendSkillGrid/ExtendSkill1/Button_Learn",
-      " 0",
-      " UI.Common.Finger",
-      " 0",
-      " 0",
-      " 0",
-      " 100",
-      " True"
-    ]
-  },
-  {
-    "Index": 10030,
-    "Command": "WaitWidgetTouch",
-    "Argument": [
-      "HeroSkillDesc(Clone)/ExtendSkillGrid/ExtendSkill1/Button_Learn",
-      " 0",
-      " 0",
-      " 0",
-      " 0",
-      " 0",
-      " True"
-    ]
-  },
-  {
-    "Index": 10030,
-    "Command": "ClearFocus",
-    "Argument": [
-      "True"
-    ]
-  },
-  {
-    "Index": 10030,
-    "Command": "ClearTooltip"
-  },
-  {
-    "Index": 10030,
-    "Command": "WaitObject",
-    "Argument": [
-      "MessagePopup(Clone)/Button_Yes",
-      " 0",
-      " 0.2",
-      " 3"
-    ]
-  },
-  {
-    "Index": 10030,
-    "Command": "FocusWidgetEffect",
-    "Argument": [
-      "MessagePopup(Clone)/Button_Yes",
-      " 0",
-      " UI.Common.Finger",
-      " 0",
-      " 0",
-      " 0",
-      " 100"
-    ]
-  },
-  {
-    "Index": 10030,
-    "Command": "WaitWidgetTouch",
-    "Argument": [
-      "MessagePopup(Clone)/Button_Yes",
-      " 0",
-      " 0",
-      " 0",
-      " 0",
-      " 0",
-      " False"
-    ]
-  },
-  {
-    "Index": 10030,
-    "Command": "CloseAllPopup"
-  },
-  {
-    "Index": 10030,
-    "Command": "PlaySound",
-    "Argument": [
-      "UI2.MainButton4"
-    ]
-  },
-  {
-    "Index": 10030,
-    "Command": "PlaySound",
-    "Argument": [
-      "UI.Skill.Get"
-    ]
-  },
-  {
-    "Index": 10030,
-    "Command": "ClearFocus"
-  },
-  {
-    "Index": 10030,
-    "Command": "SetHeroSkillExtend",
-    "Argument": [
-      "1",
-      " 1",
-      " 1"
-    ]
-  },
-  {
-    "Index": 10030,
-    "Command": "WaitTime",
-    "Argument": [
-      "0.5"
-    ]
-  },
-  {
-    "Index": 10030,
-    "Command": "ShowTooltip2",
-    "Argument": [
-      "Center",
-      " 0",
-      " -200",
-      " 2000",
-      " 100",
-      " TUTORIAL_TEXT_7"
-    ]
-  },
-  {
-    "Index": 10030,
     "Command": "FocusAreaEffect",
     "Argument": [
       "UI.Common.Finger",
       " 750",
-      " -200",
       " 0",
-      " 100"
+      " 0",
+      " 100",
+      " True"
     ]
   },
   {
@@ -8831,14 +8130,10 @@
   },
   {
     "Index": 10030,
-    "Command": "PlaySound",
+    "Command": "ClearFocus",
     "Argument": [
-      "UI2.Button5"
+      "True"
     ]
-  },
-  {
-    "Index": 10030,
-    "Command": "ClearFocus"
   },
   {
     "Index": 10030,
@@ -8846,16 +8141,32 @@
   },
   {
     "Index": 10030,
-    "Command": "WaitTime",
+    "ReqIndex": "1\uc2a4\ud0ac \uc120\ud0dd",
+    "Command": "WaitObject",
     "Argument": [
-      "0.5"
+      "HeroList(Clone)/HeroSkillListPanel/SkillListGrid/HeroSkillSubComponent(Clone)",
+      " 0",
+      " 0.2",
+      " 3"
+    ]
+  },
+  {
+    "Index": 10030,
+    "Command": "ShowTooltip2",
+    "Argument": [
+      "Center",
+      " 0",
+      " -200",
+      " 2000",
+      " 100",
+      " TUTORIAL_TEXT_339"
     ]
   },
   {
     "Index": 10030,
     "Command": "FocusWidget",
     "Argument": [
-      "TopmostMenu(Clone)/BackButtonTitle_Root/Button_Exit",
+      "HeroList(Clone)/HeroSkillListPanel/SkillListGrid/HeroSkillSubComponent(Clone)",
       " 0",
       " 0",
       " 0",
@@ -8867,7 +8178,7 @@
     "Index": 10030,
     "Command": "FocusWidgetEffect",
     "Argument": [
-      "TopmostMenu(Clone)/BackButtonTitle_Root/Button_Exit",
+      "HeroList(Clone)/HeroSkillListPanel/SkillListGrid/HeroSkillSubComponent(Clone)",
       " 0",
       " UI.Common.Finger",
       " 0",
@@ -8881,19 +8192,182 @@
     "Index": 10030,
     "Command": "WaitWidgetTouch",
     "Argument": [
-      "TopmostMenu(Clone)/BackButtonTitle_Root/Button_Exit",
+      "HeroList(Clone)/HeroSkillListPanel/SkillListGrid/HeroSkillSubComponent(Clone)",
       " 0",
       " 0",
       " 0",
       " 0",
       " 0",
-      " True",
+      " True"
+    ]
+  },
+  {
+    "Index": 10030,
+    "Command": "ClearFocus",
+    "Argument": [
+      "True"
+    ]
+  },
+  {
+    "Index": 10030,
+    "Command": "ClearTooltip"
+  },
+  {
+    "Index": 10030,
+    "ReqIndex": "\ud2b9\uc131 \uac15\ud654 \ubaa9\ub85d",
+    "Command": "WaitObject",
+    "Argument": [
+      "HeroSkillDesc(Clone)/TalentSkill",
+      " 0",
+      " 0.2",
+      " 3"
+    ]
+  },
+  {
+    "Index": 10030,
+    "Command": "ShowTooltip2",
+    "Argument": [
+      "Center",
+      " 0",
+      " -350",
+      " 2000",
+      " 100",
+      " TUTORIAL_TEXT_340"
+    ]
+  },
+  {
+    "Index": 10030,
+    "Command": "FocusWidget",
+    "Argument": [
+      "HeroSkillDesc(Clone)/TalentSkill",
+      " 0",
+      " 0",
+      " 0",
+      " 0",
+      " 70",
+      " True"
+    ]
+  },
+  {
+    "Index": 10030,
+    "Command": "FocusAreaEffect",
+    "Argument": [
+      "UI.Common.Finger",
+      " 750",
+      " -350",
+      " 0",
+      " 100",
+      " True"
+    ]
+  },
+  {
+    "Index": 10030,
+    "Command": "WaitTouch"
+  },
+  {
+    "Index": 10030,
+    "Command": "ClearFocus",
+    "Argument": [
+      "True"
+    ]
+  },
+  {
+    "Index": 10030,
+    "Command": "ClearTooltip"
+  },
+  {
+    "Index": 10030,
+    "ReqIndex": "\ub2eb\uae30 \ubc84\ud2bc",
+    "Command": "FocusWidget",
+    "Argument": [
+      "HeroSkillDesc(Clone)/Sprite_TitleSub/Button_Close",
+      " 0",
+      " 0",
+      " 0",
+      " 0",
+      " 0"
+    ]
+  },
+  {
+    "Index": 10030,
+    "Command": "FocusWidgetEffect",
+    "Argument": [
+      "HeroSkillDesc(Clone)/Sprite_TitleSub/Button_Close",
+      " 0",
+      " UI.Common.Finger",
+      " 0",
+      " 0",
+      " 0",
+      " 100",
+      " True"
+    ]
+  },
+  {
+    "Index": 10030,
+    "Command": "WaitWidgetTouch",
+    "Argument": [
+      "HeroSkillDesc(Clone)/Sprite_TitleSub/Button_Close",
+      " 0",
+      " 0",
+      " 0",
+      " 0",
+      " 0",
       " True"
     ]
   },
   {
     "Index": 10030,
     "Command": "ClearFocus"
+  },
+  {
+    "Index": 10030,
+    "Command": "ClearTooltip"
+  },
+  {
+    "Index": 10030,
+    "ReqIndex": "\uae30\uc220\uc11c \uc9c0\uae09 \uc548\ub0b4",
+    "Command": "WaitObject",
+    "Argument": [
+      "HeroList(Clone)/HeroSkillListPanel/SkillListGrid/HeroSkillSubComponent(Clone)",
+      " 0",
+      " 0.2",
+      " 3"
+    ]
+  },
+  {
+    "Index": 10030,
+    "Command": "ShowTooltip2",
+    "Argument": [
+      "Center",
+      " 0",
+      " 0",
+      " 2000",
+      " 100",
+      " TUTORIAL_TEXT_341"
+    ]
+  },
+  {
+    "Index": 10030,
+    "Command": "FocusAreaEffect",
+    "Argument": [
+      "UI.Common.Finger",
+      " 750",
+      " 0",
+      " 0",
+      " 100",
+      " True"
+    ]
+  },
+  {
+    "Index": 10030,
+    "Command": "WaitTouch"
+  },
+  {
+    "Index": 10030,
+    "Command": "ClearFocus",
+    "Argument": [
+      "True"
+    ]
   },
   {
     "Index": 10030,
@@ -8910,42 +8384,8 @@
   },
   {
     "Index": 10030,
-    "Command": "CloseAllWindow"
-  },
-  {
-    "Index": 10030,
-    "Command": "WaitTime",
-    "Argument": [
-      "0.5"
-    ]
-  },
-  {
-    "Index": 10030,
-    "Command": "PlayBgm",
-    "Argument": [
-      "Lobby.WorldMap.Map01"
-    ]
-  },
-  {
-    "Index": 10030,
-    "Command": "AddItem",
-    "Argument": [
-      "30006",
-      " -20"
-    ]
-  },
-  {
-    "Index": 10030,
-    "Command": "NextTutorial",
-    "Argument": [
-      "10110"
-    ],
-    "RewardAction": [
-      "SetHeroSkillExtend",
-      " 1",
-      " 1",
-      " 1"
-    ]
+    "Command": "CloseAllPopup",
+    "RewardIndex": 81009
   },
   {
     "Index": 10110,
@@ -8961,14 +8401,6 @@
     "Command": "WaitTime",
     "Argument": [
       "0.5"
-    ]
-  },
-  {
-    "Index": 10110,
-    "Command": "ZoomMapNode",
-    "Argument": [
-      "3",
-      " 1"
     ]
   },
   {
@@ -9323,7 +8755,8 @@
     "Command": "EnterBattle",
     "Argument": [
       "1",
-      " 203"
+      "203",
+      "Normal"
     ]
   },
   {
@@ -9331,6 +8764,14 @@
     "Command": "WaitEvent",
     "Argument": [
       "EnterBattle"
+    ]
+  },
+  {
+    "Index": 10110,
+    "Command": "SetFunctionality",
+    "Argument": [
+      "SkipBattleStartEffect",
+      " False"
     ]
   },
   {
@@ -9351,14 +8792,6 @@
   {
     "Index": 10110,
     "Command": "WaitNodeTree"
-  },
-  {
-    "Index": 10110,
-    "Command": "SetFunctionality",
-    "Argument": [
-      "SkipBattleStartEffect",
-      " True"
-    ]
   },
   {
     "Index": 10110,
@@ -9553,7 +8986,7 @@
     "Command": "EndBattleReward",
     "Argument": [
       "AddHeroExp",
-      " 140",
+      " 75",
       " 1",
       " 2",
       " 3",
@@ -9568,7 +9001,7 @@
       " AddGold",
       " 1200",
       " AddGem",
-      " 5",
+      " 37",
       " 1"
     ]
   },
@@ -9669,7 +9102,7 @@
     "RewardIndex": 80003,
     "RewardAction": [
       "AddHeroExp",
-      " 140",
+      " 75",
       " 1",
       " 2",
       " 3",
@@ -9939,7 +9372,7 @@
     "Command": "FocusWidget",
     "Argument": [
       "PayShop(Clone)/Root/CategoryPanel/ClippingPanel/PayShopCategoryComponent(Clone)",
-      " 4",
+      " 5",
       " 0",
       " 0",
       " 0",
@@ -9951,7 +9384,7 @@
     "Command": "FocusWidgetEffect",
     "Argument": [
       "PayShop(Clone)/Root/CategoryPanel/ClippingPanel/PayShopCategoryComponent(Clone)",
-      " 4",
+      " 5",
       " UI.Common.Finger",
       " 0",
       " 0",
@@ -9965,7 +9398,7 @@
     "Command": "WaitWidgetTouch",
     "Argument": [
       "PayShop(Clone)/Root/CategoryPanel/ClippingPanel/PayShopCategoryComponent(Clone)",
-      " 4",
+      " 5",
       " 0",
       " 0",
       " 0",
@@ -10614,6 +10047,7 @@
   },
   {
     "Index": 10200,
+    "ReqIndex": "\uc601\uc6c5 \ubc84\ud2bc \ub4f1\uc7a5",
     "Command": "NextTutorial",
     "Argument": [
       "10201"
@@ -10627,11 +10061,12 @@
   },
   {
     "Index": 10201,
+    "ReqIndex": 10200,
     "Command": "OpenMenuOpenPopup",
     "Argument": [
       "514",
       "441",
-      "160",
+      "0",
       "0",
       "0.5",
       "1.5"
@@ -10639,6 +10074,7 @@
   },
   {
     "Index": 10201,
+    "ReqIndex": "\ubc84\ud2bc \ub4f1\uc7a5",
     "Command": "PlaySound",
     "Argument": [
       "UI2.Event01"
@@ -10690,6 +10126,86 @@
   },
   {
     "Index": 10201,
+    "Command": "WaitTime",
+    "Argument": [
+      "0.9"
+    ]
+  },
+  {
+    "Index": 10201,
+    "ReqIndex": "\uac00\ubc29 \ubc84\ud2bc \ub4f1\uc7a5",
+    "Command": "NextTutorial",
+    "Argument": [
+      "10202"
+    ]
+  },
+  {
+    "Index": 10202,
+    "ReqIndex": 10201,
+    "Command": "OpenMenuOpenPopup",
+    "Argument": [
+      "514",
+      "441",
+      "160",
+      "0",
+      "0.5",
+      "1.5"
+    ]
+  },
+  {
+    "Index": 10202,
+    "ReqIndex": "\ubc84\ud2bc \ub4f1\uc7a5",
+    "Command": "PlaySound",
+    "Argument": [
+      "UI2.Event01"
+    ]
+  },
+  {
+    "Index": 10202,
+    "Command": "WaitObject",
+    "Argument": [
+      "MenuOpenWindow(Clone)/ButtonClose",
+      " 0",
+      " 0.3",
+      " 3"
+    ]
+  },
+  {
+    "Index": 10202,
+    "Command": "WaitWidgetTouch",
+    "Argument": [
+      "MenuOpenWindow(Clone)/ButtonClose",
+      " 0",
+      " 0",
+      " 0",
+      " 0",
+      " 0",
+      " True"
+    ]
+  },
+  {
+    "Index": 10202,
+    "Command": "PlaySound",
+    "Argument": [
+      "Attack.Spin05"
+    ]
+  },
+  {
+    "Index": 10202,
+    "Command": "WaitTime",
+    "Argument": [
+      "0.6"
+    ]
+  },
+  {
+    "Index": 10202,
+    "Command": "PlaySound",
+    "Argument": [
+      "UI2.TakeReward"
+    ]
+  },
+  {
+    "Index": 10202,
     "Command": "WaitTime",
     "Argument": [
       "0.9"
@@ -10969,7 +10485,8 @@
     "Command": "EnterBattle",
     "Argument": [
       "1",
-      " 205"
+      "205",
+      "Normal"
     ]
   },
   {
@@ -11082,7 +10599,7 @@
     "Command": "EndBattleReward",
     "Argument": [
       "AddHeroExp",
-      " 70",
+      " 175",
       " 1",
       " 2",
       " 3",
@@ -11097,7 +10614,7 @@
       " AddGold",
       " 1200",
       " AddGem",
-      " 5",
+      " 37",
       " 1"
     ]
   },
@@ -11192,7 +10709,7 @@
     "RewardIndex": 80005,
     "RewardAction": [
       "AddHeroExp",
-      " 70",
+      " 175",
       " 1",
       " 2",
       " 3",
@@ -11220,7 +10737,8 @@
     "Command": "EnterBattle",
     "Argument": [
       "1",
-      " 205"
+      "205",
+      "Normal"
     ],
     "Repeatable": "True"
   },
@@ -11421,7 +10939,8 @@
     "Command": "EnterBattle",
     "Argument": [
       "1",
-      " 206"
+      "206",
+      "Normal"
     ]
   },
   {
@@ -11546,7 +11065,7 @@
     "Command": "EndBattleReward",
     "Argument": [
       "AddHeroExp",
-      " 75",
+      " 220",
       " 1",
       " 2",
       " 3",
@@ -11561,7 +11080,7 @@
       " AddGold",
       " 1200",
       " AddGem",
-      " 5",
+      " 37",
       " 1"
     ]
   },
@@ -11641,7 +11160,7 @@
     "RewardIndex": 80006,
     "RewardAction": [
       "AddHeroExp",
-      " 75",
+      " 220",
       " 1",
       " 2",
       " 3",
@@ -11669,7 +11188,8 @@
     "Command": "EnterBattle",
     "Argument": [
       "1",
-      " 206"
+      "206",
+      "Normal"
     ],
     "Repeatable": "True"
   },
@@ -11892,7 +11412,8 @@
     "Command": "EnterBattle",
     "Argument": [
       "1",
-      " 207"
+      "207",
+      "Normal"
     ]
   },
   {
@@ -12186,7 +11707,7 @@
     "Command": "EndBattleReward",
     "Argument": [
       "AddHeroExp",
-      " 80",
+      " 530",
       " 1",
       " 2",
       " 3",
@@ -12204,7 +11725,7 @@
       " AddGold",
       " 1200",
       " AddGem",
-      " 7",
+      " 52",
       " 1"
     ]
   },
@@ -12312,7 +11833,7 @@
     "RewardIndex": 80007,
     "RewardAction": [
       "AddHeroExp",
-      " 80",
+      " 530",
       " 1",
       " 2",
       " 3",
@@ -12558,7 +12079,8 @@
     "Command": "EnterBattle",
     "Argument": [
       "1",
-      " 208"
+      "208",
+      "Normal"
     ]
   },
   {
@@ -12743,7 +12265,7 @@
     "Command": "EndBattleReward",
     "Argument": [
       "AddHeroExp",
-      " 80",
+      " 308",
       " 1",
       " 2",
       " 3",
@@ -12758,7 +12280,7 @@
       " AddGold",
       " 1200",
       " AddGem",
-      " 5",
+      " 37",
       " 1"
     ]
   },
@@ -12845,7 +12367,7 @@
     "RewardIndex": 80008,
     "RewardAction": [
       "AddHeroExp",
-      " 80",
+      " 308",
       " 1",
       " 2",
       " 3",
@@ -12913,7 +12435,8 @@
     "Command": "EnterBattle",
     "Argument": [
       "1",
-      " 209"
+      "209",
+      "Normal"
     ]
   },
   {
@@ -13536,7 +13059,7 @@
     "Command": "EndBattleReward",
     "Argument": [
       "AddHeroExp",
-      " 85",
+      " 350",
       " 1",
       " 2",
       " 3",
@@ -13551,7 +13074,7 @@
       " AddGold",
       " 1200",
       " AddGem",
-      " 5",
+      " 37",
       " 1"
     ]
   },
@@ -13638,7 +13161,7 @@
     "RewardIndex": 80009,
     "RewardAction": [
       "AddHeroExp",
-      " 85",
+      " 350",
       " 1",
       " 2",
       " 3",
@@ -13769,7 +13292,8 @@
     "Command": "EnterBattle",
     "Argument": [
       "1",
-      " 210"
+      "210",
+      "Normal"
     ]
   },
   {
@@ -14058,7 +13582,7 @@
     "Command": "EndBattleReward",
     "Argument": [
       "AddHeroExp",
-      " 85",
+      " 389",
       " 1",
       " 2",
       " 3",
@@ -14073,7 +13597,7 @@
       " AddGold",
       " 1200",
       " AddGem",
-      " 5",
+      " 37",
       " 1"
     ]
   },
@@ -14220,314 +13744,6 @@
     "Command": "ClearTooltip"
   },
   {
-    "Index": 10500,
-    "Command": "NextTutorial",
-    "Argument": [
-      "10501"
-    ],
-    "RewardIndex": 80010,
-    "RewardAction": [
-      "AddHeroExp",
-      " 85",
-      " 1",
-      " 2",
-      " 3",
-      " 4"
-    ],
-    "RewardDungeonIndex": [
-      "1",
-      "10"
-    ],
-    "HideRewardPopup": "True"
-  },
-  {
-    "Index": 10501,
-    "ReqIndex": "\uc790\ub3d9 \uc7a5\ucc29",
-    "Command": "SkipStart",
-    "Argument": [
-      "Jump"
-    ]
-  },
-  {
-    "Index": 10501,
-    "Command": "WaitObject",
-    "Argument": [
-      "RightMenu(Clone)/Button_Hero",
-      " 0",
-      " 0.2",
-      " 3"
-    ]
-  },
-  {
-    "Index": 10501,
-    "Command": "FocusWidget",
-    "Argument": [
-      "RightMenu(Clone)/Button_Hero",
-      " 0",
-      " 0",
-      " 0",
-      " 0",
-      " 0"
-    ]
-  },
-  {
-    "Index": 10501,
-    "Command": "ShowTooltip2",
-    "Argument": [
-      "Center",
-      " 0",
-      " -130",
-      " 2000",
-      " 100",
-      " TUTORIAL_TEXT_197"
-    ]
-  },
-  {
-    "Index": 10501,
-    "Command": "FocusWidgetEffect",
-    "Argument": [
-      "RightMenu(Clone)/Button_Hero",
-      " 0",
-      " UI.Common.Finger",
-      " 0",
-      " 0",
-      " 150",
-      " 110"
-    ]
-  },
-  {
-    "Index": 10501,
-    "Command": "WaitWidgetTouch",
-    "Argument": [
-      "RightMenu(Clone)/Button_Hero",
-      " 0",
-      " 0",
-      " -20",
-      " 0",
-      " 10",
-      " True"
-    ]
-  },
-  {
-    "Index": 10501,
-    "Command": "ClearTooltip"
-  },
-  {
-    "Index": 10501,
-    "Command": "ClearFocus"
-  },
-  {
-    "Index": 10501,
-    "Command": "WaitObject",
-    "Argument": [
-      "HeroDeck2(Clone)/GridPortrait/HeroPortrait(Clone)",
-      " 0",
-      " 0.2",
-      " 3"
-    ]
-  },
-  {
-    "Index": 10501,
-    "Command": "FocusWidget",
-    "Argument": [
-      "HeroDeck2(Clone)/GridPortrait/HeroPortrait(Clone)",
-      " 0",
-      " 0",
-      " 0",
-      " 0",
-      " 0"
-    ]
-  },
-  {
-    "Index": 10501,
-    "Command": "FocusWidgetEffect",
-    "Argument": [
-      "HeroDeck2(Clone)/GridPortrait/HeroPortrait(Clone)",
-      " 0",
-      " UI.Common.Finger",
-      " 0",
-      " -100",
-      " 0",
-      " 0",
-      " True"
-    ]
-  },
-  {
-    "Index": 10501,
-    "Command": "WaitWidgetTouch",
-    "Argument": [
-      "HeroDeck2(Clone)/GridPortrait/HeroPortrait(Clone)",
-      " 0",
-      " 0",
-      " 0",
-      " 0",
-      " 0",
-      " True"
-    ]
-  },
-  {
-    "Index": 10501,
-    "Command": "ClearFocus",
-    "Argument": [
-      "True"
-    ]
-  },
-  {
-    "Index": 10501,
-    "Command": "WaitObject",
-    "Argument": [
-      "HeroList(Clone)/Panel/Root/Hero3DViewPanel/Panel/Root/MenuButtons/Toggle_EquipButtonNormal",
-      " 0",
-      " 0.2",
-      " 5"
-    ]
-  },
-  {
-    "Index": 10501,
-    "Command": "ShowTooltip2",
-    "Argument": [
-      "Center",
-      " 0",
-      " 0",
-      " 2000",
-      " 100",
-      " TUTORIAL_TEXT_200"
-    ]
-  },
-  {
-    "Index": 10501,
-    "Command": "FocusWidget",
-    "Argument": [
-      "HeroList(Clone)/Panel/Root/Hero3DViewPanel/Panel/Root/MenuButtons/Toggle_EquipButtonNormal",
-      " 0",
-      " 0",
-      " 0",
-      " 0",
-      " 0",
-      " True"
-    ]
-  },
-  {
-    "Index": 10501,
-    "Command": "FocusWidgetEffect",
-    "Argument": [
-      "HeroList(Clone)/Panel/Root/Hero3DViewPanel/Panel/Root/MenuButtons/Toggle_EquipButtonNormal",
-      " 0",
-      " UI.Common.Finger",
-      " 0",
-      " 0",
-      " 150",
-      " 100",
-      " True"
-    ]
-  },
-  {
-    "Index": 10501,
-    "Command": "WaitWidgetTouch",
-    "Argument": [
-      "HeroList(Clone)/Panel/Root/Hero3DViewPanel/Panel/Root/MenuButtons/Toggle_EquipButtonNormal",
-      " 0",
-      " 0",
-      " 0",
-      " 0",
-      " 0",
-      " true"
-    ]
-  },
-  {
-    "Index": 10501,
-    "Command": "ClearFocus",
-    "Argument": [
-      "True"
-    ]
-  },
-  {
-    "Index": 10501,
-    "Command": "ClearTooltip"
-  },
-  {
-    "Index": 10501,
-    "Command": "WaitObject",
-    "Argument": [
-      "HeroList(Clone)/HeroEquipListPanel/InventoryButton/Button_AutoEquip",
-      " 0",
-      " 0.2",
-      " 5"
-    ]
-  },
-  {
-    "Index": 10501,
-    "Command": "ShowTooltip2",
-    "Argument": [
-      "Center",
-      " 0",
-      " 0",
-      " 2000",
-      " 100",
-      " TUTORIAL_TEXT_201"
-    ]
-  },
-  {
-    "Index": 10501,
-    "Command": "FocusWidget",
-    "Argument": [
-      "HeroList(Clone)/HeroEquipListPanel/InventoryButton/Button_AutoEquip",
-      " 0",
-      " 0",
-      " 0",
-      " 0",
-      " 0",
-      " True"
-    ]
-  },
-  {
-    "Index": 10501,
-    "Command": "FocusWidgetEffect",
-    "Argument": [
-      "HeroList(Clone)/HeroEquipListPanel/InventoryButton/Button_AutoEquip",
-      " 0",
-      " UI.Common.Finger",
-      " 0",
-      " 0",
-      " 150",
-      " 100",
-      " True"
-    ]
-  },
-  {
-    "Index": 10501,
-    "Command": "WaitWidgetTouch",
-    "Argument": [
-      "HeroList(Clone)/HeroEquipListPanel/InventoryButton/Button_AutoEquip",
-      " 0",
-      " 0",
-      " 0",
-      " 0",
-      " 0",
-      " true"
-    ]
-  },
-  {
-    "Index": 10501,
-    "Command": "ClearFocus"
-  },
-  {
-    "Index": 10501,
-    "Command": "ClearTooltip"
-  },
-  {
-    "Index": 10501,
-    "Command": "SetHeroEquipAuto",
-    "Argument": [
-      "1"
-    ],
-    "RewardGold": 1000
-  },
-  {
-    "Index": 10501,
-    "Command": "SkipEnd"
-  },
-  {
     "Index": 17102,
     "Command": "PlayCutScene",
     "Argument": [
@@ -14610,7 +13826,8 @@
     "Command": "EnterBattle",
     "Argument": [
       "1",
-      " 211"
+      "211",
+      "Normal"
     ]
   },
   {
@@ -14835,7 +14052,7 @@
     "Command": "EndBattleReward",
     "Argument": [
       "AddHeroExp",
-      " 135",
+      " 864",
       " 1",
       " 2",
       " 3",
@@ -14853,7 +14070,7 @@
       " AddGold",
       " 1320",
       " AddGem",
-      " 7",
+      " 52",
       " 1"
     ]
   },
@@ -14954,7 +14171,7 @@
     "RewardIndex": 80011,
     "RewardAction": [
       "AddHeroExp",
-      " 135",
+      " 864",
       " 1",
       " 2",
       " 3",
@@ -25383,7 +24600,7 @@
     "Index": 7000,
     "Command": "WaitObject",
     "Argument": [
-      "MultiSelect(Clone)/Table/Sprite_DragonRaid/Button_Dragon",
+      "MultiSelect(Clone)/ScrollGrid/ClippingPanel/Sprite_DragonRaid/Button_Dragon",
       " 0",
       " 0.3",
       " 1"
@@ -25393,7 +24610,7 @@
     "Index": 7000,
     "Command": "FocusWidget",
     "Argument": [
-      "MultiSelect(Clone)/Table/Sprite_DragonRaid/Button_Dragon",
+      "MultiSelect(Clone)/ScrollGrid/ClippingPanel/Sprite_DragonRaid/Button_Dragon",
       " 0",
       " 0",
       " 0",
@@ -25405,7 +24622,7 @@
     "Index": 7000,
     "Command": "FocusWidgetEffect",
     "Argument": [
-      "MultiSelect(Clone)/Table/Sprite_DragonRaid/Button_Dragon",
+      "MultiSelect(Clone)/ScrollGrid/ClippingPanel/Sprite_DragonRaid/Button_Dragon",
       " 0",
       " UI.Common.Finger",
       " -100",
@@ -25419,7 +24636,7 @@
     "Index": 7000,
     "Command": "WaitWidgetTouch",
     "Argument": [
-      "MultiSelect(Clone)/Table/Sprite_DragonRaid/Button_Dragon",
+      "MultiSelect(Clone)/ScrollGrid/ClippingPanel/Sprite_DragonRaid/Button_Dragon",
       " 0",
       " 0",
       " 0",
@@ -25452,9 +24669,9 @@
     "Argument": [
       "RaidList(Clone)/Panel/Root/RaidGrid/ClippingPanel/RaidListComponent(Clone)/Buttons/Button_Enter",
       " 0",
-      " -220",
       " 0",
       " 0",
+      " 210",
       " 0"
     ]
   },
@@ -25551,6 +24768,14 @@
   {
     "Index": 7000,
     "Command": "ClearTooltip"
+  },
+  {
+    "Index": 7000,
+    "Command": "OpenRaidLevelSelect",
+    "Argument": [
+      "1",
+      " 7"
+    ]
   },
   {
     "Index": 7000,
@@ -25712,14 +24937,6 @@
   },
   {
     "Index": 7000,
-    "Command": "OpenRaidLevelSelect",
-    "Argument": [
-      "1",
-      " 1"
-    ]
-  },
-  {
-    "Index": 7000,
     "Command": "WaitObject",
     "Argument": [
       "RaidLevelSelect(Clone)/Root/ButtonSingleMultiRoot/Button_EnterMultiRaid/Label_Yes",
@@ -25797,7 +25014,7 @@
     "Command": "OpenRaidPartySetting",
     "Argument": [
       "1",
-      " 1",
+      " 7",
       " 4",
       " 41",
       " 45"
@@ -26063,7 +25280,7 @@
       "41",
       " 4",
       " 40",
-      " 40"
+      " 60"
     ]
   },
   {
@@ -26080,7 +25297,7 @@
       "45",
       " 4",
       " 40",
-      " 40"
+      " 60"
     ]
   },
   {
@@ -26627,33 +25844,33 @@
       "AddHeroExp",
       " 0 ",
       "AddEquipItem",
-      " 80105",
+      " 80114",
       " 0",
       " 0",
-      " 81105",
+      " 81114",
       " 0",
       " 0",
-      " 82105",
+      " 82114",
       " 0",
       " 0",
-      " 83105",
+      " 83114",
       " 0",
       " 0",
       " AddReward",
-      " 80105",
+      " 80114",
       " 0",
       " 0",
-      " 81105",
+      " 81114",
       " 0",
       " 0",
-      " 82105",
+      " 82114",
       " 0",
       " 0",
-      " 83105",
+      " 83114",
       " 0",
       " 0",
       " AddRaidPoint",
-      " 100"
+      " 400"
     ]
   },
   {
@@ -27050,7 +26267,7 @@
     "RewardIndex": 81005,
     "RewardAction": [
       "AddRaidPoint",
-      " 100"
+      " 400"
     ],
     "HideRewardPopup": "True"
   },
@@ -27070,7 +26287,7 @@
     "Command": "OpenRaidPartySetting",
     "Argument": [
       "1",
-      " 1",
+      " 7",
       " 6",
       " 41",
       " 45"

@@ -2124,5 +2124,193 @@
     "OperationValue1": [
       "200"
     ]
+  },
+  {
+    "Index": 70000121,
+    "TriggerType": "OnStart",
+    "TriggerRatio": 1000,
+    "TargetType": "Myself",
+    "TargetCount": 1,
+    "DeadTarget": "False",
+    "IgnoreBlock": "True",
+    "RetargetOnFire": "False",
+    "OperationType1": "ModPowerR",
+    "OperationTargetType1": "Myself",
+    "OperationValue1": [
+      "400"
+    ],
+    "OperationState1": "GuildDefenseSkill1"
+  },
+  {
+    "Index": 70000122,
+    "TriggerType": "OnStart",
+    "TriggerRatio": 1000,
+    "TargetType": "Myself",
+    "TargetCount": 1,
+    "DeadTarget": "False",
+    "IgnoreBlock": "True",
+    "RetargetOnFire": "False",
+    "OperationType1": "ModDefenceR",
+    "OperationTargetType1": "Myself",
+    "OperationValue1": [
+      "600"
+    ],
+    "OperationState1": "GuildDefenseSkill2"
+  },
+  {
+    "Index": 70000123,
+    "TriggerType": "OnStart",
+    "TriggerRatio": 1000,
+    "TargetType": "Myself",
+    "TargetCount": 1,
+    "DeadTarget": "False",
+    "IgnoreBlock": "True",
+    "RetargetOnFire": "False",
+    "OperationType1": "ModCriticalDodgeChance",
+    "OperationTargetType1": "Myself",
+    "OperationValue1": [
+      "400"
+    ],
+    "OperationState1": "GuildDefenseSkill3"
+  },
+  {
+    "Index": 70000124,
+    "TriggerType": "OnStart",
+    "TriggerRatio": 1000,
+    "TargetType": "Myself",
+    "TargetCount": 1,
+    "DeadTarget": "False",
+    "IgnoreBlock": "True",
+    "RetargetOnFire": "False",
+    "OperationType1": "ModRecoverPower",
+    "OperationTargetType1": "Myself",
+    "OperationValue1": [
+      "400"
+    ],
+    "OperationState1": "GuildDefenseSkill4"
+  },
+  {
+    "Index": 70000125,
+    "TriggerType": "OnTimer",
+    "TriggerValue": [
+      "1000",
+      "1000"
+    ],
+    "TriggerRatio": 1000,
+    "TargetType": "Myself",
+    "TargetCount": 1,
+    "DeadTarget": "False",
+    "IgnoreBlock": "True",
+    "RetargetOnFire": "False",
+    "OperationType1": "ModActiveCooltimeR",
+    "OperationTargetType1": "Myself",
+    "OperationValue1": [
+      "3",
+      "-50",
+      "InCoolTime"
+    ]
+  },
+  {
+    "Index": 70000126,
+    "TriggerType": "OnTimer",
+    "TriggerValue": [
+      "1000",
+      "1000"
+    ],
+    "TriggerRatio": 1000,
+    "TargetType": "Myself",
+    "TargetCount": 1,
+    "DeadTarget": "False",
+    "IgnoreBlock": "True",
+    "RetargetOnFire": "False",
+    "OperationType1": "ModActiveCooltime",
+    "OperationTargetType1": "Myself",
+    "OperationValue1": [
+      "3",
+      "-1000",
+      "InCoolTime"
+    ]
+  },
+  {
+    "Index": 70000127,
+    "TriggerType": "OnStart",
+    "TriggerRatio": 1000,
+    "TargetType": "Myself",
+    "TargetCount": 1,
+    "DeadTarget": "False",
+    "IgnoreBlock": "True",
+    "RetargetOnFire": "False",
+    "OperationType1": "ModWeakness",
+    "OperationTargetType1": "Myself",
+    "OperationTargetSelectType1": "Opponent",
+    "OperationRadiusMm1": 30000,
+    "OperationValue1": [
+      "300"
+    ],
+    "OperationState1": "GuildDefenseSkill7",
+    "OperationConditionType1": "NotState",
+    "OperationConditionValue1": [
+      "GuildDefenseSkill7"
+    ],
+    "OperationFlags1": [
+      "CheckConditionOnBegin"
+    ]
+  },
+  {
+    "Index": 70000128,
+    "TriggerType": "OnStart",
+    "TriggerRatio": 1000,
+    "TargetType": "Myself",
+    "TargetCount": 1,
+    "DeadTarget": "False",
+    "IgnoreBlock": "True",
+    "RetargetOnFire": "False"
+  },
+  {
+    "Index": 70000129,
+    "TriggerType": "OnStart",
+    "TriggerRatio": 1000,
+    "TargetType": "Myself",
+    "TargetCount": 1,
+    "DeadTarget": "False",
+    "IgnoreBlock": "True",
+    "RetargetOnFire": "False",
+    "OperationType1": "OverrideStat",
+    "OperationTargetType1": "Myself",
+    "OperationValue1": [
+      "AttackSpeed",
+      "Custom",
+      "1000"
+    ],
+    "OperationState1": "GuildDefenseSkill9",
+    "OperationType2": "OverrideStat",
+    "OperationTargetType2": "Myself",
+    "OperationRadiusMm2": 30000,
+    "OperationValue2": [
+      "AttackSpeed",
+      "Custom",
+      "1000"
+    ],
+    "OperationState2": "GuildDefenseSkill9"
+  },
+  {
+    "Index": 70000130,
+    "TriggerType": "OnStart",
+    "TriggerRatio": 1000,
+    "TargetType": "Myself",
+    "TargetCount": 1,
+    "DeadTarget": "False",
+    "IgnoreBlock": "True",
+    "RetargetOnFire": "False",
+    "OperationType1": "ModMaxHpR",
+    "OperationTargetType1": "Myself",
+    "OperationValue1": [
+      "-500"
+    ],
+    "OperationType2": "ModPowerR",
+    "OperationTargetType2": "Myself",
+    "OperationValue2": [
+      "-500"
+    ]
   }
 ]

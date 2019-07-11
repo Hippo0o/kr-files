@@ -792,7 +792,7 @@
   },
   {
     "Key": "MaxGuildIcon",
-    "Value": 20
+    "Value": 10
   },
   {
     "Key": "GuildMemberAccActivityPointResetDOW",
@@ -1283,7 +1283,7 @@
   },
   {
     "Key": "PartyDungeonPlayEnableHeroLevel",
-    "Value": 30
+    "Value": 1
   },
   {
     "Key": "AutoSearchRefreshCooltime",
@@ -1495,6 +1495,100 @@
   },
   {
     "Key": "ClassBuffDungeonType",
-    "Value": "[\"Campaign\",\"CustomCampaign\",\"Trial\",\"Arena\",\"GuildSuppress\",\"Conquest\",\"Tower\",\"Labyrinth\",\"Event\",\"Party\",\"Boss\",\"Prison\",\"SquareSideQuest\",\"Raid\",\"HardRaid\",\"OrdealTower\",\"ChallengeTower\",\"GuildRaid\",\"RaidSingle\",\"WorldBoss\",\"Maze\",\"SubStoryBoss\",\"ChallengeRaid\",\"ChallengeRaidSingle\",\"Hideout\",\"EventDungeon\"]"
+    "Value": "[\"Campaign\",\"CustomCampaign\",\"Trial\",\"Arena\",\"GuildSuppress\",\"Conquest\",\"Tower\",\"Labyrinth\",\"Event\",\"Party\",\"Boss\",\"Prison\",\"SquareSideQuest\",\"Raid\",\"HardRaid\",\"OrdealTower\",\"ChallengeTower\",\"GuildRaid\",\"RaidSingle\",\"WorldBoss\",\"Maze\",\"SubStoryBoss\",\"ChallengeRaid\",\"ChallengeRaidSingle\",\"Hideout\",\"EventDungeon\",\"GuildArena\"]"
+  },
+  {
+    "Key": "CostumeSorageSlotMaxCount",
+    "Value": 5
+  },
+  {
+    "Key": "GuildArenaSessionWinReward",
+    "Value": 700
+  },
+  {
+    "Key": "GuildArenaSessionLoseReward",
+    "Value": 400
+  },
+  {
+    "Key": "GlobalGuildArenaApplyTime",
+    "Value": "[\"Monday\",\"16:00:00\",\"Wednesday\",\"14:59:59\"]"
+  },
+  {
+    "Key": "GlobalGuildArenaProgressTime",
+    "Value": "[\"Wednesday\",\"15:30:00\",\"Friday\",\"14:59:59\"]"
+  },
+  {
+    "Key": "GlobalGuildArenaApplyTime2",
+    "Value": "[\"Friday\",\"16:00:00\",\"Saturday\",\"14:59:59\"]"
+  },
+  {
+    "Key": "GlobalGuildArenaProgressTime2",
+    "Value": "[\"Saturday\",\"15:30:00\",\"Monday\",\"14:59:59\"]"
+  },
+  {
+    "Key": "GlobalGuildArenaContributionRewardRate",
+    "Value": 10000
+  },
+  {
+    "Key": "GlobalGuildArenaSessionRewardMailExpireHour",
+    "Value": 72
+  },
+  {
+    "Key": "GlobalGuildArenaSeasonRewardMailExpireHour",
+    "Value": 72
+  },
+  {
+    "Key": "GlobalGuildArenaContributionRewardMailExpireHour",
+    "Value": 72
+  },
+  {
+    "Key": "AttackContributePoint",
+    "Value": 5
+  },
+  {
+    "Key": "FinishContributePoint",
+    "Value": 3
+  },
+  {
+    "Key": "AttackFailContributePoint",
+    "Value": 1
+  },
+  {
+    "Key": "DefenseContributePoint",
+    "Value": 1
+  },
+  {
+    "Key": "GuildArenaDefenceSkillIndices",
+    "Value": "[70000121,70000123,70000125,70000127,70000128]"
+  },
+  {
+    "Key": "GuildArenaNPCSkillIndex",
+    "Value": 70000130
+  },
+  {
+    "Key": "GuildArenaRankingListCount",
+    "Value": 10
+  },
+  {
+    "Key": "MinGuildArenaMemberCount",
+    "Value": 20
+  },
+  {
+    "Key": "DispatchReturnRate",
+    "Value": 100
+  },
+  {
+    "Key": "UseSyncAssetLoad",
+    "Value": "true"
+  },
+  {
+    "Key": "MaxCuncurrentAsyncLoad",
+    "Value": 20
+  },
+  {
+    "Key": "AssetBundleCacheSize"
+  },
+  {
+    "Key": "AssetBundleCacheTicks"
   }
 ]

@@ -3159,10 +3159,7 @@
   {
     "Code": "GuildTrainingCenter",
     "OnOpenEntryMenu": [
-      "NPC_GUILDTRAINING_WELCOME01",
-      " NPC.GuildTraining.Welcome01",
-      " Buy2",
-      "\nNPC_GUILDTRAINING_WELCOME02",
+      "NPC_GUILDTRAINING_WELCOME02",
       " NPC.GuildTraining.Welcome02",
       " Buy2",
       "\nNPC_GUILDTRAINING_WELCOME03",
@@ -3193,6 +3190,12 @@
       "GUILD_TRAINING_CENTER",
       "OpenGuildTrainingCenter"
     ],
+    "EntryMenuButton2": [
+      "GUILD_ARENA_TITLE",
+      "OpenGuildArena"
+    ],
+    "BuffIconName1": "Guild_Activity_Restrict",
+    "BuffIconCondition1": "GuildActivityRestrict",
     "CreatureIndex": 820,
     "NpcOffset": [
       "120",
@@ -3248,6 +3251,12 @@
       "GuildRaidShop"
     ],
     "EntryMenuCondition2": "GuildExist,true",
+    "EntryMenuButton3": [
+      "MENU_USE_GUILD_ARENA_SHOP",
+      "OpenShop",
+      "GuildArenaShop"
+    ],
+    "EntryMenuCondition3": "GuildExist,true",
     "CreatureIndex": 819,
     "NpcOffset": [
       "-140",

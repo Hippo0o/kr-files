@@ -15783,7 +15783,8 @@
     "OperationType1": "GetMagicalDamageR",
     "OperationTargetType1": "Myself",
     "OperationRadiusMm1": 20000,
-    "OperationAngle1": 30,
+    "OperationWidth1": 5000,
+    "OperationAngle1": 90,
     "OperationValue1": [
       "600"
     ],
@@ -15848,6 +15849,28 @@
     ]
   },
   {
+    "Index": 430141,
+    "NextIndex": 430140,
+    "TriggerType": "OnWaveStart",
+    "TriggerRatio": 1000,
+    "TriggerFlag": [
+      "CancelUsingSkill"
+    ],
+    "AttrType": "Magical",
+    "ClearStateType": [
+      "CC"
+    ],
+    "IgnoreStateType": [
+      "CC"
+    ],
+    "TargetType": "Myself",
+    "TargetCount": 1,
+    "DeadTarget": "False",
+    "RetargetOnFire": "TRUE",
+    "OperationType1": "Cleanse",
+    "OperationTargetType1": "Myself"
+  },
+  {
     "Index": 430140,
     "TriggerType": "NextSkill",
     "TriggerRatio": 1000,
@@ -15860,32 +15883,31 @@
       "6500"
     ],
     "TickTimeValue": [
-      "3500",
-      "3700",
-      "3900",
-      "4100",
-      "4300",
-      "4500",
-      "4700",
-      "4900",
-      "5100",
-      "5300",
-      "5500",
-      "5700"
+      "0[3]",
+      "3500[1:2]",
+      "3700[1:2]",
+      "3900[1:2]",
+      "4100[1:2]",
+      "4300[1:2]",
+      "4500[1:2]",
+      "4700[1:2]",
+      "4900[1:2]",
+      "5100[1:2]",
+      "5300[1:2]",
+      "5500[1:2]",
+      "5700[1:2]"
     ],
     "AttrType": "Magical",
-    "IgnoreStateType": [
-      "CC"
-    ],
     "TargetType": "Enemy",
     "TargetCount": 1,
-    "MaxRangeMm": 8000,
+    "MaxRangeMm": 20000,
     "DeadTarget": "False",
     "RetargetOnFire": "TRUE",
     "OperationType1": "GetMagicalDamageR",
     "OperationTargetType1": "Myself",
     "OperationRadiusMm1": 20000,
-    "OperationAngle1": 30,
+    "OperationWidth1": 5000,
+    "OperationAngle1": 90,
     "OperationValue1": [
       "600"
     ],
@@ -15901,7 +15923,10 @@
     "OperationParent2": 1,
     "OperationFlags2": [
       "HasParent"
-    ]
+    ],
+    "OperationType3": "ImmuneCc",
+    "OperationTargetType3": "Myself",
+    "OperationDurationMs3": 1000
   },
   {
     "Index": 530100,
@@ -18702,7 +18727,7 @@
     "OperationType1": "GetMagicalDamageR",
     "OperationTargetType1": "Target",
     "OperationValue1": [
-      "800"
+      "600"
     ],
     "OperationConditionType1": "None",
     "OperationType2": "Stone",
@@ -18717,7 +18742,7 @@
     "OperationTargetType3": "Target",
     "OperationRadiusMm3": 2500,
     "OperationValue3": [
-      "400"
+      "300"
     ],
     "OperationConditionType3": "None",
     "OperationFlags3": [
