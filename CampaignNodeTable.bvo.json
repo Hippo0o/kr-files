@@ -1393,7 +1393,7 @@
     "UiPositionX": 2431,
     "UiPositionY": 1342,
     "NextNodeIndex": [
-      "105"
+      "5"
     ],
     "Oneway": "False",
     "Opened": "False",
@@ -1408,7 +1408,8 @@
     "UiPositionX": 2187,
     "UiPositionY": 1126,
     "NextNodeIndex": [
-      "106"
+      "106",
+      "31"
     ],
     "Oneway": "False",
     "Opened": "False",
@@ -1646,7 +1647,8 @@
     "UiPositionY": 921,
     "NextNodeIndex": [
       "126",
-      "125"
+      "125",
+      "32"
     ],
     "Oneway": "False",
     "Opened": "False",
@@ -1661,7 +1663,8 @@
     "UiPositionX": 2995,
     "UiPositionY": 628,
     "NextNodeIndex": [
-      "127"
+      "127",
+      "33"
     ],
     "Oneway": "False",
     "Opened": "False",
@@ -1706,6 +1709,48 @@
     "PortalImageCode": "ChapterMap.EllidoraForest",
     "RecommendHeroLevel": 25,
     "EntryNPCCode": "ChapterMonster201"
+  },
+  {
+    "ChapterIndex": 2,
+    "DungeonIndex": 31,
+    "NodePrefab": "DecoNameMainField",
+    "FunctionButton": "SubStoryEvent",
+    "Function": "SubStoryEvent",
+    "Code": [
+      "CREATURE_NAME_15"
+    ],
+    "UiPositionX": 2456,
+    "UiPositionY": 1097,
+    "Oneway": "False",
+    "Opened": "False"
+  },
+  {
+    "ChapterIndex": 2,
+    "DungeonIndex": 32,
+    "NodePrefab": "DecoNameMainField",
+    "FunctionButton": "SubStoryEvent",
+    "Function": "SubStoryEvent",
+    "Code": [
+      "CREATURE_NAME_37"
+    ],
+    "UiPositionX": 3089,
+    "UiPositionY": 1058,
+    "Oneway": "False",
+    "Opened": "False"
+  },
+  {
+    "ChapterIndex": 2,
+    "DungeonIndex": 33,
+    "NodePrefab": "DecoNameMainField",
+    "FunctionButton": "SubStoryEvent",
+    "Function": "SubStoryEvent",
+    "Code": [
+      "CREATURE_NAME_10"
+    ],
+    "UiPositionX": 3260,
+    "UiPositionY": 687,
+    "Oneway": "False",
+    "Opened": "False"
   },
   {
     "ChapterIndex": 2,

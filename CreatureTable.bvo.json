@@ -9054,7 +9054,7 @@
     "Index": 71,
     "CodeName": "Hero.Kirze",
     "OpenStatus": "Normal",
-    "OpenType": "None",
+    "OpenType": "Scenario",
     "Race": "Hero",
     "TagType": "Warrior",
     "AttrType": [
@@ -9102,7 +9102,10 @@
     "ExtraSkill": [
       "7124",
       "7134",
-      "7144"
+      "7135",
+      "7137",
+      "7144",
+      "7145"
     ],
     "GetTranscendSkillPoint": [
       "10",
@@ -10617,6 +10620,127 @@
     "HeroPositionText2": "HERO_POSITION_1",
     "HeroPositionIcon3": "icon_raidmacro_shield_Buffs",
     "HeroPositionText3": "HERO_POSITION_27"
+  },
+  {
+    "Index": 97,
+    "CodeName": "Hero.Hanus",
+    "OpenType": "None",
+    "Race": "Hero",
+    "TagType": "Mechanic",
+    "AttrType": [
+      "Physical"
+    ],
+    "AttackWeakType": [
+      "Fire"
+    ],
+    "PositionType": "Rear",
+    "PositionWeight": 400,
+    "MoveSpeed": 5000,
+    "MinDamageRate": 200,
+    "IgnoreCc": [
+      "False"
+    ],
+    "SizeMm": 500,
+    "HeightMm": 1900,
+    "GradeStoneItemCode": "SKILLBOOK_MECHANIC_1",
+    "StarStoneItemCode": "NO_ITEM",
+    "BaseSkillIndex": 9700,
+    "SkillIndex1": 9710,
+    "SkillExtend1": [
+      "9711",
+      "9712",
+      "9713"
+    ],
+    "SkillIndex2": 9720,
+    "SkillExtend2": [
+      "9721",
+      "9722",
+      "9723"
+    ],
+    "SkillIndex3": 9730,
+    "SkillExtend3": [
+      "9731",
+      "9732",
+      "9733"
+    ],
+    "SkillIndex4": 9740,
+    "SkillExtend4": [
+      "9741",
+      "9742",
+      "9743"
+    ],
+    "GetTranscendSkillPoint": [
+      "10",
+      "15",
+      "15",
+      "15",
+      "25"
+    ],
+    "TranscendSkill1": [
+      "60000001",
+      "60000002",
+      "60000003",
+      "60000004",
+      "60000033"
+    ],
+    "ReqSkillPoint1": [
+      "10",
+      "10",
+      "10",
+      "10",
+      "10"
+    ],
+    "TranscendSkill2": [
+      "60000021",
+      "60000022",
+      "60000023",
+      "60000024",
+      "60000038"
+    ],
+    "ReqSkillPoint2": [
+      "15",
+      "15",
+      "15",
+      "15",
+      "15"
+    ],
+    "TranscendSkill3": [
+      "60009710",
+      "60009711",
+      "60009720",
+      "60009721",
+      "60009730",
+      "60009731",
+      "60009740",
+      "60009741"
+    ],
+    "ReqSkillPoint3": [
+      "15",
+      "15",
+      "15",
+      "15",
+      "15",
+      "15",
+      "15",
+      "15"
+    ],
+    "TranscendSkill5": [
+      "60009750",
+      "60009751"
+    ],
+    "ReqSkillPoint5": [
+      "15",
+      "15"
+    ],
+    "StartHeroStar": 3,
+    "OpenDate": 181125,
+    "AddStamina": 1,
+    "HeroPositionIcon1": "icon_raidmacro_attack",
+    "HeroPositionText1": "HERO_POSITION_5",
+    "HeroPositionIcon2": "icon_raidmacro_shield_Debuffs",
+    "HeroPositionText2": "HERO_POSITION_58",
+    "HeroPositionIcon3": "icon_raidmacro_attack_Buffs",
+    "HeroPositionText3": "HERO_POSITION_19"
   },
   {
     "Index": 501,
@@ -14841,6 +14965,14 @@
       "7142",
       "7143"
     ],
+    "ExtraSkill": [
+      "7124",
+      "7134",
+      "7135",
+      "7137",
+      "7144",
+      "7145"
+    ],
     "StartHeroStar": 3
   },
   {
@@ -15501,6 +15633,74 @@
       "9614",
       "9634",
       "9645"
+    ],
+    "StartHeroStar": 3
+  },
+  {
+    "Index": 597,
+    "CodeName": "Monster.Ordeal.DarkHanus",
+    "ModelCode": "Hero.Hanus",
+    "ModelPrefix": "Trial",
+    "Race": "Hero",
+    "TagType": "Mechanic",
+    "AttrType": [
+      "Magical"
+    ],
+    "AttackWeakType": [
+      "Fire"
+    ],
+    "PositionType": "Rear",
+    "PositionWeight": 500,
+    "MoveSpeed": 5000,
+    "MinDamageRate": 200,
+    "IgnoreCc": [
+      "False"
+    ],
+    "SizeMm": 600,
+    "HeightMm": 2000,
+    "GradeStoneItemCode": "SKILLBOOK_MECHANIC_1",
+    "StarStoneItemCode": "NO_ITEM",
+    "BaseSkillIndex": 9970,
+    "SkillIndex1": 9710,
+    "SkillExtend1": [
+      "9711",
+      "9712",
+      "9713"
+    ],
+    "SkillIndex2": 9720,
+    "SkillExtend2": [
+      "9721",
+      "9722",
+      "9723"
+    ],
+    "SkillIndex3": 9730,
+    "SkillExtend3": [
+      "9731",
+      "9732",
+      "9733"
+    ],
+    "SkillIndex4": 9740,
+    "SkillExtend4": [
+      "9741",
+      "9742",
+      "9743"
+    ],
+    "ExtraActiveSkill": [
+      "9716",
+      "9718",
+      "9734"
+    ],
+    "ExtraSkill": [
+      "9714",
+      "9715",
+      "9716",
+      "9717",
+      "9724",
+      "9725",
+      "9734",
+      "9726",
+      "9727",
+      "9728"
     ],
     "StartHeroStar": 3
   },
@@ -19727,6 +19927,14 @@
       "7142",
       "7143"
     ],
+    "ExtraSkill": [
+      "7124",
+      "7134",
+      "7135",
+      "7137",
+      "7144",
+      "7145"
+    ],
     "StartHeroStar": 2
   },
   {
@@ -20391,6 +20599,74 @@
     "StartHeroStar": 3
   },
   {
+    "Index": 697,
+    "CodeName": "Monster.Ordeal.LightHanus",
+    "ModelCode": "Hero.Hanus",
+    "ModelPrefix": "Trans",
+    "Race": "Hero",
+    "TagType": "Mechanic",
+    "AttrType": [
+      "Magical"
+    ],
+    "AttackWeakType": [
+      "Fire"
+    ],
+    "PositionType": "Rear",
+    "PositionWeight": 500,
+    "MoveSpeed": 5000,
+    "MinDamageRate": 200,
+    "IgnoreCc": [
+      "False"
+    ],
+    "SizeMm": 600,
+    "HeightMm": 2000,
+    "GradeStoneItemCode": "SKILLBOOK_MECHANIC_1",
+    "StarStoneItemCode": "NO_ITEM",
+    "BaseSkillIndex": 9700,
+    "SkillIndex1": 9710,
+    "SkillExtend1": [
+      "9711",
+      "9712",
+      "9713"
+    ],
+    "SkillIndex2": 9720,
+    "SkillExtend2": [
+      "9721",
+      "9722",
+      "9723"
+    ],
+    "SkillIndex3": 9730,
+    "SkillExtend3": [
+      "9731",
+      "9732",
+      "9733"
+    ],
+    "SkillIndex4": 9740,
+    "SkillExtend4": [
+      "9741",
+      "9742",
+      "9743"
+    ],
+    "ExtraActiveSkill": [
+      "9716",
+      "9718",
+      "9734"
+    ],
+    "ExtraSkill": [
+      "9714",
+      "9715",
+      "9716",
+      "9717",
+      "9724",
+      "9725",
+      "9734",
+      "9726",
+      "9727",
+      "9728"
+    ],
+    "StartHeroStar": 3
+  },
+  {
     "Index": 700,
     "CodeName": "Fairy.Sylph.Animal",
     "Race": "Fairy",
@@ -20665,6 +20941,7 @@
   {
     "Index": 805,
     "CodeName": "NPC.SoulGemShop",
+    "ModelPrefix": "Cos18Summer",
     "Race": "NPC",
     "AttrType": [
       "Physical"
@@ -23650,7 +23927,9 @@
     "GradeStoneItemCode": "NO_ITEM",
     "StarStoneItemCode": "NO_ITEM",
     "BaseSkillIndex": 1000100,
-    "SkillIndex1": 1000110
+    "SkillIndex1": 1000110,
+    "ReplaceNameKey": "CREATURE_NAME_10001",
+    "ReplaceDescKey": "CREATURE_DESC_10001"
   },
   {
     "Index": 10101,
@@ -28783,6 +29062,8 @@
     "AttrType": [
       "Magical"
     ],
+    "ArchiveStory": "CREATURE_STORY_6608",
+    "ArchiveType": "ChallengeRaid",
     "AttackWeakType": [
       "Fire"
     ],

@@ -591,6 +591,183 @@
     "OperationType1": "ModAttackSpeed"
   },
   {
+    "Index": 90029,
+    "TriggerType": "NextSkill",
+    "TriggerRatio": 1000,
+    "AttrType": "None",
+    "IgnoreStateType": [
+      "CC"
+    ],
+    "TargetType": "Enemy",
+    "DeadTarget": "False",
+    "RetargetOnFire": "False",
+    "OperationType1": "ModMaxHpR",
+    "OperationTargetType1": "Target",
+    "OperationValue1": [
+      "500"
+    ],
+    "OperationDurationMs1": 9999999,
+    "OperationConditionType1": "HeroClass",
+    "OperationConditionValue1": [
+      "Knight"
+    ],
+    "OperationFlags1": [
+      "CheckConditionOnBegin"
+    ]
+  },
+  {
+    "Index": 90030,
+    "TriggerType": "NextSkill",
+    "TriggerRatio": 1000,
+    "AttrType": "None",
+    "IgnoreStateType": [
+      "CC"
+    ],
+    "TargetType": "Enemy",
+    "DeadTarget": "False",
+    "RetargetOnFire": "False",
+    "OperationType1": "ModAttackPower",
+    "OperationTargetType1": "Target",
+    "OperationValue1": [
+      "300"
+    ],
+    "OperationDurationMs1": 9999999,
+    "OperationConditionType1": "HeroClass",
+    "OperationConditionValue1": [
+      "Warrior"
+    ],
+    "OperationFlags1": [
+      "CheckConditionOnBegin"
+    ]
+  },
+  {
+    "Index": 90031,
+    "TriggerType": "NextSkill",
+    "TriggerRatio": 1000,
+    "AttrType": "None",
+    "IgnoreStateType": [
+      "CC"
+    ],
+    "TargetType": "Enemy",
+    "DeadTarget": "False",
+    "RetargetOnFire": "False",
+    "OperationType1": "ModAttackSpeedR",
+    "OperationTargetType1": "Target",
+    "OperationValue1": [
+      "500"
+    ],
+    "OperationDurationMs1": 9999999,
+    "OperationConditionType1": "HeroClass",
+    "OperationConditionValue1": [
+      "Assassin"
+    ],
+    "OperationFlags1": [
+      "CheckConditionOnBegin"
+    ]
+  },
+  {
+    "Index": 90032,
+    "TriggerType": "NextSkill",
+    "TriggerRatio": 1000,
+    "AttrType": "None",
+    "IgnoreStateType": [
+      "CC"
+    ],
+    "TargetType": "Enemy",
+    "DeadTarget": "False",
+    "RetargetOnFire": "False",
+    "OperationType1": "ModPiercePower",
+    "OperationTargetType1": "Target",
+    "OperationValue1": [
+      "700"
+    ],
+    "OperationDurationMs1": 9999999,
+    "OperationConditionType1": "HeroClass",
+    "OperationConditionValue1": [
+      "Archer"
+    ],
+    "OperationFlags1": [
+      "CheckConditionOnBegin",
+      "PersistOnWaveEnd"
+    ]
+  },
+  {
+    "Index": 90033,
+    "TriggerType": "NextSkill",
+    "TriggerRatio": 1000,
+    "AttrType": "None",
+    "IgnoreStateType": [
+      "CC"
+    ],
+    "TargetType": "Enemy",
+    "DeadTarget": "False",
+    "RetargetOnFire": "False",
+    "OperationType1": "ModCriticalPower",
+    "OperationTargetType1": "Target",
+    "OperationValue1": [
+      "1000"
+    ],
+    "OperationDurationMs1": 9999999,
+    "OperationConditionType1": "HeroClass",
+    "OperationConditionValue1": [
+      "Mechanic"
+    ],
+    "OperationFlags1": [
+      "CheckConditionOnBegin"
+    ]
+  },
+  {
+    "Index": 90034,
+    "TriggerType": "NextSkill",
+    "TriggerRatio": 1000,
+    "AttrType": "None",
+    "IgnoreStateType": [
+      "CC"
+    ],
+    "TargetType": "Enemy",
+    "DeadTarget": "False",
+    "RetargetOnFire": "False",
+    "OperationType1": "GetMot",
+    "OperationTargetType1": "Target",
+    "OperationValue1": [
+      "1000"
+    ],
+    "OperationDurationMs1": 9999999,
+    "OperationTickTimeMs1": 1000,
+    "OperationConditionType1": "HeroClass",
+    "OperationConditionValue1": [
+      "Wizard"
+    ],
+    "OperationFlags1": [
+      "CheckConditionOnBegin"
+    ]
+  },
+  {
+    "Index": 90035,
+    "TriggerType": "NextSkill",
+    "TriggerRatio": 1000,
+    "AttrType": "None",
+    "IgnoreStateType": [
+      "CC"
+    ],
+    "TargetType": "Enemy",
+    "DeadTarget": "False",
+    "RetargetOnFire": "False",
+    "OperationType1": "ModRecoverPower",
+    "OperationTargetType1": "Target",
+    "OperationValue1": [
+      "500"
+    ],
+    "OperationDurationMs1": 9999999,
+    "OperationConditionType1": "HeroClass",
+    "OperationConditionValue1": [
+      "Priest"
+    ],
+    "OperationFlags1": [
+      "CheckConditionOnBegin"
+    ]
+  },
+  {
     "Index": 9002100,
     "TriggerType": "None",
     "TriggerRatio": 1000,
@@ -1542,6 +1719,9 @@
     "DurationTimeMs": [
       "10000"
     ],
+    "TickTimeValue": [
+      "9900"
+    ],
     "AttrType": "None",
     "IgnoreStateType": [
       "CC"
@@ -1562,7 +1742,7 @@
     "TargetType": "Enemy",
     "DeadTarget": "False",
     "RetargetOnFire": "FALSE",
-    "OperationType1": "GetPhysicalDamageR",
+    "OperationType1": "Die",
     "OperationTargetType1": "Target",
     "OperationRadiusMm1": 4000,
     "OperationValue1": [
@@ -1704,6 +1884,12 @@
       "Myself",
       "3000"
     ],
+    "OperationConditionType1": "SummoneeCount",
+    "OperationConditionValue1": [
+      "4",
+      "LessOrEqual",
+      "True"
+    ],
     "OperationType2": "EnablePassiveSkill",
     "OperationTargetType2": "Myself",
     "OperationValue2": [
@@ -1752,7 +1938,7 @@
     "OperationTargetType1": "Target",
     "OperationRadiusMm1": 1000,
     "OperationValue1": [
-      "50"
+      "100"
     ],
     "OperationDelayMs1": [
       "0",
@@ -1764,7 +1950,7 @@
     "OperationTargetType2": "Target",
     "OperationRadiusMm2": 1000,
     "OperationValue2": [
-      "50"
+      "100"
     ],
     "OperationDelayMs2": [
       "0",
@@ -1776,7 +1962,7 @@
     "OperationTargetType3": "Target",
     "OperationRadiusMm3": 1000,
     "OperationValue3": [
-      "100"
+      "150"
     ],
     "OperationDelayMs3": [
       "0",
@@ -1824,14 +2010,14 @@
     "OperationTargetType1": "Target",
     "OperationRadiusMm1": 6000,
     "OperationValue1": [
-      "200"
+      "300"
     ],
     "OperationConditionType1": "None",
     "OperationType2": "GetMagicalDamageR",
     "OperationTargetType2": "Target",
     "OperationRadiusMm2": 20000,
     "OperationValue2": [
-      "2500"
+      "2750"
     ],
     "OperationConditionType2": "None",
     "OperationType3": "Stun",

@@ -2816,19 +2816,23 @@
   },
   {
     "Index": 2180,
+    "ReqIndex": "\ubb38\uad6c \ucd9c\ub825",
     "Command": "ShowTooltip2",
     "Argument": [
       "Center",
       " 0",
-      " -300",
+      " 50",
       " 2000",
       " 100",
-      " TUTORIAL_TEXT_249"
+      " TUTORIAL_TEXT_250"
     ]
   },
   {
     "Index": 2180,
-    "Command": "SkipStart"
+    "Command": "SkipStart",
+    "Argument": [
+      "Jump"
+    ]
   },
   {
     "Index": 2180,
@@ -2836,7 +2840,7 @@
     "Argument": [
       "UI.Common.Finger",
       " 750",
-      " -250",
+      " 50",
       " 0",
       " 100",
       " True"
@@ -2856,6 +2860,7 @@
   },
   {
     "Index": 2180,
+    "ReqIndex": "\uc2dc\ub828\uc758 \ud0d1 \ubc84\ud2bc \uac15\uc81c \ud130\uce58",
     "Command": "WaitObject",
     "Argument": [
       "EntryMenu(Clone)/WidgetMenuButtons/EntryMenuButtonComponent(Clone)",
@@ -2878,23 +2883,13 @@
   },
   {
     "Index": 2180,
-    "Command": "ShowTooltip2",
+    "Command": "FocusWidgetEffect",
     "Argument": [
-      "Center",
+      "EntryMenu(Clone)/WidgetMenuButtons/EntryMenuButtonComponent(Clone)",
+      " 2",
+      " UI.Common.Finger",
+      " 150",
       " 0",
-      " -100",
-      " 2000",
-      " 100",
-      " TUTORIAL_TEXT_250"
-    ]
-  },
-  {
-    "Index": 2180,
-    "Command": "FocusAreaEffect",
-    "Argument": [
-      "UI.Common.Finger",
-      " 750",
-      " -100",
       " 0",
       " 100",
       " True"
@@ -2902,7 +2897,42 @@
   },
   {
     "Index": 2180,
-    "Command": "WaitTouch"
+    "Command": "WaitWidgetTouch",
+    "Argument": [
+      "EntryMenu(Clone)/WidgetMenuButtons/EntryMenuButtonComponent(Clone)",
+      " 2",
+      " 0",
+      " 0",
+      " 0",
+      " 0",
+      " True"
+    ]
+  },
+  {
+    "Index": 2180,
+    "Command": "ClearTooltip"
+  },
+  {
+    "Index": 2180,
+    "Command": "ClearFocus",
+    "Argument": [
+      "True"
+    ]
+  },
+  {
+    "Index": 2180,
+    "ReqIndex": "\ubb38\uad6c \ucd9c\ub825",
+    "Command": "WaitObject",
+    "Argument": [
+      "OrdealTowerWindow(Clone)/OrdealTower/TowerComponentGrid"
+    ]
+  },
+  {
+    "Index": 2180,
+    "Command": "WaitTime",
+    "Argument": [
+      "0.5"
+    ]
   },
   {
     "Index": 2180,
@@ -2910,7 +2940,7 @@
     "Argument": [
       "Center",
       " 0",
-      " -100",
+      " 100",
       " 2000",
       " 100",
       " TUTORIAL_TEXT_251"
@@ -2922,7 +2952,7 @@
     "Argument": [
       "UI.Common.Finger",
       " 750",
-      " -100",
+      " 100",
       " 0",
       " 100",
       " True"
@@ -10513,6 +10543,15 @@
   },
   {
     "Index": 10220,
+    "Command": "UseTeamSkill",
+    "Argument": [
+      "Left",
+      " 0",
+      " 43"
+    ]
+  },
+  {
+    "Index": 10220,
     "Command": "PlayCutScene",
     "Argument": [
       "CutScene/CS1_5A"
@@ -10681,7 +10720,7 @@
       " 0",
       " 0",
       " 0",
-      " False"
+      " True"
     ]
   },
   {
@@ -10689,14 +10728,6 @@
     "Command": "PlaySound",
     "Argument": [
       "UI2.MainButton4"
-    ]
-  },
-  {
-    "Index": 10220,
-    "Command": "SetFunctionality",
-    "Argument": [
-      "DisableAutoBattle",
-      " False"
     ]
   },
   {
@@ -10764,6 +10795,16 @@
     "Command": "WaitEvent",
     "Argument": [
       "WaveStart"
+    ],
+    "Repeatable": "True"
+  },
+  {
+    "Index": 17050,
+    "Command": "UseTeamSkill",
+    "Argument": [
+      "Left",
+      " 0",
+      " 43"
     ],
     "Repeatable": "True"
   },
@@ -10889,7 +10930,7 @@
       " 0",
       " 0",
       " 0",
-      " False"
+      " True"
     ],
     "Repeatable": "True"
   },
@@ -10904,15 +10945,6 @@
   {
     "Index": 17050,
     "Command": "ClearFocus",
-    "Repeatable": "True"
-  },
-  {
-    "Index": 17050,
-    "Command": "SetFunctionality",
-    "Argument": [
-      "DisableAutoBattle",
-      " False"
-    ],
     "Repeatable": "True"
   },
   {
@@ -10982,17 +11014,18 @@
   },
   {
     "Index": 10230,
-    "Command": "EnableGameUi",
+    "Command": "UseTeamSkill",
     "Argument": [
-      "True"
+      "Left",
+      " 0",
+      " 43"
     ]
   },
   {
     "Index": 10230,
-    "Command": "SetFunctionality",
+    "Command": "EnableGameUi",
     "Argument": [
-      "DisableAutoBattle",
-      " False"
+      "True"
     ]
   },
   {
@@ -11140,7 +11173,7 @@
       " 0",
       " 0",
       " 0",
-      " False"
+      " True"
     ]
   },
   {
@@ -11203,15 +11236,6 @@
   },
   {
     "Index": 17060,
-    "Command": "SetFunctionality",
-    "Argument": [
-      "DisableAutoBattle",
-      " False"
-    ],
-    "Repeatable": "True"
-  },
-  {
-    "Index": 17060,
     "Command": "PlayNodeTree",
     "Argument": [
       "Story/Common",
@@ -11246,18 +11270,19 @@
   },
   {
     "Index": 17060,
-    "Command": "EnableGameUi",
+    "Command": "UseTeamSkill",
     "Argument": [
-      "True"
+      "Left",
+      " 0",
+      " 43"
     ],
     "Repeatable": "True"
   },
   {
     "Index": 17060,
-    "Command": "SetFunctionality",
+    "Command": "EnableGameUi",
     "Argument": [
-      "DisableAutoBattle",
-      " False"
+      "True"
     ],
     "Repeatable": "True"
   },
@@ -11362,7 +11387,7 @@
       " 0",
       " 0",
       " 0",
-      " False"
+      " True"
     ],
     "Repeatable": "True"
   },
@@ -11377,15 +11402,6 @@
   {
     "Index": 17060,
     "Command": "ClearFocus",
-    "Repeatable": "True"
-  },
-  {
-    "Index": 17060,
-    "Command": "SetFunctionality",
-    "Argument": [
-      "DisableAutoBattle",
-      " False"
-    ],
     "Repeatable": "True"
   },
   {
@@ -19412,7 +19428,7 @@
     "Index": 20041,
     "Command": "WaitCutScene",
     "Argument": [
-      "3"
+      "4"
     ],
     "Repeatable": "True"
   },
@@ -19547,7 +19563,7 @@
     "Index": 20051,
     "Command": "WaitCutScene",
     "Argument": [
-      "5"
+      "9"
     ],
     "Repeatable": "True"
   },
@@ -19953,7 +19969,7 @@
     "Index": 20181,
     "Command": "WaitCutScene",
     "Argument": [
-      "4"
+      "11"
     ],
     "Repeatable": "True"
   },
@@ -19975,7 +19991,7 @@
     "Index": 20181,
     "Command": "WaitCutScene",
     "Argument": [
-      "7"
+      "13"
     ],
     "Repeatable": "True"
   },
@@ -20011,7 +20027,7 @@
     "Index": 20181,
     "Command": "WaitTime",
     "Argument": [
-      "5"
+      "2"
     ],
     "Repeatable": "True"
   },
@@ -20090,32 +20106,6 @@
   {
     "Index": 20182,
     "Command": "WaitCutScene",
-    "Argument": [
-      "1"
-    ],
-    "Repeatable": "True"
-  },
-  {
-    "Index": 20182,
-    "Command": "ZoomMapNode",
-    "Argument": [
-      "28",
-      " 1.3"
-    ],
-    "Repeatable": "True"
-  },
-  {
-    "Index": 20182,
-    "Command": "WaitCutScene",
-    "Repeatable": "True"
-  },
-  {
-    "Index": 20182,
-    "Command": "ZoomMapNode",
-    "Argument": [
-      "18",
-      " 1"
-    ],
     "Repeatable": "True"
   },
   {
@@ -20183,22 +20173,8 @@
     "Index": 20210,
     "Command": "WaitCutScene",
     "Argument": [
-      "17"
+      "22"
     ],
-    "Repeatable": "True"
-  },
-  {
-    "Index": 20210,
-    "Command": "PlayNodeTree",
-    "Argument": [
-      "Story/2_21N",
-      " 04_FocusBoss"
-    ],
-    "Repeatable": "True"
-  },
-  {
-    "Index": 20210,
-    "Command": "WaitNodeTree",
     "Repeatable": "True"
   },
   {
@@ -20222,34 +20198,6 @@
   },
   {
     "Index": 20210,
-    "Command": "PlayNodeTree",
-    "Argument": [
-      "Story/Common",
-      " CutsceneEnd"
-    ],
-    "Repeatable": "True"
-  },
-  {
-    "Index": 20210,
-    "Command": "WaitNodeTree",
-    "Repeatable": "True"
-  },
-  {
-    "Index": 20210,
-    "Command": "PlayNodeTree",
-    "Argument": [
-      "Story/2_21N",
-      " 06_DestroySN"
-    ],
-    "Repeatable": "True"
-  },
-  {
-    "Index": 20210,
-    "Command": "WaitNodeTree",
-    "Repeatable": "True"
-  },
-  {
-    "Index": 20210,
     "Command": "SetBattleCamera",
     "Argument": [
       "Battle"
@@ -20262,6 +20210,20 @@
     "Argument": [
       "Story/Common",
       " RightNoDie"
+    ],
+    "Repeatable": "True"
+  },
+  {
+    "Index": 20210,
+    "Command": "WaitNodeTree",
+    "Repeatable": "True"
+  },
+  {
+    "Index": 20210,
+    "Command": "PlayNodeTree",
+    "Argument": [
+      "Story/Common",
+      " CutsceneEnd"
     ],
     "Repeatable": "True"
   },
@@ -20334,7 +20296,7 @@
     "Index": 20212,
     "Command": "WaitCutScene",
     "Argument": [
-      "3"
+      "4"
     ],
     "Repeatable": "True"
   },
@@ -20370,7 +20332,7 @@
     "Index": 20212,
     "Command": "WaitCutScene",
     "Argument": [
-      "7"
+      "9"
     ],
     "Repeatable": "True"
   },
@@ -20404,11 +20366,6 @@
   },
   {
     "Index": 20212,
-    "Command": "WaitCutScene",
-    "Repeatable": "True"
-  },
-  {
-    "Index": 20212,
     "Command": "PlayNodeTree",
     "Argument": [
       "Story/2_21N",
@@ -20419,6 +20376,19 @@
   {
     "Index": 20212,
     "Command": "WaitNodeTree",
+    "Repeatable": "True"
+  },
+  {
+    "Index": 20212,
+    "Command": "WaitTime",
+    "Argument": [
+      "3"
+    ],
+    "Repeatable": "True"
+  },
+  {
+    "Index": 20212,
+    "Command": "WaitCutScene",
     "Repeatable": "True"
   },
   {
@@ -24550,6 +24520,17 @@
   },
   {
     "Index": 501,
+    "Command": "WaitCutScene"
+  },
+  {
+    "Index": 502,
+    "Command": "PlayCutScene",
+    "Argument": [
+      "CutScene/Event/Tower/Kirze01"
+    ]
+  },
+  {
+    "Index": 502,
     "Command": "WaitCutScene"
   },
   {

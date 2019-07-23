@@ -3569,6 +3569,56 @@
     "OperationDurationMs2": 9999999
   },
   {
+    "Index": 660453,
+    "TriggerType": "OnTimer",
+    "TriggerValue": [
+      "1000",
+      "1000"
+    ],
+    "TriggerRatio": 1000,
+    "CancelOnWaveEnd": "TRUE",
+    "AttrType": "Magical",
+    "IgnoreStateType": [
+      "CC",
+      "RaidDown"
+    ],
+    "TargetType": "Myself",
+    "TargetCount": 1,
+    "IgnoreBlock": "TRUE",
+    "OperationType1": "ModDefensePower",
+    "OperationTargetType1": "Myself",
+    "OperationValue1": [
+      "-10"
+    ],
+    "OperationDurationMs1": 9999999
+  },
+  {
+    "Index": 660454,
+    "TriggerType": "OnStart",
+    "TriggerRatio": 1000,
+    "CancelOnWaveEnd": "TRUE",
+    "AttrType": "Magical",
+    "IgnoreStateType": [
+      "CC",
+      "RaidDown"
+    ],
+    "TargetType": "Myself",
+    "TargetCount": 1,
+    "IgnoreBlock": "TRUE",
+    "OperationType1": "ModDefensePower",
+    "OperationTargetType1": "Myself",
+    "OperationValue1": [
+      "700"
+    ],
+    "OperationDurationMs1": 9999999,
+    "OperationType2": "ModPhysicalToughness",
+    "OperationTargetType2": "Myself",
+    "OperationValue2": [
+      "200"
+    ],
+    "OperationDurationMs2": 9999999
+  },
+  {
     "Index": 660490,
     "TriggerType": "NextSkill",
     "TriggerRatio": 1000,
@@ -8898,7 +8948,7 @@
     "OperationType3": "GetMot",
     "OperationTargetType3": "Parent",
     "OperationValue3": [
-      "-600"
+      "-200"
     ],
     "OperationState3": "Kallax_Fire_2",
     "OperationDurationMs3": 7000,
@@ -9067,7 +9117,7 @@
     "OperationType3": "GetMot",
     "OperationTargetType3": "Parent",
     "OperationValue3": [
-      "-600"
+      "-200"
     ],
     "OperationState3": "Kallax_Fire_2",
     "OperationDurationMs3": 7000,
@@ -9209,7 +9259,7 @@
     "OperationType1": "ModDefensePower",
     "OperationTargetType1": "Myself",
     "OperationValue1": [
-      "500"
+      "650"
     ],
     "OperationDurationMs1": 9999999
   },
@@ -9234,7 +9284,7 @@
     "OperationType1": "ModPowerR",
     "OperationTargetType1": "Myself",
     "OperationValue1": [
-      "20"
+      "15"
     ],
     "OperationDurationMs1": 9999999,
     "OperationType2": "ModSkillPowerR",
@@ -9242,7 +9292,7 @@
     "OperationValue2": [
       "660863",
       "1",
-      "100"
+      "80"
     ],
     "OperationDurationMs2": 999999
   },
@@ -9282,5 +9332,112 @@
   },
   {
     "Index": 660811
+  },
+  {
+    "Index": 660864,
+    "TriggerType": "OnStart",
+    "TriggerRatio": 1000,
+    "AttrType": "Magical",
+    "IgnoreStateType": [
+      "CC",
+      "RaidDown"
+    ],
+    "TargetType": "Myself",
+    "TargetCount": 1,
+    "DeadTarget": "False",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "False",
+    "OperationType1": "SetSkill",
+    "OperationTargetType1": "Myself",
+    "OperationValue1": [
+      "660850",
+      "8",
+      "Value",
+      "-5000",
+      "0"
+    ],
+    "OperationDurationMs1": 9999999,
+    "OperationType2": "SetSkill",
+    "OperationTargetType2": "Myself",
+    "OperationValue2": [
+      "660853",
+      "8",
+      "Value",
+      "-5000",
+      "0"
+    ],
+    "OperationType3": "ModDefensePower",
+    "OperationTargetType3": "Myself",
+    "OperationValue3": [
+      "-100"
+    ]
+  },
+  {
+    "Index": 660865,
+    "TriggerType": "OnStart",
+    "TriggerRatio": 1000,
+    "AttrType": "Magical",
+    "IgnoreStateType": [
+      "CC",
+      "RaidDown"
+    ],
+    "TargetType": "Myself",
+    "TargetCount": 1,
+    "DeadTarget": "False",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "False",
+    "OperationType1": "SetSkill",
+    "OperationTargetType1": "Myself",
+    "OperationValue1": [
+      "660850",
+      "8",
+      "Value",
+      "-4000",
+      "0"
+    ],
+    "OperationDurationMs1": 9999999,
+    "OperationType2": "SetSkill",
+    "OperationTargetType2": "Myself",
+    "OperationValue2": [
+      "660853",
+      "8",
+      "Value",
+      "-4000",
+      "0"
+    ]
+  },
+  {
+    "Index": 660866,
+    "TriggerType": "OnStart",
+    "TriggerRatio": 1000,
+    "AttrType": "Magical",
+    "IgnoreStateType": [
+      "CC",
+      "RaidDown"
+    ],
+    "TargetType": "Myself",
+    "TargetCount": 1,
+    "DeadTarget": "False",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "False",
+    "OperationType1": "SetSkill",
+    "OperationTargetType1": "Myself",
+    "OperationValue1": [
+      "660850",
+      "8",
+      "Value",
+      "-3000",
+      "0"
+    ],
+    "OperationDurationMs1": 9999999,
+    "OperationType2": "SetSkill",
+    "OperationTargetType2": "Myself",
+    "OperationValue2": [
+      "660853",
+      "8",
+      "Value",
+      "-3000",
+      "0"
+    ]
   }
 ]

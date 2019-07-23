@@ -15498,6 +15498,7 @@
     "OperationState3": "Down",
     "OperationDurationMs3": 3000,
     "OperationConditionType3": "None",
+    "OperationParent3": 2,
     "OperationFlags3": [
       "HasParent"
     ],
@@ -15508,6 +15509,113 @@
       "250"
     ],
     "OperationConditionType4": "None"
+  },
+  {
+    "Index": 230198,
+    "TriggerType": "OnAuto",
+    "TriggerRatio": 1000,
+    "CoolTimeMs": 45000,
+    "InitialCoolTimeMs": 30000,
+    "ActingTimeMs": 1100,
+    "DurationTimeMs": [
+      "6800"
+    ],
+    "TickTimeValue": [
+      "1100[1]",
+      "1900[1]",
+      "2400[1]",
+      "3300[1]",
+      "4100[4]",
+      "4200[4]",
+      "4300[4]",
+      "4400[4]",
+      "5200[2:3]"
+    ],
+    "AttrType": "Physical",
+    "StateType": [
+      "ImmuneCc_S"
+    ],
+    "ClearStateType": [
+      "CC"
+    ],
+    "IgnoreStateType": [
+      "CC"
+    ],
+    "TargetType": "Enemy",
+    "TargetCount": 1,
+    "DeadTarget": "False",
+    "RetargetOnFire": "False",
+    "OperationType1": "GetPhysicalDamageR",
+    "OperationTargetType1": "Myself",
+    "OperationRadiusMm1": 3000,
+    "OperationValue1": [
+      "500",
+      "0",
+      "Unavoidable"
+    ],
+    "OperationConditionType1": "None",
+    "OperationType2": "GetPhysicalDamageR",
+    "OperationTargetType2": "Myself",
+    "OperationRadiusMm2": 5000,
+    "OperationValue2": [
+      "500",
+      "0",
+      "Unavoidable"
+    ],
+    "OperationConditionType2": "None",
+    "OperationType3": "Stun",
+    "OperationTargetType3": "Parent",
+    "OperationDurationMs3": 2000,
+    "OperationConditionType3": "None",
+    "OperationParent3": 2,
+    "OperationFlags3": [
+      "HasParent"
+    ],
+    "OperationType4": "GetPhysicalDamageR",
+    "OperationTargetType4": "Myself",
+    "OperationRadiusMm4": 3000,
+    "OperationValue4": [
+      "500",
+      "0",
+      "Unavoidable"
+    ],
+    "OperationConditionType4": "None"
+  },
+  {
+    "Index": 230199,
+    "TriggerType": "OnAuto",
+    "TriggerRatio": 1000,
+    "CoolTimeMs": 25000,
+    "InitialCoolTimeMs": 17500,
+    "ActingTimeMs": 1900,
+    "DurationTimeMs": [
+      "2800"
+    ],
+    "TickTimeValue": [
+      "1900"
+    ],
+    "AttrType": "Physical",
+    "TargetType": "Enemy",
+    "DeadTarget": "False",
+    "RetargetOnFire": "False",
+    "OperationType1": "Down",
+    "OperationTargetType1": "Myself",
+    "OperationRadiusMm1": 8000,
+    "OperationValue1": [
+      "3000"
+    ],
+    "OperationState1": "Down",
+    "OperationDurationMs1": 3000,
+    "OperationConditionType1": "None",
+    "OperationType2": "Die",
+    "OperationTargetType2": "Myself",
+    "OperationRadiusMm2": 3000,
+    "OperationDelayMs2": [
+      "0",
+      "0",
+      "2000"
+    ],
+    "OperationConditionType2": "None"
   },
   {
     "Index": 330100,
@@ -25863,7 +25971,7 @@
     "NextIndex": 9002722,
     "TriggerType": "OnAuto",
     "TriggerRatio": 1000,
-    "CoolTimeMs": 18000,
+    "CoolTimeMs": 16000,
     "InitialCoolTimeMs": 5000,
     "ActingTimeMs": 1400,
     "DurationTimeMs": [
@@ -25905,7 +26013,7 @@
     "OperationType1": "GetMagicalDamageByMaxHpR",
     "OperationTargetType1": "Target",
     "OperationValue1": [
-      "45",
+      "60",
       "0",
       "Unavoidable|NoCritical|IgnoreDefence|IgnoreBlock"
     ],

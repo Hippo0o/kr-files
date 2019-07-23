@@ -238,9 +238,9 @@
     ],
     "CurrentCondition": [
       "CompleteDungeon",
-      "2001",
-      "1",
-      "False"
+      "2000",
+      "5",
+      "True"
     ],
     "Command": "StartTutorial",
     "Argument": [
@@ -1659,6 +1659,117 @@
     ]
   },
   {
+    "Index": 701,
+    "Category": "Tutorial",
+    "EventType": "EnterEntryMenu",
+    "EventCondition": [
+      "2000",
+      "1"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "502"
+    ]
+  },
+  {
+    "Index": 702,
+    "Category": "MainScenario",
+    "EventType": "WaveReady",
+    "EventCondition": [
+      "2000",
+      "1",
+      "1"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/Tower/Kirze02"
+    ]
+  },
+  {
+    "Index": 703,
+    "Category": "MainScenario",
+    "EventType": "WaveReady",
+    "EventCondition": [
+      "2000",
+      "2",
+      "1"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/Tower/Kirze03"
+    ]
+  },
+  {
+    "Index": 704,
+    "Category": "MainScenario",
+    "EventType": "BattleEnd",
+    "EventCondition": [
+      "2000",
+      "2",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/Tower/Kirze04"
+    ]
+  },
+  {
+    "Index": 705,
+    "Category": "MainScenario",
+    "EventType": "BattleEnd",
+    "EventCondition": [
+      "2000",
+      "3",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/Tower/Kirze05"
+    ]
+  },
+  {
+    "Index": 706,
+    "Category": "MainScenario",
+    "EventType": "BattleEnd",
+    "EventCondition": [
+      "2000",
+      "4",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/Tower/Kirze06"
+    ]
+  },
+  {
+    "Index": 707,
+    "Category": "MainScenario",
+    "EventType": "WaveReady",
+    "EventCondition": [
+      "2000",
+      "5",
+      "1"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/Tower/Kirze07"
+    ]
+  },
+  {
+    "Index": 708,
+    "Category": "MainScenario",
+    "EventType": "BattleEnd",
+    "EventCondition": [
+      "2000",
+      "5",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/Tower/Kirze08and09"
+    ]
+  },
+  {
     "Index": 10000,
     "Category": "MainScenario",
     "EventType": "EnterLobby",
@@ -2393,13 +2504,11 @@
   {
     "Index": 20031,
     "Category": "MainScenario",
-    "EventType": "EnterLobby",
-    "CurrentCondition": [
-      "LastDungeonResult",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
       "2",
       "3",
-      "True",
-      "True"
+      "1"
     ],
     "Command": "StartCutScene",
     "Argument": [
@@ -2532,19 +2641,6 @@
     "Command": "StartTutorial",
     "Argument": [
       "20081"
-    ]
-  },
-  {
-    "Index": 20110,
-    "Category": "MainScenario",
-    "EventType": "EnterScenarioBattle",
-    "EventCondition": [
-      "2",
-      "11"
-    ],
-    "Command": "StartCutScene",
-    "Argument": [
-      "CutScene/CH2_Main_11_0"
     ]
   },
   {

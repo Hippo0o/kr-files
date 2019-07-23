@@ -1431,7 +1431,14 @@
       "OpenTower",
       "11"
     ],
-    "EntryMenuCondition3": "HasMaxStarHero,true",
+    "EntryMenuCondition3": "ClearDungeon,2000,5,easy",
+    "EntryMenuButton4": [
+      "CONTENT_TOWER_OF_ORDEAL",
+      "OpenGatewaytoTrial",
+      "2000",
+      "1"
+    ],
+    "EntryMenuCondition4": "IsOpenGatewayToTrial,2000,5,easy",
     "CreatureIndex": 809,
     "NpcOffset": [
       "80",

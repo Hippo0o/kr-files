@@ -838,5 +838,21 @@
     "DamageMeterFlag": "ShowAi",
     "BattleMenu": "TimeStatus, HeroParty, DamageMeter, Hud, BoosterStatus, SystemButton, Chat, SystemButtonAutoSimple, WaveStatus",
     "SkillCameraOff": "TRUE"
+  },
+  {
+    "Code": "GatewaytoTrial",
+    "MaxTime": 60,
+    "ExtraTime": 20,
+    "AutoPlayStarCount": 99,
+    "AutoRepeatStarCount": 99,
+    "ApplyLevelPenalty": "FALSE",
+    "DenyRaidInvite": "TRUE",
+    "DenyDuel": "TRUE",
+    "HPPercent": "TRUE",
+    "DamageMeterFlag": "ShowAllPlayer",
+    "RetryCondition": [
+      "Lose"
+    ],
+    "BattleMenu": "TimeStatus, HeroParty, DamageMeter, Hud, BoosterStatus, Chat, SystemButton, Retry"
   }
 ]

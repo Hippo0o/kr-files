@@ -18025,7 +18025,7 @@
     "OperationType1": "GetMagicalDamageR",
     "OperationTargetType1": "Target",
     "OperationValue1": [
-      "850"
+      "1000"
     ],
     "OperationType2": "DashToTarget",
     "OperationTargetType2": "Myself",
@@ -18034,7 +18034,7 @@
       "100"
     ],
     "OperationType3": "GetMagicalDamageR",
-    "OperationTargetType3": "Myself",
+    "OperationTargetType3": "Target",
     "OperationRadiusMm3": 1500,
     "OperationAngle3": 90,
     "OperationValue3": [
@@ -18069,7 +18069,7 @@
     "OperationType1": "GetMagicalDamageR",
     "OperationTargetType1": "Target",
     "OperationValue1": [
-      "850"
+      "1000"
     ],
     "OperationType2": "DashToTarget",
     "OperationTargetType2": "Myself",
@@ -18078,7 +18078,7 @@
       "100"
     ],
     "OperationType3": "GetMagicalDamageR",
-    "OperationTargetType3": "Myself",
+    "OperationTargetType3": "Target",
     "OperationRadiusMm3": 1500,
     "OperationAngle3": 90,
     "OperationValue3": [
@@ -18111,7 +18111,7 @@
     "OperationType1": "GetMagicalDamageR",
     "OperationTargetType1": "Target",
     "OperationValue1": [
-      "850"
+      "1000"
     ],
     "OperationType2": "DashToTarget",
     "OperationTargetType2": "Myself",
@@ -18120,7 +18120,7 @@
       "100"
     ],
     "OperationType3": "GetMagicalDamageR",
-    "OperationTargetType3": "Myself",
+    "OperationTargetType3": "Target",
     "OperationRadiusMm3": 1500,
     "OperationAngle3": 90,
     "OperationValue3": [
@@ -18134,8 +18134,8 @@
     "Index": 7110,
     "TriggerType": "None",
     "TriggerRatio": 1000,
-    "Mp": 3000,
-    "CoolTimeMs": 12000,
+    "Mp": 2000,
+    "CoolTimeMs": 9000,
     "ActingTimeMs": 1200,
     "SoloTimeMs": 400,
     "DurationTimeMs": [
@@ -18156,7 +18156,7 @@
     "AttrType": "Magical",
     "TargetType": "Enemy",
     "TargetCount": 1,
-    "MaxRangeMm": 6000,
+    "MaxRangeMm": 5000,
     "DeadTarget": "False",
     "IgnoreBlock": "TRUE",
     "RetargetOnFire": "TRUE",
@@ -18165,8 +18165,14 @@
     "OperationTargetType1": "Myself",
     "OperationRadiusMm1": 3000,
     "OperationValue1": [
-      "245",
-      "48"
+      "202",
+      "40"
+    ],
+    "OperationValueFactor1": [
+      "0",
+      "0",
+      "5",
+      "40"
     ],
     "OperationType2": "GetMagicalDamageR",
     "OperationTargetType2": "Myself",
@@ -18174,13 +18180,19 @@
     "OperationWidth2": 3000,
     "OperationAngle2": 90,
     "OperationValue2": [
-      "2450",
-      "485"
+      "2024",
+      "422"
+    ],
+    "OperationValueFactor2": [
+      "0",
+      "0",
+      "5",
+      "422"
     ],
     "OperationType3": "Down",
     "OperationTargetType3": "Myself",
     "OperationValue3": [
-      "2000"
+      "1000"
     ],
     "OperationDurationMs3": 3000,
     "OperationParent3": 2,
@@ -18207,22 +18219,15 @@
     "OperationType1": "ModSkillPowerR",
     "OperationTargetType1": "Myself",
     "OperationValue1": [
-      "7115",
+      "7110",
       "1",
       "100"
     ],
     "OperationType2": "ModSkillPowerR",
     "OperationTargetType2": "Myself",
     "OperationValue2": [
-      "7116",
-      "1",
-      "100"
-    ],
-    "OperationType4": "ModSkillPowerR",
-    "OperationTargetType4": "Myself",
-    "OperationValue4": [
-      "7118",
-      "1",
+      "7110",
+      "2",
       "100"
     ]
   },
@@ -18239,22 +18244,15 @@
     "OperationType1": "ModSkillPowerR",
     "OperationTargetType1": "Myself",
     "OperationValue1": [
-      "7115",
+      "7110",
       "1",
       "150"
     ],
     "OperationType2": "ModSkillPowerR",
     "OperationTargetType2": "Myself",
     "OperationValue2": [
-      "7116",
-      "1",
-      "150"
-    ],
-    "OperationType4": "ModSkillPowerR",
-    "OperationTargetType4": "Myself",
-    "OperationValue4": [
-      "7118",
-      "1",
+      "7110",
+      "2",
       "150"
     ]
   },
@@ -18271,22 +18269,15 @@
     "OperationType1": "ModSkillPowerR",
     "OperationTargetType1": "Myself",
     "OperationValue1": [
-      "7115",
+      "7110",
       "1",
       "250"
     ],
     "OperationType2": "ModSkillPowerR",
     "OperationTargetType2": "Myself",
     "OperationValue2": [
-      "7116",
-      "1",
-      "250"
-    ],
-    "OperationType4": "ModSkillPowerR",
-    "OperationTargetType4": "Myself",
-    "OperationValue4": [
-      "7118",
-      "1",
+      "7110",
+      "2",
       "250"
     ]
   },
@@ -18301,7 +18292,6 @@
     "DurationTimeMs": [
       "2600"
     ],
-    "CancelOnWaveEnd": "True",
     "TickTimeValue": [
       "1200"
     ],
@@ -18316,14 +18306,14 @@
     "OperationTargetSelectType1": "Opponent",
     "OperationRadiusMm1": 30000,
     "OperationValue1": [
-      "2450",
-      "485"
+      "1450",
+      "255"
     ],
     "OperationValueFactor1": [
       "0",
       "0",
       "5",
-      "485"
+      "255"
     ],
     "OperationType2": "Stun",
     "OperationTargetType2": "Parent",
@@ -18339,7 +18329,7 @@
       "300"
     ],
     "OperationState3": "Kirze_Buff",
-    "OperationDurationMs3": 20000,
+    "OperationDurationMs3": 15000,
     "OperationType4": "ModAttackSpeedR",
     "OperationTargetType4": "Myself",
     "OperationRadiusMm4": 50000,
@@ -18347,7 +18337,7 @@
       "300"
     ],
     "OperationState4": "Kirze_Buff",
-    "OperationDurationMs4": 20000,
+    "OperationDurationMs4": 15000,
     "OperationFlags4": [
       "ExcludeTarget"
     ],
@@ -18357,7 +18347,7 @@
       "7124",
       "True"
     ],
-    "OperationDurationMs5": 20000,
+    "OperationDurationMs5": 15000,
     "OperationFlags5": [
       "Positive"
     ],
@@ -18365,12 +18355,12 @@
     "OperationTargetType6": "Myself",
     "OperationValue6": [
       "Hero",
-      "300",
+      "200",
       "0",
       "True"
     ],
     "OperationState6": "Positive",
-    "OperationDurationMs6": 20000,
+    "OperationDurationMs6": 15000,
     "OperationFlags6": [
       "Disabled"
     ]
@@ -18398,13 +18388,6 @@
       "7124",
       "1",
       "100"
-    ],
-    "OperationType3": "ModSkillPowerR",
-    "OperationTargetType3": "Myself",
-    "OperationValue3": [
-      "7124",
-      "2",
-      "100"
     ]
   },
   {
@@ -18429,13 +18412,6 @@
     "OperationValue2": [
       "7124",
       "1",
-      "150"
-    ],
-    "OperationType3": "ModSkillPowerR",
-    "OperationTargetType3": "Myself",
-    "OperationValue3": [
-      "7124",
-      "2",
       "150"
     ]
   },
@@ -18462,13 +18438,6 @@
       "7124",
       "1",
       "250"
-    ],
-    "OperationType3": "ModSkillPowerR",
-    "OperationTargetType3": "Myself",
-    "OperationValue3": [
-      "7124",
-      "2",
-      "250"
     ]
   },
   {
@@ -18494,14 +18463,14 @@
     "OperationTargetType1": "Myself",
     "OperationRadiusMm1": 3000,
     "OperationValue1": [
-      "250",
-      "50"
+      "1136",
+      "200"
     ],
     "OperationValueFactor1": [
       "0",
       "0",
       "5",
-      "50"
+      "200"
     ],
     "OperationType2": "Stun",
     "OperationTargetType2": "Parent",
@@ -18533,8 +18502,8 @@
     "Index": 7130,
     "TriggerType": "None",
     "TriggerRatio": 1000,
-    "Mp": 3000,
-    "CoolTimeMs": 21000,
+    "Mp": 4000,
+    "CoolTimeMs": 20000,
     "ActingTimeMs": 2000,
     "SoloTimeMs": 600,
     "DurationTimeMs": [
@@ -18547,13 +18516,13 @@
     "AttrType": "Magical",
     "TargetType": "Enemy",
     "TargetCount": 1,
-    "MaxRangeMm": 10000,
+    "MaxRangeMm": 8000,
     "DeadTarget": "False",
     "IgnoreBlock": "TRUE",
     "RetargetOnFire": "False",
     "OperationType1": "GetMagicalDamageR",
     "OperationTargetType1": "Myself",
-    "OperationRadiusMm1": 17000,
+    "OperationRadiusMm1": 8000,
     "OperationWidth1": 1500,
     "OperationAreaDelayMss1": [
       "30",
@@ -18561,18 +18530,18 @@
     ],
     "OperationAngle1": 90,
     "OperationValue1": [
-      "1213",
-      "218"
+      "2213",
+      "518"
     ],
     "OperationValueFactor1": [
       "0",
       "0",
       "5",
-      "218"
+      "518"
     ],
     "OperationType2": "GetMagicalDamageR",
     "OperationTargetType2": "Myself",
-    "OperationRadiusMm2": 17000,
+    "OperationRadiusMm2": 8000,
     "OperationWidth2": 1500,
     "OperationAreaDelayMss2": [
       "30",
@@ -18580,22 +18549,29 @@
     ],
     "OperationAngle2": 90,
     "OperationValue2": [
-      "1213",
-      "218"
+      "3540",
+      "828"
     ],
     "OperationValueFactor2": [
       "0",
       "0",
       "5",
-      "218"
+      "828"
     ],
     "OperationDelayMs2": [
       "0",
       "0",
       "1500"
     ],
-    "OperationFlags3": [
-      "DelayIgnoreAttackSpeed"
+    "OperationType3": "UseSkill",
+    "OperationTargetType3": "Myself",
+    "OperationValue3": [
+      "7137"
+    ],
+    "OperationDelayMs3": [
+      "0",
+      "0",
+      "1500"
     ],
     "OperationType4": "ModAttackSpeedR",
     "OperationTargetType4": "Parent",
@@ -18614,70 +18590,30 @@
       "7134",
       "True"
     ],
-    "OperationDurationMs5": 10200,
+    "OperationDelayMs5": [
+      "0",
+      "0",
+      "1500"
+    ],
+    "OperationDurationMs5": 10000,
     "OperationFlags5": [
       "Positive"
     ],
-    "OperationType6": "GetStateDamageR",
+    "OperationType6": "EnablePassiveSkill",
     "OperationTargetType6": "Myself",
-    "OperationRadiusMm6": 50000,
     "OperationValue6": [
-      "5795",
-      "925",
-      "None",
-      "Kirze_Stack",
-      "468"
-    ],
-    "OperationValueFactor6": [
-      "0",
-      "0",
-      "5",
-      "925"
+      "7135",
+      "True"
     ],
     "OperationDelayMs6": [
-      "11500",
       "0",
-      "0"
+      "0",
+      "1500"
     ],
-    "OperationConditionType6": "State",
-    "OperationConditionValue6": [
-      "Kirze_Debuff"
-    ],
+    "OperationDurationMs6": 10000,
     "OperationFlags6": [
-      "CheckConditionOnBegin",
-      "DelayIgnoreAttackSpeed"
-    ],
-    "OperationType7": "ClearState",
-    "OperationTargetType7": "Myself",
-    "OperationRadiusMm7": 50000,
-    "OperationValue7": [
-      "Kirze_Stack",
-      "0"
-    ],
-    "OperationDelayMs7": [
-      "11500",
-      "0",
-      "0"
-    ],
-    "OperationConditionType7": "State",
-    "OperationConditionValue7": [
-      "Kirze_Debuff"
-    ],
-    "OperationFlags7": [
-      "CheckConditionOnBegin",
-      "DelayIgnoreAttackSpeed"
-    ],
-    "OperationType8": "ModMagicalWeakness",
-    "OperationTargetType8": "Parent",
-    "OperationValue8": [
-      "200"
-    ],
-    "OperationState8": 91007130,
-    "OperationDurationMs8": 10200,
-    "OperationParent8": 2,
-    "OperationFlags8": [
-      "HasParent",
-      "Disabled"
+      "Disabled",
+      "Positive"
     ]
   },
   {
@@ -18707,7 +18643,7 @@
     "OperationType3": "ModSkillPowerR",
     "OperationTargetType3": "Myself",
     "OperationValue3": [
-      "7134",
+      "7137",
       "1",
       "100"
     ]
@@ -18739,7 +18675,7 @@
     "OperationType3": "ModSkillPowerR",
     "OperationTargetType3": "Myself",
     "OperationValue3": [
-      "7134",
+      "7137",
       "1",
       "150"
     ]
@@ -18771,7 +18707,7 @@
     "OperationType3": "ModSkillPowerR",
     "OperationTargetType3": "Myself",
     "OperationValue3": [
-      "7134",
+      "7137",
       "1",
       "250"
     ]
@@ -18780,7 +18716,7 @@
     "Index": 7134,
     "TriggerType": "OnAttack",
     "TriggerValue": [
-      "7100;7101;7102;7110;7120;7124",
+      "7100;7101;7102;7110;7120;7124;7130",
       "None",
       "Dot"
     ],
@@ -18803,6 +18739,102 @@
     ]
   },
   {
+    "Index": 7135,
+    "TriggerType": "OnAttack",
+    "TriggerValue": [
+      "7100;7101;7102;7110;7120;7124;7130",
+      "None",
+      "Dot"
+    ],
+    "TriggerRatio": 400,
+    "TriggerDisabled": "True",
+    "AttrType": "Magical",
+    "TargetType": "TriggerTarget",
+    "TargetCount": 1,
+    "DeadTarget": "False",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "False",
+    "OperationType1": "ModPower",
+    "OperationTargetType1": "Target",
+    "OperationState1": "Kirze_Stack",
+    "OperationAddStateCount1": 3,
+    "OperationDurationMs1": 11000,
+    "OperationConditionType1": "State",
+    "OperationConditionValue1": [
+      "Kirze_Debuff"
+    ]
+  },
+  {
+    "Index": 7136,
+    "TriggerType": "NextSkill",
+    "TriggerRatio": 1000,
+    "AttrType": "Magical",
+    "TargetType": "Myself",
+    "TargetCount": 1,
+    "DeadTarget": "False",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "False",
+    "OperationType1": "GetMagicalDamageR",
+    "OperationTargetType1": "Myself",
+    "OperationValue1": [
+      "187"
+    ]
+  },
+  {
+    "Index": 7137,
+    "FollowLevelIndex": 7130,
+    "TriggerType": "NextSkill",
+    "TriggerRatio": 1000,
+    "AttrType": "Magical",
+    "TargetType": "Enemy",
+    "DeadTarget": "False",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "False",
+    "OperationType1": "GetStateDamageR",
+    "OperationTargetType1": "Target",
+    "OperationValue1": [
+      "2000",
+      "290",
+      "None",
+      "Kirze_Stack",
+      "187"
+    ],
+    "OperationValueFactor1": [
+      "0",
+      "0",
+      "5",
+      "290"
+    ],
+    "OperationDelayMs1": [
+      "0",
+      "0",
+      "9900"
+    ],
+    "OperationConditionType1": "State",
+    "OperationConditionValue1": [
+      "Kirze_Debuff"
+    ],
+    "OperationFlags1": [
+      "CheckConditionOnBegin",
+      "DelayIgnoreAttackSpeed"
+    ],
+    "OperationType2": "ClearState",
+    "OperationTargetType2": "Target",
+    "OperationValue2": [
+      "Kirze_Stack",
+      "0"
+    ],
+    "OperationDelayMs2": [
+      "0",
+      "0",
+      "10000"
+    ],
+    "OperationFlags2": [
+      "CheckConditionOnBegin",
+      "DelayIgnoreAttackSpeed"
+    ]
+  },
+  {
     "Index": 7140,
     "TriggerType": "OnStart",
     "TriggerRatio": 1000,
@@ -18815,37 +18847,19 @@
     "OperationType1": "ModPower",
     "OperationTargetType1": "Myself",
     "OperationValue1": [
-      "35"
+      "320"
     ],
     "OperationValueFactor1": [
       "5",
-      "35"
+      "320"
     ],
-    "OperationDurationMs1": 999999,
+    "OperationDurationMs1": 9999999,
     "OperationType2": "ModCriticalChance",
     "OperationTargetType2": "Myself",
     "OperationValue2": [
       "200"
     ],
-    "OperationDurationMs2": 999999,
-    "OperationType3": "ModCcTimeR",
-    "OperationTargetType3": "Myself",
-    "OperationRadiusMm3": 30000,
-    "OperationValue3": [
-      "200"
-    ],
-    "OperationState3": "Kirze_Passive2",
-    "OperationDurationMs3": 999999,
-    "OperationConditionType3": "Boss",
-    "OperationMaxAccCount3": 1,
-    "OperationType4": "EnablePassiveSkill",
-    "OperationTargetType4": "Myself",
-    "OperationValue4": [
-      "7144",
-      "True"
-    ],
-    "OperationDurationMs4": 999999,
-    "OperationMaxAccCount4": 1
+    "OperationDurationMs2": 9999999
   },
   {
     "Index": 7141,
@@ -18911,27 +18925,30 @@
     "DeadTarget": "False",
     "IgnoreBlock": "TRUE",
     "RetargetOnFire": "False",
-    "OperationType1": "ModAttackSpeed",
+    "OperationType1": "ModCcTimeR",
     "OperationTargetType1": "Myself",
+    "OperationTargetSelectType1": "Opponent",
+    "OperationRadiusMm1": 50000,
     "OperationValue1": [
       "200"
     ],
-    "OperationState1": "Kirze_Passive1",
-    "OperationDurationMs1": 20000,
-    "OperationConditionType1": "SkillLevel",
-    "OperationConditionValue1": [
-      "7140"
+    "OperationState1": "Kirze_Passive2",
+    "OperationDurationMs1": 9999999,
+    "OperationConditionType1": "Boss",
+    "OperationFlags1": [
+      "CheckConditionOnBegin"
     ]
   },
   {
-    "Index": 90000710,
+    "Index": 7145,
     "TriggerType": "OnAttack",
     "TriggerValue": [
-      "7100;7101;7102;7110;7120;7124",
+      "7100;7101;7102;7110;7120;7124;7130;7137",
       "None",
       "Dot"
     ],
     "TriggerRatio": 40,
+    "TriggerDisabled": "True",
     "AttrType": "Magical",
     "TargetType": "TriggerTarget",
     "TargetCount": 1,
@@ -18941,184 +18958,419 @@
     "OperationType1": "GetMagicalDamageR",
     "OperationTargetType1": "Target",
     "OperationValue1": [
-      "4000",
+      "5000",
       "0",
       "None"
+    ],
+    "OperationDelayMs1": [
+      "0",
+      "0",
+      "200"
     ],
     "OperationConditionType1": "Boss",
     "OperationConditionReverseCheck1": "True",
     "OperationType2": "GetMagicalDamageR",
     "OperationTargetType2": "Target",
     "OperationValue2": [
-      "8000",
-      "0",
-      "None"
-    ],
-    "OperationConditionType2": "Boss"
-  },
-  {
-    "Index": 90000711,
-    "TriggerType": "OnAttack",
-    "TriggerValue": [
-      "7100;7101;7102;7110;7120;7124",
-      "None",
-      "Dot"
-    ],
-    "TriggerRatio": 40,
-    "AttrType": "Magical",
-    "TargetType": "TriggerTarget",
-    "TargetCount": 1,
-    "DeadTarget": "False",
-    "IgnoreBlock": "TRUE",
-    "RetargetOnFire": "False",
-    "OperationType1": "GetMagicalDamageR",
-    "OperationTargetType1": "Target",
-    "OperationValue1": [
-      "4800",
-      "0",
-      "None"
-    ],
-    "OperationConditionType1": "Boss",
-    "OperationConditionReverseCheck1": "True",
-    "OperationType2": "GetMagicalDamageR",
-    "OperationTargetType2": "Target",
-    "OperationValue2": [
-      "9600",
-      "0",
-      "None"
-    ],
-    "OperationConditionType2": "Boss"
-  },
-  {
-    "Index": 90000712,
-    "TriggerType": "OnAttack",
-    "TriggerValue": [
-      "7100;7101;7102;7110;7120;7124",
-      "None",
-      "Dot"
-    ],
-    "TriggerRatio": 40,
-    "AttrType": "Magical",
-    "TargetType": "TriggerTarget",
-    "TargetCount": 1,
-    "DeadTarget": "False",
-    "IgnoreBlock": "TRUE",
-    "RetargetOnFire": "False",
-    "OperationType1": "GetMagicalDamageR",
-    "OperationTargetType1": "Target",
-    "OperationValue1": [
-      "5600",
-      "0",
-      "None"
-    ],
-    "OperationConditionType1": "Boss",
-    "OperationConditionReverseCheck1": "True",
-    "OperationType2": "GetMagicalDamageR",
-    "OperationTargetType2": "Target",
-    "OperationValue2": [
-      "11200",
-      "0",
-      "None"
-    ],
-    "OperationConditionType2": "Boss"
-  },
-  {
-    "Index": 90000713,
-    "TriggerType": "OnAttack",
-    "TriggerValue": [
-      "7100;7101;7102;7110;7120;7124",
-      "None",
-      "Dot"
-    ],
-    "TriggerRatio": 40,
-    "AttrType": "Magical",
-    "TargetType": "TriggerTarget",
-    "TargetCount": 1,
-    "DeadTarget": "False",
-    "IgnoreBlock": "TRUE",
-    "RetargetOnFire": "False",
-    "OperationType1": "GetMagicalDamageR",
-    "OperationTargetType1": "Target",
-    "OperationValue1": [
-      "6800",
-      "0",
-      "None"
-    ],
-    "OperationConditionType1": "Boss",
-    "OperationConditionReverseCheck1": "True",
-    "OperationType2": "GetMagicalDamageR",
-    "OperationTargetType2": "Target",
-    "OperationValue2": [
-      "13600",
-      "0",
-      "None"
-    ],
-    "OperationConditionType2": "Boss"
-  },
-  {
-    "Index": 90000714,
-    "TriggerType": "OnAttack",
-    "TriggerValue": [
-      "7100;7101;7102;7110;7120;7124",
-      "None",
-      "Dot"
-    ],
-    "TriggerRatio": 40,
-    "AttrType": "Magical",
-    "TargetType": "TriggerTarget",
-    "TargetCount": 1,
-    "DeadTarget": "False",
-    "IgnoreBlock": "TRUE",
-    "RetargetOnFire": "False",
-    "OperationType1": "GetMagicalDamageR",
-    "OperationTargetType1": "Target",
-    "OperationValue1": [
-      "8400",
-      "0",
-      "None"
-    ],
-    "OperationConditionType1": "Boss",
-    "OperationConditionReverseCheck1": "True",
-    "OperationType2": "GetMagicalDamageR",
-    "OperationTargetType2": "Target",
-    "OperationValue2": [
-      "16800",
-      "0",
-      "None"
-    ],
-    "OperationConditionType2": "Boss"
-  },
-  {
-    "Index": 90000715,
-    "TriggerType": "OnAttack",
-    "TriggerValue": [
-      "7100;7101;7102;7110;7120;7124",
-      "None",
-      "Dot"
-    ],
-    "TriggerRatio": 40,
-    "AttrType": "Magical",
-    "TargetType": "TriggerTarget",
-    "TargetCount": 1,
-    "DeadTarget": "False",
-    "IgnoreBlock": "TRUE",
-    "RetargetOnFire": "False",
-    "OperationType1": "GetMagicalDamageR",
-    "OperationTargetType1": "Target",
-    "OperationValue1": [
       "10000",
       "0",
       "None"
     ],
-    "OperationConditionType1": "Boss",
-    "OperationConditionReverseCheck1": "True",
-    "OperationType2": "GetMagicalDamageR",
-    "OperationTargetType2": "Target",
-    "OperationValue2": [
-      "20000",
+    "OperationDelayMs2": [
       "0",
-      "None"
+      "0",
+      "200"
     ],
     "OperationConditionType2": "Boss"
+  },
+  {
+    "Index": 90000710,
+    "TriggerType": "OnStart",
+    "TriggerRatio": 1000,
+    "AttrType": "Magical",
+    "TargetType": "Myself",
+    "TargetCount": 1,
+    "DeadTarget": "False",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "False",
+    "OperationType1": "EnablePassiveSkill",
+    "OperationTargetType1": "Myself",
+    "OperationValue1": [
+      "7145",
+      "True"
+    ],
+    "OperationType2": "SetSkill",
+    "OperationTargetType2": "Myself",
+    "OperationValue2": [
+      "7145",
+      "1",
+      "Value",
+      "5000"
+    ],
+    "OperationType3": "SetSkill",
+    "OperationTargetType3": "Myself",
+    "OperationValue3": [
+      "7145",
+      "2",
+      "Value",
+      "10000"
+    ],
+    "OperationType4": "SetSkill",
+    "OperationTargetType4": "Myself",
+    "OperationValue4": [
+      "7130",
+      "1",
+      "Width",
+      "4000"
+    ],
+    "OperationType5": "SetSkill",
+    "OperationTargetType5": "Myself",
+    "OperationValue5": [
+      "7130",
+      "2",
+      "Width",
+      "4000"
+    ],
+    "OperationType6": "SetSkill",
+    "OperationTargetType6": "Myself",
+    "OperationValue6": [
+      "7130",
+      "1",
+      "Angle",
+      "60"
+    ],
+    "OperationType7": "SetSkill",
+    "OperationTargetType7": "Myself",
+    "OperationValue7": [
+      "7130",
+      "2",
+      "Angle",
+      "60"
+    ]
+  },
+  {
+    "Index": 90000711,
+    "TriggerType": "OnStart",
+    "TriggerRatio": 1000,
+    "AttrType": "Magical",
+    "TargetType": "Myself",
+    "TargetCount": 1,
+    "DeadTarget": "False",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "False",
+    "OperationType1": "EnablePassiveSkill",
+    "OperationTargetType1": "Myself",
+    "OperationValue1": [
+      "7145",
+      "True"
+    ],
+    "OperationType2": "SetSkill",
+    "OperationTargetType2": "Myself",
+    "OperationValue2": [
+      "7145",
+      "1",
+      "Value",
+      "6000"
+    ],
+    "OperationType3": "SetSkill",
+    "OperationTargetType3": "Myself",
+    "OperationValue3": [
+      "7145",
+      "2",
+      "Value",
+      "12000"
+    ],
+    "OperationType4": "SetSkill",
+    "OperationTargetType4": "Myself",
+    "OperationValue4": [
+      "7130",
+      "1",
+      "Width",
+      "4000"
+    ],
+    "OperationType5": "SetSkill",
+    "OperationTargetType5": "Myself",
+    "OperationValue5": [
+      "7130",
+      "2",
+      "Width",
+      "4000"
+    ],
+    "OperationType6": "SetSkill",
+    "OperationTargetType6": "Myself",
+    "OperationValue6": [
+      "7130",
+      "1",
+      "Angle",
+      "60"
+    ],
+    "OperationType7": "SetSkill",
+    "OperationTargetType7": "Myself",
+    "OperationValue7": [
+      "7130",
+      "2",
+      "Angle",
+      "60"
+    ]
+  },
+  {
+    "Index": 90000712,
+    "TriggerType": "OnStart",
+    "TriggerRatio": 1000,
+    "AttrType": "Magical",
+    "TargetType": "Myself",
+    "TargetCount": 1,
+    "DeadTarget": "False",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "False",
+    "OperationType1": "EnablePassiveSkill",
+    "OperationTargetType1": "Myself",
+    "OperationValue1": [
+      "7145",
+      "True"
+    ],
+    "OperationType2": "SetSkill",
+    "OperationTargetType2": "Myself",
+    "OperationValue2": [
+      "7145",
+      "1",
+      "Value",
+      "7200"
+    ],
+    "OperationType3": "SetSkill",
+    "OperationTargetType3": "Myself",
+    "OperationValue3": [
+      "7145",
+      "2",
+      "Value",
+      "14400"
+    ],
+    "OperationType4": "SetSkill",
+    "OperationTargetType4": "Myself",
+    "OperationValue4": [
+      "7130",
+      "1",
+      "Width",
+      "4000"
+    ],
+    "OperationType5": "SetSkill",
+    "OperationTargetType5": "Myself",
+    "OperationValue5": [
+      "7130",
+      "2",
+      "Width",
+      "4000"
+    ],
+    "OperationType6": "SetSkill",
+    "OperationTargetType6": "Myself",
+    "OperationValue6": [
+      "7130",
+      "1",
+      "Angle",
+      "60"
+    ],
+    "OperationType7": "SetSkill",
+    "OperationTargetType7": "Myself",
+    "OperationValue7": [
+      "7130",
+      "2",
+      "Angle",
+      "60"
+    ]
+  },
+  {
+    "Index": 90000713,
+    "TriggerType": "OnStart",
+    "TriggerRatio": 1000,
+    "AttrType": "Magical",
+    "TargetType": "Myself",
+    "TargetCount": 1,
+    "DeadTarget": "False",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "False",
+    "OperationType1": "EnablePassiveSkill",
+    "OperationTargetType1": "Myself",
+    "OperationValue1": [
+      "7145",
+      "True"
+    ],
+    "OperationType2": "SetSkill",
+    "OperationTargetType2": "Myself",
+    "OperationValue2": [
+      "7145",
+      "1",
+      "Value",
+      "8600"
+    ],
+    "OperationType3": "SetSkill",
+    "OperationTargetType3": "Myself",
+    "OperationValue3": [
+      "7145",
+      "2",
+      "Value",
+      "17200"
+    ],
+    "OperationType4": "SetSkill",
+    "OperationTargetType4": "Myself",
+    "OperationValue4": [
+      "7130",
+      "1",
+      "Width",
+      "4000"
+    ],
+    "OperationType5": "SetSkill",
+    "OperationTargetType5": "Myself",
+    "OperationValue5": [
+      "7130",
+      "2",
+      "Width",
+      "4000"
+    ],
+    "OperationType6": "SetSkill",
+    "OperationTargetType6": "Myself",
+    "OperationValue6": [
+      "7130",
+      "1",
+      "Angle",
+      "60"
+    ],
+    "OperationType7": "SetSkill",
+    "OperationTargetType7": "Myself",
+    "OperationValue7": [
+      "7130",
+      "2",
+      "Angle",
+      "60"
+    ]
+  },
+  {
+    "Index": 90000714,
+    "TriggerType": "OnStart",
+    "TriggerRatio": 1000,
+    "AttrType": "Magical",
+    "TargetType": "Myself",
+    "TargetCount": 1,
+    "DeadTarget": "False",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "False",
+    "OperationType1": "EnablePassiveSkill",
+    "OperationTargetType1": "Myself",
+    "OperationValue1": [
+      "7145",
+      "True"
+    ],
+    "OperationType2": "SetSkill",
+    "OperationTargetType2": "Myself",
+    "OperationValue2": [
+      "7145",
+      "1",
+      "Value",
+      "10000"
+    ],
+    "OperationType3": "SetSkill",
+    "OperationTargetType3": "Myself",
+    "OperationValue3": [
+      "7145",
+      "2",
+      "Value",
+      "20000"
+    ],
+    "OperationType4": "SetSkill",
+    "OperationTargetType4": "Myself",
+    "OperationValue4": [
+      "7130",
+      "1",
+      "Width",
+      "4000"
+    ],
+    "OperationType5": "SetSkill",
+    "OperationTargetType5": "Myself",
+    "OperationValue5": [
+      "7130",
+      "2",
+      "Width",
+      "4000"
+    ],
+    "OperationType6": "SetSkill",
+    "OperationTargetType6": "Myself",
+    "OperationValue6": [
+      "7130",
+      "1",
+      "Angle",
+      "60"
+    ],
+    "OperationType7": "SetSkill",
+    "OperationTargetType7": "Myself",
+    "OperationValue7": [
+      "7130",
+      "2",
+      "Angle",
+      "60"
+    ]
+  },
+  {
+    "Index": 90000715,
+    "TriggerType": "OnStart",
+    "TriggerRatio": 1000,
+    "AttrType": "Magical",
+    "TargetType": "Myself",
+    "TargetCount": 1,
+    "DeadTarget": "False",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "False",
+    "OperationType1": "EnablePassiveSkill",
+    "OperationTargetType1": "Myself",
+    "OperationValue1": [
+      "7145",
+      "True"
+    ],
+    "OperationType2": "SetSkill",
+    "OperationTargetType2": "Myself",
+    "OperationValue2": [
+      "7145",
+      "1",
+      "Value",
+      "12500"
+    ],
+    "OperationType3": "SetSkill",
+    "OperationTargetType3": "Myself",
+    "OperationValue3": [
+      "7145",
+      "2",
+      "Value",
+      "25000"
+    ],
+    "OperationType4": "SetSkill",
+    "OperationTargetType4": "Myself",
+    "OperationValue4": [
+      "7130",
+      "1",
+      "Width",
+      "4000"
+    ],
+    "OperationType5": "SetSkill",
+    "OperationTargetType5": "Myself",
+    "OperationValue5": [
+      "7130",
+      "2",
+      "Width",
+      "4000"
+    ],
+    "OperationType6": "SetSkill",
+    "OperationTargetType6": "Myself",
+    "OperationValue6": [
+      "7130",
+      "1",
+      "Angle",
+      "60"
+    ],
+    "OperationType7": "SetSkill",
+    "OperationTargetType7": "Myself",
+    "OperationValue7": [
+      "7130",
+      "2",
+      "Angle",
+      "60"
+    ]
   }
 ]
