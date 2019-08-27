@@ -2557,6 +2557,38 @@
     "OperationDurationMs4": 99999999
   },
   {
+    "Index": 60009750,
+    "TriggerType": "OnStart",
+    "TriggerRatio": 1000,
+    "DeadTarget": "False",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "FALSE",
+    "OperationType1": "ModMaxHpR",
+    "OperationTargetType1": "Myself",
+    "OperationValue1": [
+      "150"
+    ],
+    "OperationDurationMs1": 999999,
+    "OperationType2": "ModDefenceR",
+    "OperationTargetType2": "Myself",
+    "OperationValue2": [
+      "150"
+    ],
+    "OperationDurationMs2": 9999999,
+    "OperationType3": "ModPowerR",
+    "OperationTargetType3": "Myself",
+    "OperationValue3": [
+      "150"
+    ],
+    "OperationDurationMs3": 99999999,
+    "OperationType4": "ModCriticalPower",
+    "OperationTargetType4": "Myself",
+    "OperationValue4": [
+      "200"
+    ],
+    "OperationDurationMs4": 99999999
+  },
+  {
     "Index": 60000151,
     "TriggerType": "OnAttack",
     "TriggerValue": [
@@ -2578,7 +2610,7 @@
     "OperationType1": "GetPhysicalDamageR",
     "OperationTargetType1": "Target",
     "OperationValue1": [
-      "400"
+      "800"
     ]
   },
   {
@@ -3556,31 +3588,24 @@
   },
   {
     "Index": 60002951,
-    "TriggerType": "OnBaseAttack",
-    "TriggerRatio": 100,
-    "CoolTimeMs": 500,
+    "TriggerType": "OnWaveStart",
+    "TriggerRatio": 1000,
     "AttrType": "Magical",
-    "TargetType": "TriggerTarget",
+    "TargetType": "Myself",
     "TargetCount": 1,
     "DeadTarget": "FALSE",
     "IgnoreBlock": "TRUE",
     "RetargetOnFire": "FALSE",
-    "OperationType1": "Knockback",
-    "OperationTargetType1": "Target",
+    "OperationType1": "ModAttackByRace",
+    "OperationTargetType1": "Myself",
     "OperationValue1": [
-      "4000"
+      "Hero",
+      "300",
+      "-300",
+      "True"
     ],
-    "OperationDurationMs1": 1000,
-    "OperationType2": "ModAttackSpeedR",
-    "OperationTargetType2": "Myself",
-    "OperationValue2": [
-      "500"
-    ],
-    "OperationState2": "Positive",
-    "OperationDurationMs2": 3000,
-    "OperationType3": "Stun",
-    "OperationTargetType3": "Target",
-    "OperationDurationMs3": 3000
+    "OperationState1": 60002951,
+    "OperationDurationMs1": 20000
   },
   {
     "Index": 60003051,
@@ -3606,25 +3631,18 @@
   },
   {
     "Index": 60003151,
-    "TriggerType": "OnCriticalSkill",
-    "TriggerValue": [
-      "None",
-      "None",
-      "Dot"
-    ],
+    "TriggerType": "OnWaveStart",
     "TriggerRatio": 1000,
-    "CoolTimeMs": 1000,
     "AttrType": "Magical",
-    "TargetType": "Ally",
+    "TargetType": "Myself",
+    "TargetCount": 1,
     "DeadTarget": "FALSE",
     "IgnoreBlock": "TRUE",
     "RetargetOnFire": "FALSE",
-    "OperationType1": "GetHealByDamageR",
-    "OperationTargetType1": "Target",
-    "OperationValue1": [
-      "40",
-      "NoCritical"
-    ]
+    "OperationType1": "ModToughness",
+    "OperationTargetType1": "Myself",
+    "OperationState1": 60003151,
+    "OperationDurationMs1": 5000
   },
   {
     "Index": 60003251,
@@ -5293,5 +5311,35 @@
     ],
     "OperationState1": 60007151,
     "OperationDurationMs1": 9999999
+  },
+  {
+    "Index": 60009751,
+    "TriggerType": "OnWaveStart",
+    "TriggerRatio": 1000,
+    "TargetType": "Enemy",
+    "DeadTarget": "False",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "FALSE",
+    "OperationType1": "ModWeakness",
+    "OperationTargetType1": "Target",
+    "OperationValue1": [
+      "150"
+    ],
+    "OperationState1": "Hanus_ModWeakness",
+    "OperationDurationMs1": 5000,
+    "OperationConditionType1": "BattleDefineCode",
+    "OperationConditionValue1": [
+      "Arena3"
+    ],
+    "OperationType2": "GetMana",
+    "OperationTargetType2": "Target",
+    "OperationValue2": [
+      "-500"
+    ],
+    "OperationDelayMs2": [
+      "100",
+      "0",
+      "0"
+    ]
   }
 ]

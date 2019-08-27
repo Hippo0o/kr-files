@@ -916,6 +916,58 @@
     "MenuTitleKey": "SQUARE_NAME_NORMAL_SUB"
   },
   {
+    "Code": "Square_Summer_2019",
+    "HeroIndex": 824,
+    "OnOpenEntryMenu": [
+      "NPC_OPHELIA_WELCOME01",
+      " InnReaction.Ophelia01",
+      " Touch",
+      "\nNPC_OPHELIA_WELCOME02",
+      " InnReaction.Ophelia01",
+      " Touch"
+    ],
+    "OnTouch": [
+      "NPC_OPHELIA_TOUCH01",
+      " InnReaction.Ophelia01",
+      " Touch",
+      "\nNPC_OPHELIA_TOUCH02",
+      " InnReaction.Ophelia01",
+      " Touch"
+    ],
+    "EntryMenuButton1": [
+      "19SUMMER_EVENT_NAME",
+      "OpenEventDungeonSelect",
+      "True",
+      "30025",
+      "1",
+      "2"
+    ],
+    "EntryMenuCondition1": "EventExist,EventDungeon,30025",
+    "EntryMenuButton2": [
+      "19SUMMER_EVENT_PRESENT",
+      "OpenNPCRecruiteView",
+      "",
+      "EventGiftItem"
+    ],
+    "EntryMenuCondition2": "EventExist,EventShop,2019_Summer_Shop",
+    "EntryMenuButton3": [
+      "MENU_EVENT_HELP",
+      "OpenHelp",
+      "19SUMMER_EVENT_INFO_SUB_TITLE",
+      "19SUMMER_EVENT_INFO_DESC"
+    ],
+    "EntryMenuCondition3": "EventExist,EventShop,2019_Summer_Shop",
+    "CreatureIndex": 824,
+    "NpcOffset": [
+      "-80",
+      "50"
+    ],
+    "NpcAngle": -50,
+    "NpcScale": 120,
+    "MenuIconType": "Square_19Summer",
+    "MenuTitleKey": "SQUARE_NAME_NORMAL_SUB"
+  },
+  {
     "Code": "NormalShop",
     "HeroIndex": 90,
     "ShowHeroBuffIcon": "True",
@@ -3165,6 +3217,7 @@
   },
   {
     "Code": "GuildTrainingCenter",
+    "HeroIndex": 97,
     "OnOpenEntryMenu": [
       "NPC_GUILDTRAINING_WELCOME02",
       " NPC.GuildTraining.Welcome02",
@@ -3197,9 +3250,17 @@
       "GUILD_TRAINING_CENTER",
       "OpenGuildTrainingCenter"
     ],
+    "EntryMenuCondition1": "GuildExist,true",
     "EntryMenuButton2": [
       "GUILD_ARENA_TITLE",
       "OpenGuildArena"
+    ],
+    "EntryMenuCondition2": "GuildExist,true",
+    "BottomEntryMenuButton1": [
+      "MENU_NPC_GIFT",
+      "OpenNPCRecruiteView",
+      "GiftButton",
+      "Recruit"
     ],
     "BuffIconName1": "Guild_Activity_Restrict",
     "BuffIconCondition1": "GuildActivityRestrict",
@@ -3252,6 +3313,7 @@
       "OpenShop",
       "Guild"
     ],
+    "EntryMenuCondition1": "GuildExist,true",
     "EntryMenuButton2": [
       "MENU_USE_GUILD_RAID_SHOP",
       "OpenShop",

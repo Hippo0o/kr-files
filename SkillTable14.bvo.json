@@ -386,7 +386,7 @@
     "OperationValue1": [
       "8802",
       "1",
-      "6",
+      "10",
       "None",
       "Ground",
       "31000",
@@ -397,7 +397,7 @@
     "OperationValue2": [
       "8802",
       "1",
-      "6",
+      "10",
       "None",
       "Ground",
       "31000",
@@ -408,7 +408,7 @@
     "OperationValue3": [
       "8802",
       "1",
-      "6",
+      "10",
       "None",
       "Ground",
       "30000",
@@ -419,7 +419,7 @@
     "OperationValue4": [
       "8802",
       "1",
-      "6",
+      "10",
       "None",
       "Ground",
       "30000",
@@ -499,7 +499,7 @@
     "OperationValue1": [
       "700",
       "240",
-      "Unavoidable|IgnoreDefence|NoCritical",
+      "Unavoidable|IgnoreDefence|NoCritical|IgnoreModAttackByRace",
       "None",
       "EndOfFinal"
     ],
@@ -581,7 +581,14 @@
       "4630",
       "Valok2"
     ],
-    "OperationDurationMs2": 999999
+    "OperationDurationMs2": 999999,
+    "OperationType3": "FilterTargetByState",
+    "OperationTargetType3": "Target",
+    "OperationValue3": [
+      "9720",
+      "Valok2"
+    ],
+    "OperationDurationMs3": 999999
   },
   {
     "Index": 880158,
@@ -705,7 +712,7 @@
       "880152",
       "1",
       "Value",
-      "7",
+      "8",
       "2"
     ],
     "OperationState1": "ValokHp1",
@@ -716,7 +723,7 @@
       "880152",
       "2",
       "Value",
-      "7",
+      "8",
       "2"
     ],
     "OperationState2": "ValokHp2",
@@ -727,7 +734,7 @@
       "880152",
       "3",
       "Value",
-      "7",
+      "8",
       "2"
     ],
     "OperationState3": "ValokHp3",
@@ -738,7 +745,7 @@
       "880152",
       "4",
       "Value",
-      "7",
+      "8",
       "2"
     ],
     "OperationState4": "ValokHp4",
@@ -807,7 +814,7 @@
       "1000"
     ],
     "OperationState1": "RaidDown",
-    "OperationDurationMs1": 7000,
+    "OperationDurationMs1": 9000,
     "OperationType4": "OverrideStat",
     "OperationTargetType4": "Myself",
     "OperationValue4": [
@@ -815,7 +822,7 @@
       "Custom",
       "20000"
     ],
-    "OperationDurationMs4": 7000,
+    "OperationDurationMs4": 9000,
     "OperationType5": "OverrideStat",
     "OperationTargetType5": "Myself",
     "OperationValue5": [
@@ -823,7 +830,7 @@
       "Custom",
       "20000"
     ],
-    "OperationDurationMs5": 7000,
+    "OperationDurationMs5": 9000,
     "OperationType6": "UseSkill",
     "OperationTargetType6": "Myself",
     "OperationValue6": [
@@ -970,7 +977,7 @@
     "OperationValue1": [
       "700",
       "360",
-      "Unavoidable|IgnoreDefence|NoCritical",
+      "Unavoidable|IgnoreDefence|NoCritical|IgnoreModAttackByRace",
       "None",
       "EndOfFinal"
     ],
@@ -1057,16 +1064,20 @@
       "1500"
     ],
     "OperationDurationMs3": 999999,
-    "OperationType4": "ModPhysicalDefence",
+    "OperationType4": "OverrideStat",
     "OperationTargetType4": "Myself",
     "OperationValue4": [
-      "44000"
+      "PhysicalDefense",
+      "Custom",
+      "55000"
     ],
     "OperationDurationMs4": 999999,
-    "OperationType5": "ModMagicalDefence",
+    "OperationType5": "OverrideStat",
     "OperationTargetType5": "Myself",
     "OperationValue5": [
-      "44000"
+      "MagicalDefense",
+      "Custom",
+      "55000"
     ],
     "OperationDurationMs5": 999999
   },
@@ -1132,7 +1143,7 @@
     "OperationType1": "Die",
     "OperationTargetType1": "Myself",
     "OperationDelayMs1": [
-      "7100",
+      "9100",
       "0",
       "0"
     ],
@@ -1152,16 +1163,20 @@
       "1500"
     ],
     "OperationDurationMs3": 999999,
-    "OperationType4": "ModPhysicalDefence",
+    "OperationType4": "OverrideStat",
     "OperationTargetType4": "Myself",
     "OperationValue4": [
-      "44000"
+      "PhysicalDefense",
+      "Custom",
+      "55000"
     ],
     "OperationDurationMs4": 999999,
-    "OperationType5": "ModMagicalDefence",
+    "OperationType5": "OverrideStat",
     "OperationTargetType5": "Myself",
     "OperationValue5": [
-      "44000"
+      "MagicalDefense",
+      "Custom",
+      "55000"
     ],
     "OperationDurationMs5": 999999
   },
@@ -2312,5 +2327,21 @@
     "OperationValue2": [
       "-500"
     ]
+  },
+  {
+    "Index": 70000131,
+    "TriggerType": "OnStart",
+    "TriggerRatio": 1000,
+    "TargetType": "Myself",
+    "TargetCount": 1,
+    "DeadTarget": "False",
+    "IgnoreBlock": "True",
+    "RetargetOnFire": "False",
+    "OperationType1": "ModAttackSpeedR",
+    "OperationTargetType1": "Myself",
+    "OperationValue1": [
+      "100"
+    ],
+    "OperationState1": "Hanus_Buff"
   }
 ]

@@ -1770,6 +1770,270 @@
     ]
   },
   {
+    "Index": 801,
+    "Category": "Tutorial",
+    "EventType": "EnterEventDungeonSelect",
+    "EventCondition": [
+      "30025",
+      "1"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "503"
+    ]
+  },
+  {
+    "Index": 802,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "30025",
+      "1",
+      "1"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/19Summer/E_S2_Main_2"
+    ]
+  },
+  {
+    "Index": 803,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "999",
+      "999",
+      "999"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/19Summer/E_S2_Main_3"
+    ]
+  },
+  {
+    "Index": 804,
+    "Category": "MainScenario",
+    "EventType": "ScenarioBattleEnd",
+    "EventCondition": [
+      "30025",
+      "1",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/19Summer/E_S2_Main_4"
+    ]
+  },
+  {
+    "Index": 805,
+    "Category": "MainScenario",
+    "EventType": "EnterScenarioBattle",
+    "EventCondition": [
+      "30025",
+      "2"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/19Summer/E_S2_Main_5"
+    ]
+  },
+  {
+    "Index": 806,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "30025",
+      "2",
+      "1"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/19Summer/E_S2_Main_6"
+    ]
+  },
+  {
+    "Index": 807,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "999",
+      "999",
+      "999"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/19Summer/E_S2_Main_7"
+    ]
+  },
+  {
+    "Index": 808,
+    "Category": "MainScenario",
+    "EventType": "ScenarioBattleEnd",
+    "EventCondition": [
+      "30025",
+      "2",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/19Summer/E_S2_Main_8"
+    ]
+  },
+  {
+    "Index": 809,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "30025",
+      "3",
+      "1"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/19Summer/E_S2_Main_9"
+    ]
+  },
+  {
+    "Index": 810,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "999",
+      "999",
+      "999"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/19Summer/E_S2_Main_10"
+    ]
+  },
+  {
+    "Index": 811,
+    "Category": "MainScenario",
+    "EventType": "ScenarioBattleEnd",
+    "EventCondition": [
+      "30025",
+      "3",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/19Summer/E_S2_Main_11"
+    ]
+  },
+  {
+    "Index": 812,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "30025",
+      "4",
+      "1"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/19Summer/E_S2_Main_12"
+    ]
+  },
+  {
+    "Index": 813,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "999",
+      "999",
+      "999"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/19Summer/E_S2_Main_13"
+    ]
+  },
+  {
+    "Index": 814,
+    "Category": "MainScenario",
+    "EventType": "ScenarioBattleEnd",
+    "EventCondition": [
+      "30025",
+      "4",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/19Summer/E_S2_Main_14"
+    ]
+  },
+  {
+    "Index": 815,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "30025",
+      "5",
+      "1"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/19Summer/E_S2_Main_15"
+    ]
+  },
+  {
+    "Index": 816,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "999",
+      "999",
+      "999"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/19Summer/E_S2_Main_16"
+    ]
+  },
+  {
+    "Index": 817,
+    "Category": "MainScenario",
+    "EventType": "ScenarioBattleEnd",
+    "EventCondition": [
+      "30025",
+      "5",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/19Summer/E_S2_Main_17"
+    ]
+  },
+  {
+    "Index": 818,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "30025",
+      "6",
+      "1"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/19Summer/E_S2_Main_18"
+    ]
+  },
+  {
+    "Index": 819,
+    "Category": "MainScenario",
+    "EventType": "ScenarioBattleEnd",
+    "EventCondition": [
+      "30025",
+      "6",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/19Summer/E_S2_Main_19"
+    ]
+  },
+  {
     "Index": 10000,
     "Category": "MainScenario",
     "EventType": "EnterLobby",

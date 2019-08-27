@@ -2178,11 +2178,11 @@
     "OperationType1": "ModPower",
     "OperationTargetType1": "Myself",
     "OperationValue1": [
-      "224"
+      "269"
     ],
     "OperationValueFactor1": [
       "5",
-      "224"
+      "269"
     ],
     "OperationState1": 3520,
     "OperationDurationMs1": 20000,
@@ -2202,35 +2202,39 @@
     ],
     "OperationState3": "3520_3",
     "OperationDurationMs3": 20000,
-    "OperationType4": "ModWeakness",
+    "OperationType4": "IgnoreDamageUnderHpR",
     "OperationTargetType4": "Myself",
     "OperationValue4": [
-      "200"
+      "50"
     ],
-    "OperationState4": "Negative",
-    "OperationDurationMs4": 20000,
+    "OperationState4": "Positive2",
+    "OperationDurationMs4": 3000,
     "OperationFlags4": [
-      "Disabled"
-    ],
-    "OperationType5": "IgnoreDamageUnderHpR",
-    "OperationTargetType5": "Myself",
-    "OperationValue5": [
-      "100"
-    ],
-    "OperationState5": "Positive2",
-    "OperationDurationMs5": 3000,
-    "OperationFlags5": [
       "Disabled",
       "Positive"
     ],
-    "OperationType6": "ModCriticalPower",
-    "OperationTargetType6": "Myself",
+    "OperationType5": "ModCriticalPower",
+    "OperationTargetType5": "Parent",
+    "OperationValue5": [
+      "500"
+    ],
+    "OperationState5": "Positive",
+    "OperationDurationMs5": 20000,
+    "OperationParent5": 1,
+    "OperationFlags5": [
+      "HasParent",
+      "Disabled"
+    ],
+    "OperationType6": "ModAttackByBoss",
+    "OperationTargetType6": "Parent",
     "OperationValue6": [
+      "True",
       "200"
     ],
-    "OperationState6": "Positive2",
     "OperationDurationMs6": 20000,
+    "OperationParent6": 1,
     "OperationFlags6": [
+      "HasParent",
       "Disabled"
     ]
   },
@@ -2696,6 +2700,27 @@
     ]
   },
   {
+    "Index": 3546,
+    "TriggerType": "NextSkill",
+    "TriggerRatio": 1000,
+    "AttrType": "Physical",
+    "TargetType": "Myself",
+    "TargetCount": 1,
+    "DeadTarget": "False",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "False",
+    "OperationType1": "GetMagicalDamageR",
+    "OperationTargetType1": "Target",
+    "OperationValue1": [
+      "15"
+    ],
+    "OperationType2": "GetMagicalDamageR",
+    "OperationTargetType2": "Target",
+    "OperationValue2": [
+      "8"
+    ]
+  },
+  {
     "Index": 90000350,
     "TriggerType": "OnBaseAttack",
     "TriggerRatio": 1000,
@@ -2988,14 +3013,14 @@
     "OperationWidth1": 1500,
     "OperationAngle1": 90,
     "OperationValue1": [
-      "3028",
-      "478"
+      "3633",
+      "573"
     ],
     "OperationValueFactor1": [
       "0",
       "0",
       "5",
-      "478"
+      "573"
     ],
     "OperationConditionType1": "None",
     "OperationType2": "ModPowerR",
@@ -3012,11 +3037,11 @@
     "OperationType3": "ModPower",
     "OperationTargetType3": "Myself",
     "OperationValue3": [
-      "60"
+      "180"
     ],
     "OperationValueFactor3": [
       "5",
-      "60"
+      "180"
     ],
     "OperationState3": "4310_2",
     "OperationDurationMs3": 10000,
@@ -3485,21 +3510,7 @@
       "Disabled"
     ],
     "OperationType6": "Dispel",
-    "OperationTargetType6": "Target",
-    "OperationType7": "GetMagicalDamageR",
-    "OperationTargetType7": "Target",
-    "OperationValue7": [
-      "1500",
-      "IgnoreDefence"
-    ],
-    "OperationDelayMs7": [
-      "100",
-      "0",
-      "0"
-    ],
-    "OperationFlags7": [
-      "Disabled"
-    ]
+    "OperationTargetType6": "Target"
   },
   {
     "Index": 4321,
@@ -3562,7 +3573,7 @@
     "TriggerType": "None",
     "TriggerRatio": 1000,
     "Mp": 4000,
-    "CoolTimeMs": 25000,
+    "CoolTimeMs": 18000,
     "ActingTimeMs": 1000,
     "SoloTimeMs": 300,
     "DurationTimeMs": [
@@ -3929,7 +3940,14 @@
       "4316",
       "3"
     ],
-    "OperationConditionType3": "None"
+    "OperationConditionType3": "None",
+    "OperationType4": "ModSkillEnabled",
+    "OperationTargetType4": "Myself",
+    "OperationValue4": [
+      "60004340",
+      "3"
+    ],
+    "OperationConditionType4": "None"
   },
   {
     "Index": 4344,
@@ -4085,7 +4103,23 @@
       "0",
       "150"
     ],
-    "OperationDurationMs6": 9999999
+    "OperationDurationMs6": 9999999,
+    "OperationType7": "ModSkillEnabled",
+    "OperationTargetType7": "Myself",
+    "OperationValue7": [
+      "60004340",
+      "5"
+    ],
+    "OperationDurationMs7": 9999999,
+    "OperationType8": "ModSkillValue",
+    "OperationTargetType8": "Myself",
+    "OperationValue8": [
+      "60004340",
+      "5",
+      "0",
+      "150"
+    ],
+    "OperationDurationMs8": 9999999
   },
   {
     "Index": 90000431,
@@ -4144,7 +4178,23 @@
       "0",
       "200"
     ],
-    "OperationDurationMs6": 9999999
+    "OperationDurationMs6": 9999999,
+    "OperationType7": "ModSkillEnabled",
+    "OperationTargetType7": "Myself",
+    "OperationValue7": [
+      "60004340",
+      "5"
+    ],
+    "OperationDurationMs7": 9999999,
+    "OperationType8": "ModSkillValue",
+    "OperationTargetType8": "Myself",
+    "OperationValue8": [
+      "60004340",
+      "5",
+      "0",
+      "200"
+    ],
+    "OperationDurationMs8": 9999999
   },
   {
     "Index": 90000432,
@@ -4203,7 +4253,23 @@
       "0",
       "260"
     ],
-    "OperationDurationMs6": 9999999
+    "OperationDurationMs6": 9999999,
+    "OperationType7": "ModSkillEnabled",
+    "OperationTargetType7": "Myself",
+    "OperationValue7": [
+      "60004340",
+      "5"
+    ],
+    "OperationDurationMs7": 9999999,
+    "OperationType8": "ModSkillValue",
+    "OperationTargetType8": "Myself",
+    "OperationValue8": [
+      "60004340",
+      "5",
+      "0",
+      "260"
+    ],
+    "OperationDurationMs8": 9999999
   },
   {
     "Index": 90000433,
@@ -4262,7 +4328,23 @@
       "0",
       "330"
     ],
-    "OperationDurationMs6": 9999999
+    "OperationDurationMs6": 9999999,
+    "OperationType7": "ModSkillEnabled",
+    "OperationTargetType7": "Myself",
+    "OperationValue7": [
+      "60004340",
+      "5"
+    ],
+    "OperationDurationMs7": 9999999,
+    "OperationType8": "ModSkillValue",
+    "OperationTargetType8": "Myself",
+    "OperationValue8": [
+      "60004340",
+      "5",
+      "0",
+      "330"
+    ],
+    "OperationDurationMs8": 9999999
   },
   {
     "Index": 90000434,
@@ -4321,7 +4403,23 @@
       "0",
       "410"
     ],
-    "OperationDurationMs6": 9999999
+    "OperationDurationMs6": 9999999,
+    "OperationType7": "ModSkillEnabled",
+    "OperationTargetType7": "Myself",
+    "OperationValue7": [
+      "60004340",
+      "5"
+    ],
+    "OperationDurationMs7": 9999999,
+    "OperationType8": "ModSkillValue",
+    "OperationTargetType8": "Myself",
+    "OperationValue8": [
+      "60004340",
+      "5",
+      "0",
+      "410"
+    ],
+    "OperationDurationMs8": 9999999
   },
   {
     "Index": 90000435,
@@ -4380,7 +4478,23 @@
       "0",
       "500"
     ],
-    "OperationDurationMs6": 9999999
+    "OperationDurationMs6": 9999999,
+    "OperationType7": "ModSkillEnabled",
+    "OperationTargetType7": "Myself",
+    "OperationValue7": [
+      "60004340",
+      "5"
+    ],
+    "OperationDurationMs7": 9999999,
+    "OperationType8": "ModSkillValue",
+    "OperationTargetType8": "Myself",
+    "OperationValue8": [
+      "60004340",
+      "5",
+      "0",
+      "500"
+    ],
+    "OperationDurationMs8": 9999999
   },
   {
     "Index": 3600,
@@ -15136,10 +15250,7 @@
   },
   {
     "Index": 6223,
-    "TriggerType": "OnFireSkill",
-    "TriggerValue": [
-      "6220"
-    ],
+    "TriggerType": "OnStart",
     "TriggerRatio": 1000,
     "AttrType": "Physical",
     "TargetType": "Myself",
@@ -20642,7 +20753,7 @@
       "1000"
     ],
     "AttrType": "Magical",
-    "TargetType": "Myself",
+    "TargetType": "Enemy",
     "TargetCount": 1,
     "DeadTarget": "False",
     "IgnoreBlock": "TRUE",
@@ -20905,7 +21016,7 @@
       "1000"
     ],
     "AttrType": "Magical",
-    "TargetType": "Myself",
+    "TargetType": "Enemy",
     "TargetCount": 1,
     "DeadTarget": "False",
     "IgnoreBlock": "TRUE",
@@ -21193,11 +21304,11 @@
     "OperationType5": "ModPower",
     "OperationTargetType5": "Myself",
     "OperationValue5": [
-      "355"
+      "533"
     ],
     "OperationValueFactor5": [
       "5",
-      "355"
+      "533"
     ],
     "OperationState5": "3840_2",
     "OperationDurationMs5": 10000,
@@ -21208,7 +21319,19 @@
       "True"
     ],
     "OperationState7": "3840_4",
-    "OperationDurationMs7": 10000
+    "OperationDurationMs7": 10000,
+    "OperationType8": "ModAttackByBoss",
+    "OperationTargetType8": "Parent",
+    "OperationValue8": [
+      "True",
+      "200"
+    ],
+    "OperationDurationMs8": 10000,
+    "OperationParent8": 2,
+    "OperationFlags8": [
+      "HasParent",
+      "Disabled"
+    ]
   },
   {
     "Index": 3841,
@@ -26649,15 +26772,15 @@
     "OperationType1": "GetMagicalDamageR",
     "OperationTargetType1": "Target",
     "OperationValue1": [
-      "5918",
-      "933",
+      "7693",
+      "1212",
       "None"
     ],
     "OperationValueFactor1": [
       "0",
       "0",
       "5",
-      "933"
+      "1212"
     ],
     "OperationDelayMs1": [
       "0",
@@ -26906,7 +27029,7 @@
     "OperationType1": "GetMagicalDamageR",
     "OperationTargetType1": "Target",
     "OperationValue1": [
-      "24"
+      "29"
     ]
   },
   {
@@ -27006,7 +27129,7 @@
       "55",
       "None",
       "KaraTarget",
-      "24"
+      "29"
     ],
     "OperationValueFactor1": [
       "0",
@@ -27029,7 +27152,7 @@
       "55",
       "None",
       "KaraTarget",
-      "24"
+      "29"
     ],
     "OperationValueFactor2": [
       "0",
@@ -27052,7 +27175,7 @@
       "55",
       "None",
       "KaraTarget",
-      "24"
+      "29"
     ],
     "OperationValueFactor3": [
       "0",
@@ -27411,7 +27534,7 @@
     "OperationType1": "GetMana",
     "OperationTargetType1": "Myself",
     "OperationValue1": [
-      "40"
+      "60"
     ]
   },
   {
@@ -33297,7 +33420,7 @@
       "True"
     ],
     "OperationState3": 60006941,
-    "OperationDurationMs3": 10000,
+    "OperationDurationMs3": 999999,
     "OperationFlags3": [
       "Disabled"
     ],
@@ -35263,7 +35386,8 @@
     "OperationRadiusMm1": 5500,
     "OperationValue1": [
       "590",
-      "125"
+      "125",
+      "None"
     ],
     "OperationValueFactor1": [
       "0",
@@ -35276,7 +35400,8 @@
     "OperationRadiusMm2": 10000,
     "OperationValue2": [
       "4983",
-      "1115"
+      "1115",
+      "None"
     ],
     "OperationValueFactor2": [
       "0",
@@ -35420,15 +35545,15 @@
     "OperationType1": "GetMagicalDamageR",
     "OperationTargetType1": "Target",
     "OperationValue1": [
-      "440",
-      "95",
+      "572",
+      "123",
       "None"
     ],
     "OperationValueFactor1": [
       "0",
       "0",
       "5",
-      "95"
+      "123"
     ],
     "OperationConditionType1": "Race",
     "OperationConditionValue1": [
@@ -35571,7 +35696,7 @@
     "OperationTargetType3": "Myself",
     "OperationValue3": [
       "1",
-      "15000",
+      "10000",
       "None",
       "3"
     ],
