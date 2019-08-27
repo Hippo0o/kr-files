@@ -633,18 +633,20 @@
       "CancelUsingSkill"
     ],
     "AttrType": "Magical",
+    "IgnoreStateType": [
+      "CC"
+    ],
     "TargetType": "Myself",
     "TargetCount": 1,
     "DeadTarget": "False",
     "IgnoreBlock": "TRUE",
     "RetargetOnFire": "False",
-    "OperationType1": "ModSkillDisabled",
+    "OperationType1": "ClearState",
     "OperationTargetType1": "Myself",
     "OperationValue1": [
-      "10",
-      "1"
-    ],
-    "OperationDurationMs1": 5000
+      "Shield",
+      "0"
+    ]
   },
   {
     "Index": 25,
@@ -2873,6 +2875,29 @@
       "99999999"
     ],
     "OperationDurationMs2": 10000
+  },
+  {
+    "Index": 200037,
+    "TriggerType": "OnWaveStart",
+    "TriggerRatio": 1000,
+    "AttrType": "None",
+    "ClearStateType": [
+      "CC"
+    ],
+    "IgnoreStateType": [
+      "CC"
+    ],
+    "TargetType": "Enemy",
+    "DeadTarget": "False",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "False",
+    "OperationType1": "GetMot",
+    "OperationTargetType1": "Target",
+    "OperationValue1": [
+      "6000"
+    ],
+    "OperationDurationMs1": 999999,
+    "OperationTickTimeMs1": 1000
   },
   {
     "Index": 100,
@@ -5118,6 +5143,9 @@
     "Index": 330,
     "TriggerType": "None",
     "TriggerRatio": 1000,
+    "TriggerFlag": [
+      "ExcuteDamageTriggerPrevOnKill"
+    ],
     "Mp": 4000,
     "CoolTimeMs": 15000,
     "ActingTimeMs": 2100,
@@ -51820,6 +51848,174 @@
     ],
     "OperationState1": "Artifact510",
     "OperationDurationMs1": 9999999
+  },
+  {
+    "Index": 80005110,
+    "DescParam": [
+      "10",
+      "10"
+    ],
+    "TriggerType": "OnStart",
+    "TriggerRatio": 1000,
+    "IgnoreStateType": [
+      "CC"
+    ],
+    "TargetType": "Myself",
+    "TargetCount": 1,
+    "DeadTarget": "False",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "False",
+    "OperationType1": "ModDefenceR",
+    "OperationTargetType1": "Myself",
+    "OperationValue1": [
+      "100"
+    ],
+    "OperationDurationMs1": 9999999,
+    "OperationType2": "ModRecoverPower",
+    "OperationValue2": [
+      "100"
+    ],
+    "OperationDurationMs2": 9999999
+  },
+  {
+    "Index": 80005111,
+    "DescParam": [
+      "12",
+      "12"
+    ],
+    "TriggerType": "OnStart",
+    "TriggerRatio": 1000,
+    "IgnoreStateType": [
+      "CC"
+    ],
+    "TargetType": "Myself",
+    "TargetCount": 1,
+    "DeadTarget": "False",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "False",
+    "OperationType1": "ModDefenceR",
+    "OperationTargetType1": "Myself",
+    "OperationValue1": [
+      "120"
+    ],
+    "OperationDurationMs1": 9999999,
+    "OperationType2": "ModRecoverPower",
+    "OperationValue2": [
+      "120"
+    ],
+    "OperationDurationMs2": 9999999
+  },
+  {
+    "Index": 80005112,
+    "DescParam": [
+      "14",
+      "14"
+    ],
+    "TriggerType": "OnStart",
+    "TriggerRatio": 1000,
+    "IgnoreStateType": [
+      "CC"
+    ],
+    "TargetType": "Myself",
+    "TargetCount": 1,
+    "DeadTarget": "False",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "False",
+    "OperationType1": "ModDefenceR",
+    "OperationTargetType1": "Myself",
+    "OperationValue1": [
+      "140"
+    ],
+    "OperationDurationMs1": 9999999,
+    "OperationType2": "ModRecoverPower",
+    "OperationValue2": [
+      "140"
+    ],
+    "OperationDurationMs2": 9999999
+  },
+  {
+    "Index": 80005113,
+    "DescParam": [
+      "17",
+      "17"
+    ],
+    "TriggerType": "OnStart",
+    "TriggerRatio": 1000,
+    "IgnoreStateType": [
+      "CC"
+    ],
+    "TargetType": "Myself",
+    "TargetCount": 1,
+    "DeadTarget": "False",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "False",
+    "OperationType1": "ModDefenceR",
+    "OperationTargetType1": "Myself",
+    "OperationValue1": [
+      "170"
+    ],
+    "OperationDurationMs1": 9999999,
+    "OperationType2": "ModRecoverPower",
+    "OperationValue2": [
+      "170"
+    ],
+    "OperationDurationMs2": 9999999
+  },
+  {
+    "Index": 80005114,
+    "DescParam": [
+      "21",
+      "21"
+    ],
+    "TriggerType": "OnStart",
+    "TriggerRatio": 1000,
+    "IgnoreStateType": [
+      "CC"
+    ],
+    "TargetType": "Myself",
+    "TargetCount": 1,
+    "DeadTarget": "False",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "False",
+    "OperationType1": "ModDefenceR",
+    "OperationTargetType1": "Myself",
+    "OperationValue1": [
+      "210"
+    ],
+    "OperationDurationMs1": 9999999,
+    "OperationType2": "ModRecoverPower",
+    "OperationValue2": [
+      "210"
+    ],
+    "OperationDurationMs2": 9999999
+  },
+  {
+    "Index": 80005115,
+    "DescParam": [
+      "25",
+      "25"
+    ],
+    "TriggerType": "OnStart",
+    "TriggerRatio": 1000,
+    "IgnoreStateType": [
+      "CC"
+    ],
+    "TargetType": "Myself",
+    "TargetCount": 1,
+    "DeadTarget": "False",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "False",
+    "OperationType1": "ModDefenceR",
+    "OperationTargetType1": "Myself",
+    "OperationValue1": [
+      "250"
+    ],
+    "OperationDurationMs1": 9999999,
+    "OperationType2": "ModRecoverPower",
+    "OperationValue2": [
+      "250"
+    ],
+    "OperationDurationMs2": 9999999
   },
   {
     "Index": 80009980,

@@ -22191,67 +22191,6 @@
     "OperationConditionType3": "None"
   },
   {
-    "Index": 340540,
-    "TriggerType": "OnAuto",
-    "TriggerRatio": 1000,
-    "CoolTimeMs": 40000,
-    "AttrType": "Physical",
-    "IgnoreStateType": [
-      "CC"
-    ],
-    "TargetType": "Myself",
-    "TargetCount": 1,
-    "DeadTarget": "False",
-    "IgnoreBlock": "TRUE",
-    "RetargetOnFire": "False",
-    "OperationType1": "ModDefenceR",
-    "OperationTargetType1": "Myself",
-    "OperationState1": "Mabiel",
-    "OperationAddStateCount1": 100,
-    "OperationDurationMs1": 9999999,
-    "OperationConditionType1": "None"
-  },
-  {
-    "Index": 340541,
-    "TriggerType": "OnDodge",
-    "TriggerRatio": 1000,
-    "AttrType": "Physical",
-    "IgnoreStateType": [
-      "CC"
-    ],
-    "TargetType": "Myself",
-    "TargetCount": 1,
-    "DeadTarget": "False",
-    "IgnoreBlock": "TRUE",
-    "RetargetOnFire": "False",
-    "OperationType1": "ModStateCount",
-    "OperationTargetType1": "Myself",
-    "OperationValue1": [
-      "Mabiel",
-      "-1"
-    ],
-    "OperationDurationMs1": 41000,
-    "OperationConditionType1": "None"
-  },
-  {
-    "Index": 340542,
-    "TriggerType": "NextSkill",
-    "TriggerRatio": 1000,
-    "AttrType": "Physical",
-    "IgnoreStateType": [
-      "CC"
-    ],
-    "TargetType": "Myself",
-    "TargetCount": 1,
-    "DeadTarget": "False",
-    "IgnoreBlock": "TRUE",
-    "RetargetOnFire": "False",
-    "OperationType1": "Stun",
-    "OperationTargetType1": "Myself",
-    "OperationDurationMs1": 10000,
-    "OperationConditionType1": "None"
-  },
-  {
     "Index": 340100,
     "TriggerType": "None",
     "TriggerRatio": 1000,

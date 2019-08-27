@@ -4047,6 +4047,86 @@
     ]
   },
   {
+    "Index": 4346,
+    "TriggerType": "OnAttack",
+    "TriggerValue": [
+      "60004340"
+    ],
+    "TriggerRatio": 1000,
+    "AttrType": "Magical",
+    "TargetType": "TriggerTarget",
+    "TargetCount": 1,
+    "DeadTarget": "False",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "False",
+    "OperationType1": "ModMagicalWeakness",
+    "OperationTargetType1": "Target",
+    "OperationValue1": [
+      "250"
+    ],
+    "OperationState1": "UniqueViska",
+    "OperationDurationMs1": 10000,
+    "OperationConditionType1": "SkillLevel",
+    "OperationConditionValue1": [
+      "90000430"
+    ],
+    "OperationType2": "ModMagicalWeakness",
+    "OperationTargetType2": "Target",
+    "OperationValue2": [
+      "300"
+    ],
+    "OperationState2": "UniqueViska",
+    "OperationDurationMs2": 10000,
+    "OperationConditionType2": "SkillLevel",
+    "OperationConditionValue2": [
+      "90000431"
+    ],
+    "OperationType3": "ModMagicalWeakness",
+    "OperationTargetType3": "Target",
+    "OperationValue3": [
+      "360"
+    ],
+    "OperationState3": "UniqueViska",
+    "OperationDurationMs3": 10000,
+    "OperationConditionType3": "SkillLevel",
+    "OperationConditionValue3": [
+      "90000432"
+    ],
+    "OperationType4": "ModMagicalWeakness",
+    "OperationTargetType4": "Target",
+    "OperationValue4": [
+      "430"
+    ],
+    "OperationState4": "UniqueViska",
+    "OperationDurationMs4": 10000,
+    "OperationConditionType4": "SkillLevel",
+    "OperationConditionValue4": [
+      "90000433"
+    ],
+    "OperationType5": "ModMagicalWeakness",
+    "OperationTargetType5": "Target",
+    "OperationValue5": [
+      "510"
+    ],
+    "OperationState5": "UniqueViska",
+    "OperationDurationMs5": 10000,
+    "OperationConditionType5": "SkillLevel",
+    "OperationConditionValue5": [
+      "90000434"
+    ],
+    "OperationType6": "ModMagicalWeakness",
+    "OperationTargetType6": "Target",
+    "OperationValue6": [
+      "600"
+    ],
+    "OperationState6": "UniqueViska",
+    "OperationDurationMs6": 10000,
+    "OperationConditionType6": "SkillLevel",
+    "OperationConditionValue6": [
+      "90000435"
+    ]
+  },
+  {
     "Index": 90000430,
     "TriggerType": "OnStart",
     "TriggerRatio": 1000,
@@ -4103,23 +4183,7 @@
       "0",
       "150"
     ],
-    "OperationDurationMs6": 9999999,
-    "OperationType7": "ModSkillEnabled",
-    "OperationTargetType7": "Myself",
-    "OperationValue7": [
-      "60004340",
-      "5"
-    ],
-    "OperationDurationMs7": 9999999,
-    "OperationType8": "ModSkillValue",
-    "OperationTargetType8": "Myself",
-    "OperationValue8": [
-      "60004340",
-      "5",
-      "0",
-      "150"
-    ],
-    "OperationDurationMs8": 9999999
+    "OperationDurationMs6": 9999999
   },
   {
     "Index": 90000431,
@@ -4178,23 +4242,7 @@
       "0",
       "200"
     ],
-    "OperationDurationMs6": 9999999,
-    "OperationType7": "ModSkillEnabled",
-    "OperationTargetType7": "Myself",
-    "OperationValue7": [
-      "60004340",
-      "5"
-    ],
-    "OperationDurationMs7": 9999999,
-    "OperationType8": "ModSkillValue",
-    "OperationTargetType8": "Myself",
-    "OperationValue8": [
-      "60004340",
-      "5",
-      "0",
-      "200"
-    ],
-    "OperationDurationMs8": 9999999
+    "OperationDurationMs6": 9999999
   },
   {
     "Index": 90000432,
@@ -4253,23 +4301,7 @@
       "0",
       "260"
     ],
-    "OperationDurationMs6": 9999999,
-    "OperationType7": "ModSkillEnabled",
-    "OperationTargetType7": "Myself",
-    "OperationValue7": [
-      "60004340",
-      "5"
-    ],
-    "OperationDurationMs7": 9999999,
-    "OperationType8": "ModSkillValue",
-    "OperationTargetType8": "Myself",
-    "OperationValue8": [
-      "60004340",
-      "5",
-      "0",
-      "260"
-    ],
-    "OperationDurationMs8": 9999999
+    "OperationDurationMs6": 9999999
   },
   {
     "Index": 90000433,
@@ -4328,23 +4360,7 @@
       "0",
       "330"
     ],
-    "OperationDurationMs6": 9999999,
-    "OperationType7": "ModSkillEnabled",
-    "OperationTargetType7": "Myself",
-    "OperationValue7": [
-      "60004340",
-      "5"
-    ],
-    "OperationDurationMs7": 9999999,
-    "OperationType8": "ModSkillValue",
-    "OperationTargetType8": "Myself",
-    "OperationValue8": [
-      "60004340",
-      "5",
-      "0",
-      "330"
-    ],
-    "OperationDurationMs8": 9999999
+    "OperationDurationMs6": 9999999
   },
   {
     "Index": 90000434,
@@ -4403,23 +4419,7 @@
       "0",
       "410"
     ],
-    "OperationDurationMs6": 9999999,
-    "OperationType7": "ModSkillEnabled",
-    "OperationTargetType7": "Myself",
-    "OperationValue7": [
-      "60004340",
-      "5"
-    ],
-    "OperationDurationMs7": 9999999,
-    "OperationType8": "ModSkillValue",
-    "OperationTargetType8": "Myself",
-    "OperationValue8": [
-      "60004340",
-      "5",
-      "0",
-      "410"
-    ],
-    "OperationDurationMs8": 9999999
+    "OperationDurationMs6": 9999999
   },
   {
     "Index": 90000435,
@@ -4478,23 +4478,7 @@
       "0",
       "500"
     ],
-    "OperationDurationMs6": 9999999,
-    "OperationType7": "ModSkillEnabled",
-    "OperationTargetType7": "Myself",
-    "OperationValue7": [
-      "60004340",
-      "5"
-    ],
-    "OperationDurationMs7": 9999999,
-    "OperationType8": "ModSkillValue",
-    "OperationTargetType8": "Myself",
-    "OperationValue8": [
-      "60004340",
-      "5",
-      "0",
-      "500"
-    ],
-    "OperationDurationMs8": 9999999
+    "OperationDurationMs6": 9999999
   },
   {
     "Index": 3600,

@@ -17102,7 +17102,8 @@
       " 1",
       " 1",
       " 45"
-    ]
+    ],
+    "Repeatable": "True"
   },
   {
     "Index": 14001,
@@ -17110,7 +17111,8 @@
     "Argument": [
       "SkipBattleStartEffect",
       " True"
-    ]
+    ],
+    "Repeatable": "True"
   },
   {
     "Index": 14001,
@@ -17118,21 +17120,24 @@
     "Argument": [
       "1",
       " 27"
-    ]
+    ],
+    "Repeatable": "True"
   },
   {
     "Index": 14001,
     "Command": "SkipStart",
     "Argument": [
       "Jump"
-    ]
+    ],
+    "Repeatable": "True"
   },
   {
     "Index": 14001,
     "Command": "WaitEvent",
     "Argument": [
       "EnterBattle"
-    ]
+    ],
+    "Repeatable": "True"
   },
   {
     "Index": 14001,
@@ -17140,14 +17145,16 @@
     "Argument": [
       "Story/1_17",
       "0_InitBattle"
-    ]
+    ],
+    "Repeatable": "True"
   },
   {
     "Index": 14001,
     "Command": "WaitEvent",
     "Argument": [
       "WaveStart"
-    ]
+    ],
+    "Repeatable": "True"
   },
   {
     "Index": 14001,
@@ -17155,28 +17162,32 @@
     "Argument": [
       "SkipBattleStartEffect",
       " False"
-    ]
+    ],
+    "Repeatable": "True"
   },
   {
     "Index": 14001,
     "Command": "WaitTime",
     "Argument": [
       "5"
-    ]
+    ],
+    "Repeatable": "True"
   },
   {
     "Index": 14001,
     "Command": "PlayCutScene",
     "Argument": [
       "CutScene/CH1_19"
-    ]
+    ],
+    "Repeatable": "True"
   },
   {
     "Index": 14001,
     "Command": "WaitCutScene",
     "Argument": [
       "12"
-    ]
+    ],
+    "Repeatable": "True"
   },
   {
     "Index": 14001,
@@ -17184,15 +17195,18 @@
     "Argument": [
       "Story/1_17",
       "1_EnterHero"
-    ]
+    ],
+    "Repeatable": "True"
   },
   {
     "Index": 14001,
-    "Command": "WaitNodeTree"
+    "Command": "WaitNodeTree",
+    "Repeatable": "True"
   },
   {
     "Index": 14001,
-    "Command": "WaitCutScene"
+    "Command": "WaitCutScene",
+    "Repeatable": "True"
   },
   {
     "Index": 14001,
@@ -17200,28 +17214,32 @@
     "Argument": [
       "Story/1_17",
       "2_ResumeBattle"
-    ]
+    ],
+    "Repeatable": "True"
   },
   {
     "Index": 14001,
     "Command": "WaitTime",
     "Argument": [
       "10"
-    ]
+    ],
+    "Repeatable": "True"
   },
   {
     "Index": 14001,
     "Command": "PlayCutScene",
     "Argument": [
       "CutScene/CH1_20"
-    ]
+    ],
+    "Repeatable": "True"
   },
   {
     "Index": 14001,
     "Command": "WaitCutScene",
     "Argument": [
       "8"
-    ]
+    ],
+    "Repeatable": "True"
   },
   {
     "Index": 14001,
@@ -17229,25 +17247,29 @@
     "Argument": [
       "Story/1_17",
       "3_MorrahSkill"
-    ]
+    ],
+    "Repeatable": "True"
   },
   {
     "Index": 14001,
-    "Command": "WaitNodeTree"
+    "Command": "WaitNodeTree",
+    "Repeatable": "True"
   },
   {
     "Index": 14001,
     "Command": "WaitTime",
     "Argument": [
       "1.5"
-    ]
+    ],
+    "Repeatable": "True"
   },
   {
     "Index": 14001,
     "Command": "WaitCutScene",
     "Argument": [
       "12"
-    ]
+    ],
+    "Repeatable": "True"
   },
   {
     "Index": 14001,
@@ -17255,18 +17277,21 @@
     "Argument": [
       "Story/1_17",
       "4_MariaSkill"
-    ]
+    ],
+    "Repeatable": "True"
   },
   {
     "Index": 14001,
-    "Command": "WaitNodeTree"
+    "Command": "WaitNodeTree",
+    "Repeatable": "True"
   },
   {
     "Index": 14001,
     "Command": "WaitCutScene",
     "Argument": [
       "36"
-    ]
+    ],
+    "Repeatable": "True"
   },
   {
     "Index": 14001,
@@ -17274,11 +17299,13 @@
     "Argument": [
       "Story/1_17",
       "KaselMove"
-    ]
+    ],
+    "Repeatable": "True"
   },
   {
     "Index": 14001,
-    "Command": "WaitNodeTree"
+    "Command": "WaitNodeTree",
+    "Repeatable": "True"
   },
   {
     "Index": 14001,
@@ -17286,15 +17313,18 @@
     "Argument": [
       "Story/1_17",
       "5_KaselAwaken"
-    ]
+    ],
+    "Repeatable": "True"
   },
   {
     "Index": 14001,
-    "Command": "WaitNodeTree"
+    "Command": "WaitNodeTree",
+    "Repeatable": "True"
   },
   {
     "Index": 14001,
-    "Command": "WaitCutScene"
+    "Command": "WaitCutScene",
+    "Repeatable": "True"
   },
   {
     "Index": 14001,
@@ -17302,30 +17332,36 @@
     "Argument": [
       "Story/1_17",
       "6_KaselAttack"
-    ]
+    ],
+    "Repeatable": "True"
   },
   {
     "Index": 14001,
-    "Command": "WaitNodeTree"
+    "Command": "WaitNodeTree",
+    "Repeatable": "True"
   },
   {
     "Index": 14001,
     "Command": "PlayCutScene",
     "Argument": [
       "CutScene/CH1_21"
-    ]
+    ],
+    "Repeatable": "True"
   },
   {
     "Index": 14001,
-    "Command": "WaitCutScene"
+    "Command": "WaitCutScene",
+    "Repeatable": "True"
   },
   {
     "Index": 14001,
-    "Command": "SkipEnd"
+    "Command": "SkipEnd",
+    "Repeatable": "True"
   },
   {
     "Index": 14001,
-    "Command": "EnterLobby"
+    "Command": "EnterLobby",
+    "Repeatable": "True"
   },
   {
     "Index": 15000,
@@ -25024,13 +25060,6 @@
   },
   {
     "Index": 7000,
-    "Command": "SkipStart",
-    "Argument": [
-      "Jump"
-    ]
-  },
-  {
-    "Index": 7000,
     "Command": "FocusWidget",
     "Argument": [
       "RaidPartySetting(Clone)/Root/Squard/SquardPanel/EmptySlotTemplate(Clone)",
@@ -25239,10 +25268,6 @@
   {
     "Index": 7000,
     "Command": "ClearTooltip"
-  },
-  {
-    "Index": 7000,
-    "Command": "SkipEnd"
   },
   {
     "Index": 7000,
@@ -30154,7 +30179,7 @@
     "Index": 9500,
     "Command": "WaitTime",
     "Argument": [
-      "10"
+      "4"
     ]
   },
   {

@@ -4812,31 +4812,31 @@
     "TargetCount": 1,
     "DeadTarget": "False",
     "IgnoreBlock": "TRUE",
-    "OperationType1": "ModSkill",
+    "OperationType1": "SetSkill",
     "OperationTargetType1": "Myself",
     "OperationValue1": [
       "660540",
       "4",
       "Value",
-      "-1500"
+      "-150"
     ],
     "OperationDurationMs1": 9999999,
-    "OperationType2": "ModSkill",
+    "OperationType2": "SetSkill",
     "OperationTargetType2": "Myself",
     "OperationValue2": [
       "660552",
       "4",
       "Value",
-      "-1500"
+      "-150"
     ],
     "OperationDurationMs2": 9999999,
-    "OperationType3": "ModSkill",
+    "OperationType3": "SetSkill",
     "OperationTargetType3": "Myself",
     "OperationValue3": [
       "660553",
       "4",
       "Value",
-      "-1500"
+      "-150"
     ],
     "OperationDurationMs3": 9999999
   },
@@ -8373,6 +8373,7 @@
     "Index": 660812,
     "TriggerType": "NextSkill",
     "TriggerRatio": 1000,
+    "SoloTimeMs": 1,
     "AttrType": "Magical",
     "TargetType": "Enemy",
     "DeadTarget": "False",
@@ -8384,7 +8385,7 @@
       "200"
     ],
     "OperationDelayMs1": [
-      "7900",
+      "10000",
       "0",
       "0"
     ],
@@ -8405,7 +8406,7 @@
       "NoCritical|IgnoreBlock|Unavoidable|IgnoreDefence|IgnoreToughness"
     ],
     "OperationDelayMs2": [
-      "7900",
+      "10000",
       "0",
       "0"
     ],
@@ -8425,7 +8426,7 @@
       "-9999"
     ],
     "OperationDelayMs3": [
-      "7900",
+      "10000",
       "0",
       "0"
     ],
