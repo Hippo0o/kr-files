@@ -7353,15 +7353,15 @@
     "OperationTargetType1": "Myself",
     "OperationRadiusMm1": 3500,
     "OperationValue1": [
-      "542",
-      "86",
+      "623",
+      "99",
       "None"
     ],
     "OperationValueFactor1": [
       "0",
       "0",
       "5",
-      "86"
+      "99"
     ],
     "OperationConditionType1": "None",
     "OperationType2": "ImmuneCc",
@@ -7375,15 +7375,15 @@
     "OperationTargetType3": "Myself",
     "OperationRadiusMm3": 3500,
     "OperationValue3": [
-      "542",
-      "86",
+      "623",
+      "99",
       "None"
     ],
     "OperationValueFactor3": [
       "0",
       "0",
       "5",
-      "86"
+      "99"
     ],
     "OperationConditionType3": "None",
     "OperationType4": "DashFromMyself",
@@ -7432,18 +7432,18 @@
     "OperationTargetType8": "Myself",
     "OperationRadiusMm8": 3500,
     "OperationValue8": [
-      "650",
-      "153",
+      "747",
+      "176",
       "None"
     ],
     "OperationValueFactor8": [
       "0",
       "0",
       "5",
-      "153"
+      "176"
     ],
     "OperationDelayMs8": [
-      "3000",
+      "100",
       "0",
       "0"
     ],
@@ -7713,6 +7713,11 @@
   },
   {
     "Index": 90000050,
+    "DescParam": [
+      "12",
+      "0.8",
+      "8"
+    ],
     "TriggerType": "OnStart",
     "TriggerRatio": 1000,
     "AttrType": "None",
@@ -7742,10 +7747,21 @@
     ],
     "OperationRecalculateValueByStats2": [
       "HpRatioM"
+    ],
+    "OperationType3": "ModMaxHpR",
+    "OperationTargetType3": "Myself",
+    "OperationValue3": [
+      "120"
     ]
   },
   {
     "Index": 90000051,
+    "ReplaceDescKey": "SKILL_DESC_90000050",
+    "DescParam": [
+      "14",
+      "1",
+      "1"
+    ],
     "TriggerType": "OnStart",
     "TriggerRatio": 1000,
     "AttrType": "None",
@@ -7775,10 +7791,21 @@
     ],
     "OperationRecalculateValueByStats2": [
       "HpRatioM"
+    ],
+    "OperationType3": "ModMaxHpR",
+    "OperationTargetType3": "Myself",
+    "OperationValue3": [
+      "140"
     ]
   },
   {
     "Index": 90000052,
+    "ReplaceDescKey": "SKILL_DESC_90000050",
+    "DescParam": [
+      "17",
+      "1.2",
+      "12"
+    ],
     "TriggerType": "OnStart",
     "TriggerRatio": 1000,
     "AttrType": "None",
@@ -7808,10 +7835,21 @@
     ],
     "OperationRecalculateValueByStats2": [
       "HpRatioM"
+    ],
+    "OperationType3": "ModMaxHpR",
+    "OperationTargetType3": "Myself",
+    "OperationValue3": [
+      "170"
     ]
   },
   {
     "Index": 90000053,
+    "ReplaceDescKey": "SKILL_DESC_90000050",
+    "DescParam": [
+      "21",
+      "1.4",
+      "14"
+    ],
     "TriggerType": "OnStart",
     "TriggerRatio": 1000,
     "AttrType": "None",
@@ -7841,10 +7879,21 @@
     ],
     "OperationRecalculateValueByStats2": [
       "HpRatioM"
+    ],
+    "OperationType3": "ModMaxHpR",
+    "OperationTargetType3": "Myself",
+    "OperationValue3": [
+      "210"
     ]
   },
   {
     "Index": 90000054,
+    "ReplaceDescKey": "SKILL_DESC_90000050",
+    "DescParam": [
+      "25",
+      "1.7",
+      "17"
+    ],
     "TriggerType": "OnStart",
     "TriggerRatio": 1000,
     "AttrType": "None",
@@ -7874,10 +7923,21 @@
     ],
     "OperationRecalculateValueByStats2": [
       "HpRatioM"
+    ],
+    "OperationType3": "ModMaxHpR",
+    "OperationTargetType3": "Myself",
+    "OperationValue3": [
+      "250"
     ]
   },
   {
     "Index": 90000055,
+    "ReplaceDescKey": "SKILL_DESC_90000050",
+    "DescParam": [
+      "30",
+      "2",
+      "20"
+    ],
     "TriggerType": "OnStart",
     "TriggerRatio": 1000,
     "AttrType": "None",
@@ -7907,6 +7967,11 @@
     ],
     "OperationRecalculateValueByStats2": [
       "HpRatioM"
+    ],
+    "OperationType3": "ModMaxHpR",
+    "OperationTargetType3": "Myself",
+    "OperationValue3": [
+      "300"
     ]
   },
   {
@@ -8878,7 +8943,7 @@
     "BaseAttack": "TRUE",
     "TargetType": "Enemy",
     "TargetCount": 1,
-    "MaxRangeMm": 6000,
+    "MaxRangeMm": 6600,
     "DeadTarget": "False",
     "IgnoreBlock": "TRUE",
     "RetargetOnFire": "False",
@@ -9157,6 +9222,17 @@
     "OperationFlags3": [
       "HasParent",
       "Disabled"
+    ],
+    "OperationType4": "ModPhysicalWeakness",
+    "OperationTargetType4": "Parent",
+    "OperationValue4": [
+      "200"
+    ],
+    "OperationState4": 720,
+    "OperationDurationMs4": 10000,
+    "OperationParent4": 1,
+    "OperationFlags4": [
+      "HasParent"
     ]
   },
   {
@@ -9358,28 +9434,20 @@
   },
   {
     "Index": 740,
-    "TriggerType": "OnBaseAttack",
+    "TriggerType": "OnFireSkill",
+    "TriggerValue": [
+      "700"
+    ],
     "TriggerRatio": 150,
-    "CoolTimeMs": 1300,
-    "ActingTimeMs": 700,
-    "DurationTimeMs": [
-      "1300"
-    ],
-    "CancelOnWaveEnd": "True",
-    "TickTimeValue": [
-      "0[3]",
-      "700[1:2:4]",
-      "900[5:6]"
-    ],
     "AttrType": "Physical",
     "TargetType": "Enemy",
     "TargetCount": 1,
-    "MaxRangeMm": 6000,
+    "MaxRangeMm": 6600,
     "DeadTarget": "False",
     "IgnoreBlock": "TRUE",
     "RetargetOnFire": "False",
     "OperationType1": "GetPhysicalDamageR",
-    "OperationTargetType1": "FiredTargetGround",
+    "OperationTargetType1": "Target",
     "OperationRadiusMm1": 2000,
     "OperationValue1": [
       "1663",
@@ -9536,6 +9604,12 @@
   },
   {
     "Index": 90000070,
+    "DescParam": [
+      "3",
+      "30",
+      "3",
+      "8"
+    ],
     "TriggerType": "OnAttack",
     "TriggerRatio": 250,
     "CoolTimeMs": 100,
@@ -9572,6 +9646,13 @@
   },
   {
     "Index": 90000071,
+    "ReplaceDescKey": "SKILL_DESC_90000070",
+    "DescParam": [
+      "3.6",
+      "36",
+      "3.6",
+      "8"
+    ],
     "TriggerType": "OnAttack",
     "TriggerRatio": 250,
     "CoolTimeMs": 100,
@@ -9608,6 +9689,13 @@
   },
   {
     "Index": 90000072,
+    "ReplaceDescKey": "SKILL_DESC_90000070",
+    "DescParam": [
+      "4.3",
+      "43",
+      "4.3",
+      "8"
+    ],
     "TriggerType": "OnAttack",
     "TriggerRatio": 250,
     "CoolTimeMs": 100,
@@ -9644,6 +9732,13 @@
   },
   {
     "Index": 90000073,
+    "ReplaceDescKey": "SKILL_DESC_90000070",
+    "DescParam": [
+      "5.1",
+      "51",
+      "5.1",
+      "8"
+    ],
     "TriggerType": "OnAttack",
     "TriggerRatio": 250,
     "CoolTimeMs": 100,
@@ -9680,6 +9775,13 @@
   },
   {
     "Index": 90000074,
+    "ReplaceDescKey": "SKILL_DESC_90000070",
+    "DescParam": [
+      "6.2",
+      "62",
+      "6.2",
+      "8"
+    ],
     "TriggerType": "OnAttack",
     "TriggerRatio": 250,
     "CoolTimeMs": 100,
@@ -9716,6 +9818,13 @@
   },
   {
     "Index": 90000075,
+    "ReplaceDescKey": "SKILL_DESC_90000070",
+    "DescParam": [
+      "7.5",
+      "75",
+      "7.5",
+      "8"
+    ],
     "TriggerType": "OnAttack",
     "TriggerRatio": 250,
     "CoolTimeMs": 100,
@@ -12261,6 +12370,31 @@
       "HasParent",
       "Negative",
       "Disabled"
+    ],
+    "OperationType4": "GetPhysicalDamageR",
+    "OperationTargetType4": "Myself",
+    "OperationRadiusMm4": 20000,
+    "OperationWidth4": 2000,
+    "OperationAngle4": 90,
+    "OperationValue4": [
+      "3355",
+      "765",
+      "IgnoreDefence"
+    ],
+    "OperationValueFactor4": [
+      "0",
+      "0",
+      "5",
+      "765"
+    ],
+    "OperationDelayMs4": [
+      "100",
+      "0",
+      "0"
+    ],
+    "OperationConditionType4": "Boss",
+    "OperationFlags4": [
+      "CheckConditionOnBegin"
     ]
   },
   {
@@ -12280,7 +12414,14 @@
       "1",
       "100"
     ],
-    "OperationConditionType1": "None"
+    "OperationConditionType1": "None",
+    "OperationType2": "ModSkillPowerR",
+    "OperationTargetType2": "Myself",
+    "OperationValue2": [
+      "1030",
+      "4",
+      "100"
+    ]
   },
   {
     "Index": 1032,
@@ -12299,7 +12440,14 @@
       "1",
       "150"
     ],
-    "OperationConditionType1": "None"
+    "OperationConditionType1": "None",
+    "OperationType2": "ModSkillPowerR",
+    "OperationTargetType2": "Myself",
+    "OperationValue2": [
+      "1030",
+      "4",
+      "150"
+    ]
   },
   {
     "Index": 1033,
@@ -12318,7 +12466,14 @@
       "1",
       "250"
     ],
-    "OperationConditionType1": "None"
+    "OperationConditionType1": "None",
+    "OperationType2": "ModSkillPowerR",
+    "OperationTargetType2": "Myself",
+    "OperationValue2": [
+      "1030",
+      "4",
+      "250"
+    ]
   },
   {
     "Index": 1020,
@@ -12339,11 +12494,11 @@
     "OperationType1": "ModPower",
     "OperationTargetType1": "Myself",
     "OperationValue1": [
-      "15"
+      "24"
     ],
     "OperationValueFactor1": [
       "5",
-      "15"
+      "24"
     ],
     "OperationState1": "1020_D",
     "OperationDurationMs1": 10000,
@@ -19776,7 +19931,7 @@
     "TriggerType": "None",
     "TriggerRatio": 1000,
     "Mp": 1000,
-    "CoolTimeMs": 10000,
+    "CoolTimeMs": 3000,
     "ActingTimeMs": 600,
     "SoloTimeMs": 200,
     "DurationTimeMs": [
@@ -19797,17 +19952,17 @@
     "OperationType1": "GetStateDamageR",
     "OperationTargetType1": "Target",
     "OperationValue1": [
-      "1134",
-      "197",
+      "1487",
+      "257",
       "None",
       "1810",
-      "226"
+      "296"
     ],
     "OperationValueFactor1": [
       "0",
       "0",
       "5",
-      "197"
+      "257"
     ],
     "OperationConditionType1": "None",
     "OperationType2": "DashToTarget",
@@ -51872,6 +52027,7 @@
     ],
     "OperationDurationMs1": 9999999,
     "OperationType2": "ModRecoverPower",
+    "OperationTargetType2": "Myself",
     "OperationValue2": [
       "100"
     ],
@@ -51900,6 +52056,7 @@
     ],
     "OperationDurationMs1": 9999999,
     "OperationType2": "ModRecoverPower",
+    "OperationTargetType2": "Myself",
     "OperationValue2": [
       "120"
     ],
@@ -51928,6 +52085,7 @@
     ],
     "OperationDurationMs1": 9999999,
     "OperationType2": "ModRecoverPower",
+    "OperationTargetType2": "Myself",
     "OperationValue2": [
       "140"
     ],
@@ -51956,6 +52114,7 @@
     ],
     "OperationDurationMs1": 9999999,
     "OperationType2": "ModRecoverPower",
+    "OperationTargetType2": "Myself",
     "OperationValue2": [
       "170"
     ],
@@ -51984,6 +52143,7 @@
     ],
     "OperationDurationMs1": 9999999,
     "OperationType2": "ModRecoverPower",
+    "OperationTargetType2": "Myself",
     "OperationValue2": [
       "210"
     ],
@@ -52012,10 +52172,371 @@
     ],
     "OperationDurationMs1": 9999999,
     "OperationType2": "ModRecoverPower",
+    "OperationTargetType2": "Myself",
     "OperationValue2": [
       "250"
     ],
     "OperationDurationMs2": 9999999
+  },
+  {
+    "Index": 80005120,
+    "ReplaceDescKey": "SKILL_DESC_80005130",
+    "DescParam": [
+      "5",
+      "200"
+    ],
+    "TriggerType": "OnBaseAttack",
+    "TriggerRatio": 1000,
+    "IgnoreStateType": [
+      "CC"
+    ],
+    "TargetType": "TriggerTarget",
+    "TargetCount": 1,
+    "DeadTarget": "False",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "False",
+    "OperationType1": "GetPhysicalDotR",
+    "OperationTargetType1": "Target",
+    "OperationValue1": [
+      "200",
+      "0",
+      "NoCritical|IgnoreBlock|Unavoidable"
+    ],
+    "OperationState1": "Artifact513",
+    "OperationDurationMs1": 5000,
+    "OperationTickTimeMs1": 500,
+    "OperationFlags1": [
+      "OverrideAllState"
+    ]
+  },
+  {
+    "Index": 80005121,
+    "ReplaceDescKey": "SKILL_DESC_80005130",
+    "DescParam": [
+      "5",
+      "240"
+    ],
+    "TriggerType": "OnBaseAttack",
+    "TriggerRatio": 1000,
+    "IgnoreStateType": [
+      "CC"
+    ],
+    "TargetType": "TriggerTarget",
+    "TargetCount": 1,
+    "DeadTarget": "False",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "False",
+    "OperationType1": "GetPhysicalDotR",
+    "OperationTargetType1": "Target",
+    "OperationValue1": [
+      "240",
+      "0",
+      "NoCritical|IgnoreBlock|Unavoidable"
+    ],
+    "OperationState1": "Artifact513",
+    "OperationDurationMs1": 5000,
+    "OperationTickTimeMs1": 500,
+    "OperationFlags1": [
+      "OverrideAllState"
+    ]
+  },
+  {
+    "Index": 80005122,
+    "ReplaceDescKey": "SKILL_DESC_80005130",
+    "DescParam": [
+      "5",
+      "290"
+    ],
+    "TriggerType": "OnBaseAttack",
+    "TriggerRatio": 1000,
+    "IgnoreStateType": [
+      "CC"
+    ],
+    "TargetType": "TriggerTarget",
+    "TargetCount": 1,
+    "DeadTarget": "False",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "False",
+    "OperationType1": "GetPhysicalDotR",
+    "OperationTargetType1": "Target",
+    "OperationValue1": [
+      "290",
+      "0",
+      "NoCritical|IgnoreBlock|Unavoidable"
+    ],
+    "OperationState1": "Artifact513",
+    "OperationDurationMs1": 5000,
+    "OperationTickTimeMs1": 500,
+    "OperationFlags1": [
+      "OverrideAllState"
+    ]
+  },
+  {
+    "Index": 80005123,
+    "ReplaceDescKey": "SKILL_DESC_80005130",
+    "DescParam": [
+      "5",
+      "350"
+    ],
+    "TriggerType": "OnBaseAttack",
+    "TriggerRatio": 1000,
+    "IgnoreStateType": [
+      "CC"
+    ],
+    "TargetType": "TriggerTarget",
+    "TargetCount": 1,
+    "DeadTarget": "False",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "False",
+    "OperationType1": "GetPhysicalDotR",
+    "OperationTargetType1": "Target",
+    "OperationValue1": [
+      "350",
+      "0",
+      "NoCritical|IgnoreBlock|Unavoidable"
+    ],
+    "OperationState1": "Artifact513",
+    "OperationDurationMs1": 5000,
+    "OperationTickTimeMs1": 500,
+    "OperationFlags1": [
+      "OverrideAllState"
+    ]
+  },
+  {
+    "Index": 80005124,
+    "ReplaceDescKey": "SKILL_DESC_80005130",
+    "DescParam": [
+      "5",
+      "420"
+    ],
+    "TriggerType": "OnBaseAttack",
+    "TriggerRatio": 1000,
+    "IgnoreStateType": [
+      "CC"
+    ],
+    "TargetType": "TriggerTarget",
+    "TargetCount": 1,
+    "DeadTarget": "False",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "False",
+    "OperationType1": "GetPhysicalDotR",
+    "OperationTargetType1": "Target",
+    "OperationValue1": [
+      "420",
+      "0",
+      "NoCritical|IgnoreBlock|Unavoidable"
+    ],
+    "OperationState1": "Artifact513",
+    "OperationDurationMs1": 5000,
+    "OperationTickTimeMs1": 500,
+    "OperationFlags1": [
+      "OverrideAllState"
+    ]
+  },
+  {
+    "Index": 80005125,
+    "ReplaceDescKey": "SKILL_DESC_80005130",
+    "DescParam": [
+      "5",
+      "500"
+    ],
+    "TriggerType": "OnBaseAttack",
+    "TriggerRatio": 1000,
+    "IgnoreStateType": [
+      "CC"
+    ],
+    "TargetType": "TriggerTarget",
+    "TargetCount": 1,
+    "DeadTarget": "False",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "False",
+    "OperationType1": "GetPhysicalDotR",
+    "OperationTargetType1": "Target",
+    "OperationValue1": [
+      "500",
+      "0",
+      "NoCritical|IgnoreBlock|Unavoidable"
+    ],
+    "OperationState1": "Artifact513",
+    "OperationDurationMs1": 5000,
+    "OperationTickTimeMs1": 500,
+    "OperationFlags1": [
+      "OverrideAllState"
+    ]
+  },
+  {
+    "Index": 80005130,
+    "ReplaceDescKey": "SKILL_DESC_80005120",
+    "DescParam": [
+      "20",
+      "5",
+      "10"
+    ],
+    "TriggerType": "OnDamage",
+    "TriggerRatio": 200,
+    "IgnoreStateType": [
+      "CC"
+    ],
+    "TargetType": "Trigger",
+    "TargetCount": 1,
+    "DeadTarget": "False",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "False",
+    "OperationType1": "ModWeakness",
+    "OperationTargetType1": "Target",
+    "OperationValue1": [
+      "100"
+    ],
+    "OperationState1": "Artifact512",
+    "OperationDurationMs1": 5000,
+    "OperationFlags1": [
+      "OverrideAllState"
+    ]
+  },
+  {
+    "Index": 80005131,
+    "ReplaceDescKey": "SKILL_DESC_80005120",
+    "DescParam": [
+      "20",
+      "5",
+      "12"
+    ],
+    "TriggerType": "OnDamage",
+    "TriggerRatio": 200,
+    "IgnoreStateType": [
+      "CC"
+    ],
+    "TargetType": "Trigger",
+    "TargetCount": 1,
+    "DeadTarget": "False",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "False",
+    "OperationType1": "ModWeakness",
+    "OperationTargetType1": "Target",
+    "OperationValue1": [
+      "120"
+    ],
+    "OperationState1": "Artifact512",
+    "OperationDurationMs1": 5000,
+    "OperationFlags1": [
+      "OverrideAllState"
+    ]
+  },
+  {
+    "Index": 80005132,
+    "ReplaceDescKey": "SKILL_DESC_80005120",
+    "DescParam": [
+      "20",
+      "5",
+      "14"
+    ],
+    "TriggerType": "OnDamage",
+    "TriggerRatio": 200,
+    "IgnoreStateType": [
+      "CC"
+    ],
+    "TargetType": "Trigger",
+    "TargetCount": 1,
+    "DeadTarget": "False",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "False",
+    "OperationType1": "ModWeakness",
+    "OperationTargetType1": "Target",
+    "OperationValue1": [
+      "140"
+    ],
+    "OperationState1": "Artifact512",
+    "OperationDurationMs1": 5000,
+    "OperationFlags1": [
+      "OverrideAllState"
+    ]
+  },
+  {
+    "Index": 80005133,
+    "ReplaceDescKey": "SKILL_DESC_80005120",
+    "DescParam": [
+      "20",
+      "5",
+      "17"
+    ],
+    "TriggerType": "OnDamage",
+    "TriggerRatio": 200,
+    "IgnoreStateType": [
+      "CC"
+    ],
+    "TargetType": "Trigger",
+    "TargetCount": 1,
+    "DeadTarget": "False",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "False",
+    "OperationType1": "ModWeakness",
+    "OperationTargetType1": "Target",
+    "OperationValue1": [
+      "170"
+    ],
+    "OperationState1": "Artifact512",
+    "OperationDurationMs1": 5000,
+    "OperationFlags1": [
+      "OverrideAllState"
+    ]
+  },
+  {
+    "Index": 80005134,
+    "ReplaceDescKey": "SKILL_DESC_80005120",
+    "DescParam": [
+      "20",
+      "5",
+      "21"
+    ],
+    "TriggerType": "OnDamage",
+    "TriggerRatio": 200,
+    "IgnoreStateType": [
+      "CC"
+    ],
+    "TargetType": "Trigger",
+    "TargetCount": 1,
+    "DeadTarget": "False",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "False",
+    "OperationType1": "ModWeakness",
+    "OperationTargetType1": "Target",
+    "OperationValue1": [
+      "210"
+    ],
+    "OperationState1": "Artifact512",
+    "OperationDurationMs1": 5000,
+    "OperationFlags1": [
+      "OverrideAllState"
+    ]
+  },
+  {
+    "Index": 80005135,
+    "ReplaceDescKey": "SKILL_DESC_80005120",
+    "DescParam": [
+      "20",
+      "5",
+      "25"
+    ],
+    "TriggerType": "OnDamage",
+    "TriggerRatio": 200,
+    "IgnoreStateType": [
+      "CC"
+    ],
+    "TargetType": "Trigger",
+    "TargetCount": 1,
+    "DeadTarget": "False",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "False",
+    "OperationType1": "ModWeakness",
+    "OperationTargetType1": "Target",
+    "OperationValue1": [
+      "250"
+    ],
+    "OperationState1": "Artifact512",
+    "OperationDurationMs1": 5000,
+    "OperationFlags1": [
+      "OverrideAllState"
+    ]
   },
   {
     "Index": 80009980,

@@ -2425,7 +2425,10 @@
   },
   {
     "Index": 2150,
-    "Command": "SkipStart"
+    "Command": "SkipStart",
+    "Argument": [
+      "Jump"
+    ]
   },
   {
     "Index": 2150,
@@ -2620,16 +2623,19 @@
   },
   {
     "Index": 2150,
+    "Command": "CloseWindow",
+    "Argument": [
+      "Shop(Clone)"
+    ]
+  },
+  {
+    "Index": 2150,
     "Command": "SkipEnd",
     "Argument": [
       "Resources/Prefab2/Window/MessagePopup/TutorialSkipPopup",
       " TUTORIAL_SKIP_NAME_014",
       " TUTORIAL_SKIP_DESC_014"
     ]
-  },
-  {
-    "Index": 2150,
-    "Command": "EnterLobby"
   },
   {
     "Index": 2160,
@@ -4277,6 +4283,354 @@
     "Command": "SkipEnd"
   },
   {
+    "Index": 6003,
+    "Command": "WaitObject",
+    "Argument": [
+      "HeroList(Clone)/HeroTranscendSkillListPanel/Panel/Toggle_Recommend",
+      " 0",
+      " 0",
+      " 0",
+      " 0",
+      " 0"
+    ]
+  },
+  {
+    "Index": 6003,
+    "Command": "FocusWidget",
+    "Argument": [
+      "HeroList(Clone)/HeroTranscendSkillListPanel/Panel/Toggle_Recommend",
+      " 0",
+      " 0",
+      " 0",
+      " 0",
+      " 0",
+      "True"
+    ]
+  },
+  {
+    "Index": 6003,
+    "Command": "ShowTooltip2",
+    "Argument": [
+      "Center",
+      " 0",
+      " 0",
+      " 2000",
+      " 100",
+      " TUTORIAL_TEXT_344"
+    ]
+  },
+  {
+    "Index": 6003,
+    "Command": "FocusAreaEffect",
+    "Argument": [
+      "UI.Common.Finger",
+      " 800",
+      " 0",
+      " 0",
+      " 100",
+      " True"
+    ]
+  },
+  {
+    "Index": 6003,
+    "Command": "WaitTouch"
+  },
+  {
+    "Index": 6003,
+    "Command": "ClearTooltip"
+  },
+  {
+    "Index": 6003,
+    "Command": "ClearFocus"
+  },
+  {
+    "Index": 6003,
+    "Command": "WaitObject",
+    "Argument": [
+      "HeroList(Clone)/HeroTranscendSkillListPanel/Panel/Toggle_Recommend",
+      " 0",
+      " 0.3",
+      " 1"
+    ]
+  },
+  {
+    "Index": 6003,
+    "Command": "FocusWidget",
+    "Argument": [
+      "HeroList(Clone)/HeroTranscendSkillListPanel/Panel/Toggle_Recommend",
+      " 0",
+      " 0",
+      " 0",
+      " 0",
+      " 0",
+      "True"
+    ]
+  },
+  {
+    "Index": 6003,
+    "Command": "FocusWidgetEffect",
+    "Argument": [
+      "HeroList(Clone)/HeroTranscendSkillListPanel/Panel/Toggle_Recommend",
+      " 0",
+      " UI.Common.Finger",
+      " -100",
+      " 0",
+      " -120",
+      " 100",
+      " True"
+    ]
+  },
+  {
+    "Index": 6003,
+    "Command": "WaitWidgetTouch",
+    "Argument": [
+      "HeroList(Clone)/HeroTranscendSkillListPanel/Panel/Toggle_Recommend",
+      " 0",
+      " 0",
+      " 0",
+      " 0",
+      " 0",
+      "True"
+    ]
+  },
+  {
+    "Index": 6003,
+    "Command": "ClearTooltip"
+  },
+  {
+    "Index": 6003,
+    "Command": "ClearFocus"
+  },
+  {
+    "Index": 6003,
+    "Command": "WaitObject",
+    "Argument": [
+      "RecommendTranscendContainer(Clone)/RecommendGrid/Toggle_Recommend",
+      " 0",
+      " 0.5",
+      " 1"
+    ]
+  },
+  {
+    "Index": 6003,
+    "Command": "FocusWidget",
+    "Argument": [
+      "RecommendTranscendContainer(Clone)/RecommendGrid/Toggle_Recommend",
+      " 0",
+      " 0",
+      " -180",
+      " 0",
+      " 0",
+      "True"
+    ]
+  },
+  {
+    "Index": 6003,
+    "Command": "ShowTooltip2",
+    "Argument": [
+      "Center",
+      " 0",
+      " -100",
+      " 2000",
+      " 100",
+      " TUTORIAL_TEXT_345"
+    ]
+  },
+  {
+    "Index": 6003,
+    "Command": "FocusAreaEffect",
+    "Argument": [
+      "UI.Common.Finger",
+      " 800",
+      " -100",
+      " 0",
+      " 100",
+      " True"
+    ]
+  },
+  {
+    "Index": 6003,
+    "Command": "WaitTouch"
+  },
+  {
+    "Index": 6003,
+    "Command": "ClearTooltip"
+  },
+  {
+    "Index": 6003,
+    "Command": "ClearFocus"
+  },
+  {
+    "Index": 6003,
+    "Command": "FocusWidget",
+    "Argument": [
+      "RecommendTranscendContainer(Clone)/Button_AplyRecommend/Sprite_RecommendButton",
+      " 0",
+      " 0",
+      " 0",
+      " 0",
+      " 0",
+      "True"
+    ]
+  },
+  {
+    "Index": 6003,
+    "Command": "ShowTooltip2",
+    "Argument": [
+      "Center",
+      " 0",
+      " 0",
+      " 2000",
+      " 100",
+      " TUTORIAL_TEXT_346"
+    ]
+  },
+  {
+    "Index": 6003,
+    "Command": "FocusAreaEffect",
+    "Argument": [
+      "UI.Common.Finger",
+      " 800",
+      " 0",
+      " 0",
+      " 100",
+      " True"
+    ]
+  },
+  {
+    "Index": 6003,
+    "Command": "WaitTouch"
+  },
+  {
+    "Index": 6003,
+    "Command": "ClearTooltip"
+  },
+  {
+    "Index": 6003,
+    "Command": "ClearFocus"
+  },
+  {
+    "Index": 6003,
+    "Command": "ShowTooltip2",
+    "Argument": [
+      "Center",
+      " 0",
+      " 0",
+      " 2000",
+      " 100",
+      " TUTORIAL_TEXT_347"
+    ]
+  },
+  {
+    "Index": 6003,
+    "Command": "FocusAreaEffect",
+    "Argument": [
+      "UI.Common.Finger",
+      " 800",
+      " 0",
+      " 0",
+      " 100",
+      " True"
+    ]
+  },
+  {
+    "Index": 6003,
+    "Command": "WaitTouch"
+  },
+  {
+    "Index": 6003,
+    "Command": "ClearTooltip"
+  },
+  {
+    "Index": 6003,
+    "Command": "ClearFocus"
+  },
+  {
+    "Index": 6004,
+    "Command": "ShowTooltip2",
+    "Argument": [
+      "Center",
+      " 0",
+      " 300",
+      " 2000",
+      " 100",
+      " TUTORIAL_TEXT_342"
+    ]
+  },
+  {
+    "Index": 6004,
+    "Command": "FocusAreaEffect",
+    "Argument": [
+      "UI.Common.Finger",
+      " 800",
+      " 300",
+      " 0",
+      " 100",
+      " True"
+    ]
+  },
+  {
+    "Index": 6004,
+    "Command": "WaitTouch"
+  },
+  {
+    "Index": 6004,
+    "Command": "ClearTooltip"
+  },
+  {
+    "Index": 6004,
+    "Command": "ClearFocus"
+  },
+  {
+    "Index": 6004,
+    "Command": "FocusWidget",
+    "Argument": [
+      "RecommendEquipmentContainer(Clone)/ToggleGrid/Toggle_Recommend",
+      " 0",
+      " 0",
+      " -180",
+      " 0",
+      " 0",
+      " True"
+    ]
+  },
+  {
+    "Index": 6004,
+    "Command": "ShowTooltip2",
+    "Argument": [
+      "Center",
+      " 0",
+      " 300",
+      " 2000",
+      " 100",
+      " TUTORIAL_TEXT_343"
+    ]
+  },
+  {
+    "Index": 6004,
+    "Command": "FocusAreaEffect",
+    "Argument": [
+      "UI.Common.Finger",
+      " 800",
+      " 300",
+      " 0",
+      " 100",
+      " True"
+    ]
+  },
+  {
+    "Index": 6004,
+    "Command": "WaitTouch"
+  },
+  {
+    "Index": 6004,
+    "Command": "ClearTooltip"
+  },
+  {
+    "Index": 6004,
+    "Command": "ClearFocus"
+  },
+  {
     "Index": 10000,
     "Command": "ReserveLobbyPopup",
     "Argument": [
@@ -4977,7 +5331,7 @@
     "Index": 10000,
     "Command": "WaitTime",
     "Argument": [
-      "0.5"
+      "0.3"
     ]
   },
   {
@@ -4986,7 +5340,7 @@
     "Argument": [
       "BattlePartySetting(Clone)/StartBattleWidget/Group_NoResource/Button_StartBattle",
       " 0",
-      " 1",
+      " 0.2",
       " 5"
     ]
   },
@@ -7002,7 +7356,7 @@
     "Index": 10010,
     "Command": "WaitTime",
     "Argument": [
-      "0.5"
+      "0.3"
     ]
   },
   {
@@ -7012,7 +7366,7 @@
     "Argument": [
       "BattlePartySetting(Clone)/StartBattleWidget/Group_NoResource/Button_StartBattle",
       " 0",
-      " 1",
+      " 0.2",
       " 5"
     ]
   },
@@ -8581,7 +8935,7 @@
     "Index": 10110,
     "Command": "WaitTime",
     "Argument": [
-      "0.5"
+      "0.3"
     ]
   },
   {
@@ -8678,7 +9032,7 @@
     "Index": 10110,
     "Command": "WaitTime",
     "Argument": [
-      "0.5"
+      "0.3"
     ]
   },
   {
@@ -8687,7 +9041,7 @@
     "Argument": [
       "BattlePartySetting(Clone)/StartBattleWidget/Group_NoResource/Button_StartBattle",
       " 0",
-      " 1",
+      " 0.2",
       " 5"
     ]
   },
@@ -24578,6 +24932,17 @@
   },
   {
     "Index": 503,
+    "Command": "WaitCutScene"
+  },
+  {
+    "Index": 504,
+    "Command": "PlayCutScene",
+    "Argument": [
+      "CutScene/Event/Foodtrip/Foodtrip01"
+    ]
+  },
+  {
+    "Index": 504,
     "Command": "WaitCutScene"
   },
   {

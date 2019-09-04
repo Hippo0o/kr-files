@@ -3081,6 +3081,20 @@
     "Description": "TRIAL_HERO_HANUS_TEXT"
   },
   {
+    "Index": 10098,
+    "Name": "HERO_KAIN",
+    "Type": "Trial",
+    "IsOpen": "TRUE",
+    "Map": "Map01",
+    "MapSizeX": 4096,
+    "MapSizeY": 4096,
+    "UserStatType": [
+      "Gold"
+    ],
+    "StaminaType": "None",
+    "Description": "TRIAL_HERO_KAIN_TEXT"
+  },
+  {
     "Index": 20001,
     "Name": "WEEKLY_SWORD",
     "Type": "DOW",
@@ -3369,6 +3383,21 @@
     "MapSizeY": 4096,
     "UserStatType": [
       "EventDungeonPoint"
+    ],
+    "StaminaType": "Chicken",
+    "SubStaminaType": "EventDungeonTicket"
+  },
+  {
+    "Index": 30027,
+    "Name": "EVENT_NAME_COOKINGLORD",
+    "Type": "Event",
+    "IsOpen": "TRUE",
+    "Map": "Map01",
+    "MapSizeX": 4096,
+    "MapSizeY": 4096,
+    "UserStatType": [
+      "EventDungeonPoint",
+      "EventDungeonPoint2"
     ],
     "StaminaType": "Chicken",
     "SubStaminaType": "EventDungeonTicket"

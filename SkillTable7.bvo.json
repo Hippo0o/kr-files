@@ -2589,6 +2589,38 @@
     "OperationDurationMs4": 99999999
   },
   {
+    "Index": 60009850,
+    "TriggerType": "OnStart",
+    "TriggerRatio": 1000,
+    "DeadTarget": "False",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "FALSE",
+    "OperationType1": "ModMaxHpR",
+    "OperationTargetType1": "Myself",
+    "OperationValue1": [
+      "150"
+    ],
+    "OperationDurationMs1": 999999,
+    "OperationType2": "ModDefenceR",
+    "OperationTargetType2": "Myself",
+    "OperationValue2": [
+      "150"
+    ],
+    "OperationDurationMs2": 9999999,
+    "OperationType3": "ModPowerR",
+    "OperationTargetType3": "Myself",
+    "OperationValue3": [
+      "150"
+    ],
+    "OperationDurationMs3": 99999999,
+    "OperationType4": "ModMaxHpR",
+    "OperationTargetType4": "Myself",
+    "OperationValue4": [
+      "100"
+    ],
+    "OperationDurationMs4": 99999999
+  },
+  {
     "Index": 60000151,
     "TriggerType": "OnAttack",
     "TriggerValue": [
@@ -2883,7 +2915,7 @@
     "OperationType1": "ModCriticalPower",
     "OperationTargetType1": "Myself",
     "OperationValue1": [
-      "1000"
+      "1500"
     ],
     "OperationType2": "ModCriticalChance",
     "OperationTargetType2": "Myself",
@@ -5340,6 +5372,39 @@
       "100",
       "0",
       "0"
+    ]
+  },
+  {
+    "Index": 60009851,
+    "TriggerType": "OnWaveStart",
+    "TriggerRatio": 1000,
+    "TriggerFlag": [
+      "UpdateSkillCondition"
+    ],
+    "ReqHpRatio": 200,
+    "TargetType": "Myself",
+    "TargetCount": 1,
+    "DeadTarget": "False",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "FALSE",
+    "OperationType1": "ModPowerR",
+    "OperationTargetType1": "Myself",
+    "OperationRadiusMm1": 50000,
+    "OperationValue1": [
+      "200"
+    ],
+    "OperationState1": 60009851,
+    "OperationDurationMs1": 20000,
+    "OperationType2": "ModMaxHpR",
+    "OperationTargetType2": "Myself",
+    "OperationRadiusMm2": 50000,
+    "OperationValue2": [
+      "300"
+    ],
+    "OperationState2": "60009851_2",
+    "OperationDurationMs2": 20000,
+    "OperationFlags2": [
+      "Disabled"
     ]
   }
 ]

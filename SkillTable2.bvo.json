@@ -328,14 +328,14 @@
     "OperationType1": "GetPhysicalDamageR",
     "OperationTargetType1": "Target",
     "OperationValue1": [
-      "2033",
-      "353"
+      "2541",
+      "441"
     ],
     "OperationValueFactor1": [
       "0",
       "0",
       "5",
-      "353"
+      "441"
     ],
     "OperationConditionType1": "None",
     "OperationType2": "Down",
@@ -642,14 +642,14 @@
     "OperationTargetType1": "Myself",
     "OperationRadiusMm1": 5000,
     "OperationValue1": [
-      "1138",
-      "272"
+      "1365",
+      "326"
     ],
     "OperationValueFactor1": [
       "0",
       "0",
       "5",
-      "272"
+      "326"
     ],
     "OperationConditionType1": "None",
     "OperationType2": "ModRecoverPower",
@@ -760,7 +760,7 @@
     "TriggerType": "None",
     "TriggerRatio": 1000,
     "Mp": 3000,
-    "CoolTimeMs": 25000,
+    "CoolTimeMs": 18000,
     "ActingTimeMs": 2400,
     "SoloTimeMs": 800,
     "DurationTimeMs": [
@@ -5615,6 +5615,9 @@
       "0"
     ],
     "OperationConditionType1": "None",
+    "OperationFlags1": [
+      "RetargetOnAdd"
+    ],
     "OperationType2": "GetStateDamageR",
     "OperationTargetType2": "Target",
     "OperationValue2": [
@@ -5636,6 +5639,9 @@
       "0"
     ],
     "OperationConditionType2": "None",
+    "OperationFlags2": [
+      "RetargetOnAdd"
+    ],
     "OperationType3": "CreateProjectile",
     "OperationTargetType3": "Target",
     "OperationValue3": [
@@ -5648,7 +5654,8 @@
     ],
     "OperationConditionType3": "None",
     "OperationFlags3": [
-      "Disabled"
+      "Disabled",
+      "RetargetOnAdd"
     ]
   },
   {
@@ -11556,9 +11563,12 @@
   },
   {
     "Index": 4540,
-    "TriggerType": "OnStart",
+    "TriggerType": "OnWaveStart",
     "TriggerRatio": 1000,
     "AttrType": "Physical",
+    "IgnoreStateType": [
+      "CC"
+    ],
     "TargetType": "Myself",
     "TargetCount": 1,
     "DeadTarget": "False",
@@ -11589,12 +11599,22 @@
       "500",
       "0"
     ],
+    "OperationDelayMs3": [
+      "100",
+      "0",
+      "0"
+    ],
     "OperationDurationMs3": 9999999,
     "OperationType4": "ModAttackByRace",
     "OperationTargetType4": "Myself",
     "OperationValue4": [
       "Draconian",
       "500",
+      "0"
+    ],
+    "OperationDelayMs4": [
+      "100",
+      "0",
       "0"
     ],
     "OperationDurationMs4": 9999999
@@ -12220,11 +12240,11 @@
     "OperationType1": "ModPower",
     "OperationTargetType1": "Myself",
     "OperationValue1": [
-      "102"
+      "153"
     ],
     "OperationValueFactor1": [
       "5",
-      "102"
+      "153"
     ],
     "OperationState1": 9120,
     "OperationDurationMs1": 10000,
@@ -12413,15 +12433,15 @@
     "OperationType4": "GetPhysicalDamageR",
     "OperationTargetType4": "Target",
     "OperationValue4": [
-      "698",
-      "158",
+      "837",
+      "189",
       "IgnoreDefence"
     ],
     "OperationValueFactor4": [
       "0",
       "0",
       "5",
-      "158"
+      "189"
     ],
     "OperationConditionType4": "StateCount",
     "OperationConditionValue4": [
@@ -12518,14 +12538,14 @@
     ],
     "OperationAngle2": 90,
     "OperationValue2": [
-      "5313",
-      "1210"
+      "6906",
+      "1573"
     ],
     "OperationValueFactor2": [
       "0",
       "0",
       "5",
-      "1210"
+      "1573"
     ],
     "OperationConditionType2": "Boss",
     "OperationConditionReverseCheck2": "True",
@@ -12549,15 +12569,15 @@
     ],
     "OperationAngle4": 90,
     "OperationValue4": [
-      "5313",
-      "1210",
+      "6906",
+      "1573",
       "IgnoreDefence"
     ],
     "OperationValueFactor4": [
       "0",
       "0",
       "5",
-      "1210"
+      "1573"
     ],
     "OperationConditionType4": "Boss",
     "OperationFlags4": [
@@ -12697,15 +12717,15 @@
     "OperationType2": "GetPhysicalDamageR",
     "OperationTargetType2": "Target",
     "OperationValue2": [
-      "698",
-      "158",
+      "837",
+      "189",
       "IgnoreDefence"
     ],
     "OperationValueFactor2": [
       "0",
       "0",
       "5",
-      "158"
+      "189"
     ],
     "OperationConditionType2": "StateCount",
     "OperationConditionValue2": [
