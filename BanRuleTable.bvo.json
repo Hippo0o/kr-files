@@ -226,6 +226,11 @@
     "BanValue1": "Hero.Roi,Hero.Laudia,Hero.Phillop,Hero.Annette"
   },
   {
+    "Index": 41,
+    "BanType1": "CodeName",
+    "BanValue1": "Hero.Arch,Hero.Priscilla,Hero.Aselica,Hero.Glenwys"
+  },
+  {
     "Index": 101,
     "BanType2": "CodeName",
     "BanValue2": "Hero.Zafir,Hero.Miruru,Hero.Shea"
@@ -1281,5 +1286,35 @@
     "Index": 10007,
     "BanType1": "CreatureTagType",
     "BanValue1": "Priest"
+  },
+  {
+    "Index": 303,
+    "BanType1": "CreatureTagType",
+    "BanValue1": "Archer,Mechanic,Assassin,Priest,Wizard",
+    "AcceptedClassType": [
+      "Knight",
+      "Warrior"
+    ]
+  },
+  {
+    "Index": 304,
+    "BanType1": "CreatureTagType",
+    "BanValue1": "Warrior,Knight,Priest,Wizard",
+    "AcceptedClassType": [
+      "Assassin",
+      "Archer",
+      "Mechanic"
+    ]
+  },
+  {
+    "Index": 305,
+    "BanType1": "CreatureTagType",
+    "BanValue1": "Warrior,Knight,Archer,Mechanic,Assassin",
+    "BanType2": "CodeName",
+    "BanValue2": "Hero.Kain",
+    "AcceptedClassType": [
+      "Priest",
+      "Wizard"
+    ]
   }
 ]

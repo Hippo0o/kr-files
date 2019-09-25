@@ -2047,6 +2047,90 @@
             }
           ]
         }
+      },
+      {
+        "Key": "Hero.Kain",
+        "Value": {
+          "Code": "Hero.Kain",
+          "AnimationDic": [
+            {
+              "Key": {
+                "MotionType": "Down"
+              },
+              "Value": {
+                "FrameSoundList": [
+                  {
+                    "Frame": 0.0,
+                    "SoundCode": "Down.Hero.Kain"
+                  }
+                ]
+              }
+            },
+            {
+              "Key": {
+                "MotionType": "NamedAction",
+                "Name": "Victory"
+              },
+              "Value": {
+                "FrameSoundList": [
+                  {
+                    "Frame": 0.0,
+                    "SoundCode": "Victory.Hero.Kain"
+                  }
+                ]
+              }
+            },
+            {
+              "Key": {
+                "MotionType": "EmotiMotion",
+                "Name": "PurifyReaction1"
+              },
+              "Value": {
+                "FrameSoundList": [
+                  {
+                    "Frame": 0.0,
+                    "SoundCode": "PurifyReaction1.Hero.Kain"
+                  }
+                ]
+              }
+            },
+            {
+              "Key": {
+                "MotionType": "EmotiMotion",
+                "Name": "PurifyReaction2"
+              },
+              "Value": {
+                "FrameSoundList": [
+                  {
+                    "Frame": 0.0,
+                    "SoundCode": "PurifyReaction2.Hero.Kain"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Key": "Boss.Imet",
+        "Value": {
+          "Code": "Boss.Imet",
+          "AnimationDic": [
+            {
+              "Key": {
+                "MotionType": "Down"
+              },
+              "Value": {
+                "FrameSoundList": [
+                  {
+                    "Frame": 0.0,
+                    "SoundCode": "Down.Boss.GodKingTrial.Imet"
+                  }
+                ]
+              }
+            }
+          ]
+        }
       }
     ]
   }

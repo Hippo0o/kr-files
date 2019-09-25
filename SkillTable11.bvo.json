@@ -19369,7 +19369,7 @@
     "OperationType2": "GetPhysicalDamageR",
     "OperationTargetType2": "Target",
     "OperationValue2": [
-      "1400"
+      "1200"
     ],
     "OperationDelayMs2": [
       "0",
@@ -19447,7 +19447,7 @@
     "TriggerType": "None",
     "TriggerRatio": 1000,
     "Mp": 2000,
-    "CoolTimeMs": 8000,
+    "CoolTimeMs": 12000,
     "ActingTimeMs": 1000,
     "SoloTimeMs": 300,
     "DurationTimeMs": [
@@ -19466,20 +19466,20 @@
     "OperationType1": "GetHealR",
     "OperationTargetType1": "Target",
     "OperationValue1": [
-      "4480",
-      "770"
+      "3480",
+      "570"
     ],
     "OperationValueFactor1": [
       "0",
       "0",
       "5",
-      "770"
+      "570"
     ],
     "OperationConditionType1": "None",
     "OperationType2": "ModToughness",
     "OperationTargetType2": "Parent",
     "OperationValue2": [
-      "500"
+      "300"
     ],
     "OperationState2": 9810,
     "OperationDurationMs2": 5000,
@@ -19491,16 +19491,16 @@
     ],
     "OperationType3": "GetHealR",
     "OperationTargetType3": "Target",
-    "OperationRadiusMm3": 8000,
+    "OperationRadiusMm3": 5000,
     "OperationValue3": [
-      "4480",
-      "770"
+      "3480",
+      "570"
     ],
     "OperationValueFactor3": [
       "0",
       "0",
       "5",
-      "770"
+      "570"
     ],
     "OperationDelayMs3": [
       "0",
@@ -19512,7 +19512,7 @@
     ],
     "OperationType4": "Cleanse",
     "OperationTargetType4": "Target",
-    "OperationRadiusMm4": 8000,
+    "OperationRadiusMm4": 5000,
     "OperationDelayMs4": [
       "0",
       "0",
@@ -19652,8 +19652,8 @@
     "CancelableSkillIndex": [
       "9824"
     ],
-    "Mp": 3000,
-    "CoolTimeMs": 11000,
+    "Mp": 2000,
+    "CoolTimeMs": 12000,
     "ActingTimeMs": 1900,
     "SoloTimeMs": 600,
     "DurationTimeMs": [
@@ -19662,40 +19662,42 @@
     "CancelOnWaveEnd": "True",
     "TickTimeValue": [
       "0[7:8]",
-      "2000[1:2:3:4]"
+      "1900[5]",
+      "2000[1:2:3:4:6]"
     ],
     "AttrType": "Physical",
     "TargetType": "Enemy",
     "TargetCount": 1,
-    "MaxRangeMm": 8000,
+    "MaxRangeMm": 9000,
     "DeadTarget": "False",
     "IgnoreBlock": "TRUE",
     "RetargetOnFire": "False",
     "OperationType1": "GetPhysicalDamageR",
     "OperationTargetType1": "Target",
     "OperationValue1": [
-      "4693",
-      "812",
+      "3023",
+      "522",
       "None"
     ],
     "OperationValueFactor1": [
       "0",
       "0",
       "5",
-      "812"
+      "522"
     ],
     "OperationConditionType1": "None",
     "OperationType2": "ModAttackSpeedR",
     "OperationTargetType2": "Parent",
     "OperationValue2": [
-      "-500"
+      "-350"
     ],
     "OperationState2": 9819,
     "OperationDurationMs2": 5000,
     "OperationParent2": 1,
     "OperationFlags2": [
       "HasParent",
-      "NoCancelReserve"
+      "NoCancelReserve",
+      "ExpireOnWaveEnd"
     ],
     "OperationType3": "ImmuneState",
     "OperationTargetType3": "Parent",
@@ -19709,7 +19711,8 @@
     "OperationParent3": 1,
     "OperationFlags3": [
       "HasParent",
-      "NoCancelReserve"
+      "NoCancelReserve",
+      "ExpireOnWaveEnd"
     ],
     "OperationType4": "GetPhysicalDamageR",
     "OperationTargetType4": "Target",
@@ -19728,20 +19731,11 @@
     "OperationDelayMs4": [
       "0",
       "0",
-      "5100"
+      "5000"
     ],
     "OperationConditionType4": "None",
     "OperationType5": "Dispel",
     "OperationTargetType5": "Target",
-    "OperationRadiusMm5": 5000,
-    "OperationDelayMs5": [
-      "0",
-      "0",
-      "5000"
-    ],
-    "OperationFlags5": [
-      "NoCancelReserve"
-    ],
     "OperationType6": "Stun",
     "OperationTargetType6": "Parent",
     "OperationDurationMs6": 3000,
@@ -19788,10 +19782,13 @@
       "1500"
     ],
     "CancelOnWaveEnd": "True",
+    "TickTimeValue": [
+      "1"
+    ],
     "AttrType": "Physical",
     "TargetType": "Enemy",
     "TargetCount": 1,
-    "MaxRangeMm": 8000,
+    "MaxRangeMm": 9000,
     "DeadTarget": "False",
     "IgnoreBlock": "TRUE",
     "RetargetOnFire": "False",
@@ -19820,7 +19817,21 @@
     "OperationTargetType1": "Myself",
     "OperationValue1": [
       "9824",
-      "0",
+      "1",
+      "100"
+    ],
+    "OperationType2": "ModSkillPowerR",
+    "OperationTargetType2": "Myself",
+    "OperationValue2": [
+      "9824",
+      "5",
+      "100"
+    ],
+    "OperationType3": "ModSkillPowerR",
+    "OperationTargetType3": "Myself",
+    "OperationValue3": [
+      "9824",
+      "6",
       "100"
     ]
   },
@@ -19838,7 +19849,21 @@
     "OperationTargetType1": "Myself",
     "OperationValue1": [
       "9824",
-      "0",
+      "1",
+      "150"
+    ],
+    "OperationType2": "ModSkillPowerR",
+    "OperationTargetType2": "Myself",
+    "OperationValue2": [
+      "9824",
+      "5",
+      "150"
+    ],
+    "OperationType3": "ModSkillPowerR",
+    "OperationTargetType3": "Myself",
+    "OperationValue3": [
+      "9824",
+      "6",
       "150"
     ]
   },
@@ -19856,7 +19881,21 @@
     "OperationTargetType1": "Myself",
     "OperationValue1": [
       "9824",
-      "0",
+      "1",
+      "250"
+    ],
+    "OperationType2": "ModSkillPowerR",
+    "OperationTargetType2": "Myself",
+    "OperationValue2": [
+      "9824",
+      "5",
+      "250"
+    ],
+    "OperationType3": "ModSkillPowerR",
+    "OperationTargetType3": "Myself",
+    "OperationValue3": [
+      "9824",
+      "6",
       "250"
     ]
   },
@@ -19879,7 +19918,7 @@
     ],
     "CancelOnWaveEnd": "True",
     "TickTimeValue": [
-      "0[3:7:8]",
+      "0[7:8]",
       "500[1:2]",
       "1300[5:2]",
       "2100[6:2]",
@@ -19888,7 +19927,7 @@
     "AttrType": "Physical",
     "TargetType": "Enemy",
     "TargetCount": 1,
-    "MaxRangeMm": 8000,
+    "MaxRangeMm": 9000,
     "DeadTarget": "False",
     "IgnoreBlock": "TRUE",
     "RetargetOnFire": "TRUE",
@@ -19896,14 +19935,14 @@
     "OperationType1": "GetPhysicalDamageR",
     "OperationTargetType1": "Target",
     "OperationValue1": [
-      "1258",
-      "265"
+      "1058",
+      "215"
     ],
     "OperationValueFactor1": [
       "0",
       "0",
       "5",
-      "265"
+      "215"
     ],
     "OperationDelayMs1": [
       "200",
@@ -19917,15 +19956,6 @@
       "8000",
       "500"
     ],
-    "OperationType3": "ModAttackPower",
-    "OperationTargetType3": "Myself",
-    "OperationValue3": [
-      "100"
-    ],
-    "OperationDurationMs3": 999999,
-    "OperationFlags3": [
-      "WhileSkillUse"
-    ],
     "OperationType4": "UseSkill",
     "OperationTargetType4": "Myself",
     "OperationValue4": [
@@ -19934,14 +19964,14 @@
     "OperationType5": "GetPhysicalDamageR",
     "OperationTargetType5": "Target",
     "OperationValue5": [
-      "1258",
-      "265"
+      "1058",
+      "215"
     ],
     "OperationValueFactor5": [
       "0",
       "0",
       "5",
-      "265"
+      "215"
     ],
     "OperationDelayMs5": [
       "200",
@@ -19952,14 +19982,14 @@
     "OperationType6": "GetPhysicalDamageR",
     "OperationTargetType6": "Target",
     "OperationValue6": [
-      "1258",
-      "265"
+      "1058",
+      "215"
     ],
     "OperationValueFactor6": [
       "0",
       "0",
       "5",
-      "265"
+      "215"
     ],
     "OperationDelayMs6": [
       "200",
@@ -20019,8 +20049,8 @@
     "NextIndex": 9834,
     "TriggerType": "None",
     "TriggerRatio": 1000,
-    "Mp": 4000,
-    "CoolTimeMs": 14000,
+    "Mp": 3000,
+    "CoolTimeMs": 25000,
     "ActingTimeMs": 1600,
     "SoloTimeMs": 500,
     "DurationTimeMs": [
@@ -20049,11 +20079,11 @@
     "OperationTargetType1": "Myself",
     "OperationRadiusMm1": 10000,
     "OperationValue1": [
-      "30"
+      "22"
     ],
     "OperationValueFactor1": [
       "5",
-      "30"
+      "22"
     ],
     "OperationState1": 9830,
     "OperationDurationMs1": 10000,
@@ -20061,11 +20091,11 @@
     "OperationTargetType2": "Myself",
     "OperationRadiusMm2": 10000,
     "OperationValue2": [
-      "700"
+      "632"
     ],
     "OperationValueFactor2": [
       "5",
-      "700"
+      "632"
     ],
     "OperationState2": "9830_2",
     "OperationDurationMs2": 10000,
@@ -20213,14 +20243,14 @@
     "OperationType1": "GetPhysicalDamageR",
     "OperationTargetType1": "Target",
     "OperationValue1": [
-      "342",
-      "57"
+      "242",
+      "37"
     ],
     "OperationValueFactor1": [
       "0",
       "0",
       "5",
-      "57"
+      "37"
     ],
     "OperationType2": "Pulling",
     "OperationTargetType2": "Parent",
@@ -20228,7 +20258,7 @@
       "800",
       "0",
       "1000",
-      "False",
+      "True",
       "FiredPosition"
     ],
     "OperationDurationMs2": 500,
@@ -20250,7 +20280,8 @@
     "CancelableSkillIndex": [
       "9824"
     ],
-    "CoolTimeMs": 15000,
+    "Mp": 4000,
+    "CoolTimeMs": 25000,
     "ActingTimeMs": 1600,
     "SoloTimeMs": 500,
     "DurationTimeMs": [
@@ -20264,7 +20295,7 @@
     "AttrType": "Physical",
     "TargetType": "Enemy",
     "TargetCount": 1,
-    "MaxRangeMm": 8000,
+    "MaxRangeMm": 9000,
     "DeadTarget": "False",
     "IgnoreBlock": "TRUE",
     "RetargetOnFire": "TRUE",
@@ -20291,8 +20322,8 @@
     ],
     "OperationType3": "Stun",
     "OperationTargetType3": "Parent",
-    "OperationDurationMs3": 5000,
-    "OperationParent3": 1,
+    "OperationDurationMs3": 3000,
+    "OperationParent3": 2,
     "OperationFlags3": [
       "HasParent"
     ],
@@ -20335,21 +20366,20 @@
     "OperationType1": "ModPower",
     "OperationTargetType1": "Myself",
     "OperationValue1": [
-      "40"
+      "55"
     ],
     "OperationValueFactor1": [
       "5",
-      "40"
+      "55"
     ],
     "OperationState1": "9840_4",
     "OperationDurationMs1": 9999999,
-    "OperationType2": "ModSkill",
+    "OperationType2": "ModSkillPowerR",
     "OperationTargetType2": "Myself",
     "OperationValue2": [
       "9844",
       "1",
-      "Value",
-      "50"
+      "500"
     ],
     "OperationState2": 9840,
     "OperationDurationMs2": 9999999,
@@ -20374,21 +20404,8 @@
     "OperationConditionType4": "StateCount",
     "OperationConditionValue4": [
       "9840",
-      "5",
+      "2",
       "MoreOrEqual"
-    ],
-    "OperationType5": "ModSkillPowerR",
-    "OperationTargetType5": "Myself",
-    "OperationValue5": [
-      "9824",
-      "0",
-      "200"
-    ],
-    "OperationState5": "9840_5",
-    "OperationDurationMs5": 9999999,
-    "OperationConditionType5": "SkillLevel",
-    "OperationConditionValue5": [
-      "60009820"
     ],
     "OperationType6": "GetMot",
     "OperationTargetType6": "Myself",
@@ -20397,6 +20414,7 @@
     ],
     "OperationState6": "9840_6",
     "OperationDurationMs6": 9999999,
+    "OperationTickTimeMs6": 1000,
     "OperationType7": "ModRecoverPower",
     "OperationTargetType7": "Myself",
     "OperationRadiusMm7": 30000,
@@ -20518,7 +20536,7 @@
     "OperationType2": "SuppressSkillCheck",
     "OperationTargetType2": "Myself",
     "OperationValue2": [
-      "9810|9820|9825|9830",
+      "9810|9830",
       "UsingSkillCheck"
     ],
     "OperationState2": "9845_2",
@@ -20529,7 +20547,6 @@
       "9819",
       "True"
     ],
-    "OperationState3": 9834,
     "OperationType4": "ChangeSkillByState",
     "OperationTargetType4": "Myself",
     "OperationValue4": [
@@ -20537,9 +20554,14 @@
       "9837",
       "True"
     ],
-    "OperationState4": "9834_2",
-    "OperationType5": "DisableSkillUse",
+    "OperationType5": "ModAttackPower",
     "OperationTargetType5": "Myself",
+    "OperationValue5": [
+      "100"
+    ],
+    "OperationFlags5": [
+      "Disabled"
+    ],
     "OperationType6": "ChangeSkillByState",
     "OperationTargetType6": "Myself",
     "OperationValue6": [
@@ -20553,10 +20575,15 @@
       "9824",
       "0",
       "SkillMaxRangeMm",
-      "0",
+      "99990",
       "0"
     ],
-    "OperationDurationMs7": 99999
+    "OperationType8": "ChangeSkillByState",
+    "OperationTargetType8": "Myself",
+    "OperationValue8": [
+      "93009800",
+      "93009811"
+    ]
   },
   {
     "Index": 9846,
@@ -20571,20 +20598,75 @@
     "DeadTarget": "False",
     "IgnoreBlock": "TRUE",
     "RetargetOnFire": "False",
-    "OperationType1": "ModSkillEnabled",
+    "OperationType1": "ModToughness",
     "OperationTargetType1": "Myself",
+    "OperationRadiusMm1": 50000,
+    "OperationState1": "60009851_2"
+  },
+  {
+    "Index": 9847,
+    "TriggerType": "OnAttack",
+    "TriggerValue": [
+      "9800;9801;9802",
+      "None",
+      "Dot"
+    ],
+    "TriggerRatio": 200,
+    "TriggerDisabled": "True",
+    "AttrType": "Physical",
+    "TargetType": "TriggerTarget",
+    "TargetCount": 1,
+    "DeadTarget": "False",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "False",
+    "OperationType1": "Stun",
+    "OperationTargetType1": "Target",
+    "OperationDurationMs1": 1000
+  },
+  {
+    "Index": 9848,
+    "TriggerType": "OnAttack",
+    "TriggerValue": [
+      "9819;9824;9836;9837"
+    ],
+    "TriggerRatio": 1000,
+    "TriggerDisabled": "True",
+    "AttrType": "Physical",
+    "TargetType": "TriggerTarget",
+    "TargetCount": 1,
+    "DeadTarget": "False",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "False",
+    "OperationType1": "ModPhysicalWeakness",
+    "OperationTargetType1": "Target",
     "OperationValue1": [
-      "60009851",
-      "2"
-    ]
+      "200"
+    ],
+    "OperationState1": "UniqueKain",
+    "OperationDurationMs1": 3000
+  },
+  {
+    "Index": 9849,
+    "TriggerType": "NextSkill",
+    "TriggerRatio": 1000,
+    "ReqHpRatio": 200,
+    "AttrType": "Physical",
+    "TargetType": "Myself",
+    "TargetCount": 1,
+    "DeadTarget": "False",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "False"
   },
   {
     "Index": 90000980,
-    "TriggerType": "OnTimer",
-    "TriggerValue": [
-      "1000",
-      "1000"
+    "ReplaceDescKey": "SKILL_DESC_90000980",
+    "DescParam": [
+      "20",
+      "1",
+      "3",
+      "20"
     ],
+    "TriggerType": "OnStart",
     "TriggerRatio": 1000,
     "AttrType": "Physical",
     "IgnoreStateType": [
@@ -20595,37 +20677,45 @@
     "DeadTarget": "False",
     "IgnoreBlock": "TRUE",
     "RetargetOnFire": "False",
-    "OperationType1": "ModPowerR",
+    "OperationType1": "EnablePassiveSkill",
     "OperationTargetType1": "Myself",
     "OperationValue1": [
-      "10"
+      "9847",
+      "True"
     ],
-    "OperationState1": "UniqueKara",
-    "OperationDurationMs1": 999999,
-    "OperationType2": "ChangeStateValue",
+    "OperationType2": "EnablePassiveSkill",
     "OperationTargetType2": "Myself",
     "OperationValue2": [
-      "UniqueKara",
-      "MaxStack",
-      "30"
+      "9848",
+      "True"
     ],
-    "OperationDurationMs2": 9999999,
-    "OperationType3": "ModSkillDisabled",
+    "OperationType3": "SetSkill",
     "OperationTargetType3": "Myself",
     "OperationValue3": [
-      "90000980",
-      "2"
+      "9847",
+      "0",
+      "SkillTriggerRatio",
+      "200"
     ],
-    "OperationState3": "UniqueKara2",
-    "OperationDurationMs3": 1500
+    "OperationType4": "SetSkill",
+    "OperationTargetType4": "Myself",
+    "OperationValue4": [
+      "9848",
+      "1",
+      "Value",
+      "200"
+    ]
   },
   {
     "Index": 90000981,
-    "TriggerType": "OnTimer",
-    "TriggerValue": [
-      "1000",
-      "1000"
+    "ReplaceDescKey": "SKILL_DESC_90000980",
+    "DescParam": [
+      "24",
+      "1",
+      "3",
+      "24"
     ],
+    "TriggerType": "OnStart",
     "TriggerRatio": 1000,
     "AttrType": "Physical",
     "IgnoreStateType": [
@@ -20636,37 +20726,45 @@
     "DeadTarget": "False",
     "IgnoreBlock": "TRUE",
     "RetargetOnFire": "False",
-    "OperationType1": "ModPowerR",
+    "OperationType1": "EnablePassiveSkill",
     "OperationTargetType1": "Myself",
     "OperationValue1": [
-      "10"
+      "9847",
+      "True"
     ],
-    "OperationState1": "UniqueKara",
-    "OperationDurationMs1": 999999,
-    "OperationType2": "ChangeStateValue",
+    "OperationType2": "EnablePassiveSkill",
     "OperationTargetType2": "Myself",
     "OperationValue2": [
-      "UniqueKara",
-      "MaxStack",
-      "40"
+      "9848",
+      "True"
     ],
-    "OperationDurationMs2": 9999999,
-    "OperationType3": "ModSkillDisabled",
+    "OperationType3": "SetSkill",
     "OperationTargetType3": "Myself",
     "OperationValue3": [
-      "90000981",
-      "2"
+      "9847",
+      "0",
+      "SkillTriggerRatio",
+      "240"
     ],
-    "OperationState3": "UniqueKara2",
-    "OperationDurationMs3": 1500
+    "OperationType4": "SetSkill",
+    "OperationTargetType4": "Myself",
+    "OperationValue4": [
+      "9848",
+      "1",
+      "Value",
+      "240"
+    ]
   },
   {
     "Index": 90000982,
-    "TriggerType": "OnTimer",
-    "TriggerValue": [
-      "1000",
-      "1000"
+    "ReplaceDescKey": "SKILL_DESC_90000980",
+    "DescParam": [
+      "29",
+      "1",
+      "3",
+      "29"
     ],
+    "TriggerType": "OnStart",
     "TriggerRatio": 1000,
     "AttrType": "Physical",
     "IgnoreStateType": [
@@ -20677,37 +20775,45 @@
     "DeadTarget": "False",
     "IgnoreBlock": "TRUE",
     "RetargetOnFire": "False",
-    "OperationType1": "ModPowerR",
+    "OperationType1": "EnablePassiveSkill",
     "OperationTargetType1": "Myself",
     "OperationValue1": [
-      "10"
+      "9847",
+      "True"
     ],
-    "OperationState1": "UniqueKara",
-    "OperationDurationMs1": 999999,
-    "OperationType2": "ChangeStateValue",
+    "OperationType2": "EnablePassiveSkill",
     "OperationTargetType2": "Myself",
     "OperationValue2": [
-      "UniqueKara",
-      "MaxStack",
-      "50"
+      "9848",
+      "True"
     ],
-    "OperationDurationMs2": 9999999,
-    "OperationType3": "ModSkillDisabled",
+    "OperationType3": "SetSkill",
     "OperationTargetType3": "Myself",
     "OperationValue3": [
-      "90000982",
-      "2"
+      "9847",
+      "0",
+      "SkillTriggerRatio",
+      "290"
     ],
-    "OperationState3": "UniqueKara2",
-    "OperationDurationMs3": 1500
+    "OperationType4": "SetSkill",
+    "OperationTargetType4": "Myself",
+    "OperationValue4": [
+      "9848",
+      "1",
+      "Value",
+      "290"
+    ]
   },
   {
     "Index": 90000983,
-    "TriggerType": "OnTimer",
-    "TriggerValue": [
-      "1000",
-      "1000"
+    "ReplaceDescKey": "SKILL_DESC_90000980",
+    "DescParam": [
+      "35",
+      "1",
+      "3",
+      "35"
     ],
+    "TriggerType": "OnStart",
     "TriggerRatio": 1000,
     "AttrType": "Physical",
     "IgnoreStateType": [
@@ -20718,37 +20824,45 @@
     "DeadTarget": "False",
     "IgnoreBlock": "TRUE",
     "RetargetOnFire": "False",
-    "OperationType1": "ModPowerR",
+    "OperationType1": "EnablePassiveSkill",
     "OperationTargetType1": "Myself",
     "OperationValue1": [
-      "10"
+      "9847",
+      "True"
     ],
-    "OperationState1": "UniqueKara",
-    "OperationDurationMs1": 999999,
-    "OperationType2": "ChangeStateValue",
+    "OperationType2": "EnablePassiveSkill",
     "OperationTargetType2": "Myself",
     "OperationValue2": [
-      "UniqueKara",
-      "MaxStack",
-      "60"
+      "9848",
+      "True"
     ],
-    "OperationDurationMs2": 9999999,
-    "OperationType3": "ModSkillDisabled",
+    "OperationType3": "SetSkill",
     "OperationTargetType3": "Myself",
     "OperationValue3": [
-      "90000983",
-      "2"
+      "9847",
+      "0",
+      "SkillTriggerRatio",
+      "350"
     ],
-    "OperationState3": "UniqueKara2",
-    "OperationDurationMs3": 1500
+    "OperationType4": "SetSkill",
+    "OperationTargetType4": "Myself",
+    "OperationValue4": [
+      "9848",
+      "1",
+      "Value",
+      "350"
+    ]
   },
   {
     "Index": 90000984,
-    "TriggerType": "OnTimer",
-    "TriggerValue": [
-      "1000",
-      "1000"
+    "ReplaceDescKey": "SKILL_DESC_90000980",
+    "DescParam": [
+      "42",
+      "1",
+      "3",
+      "42"
     ],
+    "TriggerType": "OnStart",
     "TriggerRatio": 1000,
     "AttrType": "Physical",
     "IgnoreStateType": [
@@ -20759,37 +20873,45 @@
     "DeadTarget": "False",
     "IgnoreBlock": "TRUE",
     "RetargetOnFire": "False",
-    "OperationType1": "ModPowerR",
+    "OperationType1": "EnablePassiveSkill",
     "OperationTargetType1": "Myself",
     "OperationValue1": [
-      "10"
+      "9847",
+      "True"
     ],
-    "OperationState1": "UniqueKara",
-    "OperationDurationMs1": 999999,
-    "OperationType2": "ChangeStateValue",
+    "OperationType2": "EnablePassiveSkill",
     "OperationTargetType2": "Myself",
     "OperationValue2": [
-      "UniqueKara",
-      "MaxStack",
-      "70"
+      "9848",
+      "True"
     ],
-    "OperationDurationMs2": 9999999,
-    "OperationType3": "ModSkillDisabled",
+    "OperationType3": "SetSkill",
     "OperationTargetType3": "Myself",
     "OperationValue3": [
-      "90000984",
-      "2"
+      "9847",
+      "0",
+      "SkillTriggerRatio",
+      "420"
     ],
-    "OperationState3": "UniqueKara2",
-    "OperationDurationMs3": 1500
+    "OperationType4": "SetSkill",
+    "OperationTargetType4": "Myself",
+    "OperationValue4": [
+      "9848",
+      "1",
+      "Value",
+      "420"
+    ]
   },
   {
     "Index": 90000985,
-    "TriggerType": "OnTimer",
-    "TriggerValue": [
-      "1000",
-      "1000"
+    "ReplaceDescKey": "SKILL_DESC_90000980",
+    "DescParam": [
+      "50",
+      "1",
+      "3",
+      "50"
     ],
+    "TriggerType": "OnStart",
     "TriggerRatio": 1000,
     "AttrType": "Physical",
     "IgnoreStateType": [
@@ -20800,28 +20922,33 @@
     "DeadTarget": "False",
     "IgnoreBlock": "TRUE",
     "RetargetOnFire": "False",
-    "OperationType1": "ModPowerR",
+    "OperationType1": "EnablePassiveSkill",
     "OperationTargetType1": "Myself",
     "OperationValue1": [
-      "10"
+      "9847",
+      "True"
     ],
-    "OperationState1": "UniqueKara",
-    "OperationDurationMs1": 999999,
-    "OperationType2": "ChangeStateValue",
+    "OperationType2": "EnablePassiveSkill",
     "OperationTargetType2": "Myself",
     "OperationValue2": [
-      "UniqueKara",
-      "MaxStack",
-      "80"
+      "9848",
+      "True"
     ],
-    "OperationDurationMs2": 9999999,
-    "OperationType3": "ModSkillDisabled",
+    "OperationType3": "SetSkill",
     "OperationTargetType3": "Myself",
     "OperationValue3": [
-      "90000985",
-      "2"
+      "9847",
+      "0",
+      "SkillTriggerRatio",
+      "500"
     ],
-    "OperationState3": "UniqueKara2",
-    "OperationDurationMs3": 1500
+    "OperationType4": "SetSkill",
+    "OperationTargetType4": "Myself",
+    "OperationValue4": [
+      "9848",
+      "1",
+      "Value",
+      "500"
+    ]
   }
 ]

@@ -896,8 +896,8 @@
   },
   {
     "ChapterIndex": 6,
-    "PositionX": 3160,
-    "PositionY": 413,
+    "PositionX": -287,
+    "PositionY": 595,
     "Scale": 100,
     "PropType": "Prefab",
     "PropName": "DefaultLabel_3",
@@ -908,6 +908,28 @@
       "TREASURE_HOUSE_TITLE",
       "30",
       "000000"
+    ]
+  },
+  {
+    "ChapterIndex": 6,
+    "PositionX": 1845,
+    "PositionY": 121,
+    "Scale": 100,
+    "PropType": "Prefab",
+    "PropName": "DefaultLabel_3",
+    "PropAction": [
+      "SetText",
+      "LabelName",
+      "0",
+      "SOULWEAPON_UI_GODKINGTEMPLE",
+      "30",
+      "000000"
+    ],
+    "ConditionType": "ClearDungeon",
+    "ConditionArgs": [
+      "65",
+      "11",
+      "true"
     ]
   },
   {

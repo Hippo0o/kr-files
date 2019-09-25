@@ -1092,7 +1092,7 @@
     ],
     "NpcAngle": -50,
     "NpcScale": 120,
-    "MenuIconType": "Square_CookingLord\t",
+    "MenuIconType": "Event_CookingLord_Button",
     "MenuTitleKey": "SQUARE_NAME_NORMAL_SUB"
   },
   {
@@ -2014,6 +2014,74 @@
     "MiniGuideIndex": 14,
     "MenuIconType": "Library",
     "MenuTitleKey": "NODE_LIBRARY_NAME"
+  },
+  {
+    "Code": "SoulWeapon",
+    "HeroIndex": 98,
+    "ShowHeroBuffIcon": "True",
+    "OnOpenEntryMenu": [
+      "NPC_LWSHOP_WELCOME01",
+      " NPC.Lwshop.Welcome01",
+      " Welcome",
+      "\nNPC_LWSHOP_WELCOME02",
+      " NPC.Lwshop.Welcome02",
+      " Welcome",
+      "\nNPC_LWSHOP_WELCOME03",
+      " NPC.Lwshop.Welcome03",
+      " Welcome"
+    ],
+    "OnTouch": [
+      "NPC_LWSHOP_TOUCH01",
+      " NPC.Lwshop.Touch01",
+      " Touch1",
+      "\nNPC_LWSHOP_TOUCH02",
+      " NPC.Lwshop.Touch02",
+      " Touch1",
+      "\nNPC_LWSHOP_TOUCH03",
+      " NPC.Lwshop.Touch03",
+      " Touch1",
+      "\nNPC_LWSHOP_TOUCH04",
+      " NPC.Lwshop.Touch04",
+      " Touch1",
+      "\nNPC_LWSHOP_TOUCH05",
+      " NPC.Lwshop.Touch05",
+      " Touch1",
+      "\nNPC_LWSHOP_TOUCH06",
+      " NPC.Lwshop.Touch06",
+      " Touch1"
+    ],
+    "EntryMenuButton1": [
+      "SOULWEAPON_AREA_SANCTUM_NAME",
+      "OpenSoulWeapon"
+    ],
+    "EntryMenuButton2": [
+      "SOULWEAPON_AREA_GODKINGTRIAL_NAME",
+      "OpenGodkingTrial"
+    ],
+    "EntryMenuButton3": [
+      "CONTENT_ECLIPSE",
+      "OpenEclipse"
+    ],
+    "BottomEntryMenuButton1": [
+      "MENU_NPC_GIFT",
+      "OpenNPCRecruiteView",
+      "GiftButton",
+      "Recruit"
+    ],
+    "CreatureIndex": 823,
+    "NpcOffset": [
+      "-100",
+      "50"
+    ],
+    "NpcAngle": -30,
+    "NpcScale": 100,
+    "NpcCondition": [
+      "CompleteTutorial",
+      "65027",
+      "TRUE"
+    ],
+    "MenuIconType": "SoulWeapon",
+    "MenuTitleKey": "SOULWEAPON_UI_GODKINGTEMPLE"
   },
   {
     "Code": "ChallengeTower",
@@ -3346,6 +3414,7 @@
   {
     "Code": "GuildTrainingCenter",
     "HeroIndex": 97,
+    "ShowHeroBuffIcon": "True",
     "OnOpenEntryMenu": [
       "NPC_GUILDTRAINING_WELCOME02",
       " NPC.GuildTraining.Welcome02",

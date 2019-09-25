@@ -36,7 +36,6 @@
     "OperationValue2": [
       "MagicalDefense"
     ],
-    "OperationState2": "90002_1",
     "OperationDurationMs2": 9999999
   },
   {
@@ -3058,7 +3057,6 @@
     "RetargetOnFire": "False",
     "OperationType1": "ModWeakness",
     "OperationTargetType1": "Myself",
-    "OperationState1": "Tower45",
     "OperationConditionType1": "None"
   },
   {
@@ -4271,7 +4269,7 @@
     "TriggerType": "NextSkill",
     "TriggerRatio": 1000,
     "DurationTimeMs": [
-      "88000"
+      "108000"
     ],
     "CancelOnWaveEnd": "True",
     "AttrType": "Physical",
@@ -4395,6 +4393,21 @@
       "50",
       "MoreOrEqual"
     ]
+  },
+  {
+    "Index": 350570,
+    "NextIndex": 350568,
+    "TriggerType": "OnTimer",
+    "TriggerValue": [
+      "88500",
+      "88500"
+    ],
+    "TriggerRatio": 1000,
+    "AttrType": "Physical",
+    "TargetType": "Myself",
+    "TargetCount": 1,
+    "DeadTarget": "False",
+    "RetargetOnFire": "False"
   },
   {
     "Index": 3304200,

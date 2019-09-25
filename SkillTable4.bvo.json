@@ -7517,6 +7517,11 @@
       "5",
       "85"
     ],
+    "OperationDelayMs4": [
+      "0",
+      "0",
+      "100"
+    ],
     "OperationType6": "GetMana",
     "OperationTargetType6": "Parent",
     "OperationValue6": [
@@ -15692,23 +15697,52 @@
       "9819",
       "4"
     ],
-    "OperationType3": "ModSkillDisabled",
-    "OperationTargetType3": "Myself",
-    "OperationValue3": [
+    "OperationType4": "SetSkill",
+    "OperationTargetType4": "Myself",
+    "OperationValue4": [
       "9819",
-      "5"
+      "5",
+      "RadiusMm",
+      "0"
     ]
   },
   {
     "Index": 60009820,
-    "TriggerType": "OnStart",
+    "TriggerType": "OnWaveStart",
     "TriggerRatio": 1000,
     "AttrType": "None",
     "TargetType": "Myself",
     "TargetCount": 1,
     "DeadTarget": "False",
     "IgnoreBlock": "TRUE",
-    "RetargetOnFire": "False"
+    "RetargetOnFire": "False",
+    "OperationType1": "ModSkillPowerR",
+    "OperationTargetType1": "Myself",
+    "OperationValue1": [
+      "9824",
+      "1",
+      "300"
+    ],
+    "OperationState1": 60009820,
+    "OperationDurationMs1": 9999999,
+    "OperationType2": "ModSkillPowerR",
+    "OperationTargetType2": "Myself",
+    "OperationValue2": [
+      "9824",
+      "5",
+      "300"
+    ],
+    "OperationState2": "60009820_2",
+    "OperationDurationMs2": 9999999,
+    "OperationType3": "ModSkillPowerR",
+    "OperationTargetType3": "Myself",
+    "OperationValue3": [
+      "9824",
+      "6",
+      "300"
+    ],
+    "OperationState3": "60009820_3",
+    "OperationDurationMs3": 9999999
   },
   {
     "Index": 60009821,
@@ -15725,8 +15759,17 @@
     "OperationValue1": [
       "9820",
       "0",
-      "SkillMp",
-      "-1000"
+      "SkillCoolTimeMs",
+      "-4000"
+    ],
+    "OperationType2": "SetSkill",
+    "OperationTargetType2": "Myself",
+    "OperationValue2": [
+      "9845",
+      "2",
+      "Value",
+      "9810|9820|9830",
+      "0"
     ]
   },
   {
@@ -15812,6 +15855,184 @@
       "6",
       "Value",
       "150"
+    ]
+  },
+  {
+    "Index": 60004810,
+    "TriggerType": "OnStart",
+    "TriggerRatio": 1000,
+    "AttrType": "None",
+    "TargetType": "Myself",
+    "TargetCount": 1,
+    "DeadTarget": "False",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "FALSE",
+    "OperationType1": "ModSkill",
+    "OperationTargetType1": "Myself",
+    "OperationValue1": [
+      "4810",
+      "0",
+      "SkillMp",
+      "1000"
+    ],
+    "OperationType2": "ModSkillEnabled",
+    "OperationTargetType2": "Myself",
+    "OperationValue2": [
+      "4810",
+      "4"
+    ]
+  },
+  {
+    "Index": 60004811,
+    "TriggerType": "OnStart",
+    "TriggerRatio": 1000,
+    "AttrType": "None",
+    "TargetType": "Myself",
+    "TargetCount": 1,
+    "DeadTarget": "False",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "FALSE",
+    "OperationType1": "ModSkillEnabled",
+    "OperationTargetType1": "Myself",
+    "OperationValue1": [
+      "4810",
+      "5"
+    ],
+    "OperationType4": "SetSkill",
+    "OperationTargetType4": "Myself",
+    "OperationValue4": [
+      "9819",
+      "5",
+      "RadiusMm",
+      "0"
+    ]
+  },
+  {
+    "Index": 60004820,
+    "TriggerType": "OnWaveStart",
+    "TriggerRatio": 1000,
+    "AttrType": "None",
+    "TargetType": "Myself",
+    "TargetCount": 1,
+    "DeadTarget": "False",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "False",
+    "OperationType1": "ModSkillPowerR",
+    "OperationTargetType1": "Myself",
+    "OperationValue1": [
+      "9824",
+      "1",
+      "300"
+    ],
+    "OperationState1": 60009820,
+    "OperationDurationMs1": 9999999,
+    "OperationType2": "ModSkillPowerR",
+    "OperationTargetType2": "Myself",
+    "OperationValue2": [
+      "9824",
+      "5",
+      "300"
+    ],
+    "OperationState2": "60009820_2",
+    "OperationDurationMs2": 9999999,
+    "OperationType3": "ModSkillPowerR",
+    "OperationTargetType3": "Myself",
+    "OperationValue3": [
+      "9824",
+      "6",
+      "300"
+    ],
+    "OperationState3": "60009820_3",
+    "OperationDurationMs3": 9999999
+  },
+  {
+    "Index": 60004821,
+    "TriggerType": "OnStart",
+    "TriggerRatio": 1000,
+    "AttrType": "None",
+    "TargetType": "Myself",
+    "TargetCount": 1,
+    "DeadTarget": "False",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "FALSE"
+  },
+  {
+    "Index": 60004830,
+    "TriggerType": "OnStart",
+    "TriggerRatio": 1000,
+    "AttrType": "None",
+    "TargetType": "Myself",
+    "TargetCount": 1,
+    "DeadTarget": "False",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "FALSE",
+    "OperationType1": "SetSkill",
+    "OperationTargetType1": "Myself",
+    "OperationValue1": [
+      "4830",
+      "0",
+      "SkillTargetCount",
+      "6"
+    ],
+    "OperationType2": "ModSkill",
+    "OperationTargetType2": "Myself",
+    "OperationValue2": [
+      "9830",
+      "2",
+      "DurationMs",
+      "10000"
+    ]
+  },
+  {
+    "Index": 60004831,
+    "TriggerType": "OnStart",
+    "TriggerRatio": 1000,
+    "AttrType": "None",
+    "TargetType": "Myself",
+    "TargetCount": 1,
+    "DeadTarget": "False",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "FALSE",
+    "OperationType1": "ModSkill",
+    "OperationTargetType1": "Myself",
+    "OperationValue1": [
+      "4830",
+      "0",
+      "SkillCoolTimeMs",
+      "-4000"
+    ]
+  },
+  {
+    "Index": 60004840,
+    "TriggerType": "OnWaveStart",
+    "TriggerRatio": 1000,
+    "AttrType": "None",
+    "TargetType": "Myself",
+    "TargetCount": 1,
+    "DeadTarget": "False",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "FALSE",
+    "OperationType1": "GetMana",
+    "OperationTargetType1": "Myself",
+    "OperationValue1": [
+      "1000"
+    ]
+  },
+  {
+    "Index": 60004841,
+    "TriggerType": "OnStart",
+    "TriggerRatio": 1000,
+    "AttrType": "None",
+    "TargetType": "Myself",
+    "TargetCount": 1,
+    "DeadTarget": "False",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "FALSE",
+    "OperationType1": "ModSkillEnabled",
+    "OperationTargetType1": "Myself",
+    "OperationValue1": [
+      "4840",
+      "3"
     ]
   }
 ]

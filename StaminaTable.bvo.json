@@ -6,6 +6,7 @@
     "MaxCountType": "TeamLevelDataAndHeroCount",
     "MaxCountValue": "MaxStamina",
     "AllowOverflow": "True",
+    "AllowRoundOff": "True",
     "RegenTimeType": "TeamLevelData",
     "RegenTimeValue": "RechargeStaminaSec",
     "AutoRepeatStopMsgKey": "REPEATBATTLE_FAIL_STAMINA",
@@ -21,6 +22,7 @@
       "10"
     ],
     "AllowOverflow": "True",
+    "AllowRoundOff": "True",
     "RegenTimeType": "Fixed",
     "RegenTimeValue": 1800,
     "RechargeCostType": "Fixed",
@@ -42,6 +44,7 @@
       "3"
     ],
     "AllowOverflow": "True",
+    "AllowRoundOff": "True",
     "RechargeCostType": "Fixed",
     "RechargeGemValue": [
       "100",
@@ -66,6 +69,7 @@
       "3"
     ],
     "AllowOverflow": "True",
+    "AllowRoundOff": "True",
     "AutoRepeatStopMsgKey": "REPEATBATTLE_FAIL_LABYRINTHKEY",
     "HeroBonusTooltipDesc": "TooltipDesc_UndergroundLabyrinthKey"
   },
@@ -80,6 +84,7 @@
       "3"
     ],
     "AllowOverflow": "True",
+    "AllowRoundOff": "True",
     "RechargeCostType": "Fixed",
     "RechargeGemValue": [
       "100",
@@ -101,6 +106,7 @@
     "MaxCountType": "Fixed",
     "MaxCountValue": 5,
     "AllowOverflow": "True",
+    "AllowRoundOff": "True",
     "RegenTimeType": "Fixed",
     "RegenTimeValue": 7200,
     "AutoRepeatStopMsgKey": "REPEATBATTLE_FAIL_CHALLENGE",
@@ -117,6 +123,7 @@
       "2"
     ],
     "AllowOverflow": "True",
+    "AllowRoundOff": "True",
     "HeroBonusTooltipDesc": "TooltipDesc_GuildRaidTicket"
   },
   {
@@ -136,6 +143,7 @@
       "4"
     ],
     "AllowOverflow": "True",
+    "AllowRoundOff": "True",
     "HeroBonusTooltipDesc": "TooltipDesc_WorldBossTicket"
   },
   {
@@ -149,6 +157,7 @@
       "3"
     ],
     "AllowOverflow": "True",
+    "AllowRoundOff": "True",
     "AutoRepeatStopMsgKey": "AUTO_REPEAT_BATTLE.AUTO_REPEAT_BATTLE_FAILED_EVENT_MAX_COUNT",
     "HeroBonusTooltipDesc": "TooltipDesc_EventDungeonTicket"
   },
@@ -163,6 +172,7 @@
       "20"
     ],
     "AllowOverflow": "True",
+    "AllowRoundOff": "True",
     "UtcResetHour": [
       "9"
     ],
@@ -179,6 +189,7 @@
       "5"
     ],
     "AllowOverflow": "True",
+    "AllowRoundOff": "True",
     "RechargeCostType": "Fixed",
     "RechargeGemValue": [
       "100",
@@ -207,6 +218,7 @@
       "2"
     ],
     "AllowOverflow": "True",
+    "AllowRoundOff": "True",
     "HeroBonusTooltipDesc": "TooltipDesc_GuildSuppressKey"
   },
   {
@@ -219,6 +231,7 @@
       "1"
     ],
     "AllowOverflow": "True",
+    "AllowRoundOff": "True",
     "AutoRepeatStopMsgKey": "REPEATBATTLE_FAIL_TREASURE_HOUSE",
     "HeroBonusTooltipDesc": "TooltipDesc_TreasureHouseKey"
   },
@@ -239,6 +252,7 @@
       "2"
     ],
     "AllowOverflow": "True",
+    "AllowRoundOff": "True",
     "HeroBonusTooltipDesc": "TooltipDesc_EventWorldBossTicket"
   },
   {
@@ -258,6 +272,7 @@
       "2"
     ],
     "AllowOverflow": "True",
+    "AllowRoundOff": "True",
     "UtcResetHour": [
       "9"
     ],
@@ -272,6 +287,43 @@
     "ResetCount": [
       "3"
     ],
-    "AllowOverflow": "True"
+    "AllowOverflow": "True",
+    "AllowRoundOff": "True"
+  },
+  {
+    "StaminaType": "GodkingTrialKey",
+    "UpdateType": "Reset",
+    "ResetType": "InitWeekly",
+    "IsResetLimit": "True",
+    "ResetLimitCount": 1,
+    "AttributeName": "GodkingTrialKey",
+    "MaxCountType": "OverValueRemainMaxCount",
+    "MaxCountValue": 2,
+    "ResetCount": [
+      "1"
+    ],
+    "AllowOverflow": "True",
+    "AllowRoundOff": "True",
+    "RechargeCostType": "Fixed",
+    "RechargeGemValue": [
+      "1000"
+    ],
+    "ChangeReason": "RechargeGodkingTrialKey",
+    "PopupStringKey": "LIVING_DUNGEON_RUBY_POPUP",
+    "WeeklyReset": [
+      "1"
+    ]
+  },
+  {
+    "StaminaType": "EclipseKey",
+    "UpdateType": "None",
+    "AttributeName": "EclipseKey",
+    "MaxCountType": "Fixed",
+    "MaxCountValue": 3,
+    "ResetCount": [
+      "3"
+    ],
+    "AllowOverflow": "False",
+    "AllowRoundOff": "False"
   }
 ]

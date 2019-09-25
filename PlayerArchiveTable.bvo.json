@@ -166,7 +166,7 @@
   {
     "MainIndex": 10,
     "SubIndex": 7,
-    "ShowIndex": 8,
+    "ShowIndex": 10,
     "ArchiveMainType": "Monster",
     "StateType": "AddNewKillMonsterOfArchive",
     "StateValue": [
@@ -182,6 +182,28 @@
     "StateType": "AddNewKillMonsterOfArchive",
     "StateValue": [
       "GuildSuppress"
+    ],
+    "AchievementType": "TotalBossMonster"
+  },
+  {
+    "MainIndex": 10,
+    "SubIndex": 9,
+    "ShowIndex": 8,
+    "ArchiveMainType": "Monster",
+    "StateType": "AddNewKillMonsterOfArchive",
+    "StateValue": [
+      "GodkingTrial"
+    ],
+    "AchievementType": "TotalBossMonster"
+  },
+  {
+    "MainIndex": 10,
+    "SubIndex": 10,
+    "ShowIndex": 9,
+    "ArchiveMainType": "Monster",
+    "StateType": "AddNewKillMonsterOfArchive",
+    "StateValue": [
+      "Eclipse"
     ],
     "AchievementType": "TotalBossMonster"
   },
@@ -1969,7 +1991,9 @@
     "ConditionValue1": [
       "HeroEnhanceMaterial",
       "AwakeChallenge",
-      "UpgradeBook"
+      "UpgradeBook",
+      "Ether",
+      "SoulStone"
     ],
     "ConditionKey2": "IsArchive",
     "ConditionCompare2": "Equal",
@@ -2038,7 +2062,8 @@
     "ConditionValue1": [
       "Etc",
       "NPCFriendlyPoint",
-      "Enchant"
+      "Enchant",
+      "SoulMaterial"
     ],
     "ConditionKey2": "IsArchive",
     "ConditionCompare2": "Equal",

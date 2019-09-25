@@ -9421,7 +9421,7 @@
     "OperationValue1": [
       "100"
     ],
-    "OperationState1": "UniqueCassnadra",
+    "OperationState1": "UniqueCassandra",
     "OperationDurationMs1": 10000,
     "OperationConditionType1": "SkillLevel",
     "OperationConditionValue1": [
@@ -9432,7 +9432,7 @@
     "OperationValue2": [
       "120"
     ],
-    "OperationState2": "UniqueCassnadra",
+    "OperationState2": "UniqueCassandra",
     "OperationDurationMs2": 10000,
     "OperationConditionType2": "SkillLevel",
     "OperationConditionValue2": [
@@ -9443,7 +9443,7 @@
     "OperationValue3": [
       "140"
     ],
-    "OperationState3": "UniqueCassnadra",
+    "OperationState3": "UniqueCassandra",
     "OperationDurationMs3": 10000,
     "OperationConditionType3": "SkillLevel",
     "OperationConditionValue3": [
@@ -9454,7 +9454,7 @@
     "OperationValue4": [
       "170"
     ],
-    "OperationState4": "UniqueCassnadra",
+    "OperationState4": "UniqueCassandra",
     "OperationDurationMs4": 10000,
     "OperationConditionType4": "SkillLevel",
     "OperationConditionValue4": [
@@ -9465,7 +9465,7 @@
     "OperationValue5": [
       "210"
     ],
-    "OperationState5": "UniqueCassnadra",
+    "OperationState5": "UniqueCassandra",
     "OperationDurationMs5": 10000,
     "OperationConditionType5": "SkillLevel",
     "OperationConditionValue5": [
@@ -9476,7 +9476,7 @@
     "OperationValue6": [
       "250"
     ],
-    "OperationState6": "UniqueCassnadra",
+    "OperationState6": "UniqueCassandra",
     "OperationDurationMs6": 10000,
     "OperationConditionType6": "SkillLevel",
     "OperationConditionValue6": [
@@ -11565,6 +11565,7 @@
     "Index": 4540,
     "TriggerType": "OnWaveStart",
     "TriggerRatio": 1000,
+    "CoolTimeMs": 999999,
     "AttrType": "Physical",
     "IgnoreStateType": [
       "CC"
@@ -18077,7 +18078,8 @@
     "OperationTargetType1": "Target",
     "OperationValue1": [
       "5703",
-      "909"
+      "909",
+      "None"
     ],
     "OperationValueFactor1": [
       "0",
@@ -18340,7 +18342,21 @@
       "6530",
       "MirianneTarget"
     ],
-    "OperationDurationMs1": 9999999
+    "OperationDurationMs1": 9999999,
+    "OperationType2": "FilterTargetByState",
+    "OperationTargetType2": "Myself",
+    "OperationValue2": [
+      "93006500",
+      "MirianneTarget"
+    ],
+    "OperationDurationMs2": 9999999,
+    "OperationType3": "FilterTargetByState",
+    "OperationTargetType3": "Myself",
+    "OperationValue3": [
+      "93006511",
+      "MirianneTarget"
+    ],
+    "OperationDurationMs3": 9999999
   },
   {
     "Index": 6546,
@@ -23168,6 +23184,7 @@
     "DeadTarget": "False",
     "IgnoreBlock": "TRUE",
     "RetargetOnFire": "TRUE",
+    "TargetFlag": "FilterOnCheckOnly",
     "OperationType1": "GetPhysicalDamageR",
     "OperationTargetType1": "Target",
     "OperationValue1": [
@@ -23970,7 +23987,6 @@
     ],
     "OperationType2": "Silence",
     "OperationTargetType2": "Parent",
-    "OperationState2": "UniqueRequina",
     "OperationDurationMs2": 1000,
     "OperationParent2": 1,
     "OperationFlags2": [
@@ -23999,7 +24015,6 @@
     ],
     "OperationType2": "Silence",
     "OperationTargetType2": "Parent",
-    "OperationState2": "UniqueRequina",
     "OperationDurationMs2": 1000,
     "OperationParent2": 1,
     "OperationFlags2": [
@@ -24028,7 +24043,6 @@
     ],
     "OperationType2": "Silence",
     "OperationTargetType2": "Parent",
-    "OperationState2": "UniqueRequina",
     "OperationDurationMs2": 1000,
     "OperationParent2": 1,
     "OperationFlags2": [
@@ -24057,7 +24071,6 @@
     ],
     "OperationType2": "Silence",
     "OperationTargetType2": "Parent",
-    "OperationState2": "UniqueRequina",
     "OperationDurationMs2": 1000,
     "OperationParent2": 1,
     "OperationFlags2": [
@@ -24086,7 +24099,6 @@
     ],
     "OperationType2": "Silence",
     "OperationTargetType2": "Parent",
-    "OperationState2": "UniqueRequina",
     "OperationDurationMs2": 1000,
     "OperationParent2": 1,
     "OperationFlags2": [
@@ -24115,7 +24127,6 @@
     ],
     "OperationType2": "Silence",
     "OperationTargetType2": "Parent",
-    "OperationState2": "UniqueRequina",
     "OperationDurationMs2": 1000,
     "OperationParent2": 1,
     "OperationFlags2": [
@@ -30729,8 +30740,7 @@
     "OperationTargetType1": "Target",
     "OperationValue1": [
       "-100"
-    ],
-    "OperationState1": 91009440
+    ]
   },
   {
     "Index": 90000940,
@@ -35220,7 +35230,7 @@
       "IsPositive",
       "True"
     ],
-    "OperationDurationMs3": 500,
+    "OperationDurationMs3": 1000,
     "OperationType4": "Dispel",
     "OperationTargetType4": "Target"
   },
@@ -35666,14 +35676,11 @@
   {
     "Index": 7844,
     "TriggerType": "OnWaveStart",
-    "TriggerValue": [
-      "0",
-      "1"
-    ],
     "TriggerRatio": 1000,
     "TriggerFlag": [
       "UpdateSkillCondition"
     ],
+    "CoolTimeMs": 99999999,
     "AttrType": "Magical",
     "TargetType": "Myself",
     "TargetCount": 1,

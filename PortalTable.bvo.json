@@ -1047,8 +1047,8 @@
     "ChapterIndex": 6,
     "DungeonIndex": 1,
     "Name": "MAP_HALLA_DESERT",
-    "PositionX": 1460,
-    "PositionY": 1180,
+    "PositionX": 1585,
+    "PositionY": 1044,
     "ImagePath": "Portal/LandMark/Ch6_LandMark_Image",
     "PopupImagePath": "Portal/LastPosition/LastPosition_Chpter_6",
     "Condition": [
@@ -1057,6 +1057,21 @@
       "21"
     ],
     "OpenEffectPortalIndex": 10
+  },
+  {
+    "ChapterIndex": 6,
+    "DungeonIndex": 31,
+    "Name": "SOULWEAPON_UI_GODKINGTEMPLE",
+    "PositionX": 1455,
+    "PositionY": 1277,
+    "ImagePath": "Portal/LandMark/Ch6.5_LandMark_Image",
+    "PopupImagePath": "Portal/LastPosition/LastPosition_Chpter_6.5",
+    "Condition": [
+      "ClearDungeon",
+      "65",
+      "11"
+    ],
+    "OpenEffectPortalIndex": 11
   },
   {
     "ChapterIndex": 7,
@@ -1071,7 +1086,7 @@
       "6",
       "21"
     ],
-    "OpenEffectPortalIndex": 11
+    "OpenEffectPortalIndex": 12
   },
   {
     "ChapterIndex": 8,
@@ -1086,7 +1101,7 @@
       "7",
       "12"
     ],
-    "OpenEffectPortalIndex": 12
+    "OpenEffectPortalIndex": 13
   },
   {
     "ChapterIndex": 9,
@@ -1101,7 +1116,7 @@
       "8",
       "26"
     ],
-    "OpenEffectPortalIndex": 13
+    "OpenEffectPortalIndex": 14
   },
   {
     "ChapterIndex": 9,
@@ -1116,7 +1131,7 @@
       "9",
       "23"
     ],
-    "OpenEffectPortalIndex": 14
+    "OpenEffectPortalIndex": 15
   },
   {
     "ChapterIndex": 4001,
@@ -1249,5 +1264,29 @@
     "ImagePath": "Portal/NameTag/AdventureNoticeTitle_TreasureHouse",
     "PopupImagePath": "Portal/PopupImage/Ch6_TreasureHouse",
     "AdventureNoticeCode": "AdventureNotice_TreasureHouse"
+  },
+  {
+    "ChapterIndex": 10000,
+    "DungeonIndex": 1,
+    "Name": "SOULWEAPON_AREA_GODKINGTRIAL_NAME",
+    "ParentNode": [
+      "100",
+      "4"
+    ],
+    "ImagePath": "Portal/NameTag/AdventureNoticeTitle_GodKingTrial",
+    "PopupImagePath": "Portal/PopupImage/Dungeon_GodKingTrial",
+    "AdventureNoticeCode": "AdventureNotice_GodkingTrial"
+  },
+  {
+    "ChapterIndex": 8201,
+    "DungeonIndex": 1,
+    "Name": "CONTENT_ECLIPSE",
+    "ParentNode": [
+      "100",
+      "4"
+    ],
+    "ImagePath": "Portal/NameTag/AdventureNoticeTitle_Eclipse",
+    "PopupImagePath": "Portal/PopupImage/Dungeon_Eclipse",
+    "AdventureNoticeCode": "AdventureNotice_Eclipse"
   }
 ]

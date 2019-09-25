@@ -5378,10 +5378,6 @@
     "Index": 60009851,
     "TriggerType": "OnWaveStart",
     "TriggerRatio": 1000,
-    "TriggerFlag": [
-      "UpdateSkillCondition"
-    ],
-    "ReqHpRatio": 200,
     "TargetType": "Myself",
     "TargetCount": 1,
     "DeadTarget": "False",
@@ -5395,16 +5391,30 @@
     ],
     "OperationState1": 60009851,
     "OperationDurationMs1": 20000,
-    "OperationType2": "ModMaxHpR",
+    "OperationType2": "ModToughness",
     "OperationTargetType2": "Myself",
     "OperationRadiusMm2": 50000,
     "OperationValue2": [
       "300"
     ],
-    "OperationState2": "60009851_2",
+    "OperationDelayMs2": [
+      "100",
+      "0",
+      "0"
+    ],
+    "OperationState2": "60009851_3",
     "OperationDurationMs2": 20000,
+    "OperationConditionType2": "State",
+    "OperationConditionValue2": [
+      "60009851_2"
+    ],
     "OperationFlags2": [
-      "Disabled"
+      "CheckConditionOnBegin"
+    ],
+    "OperationType3": "UseSkill",
+    "OperationTargetType3": "Myself",
+    "OperationValue3": [
+      "9849"
     ]
   }
 ]

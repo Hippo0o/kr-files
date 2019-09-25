@@ -311,6 +311,36 @@
     "DisplayType": "EquipStar"
   },
   {
+    "Index": 301,
+    "Category": "Item",
+    "Title": "SOULWEAPON_PLAYRECORD_AWAKE",
+    "ActionType": "AddSoulWeapon",
+    "ActionCalculateType": "Sum",
+    "ActionValueAttribute": 1,
+    "DisplayType": "ActionCount"
+  },
+  {
+    "Index": 302,
+    "Category": "Item",
+    "Title": "SOULWEAPON_PLAYRECORD_UPGRADE",
+    "ActionType": "UpgradeSoulWeapon",
+    "ActionCalculateType": "Max",
+    "ActionValueAttribute": "NewGrade"
+  },
+  {
+    "Index": 303,
+    "Category": "Item",
+    "Title": "SOULWEAPON_PLAYRECORD_REINFORCE",
+    "ActionType": "ReinforceSoulWeapon",
+    "ActionCalculateType": "Max",
+    "ActionValueAttribute": "NewReinforce",
+    "ConditionKey1": "Success",
+    "ConditionCompare1": "Equal",
+    "ConditionValue1": [
+      "True"
+    ]
+  },
+  {
     "Index": 401,
     "Category": "Arena",
     "SubCategoryTitle": "PLAY_RECORDS_VICTORY",
@@ -575,5 +605,13 @@
       "Prison"
     ],
     "DisplayType": "ActionCount"
+  },
+  {
+    "Index": 626,
+    "Category": "Battle",
+    "Title": "PLAY_RECORDS_ECLIPSE_MAX_WAVE_CLEAR",
+    "ActionType": "EndEclipse",
+    "ActionCalculateType": "Max",
+    "ActionValueAttribute": "WaveIndex"
   }
 ]

@@ -1022,6 +1022,43 @@
     "OperationDurationMs4": 9999999
   },
   {
+    "Index": 880176,
+    "TriggerType": "OnWaveStart",
+    "AttrType": "Magical",
+    "IgnoreStateType": [
+      "CC",
+      "RaidDown"
+    ],
+    "TargetType": "Enemy",
+    "DeadTarget": "False",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "False",
+    "OperationType1": "ModSkillPowerR",
+    "OperationTargetType1": "Target",
+    "OperationValue1": [
+      "5235",
+      "1",
+      "-500"
+    ],
+    "OperationDurationMs1": 9999999,
+    "OperationType2": "ModSkillPowerR",
+    "OperationTargetType2": "Target",
+    "OperationValue2": [
+      "5235",
+      "2",
+      "-500"
+    ],
+    "OperationDurationMs2": 9999999,
+    "OperationType3": "ModSkillPowerR",
+    "OperationTargetType3": "Target",
+    "OperationValue3": [
+      "5235",
+      "3",
+      "-500"
+    ],
+    "OperationDurationMs3": 9999999
+  },
+  {
     "Index": 880210,
     "TriggerType": "OnTimer",
     "TriggerValue": [
@@ -2343,5 +2380,20 @@
       "100"
     ],
     "OperationState1": "Hanus_Buff"
+  },
+  {
+    "Index": 70000132,
+    "TriggerType": "OnStart",
+    "TriggerRatio": 1000,
+    "TargetType": "Myself",
+    "TargetCount": 1,
+    "DeadTarget": "False",
+    "IgnoreBlock": "True",
+    "RetargetOnFire": "False",
+    "OperationType1": "ModPowerR",
+    "OperationTargetType1": "Myself",
+    "OperationValue1": [
+      "200"
+    ]
   }
 ]

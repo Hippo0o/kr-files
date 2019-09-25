@@ -177,6 +177,40 @@
     "TutorialIndex": 9400,
     "DisableText": "TREASUREHOUSE_DISABLE_DES_2",
     "NodeChapterIndex": 6,
-    "NodeDungeonIndex": 27
+    "NodeDungeonIndex": 11
+  },
+  {
+    "Code": "AdventureNotice_GodkingTrial",
+    "Action": [
+      "OpenGodkingTrial"
+    ],
+    "StaminaType": "GodkingTrialKey",
+    "OpenCondition": [
+      "System",
+      " CanGoDungeon",
+      "6",
+      "31"
+    ],
+    "TutorialIndex": 65027,
+    "DisableText": "SOULWEAPON_UI_QUICKMENU_DESC",
+    "NodeChapterIndex": 6,
+    "NodeDungeonIndex": 31
+  },
+  {
+    "Code": "AdventureNotice_Eclipse",
+    "Action": [
+      "OpenEclipse"
+    ],
+    "StaminaType": "EclipseKey",
+    "OpenCondition": [
+      "System",
+      " CanGoDungeon",
+      "6",
+      "31"
+    ],
+    "TutorialIndex": 65027,
+    "DisableText": "SOULWEAPON_UI_QUICKMENU_DESC",
+    "NodeChapterIndex": 6,
+    "NodeDungeonIndex": 31
   }
 ]
