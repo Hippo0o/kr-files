@@ -1,83 +1,298 @@
-KEY,"Vietnamese"
-SKILL_NAME_7510,"Lệnh phán quyết "
-SKILL_NAME_7511,"Lệnh phán quyết II"
-SKILL_NAME_7512,"Lệnh phán quyết III"
-SKILL_NAME_7513,"Lệnh phán quyết IV"
-SKILL_NAME_7520,"Mượn sức mạnh"
-SKILL_NAME_7521,"Mượn sức mạnh II"
-SKILL_NAME_7522,"Mượn sức mạnh III"
-SKILL_NAME_7523,"Mượn sức mạnh IV"
-SKILL_NAME_7530,"Chấm dứt nỗi đau"
-SKILL_NAME_7531,"Chấm dứt nỗi đau II"
-SKILL_NAME_7532,"Chấm dứt nỗi đau III"
-SKILL_NAME_7533,"Chấm dứt nỗi đau IV"
-SKILL_NAME_7540,"Sức mạnh tổ tiên"
-SKILL_NAME_7541,"Sức mạnh tổ tiên II"
-SKILL_NAME_7542,"Sức mạnh tổ tiên III"
-SKILL_NAME_7543,"Sức mạnh tổ tiên IV"
-SKILL_NAME_60007510,"Lệnh phán quyết [Ánh sáng]"
-SKILL_NAME_60007511,"Lệnh phán quyết [Bóng tối]"
-SKILL_NAME_60007520,"Mượn sức mạnh [Ánh sáng]"
-SKILL_NAME_60007521,"Mượn sức mạnh [Bóng tối]"
-SKILL_NAME_60007530,"Chấm dứt nỗi đau [Ánh sáng]"
-SKILL_NAME_60007531,"Chấm dứt nỗi đau [Bóng tối]"
-SKILL_NAME_60007540,"Sức mạnh tổ tiên [Ánh sáng]"
-SKILL_NAME_60007541,"Sức mạnh tổ tiên [Bóng tối]"
-SKILL_NAME_60007550,"Dakaris [Ánh sáng]"
-SKILL_NAME_60007551,"Dakaris [Bóng tối]"
-SKILL_DESC_7510,"Tấn công kẻ địch và phạm vi xung quanh, gây [ffc800]{1}[-] sát thương phép thuật, làm choáng kẻ địch trong [64ffff]{2}[-] giây và hồi phục [ffc800]{3}[-] thể lực cho đồng đội trong phạm vi. Khi tiến đánh, thời gian đợi hồi chiêu [Mượn sức mạnh] sẽ được đặt lại. Thời gian đợi hồi chiều sẽ không bị phát sinh cho tới khi dùng hết 3 lần chiêu này."
-SKILL_DESC_7511,"Tăng [64ff64]{1}[-]% sát thương."
-SKILL_DESC_7512,"Tăng [64ff64]{1}[-]% sát thương."
-SKILL_DESC_7513,"Tăng [64ff64]{1}[-]% sát thương."
-SKILL_DESC_7520,"Hồi phục [ffc800]{2}[-] máu cho bản thân, {3} điểm mana và tăng [64ff64]{4}[-] lực tấn công trong [64ffff]{1}[-] giây. Ngăn [ffc800]{5}[-] sát thương và tạo màng bảo vệ miễn nhiễm trạng thái chế ngự trong [64ff64]{6}[-]giây nếu máu đầy khi tiến đánh. Khi đồng đội còn dưới 3 người thì hiệu quả được áp dụng cho tất cả đồng đội."
-SKILL_DESC_7521,"Tăng [64ff64]{1}[-]% lượng tăng lực tấn công."
-SKILL_DESC_7522,"Tăng [64ff64]{1}[-]% lượng tăng lực tấn công."
-SKILL_DESC_7523,"Tăng [64ff64]{1}[-]% lượng tăng lực tấn công."
+KEY,Vietnamese
+SKILL_NAME_7510,Lệnh phán quyết
+SKILL_NAME_7511,Lệnh phán quyết II
+SKILL_NAME_7512,Lệnh phán quyết III
+SKILL_NAME_7513,Lệnh phán quyết IV
+SKILL_NAME_7520,Mượn sức mạnh
+SKILL_NAME_7521,Mượn sức mạnh II
+SKILL_NAME_7522,Mượn sức mạnh III
+SKILL_NAME_7523,Mượn sức mạnh IV
+SKILL_NAME_7530,Chấm dứt nỗi đau
+SKILL_NAME_7531,Chấm dứt nỗi đau II
+SKILL_NAME_7532,Chấm dứt nỗi đau III
+SKILL_NAME_7533,Chấm dứt nỗi đau IV
+SKILL_NAME_7540,Sức mạnh tổ tiên
+SKILL_NAME_7541,Sức mạnh tổ tiên II
+SKILL_NAME_7542,Sức mạnh tổ tiên III
+SKILL_NAME_7543,Sức mạnh tổ tiên IV
+SKILL_NAME_60007510,Lệnh phán quyết [Ánh sáng]
+SKILL_NAME_60007511,Lệnh phán quyết [Bóng tối]
+SKILL_NAME_60007520,Mượn sức mạnh [Ánh sáng]
+SKILL_NAME_60007521,Mượn sức mạnh [Bóng tối]
+SKILL_NAME_60007530,Chấm dứt nỗi đau [Ánh sáng]
+SKILL_NAME_60007531,Chấm dứt nỗi đau [Bóng tối]
+SKILL_NAME_60007540,Sức mạnh tổ tiên [Ánh sáng]
+SKILL_NAME_60007541,Sức mạnh tổ tiên [Bóng tối]
+SKILL_NAME_60007550,Dakaris [Ánh sáng]
+SKILL_NAME_60007551,Dakaris [Bóng tối]
+SKILL_DESC_7510,"Tấn công kẻ địch và phạm vi xung quanh, gây [ffc800]{1}[-] sát thương phép thuật, làm choáng kẻ địch trong [64ffff]{2}[-] giây và hồi phục [ffc800]{3}[-] thể lực cho đồng đội trong phạm vi. Khi sử dụng 'Mượn sức mạnh', thời gian đợi hồi chiêu chiêu này sẽ được đặt lại và thời gian đợi hồi chiều sẽ không bị phát sinh cho tới khi dùng hết 3 lần chiêu này."
+SKILL_DESC_7511,Tăng [64ff64]{1}[-]% sát thương.
+SKILL_DESC_7512,Tăng [64ff64]{1}[-]% sát thương.
+SKILL_DESC_7513,Tăng [64ff64]{1}[-]% sát thương.
+SKILL_DESC_7520,"Hồi phục [ffc800]{2}[-] máu cho bản thân, {3} điểm mana và tăng [64ff64]{4}[-] lực tấn công trong [64ffff]{1}[-] giây. Ngăn [ffc800]{5}[-] sát thương và tạo màng bảo vệ miễn nhiễm trạng thái chế ngự trong [64ff64]{6}[-] giây nếu máu đầy khi tiến đánh. Khi đồng đội còn dưới 3 người thì hiệu quả được áp dụng cho tất cả đồng đội."
+SKILL_DESC_7521,Tăng [64ff64]{1}[-]% lượng tăng lực tấn công.
+SKILL_DESC_7522,Tăng [64ff64]{1}[-]% lượng tăng lực tấn công.
+SKILL_DESC_7523,Tăng [64ff64]{1}[-]% lượng tăng lực tấn công.
 SKILL_DESC_7530,"Tấn công kẻ địch ngẫu nhiên 5 lần, gây tổng [ffc800]{1}[-] sát thương phép thuật. Khi đối thủ không phải là anh hùng, gây thêm [ffc800]{2}[-] sát thương phép thuật. Ưu tiên tấn công kẻ địch có lực tấn công cao nhất khi bản thân đang trong trạng thái 'Mượn sức mạnh'."
-SKILL_DESC_7531,"Tăng [64ff64]{1}[-]% sát thương."
-SKILL_DESC_7532,"Tăng [64ff64]{1}[-]% sát thương."
-SKILL_DESC_7533,"Tăng [64ff64]{1}[-]% sát thương."
+SKILL_DESC_7531,Tăng [64ff64]{1}[-]% sát thương.
+SKILL_DESC_7532,Tăng [64ff64]{1}[-]% sát thương.
+SKILL_DESC_7533,Tăng [64ff64]{1}[-]% sát thương.
 SKILL_DESC_7540,"Khi máu của bản thân đầy, sẽ tăng [64ff64]{1}[-] lực tấn công. Khi máu ở trạng thái không đầy, sẽ hồi phục [ffc800]{2}[-] máu mỗi giây. Khi bị tấn công liên tục tới chết, sẽ giúp ngăn [ffc800]{3}[-] sát thương cho bản thân, sử dụng hết mana để tạo màng bảo vệ miễn nhiễm trạng thái chế ngự trong [64ff64]{4}[-] giây. Không thể hồi phục mana khi màng bảo vệ đang được duy trì."
-SKILL_DESC_7541,"Tăng [64ff64]{1}[-]% lượng tăng lực tấn công."
-SKILL_DESC_7542,"Tăng [64ff64]{1}[-]% lượng tăng lực tấn công."
-SKILL_DESC_7543,"Tăng [64ff64]{1}[-]% lượng tăng lực tấn công."
-SKILL_DESC_60007510,"Tăng 1 giây thời gian kéo dài hiệu ứng choáng."
-SKILL_DESC_60007511,"Giảm 1 điểm tiêu hao mana."
-SKILL_DESC_60007520,"Tăng 500 tốc độ tấn công của bản thân khi tiến đánh."
-SKILL_DESC_60007521,"Tăng 5 giây thời gian kéo dài hiệu ứng màng bảo vệ."
-SKILL_DESC_60007530,"Miễn nhiễm trạng thái chế ngự trong khi sử dụng."
-SKILL_DESC_60007531,"Tăng 40% sát thương."
-SKILL_DESC_60007540,"Tăng 100% lượng hồi phục."
-SKILL_DESC_60007541,"Hồi phục 300 mana mỗi giây khi máu bản thân đầy."
+SKILL_DESC_7541,Tăng [64ff64]{1}[-]% lượng tăng lực tấn công.
+SKILL_DESC_7542,Tăng [64ff64]{1}[-]% lượng tăng lực tấn công.
+SKILL_DESC_7543,Tăng [64ff64]{1}[-]% lượng tăng lực tấn công.
+SKILL_DESC_60007510,Tăng 1 giây thời gian kéo dài hiệu ứng choáng.
+SKILL_DESC_60007511,Giảm 1 điểm tiêu hao mana.
+SKILL_DESC_60007520,Tăng 500 tốc độ tấn công của bản thân khi tiến đánh.
+SKILL_DESC_60007521,Tăng 5 giây thời gian kéo dài hiệu ứng màng bảo vệ.
+SKILL_DESC_60007530,Miễn nhiễm trạng thái chế ngự trong khi sử dụng.
+SKILL_DESC_60007531,Tăng 40% sát thương.
+SKILL_DESC_60007540,Tăng 100% lượng hồi phục.
+SKILL_DESC_60007541,Hồi phục 300 mana mỗi giây khi máu bản thân đầy.
 SKILL_DESC_60007550,"Lực tấn công, lực phòng thủ, máu +15%/ Tỉ lệ trúng đòn chí mạng +100."
-SKILL_DESC_60007551,"Nhận [Lời khuyên của tổ tiên] giúp tăng 200 lực kháng trạng thái chế ngự của bản thân  trong 5 giây khi bắt đầu trận đầu tiên. Sau 5 giây, nếu [Lời khuyên của tổ tiên] vẫn còn tác dụng thì sẽ loại bỏ hiệu ứng có hại cho 3 đồng đội ngẫu nhiên và tăng 50% lực phòng thủ trong 10 giây. Không thể hủy hiệu quả tăng lực phòng thủ."
-SKILL_DESC_90000750,"Giảm 10% sát thương dính đòn cho bản thân và tăng 100 lực kháng cự trạng thái chế ngự. Tăng hiệu quả lên gấp đôi trong 2 giây sau khi sử dụng kỹ năng."
-SKILL_DESC_90000751,"Giảm 12% sát thương dính đòn cho bản thân và tăng 120 lực kháng cự trạng thái chế ngự. Tăng hiệu quả lên gấp đôi trong 2 giây sau khi sử dụng kỹ năng."
-SKILL_DESC_90000752,"Giảm 14% sát thương dính đòn cho bản thân và tăng 140 lực kháng cự trạng thái chế ngự. Tăng hiệu quả lên gấp đôi trong 2 giây sau khi sử dụng kỹ năng."
-SKILL_DESC_90000753,"Giảm 17% sát thương dính đòn cho bản thân và tăng 170 lực kháng cự trạng thái chế ngự. Tăng hiệu quả lên gấp đôi trong 2 giây sau khi sử dụng kỹ năng."
-SKILL_DESC_90000754,"Giảm 21% sát thương dính đòn cho bản thân và tăng 210 lực kháng cự trạng thái chế ngự. Tăng hiệu quả lên gấp đôi trong 2 giây sau khi sử dụng kỹ năng."
-SKILL_DESC_90000755,"Giảm 25% sát thương dính đòn cho bản thân và tăng 250 lực kháng cự trạng thái chế ngự. Tăng hiệu quả lên gấp đôi trong 2 giây sau khi sử dụng kỹ năng."
-SKILL_DESC_91007510,"Tăng 50% sát thương của 'Lệnh phán quyết', hồi phục thêm 1% máu trên tổng lượng máu đang có cho đồng đội được hồi phục."
-SKILL_DESC_91007511,"Tăng 50% sát thương của 'Lệnh phán quyết', hồi phục thêm 1,2% máu trên tổng lượng máu đang có cho đồng đội được hồi phục."
-SKILL_DESC_91007512,"Tăng 50% sát thương của 'Lệnh phán quyết', hồi phục thêm 1,4% máu trên tổng lượng máu đang có cho đồng đội được hồi phục."
-SKILL_DESC_91007513,"Tăng 50% sát thương của 'Lệnh phán quyết', hồi phục thêm 1,7% máu trên tổng lượng máu đang có cho đồng đội được hồi phục."
-SKILL_DESC_91007514,"Tăng 50% sát thương của 'Lệnh phán quyết', hồi phục thêm 2,1% máu trên tổng lượng máu đang có cho đồng đội được hồi phục."
-SKILL_DESC_91007515,"Tăng 50% sát thương của 'Lệnh phán quyết', hồi phục thêm 2,5% máu trên tổng lượng máu đang có cho đồng đội được hồi phục."
-SKILL_DESC_91007520,"Giảm 5 giây thời gian đợi hồi chiêu 'Mượn sức mạnh' và tăng 20% lực hồi máu và hồi mana."
-SKILL_DESC_91007521,"Giảm 5 giây thời gian đợi hồi chiêu 'Mượn sức mạnh' và tăng 24% lực hồi máu và hồi mana."
-SKILL_DESC_91007522,"Giảm 5 giây thời gian đợi hồi chiêu 'Mượn sức mạnh' và tăng 29% lực hồi máu và hồi mana."
-SKILL_DESC_91007523,"Giảm 5 giây thời gian đợi hồi chiêu 'Mượn sức mạnh' và tăng 35% lực hồi máu và hồi mana."
-SKILL_DESC_91007524,"Giảm 5 giây thời gian đợi hồi chiêu 'Mượn sức mạnh' và tăng 42% lực hồi máu và hồi mana."
-SKILL_DESC_91007525,"Giảm 5 giây thời gian đợi hồi chiêu 'Mượn sức mạnh' và tăng 50% lực hồi máu và hồi mana."
-SKILL_DESC_91007530,"Tăng 20% sát thương của 'Chấm dứt nỗi đau'. Khi quân địch bị giết kỹ năng sẽ được sử dụng lại 1 lần."
-SKILL_DESC_91007531,"Tăng 24% sát thương của 'Chấm dứt nỗi đau'. Khi quân địch bị giết kỹ năng sẽ được sử dụng lại 1 lần."
-SKILL_DESC_91007532,"Tăng 29% sát thương của 'Chấm dứt nỗi đau'. Khi quân địch bị giết kỹ năng sẽ được sử dụng lại 1 lần."
-SKILL_DESC_91007533,"Tăng 35% sát thương của 'Chấm dứt nỗi đau'. Khi quân địch bị giết kỹ năng sẽ được sử dụng lại 1 lần."
-SKILL_DESC_91007534,"Tăng 42% sát thương của 'Chấm dứt nỗi đau'. Khi quân địch bị giết kỹ năng sẽ được sử dụng lại 1 lần."
-SKILL_DESC_91007535,"Tăng 50% sát thương của 'Chấm dứt nỗi đau'. Khi quân địch bị giết kỹ năng sẽ được sử dụng lại 1 lần."
-SKILL_DESC_91007540,"Tăng 20% màng bảo vệ 'Sức mạnh tổ tiên' và bảo vệ cho tất cả đồng đội."
-SKILL_DESC_91007541,"Tăng 24% màng bảo vệ 'Sức mạnh tổ tiên' và bảo vệ cho tất cả đồng đội."
-SKILL_DESC_91007542,"Tăng 29% màng bảo vệ 'Sức mạnh tổ tiên' và bảo vệ cho tất cả đồng đội."
-SKILL_DESC_91007543,"Tăng 35% màng bảo vệ 'Sức mạnh tổ tiên' và bảo vệ cho tất cả đồng đội."
-SKILL_DESC_91007544,"Tăng 42% màng bảo vệ 'Sức mạnh tổ tiên' và bảo vệ cho tất cả đồng đội."
-SKILL_DESC_91007545,"Tăng 50% màng bảo vệ 'Sức mạnh tổ tiên' và bảo vệ cho tất cả đồng đội."
+SKILL_DESC_60007551,"Nhận 'Lời khuyên của tổ tiên' giúp tăng 200 lực kháng trạng thái chế ngự của bản thân trong 5 giây khi bắt đầu trận đầu tiên. Sau 5 giây, nếu 'Lời khuyên của tổ tiên' vẫn còn tác dụng thì sẽ loại bỏ hiệu ứng có hại cho 3 đồng đội ngẫu nhiên và tăng 50% lực phòng thủ trong 10 giây. Không thể hủy hiệu quả tăng lực phòng thủ."
+SKILL_DESC_90000750,Giảm 10% sát thương dính đòn cho bản thân và tăng 100 lực kháng cự trạng thái chế ngự. Tăng hiệu quả lên gấp đôi trong 2 giây sau khi sử dụng kỹ năng.
+SKILL_DESC_90000751,Giảm 12% sát thương dính đòn cho bản thân và tăng 120 lực kháng cự trạng thái chế ngự. Tăng hiệu quả lên gấp đôi trong 2 giây sau khi sử dụng kỹ năng.
+SKILL_DESC_90000752,Giảm 14% sát thương dính đòn cho bản thân và tăng 140 lực kháng cự trạng thái chế ngự. Tăng hiệu quả lên gấp đôi trong 2 giây sau khi sử dụng kỹ năng.
+SKILL_DESC_90000753,Giảm 17% sát thương dính đòn cho bản thân và tăng 170 lực kháng cự trạng thái chế ngự. Tăng hiệu quả lên gấp đôi trong 2 giây sau khi sử dụng kỹ năng.
+SKILL_DESC_90000754,Giảm 21% sát thương dính đòn cho bản thân và tăng 210 lực kháng cự trạng thái chế ngự. Tăng hiệu quả lên gấp đôi trong 2 giây sau khi sử dụng kỹ năng.
+SKILL_DESC_90000755,Giảm 25% sát thương dính đòn cho bản thân và tăng 250 lực kháng cự trạng thái chế ngự. Tăng hiệu quả lên gấp đôi trong 2 giây sau khi sử dụng kỹ năng.
+SKILL_DESC_91007510,"[Lệnh phán quyết]\nTăng 50% sát thương, hồi phục thêm 1% máu trên tổng lượng máu đang có cho đồng đội được hồi phục."
+SKILL_DESC_91007511,"[Lệnh phán quyết]\nTăng 50% sát thương, hồi phục thêm 1,2% máu trên tổng lượng máu đang có cho đồng đội được hồi phục."
+SKILL_DESC_91007512,"[Lệnh phán quyết]\nTăng 50% sát thương, hồi phục thêm 1,4% máu trên tổng lượng máu đang có cho đồng đội được hồi phục."
+SKILL_DESC_91007513,"[Lệnh phán quyết]\nTăng 50% sát thương, hồi phục thêm 1,7% máu trên tổng lượng máu đang có cho đồng đội được hồi phục."
+SKILL_DESC_91007514,"[Lệnh phán quyết]\nTăng 50% sát thương, hồi phục thêm 2,1% máu trên tổng lượng máu đang có cho đồng đội được hồi phục."
+SKILL_DESC_91007515,"[Lệnh phán quyết]\nTăng 50% sát thương, hồi phục thêm 2,5% máu trên tổng lượng máu đang có cho đồng đội được hồi phục."
+SKILL_DESC_91007520,[Mượn sức mạnh]\nGiảm 5 giây thời gian đợi hồi chiêu và tăng 20% lực hồi máu và hồi mana.
+SKILL_DESC_91007521,[Mượn sức mạnh]\nGiảm 5 giây thời gian đợi hồi chiêu và tăng 24% lực hồi máu và hồi mana.
+SKILL_DESC_91007522,[Mượn sức mạnh]\nGiảm 5 giây thời gian đợi hồi chiêu và tăng 29% lực hồi máu và hồi mana.
+SKILL_DESC_91007523,[Mượn sức mạnh]\nGiảm 5 giây thời gian đợi hồi chiêu và tăng 35% lực hồi máu và hồi mana.
+SKILL_DESC_91007524,[Mượn sức mạnh]\nGiảm 5 giây thời gian đợi hồi chiêu và tăng 42% lực hồi máu và hồi mana.
+SKILL_DESC_91007525,[Mượn sức mạnh]\nGiảm 5 giây thời gian đợi hồi chiêu và tăng 50% lực hồi máu và hồi mana.
+SKILL_DESC_91007530,[Chấm dứt nỗi đau]\nTăng 20% sát thương. Khi quân địch bị giết kỹ năng sẽ được sử dụng lại 1 lần.
+SKILL_DESC_91007531,[Chấm dứt nỗi đau]\nTăng 24% sát thương. Khi quân địch bị giết kỹ năng sẽ được sử dụng lại 1 lần.
+SKILL_DESC_91007532,[Chấm dứt nỗi đau]\nTăng 29% sát thương. Khi quân địch bị giết kỹ năng sẽ được sử dụng lại 1 lần.
+SKILL_DESC_91007533,[Chấm dứt nỗi đau]\nTăng 35% sát thương. Khi quân địch bị giết kỹ năng sẽ được sử dụng lại 1 lần.
+SKILL_DESC_91007534,[Chấm dứt nỗi đau]\nTăng 42% sát thương. Khi quân địch bị giết kỹ năng sẽ được sử dụng lại 1 lần.
+SKILL_DESC_91007535,[Chấm dứt nỗi đau]\nTăng 50% sát thương. Khi quân địch bị giết kỹ năng sẽ được sử dụng lại 1 lần.
+SKILL_DESC_91007540,[Sức mạnh tổ tiên]\nTăng 20% lượng màng bảo vệ và bảo vệ cho tất cả đồng đội.
+SKILL_DESC_91007541,[Sức mạnh tổ tiên]\nTăng 24% lượng màng bảo vệ và bảo vệ cho tất cả đồng đội.
+SKILL_DESC_91007542,[Sức mạnh tổ tiên]\nTăng 29% lượng màng bảo vệ và bảo vệ cho tất cả đồng đội.
+SKILL_DESC_91007543,[Sức mạnh tổ tiên]\nTăng 35% lượng màng bảo vệ và bảo vệ cho tất cả đồng đội.
+SKILL_DESC_91007544,[Sức mạnh tổ tiên]\nTăng 42% lượng màng bảo vệ và bảo vệ cho tất cả đồng đội.
+SKILL_DESC_91007545,[Sức mạnh tổ tiên]\nTăng 50% lượng màng bảo vệ và bảo vệ cho tất cả đồng đội.
+SKILL_NAME_7110,"Chém hạ, lưỡi đao phán quyết"
+SKILL_NAME_7111,"Chém hạ, lưỡi đao phán quyết II"
+SKILL_NAME_7112,"Chém hạ, lưỡi đao phán quyết III"
+SKILL_NAME_7113,"Chém hạ, lưỡi đao phán quyết IV"
+SKILL_NAME_7120,Tinh thể sương mù giăng kín
+SKILL_NAME_7121,Tinh thể sương mù giăng kín II
+SKILL_NAME_7122,Tinh thể sương mù giăng kín III
+SKILL_NAME_7123,Tinh thể sương mù giăng kín IV
+SKILL_NAME_7130,Hoa đỏ nở rộ
+SKILL_NAME_7131,Hoa đỏ nở rộ II
+SKILL_NAME_7132,Hoa đỏ nở rộ III
+SKILL_NAME_7133,Hoa đỏ nở rộ IV
+SKILL_NAME_7140,Tội ác chỉ tới đó thôi
+SKILL_NAME_7141,Tội ác chỉ tới đó thôi II
+SKILL_NAME_7142,Tội ác chỉ tới đó thôi III
+SKILL_NAME_7143,Tội ác chỉ tới đó thôi IV
+SKILL_NAME_60007110,"Chém hạ, lưỡi đao phán quyết [Ánh sáng]"
+SKILL_NAME_60007111,"Chém hạ, lưỡi đao phán quyết [Bóng tối]"
+SKILL_NAME_60007120,Tinh thể sương mù giăng kín [Ánh sáng]
+SKILL_NAME_60007121,Tinh thể sương mù giăng kín [Bóng tối]
+SKILL_NAME_60007130,Hoa đỏ nở rộ [Ánh sáng]
+SKILL_NAME_60007131,Hoa đỏ nở rộ [Bóng tối]
+SKILL_NAME_60007140,Tội ác chỉ tới đó thôi [Ánh sáng]
+SKILL_NAME_60007141,Tội ác chỉ tới đó thôi [Bóng tối]
+SKILL_NAME_60007150,Kirze [Ánh sáng]
+SKILL_NAME_60007151,Kirze [Bóng tối]
+SKILL_DESC_7110,Gây tổng [ffc800]{1}[-] sát thương phép thuật qua 7 lần lên kẻ địch trong phạm vi hình tròn. Tiếp tục gây [ffc800]{2}[-] sát thương phép thuật và hạ gục kẻ địch trong phạm vi trước mặt trong vòng [64ffff]{3}[-] giây. Gây thêm [ffc800]{3}[-] sát thương phép thuật mỗi đòn khi đối thủ không phải là anh hùng.
+SKILL_DESC_7111,Tăng [64ff64]{1}[-]% sát thương.
+SKILL_DESC_7112,Tăng [64ff64]{1}[-]% sát thương.
+SKILL_DESC_7113,Tăng [64ff64]{1}[-]% sát thương.
+SKILL_DESC_7120,"Phát huy sức mạnh đá cẩm thạch trong cơ thể, gây [ffc800]{1}[-] sát thương phép thuật lên toàn bộ địch, làm choáng kẻ địch trong vòng [64ffff]{2}[-] giây. Trong thời gian xuất chiêu, bản thân sẽ trong trạng thái [fa96fa]'Thức tỉnh đá cẩm thạch'[-] trong vòng [64ffff]{3}[-] giây, tăng [64ff64]{4}[-] tốc độ tấn công cho tất cả đồng đội, phát sóng xung kích lên địch trong phạm vi xung quanh trong [64ffff]{5}[-] giây, gây [ffc800]{6}[-] sát thương phép thuật và làm choáng địch trong vòng [64ffff]{7}[-] giây."
+SKILL_DESC_7121,Tăng [64ff64]{1}[-]% sát thương.
+SKILL_DESC_7122,Tăng [64ff64]{1}[-]% sát thương.
+SKILL_DESC_7123,Tăng [64ff64]{1}[-]% sát thương.
+SKILL_DESC_7130,"Triệu hồi đá cẩm thạch, gây [ffc800]{1}[-] sát thương phép thuật lên kẻ địch trong phạm vi đường thẳng trước mặt, ngay sau đó kích nổ gây thêm [ffc800]{2}[-] sát thương phép thuật, tạo ra [fa96fa][Lời nguyền đá cẩm thạch][-] trong [64ffff]{3}[-] giây, làm giảm [ff6464]{4}[-] tốc độ tấn công.\nKhi tấn công đối thủ đang trong trạng thái [fa96fa][Lời nguyền đá cẩm thạch][-] sẽ được cộng dồn thêm [fa96fa][Khí lực đá cẩm thạch][-]. [fa96fa][Lời nguyền đá cẩm thạch][-] sẽ phát nổ sau [64ffff]{5}[-] giây, gây [ffc800]{7} sát thương phép thuật mỗi {6}[-] cộng dồn Khí lực đá cẩm thạch."
+SKILL_DESC_7131,Tăng [64ff64]{1}[-]% sát thương.
+SKILL_DESC_7132,Tăng [64ff64]{1}[-]%sát thương.
+SKILL_DESC_7133,Tăng [64ff64]{1}[-]% sát thương.
+SKILL_DESC_7140,"Tăng [64ff64]{1}[-] lực tấn công và [64ff64]{2}[-] tỉ lệ xuất đòn chí mạng của bản thân, tăng [64ff64]{3}[-]% thời gian kéo dài hiệu ứng trạng thái chế ngự mà tất cả đồng đội gây lên Boss."
+SKILL_DESC_7141,Tăng [64ff64]{1}[-]% lượng tăng lực tấn công.
+SKILL_DESC_7142,Tăng [64ff64]{1}[-]% lượng tăng lực tấn công.
+SKILL_DESC_7143,Tăng [64ff64]{1}[-]% lượng tăng lực tấn công.
+SKILL_DESC_60007110,Giảm {1}% thời gian đợi hồi chiêu tương ứng với 1 kẻ địch bị sát thương.
+SKILL_DESC_60007111,Tăng 100% sát thương khi địch có 1 người.
+SKILL_DESC_60007120,Tăng {1} giây thời gian kéo dài hiệu ứng choáng sóng xung kích lên kẻ địch không phải là anh hùng.
+SKILL_DESC_60007121,Tăng {1}% sát thương lên kẻ địch không phải là anh hùng trong trạng thái 'Thức tỉnh đá cẩm thạch'.
+SKILL_DESC_60007130,Tăng {1} lượng giảm tốc độ tấn công.
+SKILL_DESC_60007131,Cộng dồn 2 Khí lực đá cẩm thạch mỗi khi địch có 1 người.
+SKILL_DESC_60007140,Tăng {1}% sát thương lên kẻ địch không phải là anh hùng trong 20 giây mỗi khi bắt đầu trận đấu.
+SKILL_DESC_60007141,Tăng {1}% sát thương lên Boss.
+SKILL_DESC_60007150,"Lực tấn công, lực phòng thủ, máu + 15%/ Tốc độ tấn công +100"
+SKILL_DESC_60007151,Tăng {1} tốc độ tấn công của bản thân khi tấn công thông thường và tấn công sử dụng kỹ năng. Hiệu ứng này được cộng dồn tối đa {2} lần.
+SKILL_DESC_90000710,"Khuếch đại sức mạnh đá cẩm thạch, tăng phạm vi hiệu ứng 'Hoa đỏ nở rộ'. Gây thêm sát thương phép thuật tương đương 500% lực tấn công với xác suất 4% khi tấn công thông thường và tấn công sử dụng kỹ năng. Tăng sát thương gấp đôi lên Boss."
+SKILL_DESC_90000711,"Khuếch đại sức mạnh đá cẩm thạch, tăng phạm vi hiệu ứng 'Hoa đỏ nở rộ'. Gây thêm sát thương phép thuật tương đương 600% lực tấn công với xác suất 4% khi tấn công thông thường và tấn công sử dụng kỹ năng. Tăng sát thương gấp đôi lên Boss."
+SKILL_DESC_90000712,"Khuếch đại sức mạnh đá cẩm thạch, tăng phạm vi hiệu ứng 'Hoa đỏ nở rộ'. Gây thêm sát thương phép thuật tương đương 720% lực tấn công với xác suất 4% khi tấn công thông thường và tấn công sử dụng kỹ năng. Tăng sát thương gấp đôi lên Boss."
+SKILL_DESC_90000713,"Khuếch đại sức mạnh đá cẩm thạch, tăng phạm vi hiệu ứng 'Hoa đỏ nở rộ'. Gây thêm sát thương phép thuật tương đương 860% lực tấn công với xác suất 4% khi tấn công thông thường và tấn công sử dụng kỹ năng. Tăng sát thương gấp đôi lên Boss."
+SKILL_DESC_90000714,"Khuếch đại sức mạnh đá cẩm thạch, tăng phạm vi hiệu ứng 'Hoa đỏ nở rộ'. Gây thêm sát thương phép thuật tương đương 1.000% lực tấn công với xác suất 4% khi tấn công thông thường và tấn công sử dụng kỹ năng. Tăng sát thương gấp đôi lên Boss."
+SKILL_DESC_90000715,"Khuếch đại sức mạnh đá cẩm thạch, tăng phạm vi hiệu ứng 'Hoa đỏ nở rộ'. Gây thêm sát thương phép thuật tương đương 1.250% lực tấn công với xác suất 4% khi tấn công thông thường và tấn công sử dụng kỹ năng. Tăng sát thương gấp đôi lên Boss."
+SKILL_DESC_91007110,"[Chém hạ, lưỡi đao phán quyết]\nTăng 20% sát thương, giảm 1 điểm tiêu hao mana."
+SKILL_DESC_91007111,"[Chém hạ, lưỡi đao phán quyết]\nTăng 24% sát thương, giảm 1 điểm tiêu hao mana."
+SKILL_DESC_91007112,"[Chém hạ, lưỡi đao phán quyết]\nTăng 29% sát thương, giảm 1 điểm tiêu hao mana."
+SKILL_DESC_91007113,"[Chém hạ, lưỡi đao phán quyết]\nTăng 35% sát thương, giảm 1 điểm tiêu hao mana."
+SKILL_DESC_91007114,"[Chém hạ, lưỡi đao phán quyết\]\nTăng 42% sát thương, giảm 1 điểm tiêu hao mana."
+SKILL_DESC_91007115,"[Chém hạ, lưỡi đao phán quyết]\nTăng 50% sát thương, giảm 1 điểm tiêu hao mana."
+SKILL_DESC_91007120,"[Tinh thể sương mù giăng kín]\nTăng thêm 100 tốc độ tấn công, tăng 7 giây thời gian kéo dài hiệu ứng 'Thức tỉnh đá cẩm thạch'."
+SKILL_DESC_91007121,"[Tinh thể sương mù giăng kín]\nTăng thêm 120 tốc độ tấn công, tăng 7 giây thời gian kéo dài hiệu ứng 'Thức tỉnh đá cẩm thạch'."
+SKILL_DESC_91007122,"[Tinh thể sương mù giăng kín]\nTăng thêm 140 tốc độ tấn công, tăng 7 giây thời gian kéo dài hiệu ứng 'Thức tỉnh đá cẩm thạch'."
+SKILL_DESC_91007123,"[Tinh thể sương mù giăng kín]\nTăng thêm 170 tốc độ tấn công, tăng 7 giây thời gian kéo dài hiệu ứng 'Thức tỉnh đá cẩm thạch'."
+SKILL_DESC_91007124,"[Tinh thể sương mù giăng kín]\nTăng thêm 210 tốc độ tấn công, tăng 7 giây thời gian kéo dài hiệu ứng 'Thức tỉnh đá cẩm thạch'."
+SKILL_DESC_91007125,"[Tinh thể sương mù giăng kín]\nTăng thêm 250 tốc độ tấn công, tăng 7 giây thời gian kéo dài hiệu ứng 'Thức tỉnh đá cẩm thạch'."
+SKILL_DESC_91007130,"[Hoa đỏ nở rộ]\nGiảm 30% thời gian hồi chiêu, khi cộng dồn 'Khí lực đá cẩm thạch' 3 hiệu ứng sẽ cộng dồn thêm với xác suất 40%."
+SKILL_DESC_91007131,"[Hoa đỏ nở rộ]\nGiảm 30% thời gian hồi chiêu, khi cộng dồn 'Khí lực đá cẩm thạch' 3 hiệu ứng sẽ cộng dồn thêm với xác suất 48%."
+SKILL_DESC_91007132,"[Hoa đỏ nở rộ]\nGiảm 30% thời gian hồi chiêu, khi cộng dồn 'Khí lực đá cẩm thạch' 3 hiệu ứng sẽ cộng dồn thêm với xác suất 58%."
+SKILL_DESC_91007133,"[Hoa đỏ nở rộ]\nGiảm 30% thời gian hồi chiêu, khi cộng dồn 'Khí lực đá cẩm thạch' 3 hiệu ứng sẽ cộng dồn thêm với xác suất 70%."
+SKILL_DESC_91007134,"[Hoa đỏ nở rộ]\nGiảm 30% thời gian hồi chiêu, khi cộng dồn 'Khí lực đá cẩm thạch' 3 hiệu ứng sẽ cộng dồn thêm với xác suất 84%."
+SKILL_DESC_91007135,"[Hoa đỏ nở rộ]\nGiảm 30% thời gian hồi chiêu, khi cộng dồn 'Khí lực đá cẩm thạch' 3 hiệu ứng sẽ cộng dồn thêm với xác suất 100%."
+SKILL_DESC_91007140,[Tội ác chỉ tới đó thôi]\nTăng thêm 250 xác suất đòn chí mạng và chuyển hiệu ứng tăng thời gian kéo dài trạng thái chế ngự thành 30%.
+SKILL_DESC_91007141,[Tội ác chỉ tới đó thôi]\nTăng thêm 250 xác suất đòn chí mạng và chuyển hiệu ứng tăng thời gian kéo dài trạng thái chế ngự thành 32%.
+SKILL_DESC_91007142,[Tội ác chỉ tới đó thôi]\nTăng thêm 250 xác suất đòn chí mạng và chuyển hiệu ứng tăng thời gian kéo dài trạng thái chế ngự thành 34%.
+SKILL_DESC_91007143,[Tội ác chỉ tới đó thôi]\nTăng thêm 250 xác suất đòn chí mạng và chuyển hiệu ứng tăng thời gian kéo dài trạng thái chế ngự thành 37%.
+SKILL_DESC_91007144,[Tội ác chỉ tới đó thôi]\nTăng thêm 250 xác suất đòn chí mạng và chuyển hiệu ứng tăng thời gian kéo dài trạng thái chế ngự thành 41%.
+SKILL_DESC_91007145,[Tội ác chỉ tới đó thôi]\nTăng thêm 250 xác suất đòn chí mạng và chuyển hiệu ứng tăng thời gian kéo dài trạng thái chế ngự thành 45%.
+SKILL_NAME_9710,Đã xuyên thủng rồi!
+SKILL_NAME_9711,Đã xuyên thủng rồi! II
+SKILL_NAME_9712,Đã xuyên thủng rồi! III
+SKILL_NAME_9713,Đã xuyên thủng rồi! IV
+SKILL_NAME_9720,Đánh cho thành tổ ong luôn! 
+SKILL_NAME_9721,Đánh cho thành tổ ong luôn! II
+SKILL_NAME_9722,Đánh cho thành tổ ong luôn! III
+SKILL_NAME_9723,Đánh cho thành tổ ong luôn! IV
+SKILL_NAME_9730,Hãy nấp đại vào hang chuột cũng được!
+SKILL_NAME_9731,Hãy nấp đại vào hang chuột cũng được! II
+SKILL_NAME_9732,Hãy nấp đại vào hang chuột cũng được! III
+SKILL_NAME_9733,Hãy nấp đại vào hang chuột cũng được! IV
+SKILL_NAME_9740,Luyện tập cho bạn!
+SKILL_NAME_9741,Luyện tập cho bạn! II
+SKILL_NAME_9742,Luyện tập cho bạn! III
+SKILL_NAME_9743,Luyện tập cho bạn! IV
+SKILL_NAME_60009710,Đã xuyên thủng rồi! [Ánh sáng]
+SKILL_NAME_60009711,Đã xuyên thủng rồi! [Bóng tối]
+SKILL_NAME_60009720,Đánh cho thành tổ ong luôn![Ánh sáng]
+SKILL_NAME_60009721,Đánh cho thành tổ ong luôn![Bóng tối]
+SKILL_NAME_60009730,Hãy nấp đại vào hang chuột cũng được! [Ánh sáng]
+SKILL_NAME_60009731,Hãy nấp đại vào hang chuột cũng được! [Bóng tối]
+SKILL_NAME_60009740,Luyện tập cho bạn! [Ánh sáng]
+SKILL_NAME_60009741,Luyện tập cho bạn! [Bóng tối]
+SKILL_NAME_60009750,Hanus [Ánh sáng]
+SKILL_NAME_60009751,Hanus [Bóng tối]
+SKILL_DESC_9710,"Sau khi ném lựu đạn thì bắn súng tiểu liên, gây [ffc800]{1}[-] sát thương vật lý cho đối phương cũng như những đối thủ ở phạm vi lân cận, còn bản thân sẽ nhận [64ffff]{2}[-] viên [fa96fa]đạn[-]. Đối thủ bị dính đòn sẽ bị tăng [ff6464]{4}[-]% sát thương vật lý trong [64ffff]{3}[-] giây, và rơi vào trạng thái không nhìn thấy đường trong [64ffff]{5}[-] giây. Đạn được cộng dồn tối đa là {6} viên."
+SKILL_DESC_9711,Tăng lượng Sát thương [64ff64]{1}[-] %.
+SKILL_DESC_9712,Tăng lượng Sát thương [64ff64]{1}[-] %.
+SKILL_DESC_9713,Tăng lượng Sát thương [64ff64]{1}[-] %.
+SKILL_DESC_9720,"Bắn {1} lần súng tiểu liên gây tổng cộng [ffc800]{2}[-] sát thương vật lý cho đối thủ nằm trong phạm vi diện rộng ở trước mặt. Nếu sau này bản thân sở hữu được [fa96fa] đạn [-] thì mỗi khi bắn súng tiểu liên sẽ tiêu hao [64ffff]{3}[-] viên, và tấn công đến khi dùng sạch đạn thì Sát thương bản thân phải nhận ở trạng thái này tăng [ff6464]{4}[-]%. Mỗi khi bắn {5} lần súng tiểu liên thì lượng Sát thương của kỹ năng này tăng [64ff64]{6}[-]%. Hiệu ứng tăng lượng sát thương được cộng dồn tối đa là {7} lần."
+SKILL_DESC_9721,Tăng lượng Sát thương [64ff64]{1}[-] %.
+SKILL_DESC_9722,Tăng lượng Sát thương [64ff64]{1}[-] %.
+SKILL_DESC_9723,Tăng lượng Sát thương [64ff64]{1}[-] %.
+SKILL_DESC_9730,"Bắn súng cối trong phạm vi cách một đoạn nhất định so với vị trí trước mặt sẽ gây [ffc800]{1}[-] sát thương vật lý trên diện rộng, và bản thân sẽ nhận được [64ffff]{2}[-] viên [fa96fa]đạn[-]. Đối thủ bị dính đòn sẽ choáng trong [64ffff]{3}[-] giây. Kỹ năng này bỏ qua hiệu ứng chặn đối phương."
+SKILL_DESC_9731,Tăng lượng Sát thương [64ff64]{1}[-] %.
+SKILL_DESC_9732,Tăng lượng Sát thương [64ff64]{1}[-] %.
+SKILL_DESC_9733,Tăng lượng Sát thương [64ff64]{1}[-] %.
+SKILL_DESC_9740,"Hanus không bị ảnh hưởng gì đến sự thay đổi tốc độ tấn công, tăng lực tấn công của tất cả đồng minh lên tương đương với [64ff64]{1}+{2}% lực tấn công của Hanus[-].\nTrường hợp hiệu ứng này được kích hoạt trong trận chiến Guild, thì hiệu ứng sẽ được tăng gấp [64ff64]{3}[-] lần.\n[Trận chiến Guild] - cuộc đột kích Guild, cuộc chinh phạt Guild, Chiến Guild"
+SKILL_DESC_9741,Tăng khả năng tấn công lên [64ff64]{1}[-] %.
+SKILL_DESC_9742,Tăng khả năng tấn công lên [64ff64]{1}[-] %.
+SKILL_DESC_9743,Tăng khả năng tấn công lên [64ff64]{1}[-] %.
+SKILL_DESC_60009710,Loại bỏ hiệu ứng có lợi của đối phương.
+SKILL_DESC_60009711,"Biến đổi để nhận {1} viên đạn, và khi nhận được đạn sẽ tăng {3}% lực tấn công của bản thân trong {2} giây. Hiệu quả tăng lực tấn công có thể cộng dồn tối đa {4} lần."
+SKILL_DESC_60009720,"Mức tiêu hao đạn tăng {1} viên, tuy nhiên khi ở trạng thái sử dụng đạn liên tục thì lượng Sát thương chí mạng của Hanus tăng {2}%."
+SKILL_DESC_60009721,Loại bỏ hiệu ứng tăng Sát thương lên đối thủ.
+SKILL_DESC_60009730,Khi dùng kỹ năng này sẽ bỏ qua hiệu ứng giảm Sát thương của đối phương trong Chiến Guild.
+SKILL_DESC_60009731,"Biến đổi để nhận được {1} viên đạn, và khi nhận được đạn thì lực xuyên phòng thủ của bản thân sẽ tăng {3} trong {2} giây. Hiệu quả tăng lực xuyên phòng thủ có thể cộng dồn tối đa {4} lần."
+SKILL_DESC_60009740,"Khi bắt đầu trận chiến Guild, lượng Sát thương tất cả đồng minh phải nhận giảm {2}% trong {1} giây."
+SKILL_DESC_60009741,Cứ {1} giây bạn sẽ nhận được {2} viên đạn.
+SKILL_DESC_60009750,"Lực tấn công, phòng thủ, HP + 15%/ Sát thương chí mạng + 20%"
+SKILL_DESC_60009751,"Khi bắt đầu trận chiến Guild, giảm {1} mana và tăng {3}% tất cả lượng Sát thương phải chịu của toàn bộ đối thủ trong {2} giây."
+SKILL_DESC_90000970,"Tăng 20% lượng Sát thương chí mạng của Hanus, và bắn [trò đùa vặt vãnh.HN-tên lửa có điều khiển] mỗi 20 giây một lần để gây Sát thương vật lý tương đương với 200% lực tấn công cho đối thủ ngẫu nhiên, đồng thời cho phép tạo ra một trong những hiệu ứng choáng, đóng băng, hóa đá, đẩy ngã, giảm 250 tốc độ tấn công trong 3 giây cho đối phương."
+SKILL_DESC_90000971,"Tăng 24% lượng Sát thương chí mạng của Hanus, bắn [trò đùa vặt vãnh.HN-tên lửa có điều khiển] mỗi 17 giây một lần để gây Sát thương vật lý tương đương với 240% lực tấn công cho đối thủ ngẫu nhiên, đồng thời cho phép tạo ra một trong những hiệu ứng choáng, đóng băng, hóa đá, đẩy ngã, giảm 250 tốc độ tấn công trong 3 giây cho đối phương."
+SKILL_DESC_90000972,"Tăng 29% lượng Sát thương chí mạng của Hanus, bắn [trò đùa vặt vãnh.HN-tên lửa có điều khiển] mỗi 14 giây một lần để gây Sát thương vật lý tương đương với 290% lực tấn công cho đối thủ ngẫu nhiên, đồng thời cho phép tạo ra một trong những hiệu ứng choáng, đóng băng, hóa đá, đẩy ngã, giảm 250 tốc độ tấn công trong 3 giây cho đối phương."
+SKILL_DESC_90000973,"Tăng 35% lượng Sát thương chí mạng của Hanus, bắn [trò đùa vặt vãnh.HN-tên lửa có điều khiển] mỗi 12 giây một lần để gây Sát thương vật lý tương đương với 350% lực tấn công cho đối thủ ngẫu nhiên, đồng thời cho phép tạo ra một trong những hiệu ứng choáng, đóng băng, hóa đá, đẩy ngã, giảm 250 tốc độ tấn công trong 3 giây cho đối phương."
+SKILL_DESC_90000974,"Tăng 42% lượng Sát thương chí mạng của Hanus, bắn [trò đùa vặt vãnh.HN-tên lửa có điều khiển] mỗi 10 giây một lần để gây Sát thương vật lý tương đương với 420% lực tấn công cho đối thủ ngẫu nhiên, đồng thời cho phép tạo ra một trong những hiệu ứng choáng, đóng băng, hóa đá, đẩy ngã, giảm 250 tốc độ tấn công trong 3 giây cho đối phương."
+SKILL_DESC_90000975,"Tăng 50% lượng Sát thương chí mạng của Hanus, bắn [trò đùa vặt vãnh.HN-tên lửa có điều khiển] mỗi 8 giây một lần để gây Sát thương vật lý tương đương với 500% lực tấn công cho đối thủ ngẫu nhiên, đồng thời cho phép tạo ra một trong những hiệu ứng choáng, đóng băng, hóa đá, đẩy ngã, giảm 250 tốc độ tấn công trong 3 giây cho đối phương."
+SKILL_DESC_91009710,"[Đã xuyên thủng rồi!] Giảm 1 điểm tiêu hao mana, và thời gian không thấy đường tăng lên 0.8 giây. "
+SKILL_DESC_91009711,"[Đã xuyên thủng rồi!] Lượng tiêu hao mana giảm đi 1 điểm, và thời gian không thấy đường tăng lên 1 giây. "
+SKILL_DESC_91009712,"[Đã xuyên thủng rồi!] Lượng tiêu hao mana giảm đi 1 điểm, và thời gian không thấy đường tăng lên 1.2 giây. "
+SKILL_DESC_91009713,"[Đã xuyên thủng rồi!] Lượng tiêu hao mana giảm đi 1 điểm, và thời gian không thấy đường tăng lên 1.4 giây. "
+SKILL_DESC_91009714,"[Đã xuyên thủng rồi!] Lượng tiêu hao mana giảm đi 1 điểm, và thời gian không thấy đường tăng lên 1.7 giây. "
+SKILL_DESC_91009715,"[Đã xuyên thủng rồi!] Lượng tiêu hao mana giảm đi 1 điểm, và thời gian không thấy đường tăng lên 2 giây. "
+SKILL_DESC_91009720,"[Đánh cho thành tổ ong luôn!] Khi sử dụng sẽ nhận được 20 viên đạn, ở trạng thái sử dụng đạn, mỗi phát súng máy sẽ tăng {2}% lực tấn công của Hanus. Hiệu ứng này được cộng dồn tối đa 100 lần."
+SKILL_DESC_91009721,"[Đánh cho thành tổ ong luôn!] Khi sử dụng sẽ nhận được 20 viên đạn, ở trạng thái sử dụng đạn, mỗi phát súng máy sẽ tăng {2}% lực tấn công của Hanus. Hiệu ứng này được cộng dồn tối đa 100 lần."
+SKILL_DESC_91009722,"[Đánh cho thành tổ ong luôn!] Khi sử dụng sẽ nhận được 20 viên đạn, ở trạng thái sử dụng đạn, mỗi phát súng máy sẽ tăng {2}% lực tấn công của Hanus. Hiệu ứng này được cộng dồn tối đa 100 lần."
+SKILL_DESC_91009723,"[Đánh cho thành tổ ong luôn!] Khi sử dụng sẽ nhận được 20 viên đạn, ở trạng thái sử dụng đạn, mỗi phát súng máy sẽ tăng {2}% lực tấn công của Hanus. Hiệu ứng này được cộng dồn tối đa 100 lần."
+SKILL_DESC_91009724,"[Đánh cho thành tổ ong luôn!] Khi sử dụng sẽ nhận được 20 viên đạn, ở trạng thái sử dụng đạn, mỗi phát súng máy sẽ tăng {2}% lực tấn công của Hanus. Hiệu ứng này được cộng dồn tối đa 100 lần."
+SKILL_DESC_91009725,"[Đánh cho thành tổ ong luôn!] Khi sử dụng sẽ nhận được 20 viên đạn, ở trạng thái sử dụng đạn, mỗi phát súng máy sẽ tăng {2}% lực tấn công của Hanus. Hiệu ứng này được cộng dồn tối đa 100 lần."
+SKILL_DESC_91009730,"[Hãy nấp đại vào hang chuột cũng được!] Trong suốt quá trình sử dụng thì sẽ miễn nhiễm với trạng thái chế ngự, đồng thời giảm 20% khả năng hồi phục của đối phương bị dính đòn trong 5 giây."
+SKILL_DESC_91009731,"[Hãy nấp đại vào hang chuột cũng được!] Trong suốt quá trình sử dụng thì sẽ miễn nhiễm với trạng thái chế ngự, đồng thời giảm 24% khả năng hồi phục của đối phương bị dính đòn trong 5 giây."
+SKILL_DESC_91009732,"[Hãy nấp đại vào hang chuột cũng được!] Trong suốt quá trình sử dụng thì sẽ miễn nhiễm với trạng thái chế ngự, đồng thời giảm 29% khả năng hồi phục của đối phương bị dính đòn trong 5 giây."
+SKILL_DESC_91009733,"[Hãy nấp đại vào hang chuột cũng được!] Trong suốt quá trình sử dụng thì sẽ miễn nhiễm với trạng thái chế ngự, đồng thời giảm 35% khả năng hồi phục của đối phương bị dính đòn trong 5 giây."
+SKILL_DESC_91009734,"[Hãy nấp đại vào hang chuột cũng được!] Trong suốt quá trình sử dụng thì sẽ miễn nhiễm với trạng thái chế ngự, đồng thời giảm 42% khả năng hồi phục của đối phương bị dính đòn trong 5 giây."
+SKILL_DESC_91009735,"[Hãy nấp đại vào hang chuột cũng được!] Trong suốt quá trình sử dụng thì sẽ miễn nhiễm với trạng thái chế ngự, đồng thời giảm 50% khả năng hồi phục của đối phương bị dính đòn trong 5 giây."
+SKILL_DESC_91009740,"[Luyện tập cho bạn!] Giới hạn sử dụng 1 lần khi bắt đầu trận chiến Guild sẽ giảm 1 khoảng mana cần thiết của tất cả các kỹ năng của bản thân, đồng thời tăng 20% lượng Sát thương chí mạng, 10% lực tấn công của tất cả đồng minh trong 10 giây."
+SKILL_DESC_91009741,"[Luyện tập cho bạn!] Giới hạn sử dụng 1 lần khi bắt đầu trận chiến Guild sẽ giảm 1 khoảng mana cần thiết của tất cả các kỹ năng của bản thân, đồng thời tăng 24% lượng Sát thương chí mạng, 12% lực tấn công của tất cả đồng minh trong 10 giây."
+SKILL_DESC_91009742,"[Luyện tập cho bạn!] Giới hạn sử dụng 1 lần khi bắt đầu trận chiến Guild sẽ giảm 1 khoảng mana cần thiết của tất cả các kỹ năng của bản thân, đồng thời tăng 29% lượng Sát thương chí mạng, 14% lực tấn công của tất cả đồng minh trong 10 giây."
+SKILL_DESC_91009743,"[Luyện tậpn cho bạn!] Giới hạn sử dụng 1 lần khi bắt đầu trận chiến Guild sẽ giảm 1 khoảng mana cần thiết của tất cả các kỹ năng của bản thân, đồng thời tăng 35% lượng Sát thương chí mạng, 17% lực tấn công của tất cả đồng minh trong 10 giây."
+SKILL_DESC_91009744,"[Luyện tập cho bạn!] Giới hạn sử dụng 1 lần khi bắt đầu trận chiến Guild sẽ giảm 1 khoảng mana cần thiết của tất cả các kỹ năng của bản thân, đồng thời tăng 42% lượng Sát thương chí mạng, 21% lực tấn công của tất cả đồng minh trong 10 giây."
+SKILL_DESC_91009745,"[Luyện tập cho bạn!]Giới hạn sử dụng 1 lần khi bắt đầu trận chiến Guild sẽ giảm 1 khoảng mana cần thiết của tất cả các kỹ năng của bản thân, đồng thời tăng 50% lượng Sát thương chí mạng, 25% lực tấn công của tất cả đồng minh trong 10 giây."
+SKILL_NAME_9810,Thật hãi hùng!
+SKILL_NAME_9819,Quỳ xuống.
+SKILL_NAME_9820,Hãy xem sức mạnh của ta đây.
+SKILL_NAME_9825,Hãy xem sức mạnh của ta đây.
+SKILL_NAME_9830,Hãy xem sức mạnh toàn năng của ta đây!
+SKILL_NAME_9837,Giờ thì hãy chịu chết đi.
+SKILL_NAME_9840,Trẫm chính là vua của sa mạc.
+SKILL_NAME_60009810,Thật hãi hùng! / Quỳ xuống. [Ánh sáng]
+SKILL_NAME_60009811,Thật hãi hùng! / Quỳ xuống. [Bóng tối]
+SKILL_NAME_60009820,Hãy xem sức mạnh của ta đây. [Ánh sáng]
+SKILL_NAME_60009821,Hãy xem sức mạnh của ta đây. [Bóng tối]
+SKILL_NAME_60009830,Hãy xem sức mạnh toàn năng của ta đây! / Giờ thì hãy chịu chết đi. [Ánh sáng]
+SKILL_NAME_60009831,Hãy xem sức mạnh toàn năng của ta đây! / Giờ thì hãy chịu chết đi. [Bóng tối]
+SKILL_NAME_60009840,Trẫm chính là vua của sa mạc. [Ánh sáng]
+SKILL_NAME_60009841,Trẫm chính là vua của sa mạc. [Bóng tối]
+SKILL_NAME_60009850,Cain [Ánh sáng]
+SKILL_NAME_60009851,Cain [Bóng tối]
+SKILL_DESC_9810,Cain hồi phục [ffc800]{1}[-] đồng đội có HP thấp nhất và tăng cường ‘Phúc lành của Thần vương’ để giảm [64ff64]{3}[-]% tất cả sát thương nhận được trong [64ffff]{2}[-] giây và tạo màng bảo vệ miễn nhiễm trạng thái chế ngự. Loại bỏ hiệu ứng có hại cho đồng đội trong phạm vi xung quanh đối phương và hồi phục [ffc800]{4}[-] HP sau [64ffff]{2}[-] giây. Không thể phá vỡ được ‘Phúc lành của Thần vương’.
+SKILL_DESC_9819,Cain gây ra [ffc800]{1}[-] sát thương vật lý cho địch có lực tấn công cao nhất và sử dụng ‘Thuật phong ấn của bạo chúa’ để làm giảm [ff6464]{3}[-] tốc độ tấn công của đối phương trong [64ffff]{2}[-] giây và làm cho đối phương không thể nhận được hiệu ứng có lợi. Gây [ffc800]{4}[-] sát thương vật lý lên địch trong phạm vi xung quanh đối phương sau [64ffff]{2}[-] giây và hạ gục địch trong {5} giây. Không thể phá vỡ được ‘Thuật phong ấn của bạo chúa’.
+SKILL_DESC_9811,Tăng [64ff64]{1}[-]% sát thương và hồi máu.
+SKILL_DESC_9812,Tăng [64ff64]{1}[-]% sát thương và hồi máu.
+SKILL_DESC_9813,Tăng [64ff64]{1}[-]% sát thương và hồi máu.
+SKILL_DESC_9820,"Cain biến đổi thành ‘Bạo chúa’, tấn công liên tiếp lên đối phương và mỗi đòn gây [ffc800]{1}[-] sát thương vật lý. Cain đã thành ‘Bạo chúa’ - kỹ năng ‘Thật hãi hùng!’, ‘Hãy xem sức mạnh toàn năng của ta đây!’ biến thành kỹ năng ‘Quỳ xuống.’, ‘Giờ thì hãy chịu chết đi’ và được miễn nhiễm trạng thái chế ngự. Nếu sử dụng lại kỹ năng thì sẽ trở về lại ‘Thần vương’.\n‘Lòng nhân từ của Thần vương’ Cain khi ở trạng thái Thần vương thì sẽ giảm [ffc800]{2}[-]% sát thương nhận được của toàn thể đồng đội.\n‘Uy nghiêm của bạo chúa’ Cain khi ở trạng thái bạo chúa thì sẽ tăng [ffc800]{3}[-]% sát thương mà toàn bộ kẻ địch nhận được."
+SKILL_DESC_9825,Cain trở lại ‘Thần vương’.
+SKILL_DESC_9821,Tăng [64ff64]{1}[-]% sát thương.
+SKILL_DESC_9822,Tăng [64ff64]{1}[-]% sát thương.
+SKILL_DESC_9823,Tăng [64ff64]{1}[-]% sát thương.
+SKILL_DESC_9830,Tăng {3} lần [ffc800]{2}[-] lực phòng thủ của tất cả đồng đội xung quanh bản thân trong [64ffff]{1}[-] giây. Hiệu ứng tăng lực phòng thủ được cộng dồn tối đa {3} lần và tăng [64ff64]{5}[-] lực tấn công của đối phương trong [64ffff]{4}[-] giây khi tiến đánh hiệu ứng lên đồng đội đã cộng dồn {3} lần và tăng cường hiệu ứng miễn nhiễm trạng thái chế ngự.
+SKILL_DESC_9837,Cài đặt ‘Cổng địa ngục’ trong {1} giây ở phạm vi trước mặt và trong {2} lần với tổng cộng [ffc800]{3}[-] sát thương vật lý lên địch trong phạm vi cho phép và kéo kẻ địch về trung tâm. Sau đó làm nổ tung ‘Cổng địa ngục’ và gây [ffc800]{4}[-] sát thương vật lý hạ gục địch trong [64ffff]{5}[-] giây.
+SKILL_DESC_9831,Tăng [64ff64]{1}[-]% lượng tăng lực tấn công và sát thương.
+SKILL_DESC_9832,Tăng [64ff64]{1}[-]% lượng tăng lực tấn công và sát thương.
+SKILL_DESC_9833,Tăng [64ff64]{1}[-]% lượng tăng lực tấn công và sát thương.
+SKILL_DESC_9840,"Khi bắt đầu mỗi trận đấu có thể nhận cộng dồn ‘Vua sa mạc’ không thể hủy. Mỗi cộng dồn ‘Vua sa mạc’ đang có sẽ được cộng thêm [64ff64]{1}[-]% hiệu ứng của ‘Lòng nhân từ của Thần vương’, ‘Uy nghiêm của bạo chúa’, hồi phục {2} mana mỗi giây và tăng [64ff64]{3}[-] lực tấn công. Tăng [64ff64]{5}[-]% sát thương lên Boss nếu ‘Vua sa mạc’ được cộng dồn {4} lần. ‘Vua sa mạc’ được cộng dồn tối đa {6} lần."
+SKILL_DESC_9841,Tăng [64ff64]{1}[-]% lượng tăng lực tấn công.
+SKILL_DESC_9842,Tăng [64ff64]{1}[-]% lượng tăng lực tấn công.
+SKILL_DESC_9843,Tăng [64ff64]{1}[-]% lượng tăng lực tấn công.
+SKILL_DESC_60009810,"[Thật hãi hùng!]\nHiệu ứng được áp dụng lên 3 đồng đội, sau {1} giây thì tất cả hiệu ứng đang phát động sẽ không phát động nữa."
+SKILL_DESC_60009811,"[Quỳ xuống.]\nHiệu ứng được áp dụng lên 3 kẻ địch, sau {1} giây thì tất cả hiệu ứng đang phát động sẽ không phát động nữa."
+SKILL_DESC_60009820,[Vua sa mạc]\nTăng {1}% sát thương của kỹ năng này.
+SKILL_DESC_60009821,"Giảm {1} giây thời gian hồi chiêu và ở trận đấu tự động, có thể trở lại Thần vương sau khi biến thành bạo chúa."
+SKILL_DESC_60009830,[Hãy xem sức mạnh toàn năng của ta đây!]\nTăng {1} giây thời gian kéo dài hiệu ứng.
+SKILL_DESC_60009831,[Giờ thì hãy chịu chết đi.]\nGiảm 1 điểm tiêu hao mana.
+SKILL_DESC_60009840,Lượng tăng sát thương lên Boss đổi thành {1}%.
+SKILL_DESC_60009841,Lượng mana hồi phục mỗi giây đổi thành {1}.
+SKILL_DESC_60009850,"Lực tấn công, lực phòng thủ, HP + 15%/HP + 10%"
+SKILL_DESC_60009851,Khi bắt đầu mỗi trận đấu sẽ tiêu hao {1}% HP hiện tại của bản thân và tăng {3}% lực tấn công cho toàn đồng đội trong {2} giây. Giảm thêm {4}% sát thương mà toàn bộ đồng đội nhận nếu có dưới 3 người.
+SKILL_DESC_90000980,"Khi tấn công thông thường và tấn công sử dụng kỹ năng, sẽ được thêm hiệu ứng bổ sung tùy theo trạng thái bản thân.\n[Thần vương] Làm choáng đối phương trong {2} giây với xác suất {1}%.\n[Bạo chúa] Tăng {4}% sát thương vật lý mà đối phương phải nhận trong {3} giây."
+SKILL_DESC_91009810,[Thật hãi hùng!] Tăng thêm {1}% hiệu ứng giảm tất cả sát thương nhận được của kỹ năng. \n[Quỳ xuống.] Giảm 1 lượng tiêu hao mana
+SKILL_DESC_91009820,[Hãy xem sức mạnh của ta đây.]\nTăng {1}% sát thương và tăng {2}% sát thương khi bản thân ở trạng thái bạo chúa.
+SKILL_DESC_91009830,[Hãy xem sức mạnh toàn năng của ta đây!]\nTăng {1}% lượng tăng lực tấn công.\n[Giờ thì hãy chịu chết đi.]\nTăng {3}% sát thương vật lý lên đối phương bị dính đòn trong {2} giây.
+SKILL_DESC_91009840,[Trẫm chính là vua của sa mạc.]\nTăng {1}% lượng tăng lực tấn công và tăng {3}% tỷ lệ hồi máu của các đồng minh khi ‘Vua sa mạc’ của bản thân được cộng dồn trên {2} lần.

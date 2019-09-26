@@ -1,863 +1,903 @@
-KEY,"English"
+KEY,English
 BASE_RESULT_TYPE.SUCCESS,"Your request has been processed successfully, but please try again later as your network is currently unstable."
-BASE_RESULT_TYPE.FAIL,"Your request was not processed successfully due to an unstable network connection. Please try again later."
-BASE_RESULT_TYPE.SESSION_ERROR,"You were disconnected from the server for being idle for a long time. Please restart the game."
-BASE_RESULT_TYPE.ACCOUNT_ERROR,"The account is incorrect."
-BASE_RESULT_TYPE.UNHANDLED,"The request cannot be handled."
-BASE_RESULT_TYPE.EXCEPTION,"An internal error has occurred."
-BASE_RESULT_TYPE.HTTP_ERROR,"An error occurred during web request."
-BASE_RESULT_TYPE.PARSING_ERROR,"Parsing has failed."
+BASE_RESULT_TYPE.FAIL,Your request was not processed successfully due to an unstable network connection. Please try again later.
+BASE_RESULT_TYPE.SESSION_ERROR,You were disconnected from the server for being idle for a long time. Please restart the game.
+BASE_RESULT_TYPE.ACCOUNT_ERROR,The account is incorrect.
+BASE_RESULT_TYPE.UNHANDLED,The request cannot be handled.
+BASE_RESULT_TYPE.EXCEPTION,An internal error has occurred.
+BASE_RESULT_TYPE.HTTP_ERROR,An error occurred during web request.
+BASE_RESULT_TYPE.PARSING_ERROR,Parsing has failed.
 RESULT_TYPE.SUCCESS,"Your request has been processed successfully, but please try again later as your network is currently unstable."
-RESULT_TYPE.FAIL,"Your request was not processed successfully due to an unstable network connection. Please try again later."
-RESULT_TYPE.LEVEL_DATA_NOT_FOUND,"Cannot find the level info."
-RESULT_TYPE.CANNOT_UPGRADE_MORE,"Cannot upgrade any more."
-RESULT_TYPE.NOT_ENOUGH_GOLD,"Insufficient gold."
-RESULT_TYPE.NOT_ENOUGH_GEM,"Insufficient ruby."
-RESULT_TYPE.INSUFFICIENT_ITEM,"Insufficient material items."
-RESULT_TYPE.GRADE_DATA_NOT_FOUND,"Cannot find the rank info."
-RESULT_TYPE.CANNOT_UPGRADE_YET,"Cannot upgrade yet."
-RESULT_TYPE.REQ_GOLD_NOT_FOUND,"Cannot find the gold info required."
-RESULT_TYPE.REQ_ITEM_DATA_NOT_FOUND,"Cannot find the material item info required."
-RESULT_TYPE.SESSION_ERROR,"You were disconnected from the server for being idle for a long time. Please restart the game."
-RESULT_TYPE.ACCOUNT_ERROR,"The account is incorrect."
-RESULT_TYPE.UNHANDLED,"Not processed."
-RESULT_TYPE.HTTP_ERROR,"Web request has failed."
-RESULT_TYPE.PARSING_ERROR,"Invalid reply."
-RESULT_TYPE.HERO_NOT_FOUND,"The hero does not exist."
-RESULT_TYPE.EQUIP_DATA_NOT_FOUND,"The gear info does not exist."
-RESULT_TYPE.EQUIP_NOT_OWNED,"You do not have the gear."
-RESULT_TYPE.EQUIP_NOT_FOUND,"The gear does not exist."
-RESULT_TYPE.EQUIPPED,"The gear is already equipped."
-RESULT_TYPE.EQUIP_CODE_NOT_FOUND,"Cannot find the gear code."
-RESULT_TYPE.MAX_JOIN_REQUEST,"Exceeded the admission request limit.\nPlease cancel some requests and proceed."
-RESULT_TYPE.MAX_GUILD_MAX_JOIN_REQUEST,"Exceeded the admission request limit of the guild."
-RESULT_TYPE.MATERIAL_EQUIP_ITEM_PRICE_ERROR,"The price required is invalid."
-RESULT_TYPE.NO_UPGRADABLE_MATERIAL_EQUIP_ITEM,"Invalid gear materials."
-RESULT_TYPE.NOT_OWNED_MATERIAL_EQUIP_ITEM,"You don't have this gear material."
-RESULT_TYPE.NOT_ENOUGH_TEAM_LEVEL,"Low team level."
-RESULT_TYPE.MAX_MEMBER,"Reached max guild members."
-RESULT_TYPE.INVALID_RANK,"Invalid guild member's rights."
-RESULT_TYPE.GUILD_JOIN_NOT_REQUESTED,"Cannot find the admission request info."
-RESULT_TYPE.NAME_DUPLICATED,"The same name exists."
-RESULT_TYPE.GUILD_MEMBER_EXIST,"Guild members still exist."
-RESULT_TYPE.ALREADY_REGISTERED_MERCENARY,"This hero is already registered as a mercenary."
-RESULT_TYPE.MAX_MERCENARY,"Exceeded the mercenary registration limit."
-RESULT_TYPE.NOT_REGISTERED_MERCENARY,"Unregistered mercenary."
-RESULT_TYPE.ALREADY_JOINED,"Already joined a guild."
-RESULT_TYPE.LOG_NOT_FOUND,"The battle record does not exist."
-RESULT_TYPE.INVALID_PLUNDER_RESULT,"Invalid battle record."
-RESULT_TYPE.ALREADY_CHASED,"Already has chased."
-RESULT_TYPE.INVALID_CHAPTER_INDEX,"Invalid mission location."
-RESULT_TYPE.COLLECT_NODE_NOT_FOUND,"Cannot find the mission location."
-RESULT_TYPE.COLLECT_ENDED,"Collection already completed."
-RESULT_TYPE.DEAD_HERO_EXIST,"Cannot plunder a dead hero."
-RESULT_TYPE.USER_CHASE_INFO_NOT_FOUND,"Cannot find the chasing info."
-RESULT_TYPE.COLLECT_INFO_NOT_FOUND,"Cannot find the expedition mission info."
-RESULT_TYPE.INVALID_TEAM_SLOT,"Invalid expedition mission party."
-RESULT_TYPE.ALREADY_HARVESTED,"Already completed the mission."
-RESULT_TYPE.MAX_DAILY_QUICK_COMPLETE_COLLECT,"Reached the max number of Finish Now."
-RESULT_TYPE.COLLECT_NOT_ENDED,"The mission is not yet completed."
-RESULT_TYPE.RECORD_NOT_FOUND,"The replay record does not exist."
-RESULT_TYPE.ALREADY_DEFEND_REWARDED,"Already received rewards for defending plunders."
-RESULT_TYPE.MAX_PLUNDER_DEFEND_REWARD,"Reached the daily max number of rewards for defending plunders."
-RESULT_TYPE.CHAPTER_NOT_COMPLETED,"The chapter is not completed."
-RESULT_TYPE.VIP_LEVEL_DATA_NOT_FOUND,"Cannot find the VIP level data."
-RESULT_TYPE.MAX_RES_COLLECT_TEAM,"All teams are now on missions."
-RESULT_TYPE.NOW_COLLECTING,"The team is now on a mission."
-RESULT_TYPE.INVALID_HERO_INDEX,"The hero is on a mission or does not exist."
-RESULT_TYPE.CHAPTER_NOT_FOUND,"The chapter does not exist."
-RESULT_TYPE.DUNGEON_NOT_FOUND,"The dungeon does not exist."
-RESULT_TYPE.EMPTY_HERO_INDICES,"The hero is empty."
-RESULT_TYPE.CANNOT_PLAY_DUNGEON,"Cannot play the dungeon."
-RESULT_TYPE.NOT_ENOUGH_STAMINA,"Insufficient stamina."
-RESULT_TYPE.NOT_ENOUGH_PLAY_KEY,"Insufficient keys."
-RESULT_TYPE.INVALID_DIFF,"Invalid difficulty level."
-RESULT_TYPE.VERIFY_FAILED,"Verification has failed."
-RESULT_TYPE.CHECK_FAILED,"Checking has failed."
+RESULT_TYPE.FAIL,Your request was not processed successfully due to an unstable network connection. Please try again later.
+RESULT_TYPE.LEVEL_DATA_NOT_FOUND,Cannot find the level info.
+RESULT_TYPE.CANNOT_UPGRADE_MORE,Cannot upgrade any more.
+RESULT_TYPE.NOT_ENOUGH_GOLD,Insufficient gold.
+RESULT_TYPE.NOT_ENOUGH_GEM,Insufficient ruby.
+RESULT_TYPE.INSUFFICIENT_ITEM,Insufficient material items.
+RESULT_TYPE.GRADE_DATA_NOT_FOUND,Cannot find the rank info.
+RESULT_TYPE.CANNOT_UPGRADE_YET,Cannot upgrade yet.
+RESULT_TYPE.REQ_GOLD_NOT_FOUND,Cannot find the gold info required.
+RESULT_TYPE.REQ_ITEM_DATA_NOT_FOUND,Cannot find the material item info required.
+RESULT_TYPE.SESSION_ERROR,You were disconnected from the server for being idle for a long time. Please restart the game.
+RESULT_TYPE.ACCOUNT_ERROR,The account is incorrect.
+RESULT_TYPE.UNHANDLED,Not processed.
+RESULT_TYPE.HTTP_ERROR,Web request has failed.
+RESULT_TYPE.PARSING_ERROR,Invalid reply.
+RESULT_TYPE.HERO_NOT_FOUND,You do not have this Hero.
+RESULT_TYPE.EQUIP_DATA_NOT_FOUND,The gear info does not exist.
+RESULT_TYPE.EQUIP_NOT_OWNED,You do not have the gear.
+RESULT_TYPE.EQUIP_NOT_FOUND,The gear does not exist.
+RESULT_TYPE.EQUIPPED,The gear is already equipped.
+RESULT_TYPE.EQUIP_CODE_NOT_FOUND,Cannot find the gear code.
+RESULT_TYPE.MAX_JOIN_REQUEST,Exceeded the admission request limit.\nPlease cancel some requests and proceed.
+RESULT_TYPE.MAX_GUILD_MAX_JOIN_REQUEST,Exceeded the admission request limit of the guild.
+RESULT_TYPE.MATERIAL_EQUIP_ITEM_PRICE_ERROR,The price required is invalid.
+RESULT_TYPE.NO_UPGRADABLE_MATERIAL_EQUIP_ITEM,Invalid gear materials.
+RESULT_TYPE.NOT_OWNED_MATERIAL_EQUIP_ITEM,You don't have this gear material.
+RESULT_TYPE.NOT_ENOUGH_TEAM_LEVEL,Low team level.
+RESULT_TYPE.MAX_MEMBER,Reached max guild members.
+RESULT_TYPE.INVALID_RANK,Invalid guild member's rights.
+RESULT_TYPE.GUILD_JOIN_NOT_REQUESTED,Cannot find the admission request info.
+RESULT_TYPE.NAME_DUPLICATED,The same name exists.
+RESULT_TYPE.GUILD_MEMBER_EXIST,Guild members still exist.
+RESULT_TYPE.ALREADY_REGISTERED_MERCENARY,This hero is already registered as a mercenary.
+RESULT_TYPE.MAX_MERCENARY,Exceeded the mercenary registration limit.
+RESULT_TYPE.NOT_REGISTERED_MERCENARY,Unregistered mercenary.
+RESULT_TYPE.ALREADY_JOINED,Already joined a guild.
+RESULT_TYPE.LOG_NOT_FOUND,The battle record does not exist.
+RESULT_TYPE.INVALID_PLUNDER_RESULT,Invalid battle record.
+RESULT_TYPE.ALREADY_CHASED,Already has chased.
+RESULT_TYPE.INVALID_CHAPTER_INDEX,Invalid mission location.
+RESULT_TYPE.COLLECT_NODE_NOT_FOUND,Cannot find the mission location.
+RESULT_TYPE.COLLECT_ENDED,Collection already completed.
+RESULT_TYPE.DEAD_HERO_EXIST,Cannot plunder a dead hero.
+RESULT_TYPE.USER_CHASE_INFO_NOT_FOUND,Cannot find the chasing info.
+RESULT_TYPE.COLLECT_INFO_NOT_FOUND,Cannot find the expedition mission info.
+RESULT_TYPE.INVALID_TEAM_SLOT,Invalid expedition mission party.
+RESULT_TYPE.ALREADY_HARVESTED,Already completed the mission.
+RESULT_TYPE.MAX_DAILY_QUICK_COMPLETE_COLLECT,Reached the max number of Finish Now.
+RESULT_TYPE.COLLECT_NOT_ENDED,The mission is not yet completed.
+RESULT_TYPE.RECORD_NOT_FOUND,The replay record does not exist.
+RESULT_TYPE.ALREADY_DEFEND_REWARDED,Already received rewards for defending plunders.
+RESULT_TYPE.MAX_PLUNDER_DEFEND_REWARD,Reached the daily max number of rewards for defending plunders.
+RESULT_TYPE.CHAPTER_NOT_COMPLETED,The chapter is not completed.
+RESULT_TYPE.VIP_LEVEL_DATA_NOT_FOUND,Cannot find the VIP level data.
+RESULT_TYPE.MAX_RES_COLLECT_TEAM,All teams are now on missions.
+RESULT_TYPE.NOW_COLLECTING,The team is now on a mission.
+RESULT_TYPE.INVALID_HERO_INDEX,The hero is on a mission or does not exist.
+RESULT_TYPE.CHAPTER_NOT_FOUND,The chapter does not exist.
+RESULT_TYPE.DUNGEON_NOT_FOUND,The dungeon does not exist.
+RESULT_TYPE.EMPTY_HERO_INDICES,The hero is empty.
+RESULT_TYPE.CANNOT_PLAY_DUNGEON,Cannot play the dungeon.
+RESULT_TYPE.NOT_ENOUGH_STAMINA,Insufficient stamina.
+RESULT_TYPE.NOT_ENOUGH_PLAY_KEY,Insufficient keys.
+RESULT_TYPE.INVALID_DIFF,Invalid difficulty level.
+RESULT_TYPE.VERIFY_FAILED,Verification has failed.
+RESULT_TYPE.CHECK_FAILED,Checking has failed.
 RESULT_TYPE.USER_CAMPAIGN_INFO_NOT_FOUND,"Due to a network error, there is a server delay in processing user information. Please try again later."
-RESULT_TYPE.WRONG_CHAPTER_INDEX,"This feature is unavailable."
-RESULT_TYPE.WRONG_DUNGEON_INDEX,"This feature is unavailable."
-RESULT_TYPE.INVALID_STAR,"Invalid star info."
-RESULT_TYPE.ENCHANT_RESULT_NOT_FOUND,"Re-identification info does not exist."
-RESULT_TYPE.EQUIP_ITEM_SLOT_INDEX_MISMATCH,"Re-identification target is different."
-RESULT_TYPE.OPTION_SLOT_INDEX_MISMATCH,"The option slot to re-identify is different."
-RESULT_TYPE.OPTION_INDEX_MISMATCH,"The option result to re-identify is different."
-RESULT_TYPE.PREV_OPTION_INDEX_MISMATCH,"The overwriting option is different from the current attempt."
-RESULT_TYPE.INVALID_OPTION_SLOT,"Invalid option slot."
-RESULT_TYPE.RANDOM_OPTION_DATA_ERROR,"Invalid random option info."
-RESULT_TYPE.NO_HERO,"The hero does not exist."
-RESULT_TYPE.HERO_DATA_NOT_FOUND,"The hero info does not exist."
-RESULT_TYPE.ALREADY_OTHER_HERO_EQUIPPED,"Another hero has already worn it."
-RESULT_TYPE.ITEM_DATA_NOT_FOUND,"The item info does not exist."
-RESULT_TYPE.EQUIP_ITEM_DATA_NOT_FOUND,"The gear info does not exist."
-RESULT_TYPE.EQUIP_TAG_ERROR,"Invalid gear tag."
-RESULT_TYPE.TOO_LOW_GRADE,"Too low rank."
-RESULT_TYPE.TOO_LOW_LEVEL,"Too low level."
-RESULT_TYPE.LOCKED_PART_INDEX,"Locked gear slot."
-RESULT_TYPE.EQUIP_PART_ERROR,"Unusable gear slot."
-RESULT_TYPE.REMOVE_FAILED,"Removing failed."
-RESULT_TYPE.INVALID_HERO_PART_INDEX,"Invalid gear slot."
-RESULT_TYPE.ALREADY_UNLOCKED,"Already opened."
-RESULT_TYPE.UNLOCK_FAILED,"Opening failed."
-RESULT_TYPE.EQUIP_ITEM_NOT_FOUND,"The gear does not exist."
-RESULT_TYPE.UNEQUIP_FAILED,"Removing the gear failed."
-RESULT_TYPE.STAT_DATA_NOT_FOUND,"The stat info does not exist."
-RESULT_TYPE.EMPTY_MATERIAL_EQUIP_ITEM,"Empty materials."
-RESULT_TYPE.INVALID_MATERIAL_EQUIP_ITEM,"Invalid material gear."
-RESULT_TYPE.FRIEND_NOT_FOUND,"Friends do not exist."
-RESULT_TYPE.REQUEST_MYSELF,"Cannot send a request to yourself."
-RESULT_TYPE.CANNOT_SEARCH_MYSELF,"Cannot search yourself."
-RESULT_TYPE.GACHA_DATA_NOT_FOUND,"The Gacha info does not exist."
-RESULT_TYPE.WRONG_GACHA_INDEX,"Invalid Gacha number."
-RESULT_TYPE.WRONG_GACHA_COUNT,"Invalid Gacha count."
-RESULT_TYPE.NO_MERCENARIES,"Mercenaries do not exist."
-RESULT_TYPE.NO_GUILD,"Guilds do not exist."
-RESULT_TYPE.INVAILID_RANK,"Invalid ranking."
-RESULT_TYPE.GUILD_MAX_JOIN_REQUEST,"Exceeded the request limit for the guild."
-RESULT_TYPE.TRIAL_DUNGEON_DATA_NOT_FOUND,"The Dungeon of Ordeal info does not exist."
-RESULT_TYPE.NOT_PLAYER_HERO,"You don't have this hero."
-RESULT_TYPE.ITEM_NOT_OWNED,"You don't have this item."
-RESULT_TYPE.ITEM_TYPE_MISMATCH,"Different item type."
-RESULT_TYPE.POTION_DATA_NOT_FOUND,"The potion info does not exist."
-RESULT_TYPE.INVALID_ACTION,"Invalid action."
-RESULT_TYPE.RECIPE_DATA_NOT_FOUND,"The recipe info does not exist."
-RESULT_TYPE.MATERIAL_DATA_NOT_FOUND,"The material info does not exist."
-RESULT_TYPE.NOT_ENOUGH_MATERIAL,"Insufficient materials."
-RESULT_TYPE.MATCH_RESULT_NOT_FOUND,"The match results do not exist."
-RESULT_TYPE.MATCH_UID_MISMATCH,"The match number does not match."
-RESULT_TYPE.MATCHING_DISABLED,"Calculating Battle results."
-RESULT_TYPE.NOT_ENOUGH_SWORD,"Insufficient swords."
-RESULT_TYPE.MATCH_USER_NOT_FOUND,"Participating user info does not exist."
-RESULT_TYPE.NPC_INFO_NOT_FOUND,"NPC info does not exist."
+RESULT_TYPE.WRONG_CHAPTER_INDEX,This feature is unavailable.
+RESULT_TYPE.WRONG_DUNGEON_INDEX,This feature is unavailable.
+RESULT_TYPE.INVALID_STAR,Invalid star info.
+RESULT_TYPE.ENCHANT_RESULT_NOT_FOUND,Re-identification info does not exist.
+RESULT_TYPE.EQUIP_ITEM_SLOT_INDEX_MISMATCH,Re-identification target is different.
+RESULT_TYPE.OPTION_SLOT_INDEX_MISMATCH,The option slot to re-identify is different.
+RESULT_TYPE.OPTION_INDEX_MISMATCH,The option result to re-identify is different.
+RESULT_TYPE.PREV_OPTION_INDEX_MISMATCH,The overwriting option is different from the current attempt.
+RESULT_TYPE.INVALID_OPTION_SLOT,Invalid option slot.
+RESULT_TYPE.RANDOM_OPTION_DATA_ERROR,Invalid random option info.
+RESULT_TYPE.NO_HERO,The hero does not exist.
+RESULT_TYPE.HERO_DATA_NOT_FOUND,The hero info does not exist.
+RESULT_TYPE.ALREADY_OTHER_HERO_EQUIPPED,Another hero has already worn it.
+RESULT_TYPE.ITEM_DATA_NOT_FOUND,The item info does not exist.
+RESULT_TYPE.EQUIP_ITEM_DATA_NOT_FOUND,The gear info does not exist.
+RESULT_TYPE.EQUIP_TAG_ERROR,Invalid gear tag.
+RESULT_TYPE.TOO_LOW_GRADE,Too low rank.
+RESULT_TYPE.TOO_LOW_LEVEL,Too low level.
+RESULT_TYPE.LOCKED_PART_INDEX,Locked gear slot.
+RESULT_TYPE.EQUIP_PART_ERROR,Unusable gear slot.
+RESULT_TYPE.REMOVE_FAILED,Removing failed.
+RESULT_TYPE.INVALID_HERO_PART_INDEX,Invalid gear slot.
+RESULT_TYPE.ALREADY_UNLOCKED,Already opened.
+RESULT_TYPE.UNLOCK_FAILED,Opening failed.
+RESULT_TYPE.EQUIP_ITEM_NOT_FOUND,The gear does not exist.
+RESULT_TYPE.UNEQUIP_FAILED,Removing the gear failed.
+RESULT_TYPE.STAT_DATA_NOT_FOUND,The stat info does not exist.
+RESULT_TYPE.EMPTY_MATERIAL_EQUIP_ITEM,Empty materials.
+RESULT_TYPE.INVALID_MATERIAL_EQUIP_ITEM,Invalid material gear.
+RESULT_TYPE.FRIEND_NOT_FOUND,Friends do not exist.
+RESULT_TYPE.REQUEST_MYSELF,Cannot send a request to yourself.
+RESULT_TYPE.CANNOT_SEARCH_MYSELF,Cannot search yourself.
+RESULT_TYPE.GACHA_DATA_NOT_FOUND,The Gacha info does not exist.
+RESULT_TYPE.WRONG_GACHA_INDEX,Invalid Gacha number.
+RESULT_TYPE.WRONG_GACHA_COUNT,Invalid Gacha count.
+RESULT_TYPE.NO_MERCENARIES,Mercenaries do not exist.
+RESULT_TYPE.NO_GUILD,Guilds do not exist.
+RESULT_TYPE.INVAILID_RANK,Invalid ranking.
+RESULT_TYPE.GUILD_MAX_JOIN_REQUEST,Exceeded the request limit for the guild.
+RESULT_TYPE.TRIAL_DUNGEON_DATA_NOT_FOUND,The Dungeon of Ordeal info does not exist.
+RESULT_TYPE.NOT_PLAYER_HERO,You don't have this hero.
+RESULT_TYPE.ITEM_NOT_OWNED,You don't have this item.
+RESULT_TYPE.ITEM_TYPE_MISMATCH,Different item type.
+RESULT_TYPE.POTION_DATA_NOT_FOUND,The potion info does not exist.
+RESULT_TYPE.INVALID_ACTION,Invalid action.
+RESULT_TYPE.RECIPE_DATA_NOT_FOUND,The recipe info does not exist.
+RESULT_TYPE.MATERIAL_DATA_NOT_FOUND,The material info does not exist.
+RESULT_TYPE.NOT_ENOUGH_MATERIAL,Insufficient materials.
+RESULT_TYPE.MATCH_RESULT_NOT_FOUND,The match results do not exist.
+RESULT_TYPE.MATCH_UID_MISMATCH,The match number does not match.
+RESULT_TYPE.MATCHING_DISABLED,Calculating Battle results.
+RESULT_TYPE.NOT_ENOUGH_SWORD,Insufficient swords.
+RESULT_TYPE.MATCH_USER_NOT_FOUND,Participating user info does not exist.
+RESULT_TYPE.NPC_INFO_NOT_FOUND,NPC info does not exist.
 RESULT_TYPE.WAIT_MORE,"Due to a network error, there is a server delay in processing battle information. Please tab OK again."
-RESULT_TYPE.NOT_ENOUGH_CHEESE,"Insufficient cheese."
-RESULT_TYPE.USER_PLUNDER_INFO_NOT_FOUND,"The plunder info does not exist."
-RESULT_TYPE.COLLECT_NODE_DATA_NOT_FOUND,"The collection node info does not exist."
-RESULT_TYPE.PLAYER_NOT_FOUND,"The player does not exist."
-RESULT_TYPE.V_I_P_LEVEL_DATA_NOT_FOUND,"The VIP level info does not exist."
-RESULT_TYPE.SHOP_DATA_NOT_FOUND,"The shop info does not exist."
-RESULT_TYPE.SHOP_ITEM_DATA_NOT_FOUND,"The shop item info does not exist."
-RESULT_TYPE.PLAYER_SHOP_ITEM_NOT_FOUND,"The shop item info of the player does not exist."
-RESULT_TYPE.SOLD_OUT,"Already sold."
-RESULT_TYPE.INVALID_COST,"Invalid price."
-RESULT_TYPE.NO_ITEM_DATA,"The item info does not exist."
-RESULT_TYPE.NOT_OWNED,"Not owned."
-RESULT_TYPE.INVALID_ITEM_COUNT,"Invalid item count."
-RESULT_TYPE.NOT_ENOUGH_STONE,"Insufficient Enhancement Crystal."
-RESULT_TYPE.HERO_LEVEL_LIMIT,"Insufficient hero level."
-RESULT_TYPE.SKILL_LEVEL_NOT_FOUND,"The skill level info does not exist."
-RESULT_TYPE.SKILL_PRICE_NOT_FOUND,"The skill price info does not exist."
-RESULT_TYPE.TEAM_LEVEL_LIMIT,"Cannot exceed the hero level."
-RESULT_TYPE.SKILL_NOT_FOUND,"The skill does not exist."
-RESULT_TYPE.REQ_GOLD_ERROR,"Invalid gold required."
-RESULT_TYPE.STAR_DATA_NOT_FOUND,"The star info is incorrect."
-RESULT_TYPE.NO_TARGET_ACCOUNT_ID,"Target user's number does not exist."
-RESULT_TYPE.VERSION_ERROR,"Invalid version."
-RESULT_TYPE.MATCH_NOT_FOUND,"The match does not exist."
-RESULT_TYPE.EQUIP_ITEM_FULL,"Gear is full."
-RESULT_TYPE.INVALID_GUILD_LEVEL,"Invalid guild level."
-RESULT_TYPE.ALREADY_JOIN_REQUESTED,"Already requesting to join..."
-RESULT_TYPE.MIN_REGISTER_TIME_NOT_ELAPSED,"Minimum registration time did not pass."
-RESULT_TYPE.RESULT_ITEM_DATA_NOT_FOUND,"The result item info does not exist."
-RESULT_TYPE.RESULT_EQUIP_ITEM_DATA_NOT_FOUND,"The result gear info does not exist."
-RESULT_TYPE.MISSION_NOT_COMPLETED,"The mission is not completed yet."
-RESULT_TYPE.TYPE_ERROR,"Invalid type."
-RESULT_TYPE.INFO_ERROR,"Invalid info."
-RESULT_TYPE.ACCOUNT_IDS_ERROR,"Invalid account number."
-RESULT_TYPE.NOT_ENOUGH_PVP_COIN,"Insufficient PVP coins."
-RESULT_TYPE.EMPTY_NICK,"The nickname is empty."
-RESULT_TYPE.INVALID_NICK,"The nickname is unusable."
-RESULT_TYPE.ALREADY_EXIST,"The nickname already exists."
-RESULT_TYPE.TOO_SHORT_NICK,"The nickname is too short."
-RESULT_TYPE.TOO_LONG_NICK,"The nickname is too long."
-RESULT_TYPE.CENSORED_WORD,"Swearwords are included."
-RESULT_TYPE.NOT_ENOUGH_CHALLENGE_CHANCE,"Cannot challenge any more."
-RESULT_TYPE.NOT_ENOUGH_DUNGEON_KEY,"Insufficient keys for entering dungeons."
-RESULT_TYPE.NOT_OPENED_DUNGEON,"The dungeon is not open."
-RESULT_TYPE.REQ_GEM_ERROR,"No ruby required."
-RESULT_TYPE.WAITER_NOT_FOUND,"Cannot find the pending info."
-RESULT_TYPE.MISSION_NOT_CLEARED,"The mission is not completed yet."
-RESULT_TYPE.DUNGEON_DATA_NOT_FOUND,"The dungeon info does not exist."
-RESULT_TYPE.NO_AVAILABLE_SERVER,"There are no servers to enter."
-RESULT_TYPE.UNEQUIP_OLD_FAILED,"Cannot remove the current gear."
-RESULT_TYPE.EQUIP_FAILED,"Equipping gear has failed."
-RESULT_TYPE.NO_SHOP_DATA,"Cannot find the shop info."
-BASE_RESULT_TYPE.TIMEOUT,"There was no response from the server."
+RESULT_TYPE.NOT_ENOUGH_CHEESE,Insufficient cheese.
+RESULT_TYPE.USER_PLUNDER_INFO_NOT_FOUND,The plunder info does not exist.
+RESULT_TYPE.COLLECT_NODE_DATA_NOT_FOUND,The collection node info does not exist.
+RESULT_TYPE.PLAYER_NOT_FOUND,The player does not exist.
+RESULT_TYPE.V_I_P_LEVEL_DATA_NOT_FOUND,The VIP level info does not exist.
+RESULT_TYPE.SHOP_DATA_NOT_FOUND,The shop info does not exist.
+RESULT_TYPE.SHOP_ITEM_DATA_NOT_FOUND,The shop item info does not exist.
+RESULT_TYPE.PLAYER_SHOP_ITEM_NOT_FOUND,The shop item info of the player does not exist.
+RESULT_TYPE.SOLD_OUT,Already sold.
+RESULT_TYPE.INVALID_COST,Invalid price.
+RESULT_TYPE.NO_ITEM_DATA,The item info does not exist.
+RESULT_TYPE.NOT_OWNED,Not owned.
+RESULT_TYPE.INVALID_ITEM_COUNT,Invalid item count.
+RESULT_TYPE.NOT_ENOUGH_STONE,Insufficient Enhancement Crystal.
+RESULT_TYPE.HERO_LEVEL_LIMIT,Insufficient hero level.
+RESULT_TYPE.SKILL_LEVEL_NOT_FOUND,The skill level info does not exist.
+RESULT_TYPE.SKILL_PRICE_NOT_FOUND,The skill price info does not exist.
+RESULT_TYPE.TEAM_LEVEL_LIMIT,Cannot exceed the hero level.
+RESULT_TYPE.SKILL_NOT_FOUND,The skill does not exist.
+RESULT_TYPE.REQ_GOLD_ERROR,Invalid gold required.
+RESULT_TYPE.STAR_DATA_NOT_FOUND,The star info is incorrect.
+RESULT_TYPE.NO_TARGET_ACCOUNT_ID,Target user's number does not exist.
+RESULT_TYPE.VERSION_ERROR,Invalid version.
+RESULT_TYPE.MATCH_NOT_FOUND,The match does not exist.
+RESULT_TYPE.EQUIP_ITEM_FULL,Gear is full.
+RESULT_TYPE.INVALID_GUILD_LEVEL,Invalid guild level.
+RESULT_TYPE.ALREADY_JOIN_REQUESTED,Already requesting to join...
+RESULT_TYPE.MIN_REGISTER_TIME_NOT_ELAPSED,Minimum registration time did not pass.
+RESULT_TYPE.RESULT_ITEM_DATA_NOT_FOUND,The result item info does not exist.
+RESULT_TYPE.RESULT_EQUIP_ITEM_DATA_NOT_FOUND,The result gear info does not exist.
+RESULT_TYPE.MISSION_NOT_COMPLETED,The mission is not completed yet.
+RESULT_TYPE.TYPE_ERROR,Invalid type.
+RESULT_TYPE.INFO_ERROR,Invalid info.
+RESULT_TYPE.ACCOUNT_IDS_ERROR,Invalid account number.
+RESULT_TYPE.NOT_ENOUGH_PVP_COIN,Insufficient PVP coins.
+RESULT_TYPE.EMPTY_NICK,The nickname is empty.
+RESULT_TYPE.INVALID_NICK,The nickname is unusable.
+RESULT_TYPE.ALREADY_EXIST,The nickname already exists.
+RESULT_TYPE.TOO_SHORT_NICK,The nickname is too short.
+RESULT_TYPE.TOO_LONG_NICK,The nickname is too long.
+RESULT_TYPE.CENSORED_WORD,Swearwords are included.
+RESULT_TYPE.NOT_ENOUGH_CHALLENGE_CHANCE,Cannot challenge any more.
+RESULT_TYPE.NOT_ENOUGH_DUNGEON_KEY,Insufficient keys for entering dungeons.
+RESULT_TYPE.NOT_OPENED_DUNGEON,The dungeon is not open.
+RESULT_TYPE.REQ_GEM_ERROR,No ruby required.
+RESULT_TYPE.WAITER_NOT_FOUND,Cannot find the pending info.
+RESULT_TYPE.MISSION_NOT_CLEARED,The mission is not completed yet.
+RESULT_TYPE.DUNGEON_DATA_NOT_FOUND,The dungeon info does not exist.
+RESULT_TYPE.NO_AVAILABLE_SERVER,There are no servers to enter.
+RESULT_TYPE.UNEQUIP_OLD_FAILED,Cannot remove the current gear.
+RESULT_TYPE.EQUIP_FAILED,Equipping gear has failed.
+RESULT_TYPE.NO_SHOP_DATA,Cannot find the shop info.
+BASE_RESULT_TYPE.TIMEOUT,There was no response from the server.
 BASE_RESULT_TYPE.SEQUENCE_ERROR,"Due to a network error, there is a server delay in processing user information. Please try again later."
-BASE_RESULT_TYPE.INTERNAL_ERROR,"Internal error."
-BASE_RESULT_TYPE.EMPTY_HOST,"Host does not exist."
-RESULT_TYPE.ACHIEVEMENT_NOT_CLEARED,"Achievement is not completed yet."
-RESULT_TYPE.INVALID_STEP,"You already received this reward."
-RESULT_TYPE.NO_PRIVILEGE,"You have no authorization."
-RESULT_TYPE.INVALID_HOST,"Wrong host."
-RESULT_TYPE.MASTER_NOT_FOUND,"Room leader does not exist."
-RESULT_TYPE.MULTIPLAY_INFO_NOT_FOUND,"Party play info does not exist."
-RESULT_TYPE.WRONG_MEMBER,"Invalid member."
-RESULT_TYPE.ALREADY_REWARD_CALCULATED,"Reward has been decided already."
-RESULT_TYPE.LINKED_DUNGEON_NOT_FOUND,"Connected dungeon does not exist."
-RESULT_TYPE.ALREADY_COMPLETED,"Completed already."
-RESULT_TYPE.DUNGEON_TYPE_ERROR,"Wrong dungeon type."
-RESULT_TYPE.CANNOT_VISIT_DUNGEON,"Cannot visit this dungeon."
-RESULT_TYPE.INVALID_TRIAL_HERO,"Wrong hero for the Dungeon of Ordeal."
-RESULT_TYPE.WORLD_MAP_EVENT_NOT_FOUND,"World map event does not exist."
-RESULT_TYPE.EVENT_DUNGEON_INDEX_MISMATCH,"Invalid event dungeon number."
-RESULT_TYPE.NOT_ENOUGH_MULTIPLAY_MEMBERS,"Not enough members."
-RESULT_TYPE.NOT_CALCULATED,"Not yet decided."
-RESULT_TYPE.ALREADY_REWARDED,"Reward has been given already."
-RESULT_TYPE.NOT_SAME_DEVELOPER_PAYLOAD,"Payment info (DeveloperPayload) does not match. Payment has been canceled."
-RESULT_TYPE.NOT_SAME_PRODUCT_ID,"Payment info (ProductId) does not match. Payment has been canceled."
-RESULT_TYPE.WRONG_PURCHASE_STATUS,"Payment info (PurchaseStatus) is wrong. Payment has been canceled."
-RESULT_TYPE.VERIFICATION_FAILED,"Failed to verify payment. Payment has been canceled."
-RESULT_TYPE.INVALID_CONSUMPTION_STATE,"Invalid payment info (ConsumptionState). Payment has been canceled."
-RESULT_TYPE.NOT_MONTHLY_ENDED,"You can't purchase the monthly package yet."
-RESULT_TYPE.HAVE_PLAY_CHANCE,"Could not purchase due to remaining challenge opportunities."
-RESULT_TYPE.INVALID_DUNGEON_INDEX,"Invalid dungeon number."
-RESULT_TYPE.CANNOT_AWAKEN_YET,"Cannot Awaken yet."
-RESULT_TYPE.CANNOT_AWAKEN_MORE,"Cannot Awaken any more."
-RESULT_TYPE.RUNE_ITEM_NOT_OWNED,"You don't have this rune item."
-RESULT_TYPE.SAME_RUNE_EQUIPPED,"Same rune already equipped."
-RESULT_TYPE.ALEADY_OCCUPIED,"Already assigned."
-RESULT_TYPE.PRESERVE_PRICE_ERROR,"Preserve price is invalid."
-RESULT_TYPE.RUNE_ITEM_DATA_NOT_FOUND,"Rune item info does not exist."
-RESULT_TYPE.RUNE_DATA_NOT_FOUND,"Rune info does not exist."
-RESULT_TYPE.PART_TYPE_ERROR,"Invalid parts."
-RESULT_TYPE.NO_EQUIPPED_RUNE,"The rune is not equipped."
-RESULT_TYPE.HERO_ALREADY_EXIST,"Hero already exists."
-RESULT_TYPE.SKILL_NOT_LEARNED,"You have not learned the skill."
-RESULT_TYPE.INVALID_SKILL_EXTEND,"Invalid skill expansion."
-RESULT_TYPE.NOT_ENOUGH_ITEM,"Insufficient items."
-RESULT_TYPE.BOOK_ITEM_DATA_NOT_FOUND,"Book item info does not exist."
-RESULT_TYPE.SKILL_ALREADY_LEARNED,"Learned this skill already."
-RESULT_TYPE.MAX_PURIFIED,"Reached max purification."
-RESULT_TYPE.MAX_HERO_STAR,"Hero reached max Awakening."
-RESULT_TYPE.NO_AWAKE_MATERIAL,"No Awakening materials."
-RESULT_TYPE.PURIFY_DATA_NOT_FOUND,"No purification data."
-RESULT_TYPE.INVALID_PURIFY_DATA,"Invalid purification data."
-RESULT_TYPE.TRANSCEND_SKILL_LEVEL_DATA_NOT_FOUND,"Skill transcendence data does not exist."
-RESULT_TYPE.MAX_TRANSCEND_SKILL_LEVEL,"Skill reached max transcend limit."
-RESULT_TYPE.TRANSCEND_SKILL_LEVEL_PRICE_DATA_NOT_FOUND,"Skill transcendence price does not exist."
-RESULT_TYPE.NOT_MAX_HERO_STAR,"Hero has not reached max Awakening yet."
-RESULT_TYPE.INVALID_TRANSCEND_COUNT,"Invalid transcendence amount."
-RESULT_TYPE.GRADE_TOO_LOW,"Rank too low."
-RESULT_TYPE.CREATURE_DATA_NOT_FOUND,"Hero info does not exist."
-RESULT_TYPE.UPGRADE_BOOK_DATA_NOT_FOUND,"Upgrade book info does not exist."
-RESULT_TYPE.MATCH_PLAYER_NOT_FOUND,"Opponent does not exist."
-RESULT_TYPE.INVALID_SHOP_DATA,"Invalid shop info."
-RESULT_TYPE.NOT_GUILD_MEMBER,"Not a guild member."
-RESULT_TYPE.NOT_ENOUGH_GUILD_POINT,"Insufficient guild points."
-RESULT_TYPE.INVALID_SHOP_ITEM_LIST_INDEX,"Invalid shop number."
-RESULT_TYPE.INVALID_ITEM_TYPE,"Invalid item type."
-RESULT_TYPE.HERO_SHOP_SLOT_EXCEEDED,"Hero's shop slots have exceeded the limit."
-RESULT_TYPE.INVALID_HERO_SHOP_SLOT,"Invalid hero shop slot."
-RESULT_TYPE.NO_SHOP_ITEM_INFO,"Shop item info does not exist."
-RESULT_TYPE.NO_SHOP_ITEM_DATA,"Shop item data does not exist."
-RESULT_TYPE.NO_SELL_COUNT,"No sell amount."
-RESULT_TYPE.ALREADY_OPENED_CLASS,"Class has been opened already"
-RESULT_TYPE.NOT_OPENED_CLASS_DUNGEON,"Dungeon for the specified class is not open."
-RESULT_TYPE.ALREADY_GET_CHALLENGE,"Undertaken already."
-RESULT_TYPE.ALREADY_HAVE_MATERIAL,"Already have materials."
-RESULT_TYPE.INVALID_HERO_CLASS,"Wrong class."
-RESULT_TYPE.TUTORIAL_DATA_NOT_FOUND,"Tutorial data does not exist."
-RESULT_TYPE.RETRY,"Retry"
-RESULT_TYPE.NOT_IMPLEMENTED_METHOD,"Invalid method."
-RESULT_TYPE.INVALID_QUEST_INDEX,"Invalid quest number."
-RESULT_TYPE.QUEST_INFO_NOT_FOUND,"Cannot find quest info."
-RESULT_TYPE.QUEST_NOT_CLEARED,"Quest is not completed yet."
-RESULT_TYPE.NOT_COMPLETED,"Not completed yet."
-RESULT_TYPE.EMPTY_DUNGEON_INDICES,"Dungeon number is empty."
-RESULT_TYPE.EVENT_INDEX_COUNT_MISMATCH,"Event number does not match."
-RESULT_TYPE.MAX_DAILY_COUNT,"Exceeded daily limit"
-RESULT_TYPE.ALREADY_VISITED,"Already visited."
-RESULT_TYPE.INVALID_MATERIAL_ITEM,"Invalid material items."
-RESULT_TYPE.INVALID_REQ_ITEM_EXP_DATA,"Invalid EXP of the required items."
-RESULT_TYPE.SAME_BOOSTER_APPLIED,"The same booster effect exists."
-RESULT_TYPE.PACKAGE_DATA_NOT_FOUND,"No package product data."
-RESULT_TYPE.INVALID_ITEM_INDEX,"Invalid Item Index."
-RESULT_TYPE.INVALID_ITEM_DATA,"Invalid Item Data."
-RESULT_TYPE.INVALID_ACCOUNT_ID,"Invalid account number."
-RESULT_TYPE.REWARD_TIME_ENDED,"Reward time is over."
-RESULT_TYPE.CHECKING_INTEGRITY,"The battle result is still being processed. Please try again later."
-RESULT_TYPE.BATTLE_SERVER_NOT_FOUND,"The network is currently unstable. Please move to a location with better signal quality and reconnect to the game."
-RESULT_TYPE.TOWER_DATA_NOT_FOUND,"Tower info does not exist."
-RESULT_TYPE.TOWER_FLOOR_DATA_NOT_FOUND,"Floor info does not exist."
-RESULT_TYPE.CANNOT_ENTER_TOWER_FLOOR,"Cannot enter the floor."
-RESULT_TYPE.TOWER_CHAPTER_MISMATCH,"Tower chapter does not match."
-RESULT_TYPE.TOWER_DUNGEON_MISMATCH,"Tower dungeon does not match."
-RESULT_TYPE.TOWER_TEAM_LEVEL_LIMIT,"Cannot enter the floor due to insufficient team level. "
-RESULT_TYPE.TOWER_REQ_DUNGEON_NOT_COMPLETED,"Prerequisite dungeons are not completed for entry into the tower."
-RESULT_TYPE.NOT_ENOUGH_TOWER_COST,"Insufficient goods for entry into the tower."
-RESULT_TYPE.DIED_HERO_CACHE,"The hero is dead."
-RESULT_TYPE.MISSING_BATTLE_LOG,"Didn't enter battle log."
-RESULT_TYPE.MISSING_CREATURE_INFO,"Didn't enter hero info."
-RESULT_TYPE.REQUEST_INTEGRITY_CHECK_ERROR,"Integrity check request error."
-RESULT_TYPE.MISSING_TOWER_CREATURE_INFO,"Didn't enter tower hero info."
-RESULT_TYPE.PARSING_TOWER_CREATURE_INFO_ERROR,"Cannot import tower hero info."
-RESULT_TYPE.EMPTY_TOWER_ENTER_HEROES,"Didn't enter info on heroes that entered the tower."
-RESULT_TYPE.TOWER_NOT_PLAYED,"Tower has not been progressed."
-RESULT_TYPE.PLAYER_TOWER_NOT_FOUND,"Cannot find info on tower in progress."
-RESULT_TYPE.CANNOT_RESET_MORE,"Cannot reset any more."
-RESULT_TYPE.NOT_ENOUGH_COST,"Insufficient goods."
-RESULT_TYPE.CLOSED_DUNGEON,"This Dungeon is Closed."
-RESULT_TYPE.OPENED_DUNGEON,"This Dungeon is Open."
-RESULT_TYPE.QUEST_DATA_NOT_FOUND,"Quest data does not exist."
-RESULT_TYPE.NOT_ACCEPTABLE,"Cannot accept."
-RESULT_TYPE.CANNOT_GIVEUP,"Cannot give up."
-RESULT_TYPE.NOT_REWARDABLE,"Cannot receive rewards."
-RESULT_TYPE.EQUIP_FULL,"Inventory is full."
-RESULT_TYPE.VIPLEVEL_DATA_NOT_FOUND,"No VIP Data exists."
-RESULT_TYPE.MISSING_LANGUAGE,"Didn't enter language."
-RESULT_TYPE.CANNOT_LINK_GUEST,"Cannot link as a guest."
-RESULT_TYPE.ALREADY_LINKED_ID,"Account already linked."
-RESULT_TYPE.SERVER_CLOSING,"Currently preparing for service. Please wait."
-RESULT_TYPE.INVALID_SHOP_INDEX,"Invalid shop number."
-RESULT_TYPE.EXCEEDED_PURCHASABLE_COUNT,"Exceeded the number of purchases."
-RESULT_TYPE.INVALID_REWARD_DATA,"Invalid reward data."
-RESULT_TYPE.TOWER_NPC_NOT_FOUND,"Tower's NPC does not exist."
-RESULT_TYPE.TOWER_NPC_SLOT_NOT_FOUND,"Floor NPC does not exist. "
-RESULT_TYPE.TOWER_NPC_INFO_NOT_FOUND,"Floor NPC info does not exist."
-RESULT_TYPE.WRONG_TOWER_REWARD_NO,"Invalid reward number of the tower."
-RESULT_TYPE.WRONG_DIFFICULTY,"Invalid difficulty level."
-RESULT_TYPE.DIFFICULTY_MISMATCH,"Difficulty does not match."
-RESULT_TYPE.MISSING_BATTLE_TYPE,"Didn't enter battle type."
-RESULT_TYPE.NOT_YET_CLEARED,"You have not completed yet."
-RESULT_TYPE.INVALID_DUNGEON_DIFFICULTY,"Invalid dungeon difficulty."
-RESULT_TYPE.WRONG_DUNGEON_DIFFICULTY,"Invalid dungeon difficulty."
-RESULT_TYPE.MAX_UNDERGROUND_PRISON_KEY,"Full of keys."
-RESULT_TYPE.EQUIP_GRADE_DATA_NOT_FOUND,"Gear rating data does not exist."
-RESULT_TYPE.NOT_FOR_SALE,"Cannot sell."
-RESULT_TYPE.EQUIP_CREATURE_ERROR,"No heroes to equip."
-RESULT_TYPE.UPGRADE_DATA_NOT_FOUND,"Upgrade data does not exist."
-RESULT_TYPE.MATERIAL_ITEM_INDEX_MISMATCH,"Material item number does not match."
-RESULT_TYPE.MATERIAL_ITEM_COUNT_MISMATCH,"Quantity of material items do not match."
-RESULT_TYPE.NOT_ENOUGH_MATERIAL_ITEM,"Insufficient materials."
-RESULT_TYPE.INVALID_REQ_GOLD,"Insufficient gold."
-RESULT_TYPE.NO_UPGRADABLE_OPTION_SLOT,"This option slot cannot be upgraded."
-RESULT_TYPE.INVALID_ITEM_CODE,"Invalid item code."
-RESULT_TYPE.INVALID_EQUIP_STAR_RATE,"Invalid star probability."
-RESULT_TYPE.MY_FRIEND_FULL,"My friend list is full."
-RESULT_TYPE.TARGET_FRIEND_FULL,"Other party's friend list is full."
-RESULT_TYPE.TARGET_FRIEND_WAIT_FULL,"Other party's request list is full."
-RESULT_TYPE.ENHANCE_ITEM_INDEX_ERROR,"Invalid Transcendence Stone number."
-RESULT_TYPE.NOT_ENOUGH_ENHANCE_ITEM,"Insufficient Transcendence Stones."
-RESULT_TYPE.CANNOT_ENHANCE_MORE,"Cannot transcend any more."
-RESULT_TYPE.AWAKE_CHALLENGE_DATA_ERROR,"Cannot find Awakening Stone info."
-RESULT_TYPE.AWAKE_ITEM_DATA_ERROR,"Cannot find Awakening Stone item data."
-RESULT_TYPE.NOT_ENOUGH_AWAKE_ITEM,"Insufficient Awakening Stones."
-RESULT_TYPE.HERO_SELECT_DATA_NOT_FOUND,"Cannot find hero selection data."
-RESULT_TYPE.INVALID_HERO_EXP,"Invalid hero EXP."
-RESULT_TYPE.HERO_NOT_OWNED,"You don't have this hero."
-RESULT_TYPE.MAX_HERO_LEVEL,"Hero reached the maximum level."
-RESULT_TYPE.MAIL_NOT_FOUND,"Mail does not exist."
-RESULT_TYPE.MISSING_COUPON_CODE,"Didn't enter coupon code."
-RESULT_TYPE.MISSING_COUNTRY_CODE,"Didn't enter country code."
-RESULT_TYPE.COUPON_NOT_FOUND,"Coupon Number is wrong."
-RESULT_TYPE.ALREADY_RECEIVED,"Already received."
-RESULT_TYPE.COUNTRY_CODE_MISMATCH,"Country code does not match."
-RESULT_TYPE.COUPON_EXPIRED,"coupon is Expiration to period of use"
-RESULT_TYPE.PROMOTION_NOT_FOUND,"Cannot find promotion info."
-RESULT_TYPE.ALREADY_USED_PROMOTION,"Already participated in the promotion."
-RESULT_TYPE.REWARD_NOT_SELECTED,"Didn't select reward."
-RESULT_TYPE.INVALID_REWARD_INDEX,"Invalid reward number."
-RESULT_TYPE.ALREADY_PURCHASED,"Already purchased."
-RESULT_TYPE.NOT_ENOUGH_MILEAGE,"Insufficient mileage."
-RESULT_TYPE.NOT_ENOUGH_ROYAL_POINT,"Insufficient Royal Points."
-RESULT_TYPE.NOT_ENCRYPTED,"Not encrypted."
-RESULT_TYPE.SALT_ERROR,"Cannot receive verification due to bad internet connection."
-RESULT_TYPE.NO_SECURE_KEY,"NO_SECURE_KEY"
-RESULT_TYPE.SALT_NOT_DECRYPTED,"SALT_NOT_DECRYPTED"
-RESULT_TYPE.KEY_NOT_DECRYPTED,"KEY_NOT_DECRYPTED"
-RESULT_TYPE.SALT_MISMATCH,"SALT_MISMATCH"
-RESULT_TYPE.LOGIN_ID_NOT_DECRYPTED,"LOGIN_ID_NOT_DECRYPTED"
-RESULT_TYPE.DECRYPT_FAIL,"DECRYPT_FAIL"
-BASE_RESULT_TYPE.OFFLINE,"Network is offline"
-RESULT_TYPE.INVALID_GACHA_REQUEST,"An error occurred when trying to summon equipment.\nPlease try again."
-RESULT_TYPE.MATCHING_ABORTED,"Matching was cancelled."
-RESULT_TYPE.PROGRESSING,"In progress."
-RESULT_TYPE.BUY_DISABLED,"can not currently pay."
-RESULT_TYPE.MAX_FRIENDSHIP_POINT,"Friendship Point is full to the brim"
-RESULT_TYPE.NOT_ENOUGH_FRIENDSHIP_POINT,"Not enough Cost"
-RESULT_TYPE.NOT_RAID_TYPE,"It is not of raid-type."
+BASE_RESULT_TYPE.INTERNAL_ERROR,Internal error.
+BASE_RESULT_TYPE.EMPTY_HOST,Host does not exist.
+RESULT_TYPE.ACHIEVEMENT_NOT_CLEARED,Achievement is not completed yet.
+RESULT_TYPE.INVALID_STEP,You already received this reward.
+RESULT_TYPE.NO_PRIVILEGE,You have no authorization.
+RESULT_TYPE.INVALID_HOST,Wrong host.
+RESULT_TYPE.MASTER_NOT_FOUND,Room leader does not exist.
+RESULT_TYPE.MULTIPLAY_INFO_NOT_FOUND,Party play info does not exist.
+RESULT_TYPE.WRONG_MEMBER,Invalid member.
+RESULT_TYPE.ALREADY_REWARD_CALCULATED,Reward has been decided already.
+RESULT_TYPE.LINKED_DUNGEON_NOT_FOUND,Connected dungeon does not exist.
+RESULT_TYPE.ALREADY_COMPLETED,Completed already.
+RESULT_TYPE.DUNGEON_TYPE_ERROR,Wrong dungeon type.
+RESULT_TYPE.CANNOT_VISIT_DUNGEON,Cannot visit this dungeon.
+RESULT_TYPE.INVALID_TRIAL_HERO,Wrong hero for the Dungeon of Ordeal.
+RESULT_TYPE.WORLD_MAP_EVENT_NOT_FOUND,World map event does not exist.
+RESULT_TYPE.EVENT_DUNGEON_INDEX_MISMATCH,Invalid event dungeon number.
+RESULT_TYPE.NOT_ENOUGH_MULTIPLAY_MEMBERS,Not enough members.
+RESULT_TYPE.NOT_CALCULATED,Not yet decided.
+RESULT_TYPE.ALREADY_REWARDED,Reward has been given already.
+RESULT_TYPE.NOT_SAME_DEVELOPER_PAYLOAD,Payment info (DeveloperPayload) does not match. Payment has been canceled.
+RESULT_TYPE.NOT_SAME_PRODUCT_ID,Payment info (ProductId) does not match. Payment has been canceled.
+RESULT_TYPE.WRONG_PURCHASE_STATUS,Payment info (PurchaseStatus) is wrong. Payment has been canceled.
+RESULT_TYPE.VERIFICATION_FAILED,Failed to verify payment. Payment has been canceled.
+RESULT_TYPE.INVALID_CONSUMPTION_STATE,Invalid payment info (ConsumptionState). Payment has been canceled.
+RESULT_TYPE.NOT_MONTHLY_ENDED,You can't purchase the monthly package yet.
+RESULT_TYPE.HAVE_PLAY_CHANCE,Could not purchase due to remaining challenge opportunities.
+RESULT_TYPE.INVALID_DUNGEON_INDEX,Invalid dungeon number.
+RESULT_TYPE.CANNOT_AWAKEN_YET,Cannot Awaken yet.
+RESULT_TYPE.CANNOT_AWAKEN_MORE,Cannot Awaken any more.
+RESULT_TYPE.RUNE_ITEM_NOT_OWNED,You don't have this rune item.
+RESULT_TYPE.SAME_RUNE_EQUIPPED,Same rune already equipped.
+RESULT_TYPE.ALEADY_OCCUPIED,Already assigned.
+RESULT_TYPE.PRESERVE_PRICE_ERROR,Preserve price is invalid.
+RESULT_TYPE.RUNE_ITEM_DATA_NOT_FOUND,Rune item info does not exist.
+RESULT_TYPE.RUNE_DATA_NOT_FOUND,Rune info does not exist.
+RESULT_TYPE.PART_TYPE_ERROR,Invalid parts.
+RESULT_TYPE.NO_EQUIPPED_RUNE,The rune is not equipped.
+RESULT_TYPE.HERO_ALREADY_EXIST,Hero already exists.
+RESULT_TYPE.SKILL_NOT_LEARNED,You have not learned the skill.
+RESULT_TYPE.INVALID_SKILL_EXTEND,Invalid skill expansion.
+RESULT_TYPE.NOT_ENOUGH_ITEM,Insufficient items.
+RESULT_TYPE.BOOK_ITEM_DATA_NOT_FOUND,Book item info does not exist.
+RESULT_TYPE.SKILL_ALREADY_LEARNED,Learned this skill already.
+RESULT_TYPE.MAX_PURIFIED,Reached max purification.
+RESULT_TYPE.MAX_HERO_STAR,Hero reached max Awakening.
+RESULT_TYPE.NO_AWAKE_MATERIAL,No Awakening materials.
+RESULT_TYPE.PURIFY_DATA_NOT_FOUND,No purification data.
+RESULT_TYPE.INVALID_PURIFY_DATA,Invalid purification data.
+RESULT_TYPE.TRANSCEND_SKILL_LEVEL_DATA_NOT_FOUND,Skill transcendence data does not exist.
+RESULT_TYPE.MAX_TRANSCEND_SKILL_LEVEL,Skill reached max transcend limit.
+RESULT_TYPE.TRANSCEND_SKILL_LEVEL_PRICE_DATA_NOT_FOUND,Skill transcendence price does not exist.
+RESULT_TYPE.NOT_MAX_HERO_STAR,Hero has not reached max Awakening yet.
+RESULT_TYPE.INVALID_TRANSCEND_COUNT,Invalid transcendence amount.
+RESULT_TYPE.GRADE_TOO_LOW,Rank too low.
+RESULT_TYPE.CREATURE_DATA_NOT_FOUND,Hero info does not exist.
+RESULT_TYPE.UPGRADE_BOOK_DATA_NOT_FOUND,Upgrade book info does not exist.
+RESULT_TYPE.MATCH_PLAYER_NOT_FOUND,Opponent does not exist.
+RESULT_TYPE.INVALID_SHOP_DATA,Invalid shop info.
+RESULT_TYPE.NOT_GUILD_MEMBER,Not a guild member.
+RESULT_TYPE.NOT_ENOUGH_GUILD_POINT,Insufficient guild points.
+RESULT_TYPE.INVALID_SHOP_ITEM_LIST_INDEX,Invalid shop number.
+RESULT_TYPE.INVALID_ITEM_TYPE,Invalid item type.
+RESULT_TYPE.HERO_SHOP_SLOT_EXCEEDED,Hero's shop slots have exceeded the limit.
+RESULT_TYPE.INVALID_HERO_SHOP_SLOT,Invalid hero shop slot.
+RESULT_TYPE.NO_SHOP_ITEM_INFO,Shop item info does not exist.
+RESULT_TYPE.NO_SHOP_ITEM_DATA,Shop item data does not exist.
+RESULT_TYPE.NO_SELL_COUNT,No sell amount.
+RESULT_TYPE.ALREADY_OPENED_CLASS,Class has been opened already
+RESULT_TYPE.NOT_OPENED_CLASS_DUNGEON,Dungeon for the specified class is not open.
+RESULT_TYPE.ALREADY_GET_CHALLENGE,Undertaken already.
+RESULT_TYPE.ALREADY_HAVE_MATERIAL,Already have materials.
+RESULT_TYPE.INVALID_HERO_CLASS,Wrong class.
+RESULT_TYPE.TUTORIAL_DATA_NOT_FOUND,Tutorial data does not exist.
+RESULT_TYPE.RETRY,Retry
+RESULT_TYPE.NOT_IMPLEMENTED_METHOD,Invalid method.
+RESULT_TYPE.INVALID_QUEST_INDEX,Invalid quest number.
+RESULT_TYPE.QUEST_INFO_NOT_FOUND,Cannot find quest info.
+RESULT_TYPE.QUEST_NOT_CLEARED,Quest is not completed yet.
+RESULT_TYPE.NOT_COMPLETED,Not completed yet.
+RESULT_TYPE.EMPTY_DUNGEON_INDICES,Dungeon number is empty.
+RESULT_TYPE.EVENT_INDEX_COUNT_MISMATCH,Event number does not match.
+RESULT_TYPE.MAX_DAILY_COUNT,Exceeded daily limit
+RESULT_TYPE.ALREADY_VISITED,Already visited.
+RESULT_TYPE.INVALID_MATERIAL_ITEM,Invalid material items.
+RESULT_TYPE.INVALID_REQ_ITEM_EXP_DATA,Invalid EXP of the required items.
+RESULT_TYPE.SAME_BOOSTER_APPLIED,The same booster effect exists.
+RESULT_TYPE.PACKAGE_DATA_NOT_FOUND,No package product data.
+RESULT_TYPE.INVALID_ITEM_INDEX,Invalid Item Index.
+RESULT_TYPE.INVALID_ITEM_DATA,Invalid Item Data.
+RESULT_TYPE.INVALID_ACCOUNT_ID,Invalid account number.
+RESULT_TYPE.REWARD_TIME_ENDED,Reward time is over.
+RESULT_TYPE.CHECKING_INTEGRITY,The battle result is still being processed. Please try again later.
+RESULT_TYPE.BATTLE_SERVER_NOT_FOUND,The network is currently unstable. Please move to a location with better signal quality and reconnect to the game.
+RESULT_TYPE.TOWER_DATA_NOT_FOUND,Tower info does not exist.
+RESULT_TYPE.TOWER_FLOOR_DATA_NOT_FOUND,Floor info does not exist.
+RESULT_TYPE.CANNOT_ENTER_TOWER_FLOOR,Cannot enter the floor.
+RESULT_TYPE.TOWER_CHAPTER_MISMATCH,Tower chapter does not match.
+RESULT_TYPE.TOWER_DUNGEON_MISMATCH,Tower dungeon does not match.
+RESULT_TYPE.TOWER_TEAM_LEVEL_LIMIT,Cannot enter the floor due to insufficient team level. 
+RESULT_TYPE.TOWER_REQ_DUNGEON_NOT_COMPLETED,Prerequisite dungeons are not completed for entry into the tower.
+RESULT_TYPE.NOT_ENOUGH_TOWER_COST,Insufficient goods for entry into the tower.
+RESULT_TYPE.DIED_HERO_CACHE,The hero is dead.
+RESULT_TYPE.MISSING_BATTLE_LOG,Didn't enter battle log.
+RESULT_TYPE.MISSING_CREATURE_INFO,Didn't enter hero info.
+RESULT_TYPE.REQUEST_INTEGRITY_CHECK_ERROR,Integrity check request error.
+RESULT_TYPE.MISSING_TOWER_CREATURE_INFO,Didn't enter tower hero info.
+RESULT_TYPE.PARSING_TOWER_CREATURE_INFO_ERROR,Cannot import tower hero info.
+RESULT_TYPE.EMPTY_TOWER_ENTER_HEROES,Didn't enter info on heroes that entered the tower.
+RESULT_TYPE.TOWER_NOT_PLAYED,Tower has not been progressed.
+RESULT_TYPE.PLAYER_TOWER_NOT_FOUND,Cannot find info on tower in progress.
+RESULT_TYPE.CANNOT_RESET_MORE,Cannot reset any more.
+RESULT_TYPE.NOT_ENOUGH_COST,Insufficient goods.
+RESULT_TYPE.CLOSED_DUNGEON,This Dungeon is Closed.
+RESULT_TYPE.OPENED_DUNGEON,This Dungeon is Open.
+RESULT_TYPE.QUEST_DATA_NOT_FOUND,Quest data does not exist.
+RESULT_TYPE.NOT_ACCEPTABLE,Cannot accept.
+RESULT_TYPE.CANNOT_GIVEUP,Cannot give up.
+RESULT_TYPE.NOT_REWARDABLE,Cannot receive rewards.
+RESULT_TYPE.EQUIP_FULL,Inventory is full.
+RESULT_TYPE.VIPLEVEL_DATA_NOT_FOUND,No VIP Data exists.
+RESULT_TYPE.MISSING_LANGUAGE,Didn't enter language.
+RESULT_TYPE.CANNOT_LINK_GUEST,Cannot link as a guest.
+RESULT_TYPE.ALREADY_LINKED_ID,The selected SNS account has already been linked to another King's Raid account.
+RESULT_TYPE.SERVER_CLOSING,Currently preparing for service. Please wait.
+RESULT_TYPE.INVALID_SHOP_INDEX,Invalid shop number.
+RESULT_TYPE.EXCEEDED_PURCHASABLE_COUNT,Exceeded the number of purchases.
+RESULT_TYPE.INVALID_REWARD_DATA,Invalid reward data.
+RESULT_TYPE.TOWER_NPC_NOT_FOUND,Tower's NPC does not exist.
+RESULT_TYPE.TOWER_NPC_SLOT_NOT_FOUND,Floor NPC does not exist. 
+RESULT_TYPE.TOWER_NPC_INFO_NOT_FOUND,Floor NPC info does not exist.
+RESULT_TYPE.WRONG_TOWER_REWARD_NO,Invalid reward number of the tower.
+RESULT_TYPE.WRONG_DIFFICULTY,Invalid difficulty level.
+RESULT_TYPE.DIFFICULTY_MISMATCH,Difficulty does not match.
+RESULT_TYPE.MISSING_BATTLE_TYPE,Didn't enter battle type.
+RESULT_TYPE.NOT_YET_CLEARED,You have not completed yet.
+RESULT_TYPE.INVALID_DUNGEON_DIFFICULTY,Invalid dungeon difficulty.
+RESULT_TYPE.WRONG_DUNGEON_DIFFICULTY,Invalid dungeon difficulty.
+RESULT_TYPE.MAX_UNDERGROUND_PRISON_KEY,Full of keys.
+RESULT_TYPE.EQUIP_GRADE_DATA_NOT_FOUND,Gear rating data does not exist.
+RESULT_TYPE.NOT_FOR_SALE,Cannot sell.
+RESULT_TYPE.EQUIP_CREATURE_ERROR,No heroes to equip.
+RESULT_TYPE.UPGRADE_DATA_NOT_FOUND,Upgrade data does not exist.
+RESULT_TYPE.MATERIAL_ITEM_INDEX_MISMATCH,Material item number does not match.
+RESULT_TYPE.MATERIAL_ITEM_COUNT_MISMATCH,Quantity of material items do not match.
+RESULT_TYPE.NOT_ENOUGH_MATERIAL_ITEM,Insufficient materials.
+RESULT_TYPE.INVALID_REQ_GOLD,Insufficient gold.
+RESULT_TYPE.NO_UPGRADABLE_OPTION_SLOT,This option slot cannot be upgraded.
+RESULT_TYPE.INVALID_ITEM_CODE,Invalid item code.
+RESULT_TYPE.INVALID_EQUIP_STAR_RATE,Invalid star probability.
+RESULT_TYPE.MY_FRIEND_FULL,My friend list is full.
+RESULT_TYPE.TARGET_FRIEND_FULL,Other party's friend list is full.
+RESULT_TYPE.TARGET_FRIEND_WAIT_FULL,Other party's request list is full.
+RESULT_TYPE.ENHANCE_ITEM_INDEX_ERROR,Invalid Transcendence Stone number.
+RESULT_TYPE.NOT_ENOUGH_ENHANCE_ITEM,Insufficient Transcendence Stones.
+RESULT_TYPE.CANNOT_ENHANCE_MORE,Cannot transcend any more.
+RESULT_TYPE.AWAKE_CHALLENGE_DATA_ERROR,Cannot find Awakening Stone info.
+RESULT_TYPE.AWAKE_ITEM_DATA_ERROR,Cannot find Awakening Stone item data.
+RESULT_TYPE.NOT_ENOUGH_AWAKE_ITEM,Insufficient Awakening Stones.
+RESULT_TYPE.HERO_SELECT_DATA_NOT_FOUND,Cannot find hero selection data.
+RESULT_TYPE.INVALID_HERO_EXP,Invalid hero EXP.
+RESULT_TYPE.HERO_NOT_OWNED,You don't have this hero.
+RESULT_TYPE.MAX_HERO_LEVEL,Hero reached the maximum level.
+RESULT_TYPE.MAIL_NOT_FOUND,Mail does not exist.
+RESULT_TYPE.MISSING_COUPON_CODE,Didn't enter coupon code.
+RESULT_TYPE.MISSING_COUNTRY_CODE,Didn't enter country code.
+RESULT_TYPE.COUPON_NOT_FOUND,Coupon Number is wrong.
+RESULT_TYPE.ALREADY_RECEIVED,Already received.
+RESULT_TYPE.COUNTRY_CODE_MISMATCH,Country code does not match.
+RESULT_TYPE.COUPON_EXPIRED,coupon is Expiration to period of use
+RESULT_TYPE.PROMOTION_NOT_FOUND,Cannot find promotion info.
+RESULT_TYPE.ALREADY_USED_PROMOTION,Already participated in the promotion.
+RESULT_TYPE.REWARD_NOT_SELECTED,Didn't select reward.
+RESULT_TYPE.INVALID_REWARD_INDEX,Invalid reward number.
+RESULT_TYPE.ALREADY_PURCHASED,Already purchased.
+RESULT_TYPE.NOT_ENOUGH_MILEAGE,Insufficient mileage.
+RESULT_TYPE.NOT_ENOUGH_ROYAL_POINT,Insufficient Royal Points.
+RESULT_TYPE.NOT_ENCRYPTED,Not encrypted.
+RESULT_TYPE.SALT_ERROR,Cannot receive verification due to bad internet connection.
+RESULT_TYPE.NO_SECURE_KEY,NO_SECURE_KEY
+RESULT_TYPE.SALT_NOT_DECRYPTED,SALT_NOT_DECRYPTED
+RESULT_TYPE.KEY_NOT_DECRYPTED,KEY_NOT_DECRYPTED
+RESULT_TYPE.SALT_MISMATCH,SALT_MISMATCH
+RESULT_TYPE.LOGIN_ID_NOT_DECRYPTED,LOGIN_ID_NOT_DECRYPTED
+RESULT_TYPE.DECRYPT_FAIL,DECRYPT_FAIL
+BASE_RESULT_TYPE.OFFLINE,Network is offline
+RESULT_TYPE.INVALID_GACHA_REQUEST,An error occurred when trying to summon equipment.\nPlease try again.
+RESULT_TYPE.MATCHING_ABORTED,Matching was cancelled.
+RESULT_TYPE.PROGRESSING,In progress.
+RESULT_TYPE.BUY_DISABLED,can not currently pay.
+RESULT_TYPE.MAX_FRIENDSHIP_POINT,Friendship Points have maxed.
+RESULT_TYPE.NOT_ENOUGH_FRIENDSHIP_POINT,Not enough Cost
+RESULT_TYPE.NOT_RAID_TYPE,It is not of raid-type.
 RESULT_TYPE.MISSING_RAID_INDEX,"Due to a network error, there is a server delay in processing user information. Please try again later."
-RESULT_TYPE.RAID_DATA_NOT_FOUND,"The raid-data does not exist."
-RESULT_TYPE.RAID_NOT_STARTED,"The raid has not started yet. "
-RESULT_TYPE.RAID_NOT_PROGRESSING,"The raid is not in the march."
-RESULT_TYPE.RAID_MUST_MULTIPLAY,"It is not the type of multiplay."
-RESULT_TYPE.RAID_CHAPTER_MISMATCH,"The chapter is irrelevent."
-RESULT_TYPE.RAID_DUNGEON_MISMATCH,"The dungeon is irrelevent."
-RESULT_TYPE.GUILD_RAID_ROOM_CREATED,"Guild Raid Room was created."
-RESULT_TYPE.NOT_ENOUGH_ENTER_RAID_COUNT,"Not enough Guild Raid entry tickets."
-RESULT_TYPE.INVALID_GUILD_RAID_INDEX,"Invalid Guild Raid Index."
-RESULT_TYPE.NOT_ENOUGH_ACTIVITY_POINT,"Not enough Activity Points."
-RESULT_TYPE.PREVIOUS_RAID_NOT_COMPLETED,"Raid in progress."
-RESULT_TYPE.ALREADY_GUILD_RAID_OPENED,"Guild Raid was not opened."
-RESULT_TYPE.PLAYER_RAID_NOT_FOUND,"The player's raid-information has not been found. "
-RESULT_TYPE.PLAYER_DUNGEON_NOT_FOUND,"Player's dungeon data does not exist."
-RESULT_TYPE.DUNGEON_NOT_PLAYED,"Dungeon play log does not exist."
-RESULT_TYPE.DUNGEON_PLAY_ENABLE,"There are remaining entry tickets."
-RESULT_TYPE.ALREADY_HAVE,"You already have this hero."
-RESULT_TYPE.HERO_NOT_EXIST,"The hero does not exist."
-RESULT_TYPE.CANNOT_RECRUIT,"The hero cannot be allied in Hero's Inn."
-RESULT_TYPE.HERO_INDEX_MISMATCH,"The Hero Info mismatches."
-RESULT_TYPE.ALREADY_RECRUITED,"You already have this hero."
-RESULT_TYPE.HERO_NOT_EXIST_IN_FRIENDLY_TABLE,"The hero is not an ally candidate. "
-RESULT_TYPE.HERO_FRIENDLY_POINT_MAX,"You cannot build kinship any further."
-RESULT_TYPE.ACTION_NOT_READY,"The action is not ready yet."
-RESULT_TYPE.ACTION_NOT_EXIST,"The command does not exist. "
-RESULT_TYPE.COST_MISMATCH,"Need more resource"
-RESULT_TYPE.FRIENDLY_POINT_MISMATCH,"Not intimate enough to be your ally."
-RESULT_TYPE.COOL_TIME_MISMATCH,"Cool time ongoing "
-RESULT_TYPE.CANNOT_RECRUIT_HERO,"No hero is available to ally with."
-RESULT_TYPE.IN_FRIENDLY_STATE,"You are in the state of making an ally."
-RESULT_TYPE.NO_FRIENDS,"No friends on friend list."
-RESULT_TYPE.ALREADY_SENT_FRIENDSHIP_POINT,"Friendship Points have already been sent."
-RESULT_TYPE.EMPTY_NAME,"Empty Name."
-RESULT_TYPE.INVALID_NAME,"Invalid Name."
-RESULT_TYPE.TOO_SHORT_NAME,"Name is too short."
-RESULT_TYPE.TOO_LONG_NAME,"Name is too long."
-RESULT_TYPE.INIT_COOL_TIME_NOT_ELAPSED,"Reset timer has not been fulfilled."
-RESULT_TYPE.ALREADY_GUILD_SKILL_INIT,"Guild Skills have already been reset."
-RESULT_TYPE.MAX_GUILD_LEVEL,"Guild Level is at Max."
-RESULT_TYPE.MAX_SKILL_LEVEL,"Max Skill Level has already been achieved."
-RESULT_TYPE.LOW_TEAM_LEVEL,"Team Level is too low."
-BASE_RESULT_TYPE.INTERNAL_SERVER_ERROR,"Internal Server Error."
-BASE_RESULT_TYPE.DISABLED,"Currently Disabled."
-RESULT_TYPE.NOT_ALLOWED,"Currently not allowed."
-RESULT_TYPE.NO_ACCOUNT_ID,"Account ID does not exist."
-RESULT_TYPE.NOT_FOUND,"Could not find data."
-RESULT_TYPE.MISSING_TOWER_INDEX,"Tower has not been identified."
-RESULT_TYPE.NO_MAX_STAR_HERO,"Maximum awakened hero does not exist."
-RESULT_TYPE.TOWER_REQ_CHAPTER_NOT_COMPLETED,"Chapter required for entry has not been cleared."
-RESULT_TYPE.RAID_LEVEL_MISMATCH,"Raid Level does not match."
-RESULT_TYPE.CONTENTS_DISABLED,"Content not unlocked."
-RESULT_TYPE.GUILD_RAID_ROOM_NOT_FOUND,"Guild Raid Lobby does not exist."
-RESULT_TYPE.NOT_GUILD_RAID_ROOM_MEMBER,"Not part of the Guild Raid Lobby."
-RESULT_TYPE.INVALID_GULD_RAID_MEMBER_RANK,"Members of this Guild Rank cannot participate in Guild Raids."
-RESULT_TYPE.NOT_ENOUGH_ENTER_GUILD_RAID_COUNT,"Not enough Guild Raid entry tickets."
-RESULT_TYPE.MISSING_WORLD_BOSS_INDEX,"World Boss Index does not exist."
-RESULT_TYPE.WORLD_BOSS_NOT_EXIST,"World Boss does not exist."
-RESULT_TYPE.WORLD_BOSS_NOT_ACTIVE,"World Boss not active."
-RESULT_TYPE.WORLD_BOSS_NOT_FOUND,"No World Boss found."
-RESULT_TYPE.MISSING_WORLD_BOSS_CREATURE_INFO,"World Boss Monster Info does not exist."
-RESULT_TYPE.PARSING_WORLD_BOSS_CREATURE_INFO_ERROR,"World Boss Monster Info parsing failed."
-RESULT_TYPE.WORLD_BOSS_HP_ERROR,"An error occurred while calculating your World Boss score. Please send us a CS mail if you see this message."
-RESULT_TYPE.NOT_CLEARED,"Not complete."
-RESULT_TYPE.PURCHASE_INFO_NOT_FOUND,"Purchase data does not exist."
-RESULT_TYPE.INTERNAL_SERVER_ERROR,"Internal Server Error."
-RESULT_TYPE.NOT_DAILY_ENDED,"Not purchasable at this date."
-RESULT_TYPE.NEED_COMPLETE_IN_APP_PURCHASE,"In-app purchase needs to be completed."
-RESULT_TYPE.OTHER_DAILY_EFFECTIVE,"An identical product is currently in effect."
-RESULT_TYPE.RESTORE_DATA_NOT_FOUND,"Restore Data does not exist."
-RESULT_TYPE.MATERIAL_COUNT_ERROR,"Material Count Error."
-RESULT_TYPE.LOW_HERO_LEVEL,"Hero Level is too low."
-RESULT_TYPE.PRICE_ERROR,"Price Error."
-RESULT_TYPE.COST_TYPE_ERROR,"Price Type Error."
-RESULT_TYPE.EXCEEDED_MAX_MATERIAL_EQUIP_ITEMS,"Inventory has exceeded maximum capacity."
-RESULT_TYPE.HERO_EQUIPPED_MATERIAL_EQUIP_ITEM,"Cannot use equipped items as materials."
-RESULT_TYPE.INVALID_GACHA_DATA,"Invalid Gacha Data."
-RESULT_TYPE.NO_RECV_FRIENDSHIP_POINT,"No friendship points available."
-RESULT_TYPE.MAX_DAILY_REMOVE_FRIENDS,"Exceeded daily friend deletion count."
-RESULT_TYPE.GULLD_JOIN_REQUEST_PROCESSING,"Processing Guild Join Request."
-RESULT_TYPE.INVALID_GUILD_RANK,"Guild Rank Invalid."
-RESULT_TYPE.INVALID_GUILD_INTRODUCE,"Invalid Guild Introduction."
-RESULT_TYPE.TOO_LONG_GUILD_INTRODUCE,"Guild Introduction is too long."
-RESULT_TYPE.INVALID_GUILD_NOTICE,"Invalid Guild Announcement."
-RESULT_TYPE.TOO_LONG_GUILD_NOTICE,"Guild Announcement is too long."
-RESULT_TYPE.GUILD_JOIN_REQUEST_EXIST,"Not possible due to existing Guild Join Request."
-RESULT_TYPE.ALREADY_EXIST_NAME,"Name already exists."
-RESULT_TYPE.MAX_CONTRIBUTED_GEM,"Currently at Max Contribution."
-RESULT_TYPE.NO_CONTRIBUTE_COUNT,"Guild Donation Count does not exist."
-RESULT_TYPE.INVALID_GUILD_ID,"Invalid Guild Number."
-RESULT_TYPE.INVALID_TARGET_RANK,"Invalid Guild Rank."
-RESULT_TYPE.INVALID_SKILL_LEVEL,"Invalid Guild Skill level."
-RESULT_TYPE.GUILD_JOIN_REQUEST_PROCESSING,"Guild Join Request in processing."
-RESULT_TYPE.NOT_ELAPSED_GUILD_REQUEST_COOL_TIME,"You cannot create/join a guild for {1} hour(s) after leaving the previous guild."
-RESULT_TYPE.NO_GUILD_SKILL_LEVEL_UP_REQUEST,"Guild Skill Level request Data does not exist."
-RESULT_TYPE.ALREADY_GUILD_SKILL_LEVEL_UP_REQUESTED,"Already requested Guild Skill Level Up."
-RESULT_TYPE.ALREADY_BID,"Item has already been bid for."
-RESULT_TYPE.ALREADY_CREATED_ROOM,"Lobby has already been created."
-RESULT_TYPE.NOT_ROOM_MASTER,"You are not the Lobby Leader."
-RESULT_TYPE.ROOM_NOT_FOUND,"Lobby does not exist."
-RESULT_TYPE.NOT_ENOUGH_GUILD_ACTIVITY_POINT,"Not enough Guild Activity Points."
-RESULT_TYPE.TRANSCEND_ITEM_INDEX_ERROR,"Invalid Transcendence Item."
-RESULT_TYPE.NOT_ENOUGH_TRANSCEND_ITEM,"Not enough Transcendence Items."
-RESULT_TYPE.CANNOT_TRANSCEND_MORE,"Cannot Transcend any further."
-RESULT_TYPE.NOT_ENOUGH_PURIFIED,"Not Purified completely."
-RESULT_TYPE.WRONG_SLOT_INDEX,"Invalid Slot number."
-RESULT_TYPE.NOT_SELECTABLE_SLOT_INDEX,"Cannot select slot."
-RESULT_TYPE.CRAFT_SLOT_PRICE_DATA_NOT_FOUND,"No price info on crafting slot exists."
-RESULT_TYPE.INVALID_PRICE,"Invalid Price."
-RESULT_TYPE.NO_FLASK_ITEM,"No flasks found."
-RESULT_TYPE.FLASK_DATA_NOT_FOUND,"No flask data exists."
-RESULT_TYPE.CRAFT_DATA_NOT_FOUND,"No crafting data exists."
-RESULT_TYPE.NOT_CRAFT_SLOT_INDEX,"Not a proper crafting slot number."
-RESULT_TYPE.NOT_YET_CRAFTED,"Crafting not complete."
-RESULT_TYPE.ALREADY_USING_FLASK,"Flask has already been equipped."
-RESULT_TYPE.HERO_NOT_SELECTABLE,"Cannot select hero."
-RESULT_TYPE.HERO_FRAGMENT_DATA_ERROR,"Hero Fragment Info is Invalid."
-RESULT_TYPE.NO_HEROES,"No hero exists."
-RESULT_TYPE.INVALID_HERO,"Invalid Hero."
-RESULT_TYPE.MATCHING_BLOCKED,"Cannot join matches temporarily."
-RESULT_TYPE.ALREADY_RESET,"Reset has already taken place."
-RESULT_TYPE.INVALID_RESET_COST,"Invalid Reset Price."
-RESULT_TYPE.NOT_ENOUGH_RESET_COST,"Not enough resources to reset."
-RESULT_TYPE.SCENARIO_QUEST_DATA_NOT_FOUND,"Scenario Quest Data does not exist."
-RESULT_TYPE.NOT_ENOUGH_PROGRESS,"Not enough progress."
-RESULT_TYPE.NOT_CLIENT_ONLY,"Not valid for this Client."
-RESULT_TYPE.INVALID_PAY_SHOP_TYPE,"Invalid Cash Shop Type."
-RESULT_TYPE.INVALID_SHOP_ITEM_DATA,"Invalid Shop Item Data."
-RESULT_TYPE.SHOP_RESTOCK_INFO_NOT_FOUND,"Invalid Shop Restock Data."
-RESULT_TYPE.SIGNED_OUT,"Signed out."
-RESULT_TYPE.NO_CACHE,"No cache."
-RESULT_TYPE.BLOCKED,"Currently Blocked."
-RESULT_TYPE.LOW_VERSION,"Version is too low."
-RESULT_TYPE.INVALID_STAMINA_TYPE,"Invalid Stamina Type."
-RESULT_TYPE.MAX_STAMINA,"At Maximum Stamina."
-RESULT_TYPE.GUILD_MASTER_CANNOT_SIGN_OUT,"Guild Leaders cannot Sign out."
-RESULT_TYPE.DBSELECT_ERROR,"Database Error."
-RESULT_TYPE.DBUPDATE_ERROR,"Database Error."
-RESULT_TYPE.INVALID_GIVE_ITEM_RESULT,"Item cannot be sent."
-RESULT_TYPE.ALREADY_PASSED_ORDER_ID,"Receipt Number has already been sent."
-RESULT_TYPE.SERVER_BUSY,"Requested purchase is undergoing review."
-RESULT_TYPE.ALREADY_FINISHED,"Receipt Number has already been sent and processed."
-RESULT_TYPE.PRODUCT_ID_NOT_EXIST,"Item ID does not exist."
-RESULT_TYPE.DBINSERT_ERROR,"Database Error."
-RESULT_TYPE.IAPINFO_NOT_FOUND,"Purchase Data could not be found."
-RESULT_TYPE.AWAKE_DATA_NOT_FOUND,"Transcendence Data could not be found."
-RESULT_TYPE.ALREADY_COMPLETED_CRAFT_ITEM,"This Item's crafting is complete."
-RESULT_TYPE.DUPLICATED_HERO,"Hero overlap."
-RESULT_TYPE.NOT_COMPLETED_DUNGEON,"Dungeon has not been completed."
-RESULT_TYPE.GOOGLE_RETRY_NEEDED,"Google retry is needed."
-RESULT_TYPE.APPLE_RETRY_NEEDED,"IOS retry is needed."
-RESULT_TYPE.NOT_HERO_TANSCENDED,"Hero has not been transcended."
-RESULT_TYPE.NOT_ENOUGH_TRANSCEND,"Hero Transcendence is not sufficient."
-RESULT_TYPE.WRONG_REMAIN_TIME,"Remaining time is Invalid."
-RESULT_TYPE.HERO_TRIAL_ALREADY_COMPLETED,"Ordeal has been completed."
-RESULT_TYPE.ALREADY_HAVE_COSTUME,"You already own this Costume."
-RESULT_TYPE.COSTUME_DATA_NOT_FOUND,"Costume data not found."
-RESULT_TYPE.COSTUME_NOT_OPENED,"Costume has not been released."
-RESULT_TYPE.HERO_AWAKE_DATA_NOT_FOUND,"Transcendence Data could not be found."
-RESULT_TYPE.COSTUME_IS_DEFAULT,"This is a default costume."
-RESULT_TYPE.NOT_CORRECT_HERO,"This hero cannot equip this costume."
-RESULT_TYPE.COSTUME_NOT_OWNED,"You do not own this costume."
-RESULT_TYPE.CANNOT_SET_COSTUME,"Cannot equip costume."
-RESULT_TYPE.ALREADY_COSTUMED,"Costume already equipped."
-RESULT_TYPE.NOT_EQUIP_COSTUME,"Costume currently not equipped."
-RESULT_TYPE.LOCKED_EQUIP_ITEM_EXISTS,"Locked Items exist."
-RESULT_TYPE.ALREADY_LOCKED,"This Item has already been locked."
-RESULT_TYPE.ALREADY_UN_LOCKED,"This Item has already been unlocked."
-RESULT_TYPE.NOT_ENOUGH_RAID_POINT,"Insufficient Raid Points."
-RESULT_TYPE.MULTIPLAY_NOT_ENDED,"Battle has not been completed."
-RESULT_TYPE.NOT_BREAKABLE_ITEM_EXISTS,"There are items that cannot be disassembled."
-RESULT_TYPE.LOCKED_ITEM_EXISTS,"Locked Item exists."
+RESULT_TYPE.RAID_DATA_NOT_FOUND,The raid-data does not exist.
+RESULT_TYPE.RAID_NOT_STARTED,The raid has not started yet. 
+RESULT_TYPE.RAID_NOT_PROGRESSING,The raid is not in the march.
+RESULT_TYPE.RAID_MUST_MULTIPLAY,It is not the type of multiplay.
+RESULT_TYPE.RAID_CHAPTER_MISMATCH,The chapter is irrelevent.
+RESULT_TYPE.RAID_DUNGEON_MISMATCH,The dungeon is irrelevent.
+RESULT_TYPE.GUILD_RAID_ROOM_CREATED,Guild Raid Room was created.
+RESULT_TYPE.NOT_ENOUGH_ENTER_RAID_COUNT,Not enough Guild Raid entry tickets.
+RESULT_TYPE.INVALID_GUILD_RAID_INDEX,Invalid Guild Raid Index.
+RESULT_TYPE.NOT_ENOUGH_ACTIVITY_POINT,Not enough Activity Points.
+RESULT_TYPE.PREVIOUS_RAID_NOT_COMPLETED,Raid in progress.
+RESULT_TYPE.ALREADY_GUILD_RAID_OPENED,Guild Raid was not opened.
+RESULT_TYPE.PLAYER_RAID_NOT_FOUND,The player's raid-information has not been found. 
+RESULT_TYPE.PLAYER_DUNGEON_NOT_FOUND,Player's dungeon data does not exist.
+RESULT_TYPE.DUNGEON_NOT_PLAYED,Dungeon play log does not exist.
+RESULT_TYPE.DUNGEON_PLAY_ENABLE,There are remaining entry tickets.
+RESULT_TYPE.ALREADY_HAVE,You already have this hero.
+RESULT_TYPE.HERO_NOT_EXIST,The hero does not exist.
+RESULT_TYPE.CANNOT_RECRUIT,The hero cannot be allied in Hero's Inn.
+RESULT_TYPE.HERO_INDEX_MISMATCH,The Hero Info mismatches.
+RESULT_TYPE.ALREADY_RECRUITED,You already have this hero.
+RESULT_TYPE.HERO_NOT_EXIST_IN_FRIENDLY_TABLE,The hero is not an ally candidate. 
+RESULT_TYPE.HERO_FRIENDLY_POINT_MAX,You cannot build kinship any further.
+RESULT_TYPE.ACTION_NOT_READY,The action is not ready yet.
+RESULT_TYPE.ACTION_NOT_EXIST,The command does not exist. 
+RESULT_TYPE.COST_MISMATCH,Need more resource
+RESULT_TYPE.FRIENDLY_POINT_MISMATCH,Not intimate enough to be your ally.
+RESULT_TYPE.COOL_TIME_MISMATCH,Cool time ongoing 
+RESULT_TYPE.CANNOT_RECRUIT_HERO,No hero is available to ally with.
+RESULT_TYPE.IN_FRIENDLY_STATE,You are in the state of making an ally.
+RESULT_TYPE.NO_FRIENDS,No friends on friend list.
+RESULT_TYPE.ALREADY_SENT_FRIENDSHIP_POINT,Friendship Points have already been sent.
+RESULT_TYPE.EMPTY_NAME,Empty Name.
+RESULT_TYPE.INVALID_NAME,Invalid Name.
+RESULT_TYPE.TOO_SHORT_NAME,Name is too short.
+RESULT_TYPE.TOO_LONG_NAME,Name is too long.
+RESULT_TYPE.INIT_COOL_TIME_NOT_ELAPSED,Reset timer has not been fulfilled.
+RESULT_TYPE.ALREADY_GUILD_SKILL_INIT,Guild Skills have already been reset.
+RESULT_TYPE.MAX_GUILD_LEVEL,Guild Level is at Max.
+RESULT_TYPE.MAX_SKILL_LEVEL,Max Skill Level has already been achieved.
+RESULT_TYPE.LOW_TEAM_LEVEL,Team Level is too low.
+BASE_RESULT_TYPE.INTERNAL_SERVER_ERROR,Internal Server Error.
+BASE_RESULT_TYPE.DISABLED,Currently Disabled.
+RESULT_TYPE.NOT_ALLOWED,Currently not allowed.
+RESULT_TYPE.NO_ACCOUNT_ID,Account ID does not exist.
+RESULT_TYPE.NOT_FOUND,Could not find data.
+RESULT_TYPE.MISSING_TOWER_INDEX,Tower has not been identified.
+RESULT_TYPE.NO_MAX_STAR_HERO,Maximum awakened hero does not exist.
+RESULT_TYPE.TOWER_REQ_CHAPTER_NOT_COMPLETED,Chapter required for entry has not been cleared.
+RESULT_TYPE.RAID_LEVEL_MISMATCH,Raid Level does not match.
+RESULT_TYPE.CONTENTS_DISABLED,Content not unlocked.
+RESULT_TYPE.GUILD_RAID_ROOM_NOT_FOUND,Guild Raid Lobby does not exist.
+RESULT_TYPE.NOT_GUILD_RAID_ROOM_MEMBER,Not part of the Guild Raid Lobby.
+RESULT_TYPE.INVALID_GULD_RAID_MEMBER_RANK,Members of this Guild Rank cannot participate in Guild Raids.
+RESULT_TYPE.NOT_ENOUGH_ENTER_GUILD_RAID_COUNT,Not enough Guild Raid entry tickets.
+RESULT_TYPE.MISSING_WORLD_BOSS_INDEX,World Boss Index does not exist.
+RESULT_TYPE.WORLD_BOSS_NOT_EXIST,World Boss does not exist.
+RESULT_TYPE.WORLD_BOSS_NOT_ACTIVE,World Boss not active.
+RESULT_TYPE.WORLD_BOSS_NOT_FOUND,No World Boss found.
+RESULT_TYPE.MISSING_WORLD_BOSS_CREATURE_INFO,World Boss Monster Info does not exist.
+RESULT_TYPE.PARSING_WORLD_BOSS_CREATURE_INFO_ERROR,World Boss Monster Info parsing failed.
+RESULT_TYPE.WORLD_BOSS_HP_ERROR,"Your World Boss score has not been properly entered due to an error. We recommend you to try again. If this issue keeps occurring, please contact us at Customer Service."
+RESULT_TYPE.NOT_CLEARED,Not complete.
+RESULT_TYPE.PURCHASE_INFO_NOT_FOUND,Purchase data does not exist.
+RESULT_TYPE.INTERNAL_SERVER_ERROR,Internal Server Error.
+RESULT_TYPE.NOT_DAILY_ENDED,Not purchasable at this date.
+RESULT_TYPE.NEED_COMPLETE_IN_APP_PURCHASE,In-app purchase needs to be completed.
+RESULT_TYPE.OTHER_DAILY_EFFECTIVE,An identical product is currently in effect.
+RESULT_TYPE.RESTORE_DATA_NOT_FOUND,Restore Data does not exist.
+RESULT_TYPE.MATERIAL_COUNT_ERROR,Material Count Error.
+RESULT_TYPE.LOW_HERO_LEVEL,Hero Level is too low.
+RESULT_TYPE.PRICE_ERROR,Price Error.
+RESULT_TYPE.COST_TYPE_ERROR,Price Type Error.
+RESULT_TYPE.EXCEEDED_MAX_MATERIAL_EQUIP_ITEMS,Inventory has exceeded maximum capacity.
+RESULT_TYPE.HERO_EQUIPPED_MATERIAL_EQUIP_ITEM,Cannot use equipped items as materials.
+RESULT_TYPE.INVALID_GACHA_DATA,Invalid Gacha Data.
+RESULT_TYPE.NO_RECV_FRIENDSHIP_POINT,No Friendship Points available.
+RESULT_TYPE.MAX_DAILY_REMOVE_FRIENDS,Exceeded daily friend deletion count.
+RESULT_TYPE.GULLD_JOIN_REQUEST_PROCESSING,Processing Guild Join Request.
+RESULT_TYPE.INVALID_GUILD_RANK,Guild Rank Invalid.
+RESULT_TYPE.INVALID_GUILD_INTRODUCE,Invalid Guild Introduction.
+RESULT_TYPE.TOO_LONG_GUILD_INTRODUCE,Guild Introduction is too long.
+RESULT_TYPE.INVALID_GUILD_NOTICE,Invalid Guild Announcement.
+RESULT_TYPE.TOO_LONG_GUILD_NOTICE,Guild Announcement is too long.
+RESULT_TYPE.GUILD_JOIN_REQUEST_EXIST,Not possible due to existing Guild Join Request.
+RESULT_TYPE.ALREADY_EXIST_NAME,Name already exists.
+RESULT_TYPE.MAX_CONTRIBUTED_GEM,Currently at Max Contribution.
+RESULT_TYPE.NO_CONTRIBUTE_COUNT,Guild Donation Count does not exist.
+RESULT_TYPE.INVALID_GUILD_ID,Invalid Guild Number.
+RESULT_TYPE.INVALID_TARGET_RANK,Invalid Guild Rank.
+RESULT_TYPE.INVALID_SKILL_LEVEL,Invalid Guild Skill level.
+RESULT_TYPE.GUILD_JOIN_REQUEST_PROCESSING,Guild Join Request in processing.
+RESULT_TYPE.NOT_ELAPSED_GUILD_REQUEST_COOL_TIME,You cannot create/join a guild for {1} hour(s) after leaving the previous guild.
+RESULT_TYPE.NO_GUILD_SKILL_LEVEL_UP_REQUEST,Guild Skill Level request Data does not exist.
+RESULT_TYPE.ALREADY_GUILD_SKILL_LEVEL_UP_REQUESTED,Already requested Guild Skill Level Up.
+RESULT_TYPE.ALREADY_BID,Item has already been bid for.
+RESULT_TYPE.ALREADY_CREATED_ROOM,Lobby has already been created.
+RESULT_TYPE.NOT_ROOM_MASTER,You are not the Lobby Leader.
+RESULT_TYPE.ROOM_NOT_FOUND,Lobby does not exist.
+RESULT_TYPE.NOT_ENOUGH_GUILD_ACTIVITY_POINT,Not enough Guild Activity Points.
+RESULT_TYPE.TRANSCEND_ITEM_INDEX_ERROR,Invalid Transcendence Item.
+RESULT_TYPE.NOT_ENOUGH_TRANSCEND_ITEM,Not enough Transcendence Items.
+RESULT_TYPE.CANNOT_TRANSCEND_MORE,Cannot Transcend any further.
+RESULT_TYPE.NOT_ENOUGH_PURIFIED,Not Purified completely.
+RESULT_TYPE.WRONG_SLOT_INDEX,Invalid Slot number.
+RESULT_TYPE.NOT_SELECTABLE_SLOT_INDEX,Cannot select slot.
+RESULT_TYPE.CRAFT_SLOT_PRICE_DATA_NOT_FOUND,No price info on crafting slot exists.
+RESULT_TYPE.INVALID_PRICE,Invalid Price.
+RESULT_TYPE.NO_FLASK_ITEM,No flasks found.
+RESULT_TYPE.FLASK_DATA_NOT_FOUND,No flask data exists.
+RESULT_TYPE.CRAFT_DATA_NOT_FOUND,No crafting data exists.
+RESULT_TYPE.NOT_CRAFT_SLOT_INDEX,Not a proper crafting slot number.
+RESULT_TYPE.NOT_YET_CRAFTED,Crafting not complete.
+RESULT_TYPE.ALREADY_USING_FLASK,Flask has already been equipped.
+RESULT_TYPE.HERO_NOT_SELECTABLE,Cannot select hero.
+RESULT_TYPE.HERO_FRAGMENT_DATA_ERROR,Hero Fragment Info is Invalid.
+RESULT_TYPE.NO_HEROES,No hero exists.
+RESULT_TYPE.INVALID_HERO,Invalid Hero.
+RESULT_TYPE.MATCHING_BLOCKED,Cannot join matches temporarily.
+RESULT_TYPE.ALREADY_RESET,Reset has already taken place.
+RESULT_TYPE.INVALID_RESET_COST,Invalid Reset Price.
+RESULT_TYPE.NOT_ENOUGH_RESET_COST,Not enough resources to reset.
+RESULT_TYPE.SCENARIO_QUEST_DATA_NOT_FOUND,Scenario Quest Data does not exist.
+RESULT_TYPE.NOT_ENOUGH_PROGRESS,Not enough progress.
+RESULT_TYPE.NOT_CLIENT_ONLY,Not valid for this Client.
+RESULT_TYPE.INVALID_PAY_SHOP_TYPE,Invalid Cash Shop Type.
+RESULT_TYPE.INVALID_SHOP_ITEM_DATA,Invalid Shop Item Data.
+RESULT_TYPE.SHOP_RESTOCK_INFO_NOT_FOUND,Invalid Shop Restock Data.
+RESULT_TYPE.SIGNED_OUT,Signed out.
+RESULT_TYPE.NO_CACHE,No cache.
+RESULT_TYPE.BLOCKED,Currently Blocked.
+RESULT_TYPE.LOW_VERSION,Version is too low.
+RESULT_TYPE.INVALID_STAMINA_TYPE,Invalid Stamina Type.
+RESULT_TYPE.MAX_STAMINA,At Maximum Stamina.
+RESULT_TYPE.GUILD_MASTER_CANNOT_SIGN_OUT,Guild Leaders cannot Sign out.
+RESULT_TYPE.DBSELECT_ERROR,Database Error.
+RESULT_TYPE.DBUPDATE_ERROR,Database Error.
+RESULT_TYPE.INVALID_GIVE_ITEM_RESULT,Item cannot be sent.
+RESULT_TYPE.ALREADY_PASSED_ORDER_ID,Receipt Number has already been sent.
+RESULT_TYPE.SERVER_BUSY,Requested purchase is undergoing review.
+RESULT_TYPE.ALREADY_FINISHED,Receipt Number has already been sent and processed.
+RESULT_TYPE.PRODUCT_ID_NOT_EXIST,Item ID does not exist.
+RESULT_TYPE.DBINSERT_ERROR,Database Error.
+RESULT_TYPE.IAPINFO_NOT_FOUND,Purchase Data could not be found.
+RESULT_TYPE.AWAKE_DATA_NOT_FOUND,Transcendence Data could not be found.
+RESULT_TYPE.ALREADY_COMPLETED_CRAFT_ITEM,This Item's crafting is complete.
+RESULT_TYPE.DUPLICATED_HERO,Hero overlap.
+RESULT_TYPE.NOT_COMPLETED_DUNGEON,Dungeon has not been completed.
+RESULT_TYPE.GOOGLE_RETRY_NEEDED,Google retry is needed.
+RESULT_TYPE.APPLE_RETRY_NEEDED,IOS retry is needed.
+RESULT_TYPE.NOT_HERO_TANSCENDED,Hero has not been transcended.
+RESULT_TYPE.NOT_ENOUGH_TRANSCEND,Hero Transcendence is not sufficient.
+RESULT_TYPE.WRONG_REMAIN_TIME,Remaining time is Invalid.
+RESULT_TYPE.HERO_TRIAL_ALREADY_COMPLETED,Ordeal has been completed.
+RESULT_TYPE.ALREADY_HAVE_COSTUME,You already own this Costume.
+RESULT_TYPE.COSTUME_DATA_NOT_FOUND,Costume data not found.
+RESULT_TYPE.COSTUME_NOT_OPENED,Costume has not been released.
+RESULT_TYPE.HERO_AWAKE_DATA_NOT_FOUND,Transcendence Data could not be found.
+RESULT_TYPE.COSTUME_IS_DEFAULT,This is a default costume.
+RESULT_TYPE.NOT_CORRECT_HERO,This hero cannot equip this costume.
+RESULT_TYPE.COSTUME_NOT_OWNED,You do not own this costume.
+RESULT_TYPE.CANNOT_SET_COSTUME,Cannot equip costume.
+RESULT_TYPE.ALREADY_COSTUMED,Costume already equipped.
+RESULT_TYPE.NOT_EQUIP_COSTUME,Costume currently not equipped.
+RESULT_TYPE.LOCKED_EQUIP_ITEM_EXISTS,Locked Items exist.
+RESULT_TYPE.ALREADY_LOCKED,This Item has already been locked.
+RESULT_TYPE.ALREADY_UN_LOCKED,This Item has already been unlocked.
+RESULT_TYPE.NOT_ENOUGH_RAID_POINT,Insufficient Raid Points.
+RESULT_TYPE.MULTIPLAY_NOT_ENDED,Battle has not been completed.
+RESULT_TYPE.NOT_BREAKABLE_ITEM_EXISTS,There are items that cannot be disassembled.
+RESULT_TYPE.LOCKED_ITEM_EXISTS,Locked Item exists.
 RESULT_TYPE.NOT_FREE_KEEP_RUNE,"Currently, Rune preservation requires rubies."
 RESULT_TYPE.FREE_KEEP_RUNE,"Currently, Rune preservation does not require rubies."
-RESULT_TYPE.CANNOT_RESTOCK,"Could not load Item List."
-RESULT_TYPE.ALREADY_COMPLETED_GUILD_RAID,"This Guild Raid has already been cleared."
-RESULT_TYPE.NOT_CURRENT_GUILD_RAID_DUNGEON,"This area has already been cleared."
-RESULT_TYPE.PLAYING_GUILD_RAID_EXIST,"A different Guild Member is currently in battle."
-RESULT_TYPE.GUILD_RAID_NOT_OPENED,"This Guild Raid has not been opened."
-RESULT_TYPE.GUILD_RAID_DUNGEON_DATA_NOT_FOUND,"Cannot find Dungeon"
-RESULT_TYPE.GUILD_RAID_INFO_NOT_FOUND,"The battle did not proceed normally. Please try again."
-RESULT_TYPE.GUILD_RAID_CANCELED,"Guild Raid was canceled."
-RESULT_TYPE.NOT_RENEW_EQUIP_ITEM,"No reforgable item has not been selected."
-RESULT_TYPE.NO_RENEW_OPTION_SLOT,"This item cannot be reforged."
-RESULT_TYPE.GUILD_RAID_CHAPTER_DATA_NOT_FOUND,"Could not find Guild Raid Chapter"
-RESULT_TYPE.NOT_GUILD_MASTER,"You are not the Guild Master."
-RESULT_TYPE.ALREADY_OPEN,"Raid has already been opened."
-RESULT_TYPE.NOT_OPENABLE_TIME,"Not available at this time."
-RESULT_TYPE.INVALID_GUILD_RAID_OPEN_DURATION,"Invalid Raid Open time."
-RESULT_TYPE.PARSING_CREATURE_INFO_ERROR,"Hero Info Parsing has failed."
-RESULT_TYPE.NOT_GUILD_RAID_PLAYING_ACCOUNT,"Guild Raid not in progress."
-RESULT_TYPE.INVALID_CREATURE_WAVE_SLOT_INDEX,"Invalid Hero Slot."
-RESULT_TYPE.ALIVE_ENEMY_EXIST,"Enemies still remain."
-RESULT_TYPE.ALL_HEROES_DIED,"All heroes have died."
-RESULT_TYPE.ONE_STORE_RETRY_NEEDED,"OneStore retry needed."
-RESULT_TYPE.NO_OLD_OPTION_INDEX,"Original Option does not exist."
-RESULT_TYPE.NO_RENEW_OPTION_RESULT_INDEX,"New Option result does not exist."
-RESULT_TYPE.INVALID_CONFIRM_OPTION_INDEX,"Wrong Option Number."
-RESULT_TYPE.OPTION_SLOT_MISMATCH,"Option Slot Mismatch."
-RESULT_TYPE.EMPTY_PRICE,"Price does not exist."
-RESULT_TYPE.INVAID_PRICE,"Invalid Price."
-RESULT_TYPE.NO_AVAILABLE_OPTION,"No Option available."
-RESULT_TYPE.SAME_EVENT_CALENDAR,"Same Event Calendar."
-RESULT_TYPE.ITEM_DESTROYED,"Item has been destroyed."
-RESULT_TYPE.ITEM_NOT_FOUND,"Item not found."
-RESULT_TYPE.WRONG_ITEM_COUNT,"Wrong Item Count."
-RESULT_TYPE.INVALID_OPEN_DURATION,"Invalid open time."
-RESULT_TYPE.ADDED_GUILD_RAID_INFO_IS_NULL,"Guild Raid Info does not exist."
-RESULT_TYPE.INVALID_DIFFICULTY,"Invalid Difficulty."
+RESULT_TYPE.CANNOT_RESTOCK,Could not load Item List.
+RESULT_TYPE.ALREADY_COMPLETED_GUILD_RAID,This Guild Raid has already been cleared.
+RESULT_TYPE.NOT_CURRENT_GUILD_RAID_DUNGEON,This area has already been cleared.
+RESULT_TYPE.PLAYING_GUILD_RAID_EXIST,A different Guild Member is currently in battle.
+RESULT_TYPE.GUILD_RAID_NOT_OPENED,This Guild Raid has not been opened.
+RESULT_TYPE.GUILD_RAID_DUNGEON_DATA_NOT_FOUND,Cannot find Dungeon
+RESULT_TYPE.GUILD_RAID_INFO_NOT_FOUND,The battle did not proceed normally. Please try again.
+RESULT_TYPE.GUILD_RAID_CANCELED,Guild Raid was canceled.
+RESULT_TYPE.NOT_RENEW_EQUIP_ITEM,No reforgable item has not been selected.
+RESULT_TYPE.NO_RENEW_OPTION_SLOT,This item cannot be reforged.
+RESULT_TYPE.GUILD_RAID_CHAPTER_DATA_NOT_FOUND,Could not find Guild Raid Chapter
+RESULT_TYPE.NOT_GUILD_MASTER,You are not the Guild Master.
+RESULT_TYPE.ALREADY_OPEN,Raid has already been opened.
+RESULT_TYPE.NOT_OPENABLE_TIME,Not available at this time.
+RESULT_TYPE.INVALID_GUILD_RAID_OPEN_DURATION,Invalid Raid Open time.
+RESULT_TYPE.PARSING_CREATURE_INFO_ERROR,Hero Info Parsing has failed.
+RESULT_TYPE.NOT_GUILD_RAID_PLAYING_ACCOUNT,Guild Raid not in progress.
+RESULT_TYPE.INVALID_CREATURE_WAVE_SLOT_INDEX,Invalid Hero Slot.
+RESULT_TYPE.ALIVE_ENEMY_EXIST,Enemies still remain.
+RESULT_TYPE.ALL_HEROES_DIED,All heroes have died.
+RESULT_TYPE.ONE_STORE_RETRY_NEEDED,OneStore retry needed.
+RESULT_TYPE.NO_OLD_OPTION_INDEX,Original Option does not exist.
+RESULT_TYPE.NO_RENEW_OPTION_RESULT_INDEX,New Option result does not exist.
+RESULT_TYPE.INVALID_CONFIRM_OPTION_INDEX,Wrong Option Number.
+RESULT_TYPE.OPTION_SLOT_MISMATCH,Option Slot Mismatch.
+RESULT_TYPE.EMPTY_PRICE,Price does not exist.
+RESULT_TYPE.INVAID_PRICE,Invalid Price.
+RESULT_TYPE.NO_AVAILABLE_OPTION,No Option available.
+RESULT_TYPE.SAME_EVENT_CALENDAR,Same Event Calendar.
+RESULT_TYPE.ITEM_DESTROYED,Item has been destroyed.
+RESULT_TYPE.ITEM_NOT_FOUND,Item not found.
+RESULT_TYPE.WRONG_ITEM_COUNT,Wrong Item Count.
+RESULT_TYPE.INVALID_OPEN_DURATION,Invalid open time.
+RESULT_TYPE.ADDED_GUILD_RAID_INFO_IS_NULL,Guild Raid Info does not exist.
+RESULT_TYPE.INVALID_DIFFICULTY,Invalid Difficulty.
 RESULT_TYPE.CAMPAIGN_INFO_NOT_FOUND,"Due to a network error, there is a server delay in processing user battle records. Please try again later."
-RESULT_TYPE.NOT_GUILD_RAID,"This is not a Guild Raid."
-RESULT_TYPE.NOT_PLAYING_ACCOUNT,"Not a currently playing account."
-RESULT_TYPE.INVALID_ACTION_VALUE,"Invalid value."
-RESULT_TYPE.INVALID_CHAPTER_DUNGEON,"Invalid Chapter or Dungeon Index."
-RESULT_TYPE.INVALID_SELECT_ITEM_COUNT,"Invalid number of selected items."
-RESULT_TYPE.ITEM_NOT_EXIST,"Selected Item data does not exist."
-RESULT_TYPE.ITEM_NOT_SELECTED,"Item has not been selected."
-RESULT_TYPE.ALREADY_HAS_HERO,"You already own this hero."
-RESULT_TYPE.INVALID_ROOM_INFO,"Invalid Room Info."
-RESULT_TYPE.ROOM_NOT_EXIST,"This Room does not exist."
-RESULT_TYPE.NOT_DELEGATE_ACCOUNT_ID,"No player to delegate to."
-RESULT_TYPE.ROOM_FULL,"The Room is full."
-RESULT_TYPE.ROOM_IN_BATTLE,"This Room is currently in battle."
-RESULT_TYPE.NOT_JOINED_RAID_ROOM,"You have not joined a Room."
-RESULT_TYPE.INVALID_ROOM_NO,"Invalid Room number."
-RESULT_TYPE.ALREADY_JOINED_BROADCAST_ROOM,"You have already joined this Broadcast."
-RESULT_TYPE.NOT_JOINED_BROADCAST_ROOM,"You are not part of a Broadcast."
-RESULT_TYPE.WORLD_BOSS_RANK_ERROR,"World Boss Ranking Error."
-RESULT_TYPE.WORLD_BOSS_CANCELED,"The battle has ended due to abnormally high damage values."
-RESULT_TYPE.WORLD_BOSS_SEASON_CHANGED,"A different World Boss has appeared."
-RESULT_TYPE.STARTED_WORLD_BOSS_NOT_FOUND,"Cannot begin World Boss."
-RESULT_TYPE.WORLD_BOSS_DATA_NOT_FOUND,"Cannot find World Boss data."
-RESULT_TYPE.CANNOT_SEARCH_MY_FRIEND,"Cannot search for Friend."
-RESULT_TYPE.BOOSTER_DATA_NOT_FOUND,"Booster Info does not exist."
-RESULT_TYPE.PATCH_NOTE_NOT_FOUND,"Patchnote does not exist."
-RESULT_TYPE.SAME_PATCH_NOTE,"Same Patchnote."
-RESULT_TYPE.HP_NOT_FOUND,"Failed to load Monster HP."
-RESULT_TYPE.KICKED_FROM_ROOM,"This user has been kicked from the room."
-RESULT_TYPE.MASTER_BANNED,"This user has been banned by the Room Master."
-RESULT_TYPE.KICK_MEMBER_NOT_EXIST,"No user to kick."
-RESULT_TYPE.INTERNAL_ERROR,"Internal Error."
-RESULT_TYPE.BAN_ACCOUNT_FULL,"Maximum number of banned users."
-RESULT_TYPE.ALREADY_ADDED_ACCOUNT,"This user is already added."
-RESULT_TYPE.BAN_ACCOUNT_NOT_EXIST,"This user does not exist."
-RESULT_TYPE.FAVORITE_ACCOUNT_FULL,"Favorite List Full."
-RESULT_TYPE.FAVORITE_ACCOUNT_NOT_EXIST,"This user does not exist."
-RESULT_TYPE.NOT_ENOUGH_WORLD_BOSS_POINT,"Not enough World Boss Points."
-RESULT_TYPE.NOT_ENOUGH_EVENT_POINT,"Not enough Event Points."
-RESULT_TYPE.ROOM_SERVER_INTERNAL_ERROR,"Internal Room Error."
-RESULT_TYPE.ALREADY_EXIST_GUILD_NAME,"Guild Name already exists."
-RESULT_TYPE.MAX_FRIENDLY_POINT,"Friendship is at max."
-RESULT_TYPE.CANNOT_GIVE_GIFT_NPC,"Cannot give present."
-RESULT_TYPE.FRIENDLY_POINT_INFO_NOT_FOUND,"No Friendship Data."
-RESULT_TYPE.FRIENDLY_POINT_DATA_NOT_FOUND,"No Friendship Data."
-RESULT_TYPE.INVALID_FRIENDLY_POINT_STEP,"Friendship level is invalid."
-RESULT_TYPE.NOT_ENOUGH_FRIENDLY_POINT,"Not enough Friendship."
-RESULT_TYPE.NEXT_TIER_EQUIP_ITEM_NOT_FOUND,"No tier upgrade item data."
-RESULT_TYPE.INVALID_NEXT_TIER_STEP,"Invalid Tier upgrade item data."
-RESULT_TYPE.MAX_TIER_ITEM,"Tier upgrade Item is currently at max tier."
-RESULT_TYPE.MATERIAL_ITEM_DATA_NOT_FOUND,"No material item data."
-RESULT_TYPE.UPGRADE_TIER_NOT_FOUND,"No tier upgrade data."
-RESULT_TYPE.NOT_EQUIP_MAX_STAR,"Tier upgrade item is not at max Stars."
-RESULT_TYPE.WORLD_BOSS_DAILY_REWARDING,"Daily reward calculations in progress."
-RESULT_TYPE.CANNOT_BUY_NO_EVENT,"Not a Current Event."
-RESULT_TYPE.CANNOT_RESTOCK_NO_EVENT,"Not a Current Event."
-RESULT_TYPE.EVENT_DUNGEON_DATA_NOT_FOUND,"Event Dungeon data does not exist."
-RESULT_TYPE.EVENT_DUNGEON_CLOSED,"Event Dungeon has ended."
-RESULT_TYPE.WITHDRAW_PENALTY,"Restricted during Guild Penalty duration."
-RESULT_TYPE.EQUIP_ENCHANT_OPTION_ITEM_DATA_NOT_FOUND,"No Enchant Option Info."
-RESULT_TYPE.NOT_ENOUGH_EVENT_DUNGEON_POINT,"Not enough Event Points."
-RESULT_TYPE.GUILD_CONTENTS_RESTRICTED,"Cannot purchase during Penalty Duration."
-RESULT_TYPE.ITEM_EXPIRED,"Item has expired"
-RESULT_TYPE.WRONG_WORLD_BOSS_CHAPTER,"World Boss is currently unavailable."
-RESULT_TYPE.WRONG_WORLD_BOSS_DUNGEON,"World Boss is currently unavailable."
-RESULT_TYPE.CREATURE_STAR_DATA_NOT_FOUND,"Hero Awakening Info does not exist."
-RESULT_TYPE.RANK_ERROR,"Incorrect Ranking"
-RESULT_TYPE.CANCELED,"Canceled"
-RESULT_TYPE.NOT_ENOUGH_EVENT_DUNGEON_POINT2,"Insufficient Points"
-RESULT_TYPE.NOT_ENOUGH_EVENT_DUNGEON_POINT3,"Not enough Event Points."
-RESULT_TYPE.NOT_ENOUGH_GLORY_POINT,"Not enough Medals of Honor."
-RESULT_TYPE.NOT_AVAILABLE_HERO,"Cannot use this Hero."
-RESULT_TYPE.INVAILD_ACHIEVEMENT_INDEX,"Cannot receive this Reward."
-RESULT_TYPE.CHALLENGE_RAID_NOT_OPENED,"Challenge Raid time has run out and thus cannot be continued."
-RESULT_TYPE.CENSORED_WORD_NAME,"Cannot use this name"
-RESULT_TYPE.NOT_OPENED_ROOM,"This room is private and cannot be joined."
-RESULT_TYPE.ROOM_LEFT,"The room has been disbanded due to network connection failure."
-RESULT_TYPE.CHALLENGE_RAID_DATA_NOT_FOUND,"Challenge Raid Data does not exist"
-RESULT_TYPE.NO_EVENT_DUNGEON_DATA,"Event Dungeon Data does not exist"
-RESULT_TYPE.NO_RESET_COUNT,"No more Reset counts."
-RESULT_TYPE.NO_RESET_CURRENCY_TYPE,"No more Reset currency."
-RESULT_TYPE.NO_RESET_AMOUNT,"No more Resets available."
-RESULT_TYPE.INVALID_ACHIEVEMENT_INDEX,"Wrong Achievement Number."
-RESULT_TYPE.NOT_ENOUGH_EVENT_GIFT,"Not enough Event Presents."
-RESULT_TYPE.MISSING_EVENT_WORLD_BOSS_INDEX,"Event World Boss number does not exist."
-RESULT_TYPE.EVENT_WORLD_BOSS_NOT_EXIST,"Event World Boss does not exist."
-RESULT_TYPE.EVENT_WORLD_BOSS_NOT_ACTIVE,"Event World Boss is locked."
-RESULT_TYPE.EVENT_WORLD_BOSS_DATA_NOT_FOUND,"Event World Boss data is unavailable."
-RESULT_TYPE.WRONG_EVENT_WORLD_BOSS_CHAPTER,"Event World Boss unavailable."
-RESULT_TYPE.WRONG_EVENT_WORLD_BOSS_DUNGEON,"Event World Boss unavailable."
-RESULT_TYPE.EVENT_WORLD_BOSS_CANCELED,"Event World Boss has been canceled."
-RESULT_TYPE.EVENT_WORLD_BOSS_SEASON_CHANGED,"Event World Boss Season has changed."
-RESULT_TYPE.STARTED_EVENT_WORLD_BOSS_NOT_FOUND,"Engaged Event World Boss data unavailable."
-RESULT_TYPE.EVENT_WORLD_BOSS_HP_ERROR,"Invalid Event World Boss HP."
-RESULT_TYPE.EVENT_WORLD_BOSS_NOT_PLAYABLE_TIME,"Event World Boss unavailable."
-RESULT_TYPE.CHALLENGE_RAID_SCORE_ERROR,"Invalid Challenge Raid Score."
-RESULT_TYPE.EVENT_WORLD_BOSS_LEVEL_CHANGED,"Event World Boss Level has changed."
-RESULT_TYPE.CRAFT_DATA_NOT_OPENED,"Cannot craft item."
-RESULT_TYPE.NOT_ENOUGH_SKILL_POINT,"Insufficient Transcend Points."
-RESULT_TYPE.IS_NOT_UNEQUIP_TYPE,"This item cannot be removed."
-RESULT_TYPE.NOT_OPEN_PAGE,"Skill page is not open."
-RESULT_TYPE.PAGE_NOT_FOUND,"Page does not exist."
-RESULT_TYPE.ALREADY_HAVE_PAGE,"You have already purchased this page."
-RESULT_TYPE.SKILL_TYPE_ALREADY_LEARNED,"You have already acquired the same type of skill."
-RESULT_TYPE.NOT_CORRECT_OPTION_COUNT,"Invalid option number."
-RESULT_TYPE.NOT_ENOUGH_HIDEOUT_DUNGEON_COUNT,"Not enough keys for Upper Dungeon."
-RESULT_TYPE.CHAPTER_INDEX_NOT_FOUND,"Chapter does not exist."
-RESULT_TYPE.RESET_GEM_NOT_FOUND,"Cannot find reset cost data."
-RESULT_TYPE.INVAID_RESET_GEM,"Reset cost data does not exist."
-RESULT_TYPE.SELECT_ITEM_DATA_NOT_FOUND,"Cannot find ticket data."
-RESULT_TYPE.IMPOSSIBLE_SELECT_ITEM,"This item is not included in the list."
-RESULT_TYPE.PURCHASE_MARKETING_DATA_NOT_FOUND,"Cannot find product data."
-RESULT_TYPE.PURCHASE_MARKETING_NOT_OPENED,"This product is not for sale."
-RESULT_TYPE.NOT_AVAILABLE_REPEAT_COOLTIME,"This product is not for sale."
-RESULT_TYPE.REMAIN_REPEAT_COOLTIME,"This product is not for sale."
-RESULT_TYPE.NOT_ENOUGH_LUA_POINT,"Insufficient Lua's Tocken."
-RESULT_TYPE.BAN_PICK_PENALTY_USER_BLOCKED,"You have been given a penelty due to low participation.\nMatch is not available for {1} min."
-RESULT_TYPE.SENSITIVE_WORD,"This name is already in use."
+RESULT_TYPE.NOT_GUILD_RAID,This is not a Guild Raid.
+RESULT_TYPE.NOT_PLAYING_ACCOUNT,Not a currently playing account.
+RESULT_TYPE.INVALID_ACTION_VALUE,Invalid value.
+RESULT_TYPE.INVALID_CHAPTER_DUNGEON,Invalid Chapter or Dungeon Index.
+RESULT_TYPE.INVALID_SELECT_ITEM_COUNT,Invalid number of selected items.
+RESULT_TYPE.ITEM_NOT_EXIST,Selected Item data does not exist.
+RESULT_TYPE.ITEM_NOT_SELECTED,Item has not been selected.
+RESULT_TYPE.ALREADY_HAS_HERO,You already own this hero.
+RESULT_TYPE.INVALID_ROOM_INFO,Invalid Room Info.
+RESULT_TYPE.ROOM_NOT_EXIST,This Room does not exist.
+RESULT_TYPE.NOT_DELEGATE_ACCOUNT_ID,No player to delegate to.
+RESULT_TYPE.ROOM_FULL,The Room is full.
+RESULT_TYPE.ROOM_IN_BATTLE,This Room is currently in battle.
+RESULT_TYPE.NOT_JOINED_RAID_ROOM,You have not joined a Room.
+RESULT_TYPE.INVALID_ROOM_NO,Invalid Room number.
+RESULT_TYPE.ALREADY_JOINED_BROADCAST_ROOM,You have already joined this Broadcast.
+RESULT_TYPE.NOT_JOINED_BROADCAST_ROOM,You are not part of a Broadcast.
+RESULT_TYPE.WORLD_BOSS_RANK_ERROR,World Boss Ranking Error.
+RESULT_TYPE.WORLD_BOSS_CANCELED,The battle has ended due to abnormally high damage values.
+RESULT_TYPE.WORLD_BOSS_SEASON_CHANGED,A different World Boss has appeared.
+RESULT_TYPE.STARTED_WORLD_BOSS_NOT_FOUND,Cannot begin World Boss.
+RESULT_TYPE.WORLD_BOSS_DATA_NOT_FOUND,Cannot find World Boss data.
+RESULT_TYPE.CANNOT_SEARCH_MY_FRIEND,Cannot search for Friend.
+RESULT_TYPE.BOOSTER_DATA_NOT_FOUND,Booster Info does not exist.
+RESULT_TYPE.PATCH_NOTE_NOT_FOUND,Patchnote does not exist.
+RESULT_TYPE.SAME_PATCH_NOTE,Same Patchnote.
+RESULT_TYPE.HP_NOT_FOUND,Failed to load Monster HP.
+RESULT_TYPE.KICKED_FROM_ROOM,This user has been kicked from the room.
+RESULT_TYPE.MASTER_BANNED,This user has been banned by the Room Master.
+RESULT_TYPE.KICK_MEMBER_NOT_EXIST,No user to kick.
+RESULT_TYPE.INTERNAL_ERROR,Internal Error.
+RESULT_TYPE.BAN_ACCOUNT_FULL,Maximum number of banned users.
+RESULT_TYPE.ALREADY_ADDED_ACCOUNT,This user is already added.
+RESULT_TYPE.BAN_ACCOUNT_NOT_EXIST,This user does not exist.
+RESULT_TYPE.FAVORITE_ACCOUNT_FULL,Favorite List Full.
+RESULT_TYPE.FAVORITE_ACCOUNT_NOT_EXIST,This user does not exist.
+RESULT_TYPE.NOT_ENOUGH_WORLD_BOSS_POINT,Not enough World Boss Points.
+RESULT_TYPE.NOT_ENOUGH_EVENT_POINT,Not enough Event Points.
+RESULT_TYPE.ROOM_SERVER_INTERNAL_ERROR,Internal Room Error.
+RESULT_TYPE.ALREADY_EXIST_GUILD_NAME,Guild Name already exists.
+RESULT_TYPE.MAX_FRIENDLY_POINT,Friendship is at max.
+RESULT_TYPE.CANNOT_GIVE_GIFT_NPC,Cannot give present.
+RESULT_TYPE.FRIENDLY_POINT_INFO_NOT_FOUND,No Friendship Data.
+RESULT_TYPE.FRIENDLY_POINT_DATA_NOT_FOUND,No Friendship Data.
+RESULT_TYPE.INVALID_FRIENDLY_POINT_STEP,Friendship level is invalid.
+RESULT_TYPE.NOT_ENOUGH_FRIENDLY_POINT,Not enough Friendship.
+RESULT_TYPE.NEXT_TIER_EQUIP_ITEM_NOT_FOUND,No tier upgrade item data.
+RESULT_TYPE.INVALID_NEXT_TIER_STEP,Invalid Tier upgrade item data.
+RESULT_TYPE.MAX_TIER_ITEM,Tier upgrade Item is currently at max tier.
+RESULT_TYPE.MATERIAL_ITEM_DATA_NOT_FOUND,No material item data.
+RESULT_TYPE.UPGRADE_TIER_NOT_FOUND,No tier upgrade data.
+RESULT_TYPE.NOT_EQUIP_MAX_STAR,Tier upgrade item is not at max Stars.
+RESULT_TYPE.WORLD_BOSS_DAILY_REWARDING,Daily reward calculations in progress.
+RESULT_TYPE.CANNOT_BUY_NO_EVENT,Not a Current Event.
+RESULT_TYPE.CANNOT_RESTOCK_NO_EVENT,Not a Current Event.
+RESULT_TYPE.EVENT_DUNGEON_DATA_NOT_FOUND,Event Dungeon data does not exist.
+RESULT_TYPE.EVENT_DUNGEON_CLOSED,Event Dungeon has ended.
+RESULT_TYPE.WITHDRAW_PENALTY,Restricted during Guild Penalty duration.
+RESULT_TYPE.EQUIP_ENCHANT_OPTION_ITEM_DATA_NOT_FOUND,No Enchant Option Info.
+RESULT_TYPE.NOT_ENOUGH_EVENT_DUNGEON_POINT,Not enough Event Points.
+RESULT_TYPE.GUILD_CONTENTS_RESTRICTED,Cannot purchase during Penalty Duration.
+RESULT_TYPE.ITEM_EXPIRED,Item has expired
+RESULT_TYPE.WRONG_WORLD_BOSS_CHAPTER,World Boss is currently unavailable.
+RESULT_TYPE.WRONG_WORLD_BOSS_DUNGEON,World Boss is currently unavailable.
+RESULT_TYPE.CREATURE_STAR_DATA_NOT_FOUND,Hero Awakening Info does not exist.
+RESULT_TYPE.RANK_ERROR,Incorrect Ranking
+RESULT_TYPE.CANCELED,Canceled
+RESULT_TYPE.NOT_ENOUGH_EVENT_DUNGEON_POINT2,Insufficient Event Points.
+RESULT_TYPE.NOT_ENOUGH_EVENT_DUNGEON_POINT3,Not enough Event Points.
+RESULT_TYPE.NOT_ENOUGH_GLORY_POINT,Not enough Medals of Honor.
+RESULT_TYPE.NOT_AVAILABLE_HERO,Cannot use this Hero.
+RESULT_TYPE.INVAILD_ACHIEVEMENT_INDEX,Cannot receive this Reward.
+RESULT_TYPE.CHALLENGE_RAID_NOT_OPENED,Challenge Raid time has run out and thus cannot be continued.
+RESULT_TYPE.CENSORED_WORD_NAME,Cannot use this name
+RESULT_TYPE.NOT_OPENED_ROOM,This room is private and cannot be joined.
+RESULT_TYPE.ROOM_LEFT,The room has been disbanded due to network connection failure.
+RESULT_TYPE.CHALLENGE_RAID_DATA_NOT_FOUND,Challenge Raid Data does not exist
+RESULT_TYPE.NO_EVENT_DUNGEON_DATA,Event Dungeon Data does not exist
+RESULT_TYPE.NO_RESET_COUNT,No more Reset counts.
+RESULT_TYPE.NO_RESET_CURRENCY_TYPE,No more Reset currency.
+RESULT_TYPE.NO_RESET_AMOUNT,No more Resets available.
+RESULT_TYPE.INVALID_ACHIEVEMENT_INDEX,Wrong Achievement Number.
+RESULT_TYPE.NOT_ENOUGH_EVENT_GIFT,Not enough Event Presents.
+RESULT_TYPE.MISSING_EVENT_WORLD_BOSS_INDEX,Event World Boss number does not exist.
+RESULT_TYPE.EVENT_WORLD_BOSS_NOT_EXIST,Event World Boss does not exist.
+RESULT_TYPE.EVENT_WORLD_BOSS_NOT_ACTIVE,Event World Boss is locked.
+RESULT_TYPE.EVENT_WORLD_BOSS_DATA_NOT_FOUND,Event World Boss data is unavailable.
+RESULT_TYPE.WRONG_EVENT_WORLD_BOSS_CHAPTER,Event World Boss unavailable.
+RESULT_TYPE.WRONG_EVENT_WORLD_BOSS_DUNGEON,Event World Boss unavailable.
+RESULT_TYPE.EVENT_WORLD_BOSS_CANCELED,Event World Boss has been canceled.
+RESULT_TYPE.EVENT_WORLD_BOSS_SEASON_CHANGED,Event World Boss Season has changed.
+RESULT_TYPE.STARTED_EVENT_WORLD_BOSS_NOT_FOUND,Engaged Event World Boss data unavailable.
+RESULT_TYPE.EVENT_WORLD_BOSS_HP_ERROR,Invalid Event World Boss HP.
+RESULT_TYPE.EVENT_WORLD_BOSS_NOT_PLAYABLE_TIME,Event World Boss unavailable.
+RESULT_TYPE.CHALLENGE_RAID_SCORE_ERROR,Invalid Challenge Raid Score.
+RESULT_TYPE.EVENT_WORLD_BOSS_LEVEL_CHANGED,Event World Boss Level has changed.
+RESULT_TYPE.CRAFT_DATA_NOT_OPENED,Cannot craft item.
+RESULT_TYPE.NOT_ENOUGH_SKILL_POINT,Insufficient Transcend Points.
+RESULT_TYPE.IS_NOT_UNEQUIP_TYPE,This item cannot be removed.
+RESULT_TYPE.NOT_OPEN_PAGE,Skill page is not open.
+RESULT_TYPE.PAGE_NOT_FOUND,Page does not exist.
+RESULT_TYPE.ALREADY_HAVE_PAGE,You have already purchased this page.
+RESULT_TYPE.SKILL_TYPE_ALREADY_LEARNED,You have already acquired the same type of skill.
+RESULT_TYPE.NOT_CORRECT_OPTION_COUNT,Invalid option number.
+RESULT_TYPE.NOT_ENOUGH_HIDEOUT_DUNGEON_COUNT,Not enough keys for Upper Dungeon.
+RESULT_TYPE.CHAPTER_INDEX_NOT_FOUND,Chapter does not exist.
+RESULT_TYPE.RESET_GEM_NOT_FOUND,Cannot find reset cost data.
+RESULT_TYPE.INVAID_RESET_GEM,Reset cost data does not exist.
+RESULT_TYPE.SELECT_ITEM_DATA_NOT_FOUND,Cannot find ticket data.
+RESULT_TYPE.IMPOSSIBLE_SELECT_ITEM,This item is not included in the list.
+RESULT_TYPE.PURCHASE_MARKETING_DATA_NOT_FOUND,Cannot find product data.
+RESULT_TYPE.PURCHASE_MARKETING_NOT_OPENED,This product is not for sale.
+RESULT_TYPE.NOT_AVAILABLE_REPEAT_COOLTIME,This product is not for sale.
+RESULT_TYPE.REMAIN_REPEAT_COOLTIME,This product is not for sale.
+RESULT_TYPE.NOT_ENOUGH_LUA_POINT,Insufficient Lua's Tocken.
+RESULT_TYPE.BAN_PICK_PENALTY_USER_BLOCKED,You have been given a penelty due to low participation.\nMatch is not available for {1} min.
+RESULT_TYPE.SENSITIVE_WORD,This name is already in use.
 RESULT_TYPE.INVALID_BROADCAST_NAME_IN_THIS_SERVER,"You can only enter Japanese/Roman Alphabet, and numbers."
 RESULT_TYPE.INVALID_GUILD_NAME_IN_THIS_SERVER,"You can only enter Japanese/Roman Alphabet, and numbers."
 RESULT_TYPE.INVALID_NICK_IN_THIS_SERVER,"You can only enter Japanese/Roman Alphabet, and numbers."
-RESULT_TYPE.SENSITIVE_WORD_NAME,"This name is already in use."
-RESULT_TYPE.NOT_JOINED_PARTY_DUNGEON_ROOM,"You haven't entered a Lobby."
-RESULT_TYPE.SERVER_CLOSED,"Server is closed."
-RESULT_TYPE.COUPON_MISMATCH,"Invalid coupon."
-RESULT_TYPE.NOT_ENOUGH_COUPON_ITEM,"Not enough coupons."
-RESULT_TYPE.COUPON_ITEM_DATA_NOT_FOUND,"Invalid coupon."
-RESULT_TYPE.INVALID_COUPON_ITEM_TYPE,"Invalid coupon."
-RESULT_TYPE.INVAILD_PRICE_TYPE,"Invalid goods."
-RESULT_TYPE.PARTY_DUNGEON_LEVEL_MISMATCH,"A member of the party cannot enter battle."
-RESULT_TYPE.CENSORED_GUILD_INTRODUCE,"Banned word included in Guild description."
-RESULT_TYPE.CENSORED_GUILD_NOTICE,"Banned word included in Guild announcement."
-RESULT_TYPE.INVALID_NOTICE_IN_THIS_SERVER,"Cannot use other language."
-RESULT_TYPE.ACCUMULATE_LOGIN_REWARD_TABLEA_NOT_FOUND,"Cannot find data of login reward."
-RESULT_TYPE.IS_NOT_CONDITION,"Cannot receive this reward yet."
-RESULT_TYPE.TITLE_DATA_NOT_FOUND,"No Title Data exists."
-RESULT_TYPE.TITLE_NOT_FOUND,"You don't have this Title."
-RESULT_TYPE.TITLE_EXPIRED,"The Title has expired."
-RESULT_TYPE.EQUIP_DETAIL_DATA_NOT_FOUND,"Cannot find Gear info."
-RESULT_TYPE.NO_MORE_ROULETTE,"Cannot spin the Roulette anymore."
-RESULT_TYPE.REWARD_DATA_NOT_FOUND,"Invalid reward data."
-RESULT_TYPE.NOT_COMPLETED_REQ_DUNGEON,"Chapter required for entry has not been cleared."
-RESULT_TYPE.INVALID_PRICE_TYPE,"Invalid goods."
-RESULT_TYPE.LIMIT_OPEN_COUNT,"You have exceeded the maximum number of Guild Raids you can have open."
-RESULT_TYPE.CHALLENGE_RAID_RANK_ERROR,"Challenge Raid Data does not exist."
-RESULT_TYPE.INVALID_BUILDING_LEVEL,"Cannot find the level info."
-RESULT_TYPE.NOT_ENOUGH_TRAINING_CENTER_LEVEL,"Invalid skill expansion."
-RESULT_TYPE.ALREADY_APPLIED,"Already requesting to join..."
-RESULT_TYPE.GUILD_SUPPRESS_ALREADY_COMPLETED,"This area has already been cleared."
-RESULT_TYPE.GUILD_SUPPRESS_NOT_BATTLE_STATE,"Not available at this time."
-RESULT_TYPE.GUILD_SUPPRESS_RAID_DATA_NOT_FOUND,"Cannot find Guild Conquest Info from Player Info."
-RESULT_TYPE.GUILD_SUPPRESS_SESSION_NOT_FOUND,"The dungeon does not exist."
+RESULT_TYPE.SENSITIVE_WORD_NAME,This name is already in use.
+RESULT_TYPE.NOT_JOINED_PARTY_DUNGEON_ROOM,You haven't entered a Lobby.
+RESULT_TYPE.SERVER_CLOSED,Server is closed.
+RESULT_TYPE.COUPON_MISMATCH,Invalid coupon.
+RESULT_TYPE.NOT_ENOUGH_COUPON_ITEM,Not enough coupons.
+RESULT_TYPE.COUPON_ITEM_DATA_NOT_FOUND,Invalid coupon.
+RESULT_TYPE.INVALID_COUPON_ITEM_TYPE,Invalid coupon.
+RESULT_TYPE.INVAILD_PRICE_TYPE,Invalid goods.
+RESULT_TYPE.PARTY_DUNGEON_LEVEL_MISMATCH,A member of the party cannot enter battle.
+RESULT_TYPE.CENSORED_GUILD_INTRODUCE,Banned word included in Guild description.
+RESULT_TYPE.CENSORED_GUILD_NOTICE,Banned word included in Guild announcement.
+RESULT_TYPE.INVALID_NOTICE_IN_THIS_SERVER,Cannot use other language.
+RESULT_TYPE.ACCUMULATE_LOGIN_REWARD_TABLEA_NOT_FOUND,Cannot find data of login reward.
+RESULT_TYPE.IS_NOT_CONDITION,Cannot receive this reward yet.
+RESULT_TYPE.TITLE_DATA_NOT_FOUND,No Title Data exists.
+RESULT_TYPE.TITLE_NOT_FOUND,You don't have this Title.
+RESULT_TYPE.TITLE_EXPIRED,The Title has expired.
+RESULT_TYPE.EQUIP_DETAIL_DATA_NOT_FOUND,Cannot find Gear info.
+RESULT_TYPE.NO_MORE_ROULETTE,Cannot spin the Roulette anymore.
+RESULT_TYPE.REWARD_DATA_NOT_FOUND,Invalid reward data.
+RESULT_TYPE.NOT_COMPLETED_REQ_DUNGEON,Chapter required for entry has not been cleared.
+RESULT_TYPE.INVALID_PRICE_TYPE,Invalid goods.
+RESULT_TYPE.LIMIT_OPEN_COUNT,You have exceeded the maximum number of Guild Raids you can have open.
+RESULT_TYPE.CHALLENGE_RAID_RANK_ERROR,Challenge Raid Data does not exist.
+RESULT_TYPE.INVALID_BUILDING_LEVEL,Cannot find the level info.
+RESULT_TYPE.NOT_ENOUGH_TRAINING_CENTER_LEVEL,Invalid skill expansion.
+RESULT_TYPE.ALREADY_APPLIED,Already requesting to join...
+RESULT_TYPE.GUILD_SUPPRESS_ALREADY_COMPLETED,This area has already been cleared.
+RESULT_TYPE.GUILD_SUPPRESS_NOT_BATTLE_STATE,Not available at this time.
+RESULT_TYPE.GUILD_SUPPRESS_RAID_DATA_NOT_FOUND,Cannot find Guild Conquest Info from Player Info.
+RESULT_TYPE.GUILD_SUPPRESS_SESSION_NOT_FOUND,The dungeon does not exist.
 RESULT_TYPE.GUILD_SUPPRESS_BATTLE_RESULT_ERROR,"Due to a network error, there is a server delay in processing user information. Please try again later."
-RESULT_TYPE.GUILD_SUPPRESS_NOT_COMPLETED_REQ_DUNGEON,"Chapter required for entry has not been cleared."
-RESULT_TYPE.GUILD_SUPPRESS_SESSION_DATA_NOT_FOUND,"Cannot find the required details."
-RESULT_TYPE.GUILD_SUPPRESS_PLAY_INFO_NOT_FOUND,"Cannot find the data."
-RESULT_TYPE.GUILD_SUPPRESS_NOT_APPLIED,"You have not requested to participate in a Guild Conquest."
-RESULT_TYPE.GUILD_SUPPRESS_DUNGEON_DATA_NOT_FOUND,"This dungeon info does not exist."
-RESULT_TYPE.NOT_APPLIABLE,"Guild Conquest Request Period has not started yet."
-RESULT_TYPE.GUILD_MEMBER_REWARD_DATA_NOT_FOUND,"This reward info does not exist."
-RESULT_TYPE.INVALID_BUILDING_INDEX,"Invalid data."
-RESULT_TYPE.GUILD_BUILDING_DATA_NOT_FOUND,"Cannot find the required details."
-RESULT_TYPE.EXCEED_WOOD,"Exceeded the limit."
-RESULT_TYPE.EXCEED_STONE,"Exceeded the limit."
-RESULT_TYPE.EXCEED_METAL,"Exceeded the limit."
-RESULT_TYPE.NOT_ENOUGH_SUPPRESS_POINT,"Not enough Conquest Points."
-RESULT_TYPE.INVALID_ACTIVITY_POINT,"Invalid data."
-RESULT_TYPE.INVALID_SUPPRESS_POINT,"Invalid data."
-RESULT_TYPE.INVALID_TRAINING_CENTER_LEVEL,"Invalid data."
-RESULT_TYPE.NOT_ENOUGH_WOOD,"Not enough Wood."
-RESULT_TYPE.NOT_ENOUGH_METAL,"Not enough Metal."
-RESULT_TYPE.MAX_GUILD_BUILDING_LEVEL,"The building cannot level up because it has reached the max level."
-RESULT_TYPE.UNKNOWN_TYPE,"Cannot find the data."
-RESULT_TYPE.NOT_MATCH_TYPE,"Invalid type."
-RESULT_TYPE.SESSION_NOT_FOUND,"The Conquest is not in progress."
-RESULT_TYPE.INVALID_SESSION_INDEX,"The Conquest is not in progress."
-RESULT_TYPE.SESSION_DATA_NOT_FOUND,"Conquest data does not exist."
-RESULT_TYPE.GUILD_ID_NOT_FOUND,"Guilds do not exist."
-RESULT_TYPE.INVALID_PURCHASE_MARKETING_REQUEST_INFO,"Invalid data."
-RESULT_TYPE.NOT_ELAPSED_GUILD_MEMBER_REWARDED_TIME,"It is too early to claim rewards from Guild members. Please try again later."
-RESULT_TYPE.PC_AVARTAR_DATA_NOT_FOUND,"This reward info does not exist."
-RESULT_TYPE.EQUIP_SLOT_DATA_NOT_FOUND,"Cannot find the data."
-RESULT_TYPE.NOT_MATCH_SUB_TYPE,"This slot doe not match this item."
-RESULT_TYPE.NOT_ENOUGH_RANKING_POINT,"Not enough Insignias of Honor."
-RESULT_TYPE.NOT_ENOUGH_GLORY1_POINT,"Insufficient Honor Points"
-RESULT_TYPE.GUILD_INFO_NOT_FOUND,"Guild info does not exist."
-RESULT_TYPE.MISSING_BONUS_EVENT_CONDITION,"Cannot find the data."
-RESULT_TYPE.CAN_NOT_SELECTED_COSTUME,"Cannot equip costume."
-RESULT_TYPE.COSTUME_INFO_REFUND,"There is no Costume available. You can be compensated with Insignia(s) of Honor."
-RESULT_TYPE.WORLDBOSS_NOT_FOUND,"Could not find the right data for the Gear Equip Slot."
-RESULT_TYPE.WORLD_BOSS_DAMAGED_BY_ZERO,"The battle did not proceed normally. Please try again."
-RESULT_TYPE.IS_SINGLE_ROOM,"The World Boss was not damaged at all. Please challenge again."
-RESULT_TYPE.GUILD_GUILDRAID_ALREADY_COMPLETED,"This is Single Play Raid Room. You cannot participate in battle."
-RESULT_TYPE.GUILD_GUILD_RAID_ALREADY_COMPLETED,"The monster has already been defeated.\nAny used entry ticket will be returned."
-RESULT_TYPE.NAME_TOO_LONG,"The monster has already been defeated.\nAny used entry ticket will be returned."
-RESULT_TYPE.INVALID_INDEX_ARRAY_SIZE,"Slot name must be shorter than 10 characters."
-RESULT_TYPE.DUPLICATED_PART_INDEX,"Invalid number of gear to be saved."
-RESULT_TYPE.INVALID_EQUIP_ITEM_SLOT_INDEX,"You already have the same gear equipped in the Gear Equip Slot."
-RESULT_TYPE.INVALID_EQUIP_STORAGE_SLOT_INDEX,"You don't have the item stored in the Gear Custom Slot."
-RESULT_TYPE.INVALID_PART_INDEX,"Invalid Gear Custom Slot number."
-RESULT_TYPE.MAX_EXTEND,"Invalid gear slot."
-RESULT_TYPE.MISSING_PARAM_ERROR,"Cannot find the required info for Gear Custom Slot expansion."
-RESULT_TYPE.ALL_COSTUME_NOT_OWNED,"Invalid input value."
-RESULT_TYPE.ALL_HERO_NOT_OWNED,"You have not collected all costumes."
-RESULT_TYPE.CHEST_FULL,"You have not recruited all Heroes."
-RESULT_TYPE.MAX_CHEST,"Your Storage Box is full."
-RESULT_TYPE.INVENTORY_FULL,"Max Storage Box slot reached."
-RESULT_TYPE.COUNTRY_CODE_CHANGE_IS_NOT_POSSIBLE,"Inventory is full."
-RESULT_TYPE.GUILD_SUPPRESS_AUTO_APPLY_INFO_NOT_FOUND,"You are not allowed to change Country Code during this period."
-RESULT_TYPE.INVALID_COUNTRY_CODE_INDEX,"Cannot find Conquest Auto application Info."
-RESULT_TYPE. EVENT_ITEM_NOT_SELLECT,"The Country Code does not exist."
-RESULT_TYPE.POINT_NOT_ENOUGH,"No Item has been selected."
-RESULT_TYPE.MAX_HERO_TRANSCEND_POINT,"Not enough Participation Points."
-RESULT_TYPE.INVALID_HERO_TRANSCEND_POINT,"The Hero's Transcendence Attribute Points are at maximum."
-RESULT_TYPE.RESOURCE_NOT_FOUND_ERROR,"The Hero's Transcendence Attribute Points are invalid."
-RESULT_TYPE.INCORRECT_GUILD_MEMBER,"Cannot find the resource."
-RESULT_TYPE.GUILD_MEMBER_NOT_FOUND,"Failed to proceed. Invalid Guild Member."
-RESULT_TYPE.MAX_GUILD_ADMIN,"No matching Guild member found."
-RESULT_TYPE.NOT_CORRECT_GUILD_BUILDING_LEVEL,"Maximum number of Managers reached."
-RESULT_TYPE.INVALID_TAG_TYPE,"Purchase failed. The levels of the product and the Guild Shop do not match."
-RESULT_TYPE.INVALID_CURRENCY_DATA,"Invalid Class."
-RESULT_TYPE.NOT_ENOUGH_CURRENCY,"Invalid Goods data."
-RESULT_TYPE.NOT_EXIST_CLASS_BUFF_DATA,"Insufficient goods."
-RESULT_TYPE.ALREADY_CLASS_BUFF_INIT,"This data does not exist."
-RESULT_TYPE.INVALID_CLASS_BUFF_INDEX,"Reset has already been processed."
-RESULT_TYPE.INVALID_CLASS_BUFF_LEVEL,"Invalid Class Buff index info has been sent to the server."
-RESULT_TYPE.NOT_ENOUGH_POINT,"Invalid Class Buff Level info has been sent to the server."
-RESULT_TYPE.NOT_ENOUGH_CLASS_BUFF_INDEX,"Not enough Class Buff Points."
-RESULT_TYPE.NOT_ENOUGH_CLASS_BUFF_LEVEL,"Not enough index for level-up."
-RESULT_TYPE.NOT_ENOUGH_NEED_HERO_COUNT,"You have not reached the minimum required Class Buff Level for level-up."
-RESULT_TYPE.EXCEEDED_MAX_LEVEL,"You do not have enough Heroes."
-RESULT_TYPE.MONTHLY_HERO_NOT_FOUND,"Cannot upgrade any more."
-RESULT_TYPE.CHECK_CONDITION_NOT_PASSED,"The request cannot be handled."
-RESULT_TYPE.NEWBIE_POPUP_TIME_ENDED,"Reward time is over."
-RESULT_TYPE.NOT_OPENED_NEWBIE_POPUP,"This product is not for sale."
-RESULT_TYPE.NOT_ENOUGH_GUILD_ARENA_POINT,"Insufficient Guild War Medals."
-RESULT_TYPE.GUILD_ARENA_SESSION_NOT_FOUND,"Guild War has already ended."
-RESULT_TYPE.INVALID_GUILD_ARENA_SESSION_INDEX,"Guild War has already ended."
-RESULT_TYPE.GUILD_ARENA_SESSION_DATA_NOT_FOUND,"Guild War data does not exist."
-RESULT_TYPE.ALREADY_APPLIED_GUILD_ARENA,"Already applied."
-RESULT_TYPE.GUILD_ARENA_SCORE_INFO_NOT_FOUND,"Unable to find Guild War record."
-RESULT_TYPE.GUILD_ARENA_AUTO_APPLY_INFO_NOT_FOUND,"Unable to find Guild War Auto Register record."
-RESULT_TYPE.REQUIRED_VALUE_EMPTY,"You do not have enough assets for the request."
-RESULT_TYPE.NOT_HAVE_HERO,"You do not have the Hero."
-RESULT_TYPE.WEAPON_COSTUME_DATA_NOT_FOUND,"Weapon look data not found."
-RESULT_TYPE.HAIR_COSTUME_DATA_NOT_FOUND,"Hairstyle data not found."
-RESULT_TYPE.STAR_VALUE_NOT_FOUND,"Hero grade info not found in the Costume data."
-RESULT_TYPE.NOT_HAVE_NEED_COSTUME,"You do not own basic Costume."
-RESULT_TYPE.ALREADY_HAVE_ACCESSORY_COSTUME,"You already have this accessory."
-RESULT_TYPE.ACCESSORY_COSTUME_DATA_NOT_FOUND,"Accessory data not found."
-RESULT_TYPE.ACCESSORY_COSTUME_NOT_OPENED,"This accessory is not for sale."
-RESULT_TYPE.DUPLICATE_PART_TYPE,"You cannot purchase or equip items of the same slot."
-RESULT_TYPE.NOT_HAVE_WEAPON_COSTUME,"You do not have this weapon look."
-RESULT_TYPE.NOT_HAVE_ACCESSORY_COSTUME,"You do not have this accessory."
-RESULT_TYPE.GUILD_ARENA_WRONG_SESSION_INDEX,"This session is not in progress."
-RESULT_TYPE.GUILD_ARENA_NOT_BATTLE_STATE,"Guild War is currently not in battle status."
-RESULT_TYPE.NOT_ENOUGH_GUILD_ARENA_KEY,"You do not have entry tickets to Guild War."
-RESULT_TYPE.ALREADY_USED_BATTLE_HERO,"This Hero was already used in battle."
-RESULT_TYPE.CANNOT_PLAY_IN_BATTLE,"The opponent is already in battle."
-RESULT_TYPE.GUILD_ARENA_SESSION_SCORE_NOT_FOUND,"Unable to find Guild War info."
-RESULT_TYPE.GUILD_ARENA_ENEMY_NOT_FOUND,"Unable to find the matched opponent."
-RESULT_TYPE.GUILD_ARENA_ENEMY_NOT_CORRECT,"You are not matched against this opponent."
-RESULT_TYPE.MATCHED_GUILD_ARENA_ENEMY_NOT_FOUND,"Unable to find the matched opponent."
-RESULT_TYPE.MATCH_TIER_NOT_FOUND,"Unable to find the matching Tier info."
-RESULT_TYPE.GUILD_ARENA_ENEMY_DECK_NOT_FOUND,"Unable to find the opponent's Defense Team info."
-RESULT_TYPE.GUILD_ARENA_MEMBER_RECORD_NOT_FOUND,"Unable to load record info."
-RESULT_TYPE.INVALID_GUILD_ARENA_SEASON_INDEX,"This Guild War season is currently not in progress."
-RESULT_TYPE.GUILD_ARENA_RANKER_INFO_NOT_FOUND,"Unable to find Guild War record."
-RESULT_TYPE.GUILD_ARENA_SESSION_RECORD_INFO_NOT_FOUND,"Unable to find Guild Wars rank record."
-RESULT_TYPE.GUILD_ARENA_ENEMY_DECK_ALREADY_COMPLETED,"This opponent has already been defeated."
-RESULT_TYPE.GUILD_ARENA_MATCH_INFO_NOT_FOUND,"Unable to find the opponent's Defense Team info."
-RESULT_TYPE.GUILD_ARENA_NOT_APPLY_SET_DECK,"You cannot set a Defense Team since the registration period is over."
-RESULT_TYPE.GUILD_ARENA_DECK_HERO_NOT_FOUND,"You have not assigned a Hero in the Defense Team."
-RESULT_TYPE.GUILD_ARENA_HERO_NOT_FOUND,"You do not own this Hero."
-RESULT_TYPE.GUILD_ARENA_NOT_APPLY_SET_DECK_SKILL,"You cannot set Skills since the registration period is over."
+RESULT_TYPE.GUILD_SUPPRESS_NOT_COMPLETED_REQ_DUNGEON,Chapter required for entry has not been cleared.
+RESULT_TYPE.GUILD_SUPPRESS_SESSION_DATA_NOT_FOUND,Cannot find the required details.
+RESULT_TYPE.GUILD_SUPPRESS_PLAY_INFO_NOT_FOUND,Cannot find the data.
+RESULT_TYPE.GUILD_SUPPRESS_NOT_APPLIED,You have not requested to participate in a Guild Conquest.
+RESULT_TYPE.GUILD_SUPPRESS_DUNGEON_DATA_NOT_FOUND,This dungeon info does not exist.
+RESULT_TYPE.NOT_APPLIABLE,Guild Conquest Request Period has not started yet.
+RESULT_TYPE.GUILD_MEMBER_REWARD_DATA_NOT_FOUND,This reward info does not exist.
+RESULT_TYPE.INVALID_BUILDING_INDEX,Invalid data.
+RESULT_TYPE.GUILD_BUILDING_DATA_NOT_FOUND,Cannot find the required details.
+RESULT_TYPE.EXCEED_WOOD,Exceeded the limit.
+RESULT_TYPE.EXCEED_STONE,Exceeded the limit.
+RESULT_TYPE.EXCEED_METAL,Exceeded the limit.
+RESULT_TYPE.NOT_ENOUGH_SUPPRESS_POINT,Not enough Conquest Points.
+RESULT_TYPE.INVALID_ACTIVITY_POINT,Invalid data.
+RESULT_TYPE.INVALID_SUPPRESS_POINT,Invalid data.
+RESULT_TYPE.INVALID_TRAINING_CENTER_LEVEL,Invalid data.
+RESULT_TYPE.NOT_ENOUGH_WOOD,Not enough Wood.
+RESULT_TYPE.NOT_ENOUGH_METAL,Not enough Metal.
+RESULT_TYPE.MAX_GUILD_BUILDING_LEVEL,The building cannot level up because it has reached the max level.
+RESULT_TYPE.UNKNOWN_TYPE,Cannot find the data.
+RESULT_TYPE.NOT_MATCH_TYPE,Invalid type.
+RESULT_TYPE.SESSION_NOT_FOUND,The Conquest is not in progress.
+RESULT_TYPE.INVALID_SESSION_INDEX,The Conquest is not in progress.
+RESULT_TYPE.SESSION_DATA_NOT_FOUND,Conquest data does not exist.
+RESULT_TYPE.GUILD_ID_NOT_FOUND,Guilds do not exist.
+RESULT_TYPE.INVALID_PURCHASE_MARKETING_REQUEST_INFO,Invalid data.
+RESULT_TYPE.NOT_ELAPSED_GUILD_MEMBER_REWARDED_TIME,It is too early to claim rewards from Guild members. Please try again later.
+RESULT_TYPE.PC_AVARTAR_DATA_NOT_FOUND,This reward info does not exist.
+RESULT_TYPE.EQUIP_SLOT_DATA_NOT_FOUND,Cannot find the data.
+RESULT_TYPE.NOT_MATCH_SUB_TYPE,This slot doe not match this item.
+RESULT_TYPE.NOT_ENOUGH_RANKING_POINT,Not enough Insignias of Honor.
+RESULT_TYPE.NOT_ENOUGH_GLORY1_POINT,Insufficient Honor Points
+RESULT_TYPE.GUILD_INFO_NOT_FOUND,Guild info does not exist.
+RESULT_TYPE.MISSING_BONUS_EVENT_CONDITION,Cannot find the data.
+RESULT_TYPE.CAN_NOT_SELECTED_COSTUME,Cannot equip costume.
+RESULT_TYPE.COSTUME_INFO_REFUND,There is no Costume available. You can be compensated with Insignia(s) of Honor.
+RESULT_TYPE.WORLDBOSS_NOT_FOUND,Could not find the right data for the Gear Equip Slot.
+RESULT_TYPE.WORLD_BOSS_DAMAGED_BY_ZERO,The battle did not proceed normally. Please try again.
+RESULT_TYPE.IS_SINGLE_ROOM,The World Boss was not damaged at all. Please challenge again.
+RESULT_TYPE.GUILD_GUILDRAID_ALREADY_COMPLETED,This is Single Play Raid Room. You cannot participate in battle.
+RESULT_TYPE.GUILD_GUILD_RAID_ALREADY_COMPLETED,The monster has already been defeated.\nAny used entry ticket will be returned.
+RESULT_TYPE.NAME_TOO_LONG,The monster has already been defeated.\nAny used entry ticket will be returned.
+RESULT_TYPE.INVALID_INDEX_ARRAY_SIZE,Slot name must be shorter than 10 characters.
+RESULT_TYPE.DUPLICATED_PART_INDEX,Invalid number of gear to be saved.
+RESULT_TYPE.INVALID_EQUIP_ITEM_SLOT_INDEX,You already have the same gear equipped in the Gear Equip Slot.
+RESULT_TYPE.INVALID_EQUIP_STORAGE_SLOT_INDEX,You don't have the item stored in the Gear Custom Slot.
+RESULT_TYPE.INVALID_PART_INDEX,Invalid Gear Custom Slot number.
+RESULT_TYPE.MAX_EXTEND,Invalid gear slot.
+RESULT_TYPE.MISSING_PARAM_ERROR,Cannot find the required info for Gear Custom Slot expansion.
+RESULT_TYPE.ALL_COSTUME_NOT_OWNED,Invalid input value.
+RESULT_TYPE.ALL_HERO_NOT_OWNED,You have not collected all costumes.
+RESULT_TYPE.CHEST_FULL,You have not recruited all Heroes.
+RESULT_TYPE.MAX_CHEST,Your Storage Box is full.
+RESULT_TYPE.INVENTORY_FULL,Max Storage Box slot reached.
+RESULT_TYPE.COUNTRY_CODE_CHANGE_IS_NOT_POSSIBLE,Inventory is full.
+RESULT_TYPE.GUILD_SUPPRESS_AUTO_APPLY_INFO_NOT_FOUND,You are not allowed to change Country Code during this period.
+RESULT_TYPE.INVALID_COUNTRY_CODE_INDEX,Cannot find Conquest Auto application Info.
+RESULT_TYPE. EVENT_ITEM_NOT_SELLECT,The Country Code does not exist.
+RESULT_TYPE.POINT_NOT_ENOUGH,No Item has been selected.
+RESULT_TYPE.MAX_HERO_TRANSCEND_POINT,Not enough Participation Points.
+RESULT_TYPE.INVALID_HERO_TRANSCEND_POINT,The Hero's Transcendence Attribute Points are at maximum.
+RESULT_TYPE.RESOURCE_NOT_FOUND_ERROR,The Hero's Transcendence Attribute Points are invalid.
+RESULT_TYPE.INCORRECT_GUILD_MEMBER,Cannot find the resource.
+RESULT_TYPE.GUILD_MEMBER_NOT_FOUND,Failed to proceed. Invalid Guild Member.
+RESULT_TYPE.MAX_GUILD_ADMIN,No matching Guild member found.
+RESULT_TYPE.NOT_CORRECT_GUILD_BUILDING_LEVEL,Maximum number of Managers reached.
+RESULT_TYPE.INVALID_TAG_TYPE,Purchase failed. The levels of the product and the Guild Shop do not match.
+RESULT_TYPE.INVALID_CURRENCY_DATA,Invalid Class.
+RESULT_TYPE.NOT_ENOUGH_CURRENCY,Invalid Goods data.
+RESULT_TYPE.NOT_EXIST_CLASS_BUFF_DATA,Insufficient goods.
+RESULT_TYPE.ALREADY_CLASS_BUFF_INIT,This data does not exist.
+RESULT_TYPE.INVALID_CLASS_BUFF_INDEX,Reset has already been processed.
+RESULT_TYPE.INVALID_CLASS_BUFF_LEVEL,Invalid Class Buff index info has been sent to the server.
+RESULT_TYPE.NOT_ENOUGH_POINT,Invalid Class Buff Level info has been sent to the server.
+RESULT_TYPE.NOT_ENOUGH_CLASS_BUFF_INDEX,Not enough Class Buff Points.
+RESULT_TYPE.NOT_ENOUGH_CLASS_BUFF_LEVEL,Not enough index for level-up.
+RESULT_TYPE.NOT_ENOUGH_NEED_HERO_COUNT,You have not reached the minimum required Class Buff Level for level-up.
+RESULT_TYPE.EXCEEDED_MAX_LEVEL,You do not have enough Heroes.
+RESULT_TYPE.MONTHLY_HERO_NOT_FOUND,Cannot upgrade any more.
+RESULT_TYPE.CHECK_CONDITION_NOT_PASSED,The request cannot be handled.
+RESULT_TYPE.NEWBIE_POPUP_TIME_ENDED,Reward time is over.
+RESULT_TYPE.NOT_OPENED_NEWBIE_POPUP,This product is not for sale.
+RESULT_TYPE.NOT_ENOUGH_GUILD_ARENA_POINT,Insufficient Guild War Medals.
+RESULT_TYPE.NOT_ENOUGH_CONQUEST_DUNGEON_COUNT,Insufficient keys for Conquest.
+RESULT_TYPE.ALREADY_ON_BATTLE_HERO,This Hero is currently dispatched.
+RESULT_TYPE.GUILD_SUPPRESS_GROUP_INFO_NOT_FOUND,Guild Conquest participation info does not exist.
+RESULT_TYPE.MODULATED_DATA,Requested info with altered data.
+RESULT_TYPE.DISPATCH_BATTLE_NOT_FOUND,Cannot find Dispatch Team info.
+RESULT_TYPE.ALREADY_FINISH_DISPATCH_BATTLE,Already completed.
+RESULT_TYPE.ALREADY_MAX_BATTLE_COUNT,Cannot Dispatch anymore.
+RESULT_TYPE.NOT_ENOUGH_HERO_COUNT,Not enough Heroes.
+RESULT_TYPE.NOT_OWN_HERO,You don't own this Hero.
+RESULT_TYPE.NOT_CORRECT_EQUIP_SWAP_COUNT,The number of Gear you are trying to change is not 2.
+RESULT_TYPE.HERO_NOT_EQUIPPED,The Gear you are trying to change is unequipped.
+RESULT_TYPE.CAN_NOT_UPGRADE_VALUE,Cannot Enhance this value.
+RESULT_TYPE.ALREADY_USED_EQUIP_STORAGE_SLOT_INDEX,EquipStorageSlotIndex already in use
+RESULT_TYPE.GUILD_ARENA_SESSION_NOT_FOUND,Guild War has already ended.
+RESULT_TYPE.INVALID_GUILD_ARENA_SESSION_INDEX,Guild War has already ended.
+RESULT_TYPE.NOT_GUILD_ARENA_APPLIABLE,Cannot participate.
+RESULT_TYPE.GUILD_ARENA_SESSION_DATA_NOT_FOUND,Guild War data does not exist.
+RESULT_TYPE.ALREADY_APPLIED_GUILD_ARENA,Already applied.
+RESULT_TYPE.GUILD_ARENA_SCORE_INFO_NOT_FOUND,Unable to find Guild War record.
+RESULT_TYPE.GUILD_ARENA_AUTO_APPLY_INFO_NOT_FOUND,Unable to find Guild War Auto Register record.
+RESULT_TYPE.SUB_STORY_DATA_NOT_FOUND,Substory game data does not exist.
+RESULT_TYPE.NEED_SUB_STORY,Can purchase after clearing Substory.
+RESULT_TYPE.REQUIRED_VALUE_EMPTY,You do not have enough assets for the request.
+RESULT_TYPE.NOT_HAVE_HERO,You do not have the Hero.
+RESULT_TYPE.WEAPON_COSTUME_DATA_NOT_FOUND,Weapon look data not found.
+RESULT_TYPE.HAIR_COSTUME_DATA_NOT_FOUND,Hairstyle data not found.
+RESULT_TYPE.STAR_VALUE_NOT_FOUND,Hero grade info not found in the Costume data.
+RESULT_TYPE.NOT_HAVE_NEED_COSTUME,You do not own basic Costume.
+RESULT_TYPE.ALREADY_HAVE_ACCESSORY_COSTUME,You already have this accessory.
+RESULT_TYPE.ACCESSORY_COSTUME_DATA_NOT_FOUND,Accessory data not found.
+RESULT_TYPE.ACCESSORY_COSTUME_NOT_OPENED,This accessory is not for sale.
+RESULT_TYPE.DUPLICATE_PART_TYPE,You cannot purchase or equip items of the same slot.
+RESULT_TYPE.UNSET_ACCESSORY_COSTUME_FAIL,Removing the Accessory Costume failed.
+RESULT_TYPE.NOT_HAVE_WEAPON_COSTUME,You do not have this weapon look.
+RESULT_TYPE.NOT_HAVE_ACCESSORY_COSTUME,You do not have this accessory.
+RESULT_TYPE.INVALID_VALUE,Requested with an invalid value.
+RESULT_TYPE.EMPTY_SORAGE_SLOT,The selected Costume Custom Slot is empty.
+RESULT_TYPE.HOUSE_OBJECT_DATA_NOT_FOUND,Not a Housing Object
+RESULT_TYPE.INVALID_EXTEND_SIZE,Invalid Expansion Size
+RESULT_TYPE.OVER_MAX_EXTEND_SIZE,Greater than max Expansion Size
+RESULT_TYPE.EXTEND_DATA_NOT_FOUND,Expansion Data does not exist
+RESULT_TYPE.INVALID_SIZE,Invalid Residence Size
+RESULT_TYPE.INVALID_OPEN_HERO_COUNT,Invalid Hero Slot Count
+RESULT_TYPE.INVALID_FACILITY_COUNT,Invalid Production Facility Count
+RESULT_TYPE.INVALID_REQ_ITEM,Invalid Item Count required for Expansion
+RESULT_TYPE.INVALID_HERO_COUNT,Exceeded number of placeable Heroes
+RESULT_TYPE.OVER_AVAIL_FACILITY_COUNT,Number of current facilities exceeds the number of available facilities
+RESULT_TYPE.FURNITURE_DATA_NOT_FOUND,No Furniture Info
+RESULT_TYPE.INVALID_AXIS,Invalid Axis Info
+RESULT_TYPE.INVALID_LOCATION,Invalid Location
+RESULT_TYPE.NOT_FOUND_CHAPTER_DATA,Cannot find game data of the Chapter.
+RESULT_TYPE.IS_NOT_OPEN_DUNGEON,Have not cleared the previous Dungeon.
+RESULT_TYPE.INVALID_AVATAR_HERO_INDEX,Requested invalid AvatarHeroIndex value.
+RESULT_TYPE.NICK_CHANGE_DISABLED,Cannot change the username.
+RESULT_TYPE.GUILD_ARENA_WRONG_SESSION_INDEX,This session is not in progress.
+RESULT_TYPE.GUILD_ARENA_NOT_BATTLE_STATE,Guild War is currently not in battle status.
+RESULT_TYPE.NOT_ENOUGH_GUILD_ARENA_KEY,You do not have entry tickets to Guild War.
+RESULT_TYPE.ALREADY_USED_BATTLE_HERO,This Hero was already used in battle.
+RESULT_TYPE.CANNOT_PLAY_IN_BATTLE,The opponent is already in battle.
+RESULT_TYPE.GUILD_ARENA_SESSION_SCORE_NOT_FOUND,Unable to find Guild War info.
+RESULT_TYPE.GUILD_ARENA_ENEMY_NOT_FOUND,Unable to find the matched opponent.
+RESULT_TYPE.GUILD_ARENA_ENEMY_NOT_CORRECT,You are not matched against this opponent.
+RESULT_TYPE.MATCHED_GUILD_ARENA_ENEMY_NOT_FOUND,Unable to find the matched opponent.
+RESULT_TYPE.MATCH_TIER_NOT_FOUND,Unable to find the matching Tier info.
+RESULT_TYPE.GUILD_ARENA_ENEMY_DECK_NOT_FOUND,Unable to find the opponent's Defense Team info.
+RESULT_TYPE.GUILD_ARENA_MEMBER_RECORD_NOT_FOUND,Unable to load record info.
+RESULT_TYPE.INVALID_GUILD_ARENA_SEASON_INDEX,This Guild War season is currently not in progress.
+RESULT_TYPE.GUILD_ARENA_RANKER_INFO_NOT_FOUND,Unable to find Guild War record.
+RESULT_TYPE.GUILD_ARENA_SESSION_RECORD_INFO_NOT_FOUND,Unable to find Guild Wars rank record.
+RESULT_TYPE.GUILD_ARENA_ENEMY_DECK_ALREADY_COMPLETED,This opponent has already been defeated.
+RESULT_TYPE.GUILD_ARENA_MATCH_INFO_NOT_FOUND,Unable to find the opponent's Defense Team info.
+RESULT_TYPE.GUILD_ARENA_NOT_APPLY_SET_DECK,You cannot set a Defense Team since the registration period is over.
+RESULT_TYPE.GUILD_ARENA_DECK_HERO_NOT_FOUND,You have not assigned a Hero in the Defense Team.
+RESULT_TYPE.GUILD_ARENA_HERO_NOT_FOUND,You do not own this Hero.
+RESULT_TYPE.GUILD_ARENA_NOT_APPLY_SET_DECK_SKILL,You cannot set Skills since the registration period is over.
+RESULT_TYPE.NOT_ENOUGH_ECLIPSE_KEY,"You do not have enough Blood Moon Crystals.\n\nBlood Moon Crystals can be earned by raising the Darkness Corruption Level with Fragments of Corruption, which can be earned by logging in or consuming Stamina.\nOnce the Darkness Corruption Level is full, you can earn a Blood Moon Crystal."
+RESULT_TYPE.IS_ALREADY_LIBERATION,This Unique Weapon has already been unleashed.
+RESULT_TYPE.NOT_AVAILABLE_RECHARGE,Charging a Blood Moon Crystal now will reset your current Darkness Corruption Level.\nPlease try again after using a Blood Moon Crystal by entering Eclipse Mode.
+RESULT_TYPE.ECLIPSE_BATTLE_TIME_OVER,Cannot continue battle. Eclipse battle time has expired.

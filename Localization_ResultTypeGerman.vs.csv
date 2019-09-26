@@ -1,863 +1,903 @@
-KEY,"German"
-BASE_RESULT_TYPE.SUCCESS,"Deine Anfrage wurde erfolgreich weitergeleitet. Dein Netzwerk ist instabil – bitte versuche es später erneut."
-BASE_RESULT_TYPE.FAIL,"Deine Anfrage konnte aufgrund eines Fehlers in der Netzwerkverbindung nicht weitergeleitet werden. Bitte versuche es später erneut."
+KEY,German
+BASE_RESULT_TYPE.SUCCESS,Deine Anfrage wurde erfolgreich weitergeleitet. Dein Netzwerk ist instabil – bitte versuche es später erneut.
+BASE_RESULT_TYPE.FAIL,Deine Anfrage konnte aufgrund eines Fehlers in der Netzwerkverbindung nicht weitergeleitet werden. Bitte versuche es später erneut.
 BASE_RESULT_TYPE.SESSION_ERROR,"Du wurdest vom Server abgemeldet, weil du zu lange inaktiv warst. Bitte starte das Spiel neu."
-BASE_RESULT_TYPE.ACCOUNT_ERROR,"Konto fehlerhaft."
-BASE_RESULT_TYPE.UNHANDLED,"Anfrage konnte nicht bearbeitet werden."
-BASE_RESULT_TYPE.EXCEPTION,"Ein interner Fehler ist aufgetreten."
-BASE_RESULT_TYPE.HTTP_ERROR,"Während der Web-Anfrage ist ein Fehler aufgetreten."
-BASE_RESULT_TYPE.PARSING_ERROR,"Satzanalyse fehlgeschlagen."
-RESULT_TYPE.SUCCESS,"Deine Anfrage wurde erfolgreich weitergeleitet. Dein Netzwerk ist instabil – bitte versuche es später erneut."
-RESULT_TYPE.FAIL,"Deine Anfrage konnte aufgrund eines Fehlers in der Netzwerkverbindung nicht weitergeleitet werden. Bitte versuche es später erneut."
-RESULT_TYPE.LEVEL_DATA_NOT_FOUND,"Kann Level-Info nicht finden."
-RESULT_TYPE.CANNOT_UPGRADE_MORE,"Kann nicht weiter verstärkt werden."
-RESULT_TYPE.NOT_ENOUGH_GOLD,"Nicht genug Gold."
-RESULT_TYPE.NOT_ENOUGH_GEM,"Nicht genug Rubine."
-RESULT_TYPE.INSUFFICIENT_ITEM,"Nicht genug Material."
-RESULT_TYPE.GRADE_DATA_NOT_FOUND,"Kann Ranginformation nicht finden."
-RESULT_TYPE.CANNOT_UPGRADE_YET,"Kann noch nicht verstärkt werden."
-RESULT_TYPE.REQ_GOLD_NOT_FOUND,"Kann angeforderte Goldinformation nicht finden."
-RESULT_TYPE.REQ_ITEM_DATA_NOT_FOUND,"Kann angeforderte Materialinformation nicht finden."
+BASE_RESULT_TYPE.ACCOUNT_ERROR,Konto fehlerhaft.
+BASE_RESULT_TYPE.UNHANDLED,Anfrage konnte nicht bearbeitet werden.
+BASE_RESULT_TYPE.EXCEPTION,Ein interner Fehler ist aufgetreten.
+BASE_RESULT_TYPE.HTTP_ERROR,Während der Web-Anfrage ist ein Fehler aufgetreten.
+BASE_RESULT_TYPE.PARSING_ERROR,Satzanalyse fehlgeschlagen.
+RESULT_TYPE.SUCCESS,Deine Anfrage wurde erfolgreich weitergeleitet. Dein Netzwerk ist instabil – bitte versuche es später erneut.
+RESULT_TYPE.FAIL,Deine Anfrage konnte aufgrund eines Fehlers in der Netzwerkverbindung nicht weitergeleitet werden. Bitte versuche es später erneut.
+RESULT_TYPE.LEVEL_DATA_NOT_FOUND,Kann Level-Info nicht finden.
+RESULT_TYPE.CANNOT_UPGRADE_MORE,Kann nicht weiter verstärkt werden.
+RESULT_TYPE.NOT_ENOUGH_GOLD,Nicht genug Gold.
+RESULT_TYPE.NOT_ENOUGH_GEM,Nicht genug Rubine.
+RESULT_TYPE.INSUFFICIENT_ITEM,Nicht genug Material.
+RESULT_TYPE.GRADE_DATA_NOT_FOUND,Kann Ranginformation nicht finden.
+RESULT_TYPE.CANNOT_UPGRADE_YET,Kann noch nicht verstärkt werden.
+RESULT_TYPE.REQ_GOLD_NOT_FOUND,Kann angeforderte Goldinformation nicht finden.
+RESULT_TYPE.REQ_ITEM_DATA_NOT_FOUND,Kann angeforderte Materialinformation nicht finden.
 RESULT_TYPE.SESSION_ERROR,"Du wurdest vom Server abgemeldet, weil du zu lange inaktiv warst. Bitte starte das Spiel neu."
-RESULT_TYPE.ACCOUNT_ERROR,"Konto fehlerhaft."
-RESULT_TYPE.UNHANDLED,"Wurde nicht bearbeitet."
-RESULT_TYPE.HTTP_ERROR,"Web-Anfrage fehlgeschlagen."
-RESULT_TYPE.PARSING_ERROR,"Ungültige Antwort."
-RESULT_TYPE.HERO_NOT_FOUND,"Held existiert nicht."
-RESULT_TYPE.EQUIP_DATA_NOT_FOUND,"Diese Ausr.-Info existiert nicht."
-RESULT_TYPE.EQUIP_NOT_OWNED,"Diese Ausrüstung ist nicht in deinem Besitz."
-RESULT_TYPE.EQUIP_NOT_FOUND,"Diese Ausrüstung existiert nicht."
-RESULT_TYPE.EQUIPPED,"Diese Ausrüstung ist bereits angelegt."
-RESULT_TYPE.EQUIP_CODE_NOT_FOUND,"Kann Ausrüstungs-Code nicht finden."
+RESULT_TYPE.ACCOUNT_ERROR,Konto fehlerhaft.
+RESULT_TYPE.UNHANDLED,Wurde nicht bearbeitet.
+RESULT_TYPE.HTTP_ERROR,Web-Anfrage fehlgeschlagen.
+RESULT_TYPE.PARSING_ERROR,Ungültige Antwort.
+RESULT_TYPE.HERO_NOT_FOUND,Du hast diesen Helden nicht.
+RESULT_TYPE.EQUIP_DATA_NOT_FOUND,Diese Ausr.-Info existiert nicht.
+RESULT_TYPE.EQUIP_NOT_OWNED,Diese Ausrüstung ist nicht in deinem Besitz.
+RESULT_TYPE.EQUIP_NOT_FOUND,Diese Ausrüstung existiert nicht.
+RESULT_TYPE.EQUIPPED,Diese Ausrüstung ist bereits angelegt.
+RESULT_TYPE.EQUIP_CODE_NOT_FOUND,Kann Ausrüstungs-Code nicht finden.
 RESULT_TYPE.MAX_JOIN_REQUEST,"Zu viele Beitrittsgesuche.\nBitte widerrufe einige Gesuche, bevor du fortfährst."
-RESULT_TYPE.MAX_GUILD_MAX_JOIN_REQUEST,"Diese Gilde hat bereits zu viele Beitrittsgesuche."
-RESULT_TYPE.MATERIAL_EQUIP_ITEM_PRICE_ERROR,"Der benötigte Preis ist fehlerhaft."
-RESULT_TYPE.NO_UPGRADABLE_MATERIAL_EQUIP_ITEM,"Ungültige Ausrüstungsmaterialien."
-RESULT_TYPE.NOT_OWNED_MATERIAL_EQUIP_ITEM,"Du hast dieses Ausr.-Material nicht."
-RESULT_TYPE.NOT_ENOUGH_TEAM_LEVEL,"Team-Level zu niedrig."
-RESULT_TYPE.MAX_MEMBER,"Maximale Gildenmitglieder-Anzahl erreicht."
-RESULT_TYPE.INVALID_RANK,"Ungültige Gildenmitglied-Rechte."
-RESULT_TYPE.GUILD_JOIN_NOT_REQUESTED,"Kann Information zum Beitrittsgesuch nicht finden."
-RESULT_TYPE.NAME_DUPLICATED,"Name existiert bereits."
-RESULT_TYPE.GUILD_MEMBER_EXIST,"Es sind noch Gildenmitglieder vorhanden."
-RESULT_TYPE.ALREADY_REGISTERED_MERCENARY,"Dieser Held ist bereits als Söldner registriert."
-RESULT_TYPE.MAX_MERCENARY,"Zu viele Helden als Söldner registriert."
-RESULT_TYPE.NOT_REGISTERED_MERCENARY,"Dieser Söldner ist nicht registriert."
-RESULT_TYPE.ALREADY_JOINED,"Gehört bereits einer Gilde an."
-RESULT_TYPE.LOG_NOT_FOUND,"Diese Schlachtaufzeichnung existiert nicht."
-RESULT_TYPE.INVALID_PLUNDER_RESULT,"Ungültige Schlachtaufzeichnung."
-RESULT_TYPE.ALREADY_CHASED,"Wurde bereits gejagt."
-RESULT_TYPE.INVALID_CHAPTER_INDEX,"Ungültiger Missionsort."
-RESULT_TYPE.COLLECT_NODE_NOT_FOUND,"Kann Missionsort nicht finden."
-RESULT_TYPE.COLLECT_ENDED,"Kollektion ist bereits vollständig."
-RESULT_TYPE.DEAD_HERO_EXIST,"Gefallene Helden können nicht geplündert werden."
-RESULT_TYPE.USER_CHASE_INFO_NOT_FOUND,"Kann Jagd-Information nicht finden."
-RESULT_TYPE.COLLECT_INFO_NOT_FOUND,"Kann Expeditionsmissions-Info nicht finden."
-RESULT_TYPE.INVALID_TEAM_SLOT,"Ungültige Gruppe für Expeditions-Mission."
-RESULT_TYPE.ALREADY_HARVESTED,"Mission bereits abgeschlossen."
-RESULT_TYPE.MAX_DAILY_QUICK_COMPLETE_COLLECT,"Maximalanzahl für 'Sofort Beenden' erreicht."
-RESULT_TYPE.COLLECT_NOT_ENDED,"Die Mission ist noch nicht abgeschlossen."
-RESULT_TYPE.RECORD_NOT_FOUND,"Die Wiederholung existiert nicht."
-RESULT_TYPE.ALREADY_DEFEND_REWARDED,"Du hast bereits eine Belohnung für die Plünderungsverteid. erhalten."
-RESULT_TYPE.MAX_PLUNDER_DEFEND_REWARD,"Tageslimit der Belohnungen für Plünderung-Verteidigungen erreicht."
-RESULT_TYPE.CHAPTER_NOT_COMPLETED,"Dieses Kapitel ist noch nicht abgeschlossen."
-RESULT_TYPE.VIP_LEVEL_DATA_NOT_FOUND,"Kann VIP-Level Daten nicht finden."
-RESULT_TYPE.MAX_RES_COLLECT_TEAM,"Alle Teams derzeit auf Missionen."
-RESULT_TYPE.NOW_COLLECTING,"Dieses Team ist derzeit auf einer Mission."
-RESULT_TYPE.INVALID_HERO_INDEX,"Dieser Held ist entweder auf einer Mission oder existiert nicht."
-RESULT_TYPE.CHAPTER_NOT_FOUND,"Das Kapitel existiert nicht."
-RESULT_TYPE.DUNGEON_NOT_FOUND,"Das Dungeon existiert nicht."
-RESULT_TYPE.EMPTY_HERO_INDICES,"Dieser Held ist leer."
-RESULT_TYPE.CANNOT_PLAY_DUNGEON,"Dungeon kann nicht gespielt werden."
-RESULT_TYPE.NOT_ENOUGH_STAMINA,"Ausdauer unzureichend."
-RESULT_TYPE.NOT_ENOUGH_PLAY_KEY,"Ungenügend Schlüssel"
-RESULT_TYPE.INVALID_DIFF,"Ungültige Schwierigkeitsstufe."
-RESULT_TYPE.VERIFY_FAILED,"Verifizierung fehlgeschlagen."
-RESULT_TYPE.CHECK_FAILED,"Überprüfung fehlgeschlagen."
-RESULT_TYPE.USER_CAMPAIGN_INFO_NOT_FOUND,"Aufgrund eines Netzwerkfehlers kommt es zu einer Server-Verzögerung beim Verarbeiten von Benutzerinformationen. Versuche es später erneut."
-RESULT_TYPE.WRONG_CHAPTER_INDEX,"Diese Funktion ist nicht verfügbar."
-RESULT_TYPE.WRONG_DUNGEON_INDEX,"Diese Funktion ist nicht verfügbar."
-RESULT_TYPE.INVALID_STAR,"Ungültige Sternen-Info."
-RESULT_TYPE.ENCHANT_RESULT_NOT_FOUND,"Neubewertungsinfo existiert nicht."
-RESULT_TYPE.EQUIP_ITEM_SLOT_INDEX_MISMATCH,"Ziel der Neubewertung ist anders."
-RESULT_TYPE.OPTION_SLOT_INDEX_MISMATCH,"Das Optionsfach zur Neubewertung ist anders."
-RESULT_TYPE.OPTION_INDEX_MISMATCH,"Das Optionsergebnis der Neubewertung ist anders."
-RESULT_TYPE.PREV_OPTION_INDEX_MISMATCH,"Die überschreibende Option ist anders als die des ursprünglichen Versuchs."
-RESULT_TYPE.INVALID_OPTION_SLOT,"Ungültiges Optionsfach."
-RESULT_TYPE.RANDOM_OPTION_DATA_ERROR,"Ungültige Zufallsoptions-Info."
-RESULT_TYPE.NO_HERO,"Dieser Held existiert nicht."
-RESULT_TYPE.HERO_DATA_NOT_FOUND,"Diese Helden-Info existiert nicht."
-RESULT_TYPE.ALREADY_OTHER_HERO_EQUIPPED,"Das Item wird bereits von einem anderen Helden getragen."
-RESULT_TYPE.ITEM_DATA_NOT_FOUND,"Item-Info existiert nicht."
-RESULT_TYPE.EQUIP_ITEM_DATA_NOT_FOUND,"Ausrüstungs-Info existiert nicht."
-RESULT_TYPE.EQUIP_TAG_ERROR,"Ungültiger Ausr.-Anhänger."
-RESULT_TYPE.TOO_LOW_GRADE,"Rang zu niedrig."
-RESULT_TYPE.TOO_LOW_LEVEL,"Level zu niedrig."
-RESULT_TYPE.LOCKED_PART_INDEX,"Ausr.-Fach verschlossen."
-RESULT_TYPE.EQUIP_PART_ERROR,"Ausr.-Fach nicht benutzbar."
-RESULT_TYPE.REMOVE_FAILED,"Entfernen fehlgeschlagen."
-RESULT_TYPE.INVALID_HERO_PART_INDEX,"Ungültiges Ausr.-Fach."
-RESULT_TYPE.ALREADY_UNLOCKED,"Bereits freigeschaltet."
-RESULT_TYPE.UNLOCK_FAILED,"Freischaltung fehlgeschlagen."
-RESULT_TYPE.EQUIP_ITEM_NOT_FOUND,"Diese Ausr. existiert nicht."
-RESULT_TYPE.UNEQUIP_FAILED,"Entfernen d. Ausr. fehlgeschlagen."
-RESULT_TYPE.STAT_DATA_NOT_FOUND,"Werte-Info nicht vorhanden."
-RESULT_TYPE.EMPTY_MATERIAL_EQUIP_ITEM,"Material ist leer."
-RESULT_TYPE.INVALID_MATERIAL_EQUIP_ITEM,"Ungültige Material-Ausr."
-RESULT_TYPE.FRIEND_NOT_FOUND,"Spieler existiert nicht."
-RESULT_TYPE.REQUEST_MYSELF,"Anfrage kann nicht an sich selbst gesendet werden."
-RESULT_TYPE.CANNOT_SEARCH_MYSELF,"Du kannst nicht nach dir selbst suchen."
-RESULT_TYPE.GACHA_DATA_NOT_FOUND,"Gacha-Info existiert nicht."
-RESULT_TYPE.WRONG_GACHA_INDEX,"Ungültige Gacha-Nummer."
-RESULT_TYPE.WRONG_GACHA_COUNT,"Ungültige Gacha-Anzahl."
-RESULT_TYPE.NO_MERCENARIES,"Keine Söldner vorhanden."
-RESULT_TYPE.NO_GUILD,"Gilde existiert nicht."
-RESULT_TYPE.INVAILID_RANK,"Ungültiger Rang."
-RESULT_TYPE.GUILD_MAX_JOIN_REQUEST,"Anfrage-Limit für die Gilde erreicht."
-RESULT_TYPE.TRIAL_DUNGEON_DATA_NOT_FOUND,"Keine Infos über Dungeon der Prüfungen vorhanden."
-RESULT_TYPE.NOT_PLAYER_HERO,"Du besitzt diesen Helden nicht."
-RESULT_TYPE.ITEM_NOT_OWNED,"Du besitzt dieses Item nicht."
-RESULT_TYPE.ITEM_TYPE_MISMATCH,"Anderer Item-Typ."
-RESULT_TYPE.POTION_DATA_NOT_FOUND,"Portions-Info nicht vorhanden."
-RESULT_TYPE.INVALID_ACTION,"Ungültige Aktion."
-RESULT_TYPE.RECIPE_DATA_NOT_FOUND,"Rezept-Info nicht vorhanden."
-RESULT_TYPE.MATERIAL_DATA_NOT_FOUND,"Material-Info nicht vorhanden."
-RESULT_TYPE.NOT_ENOUGH_MATERIAL,"Nicht genug Material."
-RESULT_TYPE.MATCH_RESULT_NOT_FOUND,"Match-Ergebnis nicht vorhanden."
-RESULT_TYPE.MATCH_UID_MISMATCH,"Match-Nummer stimmt nicht überein."
-RESULT_TYPE.MATCHING_DISABLED,"Berechnen des Kampfergebnisses."
-RESULT_TYPE.NOT_ENOUGH_SWORD,"Nicht genug Schwerter."
-RESULT_TYPE.MATCH_USER_NOT_FOUND,"Infos über Teilnehmer nicht vorhanden."
-RESULT_TYPE.NPC_INFO_NOT_FOUND,"NPC-Info nicht vorhanden."
-RESULT_TYPE.WAIT_MORE,"Aufgrund eines Netzwerkfehlers kommt es zu einer Server-Verzögerung beim Verarbeiten von Kampfinformationen. Bitte tippe erneut auf OK."
-RESULT_TYPE.NOT_ENOUGH_CHEESE,"Nicht genug Käse."
-RESULT_TYPE.USER_PLUNDER_INFO_NOT_FOUND,"Plünderungs-Info nicht vorhanden."
-RESULT_TYPE.COLLECT_NODE_DATA_NOT_FOUND,"Sammelknoten-Info nicht vorhanden."
-RESULT_TYPE.PLAYER_NOT_FOUND,"Spieler existiert nicht."
-RESULT_TYPE.V_I_P_LEVEL_DATA_NOT_FOUND,"VIP-Level Info nicht vorhanden."
-RESULT_TYPE.SHOP_DATA_NOT_FOUND,"Shop-Info nicht vorhanden."
-RESULT_TYPE.SHOP_ITEM_DATA_NOT_FOUND,"Shop-Item Info nicht vorhanden."
-RESULT_TYPE.PLAYER_SHOP_ITEM_NOT_FOUND,"Shop-Item Info des Spielers nicht vorhanden."
-RESULT_TYPE.SOLD_OUT,"Bereits verkauft."
-RESULT_TYPE.INVALID_COST,"Ungültiger Preis."
-RESULT_TYPE.NO_ITEM_DATA,"Item-Info existiert nicht."
-RESULT_TYPE.NOT_OWNED,"Nicht in Besitz."
-RESULT_TYPE.INVALID_ITEM_COUNT,"Ungültige Itenanzahl."
-RESULT_TYPE.NOT_ENOUGH_STONE,"Ungenügend Verstärkungskristalle."
-RESULT_TYPE.HERO_LEVEL_LIMIT,"Hero-Level zu niedrig."
-RESULT_TYPE.SKILL_LEVEL_NOT_FOUND,"Skilllevel-Info nicht vorhanden."
-RESULT_TYPE.SKILL_PRICE_NOT_FOUND,"Skillpreis-Info nicht vorhanden."
-RESULT_TYPE.TEAM_LEVEL_LIMIT,"Kann Heldenlevel nicht übersteigen."
-RESULT_TYPE.SKILL_NOT_FOUND,"Skill existiert nicht."
-RESULT_TYPE.REQ_GOLD_ERROR,"Benötigtes Gold fehlerhaft."
-RESULT_TYPE.STAR_DATA_NOT_FOUND,"Sternen-Info fehlerhaft."
-RESULT_TYPE.NO_TARGET_ACCOUNT_ID,"Die Nr. des Zielspielers existiert nicht."
-RESULT_TYPE.VERSION_ERROR,"Ungültige Version."
-RESULT_TYPE.MATCH_NOT_FOUND,"Match nicht vorhanden."
-RESULT_TYPE.EQUIP_ITEM_FULL,"Ausr. ist voll."
-RESULT_TYPE.INVALID_GUILD_LEVEL,"Ungültiges Gildenlevel."
-RESULT_TYPE.ALREADY_JOIN_REQUESTED,"Beitrittsgesuch bereits gesendet..."
-RESULT_TYPE.MIN_REGISTER_TIME_NOT_ELAPSED,"Min. Registrationszeit noch nicht abgelaufen."
-RESULT_TYPE.RESULT_ITEM_DATA_NOT_FOUND,"Ergebnis-Item Info nicht vorhanden."
-RESULT_TYPE.RESULT_EQUIP_ITEM_DATA_NOT_FOUND,"Ergebnis-Ausr. Info nicht vorhanden."
-RESULT_TYPE.MISSION_NOT_COMPLETED,"Mission noch nicht abgeschlossen."
-RESULT_TYPE.TYPE_ERROR,"Ungültiger Typ."
-RESULT_TYPE.INFO_ERROR,"Ungültige Info."
-RESULT_TYPE.ACCOUNT_IDS_ERROR,"Ungültige Kontonummer."
-RESULT_TYPE.NOT_ENOUGH_PVP_COIN,"Ungenügende PVP-Münzen."
-RESULT_TYPE.EMPTY_NICK,"Name nicht eingegeben."
-RESULT_TYPE.INVALID_NICK,"Dieser Name ist unzulässig."
-RESULT_TYPE.ALREADY_EXIST,"Name existiert bereits."
-RESULT_TYPE.TOO_SHORT_NICK,"Name ist zu kurz."
-RESULT_TYPE.TOO_LONG_NICK,"Name ist zu lang."
-RESULT_TYPE.CENSORED_WORD,"Fluchwort inkludiert."
-RESULT_TYPE.NOT_ENOUGH_CHALLENGE_CHANCE,"Keine Herausforderungen mehr möglich."
-RESULT_TYPE.NOT_ENOUGH_DUNGEON_KEY,"Ungenügende Dungeon-Schlüssel."
-RESULT_TYPE.NOT_OPENED_DUNGEON,"Dungeon ist nicht offen."
-RESULT_TYPE.REQ_GEM_ERROR,"Keine Rubine benötigt."
-RESULT_TYPE.WAITER_NOT_FOUND,"Kann die erwartete Info nicht finden."
-RESULT_TYPE.MISSION_NOT_CLEARED,"Mission ist noch nicht abgeschlossen."
-RESULT_TYPE.DUNGEON_DATA_NOT_FOUND,"Dungeon-Info nicht vorhanden."
-RESULT_TYPE.NO_AVAILABLE_SERVER,"Keine verfügbaren Server vorhanden."
-RESULT_TYPE.UNEQUIP_OLD_FAILED,"Kann derz. Ausr. nicht ablegen."
-RESULT_TYPE.EQUIP_FAILED,"Ausr. anlegen ist fehlgeschlagen."
-RESULT_TYPE.NO_SHOP_DATA,"Shop-Info nicht vorhanden."
-BASE_RESULT_TYPE.TIMEOUT,"Keine Antwort vom Server."
-BASE_RESULT_TYPE.SEQUENCE_ERROR,"Aufgrund eines Netzwerkfehlers kommt es zu einer Server-Verzögerung beim Verarbeiten von Benutzerinformationen. Versuche es später erneut."
-BASE_RESULT_TYPE.INTERNAL_ERROR,"Interner Fehler."
-BASE_RESULT_TYPE.EMPTY_HOST,"Host existiert nicht."
-RESULT_TYPE.ACHIEVEMENT_NOT_CLEARED,"Erfolg ist noch nicht abgeschlossen."
-RESULT_TYPE.INVALID_STEP,"Du hast diese Belohnung bereits erhalten."
-RESULT_TYPE.NO_PRIVILEGE,"Du hast nicht die benötigten Rechte."
-RESULT_TYPE.INVALID_HOST,"Falscher Host."
-RESULT_TYPE.MASTER_NOT_FOUND,"Raumleiter nicht vorhanden."
-RESULT_TYPE.MULTIPLAY_INFO_NOT_FOUND,"Gruppenspiel-Info nicht vorhanden."
-RESULT_TYPE.WRONG_MEMBER,"Ungültiges Mitglied."
-RESULT_TYPE.ALREADY_REWARD_CALCULATED,"Belohnung wurde bereits entschieden."
-RESULT_TYPE.LINKED_DUNGEON_NOT_FOUND,"Verbundenes Dungeon nicht vorhanden."
-RESULT_TYPE.ALREADY_COMPLETED,"Bereits abgeschlossen."
-RESULT_TYPE.DUNGEON_TYPE_ERROR,"Falscher Dungeon-Typ."
-RESULT_TYPE.CANNOT_VISIT_DUNGEON,"Kann dieses Dungeon nicht betreten."
-RESULT_TYPE.INVALID_TRIAL_HERO,"Falscher Held für das Dungeon der Prüfungen."
-RESULT_TYPE.WORLD_MAP_EVENT_NOT_FOUND,"Weltkarten-Event nicht vorhanden."
-RESULT_TYPE.EVENT_DUNGEON_INDEX_MISMATCH,"Ungültige Event-Dungeon-Nummer."
-RESULT_TYPE.NOT_ENOUGH_MULTIPLAY_MEMBERS,"Nicht genug Mitglieder."
-RESULT_TYPE.NOT_CALCULATED,"Entscheidung noch nicht getroffen."
-RESULT_TYPE.ALREADY_REWARDED,"Belohnung wurde bereits ausgegeben."
-RESULT_TYPE.NOT_SAME_DEVELOPER_PAYLOAD,"Zahlungsinfo (DeveloperPayload) stimmt nicht überein. Zahlung abgebrochen."
-RESULT_TYPE.NOT_SAME_PRODUCT_ID,"Zahlungsinfo (ProductId) stimmt nicht überein. Zahlung abgebrochen."
-RESULT_TYPE.WRONG_PURCHASE_STATUS,"Zahlungsinfo (PurchaseStatus) ist falsch. Zahlung abgebrochen."
-RESULT_TYPE.VERIFICATION_FAILED,"Zahlung konnte nicht bestätigt werden. Zahlung abgebrochen."
-RESULT_TYPE.INVALID_CONSUMPTION_STATE,"Ungültige Zahlungsinfo (ConsumptionState). Zahlung abgebrochen."
-RESULT_TYPE.NOT_MONTHLY_ENDED,"Du kannst das Monatspaket noch nicht kaufen."
-RESULT_TYPE.HAVE_PLAY_CHANCE,"Kann aufgrund verbl. Chancen nicht gekauft werden."
-RESULT_TYPE.INVALID_DUNGEON_INDEX,"Ungültige Dungeonnummer."
-RESULT_TYPE.CANNOT_AWAKEN_YET,"Erweckung noch nicht möglich."
-RESULT_TYPE.CANNOT_AWAKEN_MORE,"Weitere Erweckung nichg möglich."
-RESULT_TYPE.RUNE_ITEM_NOT_OWNED,"Du besitzt dieses Runenitem nicht."
-RESULT_TYPE.SAME_RUNE_EQUIPPED,"Die selbe Rune ist bereits angelegt."
-RESULT_TYPE.ALEADY_OCCUPIED,"Bereits zugewiesen."
-RESULT_TYPE.PRESERVE_PRICE_ERROR,"Ungültiger Erhaltungspreis."
-RESULT_TYPE.RUNE_ITEM_DATA_NOT_FOUND,"Runen-Iteminfo nicht vorhanden."
-RESULT_TYPE.RUNE_DATA_NOT_FOUND,"Runen-Info nicht vorhanden."
-RESULT_TYPE.PART_TYPE_ERROR,"Ungültige Teile."
-RESULT_TYPE.NO_EQUIPPED_RUNE,"Diese Rune ist nicht angelegt."
-RESULT_TYPE.HERO_ALREADY_EXIST,"Held bereits vorhanden."
-RESULT_TYPE.SKILL_NOT_LEARNED,"Du hast diesen Skill nicht erlernt."
-RESULT_TYPE.INVALID_SKILL_EXTEND,"Ungültige Skill-Erweiterung."
-RESULT_TYPE.NOT_ENOUGH_ITEM,"Unzureichende Items."
-RESULT_TYPE.BOOK_ITEM_DATA_NOT_FOUND,"Buch-Iteminfo nicht vorhanden."
-RESULT_TYPE.SKILL_ALREADY_LEARNED,"Skill bereits erlernt."
-RESULT_TYPE.MAX_PURIFIED,"Max. Reinigung erreicht."
-RESULT_TYPE.MAX_HERO_STAR,"Held hat max. Erweckung erreicht."
-RESULT_TYPE.NO_AWAKE_MATERIAL,"Kein Erweckungs-Material."
-RESULT_TYPE.PURIFY_DATA_NOT_FOUND,"Keine Reinigungs-Daten verfügbar."
-RESULT_TYPE.INVALID_PURIFY_DATA,"Ungültige Reinigungs-Daten."
-RESULT_TYPE.TRANSCEND_SKILL_LEVEL_DATA_NOT_FOUND,"Skill-Trasnzendenz-Daten nicht vorhanden."
-RESULT_TYPE.MAX_TRANSCEND_SKILL_LEVEL,"Skill hat bereits Überschreitungslimit erreicht."
-RESULT_TYPE.TRANSCEND_SKILL_LEVEL_PRICE_DATA_NOT_FOUND,"Preis für Skill-Überschreitung nicht vorhanden."
-RESULT_TYPE.NOT_MAX_HERO_STAR,"Held hat max. Erweckungsstufe noch nicht erreicht."
-RESULT_TYPE.INVALID_TRANSCEND_COUNT,"Ungültige Überschreitungsanzahl."
-RESULT_TYPE.GRADE_TOO_LOW,"Rang zu niedrig."
-RESULT_TYPE.CREATURE_DATA_NOT_FOUND,"Heldeninfo nicht vorhanden."
-RESULT_TYPE.UPGRADE_BOOK_DATA_NOT_FOUND,"Verstärkungs-Buchinfo nicht vorhanden."
-RESULT_TYPE.MATCH_PLAYER_NOT_FOUND,"Gegner existiert nicht."
-RESULT_TYPE.INVALID_SHOP_DATA,"Ungültige Shop-Info."
-RESULT_TYPE.NOT_GUILD_MEMBER,"Kein Gildenmitglied."
-RESULT_TYPE.NOT_ENOUGH_GUILD_POINT,"Gildenpunkte unzureichend."
-RESULT_TYPE.INVALID_SHOP_ITEM_LIST_INDEX,"Ungültige Shopnummer."
-RESULT_TYPE.INVALID_ITEM_TYPE,"Ungültiger Item-Typ."
-RESULT_TYPE.HERO_SHOP_SLOT_EXCEEDED,"Heldenshop-Fach Limits überschritten."
-RESULT_TYPE.INVALID_HERO_SHOP_SLOT,"Ungültiges Heldenshop-Fach."
-RESULT_TYPE.NO_SHOP_ITEM_INFO,"Shopitem-Info nicht vorhanden."
-RESULT_TYPE.NO_SHOP_ITEM_DATA,"Shopitem-Daten nicht vorhanden."
-RESULT_TYPE.NO_SELL_COUNT,"Verkaufsmenge nicht vorhanden."
-RESULT_TYPE.ALREADY_OPENED_CLASS,"Klasse bereits freigeschaltet."
-RESULT_TYPE.NOT_OPENED_CLASS_DUNGEON,"Dungeon für diese Klasse ist nicht offen."
-RESULT_TYPE.ALREADY_GET_CHALLENGE,"Bereits unternommen."
-RESULT_TYPE.ALREADY_HAVE_MATERIAL,"Material bereits im Besitz."
-RESULT_TYPE.INVALID_HERO_CLASS,"Falsche Klasse."
-RESULT_TYPE.TUTORIAL_DATA_NOT_FOUND,"Tutorial-Daten nicht vorhanden."
-RESULT_TYPE.RETRY,"Wiederholen"
-RESULT_TYPE.NOT_IMPLEMENTED_METHOD,"Ungültige Methode."
-RESULT_TYPE.INVALID_QUEST_INDEX,"Ungültige Questnummer."
-RESULT_TYPE.QUEST_INFO_NOT_FOUND,"Kann Quest-Info nicht finden."
-RESULT_TYPE.QUEST_NOT_CLEARED,"Quest ist noch nicht abgeschlossen."
-RESULT_TYPE.NOT_COMPLETED,"Noch nicht abgeschlossen."
-RESULT_TYPE.EMPTY_DUNGEON_INDICES,"Dungeonnummer leer."
-RESULT_TYPE.EVENT_INDEX_COUNT_MISMATCH,"Event-Nummer stimmt nicht überein."
-RESULT_TYPE.MAX_DAILY_COUNT,"Tageslimit überschritten."
-RESULT_TYPE.ALREADY_VISITED,"Bereits besucht."
-RESULT_TYPE.INVALID_MATERIAL_ITEM,"Ungültige Materialitems."
-RESULT_TYPE.INVALID_REQ_ITEM_EXP_DATA,"Ungültige EP benötigter Items."
-RESULT_TYPE.SAME_BOOSTER_APPLIED,"Derselbe Booster-Effekt bereits aktiv."
-RESULT_TYPE.PACKAGE_DATA_NOT_FOUND,"Keine Paketprodukt-Daten."
-RESULT_TYPE.INVALID_ITEM_INDEX,"Ungültiger Item Index."
-RESULT_TYPE.INVALID_ITEM_DATA,"Ungültige Item-Daten."
-RESULT_TYPE.INVALID_ACCOUNT_ID,"Ungültige Kontonummer."
-RESULT_TYPE.REWARD_TIME_ENDED,"Belohnungszeit abgelaufen."
-RESULT_TYPE.CHECKING_INTEGRITY,"Das Kampfergebnis wird übertragen. Bitte versuche es später erneut."
-RESULT_TYPE.BATTLE_SERVER_NOT_FOUND,"Das Netzwerk ist im Moment nicht stabil. Bitte wechsle an einen Ort mit besserer Signalqualität und verbinde dich erneut mit dem Spiel."
-RESULT_TYPE.TOWER_DATA_NOT_FOUND,"Turm-Info nicht vorhanden."
-RESULT_TYPE.TOWER_FLOOR_DATA_NOT_FOUND,"Etagen-Info nicht vorhanden."
-RESULT_TYPE.CANNOT_ENTER_TOWER_FLOOR,"Kann Etage nicht betreten."
-RESULT_TYPE.TOWER_CHAPTER_MISMATCH,"Turm-Kapitel stimmt nicht überein."
-RESULT_TYPE.TOWER_DUNGEON_MISMATCH,"Turm-Dungeon stimmt nicht überein."
-RESULT_TYPE.TOWER_TEAM_LEVEL_LIMIT,"Unzureichendes Team-Level - Kann Etage nicht betreten."
-RESULT_TYPE.TOWER_REQ_DUNGEON_NOT_COMPLETED,"Benötigte Dungeons vor dem Turmzugang nicht abgeschlossen."
-RESULT_TYPE.NOT_ENOUGH_TOWER_COST,"Nicht genug Währung für Turmzugang."
-RESULT_TYPE.DIED_HERO_CACHE,"Dieser Held ist gefallen."
-RESULT_TYPE.MISSING_BATTLE_LOG,"Kampfaufzeichnung nicht eingetragen."
-RESULT_TYPE.MISSING_CREATURE_INFO,"Helden-Info nicht eingegeben."
-RESULT_TYPE.REQUEST_INTEGRITY_CHECK_ERROR,"Fehler während der Integrität-Überprüfungsanforderung."
-RESULT_TYPE.MISSING_TOWER_CREATURE_INFO,"Turm-Heldeninfo nicht eingegeben."
-RESULT_TYPE.PARSING_TOWER_CREATURE_INFO_ERROR,"Kann Turm-Heldeninfo nicht importieren."
+RESULT_TYPE.MAX_GUILD_MAX_JOIN_REQUEST,Diese Gilde hat bereits zu viele Beitrittsgesuche.
+RESULT_TYPE.MATERIAL_EQUIP_ITEM_PRICE_ERROR,Der benötigte Preis ist fehlerhaft.
+RESULT_TYPE.NO_UPGRADABLE_MATERIAL_EQUIP_ITEM,Ungültige Ausrüstungsmaterialien.
+RESULT_TYPE.NOT_OWNED_MATERIAL_EQUIP_ITEM,Du hast dieses Ausr.-Material nicht.
+RESULT_TYPE.NOT_ENOUGH_TEAM_LEVEL,Team-Level zu niedrig.
+RESULT_TYPE.MAX_MEMBER,Maximale Gildenmitglieder-Anzahl erreicht.
+RESULT_TYPE.INVALID_RANK,Ungültige Gildenmitglied-Rechte.
+RESULT_TYPE.GUILD_JOIN_NOT_REQUESTED,Kann Information zum Beitrittsgesuch nicht finden.
+RESULT_TYPE.NAME_DUPLICATED,Name existiert bereits.
+RESULT_TYPE.GUILD_MEMBER_EXIST,Es sind noch Gildenmitglieder vorhanden.
+RESULT_TYPE.ALREADY_REGISTERED_MERCENARY,Dieser Held ist bereits als Söldner registriert.
+RESULT_TYPE.MAX_MERCENARY,Zu viele Helden als Söldner registriert.
+RESULT_TYPE.NOT_REGISTERED_MERCENARY,Dieser Söldner ist nicht registriert.
+RESULT_TYPE.ALREADY_JOINED,Gehört bereits einer Gilde an.
+RESULT_TYPE.LOG_NOT_FOUND,Diese Schlachtaufzeichnung existiert nicht.
+RESULT_TYPE.INVALID_PLUNDER_RESULT,Ungültige Schlachtaufzeichnung.
+RESULT_TYPE.ALREADY_CHASED,Wurde bereits gejagt.
+RESULT_TYPE.INVALID_CHAPTER_INDEX,Ungültiger Missionsort.
+RESULT_TYPE.COLLECT_NODE_NOT_FOUND,Kann Missionsort nicht finden.
+RESULT_TYPE.COLLECT_ENDED,Kollektion ist bereits vollständig.
+RESULT_TYPE.DEAD_HERO_EXIST,Gefallene Helden können nicht geplündert werden.
+RESULT_TYPE.USER_CHASE_INFO_NOT_FOUND,Kann Jagd-Information nicht finden.
+RESULT_TYPE.COLLECT_INFO_NOT_FOUND,Kann Expeditionsmissions-Info nicht finden.
+RESULT_TYPE.INVALID_TEAM_SLOT,Ungültige Gruppe für Expeditions-Mission.
+RESULT_TYPE.ALREADY_HARVESTED,Mission bereits abgeschlossen.
+RESULT_TYPE.MAX_DAILY_QUICK_COMPLETE_COLLECT,Maximalanzahl für 'Sofort Beenden' erreicht.
+RESULT_TYPE.COLLECT_NOT_ENDED,Die Mission ist noch nicht abgeschlossen.
+RESULT_TYPE.RECORD_NOT_FOUND,Die Wiederholung existiert nicht.
+RESULT_TYPE.ALREADY_DEFEND_REWARDED,Du hast bereits eine Belohnung für die Plünderungsverteid. erhalten.
+RESULT_TYPE.MAX_PLUNDER_DEFEND_REWARD,Tageslimit der Belohnungen für Plünderung-Verteidigungen erreicht.
+RESULT_TYPE.CHAPTER_NOT_COMPLETED,Dieses Kapitel ist noch nicht abgeschlossen.
+RESULT_TYPE.VIP_LEVEL_DATA_NOT_FOUND,Kann VIP-Level Daten nicht finden.
+RESULT_TYPE.MAX_RES_COLLECT_TEAM,Alle Teams derzeit auf Missionen.
+RESULT_TYPE.NOW_COLLECTING,Dieses Team ist derzeit auf einer Mission.
+RESULT_TYPE.INVALID_HERO_INDEX,Dieser Held ist entweder auf einer Mission oder existiert nicht.
+RESULT_TYPE.CHAPTER_NOT_FOUND,Das Kapitel existiert nicht.
+RESULT_TYPE.DUNGEON_NOT_FOUND,Das Dungeon existiert nicht.
+RESULT_TYPE.EMPTY_HERO_INDICES,Dieser Held ist leer.
+RESULT_TYPE.CANNOT_PLAY_DUNGEON,Dungeon kann nicht gespielt werden.
+RESULT_TYPE.NOT_ENOUGH_STAMINA,Ausdauer unzureichend.
+RESULT_TYPE.NOT_ENOUGH_PLAY_KEY,Ungenügend Schlüssel
+RESULT_TYPE.INVALID_DIFF,Ungültige Schwierigkeitsstufe.
+RESULT_TYPE.VERIFY_FAILED,Verifizierung fehlgeschlagen.
+RESULT_TYPE.CHECK_FAILED,Überprüfung fehlgeschlagen.
+RESULT_TYPE.USER_CAMPAIGN_INFO_NOT_FOUND,Aufgrund eines Netzwerkfehlers kommt es zu einer Server-Verzögerung beim Verarbeiten von Benutzerinformationen. Versuche es später erneut.
+RESULT_TYPE.WRONG_CHAPTER_INDEX,Diese Funktion ist nicht verfügbar.
+RESULT_TYPE.WRONG_DUNGEON_INDEX,Diese Funktion ist nicht verfügbar.
+RESULT_TYPE.INVALID_STAR,Ungültige Sternen-Info.
+RESULT_TYPE.ENCHANT_RESULT_NOT_FOUND,Neubewertungsinfo existiert nicht.
+RESULT_TYPE.EQUIP_ITEM_SLOT_INDEX_MISMATCH,Ziel der Neubewertung ist anders.
+RESULT_TYPE.OPTION_SLOT_INDEX_MISMATCH,Das Optionsfach zur Neubewertung ist anders.
+RESULT_TYPE.OPTION_INDEX_MISMATCH,Das Optionsergebnis der Neubewertung ist anders.
+RESULT_TYPE.PREV_OPTION_INDEX_MISMATCH,Die überschreibende Option ist anders als die des ursprünglichen Versuchs.
+RESULT_TYPE.INVALID_OPTION_SLOT,Ungültiges Optionsfach.
+RESULT_TYPE.RANDOM_OPTION_DATA_ERROR,Ungültige Zufallsoptions-Info.
+RESULT_TYPE.NO_HERO,Dieser Held existiert nicht.
+RESULT_TYPE.HERO_DATA_NOT_FOUND,Diese Helden-Info existiert nicht.
+RESULT_TYPE.ALREADY_OTHER_HERO_EQUIPPED,Die Ausrüstung wird bereits von einem anderen Helden getragen.
+RESULT_TYPE.ITEM_DATA_NOT_FOUND,Gegenstand-Info existiert nicht.
+RESULT_TYPE.EQUIP_ITEM_DATA_NOT_FOUND,Ausrüstungs-Info existiert nicht.
+RESULT_TYPE.EQUIP_TAG_ERROR,Ungültiger Ausr.-Anhänger.
+RESULT_TYPE.TOO_LOW_GRADE,Rang zu niedrig.
+RESULT_TYPE.TOO_LOW_LEVEL,Level zu niedrig.
+RESULT_TYPE.LOCKED_PART_INDEX,Ausr.-Fach verschlossen.
+RESULT_TYPE.EQUIP_PART_ERROR,Ausr.-Fach nicht benutzbar.
+RESULT_TYPE.REMOVE_FAILED,Entfernen fehlgeschlagen.
+RESULT_TYPE.INVALID_HERO_PART_INDEX,Ungültiges Ausr.-Fach.
+RESULT_TYPE.ALREADY_UNLOCKED,Bereits freigeschaltet.
+RESULT_TYPE.UNLOCK_FAILED,Freischaltung fehlgeschlagen.
+RESULT_TYPE.EQUIP_ITEM_NOT_FOUND,Diese Ausr. existiert nicht.
+RESULT_TYPE.UNEQUIP_FAILED,Entfernen d. Ausr. fehlgeschlagen.
+RESULT_TYPE.STAT_DATA_NOT_FOUND,Werte-Info nicht vorhanden.
+RESULT_TYPE.EMPTY_MATERIAL_EQUIP_ITEM,Material ist leer.
+RESULT_TYPE.INVALID_MATERIAL_EQUIP_ITEM,Ungültige Material-Ausr.
+RESULT_TYPE.FRIEND_NOT_FOUND,Spieler existiert nicht.
+RESULT_TYPE.REQUEST_MYSELF,Anfrage kann nicht an sich selbst gesendet werden.
+RESULT_TYPE.CANNOT_SEARCH_MYSELF,Du kannst nicht nach dir selbst suchen.
+RESULT_TYPE.GACHA_DATA_NOT_FOUND,Gacha-Info existiert nicht.
+RESULT_TYPE.WRONG_GACHA_INDEX,Ungültige Gacha-Nummer.
+RESULT_TYPE.WRONG_GACHA_COUNT,Ungültige Gacha-Anzahl.
+RESULT_TYPE.NO_MERCENARIES,Keine Söldner vorhanden.
+RESULT_TYPE.NO_GUILD,Gilde existiert nicht.
+RESULT_TYPE.INVAILID_RANK,Ungültiger Rang.
+RESULT_TYPE.GUILD_MAX_JOIN_REQUEST,Anfrage-Limit für die Gilde erreicht.
+RESULT_TYPE.TRIAL_DUNGEON_DATA_NOT_FOUND,Keine Infos über Dungeon der Prüfungen vorhanden.
+RESULT_TYPE.NOT_PLAYER_HERO,Du besitzt diesen Helden nicht.
+RESULT_TYPE.ITEM_NOT_OWNED,Du besitzt dieses Gegenstand nicht.
+RESULT_TYPE.ITEM_TYPE_MISMATCH,Anderer Gegenstand-Typ.
+RESULT_TYPE.POTION_DATA_NOT_FOUND,Portions-Info nicht vorhanden.
+RESULT_TYPE.INVALID_ACTION,Ungültige Aktion.
+RESULT_TYPE.RECIPE_DATA_NOT_FOUND,Rezept-Info nicht vorhanden.
+RESULT_TYPE.MATERIAL_DATA_NOT_FOUND,Material-Info nicht vorhanden.
+RESULT_TYPE.NOT_ENOUGH_MATERIAL,Nicht genug Material.
+RESULT_TYPE.MATCH_RESULT_NOT_FOUND,Match-Ergebnis nicht vorhanden.
+RESULT_TYPE.MATCH_UID_MISMATCH,Match-Nummer stimmt nicht überein.
+RESULT_TYPE.MATCHING_DISABLED,Berechnen des Kampfergebnisses.
+RESULT_TYPE.NOT_ENOUGH_SWORD,Nicht genug Schwerter.
+RESULT_TYPE.MATCH_USER_NOT_FOUND,Infos über Teilnehmer nicht vorhanden.
+RESULT_TYPE.NPC_INFO_NOT_FOUND,NPC-Info nicht vorhanden.
+RESULT_TYPE.WAIT_MORE,Aufgrund eines Netzwerkfehlers kommt es zu einer Server-Verzögerung beim Verarbeiten von Kampfinformationen. Bitte tippe erneut auf OK.
+RESULT_TYPE.NOT_ENOUGH_CHEESE,Nicht genug Käse.
+RESULT_TYPE.USER_PLUNDER_INFO_NOT_FOUND,Plünderungs-Info nicht vorhanden.
+RESULT_TYPE.COLLECT_NODE_DATA_NOT_FOUND,Sammelknoten-Info nicht vorhanden.
+RESULT_TYPE.PLAYER_NOT_FOUND,Spieler existiert nicht.
+RESULT_TYPE.V_I_P_LEVEL_DATA_NOT_FOUND,VIP-Level Info nicht vorhanden.
+RESULT_TYPE.SHOP_DATA_NOT_FOUND,Shop-Info nicht vorhanden.
+RESULT_TYPE.SHOP_ITEM_DATA_NOT_FOUND,Shop-Artikel-Info nicht vorhanden.
+RESULT_TYPE.PLAYER_SHOP_ITEM_NOT_FOUND,Shop-Artikel-Info des Spielers nicht vorhanden.
+RESULT_TYPE.SOLD_OUT,Bereits verkauft.
+RESULT_TYPE.INVALID_COST,Ungültiger Preis.
+RESULT_TYPE.NO_ITEM_DATA,Gegenstand-Info existiert nicht.
+RESULT_TYPE.NOT_OWNED,Nicht in Besitz.
+RESULT_TYPE.INVALID_ITEM_COUNT,Ungültige Itenanzahl.
+RESULT_TYPE.NOT_ENOUGH_STONE,Ungenügend Verstärkungskristalle.
+RESULT_TYPE.HERO_LEVEL_LIMIT,Hero-Level zu niedrig.
+RESULT_TYPE.SKILL_LEVEL_NOT_FOUND,Skilllevel-Info nicht vorhanden.
+RESULT_TYPE.SKILL_PRICE_NOT_FOUND,Skillpreis-Info nicht vorhanden.
+RESULT_TYPE.TEAM_LEVEL_LIMIT,Kann Heldenlevel nicht übersteigen.
+RESULT_TYPE.SKILL_NOT_FOUND,Skill existiert nicht.
+RESULT_TYPE.REQ_GOLD_ERROR,Benötigtes Gold fehlerhaft.
+RESULT_TYPE.STAR_DATA_NOT_FOUND,Sternen-Info fehlerhaft.
+RESULT_TYPE.NO_TARGET_ACCOUNT_ID,Die Nr. des Zielspielers existiert nicht.
+RESULT_TYPE.VERSION_ERROR,Ungültige Version.
+RESULT_TYPE.MATCH_NOT_FOUND,Match nicht vorhanden.
+RESULT_TYPE.EQUIP_ITEM_FULL,Ausr. ist voll.
+RESULT_TYPE.INVALID_GUILD_LEVEL,Ungültiges Gildenlevel.
+RESULT_TYPE.ALREADY_JOIN_REQUESTED,Beitrittsgesuch bereits gesendet...
+RESULT_TYPE.MIN_REGISTER_TIME_NOT_ELAPSED,Min. Registrationszeit noch nicht abgelaufen.
+RESULT_TYPE.RESULT_ITEM_DATA_NOT_FOUND,Ergebnis-Gegenstand Info nicht vorhanden.
+RESULT_TYPE.RESULT_EQUIP_ITEM_DATA_NOT_FOUND,Ergebnis-Ausr. Info nicht vorhanden.
+RESULT_TYPE.MISSION_NOT_COMPLETED,Mission noch nicht abgeschlossen.
+RESULT_TYPE.TYPE_ERROR,Ungültiger Typ.
+RESULT_TYPE.INFO_ERROR,Ungültige Info.
+RESULT_TYPE.ACCOUNT_IDS_ERROR,Ungültige Kontonummer.
+RESULT_TYPE.NOT_ENOUGH_PVP_COIN,Ungenügende PVP-Münzen.
+RESULT_TYPE.EMPTY_NICK,Nutzername nicht eingegeben.
+RESULT_TYPE.INVALID_NICK,Dieser Nutzername ist unzulässig.
+RESULT_TYPE.ALREADY_EXIST,Nutzername existiert bereits.
+RESULT_TYPE.TOO_SHORT_NICK,Nutzername ist zu kurz.
+RESULT_TYPE.TOO_LONG_NICK,Nutzername ist zu lang.
+RESULT_TYPE.CENSORED_WORD,Fluchwort inkludiert.
+RESULT_TYPE.NOT_ENOUGH_CHALLENGE_CHANCE,Keine Herausforderungen mehr möglich.
+RESULT_TYPE.NOT_ENOUGH_DUNGEON_KEY,Ungenügende Dungeon-Schlüssel.
+RESULT_TYPE.NOT_OPENED_DUNGEON,Dungeon ist nicht offen.
+RESULT_TYPE.REQ_GEM_ERROR,Keine Rubine benötigt.
+RESULT_TYPE.WAITER_NOT_FOUND,Kann die erwartete Info nicht finden.
+RESULT_TYPE.MISSION_NOT_CLEARED,Mission ist noch nicht abgeschlossen.
+RESULT_TYPE.DUNGEON_DATA_NOT_FOUND,Dungeon-Info nicht vorhanden.
+RESULT_TYPE.NO_AVAILABLE_SERVER,Keine verfügbaren Server vorhanden.
+RESULT_TYPE.UNEQUIP_OLD_FAILED,Kann derz. Ausr. nicht ablegen.
+RESULT_TYPE.EQUIP_FAILED,Ausr. anlegen ist fehlgeschlagen.
+RESULT_TYPE.NO_SHOP_DATA,Shop-Info nicht vorhanden.
+BASE_RESULT_TYPE.TIMEOUT,Keine Antwort vom Server.
+BASE_RESULT_TYPE.SEQUENCE_ERROR,Aufgrund eines Netzwerkfehlers kommt es zu einer Server-Verzögerung beim Verarbeiten von Benutzerinformationen. Versuche es später erneut.
+BASE_RESULT_TYPE.INTERNAL_ERROR,Interner Fehler.
+BASE_RESULT_TYPE.EMPTY_HOST,Host existiert nicht.
+RESULT_TYPE.ACHIEVEMENT_NOT_CLEARED,Erfolg ist noch nicht abgeschlossen.
+RESULT_TYPE.INVALID_STEP,Du hast diese Belohnung bereits erhalten.
+RESULT_TYPE.NO_PRIVILEGE,Du hast nicht die benötigten Rechte.
+RESULT_TYPE.INVALID_HOST,Falscher Host.
+RESULT_TYPE.MASTER_NOT_FOUND,Raumleiter nicht vorhanden.
+RESULT_TYPE.MULTIPLAY_INFO_NOT_FOUND,Gruppenspiel-Info nicht vorhanden.
+RESULT_TYPE.WRONG_MEMBER,Ungültiges Mitglied.
+RESULT_TYPE.ALREADY_REWARD_CALCULATED,Belohnung wurde bereits entschieden.
+RESULT_TYPE.LINKED_DUNGEON_NOT_FOUND,Verbundenes Dungeon nicht vorhanden.
+RESULT_TYPE.ALREADY_COMPLETED,Bereits abgeschlossen.
+RESULT_TYPE.DUNGEON_TYPE_ERROR,Falscher Dungeon-Typ.
+RESULT_TYPE.CANNOT_VISIT_DUNGEON,Kann dieses Dungeon nicht betreten.
+RESULT_TYPE.INVALID_TRIAL_HERO,Falscher Held für das Dungeon der Prüfungen.
+RESULT_TYPE.WORLD_MAP_EVENT_NOT_FOUND,Weltkarten-Event nicht vorhanden.
+RESULT_TYPE.EVENT_DUNGEON_INDEX_MISMATCH,Ungültige Event-Dungeon-Nummer.
+RESULT_TYPE.NOT_ENOUGH_MULTIPLAY_MEMBERS,Nicht genug Mitglieder.
+RESULT_TYPE.NOT_CALCULATED,Entscheidung noch nicht getroffen.
+RESULT_TYPE.ALREADY_REWARDED,Belohnung wurde bereits ausgegeben.
+RESULT_TYPE.NOT_SAME_DEVELOPER_PAYLOAD,Zahlungsinfo (DeveloperPayload) stimmt nicht überein. Zahlung abgebrochen.
+RESULT_TYPE.NOT_SAME_PRODUCT_ID,Zahlungsinfo (ProductId) stimmt nicht überein. Zahlung abgebrochen.
+RESULT_TYPE.WRONG_PURCHASE_STATUS,Zahlungsinfo (PurchaseStatus) ist falsch. Zahlung abgebrochen.
+RESULT_TYPE.VERIFICATION_FAILED,Zahlung konnte nicht bestätigt werden. Zahlung abgebrochen.
+RESULT_TYPE.INVALID_CONSUMPTION_STATE,Ungültige Zahlungsinfo (ConsumptionState). Zahlung abgebrochen.
+RESULT_TYPE.NOT_MONTHLY_ENDED,Du kannst das Monatspaket noch nicht kaufen.
+RESULT_TYPE.HAVE_PLAY_CHANCE,Kann aufgrund verbl. Chancen nicht gekauft werden.
+RESULT_TYPE.INVALID_DUNGEON_INDEX,Ungültige Dungeonnummer.
+RESULT_TYPE.CANNOT_AWAKEN_YET,Erweckung noch nicht möglich.
+RESULT_TYPE.CANNOT_AWAKEN_MORE,Weitere Erweckung nichg möglich.
+RESULT_TYPE.RUNE_ITEM_NOT_OWNED,Du besitzt diese Rune nicht.
+RESULT_TYPE.SAME_RUNE_EQUIPPED,Die selbe Rune ist bereits angelegt.
+RESULT_TYPE.ALEADY_OCCUPIED,Bereits zugewiesen.
+RESULT_TYPE.PRESERVE_PRICE_ERROR,Ungültiger Erhaltungspreis.
+RESULT_TYPE.RUNE_ITEM_DATA_NOT_FOUND,Runen-Gegenstandinfo nicht vorhanden.
+RESULT_TYPE.RUNE_DATA_NOT_FOUND,Runen-Info nicht vorhanden.
+RESULT_TYPE.PART_TYPE_ERROR,Ungültige Teile.
+RESULT_TYPE.NO_EQUIPPED_RUNE,Diese Rune ist nicht angelegt.
+RESULT_TYPE.HERO_ALREADY_EXIST,Held bereits vorhanden.
+RESULT_TYPE.SKILL_NOT_LEARNED,Du hast diesen Skill nicht erlernt.
+RESULT_TYPE.INVALID_SKILL_EXTEND,Ungültige Skill-Erweiterung.
+RESULT_TYPE.NOT_ENOUGH_ITEM,Unzureichende Gegenstände.
+RESULT_TYPE.BOOK_ITEM_DATA_NOT_FOUND,Buch-Gegenstandinfo nicht vorhanden.
+RESULT_TYPE.SKILL_ALREADY_LEARNED,Skill bereits erlernt.
+RESULT_TYPE.MAX_PURIFIED,Max. Reinigung erreicht.
+RESULT_TYPE.MAX_HERO_STAR,Held hat max. Erweckung erreicht.
+RESULT_TYPE.NO_AWAKE_MATERIAL,Kein Erweckungs-Material.
+RESULT_TYPE.PURIFY_DATA_NOT_FOUND,Keine Reinigungs-Daten verfügbar.
+RESULT_TYPE.INVALID_PURIFY_DATA,Ungültige Reinigungs-Daten.
+RESULT_TYPE.TRANSCEND_SKILL_LEVEL_DATA_NOT_FOUND,Skill-Trasnzendenz-Daten nicht vorhanden.
+RESULT_TYPE.MAX_TRANSCEND_SKILL_LEVEL,Skill hat bereits Transzendenz-Llimit erreicht.
+RESULT_TYPE.TRANSCEND_SKILL_LEVEL_PRICE_DATA_NOT_FOUND,Preis für Skill-Transzendenz nicht vorhanden.
+RESULT_TYPE.NOT_MAX_HERO_STAR,Held hat max. Erweckungsstufe noch nicht erreicht.
+RESULT_TYPE.INVALID_TRANSCEND_COUNT,Ungültige Transzendenz-Anzahl.
+RESULT_TYPE.GRADE_TOO_LOW,Rang zu niedrig.
+RESULT_TYPE.CREATURE_DATA_NOT_FOUND,Heldeninfo nicht vorhanden.
+RESULT_TYPE.UPGRADE_BOOK_DATA_NOT_FOUND,Verstärkungs-Buchinfo nicht vorhanden.
+RESULT_TYPE.MATCH_PLAYER_NOT_FOUND,Gegner existiert nicht.
+RESULT_TYPE.INVALID_SHOP_DATA,Ungültige Shop-Info.
+RESULT_TYPE.NOT_GUILD_MEMBER,Kein Gildenmitglied.
+RESULT_TYPE.NOT_ENOUGH_GUILD_POINT,Gildenpunkte unzureichend.
+RESULT_TYPE.INVALID_SHOP_ITEM_LIST_INDEX,Ungültige Shopnummer.
+RESULT_TYPE.INVALID_ITEM_TYPE,Ungültiger Gegenstand-Typ.
+RESULT_TYPE.HERO_SHOP_SLOT_EXCEEDED,Heldenshop-Fach Limits überschritten.
+RESULT_TYPE.INVALID_HERO_SHOP_SLOT,Ungültiges Heldenshop-Fach.
+RESULT_TYPE.NO_SHOP_ITEM_INFO,Shop-Artikel-Info nicht vorhanden.
+RESULT_TYPE.NO_SHOP_ITEM_DATA,Shop-Artikel-Daten nicht vorhanden.
+RESULT_TYPE.NO_SELL_COUNT,Verkaufsmenge nicht vorhanden.
+RESULT_TYPE.ALREADY_OPENED_CLASS,Klasse bereits freigeschaltet.
+RESULT_TYPE.NOT_OPENED_CLASS_DUNGEON,Dungeon für diese Klasse ist nicht offen.
+RESULT_TYPE.ALREADY_GET_CHALLENGE,Bereits unternommen.
+RESULT_TYPE.ALREADY_HAVE_MATERIAL,Material bereits im Besitz.
+RESULT_TYPE.INVALID_HERO_CLASS,Falsche Klasse.
+RESULT_TYPE.TUTORIAL_DATA_NOT_FOUND,Tutorial-Daten nicht vorhanden.
+RESULT_TYPE.RETRY,Wiederholen
+RESULT_TYPE.NOT_IMPLEMENTED_METHOD,Ungültige Methode.
+RESULT_TYPE.INVALID_QUEST_INDEX,Ungültige Questnummer.
+RESULT_TYPE.QUEST_INFO_NOT_FOUND,Kann Quest-Info nicht finden.
+RESULT_TYPE.QUEST_NOT_CLEARED,Quest ist noch nicht abgeschlossen.
+RESULT_TYPE.NOT_COMPLETED,Noch nicht abgeschlossen.
+RESULT_TYPE.EMPTY_DUNGEON_INDICES,Dungeonnummer leer.
+RESULT_TYPE.EVENT_INDEX_COUNT_MISMATCH,Event-Nummer stimmt nicht überein.
+RESULT_TYPE.MAX_DAILY_COUNT,Tageslimit überschritten.
+RESULT_TYPE.ALREADY_VISITED,Bereits besucht.
+RESULT_TYPE.INVALID_MATERIAL_ITEM,Ungültige Materialien.
+RESULT_TYPE.INVALID_REQ_ITEM_EXP_DATA,Ungültige EP benötigter Gegenstände.
+RESULT_TYPE.SAME_BOOSTER_APPLIED,Derselbe Booster-Effekt bereits aktiv.
+RESULT_TYPE.PACKAGE_DATA_NOT_FOUND,Keine Paketprodukt-Daten.
+RESULT_TYPE.INVALID_ITEM_INDEX,Ungültiger Gegenstand Index.
+RESULT_TYPE.INVALID_ITEM_DATA,Ungültige Gegenstand-Daten.
+RESULT_TYPE.INVALID_ACCOUNT_ID,Ungültige Kontonummer.
+RESULT_TYPE.REWARD_TIME_ENDED,Belohnungszeit abgelaufen.
+RESULT_TYPE.CHECKING_INTEGRITY,Das Kampfergebnis wird übertragen. Bitte versuche es später erneut.
+RESULT_TYPE.BATTLE_SERVER_NOT_FOUND,Das Netzwerk ist im Moment nicht stabil. Bitte wechsle an einen Ort mit besserer Signalqualität und verbinde dich erneut mit dem Spiel.
+RESULT_TYPE.TOWER_DATA_NOT_FOUND,Turm-Info nicht vorhanden.
+RESULT_TYPE.TOWER_FLOOR_DATA_NOT_FOUND,Etagen-Info nicht vorhanden.
+RESULT_TYPE.CANNOT_ENTER_TOWER_FLOOR,Kann Etage nicht betreten.
+RESULT_TYPE.TOWER_CHAPTER_MISMATCH,Turm-Kapitel stimmt nicht überein.
+RESULT_TYPE.TOWER_DUNGEON_MISMATCH,Turm-Dungeon stimmt nicht überein.
+RESULT_TYPE.TOWER_TEAM_LEVEL_LIMIT,Unzureichendes Team-Level - Kann Etage nicht betreten.
+RESULT_TYPE.TOWER_REQ_DUNGEON_NOT_COMPLETED,Benötigte Dungeons vor dem Turmzugang nicht abgeschlossen.
+RESULT_TYPE.NOT_ENOUGH_TOWER_COST,Nicht genug Währung für Turmzugang.
+RESULT_TYPE.DIED_HERO_CACHE,Dieser Held ist gefallen.
+RESULT_TYPE.MISSING_BATTLE_LOG,Kampfaufzeichnung nicht eingetragen.
+RESULT_TYPE.MISSING_CREATURE_INFO,Helden-Info nicht eingegeben.
+RESULT_TYPE.REQUEST_INTEGRITY_CHECK_ERROR,Fehler während der Integrität-Überprüfungsanforderung.
+RESULT_TYPE.MISSING_TOWER_CREATURE_INFO,Turm-Heldeninfo nicht eingegeben.
+RESULT_TYPE.PARSING_TOWER_CREATURE_INFO_ERROR,Kann Turm-Heldeninfo nicht importieren.
 RESULT_TYPE.EMPTY_TOWER_ENTER_HEROES,"Info der Helden, die den Turm betreten haben, wurde nicht eingetragen."
-RESULT_TYPE.TOWER_NOT_PLAYED,"Du hast mit diesem Turm noch nicht begonnen."
-RESULT_TYPE.PLAYER_TOWER_NOT_FOUND,"Keine Infos über aktive Türme vorhanden."
-RESULT_TYPE.CANNOT_RESET_MORE,"Zurücksetzung nicht mehr möglich."
-RESULT_TYPE.NOT_ENOUGH_COST,"Nicht genug Geld."
-RESULT_TYPE.CLOSED_DUNGEON,"Dungeon ist geschlossen."
-RESULT_TYPE.OPENED_DUNGEON,"Dungeon ist offen."
-RESULT_TYPE.QUEST_DATA_NOT_FOUND,"Quest-Daten nicht vorhanden."
-RESULT_TYPE.NOT_ACCEPTABLE,"Kann nicht annehmen."
-RESULT_TYPE.CANNOT_GIVEUP,"Aufgabe nicht möglich."
-RESULT_TYPE.NOT_REWARDABLE,"Kann Belohnungen nicht erhalten."
-RESULT_TYPE.EQUIP_FULL,"Invetar ist voll."
-RESULT_TYPE.VIPLEVEL_DATA_NOT_FOUND,"Keine VIP-Daten verfügbar."
-RESULT_TYPE.MISSING_LANGUAGE,"Sprache nicht eingegeben."
-RESULT_TYPE.CANNOT_LINK_GUEST,"Kann als Gast nicht verbinden."
-RESULT_TYPE.ALREADY_LINKED_ID,"Account ist bereits verlinkt."
-RESULT_TYPE.SERVER_CLOSING,"Currently preparing for service. Please wait."
-RESULT_TYPE.INVALID_SHOP_INDEX,"Ungültige Shopnummer."
-RESULT_TYPE.EXCEEDED_PURCHASABLE_COUNT,"Anzahl möglicher Käufe überschritten."
-RESULT_TYPE.INVALID_REWARD_DATA,"Ungültige Belohungs-Daten."
-RESULT_TYPE.TOWER_NPC_NOT_FOUND,"Turm-NPC nicht vorhanden."
-RESULT_TYPE.TOWER_NPC_SLOT_NOT_FOUND,"Etagen-NPC nicht vorhanden."
-RESULT_TYPE.TOWER_NPC_INFO_NOT_FOUND,"Etagen-NPC Info nicht vorhanden."
-RESULT_TYPE.WRONG_TOWER_REWARD_NO,"Ungültige Turm-Belohnungsnummer."
-RESULT_TYPE.WRONG_DIFFICULTY,"Ungültige Schwierigkeiststufe."
-RESULT_TYPE.DIFFICULTY_MISMATCH,"Schwierigkeitsstufe stimmt nicht überein."
-RESULT_TYPE.MISSING_BATTLE_TYPE,"Kampf-Typ nicht eingegeben."
-RESULT_TYPE.NOT_YET_CLEARED,"Noch nicht abgeschlossen."
-RESULT_TYPE.INVALID_DUNGEON_DIFFICULTY,"Ungültige Dungeon-Schwierigkeitsstufe."
-RESULT_TYPE.WRONG_DUNGEON_DIFFICULTY,"Ungültige Dungeon-Schwierigkeitsstufe."
-RESULT_TYPE.MAX_UNDERGROUND_PRISON_KEY,"Schlüssel voll."
-RESULT_TYPE.EQUIP_GRADE_DATA_NOT_FOUND,"Ausr.-Wertungsdaten nicht vorhanden."
-RESULT_TYPE.NOT_FOR_SALE,"Nicht verkäuflich."
-RESULT_TYPE.EQUIP_CREATURE_ERROR,"Kein Held zum ausrüsten."
-RESULT_TYPE.UPGRADE_DATA_NOT_FOUND,"Verstärkungsdaten nicht vorhanden."
-RESULT_TYPE.MATERIAL_ITEM_INDEX_MISMATCH,"Materialitem-Nummer stimmt nicht überein."
-RESULT_TYPE.MATERIAL_ITEM_COUNT_MISMATCH,"Menge d. Materialitems stimmt nicht überein."
-RESULT_TYPE.NOT_ENOUGH_MATERIAL_ITEM,"Nicht genug Material."
-RESULT_TYPE.INVALID_REQ_GOLD,"Ungenügend Gold."
-RESULT_TYPE.NO_UPGRADABLE_OPTION_SLOT,"Dieses Optionsfach kann nicht verstärkt werden."
-RESULT_TYPE.INVALID_ITEM_CODE,"Ungültiger Item-Code."
-RESULT_TYPE.INVALID_EQUIP_STAR_RATE,"Ungültige Sternenwahrscheinlichkeit."
-RESULT_TYPE.MY_FRIEND_FULL,"Deine Freundesliste ist voll."
-RESULT_TYPE.TARGET_FRIEND_FULL,"Freundesliste der anderen Gruppe ist voll."
-RESULT_TYPE.TARGET_FRIEND_WAIT_FULL,"Anfrageliste der anderen Gruppe ist voll."
-RESULT_TYPE.ENHANCE_ITEM_INDEX_ERROR,"Ungültige Überschreitungs-Steinnummer."
-RESULT_TYPE.NOT_ENOUGH_ENHANCE_ITEM,"Nicht genug Überschreitungssteine."
-RESULT_TYPE.CANNOT_ENHANCE_MORE,"Überschreitung nicht weiter möglich."
-RESULT_TYPE.AWAKE_CHALLENGE_DATA_ERROR,"Erweckungsstein-Info nicht verfügbar."
-RESULT_TYPE.AWAKE_ITEM_DATA_ERROR,"Erweckungsstein-Iteminfo nicht verfügbar."
-RESULT_TYPE.NOT_ENOUGH_AWAKE_ITEM,"Ungenügende Erweckungssteine."
-RESULT_TYPE.HERO_SELECT_DATA_NOT_FOUND,"Heldenwahl-Daten nicht verfügbar."
-RESULT_TYPE.INVALID_HERO_EXP,"Ungültige Helden-EP."
-RESULT_TYPE.HERO_NOT_OWNED,"Du besitzt diesen Helden nicht."
-RESULT_TYPE.MAX_HERO_LEVEL,"Held hat Maximallevel erreicht."
-RESULT_TYPE.MAIL_NOT_FOUND,"Du hast keine Post."
-RESULT_TYPE.MISSING_COUPON_CODE,"Coupon-Code nicht eingegeben."
-RESULT_TYPE.MISSING_COUNTRY_CODE,"Landescode nicht eingegeben."
-RESULT_TYPE.COUPON_NOT_FOUND,"Couponnr. ist falsch."
-RESULT_TYPE.ALREADY_RECEIVED,"Bereits erhalten."
-RESULT_TYPE.COUNTRY_CODE_MISMATCH,"Landescode stimmt nicht überein."
-RESULT_TYPE.COUPON_EXPIRED,"Coupon ist abgelaufen."
-RESULT_TYPE.PROMOTION_NOT_FOUND,"Promotion-Info nicht verfügbar."
-RESULT_TYPE.ALREADY_USED_PROMOTION,"Bereits an der Promotion teilgenommen."
-RESULT_TYPE.REWARD_NOT_SELECTED,"Belohnung nicht gewählt."
-RESULT_TYPE.INVALID_REWARD_INDEX,"Ungültige Belohnungsnr."
-RESULT_TYPE.ALREADY_PURCHASED,"Bereits erworben."
-RESULT_TYPE.NOT_ENOUGH_MILEAGE,"Ungenügende Mileage."
-RESULT_TYPE.NOT_ENOUGH_ROYAL_POINT,"Ungenügende Königspunkte."
-RESULT_TYPE.NOT_ENCRYPTED,"Nicht verschlüsselt."
-RESULT_TYPE.SALT_ERROR,"Kann aufgrund schlechter Internetverb. nicht verifizieren."
-RESULT_TYPE.NO_SECURE_KEY,"NO_SECURE_KEY"
-RESULT_TYPE.SALT_NOT_DECRYPTED,"SALT_NOT_DECRYPTED"
-RESULT_TYPE.KEY_NOT_DECRYPTED,"KEY_NOT_DECRYPTED"
-RESULT_TYPE.SALT_MISMATCH,"SALT_MISMATCH"
-RESULT_TYPE.LOGIN_ID_NOT_DECRYPTED,"LOGIN_ID_NOT_DECRYPTED"
-RESULT_TYPE.DECRYPT_FAIL,"DECRYPT_FAIL"
-BASE_RESULT_TYPE.OFFLINE,"Netzwerk ist offline."
-RESULT_TYPE.INVALID_GACHA_REQUEST,"Während der Ausr.-Beschwörung ist ein Fehler aufgetreten.\nBitte versuche es erneut."
-RESULT_TYPE.MATCHING_ABORTED,"Matching wurde abgebrochen."
-RESULT_TYPE.PROGRESSING,"Bereits in Bearbeitung."
-RESULT_TYPE.BUY_DISABLED,"Du kannst derzeit nicht zahlen."
-RESULT_TYPE.MAX_FRIENDSHIP_POINT,"Freundschaftspunkte sind voll."
-RESULT_TYPE.NOT_ENOUGH_FRIENDSHIP_POINT,"Nicht genug Freundschaftspunkte."
-RESULT_TYPE.NOT_RAID_TYPE,"Nicht ein Raid-Typ."
-RESULT_TYPE.MISSING_RAID_INDEX,"Aufgrund eines Netzwerkfehlers kommt es zu einer Server-Verzögerung beim Verarbeiten von Benutzerinformationen. Versuche es später erneut."
-RESULT_TYPE.RAID_DATA_NOT_FOUND,"Raid-Daten nicht vorhanden."
-RESULT_TYPE.RAID_NOT_STARTED,"Raid hat noch nicht begonnen."
-RESULT_TYPE.RAID_NOT_PROGRESSING,"The raid is not in the march."
-RESULT_TYPE.RAID_MUST_MULTIPLAY,"Kein Multiplayer-Typ."
-RESULT_TYPE.RAID_CHAPTER_MISMATCH,"Kapitel stimmen nicht überein."
-RESULT_TYPE.RAID_DUNGEON_MISMATCH,"Dungeons stimmen nicht überein."
-RESULT_TYPE.GUILD_RAID_ROOM_CREATED,"Gilden-Raidraum wurde eröffnet."
-RESULT_TYPE.NOT_ENOUGH_ENTER_RAID_COUNT,"Nicht genug GIlden-Raid Tickets."
-RESULT_TYPE.INVALID_GUILD_RAID_INDEX,"Ungültiger Gilden-Raid Index."
-RESULT_TYPE.NOT_ENOUGH_ACTIVITY_POINT,"Nicht genug Aktiv.-Pkte."
-RESULT_TYPE.PREVIOUS_RAID_NOT_COMPLETED,"Raid ist im Gange."
-RESULT_TYPE.ALREADY_GUILD_RAID_OPENED,"Gilden-Raid wurde nicht eröffnet."
-RESULT_TYPE.PLAYER_RAID_NOT_FOUND,"Die Raid-Info des Spielers ist nicht verfügbar."
-RESULT_TYPE.PLAYER_DUNGEON_NOT_FOUND,"Dungeon-Daten des Spielers nicht vorhanden."
-RESULT_TYPE.DUNGEON_NOT_PLAYED,"Dungeon-Spielarchiv nicht vorhanden."
-RESULT_TYPE.DUNGEON_PLAY_ENABLE,"Du hast noch Eintrittstickets übrig."
-RESULT_TYPE.ALREADY_HAVE,"Du besitzt diesen Helden bereits."
-RESULT_TYPE.HERO_NOT_EXIST,"Held existiert nicht."
-RESULT_TYPE.CANNOT_RECRUIT,"Dieser Held kann nicht in der Heldenschenke angeheuert werden."
-RESULT_TYPE.HERO_INDEX_MISMATCH,"Helden-Info stimmt nicht überein."
-RESULT_TYPE.ALREADY_RECRUITED,"Du hast diesen Helden bereits."
-RESULT_TYPE.HERO_NOT_EXIST_IN_FRIENDLY_TABLE,"Dieser Held ist kein potentieller Verbündeter."
-RESULT_TYPE.HERO_FRIENDLY_POINT_MAX,"Du kannst diese Freundschaft nicht weiter ausbauen."
-RESULT_TYPE.ACTION_NOT_READY,"Diese Aktion ist noch nicht verfügbar."
-RESULT_TYPE.ACTION_NOT_EXIST,"Dieser Befehl existiert nicht."
-RESULT_TYPE.COST_MISMATCH,"Nicht genug Resourcen für diese Aktion."
+RESULT_TYPE.TOWER_NOT_PLAYED,Du hast mit diesem Turm noch nicht begonnen.
+RESULT_TYPE.PLAYER_TOWER_NOT_FOUND,Keine Infos über aktive Türme vorhanden.
+RESULT_TYPE.CANNOT_RESET_MORE,Zurücksetzung nicht mehr möglich.
+RESULT_TYPE.NOT_ENOUGH_COST,Nicht genug Geld.
+RESULT_TYPE.CLOSED_DUNGEON,Dungeon ist geschlossen.
+RESULT_TYPE.OPENED_DUNGEON,Dungeon ist offen.
+RESULT_TYPE.QUEST_DATA_NOT_FOUND,Quest-Daten nicht vorhanden.
+RESULT_TYPE.NOT_ACCEPTABLE,Kann nicht annehmen.
+RESULT_TYPE.CANNOT_GIVEUP,Aufgabe nicht möglich.
+RESULT_TYPE.NOT_REWARDABLE,Kann Belohnungen nicht erhalten.
+RESULT_TYPE.EQUIP_FULL,Invetar ist voll.
+RESULT_TYPE.VIPLEVEL_DATA_NOT_FOUND,Keine VIP-Daten verfügbar.
+RESULT_TYPE.MISSING_LANGUAGE,Sprache nicht eingegeben.
+RESULT_TYPE.CANNOT_LINK_GUEST,Kann als Gast nicht verbinden.
+RESULT_TYPE.ALREADY_LINKED_ID,Dieses Online-Konto ist bereits mit einem anderen King´s Raid-Konto verbunden.
+RESULT_TYPE.SERVER_CLOSING,Currently preparing for service. Please wait.
+RESULT_TYPE.INVALID_SHOP_INDEX,Ungültige Shopnummer.
+RESULT_TYPE.EXCEEDED_PURCHASABLE_COUNT,Anzahl möglicher Käufe überschritten.
+RESULT_TYPE.INVALID_REWARD_DATA,Ungültige Belohungs-Daten.
+RESULT_TYPE.TOWER_NPC_NOT_FOUND,Turm-NPC nicht vorhanden.
+RESULT_TYPE.TOWER_NPC_SLOT_NOT_FOUND,Etagen-NPC nicht vorhanden.
+RESULT_TYPE.TOWER_NPC_INFO_NOT_FOUND,Etagen-NPC Info nicht vorhanden.
+RESULT_TYPE.WRONG_TOWER_REWARD_NO,Ungültige Turm-Belohnungsnummer.
+RESULT_TYPE.WRONG_DIFFICULTY,Ungültige Schwierigkeiststufe.
+RESULT_TYPE.DIFFICULTY_MISMATCH,Schwierigkeitsstufe stimmt nicht überein.
+RESULT_TYPE.MISSING_BATTLE_TYPE,Kampf-Typ nicht eingegeben.
+RESULT_TYPE.NOT_YET_CLEARED,Noch nicht abgeschlossen.
+RESULT_TYPE.INVALID_DUNGEON_DIFFICULTY,Ungültige Dungeon-Schwierigkeitsstufe.
+RESULT_TYPE.WRONG_DUNGEON_DIFFICULTY,Ungültige Dungeon-Schwierigkeitsstufe.
+RESULT_TYPE.MAX_UNDERGROUND_PRISON_KEY,Schlüssel voll.
+RESULT_TYPE.EQUIP_GRADE_DATA_NOT_FOUND,Ausr.-Wertungsdaten nicht vorhanden.
+RESULT_TYPE.NOT_FOR_SALE,Nicht verkäuflich.
+RESULT_TYPE.EQUIP_CREATURE_ERROR,Kein Held zum ausrüsten.
+RESULT_TYPE.UPGRADE_DATA_NOT_FOUND,Verstärkungsdaten nicht vorhanden.
+RESULT_TYPE.MATERIAL_ITEM_INDEX_MISMATCH,Materialien-Nummer stimmt nicht überein.
+RESULT_TYPE.MATERIAL_ITEM_COUNT_MISMATCH,Menge d. Materialien stimmt nicht überein.
+RESULT_TYPE.NOT_ENOUGH_MATERIAL_ITEM,Nicht genug Material.
+RESULT_TYPE.INVALID_REQ_GOLD,Ungenügend Gold.
+RESULT_TYPE.NO_UPGRADABLE_OPTION_SLOT,Dieses Optionsfach kann nicht verstärkt werden.
+RESULT_TYPE.INVALID_ITEM_CODE,Ungültiger Gegenstand-Code.
+RESULT_TYPE.INVALID_EQUIP_STAR_RATE,Ungültige Sternenwahrscheinlichkeit.
+RESULT_TYPE.MY_FRIEND_FULL,Deine Freundesliste ist voll.
+RESULT_TYPE.TARGET_FRIEND_FULL,Freundesliste der anderen Gruppe ist voll.
+RESULT_TYPE.TARGET_FRIEND_WAIT_FULL,Anfrageliste der anderen Gruppe ist voll.
+RESULT_TYPE.ENHANCE_ITEM_INDEX_ERROR,Ungültige Transzendenz-Steinnummer.
+RESULT_TYPE.NOT_ENOUGH_ENHANCE_ITEM,Nicht genug Transzendenz-Steine.
+RESULT_TYPE.CANNOT_ENHANCE_MORE,Transzendenz nicht weiter möglich.
+RESULT_TYPE.AWAKE_CHALLENGE_DATA_ERROR,Erweckungsstein-Info nicht verfügbar.
+RESULT_TYPE.AWAKE_ITEM_DATA_ERROR,Erweckungsstein-Info nicht verfügbar.
+RESULT_TYPE.NOT_ENOUGH_AWAKE_ITEM,Ungenügende Erweckungssteine.
+RESULT_TYPE.HERO_SELECT_DATA_NOT_FOUND,Heldenwahl-Daten nicht verfügbar.
+RESULT_TYPE.INVALID_HERO_EXP,Ungültige Helden-EP.
+RESULT_TYPE.HERO_NOT_OWNED,Du besitzt diesen Helden nicht.
+RESULT_TYPE.MAX_HERO_LEVEL,Held hat Maximallevel erreicht.
+RESULT_TYPE.MAIL_NOT_FOUND,Du hast keine Post.
+RESULT_TYPE.MISSING_COUPON_CODE,Coupon-Code nicht eingegeben.
+RESULT_TYPE.MISSING_COUNTRY_CODE,Landescode nicht eingegeben.
+RESULT_TYPE.COUPON_NOT_FOUND,Couponnr. ist falsch.
+RESULT_TYPE.ALREADY_RECEIVED,Bereits erhalten.
+RESULT_TYPE.COUNTRY_CODE_MISMATCH,Landescode stimmt nicht überein.
+RESULT_TYPE.COUPON_EXPIRED,Coupon ist abgelaufen.
+RESULT_TYPE.PROMOTION_NOT_FOUND,Promotion-Info nicht verfügbar.
+RESULT_TYPE.ALREADY_USED_PROMOTION,Bereits an der Promotion teilgenommen.
+RESULT_TYPE.REWARD_NOT_SELECTED,Belohnung nicht gewählt.
+RESULT_TYPE.INVALID_REWARD_INDEX,Ungültige Belohnungsnr.
+RESULT_TYPE.ALREADY_PURCHASED,Bereits erworben.
+RESULT_TYPE.NOT_ENOUGH_MILEAGE,Ungenügende Mileage.
+RESULT_TYPE.NOT_ENOUGH_ROYAL_POINT,Ungenügende Königspunkte.
+RESULT_TYPE.NOT_ENCRYPTED,Nicht verschlüsselt.
+RESULT_TYPE.SALT_ERROR,Kann aufgrund schlechter Internetverb. nicht verifizieren.
+RESULT_TYPE.NO_SECURE_KEY,NO_SECURE_KEY
+RESULT_TYPE.SALT_NOT_DECRYPTED,SALT_NOT_DECRYPTED
+RESULT_TYPE.KEY_NOT_DECRYPTED,KEY_NOT_DECRYPTED
+RESULT_TYPE.SALT_MISMATCH,SALT_MISMATCH
+RESULT_TYPE.LOGIN_ID_NOT_DECRYPTED,LOGIN_ID_NOT_DECRYPTED
+RESULT_TYPE.DECRYPT_FAIL,DECRYPT_FAIL
+BASE_RESULT_TYPE.OFFLINE,Netzwerk ist offline.
+RESULT_TYPE.INVALID_GACHA_REQUEST,Während der Ausr.-Beschwörung ist ein Fehler aufgetreten.\nBitte versuche es erneut.
+RESULT_TYPE.MATCHING_ABORTED,Matching wurde abgebrochen.
+RESULT_TYPE.PROGRESSING,Bereits in Bearbeitung.
+RESULT_TYPE.BUY_DISABLED,Du kannst derzeit nicht zahlen.
+RESULT_TYPE.MAX_FRIENDSHIP_POINT,Freundschaftspunkte sind voll.
+RESULT_TYPE.NOT_ENOUGH_FRIENDSHIP_POINT,Nicht genug Freundschaftspunkte.
+RESULT_TYPE.NOT_RAID_TYPE,Nicht ein Raid-Typ.
+RESULT_TYPE.MISSING_RAID_INDEX,Aufgrund eines Netzwerkfehlers kommt es zu einer Server-Verzögerung beim Verarbeiten von Benutzerinformationen. Versuche es später erneut.
+RESULT_TYPE.RAID_DATA_NOT_FOUND,Raid-Daten nicht vorhanden.
+RESULT_TYPE.RAID_NOT_STARTED,Raid hat noch nicht begonnen.
+RESULT_TYPE.RAID_NOT_PROGRESSING,The raid is not in the march.
+RESULT_TYPE.RAID_MUST_MULTIPLAY,Kein Multiplayer-Typ.
+RESULT_TYPE.RAID_CHAPTER_MISMATCH,Kapitel stimmen nicht überein.
+RESULT_TYPE.RAID_DUNGEON_MISMATCH,Dungeons stimmen nicht überein.
+RESULT_TYPE.GUILD_RAID_ROOM_CREATED,Gildenraidraum wurde eröffnet.
+RESULT_TYPE.NOT_ENOUGH_ENTER_RAID_COUNT,Nicht genug Gildenraid Tickets.
+RESULT_TYPE.INVALID_GUILD_RAID_INDEX,Ungültiger Gildenraid Index.
+RESULT_TYPE.NOT_ENOUGH_ACTIVITY_POINT,Nicht genug Aktiv.-Pkte.
+RESULT_TYPE.PREVIOUS_RAID_NOT_COMPLETED,Raid ist im Gange.
+RESULT_TYPE.ALREADY_GUILD_RAID_OPENED,Gildenraid wurde nicht eröffnet.
+RESULT_TYPE.PLAYER_RAID_NOT_FOUND,Die Raid-Info des Spielers ist nicht verfügbar.
+RESULT_TYPE.PLAYER_DUNGEON_NOT_FOUND,Dungeon-Daten des Spielers nicht vorhanden.
+RESULT_TYPE.DUNGEON_NOT_PLAYED,Dungeon-Spielarchiv nicht vorhanden.
+RESULT_TYPE.DUNGEON_PLAY_ENABLE,Du hast noch Eintrittstickets übrig.
+RESULT_TYPE.ALREADY_HAVE,Du besitzt diesen Helden bereits.
+RESULT_TYPE.HERO_NOT_EXIST,Held existiert nicht.
+RESULT_TYPE.CANNOT_RECRUIT,Dieser Held kann nicht in der Heldenschenke angeheuert werden.
+RESULT_TYPE.HERO_INDEX_MISMATCH,Helden-Info stimmt nicht überein.
+RESULT_TYPE.ALREADY_RECRUITED,Du hast diesen Helden bereits.
+RESULT_TYPE.HERO_NOT_EXIST_IN_FRIENDLY_TABLE,Dieser Held ist kein potentieller Verbündeter.
+RESULT_TYPE.HERO_FRIENDLY_POINT_MAX,Du kannst diese Freundschaft nicht weiter ausbauen.
+RESULT_TYPE.ACTION_NOT_READY,Diese Aktion ist noch nicht verfügbar.
+RESULT_TYPE.ACTION_NOT_EXIST,Dieser Befehl existiert nicht.
+RESULT_TYPE.COST_MISMATCH,Nicht genug Resourcen für diese Aktion.
 RESULT_TYPE.FRIENDLY_POINT_MISMATCH,"Freunschaft nicht ausreichend, um anzuheuern."
-RESULT_TYPE.COOL_TIME_MISMATCH,"Cooldown ist aktiv."
-RESULT_TYPE.CANNOT_RECRUIT_HERO,"Keine Helden zum anheuern verfügbar."
-RESULT_TYPE.IN_FRIENDLY_STATE,"Du freundest dich bereits mit jemandem an."
-RESULT_TYPE.NO_FRIENDS,"Du hast keine Freunde in der Freundesliste."
-RESULT_TYPE.ALREADY_SENT_FRIENDSHIP_POINT,"Freundschaftspunkte bereits gesendet."
-RESULT_TYPE.EMPTY_NAME,"Name ist leer."
-RESULT_TYPE.INVALID_NAME,"Ungültiger Name."
-RESULT_TYPE.TOO_SHORT_NAME,"Name zu kurz."
-RESULT_TYPE.TOO_LONG_NAME,"Name ist zu lang."
-RESULT_TYPE.INIT_COOL_TIME_NOT_ELAPSED,"Zurücksetzungs-Timer ist noch nicht abgelaufen."
-RESULT_TYPE.ALREADY_GUILD_SKILL_INIT,"Gilden-Skills wurden bereits zurückgesetzt."
-RESULT_TYPE.MAX_GUILD_LEVEL,"Max. Gildenlevel bereits erreicht."
-RESULT_TYPE.MAX_SKILL_LEVEL,"Max. Skilllevel bereits erreicht."
-RESULT_TYPE.LOW_TEAM_LEVEL,"Team-Level ist zu niedrig."
-BASE_RESULT_TYPE.INTERNAL_SERVER_ERROR,"Interner Serverfehler."
-BASE_RESULT_TYPE.DISABLED,"Derzeit ausgeschaltet."
-RESULT_TYPE.NOT_ALLOWED,"Derzeit nicht erlaubt."
-RESULT_TYPE.NO_ACCOUNT_ID,"Konto-ID nicht vorhanden."
-RESULT_TYPE.NOT_FOUND,"Konnte Daten nicht finden."
-RESULT_TYPE.MISSING_TOWER_INDEX,"Turm wurde noch nicht gewählt."
-RESULT_TYPE.NO_MAX_STAR_HERO,"Max. erweckter Held nicht vorhanden."
-RESULT_TYPE.TOWER_REQ_CHAPTER_NOT_COMPLETED,"Benötigtes Kapitel für Eintritt ist noch nicht abgeschlossen."
-RESULT_TYPE.RAID_LEVEL_MISMATCH,"Raid-Level stimmt nicht überein."
-RESULT_TYPE.CONTENTS_DISABLED,"Inhalt noch nicht freigeschaltet."
-RESULT_TYPE.GUILD_RAID_ROOM_NOT_FOUND,"Gilden-Raid Lobby existiert nicht."
-RESULT_TYPE.NOT_GUILD_RAID_ROOM_MEMBER,"Kein Mitglied der Gilden-Raid Lobby."
-RESULT_TYPE.INVALID_GULD_RAID_MEMBER_RANK,"Mitglieder des Gildenrangs können nicht an Gilden-Raids teilnehmen."
-RESULT_TYPE.NOT_ENOUGH_ENTER_GUILD_RAID_COUNT,"Ungenügende Gilden-Raid Eintrittstickets."
-RESULT_TYPE.MISSING_WORLD_BOSS_INDEX,"Weltenboss-Index nicht vorhanden."
-RESULT_TYPE.WORLD_BOSS_NOT_EXIST,"Weltenboss nicht vorhanden."
-RESULT_TYPE.WORLD_BOSS_NOT_ACTIVE,"Weltenboss ist nicht aktiv."
-RESULT_TYPE.WORLD_BOSS_NOT_FOUND,"Keinen Weltenboss gefunden."
-RESULT_TYPE.MISSING_WORLD_BOSS_CREATURE_INFO,"Weltenboss-Monsterinfo nicht verfügbar."
-RESULT_TYPE.PARSING_WORLD_BOSS_CREATURE_INFO_ERROR,"Weltenboss-Monsterinfo-Parsing fehlgeschlagen."
-RESULT_TYPE.WORLD_BOSS_HP_ERROR,"Bei der Berechnung deiner Weltenboss-Punkte ist ein Fehler aufgetreten. Bitte schicke uns eine Supportanfrage per Mail, wenn du diese Nachricht liest."
-RESULT_TYPE.NOT_CLEARED,"Nicht abgeschlossen."
-RESULT_TYPE.PURCHASE_INFO_NOT_FOUND,"Kaufdaten nicht vorhanden."
-RESULT_TYPE.INTERNAL_SERVER_ERROR,"Interner Serverfehler."
-RESULT_TYPE.NOT_DAILY_ENDED,"Derzeit nicht zum Kauf verfügbar."
-RESULT_TYPE.NEED_COMPLETE_IN_APP_PURCHASE,"In-App Kauf muss abgeschlossen werden."
-RESULT_TYPE.OTHER_DAILY_EFFECTIVE,"Ein identischer Effekt ist bereits aktiv."
-RESULT_TYPE.RESTORE_DATA_NOT_FOUND,"Wiederherstellungsdaten nicht vorhanden."
-RESULT_TYPE.MATERIAL_COUNT_ERROR,"Materialanzahl-Fehler."
-RESULT_TYPE.LOW_HERO_LEVEL,"Heldenlevel ist zu niedrig."
-RESULT_TYPE.PRICE_ERROR,"Preis fehlerhaft."
-RESULT_TYPE.COST_TYPE_ERROR,"Preistyp-Fehler."
-RESULT_TYPE.EXCEEDED_MAX_MATERIAL_EQUIP_ITEMS,"Inventar überfüllt."
-RESULT_TYPE.HERO_EQUIPPED_MATERIAL_EQUIP_ITEM,"Kann angelegte Items nicht als Material verwenden."
-RESULT_TYPE.INVALID_GACHA_DATA,"Ungültige Gacha-Daten."
-RESULT_TYPE.NO_RECV_FRIENDSHIP_POINT,"Keine Freundschaftspunkte verfügbar."
-RESULT_TYPE.MAX_DAILY_REMOVE_FRIENDS,"Tageslimit an Freundlöschungen erreicht."
-RESULT_TYPE.GULLD_JOIN_REQUEST_PROCESSING,"Gilden-Beitrittsgesuche in Bearbeitung."
-RESULT_TYPE.INVALID_GUILD_RANK,"Ungültiger Gildenrang."
-RESULT_TYPE.INVALID_GUILD_INTRODUCE,"Ungültige Gilden-Vorstellung."
-RESULT_TYPE.TOO_LONG_GUILD_INTRODUCE,"Gilden-Vorstellungstext ist zu lang."
-RESULT_TYPE.INVALID_GUILD_NOTICE,"Ungültige Gilden-Ankündigung."
-RESULT_TYPE.TOO_LONG_GUILD_NOTICE,"Gilden-Ankündigung ist zu lang."
-RESULT_TYPE.GUILD_JOIN_REQUEST_EXIST,"Kann aufgrund ausstehender Beitrittsgesuche nicht verändert werden."
-RESULT_TYPE.ALREADY_EXIST_NAME,"Name existiert bereits."
-RESULT_TYPE.MAX_CONTRIBUTED_GEM,"Derzeit auf max. Spendenlevel."
-RESULT_TYPE.NO_CONTRIBUTE_COUNT,"Gildenspende-Anzahl nicht vorhanden."
-RESULT_TYPE.INVALID_GUILD_ID,"Ungültige Gildennr."
-RESULT_TYPE.INVALID_TARGET_RANK,"Ungültiger Gildenrang."
-RESULT_TYPE.INVALID_SKILL_LEVEL,"Ungültiger Gilden-Skilllevel."
-RESULT_TYPE.GUILD_JOIN_REQUEST_PROCESSING,"Gilden-Beitrittsgesuch wird bearbeitet."
+RESULT_TYPE.COOL_TIME_MISMATCH,Cooldown ist aktiv.
+RESULT_TYPE.CANNOT_RECRUIT_HERO,Keine Helden zum anheuern verfügbar.
+RESULT_TYPE.IN_FRIENDLY_STATE,Du freundest dich bereits mit jemandem an.
+RESULT_TYPE.NO_FRIENDS,Du hast keine Freunde in der Freundesliste.
+RESULT_TYPE.ALREADY_SENT_FRIENDSHIP_POINT,Freundschaftspunkte bereits gesendet.
+RESULT_TYPE.EMPTY_NAME,Name ist leer.
+RESULT_TYPE.INVALID_NAME,Ungültiger Name.
+RESULT_TYPE.TOO_SHORT_NAME,Name zu kurz.
+RESULT_TYPE.TOO_LONG_NAME,Name ist zu lang.
+RESULT_TYPE.INIT_COOL_TIME_NOT_ELAPSED,Zurücksetzungs-Timer ist noch nicht abgelaufen.
+RESULT_TYPE.ALREADY_GUILD_SKILL_INIT,Gilden-Skills wurden bereits zurückgesetzt.
+RESULT_TYPE.MAX_GUILD_LEVEL,Max. Gildenlevel bereits erreicht.
+RESULT_TYPE.MAX_SKILL_LEVEL,Max. Skilllevel bereits erreicht.
+RESULT_TYPE.LOW_TEAM_LEVEL,Team-Level ist zu niedrig.
+BASE_RESULT_TYPE.INTERNAL_SERVER_ERROR,Interner Serverfehler.
+BASE_RESULT_TYPE.DISABLED,Derzeit ausgeschaltet.
+RESULT_TYPE.NOT_ALLOWED,Derzeit nicht erlaubt.
+RESULT_TYPE.NO_ACCOUNT_ID,Konto-ID nicht vorhanden.
+RESULT_TYPE.NOT_FOUND,Konnte Daten nicht finden.
+RESULT_TYPE.MISSING_TOWER_INDEX,Turm wurde noch nicht gewählt.
+RESULT_TYPE.NO_MAX_STAR_HERO,Max. erweckter Held nicht vorhanden.
+RESULT_TYPE.TOWER_REQ_CHAPTER_NOT_COMPLETED,Benötigtes Kapitel für Eintritt ist noch nicht abgeschlossen.
+RESULT_TYPE.RAID_LEVEL_MISMATCH,Raid-Level stimmt nicht überein.
+RESULT_TYPE.CONTENTS_DISABLED,Inhalt noch nicht freigeschaltet.
+RESULT_TYPE.GUILD_RAID_ROOM_NOT_FOUND,Gildenraid Lobby existiert nicht.
+RESULT_TYPE.NOT_GUILD_RAID_ROOM_MEMBER,Kein Mitglied der Gildenraid Lobby.
+RESULT_TYPE.INVALID_GULD_RAID_MEMBER_RANK,Mitglieder des Gildenrangs können nicht an Gildenraids teilnehmen.
+RESULT_TYPE.NOT_ENOUGH_ENTER_GUILD_RAID_COUNT,Ungenügende Gildenraid Eintrittstickets.
+RESULT_TYPE.MISSING_WORLD_BOSS_INDEX,Weltboss-Index nicht vorhanden.
+RESULT_TYPE.WORLD_BOSS_NOT_EXIST,Weltboss nicht vorhanden.
+RESULT_TYPE.WORLD_BOSS_NOT_ACTIVE,Weltboss ist nicht aktiv.
+RESULT_TYPE.WORLD_BOSS_NOT_FOUND,Keinen Weltboss gefunden.
+RESULT_TYPE.MISSING_WORLD_BOSS_CREATURE_INFO,Weltboss-Monsterinfo nicht verfügbar.
+RESULT_TYPE.PARSING_WORLD_BOSS_CREATURE_INFO_ERROR,Weltboss-Monsterinfo-Parsing fehlgeschlagen.
+RESULT_TYPE.WORLD_BOSS_HP_ERROR,"Bei der Berechnung deiner Weltboss-Punkte ist ein Fehler aufgetreten. Bitte schicke uns eine Supportanfrage per Mail, wenn dieser Fehler erneut auftreten sollte."
+RESULT_TYPE.NOT_CLEARED,Nicht abgeschlossen.
+RESULT_TYPE.PURCHASE_INFO_NOT_FOUND,Kaufdaten nicht vorhanden.
+RESULT_TYPE.INTERNAL_SERVER_ERROR,Interner Serverfehler.
+RESULT_TYPE.NOT_DAILY_ENDED,Derzeit nicht zum Kauf verfügbar.
+RESULT_TYPE.NEED_COMPLETE_IN_APP_PURCHASE,In-App Kauf muss abgeschlossen werden.
+RESULT_TYPE.OTHER_DAILY_EFFECTIVE,Ein identischer Effekt ist bereits aktiv.
+RESULT_TYPE.RESTORE_DATA_NOT_FOUND,Wiederherstellungsdaten nicht vorhanden.
+RESULT_TYPE.MATERIAL_COUNT_ERROR,Materialanzahl-Fehler.
+RESULT_TYPE.LOW_HERO_LEVEL,Heldenlevel ist zu niedrig.
+RESULT_TYPE.PRICE_ERROR,Preis fehlerhaft.
+RESULT_TYPE.COST_TYPE_ERROR,Preistyp-Fehler.
+RESULT_TYPE.EXCEEDED_MAX_MATERIAL_EQUIP_ITEMS,Inventar überfüllt.
+RESULT_TYPE.HERO_EQUIPPED_MATERIAL_EQUIP_ITEM,Kann angelegte Ausrüstung nicht als Material verwenden.
+RESULT_TYPE.INVALID_GACHA_DATA,Ungültige Gacha-Daten.
+RESULT_TYPE.NO_RECV_FRIENDSHIP_POINT,Keine Freundschaftspunkte verfügbar.
+RESULT_TYPE.MAX_DAILY_REMOVE_FRIENDS,Tageslimit an Freundlöschungen erreicht.
+RESULT_TYPE.GULLD_JOIN_REQUEST_PROCESSING,Gilden-Beitrittsgesuche in Bearbeitung.
+RESULT_TYPE.INVALID_GUILD_RANK,Ungültiger Gildenrang.
+RESULT_TYPE.INVALID_GUILD_INTRODUCE,Ungültige Gilden-Vorstellung.
+RESULT_TYPE.TOO_LONG_GUILD_INTRODUCE,Gilden-Vorstellungstext ist zu lang.
+RESULT_TYPE.INVALID_GUILD_NOTICE,Ungültige Gilden-Ankündigung.
+RESULT_TYPE.TOO_LONG_GUILD_NOTICE,Gilden-Ankündigung ist zu lang.
+RESULT_TYPE.GUILD_JOIN_REQUEST_EXIST,Kann aufgrund ausstehender Beitrittsgesuche nicht verändert werden.
+RESULT_TYPE.ALREADY_EXIST_NAME,Name existiert bereits.
+RESULT_TYPE.MAX_CONTRIBUTED_GEM,Derzeit auf max. Spendenlevel.
+RESULT_TYPE.NO_CONTRIBUTE_COUNT,Gildenspende-Anzahl nicht vorhanden.
+RESULT_TYPE.INVALID_GUILD_ID,Ungültige Gildennr.
+RESULT_TYPE.INVALID_TARGET_RANK,Ungültiger Gildenrang.
+RESULT_TYPE.INVALID_SKILL_LEVEL,Ungültiger Gilden-Skilllevel.
+RESULT_TYPE.GUILD_JOIN_REQUEST_PROCESSING,Gilden-Beitrittsgesuch wird bearbeitet.
 RESULT_TYPE.NOT_ELAPSED_GUILD_REQUEST_COOL_TIME,"Nachdem du eine Gilde verlassen hast, kannst du für {1} Stunde(n) keine neue Gilde erstellen und keiner anderen beitreten."
-RESULT_TYPE.NO_GUILD_SKILL_LEVEL_UP_REQUEST,"Keine Daten über Gilden-Skillevel Anfrage."
-RESULT_TYPE.ALREADY_GUILD_SKILL_LEVEL_UP_REQUESTED,"Gilden-Skill Level-Up bereits angefordert."
-RESULT_TYPE.ALREADY_BID,"Für dieses Item wurde bereits geboten."
-RESULT_TYPE.ALREADY_CREATED_ROOM,"Lobby wurde bereits eröffnet."
-RESULT_TYPE.NOT_ROOM_MASTER,"Du bist nicht der Lobbyleiter."
-RESULT_TYPE.ROOM_NOT_FOUND,"Lobby nicht vorhanden."
-RESULT_TYPE.NOT_ENOUGH_GUILD_ACTIVITY_POINT,"Nicht genug Gilden-Aktv.Punkte."
-RESULT_TYPE.TRANSCEND_ITEM_INDEX_ERROR,"Ungültiges Überschreitungsitem."
-RESULT_TYPE.NOT_ENOUGH_TRANSCEND_ITEM,"Nicht genug Überschreitungsitems."
-RESULT_TYPE.CANNOT_TRANSCEND_MORE,"Max. Überschreitungslevel erreicht."
-RESULT_TYPE.NOT_ENOUGH_PURIFIED,"Nicht vollständig gereinigt."
-RESULT_TYPE.WRONG_SLOT_INDEX,"Ungültige Fach-Nr."
-RESULT_TYPE.NOT_SELECTABLE_SLOT_INDEX,"Kann Fach nicht auswählen."
-RESULT_TYPE.CRAFT_SLOT_PRICE_DATA_NOT_FOUND,"Keine Preisinfo über das Herst.-Fach."
-RESULT_TYPE.INVALID_PRICE,"Ungültiger Preis."
-RESULT_TYPE.NO_FLASK_ITEM,"Keine Flaschen gefunden."
-RESULT_TYPE.FLASK_DATA_NOT_FOUND,"Keine Flaschen-Daten vorhanden."
-RESULT_TYPE.CRAFT_DATA_NOT_FOUND,"Keine Herst.-Daten vorhanden."
-RESULT_TYPE.NOT_CRAFT_SLOT_INDEX,"Dies ist kein Herst.-Fachnummer."
-RESULT_TYPE.NOT_YET_CRAFTED,"Herstellung nicht abgeschlossen."
-RESULT_TYPE.ALREADY_USING_FLASK,"Flasche ist bereits angelegt."
-RESULT_TYPE.HERO_NOT_SELECTABLE,"Kann Held nicht auswählen."
-RESULT_TYPE.HERO_FRAGMENT_DATA_ERROR,"Ungültige Helden-Fragmenteninfo vorhanden."
-RESULT_TYPE.NO_HEROES,"Kein Held vorhanden."
-RESULT_TYPE.INVALID_HERO,"Ungültiger Held."
-RESULT_TYPE.MATCHING_BLOCKED,"Du kannst Matches temporär nicht beitreten."
-RESULT_TYPE.ALREADY_RESET,"Zurücksetzung bereits vollzogen."
-RESULT_TYPE.INVALID_RESET_COST,"Falscher Zurücksetzungs-Preis."
-RESULT_TYPE.NOT_ENOUGH_RESET_COST,"Nicht genug Resourcen für eine Zurücksetzung."
-RESULT_TYPE.SCENARIO_QUEST_DATA_NOT_FOUND,"Szenario-Questdaten nicht vorhanden."
-RESULT_TYPE.NOT_ENOUGH_PROGRESS,"Fortschritt nicht ausreichend."
-RESULT_TYPE.NOT_CLIENT_ONLY,"Nicht für Clients geeignet."
-RESULT_TYPE.INVALID_PAY_SHOP_TYPE,"Ungültiger Cash-Shop-Typ."
-RESULT_TYPE.INVALID_SHOP_ITEM_DATA,"Ungültige Shopitem-Daten."
-RESULT_TYPE.SHOP_RESTOCK_INFO_NOT_FOUND,"Ungültige Shop-Aufstockungsdaten."
-RESULT_TYPE.SIGNED_OUT,"Abgemeldet."
-RESULT_TYPE.NO_CACHE,"Kein Zwischenspeicher."
-RESULT_TYPE.BLOCKED,"Derzeit geblockt."
-RESULT_TYPE.LOW_VERSION,"Version ist zu alt."
-RESULT_TYPE.INVALID_STAMINA_TYPE,"Falscher Ausdauer-Typ."
-RESULT_TYPE.MAX_STAMINA,"Bei max. Ausdauer."
-RESULT_TYPE.GUILD_MASTER_CANNOT_SIGN_OUT,"Gildenmeister können nicht austreten."
-RESULT_TYPE.DBSELECT_ERROR,"Datenbank-Fehler."
-RESULT_TYPE.DBUPDATE_ERROR,"Datenbank-Fehler."
-RESULT_TYPE.INVALID_GIVE_ITEM_RESULT,"Item kann nicht vergeben werden."
-RESULT_TYPE.ALREADY_PASSED_ORDER_ID,"Rechnungsnr. wurde bereits verschickt."
-RESULT_TYPE.SERVER_BUSY,"Angeforderter Kauf wird überprüft."
-RESULT_TYPE.ALREADY_FINISHED,"Rechnungsnr. wurde bereits verschickt und verarbeitet."
-RESULT_TYPE.PRODUCT_ID_NOT_EXIST,"Item-ID nicht vorhanden."
-RESULT_TYPE.DBINSERT_ERROR,"Datenbank-Fehler."
-RESULT_TYPE.IAPINFO_NOT_FOUND,"Kaufdaten nicht vorhanden."
-RESULT_TYPE.AWAKE_DATA_NOT_FOUND,"Überschreitungsdaten nicht vorhanden."
-RESULT_TYPE.ALREADY_COMPLETED_CRAFT_ITEM,"Die Itemherstellung ist abgeschlossen."
-RESULT_TYPE.DUPLICATED_HERO,"Doppelter Held."
-RESULT_TYPE.NOT_COMPLETED_DUNGEON,"Dungeon wurde nicht abgeschlossen."
-RESULT_TYPE.GOOGLE_RETRY_NEEDED,"Google-Neuversuch benötigt."
-RESULT_TYPE.APPLE_RETRY_NEEDED,"IOS-Neuversuch benötigt."
-RESULT_TYPE.NOT_HERO_TANSCENDED,"Held wurde nicht überschritten."
-RESULT_TYPE.NOT_ENOUGH_TRANSCEND,"Held-Überschreitung ist unzureichend."
-RESULT_TYPE.WRONG_REMAIN_TIME,"Verbleibende Zeit ist falsch."
-RESULT_TYPE.HERO_TRIAL_ALREADY_COMPLETED,"Prüfung abgeschlossen."
-RESULT_TYPE.ALREADY_HAVE_COSTUME,"Du besitzt dieses Kostüm bereits."
-RESULT_TYPE.COSTUME_DATA_NOT_FOUND,"Kostümdaten sind nicht verfügbar."
-RESULT_TYPE.COSTUME_NOT_OPENED,"Dieses Kostüm ist noch nicht veröffentlicht."
-RESULT_TYPE.HERO_AWAKE_DATA_NOT_FOUND,"Überschreitungsdaten nicht vorhanden."
-RESULT_TYPE.COSTUME_IS_DEFAULT,"Kostüm bereits im Besitz."
-RESULT_TYPE.NOT_CORRECT_HERO,"Dieser Held kann dieses Kostüm nicht anlegen."
-RESULT_TYPE.COSTUME_NOT_OWNED,"Dieses Kostüm ist nicht in deinem Besitz."
-RESULT_TYPE.CANNOT_SET_COSTUME,"Kann Kostpm nicht anlegen."
-RESULT_TYPE.ALREADY_COSTUMED,"Kostüm bereits angelegt."
-RESULT_TYPE.NOT_EQUIP_COSTUME,"Kostüm derzeit nicht angelegt."
-RESULT_TYPE.LOCKED_EQUIP_ITEM_EXISTS,"Es gibt noch verschlossene Items."
-RESULT_TYPE.ALREADY_LOCKED,"Dieses Item wurde bereits verschlossen."
-RESULT_TYPE.ALREADY_UN_LOCKED,"Dieses Item wurde bereits freigeschaltet."
-RESULT_TYPE.NOT_ENOUGH_RAID_POINT,"Nicht genug Raid-Punkte."
-RESULT_TYPE.MULTIPLAY_NOT_ENDED,"Kampf wurde nicht beendet."
-RESULT_TYPE.NOT_BREAKABLE_ITEM_EXISTS,"Items vorhanden, die nicht zerlegt werden können."
-RESULT_TYPE.LOCKED_ITEM_EXISTS,"Verschlossene Items vorhanden."
-RESULT_TYPE.NOT_FREE_KEEP_RUNE,"Derzeit benötigt die Erhaltung aktiver Runen keine Rubine."
-RESULT_TYPE.FREE_KEEP_RUNE,"Derzeit benötigt die Erhaltung aktiver Runen Rubine."
-RESULT_TYPE.CANNOT_RESTOCK,"Item-Liste konnte nicht geladen werden."
-RESULT_TYPE.ALREADY_COMPLETED_GUILD_RAID,"Dieser Gilden-Raid wurde bereits abgeschlossen."
-RESULT_TYPE.NOT_CURRENT_GUILD_RAID_DUNGEON,"Dieses Gebiet wurde bereits geklärt."
-RESULT_TYPE.PLAYING_GUILD_RAID_EXIST,"Ein anderes Gildenmitglied befindet sich bereits im Kampf."
-RESULT_TYPE.GUILD_RAID_NOT_OPENED,"Dieser Gilden-Raid wurde nicht eröffnet."
-RESULT_TYPE.GUILD_RAID_DUNGEON_DATA_NOT_FOUND,"Kann Dungeon nicht finden."
-RESULT_TYPE.GUILD_RAID_INFO_NOT_FOUND,"Der Kampf konnte nicht normal fortgesetzt werden. Bitte versuche es erneut."
-RESULT_TYPE.GUILD_RAID_CANCELED,"Gilden-Raid wurde abgebrochen."
-RESULT_TYPE.NOT_RENEW_EQUIP_ITEM,"Kein Item zum Wiederschmieden ausgewählt."
-RESULT_TYPE.NO_RENEW_OPTION_SLOT,"Dieses Item kann nicht wiedergeschmiedet werden."
-RESULT_TYPE.GUILD_RAID_CHAPTER_DATA_NOT_FOUND,"Gilden-Raid Kapitel nicht vorhanden."
-RESULT_TYPE.NOT_GUILD_MASTER,"Du bist nicht der Gildenmeister."
-RESULT_TYPE.ALREADY_OPEN,"Raid ist bereits offen."
-RESULT_TYPE.NOT_OPENABLE_TIME,"Derzeit nicht verfügbar."
-RESULT_TYPE.INVALID_GUILD_RAID_OPEN_DURATION,"Falsche Zeit für offene Raids."
-RESULT_TYPE.PARSING_CREATURE_INFO_ERROR,"Heldeninfo-Parsing fehlgeschlagen."
-RESULT_TYPE.NOT_GUILD_RAID_PLAYING_ACCOUNT,"Gilden-Raid nicht im Gange."
-RESULT_TYPE.INVALID_CREATURE_WAVE_SLOT_INDEX,"Ungültiges Helden-Fach."
-RESULT_TYPE.ALIVE_ENEMY_EXIST,"Es sind noch Feinde vorhanden."
-RESULT_TYPE.ALL_HEROES_DIED,"Alle Helden sind gefallen."
-RESULT_TYPE.ONE_STORE_RETRY_NEEDED,"OneStore-Neuversuch benötigt."
-RESULT_TYPE.NO_OLD_OPTION_INDEX,"Originaloption nicht vorhanden."
-RESULT_TYPE.NO_RENEW_OPTION_RESULT_INDEX,"Neues Optionsergebnis nicht vorhanden."
-RESULT_TYPE.INVALID_CONFIRM_OPTION_INDEX,"Falsche Optionsnummer."
-RESULT_TYPE.OPTION_SLOT_MISMATCH,"Optionsfach stimmt nicht überein."
-RESULT_TYPE.EMPTY_PRICE,"Preis nicht vorhanden."
-RESULT_TYPE.INVAID_PRICE,"Ungültiger Preis."
-RESULT_TYPE.NO_AVAILABLE_OPTION,"Keine Option verfügbar."
-RESULT_TYPE.SAME_EVENT_CALENDAR,"Gleicher Event-Kalender."
-RESULT_TYPE.ITEM_DESTROYED,"Item wurde zerstört."
-RESULT_TYPE.ITEM_NOT_FOUND,"Item nicht gefunden."
-RESULT_TYPE.WRONG_ITEM_COUNT,"Falsche Itenanzahl."
-RESULT_TYPE.INVALID_OPEN_DURATION,"Ungültige Öffnungszeit."
-RESULT_TYPE.ADDED_GUILD_RAID_INFO_IS_NULL,"Gilden-Raid Info nicht vorhanden."
-RESULT_TYPE.INVALID_DIFFICULTY,"Ungültiger Schwierigkeitsgrad."
-RESULT_TYPE.CAMPAIGN_INFO_NOT_FOUND,"Aufgrund eines Netzwerkfehlers kommt es zu einer Server-Verzögerung beim Verarbeiten von Benutzer-Kampfberichten. Bitte versuche es später erneut."
-RESULT_TYPE.NOT_GUILD_RAID,"Dies ist kein Gilden-Raid."
-RESULT_TYPE.NOT_PLAYING_ACCOUNT,"Konto wird derzeit nicht gespielt."
-RESULT_TYPE.INVALID_ACTION_VALUE,"Ungültiger Wert."
-RESULT_TYPE.INVALID_CHAPTER_DUNGEON,"Ungültiges Kapitel oder Dungeon-Index."
-RESULT_TYPE.INVALID_SELECT_ITEM_COUNT,"Ungültige Nummer gewählter Items."
-RESULT_TYPE.ITEM_NOT_EXIST,"Gewählte Item-Daten nicht vorhanden."
-RESULT_TYPE.ITEM_NOT_SELECTED,"Item wurde nicht gewählt."
-RESULT_TYPE.ALREADY_HAS_HERO,"Du besitzt diesen Helden bereits."
-RESULT_TYPE.INVALID_ROOM_INFO,"Falsche Raum-Info."
-RESULT_TYPE.ROOM_NOT_EXIST,"Dieser Raum existiert nicht."
-RESULT_TYPE.NOT_DELEGATE_ACCOUNT_ID,"Kein Spieler zur Übergabe verfügbar."
-RESULT_TYPE.ROOM_FULL,"Raum ist voll."
-RESULT_TYPE.ROOM_IN_BATTLE,"In diesem Raum ist ein Kampf im Gange."
-RESULT_TYPE.NOT_JOINED_RAID_ROOM,"Du bist dem Raum nicht beigetreten."
-RESULT_TYPE.INVALID_ROOM_NO,"Raumnr. ist falsch."
-RESULT_TYPE.ALREADY_JOINED_BROADCAST_ROOM,"Du guckst diese Übertragung bereits an."
-RESULT_TYPE.NOT_JOINED_BROADCAST_ROOM,"Du bist kein Teil einer Übertragung."
-RESULT_TYPE.WORLD_BOSS_RANK_ERROR,"Weltenboss-Rang Fehler."
-RESULT_TYPE.WORLD_BOSS_CANCELED,"Der Kampf wurde aufgrund ungewöhnlich hoher Schadenswerte beendet."
-RESULT_TYPE.WORLD_BOSS_SEASON_CHANGED,"Ein anderer Weltenboss ist aufgetaucht."
-RESULT_TYPE.STARTED_WORLD_BOSS_NOT_FOUND,"Weltenboss kann nicht gestartet werden."
-RESULT_TYPE.WORLD_BOSS_DATA_NOT_FOUND,"Keine Daten zum Weltenboss gefunden."
-RESULT_TYPE.CANNOT_SEARCH_MY_FRIEND,"Suche nach Freund nicht möglich."
-RESULT_TYPE.BOOSTER_DATA_NOT_FOUND,"Booster-Info existiert nicht."
-RESULT_TYPE.PATCH_NOTE_NOT_FOUND,"Patchnote existiert nicht."
-RESULT_TYPE.SAME_PATCH_NOTE,"Dieselbe Patchnote."
-RESULT_TYPE.HP_NOT_FOUND,"Monster-TP konnten nicht geladen werden."
-RESULT_TYPE.KICKED_FROM_ROOM,"Dieser Spieler wurde aus dem Raum geworfen."
-RESULT_TYPE.MASTER_BANNED,"Dieser Spieler wurde vom Raummeister gebannt."
-RESULT_TYPE.KICK_MEMBER_NOT_EXIST,"Niemand zu entfernen."
-RESULT_TYPE.INTERNAL_ERROR,"Interner Fehler."
-RESULT_TYPE.BAN_ACCOUNT_FULL,"Maximale Anzahl gebannter Spieler erreicht."
-RESULT_TYPE.ALREADY_ADDED_ACCOUNT,"Dieser Spieler wurde bereits hinzugefügt."
-RESULT_TYPE.BAN_ACCOUNT_NOT_EXIST,"Dieser Spieler existiert nicht."
-RESULT_TYPE.FAVORITE_ACCOUNT_FULL,"Favouritenliste ist voll."
-RESULT_TYPE.FAVORITE_ACCOUNT_NOT_EXIST,"Dieser Spieler existiert nicht."
-RESULT_TYPE.NOT_ENOUGH_WORLD_BOSS_POINT,"Nicht genug Weltenboss-Punkte."
-RESULT_TYPE.NOT_ENOUGH_EVENT_POINT,"Nicht genug Event-Punkte."
-RESULT_TYPE.ROOM_SERVER_INTERNAL_ERROR,"Interner Raumfehler"
-RESULT_TYPE.ALREADY_EXIST_GUILD_NAME,"Gildenname existiert bereits"
-RESULT_TYPE.MAX_FRIENDLY_POINT,"Maximale Freundschaft erreicht."
-RESULT_TYPE.CANNOT_GIVE_GIFT_NPC,"Schenken nicht möglich."
-RESULT_TYPE.FRIENDLY_POINT_INFO_NOT_FOUND,"Keine Freundschaftsinfo verfügbar."
-RESULT_TYPE.FRIENDLY_POINT_DATA_NOT_FOUND,"Keine Freundschaftsdaten."
-RESULT_TYPE.INVALID_FRIENDLY_POINT_STEP,"Freundschaftslevel-Fehler"
-RESULT_TYPE.NOT_ENOUGH_FRIENDLY_POINT,"Nicht genug Freundschaft"
-RESULT_TYPE.NEXT_TIER_EQUIP_ITEM_NOT_FOUND,"Keine Stufen-Upgrade Itemdaten verfügbar."
-RESULT_TYPE.INVALID_NEXT_TIER_STEP,"Ungültige Stufen-Upgrade Itemdaten."
-RESULT_TYPE.MAX_TIER_ITEM,"Stufen-Upgrade Item ist bereits auf der derz. höchsten Stufe."
-RESULT_TYPE.MATERIAL_ITEM_DATA_NOT_FOUND,"Keine Material-Itemdaten vorhanden."
-RESULT_TYPE.UPGRADE_TIER_NOT_FOUND,"Keine Stufen-Upgrade Daten vorhanden."
-RESULT_TYPE.NOT_EQUIP_MAX_STAR,"Stufen-Upgrade Item hat keine max. Sternenanzahl."
-RESULT_TYPE.WORLD_BOSS_DAILY_REWARDING,"Tagesbelohnungen werden berechnet."
-RESULT_TYPE.CANNOT_BUY_NO_EVENT,"Event ist nicht aktiv."
-RESULT_TYPE.CANNOT_RESTOCK_NO_EVENT,"Event ist nicht aktiv."
-RESULT_TYPE.EVENT_DUNGEON_DATA_NOT_FOUND,"Event-Dungeon Daten existieren nicht."
-RESULT_TYPE.EVENT_DUNGEON_CLOSED,"Event-Dungeon beendet."
-RESULT_TYPE.WITHDRAW_PENALTY,"Eingeschränkt während der Gildenverstoß-Phase."
-RESULT_TYPE.EQUIP_ENCHANT_OPTION_ITEM_DATA_NOT_FOUND,"Keine Verzauberungs-Optionsinfo verfügbar."
-RESULT_TYPE.NOT_ENOUGH_EVENT_DUNGEON_POINT,"Nicht genügend Event-Punkte."
-RESULT_TYPE.GUILD_CONTENTS_RESTRICTED,"Einkäufe sind während der Gildenverstoß-Phase nicht möglich."
-RESULT_TYPE.ITEM_EXPIRED,"Item ist abgelaufen"
-RESULT_TYPE.WRONG_WORLD_BOSS_CHAPTER,"Weltenboss ist aktuell nicht verfügbar."
-RESULT_TYPE.WRONG_WORLD_BOSS_DUNGEON,"Weltenboss ist aktuell nicht verfügbar."
-RESULT_TYPE.CREATURE_STAR_DATA_NOT_FOUND,"Held-Erwecken-Info nicht verfügbar."
-RESULT_TYPE.RANK_ERROR,"Fehlerhaftes Ranking"
-RESULT_TYPE.CANCELED,"Abgebrochen"
-RESULT_TYPE.NOT_ENOUGH_EVENT_DUNGEON_POINT2,"Ungenügend Punkte"
-RESULT_TYPE.NOT_ENOUGH_EVENT_DUNGEON_POINT3,"Nicht genügend Event-Punkte."
-RESULT_TYPE.NOT_ENOUGH_GLORY_POINT,"Nicht genügend Ehrenmedaillen."
-RESULT_TYPE.NOT_AVAILABLE_HERO,"Held kann nicht verwendet werden."
-RESULT_TYPE.INVAILD_ACHIEVEMENT_INDEX,"Belohnung kann nicht erhalten werden."
-RESULT_TYPE.CHALLENGE_RAID_NOT_OPENED,"Herausforderungsraidzeit ist abgelaufen. Fortführung daher nicht möglich."
-RESULT_TYPE.CENSORED_WORD_NAME,"Name kann nicht benutzt werden"
-RESULT_TYPE.NOT_OPENED_ROOM,"Dieser Raum ist privat und kann nicht betreten werden."
-RESULT_TYPE.ROOM_LEFT,"Raum wurde auf Grund von Netzwerkverbindungsproblemen aufgelöst."
-RESULT_TYPE.CHALLENGE_RAID_DATA_NOT_FOUND,"Herausforderungsraid-Daten existieren nicht"
-RESULT_TYPE.NO_EVENT_DUNGEON_DATA,"Eventdungeon-Daten existieren nicht"
-RESULT_TYPE.NO_RESET_COUNT,"Keine weiteren Zurücksetzungen."
-RESULT_TYPE.NO_RESET_CURRENCY_TYPE,"Keine weitere Zurücksetzungswährung."
-RESULT_TYPE.NO_RESET_AMOUNT,"Keine weiteren Zurücksetzungen verfügbar."
-RESULT_TYPE.INVALID_ACHIEVEMENT_INDEX,"Falsche Erfolgnummer."
-RESULT_TYPE.NOT_ENOUGH_EVENT_GIFT,"Nicht genügend Eventgeschenke."
-RESULT_TYPE.MISSING_EVENT_WORLD_BOSS_INDEX,"Event-Weltenbossnummer existiert nicht."
-RESULT_TYPE.EVENT_WORLD_BOSS_NOT_EXIST,"Event-Welltenboss existiert nicht."
-RESULT_TYPE.EVENT_WORLD_BOSS_NOT_ACTIVE,"Event-Weltenboss ist gesperrt."
-RESULT_TYPE.EVENT_WORLD_BOSS_DATA_NOT_FOUND,"Event-Weltenbossdaten nicht verfügbar."
-RESULT_TYPE.WRONG_EVENT_WORLD_BOSS_CHAPTER,"Event-Weltenboss nicht verfügbar."
-RESULT_TYPE.WRONG_EVENT_WORLD_BOSS_DUNGEON,"Event-Weltenboss nicht verfügbar."
-RESULT_TYPE.EVENT_WORLD_BOSS_CANCELED,"Event-Weltenboss wurde abgebrochen."
-RESULT_TYPE.EVENT_WORLD_BOSS_SEASON_CHANGED,"Event-Weltenbosssaison hat sich geändert."
-RESULT_TYPE.STARTED_EVENT_WORLD_BOSS_NOT_FOUND,"Angefangene Event-Weltenbossdaten nicht verfügbar."
-RESULT_TYPE.EVENT_WORLD_BOSS_HP_ERROR,"Ungültige Event-Weltenboss-HP."
-RESULT_TYPE.EVENT_WORLD_BOSS_NOT_PLAYABLE_TIME,"Event-Weltenboss nicht verfügbar."
-RESULT_TYPE.CHALLENGE_RAID_SCORE_ERROR,"Ungültige Herausforderungsraid-Punktzahl."
-RESULT_TYPE.EVENT_WORLD_BOSS_LEVEL_CHANGED,"Änderung des Event-Weltenbosslevels."
-RESULT_TYPE.CRAFT_DATA_NOT_OPENED,"Item kann nicht hergestellt werden."
-RESULT_TYPE.NOT_ENOUGH_SKILL_POINT,"Ungenügend Transzendenzpunkte."
-RESULT_TYPE.IS_NOT_UNEQUIP_TYPE,"This item cannot be removed."
-RESULT_TYPE.NOT_OPEN_PAGE,"Skill page is not open."
-RESULT_TYPE.PAGE_NOT_FOUND,"Page does not exist."
-RESULT_TYPE.ALREADY_HAVE_PAGE,"You have already purchased this page."
-RESULT_TYPE.SKILL_TYPE_ALREADY_LEARNED,"You have already acquired the same type of skill."
-RESULT_TYPE.NOT_CORRECT_OPTION_COUNT,"Invalid option number."
-RESULT_TYPE.NOT_ENOUGH_HIDEOUT_DUNGEON_COUNT,"Nicht genug Schlüssel für den Großdungeon."
-RESULT_TYPE.CHAPTER_INDEX_NOT_FOUND,"Kapitel existiert nicht."
-RESULT_TYPE.RESET_GEM_NOT_FOUND,"Information zu Zurücksetzungskosten können nicht gefunden werden."
-RESULT_TYPE.INVAID_RESET_GEM,"Keine Informationen zu Zurücksetzungskosten."
-RESULT_TYPE.SELECT_ITEM_DATA_NOT_FOUND,"Ticketinformation kann nicht gefunden werden."
-RESULT_TYPE.IMPOSSIBLE_SELECT_ITEM,"Dieses Item ist nicht in der Liste enthalten."
-RESULT_TYPE.PURCHASE_MARKETING_DATA_NOT_FOUND,"Produktdaten können nicht gefunden werden."
-RESULT_TYPE.PURCHASE_MARKETING_NOT_OPENED,"Dieses Item wird zurzeit nicht angeboten."
-RESULT_TYPE.NOT_AVAILABLE_REPEAT_COOLTIME,"Dieses Item kann nicht verkauft werden."
-RESULT_TYPE.REMAIN_REPEAT_COOLTIME,"Dieses Item kann zurzeit nicht gekauft werden."
-RESULT_TYPE.NOT_ENOUGH_LUA_POINT,"Nicht genug Luas Zeichen."
-RESULT_TYPE.BAN_PICK_PENALTY_USER_BLOCKED,"Du hast eine Strafe für geringe Teilnahme erhalten.\nMatch ist {1} Min. lang nicht verfügbar."
-RESULT_TYPE.SENSITIVE_WORD,"This name is already in use."
-RESULT_TYPE.INVALID_BROADCAST_NAME_IN_THIS_SERVER,"Du kannst nur japanische Zeichen/lateinische Buchstaben und Zahlen eingeben."
-RESULT_TYPE.INVALID_GUILD_NAME_IN_THIS_SERVER,"Du kannst nur japanische Zeichen/lateinische Buchstaben und Zahlen eingeben."
-RESULT_TYPE.INVALID_NICK_IN_THIS_SERVER,"Du kannst nur japanische Zeichen/lateinische Buchstaben und Zahlen eingeben."
-RESULT_TYPE.SENSITIVE_WORD_NAME,"Dieser Name existiert bereits."
-RESULT_TYPE.NOT_JOINED_PARTY_DUNGEON_ROOM,"Du hast keine Lobby betreten."
-RESULT_TYPE.SERVER_CLOSED,"Server geschlossen."
-RESULT_TYPE.COUPON_MISMATCH,"Ungültiger Coupon."
-RESULT_TYPE.NOT_ENOUGH_COUPON_ITEM,"Nicht genügend Coupons."
-RESULT_TYPE.COUPON_ITEM_DATA_NOT_FOUND,"Ungültiger Coupon."
-RESULT_TYPE.INVALID_COUPON_ITEM_TYPE,"Ungültiger Coupon."
-RESULT_TYPE.INVAILD_PRICE_TYPE,"Ungültige Gegenstände."
-RESULT_TYPE.PARTY_DUNGEON_LEVEL_MISMATCH,"Ein Gruppenmitglied kann nicht am Kampf teilnehmen."
-RESULT_TYPE.CENSORED_GUILD_INTRODUCE,"Unzulässiges Wort in Gildenbeschreibung enthalten."
-RESULT_TYPE.CENSORED_GUILD_NOTICE,"Unzulässiges Wort in Gildenankündigung enthalten."
-RESULT_TYPE.INVALID_NOTICE_IN_THIS_SERVER,"Du kannst keine andere Sprache verwenden."
-RESULT_TYPE.ACCUMULATE_LOGIN_REWARD_TABLEA_NOT_FOUND,"Keine Daten für Login-Belohnung gefunden."
-RESULT_TYPE.IS_NOT_CONDITION,"Du kannst diese Belohnung noch nicht erhalten."
-RESULT_TYPE.TITLE_DATA_NOT_FOUND,"Keine bestehenden Titeldaten."
-RESULT_TYPE.TITLE_NOT_FOUND,"Du besitzt diesen Titel nicht."
-RESULT_TYPE.TITLE_EXPIRED,"Der Titel ist abgelaufen."
-RESULT_TYPE.EQUIP_DETAIL_DATA_NOT_FOUND,"Die Daten für die Ausrüstung wurden nicht gefunden."
-RESULT_TYPE.NO_MORE_ROULETTE,"Du kannst das Glücksrad nicht noch einmal drehen."
-RESULT_TYPE.REWARD_DATA_NOT_FOUND,"Ungültige Belohungs-Daten."
-RESULT_TYPE.NOT_COMPLETED_REQ_DUNGEON,"Benötigtes Kapitel für Eintritt ist noch nicht abgeschlossen."
-RESULT_TYPE.INVALID_PRICE_TYPE,"Ungültige Gegenstände."
-RESULT_TYPE.LIMIT_OPEN_COUNT,"Du hast die maximale Anzahl an gleichzeitig geöffneten Gildenraids überschritten."
-RESULT_TYPE.CHALLENGE_RAID_RANK_ERROR,"Herausforderungsraid-Daten existieren nicht"
-RESULT_TYPE.INVALID_BUILDING_LEVEL,"Kann Level-Info nicht finden."
-RESULT_TYPE.NOT_ENOUGH_TRAINING_CENTER_LEVEL,"Ungültige Skill-Erweiterung."
-RESULT_TYPE.ALREADY_APPLIED,"Beitrittsgesuch bereits gesendet..."
-RESULT_TYPE.GUILD_SUPPRESS_ALREADY_COMPLETED,"Dieses Gebiet wurde bereits geklärt."
-RESULT_TYPE.GUILD_SUPPRESS_NOT_BATTLE_STATE,"Derzeit nicht verfügbar."
-RESULT_TYPE.GUILD_SUPPRESS_RAID_DATA_NOT_FOUND,"In der Spielerinfo wurden keine Gildeneroberungsinfos gefunden."
-RESULT_TYPE.GUILD_SUPPRESS_SESSION_NOT_FOUND,"Das Dungeon existiert nicht."
-RESULT_TYPE.GUILD_SUPPRESS_BATTLE_RESULT_ERROR,"Aufgrund eines Netzwerkfehlers kommt es zu einer Server-Verzögerung beim Verarbeiten von Benutzerinformationen. Versuche es später erneut."
-RESULT_TYPE.GUILD_SUPPRESS_NOT_COMPLETED_REQ_DUNGEON,"Benötigtes Kapitel für Eintritt ist noch nicht abgeschlossen."
-RESULT_TYPE.GUILD_SUPPRESS_SESSION_DATA_NOT_FOUND,"Die erforderlichen Informationen konnten nicht gefunden werden."
-RESULT_TYPE.GUILD_SUPPRESS_PLAY_INFO_NOT_FOUND,"Daten konnten nicht gefunden werden."
-RESULT_TYPE.GUILD_SUPPRESS_NOT_APPLIED,"Du hast nicht um die Teilnehme an einer Gildeneroberung gebeten."
-RESULT_TYPE.GUILD_SUPPRESS_DUNGEON_DATA_NOT_FOUND,"Die Dungeon-Infos sind nicht vorhanden."
-RESULT_TYPE.NOT_APPLIABLE,"Der Zeitraum für Gildeneroberungsanfragen hat noch nicht begonnen."
-RESULT_TYPE.GUILD_MEMBER_REWARD_DATA_NOT_FOUND,"Belohnungsinfo nicht vorhanden."
-RESULT_TYPE.INVALID_BUILDING_INDEX,"Ungültige Daten."
-RESULT_TYPE.GUILD_BUILDING_DATA_NOT_FOUND,"Die erforderlichen Informationen konnten nicht gefunden werden."
-RESULT_TYPE.EXCEED_WOOD,"Die Obergrenze wurde überschritten."
-RESULT_TYPE.EXCEED_STONE,"Die Obergrenze wurde überschritten."
-RESULT_TYPE.EXCEED_METAL,"Die Obergrenze wurde überschritten."
-RESULT_TYPE.NOT_ENOUGH_SUPPRESS_POINT,"Nicht genügend Eroberungspunkte."
-RESULT_TYPE.INVALID_ACTIVITY_POINT,"Ungültige Daten."
-RESULT_TYPE.INVALID_SUPPRESS_POINT,"Ungültige Daten."
-RESULT_TYPE.INVALID_TRAINING_CENTER_LEVEL,"Ungültige Daten."
-RESULT_TYPE.NOT_ENOUGH_WOOD,"Nicht genügend Holz."
-RESULT_TYPE.NOT_ENOUGH_METAL,"Nicht genügend Metall."
+RESULT_TYPE.NO_GUILD_SKILL_LEVEL_UP_REQUEST,Keine Daten über Gilden-Skillevel Anfrage.
+RESULT_TYPE.ALREADY_GUILD_SKILL_LEVEL_UP_REQUESTED,Gilden-Skill Level-Up bereits angefordert.
+RESULT_TYPE.ALREADY_BID,Für diesen Gegenstand wurde bereits geboten.
+RESULT_TYPE.ALREADY_CREATED_ROOM,Lobby wurde bereits eröffnet.
+RESULT_TYPE.NOT_ROOM_MASTER,Du bist nicht der Lobbyleiter.
+RESULT_TYPE.ROOM_NOT_FOUND,Lobby nicht vorhanden.
+RESULT_TYPE.NOT_ENOUGH_GUILD_ACTIVITY_POINT,Nicht genug Gilden-Aktv.Punkte.
+RESULT_TYPE.TRANSCEND_ITEM_INDEX_ERROR,Ungültiges Transzendenz-Gegenstand.
+RESULT_TYPE.NOT_ENOUGH_TRANSCEND_ITEM,Nicht genug Transzendenz-Gegenstände.
+RESULT_TYPE.CANNOT_TRANSCEND_MORE,Transzendenz nicht mehr möglich.
+RESULT_TYPE.NOT_ENOUGH_PURIFIED,Nicht vollständig gereinigt.
+RESULT_TYPE.WRONG_SLOT_INDEX,Ungültige Fach-Nr.
+RESULT_TYPE.NOT_SELECTABLE_SLOT_INDEX,Kann Fach nicht auswählen.
+RESULT_TYPE.CRAFT_SLOT_PRICE_DATA_NOT_FOUND,Keine Preisinfo über das Herst.-Fach.
+RESULT_TYPE.INVALID_PRICE,Ungültiger Preis.
+RESULT_TYPE.NO_FLASK_ITEM,Keine Flaschen gefunden.
+RESULT_TYPE.FLASK_DATA_NOT_FOUND,Keine Flaschen-Daten vorhanden.
+RESULT_TYPE.CRAFT_DATA_NOT_FOUND,Keine Herst.-Daten vorhanden.
+RESULT_TYPE.NOT_CRAFT_SLOT_INDEX,Dies ist kein Herst.-Fachnummer.
+RESULT_TYPE.NOT_YET_CRAFTED,Herstellung nicht abgeschlossen.
+RESULT_TYPE.ALREADY_USING_FLASK,Flasche ist bereits angelegt.
+RESULT_TYPE.HERO_NOT_SELECTABLE,Kann Held nicht auswählen.
+RESULT_TYPE.HERO_FRAGMENT_DATA_ERROR,Ungültige Helden-Fragmenteninfo vorhanden.
+RESULT_TYPE.NO_HEROES,Kein Held vorhanden.
+RESULT_TYPE.INVALID_HERO,Ungültiger Held.
+RESULT_TYPE.MATCHING_BLOCKED,Du kannst Matches temporär nicht beitreten.
+RESULT_TYPE.ALREADY_RESET,Zurücksetzung bereits vollzogen.
+RESULT_TYPE.INVALID_RESET_COST,Falscher Zurücksetzungs-Preis.
+RESULT_TYPE.NOT_ENOUGH_RESET_COST,Nicht genug Resourcen für eine Zurücksetzung.
+RESULT_TYPE.SCENARIO_QUEST_DATA_NOT_FOUND,Szenario-Questdaten nicht vorhanden.
+RESULT_TYPE.NOT_ENOUGH_PROGRESS,Fortschritt nicht ausreichend.
+RESULT_TYPE.NOT_CLIENT_ONLY,Nicht für Clients geeignet.
+RESULT_TYPE.INVALID_PAY_SHOP_TYPE,Ungültiger Cash-Shop-Typ.
+RESULT_TYPE.INVALID_SHOP_ITEM_DATA,Ungültige Shop-Artikel-Daten.
+RESULT_TYPE.SHOP_RESTOCK_INFO_NOT_FOUND,Ungültige Shop-Aufstockungsdaten.
+RESULT_TYPE.SIGNED_OUT,Abgemeldet.
+RESULT_TYPE.NO_CACHE,Kein Zwischenspeicher.
+RESULT_TYPE.BLOCKED,Derzeit geblockt.
+RESULT_TYPE.LOW_VERSION,Version ist zu alt.
+RESULT_TYPE.INVALID_STAMINA_TYPE,Falscher Ausdauer-Typ.
+RESULT_TYPE.MAX_STAMINA,Bei max. Ausdauer.
+RESULT_TYPE.GUILD_MASTER_CANNOT_SIGN_OUT,Gildenmeister können nicht austreten.
+RESULT_TYPE.DBSELECT_ERROR,Datenbank-Fehler.
+RESULT_TYPE.DBUPDATE_ERROR,Datenbank-Fehler.
+RESULT_TYPE.INVALID_GIVE_ITEM_RESULT,Gegenstand kann nicht vergeben werden.
+RESULT_TYPE.ALREADY_PASSED_ORDER_ID,Rechnungsnr. wurde bereits verschickt.
+RESULT_TYPE.SERVER_BUSY,Angeforderter Kauf wird überprüft.
+RESULT_TYPE.ALREADY_FINISHED,Rechnungsnr. wurde bereits verschickt und verarbeitet.
+RESULT_TYPE.PRODUCT_ID_NOT_EXIST,Gegenstand-ID nicht vorhanden.
+RESULT_TYPE.DBINSERT_ERROR,Datenbank-Fehler.
+RESULT_TYPE.IAPINFO_NOT_FOUND,Kaufdaten nicht vorhanden.
+RESULT_TYPE.AWAKE_DATA_NOT_FOUND,Transzendenz-Daten nicht vorhanden.
+RESULT_TYPE.ALREADY_COMPLETED_CRAFT_ITEM,Die Gegenstandherstellung ist abgeschlossen.
+RESULT_TYPE.DUPLICATED_HERO,Doppelter Held.
+RESULT_TYPE.NOT_COMPLETED_DUNGEON,Dungeon wurde nicht abgeschlossen.
+RESULT_TYPE.GOOGLE_RETRY_NEEDED,Google-Neuversuch benötigt.
+RESULT_TYPE.APPLE_RETRY_NEEDED,IOS-Neuversuch benötigt.
+RESULT_TYPE.NOT_HERO_TANSCENDED,Held wurde nicht transzendiert.
+RESULT_TYPE.NOT_ENOUGH_TRANSCEND,Held-Transzendenz ist unzureichend.
+RESULT_TYPE.WRONG_REMAIN_TIME,Verbleibende Zeit ist falsch.
+RESULT_TYPE.HERO_TRIAL_ALREADY_COMPLETED,Prüfung abgeschlossen.
+RESULT_TYPE.ALREADY_HAVE_COSTUME,Du besitzt dieses Kostüm bereits.
+RESULT_TYPE.COSTUME_DATA_NOT_FOUND,Kostümdaten sind nicht verfügbar.
+RESULT_TYPE.COSTUME_NOT_OPENED,Dieses Kostüm ist noch nicht veröffentlicht.
+RESULT_TYPE.HERO_AWAKE_DATA_NOT_FOUND,Transzendenz-Daten nicht vorhanden.
+RESULT_TYPE.COSTUME_IS_DEFAULT,Kostüm bereits im Besitz.
+RESULT_TYPE.NOT_CORRECT_HERO,Dieser Held kann dieses Kostüm nicht anlegen.
+RESULT_TYPE.COSTUME_NOT_OWNED,Dieses Kostüm ist nicht in deinem Besitz.
+RESULT_TYPE.CANNOT_SET_COSTUME,Kann Kostüm nicht anlegen.
+RESULT_TYPE.ALREADY_COSTUMED,Kostüm bereits angelegt.
+RESULT_TYPE.NOT_EQUIP_COSTUME,Kostüm derzeit nicht angelegt.
+RESULT_TYPE.LOCKED_EQUIP_ITEM_EXISTS,Es gibt noch verschlossene Ausrüstungen.
+RESULT_TYPE.ALREADY_LOCKED,Diese Ausrüstung wurde bereits verschlossen.
+RESULT_TYPE.ALREADY_UN_LOCKED,Diese Ausrüstung wurde bereits freigeschaltet.
+RESULT_TYPE.NOT_ENOUGH_RAID_POINT,Nicht genug Raid-Punkte.
+RESULT_TYPE.MULTIPLAY_NOT_ENDED,Kampf wurde nicht beendet.
+RESULT_TYPE.NOT_BREAKABLE_ITEM_EXISTS,"Gegenstände vorhanden, die nicht zerlegt werden können."
+RESULT_TYPE.LOCKED_ITEM_EXISTS,Verschlossene Gegenstände vorhanden.
+RESULT_TYPE.NOT_FREE_KEEP_RUNE,Derzeit benötigt die Erhaltung aktiver Runen keine Rubine.
+RESULT_TYPE.FREE_KEEP_RUNE,Derzeit benötigt die Erhaltung aktiver Runen Rubine.
+RESULT_TYPE.CANNOT_RESTOCK,Gegenstand-Liste konnte nicht geladen werden.
+RESULT_TYPE.ALREADY_COMPLETED_GUILD_RAID,Dieser Gildenraid wurde bereits abgeschlossen.
+RESULT_TYPE.NOT_CURRENT_GUILD_RAID_DUNGEON,Dieses Gebiet wurde bereits geklärt.
+RESULT_TYPE.PLAYING_GUILD_RAID_EXIST,Ein anderes Gildenmitglied befindet sich bereits im Kampf.
+RESULT_TYPE.GUILD_RAID_NOT_OPENED,Dieser Gildenraid wurde nicht eröffnet.
+RESULT_TYPE.GUILD_RAID_DUNGEON_DATA_NOT_FOUND,Kann Dungeon nicht finden.
+RESULT_TYPE.GUILD_RAID_INFO_NOT_FOUND,Der Kampf konnte nicht normal fortgesetzt werden. Bitte versuche es erneut.
+RESULT_TYPE.GUILD_RAID_CANCELED,Gildenraid wurde abgebrochen.
+RESULT_TYPE.NOT_RENEW_EQUIP_ITEM,Kein Gegenstand zum Wiederschmieden ausgewählt.
+RESULT_TYPE.NO_RENEW_OPTION_SLOT,Dieser Gegenstand kann nicht wiedergeschmiedet werden.
+RESULT_TYPE.GUILD_RAID_CHAPTER_DATA_NOT_FOUND,Gildenraid Kapitel nicht vorhanden.
+RESULT_TYPE.NOT_GUILD_MASTER,Du bist nicht der Gildenmeister.
+RESULT_TYPE.ALREADY_OPEN,Raid ist bereits offen.
+RESULT_TYPE.NOT_OPENABLE_TIME,Derzeit nicht verfügbar.
+RESULT_TYPE.INVALID_GUILD_RAID_OPEN_DURATION,Falsche Zeit für offene Raids.
+RESULT_TYPE.PARSING_CREATURE_INFO_ERROR,Heldeninfo-Parsing fehlgeschlagen.
+RESULT_TYPE.NOT_GUILD_RAID_PLAYING_ACCOUNT,Gildenraid nicht im Gange.
+RESULT_TYPE.INVALID_CREATURE_WAVE_SLOT_INDEX,Ungültiges Helden-Fach.
+RESULT_TYPE.ALIVE_ENEMY_EXIST,Es sind noch Feinde vorhanden.
+RESULT_TYPE.ALL_HEROES_DIED,Alle Helden sind gefallen.
+RESULT_TYPE.ONE_STORE_RETRY_NEEDED,OneStore-Neuversuch benötigt.
+RESULT_TYPE.NO_OLD_OPTION_INDEX,Originaloption nicht vorhanden.
+RESULT_TYPE.NO_RENEW_OPTION_RESULT_INDEX,Neues Optionsergebnis nicht vorhanden.
+RESULT_TYPE.INVALID_CONFIRM_OPTION_INDEX,Falsche Optionsnummer.
+RESULT_TYPE.OPTION_SLOT_MISMATCH,Optionsfach stimmt nicht überein.
+RESULT_TYPE.EMPTY_PRICE,Preis nicht vorhanden.
+RESULT_TYPE.INVAID_PRICE,Ungültiger Preis.
+RESULT_TYPE.NO_AVAILABLE_OPTION,Keine Option verfügbar.
+RESULT_TYPE.SAME_EVENT_CALENDAR,Gleicher Event-Kalender.
+RESULT_TYPE.ITEM_DESTROYED,Gegenstand wurde zerstört.
+RESULT_TYPE.ITEM_NOT_FOUND,Gegenstand nicht gefunden.
+RESULT_TYPE.WRONG_ITEM_COUNT,Falsche Itenanzahl.
+RESULT_TYPE.INVALID_OPEN_DURATION,Ungültige Öffnungszeit.
+RESULT_TYPE.ADDED_GUILD_RAID_INFO_IS_NULL,Gildenraid Info nicht vorhanden.
+RESULT_TYPE.INVALID_DIFFICULTY,Ungültiger Schwierigkeitsgrad.
+RESULT_TYPE.CAMPAIGN_INFO_NOT_FOUND,Aufgrund eines Netzwerkfehlers kommt es zu einer Server-Verzögerung beim Verarbeiten von Benutzer-Kampfberichten. Bitte versuche es später erneut.
+RESULT_TYPE.NOT_GUILD_RAID,Dies ist kein Gildenraid.
+RESULT_TYPE.NOT_PLAYING_ACCOUNT,Konto wird derzeit nicht gespielt.
+RESULT_TYPE.INVALID_ACTION_VALUE,Ungültiger Wert.
+RESULT_TYPE.INVALID_CHAPTER_DUNGEON,Ungültiges Kapitel oder Dungeon-Index.
+RESULT_TYPE.INVALID_SELECT_ITEM_COUNT,Ungültige Anzahl an gewählter Gegenstände.
+RESULT_TYPE.ITEM_NOT_EXIST,Gewählte Gegenstand-Daten nicht vorhanden.
+RESULT_TYPE.ITEM_NOT_SELECTED,Gegenstand wurde nicht gewählt.
+RESULT_TYPE.ALREADY_HAS_HERO,Du besitzt diesen Helden bereits.
+RESULT_TYPE.INVALID_ROOM_INFO,Falsche Raum-Info.
+RESULT_TYPE.ROOM_NOT_EXIST,Dieser Raum existiert nicht.
+RESULT_TYPE.NOT_DELEGATE_ACCOUNT_ID,Kein Spieler zur Übergabe verfügbar.
+RESULT_TYPE.ROOM_FULL,Raum ist voll.
+RESULT_TYPE.ROOM_IN_BATTLE,In diesem Raum ist ein Kampf im Gange.
+RESULT_TYPE.NOT_JOINED_RAID_ROOM,Du bist dem Raum nicht beigetreten.
+RESULT_TYPE.INVALID_ROOM_NO,Raumnr. ist falsch.
+RESULT_TYPE.ALREADY_JOINED_BROADCAST_ROOM,Du guckst diese Übertragung bereits an.
+RESULT_TYPE.NOT_JOINED_BROADCAST_ROOM,Du bist kein Teil einer Übertragung.
+RESULT_TYPE.WORLD_BOSS_RANK_ERROR,Weltboss-Rang Fehler.
+RESULT_TYPE.WORLD_BOSS_CANCELED,Der Kampf wurde aufgrund ungewöhnlich hoher Schadenswerte beendet.
+RESULT_TYPE.WORLD_BOSS_SEASON_CHANGED,Ein anderer Weltboss ist aufgetaucht.
+RESULT_TYPE.STARTED_WORLD_BOSS_NOT_FOUND,Weltboss kann nicht gestartet werden.
+RESULT_TYPE.WORLD_BOSS_DATA_NOT_FOUND,Keine Daten zum Weltboss gefunden.
+RESULT_TYPE.CANNOT_SEARCH_MY_FRIEND,Suche nach Freund nicht möglich.
+RESULT_TYPE.BOOSTER_DATA_NOT_FOUND,Booster-Info existiert nicht.
+RESULT_TYPE.PATCH_NOTE_NOT_FOUND,Patchnote existiert nicht.
+RESULT_TYPE.SAME_PATCH_NOTE,Dieselbe Patchnote.
+RESULT_TYPE.HP_NOT_FOUND,Monster-TP konnten nicht geladen werden.
+RESULT_TYPE.KICKED_FROM_ROOM,Dieser Spieler wurde aus dem Raum geworfen.
+RESULT_TYPE.MASTER_BANNED,Dieser Spieler wurde vom Raummeister gebannt.
+RESULT_TYPE.KICK_MEMBER_NOT_EXIST,Niemand zu entfernen.
+RESULT_TYPE.INTERNAL_ERROR,Interner Fehler.
+RESULT_TYPE.BAN_ACCOUNT_FULL,Maximale Anzahl gebannter Spieler erreicht.
+RESULT_TYPE.ALREADY_ADDED_ACCOUNT,Dieser Spieler wurde bereits hinzugefügt.
+RESULT_TYPE.BAN_ACCOUNT_NOT_EXIST,Dieser Spieler existiert nicht.
+RESULT_TYPE.FAVORITE_ACCOUNT_FULL,Favouritenliste ist voll.
+RESULT_TYPE.FAVORITE_ACCOUNT_NOT_EXIST,Dieser Spieler existiert nicht.
+RESULT_TYPE.NOT_ENOUGH_WORLD_BOSS_POINT,Nicht genug Weltboss-Punkte.
+RESULT_TYPE.NOT_ENOUGH_EVENT_POINT,Nicht genug Event-Punkte.
+RESULT_TYPE.ROOM_SERVER_INTERNAL_ERROR,Interner Raumfehler
+RESULT_TYPE.ALREADY_EXIST_GUILD_NAME,Gildenname existiert bereits
+RESULT_TYPE.MAX_FRIENDLY_POINT,Maximale Freundschaft erreicht.
+RESULT_TYPE.CANNOT_GIVE_GIFT_NPC,Schenken nicht möglich.
+RESULT_TYPE.FRIENDLY_POINT_INFO_NOT_FOUND,Keine Freundschaftsinfo verfügbar.
+RESULT_TYPE.FRIENDLY_POINT_DATA_NOT_FOUND,Keine Freundschaftsdaten.
+RESULT_TYPE.INVALID_FRIENDLY_POINT_STEP,Freundschaftslevel-Fehler
+RESULT_TYPE.NOT_ENOUGH_FRIENDLY_POINT,Nicht genug Freundschaft
+RESULT_TYPE.NEXT_TIER_EQUIP_ITEM_NOT_FOUND,Keine Aufstufungs-Daten verfügbar.
+RESULT_TYPE.INVALID_NEXT_TIER_STEP,Ungültige Aufstufungs-Daten.
+RESULT_TYPE.MAX_TIER_ITEM,Der aufzustufende Gegenstand ist bereits auf der derz. höchsten Stufe.
+RESULT_TYPE.MATERIAL_ITEM_DATA_NOT_FOUND,Keine Material-Daten vorhanden.
+RESULT_TYPE.UPGRADE_TIER_NOT_FOUND,Keine Aufstufungs-Daten vorhanden.
+RESULT_TYPE.NOT_EQUIP_MAX_STAR,Aufstufungs-Ausrüstungs hat max. Anzahl an Sterne noch nicht erreicht.
+RESULT_TYPE.WORLD_BOSS_DAILY_REWARDING,Tagesbelohnungen werden berechnet.
+RESULT_TYPE.CANNOT_BUY_NO_EVENT,Event ist nicht aktiv.
+RESULT_TYPE.CANNOT_RESTOCK_NO_EVENT,Event ist nicht aktiv.
+RESULT_TYPE.EVENT_DUNGEON_DATA_NOT_FOUND,Event-Dungeon Daten existieren nicht.
+RESULT_TYPE.EVENT_DUNGEON_CLOSED,Event-Dungeon beendet.
+RESULT_TYPE.WITHDRAW_PENALTY,Eingeschränkt während der Gildenverstoß-Phase.
+RESULT_TYPE.EQUIP_ENCHANT_OPTION_ITEM_DATA_NOT_FOUND,Keine Verzauberungs-Optionsinfo verfügbar.
+RESULT_TYPE.NOT_ENOUGH_EVENT_DUNGEON_POINT,Nicht genügend Event-Punkte.
+RESULT_TYPE.GUILD_CONTENTS_RESTRICTED,Einkäufe sind während der Gildenverstoß-Phase nicht möglich.
+RESULT_TYPE.ITEM_EXPIRED,Gegenstand ist abgelaufen
+RESULT_TYPE.WRONG_WORLD_BOSS_CHAPTER,Weltboss ist aktuell nicht verfügbar.
+RESULT_TYPE.WRONG_WORLD_BOSS_DUNGEON,Weltboss ist aktuell nicht verfügbar.
+RESULT_TYPE.CREATURE_STAR_DATA_NOT_FOUND,Held-Erwecken-Info nicht verfügbar.
+RESULT_TYPE.RANK_ERROR,Fehlerhaftes Ranking
+RESULT_TYPE.CANCELED,Abgebrochen
+RESULT_TYPE.NOT_ENOUGH_EVENT_DUNGEON_POINT2,Ungenügend Punkte.
+RESULT_TYPE.NOT_ENOUGH_EVENT_DUNGEON_POINT3,Nicht genügend Event-Punkte.
+RESULT_TYPE.NOT_ENOUGH_GLORY_POINT,Nicht genügend Ehrenmedaillen.
+RESULT_TYPE.NOT_AVAILABLE_HERO,Held kann nicht verwendet werden.
+RESULT_TYPE.INVAILD_ACHIEVEMENT_INDEX,Belohnung kann nicht erhalten werden.
+RESULT_TYPE.CHALLENGE_RAID_NOT_OPENED,Herausforderungsraidzeit ist abgelaufen. Fortführung daher nicht möglich.
+RESULT_TYPE.CENSORED_WORD_NAME,Name kann nicht benutzt werden
+RESULT_TYPE.NOT_OPENED_ROOM,Dieser Raum ist privat und kann nicht betreten werden.
+RESULT_TYPE.ROOM_LEFT,Raum wurde auf Grund von Netzwerkverbindungsproblemen aufgelöst.
+RESULT_TYPE.CHALLENGE_RAID_DATA_NOT_FOUND,Herausforderungsraid-Daten existieren nicht
+RESULT_TYPE.NO_EVENT_DUNGEON_DATA,Eventdungeon-Daten existieren nicht
+RESULT_TYPE.NO_RESET_COUNT,Keine weiteren Zurücksetzungen.
+RESULT_TYPE.NO_RESET_CURRENCY_TYPE,Keine weitere Zurücksetzungswährung.
+RESULT_TYPE.NO_RESET_AMOUNT,Keine weiteren Zurücksetzungen verfügbar.
+RESULT_TYPE.INVALID_ACHIEVEMENT_INDEX,Falsche Erfolgnummer.
+RESULT_TYPE.NOT_ENOUGH_EVENT_GIFT,Nicht genügend Eventgeschenke.
+RESULT_TYPE.MISSING_EVENT_WORLD_BOSS_INDEX,Event-Weltbossnummer existiert nicht.
+RESULT_TYPE.EVENT_WORLD_BOSS_NOT_EXIST,Event-Welltenboss existiert nicht.
+RESULT_TYPE.EVENT_WORLD_BOSS_NOT_ACTIVE,Event-Weltboss ist gesperrt.
+RESULT_TYPE.EVENT_WORLD_BOSS_DATA_NOT_FOUND,Event-Weltbossdaten nicht verfügbar.
+RESULT_TYPE.WRONG_EVENT_WORLD_BOSS_CHAPTER,Event-Weltboss nicht verfügbar.
+RESULT_TYPE.WRONG_EVENT_WORLD_BOSS_DUNGEON,Event-Weltboss nicht verfügbar.
+RESULT_TYPE.EVENT_WORLD_BOSS_CANCELED,Event-Weltboss wurde abgebrochen.
+RESULT_TYPE.EVENT_WORLD_BOSS_SEASON_CHANGED,Event-Weltboss-Saison hat sich geändert.
+RESULT_TYPE.STARTED_EVENT_WORLD_BOSS_NOT_FOUND,Angefangene Event-Weltbossdaten nicht verfügbar.
+RESULT_TYPE.EVENT_WORLD_BOSS_HP_ERROR,Ungültige Event-Weltboss-HP.
+RESULT_TYPE.EVENT_WORLD_BOSS_NOT_PLAYABLE_TIME,Event-Weltboss nicht verfügbar.
+RESULT_TYPE.CHALLENGE_RAID_SCORE_ERROR,Ungültige Herausforderungsraid-Punktzahl.
+RESULT_TYPE.EVENT_WORLD_BOSS_LEVEL_CHANGED,Änderung des Event-Weltenbosslevels.
+RESULT_TYPE.CRAFT_DATA_NOT_OPENED,Gegenstand kann nicht hergestellt werden.
+RESULT_TYPE.NOT_ENOUGH_SKILL_POINT,Ungenügend Transzendenz-Punkte.
+RESULT_TYPE.IS_NOT_UNEQUIP_TYPE,Dieser Gegenstand kann nicht entfernt werden.
+RESULT_TYPE.NOT_OPEN_PAGE,Skill-Seite nicht geöffnet.
+RESULT_TYPE.PAGE_NOT_FOUND,Seite existiert nicht.
+RESULT_TYPE.ALREADY_HAVE_PAGE,Du hast diese Seite bereits gekauft.
+RESULT_TYPE.SKILL_TYPE_ALREADY_LEARNED,Du hast bereits den gleichen Skill erhalten.
+RESULT_TYPE.NOT_CORRECT_OPTION_COUNT,Ungultige Option-Anzahl.
+RESULT_TYPE.NOT_ENOUGH_HIDEOUT_DUNGEON_COUNT,Nicht genug Schlüssel für den Großdungeon.
+RESULT_TYPE.CHAPTER_INDEX_NOT_FOUND,Kapitel existiert nicht.
+RESULT_TYPE.RESET_GEM_NOT_FOUND,Information zu Zurücksetzungskosten können nicht gefunden werden.
+RESULT_TYPE.INVAID_RESET_GEM,Keine Informationen zu Zurücksetzungskosten.
+RESULT_TYPE.SELECT_ITEM_DATA_NOT_FOUND,Ticketinformation kann nicht gefunden werden.
+RESULT_TYPE.IMPOSSIBLE_SELECT_ITEM,Dieser Gegenstand ist nicht in der Liste enthalten.
+RESULT_TYPE.PURCHASE_MARKETING_DATA_NOT_FOUND,Artikeldaten können nicht gefunden werden.
+RESULT_TYPE.PURCHASE_MARKETING_NOT_OPENED,Dieser Artikel wird zurzeit nicht angeboten.
+RESULT_TYPE.NOT_AVAILABLE_REPEAT_COOLTIME,Dieser Artikel kann nicht verkauft werden.
+RESULT_TYPE.REMAIN_REPEAT_COOLTIME,Dieser Artikel kann zurzeit nicht gekauft werden.
+RESULT_TYPE.NOT_ENOUGH_LUA_POINT,Nicht genug Luas Token.
+RESULT_TYPE.BAN_PICK_PENALTY_USER_BLOCKED,Du hast eine Strafe für geringe Teilnahme erhalten.\nMatch ist {1} Min. lang nicht verfügbar.
+RESULT_TYPE.SENSITIVE_WORD,This name is already in use.
+RESULT_TYPE.INVALID_BROADCAST_NAME_IN_THIS_SERVER,Du kannst nur japanische Zeichen/lateinische Buchstaben und Zahlen eingeben.
+RESULT_TYPE.INVALID_GUILD_NAME_IN_THIS_SERVER,Du kannst nur japanische Zeichen/lateinische Buchstaben und Zahlen eingeben.
+RESULT_TYPE.INVALID_NICK_IN_THIS_SERVER,Du kannst nur japanische Zeichen/lateinische Buchstaben und Zahlen eingeben.
+RESULT_TYPE.SENSITIVE_WORD_NAME,Dieser Name existiert bereits.
+RESULT_TYPE.NOT_JOINED_PARTY_DUNGEON_ROOM,Du hast keine Lobby betreten.
+RESULT_TYPE.SERVER_CLOSED,Server geschlossen.
+RESULT_TYPE.COUPON_MISMATCH,Ungültiger Coupon.
+RESULT_TYPE.NOT_ENOUGH_COUPON_ITEM,Nicht genügend Coupons.
+RESULT_TYPE.COUPON_ITEM_DATA_NOT_FOUND,Ungültiger Coupon.
+RESULT_TYPE.INVALID_COUPON_ITEM_TYPE,Ungültiger Coupon.
+RESULT_TYPE.INVAILD_PRICE_TYPE,Ungültige Gegenstände.
+RESULT_TYPE.PARTY_DUNGEON_LEVEL_MISMATCH,Ein Gruppenmitglied kann nicht am Kampf teilnehmen.
+RESULT_TYPE.CENSORED_GUILD_INTRODUCE,Unzulässiges Wort in Gildenbeschreibung enthalten.
+RESULT_TYPE.CENSORED_GUILD_NOTICE,Unzulässiges Wort in Gildenankündigung enthalten.
+RESULT_TYPE.INVALID_NOTICE_IN_THIS_SERVER,Du kannst keine andere Sprache verwenden.
+RESULT_TYPE.ACCUMULATE_LOGIN_REWARD_TABLEA_NOT_FOUND,Keine Daten für Login-Belohnung gefunden.
+RESULT_TYPE.IS_NOT_CONDITION,Du kannst diese Belohnung noch nicht erhalten.
+RESULT_TYPE.TITLE_DATA_NOT_FOUND,Keine bestehenden Titeldaten.
+RESULT_TYPE.TITLE_NOT_FOUND,Du besitzt diesen Titel nicht.
+RESULT_TYPE.TITLE_EXPIRED,Der Titel ist abgelaufen.
+RESULT_TYPE.EQUIP_DETAIL_DATA_NOT_FOUND,Die Daten für die Ausrüstung wurden nicht gefunden.
+RESULT_TYPE.NO_MORE_ROULETTE,Du kannst das Glücksrad nicht noch einmal drehen.
+RESULT_TYPE.REWARD_DATA_NOT_FOUND,Ungültige Belohungs-Daten.
+RESULT_TYPE.NOT_COMPLETED_REQ_DUNGEON,Benötigtes Kapitel für Eintritt ist noch nicht abgeschlossen.
+RESULT_TYPE.INVALID_PRICE_TYPE,Ungültige Gegenstände.
+RESULT_TYPE.LIMIT_OPEN_COUNT,Du hast die maximale Anzahl an gleichzeitig geöffneten Gildenraids überschritten.
+RESULT_TYPE.CHALLENGE_RAID_RANK_ERROR,Herausforderungsraid-Daten existieren nicht
+RESULT_TYPE.INVALID_BUILDING_LEVEL,Kann Level-Info nicht finden.
+RESULT_TYPE.NOT_ENOUGH_TRAINING_CENTER_LEVEL,Ungültige Skill-Erweiterung.
+RESULT_TYPE.ALREADY_APPLIED,Beitrittsgesuch bereits gesendet...
+RESULT_TYPE.GUILD_SUPPRESS_ALREADY_COMPLETED,Dieses Gebiet wurde bereits geklärt.
+RESULT_TYPE.GUILD_SUPPRESS_NOT_BATTLE_STATE,Derzeit nicht verfügbar.
+RESULT_TYPE.GUILD_SUPPRESS_RAID_DATA_NOT_FOUND,In der Spielerinfo wurden keine Gildeneroberungsinfos gefunden.
+RESULT_TYPE.GUILD_SUPPRESS_SESSION_NOT_FOUND,Das Dungeon existiert nicht.
+RESULT_TYPE.GUILD_SUPPRESS_BATTLE_RESULT_ERROR,Aufgrund eines Netzwerkfehlers kommt es zu einer Server-Verzögerung beim Verarbeiten von Benutzerinformationen. Versuche es später erneut.
+RESULT_TYPE.GUILD_SUPPRESS_NOT_COMPLETED_REQ_DUNGEON,Benötigtes Kapitel für Eintritt ist noch nicht abgeschlossen.
+RESULT_TYPE.GUILD_SUPPRESS_SESSION_DATA_NOT_FOUND,Die erforderlichen Informationen konnten nicht gefunden werden.
+RESULT_TYPE.GUILD_SUPPRESS_PLAY_INFO_NOT_FOUND,Daten konnten nicht gefunden werden.
+RESULT_TYPE.GUILD_SUPPRESS_NOT_APPLIED,Du hast nicht um die Teilnehme an einer Gildeneroberung gebeten.
+RESULT_TYPE.GUILD_SUPPRESS_DUNGEON_DATA_NOT_FOUND,Die Dungeon-Infos sind nicht vorhanden.
+RESULT_TYPE.NOT_APPLIABLE,Der Zeitraum für Gildeneroberungsanfragen hat noch nicht begonnen.
+RESULT_TYPE.GUILD_MEMBER_REWARD_DATA_NOT_FOUND,Belohnungsinfo nicht vorhanden.
+RESULT_TYPE.INVALID_BUILDING_INDEX,Ungültige Daten.
+RESULT_TYPE.GUILD_BUILDING_DATA_NOT_FOUND,Die erforderlichen Informationen konnten nicht gefunden werden.
+RESULT_TYPE.EXCEED_WOOD,Die Obergrenze wurde überschritten.
+RESULT_TYPE.EXCEED_STONE,Die Obergrenze wurde überschritten.
+RESULT_TYPE.EXCEED_METAL,Die Obergrenze wurde überschritten.
+RESULT_TYPE.NOT_ENOUGH_SUPPRESS_POINT,Nicht genügend Eroberungspunkte.
+RESULT_TYPE.INVALID_ACTIVITY_POINT,Ungültige Daten.
+RESULT_TYPE.INVALID_SUPPRESS_POINT,Ungültige Daten.
+RESULT_TYPE.INVALID_TRAINING_CENTER_LEVEL,Ungültige Daten.
+RESULT_TYPE.NOT_ENOUGH_WOOD,Nicht genügend Holz.
+RESULT_TYPE.NOT_ENOUGH_METAL,Nicht genügend Metall.
 RESULT_TYPE.MAX_GUILD_BUILDING_LEVEL,"Das Gebäude kann nicht aufgewertet werden, da das maximale Level erreicht wurde."
-RESULT_TYPE.UNKNOWN_TYPE,"Daten konnten nicht gefunden werden."
-RESULT_TYPE.NOT_MATCH_TYPE,"Ungültiger Typ."
-RESULT_TYPE.SESSION_NOT_FOUND,"Die Eroberung ist nicht im Gange."
-RESULT_TYPE.INVALID_SESSION_INDEX,"Die Eroberung ist nicht im Gange."
-RESULT_TYPE.SESSION_DATA_NOT_FOUND,"Eroberungsdaten nicht vorhanden."
-RESULT_TYPE.GUILD_ID_NOT_FOUND,"Gilde existiert nicht."
-RESULT_TYPE.INVALID_PURCHASE_MARKETING_REQUEST_INFO,"Ungültige Daten."
+RESULT_TYPE.UNKNOWN_TYPE,Daten konnten nicht gefunden werden.
+RESULT_TYPE.NOT_MATCH_TYPE,Ungültiger Typ.
+RESULT_TYPE.SESSION_NOT_FOUND,Die Eroberung ist nicht im Gange.
+RESULT_TYPE.INVALID_SESSION_INDEX,Die Eroberung ist nicht im Gange.
+RESULT_TYPE.SESSION_DATA_NOT_FOUND,Eroberungsdaten nicht vorhanden.
+RESULT_TYPE.GUILD_ID_NOT_FOUND,Gilde existiert nicht.
+RESULT_TYPE.INVALID_PURCHASE_MARKETING_REQUEST_INFO,Ungültige Daten.
 RESULT_TYPE.NOT_ELAPSED_GUILD_MEMBER_REWARDED_TIME,"Es ist noch zu früh, um Belohnungen von Gildenmitgliedern anzunehmen. Bitte versuche es später erneut."
-RESULT_TYPE.PC_AVARTAR_DATA_NOT_FOUND,"Belohnungsinfo nicht vorhanden."
-RESULT_TYPE.EQUIP_SLOT_DATA_NOT_FOUND,"Daten konnten nicht gefunden werden."
-RESULT_TYPE.NOT_MATCH_SUB_TYPE,"Dieses Fach und dieses Item stimmen nicht überein."
-RESULT_TYPE.NOT_ENOUGH_RANKING_POINT,"Nicht genügend Abzeichen der Ehre."
-RESULT_TYPE.NOT_ENOUGH_GLORY1_POINT,"Ungenügend Ehrenpunkte"
-RESULT_TYPE.GUILD_INFO_NOT_FOUND,"Gilden-Info nicht vorhanden."
-RESULT_TYPE.MISSING_BONUS_EVENT_CONDITION,"Daten konnten nicht gefunden werden."
-RESULT_TYPE.CAN_NOT_SELECTED_COSTUME,"Kann Kostpm nicht anlegen."
-RESULT_TYPE.COSTUME_INFO_REFUND,"Es ist kein Kostüm verfügbar. Du kannst dich mit Abzeichen der Ehre entschädigen lassen."
-RESULT_TYPE.WORLDBOSS_NOT_FOUND,"Die korrekten Daten für den Ausrüstungs-Slot konnten nicht gefunden werden."
-RESULT_TYPE.WORLD_BOSS_DAMAGED_BY_ZERO,"Der Kampf konnte nicht normal fortgesetzt werden. Bitte versuche es erneut."
-RESULT_TYPE.IS_SINGLE_ROOM,"Der Weltenboss hat keinen Schaden erlitten. Bitte starte die Herausforderung neu."
-RESULT_TYPE.GUILD_GUILDRAID_ALREADY_COMPLETED,"Das ist ein Einzelspieler-Raidraum. Du kannst nicht am Kampf teilnehmen."
-RESULT_TYPE.GUILD_GUILD_RAID_ALREADY_COMPLETED,"Das Monster wurde bereits besiegt.\nAlle verbrauchten Eintrittstickets werden rückerstattet."
-RESULT_TYPE.NAME_TOO_LONG,"Das Monster wurde bereits besiegt.\nAlle verbrauchten Eintrittstickets werden rückerstattet."
-RESULT_TYPE.INVALID_INDEX_ARRAY_SIZE,"Name des Fachs darf nicht länger als 10 Zeichen sein."
-RESULT_TYPE.DUPLICATED_PART_INDEX,"Ungültige Anzahl an speicherbaren Ausrüstungsteilen."
-RESULT_TYPE.INVALID_EQUIP_ITEM_SLOT_INDEX,"Du hast bereits dieselbe Ausrüstung im Ausrüstungsfach angelegt."
-RESULT_TYPE.INVALID_EQUIP_STORAGE_SLOT_INDEX,"Du hast dieses Item nicht im Fach für eigene Ausrüstung aufbewahrt."
-RESULT_TYPE.INVALID_PART_INDEX,"Ungültige Zahl des Fachs für eigene Ausrüstung."
-RESULT_TYPE.MAX_EXTEND,"Ungültiges Ausrüstungsfach."
-RESULT_TYPE.MISSING_PARAM_ERROR,"Die erforderlichen Informationen für die Erweiterung des Fachs für eigene Ausrüstung konnten nicht gefunden werden."
-RESULT_TYPE.ALL_COSTUME_NOT_OWNED,"Ungültiger Eingabewert."
-RESULT_TYPE.ALL_HERO_NOT_OWNED,"Du hast noch nicht alle Kostüme."
-RESULT_TYPE.CHEST_FULL,"Du hast nicht alle Helden rekrutiert."
-RESULT_TYPE.MAX_CHEST,"Deine Aufbewahrungsbox ist voll."
-RESULT_TYPE.INVENTORY_FULL,"Max Storage Box slot reached."
-RESULT_TYPE.COUNTRY_CODE_CHANGE_IS_NOT_POSSIBLE,"Inventar ist voll."
-RESULT_TYPE.GUILD_SUPPRESS_AUTO_APPLY_INFO_NOT_FOUND,"Du kannst den Ländercode in diesem Zeitraum nicht ändern."
-RESULT_TYPE.INVALID_COUNTRY_CODE_INDEX,"Anwendungsinfo für Eroberung konnte nicht gefunden werden."
-RESULT_TYPE. EVENT_ITEM_NOT_SELLECT,"Dieser Ländercode existiert nicht."
-RESULT_TYPE.POINT_NOT_ENOUGH,"Es wurde kein Item ausgewählt."
-RESULT_TYPE.MAX_HERO_TRANSCEND_POINT,"Nicht genug Teilnahmepunkte."
-RESULT_TYPE.INVALID_HERO_TRANSCEND_POINT,"Die Transzendenz-Attributspunkte des Helden haben das Maximum erreicht."
-RESULT_TYPE.RESOURCE_NOT_FOUND_ERROR,"Die Transzendenz-Attributspunkte des Helden sind ungültig."
-RESULT_TYPE.INCORRECT_GUILD_MEMBER,"Ressource konnte nicht gefunden werden."
-RESULT_TYPE.GUILD_MEMBER_NOT_FOUND,"Fortfahren fehlgeschlagen. Ungültiges Gildenmitglied."
-RESULT_TYPE.MAX_GUILD_ADMIN,"Kein entsprechendes Gildenmitglied gefunden."
-RESULT_TYPE.NOT_CORRECT_GUILD_BUILDING_LEVEL,"Maximale Anzahl an Verwaltern erreicht."
-RESULT_TYPE.INVALID_TAG_TYPE,"Kauf fehlgeschlagen. Die Level des Produkts und des Gildenhändlers stimmen nicht überein."
-RESULT_TYPE.INVALID_CURRENCY_DATA,"Ungültige Klasse."
-RESULT_TYPE.NOT_ENOUGH_CURRENCY,"Ungültige Gegenstands-Daten."
-RESULT_TYPE.NOT_EXIST_CLASS_BUFF_DATA,"Nicht genug Geld."
-RESULT_TYPE.ALREADY_CLASS_BUFF_INIT,"Die Daten sind nicht vorhanden."
-RESULT_TYPE.INVALID_CLASS_BUFF_INDEX,"Es wurde bereits zurückgesetzt."
-RESULT_TYPE.INVALID_CLASS_BUFF_LEVEL,"Ungültiger Klassen-Buffindex wurde an Server geschickt."
-RESULT_TYPE.NOT_ENOUGH_POINT,"Ungültige Klassen-Bufflevel-Info wurde an Server geschickt."
-RESULT_TYPE.NOT_ENOUGH_CLASS_BUFF_INDEX,"Nicht genügend Klassen-Buffpunkte."
-RESULT_TYPE.NOT_ENOUGH_CLASS_BUFF_LEVEL,"Unzureichender Index für Level-up."
-RESULT_TYPE.NOT_ENOUGH_NEED_HERO_COUNT,"Nicht genügend Klassen-Bufflevel für Level-up."
-RESULT_TYPE.EXCEEDED_MAX_LEVEL,"Du hast nicht genug Helden."
-RESULT_TYPE.MONTHLY_HERO_NOT_FOUND,"Kann nicht weiter verstärkt werden."
-RESULT_TYPE.CHECK_CONDITION_NOT_PASSED,"Anfrage konnte nicht bearbeitet werden."
-RESULT_TYPE.NEWBIE_POPUP_TIME_ENDED,"Belohnungszeit abgelaufen."
-RESULT_TYPE.NOT_OPENED_NEWBIE_POPUP,"Dieses Item wird zurzeit nicht angeboten."
-RESULT_TYPE.NOT_ENOUGH_GUILD_ARENA_POINT,"Du hast nicht genug Gildenkampf-Abzeichen."
-RESULT_TYPE.GUILD_ARENA_SESSION_NOT_FOUND,"Gildenkampf bereits beendet."
-RESULT_TYPE.INVALID_GUILD_ARENA_SESSION_INDEX,"Gildenkampf bereits beendet."
-RESULT_TYPE.GUILD_ARENA_SESSION_DATA_NOT_FOUND,"Gildenkampfdaten wurden nicht gefunden."
-RESULT_TYPE.ALREADY_APPLIED_GUILD_ARENA,"Du hast bereits teilgenommen."
-RESULT_TYPE.GUILD_ARENA_SCORE_INFO_NOT_FOUND,"Gildenkampfbericht wurde nicht gefunden."
-RESULT_TYPE.GUILD_ARENA_AUTO_APPLY_INFO_NOT_FOUND,"Autom. Gildenkampfteilnahmebericht wurde nicht gefunden."
-RESULT_TYPE.REQUIRED_VALUE_EMPTY,"Die erforderlichen Daten sind nicht verfügbar."
-RESULT_TYPE.NOT_HAVE_HERO,"Du besitzt den nötigen Helden noch nicht."
-RESULT_TYPE.WEAPON_COSTUME_DATA_NOT_FOUND,"Angaben zum Waffenskin sind nicht verfügbar."
-RESULT_TYPE.HAIR_COSTUME_DATA_NOT_FOUND,"Frisurendaten sind nicht verfügbar."
-RESULT_TYPE.STAR_VALUE_NOT_FOUND,"Informationen zum Heldenrang fehlen in den Kostümdaten."
-RESULT_TYPE.NOT_HAVE_NEED_COSTUME,"Du hast kein Standard-Kostüm."
-RESULT_TYPE.ALREADY_HAVE_ACCESSORY_COSTUME,"Du hast diesen Accesoires bereits."
-RESULT_TYPE.ACCESSORY_COSTUME_DATA_NOT_FOUND,"Accesoires-Daten sind nicht verfügbar."
-RESULT_TYPE.ACCESSORY_COSTUME_NOT_OPENED,"Dieses Accessoire steht nicht zum Verkauf."
-RESULT_TYPE.DUPLICATE_PART_TYPE,"Du kannst das selbe Produkt nicht zweimal kaufen oder zwei Gegenstände am gleichen Körperteil ausrüsten."
-RESULT_TYPE.NOT_HAVE_WEAPON_COSTUME,"Du hast diesen Waffenskin noch nicht."
-RESULT_TYPE.NOT_HAVE_ACCESSORY_COSTUME,"Du hast dieses Accessoire noch nicht."
-RESULT_TYPE.GUILD_ARENA_WRONG_SESSION_INDEX,"Gildenrunde läuft nicht."
-RESULT_TYPE.GUILD_ARENA_NOT_BATTLE_STATE,"Gildenkampf läuft nicht."
-RESULT_TYPE.NOT_ENOUGH_GUILD_ARENA_KEY,"Nicht genügend Gildenkampftickets."
-RESULT_TYPE.ALREADY_USED_BATTLE_HERO,"Dieser Held wird bereits verwendet."
-RESULT_TYPE.CANNOT_PLAY_IN_BATTLE,"Dieser Gegner befindet sich bereits im Kampf."
-RESULT_TYPE.GUILD_ARENA_SESSION_SCORE_NOT_FOUND,"Gildenkampf Rundenpunkte können nicht erfasst werden."
-RESULT_TYPE.GUILD_ARENA_ENEMY_NOT_FOUND,"Kein passender Gegner gefunden."
-RESULT_TYPE.GUILD_ARENA_ENEMY_NOT_CORRECT,"Anzugreifender Gegner kann nicht gewählt werden."
-RESULT_TYPE.MATCHED_GUILD_ARENA_ENEMY_NOT_FOUND,"Kein passender Gegner gefunden."
-RESULT_TYPE.MATCH_TIER_NOT_FOUND,"Keine passende Klassendaten gefunden."
-RESULT_TYPE.GUILD_ARENA_ENEMY_DECK_NOT_FOUND,"Keine gegn. Verteidigungsteam Daten gefunden."
-RESULT_TYPE.GUILD_ARENA_MEMBER_RECORD_NOT_FOUND,"Keine Ergebnisse gefunden."
-RESULT_TYPE.INVALID_GUILD_ARENA_SEASON_INDEX,"Gilden-Saison läuft nicht."
-RESULT_TYPE.GUILD_ARENA_RANKER_INFO_NOT_FOUND,"Gilden-Kampfbericht wurde nicht gefunden."
-RESULT_TYPE.GUILD_ARENA_SESSION_RECORD_INFO_NOT_FOUND,"Gilden-Rangbericht wurde nicht gefunden."
-RESULT_TYPE.GUILD_ARENA_ENEMY_DECK_ALREADY_COMPLETED,"Dieser Gegner hat bereits verloren."
-RESULT_TYPE.GUILD_ARENA_MATCH_INFO_NOT_FOUND,"Keine gegn. Verteidigungsteam Daten gefunden."
-RESULT_TYPE.GUILD_ARENA_NOT_APPLY_SET_DECK,"Teilnahmezeitraum ist beendet. Verteidigungsteam-Aufbau nicht möglich."
-RESULT_TYPE.GUILD_ARENA_DECK_HERO_NOT_FOUND,"Der von dir gewählte Held kann nicht gefunden werden."
-RESULT_TYPE.GUILD_ARENA_HERO_NOT_FOUND,"Held nicht verfügbar."
-RESULT_TYPE.GUILD_ARENA_NOT_APPLY_SET_DECK_SKILL,"Teilnahmezeitraum ist beendet. Skilleinstellung nicht möglich."
+RESULT_TYPE.PC_AVARTAR_DATA_NOT_FOUND,Belohnungsinfo nicht vorhanden.
+RESULT_TYPE.EQUIP_SLOT_DATA_NOT_FOUND,Daten konnten nicht gefunden werden.
+RESULT_TYPE.NOT_MATCH_SUB_TYPE,Dieses Fach und dieser Gegenstand stimmen nicht überein.
+RESULT_TYPE.NOT_ENOUGH_RANKING_POINT,Nicht genügend Ehrenabzeichen.
+RESULT_TYPE.NOT_ENOUGH_GLORY1_POINT,Ungenügend Ehrenpunkte
+RESULT_TYPE.GUILD_INFO_NOT_FOUND,Gilden-Info nicht vorhanden.
+RESULT_TYPE.MISSING_BONUS_EVENT_CONDITION,Daten konnten nicht gefunden werden.
+RESULT_TYPE.CAN_NOT_SELECTED_COSTUME,Kann Kostüm nicht anlegen.
+RESULT_TYPE.COSTUME_INFO_REFUND,Es ist kein Kostüm verfügbar. Du kannst dich mit Ehrenabzeichen entschädigen lassen.
+RESULT_TYPE.WORLDBOSS_NOT_FOUND,Der Kampf konnte nicht normal fortgesetzt werden. Bitte versuche es erneut.
+RESULT_TYPE.WORLD_BOSS_DAMAGED_BY_ZERO,Der Weltboss hat keinen Schaden erlitten. Bitte starte die Herausforderung neu.
+RESULT_TYPE.IS_SINGLE_ROOM,Das ist ein Einzelspieler-Raidraum. Du kannst nicht am Kampf teilnehmen.
+RESULT_TYPE.GUILD_GUILDRAID_ALREADY_COMPLETED,Das Monster wurde bereits besiegt.\nAlle verbrauchten Eintrittstickets werden rückerstattet.
+RESULT_TYPE.GUILD_GUILD_RAID_ALREADY_COMPLETED,Das Monster wurde bereits besiegt.\nAlle verbrauchten Eintrittstickets werden rückerstattet.
+RESULT_TYPE.NAME_TOO_LONG,Name des Fachs darf nicht länger als 10 Zeichen sein.
+RESULT_TYPE.INVALID_INDEX_ARRAY_SIZE,Ungültige Anzahl an speicherbaren Ausrüstungsteilen.
+RESULT_TYPE.DUPLICATED_PART_INDEX,Du hast bereits dieselbe Ausrüstung im Ausrüstungsfach angelegt.
+RESULT_TYPE.INVALID_EQUIP_ITEM_SLOT_INDEX,Du hast diesen Gegenstand nicht im Fach für eigene Ausrüstung aufbewahrt.
+RESULT_TYPE.INVALID_EQUIP_STORAGE_SLOT_INDEX,Ungültige Anzahl an eigene Ausrüstungsfächer.
+RESULT_TYPE.INVALID_PART_INDEX,Ungültiges Ausrüstungsfach.
+RESULT_TYPE.MAX_EXTEND,Die erforderlichen Informationen für die Erweiterung des Fachs für eigene Ausrüstung konnten nicht gefunden werden.
+RESULT_TYPE.MISSING_PARAM_ERROR,Ungültiger Eingabewert.
+RESULT_TYPE.ALL_COSTUME_NOT_OWNED,Du hast noch nicht alle Kostüme.
+RESULT_TYPE.ALL_HERO_NOT_OWNED,Du hast nicht alle Helden rekrutiert.
+RESULT_TYPE.CHEST_FULL,Deine Aufbewahrungsbox ist voll.
+RESULT_TYPE.MAX_CHEST,Max. Aufbewajrungsbox Fächeranzahl erreicht.
+RESULT_TYPE.INVENTORY_FULL,Inventar ist voll.
+RESULT_TYPE.COUNTRY_CODE_CHANGE_IS_NOT_POSSIBLE,Du kannst den Ländercode in diesem Zeitraum nicht ändern.
+RESULT_TYPE.GUILD_SUPPRESS_AUTO_APPLY_INFO_NOT_FOUND,Anwendungsinfo für Eroberung konnte nicht gefunden werden.
+RESULT_TYPE.INVALID_COUNTRY_CODE_INDEX,Dieser Ländercode existiert nicht.
+RESULT_TYPE. EVENT_ITEM_NOT_SELLECT,Es wurde kein Gegenstand ausgewählt.
+RESULT_TYPE.POINT_NOT_ENOUGH,Nicht genug Transzendenz-Punkte.
+RESULT_TYPE.MAX_HERO_TRANSCEND_POINT,Die Transzendenz-Punkte des Helden haben das Maximum erreicht.
+RESULT_TYPE.INVALID_HERO_TRANSCEND_POINT,Die Transzendenz-Punkte des Helden sind ungültig.
+RESULT_TYPE.RESOURCE_NOT_FOUND_ERROR,Ressource konnte nicht gefunden werden.
+RESULT_TYPE.INCORRECT_GUILD_MEMBER,Fortfahren fehlgeschlagen. Ungültiges Gildenmitglied.
+RESULT_TYPE.GUILD_MEMBER_NOT_FOUND,Kein entsprechendes Gildenmitglied gefunden.
+RESULT_TYPE.MAX_GUILD_ADMIN,Maximale Anzahl an Verwaltern erreicht.
+RESULT_TYPE.NOT_CORRECT_GUILD_BUILDING_LEVEL,Kauf fehlgeschlagen. Die Level des Produkts und des Gildenhändlers stimmen nicht überein.
+RESULT_TYPE.INVALID_TAG_TYPE,Ungültige Klasse.
+RESULT_TYPE.INVALID_CURRENCY_DATA,Ungültige Gegenstands-Daten.
+RESULT_TYPE.NOT_ENOUGH_CURRENCY,Nicht genug Geld.
+RESULT_TYPE.NOT_EXIST_CLASS_BUFF_DATA,Die Daten sind nicht vorhanden.
+RESULT_TYPE.ALREADY_CLASS_BUFF_INIT,Es wurde bereits zurückgesetzt.
+RESULT_TYPE.INVALID_CLASS_BUFF_INDEX,Ungültiger Klassen-Buffindex wurde an Server geschickt.
+RESULT_TYPE.INVALID_CLASS_BUFF_LEVEL,Ungültige Klassen-Bufflevel-Info wurde an Server geschickt.
+RESULT_TYPE.NOT_ENOUGH_POINT,Nicht genügend Klassen-Buffpunkte.
+RESULT_TYPE.NOT_ENOUGH_CLASS_BUFF_INDEX,Unzureichender Index für Level-up.
+RESULT_TYPE.NOT_ENOUGH_CLASS_BUFF_LEVEL,Nicht genügend Klassen-Bufflevel für Level-up.
+RESULT_TYPE.NOT_ENOUGH_NEED_HERO_COUNT,Du hast nicht genug Helden.
+RESULT_TYPE.EXCEEDED_MAX_LEVEL,Kann nicht weiter verstärkt werden.
+RESULT_TYPE.MONTHLY_HERO_NOT_FOUND,Anfrage konnte nicht bearbeitet werden.
+RESULT_TYPE.CHECK_CONDITION_NOT_PASSED,Belohnungszeit abgelaufen.
+RESULT_TYPE.NEWBIE_POPUP_TIME_ENDED,Dieser Gegenstand wird zurzeit nicht angeboten.
+RESULT_TYPE.NOT_OPENED_NEWBIE_POPUP,Ungültige Daten.
+RESULT_TYPE.NOT_ENOUGH_GUILD_ARENA_POINT,Du hast nicht genug Gildenkrieg-Abzeichen.
+RESULT_TYPE.NOT_ENOUGH_CONQUEST_DUNGEON_COUNT,Nicht genug Eroberungsschlüssel.
+RESULT_TYPE.ALREADY_ON_BATTLE_HERO,Dieser Held ist bereits in einer Expedition.
+RESULT_TYPE.GUILD_SUPPRESS_GROUP_INFO_NOT_FOUND,Es konnten keine Infos zur Gildeneroberungs-Teilnahme gefunden werden.
+RESULT_TYPE.MODULATED_DATA,Anfrage wurde mit falsche Daten gestellt.
+RESULT_TYPE.DISPATCH_BATTLE_NOT_FOUND,Es konnten keine Infos zur Expeditionsgruppe gefunden werden.
+RESULT_TYPE.ALREADY_FINISH_DISPATCH_BATTLE,Bereits beendet.
+RESULT_TYPE.ALREADY_MAX_BATTLE_COUNT,Max. Kapazität erreicht. Weitere Expeditionen können nicht mehr verschickt werden.
+RESULT_TYPE.NOT_ENOUGH_HERO_COUNT,Nicht genug Helden.
+RESULT_TYPE.NOT_OWN_HERO,Held ist nicht im Besitz.
+RESULT_TYPE.NOT_CORRECT_EQUIP_SWAP_COUNT,Es sind keine 2 Ausrüstungen zum wechseln vorhanden.
+RESULT_TYPE.HERO_NOT_EQUIPPED,Die zu wechselnde Ausrüstung kann nicht angelegt werden.
+RESULT_TYPE.CAN_NOT_UPGRADE_VALUE,Verstärkung kann hierbei nicht durchgeführt werden.
+RESULT_TYPE.ALREADY_USED_EQUIP_STORAGE_SLOT_INDEX,EquipStorageSlotIndex wird bereits verwendet.
+RESULT_TYPE.GUILD_ARENA_SESSION_NOT_FOUND,Gildenkrieg bereits beendet.
+RESULT_TYPE.INVALID_GUILD_ARENA_SESSION_INDEX,Gildenkrieg bereits beendet.
+RESULT_TYPE.NOT_GUILD_ARENA_APPLIABLE,Teilnahme nicht möglich.
+RESULT_TYPE.GUILD_ARENA_SESSION_DATA_NOT_FOUND,Gildenkriegsdaten wurden nicht gefunden.
+RESULT_TYPE.ALREADY_APPLIED_GUILD_ARENA,Du hast bereits teilgenommen.
+RESULT_TYPE.GUILD_ARENA_SCORE_INFO_NOT_FOUND,Gildenkriegsbericht wurde nicht gefunden.
+RESULT_TYPE.GUILD_ARENA_AUTO_APPLY_INFO_NOT_FOUND,Autom. Gildenkriegs-Teilnahmebericht wurde nicht gefunden.
+RESULT_TYPE.SUB_STORY_DATA_NOT_FOUND,Nebengeschichten-Spieldaten konnten nicht gefunden werden.
+RESULT_TYPE.NEED_SUB_STORY,Kauf ist nach Beenden der Nebengeschichte möglich.
+RESULT_TYPE.REQUIRED_VALUE_EMPTY,Die erforderlichen Daten sind nicht verfügbar.
+RESULT_TYPE.NOT_HAVE_HERO,Du besitzt den nötigen Helden noch nicht.
+RESULT_TYPE.WEAPON_COSTUME_DATA_NOT_FOUND,Angaben zum Waffenskin sind nicht verfügbar.
+RESULT_TYPE.HAIR_COSTUME_DATA_NOT_FOUND,Frisurendaten sind nicht verfügbar.
+RESULT_TYPE.STAR_VALUE_NOT_FOUND,Informationen zum Heldenrang fehlen in den Kostümdaten.
+RESULT_TYPE.NOT_HAVE_NEED_COSTUME,Du hast kein Standard-Kostüm.
+RESULT_TYPE.ALREADY_HAVE_ACCESSORY_COSTUME,Du hast diesen Accesoires bereits.
+RESULT_TYPE.ACCESSORY_COSTUME_DATA_NOT_FOUND,Accesoires-Daten sind nicht verfügbar.
+RESULT_TYPE.ACCESSORY_COSTUME_NOT_OPENED,Dieses Accessoire steht nicht zum Verkauf.
+RESULT_TYPE.DUPLICATE_PART_TYPE,Du kannst das selbe Produkt nicht zweimal kaufen oder zwei Gegenstände am gleichen Körperteil ausrüsten.
+RESULT_TYPE.UNSET_ACCESSORY_COSTUME_FAIL,Ablegen von Accessoires nicht möglich.
+RESULT_TYPE.NOT_HAVE_WEAPON_COSTUME,Du hast diesen Waffenskin noch nicht.
+RESULT_TYPE.NOT_HAVE_ACCESSORY_COSTUME,Du hast dieses Accessoire noch nicht.
+RESULT_TYPE.INVALID_VALUE,Keine gültige Anfrage.
+RESULT_TYPE.EMPTY_SORAGE_SLOT,Der anzulegende Kostümfach ist leer.
+RESULT_TYPE.HOUSE_OBJECT_DATA_NOT_FOUND,Kein Haus-Gegenstand.
+RESULT_TYPE.INVALID_EXTEND_SIZE,Keine gültige Erweiterungsgröße.
+RESULT_TYPE.OVER_MAX_EXTEND_SIZE,Erweiterungsgröße hat das Max. Erreicht.
+RESULT_TYPE.EXTEND_DATA_NOT_FOUND,Keine gültige Erweiterungsdaten.
+RESULT_TYPE.INVALID_SIZE,Keine gültige Größe.
+RESULT_TYPE.INVALID_OPEN_HERO_COUNT,Keine gültige Helden-Slot-Anzahl.
+RESULT_TYPE.INVALID_FACILITY_COUNT,Keine gültige Einrichtungsanzahl.
+RESULT_TYPE.INVALID_REQ_ITEM,Nicht genug Erweiterungs-Gegenstände.
+RESULT_TYPE.INVALID_HERO_COUNT,Die zu platzierende Heldenanzahl wurde überschritten.
+RESULT_TYPE.OVER_AVAIL_FACILITY_COUNT,Die Anzahl der zu bauenden Einrichtungen ist größer als der möglichen Einrichtungen.
+RESULT_TYPE.FURNITURE_DATA_NOT_FOUND,Keine Möbel-Infos verfügbar.
+RESULT_TYPE.INVALID_AXIS,Falsche Achsen-Info
+RESULT_TYPE.INVALID_LOCATION,Falsche Position
+RESULT_TYPE.NOT_FOUND_CHAPTER_DATA,Die Kapitel-Spieldaten konnten nicht gefunden werden.
+RESULT_TYPE.IS_NOT_OPEN_DUNGEON,Die Dungeon zuvor wurde noch nicht beendet.
+RESULT_TYPE.INVALID_AVATAR_HERO_INDEX,Kein gültige AvatarHeroIndex Anfrage. 
+RESULT_TYPE.NICK_CHANGE_DISABLED,Name kann nicht verändert werden.
+RESULT_TYPE.GUILD_ARENA_WRONG_SESSION_INDEX,Gildenrunde läuft nicht.
+RESULT_TYPE.GUILD_ARENA_NOT_BATTLE_STATE,Gildenkrieg läuft nicht.
+RESULT_TYPE.NOT_ENOUGH_GUILD_ARENA_KEY,Nicht genügend Gildenkriegs-Tickets.
+RESULT_TYPE.ALREADY_USED_BATTLE_HERO,Dieser Held wird bereits verwendet.
+RESULT_TYPE.CANNOT_PLAY_IN_BATTLE,Dieser Gegner befindet sich bereits im Kampf.
+RESULT_TYPE.GUILD_ARENA_SESSION_SCORE_NOT_FOUND,Gildenkrieg Rundenpunkte können nicht erfasst werden.
+RESULT_TYPE.GUILD_ARENA_ENEMY_NOT_FOUND,Kein passender Gegner gefunden.
+RESULT_TYPE.GUILD_ARENA_ENEMY_NOT_CORRECT,Anzugreifender Gegner kann nicht gewählt werden.
+RESULT_TYPE.MATCHED_GUILD_ARENA_ENEMY_NOT_FOUND,Kein passender Gegner gefunden.
+RESULT_TYPE.MATCH_TIER_NOT_FOUND,Keine passende Klassendaten gefunden.
+RESULT_TYPE.GUILD_ARENA_ENEMY_DECK_NOT_FOUND,Keine gegn. Verteidigungsteam Daten gefunden.
+RESULT_TYPE.GUILD_ARENA_MEMBER_RECORD_NOT_FOUND,Keine Ergebnisse gefunden.
+RESULT_TYPE.INVALID_GUILD_ARENA_SEASON_INDEX,Gildenkrieg-Saison läuft nicht.
+RESULT_TYPE.GUILD_ARENA_RANKER_INFO_NOT_FOUND,Gildenkriegs-Kampfbericht wurde nicht gefunden.
+RESULT_TYPE.GUILD_ARENA_SESSION_RECORD_INFO_NOT_FOUND,Gildenkriegs-Rangbericht wurde nicht gefunden.
+RESULT_TYPE.GUILD_ARENA_ENEMY_DECK_ALREADY_COMPLETED,Dieser Gegner hat bereits verloren.
+RESULT_TYPE.GUILD_ARENA_MATCH_INFO_NOT_FOUND,Keine gegn. Verteidigungsteam Daten gefunden.
+RESULT_TYPE.GUILD_ARENA_NOT_APPLY_SET_DECK,Teilnahmezeitraum ist beendet. Verteidigungsteam-Aufbau nicht möglich.
+RESULT_TYPE.GUILD_ARENA_DECK_HERO_NOT_FOUND,Der von dir gewählte Held kann nicht gefunden werden.
+RESULT_TYPE.GUILD_ARENA_HERO_NOT_FOUND,Held nicht verfügbar.
+RESULT_TYPE.GUILD_ARENA_NOT_APPLY_SET_DECK_SKILL,Teilnahmezeitraum ist beendet. Skilleinstellung nicht möglich.
+RESULT_TYPE.NOT_ENOUGH_ECLIPSE_KEY,"Nicht genug Blutmond-Kristalle.\n\nBlutmond-Kristalle kannst du erhalten, in dem du die beim Login und Ausdauer-Verbrauch erhaltenen Fragmente des Verderbens zur Erhöhung des Dunkelheit-Verderbenslv. verwendest.\nHat der Dunkelheit-Verderbenslv. sein Max. erreicht, so erhältst du Blutmond-Kristalle."
+RESULT_TYPE.IS_ALREADY_LIBERATION,Diese Seelenwaffe wurde bereits freigeschaltet.
+RESULT_TYPE.NOT_AVAILABLE_RECHARGE,Beim Aufladen von Blutmond-Kristallen wird Dunkelheit-Verderbenslv. weggeworfen.\nVerwende Blutmond-Kristalle beim Eintritt im Eklipse-Modus und versuche erneut.
+RESULT_TYPE.ECLIPSE_BATTLE_TIME_OVER,"Eklipse-Modus ist beendet, daher kann kein Kampf mehr durchgeführt werden."
