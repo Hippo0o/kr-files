@@ -535,5 +535,19 @@
     "ActionType": "RecoverStamina",
     "ActionValue": 1,
     "ActionSubValue": "GodkingTrialKey"
+  },
+  {
+    "ItemCode": "EVENT_NORMAL_MAPLE_LEAF",
+    "ActionType": "RecoverStamina",
+    "ActionValue": 100,
+    "BoosterCodes": [
+      "BOOSTER_EVENT_MAPLE_BONUS1",
+      "BOOSTER_EVENT_MAPLE_BONUS2"
+    ]
+  },
+  {
+    "ItemCode": "EVENT_WEAK_MAPLE_LEAF",
+    "ActionType": "RecoverStamina",
+    "ActionValue": 120
   }
 ]

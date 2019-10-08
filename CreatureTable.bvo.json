@@ -2308,7 +2308,9 @@
     ],
     "ExtraSkill": [
       "1634",
-      "1635"
+      "1635",
+      "93001612",
+      "93001613"
     ],
     "GetTranscendSkillPoint": [
       "10",
@@ -3691,7 +3693,8 @@
       "2534",
       "2535",
       "2544",
-      "2524"
+      "2524",
+      "93002514"
     ],
     "GetTranscendSkillPoint": [
       "10",
@@ -6836,7 +6839,8 @@
       "4514",
       "4515",
       "4534",
-      "4524"
+      "4524",
+      "4544"
     ],
     "GetTranscendSkillPoint": [
       "10",
@@ -7251,8 +7255,8 @@
   {
     "Index": 48,
     "CodeName": "Hero.Rehartna",
-    "OpenStatus": "Normal",
-    "OpenType": "None",
+    "OpenStatus": "New",
+    "OpenType": "Opened",
     "Race": "Hero",
     "TagType": "Priest",
     "AttrType": [
@@ -7261,8 +7265,8 @@
     "AttackWeakType": [
       "Fire"
     ],
-    "PositionType": "Rear",
-    "PositionWeight": 100,
+    "PositionType": "Middle",
+    "PositionWeight": 300,
     "MoveSpeed": 5000,
     "MinDamageRate": 200,
     "IgnoreCc": [
@@ -7296,6 +7300,12 @@
       "4841",
       "4842",
       "4843"
+    ],
+    "ExtraSkill": [
+      "4824",
+      "4825",
+      "4826",
+      "93004811"
     ],
     "GetTranscendSkillPoint": [
       "10",
@@ -7362,7 +7372,40 @@
     ],
     "SoulWeaponBasicSkillIndex": 93004800,
     "StartHeroStar": 3,
-    "OpenDate": 191008
+    "OpenDate": 191008,
+    "AddStamina": 1,
+    "HeroPositionIcon1": "icon_raidmacro_heal",
+    "HeroPositionText1": "HERO_POSITION_66",
+    "HeroPositionIcon2": "icon_raidmacro_attack",
+    "HeroPositionText2": "HERO_POSITION_11",
+    "HeroPositionIcon3": "icon_raidmacro_attack_Buffs",
+    "HeroPositionText3": "HERO_POSITION_29",
+    "TranscendRecommend1": [
+      "60000001",
+      "60000002",
+      "60004851",
+      "60000030",
+      "60004841",
+      "60000040"
+    ],
+    "TranscendRecommend3": [
+      "60000001",
+      "60000002",
+      "60004811",
+      "60004840",
+      "60004851",
+      "60000030"
+    ],
+    "EquipoptionRecommend1": [
+      "STAT_TYPE.ATTACK_SPEED",
+      "STAT_TYPE.PHYSICAL_ATTACK",
+      "OPERATION_TYPE.MOD_BLOCK_CHANCE"
+    ],
+    "EquipoptionRecommend3": [
+      "STAT_TYPE.ATTACK_SPEED",
+      "STAT_TYPE.MP_ON_SECOND",
+      "STAT_TYPE.ANTI_CC_CHANCE"
+    ]
   },
   {
     "Index": 49,
@@ -8543,7 +8586,8 @@
       "5635",
       "5644",
       "5645",
-      "5649"
+      "5649",
+      "93005612"
     ],
     "GetTranscendSkillPoint": [
       "10",
@@ -13308,7 +13352,8 @@
     "ExtraSkill": [
       "314",
       "334",
-      "335"
+      "335",
+      "336"
     ],
     "StartHeroStar": 1
   },
@@ -14037,7 +14082,9 @@
     ],
     "ExtraSkill": [
       "1634",
-      "1635"
+      "1635",
+      "93001612",
+      "93001613"
     ],
     "StartHeroStar": 3
   },
@@ -14548,7 +14595,8 @@
       "2534",
       "2535",
       "2544",
-      "2524"
+      "2524",
+      "93002514"
     ],
     "StartHeroStar": 3
   },
@@ -15281,7 +15329,8 @@
       "3735",
       "3744",
       "3745",
-      "3746"
+      "3746",
+      "3703"
     ],
     "StartHeroStar": 3
   },
@@ -15640,7 +15689,8 @@
       "4316",
       "4334",
       "4344",
-      "4345"
+      "4345",
+      "4346"
     ],
     "StartHeroStar": 3
   },
@@ -15756,7 +15806,8 @@
       "4514",
       "4515",
       "4534",
-      "4524"
+      "4524",
+      "4544"
     ],
     "StartHeroStar": 3
   },
@@ -15926,6 +15977,12 @@
       "4841",
       "4842",
       "4843"
+    ],
+    "ExtraSkill": [
+      "4824",
+      "4825",
+      "4826",
+      "93004811"
     ],
     "StartHeroStar": 3
   },
@@ -16422,7 +16479,8 @@
       "5635",
       "5644",
       "5645",
-      "5649"
+      "5649",
+      "93005612"
     ],
     "StartHeroStar": 3
   },
@@ -17637,7 +17695,9 @@
       "8744",
       "8746",
       "8724",
-      "8714"
+      "8714",
+      "8747",
+      "8748"
     ],
     "StartHeroStar": 3
   },
@@ -18106,8 +18166,10 @@
     "ExtraSkill": [
       "9744",
       "9745",
+      "9724",
       "9746",
-      "9724"
+      "9747",
+      "9748"
     ],
     "StartHeroStar": 3
   },
@@ -18159,6 +18221,15 @@
       "9841",
       "9842",
       "9843"
+    ],
+    "ExtraSkill": [
+      "9844",
+      "9845",
+      "9846",
+      "9834",
+      "9847",
+      "9848",
+      "9849"
     ],
     "StartHeroStar": 3
   },
@@ -18325,7 +18396,8 @@
     "ExtraSkill": [
       "314",
       "334",
-      "335"
+      "335",
+      "336"
     ],
     "StartHeroStar": 1
   },
@@ -19054,7 +19126,9 @@
     ],
     "ExtraSkill": [
       "1634",
-      "1635"
+      "1635",
+      "93001612",
+      "93001613"
     ],
     "StartHeroStar": 3
   },
@@ -19565,7 +19639,8 @@
       "2534",
       "2535",
       "2544",
-      "2524"
+      "2524",
+      "93002514"
     ],
     "StartHeroStar": 3
   },
@@ -20296,7 +20371,8 @@
       "3735",
       "3744",
       "3745",
-      "3746"
+      "3746",
+      "3703"
     ],
     "StartHeroStar": 3
   },
@@ -20655,7 +20731,8 @@
       "4316",
       "4334",
       "4344",
-      "4345"
+      "4345",
+      "4346"
     ],
     "StartHeroStar": 3
   },
@@ -20771,7 +20848,8 @@
       "4514",
       "4515",
       "4534",
-      "4524"
+      "4524",
+      "4544"
     ],
     "StartHeroStar": 3
   },
@@ -20941,6 +21019,12 @@
       "4841",
       "4842",
       "4843"
+    ],
+    "ExtraSkill": [
+      "4824",
+      "4825",
+      "4826",
+      "93004811"
     ],
     "StartHeroStar": 3
   },
@@ -21437,7 +21521,8 @@
       "5635",
       "5644",
       "5645",
-      "5649"
+      "5649",
+      "93005612"
     ],
     "StartHeroStar": 3
   },
@@ -22652,7 +22737,9 @@
       "8744",
       "8746",
       "8724",
-      "8714"
+      "8714",
+      "8747",
+      "8748"
     ],
     "StartHeroStar": 3
   },
@@ -23121,8 +23208,10 @@
     "ExtraSkill": [
       "9744",
       "9745",
+      "9724",
       "9746",
-      "9724"
+      "9747",
+      "9748"
     ],
     "StartHeroStar": 3
   },
@@ -23174,6 +23263,15 @@
       "9841",
       "9842",
       "9843"
+    ],
+    "ExtraSkill": [
+      "9844",
+      "9845",
+      "9846",
+      "9834",
+      "9847",
+      "9848",
+      "9849"
     ],
     "StartHeroStar": 3
   },
@@ -45155,6 +45253,22 @@
     "HeightMm": 1850
   },
   {
+    "Index": 901015,
+    "CodeName": "Object.UniqueWeapon.Clause",
+    "ModelCode": "Object.ClauseUnique",
+    "Race": "NPC",
+    "SizeMm": 500,
+    "HeightMm": 1850
+  },
+  {
+    "Index": 901016,
+    "CodeName": "Object.UniqueWeapon.Rephy",
+    "ModelCode": "Object.RephyUnique",
+    "Race": "NPC",
+    "SizeMm": 500,
+    "HeightMm": 1850
+  },
+  {
     "Index": 901023,
     "CodeName": "Object.UniqueWeapon.Morrah",
     "ModelCode": "Object.MorrahUnique",
@@ -45166,6 +45280,14 @@
     "Index": 901025,
     "CodeName": "Object.UniqueWeapon.Jane",
     "ModelCode": "Object.JaneUnique",
+    "Race": "NPC",
+    "SizeMm": 500,
+    "HeightMm": 1850
+  },
+  {
+    "Index": 901026,
+    "CodeName": "Object.UniqueWeapon.Aisha",
+    "ModelCode": "Object.AishaUnique",
     "Race": "NPC",
     "SizeMm": 500,
     "HeightMm": 1850
@@ -45203,6 +45325,14 @@
     "HeightMm": 1850
   },
   {
+    "Index": 901045,
+    "CodeName": "Object.UniqueWeapon.Yanne",
+    "ModelCode": "Object.YanneUnique",
+    "Race": "NPC",
+    "SizeMm": 500,
+    "HeightMm": 1850
+  },
+  {
     "Index": 901046,
     "CodeName": "Object.UniqueWeapon.Zafir",
     "ModelCode": "Object.ZafirUnique",
@@ -45211,9 +45341,41 @@
     "HeightMm": 1850
   },
   {
+    "Index": 901048,
+    "CodeName": "Object.UniqueWeapon.Rehartna",
+    "ModelCode": "Object.RehartnaUnique",
+    "Race": "NPC",
+    "SizeMm": 500,
+    "HeightMm": 1850
+  },
+  {
+    "Index": 901052,
+    "CodeName": "Object.UniqueWeapon.Crow",
+    "ModelCode": "Object.CrowUnique",
+    "Race": "NPC",
+    "SizeMm": 500,
+    "HeightMm": 1850
+  },
+  {
     "Index": 901053,
     "CodeName": "Object.UniqueWeapon.Shamilla",
     "ModelCode": "Object.ShamillaUnique",
+    "Race": "NPC",
+    "SizeMm": 500,
+    "HeightMm": 1850
+  },
+  {
+    "Index": 901055,
+    "CodeName": "Object.UniqueWeapon.Seria",
+    "ModelCode": "Object.SeriaUnique",
+    "Race": "NPC",
+    "SizeMm": 500,
+    "HeightMm": 1850
+  },
+  {
+    "Index": 901056,
+    "CodeName": "Object.UniqueWeapon.Erze",
+    "ModelCode": "Object.ErzeUnique",
     "Race": "NPC",
     "SizeMm": 500,
     "HeightMm": 1850
@@ -45259,6 +45421,14 @@
     "HeightMm": 1850
   },
   {
+    "Index": 901067,
+    "CodeName": "Object.UniqueWeapon.Kara",
+    "ModelCode": "Object.KaraUnique",
+    "Race": "NPC",
+    "SizeMm": 500,
+    "HeightMm": 1850
+  },
+  {
     "Index": 901070,
     "CodeName": "Object.UniqueWeapon.Cecilia",
     "ModelCode": "Object.CeciliaUnique",
@@ -45270,6 +45440,14 @@
     "Index": 901078,
     "CodeName": "Object.UniqueWeapon.Bernheim",
     "ModelCode": "Object.BernheimUnique",
+    "Race": "NPC",
+    "SizeMm": 500,
+    "HeightMm": 1850
+  },
+  {
+    "Index": 901087,
+    "CodeName": "Object.UniqueWeapon.Glenwys",
+    "ModelCode": "Object.GlenwysUnique",
     "Race": "NPC",
     "SizeMm": 500,
     "HeightMm": 1850
@@ -45319,6 +45497,24 @@
     "HeightMm": 1850
   },
   {
+    "Index": 911015,
+    "CodeName": "Object.SoulStone.Clause",
+    "ModelCode": "Object.SoulStone",
+    "ModelPrefix": "SoulStoneClause",
+    "Race": "NPC",
+    "SizeMm": 500,
+    "HeightMm": 1850
+  },
+  {
+    "Index": 911016,
+    "CodeName": "Object.SoulStone.Rephy",
+    "ModelCode": "Object.SoulStone",
+    "ModelPrefix": "SoulStoneRephy",
+    "Race": "NPC",
+    "SizeMm": 500,
+    "HeightMm": 1850
+  },
+  {
     "Index": 911023,
     "CodeName": "Object.SoulStone.Morrah",
     "ModelCode": "Object.SoulStone",
@@ -45332,6 +45528,15 @@
     "CodeName": "Object.SoulStone.Jane",
     "ModelCode": "Object.SoulStone",
     "ModelPrefix": "SoulStoneJane",
+    "Race": "NPC",
+    "SizeMm": 500,
+    "HeightMm": 1850
+  },
+  {
+    "Index": 911026,
+    "CodeName": "Object.SoulStone.Aisha",
+    "ModelCode": "Object.SoulStone",
+    "ModelPrefix": "SoulStoneAisha",
     "Race": "NPC",
     "SizeMm": 500,
     "HeightMm": 1850
@@ -45373,6 +45578,15 @@
     "HeightMm": 1850
   },
   {
+    "Index": 911045,
+    "CodeName": "Object.SoulStone.Yanne",
+    "ModelCode": "Object.SoulStone",
+    "ModelPrefix": "SoulStoneYanne",
+    "Race": "NPC",
+    "SizeMm": 500,
+    "HeightMm": 1850
+  },
+  {
     "Index": 911046,
     "CodeName": "Object.SoulStone.Zafir",
     "ModelCode": "Object.SoulStone",
@@ -45382,10 +45596,46 @@
     "HeightMm": 1850
   },
   {
+    "Index": 911048,
+    "CodeName": "Object.SoulStone.Rehartna",
+    "ModelCode": "Object.SoulStone",
+    "ModelPrefix": "SoulStoneRehartna",
+    "Race": "NPC",
+    "SizeMm": 500,
+    "HeightMm": 1850
+  },
+  {
+    "Index": 911052,
+    "CodeName": "Object.SoulStone.Crow",
+    "ModelCode": "Object.SoulStone",
+    "ModelPrefix": "SoulStoneCrow",
+    "Race": "NPC",
+    "SizeMm": 500,
+    "HeightMm": 1850
+  },
+  {
     "Index": 911053,
     "CodeName": "Object.SoulStone.Shamilla",
     "ModelCode": "Object.SoulStone",
     "ModelPrefix": "SoulStoneShamilla",
+    "Race": "NPC",
+    "SizeMm": 500,
+    "HeightMm": 1850
+  },
+  {
+    "Index": 911055,
+    "CodeName": "Object.SoulStone.Seria",
+    "ModelCode": "Object.SoulStone",
+    "ModelPrefix": "SoulStoneSeria",
+    "Race": "NPC",
+    "SizeMm": 500,
+    "HeightMm": 1850
+  },
+  {
+    "Index": 911056,
+    "CodeName": "Object.SoulStone.Erze",
+    "ModelCode": "Object.SoulStone",
+    "ModelPrefix": "SoulStoneErze",
     "Race": "NPC",
     "SizeMm": 500,
     "HeightMm": 1850
@@ -45436,6 +45686,15 @@
     "HeightMm": 1850
   },
   {
+    "Index": 911067,
+    "CodeName": "Object.SoulStone.Kara",
+    "ModelCode": "Object.SoulStone",
+    "ModelPrefix": "SoulStoneKara",
+    "Race": "NPC",
+    "SizeMm": 500,
+    "HeightMm": 1850
+  },
+  {
     "Index": 911070,
     "CodeName": "Object.SoulStone.Cecilia",
     "ModelCode": "Object.SoulStone",
@@ -45449,6 +45708,15 @@
     "CodeName": "Object.SoulStone.Bernheim",
     "ModelCode": "Object.SoulStone",
     "ModelPrefix": "SoulStoneBernheim",
+    "Race": "NPC",
+    "SizeMm": 500,
+    "HeightMm": 1850
+  },
+  {
+    "Index": 911087,
+    "CodeName": "Object.SoulStone.Glenwys",
+    "ModelCode": "Object.SoulStone",
+    "ModelPrefix": "SoulStoneGlenwys",
     "Race": "NPC",
     "SizeMm": 500,
     "HeightMm": 1850

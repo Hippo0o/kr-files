@@ -10521,14 +10521,14 @@
     "BaseAttack": "TRUE",
     "TargetType": "Enemy",
     "TargetCount": 1,
-    "MaxRangeMm": 7500,
+    "MaxRangeMm": 6000,
     "DeadTarget": "False",
     "IgnoreBlock": "False",
     "RetargetOnFire": "TRUE",
     "OperationType1": "GetPhysicalDamageR",
     "OperationTargetType1": "Target",
     "OperationValue1": [
-      "500"
+      "2500"
     ],
     "OperationDelayMs1": [
       "0",
@@ -10542,18 +10542,19 @@
     "TriggerType": "None",
     "TriggerRatio": 1000,
     "Mp": 2000,
-    "CoolTimeMs": 28000,
+    "CoolTimeMs": 13000,
     "ActingTimeMs": 2000,
     "SoloTimeMs": 700,
     "DurationTimeMs": [
       "4000"
     ],
+    "CancelOnWaveEnd": "True",
     "TickTimeValue": [
-      "2100",
-      "2300",
-      "2500",
-      "2700",
-      "2900"
+      "0[7]",
+      "2300[1:2:3:4:5:6]",
+      "2500[1:2:3:4:5:6]",
+      "2700[1:2:3:4:5:6]",
+      "2900[1:2:3:4:5:6]"
     ],
     "AttrType": "Physical",
     "TargetType": "Enemy",
@@ -10573,14 +10574,14 @@
     ],
     "OperationAngle1": 90,
     "OperationValue1": [
-      "572",
-      "92"
+      "972",
+      "182"
     ],
     "OperationValueFactor1": [
       "0",
       "0",
       "5",
-      "92"
+      "182"
     ],
     "OperationType2": "Stun",
     "OperationTargetType2": "Parent",
@@ -10594,24 +10595,47 @@
     "OperationValue3": [
       "-250"
     ],
-    "OperationState3": "Rehartna_3_ModSkillR",
+    "OperationState3": "4810_3",
     "OperationDurationMs3": 10000,
     "OperationParent3": 1,
     "OperationFlags3": [
       "HasParent"
     ],
     "OperationType4": "Dispel",
-    "OperationTargetType4": "Target",
+    "OperationTargetType4": "Myself",
+    "OperationRadiusMm4": 9000,
+    "OperationWidth4": 5000,
+    "OperationAngle4": 90,
     "OperationFlags4": [
       "Disabled"
     ],
     "OperationType5": "ModPiercePower",
-    "OperationTargetType5": "Target",
+    "OperationTargetType5": "Parent",
     "OperationValue5": [
-      "-200"
+      "-250"
     ],
-    "OperationDurationMs5": 99999999999,
+    "OperationState5": "4810_5",
+    "OperationDurationMs5": 10000,
+    "OperationParent5": 1,
     "OperationFlags5": [
+      "HasParent",
+      "Disabled"
+    ],
+    "OperationType6": "GetMana",
+    "OperationTargetType6": "Parent",
+    "OperationValue6": [
+      "-140"
+    ],
+    "OperationParent6": 1,
+    "OperationFlags6": [
+      "HasParent",
+      "Disabled"
+    ],
+    "OperationType7": "ImmuneCc",
+    "OperationTargetType7": "Myself",
+    "OperationDurationMs7": 999999,
+    "OperationFlags7": [
+      "WhileSkillUse",
       "Disabled"
     ]
   },
@@ -10673,18 +10697,18 @@
     "Index": 4820,
     "TriggerType": "None",
     "TriggerRatio": 1000,
-    "Mp": 3000,
-    "CoolTimeMs": 28000,
+    "Mp": 2000,
+    "CoolTimeMs": 17000,
     "ActingTimeMs": 800,
     "SoloTimeMs": 300,
     "DurationTimeMs": [
       "1900"
     ],
     "TickTimeValue": [
-      "800"
+      "700"
     ],
     "AttrType": "Physical",
-    "TargetType": "MinHpFriend",
+    "TargetType": "MinHpAlly",
     "TargetCount": 1,
     "DeadTarget": "False",
     "IgnoreBlock": "TRUE",
@@ -10692,15 +10716,45 @@
     "OperationType1": "CreateShieldR",
     "OperationTargetType1": "Target",
     "OperationValue1": [
-      "10000"
+      "8472",
+      "1522"
+    ],
+    "OperationValueFactor1": [
+      "0",
+      "0",
+      "5",
+      "1522"
     ],
     "OperationDelayMs1": [
       "0",
       "50",
       "0"
     ],
-    "OperationState1": "Shield",
-    "OperationDurationMs1": 10000
+    "OperationState1": "RehartnaShield",
+    "OperationDurationMs1": 10000,
+    "OperationType2": "GetHealR",
+    "OperationTargetType2": "Target",
+    "OperationValue2": [
+      "4544",
+      "852"
+    ],
+    "OperationValueFactor2": [
+      "0",
+      "0",
+      "5",
+      "852"
+    ],
+    "OperationDelayMs2": [
+      "0",
+      "50",
+      "0"
+    ],
+    "OperationType3": "SetTriggerTimer",
+    "OperationTargetType3": "Myself",
+    "OperationValue3": [
+      "4824",
+      "1000"
+    ]
   },
   {
     "Index": 4821,
@@ -10712,21 +10766,12 @@
     "DeadTarget": "False",
     "IgnoreBlock": "TRUE",
     "RetargetOnFire": "False",
-    "OperationType1": "ModSkillValue",
+    "OperationType1": "ModSkillPowerR",
     "OperationTargetType1": "Myself",
     "OperationValue1": [
-      "6624",
+      "4820",
       "1",
-      "0",
-      "8"
-    ],
-    "OperationType2": "ModSkillValue",
-    "OperationTargetType2": "Myself",
-    "OperationValue2": [
-      "6626",
-      "1",
-      "3",
-      "4"
+      "100"
     ]
   },
   {
@@ -10739,21 +10784,12 @@
     "DeadTarget": "False",
     "IgnoreBlock": "TRUE",
     "RetargetOnFire": "False",
-    "OperationType1": "ModSkillValue",
+    "OperationType1": "ModSkillPowerR",
     "OperationTargetType1": "Myself",
     "OperationValue1": [
-      "6624",
+      "4820",
       "1",
-      "0",
-      "12"
-    ],
-    "OperationType2": "ModSkillValue",
-    "OperationTargetType2": "Myself",
-    "OperationValue2": [
-      "6626",
-      "1",
-      "3",
-      "6"
+      "150"
     ]
   },
   {
@@ -10766,21 +10802,152 @@
     "DeadTarget": "False",
     "IgnoreBlock": "TRUE",
     "RetargetOnFire": "False",
-    "OperationType1": "ModSkillValue",
+    "OperationType1": "ModSkillPowerR",
     "OperationTargetType1": "Myself",
     "OperationValue1": [
-      "6624",
+      "4820",
       "1",
-      "0",
-      "20"
+      "250"
+    ]
+  },
+  {
+    "Index": 4824,
+    "FollowLevelIndex": 4820,
+    "TriggerType": "OnTimer",
+    "TriggerValue": [
+      "1000",
+      "1000"
     ],
-    "OperationType2": "ModSkillValue",
-    "OperationTargetType2": "Myself",
+    "TriggerRatio": 1000,
+    "TriggerDisabled": "True",
+    "AttrType": "Physical",
+    "IgnoreStateType": [
+      "CC"
+    ],
+    "TargetType": "Ally",
+    "TargetCount": 1,
+    "DeadTarget": "False",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "False",
+    "OperationType1": "GetHealR",
+    "OperationTargetType1": "Target",
+    "OperationRadiusMm1": 3000,
+    "OperationValue1": [
+      "1122",
+      "232"
+    ],
+    "OperationValueFactor1": [
+      "0",
+      "0",
+      "5",
+      "232"
+    ],
+    "OperationType2": "GetPhysicalDamageR",
+    "OperationTargetType2": "Target",
+    "OperationTargetSelectType2": "Opponent",
+    "OperationRadiusMm2": 3000,
     "OperationValue2": [
-      "6626",
-      "1",
-      "3",
-      "10"
+      "1122",
+      "232"
+    ],
+    "OperationValueFactor2": [
+      "0",
+      "0",
+      "5",
+      "232"
+    ],
+    "OperationType3": "ModDefence",
+    "OperationTargetType3": "Parent",
+    "OperationValue3": [
+      "110"
+    ],
+    "OperationValueFactor3": [
+      "5",
+      "110"
+    ],
+    "OperationState3": 4824,
+    "OperationDurationMs3": 1000,
+    "OperationParent3": 1,
+    "OperationFlags3": [
+      "HasParent"
+    ],
+    "OperationType4": "ModAttackSpeedR",
+    "OperationTargetType4": "Parent",
+    "OperationValue4": [
+      "-250"
+    ],
+    "OperationState4": "4824_2",
+    "OperationDurationMs4": 1000,
+    "OperationParent4": 2,
+    "OperationFlags4": [
+      "HasParent"
+    ],
+    "OperationType5": "ModCriticalDodgeChance",
+    "OperationTargetType5": "Parent",
+    "OperationValue5": [
+      "100"
+    ],
+    "OperationState5": "4824_5",
+    "OperationDurationMs5": 1000,
+    "OperationParent5": 1,
+    "OperationFlags5": [
+      "HasParent",
+      "Disabled"
+    ],
+    "OperationType6": "GetMana",
+    "OperationTargetType6": "Parent",
+    "OperationValue6": [
+      "150"
+    ],
+    "OperationParent6": 1,
+    "OperationFlags6": [
+      "HasParent",
+      "Disabled"
+    ]
+  },
+  {
+    "Index": 4825,
+    "TriggerType": "OnStart",
+    "TriggerRatio": 1000,
+    "AttrType": "Physical",
+    "TargetType": "Myself",
+    "TargetCount": 1,
+    "DeadTarget": "False",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "False",
+    "OperationType1": "FilterTargetByState",
+    "OperationTargetType1": "Myself",
+    "OperationValue1": [
+      "4824",
+      "RehartnaShield"
+    ]
+  },
+  {
+    "Index": 4826,
+    "TriggerType": "OnTimer",
+    "TriggerValue": [
+      "200",
+      "200"
+    ],
+    "TriggerRatio": 1000,
+    "AttrType": "Physical",
+    "IgnoreStateType": [
+      "CC"
+    ],
+    "TargetType": "Ally",
+    "DeadTarget": "False",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "False",
+    "OperationType1": "EnablePassiveSkill",
+    "OperationTargetType1": "Myself",
+    "OperationValue1": [
+      "4824",
+      "True"
+    ],
+    "OperationDurationMs1": 300,
+    "OperationConditionType1": "State",
+    "OperationConditionValue1": [
+      "RehartnaShield"
     ]
   },
   {
@@ -10788,7 +10955,7 @@
     "TriggerType": "None",
     "TriggerRatio": 1000,
     "Mp": 3000,
-    "CoolTimeMs": 28000,
+    "CoolTimeMs": 25000,
     "ActingTimeMs": 2300,
     "SoloTimeMs": 800,
     "DurationTimeMs": [
@@ -10810,56 +10977,40 @@
       "-4000",
       "InCoolTime"
     ],
-    "OperationValueFactor1": [
-      "0",
-      "0",
-      "5",
-      "92"
-    ],
     "OperationType2": "GetMot",
-    "OperationTargetType2": "Parent",
+    "OperationTargetType2": "Target",
     "OperationValue2": [
-      "40"
+      "150"
     ],
     "OperationState2": "Rehartna_3_Mot",
-    "OperationDurationMs2": 5000,
+    "OperationDurationMs2": 15000,
     "OperationTickTimeMs2": 1000,
-    "OperationParent2": 1,
-    "OperationFlags2": [
-      "HasParent"
-    ],
-    "OperationType3": "ModSkillPowerR",
-    "OperationTargetType3": "Parent",
+    "OperationType3": "ModPower",
+    "OperationTargetType3": "Target",
     "OperationValue3": [
-      "100"
+      "400"
     ],
-    "OperationState3": "Rehartna_3_ModSkillR",
-    "OperationDurationMs3": 9999999,
-    "OperationParent3": 1,
-    "OperationFlags3": [
-      "HasParent"
+    "OperationValueFactor3": [
+      "5",
+      "400"
     ],
+    "OperationState3": "Rehartna_3_Attack",
+    "OperationDurationMs3": 15000,
     "OperationType4": "ModSkillPowerR",
-    "OperationTargetType4": "Parent",
+    "OperationTargetType4": "Myself",
     "OperationValue4": [
+      "4830",
+      "3",
       "100"
     ],
     "OperationState4": "Rehartna_3_ModSkillR",
-    "OperationDurationMs4": 15000,
-    "OperationParent4": 1,
-    "OperationFlags4": [
-      "HasParent"
-    ],
-    "OperationType5": "ModSkillPowerR",
-    "OperationTargetType5": "Parent",
-    "OperationValue5": [
-      "50"
-    ],
-    "OperationState5": "Rehartna_3_ModSkillR",
-    "OperationDurationMs5": 15000,
-    "OperationParent5": 1,
+    "OperationDurationMs4": 999999,
+    "OperationMaxAccCount4": 1,
+    "OperationType5": "ImmuneCc",
+    "OperationTargetType5": "Target",
+    "OperationDurationMs5": 5000,
     "OperationFlags5": [
-      "HasParent"
+      "Disabled"
     ]
   },
   {
@@ -10875,16 +11026,18 @@
     "OperationType1": "ModSkillPowerR",
     "OperationTargetType1": "Myself",
     "OperationValue1": [
-      "6634",
-      "2",
+      "4830",
+      "3",
       "100"
     ],
-    "OperationType2": "ModSkillPowerR",
+    "OperationType2": "ModSkill",
     "OperationTargetType2": "Myself",
     "OperationValue2": [
-      "6634",
-      "5",
-      "100"
+      "4830",
+      "4",
+      "Value",
+      "10",
+      "2"
     ]
   },
   {
@@ -10900,16 +11053,18 @@
     "OperationType1": "ModSkillPowerR",
     "OperationTargetType1": "Myself",
     "OperationValue1": [
-      "6634",
-      "2",
+      "4830",
+      "3",
       "150"
     ],
-    "OperationType2": "ModSkillPowerR",
+    "OperationType2": "ModSkill",
     "OperationTargetType2": "Myself",
     "OperationValue2": [
-      "6634",
-      "5",
-      "150"
+      "4830",
+      "4",
+      "Value",
+      "15",
+      "2"
     ]
   },
   {
@@ -10925,47 +11080,27 @@
     "OperationType1": "ModSkillPowerR",
     "OperationTargetType1": "Myself",
     "OperationValue1": [
-      "6634",
-      "2",
+      "4830",
+      "3",
       "250"
     ],
-    "OperationType2": "ModSkillPowerR",
+    "OperationType2": "ModSkill",
     "OperationTargetType2": "Myself",
     "OperationValue2": [
-      "6634",
-      "5",
-      "250"
-    ]
-  },
-  {
-    "Index": 4834,
-    "TriggerType": "OnStart",
-    "TriggerRatio": 1000,
-    "AttrType": "Physical",
-    "TargetType": "Myself",
-    "TargetCount": 1,
-    "DeadTarget": "False",
-    "IgnoreBlock": "TRUE",
-    "RetargetOnFire": "False",
-    "OperationType1": "ModSkillPowerR",
-    "OperationTargetType1": "Myself",
-    "OperationValue1": [
-      "6634",
-      "2",
-      "250"
-    ],
-    "OperationType2": "ModSkillPowerR",
-    "OperationTargetType2": "Myself",
-    "OperationValue2": [
-      "6634",
-      "5",
-      "250"
+      "4830",
+      "4",
+      "Value",
+      "25",
+      "2"
     ]
   },
   {
     "Index": 4840,
     "TriggerType": "OnWaveStart",
     "TriggerRatio": 1000,
+    "TriggerFlag": [
+      "CanNotCancelBySlotSkill"
+    ],
     "ActingTimeMs": 800,
     "DurationTimeMs": [
       "2000"
@@ -10981,20 +11116,41 @@
     "OperationType1": "GetHealR",
     "OperationTargetType1": "Target",
     "OperationValue1": [
-      "100"
+      "2574",
+      "542"
     ],
-    "OperationType2": "ModRecorverPower",
+    "OperationValueFactor1": [
+      "0",
+      "0",
+      "5",
+      "542"
+    ],
+    "OperationType2": "ModRecoverPower",
     "OperationTargetType2": "Target",
     "OperationValue2": [
       "100"
     ],
+    "OperationState2": "Rehartna_4_Recover",
     "OperationDurationMs2": 9999999,
     "OperationType3": "ModCriticalPower",
     "OperationTargetType3": "Target",
     "OperationValue3": [
-      "100"
+      "120"
     ],
+    "OperationState3": "4840_3",
+    "OperationDurationMs3": 999999,
     "OperationFlags3": [
+      "Disabled"
+    ],
+    "OperationType4": "ModAttackByBoss",
+    "OperationTargetType4": "Target",
+    "OperationValue4": [
+      "True",
+      "40"
+    ],
+    "OperationState4": "4840_4",
+    "OperationDurationMs4": 999999,
+    "OperationFlags4": [
       "Disabled"
     ]
   },
@@ -11054,5 +11210,371 @@
       "250"
     ],
     "OperationConditionType1": "None"
+  },
+  {
+    "Index": 90000480,
+    "ReplaceDescKey": "SKILL_DESC_90000480",
+    "DescParam": [
+      "3",
+      "10",
+      "10"
+    ],
+    "TriggerType": "OnActiveSkill",
+    "TriggerValue": [
+      "0",
+      "Myself"
+    ],
+    "TriggerRatio": 1000,
+    "AttrType": "Physical",
+    "TargetType": "Myself",
+    "TargetCount": 1,
+    "DeadTarget": "False",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "False",
+    "OperationType1": "ModToughness",
+    "OperationTargetType1": "Myself",
+    "OperationState1": "Rehartna_Weapon",
+    "OperationDurationMs1": 999999,
+    "OperationType2": "Cleanse",
+    "OperationTargetType2": "Myself",
+    "OperationRadiusMm2": 50000,
+    "OperationConditionType2": "StateCount",
+    "OperationConditionValue2": [
+      "Rehartna_Weapon",
+      "2",
+      "MoreOrEqual"
+    ],
+    "OperationType3": "ModToughness",
+    "OperationTargetType3": "Myself",
+    "OperationRadiusMm3": 50000,
+    "OperationValue3": [
+      "100"
+    ],
+    "OperationState3": "Rehartna_Weapon2",
+    "OperationDurationMs3": 10000,
+    "OperationConditionType3": "StateCount",
+    "OperationConditionValue3": [
+      "Rehartna_Weapon",
+      "2",
+      "MoreOrEqual"
+    ],
+    "OperationType4": "ClearState",
+    "OperationTargetType4": "Myself",
+    "OperationValue4": [
+      "Rehartna_Weapon",
+      "2",
+      "0"
+    ],
+    "OperationConditionType4": "StateCount",
+    "OperationConditionValue4": [
+      "Rehartna_Weapon",
+      "2",
+      "MoreOrEqual"
+    ]
+  },
+  {
+    "Index": 90000481,
+    "ReplaceDescKey": "SKILL_DESC_90000480",
+    "DescParam": [
+      "3",
+      "10",
+      "12"
+    ],
+    "TriggerType": "OnActiveSkill",
+    "TriggerValue": [
+      "0",
+      "Myself"
+    ],
+    "TriggerRatio": 1000,
+    "AttrType": "Physical",
+    "TargetType": "Myself",
+    "TargetCount": 1,
+    "DeadTarget": "False",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "False",
+    "OperationType1": "ModToughness",
+    "OperationTargetType1": "Myself",
+    "OperationState1": "Rehartna_Weapon",
+    "OperationDurationMs1": 999999,
+    "OperationType2": "Cleanse",
+    "OperationTargetType2": "Myself",
+    "OperationRadiusMm2": 50000,
+    "OperationConditionType2": "StateCount",
+    "OperationConditionValue2": [
+      "Rehartna_Weapon",
+      "2",
+      "MoreOrEqual"
+    ],
+    "OperationType3": "ModToughness",
+    "OperationTargetType3": "Myself",
+    "OperationRadiusMm3": 50000,
+    "OperationValue3": [
+      "120"
+    ],
+    "OperationState3": "Rehartna_Weapon2",
+    "OperationDurationMs3": 10000,
+    "OperationConditionType3": "StateCount",
+    "OperationConditionValue3": [
+      "Rehartna_Weapon",
+      "2",
+      "MoreOrEqual"
+    ],
+    "OperationType4": "ClearState",
+    "OperationTargetType4": "Myself",
+    "OperationValue4": [
+      "Rehartna_Weapon",
+      "2",
+      "0"
+    ],
+    "OperationConditionType4": "StateCount",
+    "OperationConditionValue4": [
+      "Rehartna_Weapon",
+      "2",
+      "MoreOrEqual"
+    ]
+  },
+  {
+    "Index": 90000482,
+    "ReplaceDescKey": "SKILL_DESC_90000480",
+    "DescParam": [
+      "3",
+      "10",
+      "14"
+    ],
+    "TriggerType": "OnActiveSkill",
+    "TriggerValue": [
+      "0",
+      "Myself"
+    ],
+    "TriggerRatio": 1000,
+    "AttrType": "Physical",
+    "TargetType": "Myself",
+    "TargetCount": 1,
+    "DeadTarget": "False",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "False",
+    "OperationType1": "ModToughness",
+    "OperationTargetType1": "Myself",
+    "OperationState1": "Rehartna_Weapon",
+    "OperationDurationMs1": 999999,
+    "OperationType2": "Cleanse",
+    "OperationTargetType2": "Myself",
+    "OperationRadiusMm2": 50000,
+    "OperationConditionType2": "StateCount",
+    "OperationConditionValue2": [
+      "Rehartna_Weapon",
+      "2",
+      "MoreOrEqual"
+    ],
+    "OperationType3": "ModToughness",
+    "OperationTargetType3": "Myself",
+    "OperationRadiusMm3": 50000,
+    "OperationValue3": [
+      "140"
+    ],
+    "OperationState3": "Rehartna_Weapon2",
+    "OperationDurationMs3": 10000,
+    "OperationConditionType3": "StateCount",
+    "OperationConditionValue3": [
+      "Rehartna_Weapon",
+      "2",
+      "MoreOrEqual"
+    ],
+    "OperationType4": "ClearState",
+    "OperationTargetType4": "Myself",
+    "OperationValue4": [
+      "Rehartna_Weapon",
+      "2",
+      "0"
+    ],
+    "OperationConditionType4": "StateCount",
+    "OperationConditionValue4": [
+      "Rehartna_Weapon",
+      "2",
+      "MoreOrEqual"
+    ]
+  },
+  {
+    "Index": 90000483,
+    "ReplaceDescKey": "SKILL_DESC_90000480",
+    "DescParam": [
+      "3",
+      "10",
+      "17"
+    ],
+    "TriggerType": "OnActiveSkill",
+    "TriggerValue": [
+      "0",
+      "Myself"
+    ],
+    "TriggerRatio": 1000,
+    "AttrType": "Physical",
+    "TargetType": "Myself",
+    "TargetCount": 1,
+    "DeadTarget": "False",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "False",
+    "OperationType1": "ModToughness",
+    "OperationTargetType1": "Myself",
+    "OperationState1": "Rehartna_Weapon",
+    "OperationDurationMs1": 999999,
+    "OperationType2": "Cleanse",
+    "OperationTargetType2": "Myself",
+    "OperationRadiusMm2": 50000,
+    "OperationConditionType2": "StateCount",
+    "OperationConditionValue2": [
+      "Rehartna_Weapon",
+      "2",
+      "MoreOrEqual"
+    ],
+    "OperationType3": "ModToughness",
+    "OperationTargetType3": "Myself",
+    "OperationRadiusMm3": 50000,
+    "OperationValue3": [
+      "170"
+    ],
+    "OperationState3": "Rehartna_Weapon2",
+    "OperationDurationMs3": 10000,
+    "OperationConditionType3": "StateCount",
+    "OperationConditionValue3": [
+      "Rehartna_Weapon",
+      "2",
+      "MoreOrEqual"
+    ],
+    "OperationType4": "ClearState",
+    "OperationTargetType4": "Myself",
+    "OperationValue4": [
+      "Rehartna_Weapon",
+      "2",
+      "0"
+    ],
+    "OperationConditionType4": "StateCount",
+    "OperationConditionValue4": [
+      "Rehartna_Weapon",
+      "2",
+      "MoreOrEqual"
+    ]
+  },
+  {
+    "Index": 90000484,
+    "ReplaceDescKey": "SKILL_DESC_90000480",
+    "DescParam": [
+      "3",
+      "10",
+      "21"
+    ],
+    "TriggerType": "OnActiveSkill",
+    "TriggerValue": [
+      "0",
+      "Myself"
+    ],
+    "TriggerRatio": 1000,
+    "AttrType": "Physical",
+    "TargetType": "Myself",
+    "TargetCount": 1,
+    "DeadTarget": "False",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "False",
+    "OperationType1": "ModToughness",
+    "OperationTargetType1": "Myself",
+    "OperationState1": "Rehartna_Weapon",
+    "OperationDurationMs1": 999999,
+    "OperationType2": "Cleanse",
+    "OperationTargetType2": "Myself",
+    "OperationRadiusMm2": 50000,
+    "OperationConditionType2": "StateCount",
+    "OperationConditionValue2": [
+      "Rehartna_Weapon",
+      "2",
+      "MoreOrEqual"
+    ],
+    "OperationType3": "ModToughness",
+    "OperationTargetType3": "Myself",
+    "OperationRadiusMm3": 50000,
+    "OperationValue3": [
+      "210"
+    ],
+    "OperationState3": "Rehartna_Weapon2",
+    "OperationDurationMs3": 10000,
+    "OperationConditionType3": "StateCount",
+    "OperationConditionValue3": [
+      "Rehartna_Weapon",
+      "2",
+      "MoreOrEqual"
+    ],
+    "OperationType4": "ClearState",
+    "OperationTargetType4": "Myself",
+    "OperationValue4": [
+      "Rehartna_Weapon",
+      "2",
+      "0"
+    ],
+    "OperationConditionType4": "StateCount",
+    "OperationConditionValue4": [
+      "Rehartna_Weapon",
+      "2",
+      "MoreOrEqual"
+    ]
+  },
+  {
+    "Index": 90000485,
+    "ReplaceDescKey": "SKILL_DESC_90000480",
+    "DescParam": [
+      "3",
+      "10",
+      "25"
+    ],
+    "TriggerType": "OnActiveSkill",
+    "TriggerValue": [
+      "0",
+      "Myself"
+    ],
+    "TriggerRatio": 1000,
+    "AttrType": "Physical",
+    "TargetType": "Myself",
+    "TargetCount": 1,
+    "DeadTarget": "False",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "False",
+    "OperationType1": "ModToughness",
+    "OperationTargetType1": "Myself",
+    "OperationState1": "Rehartna_Weapon",
+    "OperationDurationMs1": 999999,
+    "OperationType2": "Cleanse",
+    "OperationTargetType2": "Myself",
+    "OperationRadiusMm2": 50000,
+    "OperationConditionType2": "StateCount",
+    "OperationConditionValue2": [
+      "Rehartna_Weapon",
+      "2",
+      "MoreOrEqual"
+    ],
+    "OperationType3": "ModToughness",
+    "OperationTargetType3": "Myself",
+    "OperationRadiusMm3": 50000,
+    "OperationValue3": [
+      "250"
+    ],
+    "OperationState3": "Rehartna_Weapon2",
+    "OperationDurationMs3": 10000,
+    "OperationConditionType3": "StateCount",
+    "OperationConditionValue3": [
+      "Rehartna_Weapon",
+      "2",
+      "MoreOrEqual"
+    ],
+    "OperationType4": "ClearState",
+    "OperationTargetType4": "Myself",
+    "OperationValue4": [
+      "Rehartna_Weapon",
+      "2",
+      "0"
+    ],
+    "OperationConditionType4": "StateCount",
+    "OperationConditionValue4": [
+      "Rehartna_Weapon",
+      "2",
+      "MoreOrEqual"
+    ]
   }
 ]

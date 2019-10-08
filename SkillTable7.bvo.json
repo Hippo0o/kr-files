@@ -1411,6 +1411,38 @@
     "OperationDurationMs4": 99999999
   },
   {
+    "Index": 60004850,
+    "TriggerType": "OnStart",
+    "TriggerRatio": 1000,
+    "DeadTarget": "False",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "FALSE",
+    "OperationType1": "ModMaxHpR",
+    "OperationTargetType1": "Myself",
+    "OperationValue1": [
+      "150"
+    ],
+    "OperationDurationMs1": 999999,
+    "OperationType2": "ModDefenceR",
+    "OperationTargetType2": "Myself",
+    "OperationValue2": [
+      "150"
+    ],
+    "OperationDurationMs2": 9999999,
+    "OperationType3": "ModPowerR",
+    "OperationTargetType3": "Myself",
+    "OperationValue3": [
+      "150"
+    ],
+    "OperationDurationMs3": 99999999,
+    "OperationType4": "ModAntiCcChance",
+    "OperationTargetType4": "Myself",
+    "OperationValue4": [
+      "100"
+    ],
+    "OperationDurationMs4": 99999999
+  },
+  {
     "Index": 60004950,
     "TriggerType": "OnStart",
     "TriggerRatio": 1000,
@@ -5416,5 +5448,33 @@
     "OperationValue3": [
       "9849"
     ]
+  },
+  {
+    "Index": 60004851,
+    "TriggerType": "OnActiveSkill",
+    "TriggerValue": [
+      "0",
+      "Myself"
+    ],
+    "TriggerRatio": 1000,
+    "TargetType": "RandomAlly",
+    "TargetCount": 4,
+    "DeadTarget": "False",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "FALSE",
+    "OperationType1": "ModPowerR",
+    "OperationTargetType1": "Target",
+    "OperationValue1": [
+      "30"
+    ],
+    "OperationState1": 60004851,
+    "OperationDurationMs1": 999999,
+    "OperationType2": "ModDefenceR",
+    "OperationTargetType2": "Target",
+    "OperationValue2": [
+      "30"
+    ],
+    "OperationState2": "60004851_2",
+    "OperationDurationMs2": 999999
   }
 ]

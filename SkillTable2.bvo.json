@@ -11563,9 +11563,8 @@
   },
   {
     "Index": 4540,
-    "TriggerType": "OnWaveStart",
+    "TriggerType": "OnStart",
     "TriggerRatio": 1000,
-    "CoolTimeMs": 999999,
     "AttrType": "Physical",
     "IgnoreStateType": [
       "CC"
@@ -11592,33 +11591,7 @@
       "300"
     ],
     "OperationState2": "4540_2",
-    "OperationDurationMs2": 9999999,
-    "OperationType3": "ModAttackByRace",
-    "OperationTargetType3": "Myself",
-    "OperationValue3": [
-      "Dragon",
-      "500",
-      "0"
-    ],
-    "OperationDelayMs3": [
-      "100",
-      "0",
-      "0"
-    ],
-    "OperationDurationMs3": 9999999,
-    "OperationType4": "ModAttackByRace",
-    "OperationTargetType4": "Myself",
-    "OperationValue4": [
-      "Draconian",
-      "500",
-      "0"
-    ],
-    "OperationDelayMs4": [
-      "100",
-      "0",
-      "0"
-    ],
-    "OperationDurationMs4": 9999999
+    "OperationDurationMs2": 9999999
   },
   {
     "Index": 4541,
@@ -11676,6 +11649,47 @@
       "250"
     ],
     "OperationConditionType1": "None"
+  },
+  {
+    "Index": 4544,
+    "TriggerType": "OnWaveStart",
+    "TriggerRatio": 1000,
+    "CoolTimeMs": 9999999,
+    "AttrType": "Physical",
+    "IgnoreStateType": [
+      "CC"
+    ],
+    "TargetType": "Myself",
+    "TargetCount": 1,
+    "DeadTarget": "False",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "False",
+    "OperationType1": "ModAttackByRace",
+    "OperationTargetType1": "Myself",
+    "OperationValue1": [
+      "Dragon",
+      "500",
+      "0"
+    ],
+    "OperationDelayMs1": [
+      "100",
+      "0",
+      "0"
+    ],
+    "OperationDurationMs1": 9999999,
+    "OperationType2": "ModAttackByRace",
+    "OperationTargetType2": "Myself",
+    "OperationValue2": [
+      "Draconian",
+      "500",
+      "0"
+    ],
+    "OperationDelayMs2": [
+      "100",
+      "0",
+      "0"
+    ],
+    "OperationDurationMs2": 9999999
   },
   {
     "Index": 90000450,
@@ -27727,7 +27741,7 @@
     "OperationType5": "SuppressSkillCheck",
     "OperationTargetType5": "Myself",
     "OperationValue5": [
-      "6710|6720",
+      "6710|6720|93006700",
       "UsingSkillCheck"
     ],
     "OperationType6": "ModDefenceR",
@@ -27782,6 +27796,12 @@
     "OperationValue2": [
       "6730|6734|6735",
       "AutoUse"
+    ],
+    "OperationType3": "ChangeSkillByState",
+    "OperationTargetType3": "Myself",
+    "OperationValue3": [
+      "93006700",
+      "93006712"
     ]
   },
   {

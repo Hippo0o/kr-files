@@ -5400,6 +5400,81 @@
     ]
   },
   {
+    "HeroIndex": 48,
+    "BaseSpeak": [
+      "INN_REHARTNA_INNIDLE01"
+    ],
+    "Action1": "Greeting",
+    "ActionResponse1": [
+      "INN_REHARTNA_GREETING01",
+      "InnReaction.Rehartna01",
+      " InnReaction"
+    ],
+    "Action2": "Conversation",
+    "ActionResponse2": [
+      "INN_REHARTNA_CONVERSATION01",
+      "InnReaction.Rehartna01",
+      " InnReaction",
+      "\nINN_REHARTNA_CONVERSATION02",
+      "InnReaction.Rehartna01",
+      " InnReaction",
+      "\nINN_REHARTNA_CONVERSATION03",
+      "InnReaction.Rehartna01",
+      " InnReaction"
+    ],
+    "Action3": "Gift",
+    "ActionResponse3": [
+      "INN_REHARTNA_GIFT01",
+      "InnReaction.Rehartna01",
+      " InnReaction"
+    ],
+    "Action4": "Closeness_Greeting",
+    "ActionResponse4": [
+      "INN_REHARTNA_GREETING02",
+      "InnReaction.Rehartna01",
+      " InnReaction"
+    ],
+    "Action5": "Closeness_Conversation",
+    "ActionResponse5": [
+      "INN_REHARTNA_CONVERSATION04",
+      "InnReaction.Rehartna01",
+      " InnReaction",
+      "\nINN_REHARTNA_CONVERSATION05",
+      "InnReaction.Rehartna01",
+      " InnReaction"
+    ],
+    "Action6": "Closeness_Gift",
+    "ActionResponse6": [
+      "INN_REHARTNA_GIFT02",
+      "InnReaction.Rehartna01",
+      " InnReaction"
+    ],
+    "Action1_MAX": "Greeting_Max",
+    "Response1_MAX": [
+      "INN_REHARTNA_CONNECT_GREETING_MAX",
+      " InnReaction.Rehartna01",
+      " InnReaction"
+    ],
+    "MaxAction1": "Connect_Talk_1",
+    "MaxResponse1": [
+      "INN_REHARTNA_CONNECT_CONVERSATION01",
+      " InnReaction.Rehartna01",
+      " InnReaction"
+    ],
+    "MaxAction2": "Connect_Talk_2",
+    "MaxResponse2": [
+      "INN_REHARTNA_CONNECT_CONVERSATION02",
+      " InnReaction.Rehartna01",
+      " InnReaction"
+    ],
+    "MaxAction3": "Connect_Talk_3",
+    "MaxResponse3": [
+      "INN_REHARTNA_CONNECT_CONVERSATION03",
+      " InnReaction.Rehartna01",
+      " InnReaction"
+    ]
+  },
+  {
     "HeroIndex": 71,
     "BaseSpeak": [
       "INN_KIRZE_INNIDLE01"

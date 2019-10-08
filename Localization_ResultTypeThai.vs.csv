@@ -1,903 +1,863 @@
-KEY,Thai
-BASE_RESULT_TYPE.SUCCESS,ประมวลผลคำขอของคุณเรียบร้อยแล้ว เครือข่ายของคุณไม่เสถียร ดังนั้นโปรดลองใหม่อีกครั้งในภายหลัง
-BASE_RESULT_TYPE.FAIL,การประมวลผลคำขอของคุณล้มเหลวเนื่องจากการเชื่อมต่อเครือข่ายไม่เสถียร โปรดลองใหม่อีกครั้งในภายหลัง
-BASE_RESULT_TYPE.SESSION_ERROR,คุณถูกตัดการเชื่อมต่อจากเซิร์ฟเวอร์เนื่องจากอยู่นิ่งเป็นเวลานาน โปรดเข้าเกมใหม่
-BASE_RESULT_TYPE.ACCOUNT_ERROR,ไอดีของท่านไม่ถูกต้อง
-BASE_RESULT_TYPE.UNHANDLED,การเรียกข้อมูลผิดพลาด
-BASE_RESULT_TYPE.EXCEPTION,พบความผิดปรกติของระบบภายใน
-BASE_RESULT_TYPE.HTTP_ERROR,พบความผิดปรกติระหว่างการดึงข้อมูลในเว็บ
-BASE_RESULT_TYPE.PARSING_ERROR,พบปัญหาในการ Parsing
-RESULT_TYPE.SUCCESS,ประมวลผลคำขอของคุณเรียบร้อยแล้ว เครือข่ายของคุณไม่เสถียร ดังนั้นโปรดลองใหม่อีกครั้งในภายหลัง
-RESULT_TYPE.FAIL,การประมวลผลคำขอของคุณล้มเหลวเนื่องจากการเชื่อมต่อเครือข่ายไม่เสถียร โปรดลองใหม่อีกครั้งในภายหลัง
-RESULT_TYPE.LEVEL_DATA_NOT_FOUND,ไม่พบข้อมูลเลเวล
-RESULT_TYPE.CANNOT_UPGRADE_MORE,ไม่สามารถอัพเกรดเพิ่มได้
-RESULT_TYPE.NOT_ENOUGH_GOLD,มี Gold ไม่เพียงพอ
-RESULT_TYPE.NOT_ENOUGH_GEM,มี Ruby ไม่เพียงพอ
-RESULT_TYPE.INSUFFICIENT_ITEM,มีวัตถุดิบไม่เพียงพอ
-RESULT_TYPE.GRADE_DATA_NOT_FOUND,ไม่พบข้อมูล Rank
-RESULT_TYPE.CANNOT_UPGRADE_YET,ไม่สามารถอัพเกรดได้
-RESULT_TYPE.REQ_GOLD_NOT_FOUND,ไม่พบค่า Gold ที่ต้องการ
-RESULT_TYPE.REQ_ITEM_DATA_NOT_FOUND,ไม่พบวัตถุดิบที่ต้องการ
-RESULT_TYPE.SESSION_ERROR,คุณถูกตัดการเชื่อมต่อจากเซิร์ฟเวอร์เนื่องจากอยู่นิ่งเป็นเวลานาน โปรดเข้าเกมใหม่
-RESULT_TYPE.ACCOUNT_ERROR,ไอดีของท่านไม่ถูกต้อง
-RESULT_TYPE.UNHANDLED,กระบวนการล้มเหลว
-RESULT_TYPE.HTTP_ERROR,การดึงข้อมูลเว็บล้มเหลว
-RESULT_TYPE.PARSING_ERROR,พบข้อผิดพลาดในการตอบกลับ
-RESULT_TYPE.HERO_NOT_FOUND,ไม่มีวีรบุรุษนี้
-RESULT_TYPE.EQUIP_DATA_NOT_FOUND,ไม่พบข้อมูลอุปกรณ์
-RESULT_TYPE.EQUIP_NOT_OWNED,คุณไม่มีอุปกรณ์
-RESULT_TYPE.EQUIP_NOT_FOUND,ไม่พบอุปกรณ์
-RESULT_TYPE.EQUIPPED,อุปกรณ์นี้ได้สวมใส่ไว้แล้ว
-RESULT_TYPE.EQUIP_CODE_NOT_FOUND,ไม่พบรหัสอุปกรณ์
-RESULT_TYPE.MAX_JOIN_REQUEST,คำร้องเข้ากิลด์ถึงขีดจัดกัดแล้ว\nโปรดยกเลิกบางรายการแล้วทำใหม่อีกครั้ง
-RESULT_TYPE.MAX_GUILD_MAX_JOIN_REQUEST,คำร้องเข้ากิลด์เต็มแล้ว
-RESULT_TYPE.MATERIAL_EQUIP_ITEM_PRICE_ERROR,ราคาที่ต้องจ่ายไม่ถูกต้อง
-RESULT_TYPE.NO_UPGRADABLE_MATERIAL_EQUIP_ITEM,วัตถุดิบของอุปกรณ์ไม่ถูกต้อง
-RESULT_TYPE.NOT_OWNED_MATERIAL_EQUIP_ITEM,คุณไม่มีวัตถุดิบของอุปกรณ์นี้
-RESULT_TYPE.NOT_ENOUGH_TEAM_LEVEL,คุณมีเลเวลทีมน้อยเกินไป
-RESULT_TYPE.MAX_MEMBER,มีสมาชิกกิลด์เต็มแล้ว
-RESULT_TYPE.INVALID_RANK,สิทธิในการจัดการสมาชิกกิลด์ผิดพลาด
-RESULT_TYPE.GUILD_JOIN_NOT_REQUESTED,ไม่พบข้อมูลคำร้อง
-RESULT_TYPE.NAME_DUPLICATED,ชื่อนี้ถูกใช้ไปแล้ว
-RESULT_TYPE.GUILD_MEMBER_EXIST,ยังมีสมาชิกกิลด์อยู่
-RESULT_TYPE.ALREADY_REGISTERED_MERCENARY,ฮีโร่นี้อยู่ในทีมผจญภัยแล้ว
-RESULT_TYPE.MAX_MERCENARY,จำนวนสมาชิกทีมผจญภัยครบแล้ว
-RESULT_TYPE.NOT_REGISTERED_MERCENARY,ฮีโร่ที่ไม่ได้อยู่ในทีมผจญภัย
-RESULT_TYPE.ALREADY_JOINED,เข้าร่วมกิลด์แล้ว
-RESULT_TYPE.LOG_NOT_FOUND,ไม่พบสถิติการสู้
-RESULT_TYPE.INVALID_PLUNDER_RESULT,สถิติการสู้ผิดพลาด
-RESULT_TYPE.ALREADY_CHASED,เริ่มไล่ล่าแล้ว
-RESULT_TYPE.INVALID_CHAPTER_INDEX,ตำแหน่งภารกิจผิดพลาด
-RESULT_TYPE.COLLECT_NODE_NOT_FOUND,ไม่พบตำแหน่งภารกิจ
-RESULT_TYPE.COLLECT_ENDED,การรวบรวมสมบูรณ์แล้ว
-RESULT_TYPE.DEAD_HERO_EXIST,ไม่สามารถขโมยฮีโร่ที่หมดสภาพแล้วได้
-RESULT_TYPE.USER_CHASE_INFO_NOT_FOUND,ไม่พบข้อมูลการไล่ล่า
-RESULT_TYPE.COLLECT_INFO_NOT_FOUND,ไม่พบข้อมูลภารกิจสำรวจ
-RESULT_TYPE.INVALID_TEAM_SLOT,ปาร์ตี้ภารกิจสำรวจผิดพลาด
-RESULT_TYPE.ALREADY_HARVESTED,ผ่านภารกิจนี้ไปเรียบร้อยแล้ว
-RESULT_TYPE.MAX_DAILY_QUICK_COMPLETE_COLLECT,คุณทำเสร็จถึงจำนวนสูงสุดของวันนี้แล้ว
-RESULT_TYPE.COLLECT_NOT_ENDED,ภารกิจนี้ยังไม่สำเร็จ
-RESULT_TYPE.RECORD_NOT_FOUND,ไม่พบสถิติการสู้
-RESULT_TYPE.ALREADY_DEFEND_REWARDED,ได้รับรางวัลจากการป้องกันการขโมยแล้ว
-RESULT_TYPE.MAX_PLUNDER_DEFEND_REWARD,คุณได้รับรางวัลถึงจำนวนสูงสุดของการป้องกันการขโมยของวันนี้แล้ว
-RESULT_TYPE.CHAPTER_NOT_COMPLETED,เนื้อเรื่องหลักบทนี้ยังไม่สำเร็จ
-RESULT_TYPE.VIP_LEVEL_DATA_NOT_FOUND,ไม่พบข้อมูลเลเวล VIP
-RESULT_TYPE.MAX_RES_COLLECT_TEAM,ตอนนี้ทุกทีมอยู่ในภารกิจแล้ว
-RESULT_TYPE.NOW_COLLECTING,ตอนนี้ทีมอยู่ในภารกิจ
-RESULT_TYPE.INVALID_HERO_INDEX,ฮีโร่อยู่ในภารกิจหรือไม่มีฮีโร่นี้แล้ว
-RESULT_TYPE.CHAPTER_NOT_FOUND,ไม่สามารถเข้าภารกิจนี้ได้
-RESULT_TYPE.DUNGEON_NOT_FOUND,ไม่สามารถเข้าดันเจี้ยนนี้ได้
-RESULT_TYPE.EMPTY_HERO_INDICES,ยังไม่มีฮีโร่นี้
-RESULT_TYPE.CANNOT_PLAY_DUNGEON,ไม่สามารถเข้าดันเจี้ยนได้
-RESULT_TYPE.NOT_ENOUGH_STAMINA,พลังงานในการเข้าเล่นไม่เพียงพอ
-RESULT_TYPE.NOT_ENOUGH_PLAY_KEY,กุญแจไม่เพียงพอ
-RESULT_TYPE.INVALID_DIFF,ระดับความยากง่ายของเลเวลไม่ถูกต้อง
-RESULT_TYPE.VERIFY_FAILED,การยืนยันผิดพลาด
-RESULT_TYPE.CHECK_FAILED,การตรวจสอบผิดพลาด
-RESULT_TYPE.USER_CAMPAIGN_INFO_NOT_FOUND,เนื่องจากข้อผิดพลาดของเครือข่าย เซิร์ฟเวอร์จึงมีความล่าช้าในการประมวลผลข้อมูลผู้ใช้ โปรดลองใหม่อีกครั้งในภายหลัง
-RESULT_TYPE.WRONG_CHAPTER_INDEX,ฟีเจอร์นี้ไม่พร้อมใช้งาน
-RESULT_TYPE.WRONG_DUNGEON_INDEX,ฟีเจอร์นี้ไม่พร้อมใช้งาน
-RESULT_TYPE.INVALID_STAR,ข้อมูล Star ผิดพลาด
-RESULT_TYPE.ENCHANT_RESULT_NOT_FOUND,ไม่พบข้อมูลการปรับเปลี่ยนออฟชั่น
-RESULT_TYPE.EQUIP_ITEM_SLOT_INDEX_MISMATCH,เป้าหมายการปรับเปลี่ยนออฟชั่นไม่ตรงกัน
-RESULT_TYPE.OPTION_SLOT_INDEX_MISMATCH,ช่องออฟชั่นไม่ตรงกัน
-RESULT_TYPE.OPTION_INDEX_MISMATCH,ผลจากการปรับเปลี่ยนค่าออฟชั่นเปลี่ยนไป
-RESULT_TYPE.PREV_OPTION_INDEX_MISMATCH,ค่าออฟชั่นใหม่เปลี่ยนไปจากเดิม
-RESULT_TYPE.INVALID_OPTION_SLOT,ช่องออฟชั่นผิดพลาด
-RESULT_TYPE.RANDOM_OPTION_DATA_ERROR,ข้อมูลออฟชั่นจากการสุ่มผิดพลาด
-RESULT_TYPE.NO_HERO,ไม่พบฮีโร่
-RESULT_TYPE.HERO_DATA_NOT_FOUND,ไม่พบข้อมูลฮีโร่
-RESULT_TYPE.ALREADY_OTHER_HERO_EQUIPPED,ฮีโร่อื่นได้ใส่ไอเทมนี้ไปแล้ว
-RESULT_TYPE.ITEM_DATA_NOT_FOUND,ไม่พบข้อมูลไอเทม
-RESULT_TYPE.EQUIP_ITEM_DATA_NOT_FOUND,ไม่พบข้อมูลอุปกรณ์
-RESULT_TYPE.EQUIP_TAG_ERROR,ค่า Tag ของอุปกรณ์ผิดพลาด
-RESULT_TYPE.TOO_LOW_GRADE,ระดับไม่ถึง
-RESULT_TYPE.TOO_LOW_LEVEL,เลเวลไม่ถึง
-RESULT_TYPE.LOCKED_PART_INDEX,ช่องอุปกรณ์ที่ปิดไว้
-RESULT_TYPE.EQUIP_PART_ERROR,ช่องอุปกรณ์ที่ไม่สามารถใช้งานได้
-RESULT_TYPE.REMOVE_FAILED,การลบผิดพลาด
-RESULT_TYPE.INVALID_HERO_PART_INDEX,ช่องอุปกรณ์ผิดพลาด
-RESULT_TYPE.ALREADY_UNLOCKED,ถูกเปิดไว้อยู่แล้ว
-RESULT_TYPE.UNLOCK_FAILED,การเปิดผิดพลาด
-RESULT_TYPE.EQUIP_ITEM_NOT_FOUND,ไม่พบอุปกรณ์
-RESULT_TYPE.UNEQUIP_FAILED,การลบอุปกรณ์ผิดพลาด
-RESULT_TYPE.STAT_DATA_NOT_FOUND,ไม่พบข้อมูล
-RESULT_TYPE.EMPTY_MATERIAL_EQUIP_ITEM,ไม่มีวัตถุดิบ
-RESULT_TYPE.INVALID_MATERIAL_EQUIP_ITEM,วัตถุดิบของอุปกรณ์ไม่ถูกต้อง
-RESULT_TYPE.FRIEND_NOT_FOUND,ไม่พบเพื่อน
-RESULT_TYPE.REQUEST_MYSELF,คุณไม่สามารถยื่นคำขอถึงตัวเองได้
-RESULT_TYPE.CANNOT_SEARCH_MYSELF,คุณไม่สามารถค้นหาตัวเองได้
-RESULT_TYPE.GACHA_DATA_NOT_FOUND,ไม่พบข้อมูลตู้ Gacha
-RESULT_TYPE.WRONG_GACHA_INDEX,หมายเลข Gacha ผิดพลาด
-RESULT_TYPE.WRONG_GACHA_COUNT,จำนวน Gacha ผิดพลาด
-RESULT_TYPE.NO_MERCENARIES,ไม่พบทีมผจญภัย
-RESULT_TYPE.NO_GUILD,ไม่พบกิลด์
-RESULT_TYPE.INVAILID_RANK,อันดับ Ranking ผิดพลาด
-RESULT_TYPE.GUILD_MAX_JOIN_REQUEST,คำขอเข้าร่วมกิลด์เต็มแล้ว
-RESULT_TYPE.TRIAL_DUNGEON_DATA_NOT_FOUND,ไม่พบข้อมูลห้องพิสูจน์ตน
-RESULT_TYPE.NOT_PLAYER_HERO,คุณไม่มีฮีโร่นี้
-RESULT_TYPE.ITEM_NOT_OWNED,คุณไม่มีไอเทมนี้
-RESULT_TYPE.ITEM_TYPE_MISMATCH,ประเภทไอเทมไม่ตรงกัน
-RESULT_TYPE.POTION_DATA_NOT_FOUND,ไม่พบข้อมูลไอเทมฟื้นฟู
-RESULT_TYPE.INVALID_ACTION,การกระทำผิดพลาด
-RESULT_TYPE.RECIPE_DATA_NOT_FOUND,ไม่พบข้อมูลตำรา
-RESULT_TYPE.MATERIAL_DATA_NOT_FOUND,ไม่พบข้อมูลวัตถุดิบ
-RESULT_TYPE.NOT_ENOUGH_MATERIAL,วัตถุดิบไม่เพียงพอ
-RESULT_TYPE.MATCH_RESULT_NOT_FOUND,ไม่พบผลการต่อสู้
-RESULT_TYPE.MATCH_UID_MISMATCH,หมายเลขห้องต่อสู้ไม่ตรงกัน
-RESULT_TYPE.MATCHING_DISABLED,กำลังรวบรวมผลการต่อสู้
-RESULT_TYPE.NOT_ENOUGH_SWORD,มีดาบไม่เพียงพอ
-RESULT_TYPE.MATCH_USER_NOT_FOUND,ไม่พบข้อมูลผู้ท้าชิง
-RESULT_TYPE.NPC_INFO_NOT_FOUND,ไม่พบข้อมูล NPC
-RESULT_TYPE.WAIT_MORE,เนื่องจากข้อผิดพลาดของเครือข่าย เซิร์ฟเวอร์จึงมีความล่าช้าในการประมวลผลข้อมูลการต่อสู้ โปรดแตะตกลงอีกครั้ง
-RESULT_TYPE.NOT_ENOUGH_CHEESE,ชีสไม่เพียงพอ
-RESULT_TYPE.USER_PLUNDER_INFO_NOT_FOUND,ไม่พบข้อมูลการขโมย
-RESULT_TYPE.COLLECT_NODE_DATA_NOT_FOUND,ไม่พบข้อมูล Collection Node
-RESULT_TYPE.PLAYER_NOT_FOUND,ไม่พบข้อมูลผู้เล่น
-RESULT_TYPE.V_I_P_LEVEL_DATA_NOT_FOUND,ไม่พบข้อมูลเลเวลของ VIP
-RESULT_TYPE.SHOP_DATA_NOT_FOUND,ไม่พบข้อมูลร้านค้า
-RESULT_TYPE.SHOP_ITEM_DATA_NOT_FOUND,ไม่พบข้อมูลไอเทมในร้านค้า
-RESULT_TYPE.PLAYER_SHOP_ITEM_NOT_FOUND,ไม่พบข้อมูลไอเทมในร้านค้าของผู้เล่น
-RESULT_TYPE.SOLD_OUT,ถูกขายไปแล้ว
-RESULT_TYPE.INVALID_COST,ราคาไม่ถูกต้อง
-RESULT_TYPE.NO_ITEM_DATA,ไม่พบข้อมูลไอเทม
-RESULT_TYPE.NOT_OWNED,ไม่ได้เป็นเจ้าของ
-RESULT_TYPE.INVALID_ITEM_COUNT,จำนวนไอเทมไม่ถูกต้อง
-RESULT_TYPE.NOT_ENOUGH_STONE,คริสตัลอัพเกรดไม่เพียงพอ
-RESULT_TYPE.HERO_LEVEL_LIMIT,มีเลเวลของฮีโร่ไม่เพียงพอ
-RESULT_TYPE.SKILL_LEVEL_NOT_FOUND,ไม่พบข้อมูลเลเวลของสกิล
-RESULT_TYPE.SKILL_PRICE_NOT_FOUND,ไม่พบข้อมูลค่าอัพเกรดสกิล
-RESULT_TYPE.TEAM_LEVEL_LIMIT,ไม่สามารถอัพเลเวลฮีโร่ได้มากกว่านี้
-RESULT_TYPE.SKILL_NOT_FOUND,ไม่พบสกิล
-RESULT_TYPE.REQ_GOLD_ERROR,ค่า Gold ที่จำเป็นต้องใช้ผิดพลาด
-RESULT_TYPE.STAR_DATA_NOT_FOUND,ข้อมูล Star ผิดพลาด
-RESULT_TYPE.NO_TARGET_ACCOUNT_ID,ไม่พบข้อมูลจำนวนผู้เล่น
-RESULT_TYPE.VERSION_ERROR,เวอร์ชั่นไม่ถูกต้อง
-RESULT_TYPE.MATCH_NOT_FOUND,ไม่พบการแข่งขัน
-RESULT_TYPE.EQUIP_ITEM_FULL,อุปกรณ์เต็ม
-RESULT_TYPE.INVALID_GUILD_LEVEL,เลเวลกิลด์ไม่ถูกต้อง
-RESULT_TYPE.ALREADY_JOIN_REQUESTED,ได้ยื่นคำขอเข้าร่วมแล้ว...
-RESULT_TYPE.MIN_REGISTER_TIME_NOT_ELAPSED,ระยะเวลาลงทะเบียนขั้นต่ำไม่ถูกต้อง
-RESULT_TYPE.RESULT_ITEM_DATA_NOT_FOUND,ไม่พบข้อมูลไอเทมผลลัพธ์
-RESULT_TYPE.RESULT_EQUIP_ITEM_DATA_NOT_FOUND,ไม่พบข้อมูลอุปกรณ์ผลลัพธ์
-RESULT_TYPE.MISSION_NOT_COMPLETED,ภารกิจยังไม่สำเร็จ
-RESULT_TYPE.TYPE_ERROR,ประเภทไม่ถูกต้อง
-RESULT_TYPE.INFO_ERROR,ข้อมูลไม่ถูกต้อง
-RESULT_TYPE.ACCOUNT_IDS_ERROR,ไอดีไม่ถูกต้อง
-RESULT_TYPE.NOT_ENOUGH_PVP_COIN,PVP Coin ไม่เพียงพอ
-RESULT_TYPE.EMPTY_NICK,โปรดใส่ชื่อที่ต้องการ
-RESULT_TYPE.INVALID_NICK,ไม่สามารถใช้ชื่อนี้ได้
-RESULT_TYPE.ALREADY_EXIST,ชื่อนี้ถูกใช้ไปแล้ว
-RESULT_TYPE.TOO_SHORT_NICK,ชื่อสั้นเกินไป
-RESULT_TYPE.TOO_LONG_NICK,ชื่อยาวเกินไป
-RESULT_TYPE.CENSORED_WORD,รวมถึงคำสาปแช่ง
-RESULT_TYPE.NOT_ENOUGH_CHALLENGE_CHANCE,ไม่สามารถประลองได้มากกว่านี้
-RESULT_TYPE.NOT_ENOUGH_DUNGEON_KEY,มีกุญแจสำหรับลงดันเจี้ยนไม่เพียงพอ
-RESULT_TYPE.NOT_OPENED_DUNGEON,ดันเจี้ยนยังไม่เปิดให้เข้า
-RESULT_TYPE.REQ_GEM_ERROR,ไม่ต้องการ Ruby
-RESULT_TYPE.WAITER_NOT_FOUND,ไม่พบข้อมูลการรอ
-RESULT_TYPE.MISSION_NOT_CLEARED,ภารกิจยังไม่สำเร็จ
-RESULT_TYPE.DUNGEON_DATA_NOT_FOUND,ไม่พบข้อมูลดันเจี้ยน
-RESULT_TYPE.NO_AVAILABLE_SERVER,ไม่พบเซิร์ฟเวอร์
-RESULT_TYPE.UNEQUIP_OLD_FAILED,ไม่สามารถนำอุปกรณ์ที่ใช้อยู่ออก
-RESULT_TYPE.EQUIP_FAILED,พบความผิดพลาดในการใส่อุปกรณ์
-RESULT_TYPE.NO_SHOP_DATA,ไม่พบข้อมูลร้านค้า
-BASE_RESULT_TYPE.TIMEOUT,ไม่มีการตอบสนองจากเซิร์ฟเวอร์
-BASE_RESULT_TYPE.SEQUENCE_ERROR,เนื่องจากข้อผิดพลาดของเครือข่าย เซิร์ฟเวอร์จึงมีความล่าช้าในการประมวลผลข้อมูลผู้ใช้ โปรดลองใหม่อีกครั้งในภายหลัง
-BASE_RESULT_TYPE.INTERNAL_ERROR,ข้อผิดพลาดจากภายใน
-BASE_RESULT_TYPE.EMPTY_HOST,ไม่มีโฮสต์
-RESULT_TYPE.ACHIEVEMENT_NOT_CLEARED,จุดมุ่งหมายยังไม่สำเร็จ
-RESULT_TYPE.INVALID_STEP,คุณได้รับรางวัลนี้ไปแล้ว
-RESULT_TYPE.NO_PRIVILEGE,ท่านไม่ได้รับอนุญาต
-RESULT_TYPE.INVALID_HOST,โฮสต์ผิด
-RESULT_TYPE.MASTER_NOT_FOUND,ไม่มีผู้นำห้อง
-RESULT_TYPE.MULTIPLAY_INFO_NOT_FOUND,ไม่มีข้อมูลผู้เข้าร่วมปาร์ตี้
-RESULT_TYPE.WRONG_MEMBER,สมาชิกไม่ถูกต้อง
-RESULT_TYPE.ALREADY_REWARD_CALCULATED,รางวัลที่ได้รับการตัดสินแล้ว
-RESULT_TYPE.LINKED_DUNGEON_NOT_FOUND,ไม่สามารถเชื่อมต่อดันเจี้ยน
-RESULT_TYPE.ALREADY_COMPLETED,เสร็จสิ้นแล้ว
-RESULT_TYPE.DUNGEON_TYPE_ERROR,ประเภทดันเจี้ยนไม่ถูกต้อง
-RESULT_TYPE.CANNOT_VISIT_DUNGEON,ไม่สามารถเข้าดันเจี้ยนนี้ได้
-RESULT_TYPE.INVALID_TRIAL_HERO,เลือกฮีโร่สำหรับด่านดันเจี้ยนแห่งOrdealไม่ถูกต้อง
-RESULT_TYPE.WORLD_MAP_EVENT_NOT_FOUND,ไม่มีแผนที่กิจกรรม
-RESULT_TYPE.EVENT_DUNGEON_INDEX_MISMATCH,จำนวนดันเจี้ยนกิจกรรมไม่ถูกต้อง
-RESULT_TYPE.NOT_ENOUGH_MULTIPLAY_MEMBERS,สมาชิกยังไม่เพียงพอ
-RESULT_TYPE.NOT_CALCULATED,ยังไม่ได้ตัดสินใจ
-RESULT_TYPE.ALREADY_REWARDED,รางวัลได้ถูกมอบไปแล้ว
-RESULT_TYPE.NOT_SAME_DEVELOPER_PAYLOAD,ข้อมูลการชำระเงิน (DeveloperPayload) ไม่ตรง การชำระเงินได้รับการยกเลิก
-RESULT_TYPE.NOT_SAME_PRODUCT_ID,ข้อมูลการชำระเงิน (productID) ไม่ตรง การชำระเงินได้รับการยกเลิก
-RESULT_TYPE.WRONG_PURCHASE_STATUS,ข้อมูลการชำระเงิน (PurchaseStatus) ผิด การชำระเงินได้รับการยกเลิก
-RESULT_TYPE.VERIFICATION_FAILED,ตรวจสอบการชำระเงินล้มเหลว การชำระเงินได้รับการยกเลิก
-RESULT_TYPE.INVALID_CONSUMPTION_STATE,ข้อมูลการชำระเงินไม่ถูกต้อง (ConsumptionState) การชำระเงินได้รับการยกเลิก
-RESULT_TYPE.NOT_MONTHLY_ENDED,ท่านยังไม่สามารถซื้อแพคเกจรายเดือนได้
-RESULT_TYPE.HAVE_PLAY_CHANCE,ไม่สามารถทำการซื้อได้เนื่องจากโอกาสการท้าทายที่คงเหลือ
-RESULT_TYPE.INVALID_DUNGEON_INDEX,จำนวนดันเจี้ยนไม่ถูกต้อง
-RESULT_TYPE.CANNOT_AWAKEN_YET,ยังไม่สามารถ ปลุก ได้
-RESULT_TYPE.CANNOT_AWAKEN_MORE,ไม่สามารถ ปลุกเพิ่มได้อีก
-RESULT_TYPE.RUNE_ITEM_NOT_OWNED,ท่านไม่มีไอเทมรูน นี้
-RESULT_TYPE.SAME_RUNE_EQUIPPED,รูนชนิดเดียวกันติดตั้งเรียบร้อยแล้ว
-RESULT_TYPE.ALEADY_OCCUPIED,ได้รับมอบหมายแล้ว
-RESULT_TYPE.PRESERVE_PRICE_ERROR,ค่ารักษาไม่ถูกต้อง
-RESULT_TYPE.RUNE_ITEM_DATA_NOT_FOUND,ไม่มีข้อมูลไอเท็มรูน
-RESULT_TYPE.RUNE_DATA_NOT_FOUND,ไม่มีข้อมูลรูน
-RESULT_TYPE.PART_TYPE_ERROR,ชิ้นส่วนที่ไม่ถูกต้อง
-RESULT_TYPE.NO_EQUIPPED_RUNE,ยังไม่ได้ติดตั้งรูน
-RESULT_TYPE.HERO_ALREADY_EXIST,มีฮีโร่อยู่แล้ว
-RESULT_TYPE.SKILL_NOT_LEARNED,ท่านยังไม่ได้เรียนรู้ทักษะ
-RESULT_TYPE.INVALID_SKILL_EXTEND,การขยายสกิลที่ไม่ถูกต้อง
-RESULT_TYPE.NOT_ENOUGH_ITEM,ไอเท็มไม่เพียงพอ
-RESULT_TYPE.BOOK_ITEM_DATA_NOT_FOUND,ไม่มีไอเท็มหนั​​งสือ
-RESULT_TYPE.SKILL_ALREADY_LEARNED,เรียนรู้ทักษะนี้แล้ว
-RESULT_TYPE.MAX_PURIFIED,ถึงระดับการชำระล้างสูงสุดแล้ว
-RESULT_TYPE.MAX_HERO_STAR,ฮีโร่ถึงระดับปลุกพลังสูงสุดแล้ว
-RESULT_TYPE.NO_AWAKE_MATERIAL,ไม่มีวัตถุดิบสำหรับการปลุกพลัง
-RESULT_TYPE.PURIFY_DATA_NOT_FOUND,ไม่มีข้อมูลการชำระล้าง
-RESULT_TYPE.INVALID_PURIFY_DATA,ข้อมูลการชำระล้างผิดพลาด
-RESULT_TYPE.TRANSCEND_SKILL_LEVEL_DATA_NOT_FOUND,ค่าทักษะไม่มีในระบบ
-RESULT_TYPE.MAX_TRANSCEND_SKILL_LEVEL,ค่าทักษะสูงสุดเกินกว่าที่จำกัด
-RESULT_TYPE.TRANSCEND_SKILL_LEVEL_PRICE_DATA_NOT_FOUND,ค่าทักษะไม่มีในระบบ
-RESULT_TYPE.NOT_MAX_HERO_STAR,ฮีโร่ยังไม่ถึงระดับการปลุกสูงสุด
-RESULT_TYPE.INVALID_TRANSCEND_COUNT,ค่าวิชาผิดพลาด
-RESULT_TYPE.GRADE_TOO_LOW,ระดับต่ำเกินไป
-RESULT_TYPE.CREATURE_DATA_NOT_FOUND,ไม่มีข้อมูลของฮีโร่
-RESULT_TYPE.UPGRADE_BOOK_DATA_NOT_FOUND,ไม่มีข้อมูลการอัพเกรดหนังสือ
-RESULT_TYPE.MATCH_PLAYER_NOT_FOUND,ไม่มีฝ่ายตรงข้าม
-RESULT_TYPE.INVALID_SHOP_DATA,ไม่มีข้อมูลร้านค้า
-RESULT_TYPE.NOT_GUILD_MEMBER,ไม่ได้เป็นสมาชิกของกิลล์
-RESULT_TYPE.NOT_ENOUGH_GUILD_POINT,คะแนนกิลล์ไม่เพียงพอ
-RESULT_TYPE.INVALID_SHOP_ITEM_LIST_INDEX,เลขของร้านค้าผิดพลาด
-RESULT_TYPE.INVALID_ITEM_TYPE,ไม่มีประเภทของไอเทม
-RESULT_TYPE.HERO_SHOP_SLOT_EXCEEDED,จำนวนช่องของ hero shop ถูกจำกัด
-RESULT_TYPE.INVALID_HERO_SHOP_SLOT,จำนวนช่องของ hero shop ผิดพลาด
-RESULT_TYPE.NO_SHOP_ITEM_INFO,ไม่มีไอเทมร้านค้า
-RESULT_TYPE.NO_SHOP_ITEM_DATA,ไม่มีข้อมูลของไอเทมร้านค้า
-RESULT_TYPE.NO_SELL_COUNT,ไม่มีจำนวนขาย
-RESULT_TYPE.ALREADY_OPENED_CLASS,ชั้นเรียนได้เปิดแล้ว
-RESULT_TYPE.NOT_OPENED_CLASS_DUNGEON,ไม่ได้เปิดดันเจี้ยนสำหรับชั้นเรียนที่เจาะจง
-RESULT_TYPE.ALREADY_GET_CHALLENGE,ถูกรับรองแล้ว
-RESULT_TYPE.ALREADY_HAVE_MATERIAL,มีวัสดุเรียบร้อยแล้ว
-RESULT_TYPE.INVALID_HERO_CLASS,ชั้นเรียนผิด
-RESULT_TYPE.TUTORIAL_DATA_NOT_FOUND,ไม่มีข้อมูลของการติว
-RESULT_TYPE.RETRY,ลองใหม่อีกครั้ง
-RESULT_TYPE.NOT_IMPLEMENTED_METHOD,กระบวนการผิดพลาด
-RESULT_TYPE.INVALID_QUEST_INDEX,เลขเควสผิดพลาด
-RESULT_TYPE.QUEST_INFO_NOT_FOUND,ไม่พบข้อมูลเควส
-RESULT_TYPE.QUEST_NOT_CLEARED,เควสยังไม่สมบูรณ์
-RESULT_TYPE.NOT_COMPLETED,ยังไม่สมบูรณ์
-RESULT_TYPE.EMPTY_DUNGEON_INDICES,จำนวนของดันเจี้ยนว่างเปล่า
-RESULT_TYPE.EVENT_INDEX_COUNT_MISMATCH,จำนวนของกิจกรรมไม่ตรง
-RESULT_TYPE.MAX_DAILY_COUNT,เกินกำหนดของลิมิตในแต่ละวัน
-RESULT_TYPE.ALREADY_VISITED,เข้าไปแล้ว
-RESULT_TYPE.INVALID_MATERIAL_ITEM,ไอเท็มวัตถุดิบผิดพลาด
-RESULT_TYPE.INVALID_REQ_ITEM_EXP_DATA,ค่า EXP ที่ต้องการสำหรับไอเท็มผิดพลาด
-RESULT_TYPE.SAME_BOOSTER_APPLIED,Booster เอฟเฟคเหมือนกับที่มีอยู่แล้ว
-RESULT_TYPE.PACKAGE_DATA_NOT_FOUND,ไม่มีข้อมูลเเพคเกจสินค้า
-RESULT_TYPE.INVALID_ITEM_INDEX,หมายเลขไอเทมไม่ถูกต้อง
-RESULT_TYPE.INVALID_ITEM_DATA,ข้อมูลไอเทมไม่ถูกต้อง
-RESULT_TYPE.INVALID_ACCOUNT_ID,เลขบัญชีผิดพลาด
-RESULT_TYPE.REWARD_TIME_ENDED,ช่วงเวลาของการรับรางวัลได้สิ้นสุดลงแล้ว
-RESULT_TYPE.CHECKING_INTEGRITY,กำลังประมวลผลการต่อสู้อยู่ โปรดลองใหม่อีกครั้งในภายหลัง
-RESULT_TYPE.BATTLE_SERVER_NOT_FOUND,ขณะนี้เครือข่ายไม่เสถียร โปรดย้ายไปยังตำแหน่งที่มีสัญญาณที่ดีขึ้นและเชื่อมต่อเข้าเกมอีกครั้ง
-RESULT_TYPE.TOWER_DATA_NOT_FOUND,ข้อมูลหอคอย- ไม่มีอยู่แล้ว
-RESULT_TYPE.TOWER_FLOOR_DATA_NOT_FOUND,ข้อมุลของชั้น- ไม่มีอยู่แล้ว
-RESULT_TYPE.CANNOT_ENTER_TOWER_FLOOR,ไม่สามารถที่จะเข้าสู่ชั้นนี้ได้
-RESULT_TYPE.TOWER_CHAPTER_MISMATCH,ด่านของหอคอยไม่สัมพันธ์กัน
-RESULT_TYPE.TOWER_DUNGEON_MISMATCH,ดันเจี้ยนหอคอยไม่สัมพันธ์กันf
-RESULT_TYPE.TOWER_TEAM_LEVEL_LIMIT,ไม่สามารถเข้าสู่ชั้นนี้ได้เนื่องจากระดับของทีมไม่พอ
-RESULT_TYPE.TOWER_REQ_DUNGEON_NOT_COMPLETED,ดันเจี้ยนภาคบังคับยังไม่เพียงพอที่จะเข้าสู่หอคอย
-RESULT_TYPE.NOT_ENOUGH_TOWER_COST,สิ่งของจำเป็นไม่เพียงพอที่จะเข้าสู่หอคอย
-RESULT_TYPE.DIED_HERO_CACHE,ฮีโร่ได้ตายแล้ว
-RESULT_TYPE.MISSING_BATTLE_LOG,ไม่ได้เข้าสู่ระบบการต่อสู้
-RESULT_TYPE.MISSING_CREATURE_INFO,ไม่ได้เข้าสู่ข้อมูลฮีโร่
-RESULT_TYPE.REQUEST_INTEGRITY_CHECK_ERROR,คำขอตรวจสอบผิดพลาด
-RESULT_TYPE.MISSING_TOWER_CREATURE_INFO,ไม่ได้เข้าสู่ข้อมูลหอคอยฮีโร่
-RESULT_TYPE.PARSING_TOWER_CREATURE_INFO_ERROR,ไม่สามารถอิมพอตข้อมูลหอคอยฮีโร่.
-RESULT_TYPE.EMPTY_TOWER_ENTER_HEROES,ไม่สามารถเข้าสู่ข้อมูลของฮีโร่ในหอคอยได้
-RESULT_TYPE.TOWER_NOT_PLAYED,ข้อมูลหอคอยยังไม่ได้รับการปรับปรุง
-RESULT_TYPE.PLAYER_TOWER_NOT_FOUND,ไม่สามารถหาข้อมูลของหอคอยที่กำลังปรับปรุงได้
-RESULT_TYPE.CANNOT_RESET_MORE,ไม่สามารถรีเซ็ตได้อีกแล้ว
-RESULT_TYPE.NOT_ENOUGH_COST,มีสิ่งของไม่เพียงพอ
-RESULT_TYPE.CLOSED_DUNGEON,ดันเจี้ยนปิดอยู่
-RESULT_TYPE.OPENED_DUNGEON,ดันเจี้ี้ยนเปิดอยู่
-RESULT_TYPE.QUEST_DATA_NOT_FOUND,ไม่มีข้อมูลเควส
-RESULT_TYPE.NOT_ACCEPTABLE,ไม่สามารถรับได้
-RESULT_TYPE.CANNOT_GIVEUP,ไม่สามารถยกเลิกได้
-RESULT_TYPE.NOT_REWARDABLE,ไม่ได้รับรางวัล
-RESULT_TYPE.EQUIP_FULL,อุปกรณ์เต็ม
-RESULT_TYPE.VIPLEVEL_DATA_NOT_FOUND,ไม่พบข้อมูล VIP
-RESULT_TYPE.MISSING_LANGUAGE,ไม่ได้เข้าในภาษา
-RESULT_TYPE.CANNOT_LINK_GUEST,ไม่สามารถเชื่อมโยงในฐานะ Guest 
-RESULT_TYPE.ALREADY_LINKED_ID,บัญชีนี้ได้ทำการเชื่อมต่อกับบัญชี King's Raid อื่นอยู่แล้ว
-RESULT_TYPE.SERVER_CLOSING,กำลังเตรียมให้บริการ กรุณารอสักครู่ค่ะ
-RESULT_TYPE.INVALID_SHOP_INDEX,จำนวนร้านค้าไม่ถูกต้อง
-RESULT_TYPE.EXCEEDED_PURCHASABLE_COUNT,ซื้อเกินจำนวน
-RESULT_TYPE.INVALID_REWARD_DATA,ข้อมูลรางวัลไม่ถูกต้อง
-RESULT_TYPE.TOWER_NPC_NOT_FOUND,ไม่พบ NPC ของหอคอย
-RESULT_TYPE.TOWER_NPC_SLOT_NOT_FOUND,ไม่พบ NPC ของชั้น
-RESULT_TYPE.TOWER_NPC_INFO_NOT_FOUND,ไม่พบข้อมูล NPC ของชั้น
-RESULT_TYPE.WRONG_TOWER_REWARD_NO,จำนวนรางวัลของหอคอยไม่ถูกต้อง
-RESULT_TYPE.WRONG_DIFFICULTY,ระดับความยากไม่ถูกต้อง
-RESULT_TYPE.DIFFICULTY_MISMATCH,ระดับความยากไม่เหมาะสม
-RESULT_TYPE.MISSING_BATTLE_TYPE,ไม่ได้ใส่ชนิดของการต่อสู้
-RESULT_TYPE.NOT_YET_CLEARED,เจ้ายังทำไม่สำเร็จ
-RESULT_TYPE.INVALID_DUNGEON_DIFFICULTY,ระดับความยากดันเจี้ยนไม่ถูกต้อง
-RESULT_TYPE.WRONG_DUNGEON_DIFFICULTY,ระดับความยากดันเจี้ยนไม่ถูกต้อง
-RESULT_TYPE.MAX_UNDERGROUND_PRISON_KEY,คีย์เต็มแล้ว
-RESULT_TYPE.EQUIP_GRADE_DATA_NOT_FOUND,ไม่พบข้อมูลระดับอุปกรณ์
-RESULT_TYPE.NOT_FOR_SALE,ไม่สามารถขายได้
-RESULT_TYPE.EQUIP_CREATURE_ERROR,ไม่มีฮีโร่ที่สามารถสวมใส่ได้
-RESULT_TYPE.UPGRADE_DATA_NOT_FOUND,ไม่พบข้อมูลการอัพเกรด
-RESULT_TYPE.MATERIAL_ITEM_INDEX_MISMATCH,เลขรหัสวัตถุดิบไม่ตรงกัน
-RESULT_TYPE.MATERIAL_ITEM_COUNT_MISMATCH,จำนวนวัตถุดิบไม่ตรงกัน
-RESULT_TYPE.NOT_ENOUGH_MATERIAL_ITEM,วัตถุดิบไม่เพียงพอ
-RESULT_TYPE.INVALID_REQ_GOLD,ทองไม่เพียงพอ
-RESULT_TYPE.NO_UPGRADABLE_OPTION_SLOT,ออปชั่นสลอทไม่สามารถอัพเกรดได้
-RESULT_TYPE.INVALID_ITEM_CODE,รหัสไอเท็มผิด
-RESULT_TYPE.INVALID_EQUIP_STAR_RATE,ความเป็นไปได้ของดาวผิดพลาด
-RESULT_TYPE.MY_FRIEND_FULL,รายชื่อเพื่อนเต็ม
-RESULT_TYPE.TARGET_FRIEND_FULL,รายชื่อเพื่อนในปาร์ตี้ อื่นๆเต็ม
-RESULT_TYPE.TARGET_FRIEND_WAIT_FULL,คำร้องขอปร์ตี้อื่นๆเต็ม
-RESULT_TYPE.ENHANCE_ITEM_INDEX_ERROR,จำนวนของ
-RESULT_TYPE.NOT_ENOUGH_ENHANCE_ITEM,จำนวน Transcendence Stones ไม่พอ
-RESULT_TYPE.CANNOT_ENHANCE_MORE,ไม่สามารถ Transcend ได้อีก
-RESULT_TYPE.AWAKE_CHALLENGE_DATA_ERROR,ไม่พบข้อมูล Awakening Stone
-RESULT_TYPE.AWAKE_ITEM_DATA_ERROR,ไม่พบข้อมูล ไอเท็ม Awakening Stone
-RESULT_TYPE.NOT_ENOUGH_AWAKE_ITEM,Awakening stone ไม่เพียงพอ
-RESULT_TYPE.HERO_SELECT_DATA_NOT_FOUND,ไม่สามารถหาข้อมูลฮีโร่ที่เลือกได้
-RESULT_TYPE.INVALID_HERO_EXP,EXP ของฮีโร่ผิดพลาด
-RESULT_TYPE.HERO_NOT_OWNED,คุณไม่มีวีรบุรุษนี้
-RESULT_TYPE.MAX_HERO_LEVEL,ฮีโร่ถึงเลเวลสูงสุดแล้ว
-RESULT_TYPE.MAIL_NOT_FOUND,ไม่พบจดหมาย
-RESULT_TYPE.MISSING_COUPON_CODE,ไม่ได้ใส่รหัสคูปอง
-RESULT_TYPE.MISSING_COUNTRY_CODE,ไม่ได้ใส่รหัสประเทศ
-RESULT_TYPE.COUPON_NOT_FOUND,รหัสไอเทมโค้ดไม่ถูกต้อง
-RESULT_TYPE.ALREADY_RECEIVED,ได้รับเรียบร้อยแล้ว
-RESULT_TYPE.COUNTRY_CODE_MISMATCH,รหัสประเทศไม่ตรง
-RESULT_TYPE.COUPON_EXPIRED,ไอเทมโค้ดจะหมดอายุตามช่วงเวลาที่กำหนด
-RESULT_TYPE.PROMOTION_NOT_FOUND,ไม่พบข้อมูลโปรโมชั่น
-RESULT_TYPE.ALREADY_USED_PROMOTION,ใช้โปรโมชั่นนี้ไปแล้ว
-RESULT_TYPE.REWARD_NOT_SELECTED,ไม่ได้เลือกรางวัล
-RESULT_TYPE.INVALID_REWARD_INDEX,หมายเลขรางวัลผิดพลาด
-RESULT_TYPE.ALREADY_PURCHASED,ทำการซื้อไปแล้ว
-RESULT_TYPE.NOT_ENOUGH_MILEAGE,คะแนนสะสมไม่เพียงพอ
-RESULT_TYPE.NOT_ENOUGH_ROYAL_POINT,Royal Points ไม่เพียงพอ
-RESULT_TYPE.NOT_ENCRYPTED,ไม่ได้เข้ารหัส
-RESULT_TYPE.SALT_ERROR,ไม่สามารถรับหมายเลขยืนยันได้ เนื่องจากการเชื่อมต่ออินเตอร์เน็ตไม่เสถียร
-RESULT_TYPE.NO_SECURE_KEY,NO_SECURE_KEY
-RESULT_TYPE.SALT_NOT_DECRYPTED,SALT_NOT_DECRYPTED
-RESULT_TYPE.KEY_NOT_DECRYPTED,KEY_NOT_DECRYPTED
-RESULT_TYPE.SALT_MISMATCH,SALT_MISMATCH
-RESULT_TYPE.LOGIN_ID_NOT_DECRYPTED,LOGIN_ID_NOT_DECRYPTED
-RESULT_TYPE.DECRYPT_FAIL,DECRYPT_FAIL
-BASE_RESULT_TYPE.OFFLINE,Network is offline
-RESULT_TYPE.INVALID_GACHA_REQUEST,เมื่อมีข้อผิดพลากเกืดขึ้นเวลาที่พยายามจะซัมมอนอุปกรณ์ \nกรุณาลองดูใหม่อีกครั้ง 
-RESULT_TYPE.MATCHING_ABORTED,ยกเลิกการแมชชิ่ง
-RESULT_TYPE.PROGRESSING,กำลังดำเนินการอยู่
-RESULT_TYPE.BUY_DISABLED,ยังไม่สามารถทำการชำระเงินได้ในตอนนี้
-RESULT_TYPE.MAX_FRIENDSHIP_POINT,มิตรภาพเต็ม
-RESULT_TYPE.NOT_ENOUGH_FRIENDSHIP_POINT,มีสิ่งของไม่เพียงพอ
-RESULT_TYPE.NOT_RAID_TYPE,ไม่ใช่-ประเภทของการโจมตี
-RESULT_TYPE.MISSING_RAID_INDEX,เนื่องจากข้อผิดพลาดของเครือข่าย เซิร์ฟเวอร์จึงมีความล่าช้าในการประมวลผลข้อมูลผู้ใช้ โปรดลองใหม่อีกครั้งในภายหลัง
-RESULT_TYPE.RAID_DATA_NOT_FOUND,ไม่มี-ข้อมูลของการโจมตี
-RESULT_TYPE.RAID_NOT_STARTED,ยังไม่ได้เริ่มการโจมตี
-RESULT_TYPE.RAID_NOT_PROGRESSING,ไม่ได้-อยู่ในขบวนการโจมตี
-RESULT_TYPE.RAID_MUST_MULTIPLAY,ไม่ใช่-ประเภทของ multiplay
-RESULT_TYPE.RAID_CHAPTER_MISMATCH,บทเรียนที่ไม่เกี่ยวข้อง
-RESULT_TYPE.RAID_DUNGEON_MISMATCH,ดันเจี้ยนที่ไม่เกี่ยวข้อง
-RESULT_TYPE.GUILD_RAID_ROOM_CREATED,ห้องบอสกิลด์ถูกสร้างขึ้นแล้ว
-RESULT_TYPE.NOT_ENOUGH_ENTER_RAID_COUNT,จำนวนครั้งในการเข้าบอสกิลด์ไม่เพียงพอ
-RESULT_TYPE.INVALID_GUILD_RAID_INDEX,ข้อมูลบอสกิลด์ไม่ถูกต้อง
-RESULT_TYPE.NOT_ENOUGH_ACTIVITY_POINT,แต้มกิจกรรมไม่เพียงพอ
-RESULT_TYPE.PREVIOUS_RAID_NOT_COMPLETED,กำลังตอสู้เรดบอสอยู่
-RESULT_TYPE.ALREADY_GUILD_RAID_OPENED,บอสกิลด์ยังไม่เปิด
-RESULT_TYPE.PLAYER_RAID_NOT_FOUND,ไม่พบ-ข้อมูลของผู้เล่น
-RESULT_TYPE.PLAYER_DUNGEON_NOT_FOUND,ไม่พบข้อมูลดันเจี้ยนของผู้เล่น
-RESULT_TYPE.DUNGEON_NOT_PLAYED,ไม่พบประวัติการเล่นดันเจี้ยน
-RESULT_TYPE.DUNGEON_PLAY_ENABLE,ตั๋วการเข้าเล่นยังเหลืออยู่
-RESULT_TYPE.ALREADY_HAVE,คุณมีฮีโร่นี้อยู่แล้ว
-RESULT_TYPE.HERO_NOT_EXIST,ไม่มีฮีโร่ดังกล่าว
-RESULT_TYPE.CANNOT_RECRUIT,ฮีโร่นี้ไม่สามารถได้จากกระท่อมฮีโร่
-RESULT_TYPE.HERO_INDEX_MISMATCH,ข้อมูลดังกล่าวไม่ตรงกับข้อมูลฮีโร่
-RESULT_TYPE.ALREADY_RECRUITED,คุณมีฮีโร่นี้อยู่แล้ว
-RESULT_TYPE.HERO_NOT_EXIST_IN_FRIENDLY_TABLE,ฮีโร่นี้ไม่สามารถเพิ่มความสนิทได้
-RESULT_TYPE.HERO_FRIENDLY_POINT_MAX,ไม่สามารถเพิ่มความสนิทได้อีก
-RESULT_TYPE.ACTION_NOT_READY,ยังไม่สามารถทำได้
-RESULT_TYPE.ACTION_NOT_EXIST,ไม่มีคำสั่งดังกล่าว
-RESULT_TYPE.COST_MISMATCH,ทรัพยากรไม่เพียงพอ
-RESULT_TYPE.FRIENDLY_POINT_MISMATCH,ค่าความสัมพันธ์ไม่พอที่จะใช้เป็นพันธมิตร
-RESULT_TYPE.COOL_TIME_MISMATCH,อยู่ในช่วงเวลาคูลดาว์น
-RESULT_TYPE.CANNOT_RECRUIT_HERO,ไม่มีฮีโร่ที่สามารถใช้ได้
-RESULT_TYPE.IN_FRIENDLY_STATE,อยู่ในช่วงเพิ่มความสนิท
-RESULT_TYPE.NO_FRIENDS,ไม่มีเพื่อน
-RESULT_TYPE.ALREADY_SENT_FRIENDSHIP_POINT,ส่งแต้มมิตรภาพแล้ว
-RESULT_TYPE.EMPTY_NAME,ชื่อยังว่างอยู่
-RESULT_TYPE.INVALID_NAME,ชื่อไม่ถูกต้อง
-RESULT_TYPE.TOO_SHORT_NAME,ชื่อสั้นเกินไป
-RESULT_TYPE.TOO_LONG_NAME,ชื่อยาวเกินไป
-RESULT_TYPE.INIT_COOL_TIME_NOT_ELAPSED,ยังไม่ถึงเวลารีเซต
-RESULT_TYPE.ALREADY_GUILD_SKILL_INIT,สกิลกิลด์ถูกรีเซตไปแล้ว
-RESULT_TYPE.MAX_GUILD_LEVEL,เลเวลของกิลด์สูงสุดแล้ว
-RESULT_TYPE.MAX_SKILL_LEVEL,เลเวลสกิลสูงสุดแล้ว
-RESULT_TYPE.LOW_TEAM_LEVEL,เลเวลทีมต่ำเกินไป
-BASE_RESULT_TYPE.INTERNAL_SERVER_ERROR,ข้อผิดพลาดของเซิฟเวอร์
-BASE_RESULT_TYPE.DISABLED,ไม่สามารถใช้งานได้ในตอนนี้
-RESULT_TYPE.NOT_ALLOWED,ยังไม่ได้รับอนุญาติ
-RESULT_TYPE.NO_ACCOUNT_ID,ไม่พบหมายเลขบัญชี
-RESULT_TYPE.NOT_FOUND,ไม่พบข้อมูล
-RESULT_TYPE.MISSING_TOWER_INDEX,ยังไม่ได้ระบุหอคอย
-RESULT_TYPE.NO_MAX_STAR_HERO,ไม่มีฮีโร่ที่วิวัฒนาการขั้นสูงสุด
-RESULT_TYPE.TOWER_REQ_CHAPTER_NOT_COMPLETED,ยังไม่ผ่านแชปเตอร์ที่ต้องการเพื่อเข้าเล่น
-RESULT_TYPE.RAID_LEVEL_MISMATCH,เลเวลของเรดบอสไม่ตรง
-RESULT_TYPE.CONTENTS_DISABLED,คอนเทนต์ดังกล่าวยังไม่เปิด
-RESULT_TYPE.GUILD_RAID_ROOM_NOT_FOUND,ไม่พบห้องรอต่อสู้บอสกิลด์
-RESULT_TYPE.NOT_GUILD_RAID_ROOM_MEMBER,ไม่ใช่สมาชิกห้องรอต่อสู้บอสกิลด์
-RESULT_TYPE.INVALID_GULD_RAID_MEMBER_RANK,ไม่อยู่ในตำแหน่งที่สามารถเข้าร่วมต่อสู้บอสกิลด์ได้
-RESULT_TYPE.NOT_ENOUGH_ENTER_GUILD_RAID_COUNT,จำนวนครั้งการเข้าบอสกิลด์ไม่เพียงพอ
-RESULT_TYPE.MISSING_WORLD_BOSS_INDEX,ไม่พบข้อมูลบอสโลก
-RESULT_TYPE.WORLD_BOSS_NOT_EXIST,ไม่พบบอสโลก
-RESULT_TYPE.WORLD_BOSS_NOT_ACTIVE,บอสโลกยังไม่สามารถใช้งานได้
-RESULT_TYPE.WORLD_BOSS_NOT_FOUND,ไม่พบบอสโลก
-RESULT_TYPE.MISSING_WORLD_BOSS_CREATURE_INFO,ไม่พบข้อมูลมอนสเตอร์บอสโลก
-RESULT_TYPE.PARSING_WORLD_BOSS_CREATURE_INFO_ERROR,ล้มเหลวในการแจกแจงข้อมูลมอนสเตอร์บอสโลก
-RESULT_TYPE.WORLD_BOSS_HP_ERROR,เกิดข้อผิดพลาดในการบันทึกคะแนนบอสโลก โปรดลองใหม่อีกครั้งและหากเกิดปัญหาซ้ำกรุณาสอบถามที่ฝ่าย CS
-RESULT_TYPE.NOT_CLEARED,ยังไม่สำเร็จ
-RESULT_TYPE.PURCHASE_INFO_NOT_FOUND,ไม่พบข้อมูลการซื้อ
-RESULT_TYPE.INTERNAL_SERVER_ERROR,ข้อผิดพลาดของเซิฟเวอร์
-RESULT_TYPE.NOT_DAILY_ENDED,ยังไม่ถึงเวลาที่สามารถซื้อได้
-RESULT_TYPE.NEED_COMPLETE_IN_APP_PURCHASE,ต้องทำการซื้อผ่านแอพให้สำเร็จ
-RESULT_TYPE.OTHER_DAILY_EFFECTIVE,มีผลของไอเทมชนิดเดียวกันอยู่
-RESULT_TYPE.RESTORE_DATA_NOT_FOUND,ไม่พบข้อมูลในการกู้
-RESULT_TYPE.MATERIAL_COUNT_ERROR,จำนวนวัตถุดิบไม่ถูกต้อง
-RESULT_TYPE.LOW_HERO_LEVEL,เลเวลฮีโร่ต่ำเกินไป
-RESULT_TYPE.PRICE_ERROR,ราคาไม่ถูกต้อง
-RESULT_TYPE.COST_TYPE_ERROR,ประเภทของราคาไม่ถูกต้อง
-RESULT_TYPE.EXCEEDED_MAX_MATERIAL_EQUIP_ITEMS,จำนวนวัตถุดิบอุปกรณ์เกินจำนวนสูงสุด
-RESULT_TYPE.HERO_EQUIPPED_MATERIAL_EQUIP_ITEM,ไม่สามารถใช้อุปกรณ์ที่สวมใส่อยู่เป็นวัตถุดิบได้
-RESULT_TYPE.INVALID_GACHA_DATA,ข้อมูลการสุ่มไม่ถูกต้อง
-RESULT_TYPE.NO_RECV_FRIENDSHIP_POINT,ไม่พบแต้มมิตรภาพที่สามารถรับได้
-RESULT_TYPE.MAX_DAILY_REMOVE_FRIENDS,จำนวนครั้งในการลบเพื่อนเกินขีดจำกัดต่อวัน
-RESULT_TYPE.GULLD_JOIN_REQUEST_PROCESSING,กำลังจัดการการร้องขอเข้ากิลด์
-RESULT_TYPE.INVALID_GUILD_RANK,ตำแหน่งในกิลด์ไม่ถูกต้อง
-RESULT_TYPE.INVALID_GUILD_INTRODUCE,ข้อความแนะนำกิลด์ไม่ถูกต้อง
-RESULT_TYPE.TOO_LONG_GUILD_INTRODUCE,ข้อความแนะนำกิลด์ยาวเกินไป
-RESULT_TYPE.INVALID_GUILD_NOTICE,ประกาศกิลด์ไม่ถูกต้อง
-RESULT_TYPE.TOO_LONG_GUILD_NOTICE,ประกาศกิลด์ยาวเกินไป
-RESULT_TYPE.GUILD_JOIN_REQUEST_EXIST,ไม่สามารถเปลี่ยนได้เนื่องจากมีคำขอเข้ากิลด์
-RESULT_TYPE.ALREADY_EXIST_NAME,ชื่อนี้ถูกใช้ไปแล้ว
-RESULT_TYPE.MAX_CONTRIBUTED_GEM,ตอนนี้แต้มบริจาคสูงสุดแล้ว
-RESULT_TYPE.NO_CONTRIBUTE_COUNT,ไม่พบจำนวนครั้งการบริจาคกิลด์
-RESULT_TYPE.INVALID_GUILD_ID,หมายเลขกิลด์ไม่ถูกต้อง
-RESULT_TYPE.INVALID_TARGET_RANK,ตำแหน่งกิลด์ไม่ถูกต้อง
-RESULT_TYPE.INVALID_SKILL_LEVEL,เลเวลสกิลของกิลด์ที่จะเลื่อนอันดับไม่มีผล
-RESULT_TYPE.GUILD_JOIN_REQUEST_PROCESSING,กำลังจัดการคำร้องขอเข้ากิลด์
-RESULT_TYPE.NOT_ELAPSED_GUILD_REQUEST_COOL_TIME,คุณไม่สามารถสร้าง/เข้าร่วมกิลด์ได้เป็นเวลา {1} ชั่วโมงหลังจากออกจากกิลด์ก่อนหน้า
-RESULT_TYPE.NO_GUILD_SKILL_LEVEL_UP_REQUEST,ไม่พบข้อมูลการขอเลเวลสกิลของกิลด์
-RESULT_TYPE.ALREADY_GUILD_SKILL_LEVEL_UP_REQUESTED,ทำการขออัพเลเวลสกิลของกิลด์เรียบร้อยแล้ว
-RESULT_TYPE.ALREADY_BID,ไอเทมนี้ถูกบิดแล้ว
-RESULT_TYPE.ALREADY_CREATED_ROOM,ห้องรอนี้ถูกสร้างแล้ว
-RESULT_TYPE.NOT_ROOM_MASTER,คุณไม่ใช่หัวหน้าห้องรอ
-RESULT_TYPE.ROOM_NOT_FOUND,ไม่พบห้องรอ
-RESULT_TYPE.NOT_ENOUGH_GUILD_ACTIVITY_POINT,แต้มกิจกรรมกิลด์ไม่เพียงพอ
-RESULT_TYPE.TRANSCEND_ITEM_INDEX_ERROR,ไอเทมจุติไม่ถูกต้อง
-RESULT_TYPE.NOT_ENOUGH_TRANSCEND_ITEM,จำนวนไอเทมจุติไม่เพียงพอ
-RESULT_TYPE.CANNOT_TRANSCEND_MORE,ไม่สามารถจุติได้อีก
-RESULT_TYPE.NOT_ENOUGH_PURIFIED,ยังไม่ได้รับการชำระ
-RESULT_TYPE.WRONG_SLOT_INDEX,หมายเลขช่องไม่ถูกต้อง
-RESULT_TYPE.NOT_SELECTABLE_SLOT_INDEX,ไม่สามารถเลือกช่องนี้ได้
-RESULT_TYPE.CRAFT_SLOT_PRICE_DATA_NOT_FOUND,ไม่พบข้อมูลราคาของช่องสร้างไอเทม
-RESULT_TYPE.INVALID_PRICE,ราคาไม่ถูกต้อง
-RESULT_TYPE.NO_FLASK_ITEM,ไม่พบขวด EXP เปล่า
-RESULT_TYPE.FLASK_DATA_NOT_FOUND,ไม่พบข้อมูลขวด EXP เปล่า
-RESULT_TYPE.CRAFT_DATA_NOT_FOUND,ไม่พบข้อมูลการสร้างไอเทม
-RESULT_TYPE.NOT_CRAFT_SLOT_INDEX,ไม่ใช่หมายเลขช่องสร้างไอเทม
-RESULT_TYPE.NOT_YET_CRAFTED,การสร้างยังไม่เสร็จสมบูรณ์
-RESULT_TYPE.ALREADY_USING_FLASK,ขณะนี้กำลังใส่ขวด EXP เปล่าอยู่
-RESULT_TYPE.HERO_NOT_SELECTABLE,ไม่สามารถเลือกฮีโร่ได้
-RESULT_TYPE.HERO_FRAGMENT_DATA_ERROR,ข้อมูล Fragment ของฮีโร่ไม่ถูกต้อง
-RESULT_TYPE.NO_HEROES,ไม่พบฮีโร่ดังกล่าว
-RESULT_TYPE.INVALID_HERO,ฮีโร่ไม่ถูกต้อง
-RESULT_TYPE.MATCHING_BLOCKED,ไม่สามารถจับคู่ได้ชั่วคราว
-RESULT_TYPE.ALREADY_RESET,ถูกรีเซตแล้ว
-RESULT_TYPE.INVALID_RESET_COST,ราคารีเซตไม่ถูกต้อง
-RESULT_TYPE.NOT_ENOUGH_RESET_COST,ค่าใช้จ่ายในการรีเซตไม่เพียงพอ
-RESULT_TYPE.SCENARIO_QUEST_DATA_NOT_FOUND,ไม่พบข้อมูลเควสเนื้อเรื่อง
-RESULT_TYPE.NOT_ENOUGH_PROGRESS,ขั้นตอนการดำเนินการไม่เพียงพอ
-RESULT_TYPE.NOT_CLIENT_ONLY,ไม่สามารถใช้กับตัวเกมเวอร์ชั่นนี้ได้
-RESULT_TYPE.INVALID_PAY_SHOP_TYPE,ชนิดของร้านค้าไม่ถูกต้อง
-RESULT_TYPE.INVALID_SHOP_ITEM_DATA,ข้อมูลไอเทมร้านค้าไม่ถูกต้อง
-RESULT_TYPE.SHOP_RESTOCK_INFO_NOT_FOUND,ข้อมูลสินค้าใหม่ไม่ถูกต้อง
-RESULT_TYPE.SIGNED_OUT,ออกเรียบร้อย
-RESULT_TYPE.NO_CACHE,ไม่มีแคช
-RESULT_TYPE.BLOCKED,บัญชีนี้ถูกแบน
-RESULT_TYPE.LOW_VERSION,เวอร์ชั่นต่ำ
-RESULT_TYPE.INVALID_STAMINA_TYPE,Stamina ไม่ถูกต้อง
-RESULT_TYPE.MAX_STAMINA,Stamina สูงสุด
-RESULT_TYPE.GUILD_MASTER_CANNOT_SIGN_OUT,หัวหน้ากิลด์ไม่สามารถออกจากกิลด์ 
-RESULT_TYPE.DBSELECT_ERROR,ฐานข้อมูลผิดพลาด
-RESULT_TYPE.DBUPDATE_ERROR,ฐานข้อมูลผิดพลาด
-RESULT_TYPE.INVALID_GIVE_ITEM_RESULT,ไม่สามารถส่งไอเทมได้
-RESULT_TYPE.ALREADY_PASSED_ORDER_ID,หมายเลขใบเสร็จนี้ถูกส่งแล้ว
-RESULT_TYPE.SERVER_BUSY,การซื้อที่ต้องการอยู่ระหว่างการตรวจสอบ
-RESULT_TYPE.ALREADY_FINISHED,หมายเลขใบเสร็จนี้ดำเนินการส่งแล้ว
-RESULT_TYPE.PRODUCT_ID_NOT_EXIST,ไม่มี ID ของไอเทมนี้
-RESULT_TYPE.DBINSERT_ERROR,ฐานข้อมูลผิดพลาด
-RESULT_TYPE.IAPINFO_NOT_FOUND,ไม่พบข้อมูลการซื้อ
-RESULT_TYPE.AWAKE_DATA_NOT_FOUND,ไม่พบข้อมูลจุุติ
-RESULT_TYPE.ALREADY_COMPLETED_CRAFT_ITEM,ไอเทมนี้สร้างเสร็จเรียบร้อยแล้ว
-RESULT_TYPE.DUPLICATED_HERO,ฮีโร่ซ้ำ
-RESULT_TYPE.NOT_COMPLETED_DUNGEON,ดันเจียนนี้ยังไม่สำเร็จ
-RESULT_TYPE.GOOGLE_RETRY_NEEDED,จำเป็นต้องเริ่ม Google ใหม่
-RESULT_TYPE.APPLE_RETRY_NEEDED,จำเป็นต้องเริ่ม IOS ใหม่
-RESULT_TYPE.NOT_HERO_TANSCENDED,ฮีโร่นี่ี้ยังไม่จุติ
-RESULT_TYPE.NOT_ENOUGH_TRANSCEND,ขั้นของการจุติไม่เพียงพอ
-RESULT_TYPE.WRONG_REMAIN_TIME,เวลาที่เหลืออยู่ไม่ถูกต้อง
-RESULT_TYPE.HERO_TRIAL_ALREADY_COMPLETED,การทดสอบสำเร็จไปเรียบร้อยแล้ว
-RESULT_TYPE.ALREADY_HAVE_COSTUME,มีคอสตูมนี้ในครอบครองอยู่แล้ว
-RESULT_TYPE.COSTUME_DATA_NOT_FOUND,ไม่พบข้อมูลคอสตูม
-RESULT_TYPE.COSTUME_NOT_OPENED,คอสตูมนี้ยังไม่เปิดตัว
-RESULT_TYPE.HERO_AWAKE_DATA_NOT_FOUND,ไม่พบข้อมูลจุติ
-RESULT_TYPE.COSTUME_IS_DEFAULT,มีคอสตูมนี้อยู่แล้ว
-RESULT_TYPE.NOT_CORRECT_HERO,ฮีโร่นี่ยังไม่สามารถสวมคอสตูมได้
-RESULT_TYPE.COSTUME_NOT_OWNED,ไม่มีคอสตูมนี้
-RESULT_TYPE.CANNOT_SET_COSTUME,ไม่สามารถสวมใส่คอสตูมได้
-RESULT_TYPE.ALREADY_COSTUMED,สวมใส่คอสตูมอยู่แล้ว
-RESULT_TYPE.NOT_EQUIP_COSTUME,ไม่ได้สวมใส่คอสตูมอยู่
-RESULT_TYPE.LOCKED_EQUIP_ITEM_EXISTS,อุปกรณ์บางชิ้นถูกล็อคอยู่
-RESULT_TYPE.ALREADY_LOCKED,ไอเทมนี้ถูกล็อคอยู่
-RESULT_TYPE.ALREADY_UN_LOCKED,ไอเทมนี้ี้ถูกปลดล็อคแล้ว
-RESULT_TYPE.NOT_ENOUGH_RAID_POINT,แต้มเรดไม่เพียงพอ
-RESULT_TYPE.MULTIPLAY_NOT_ENDED,การต่อสู้ยังไม่จบ
-RESULT_TYPE.NOT_BREAKABLE_ITEM_EXISTS,ไอเทมบางชิ้นไม่สามารถย่อยได้
-RESULT_TYPE.LOCKED_ITEM_EXISTS,ไอเทมบางชิ้นถูกล็อค
-RESULT_TYPE.NOT_FREE_KEEP_RUNE,ตอนนี้จำเป็นต้องใช้รูบี้เพื่อรักษารูน
-RESULT_TYPE.FREE_KEEP_RUNE,ตอนนี้ไม่จำเป็นต้องใช้รูบี้เพื่อรักษารูน
-RESULT_TYPE.CANNOT_RESTOCK,ไม่สามารถโหลดข้อมูลรายชื่อไอเทมได้
-RESULT_TYPE.ALREADY_COMPLETED_GUILD_RAID,บอสกิลด์นี้ถูกเคลียร์แล้ว
-RESULT_TYPE.NOT_CURRENT_GUILD_RAID_DUNGEON,เขตนี้ถูกเคลียร์แล้ว
-RESULT_TYPE.PLAYING_GUILD_RAID_EXIST,สมาชิกกิลด์คนอื่นกำลังต่อสู้อยู่
-RESULT_TYPE.GUILD_RAID_NOT_OPENED,บอสกิลด์นี้ยังไม่เปิด
-RESULT_TYPE.GUILD_RAID_DUNGEON_DATA_NOT_FOUND,ไม่พบดันเจียน
-RESULT_TYPE.GUILD_RAID_INFO_NOT_FOUND,การต่อสู้ไม่ได้ดำเนินการตามปกติ โปรดลองใหม่อีกครั้ง
-RESULT_TYPE.GUILD_RAID_CANCELED,บอสกิลด์ถูกยกเลิก
-RESULT_TYPE.NOT_RENEW_EQUIP_ITEM,ยังไม่ได้เลือกไอเทมที่จะเปลี่ยนออปชั่น
-RESULT_TYPE.NO_RENEW_OPTION_SLOT,ไอเทมนี้ไม่สามารถเปลี่ยนออปชั่นได้
-RESULT_TYPE.GUILD_RAID_CHAPTER_DATA_NOT_FOUND,ไม่พบแชปเตอร์บอสกิลด์
-RESULT_TYPE.NOT_GUILD_MASTER,คุณไม่ใช่หัวหน้ากิลด์
-RESULT_TYPE.ALREADY_OPEN,บอสกิลด์นี้ถููกเปิดแล้ว
-RESULT_TYPE.NOT_OPENABLE_TIME,ไม่สามารถใช้งานได้ในขณะนี้
-RESULT_TYPE.INVALID_GUILD_RAID_OPEN_DURATION,เวลาเปิดบอสกิลด์ไม่ถูกต้อง
-RESULT_TYPE.PARSING_CREATURE_INFO_ERROR,พาสซิ่งข้อมูลฮีโร่ล้มเหลว
-RESULT_TYPE.NOT_GUILD_RAID_PLAYING_ACCOUNT,ไม่ได้กำลังต่อสู้บอสกิลด์อยู่
-RESULT_TYPE.INVALID_CREATURE_WAVE_SLOT_INDEX,สล็อตฮีโร่ไม่ถูกต้อง
-RESULT_TYPE.ALIVE_ENEMY_EXIST,มีศัตรูที่ยังเหลืออยู่
-RESULT_TYPE.ALL_HEROES_DIED,ฮีโร่ทุกตัวตายหมดแล้ว
-RESULT_TYPE.ONE_STORE_RETRY_NEEDED,จำเป็นต้องลอง OneStore ใหม่
-RESULT_TYPE.NO_OLD_OPTION_INDEX,ไม่พบออปชั่นเดิม
-RESULT_TYPE.NO_RENEW_OPTION_RESULT_INDEX,ไม่พบผลของออปชั่นใหม่
-RESULT_TYPE.INVALID_CONFIRM_OPTION_INDEX,หมายเลขออปชั่นไม่ถูกต้อง
-RESULT_TYPE.OPTION_SLOT_MISMATCH,สล็อตออปชั่นไม่ตรง
-RESULT_TYPE.EMPTY_PRICE,ไม่พบราคาดังกล่าว
-RESULT_TYPE.INVAID_PRICE,ราคาไม่ถูกต้อง
-RESULT_TYPE.NO_AVAILABLE_OPTION,ไม่มีออปชั่นที่สามารถใช้ได้
-RESULT_TYPE.SAME_EVENT_CALENDAR,ปฏิทินกิจกรรมเดียวกัน
-RESULT_TYPE.ITEM_DESTROYED,ไอเทมถูกทำลายแล้ว
-RESULT_TYPE.ITEM_NOT_FOUND,ไม่พบไอเทม
-RESULT_TYPE.WRONG_ITEM_COUNT,จำนวนไอเทมไม่ถูกต้อง
-RESULT_TYPE.INVALID_OPEN_DURATION,เวลาเปิดไม่ถูกต้อง
-RESULT_TYPE.ADDED_GUILD_RAID_INFO_IS_NULL,ไม่พบข้อมูลบอสกิลด์
-RESULT_TYPE.INVALID_DIFFICULTY,ระดับความยากไม่ถูกต้อง
-RESULT_TYPE.CAMPAIGN_INFO_NOT_FOUND,เนื่องจากข้อผิดพลาดของเครือข่าย เซิร์ฟเวอร์จึงมีความล่าช้าในการประมวลผลสถิติการสู้ โปรดลองใหม่อีกครั้งในภายหลัง
-RESULT_TYPE.NOT_GUILD_RAID,นี่ไม่ใช่บอสกิลด์
-RESULT_TYPE.NOT_PLAYING_ACCOUNT,ไม่ใช่บัญชีที่เล่นอยู่
-RESULT_TYPE.INVALID_ACTION_VALUE,ค่าไม่ถูกต้อง
-RESULT_TYPE.INVALID_CHAPTER_DUNGEON,แชปเตอร์หรือดันเจี้ยนไม่ถูกต้อง
-RESULT_TYPE.INVALID_SELECT_ITEM_COUNT,จำนวนไอเท็มที่ไม่ถูกต้อง
-RESULT_TYPE.ITEM_NOT_EXIST,ไอเท็มที่เลือกไม่ปรากฏ
-RESULT_TYPE.ITEM_NOT_SELECTED,ไม่มีไอเท็มที่ถูกเลือก
-RESULT_TYPE.ALREADY_HAS_HERO,คุณมีฮีโร่นี้ในครอบครองแล้ว
-RESULT_TYPE.INVALID_ROOM_INFO,ข้อมูลห้องผิดพลาด
-RESULT_TYPE.ROOM_NOT_EXIST,ห้องนี้ไม่มีอยู่
-RESULT_TYPE.NOT_DELEGATE_ACCOUNT_ID,ไม่มีผู้เล่นได้รับมอบหมาย
-RESULT_TYPE.ROOM_FULL,ห้องเต็มแล้ว
-RESULT_TYPE.ROOM_IN_BATTLE,ห้องนี้อยู่ระหว่างต่อสู้
-RESULT_TYPE.NOT_JOINED_RAID_ROOM,คุณไม่ได้เข้าร่วมห้อง
-RESULT_TYPE.INVALID_ROOM_NO,หมายเลขห้องผิดพลาด
-RESULT_TYPE.ALREADY_JOINED_BROADCAST_ROOM,คุณเข้าร่วมการออกอากาศแล้ว
-RESULT_TYPE.NOT_JOINED_BROADCAST_ROOM,คุุณไม่ได้อยู่ในระหว่างออกอากาศ
-RESULT_TYPE.WORLD_BOSS_RANK_ERROR,เกิดข้อผิดพลาดในอันดับบอสโลก
-RESULT_TYPE.WORLD_BOSS_CANCELED,การต่อสู้สิ้นสุดลงเนื่องจากมีค่าความเสียหายที่สูงผิดปกติ
-RESULT_TYPE.WORLD_BOSS_SEASON_CHANGED,บอสโลกตัวอื่นปรากฏตัวแล้ว
-RESULT_TYPE.STARTED_WORLD_BOSS_NOT_FOUND,ไม่สามารถเริ่มบอสโลกได้
-RESULT_TYPE.WORLD_BOSS_DATA_NOT_FOUND,ไม่่สามารถหาข้อมูลบอสโลกได้
-RESULT_TYPE.CANNOT_SEARCH_MY_FRIEND,ไม่สามารถหาเพื่อนได้
-RESULT_TYPE.BOOSTER_DATA_NOT_FOUND,ไม่มีข้อมูลบูสเตอร์
-RESULT_TYPE.PATCH_NOTE_NOT_FOUND,ไม่มีโน๊ตอัพเดทแพทช์
-RESULT_TYPE.SAME_PATCH_NOTE,อัพเดทโน๊ตเดียวกัน
-RESULT_TYPE.HP_NOT_FOUND,ไม่สามารถโหลด HP ของมอนสเตอร์ได้
-RESULT_TYPE.KICKED_FROM_ROOM,ผู้ใช้คนนี้ถูกบังคับออกจากห้อง
-RESULT_TYPE.MASTER_BANNED,ผูู้ใช้คนนี้ถูกแบนโดยหัวหน้าห้อง
-RESULT_TYPE.KICK_MEMBER_NOT_EXIST,ไม่มีผู้ใช้ที่ถูกบังคับออก
-RESULT_TYPE.INTERNAL_ERROR,ผิดพลาดภายใน
-RESULT_TYPE.BAN_ACCOUNT_FULL,จำนวนผู้ใช้ที่ถูกแบนที่มากที่สุด
-RESULT_TYPE.ALREADY_ADDED_ACCOUNT,เพิ่มผู้ใช้นี้แล้ว
-RESULT_TYPE.BAN_ACCOUNT_NOT_EXIST,ผู้ใช้นี้ไม่มีอยู่
-RESULT_TYPE.FAVORITE_ACCOUNT_FULL,ลิสต์เพื่อนสนิทเต็มแล้ว
-RESULT_TYPE.FAVORITE_ACCOUNT_NOT_EXIST,ผู้ใช้นี้ไม่มีอยู่
-RESULT_TYPE.NOT_ENOUGH_WORLD_BOSS_POINT,คะแนนบอสโลกไม่พอ
-RESULT_TYPE.NOT_ENOUGH_EVENT_POINT,คะแนนกิจกรรมไม่พอ
-RESULT_TYPE.ROOM_SERVER_INTERNAL_ERROR,ข้อมูลเซิฟเวอร์ของห้องผิดพลาด
-RESULT_TYPE.ALREADY_EXIST_GUILD_NAME,ชื่อกิลด์นี้มีอยู่แล้ว
-RESULT_TYPE.MAX_FRIENDLY_POINT,ความสัมพันธ์เต็มแล้ว
-RESULT_TYPE.CANNOT_GIVE_GIFT_NPC,ไม่สามารถให้ของขวัญได้
-RESULT_TYPE.FRIENDLY_POINT_INFO_NOT_FOUND,ไม่พบข่าวสารความสัมพันธ์
-RESULT_TYPE.FRIENDLY_POINT_DATA_NOT_FOUND,ไม่พบข้อมูลความสัมพันธ์
-RESULT_TYPE.INVALID_FRIENDLY_POINT_STEP,ระดับความสัมพันธ์ผิดพลาด
-RESULT_TYPE.NOT_ENOUGH_FRIENDLY_POINT,ความสัมพันธ์มีไม่พอ
-RESULT_TYPE.NEXT_TIER_EQUIP_ITEM_NOT_FOUND,ไม่มีข้อมูลไอเท็มที่จะอัพเกรด
-RESULT_TYPE.INVALID_NEXT_TIER_STEP,เป็นข้อมูลไอเท็มอัพเกรดที่ผิดพลาด
-RESULT_TYPE.MAX_TIER_ITEM,ไอเท็มที่จะอัพเกรดเป็นระดับที่สูงสุดอยู่แล้ว
-RESULT_TYPE.MATERIAL_ITEM_DATA_NOT_FOUND,ไม่มีข้อมููลของไอเท็มวัตถุดิบที่จะอัพเกรดไอเท็ม
-RESULT_TYPE.UPGRADE_TIER_NOT_FOUND,ไม่มีข้อมูลของอุปกรณ์ที่จะอัพเกรด
-RESULT_TYPE.NOT_EQUIP_MAX_STAR,จำนวนดาวของอุปกรณ์ที่จะอัพเกรดไม่สูงสุด
-RESULT_TYPE.WORLD_BOSS_DAILY_REWARDING,กำลังสรุปอันดับประจำวัน
-RESULT_TYPE.CANNOT_BUY_NO_EVENT,ไม่ได้อยู่ในช่วงกิจกรรม
-RESULT_TYPE.CANNOT_RESTOCK_NO_EVENT,ไม่ได้อยู่ในช่วงกิจกรรม
-RESULT_TYPE.EVENT_DUNGEON_DATA_NOT_FOUND,ไม่มีข้อมูลดันเจี้ยนพิเศษ
-RESULT_TYPE.EVENT_DUNGEON_CLOSED,ดันเจี้ยนพิเศษจบลงแล้ว
-RESULT_TYPE.WITHDRAW_PENALTY,ไม่สามารถใช้ได้ในระหว่างที่ถูกแบนกิลด์
-RESULT_TYPE.EQUIP_ENCHANT_OPTION_ITEM_DATA_NOT_FOUND,ไม่มีข้อมูลออฟชั่นมนตรา
-RESULT_TYPE.NOT_ENOUGH_EVENT_DUNGEON_POINT,คะแนนกิจกรรมไม่พอ
-RESULT_TYPE.GUILD_CONTENTS_RESTRICTED,ไม่สามารถซื้อได้ในขณะที่โดนแบนกิลด์
-RESULT_TYPE.ITEM_EXPIRED,ไอเทมหมดอายุแล้ว
-RESULT_TYPE.WRONG_WORLD_BOSS_CHAPTER,ไม่มีบอสโลกในขณะนี้
-RESULT_TYPE.WRONG_WORLD_BOSS_DUNGEON,ไม่มีบอสโลกในขณะนี้
-RESULT_TYPE.CREATURE_STAR_DATA_NOT_FOUND,ไม่มีข้อมูลวิวัฒนาการของฮีโร่
-RESULT_TYPE.RANK_ERROR,อันดับที่มีไม่ถูกต้อง
-RESULT_TYPE.CANCELED,ถูกยกเลิกแล้ว
-RESULT_TYPE.NOT_ENOUGH_EVENT_DUNGEON_POINT2,คะแนนกิจกรรมไม่เพียงพอ
-RESULT_TYPE.NOT_ENOUGH_EVENT_DUNGEON_POINT3,คะแนนกิจกรรมไม่พอ
-RESULT_TYPE.NOT_ENOUGH_GLORY_POINT,เหรียญรางวัลแห่งเกียรติยศไม่พอ
-RESULT_TYPE.NOT_AVAILABLE_HERO,ไม่สามารถใช้ฮีโร่ตัวนี้ได้
-RESULT_TYPE.INVAILD_ACHIEVEMENT_INDEX,ไม่สามารถรับรางวัลนี้ได้
-RESULT_TYPE.CHALLENGE_RAID_NOT_OPENED,เวลาเข้าเรดแห่งความท้าทายได้หมดลงแล้วจึงไม่สามารถดำเนินการต่อได้
-RESULT_TYPE.CENSORED_WORD_NAME,เป็นชื่อที่ไม่สามารถใช้ได้
-RESULT_TYPE.NOT_OPENED_ROOM,ห้องนี้เป็นห้องส่วนตัวจึงไม่สามารถเข้าร่วมได้
-RESULT_TYPE.ROOM_LEFT,ห้องหายไปเนื่องจากการเชื่อมต่ออินเทอร์เน็ตล้มเหลว
-RESULT_TYPE.CHALLENGE_RAID_DATA_NOT_FOUND,ไม่มีข้อมูลเรดแห่งความท้าทาย
-RESULT_TYPE.NO_EVENT_DUNGEON_DATA,ไม่มีข้อมูลดันเจี้ยนกิจกรรม
-RESULT_TYPE.NO_RESET_COUNT,ไม่มีจำนวนครั้งที่รีเซท
-RESULT_TYPE.NO_RESET_CURRENCY_TYPE,ไม่มีไอเทมที่รีเซท
-RESULT_TYPE.NO_RESET_AMOUNT,ไม่มีค่าใช้จ่ายที่รีเซท
-RESULT_TYPE.INVALID_ACHIEVEMENT_INDEX,ตัวเลขความสำเร็จที่ไม่ถูกต้อง
-RESULT_TYPE.NOT_ENOUGH_EVENT_GIFT,ของขวัญกิจกรรมไม่เพียงพอ
-RESULT_TYPE.MISSING_EVENT_WORLD_BOSS_INDEX,ไม่มีเบอร์บอสโลกกิจกรรม
-RESULT_TYPE.EVENT_WORLD_BOSS_NOT_EXIST,ไม่มีบอสโลกกิจกรรม
-RESULT_TYPE.EVENT_WORLD_BOSS_NOT_ACTIVE,บอสโลกกิจกรรมปิดอยู่
-RESULT_TYPE.EVENT_WORLD_BOSS_DATA_NOT_FOUND,ไม่มีข้อมูลบอสโลกกิจกรรม
-RESULT_TYPE.WRONG_EVENT_WORLD_BOSS_CHAPTER,ไม่ได้อยู่ช่วงที่สามารถเข้าร่วมต่อสู้กิจกรรมบอสโลก
-RESULT_TYPE.WRONG_EVENT_WORLD_BOSS_DUNGEON,ไม่ได้อยู่ช่วงที่สามารถเข้าร่วมต่อสู้กิจกรรมบอสโลก
-RESULT_TYPE.EVENT_WORLD_BOSS_CANCELED,บอสโลกกิจกรรมถูกยกเลิกแล้ว
-RESULT_TYPE.EVENT_WORLD_BOSS_SEASON_CHANGED,ซีซั่นของบอสโลกกิจกรรมถูกเปลี่ยนแล้ว
-RESULT_TYPE.STARTED_EVENT_WORLD_BOSS_NOT_FOUND,ไม่มีข้อมูลของบอสโลกกิจกรรมที่เริ่ม
-RESULT_TYPE.EVENT_WORLD_BOSS_HP_ERROR,HP ของบอสโลกกิจกรรมไม่ถูกต้อง
-RESULT_TYPE.EVENT_WORLD_BOSS_NOT_PLAYABLE_TIME,ไม่ได้อยู่ช่วงที่สามารถเข้าร่วมต่อสู้กิจกรรมบอสโลก
-RESULT_TYPE.CHALLENGE_RAID_SCORE_ERROR,คะแนนเรดแห่งความท้าทายผิดพลาด
-RESULT_TYPE.EVENT_WORLD_BOSS_LEVEL_CHANGED,เลเวลของกิจกรรมบอสโลกเปลี่ยนแปลงแล้ว
-RESULT_TYPE.CRAFT_DATA_NOT_OPENED,ไม่มีข้อมูลสร้างไอเทม
-RESULT_TYPE.NOT_ENOUGH_SKILL_POINT,คะแนนจุติไม่เพียงพอ
-RESULT_TYPE.IS_NOT_UNEQUIP_TYPE,ไอเทมนี้ไม่สามารถถอดได้
-RESULT_TYPE.NOT_OPEN_PAGE,หน้าเพจสกิลไม่ได้เปิดอยู่
-RESULT_TYPE.PAGE_NOT_FOUND,ไม่ปรากฏหน้าดังกล่าว
-RESULT_TYPE.ALREADY_HAVE_PAGE,มีซื้อเพจดังกล่าวไปแล้ว
-RESULT_TYPE.SKILL_TYPE_ALREADY_LEARNED,ได้รับทักษะสกิลประเภทเดียวกันไปแล้ว
-RESULT_TYPE.NOT_CORRECT_OPTION_COUNT,จำนวนออฟชั่นไม่ถูกต้อง
-RESULT_TYPE.NOT_ENOUGH_HIDEOUT_DUNGEON_COUNT,กุญแจเข้าดันเจี้ยนระดับสูงไม่เพียงพอ
-RESULT_TYPE.CHAPTER_INDEX_NOT_FOUND,แชปเตอร์ไม่ปรากฏ
-RESULT_TYPE.RESET_GEM_NOT_FOUND,ไม่สามารถหาข้อมูลค่าใช้จ่ายในการรีเซทได้
-RESULT_TYPE.INVAID_RESET_GEM,ข้อมูลค่าใช้จ่ายในการรีเซทไม่ปรากฏ
-RESULT_TYPE.SELECT_ITEM_DATA_NOT_FOUND,ไม่สามารถหาข้อมูลตั๋วเลือกได้
-RESULT_TYPE.IMPOSSIBLE_SELECT_ITEM,ได้เลือกไอเทมที่ไม่ปรากฏในรายการเลือก
-RESULT_TYPE.PURCHASE_MARKETING_DATA_NOT_FOUND,ไม่สามารถหาข้อมูลสินค้าที่ต้องการซื้อได้
-RESULT_TYPE.PURCHASE_MARKETING_NOT_OPENED,สินค้าที่ต้องการซื้อไม่ใช่สินค้าที่กำลังเปิดขาย
-RESULT_TYPE.NOT_AVAILABLE_REPEAT_COOLTIME,เป็นสินค้าที่ไม่สามารถขายอีกได้
-RESULT_TYPE.REMAIN_REPEAT_COOLTIME,ไม่อยู่ในระยะเวลาการเปิดขายใหม่ของสินค้าที่ต้องการซื้อ
-RESULT_TYPE.NOT_ENOUGH_LUA_POINT,สัญลักษณ์ของ Lua ไม่เพียงพอ
-RESULT_TYPE.BAN_PICK_PENALTY_USER_BLOCKED,เพิ่มบทลงโทษที่ปริมาณการเข้าร่วมต่ำ\nไม่สามารถแมทช์ได้{1}นาที
-RESULT_TYPE.SENSITIVE_WORD,This name is already in use.
-RESULT_TYPE.INVALID_BROADCAST_NAME_IN_THIS_SERVER,สามารถใช้ได้แค่ภาษาญี่ปุ่น/ตัวอักษรโรมัน/และตัวเลขเท่านั้น
-RESULT_TYPE.INVALID_GUILD_NAME_IN_THIS_SERVER,สามารถใช้ได้แค่ภาษาญี่ปุ่น/ตัวอักษรโรมัน/และตัวเลขเท่านั้น
-RESULT_TYPE.INVALID_NICK_IN_THIS_SERVER,สามารถใช้ได้แค่ภาษาญี่ปุ่น/ตัวอักษรโรมัน/และตัวเลขเท่านั้น
-RESULT_TYPE.SENSITIVE_WORD_NAME,เป็นชื่อที่มีผู้ใช้แล้ว
-RESULT_TYPE.NOT_JOINED_PARTY_DUNGEON_ROOM,ไม่มีห้องรอที่เข้าใช้
-RESULT_TYPE.SERVER_CLOSED,เซิฟเวอร์ปิดตัวอยู่
-RESULT_TYPE.COUPON_MISMATCH,ใช้คูปองผิดพลาด
-RESULT_TYPE.NOT_ENOUGH_COUPON_ITEM,จำนวนคูปองไม่เพียงพอ
-RESULT_TYPE.COUPON_ITEM_DATA_NOT_FOUND,ข้อมูลคูปองไม่ถูกต้อง
-RESULT_TYPE.INVALID_COUPON_ITEM_TYPE,ข้อมูลคูปองไม่ถูกต้อง
-RESULT_TYPE.INVAILD_PRICE_TYPE,เป็นข้อมูลหน่วยชำระเงินที่ผิดพลาด
-RESULT_TYPE.PARTY_DUNGEON_LEVEL_MISMATCH,ในปาร์ตี้มีผู้เล่นที่ไม่สามารถเข้าต่อสู้ได้
-RESULT_TYPE.CENSORED_GUILD_INTRODUCE,มีคำไม่สมควรในคำอธิบายกิลด์
-RESULT_TYPE.CENSORED_GUILD_NOTICE,มีคำไม่สมควรในประกาศกิลด์
-RESULT_TYPE.INVALID_NOTICE_IN_THIS_SERVER,ไม่สามารถใช้ภาษาอื่นได้
-RESULT_TYPE.ACCUMULATE_LOGIN_REWARD_TABLEA_NOT_FOUND,ไม่สามารถหาข้อมูลรางวัลเช็คชื่อได้
-RESULT_TYPE.IS_NOT_CONDITION,ยังไม่ถึงวันรับรางวัลเช็คชื่อดังกล่าว
-RESULT_TYPE.TITLE_DATA_NOT_FOUND,ไม่มีข้อมูลฉายา
-RESULT_TYPE.TITLE_NOT_FOUND,คุณไม่มีฉายานี้
-RESULT_TYPE.TITLE_EXPIRED,ฉายานี้หมดอายุการใช้งานแล้ว
-RESULT_TYPE.EQUIP_DETAIL_DATA_NOT_FOUND,ไม่พบรายละเอียดของอุปกรณ์
-RESULT_TYPE.NO_MORE_ROULETTE,คุณไม่สามารถหมุนวงล้อได้อีก
-RESULT_TYPE.REWARD_DATA_NOT_FOUND,ข้อมูลรางวัลไม่ถูกต้อง
-RESULT_TYPE.NOT_COMPLETED_REQ_DUNGEON,ยังไม่ผ่านแชปเตอร์ที่ต้องการเพื่อเข้าเล่น
-RESULT_TYPE.INVALID_PRICE_TYPE,เป็นข้อมูลหน่วยชำระเงินที่ผิดพลาด
-RESULT_TYPE.LIMIT_OPEN_COUNT,คุณมีจำนวนเรดกิลด์เกินจำนวนที่สามารถเปิดได้
-RESULT_TYPE.CHALLENGE_RAID_RANK_ERROR,ไม่มีข้อมูลเรดแห่งความท้าทาย
-RESULT_TYPE.INVALID_BUILDING_LEVEL,ไม่พบข้อมูลเลเวล
-RESULT_TYPE.NOT_ENOUGH_TRAINING_CENTER_LEVEL,การขยายสกิลที่ไม่ถูกต้อง
-RESULT_TYPE.ALREADY_APPLIED,ได้ยื่นคำขอเข้าร่วมแล้ว...
-RESULT_TYPE.GUILD_SUPPRESS_ALREADY_COMPLETED,เขตนี้ถูกเคลียร์แล้ว
-RESULT_TYPE.GUILD_SUPPRESS_NOT_BATTLE_STATE,ไม่สามารถใช้งานได้ในขณะนี้
-RESULT_TYPE.GUILD_SUPPRESS_RAID_DATA_NOT_FOUND,ไม่พบข้อมูลการพิชิตกิลด์จากข้อมูลผู้เล่น
-RESULT_TYPE.GUILD_SUPPRESS_SESSION_NOT_FOUND,ไม่สามารถเข้าดันเจี้ยนนี้ได้
-RESULT_TYPE.GUILD_SUPPRESS_BATTLE_RESULT_ERROR,เนื่องจากข้อผิดพลาดของเครือข่าย เซิร์ฟเวอร์จึงมีความล่าช้าในการประมวลผลข้อมูลผู้ใช้ โปรดลองใหม่อีกครั้งในภายหลัง
-RESULT_TYPE.GUILD_SUPPRESS_NOT_COMPLETED_REQ_DUNGEON,ยังไม่ผ่านแชปเตอร์ที่ต้องการเพื่อเข้าเล่น
-RESULT_TYPE.GUILD_SUPPRESS_SESSION_DATA_NOT_FOUND,ไม่พบรายละเอียดที่ต้องการ
-RESULT_TYPE.GUILD_SUPPRESS_PLAY_INFO_NOT_FOUND,ไม่สามารถหาข้อมูลได้
-RESULT_TYPE.GUILD_SUPPRESS_NOT_APPLIED,คุณไม่ได้ส่งคำขอเพื่อเข้าร่วมในการพิชิตกิลด์
-RESULT_TYPE.GUILD_SUPPRESS_DUNGEON_DATA_NOT_FOUND,ไม่มีข้อมูลดันเจี้ยนนี้
-RESULT_TYPE.NOT_APPLIABLE,ช่วงเวลาคำขอการพิชิตกิลด์ยังไม่เริ่มต้นขึ้น
-RESULT_TYPE.GUILD_MEMBER_REWARD_DATA_NOT_FOUND,ไม่มีข้อมูลรางวัลนี้
-RESULT_TYPE.INVALID_BUILDING_INDEX,ข้อมูลไม่ถูกต้อง
-RESULT_TYPE.GUILD_BUILDING_DATA_NOT_FOUND,ไม่พบรายละเอียดที่ต้องการ
-RESULT_TYPE.EXCEED_WOOD,เกินขีดจำกัดแล้ว
-RESULT_TYPE.EXCEED_STONE,เกินขีดจำกัดแล้ว
-RESULT_TYPE.EXCEED_METAL,เกินขีดจำกัดแล้ว
-RESULT_TYPE.NOT_ENOUGH_SUPPRESS_POINT,แต้มการพิชิตไม่พอ
-RESULT_TYPE.INVALID_ACTIVITY_POINT,ข้อมูลไม่ถูกต้อง
-RESULT_TYPE.INVALID_SUPPRESS_POINT,ข้อมูลไม่ถูกต้อง
-RESULT_TYPE.INVALID_TRAINING_CENTER_LEVEL,ข้อมูลไม่ถูกต้อง
-RESULT_TYPE.NOT_ENOUGH_WOOD,ไม้ไม่พอ
-RESULT_TYPE.NOT_ENOUGH_METAL,เหล็กไม่พอ
-RESULT_TYPE.MAX_GUILD_BUILDING_LEVEL,อัพเลเวลสิ่งก่อสร้างไม่ได้เนื่องจากสิ่งก่อสร้างเลเวลเต็มแล้ว
-RESULT_TYPE.UNKNOWN_TYPE,ไม่สามารถหาข้อมูลได้
-RESULT_TYPE.NOT_MATCH_TYPE,ประเภทไม่ถูกต้อง
-RESULT_TYPE.SESSION_NOT_FOUND,การพิชิตไม่ได้ดำเนินการอยู่
-RESULT_TYPE.INVALID_SESSION_INDEX,การพิชิตไม่ได้ดำเนินการอยู่
-RESULT_TYPE.SESSION_DATA_NOT_FOUND,ไม่มีข้อมูลการพิชิต
-RESULT_TYPE.GUILD_ID_NOT_FOUND,ไม่พบกิลด์
-RESULT_TYPE.INVALID_PURCHASE_MARKETING_REQUEST_INFO,ข้อมูลไม่ถูกต้อง
-RESULT_TYPE.NOT_ELAPSED_GUILD_MEMBER_REWARDED_TIME,ยังไม่ถึงเวลาที่จะรับรางวัลจากสมาชิกกิลด์ โปรดลองใหม่อีกครั้งในภายหลัง
-RESULT_TYPE.PC_AVARTAR_DATA_NOT_FOUND,ไม่มีข้อมูลรางวัลนี้
-RESULT_TYPE.EQUIP_SLOT_DATA_NOT_FOUND,ไม่สามารถหาข้อมูลได้
-RESULT_TYPE.NOT_MATCH_SUB_TYPE,ช่องนี้ไม่ตรงกับไอเทมนี้
-RESULT_TYPE.NOT_ENOUGH_RANKING_POINT,ตราสัญลักษณ์แห่งเกียรติยศไม่พอ
-RESULT_TYPE.NOT_ENOUGH_GLORY1_POINT,คะแนนแห่งเกียรติยศไม่เพียงพอ
-RESULT_TYPE.GUILD_INFO_NOT_FOUND,ไม่มีข้อมูลกิลด์
-RESULT_TYPE.MISSING_BONUS_EVENT_CONDITION,ไม่สามารถหาข้อมูลได้
-RESULT_TYPE.CAN_NOT_SELECTED_COSTUME,ไม่สามารถสวมใส่คอสตูมได้
-RESULT_TYPE.COSTUME_INFO_REFUND,ไม่มีคอสตูม คุณสามารถได้รับตราสัญลักษณ์แห่งเกียรติยศเป็นการชดเชย
-RESULT_TYPE.WORLDBOSS_NOT_FOUND,ไม่พบข้อมูลที่ถูกต้องสำหรับสล็อตสวมใส่อุปกรณ์
-RESULT_TYPE.WORLD_BOSS_DAMAGED_BY_ZERO,การต่อสู้ไม่ได้ดำเนินการตามปกติ โปรดลองใหม่อีกครั้ง
-RESULT_TYPE.IS_SINGLE_ROOM,บอสโลกไม่ได้รับความเสียหายเลยสักนิด โปรดทำการท้าทายอีกครั้ง
-RESULT_TYPE.GUILD_GUILDRAID_ALREADY_COMPLETED,ห้องนี้เป็นห้องเรดสำหรับการเล่นเดี่ยว คุณไม่สามารถเข้าร่วมการต่อสู้ได้
-RESULT_TYPE.GUILD_GUILD_RAID_ALREADY_COMPLETED,มอนสเตอร์ถูกกำจัดแล้ว\nจะได้รับตั๋วเข้าที่ใช้ไปคืน
-RESULT_TYPE.NAME_TOO_LONG,มอนสเตอร์ถูกกำจัดแล้ว\nจะได้รับตั๋วเข้าที่ใช้ไปคืน
-RESULT_TYPE.INVALID_INDEX_ARRAY_SIZE,ชื่อช่องต้องมีความยาวไม่เกิน 10 อักขระ
-RESULT_TYPE.DUPLICATED_PART_INDEX,มีการจะบันทึกจำนวนอุปกรณ์ที่ไม่ถูกต้อง
-RESULT_TYPE.INVALID_EQUIP_ITEM_SLOT_INDEX,คุณสวมใส่อุปกรณ์เดียวกันในช่องสวมใส่อุปกรณ์อยู่แล้ว
-RESULT_TYPE.INVALID_EQUIP_STORAGE_SLOT_INDEX,คุณไม่มีไอเทมที่จัดเก็บในช่องอุปกรณ์ที่ปรับแต่ง
-RESULT_TYPE.INVALID_PART_INDEX,จำนวนช่องอุปกรณ์ที่ปรับแต่งไม่ถูกต้อง
-RESULT_TYPE.MAX_EXTEND,ช่องอุปกรณ์ไม่ถูกต้อง
-RESULT_TYPE.MISSING_PARAM_ERROR,ไม่สามารถค้นหาข้อมูลที่ต้องการสำหรับการขยายช่องอุปกรณ์ที่ปรับแต่งได้
-RESULT_TYPE.ALL_COSTUME_NOT_OWNED,ค่าที่ป้อนไม่ถูกต้อง
-RESULT_TYPE.ALL_HERO_NOT_OWNED,คุณยังไม่ได้เก็บสะสมคอสตูมทั้งหมด
-RESULT_TYPE.CHEST_FULL,คุณยังไม่ได้รับสมัครฮีโร่ทั้งหมด
-RESULT_TYPE.MAX_CHEST,คลังอุปกรณ์ของคุณเต็มแล้ว
-RESULT_TYPE.INVENTORY_FULL,ถึงจำนวนสูงสุดของการขยายคลังอุปกรณ์
-RESULT_TYPE.COUNTRY_CODE_CHANGE_IS_NOT_POSSIBLE,คลังเต็ม
-RESULT_TYPE.GUILD_SUPPRESS_AUTO_APPLY_INFO_NOT_FOUND,คุณไม่ได้รับอนุญาตให้เปลี่ยนรหัสประเทศในช่วงเวลานี้
-RESULT_TYPE.INVALID_COUNTRY_CODE_INDEX,ไม่พบข้อมูลการสมัครการพิชิตกิลด์อัตโนมัติ
-RESULT_TYPE. EVENT_ITEM_NOT_SELLECT,ไม่มีรหัสประเทศนี้
-RESULT_TYPE.POINT_NOT_ENOUGH,ไม่ได้เลือกไอเทม
-RESULT_TYPE.MAX_HERO_TRANSCEND_POINT,มีคะแนนการเข้าร่วมไม่พอ
-RESULT_TYPE.INVALID_HERO_TRANSCEND_POINT,แต้มคุณสมบัติการจุติของฮีโร่สูงสุดแล้ว
-RESULT_TYPE.RESOURCE_NOT_FOUND_ERROR,แต้มคุณสมบัติการจุติของฮีโร่ไม่ถูกต้อง
-RESULT_TYPE.INCORRECT_GUILD_MEMBER,ไม่สามารถหาทรัพยากรได้
-RESULT_TYPE.GUILD_MEMBER_NOT_FOUND,ไม่สามารถไปต่อได้ เนื่องจากสมาชิกกิลด์ไม่ถูกต้อง
-RESULT_TYPE.MAX_GUILD_ADMIN,ไม่พบสมาชิกกิลด์ที่ตรงกัน
-RESULT_TYPE.NOT_CORRECT_GUILD_BUILDING_LEVEL,จำนวนผู้จัดการถึงขีดจำกัดสูงสุดแล้ว
-RESULT_TYPE.INVALID_TAG_TYPE,การซื้อล้มเหลว เลเวลของผลิตภัณฑ์และร้านค้ากิลด์ไม่ตรงกัน
-RESULT_TYPE.INVALID_CURRENCY_DATA,อาชีพไม่ถูกต้อง
-RESULT_TYPE.NOT_ENOUGH_CURRENCY,ข้อมูลทรัพย์สินไม่ถูกต้อง
-RESULT_TYPE.NOT_EXIST_CLASS_BUFF_DATA,มีสิ่งของไม่เพียงพอ
-RESULT_TYPE.ALREADY_CLASS_BUFF_INIT,ไม่มีข้อมูลนี้
-RESULT_TYPE.INVALID_CLASS_BUFF_INDEX,ถูกรีเซตเรียบร้อยแล้ว
-RESULT_TYPE.INVALID_CLASS_BUFF_LEVEL,ส่งข้อมูลดัชนีบัฟอาชีพที่ไม่ถูกต้องให้เซิร์ฟเวอร์แล้ว
-RESULT_TYPE.NOT_ENOUGH_POINT,ส่งข้อมูลเลเวลบัฟอาชีพที่ไม่ถูกต้องให้เซิร์ฟเวอร์แล้ว
-RESULT_TYPE.NOT_ENOUGH_CLASS_BUFF_INDEX,มีคะแนนบัฟอาชีพไม่พอ
-RESULT_TYPE.NOT_ENOUGH_CLASS_BUFF_LEVEL,มีดัชนีไม่มากพอที่จะเลเวลอัพ
-RESULT_TYPE.NOT_ENOUGH_NEED_HERO_COUNT,มีเลเวลบัฟอาชีพไม่มากพอที่จะเลเวลอัพ
-RESULT_TYPE.EXCEEDED_MAX_LEVEL,คุณมีฮีโร่ไม่มากพอ
-RESULT_TYPE.MONTHLY_HERO_NOT_FOUND,ไม่สามารถอัพเกรดเพิ่มได้
-RESULT_TYPE.CHECK_CONDITION_NOT_PASSED,การเรียกข้อมูลผิดพลาด
-RESULT_TYPE.NEWBIE_POPUP_TIME_ENDED,ช่วงเวลาของการรับรางวัลได้สิ้นสุดลงแล้ว
-RESULT_TYPE.NOT_OPENED_NEWBIE_POPUP,สินค้าที่ต้องการซื้อไม่ใช่สินค้าที่กำลังเปิดขาย
-RESULT_TYPE.NOT_ENOUGH_GUILD_ARENA_POINT,เครื่องหมายสงครามกิลด์ไม่เพียงพอ
-RESULT_TYPE.NOT_ENOUGH_CONQUEST_DUNGEON_COUNT,กุญแจการพิชิตไม่เพียงพอ
-RESULT_TYPE.ALREADY_ON_BATTLE_HERO,เป็นวีรบุรุษที่กำลังออกไปประลอง
-RESULT_TYPE.GUILD_SUPPRESS_GROUP_INFO_NOT_FOUND,ไม่พบข้อมูลเข้าร่วมการพิชิตกิลด์
-RESULT_TYPE.MODULATED_DATA,ส่งคำขอข้อมูลที่ถูกเปลี่ยนแปลงแล้ว
-RESULT_TYPE.DISPATCH_BATTLE_NOT_FOUND,ไม่พบข้อมูลกลุ่มออกไปประลอง
-RESULT_TYPE.ALREADY_FINISH_DISPATCH_BATTLE,อยู่ในสถานะที่สำเร็จแล้ว
-RESULT_TYPE.ALREADY_MAX_BATTLE_COUNT,ไม่สามารถส่งไปประลองได้อีก
-RESULT_TYPE.NOT_ENOUGH_HERO_COUNT,จำนวนวีรบุรุษไม่เพียงพอ
-RESULT_TYPE.NOT_OWN_HERO,ไม่ใช่วีรบุรุษที่มีอยู่
-RESULT_TYPE.NOT_CORRECT_EQUIP_SWAP_COUNT,อุปกรณ์ที่จะเปลี่ยนมีไม่ถึง 2 ชิ้น
-RESULT_TYPE.HERO_NOT_EQUIPPED,ไม่ได้สวมใส่อุปกรณ์ที่จะเปลี่ยน
-RESULT_TYPE.CAN_NOT_UPGRADE_VALUE,เป็นค่าที่ไม่สามารถอัพเกรดได้
-RESULT_TYPE.ALREADY_USED_EQUIP_STORAGE_SLOT_INDEX,กำลังใช้ EquipStorageSlotIndex
-RESULT_TYPE.GUILD_ARENA_SESSION_NOT_FOUND,จบสงครามกิลด์แล้ว
-RESULT_TYPE.INVALID_GUILD_ARENA_SESSION_INDEX,จบสงครามกิลด์แล้ว
-RESULT_TYPE.NOT_GUILD_ARENA_APPLIABLE,ไม่สามารถเข้าร่วมได้
-RESULT_TYPE.GUILD_ARENA_SESSION_DATA_NOT_FOUND,ไม่พบข้อมูลสงครามกิลด์
-RESULT_TYPE.ALREADY_APPLIED_GUILD_ARENA,เข้าร่วมการประลองแล้ว
-RESULT_TYPE.GUILD_ARENA_SCORE_INFO_NOT_FOUND,ไม่พบประวัติการเข้าร่วมสงครามกิลด์
-RESULT_TYPE.GUILD_ARENA_AUTO_APPLY_INFO_NOT_FOUND,ไม่พบประวัติคำขอเข้าร่วมสงครามกิลด์อัตโนมัติ
-RESULT_TYPE.SUB_STORY_DATA_NOT_FOUND,ไม่มีข้อมูลเกมสำหรับเรื่องย่อย
-RESULT_TYPE.NEED_SUB_STORY,สามารถซื้อได้หลังจากจบเรื่องย่อย
-RESULT_TYPE.REQUIRED_VALUE_EMPTY,ทรัพย์สินไม่เพียงพอ
-RESULT_TYPE.NOT_HAVE_HERO,ไม่มีวีรบุรุษที่จำเป็น
-RESULT_TYPE.WEAPON_COSTUME_DATA_NOT_FOUND,ไม่พบข้อมูลรูปแบบอาวุธ
-RESULT_TYPE.HAIR_COSTUME_DATA_NOT_FOUND,ไม่พบข้อมูลทรงผม
-RESULT_TYPE.STAR_VALUE_NOT_FOUND,ไม่พบข้อมูลระดับวีรบุรุษในข้อมูลคอสตูม
-RESULT_TYPE.NOT_HAVE_NEED_COSTUME,ไม่มีคอสตูมพื้นฐาน
-RESULT_TYPE.ALREADY_HAVE_ACCESSORY_COSTUME,มีเครื่องประดับนี้แล้ว
-RESULT_TYPE.ACCESSORY_COSTUME_DATA_NOT_FOUND,ไม่พบข้อมูลเครื่องประดับ
-RESULT_TYPE.ACCESSORY_COSTUME_NOT_OPENED,ไม่สามารถซื้อเครื่องประดับนี้ได้
-RESULT_TYPE.DUPLICATE_PART_TYPE,ไม่สามารถซื้อหรือสวมใส่ไอเทมที่ส่วนเดียวกันได้
-RESULT_TYPE.UNSET_ACCESSORY_COSTUME_FAIL,การถอดเครื่องประดับคอสตูมล้มเหลว
-RESULT_TYPE.NOT_HAVE_WEAPON_COSTUME,ไม่ได้ครอบครองรูปแบบอาวุธนี้อยู่
-RESULT_TYPE.NOT_HAVE_ACCESSORY_COSTUME,ไม่มีเครื่องประดับนี้อยู่
-RESULT_TYPE.INVALID_VALUE,ส่งคำขอค่าที่ไม่ถูกต้องแล้ว
-RESULT_TYPE.EMPTY_SORAGE_SLOT,ช่องเก็บคอสตูมที่ต้องการสวมใส่ว่างเปล่า
-RESULT_TYPE.HOUSE_OBJECT_DATA_NOT_FOUND,ไม่ใช่วัตถุบ้าน
-RESULT_TYPE.INVALID_EXTEND_SIZE,การขยายขนาดไม่ถูกต้อง
-RESULT_TYPE.OVER_MAX_EXTEND_SIZE,เกินขีดการขยายสูงสุด
-RESULT_TYPE.EXTEND_DATA_NOT_FOUND,ไม่พบข้อมูลการขยาย
-RESULT_TYPE.INVALID_SIZE,ขนาดที่พักไม่ถูกต้อง
-RESULT_TYPE.INVALID_OPEN_HERO_COUNT,จำนวนช่องเก็บวีรบุรุษไม่ถูกต้อง
-RESULT_TYPE.INVALID_FACILITY_COUNT,จำนวนสิ่งอำนวยการผลิตไม่ถูกต้อง
-RESULT_TYPE.INVALID_REQ_ITEM,จำนวนไอเทมที่จำเป็นต่อการขยายไม่ถูกต้อง
-RESULT_TYPE.INVALID_HERO_COUNT,จำนวนวีรบุรุษที่เลือกมีมากเกินไป
-RESULT_TYPE.OVER_AVAIL_FACILITY_COUNT,จำนวนสิ่งอำนวยความสะดวกในปัจจุบันมีมากเกินกว่าจำนวนที่สามารถติดตั้งได้
-RESULT_TYPE.FURNITURE_DATA_NOT_FOUND,ไม่มีข้อมูลเฟอร์นิเจอร์
-RESULT_TYPE.INVALID_AXIS,ข้อมูลแกนไม่ถูกต้อง
-RESULT_TYPE.INVALID_LOCATION,ตำแหน่งไม่ถูกต้อง
-RESULT_TYPE.NOT_FOUND_CHAPTER_DATA,ไม่พบข้อมูลเกมของแชปเตอร์
-RESULT_TYPE.IS_NOT_OPEN_DUNGEON,ยังไม่ได้เคลียร์ดันเจี้ยนก่อนหน้า
-RESULT_TYPE.INVALID_AVATAR_HERO_INDEX,ส่งคำขอค่า AvatarHeroIndex ที่ไม่ถูกต้องแล้ว
-RESULT_TYPE.NICK_CHANGE_DISABLED,ไม่สามารถเปลี่ยนชื่อได้
-RESULT_TYPE.GUILD_ARENA_WRONG_SESSION_INDEX,ไม่ได้อยู่ในช่วงดำเนินการ
-RESULT_TYPE.GUILD_ARENA_NOT_BATTLE_STATE,สงครามกิลด์ไม่ได้อยู่ในสถานะประลอง
-RESULT_TYPE.NOT_ENOUGH_GUILD_ARENA_KEY,ไม่มีตั๋วเข้าร่วมสงครามกิลด์
-RESULT_TYPE.ALREADY_USED_BATTLE_HERO,เป็นวีรบุรุษที่ถูกเลือกไปประลองแล้ว
-RESULT_TYPE.CANNOT_PLAY_IN_BATTLE,ฝ่ายตรงข้ามกำลังอยู่ในช่วงการประลอง
-RESULT_TYPE.GUILD_ARENA_SESSION_SCORE_NOT_FOUND,ไม่พบคะแนนการร่วมสงครามกิลด์
-RESULT_TYPE.GUILD_ARENA_ENEMY_NOT_FOUND,ไม่สามารถหาคู่ต่อสู้ได้
-RESULT_TYPE.GUILD_ARENA_ENEMY_NOT_CORRECT,ไม่ใช่ศัตรูที่จะโจมตี
-RESULT_TYPE.MATCHED_GUILD_ARENA_ENEMY_NOT_FOUND,ไม่สามารถหาคู่ต่อสู้ได้
-RESULT_TYPE.MATCH_TIER_NOT_FOUND,ไม่พบข้อมูลระดับที่เหมาะสม
-RESULT_TYPE.GUILD_ARENA_ENEMY_DECK_NOT_FOUND,ไม่พบข้อมูลทีมป้องกันของฝ่ายตรงข้าม
-RESULT_TYPE.GUILD_ARENA_MEMBER_RECORD_NOT_FOUND,ไม่พบข้อมูลที่บันทึก
-RESULT_TYPE.INVALID_GUILD_ARENA_SEASON_INDEX,ไม่ใช่ช่วงดำเนินการซีซั่นสงครามกิลด์
-RESULT_TYPE.GUILD_ARENA_RANKER_INFO_NOT_FOUND,ไม่พบประวัติการเข้าร่วมสงครามกิลด์
-RESULT_TYPE.GUILD_ARENA_SESSION_RECORD_INFO_NOT_FOUND,ไม่พบประวัติอันดับสงครามกิลด์
-RESULT_TYPE.GUILD_ARENA_ENEMY_DECK_ALREADY_COMPLETED,ศัตรูพ่ายแพ้แล้ว
-RESULT_TYPE.GUILD_ARENA_MATCH_INFO_NOT_FOUND,ไม่พบข้อมูลทีมป้องกันของฝ่ายตรงข้าม
-RESULT_TYPE.GUILD_ARENA_NOT_APPLY_SET_DECK,หมดเวลาส่งคำขอแล้วจึงไม่สามารถตั้งค่าทีมป้องกันได้
-RESULT_TYPE.GUILD_ARENA_DECK_HERO_NOT_FOUND,ไม่พบวีรบุรุษที่ระบุ 
-RESULT_TYPE.GUILD_ARENA_HERO_NOT_FOUND,ไม่มีวีรบุรุษอยู่
-RESULT_TYPE.GUILD_ARENA_NOT_APPLY_SET_DECK_SKILL,หมดเวลาส่งคำขอแล้วจึงไม่สามารถตั้งค่าสกิลได้
-RESULT_TYPE.NOT_ENOUGH_ECLIPSE_KEY,ไม่มีแก่นแท้แห่งพระจันทร์สีเลือด\n\nชิ้นส่วนแห่งการกลืนกินที่ได้รับเมื่อเช็คชื่อหรือใช้สเตมิน่าสามารถเพิ่มระดับความมืดกลืนกินเพื่อรับแก่นแท้แห่งพระจันทร์สีเลือดได้\nเมื่อระดับความมืดกลืนกินเต็ม จะได้รับแก่นแท้แห่งพระจันทร์สีเลือด
-RESULT_TYPE.IS_ALREADY_LIBERATION,เป็นอาวุธเฉพาะที่ปลดปล่อยแล้ว
-RESULT_TYPE.NOT_AVAILABLE_RECHARGE,เมื่อเติมแก่นแท้แห่งพระจันทร์สีเลือด จะมีระดับความมืดกลืนกินที่ถูกทิ้ง\nเข้าไปยังอีคลิปส์และใช้แก่นแท้แห่งพระจันทร์สีเลือด หลังจากนั้นกรุณาลองใหม่อีกครั้ง
-RESULT_TYPE.ECLIPSE_BATTLE_TIME_OVER,ไม่สามารถประลองต่อได้หากจบเวลาอีคลิปส์
+KEY,"Thai"
+BASE_RESULT_TYPE.SUCCESS,"ประมวลผลคำขอของคุณเรียบร้อยแล้ว เครือข่ายของคุณไม่เสถียร ดังนั้นโปรดลองใหม่อีกครั้งในภายหลัง"
+BASE_RESULT_TYPE.FAIL,"การประมวลผลคำขอของคุณล้มเหลวเนื่องจากการเชื่อมต่อเครือข่ายไม่เสถียร โปรดลองใหม่อีกครั้งในภายหลัง"
+BASE_RESULT_TYPE.SESSION_ERROR,"คุณถูกตัดการเชื่อมต่อจากเซิร์ฟเวอร์เนื่องจากอยู่นิ่งเป็นเวลานาน โปรดเข้าเกมใหม่"
+BASE_RESULT_TYPE.ACCOUNT_ERROR,"ไอดีของท่านไม่ถูกต้อง"
+BASE_RESULT_TYPE.UNHANDLED,"การเรียกข้อมูลผิดพลาด"
+BASE_RESULT_TYPE.EXCEPTION,"พบความผิดปรกติของระบบภายใน"
+BASE_RESULT_TYPE.HTTP_ERROR,"พบความผิดปรกติระหว่างการดึงข้อมูลในเว็บ"
+BASE_RESULT_TYPE.PARSING_ERROR,"พบปัญหาในการ Parsing"
+RESULT_TYPE.SUCCESS,"ประมวลผลคำขอของคุณเรียบร้อยแล้ว เครือข่ายของคุณไม่เสถียร ดังนั้นโปรดลองใหม่อีกครั้งในภายหลัง"
+RESULT_TYPE.FAIL,"การประมวลผลคำขอของคุณล้มเหลวเนื่องจากการเชื่อมต่อเครือข่ายไม่เสถียร โปรดลองใหม่อีกครั้งในภายหลัง"
+RESULT_TYPE.LEVEL_DATA_NOT_FOUND,"ไม่พบข้อมูลเลเวล"
+RESULT_TYPE.CANNOT_UPGRADE_MORE,"ไม่สามารถอัพเกรดเพิ่มได้"
+RESULT_TYPE.NOT_ENOUGH_GOLD,"มี Gold ไม่เพียงพอ"
+RESULT_TYPE.NOT_ENOUGH_GEM,"มี Ruby ไม่เพียงพอ"
+RESULT_TYPE.INSUFFICIENT_ITEM,"มีวัตถุดิบไม่เพียงพอ"
+RESULT_TYPE.GRADE_DATA_NOT_FOUND,"ไม่พบข้อมูล Rank"
+RESULT_TYPE.CANNOT_UPGRADE_YET,"ไม่สามารถอัพเกรดได้"
+RESULT_TYPE.REQ_GOLD_NOT_FOUND,"ไม่พบค่า Gold ที่ต้องการ"
+RESULT_TYPE.REQ_ITEM_DATA_NOT_FOUND,"ไม่พบวัตถุดิบที่ต้องการ"
+RESULT_TYPE.SESSION_ERROR,"คุณถูกตัดการเชื่อมต่อจากเซิร์ฟเวอร์เนื่องจากอยู่นิ่งเป็นเวลานาน โปรดเข้าเกมใหม่"
+RESULT_TYPE.ACCOUNT_ERROR,"ไอดีของท่านไม่ถูกต้อง"
+RESULT_TYPE.UNHANDLED,"กระบวนการล้มเหลว"
+RESULT_TYPE.HTTP_ERROR,"การดึงข้อมูลเว็บล้มเหลว"
+RESULT_TYPE.PARSING_ERROR,"พบข้อผิดพลาดในการตอบกลับ"
+RESULT_TYPE.HERO_NOT_FOUND,"ไม่พบฮีโร่"
+RESULT_TYPE.EQUIP_DATA_NOT_FOUND,"ไม่พบข้อมูลอุปกรณ์"
+RESULT_TYPE.EQUIP_NOT_OWNED,"คุณไม่มีอุปกรณ์"
+RESULT_TYPE.EQUIP_NOT_FOUND,"ไม่พบอุปกรณ์"
+RESULT_TYPE.EQUIPPED,"อุปกรณ์นี้ได้สวมใส่ไว้แล้ว"
+RESULT_TYPE.EQUIP_CODE_NOT_FOUND,"ไม่พบรหัสอุปกรณ์"
+RESULT_TYPE.MAX_JOIN_REQUEST,"คำร้องเข้ากิลด์ถึงขีดจัดกัดแล้ว\nโปรดยกเลิกบางรายการแล้วทำใหม่อีกครั้ง"
+RESULT_TYPE.MAX_GUILD_MAX_JOIN_REQUEST,"คำร้องเข้ากิลด์เต็มแล้ว"
+RESULT_TYPE.MATERIAL_EQUIP_ITEM_PRICE_ERROR,"ราคาที่ต้องจ่ายไม่ถูกต้อง"
+RESULT_TYPE.NO_UPGRADABLE_MATERIAL_EQUIP_ITEM,"วัตถุดิบของอุปกรณ์ไม่ถูกต้อง"
+RESULT_TYPE.NOT_OWNED_MATERIAL_EQUIP_ITEM,"คุณไม่มีวัตถุดิบของอุปกรณ์นี้"
+RESULT_TYPE.NOT_ENOUGH_TEAM_LEVEL,"คุณมีเลเวลทีมน้อยเกินไป"
+RESULT_TYPE.MAX_MEMBER,"มีสมาชิกกิลด์เต็มแล้ว"
+RESULT_TYPE.INVALID_RANK,"สิทธิในการจัดการสมาชิกกิลด์ผิดพลาด"
+RESULT_TYPE.GUILD_JOIN_NOT_REQUESTED,"ไม่พบข้อมูลคำร้อง"
+RESULT_TYPE.NAME_DUPLICATED,"ชื่อนี้ถูกใช้ไปแล้ว"
+RESULT_TYPE.GUILD_MEMBER_EXIST,"ยังมีสมาชิกกิลด์อยู่"
+RESULT_TYPE.ALREADY_REGISTERED_MERCENARY,"ฮีโร่นี้อยู่ในทีมผจญภัยแล้ว"
+RESULT_TYPE.MAX_MERCENARY,"จำนวนสมาชิกทีมผจญภัยครบแล้ว"
+RESULT_TYPE.NOT_REGISTERED_MERCENARY,"ฮีโร่ที่ไม่ได้อยู่ในทีมผจญภัย"
+RESULT_TYPE.ALREADY_JOINED,"เข้าร่วมกิลด์แล้ว"
+RESULT_TYPE.LOG_NOT_FOUND,"ไม่พบสถิติการสู้"
+RESULT_TYPE.INVALID_PLUNDER_RESULT,"สถิติการสู้ผิดพลาด"
+RESULT_TYPE.ALREADY_CHASED,"เริ่มไล่ล่าแล้ว"
+RESULT_TYPE.INVALID_CHAPTER_INDEX,"ตำแหน่งภารกิจผิดพลาด"
+RESULT_TYPE.COLLECT_NODE_NOT_FOUND,"ไม่พบตำแหน่งภารกิจ"
+RESULT_TYPE.COLLECT_ENDED,"การรวบรวมสมบูรณ์แล้ว"
+RESULT_TYPE.DEAD_HERO_EXIST,"ไม่สามารถขโมยฮีโร่ที่หมดสภาพแล้วได้"
+RESULT_TYPE.USER_CHASE_INFO_NOT_FOUND,"ไม่พบข้อมูลการไล่ล่า"
+RESULT_TYPE.COLLECT_INFO_NOT_FOUND,"ไม่พบข้อมูลภารกิจสำรวจ"
+RESULT_TYPE.INVALID_TEAM_SLOT,"ปาร์ตี้ภารกิจสำรวจผิดพลาด"
+RESULT_TYPE.ALREADY_HARVESTED,"ผ่านภารกิจนี้ไปเรียบร้อยแล้ว"
+RESULT_TYPE.MAX_DAILY_QUICK_COMPLETE_COLLECT,"คุณทำเสร็จถึงจำนวนสูงสุดของวันนี้แล้ว"
+RESULT_TYPE.COLLECT_NOT_ENDED,"ภารกิจนี้ยังไม่สำเร็จ"
+RESULT_TYPE.RECORD_NOT_FOUND,"ไม่พบสถิติการสู้"
+RESULT_TYPE.ALREADY_DEFEND_REWARDED,"ได้รับรางวัลจากการป้องกันการขโมยแล้ว"
+RESULT_TYPE.MAX_PLUNDER_DEFEND_REWARD,"คุณได้รับรางวัลถึงจำนวนสูงสุดของการป้องกันการขโมยของวันนี้แล้ว"
+RESULT_TYPE.CHAPTER_NOT_COMPLETED,"เนื้อเรื่องหลักบทนี้ยังไม่สำเร็จ"
+RESULT_TYPE.VIP_LEVEL_DATA_NOT_FOUND,"ไม่พบข้อมูลเลเวล VIP"
+RESULT_TYPE.MAX_RES_COLLECT_TEAM,"ตอนนี้ทุกทีมอยู่ในภารกิจแล้ว"
+RESULT_TYPE.NOW_COLLECTING,"ตอนนี้ทีมอยู่ในภารกิจ"
+RESULT_TYPE.INVALID_HERO_INDEX,"ฮีโร่อยู่ในภารกิจหรือไม่มีฮีโร่นี้แล้ว"
+RESULT_TYPE.CHAPTER_NOT_FOUND,"ไม่สามารถเข้าภารกิจนี้ได้"
+RESULT_TYPE.DUNGEON_NOT_FOUND,"ไม่สามารถเข้าดันเจี้ยนนี้ได้"
+RESULT_TYPE.EMPTY_HERO_INDICES,"ยังไม่มีฮีโร่นี้"
+RESULT_TYPE.CANNOT_PLAY_DUNGEON,"ไม่สามารถเข้าดันเจี้ยนได้"
+RESULT_TYPE.NOT_ENOUGH_STAMINA,"พลังงานในการเข้าเล่นไม่เพียงพอ"
+RESULT_TYPE.NOT_ENOUGH_PLAY_KEY,"กุญแจไม่เพียงพอ"
+RESULT_TYPE.INVALID_DIFF,"ระดับความยากง่ายของเลเวลไม่ถูกต้อง"
+RESULT_TYPE.VERIFY_FAILED,"การยืนยันผิดพลาด"
+RESULT_TYPE.CHECK_FAILED,"การตรวจสอบผิดพลาด"
+RESULT_TYPE.USER_CAMPAIGN_INFO_NOT_FOUND,"เนื่องจากข้อผิดพลาดของเครือข่าย เซิร์ฟเวอร์จึงมีความล่าช้าในการประมวลผลข้อมูลผู้ใช้ โปรดลองใหม่อีกครั้งในภายหลัง"
+RESULT_TYPE.WRONG_CHAPTER_INDEX,"ฟีเจอร์นี้ไม่พร้อมใช้งาน"
+RESULT_TYPE.WRONG_DUNGEON_INDEX,"ฟีเจอร์นี้ไม่พร้อมใช้งาน"
+RESULT_TYPE.INVALID_STAR,"ข้อมูล Star ผิดพลาด"
+RESULT_TYPE.ENCHANT_RESULT_NOT_FOUND,"ไม่พบข้อมูลการปรับเปลี่ยนออฟชั่น"
+RESULT_TYPE.EQUIP_ITEM_SLOT_INDEX_MISMATCH,"เป้าหมายการปรับเปลี่ยนออฟชั่นไม่ตรงกัน"
+RESULT_TYPE.OPTION_SLOT_INDEX_MISMATCH,"ช่องออฟชั่นไม่ตรงกัน"
+RESULT_TYPE.OPTION_INDEX_MISMATCH,"ผลจากการปรับเปลี่ยนค่าออฟชั่นเปลี่ยนไป"
+RESULT_TYPE.PREV_OPTION_INDEX_MISMATCH,"ค่าออฟชั่นใหม่เปลี่ยนไปจากเดิม"
+RESULT_TYPE.INVALID_OPTION_SLOT,"ช่องออฟชั่นผิดพลาด"
+RESULT_TYPE.RANDOM_OPTION_DATA_ERROR,"ข้อมูลออฟชั่นจากการสุ่มผิดพลาด"
+RESULT_TYPE.NO_HERO,"ไม่พบฮีโร่"
+RESULT_TYPE.HERO_DATA_NOT_FOUND,"ไม่พบข้อมูลฮีโร่"
+RESULT_TYPE.ALREADY_OTHER_HERO_EQUIPPED,"ฮีโร่อื่นได้ใส่ไอเทมนี้ไปแล้ว"
+RESULT_TYPE.ITEM_DATA_NOT_FOUND,"ไม่พบข้อมูลไอเทม"
+RESULT_TYPE.EQUIP_ITEM_DATA_NOT_FOUND,"ไม่พบข้อมูลอุปกรณ์"
+RESULT_TYPE.EQUIP_TAG_ERROR,"ค่า Tag ของอุปกรณ์ผิดพลาด"
+RESULT_TYPE.TOO_LOW_GRADE,"ระดับไม่ถึง"
+RESULT_TYPE.TOO_LOW_LEVEL,"เลเวลไม่ถึง"
+RESULT_TYPE.LOCKED_PART_INDEX,"ช่องอุปกรณ์ที่ปิดไว้"
+RESULT_TYPE.EQUIP_PART_ERROR,"ช่องอุปกรณ์ที่ไม่สามารถใช้งานได้"
+RESULT_TYPE.REMOVE_FAILED,"การลบผิดพลาด"
+RESULT_TYPE.INVALID_HERO_PART_INDEX,"ช่องอุปกรณ์ผิดพลาด"
+RESULT_TYPE.ALREADY_UNLOCKED,"ถูกเปิดไว้อยู่แล้ว"
+RESULT_TYPE.UNLOCK_FAILED,"การเปิดผิดพลาด"
+RESULT_TYPE.EQUIP_ITEM_NOT_FOUND,"ไม่พบอุปกรณ์"
+RESULT_TYPE.UNEQUIP_FAILED,"การลบอุปกรณ์ผิดพลาด"
+RESULT_TYPE.STAT_DATA_NOT_FOUND,"ไม่พบข้อมูล"
+RESULT_TYPE.EMPTY_MATERIAL_EQUIP_ITEM,"ไม่มีวัตถุดิบ"
+RESULT_TYPE.INVALID_MATERIAL_EQUIP_ITEM,"วัตถุดิบของอุปกรณ์ไม่ถูกต้อง"
+RESULT_TYPE.FRIEND_NOT_FOUND,"ไม่พบเพื่อน"
+RESULT_TYPE.REQUEST_MYSELF,"คุณไม่สามารถยื่นคำขอถึงตัวเองได้"
+RESULT_TYPE.CANNOT_SEARCH_MYSELF,"คุณไม่สามารถค้นหาตัวเองได้"
+RESULT_TYPE.GACHA_DATA_NOT_FOUND,"ไม่พบข้อมูลตู้ Gacha"
+RESULT_TYPE.WRONG_GACHA_INDEX,"หมายเลข Gacha ผิดพลาด"
+RESULT_TYPE.WRONG_GACHA_COUNT,"จำนวน Gacha ผิดพลาด"
+RESULT_TYPE.NO_MERCENARIES,"ไม่พบทีมผจญภัย"
+RESULT_TYPE.NO_GUILD,"ไม่พบกิลด์"
+RESULT_TYPE.INVAILID_RANK,"อันดับ Ranking ผิดพลาด"
+RESULT_TYPE.GUILD_MAX_JOIN_REQUEST,"คำขอเข้าร่วมกิลด์เต็มแล้ว"
+RESULT_TYPE.TRIAL_DUNGEON_DATA_NOT_FOUND,"ไม่พบข้อมูลห้องพิสูจน์ตน"
+RESULT_TYPE.NOT_PLAYER_HERO,"คุณไม่มีฮีโร่นี้"
+RESULT_TYPE.ITEM_NOT_OWNED,"คุณไม่มีไอเทมนี้"
+RESULT_TYPE.ITEM_TYPE_MISMATCH,"ประเภทไอเทมไม่ตรงกัน"
+RESULT_TYPE.POTION_DATA_NOT_FOUND,"ไม่พบข้อมูลไอเทมฟื้นฟู"
+RESULT_TYPE.INVALID_ACTION,"การกระทำผิดพลาด"
+RESULT_TYPE.RECIPE_DATA_NOT_FOUND,"ไม่พบข้อมูลตำรา"
+RESULT_TYPE.MATERIAL_DATA_NOT_FOUND,"ไม่พบข้อมูลวัตถุดิบ"
+RESULT_TYPE.NOT_ENOUGH_MATERIAL,"วัตถุดิบไม่เพียงพอ"
+RESULT_TYPE.MATCH_RESULT_NOT_FOUND,"ไม่พบผลการต่อสู้"
+RESULT_TYPE.MATCH_UID_MISMATCH,"หมายเลขห้องต่อสู้ไม่ตรงกัน"
+RESULT_TYPE.MATCHING_DISABLED,"กำลังรวบรวมผลการต่อสู้"
+RESULT_TYPE.NOT_ENOUGH_SWORD,"มีดาบไม่เพียงพอ"
+RESULT_TYPE.MATCH_USER_NOT_FOUND,"ไม่พบข้อมูลผู้ท้าชิง"
+RESULT_TYPE.NPC_INFO_NOT_FOUND,"ไม่พบข้อมูล NPC"
+RESULT_TYPE.WAIT_MORE,"เนื่องจากข้อผิดพลาดของเครือข่าย เซิร์ฟเวอร์จึงมีความล่าช้าในการประมวลผลข้อมูลการต่อสู้ โปรดแตะตกลงอีกครั้ง"
+RESULT_TYPE.NOT_ENOUGH_CHEESE,"ชีสไม่เพียงพอ"
+RESULT_TYPE.USER_PLUNDER_INFO_NOT_FOUND,"ไม่พบข้อมูลการขโมย"
+RESULT_TYPE.COLLECT_NODE_DATA_NOT_FOUND,"ไม่พบข้อมูล Collection Node"
+RESULT_TYPE.PLAYER_NOT_FOUND,"ไม่พบข้อมูลผู้เล่น"
+RESULT_TYPE.V_I_P_LEVEL_DATA_NOT_FOUND,"ไม่พบข้อมูลเลเวลของ VIP"
+RESULT_TYPE.SHOP_DATA_NOT_FOUND,"ไม่พบข้อมูลร้านค้า"
+RESULT_TYPE.SHOP_ITEM_DATA_NOT_FOUND,"ไม่พบข้อมูลไอเทมในร้านค้า"
+RESULT_TYPE.PLAYER_SHOP_ITEM_NOT_FOUND,"ไม่พบข้อมูลไอเทมในร้านค้าของผู้เล่น"
+RESULT_TYPE.SOLD_OUT,"ถูกขายไปแล้ว"
+RESULT_TYPE.INVALID_COST,"ราคาไม่ถูกต้อง"
+RESULT_TYPE.NO_ITEM_DATA,"ไม่พบข้อมูลไอเทม"
+RESULT_TYPE.NOT_OWNED,"ไม่ได้เป็นเจ้าของ"
+RESULT_TYPE.INVALID_ITEM_COUNT,"จำนวนไอเทมไม่ถูกต้อง"
+RESULT_TYPE.NOT_ENOUGH_STONE,"คริสตัลอัพเกรดไม่เพียงพอ"
+RESULT_TYPE.HERO_LEVEL_LIMIT,"มีเลเวลของฮีโร่ไม่เพียงพอ"
+RESULT_TYPE.SKILL_LEVEL_NOT_FOUND,"ไม่พบข้อมูลเลเวลของสกิล"
+RESULT_TYPE.SKILL_PRICE_NOT_FOUND,"ไม่พบข้อมูลค่าอัพเกรดสกิล"
+RESULT_TYPE.TEAM_LEVEL_LIMIT,"ไม่สามารถอัพเลเวลฮีโร่ได้มากกว่านี้"
+RESULT_TYPE.SKILL_NOT_FOUND,"ไม่พบสกิล"
+RESULT_TYPE.REQ_GOLD_ERROR,"ค่า Gold ที่จำเป็นต้องใช้ผิดพลาด"
+RESULT_TYPE.STAR_DATA_NOT_FOUND,"ข้อมูล Star ผิดพลาด"
+RESULT_TYPE.NO_TARGET_ACCOUNT_ID,"ไม่พบข้อมูลจำนวนผู้เล่น"
+RESULT_TYPE.VERSION_ERROR,"เวอร์ชั่นไม่ถูกต้อง"
+RESULT_TYPE.MATCH_NOT_FOUND,"ไม่พบการแข่งขัน"
+RESULT_TYPE.EQUIP_ITEM_FULL,"อุปกรณ์เต็ม"
+RESULT_TYPE.INVALID_GUILD_LEVEL,"เลเวลกิลด์ไม่ถูกต้อง"
+RESULT_TYPE.ALREADY_JOIN_REQUESTED,"ได้ยื่นคำขอเข้าร่วมแล้ว..."
+RESULT_TYPE.MIN_REGISTER_TIME_NOT_ELAPSED,"ระยะเวลาลงทะเบียนขั้นต่ำไม่ถูกต้อง"
+RESULT_TYPE.RESULT_ITEM_DATA_NOT_FOUND,"ไม่พบข้อมูลไอเทมผลลัพธ์"
+RESULT_TYPE.RESULT_EQUIP_ITEM_DATA_NOT_FOUND,"ไม่พบข้อมูลอุปกรณ์ผลลัพธ์"
+RESULT_TYPE.MISSION_NOT_COMPLETED,"ภารกิจยังไม่สำเร็จ"
+RESULT_TYPE.TYPE_ERROR,"ประเภทไม่ถูกต้อง"
+RESULT_TYPE.INFO_ERROR,"ข้อมูลไม่ถูกต้อง"
+RESULT_TYPE.ACCOUNT_IDS_ERROR,"ไอดีไม่ถูกต้อง"
+RESULT_TYPE.NOT_ENOUGH_PVP_COIN,"PVP Coin ไม่เพียงพอ"
+RESULT_TYPE.EMPTY_NICK,"โปรดใส่ชื่อที่ต้องการ"
+RESULT_TYPE.INVALID_NICK,"ไม่สามารถใช้ชื่อนี้ได้"
+RESULT_TYPE.ALREADY_EXIST,"ชื่อนี้ถูกใช้ไปแล้ว"
+RESULT_TYPE.TOO_SHORT_NICK,"ชื่อสั้นเกินไป"
+RESULT_TYPE.TOO_LONG_NICK,"ชื่อยาวเกินไป"
+RESULT_TYPE.CENSORED_WORD,"รวมถึงคำสาปแช่ง"
+RESULT_TYPE.NOT_ENOUGH_CHALLENGE_CHANCE,"ไม่สามารถประลองได้มากกว่านี้"
+RESULT_TYPE.NOT_ENOUGH_DUNGEON_KEY,"มีกุญแจสำหรับลงดันเจี้ยนไม่เพียงพอ"
+RESULT_TYPE.NOT_OPENED_DUNGEON,"ดันเจี้ยนยังไม่เปิดให้เข้า"
+RESULT_TYPE.REQ_GEM_ERROR,"ไม่ต้องการ Ruby"
+RESULT_TYPE.WAITER_NOT_FOUND,"ไม่พบข้อมูลการรอ"
+RESULT_TYPE.MISSION_NOT_CLEARED,"ภารกิจยังไม่สำเร็จ"
+RESULT_TYPE.DUNGEON_DATA_NOT_FOUND,"ไม่พบข้อมูลดันเจี้ยน"
+RESULT_TYPE.NO_AVAILABLE_SERVER,"ไม่พบเซิร์ฟเวอร์"
+RESULT_TYPE.UNEQUIP_OLD_FAILED,"ไม่สามารถนำอุปกรณ์ที่ใช้อยู่ออก"
+RESULT_TYPE.EQUIP_FAILED,"พบความผิดพลาดในการใส่อุปกรณ์"
+RESULT_TYPE.NO_SHOP_DATA,"ไม่พบข้อมูลร้านค้า"
+BASE_RESULT_TYPE.TIMEOUT,"ไม่มีการตอบสนองจากเซิร์ฟเวอร์"
+BASE_RESULT_TYPE.SEQUENCE_ERROR,"เนื่องจากข้อผิดพลาดของเครือข่าย เซิร์ฟเวอร์จึงมีความล่าช้าในการประมวลผลข้อมูลผู้ใช้ โปรดลองใหม่อีกครั้งในภายหลัง"
+BASE_RESULT_TYPE.INTERNAL_ERROR,"ข้อผิดพลาดจากภายใน"
+BASE_RESULT_TYPE.EMPTY_HOST,"ไม่มีโฮสต์"
+RESULT_TYPE.ACHIEVEMENT_NOT_CLEARED,"จุดมุ่งหมายยังไม่สำเร็จ"
+RESULT_TYPE.INVALID_STEP,"คุณได้รับรางวัลนี้ไปแล้ว"
+RESULT_TYPE.NO_PRIVILEGE,"ท่านไม่ได้รับอนุญาต"
+RESULT_TYPE.INVALID_HOST,"โฮสต์ผิด"
+RESULT_TYPE.MASTER_NOT_FOUND,"ไม่มีผู้นำห้อง"
+RESULT_TYPE.MULTIPLAY_INFO_NOT_FOUND,"ไม่มีข้อมูลผู้เข้าร่วมปาร์ตี้"
+RESULT_TYPE.WRONG_MEMBER,"สมาชิกไม่ถูกต้อง"
+RESULT_TYPE.ALREADY_REWARD_CALCULATED,"รางวัลที่ได้รับการตัดสินแล้ว"
+RESULT_TYPE.LINKED_DUNGEON_NOT_FOUND,"ไม่สามารถเชื่อมต่อดันเจี้ยน"
+RESULT_TYPE.ALREADY_COMPLETED,"เสร็จสิ้นแล้ว"
+RESULT_TYPE.DUNGEON_TYPE_ERROR,"ประเภทดันเจี้ยนไม่ถูกต้อง"
+RESULT_TYPE.CANNOT_VISIT_DUNGEON,"ไม่สามารถเข้าดันเจี้ยนนี้ได้"
+RESULT_TYPE.INVALID_TRIAL_HERO,"เลือกฮีโร่สำหรับด่านดันเจี้ยนแห่งOrdealไม่ถูกต้อง"
+RESULT_TYPE.WORLD_MAP_EVENT_NOT_FOUND,"ไม่มีแผนที่กิจกรรม"
+RESULT_TYPE.EVENT_DUNGEON_INDEX_MISMATCH,"จำนวนดันเจี้ยนกิจกรรมไม่ถูกต้อง"
+RESULT_TYPE.NOT_ENOUGH_MULTIPLAY_MEMBERS,"สมาชิกยังไม่เพียงพอ"
+RESULT_TYPE.NOT_CALCULATED,"ยังไม่ได้ตัดสินใจ"
+RESULT_TYPE.ALREADY_REWARDED,"รางวัลได้ถูกมอบไปแล้ว"
+RESULT_TYPE.NOT_SAME_DEVELOPER_PAYLOAD,"ข้อมูลการชำระเงิน (DeveloperPayload) ไม่ตรง การชำระเงินได้รับการยกเลิก"
+RESULT_TYPE.NOT_SAME_PRODUCT_ID,"ข้อมูลการชำระเงิน (productID) ไม่ตรง การชำระเงินได้รับการยกเลิก"
+RESULT_TYPE.WRONG_PURCHASE_STATUS,"ข้อมูลการชำระเงิน (PurchaseStatus) ผิด การชำระเงินได้รับการยกเลิก"
+RESULT_TYPE.VERIFICATION_FAILED,"ตรวจสอบการชำระเงินล้มเหลว การชำระเงินได้รับการยกเลิก"
+RESULT_TYPE.INVALID_CONSUMPTION_STATE,"ข้อมูลการชำระเงินไม่ถูกต้อง (ConsumptionState) การชำระเงินได้รับการยกเลิก"
+RESULT_TYPE.NOT_MONTHLY_ENDED,"ท่านยังไม่สามารถซื้อแพคเกจรายเดือนได้"
+RESULT_TYPE.HAVE_PLAY_CHANCE,"ไม่สามารถทำการซื้อได้เนื่องจากโอกาสการท้าทายที่คงเหลือ"
+RESULT_TYPE.INVALID_DUNGEON_INDEX,"จำนวนดันเจี้ยนไม่ถูกต้อง"
+RESULT_TYPE.CANNOT_AWAKEN_YET,"ยังไม่สามารถ ปลุก ได้"
+RESULT_TYPE.CANNOT_AWAKEN_MORE,"ไม่สามารถ ปลุกเพิ่มได้อีก"
+RESULT_TYPE.RUNE_ITEM_NOT_OWNED,"ท่านไม่มีไอเทมรูน นี้"
+RESULT_TYPE.SAME_RUNE_EQUIPPED,"รูนชนิดเดียวกันติดตั้งเรียบร้อยแล้ว"
+RESULT_TYPE.ALEADY_OCCUPIED,"ได้รับมอบหมายแล้ว"
+RESULT_TYPE.PRESERVE_PRICE_ERROR,"ค่ารักษาไม่ถูกต้อง"
+RESULT_TYPE.RUNE_ITEM_DATA_NOT_FOUND,"ไม่มีข้อมูลไอเท็มรูน"
+RESULT_TYPE.RUNE_DATA_NOT_FOUND,"ไม่มีข้อมูลรูน"
+RESULT_TYPE.PART_TYPE_ERROR,"ชิ้นส่วนที่ไม่ถูกต้อง"
+RESULT_TYPE.NO_EQUIPPED_RUNE,"ยังไม่ได้ติดตั้งรูน"
+RESULT_TYPE.HERO_ALREADY_EXIST,"มีฮีโร่อยู่แล้ว"
+RESULT_TYPE.SKILL_NOT_LEARNED,"ท่านยังไม่ได้เรียนรู้ทักษะ"
+RESULT_TYPE.INVALID_SKILL_EXTEND,"การขยายสกิลที่ไม่ถูกต้อง"
+RESULT_TYPE.NOT_ENOUGH_ITEM,"ไอเท็มไม่เพียงพอ"
+RESULT_TYPE.BOOK_ITEM_DATA_NOT_FOUND,"ไม่มีไอเท็มหนั​​งสือ"
+RESULT_TYPE.SKILL_ALREADY_LEARNED,"เรียนรู้ทักษะนี้แล้ว"
+RESULT_TYPE.MAX_PURIFIED,"ถึงระดับการชำระล้างสูงสุดแล้ว"
+RESULT_TYPE.MAX_HERO_STAR,"ฮีโร่ถึงระดับปลุกพลังสูงสุดแล้ว"
+RESULT_TYPE.NO_AWAKE_MATERIAL,"ไม่มีวัตถุดิบสำหรับการปลุกพลัง"
+RESULT_TYPE.PURIFY_DATA_NOT_FOUND,"ไม่มีข้อมูลการชำระล้าง"
+RESULT_TYPE.INVALID_PURIFY_DATA,"ข้อมูลการชำระล้างผิดพลาด"
+RESULT_TYPE.TRANSCEND_SKILL_LEVEL_DATA_NOT_FOUND,"ค่าทักษะไม่มีในระบบ"
+RESULT_TYPE.MAX_TRANSCEND_SKILL_LEVEL,"ค่าทักษะสูงสุดเกินกว่าที่จำกัด"
+RESULT_TYPE.TRANSCEND_SKILL_LEVEL_PRICE_DATA_NOT_FOUND,"ค่าทักษะไม่มีในระบบ"
+RESULT_TYPE.NOT_MAX_HERO_STAR,"ฮีโร่ยังไม่ถึงระดับการปลุกสูงสุด"
+RESULT_TYPE.INVALID_TRANSCEND_COUNT,"ค่าวิชาผิดพลาด"
+RESULT_TYPE.GRADE_TOO_LOW,"ระดับต่ำเกินไป"
+RESULT_TYPE.CREATURE_DATA_NOT_FOUND,"ไม่มีข้อมูลของฮีโร่"
+RESULT_TYPE.UPGRADE_BOOK_DATA_NOT_FOUND,"ไม่มีข้อมูลการอัพเกรดหนังสือ"
+RESULT_TYPE.MATCH_PLAYER_NOT_FOUND,"ไม่มีฝ่ายตรงข้าม"
+RESULT_TYPE.INVALID_SHOP_DATA,"ไม่มีข้อมูลร้านค้า"
+RESULT_TYPE.NOT_GUILD_MEMBER,"ไม่ได้เป็นสมาชิกของกิลล์"
+RESULT_TYPE.NOT_ENOUGH_GUILD_POINT,"คะแนนกิลล์ไม่เพียงพอ"
+RESULT_TYPE.INVALID_SHOP_ITEM_LIST_INDEX,"เลขของร้านค้าผิดพลาด"
+RESULT_TYPE.INVALID_ITEM_TYPE,"ไม่มีประเภทของไอเทม"
+RESULT_TYPE.HERO_SHOP_SLOT_EXCEEDED,"จำนวนช่องของ hero shop ถูกจำกัด"
+RESULT_TYPE.INVALID_HERO_SHOP_SLOT,"จำนวนช่องของ hero shop ผิดพลาด"
+RESULT_TYPE.NO_SHOP_ITEM_INFO,"ไม่มีไอเทมร้านค้า"
+RESULT_TYPE.NO_SHOP_ITEM_DATA,"ไม่มีข้อมูลของไอเทมร้านค้า"
+RESULT_TYPE.NO_SELL_COUNT,"ไม่มีจำนวนขาย"
+RESULT_TYPE.ALREADY_OPENED_CLASS,"ชั้นเรียนได้เปิดแล้ว"
+RESULT_TYPE.NOT_OPENED_CLASS_DUNGEON,"ไม่ได้เปิดดันเจี้ยนสำหรับชั้นเรียนที่เจาะจง"
+RESULT_TYPE.ALREADY_GET_CHALLENGE,"ถูกรับรองแล้ว"
+RESULT_TYPE.ALREADY_HAVE_MATERIAL,"มีวัสดุเรียบร้อยแล้ว"
+RESULT_TYPE.INVALID_HERO_CLASS,"ชั้นเรียนผิด"
+RESULT_TYPE.TUTORIAL_DATA_NOT_FOUND,"ไม่มีข้อมูลของการติว"
+RESULT_TYPE.RETRY,"ลองใหม่อีกครั้ง"
+RESULT_TYPE.NOT_IMPLEMENTED_METHOD,"กระบวนการผิดพลาด"
+RESULT_TYPE.INVALID_QUEST_INDEX,"เลขเควสผิดพลาด"
+RESULT_TYPE.QUEST_INFO_NOT_FOUND,"ไม่พบข้อมูลเควส"
+RESULT_TYPE.QUEST_NOT_CLEARED,"เควสยังไม่สมบูรณ์"
+RESULT_TYPE.NOT_COMPLETED,"ยังไม่สมบูรณ์"
+RESULT_TYPE.EMPTY_DUNGEON_INDICES,"จำนวนของดันเจี้ยนว่างเปล่า"
+RESULT_TYPE.EVENT_INDEX_COUNT_MISMATCH,"จำนวนของกิจกรรมไม่ตรง"
+RESULT_TYPE.MAX_DAILY_COUNT,"เกินกำหนดของลิมิตในแต่ละวัน"
+RESULT_TYPE.ALREADY_VISITED,"เข้าไปแล้ว"
+RESULT_TYPE.INVALID_MATERIAL_ITEM,"ไอเท็มวัตถุดิบผิดพลาด"
+RESULT_TYPE.INVALID_REQ_ITEM_EXP_DATA,"ค่า EXP ที่ต้องการสำหรับไอเท็มผิดพลาด"
+RESULT_TYPE.SAME_BOOSTER_APPLIED,"Booster เอฟเฟคเหมือนกับที่มีอยู่แล้ว"
+RESULT_TYPE.PACKAGE_DATA_NOT_FOUND,"ไม่มีข้อมูลเเพคเกจสินค้า"
+RESULT_TYPE.INVALID_ITEM_INDEX,"หมายเลขไอเทมไม่ถูกต้อง"
+RESULT_TYPE.INVALID_ITEM_DATA,"ข้อมูลไอเทมไม่ถูกต้อง"
+RESULT_TYPE.INVALID_ACCOUNT_ID,"เลขบัญชีผิดพลาด"
+RESULT_TYPE.REWARD_TIME_ENDED,"ช่วงเวลาของการรับรางวัลได้สิ้นสุดลงแล้ว"
+RESULT_TYPE.CHECKING_INTEGRITY,"กำลังประมวลผลการต่อสู้อยู่ โปรดลองใหม่อีกครั้งในภายหลัง"
+RESULT_TYPE.BATTLE_SERVER_NOT_FOUND,"ขณะนี้เครือข่ายไม่เสถียร โปรดย้ายไปยังตำแหน่งที่มีสัญญาณที่ดีขึ้นและเชื่อมต่อเข้าเกมอีกครั้ง"
+RESULT_TYPE.TOWER_DATA_NOT_FOUND,"ข้อมูลหอคอย- ไม่มีอยู่แล้ว"
+RESULT_TYPE.TOWER_FLOOR_DATA_NOT_FOUND,"ข้อมุลของชั้น- ไม่มีอยู่แล้ว"
+RESULT_TYPE.CANNOT_ENTER_TOWER_FLOOR,"ไม่สามารถที่จะเข้าสู่ชั้นนี้ได้"
+RESULT_TYPE.TOWER_CHAPTER_MISMATCH,"ด่านของหอคอยไม่สัมพันธ์กัน"
+RESULT_TYPE.TOWER_DUNGEON_MISMATCH,"ดันเจี้ยนหอคอยไม่สัมพันธ์กันf"
+RESULT_TYPE.TOWER_TEAM_LEVEL_LIMIT,"ไม่สามารถเข้าสู่ชั้นนี้ได้เนื่องจากระดับของทีมไม่พอ"
+RESULT_TYPE.TOWER_REQ_DUNGEON_NOT_COMPLETED,"ดันเจี้ยนภาคบังคับยังไม่เพียงพอที่จะเข้าสู่หอคอย"
+RESULT_TYPE.NOT_ENOUGH_TOWER_COST,"สิ่งของจำเป็นไม่เพียงพอที่จะเข้าสู่หอคอย"
+RESULT_TYPE.DIED_HERO_CACHE,"ฮีโร่ได้ตายแล้ว"
+RESULT_TYPE.MISSING_BATTLE_LOG,"ไม่ได้เข้าสู่ระบบการต่อสู้"
+RESULT_TYPE.MISSING_CREATURE_INFO,"ไม่ได้เข้าสู่ข้อมูลฮีโร่"
+RESULT_TYPE.REQUEST_INTEGRITY_CHECK_ERROR,"คำขอตรวจสอบผิดพลาด"
+RESULT_TYPE.MISSING_TOWER_CREATURE_INFO,"ไม่ได้เข้าสู่ข้อมูลหอคอยฮีโร่"
+RESULT_TYPE.PARSING_TOWER_CREATURE_INFO_ERROR,"ไม่สามารถอิมพอตข้อมูลหอคอยฮีโร่."
+RESULT_TYPE.EMPTY_TOWER_ENTER_HEROES,"ไม่สามารถเข้าสู่ข้อมูลของฮีโร่ในหอคอยได้"
+RESULT_TYPE.TOWER_NOT_PLAYED,"ข้อมูลหอคอยยังไม่ได้รับการปรับปรุง"
+RESULT_TYPE.PLAYER_TOWER_NOT_FOUND,"ไม่สามารถหาข้อมูลของหอคอยที่กำลังปรับปรุงได้"
+RESULT_TYPE.CANNOT_RESET_MORE,"ไม่สามารถรีเซ็ตได้อีกแล้ว"
+RESULT_TYPE.NOT_ENOUGH_COST,"มีสิ่งของไม่เพียงพอ"
+RESULT_TYPE.CLOSED_DUNGEON,"ดันเจี้ยนปิดอยู่"
+RESULT_TYPE.OPENED_DUNGEON,"ดันเจี้ี้ยนเปิดอยู่"
+RESULT_TYPE.QUEST_DATA_NOT_FOUND,"ไม่มีข้อมูลเควส"
+RESULT_TYPE.NOT_ACCEPTABLE,"ไม่สามารถรับได้"
+RESULT_TYPE.CANNOT_GIVEUP,"ไม่สามารถยกเลิกได้"
+RESULT_TYPE.NOT_REWARDABLE,"ไม่ได้รับรางวัล"
+RESULT_TYPE.EQUIP_FULL,"อุปกรณ์เต็ม"
+RESULT_TYPE.VIPLEVEL_DATA_NOT_FOUND,"ไม่พบข้อมูล VIP"
+RESULT_TYPE.MISSING_LANGUAGE,"ไม่ได้เข้าในภาษา"
+RESULT_TYPE.CANNOT_LINK_GUEST,"ไม่สามารถเชื่อมโยงในฐานะ Guest "
+RESULT_TYPE.ALREADY_LINKED_ID,"ไอดีนี้เชื่อมต่ออยู่แล้ว"
+RESULT_TYPE.SERVER_CLOSING,"กำลังเตรียมให้บริการ กรุณารอสักครู่ค่ะ"
+RESULT_TYPE.INVALID_SHOP_INDEX,"จำนวนร้านค้าไม่ถูกต้อง"
+RESULT_TYPE.EXCEEDED_PURCHASABLE_COUNT,"ซื้อเกินจำนวน"
+RESULT_TYPE.INVALID_REWARD_DATA,"ข้อมูลรางวัลไม่ถูกต้อง"
+RESULT_TYPE.TOWER_NPC_NOT_FOUND,"ไม่พบ NPC ของหอคอย"
+RESULT_TYPE.TOWER_NPC_SLOT_NOT_FOUND,"ไม่พบ NPC ของชั้น"
+RESULT_TYPE.TOWER_NPC_INFO_NOT_FOUND,"ไม่พบข้อมูล NPC ของชั้น"
+RESULT_TYPE.WRONG_TOWER_REWARD_NO,"จำนวนรางวัลของหอคอยไม่ถูกต้อง"
+RESULT_TYPE.WRONG_DIFFICULTY,"ระดับความยากไม่ถูกต้อง"
+RESULT_TYPE.DIFFICULTY_MISMATCH,"ระดับความยากไม่เหมาะสม"
+RESULT_TYPE.MISSING_BATTLE_TYPE,"ไม่ได้ใส่ชนิดของการต่อสู้"
+RESULT_TYPE.NOT_YET_CLEARED,"เจ้ายังทำไม่สำเร็จ"
+RESULT_TYPE.INVALID_DUNGEON_DIFFICULTY,"ระดับความยากดันเจี้ยนไม่ถูกต้อง"
+RESULT_TYPE.WRONG_DUNGEON_DIFFICULTY,"ระดับความยากดันเจี้ยนไม่ถูกต้อง"
+RESULT_TYPE.MAX_UNDERGROUND_PRISON_KEY,"คีย์เต็มแล้ว"
+RESULT_TYPE.EQUIP_GRADE_DATA_NOT_FOUND,"ไม่พบข้อมูลระดับอุปกรณ์"
+RESULT_TYPE.NOT_FOR_SALE,"ไม่สามารถขายได้"
+RESULT_TYPE.EQUIP_CREATURE_ERROR,"ไม่มีฮีโร่ที่สามารถสวมใส่ได้"
+RESULT_TYPE.UPGRADE_DATA_NOT_FOUND,"ไม่พบข้อมูลการอัพเกรด"
+RESULT_TYPE.MATERIAL_ITEM_INDEX_MISMATCH,"เลขรหัสวัตถุดิบไม่ตรงกัน"
+RESULT_TYPE.MATERIAL_ITEM_COUNT_MISMATCH,"จำนวนวัตถุดิบไม่ตรงกัน"
+RESULT_TYPE.NOT_ENOUGH_MATERIAL_ITEM,"วัตถุดิบไม่เพียงพอ"
+RESULT_TYPE.INVALID_REQ_GOLD,"ทองไม่เพียงพอ"
+RESULT_TYPE.NO_UPGRADABLE_OPTION_SLOT,"ออปชั่นสลอทไม่สามารถอัพเกรดได้"
+RESULT_TYPE.INVALID_ITEM_CODE,"รหัสไอเท็มผิด"
+RESULT_TYPE.INVALID_EQUIP_STAR_RATE,"ความเป็นไปได้ของดาวผิดพลาด"
+RESULT_TYPE.MY_FRIEND_FULL,"รายชื่อเพื่อนเต็ม"
+RESULT_TYPE.TARGET_FRIEND_FULL,"รายชื่อเพื่อนในปาร์ตี้ อื่นๆเต็ม"
+RESULT_TYPE.TARGET_FRIEND_WAIT_FULL,"คำร้องขอปร์ตี้อื่นๆเต็ม"
+RESULT_TYPE.ENHANCE_ITEM_INDEX_ERROR,"จำนวนของ"
+RESULT_TYPE.NOT_ENOUGH_ENHANCE_ITEM,"จำนวน Transcendence Stones ไม่พอ"
+RESULT_TYPE.CANNOT_ENHANCE_MORE,"ไม่สามารถ Transcend ได้อีก"
+RESULT_TYPE.AWAKE_CHALLENGE_DATA_ERROR,"ไม่พบข้อมูล Awakening Stone"
+RESULT_TYPE.AWAKE_ITEM_DATA_ERROR,"ไม่พบข้อมูล ไอเท็ม Awakening Stone"
+RESULT_TYPE.NOT_ENOUGH_AWAKE_ITEM,"Awakening stone ไม่เพียงพอ"
+RESULT_TYPE.HERO_SELECT_DATA_NOT_FOUND,"ไม่สามารถหาข้อมูลฮีโร่ที่เลือกได้"
+RESULT_TYPE.INVALID_HERO_EXP,"EXP ของฮีโร่ผิดพลาด"
+RESULT_TYPE.HERO_NOT_OWNED,"คุเจ้าไม่มีฮีโร่นี้"
+RESULT_TYPE.MAX_HERO_LEVEL,"ฮีโร่ถึงเลเวลสูงสุดแล้ว"
+RESULT_TYPE.MAIL_NOT_FOUND,"ไม่พบจดหมาย"
+RESULT_TYPE.MISSING_COUPON_CODE,"ไม่ได้ใส่รหัสคูปอง"
+RESULT_TYPE.MISSING_COUNTRY_CODE,"ไม่ได้ใส่รหัสประเทศ"
+RESULT_TYPE.COUPON_NOT_FOUND,"รหัสไอเทมโค้ดไม่ถูกต้อง"
+RESULT_TYPE.ALREADY_RECEIVED,"ได้รับเรียบร้อยแล้ว"
+RESULT_TYPE.COUNTRY_CODE_MISMATCH,"รหัสประเทศไม่ตรง"
+RESULT_TYPE.COUPON_EXPIRED,"ไอเทมโค้ดจะหมดอายุตามช่วงเวลาที่กำหนด"
+RESULT_TYPE.PROMOTION_NOT_FOUND,"ไม่พบข้อมูลโปรโมชั่น"
+RESULT_TYPE.ALREADY_USED_PROMOTION,"ใช้โปรโมชั่นนี้ไปแล้ว"
+RESULT_TYPE.REWARD_NOT_SELECTED,"ไม่ได้เลือกรางวัล"
+RESULT_TYPE.INVALID_REWARD_INDEX,"หมายเลขรางวัลผิดพลาด"
+RESULT_TYPE.ALREADY_PURCHASED,"ทำการซื้อไปแล้ว"
+RESULT_TYPE.NOT_ENOUGH_MILEAGE,"คะแนนสะสมไม่เพียงพอ"
+RESULT_TYPE.NOT_ENOUGH_ROYAL_POINT,"Royal Points ไม่เพียงพอ"
+RESULT_TYPE.NOT_ENCRYPTED,"ไม่ได้เข้ารหัส"
+RESULT_TYPE.SALT_ERROR,"ไม่สามารถรับหมายเลขยืนยันได้ เนื่องจากการเชื่อมต่ออินเตอร์เน็ตไม่เสถียร"
+RESULT_TYPE.NO_SECURE_KEY,"NO_SECURE_KEY"
+RESULT_TYPE.SALT_NOT_DECRYPTED,"SALT_NOT_DECRYPTED"
+RESULT_TYPE.KEY_NOT_DECRYPTED,"KEY_NOT_DECRYPTED"
+RESULT_TYPE.SALT_MISMATCH,"SALT_MISMATCH"
+RESULT_TYPE.LOGIN_ID_NOT_DECRYPTED,"LOGIN_ID_NOT_DECRYPTED"
+RESULT_TYPE.DECRYPT_FAIL,"DECRYPT_FAIL"
+BASE_RESULT_TYPE.OFFLINE,"Network is offline"
+RESULT_TYPE.INVALID_GACHA_REQUEST,"เมื่อมีข้อผิดพลากเกืดขึ้นเวลาที่พยายามจะซัมมอนอุปกรณ์ \nกรุณาลองดูใหม่อีกครั้ง "
+RESULT_TYPE.MATCHING_ABORTED,"ยกเลิกการแมชชิ่ง"
+RESULT_TYPE.PROGRESSING,"กำลังดำเนินการอยู่"
+RESULT_TYPE.BUY_DISABLED,"ยังไม่สามารถทำการชำระเงินได้ในตอนนี้"
+RESULT_TYPE.MAX_FRIENDSHIP_POINT,"มิตรภาพเต็ม"
+RESULT_TYPE.NOT_ENOUGH_FRIENDSHIP_POINT,"มีสิ่งของไม่เพียงพอ"
+RESULT_TYPE.NOT_RAID_TYPE,"ไม่ใช่-ประเภทของการโจมตี"
+RESULT_TYPE.MISSING_RAID_INDEX,"เนื่องจากข้อผิดพลาดของเครือข่าย เซิร์ฟเวอร์จึงมีความล่าช้าในการประมวลผลข้อมูลผู้ใช้ โปรดลองใหม่อีกครั้งในภายหลัง"
+RESULT_TYPE.RAID_DATA_NOT_FOUND,"ไม่มี-ข้อมูลของการโจมตี"
+RESULT_TYPE.RAID_NOT_STARTED,"ยังไม่ได้เริ่มการโจมตี"
+RESULT_TYPE.RAID_NOT_PROGRESSING,"ไม่ได้-อยู่ในขบวนการโจมตี"
+RESULT_TYPE.RAID_MUST_MULTIPLAY,"ไม่ใช่-ประเภทของ multiplay"
+RESULT_TYPE.RAID_CHAPTER_MISMATCH,"บทเรียนที่ไม่เกี่ยวข้อง"
+RESULT_TYPE.RAID_DUNGEON_MISMATCH,"ดันเจี้ยนที่ไม่เกี่ยวข้อง"
+RESULT_TYPE.GUILD_RAID_ROOM_CREATED,"ห้องบอสกิลด์ถูกสร้างขึ้นแล้ว"
+RESULT_TYPE.NOT_ENOUGH_ENTER_RAID_COUNT,"จำนวนครั้งในการเข้าบอสกิลด์ไม่เพียงพอ"
+RESULT_TYPE.INVALID_GUILD_RAID_INDEX,"ข้อมูลบอสกิลด์ไม่ถูกต้อง"
+RESULT_TYPE.NOT_ENOUGH_ACTIVITY_POINT,"แต้มกิจกรรมไม่เพียงพอ"
+RESULT_TYPE.PREVIOUS_RAID_NOT_COMPLETED,"กำลังตอสู้เรดบอสอยู่"
+RESULT_TYPE.ALREADY_GUILD_RAID_OPENED,"บอสกิลด์ยังไม่เปิด"
+RESULT_TYPE.PLAYER_RAID_NOT_FOUND,"ไม่พบ-ข้อมูลของผู้เล่น"
+RESULT_TYPE.PLAYER_DUNGEON_NOT_FOUND,"ไม่พบข้อมูลดันเจี้ยนของผู้เล่น"
+RESULT_TYPE.DUNGEON_NOT_PLAYED,"ไม่พบประวัติการเล่นดันเจี้ยน"
+RESULT_TYPE.DUNGEON_PLAY_ENABLE,"ตั๋วการเข้าเล่นยังเหลืออยู่"
+RESULT_TYPE.ALREADY_HAVE,"คุณมีฮีโร่นี้อยู่แล้ว"
+RESULT_TYPE.HERO_NOT_EXIST,"ไม่มีฮีโร่ดังกล่าว"
+RESULT_TYPE.CANNOT_RECRUIT,"ฮีโร่นี้ไม่สามารถได้จากกระท่อมฮีโร่"
+RESULT_TYPE.HERO_INDEX_MISMATCH,"ข้อมูลดังกล่าวไม่ตรงกับข้อมูลฮีโร่"
+RESULT_TYPE.ALREADY_RECRUITED,"คุณมีฮีโร่นี้อยู่แล้ว"
+RESULT_TYPE.HERO_NOT_EXIST_IN_FRIENDLY_TABLE,"ฮีโร่นี้ไม่สามารถเพิ่มความสนิทได้"
+RESULT_TYPE.HERO_FRIENDLY_POINT_MAX,"ไม่สามารถเพิ่มความสนิทได้อีก"
+RESULT_TYPE.ACTION_NOT_READY,"ยังไม่สามารถทำได้"
+RESULT_TYPE.ACTION_NOT_EXIST,"ไม่มีคำสั่งดังกล่าว"
+RESULT_TYPE.COST_MISMATCH,"ทรัพยากรไม่เพียงพอ"
+RESULT_TYPE.FRIENDLY_POINT_MISMATCH,"ค่าความสัมพันธ์ไม่พอที่จะใช้เป็นพันธมิตร"
+RESULT_TYPE.COOL_TIME_MISMATCH,"อยู่ในช่วงเวลาคูลดาว์น"
+RESULT_TYPE.CANNOT_RECRUIT_HERO,"ไม่มีฮีโร่ที่สามารถใช้ได้"
+RESULT_TYPE.IN_FRIENDLY_STATE,"อยู่ในช่วงเพิ่มความสนิท"
+RESULT_TYPE.NO_FRIENDS,"ไม่มีเพื่อน"
+RESULT_TYPE.ALREADY_SENT_FRIENDSHIP_POINT,"ส่งแต้มมิตรภาพแล้ว"
+RESULT_TYPE.EMPTY_NAME,"ชื่อยังว่างอยู่"
+RESULT_TYPE.INVALID_NAME,"ชื่อไม่ถูกต้อง"
+RESULT_TYPE.TOO_SHORT_NAME,"ชื่อสั้นเกินไป"
+RESULT_TYPE.TOO_LONG_NAME,"ชื่อยาวเกินไป"
+RESULT_TYPE.INIT_COOL_TIME_NOT_ELAPSED,"ยังไม่ถึงเวลารีเซต"
+RESULT_TYPE.ALREADY_GUILD_SKILL_INIT,"สกิลกิลด์ถูกรีเซตไปแล้ว"
+RESULT_TYPE.MAX_GUILD_LEVEL,"เลเวลของกิลด์สูงสุดแล้ว"
+RESULT_TYPE.MAX_SKILL_LEVEL,"เลเวลสกิลสูงสุดแล้ว"
+RESULT_TYPE.LOW_TEAM_LEVEL,"เลเวลทีมต่ำเกินไป"
+BASE_RESULT_TYPE.INTERNAL_SERVER_ERROR,"ข้อผิดพลาดของเซิฟเวอร์"
+BASE_RESULT_TYPE.DISABLED,"ไม่สามารถใช้งานได้ในตอนนี้"
+RESULT_TYPE.NOT_ALLOWED,"ยังไม่ได้รับอนุญาติ"
+RESULT_TYPE.NO_ACCOUNT_ID,"ไม่พบหมายเลขบัญชี"
+RESULT_TYPE.NOT_FOUND,"ไม่พบข้อมูล"
+RESULT_TYPE.MISSING_TOWER_INDEX,"ยังไม่ได้ระบุหอคอย"
+RESULT_TYPE.NO_MAX_STAR_HERO,"ไม่มีฮีโร่ที่วิวัฒนาการขั้นสูงสุด"
+RESULT_TYPE.TOWER_REQ_CHAPTER_NOT_COMPLETED,"ยังไม่ผ่านแชปเตอร์ที่ต้องการเพื่อเข้าเล่น"
+RESULT_TYPE.RAID_LEVEL_MISMATCH,"เลเวลของเรดบอสไม่ตรง"
+RESULT_TYPE.CONTENTS_DISABLED,"คอนเทนต์ดังกล่าวยังไม่เปิด"
+RESULT_TYPE.GUILD_RAID_ROOM_NOT_FOUND,"ไม่พบห้องรอต่อสู้บอสกิลด์"
+RESULT_TYPE.NOT_GUILD_RAID_ROOM_MEMBER,"ไม่ใช่สมาชิกห้องรอต่อสู้บอสกิลด์"
+RESULT_TYPE.INVALID_GULD_RAID_MEMBER_RANK,"ไม่อยู่ในตำแหน่งที่สามารถเข้าร่วมต่อสู้บอสกิลด์ได้"
+RESULT_TYPE.NOT_ENOUGH_ENTER_GUILD_RAID_COUNT,"จำนวนครั้งการเข้าบอสกิลด์ไม่เพียงพอ"
+RESULT_TYPE.MISSING_WORLD_BOSS_INDEX,"ไม่พบข้อมูลบอสโลก"
+RESULT_TYPE.WORLD_BOSS_NOT_EXIST,"ไม่พบบอสโลก"
+RESULT_TYPE.WORLD_BOSS_NOT_ACTIVE,"บอสโลกยังไม่สามารถใช้งานได้"
+RESULT_TYPE.WORLD_BOSS_NOT_FOUND,"ไม่พบบอสโลก"
+RESULT_TYPE.MISSING_WORLD_BOSS_CREATURE_INFO,"ไม่พบข้อมูลมอนสเตอร์บอสโลก"
+RESULT_TYPE.PARSING_WORLD_BOSS_CREATURE_INFO_ERROR,"ล้มเหลวในการแจกแจงข้อมูลมอนสเตอร์บอสโลก"
+RESULT_TYPE.WORLD_BOSS_HP_ERROR,"เกิดข้อผิดพลาดขณะคำนวณคะแนนบอสโลกของคุณ โปรดส่งอีเมล CS ถึงเราหากคุณเห็นข้อความนี้"
+RESULT_TYPE.NOT_CLEARED,"ยังไม่สำเร็จ"
+RESULT_TYPE.PURCHASE_INFO_NOT_FOUND,"ไม่พบข้อมูลการซื้อ"
+RESULT_TYPE.INTERNAL_SERVER_ERROR,"ข้อผิดพลาดของเซิฟเวอร์"
+RESULT_TYPE.NOT_DAILY_ENDED,"ยังไม่ถึงเวลาที่สามารถซื้อได้"
+RESULT_TYPE.NEED_COMPLETE_IN_APP_PURCHASE,"ต้องทำการซื้อผ่านแอพให้สำเร็จ"
+RESULT_TYPE.OTHER_DAILY_EFFECTIVE,"มีผลของไอเทมชนิดเดียวกันอยู่"
+RESULT_TYPE.RESTORE_DATA_NOT_FOUND,"ไม่พบข้อมูลในการกู้"
+RESULT_TYPE.MATERIAL_COUNT_ERROR,"จำนวนวัตถุดิบไม่ถูกต้อง"
+RESULT_TYPE.LOW_HERO_LEVEL,"เลเวลฮีโร่ต่ำเกินไป"
+RESULT_TYPE.PRICE_ERROR,"ราคาไม่ถูกต้อง"
+RESULT_TYPE.COST_TYPE_ERROR,"ประเภทของราคาไม่ถูกต้อง"
+RESULT_TYPE.EXCEEDED_MAX_MATERIAL_EQUIP_ITEMS,"จำนวนวัตถุดิบอุปกรณ์เกินจำนวนสูงสุด"
+RESULT_TYPE.HERO_EQUIPPED_MATERIAL_EQUIP_ITEM,"ไม่สามารถใช้อุปกรณ์ที่สวมใส่อยู่เป็นวัตถุดิบได้"
+RESULT_TYPE.INVALID_GACHA_DATA,"ข้อมูลการสุ่มไม่ถูกต้อง"
+RESULT_TYPE.NO_RECV_FRIENDSHIP_POINT,"ไม่พบแต้มมิตรภาพที่สามารถรับได้"
+RESULT_TYPE.MAX_DAILY_REMOVE_FRIENDS,"จำนวนครั้งในการลบเพื่อนเกินขีดจำกัดต่อวัน"
+RESULT_TYPE.GULLD_JOIN_REQUEST_PROCESSING,"กำลังจัดการการร้องขอเข้ากิลด์"
+RESULT_TYPE.INVALID_GUILD_RANK,"ตำแหน่งในกิลด์ไม่ถูกต้อง"
+RESULT_TYPE.INVALID_GUILD_INTRODUCE,"ข้อความแนะนำกิลด์ไม่ถูกต้อง"
+RESULT_TYPE.TOO_LONG_GUILD_INTRODUCE,"ข้อความแนะนำกิลด์ยาวเกินไป"
+RESULT_TYPE.INVALID_GUILD_NOTICE,"ประกาศกิลด์ไม่ถูกต้อง"
+RESULT_TYPE.TOO_LONG_GUILD_NOTICE,"ประกาศกิลด์ยาวเกินไป"
+RESULT_TYPE.GUILD_JOIN_REQUEST_EXIST,"ไม่สามารถเปลี่ยนได้เนื่องจากมีคำขอเข้ากิลด์"
+RESULT_TYPE.ALREADY_EXIST_NAME,"ชื่อนี้ถูกใช้ไปแล้ว"
+RESULT_TYPE.MAX_CONTRIBUTED_GEM,"ตอนนี้แต้มบริจาคสูงสุดแล้ว"
+RESULT_TYPE.NO_CONTRIBUTE_COUNT,"ไม่พบจำนวนครั้งการบริจาคกิลด์"
+RESULT_TYPE.INVALID_GUILD_ID,"หมายเลขกิลด์ไม่ถูกต้อง"
+RESULT_TYPE.INVALID_TARGET_RANK,"ตำแหน่งกิลด์ไม่ถูกต้อง"
+RESULT_TYPE.INVALID_SKILL_LEVEL,"เลเวลสกิลของกิลด์ที่จะเลื่อนอันดับไม่มีผล"
+RESULT_TYPE.GUILD_JOIN_REQUEST_PROCESSING,"กำลังจัดการคำร้องขอเข้ากิลด์"
+RESULT_TYPE.NOT_ELAPSED_GUILD_REQUEST_COOL_TIME,"คุณไม่สามารถสร้าง/เข้าร่วมกิลด์ได้เป็นเวลา {1} ชั่วโมงหลังจากออกจากกิลด์ก่อนหน้า"
+RESULT_TYPE.NO_GUILD_SKILL_LEVEL_UP_REQUEST,"ไม่พบข้อมูลการขอเลเวลสกิลของกิลด์"
+RESULT_TYPE.ALREADY_GUILD_SKILL_LEVEL_UP_REQUESTED,"ทำการขออัพเลเวลสกิลของกิลด์เรียบร้อยแล้ว"
+RESULT_TYPE.ALREADY_BID,"ไอเทมนี้ถูกบิดแล้ว"
+RESULT_TYPE.ALREADY_CREATED_ROOM,"ห้องรอนี้ถูกสร้างแล้ว"
+RESULT_TYPE.NOT_ROOM_MASTER,"คุณไม่ใช่หัวหน้าห้องรอ"
+RESULT_TYPE.ROOM_NOT_FOUND,"ไม่พบห้องรอ"
+RESULT_TYPE.NOT_ENOUGH_GUILD_ACTIVITY_POINT,"แต้มกิจกรรมกิลด์ไม่เพียงพอ"
+RESULT_TYPE.TRANSCEND_ITEM_INDEX_ERROR,"ไอเทมจุติไม่ถูกต้อง"
+RESULT_TYPE.NOT_ENOUGH_TRANSCEND_ITEM,"จำนวนไอเทมจุติไม่เพียงพอ"
+RESULT_TYPE.CANNOT_TRANSCEND_MORE,"ไม่สามารถจุติได้อีก"
+RESULT_TYPE.NOT_ENOUGH_PURIFIED,"ยังไม่ได้รับการชำระ"
+RESULT_TYPE.WRONG_SLOT_INDEX,"หมายเลขช่องไม่ถูกต้อง"
+RESULT_TYPE.NOT_SELECTABLE_SLOT_INDEX,"ไม่สามารถเลือกช่องนี้ได้"
+RESULT_TYPE.CRAFT_SLOT_PRICE_DATA_NOT_FOUND,"ไม่พบข้อมูลราคาของช่องสร้างไอเทม"
+RESULT_TYPE.INVALID_PRICE,"ราคาไม่ถูกต้อง"
+RESULT_TYPE.NO_FLASK_ITEM,"ไม่พบขวด EXP เปล่า"
+RESULT_TYPE.FLASK_DATA_NOT_FOUND,"ไม่พบข้อมูลขวด EXP เปล่า"
+RESULT_TYPE.CRAFT_DATA_NOT_FOUND,"ไม่พบข้อมูลการสร้างไอเทม"
+RESULT_TYPE.NOT_CRAFT_SLOT_INDEX,"ไม่ใช่หมายเลขช่องสร้างไอเทม"
+RESULT_TYPE.NOT_YET_CRAFTED,"การสร้างยังไม่เสร็จสมบูรณ์"
+RESULT_TYPE.ALREADY_USING_FLASK,"ขณะนี้กำลังใส่ขวด EXP เปล่าอยู่"
+RESULT_TYPE.HERO_NOT_SELECTABLE,"ไม่สามารถเลือกฮีโร่ได้"
+RESULT_TYPE.HERO_FRAGMENT_DATA_ERROR,"ข้อมูล Fragment ของฮีโร่ไม่ถูกต้อง"
+RESULT_TYPE.NO_HEROES,"ไม่พบฮีโร่ดังกล่าว"
+RESULT_TYPE.INVALID_HERO,"ฮีโร่ไม่ถูกต้อง"
+RESULT_TYPE.MATCHING_BLOCKED,"ไม่สามารถจับคู่ได้ชั่วคราว"
+RESULT_TYPE.ALREADY_RESET,"ถูกรีเซตแล้ว"
+RESULT_TYPE.INVALID_RESET_COST,"ราคารีเซตไม่ถูกต้อง"
+RESULT_TYPE.NOT_ENOUGH_RESET_COST,"ค่าใช้จ่ายในการรีเซตไม่เพียงพอ"
+RESULT_TYPE.SCENARIO_QUEST_DATA_NOT_FOUND,"ไม่พบข้อมูลเควสเนื้อเรื่อง"
+RESULT_TYPE.NOT_ENOUGH_PROGRESS,"ขั้นตอนการดำเนินการไม่เพียงพอ"
+RESULT_TYPE.NOT_CLIENT_ONLY,"ไม่สามารถใช้กับตัวเกมเวอร์ชั่นนี้ได้"
+RESULT_TYPE.INVALID_PAY_SHOP_TYPE,"ชนิดของร้านค้าไม่ถูกต้อง"
+RESULT_TYPE.INVALID_SHOP_ITEM_DATA,"ข้อมูลไอเทมร้านค้าไม่ถูกต้อง"
+RESULT_TYPE.SHOP_RESTOCK_INFO_NOT_FOUND,"ข้อมูลสินค้าใหม่ไม่ถูกต้อง"
+RESULT_TYPE.SIGNED_OUT,"ออกเรียบร้อย"
+RESULT_TYPE.NO_CACHE,"ไม่มีแคช"
+RESULT_TYPE.BLOCKED,"บัญชีนี้ถูกแบน"
+RESULT_TYPE.LOW_VERSION,"เวอร์ชั่นต่ำ"
+RESULT_TYPE.INVALID_STAMINA_TYPE,"Stamina ไม่ถูกต้อง"
+RESULT_TYPE.MAX_STAMINA,"Stamina สูงสุด"
+RESULT_TYPE.GUILD_MASTER_CANNOT_SIGN_OUT,"หัวหน้ากิลด์ไม่สามารถออกจากกิลด์ "
+RESULT_TYPE.DBSELECT_ERROR,"ฐานข้อมูลผิดพลาด"
+RESULT_TYPE.DBUPDATE_ERROR,"ฐานข้อมูลผิดพลาด"
+RESULT_TYPE.INVALID_GIVE_ITEM_RESULT,"ไม่สามารถส่งไอเทมได้"
+RESULT_TYPE.ALREADY_PASSED_ORDER_ID,"หมายเลขใบเสร็จนี้ถูกส่งแล้ว"
+RESULT_TYPE.SERVER_BUSY,"การซื้อที่ต้องการอยู่ระหว่างการตรวจสอบ"
+RESULT_TYPE.ALREADY_FINISHED,"หมายเลขใบเสร็จนี้ดำเนินการส่งแล้ว"
+RESULT_TYPE.PRODUCT_ID_NOT_EXIST,"ไม่มี ID ของไอเทมนี้"
+RESULT_TYPE.DBINSERT_ERROR,"ฐานข้อมูลผิดพลาด"
+RESULT_TYPE.IAPINFO_NOT_FOUND,"ไม่พบข้อมูลการซื้อ"
+RESULT_TYPE.AWAKE_DATA_NOT_FOUND,"ไม่พบข้อมูลจุุติ"
+RESULT_TYPE.ALREADY_COMPLETED_CRAFT_ITEM,"ไอเทมนี้สร้างเสร็จเรียบร้อยแล้ว"
+RESULT_TYPE.DUPLICATED_HERO,"ฮีโร่ซ้ำ"
+RESULT_TYPE.NOT_COMPLETED_DUNGEON,"ดันเจียนนี้ยังไม่สำเร็จ"
+RESULT_TYPE.GOOGLE_RETRY_NEEDED,"จำเป็นต้องเริ่ม Google ใหม่"
+RESULT_TYPE.APPLE_RETRY_NEEDED,"จำเป็นต้องเริ่ม IOS ใหม่"
+RESULT_TYPE.NOT_HERO_TANSCENDED,"ฮีโร่นี่ี้ยังไม่จุติ"
+RESULT_TYPE.NOT_ENOUGH_TRANSCEND,"ขั้นของการจุติไม่เพียงพอ"
+RESULT_TYPE.WRONG_REMAIN_TIME,"เวลาที่เหลืออยู่ไม่ถูกต้อง"
+RESULT_TYPE.HERO_TRIAL_ALREADY_COMPLETED,"การทดสอบสำเร็จไปเรียบร้อยแล้ว"
+RESULT_TYPE.ALREADY_HAVE_COSTUME,"มีคอสตูมนี้ในครอบครองอยู่แล้ว"
+RESULT_TYPE.COSTUME_DATA_NOT_FOUND,"ไม่พบข้อมูลคอสตูม"
+RESULT_TYPE.COSTUME_NOT_OPENED,"คอสตูมนี้ยังไม่เปิดตัว"
+RESULT_TYPE.HERO_AWAKE_DATA_NOT_FOUND,"ไม่พบข้อมูลจุติ"
+RESULT_TYPE.COSTUME_IS_DEFAULT,"มีคอสตูมนี้อยู่แล้ว"
+RESULT_TYPE.NOT_CORRECT_HERO,"ฮีโร่นี่ยังไม่สามารถสวมคอสตูมได้"
+RESULT_TYPE.COSTUME_NOT_OWNED,"ไม่มีคอสตูมนี้"
+RESULT_TYPE.CANNOT_SET_COSTUME,"ไม่สามารถสวมใส่คอสตูมได้"
+RESULT_TYPE.ALREADY_COSTUMED,"สวมใส่คอสตูมอยู่แล้ว"
+RESULT_TYPE.NOT_EQUIP_COSTUME,"ไม่ได้สวมใส่คอสตูมอยู่"
+RESULT_TYPE.LOCKED_EQUIP_ITEM_EXISTS,"อุปกรณ์บางชิ้นถูกล็อคอยู่"
+RESULT_TYPE.ALREADY_LOCKED,"ไอเทมนี้ถูกล็อคอยู่"
+RESULT_TYPE.ALREADY_UN_LOCKED,"ไอเทมนี้ี้ถูกปลดล็อคแล้ว"
+RESULT_TYPE.NOT_ENOUGH_RAID_POINT,"แต้มเรดไม่เพียงพอ"
+RESULT_TYPE.MULTIPLAY_NOT_ENDED,"การต่อสู้ยังไม่จบ"
+RESULT_TYPE.NOT_BREAKABLE_ITEM_EXISTS,"ไอเทมบางชิ้นไม่สามารถย่อยได้"
+RESULT_TYPE.LOCKED_ITEM_EXISTS,"ไอเทมบางชิ้นถูกล็อค"
+RESULT_TYPE.NOT_FREE_KEEP_RUNE,"ตอนนี้จำเป็นต้องใช้รูบี้เพื่อรักษารูน"
+RESULT_TYPE.FREE_KEEP_RUNE,"ตอนนี้ไม่จำเป็นต้องใช้รูบี้เพื่อรักษารูน"
+RESULT_TYPE.CANNOT_RESTOCK,"ไม่สามารถโหลดข้อมูลรายชื่อไอเทมได้"
+RESULT_TYPE.ALREADY_COMPLETED_GUILD_RAID,"บอสกิลด์นี้ถูกเคลียร์แล้ว"
+RESULT_TYPE.NOT_CURRENT_GUILD_RAID_DUNGEON,"เขตนี้ถูกเคลียร์แล้ว"
+RESULT_TYPE.PLAYING_GUILD_RAID_EXIST,"สมาชิกกิลด์คนอื่นกำลังต่อสู้อยู่"
+RESULT_TYPE.GUILD_RAID_NOT_OPENED,"บอสกิลด์นี้ยังไม่เปิด"
+RESULT_TYPE.GUILD_RAID_DUNGEON_DATA_NOT_FOUND,"ไม่พบดันเจียน"
+RESULT_TYPE.GUILD_RAID_INFO_NOT_FOUND,"การต่อสู้ไม่ได้ดำเนินการตามปกติ โปรดลองใหม่อีกครั้ง"
+RESULT_TYPE.GUILD_RAID_CANCELED,"บอสกิลด์ถูกยกเลิก"
+RESULT_TYPE.NOT_RENEW_EQUIP_ITEM,"ยังไม่ได้เลือกไอเทมที่จะเปลี่ยนออปชั่น"
+RESULT_TYPE.NO_RENEW_OPTION_SLOT,"ไอเทมนี้ไม่สามารถเปลี่ยนออปชั่นได้"
+RESULT_TYPE.GUILD_RAID_CHAPTER_DATA_NOT_FOUND,"ไม่พบแชปเตอร์บอสกิลด์"
+RESULT_TYPE.NOT_GUILD_MASTER,"คุณไม่ใช่หัวหน้ากิลด์"
+RESULT_TYPE.ALREADY_OPEN,"บอสกิลด์นี้ถููกเปิดแล้ว"
+RESULT_TYPE.NOT_OPENABLE_TIME,"ไม่สามารถใช้งานได้ในขณะนี้"
+RESULT_TYPE.INVALID_GUILD_RAID_OPEN_DURATION,"เวลาเปิดบอสกิลด์ไม่ถูกต้อง"
+RESULT_TYPE.PARSING_CREATURE_INFO_ERROR,"พาสซิ่งข้อมูลฮีโร่ล้มเหลว"
+RESULT_TYPE.NOT_GUILD_RAID_PLAYING_ACCOUNT,"ไม่ได้กำลังต่อสู้บอสกิลด์อยู่"
+RESULT_TYPE.INVALID_CREATURE_WAVE_SLOT_INDEX,"สล็อตฮีโร่ไม่ถูกต้อง"
+RESULT_TYPE.ALIVE_ENEMY_EXIST,"มีศัตรูที่ยังเหลืออยู่"
+RESULT_TYPE.ALL_HEROES_DIED,"ฮีโร่ทุกตัวตายหมดแล้ว"
+RESULT_TYPE.ONE_STORE_RETRY_NEEDED,"จำเป็นต้องลอง OneStore ใหม่"
+RESULT_TYPE.NO_OLD_OPTION_INDEX,"ไม่พบออปชั่นเดิม"
+RESULT_TYPE.NO_RENEW_OPTION_RESULT_INDEX,"ไม่พบผลของออปชั่นใหม่"
+RESULT_TYPE.INVALID_CONFIRM_OPTION_INDEX,"หมายเลขออปชั่นไม่ถูกต้อง"
+RESULT_TYPE.OPTION_SLOT_MISMATCH,"สล็อตออปชั่นไม่ตรง"
+RESULT_TYPE.EMPTY_PRICE,"ไม่พบราคาดังกล่าว"
+RESULT_TYPE.INVAID_PRICE,"ราคาไม่ถูกต้อง"
+RESULT_TYPE.NO_AVAILABLE_OPTION,"ไม่มีออปชั่นที่สามารถใช้ได้"
+RESULT_TYPE.SAME_EVENT_CALENDAR,"ปฏิทินกิจกรรมเดียวกัน"
+RESULT_TYPE.ITEM_DESTROYED,"ไอเทมถูกทำลายแล้ว"
+RESULT_TYPE.ITEM_NOT_FOUND,"ไม่พบไอเทม"
+RESULT_TYPE.WRONG_ITEM_COUNT,"จำนวนไอเทมไม่ถูกต้อง"
+RESULT_TYPE.INVALID_OPEN_DURATION,"เวลาเปิดไม่ถูกต้อง"
+RESULT_TYPE.ADDED_GUILD_RAID_INFO_IS_NULL,"ไม่พบข้อมูลบอสกิลด์"
+RESULT_TYPE.INVALID_DIFFICULTY,"ระดับความยากไม่ถูกต้อง"
+RESULT_TYPE.CAMPAIGN_INFO_NOT_FOUND,"เนื่องจากข้อผิดพลาดของเครือข่าย เซิร์ฟเวอร์จึงมีความล่าช้าในการประมวลผลสถิติการสู้ โปรดลองใหม่อีกครั้งในภายหลัง"
+RESULT_TYPE.NOT_GUILD_RAID,"นี่ไม่ใช่บอสกิลด์"
+RESULT_TYPE.NOT_PLAYING_ACCOUNT,"ไม่ใช่บัญชีที่เล่นอยู่"
+RESULT_TYPE.INVALID_ACTION_VALUE,"ค่าไม่ถูกต้อง"
+RESULT_TYPE.INVALID_CHAPTER_DUNGEON,"แชปเตอร์หรือดันเจี้ยนไม่ถูกต้อง"
+RESULT_TYPE.INVALID_SELECT_ITEM_COUNT,"จำนวนไอเท็มที่ไม่ถูกต้อง"
+RESULT_TYPE.ITEM_NOT_EXIST,"ไอเท็มที่เลือกไม่ปรากฏ"
+RESULT_TYPE.ITEM_NOT_SELECTED,"ไม่มีไอเท็มที่ถูกเลือก"
+RESULT_TYPE.ALREADY_HAS_HERO,"คุณมีฮีโร่นี้ในครอบครองแล้ว"
+RESULT_TYPE.INVALID_ROOM_INFO,"ข้อมูลห้องผิดพลาด"
+RESULT_TYPE.ROOM_NOT_EXIST,"ห้องนี้ไม่มีอยู่"
+RESULT_TYPE.NOT_DELEGATE_ACCOUNT_ID,"ไม่มีผู้เล่นได้รับมอบหมาย"
+RESULT_TYPE.ROOM_FULL,"ห้องเต็มแล้ว"
+RESULT_TYPE.ROOM_IN_BATTLE,"ห้องนี้อยู่ระหว่างต่อสู้"
+RESULT_TYPE.NOT_JOINED_RAID_ROOM,"คุณไม่ได้เข้าร่วมห้อง"
+RESULT_TYPE.INVALID_ROOM_NO,"หมายเลขห้องผิดพลาด"
+RESULT_TYPE.ALREADY_JOINED_BROADCAST_ROOM,"คุณเข้าร่วมการออกอากาศแล้ว"
+RESULT_TYPE.NOT_JOINED_BROADCAST_ROOM,"คุุณไม่ได้อยู่ในระหว่างออกอากาศ"
+RESULT_TYPE.WORLD_BOSS_RANK_ERROR,"เกิดข้อผิดพลาดในอันดับ World Boss"
+RESULT_TYPE.WORLD_BOSS_CANCELED,"การต่อสู้สิ้นสุดลงเนื่องจากมีค่าความเสียหายที่สูงผิดปกติ"
+RESULT_TYPE.WORLD_BOSS_SEASON_CHANGED,"World Boss ตัวอื่นปรากฏตัวแล้ว"
+RESULT_TYPE.STARTED_WORLD_BOSS_NOT_FOUND,"ไม่สามารถเริ่ม World Boss ได้"
+RESULT_TYPE.WORLD_BOSS_DATA_NOT_FOUND,"ไม่่สามารถหาข้อมูล World Boss ได้"
+RESULT_TYPE.CANNOT_SEARCH_MY_FRIEND,"ไม่สามารถหาเพื่อนได้"
+RESULT_TYPE.BOOSTER_DATA_NOT_FOUND,"ไม่มีข้อมูลบูสเตอร์"
+RESULT_TYPE.PATCH_NOTE_NOT_FOUND,"ไม่มีโน๊ตอัพเดทแพทช์"
+RESULT_TYPE.SAME_PATCH_NOTE,"อัพเดทโน๊ตเดียวกัน"
+RESULT_TYPE.HP_NOT_FOUND,"ไม่สามารถโหลด HP ของมอนสเตอร์ได้"
+RESULT_TYPE.KICKED_FROM_ROOM,"ผู้ใช้คนนี้ถูกบังคับออกจากห้อง"
+RESULT_TYPE.MASTER_BANNED,"ผูู้ใช้คนนี้ถูกแบนโดยหัวหน้าห้อง"
+RESULT_TYPE.KICK_MEMBER_NOT_EXIST,"ไม่มีผู้ใช้ที่ถูกบังคับออก"
+RESULT_TYPE.INTERNAL_ERROR,"ผิดพลาดภายใน"
+RESULT_TYPE.BAN_ACCOUNT_FULL,"จำนวนผู้ใช้ที่ถูกแบนที่มากที่สุด"
+RESULT_TYPE.ALREADY_ADDED_ACCOUNT,"เพิ่มผู้ใช้นี้แล้ว"
+RESULT_TYPE.BAN_ACCOUNT_NOT_EXIST,"ผู้ใช้นี้ไม่มีอยู่"
+RESULT_TYPE.FAVORITE_ACCOUNT_FULL,"ลิสต์เพื่อนสนิทเต็มแล้ว"
+RESULT_TYPE.FAVORITE_ACCOUNT_NOT_EXIST,"ผู้ใช้นี้ไม่มีอยู่"
+RESULT_TYPE.NOT_ENOUGH_WORLD_BOSS_POINT,"คะแนน World Boss ไม่พอ"
+RESULT_TYPE.NOT_ENOUGH_EVENT_POINT,"คะแนนกิจกรรมไม่พอ"
+RESULT_TYPE.ROOM_SERVER_INTERNAL_ERROR,"ข้อมูลเซิฟเวอร์ของห้องผิดพลาด"
+RESULT_TYPE.ALREADY_EXIST_GUILD_NAME,"ชื่อกิลด์นี้มีอยู่แล้ว"
+RESULT_TYPE.MAX_FRIENDLY_POINT,"ความสัมพันธ์เต็มแล้ว"
+RESULT_TYPE.CANNOT_GIVE_GIFT_NPC,"ไม่สามารถให้ของขวัญได้"
+RESULT_TYPE.FRIENDLY_POINT_INFO_NOT_FOUND,"ไม่พบข่าวสารความสัมพันธ์"
+RESULT_TYPE.FRIENDLY_POINT_DATA_NOT_FOUND,"ไม่พบข้อมูลความสัมพันธ์"
+RESULT_TYPE.INVALID_FRIENDLY_POINT_STEP,"ระดับความสัมพันธ์ผิดพลาด"
+RESULT_TYPE.NOT_ENOUGH_FRIENDLY_POINT,"ความสัมพันธ์มีไม่พอ"
+RESULT_TYPE.NEXT_TIER_EQUIP_ITEM_NOT_FOUND,"ไม่มีข้อมูลไอเท็มที่จะอัพเกรด"
+RESULT_TYPE.INVALID_NEXT_TIER_STEP,"เป็นข้อมูลไอเท็มอัพเกรดที่ผิดพลาด"
+RESULT_TYPE.MAX_TIER_ITEM,"ไอเท็มที่จะอัพเกรดเป็นระดับที่สูงสุดอยู่แล้ว"
+RESULT_TYPE.MATERIAL_ITEM_DATA_NOT_FOUND,"ไม่มีข้อมููลของไอเท็มวัตถุดิบที่จะอัพเกรดไอเท็ม"
+RESULT_TYPE.UPGRADE_TIER_NOT_FOUND,"ไม่มีข้อมูลของอุปกรณ์ที่จะอัพเกรด"
+RESULT_TYPE.NOT_EQUIP_MAX_STAR,"จำนวนดาวของอุปกรณ์ที่จะอัพเกรดไม่สูงสุด"
+RESULT_TYPE.WORLD_BOSS_DAILY_REWARDING,"กำลังสรุปอันดับประจำวัน"
+RESULT_TYPE.CANNOT_BUY_NO_EVENT,"ไม่ได้อยู่ในช่วงกิจกรรม"
+RESULT_TYPE.CANNOT_RESTOCK_NO_EVENT,"ไม่ได้อยู่ในช่วงกิจกรรม"
+RESULT_TYPE.EVENT_DUNGEON_DATA_NOT_FOUND,"ไม่มีข้อมูลดันเจี้ยนพิเศษ"
+RESULT_TYPE.EVENT_DUNGEON_CLOSED,"ดันเจี้ยนพิเศษจบลงแล้ว"
+RESULT_TYPE.WITHDRAW_PENALTY,"ไม่สามารถใช้ได้ในระหว่างที่ถูกแบนกิลด์"
+RESULT_TYPE.EQUIP_ENCHANT_OPTION_ITEM_DATA_NOT_FOUND,"ไม่มีข้อมูลออฟชั่นมนตรา"
+RESULT_TYPE.NOT_ENOUGH_EVENT_DUNGEON_POINT,"คะแนนกิจกรรมไม่พอ"
+RESULT_TYPE.GUILD_CONTENTS_RESTRICTED,"ไม่สามารถซื้อได้ในขณะที่โดนแบนกิลด์"
+RESULT_TYPE.ITEM_EXPIRED,"ไอเทมหมดอายุแล้ว"
+RESULT_TYPE.WRONG_WORLD_BOSS_CHAPTER,"ไม่มีบอสโลกในขณะนี้"
+RESULT_TYPE.WRONG_WORLD_BOSS_DUNGEON,"ไม่มีบอสโลกในขณะนี้"
+RESULT_TYPE.CREATURE_STAR_DATA_NOT_FOUND,"ไม่มีข้อมูลวิวัฒนาการของฮีโร่"
+RESULT_TYPE.RANK_ERROR,"อันดับที่มีไม่ถูกต้อง"
+RESULT_TYPE.CANCELED,"ถูกยกเลิกแล้ว"
+RESULT_TYPE.NOT_ENOUGH_EVENT_DUNGEON_POINT2,"คะแนนไม่เพียงพอ"
+RESULT_TYPE.NOT_ENOUGH_EVENT_DUNGEON_POINT3,"คะแนนกิจกรรมไม่พอ"
+RESULT_TYPE.NOT_ENOUGH_GLORY_POINT,"เหรียญรางวัลแห่งเกียรติยศไม่พอ"
+RESULT_TYPE.NOT_AVAILABLE_HERO,"ไม่สามารถใช้ฮีโร่ตัวนี้ได้"
+RESULT_TYPE.INVAILD_ACHIEVEMENT_INDEX,"ไม่สามารถรับรางวัลนี้ได้"
+RESULT_TYPE.CHALLENGE_RAID_NOT_OPENED,"เวลาเข้าเรดแห่งความท้าทายได้หมดลงแล้วจึงไม่สามารถดำเนินการต่อได้"
+RESULT_TYPE.CENSORED_WORD_NAME,"เป็นชื่อที่ไม่สามารถใช้ได้"
+RESULT_TYPE.NOT_OPENED_ROOM,"ห้องนี้เป็นห้องส่วนตัวจึงไม่สามารถเข้าร่วมได้"
+RESULT_TYPE.ROOM_LEFT,"ห้องหายไปเนื่องจากการเชื่อมต่ออินเทอร์เน็ตล้มเหลว"
+RESULT_TYPE.CHALLENGE_RAID_DATA_NOT_FOUND,"ไม่มีข้อมูลเรดแห่งความท้าทาย"
+RESULT_TYPE.NO_EVENT_DUNGEON_DATA,"ไม่มีข้อมูลดันเจี้ยนกิจกรรม"
+RESULT_TYPE.NO_RESET_COUNT,"ไม่มีจำนวนครั้งที่รีเซท"
+RESULT_TYPE.NO_RESET_CURRENCY_TYPE,"ไม่มีไอเทมที่รีเซท"
+RESULT_TYPE.NO_RESET_AMOUNT,"ไม่มีค่าใช้จ่ายที่รีเซท"
+RESULT_TYPE.INVALID_ACHIEVEMENT_INDEX,"ตัวเลขความสำเร็จที่ไม่ถูกต้อง"
+RESULT_TYPE.NOT_ENOUGH_EVENT_GIFT,"ของขวัญกิจกรรมไม่เพียงพอ"
+RESULT_TYPE.MISSING_EVENT_WORLD_BOSS_INDEX,"ไม่มีเบอร์ World Boss กิจกรรม"
+RESULT_TYPE.EVENT_WORLD_BOSS_NOT_EXIST,"ไม่มี World Boss กิจกรรม"
+RESULT_TYPE.EVENT_WORLD_BOSS_NOT_ACTIVE,"World Boss กิจกรรมปิดอยู่"
+RESULT_TYPE.EVENT_WORLD_BOSS_DATA_NOT_FOUND,"ไม่มีข้อมููล World Boss กิจกรรม"
+RESULT_TYPE.WRONG_EVENT_WORLD_BOSS_CHAPTER,"ไม่ได้อยู่ช่วงที่สามารถเข้าร่วมต่อสู้กิจกรรม World Boss"
+RESULT_TYPE.WRONG_EVENT_WORLD_BOSS_DUNGEON,"ไม่ได้อยู่ช่วงที่สามารถเข้าร่วมต่อสู้กิจกรรม World Boss"
+RESULT_TYPE.EVENT_WORLD_BOSS_CANCELED,"World Boss กิจกรรมถูกยกเลิกแล้ว"
+RESULT_TYPE.EVENT_WORLD_BOSS_SEASON_CHANGED,"ซีซั่นของ World Boss กิจกรรมถูกเปลี่ยนแล้ว"
+RESULT_TYPE.STARTED_EVENT_WORLD_BOSS_NOT_FOUND,"ไม่มีข้อมูลของ World Boss กิจกรรมที่เริ่ม"
+RESULT_TYPE.EVENT_WORLD_BOSS_HP_ERROR,"HP ของ World Boss กิจกรรมไม่ถูกต้อง"
+RESULT_TYPE.EVENT_WORLD_BOSS_NOT_PLAYABLE_TIME,"ไม่ได้อยู่ช่วงที่สามารถเข้าร่วมต่อสู้กิจกรรม World Boss"
+RESULT_TYPE.CHALLENGE_RAID_SCORE_ERROR,"คะแนนเรดแห่งความท้าทายผิดพลาด"
+RESULT_TYPE.EVENT_WORLD_BOSS_LEVEL_CHANGED,"เลเวลของกิจกรรม World Boss เปลี่ยนแปลงแล้ว"
+RESULT_TYPE.CRAFT_DATA_NOT_OPENED,"ไม่มีข้อมูลสร้างไอเทม"
+RESULT_TYPE.NOT_ENOUGH_SKILL_POINT,"คะแนนจุติไม่เพียงพอ"
+RESULT_TYPE.IS_NOT_UNEQUIP_TYPE,"ไอเทมนี้ไม่สามารถถอดได้"
+RESULT_TYPE.NOT_OPEN_PAGE,"หน้าเพจสกิลไม่ได้เปิดอยู่"
+RESULT_TYPE.PAGE_NOT_FOUND,"ไม่ปรากฏหน้าดังกล่าว"
+RESULT_TYPE.ALREADY_HAVE_PAGE,"มีซื้อเพจดังกล่าวไปแล้ว"
+RESULT_TYPE.SKILL_TYPE_ALREADY_LEARNED,"ได้รับทักษะสกิลประเภทเดียวกันไปแล้ว"
+RESULT_TYPE.NOT_CORRECT_OPTION_COUNT,"จำนวนออฟชั่นไม่ถูกต้อง"
+RESULT_TYPE.NOT_ENOUGH_HIDEOUT_DUNGEON_COUNT,"กุญแจเข้าดันเจี้ยนระดับสูงไม่เพียงพอ"
+RESULT_TYPE.CHAPTER_INDEX_NOT_FOUND,"แชปเตอร์ไม่ปรากฏ"
+RESULT_TYPE.RESET_GEM_NOT_FOUND,"ไม่สามารถหาข้อมูลค่าใช้จ่ายในการรีเซทได้"
+RESULT_TYPE.INVAID_RESET_GEM,"ข้อมูลค่าใช้จ่ายในการรีเซทไม่ปรากฏ"
+RESULT_TYPE.SELECT_ITEM_DATA_NOT_FOUND,"ไม่สามารถหาข้อมูลตั๋วเลือกได้"
+RESULT_TYPE.IMPOSSIBLE_SELECT_ITEM,"ได้เลือกไอเทมที่ไม่ปรากฏในรายการเลือก"
+RESULT_TYPE.PURCHASE_MARKETING_DATA_NOT_FOUND,"ไม่สามารถหาข้อมูลสินค้าที่ต้องการซื้อได้"
+RESULT_TYPE.PURCHASE_MARKETING_NOT_OPENED,"สินค้าที่ต้องการซื้อไม่ใช่สินค้าที่กำลังเปิดขาย"
+RESULT_TYPE.NOT_AVAILABLE_REPEAT_COOLTIME,"เป็นสินค้าที่ไม่สามารถขายอีกได้"
+RESULT_TYPE.REMAIN_REPEAT_COOLTIME,"ไม่อยู่ในระยะเวลาการเปิดขายใหม่ของสินค้าที่ต้องการซื้อ"
+RESULT_TYPE.NOT_ENOUGH_LUA_POINT,"สัญลักษณ์ของ Lua ไม่เพียงพอ"
+RESULT_TYPE.BAN_PICK_PENALTY_USER_BLOCKED,"เพิ่มบทลงโทษที่ปริมาณการเข้าร่วมต่ำ\nไม่สามารถแมทช์ได้{1}นาที"
+RESULT_TYPE.SENSITIVE_WORD,"This name is already in use."
+RESULT_TYPE.INVALID_BROADCAST_NAME_IN_THIS_SERVER,"สามารถใช้ได้แค่ภาษาญี่ปุ่น/ตัวอักษรโรมัน/และตัวเลขเท่านั้น"
+RESULT_TYPE.INVALID_GUILD_NAME_IN_THIS_SERVER,"สามารถใช้ได้แค่ภาษาญี่ปุ่น/ตัวอักษรโรมัน/และตัวเลขเท่านั้น"
+RESULT_TYPE.INVALID_NICK_IN_THIS_SERVER,"สามารถใช้ได้แค่ภาษาญี่ปุ่น/ตัวอักษรโรมัน/และตัวเลขเท่านั้น"
+RESULT_TYPE.SENSITIVE_WORD_NAME,"เป็นชื่อที่มีผู้ใช้แล้ว"
+RESULT_TYPE.NOT_JOINED_PARTY_DUNGEON_ROOM,"ไม่มีห้องรอที่เข้าใช้"
+RESULT_TYPE.SERVER_CLOSED,"เซิฟเวอร์ปิดตัวอยู่"
+RESULT_TYPE.COUPON_MISMATCH,"ใช้คูปองผิดพลาด"
+RESULT_TYPE.NOT_ENOUGH_COUPON_ITEM,"จำนวนคูปองไม่เพียงพอ"
+RESULT_TYPE.COUPON_ITEM_DATA_NOT_FOUND,"ข้อมูลคูปองไม่ถูกต้อง"
+RESULT_TYPE.INVALID_COUPON_ITEM_TYPE,"ข้อมูลคูปองไม่ถูกต้อง"
+RESULT_TYPE.INVAILD_PRICE_TYPE,"เป็นข้อมูลหน่วยชำระเงินที่ผิดพลาด"
+RESULT_TYPE.PARTY_DUNGEON_LEVEL_MISMATCH,"ในปาร์ตี้มีผู้เล่นที่ไม่สามารถเข้าต่อสู้ได้"
+RESULT_TYPE.CENSORED_GUILD_INTRODUCE,"มีคำไม่สมควรในคำอธิบายกิลด์"
+RESULT_TYPE.CENSORED_GUILD_NOTICE,"มีคำไม่สมควรในประกาศกิลด์"
+RESULT_TYPE.INVALID_NOTICE_IN_THIS_SERVER,"ไม่สามารถใช้ภาษาอื่นได้"
+RESULT_TYPE.ACCUMULATE_LOGIN_REWARD_TABLEA_NOT_FOUND,"ไม่สามารถหาข้อมูลรางวัลเช็คชื่อได้"
+RESULT_TYPE.IS_NOT_CONDITION,"ยังไม่ถึงวันรับรางวัลเช็คชื่อดังกล่าว"
+RESULT_TYPE.TITLE_DATA_NOT_FOUND,"ไม่มีข้อมูลฉายา"
+RESULT_TYPE.TITLE_NOT_FOUND,"คุณไม่มีฉายานี้"
+RESULT_TYPE.TITLE_EXPIRED,"ฉายานี้หมดอายุการใช้งานแล้ว"
+RESULT_TYPE.EQUIP_DETAIL_DATA_NOT_FOUND,"ไม่พบรายละเอียดของอุปกรณ์"
+RESULT_TYPE.NO_MORE_ROULETTE,"คุณไม่สามารถหมุนวงล้อได้อีก"
+RESULT_TYPE.REWARD_DATA_NOT_FOUND,"ข้อมูลรางวัลไม่ถูกต้อง"
+RESULT_TYPE.NOT_COMPLETED_REQ_DUNGEON,"ยังไม่ผ่านแชปเตอร์ที่ต้องการเพื่อเข้าเล่น"
+RESULT_TYPE.INVALID_PRICE_TYPE,"เป็นข้อมูลหน่วยชำระเงินที่ผิดพลาด"
+RESULT_TYPE.LIMIT_OPEN_COUNT,"คุณมีจำนวนเรดกิลด์เกินจำนวนที่สามารถเปิดได้"
+RESULT_TYPE.CHALLENGE_RAID_RANK_ERROR,"ไม่มีข้อมูลเรดแห่งความท้าทาย"
+RESULT_TYPE.INVALID_BUILDING_LEVEL,"ไม่พบข้อมูลเลเวล"
+RESULT_TYPE.NOT_ENOUGH_TRAINING_CENTER_LEVEL,"การขยายสกิลที่ไม่ถูกต้อง"
+RESULT_TYPE.ALREADY_APPLIED,"ได้ยื่นคำขอเข้าร่วมแล้ว..."
+RESULT_TYPE.GUILD_SUPPRESS_ALREADY_COMPLETED,"เขตนี้ถูกเคลียร์แล้ว"
+RESULT_TYPE.GUILD_SUPPRESS_NOT_BATTLE_STATE,"ไม่สามารถใช้งานได้ในขณะนี้"
+RESULT_TYPE.GUILD_SUPPRESS_RAID_DATA_NOT_FOUND,"ไม่พบข้อมูลการพิชิตกิลด์จากข้อมูลผู้เล่น"
+RESULT_TYPE.GUILD_SUPPRESS_SESSION_NOT_FOUND,"ไม่สามารถเข้าดันเจี้ยนนี้ได้"
+RESULT_TYPE.GUILD_SUPPRESS_BATTLE_RESULT_ERROR,"เนื่องจากข้อผิดพลาดของเครือข่าย เซิร์ฟเวอร์จึงมีความล่าช้าในการประมวลผลข้อมูลผู้ใช้ โปรดลองใหม่อีกครั้งในภายหลัง"
+RESULT_TYPE.GUILD_SUPPRESS_NOT_COMPLETED_REQ_DUNGEON,"ยังไม่ผ่านแชปเตอร์ที่ต้องการเพื่อเข้าเล่น"
+RESULT_TYPE.GUILD_SUPPRESS_SESSION_DATA_NOT_FOUND,"ไม่พบรายละเอียดที่ต้องการ"
+RESULT_TYPE.GUILD_SUPPRESS_PLAY_INFO_NOT_FOUND,"ไม่สามารถหาข้อมูลได้"
+RESULT_TYPE.GUILD_SUPPRESS_NOT_APPLIED,"คุณไม่ได้ส่งคำขอเพื่อเข้าร่วมในการพิชิตกิลด์"
+RESULT_TYPE.GUILD_SUPPRESS_DUNGEON_DATA_NOT_FOUND,"ไม่มีข้อมูลดันเจี้ยนนี้"
+RESULT_TYPE.NOT_APPLIABLE,"ช่วงเวลาคำขอการพิชิตกิลด์ยังไม่เริ่มต้นขึ้น"
+RESULT_TYPE.GUILD_MEMBER_REWARD_DATA_NOT_FOUND,"ไม่มีข้อมูลรางวัลนี้"
+RESULT_TYPE.INVALID_BUILDING_INDEX,"ข้อมูลไม่ถูกต้อง"
+RESULT_TYPE.GUILD_BUILDING_DATA_NOT_FOUND,"ไม่พบรายละเอียดที่ต้องการ"
+RESULT_TYPE.EXCEED_WOOD,"เกินขีดจำกัดแล้ว"
+RESULT_TYPE.EXCEED_STONE,"เกินขีดจำกัดแล้ว"
+RESULT_TYPE.EXCEED_METAL,"เกินขีดจำกัดแล้ว"
+RESULT_TYPE.NOT_ENOUGH_SUPPRESS_POINT,"แต้มการพิชิตไม่พอ"
+RESULT_TYPE.INVALID_ACTIVITY_POINT,"ข้อมูลไม่ถูกต้อง"
+RESULT_TYPE.INVALID_SUPPRESS_POINT,"ข้อมูลไม่ถูกต้อง"
+RESULT_TYPE.INVALID_TRAINING_CENTER_LEVEL,"ข้อมูลไม่ถูกต้อง"
+RESULT_TYPE.NOT_ENOUGH_WOOD,"ไม้ไม่พอ"
+RESULT_TYPE.NOT_ENOUGH_METAL,"เหล็กไม่พอ"
+RESULT_TYPE.MAX_GUILD_BUILDING_LEVEL,"อัพเลเวลสิ่งก่อสร้างไม่ได้เนื่องจากสิ่งก่อสร้างเลเวลเต็มแล้ว"
+RESULT_TYPE.UNKNOWN_TYPE,"ไม่สามารถหาข้อมูลได้"
+RESULT_TYPE.NOT_MATCH_TYPE,"ประเภทไม่ถูกต้อง"
+RESULT_TYPE.SESSION_NOT_FOUND,"การพิชิตไม่ได้ดำเนินการอยู่"
+RESULT_TYPE.INVALID_SESSION_INDEX,"การพิชิตไม่ได้ดำเนินการอยู่"
+RESULT_TYPE.SESSION_DATA_NOT_FOUND,"ไม่มีข้อมูลการพิชิต"
+RESULT_TYPE.GUILD_ID_NOT_FOUND,"ไม่พบกิลด์"
+RESULT_TYPE.INVALID_PURCHASE_MARKETING_REQUEST_INFO,"ข้อมูลไม่ถูกต้อง"
+RESULT_TYPE.NOT_ELAPSED_GUILD_MEMBER_REWARDED_TIME,"ยังไม่ถึงเวลาที่จะรับรางวัลจากสมาชิกกิลด์ โปรดลองใหม่อีกครั้งในภายหลัง"
+RESULT_TYPE.PC_AVARTAR_DATA_NOT_FOUND,"ไม่มีข้อมูลรางวัลนี้"
+RESULT_TYPE.EQUIP_SLOT_DATA_NOT_FOUND,"ไม่สามารถหาข้อมูลได้"
+RESULT_TYPE.NOT_MATCH_SUB_TYPE,"ช่องนี้ไม่ตรงกับไอเทมนี้"
+RESULT_TYPE.NOT_ENOUGH_RANKING_POINT,"ตราสัญลักษณ์แห่งเกียรติยศไม่พอ"
+RESULT_TYPE.NOT_ENOUGH_GLORY1_POINT,"คะแนนแห่งเกียรติยศไม่เพียงพอ"
+RESULT_TYPE.GUILD_INFO_NOT_FOUND,"ไม่มีข้อมูลกิลด์"
+RESULT_TYPE.MISSING_BONUS_EVENT_CONDITION,"ไม่สามารถหาข้อมูลได้"
+RESULT_TYPE.CAN_NOT_SELECTED_COSTUME,"ไม่สามารถสวมใส่คอสตูมได้"
+RESULT_TYPE.COSTUME_INFO_REFUND,"ไม่มีคอสตูม คุณสามารถได้รับตราสัญลักษณ์แห่งเกียรติยศเป็นการชดเชย"
+RESULT_TYPE.WORLDBOSS_NOT_FOUND,"ไม่พบข้อมูลที่ถูกต้องสำหรับสล็อตสวมใส่อุปกรณ์"
+RESULT_TYPE.WORLD_BOSS_DAMAGED_BY_ZERO,"การต่อสู้ไม่ได้ดำเนินการตามปกติ โปรดลองใหม่อีกครั้ง"
+RESULT_TYPE.IS_SINGLE_ROOM,"บอสโลกไม่ได้รับความเสียหายเลยสักนิด โปรดทำการท้าทายอีกครั้ง"
+RESULT_TYPE.GUILD_GUILDRAID_ALREADY_COMPLETED,"ห้องนี้เป็นห้องเรดสำหรับการเล่นเดี่ยว คุณไม่สามารถเข้าร่วมการต่อสู้ได้"
+RESULT_TYPE.GUILD_GUILD_RAID_ALREADY_COMPLETED,"มอนสเตอร์ถูกกำจัดแล้ว\nจะได้รับตั๋วเข้าที่ใช้ไปคืน"
+RESULT_TYPE.NAME_TOO_LONG,"มอนสเตอร์ถูกกำจัดแล้ว\nจะได้รับตั๋วเข้าที่ใช้ไปคืน"
+RESULT_TYPE.INVALID_INDEX_ARRAY_SIZE,"ชื่อช่องต้องมีความยาวไม่เกิน 10 อักขระ"
+RESULT_TYPE.DUPLICATED_PART_INDEX,"มีการจะบันทึกจำนวนอุปกรณ์ที่ไม่ถูกต้อง"
+RESULT_TYPE.INVALID_EQUIP_ITEM_SLOT_INDEX,"คุณสวมใส่อุปกรณ์เดียวกันในช่องสวมใส่อุปกรณ์อยู่แล้ว"
+RESULT_TYPE.INVALID_EQUIP_STORAGE_SLOT_INDEX,"คุณไม่มีไอเทมที่จัดเก็บในช่องอุปกรณ์ที่ปรับแต่ง"
+RESULT_TYPE.INVALID_PART_INDEX,"จำนวนช่องอุปกรณ์ที่ปรับแต่งไม่ถูกต้อง"
+RESULT_TYPE.MAX_EXTEND,"ช่องอุปกรณ์ไม่ถูกต้อง"
+RESULT_TYPE.MISSING_PARAM_ERROR,"ไม่สามารถค้นหาข้อมูลที่ต้องการสำหรับการขยายช่องอุปกรณ์ที่ปรับแต่งได้"
+RESULT_TYPE.ALL_COSTUME_NOT_OWNED,"ค่าที่ป้อนไม่ถูกต้อง"
+RESULT_TYPE.ALL_HERO_NOT_OWNED,"คุณยังไม่ได้เก็บสะสมคอสตูมทั้งหมด"
+RESULT_TYPE.CHEST_FULL,"คุณยังไม่ได้รับสมัครฮีโร่ทั้งหมด"
+RESULT_TYPE.MAX_CHEST,"คลังอุปกรณ์ของคุณเต็มแล้ว"
+RESULT_TYPE.INVENTORY_FULL,"ถึงจำนวนสูงสุดของการขยายคลังอุปกรณ์"
+RESULT_TYPE.COUNTRY_CODE_CHANGE_IS_NOT_POSSIBLE,"คลังเต็ม"
+RESULT_TYPE.GUILD_SUPPRESS_AUTO_APPLY_INFO_NOT_FOUND,"คุณไม่ได้รับอนุญาตให้เปลี่ยนรหัสประเทศในช่วงเวลานี้"
+RESULT_TYPE.INVALID_COUNTRY_CODE_INDEX,"ไม่พบข้อมูลการสมัครการพิชิตกิลด์อัตโนมัติ"
+RESULT_TYPE. EVENT_ITEM_NOT_SELLECT,"ไม่มีรหัสประเทศนี้"
+RESULT_TYPE.POINT_NOT_ENOUGH,"ไม่ได้เลือกไอเทม"
+RESULT_TYPE.MAX_HERO_TRANSCEND_POINT,"มีคะแนนการเข้าร่วมไม่พอ"
+RESULT_TYPE.INVALID_HERO_TRANSCEND_POINT,"แต้มคุณสมบัติการจุติของฮีโร่สูงสุดแล้ว"
+RESULT_TYPE.RESOURCE_NOT_FOUND_ERROR,"แต้มคุณสมบัติการจุติของฮีโร่ไม่ถูกต้อง"
+RESULT_TYPE.INCORRECT_GUILD_MEMBER,"ไม่สามารถหาทรัพยากรได้"
+RESULT_TYPE.GUILD_MEMBER_NOT_FOUND,"ไม่สามารถไปต่อได้ เนื่องจากสมาชิกกิลด์ไม่ถูกต้อง"
+RESULT_TYPE.MAX_GUILD_ADMIN,"ไม่พบสมาชิกกิลด์ที่ตรงกัน"
+RESULT_TYPE.NOT_CORRECT_GUILD_BUILDING_LEVEL,"จำนวนผู้จัดการถึงขีดจำกัดสูงสุดแล้ว"
+RESULT_TYPE.INVALID_TAG_TYPE,"การซื้อล้มเหลว เลเวลของผลิตภัณฑ์และร้านค้ากิลด์ไม่ตรงกัน"
+RESULT_TYPE.INVALID_CURRENCY_DATA,"อาชีพไม่ถูกต้อง"
+RESULT_TYPE.NOT_ENOUGH_CURRENCY,"ข้อมูลทรัพย์สินไม่ถูกต้อง"
+RESULT_TYPE.NOT_EXIST_CLASS_BUFF_DATA,"มีสิ่งของไม่เพียงพอ"
+RESULT_TYPE.ALREADY_CLASS_BUFF_INIT,"ไม่มีข้อมูลนี้"
+RESULT_TYPE.INVALID_CLASS_BUFF_INDEX,"ถูกรีเซตเรียบร้อยแล้ว"
+RESULT_TYPE.INVALID_CLASS_BUFF_LEVEL,"ส่งข้อมูลดัชนีบัฟอาชีพที่ไม่ถูกต้องให้เซิร์ฟเวอร์แล้ว"
+RESULT_TYPE.NOT_ENOUGH_POINT,"ส่งข้อมูลเลเวลบัฟอาชีพที่ไม่ถูกต้องให้เซิร์ฟเวอร์แล้ว"
+RESULT_TYPE.NOT_ENOUGH_CLASS_BUFF_INDEX,"มีคะแนนบัฟอาชีพไม่พอ"
+RESULT_TYPE.NOT_ENOUGH_CLASS_BUFF_LEVEL,"มีดัชนีไม่มากพอที่จะเลเวลอัพ"
+RESULT_TYPE.NOT_ENOUGH_NEED_HERO_COUNT,"มีเลเวลบัฟอาชีพไม่มากพอที่จะเลเวลอัพ"
+RESULT_TYPE.EXCEEDED_MAX_LEVEL,"คุณมีฮีโร่ไม่มากพอ"
+RESULT_TYPE.MONTHLY_HERO_NOT_FOUND,"ไม่สามารถอัพเกรดเพิ่มได้"
+RESULT_TYPE.CHECK_CONDITION_NOT_PASSED,"การเรียกข้อมูลผิดพลาด"
+RESULT_TYPE.NEWBIE_POPUP_TIME_ENDED,"ช่วงเวลาของการรับรางวัลได้สิ้นสุดลงแล้ว"
+RESULT_TYPE.NOT_OPENED_NEWBIE_POPUP,"สินค้าที่ต้องการซื้อไม่ใช่สินค้าที่กำลังเปิดขาย"
+RESULT_TYPE.NOT_ENOUGH_GUILD_ARENA_POINT,"เครื่องหมายสงครามกิลด์ไม่เพียงพอ"
+RESULT_TYPE.GUILD_ARENA_SESSION_NOT_FOUND,"จบสงครามกิลด์แล้ว"
+RESULT_TYPE.INVALID_GUILD_ARENA_SESSION_INDEX,"จบสงครามกิลด์แล้ว"
+RESULT_TYPE.GUILD_ARENA_SESSION_DATA_NOT_FOUND,"ไม่พบข้อมูลสงครามกิลด์"
+RESULT_TYPE.ALREADY_APPLIED_GUILD_ARENA,"เข้าร่วมการประลองแล้ว"
+RESULT_TYPE.GUILD_ARENA_SCORE_INFO_NOT_FOUND,"ไม่พบประวัติการเข้าร่วมสงครามกิลด์"
+RESULT_TYPE.GUILD_ARENA_AUTO_APPLY_INFO_NOT_FOUND,"ไม่พบประวัติคำขอเข้าร่วมสงครามกิลด์อัตโนมัติ"
+RESULT_TYPE.REQUIRED_VALUE_EMPTY,"ทรัพย์สินไม่เพียงพอ"
+RESULT_TYPE.NOT_HAVE_HERO,"ไม่มีวีรบุรุษที่จำเป็น"
+RESULT_TYPE.WEAPON_COSTUME_DATA_NOT_FOUND,"ไม่พบข้อมูลรูปแบบอาวุธ"
+RESULT_TYPE.HAIR_COSTUME_DATA_NOT_FOUND,"ไม่พบข้อมูลทรงผม"
+RESULT_TYPE.STAR_VALUE_NOT_FOUND,"ไม่พบข้อมูลระดับวีรบุรุษในข้อมูลคอสตูม"
+RESULT_TYPE.NOT_HAVE_NEED_COSTUME,"ไม่มีคอสตูมพื้นฐาน"
+RESULT_TYPE.ALREADY_HAVE_ACCESSORY_COSTUME,"มีเครื่องประดับนี้แล้ว"
+RESULT_TYPE.ACCESSORY_COSTUME_DATA_NOT_FOUND,"ไม่พบข้อมูลเครื่องประดับ"
+RESULT_TYPE.ACCESSORY_COSTUME_NOT_OPENED,"ไม่สามารถซื้อเครื่องประดับนี้ได้"
+RESULT_TYPE.DUPLICATE_PART_TYPE,"ไม่สามารถซื้อหรือสวมใส่ไอเทมที่ส่วนเดียวกันได้"
+RESULT_TYPE.NOT_HAVE_WEAPON_COSTUME,"ไม่ได้ครอบครองรูปแบบอาวุธนี้อยู่"
+RESULT_TYPE.NOT_HAVE_ACCESSORY_COSTUME,"ไม่มีเครื่องประดับนี้อยู่"
+RESULT_TYPE.GUILD_ARENA_WRONG_SESSION_INDEX,"ไม่ได้อยู่ในช่วงดำเนินการ"
+RESULT_TYPE.GUILD_ARENA_NOT_BATTLE_STATE,"สงครามกิลด์ไม่ได้อยู่ในสถานะประลอง"
+RESULT_TYPE.NOT_ENOUGH_GUILD_ARENA_KEY,"ไม่มีตั๋วเข้าร่วมสงครามกิลด์"
+RESULT_TYPE.ALREADY_USED_BATTLE_HERO,"เป็นวีรบุรุษที่ถูกเลือกไปประลองแล้ว"
+RESULT_TYPE.CANNOT_PLAY_IN_BATTLE,"ฝ่ายตรงข้ามกำลังอยู่ในช่วงการประลอง"
+RESULT_TYPE.GUILD_ARENA_SESSION_SCORE_NOT_FOUND,"ไม่พบคะแนนการร่วมสงครามกิลด์"
+RESULT_TYPE.GUILD_ARENA_ENEMY_NOT_FOUND,"ไม่สามารถหาคู่ต่อสู้ได้"
+RESULT_TYPE.GUILD_ARENA_ENEMY_NOT_CORRECT,"ไม่ใช่ศัตรูที่จะโจมตี"
+RESULT_TYPE.MATCHED_GUILD_ARENA_ENEMY_NOT_FOUND,"ไม่สามารถหาคู่ต่อสู้ได้"
+RESULT_TYPE.MATCH_TIER_NOT_FOUND,"ไม่พบข้อมูลระดับที่เหมาะสม"
+RESULT_TYPE.GUILD_ARENA_ENEMY_DECK_NOT_FOUND,"ไม่พบข้อมูลทีมป้องกันของฝ่ายตรงข้าม"
+RESULT_TYPE.GUILD_ARENA_MEMBER_RECORD_NOT_FOUND,"ไม่พบข้อมูลที่บันทึก"
+RESULT_TYPE.INVALID_GUILD_ARENA_SEASON_INDEX,"ไม่ใช่ช่วงดำเนินการซีซั่นสงครามกิลด์"
+RESULT_TYPE.GUILD_ARENA_RANKER_INFO_NOT_FOUND,"ไม่พบประวัติการเข้าร่วมสงครามกิลด์"
+RESULT_TYPE.GUILD_ARENA_SESSION_RECORD_INFO_NOT_FOUND,"ไม่พบประวัติอันดับสงครามกิลด์"
+RESULT_TYPE.GUILD_ARENA_ENEMY_DECK_ALREADY_COMPLETED,"ศัตรูพ่ายแพ้แล้ว"
+RESULT_TYPE.GUILD_ARENA_MATCH_INFO_NOT_FOUND,"ไม่พบข้อมูลทีมป้องกันของฝ่ายตรงข้าม"
+RESULT_TYPE.GUILD_ARENA_NOT_APPLY_SET_DECK,"หมดเวลาส่งคำขอแล้วจึงไม่สามารถตั้งค่าทีมป้องกันได้"
+RESULT_TYPE.GUILD_ARENA_DECK_HERO_NOT_FOUND,"ไม่พบวีรบุรุษที่ระบุ "
+RESULT_TYPE.GUILD_ARENA_HERO_NOT_FOUND,"ไม่มีวีรบุรุษอยู่"
+RESULT_TYPE.GUILD_ARENA_NOT_APPLY_SET_DECK_SKILL,"หมดเวลาส่งคำขอแล้วจึงไม่สามารถตั้งค่าสกิลได้"

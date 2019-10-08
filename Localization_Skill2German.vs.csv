@@ -1,298 +1,83 @@
-KEY,German
-SKILL_NAME_7510,Urteil fällen!
-SKILL_NAME_7511,Urteil fällen! II
-SKILL_NAME_7512,Urteil fällen! III
-SKILL_NAME_7513,Urteil fällen! IV
-SKILL_NAME_7520,Macht verleihen! 
-SKILL_NAME_7521,Macht verleihen! II
-SKILL_NAME_7522,Macht verleihen! III
-SKILL_NAME_7523,Macht verleihen! IV
-SKILL_NAME_7530,Schmerz stoppen!
-SKILL_NAME_7531,Schmerz stoppen! II
-SKILL_NAME_7532,Schmerz stoppen! III
-SKILL_NAME_7533,Schmerz stoppen! IV
-SKILL_NAME_7540,Mächtige Vorfahren
-SKILL_NAME_7541,Mächtige Vorfahren II
-SKILL_NAME_7542,Mächtige Vorfahren III
-SKILL_NAME_7543,Mächtige Vorfahren IV
-SKILL_NAME_60007510,Urteil fällen! [Licht]
-SKILL_NAME_60007511,Urteil fällen! [Dunkel]
-SKILL_NAME_60007520,Macht verleihen! [Licht]
-SKILL_NAME_60007521,Macht verleihen! [Dunkel]
-SKILL_NAME_60007530,Schmerz stoppen! [Licht]
-SKILL_NAME_60007531,Schmerz stoppen! [Dunkel]
-SKILL_NAME_60007540,Mächtige Vorfahren [Licht]
-SKILL_NAME_60007541,Mächtige Vorfahren [Dunkel]
-SKILL_NAME_60007550,Dakaris [Licht]
-SKILL_NAME_60007551,Dakaris [Dunkel]
-SKILL_DESC_7510,"Fügt dem angreifenden Feind und seiner Umgebung Mag. Schaden für [ffc800]{1}[-] zu, betäubt ihn für [64ffff]{2}[-] Sek. und regeneriert die Verbündeten-TP um [ffc800]{3}[-]. Bei der Aktivierung des Macht verleihen!-Skills wird der Cooldown zurückgesetzt und erst nach dreimaligen Gebrauch abklingen."
-SKILL_DESC_7511,Erhöht Schaden um [64ff64]{1}[-] %.
-SKILL_DESC_7512,Erhöht Schaden um [64ff64]{1}[-] %.
-SKILL_DESC_7513,Erhöht Schaden um [64ff64]{1}[-] %.
-SKILL_DESC_7520,"Für [64ffff]{1}[-] Sek. wird sich deine TP um [ffc800]{2}[-] & Mana um {3} Slots regenerieren und dein ANG um [64ff64]{4}[-] erhöhen. Wenn deine TP voll sind, kannst du [ffc800]{5}[-] deiner Schäden retten, indem du [64ff64]{6}[-] Sek. lang einen Schutzschild herstellst, der dich gegen den Massenkontrolle immun werden lässt. Bei weinger als 3 Verbündete wird dies auf alle Verbündeten angewendet."
-SKILL_DESC_7521,Erhöht ANG um [64ff64]{1}[-] %.
-SKILL_DESC_7522,Erhöht ANG um [64ff64]{1}[-] %.
-SKILL_DESC_7523,Erhöht ANG um [64ff64]{1}[-] %.
-SKILL_DESC_7530,"Greift einen zufälligen Feind 5 Mal an und fügt ihm insgesamt [ffc800]{1}[-] Mag. Schaden zu. Wenn er kein Held ist, wird ihm [ffc800]{2}[-] zus. Mag. Schaden hinzugefügt. Im [Macht verleihen!!] Status wird zuerst ein Feind mit dem stärksten ANG angegriffen."
-SKILL_DESC_7531,Erhöht Schaden um [64ff64]{1}[-] %.
-SKILL_DESC_7532,Erhöht Schaden um [64ff64]{1}[-] %.
-SKILL_DESC_7533,Erhöht Schaden um [64ff64]{1}[-] %.
-SKILL_DESC_7540,"Wenn deine TP voll sind, erhöht sich der ANG-Wert um [64ff64]{1}[-], andernfalls wird jede Sek. [ffc800]{2}[-] deiner TP wiederhergestellt. Wenn du einen tödlichen Schaden erleidest, verhinderst du einen Schaden um [ffc800]{3}[-] und verwendest deine gesamten MP, um [64ff64]{4}[-] Sek. lang einen Schutzschild zu erstellen, der dich gegen Massekontrolle immunisiert. Du kannst deine MP nicht wiederherstellen, solange der Schutzschild hält."
-SKILL_DESC_7541,Erhöht ANG um [64ff64]{1}[-] %.
-SKILL_DESC_7542,Erhöht ANG um [64ff64]{1}[-] %.
-SKILL_DESC_7543,Erhöht ANG um [64ff64]{1}[-] %.
-SKILL_DESC_60007510,Erhöht die Betäubungsdauer um 1 Sek.
-SKILL_DESC_60007511,Verringert Manakosten um 1.
-SKILL_DESC_60007520,(Aktiv) Erhöht deine ANG-GESCHW. um 500.
-SKILL_DESC_60007521,Erhöht Schutzschilddauer um 5 Sek.
-SKILL_DESC_60007530,(Eingesetzt) Immun gegen Massenkontrolle.
-SKILL_DESC_60007531,Erhöht Schaden um 40 %.
-SKILL_DESC_60007540,Erhöht Heilungsmenge um 100%.
+KEY,"German"
+SKILL_NAME_7510,"Urteil fällen!"
+SKILL_NAME_7511,"Urteil fällen! II"
+SKILL_NAME_7512,"Urteil fällen! III"
+SKILL_NAME_7513,"Urteil fällen! IV"
+SKILL_NAME_7520,"Macht verleihen! "
+SKILL_NAME_7521,"Macht verleihen! II"
+SKILL_NAME_7522,"Macht verleihen! III"
+SKILL_NAME_7523,"Macht verleihen! IV"
+SKILL_NAME_7530,"Schmerz stoppen!"
+SKILL_NAME_7531,"Schmerz stoppen! II"
+SKILL_NAME_7532,"Schmerz stoppen! III"
+SKILL_NAME_7533,"Schmerz stoppen! IV"
+SKILL_NAME_7540,"Mächtige Vorfahren"
+SKILL_NAME_7541,"Mächtige Vorfahren II"
+SKILL_NAME_7542,"Mächtige Vorfahren III"
+SKILL_NAME_7543,"Mächtige Vorfahren IV"
+SKILL_NAME_60007510,"Urteil fällen! [Licht]"
+SKILL_NAME_60007511,"Urteil fällen! [Dunkel]"
+SKILL_NAME_60007520,"Macht verleihen! [Licht]"
+SKILL_NAME_60007521,"Macht verleihen! [Dunkel]"
+SKILL_NAME_60007530,"Schmerz stoppen! [Licht]"
+SKILL_NAME_60007531,"Schmerz stoppen! [Dunkel]"
+SKILL_NAME_60007540,"Mächtige Vorfahren [Licht]"
+SKILL_NAME_60007541,"Mächtige Vorfahren [Dunkel]"
+SKILL_NAME_60007550,"Dakaris [Licht]"
+SKILL_NAME_60007551,"Dakaris [Dunkel]"
+SKILL_DESC_7510,"Füge dem angreifenden Feind und seiner Umgebung Mag. Schaden für [ffc800]{1}[-] zu, betäube ihn für [64ffff]{2}[-] Sek. und regeneriere die Verbündeten-TP um [ffc800]{3}[-]. Bei der Aktivierung des Macht verleihen!-Skills wird der Cooldown zurückgesetzt und erst nach dreimaligen Gebrauch abklingen."
+SKILL_DESC_7511,"Erhöht Schaden um [64ff64]{1}[-] %."
+SKILL_DESC_7512,"Erhöht Schaden um [64ff64]{1}[-] %."
+SKILL_DESC_7513,"Erhöht Schaden um [64ff64]{1}[-] %."
+SKILL_DESC_7520,"Für [64ffff]{1}[-] Sek. wird sich deine TP um [ffc800]{2}[-] & Mana um {3} Slots regenerieren und dein ANG um [64ff64]{4}[-] erhöhen. Wenn dein TP voll sind, kannst du [ffc800]{5}[-] deiner Schäden retten, indem du [64ff64]{6}[-] Sek. lang einen Schutzschild herstellst, der dich gegen den Statuseffekt immun werden lässt. Wenn du weinger als 3 Verbündete hast, wird dies auf alle Verbündeten angewendet."
+SKILL_DESC_7521,"Erhöht ANG um [64ff64]{1}[-] %."
+SKILL_DESC_7522,"Erhöht ANG um [64ff64]{1}[-] %."
+SKILL_DESC_7523,"Erhöht ANG um [64ff64]{1}[-] %."
+SKILL_DESC_7530,"Greife einen zufälligen Feind 5 Mal an und füge ihm insgesamt [ffc800]{1}[-] Mag. Schaden zu. Wenn er kein Held ist, füge ihm [ffc800]{2}[-] zus. Mag. Schaden zu. Wenn du dich im [Macht verleihen!!] Status befindst, greife zuerst einen Feind mit dem stärksten ANG an."
+SKILL_DESC_7531,"Erhöht Schaden um [64ff64]{1}[-] %."
+SKILL_DESC_7532,"Erhöht Schaden um [64ff64]{1}[-] %."
+SKILL_DESC_7533,"Erhöht Schaden um [64ff64]{1}[-] %."
+SKILL_DESC_7540,"Wenn deine TP voll sind, erhöht sich der ANG-Wert um [64ff64]{1}[-], andernfalls wird jede Sek. [ffc800]{2}[-] deiner TP wiederhergestellt. Wenn du einen Krit. Schaden erleidest, der zum Tod führt, verhinderst du einen Schaden um [ffc800]{3}[-] und verwendest deine gesamten MP, um [64ff64]{4}[-] Sek. lang einen Schutzschild zu erstellen, der dich gegen Statuseffekt immunisiert. Du kannst deine MP nicht wiederherstellen, solange der Schutzschild hält."
+SKILL_DESC_7541,"Erhöht ANG um [64ff64]{1}[-] %."
+SKILL_DESC_7542,"Erhöht ANG um [64ff64]{1}[-] %."
+SKILL_DESC_7543,"Erhöht ANG um [64ff64]{1}[-] %."
+SKILL_DESC_60007510,"Erhöht die Betäubungsdauer um 1 Sek."
+SKILL_DESC_60007511,"Verringert Manakosten um 1."
+SKILL_DESC_60007520,"(Aktiv) Erhöht deine ANG-GESCHW. um 500."
+SKILL_DESC_60007521,"Erhöht Schutzschilddauer um 5 Sek."
+SKILL_DESC_60007530,"(Eingesetzt) Immun gegen Stattuseffekt."
+SKILL_DESC_60007531,"Erhöht Schaden um 40 %."
+SKILL_DESC_60007540,"Erhöht Heilungsmenge um 100%."
 SKILL_DESC_60007541,"Regeneriert jede Sek. 300 MP, wenn deine TP voll sind."
-SKILL_DESC_60007550,"ANG, VERT, TP +15 %/Krit. Chance +100"
-SKILL_DESC_60007551,"Zu Beginn des ersten Kampfes erhältst du [Ratschläge von Vorfahren], wodurch dein Massekontroll-Widerstand 5 Sek. lang um 200 erhöht wird. Wenn du nach diesen 5 Sek. noch [Ratschläge von Vorfahren] hast, entferne die schlechten Effekte für 3 zufällige Verbündete, um die VERT. für 10 Sek. um 50 % zu erhöhen. Du kannst den VERT.-Erhöhungseffekt nicht entfernen."
-SKILL_DESC_90000750,"Dein Schaden wird um 10 % verringert und der Massekontroll-Widerstand um 100 erhöht. Dieser Effekt wird 2 Sek. lang doppelt verstärkt, nachdem du diesen Skill verwendest."
-SKILL_DESC_90000751,"Dein Schaden wird um 12 % verringert und der Massekontroll-Widerstand um 120 erhöht. Dieser Effekt wird 2 Sek. lang doppelt verstärkt, nachdem du diesen Skill verwendest."
-SKILL_DESC_90000752,"Dein Schaden wird um 14 % verringert und der Massekontroll-Widerstand um 140 erhöht. Dieser Effekt wird 2 Sek. lang doppelt verstärkt, nachdem du diesen Skill verwendest."
-SKILL_DESC_90000753,"Dein Schaden wird um 17 % verringert und der Massekontroll-Widerstand um 170 erhöht. Dieser Effekt wird 2 Sek. lang doppelt verstärkt, nachdem du diesen Skill verwendest."
-SKILL_DESC_90000754,"Dein Schaden wird um 21 % verringert und der Massekontroll-Widerstand um 210 erhöht. Dieser Effekt wird 2 Sek. lang doppelt verstärkt, nachdem du diesen Skill verwendest."
-SKILL_DESC_90000755,"Dein Schaden wird um 25 % verringert und der Massekontroll-Widerstand um 250 erhöht. Dieser Effekt wird 2 Sek. lang doppelt verstärkt, nachdem du diesen Skill verwendest."
-SKILL_DESC_91007510,[Urteil fällen!] Skill-Schaden erhöht sich um 50 % und heilt Verbündete für +1 % der max. TP.
-SKILL_DESC_91007511,"[Urteil fällen!] Skill-Schaden erhöht sich um 50 % und heilt Verbündete für +1,2 % der max. TP."
-SKILL_DESC_91007512,"[Urteil fällen!] Skill-Schaden erhöht sich um 50 % und heilt Verbündete für +1,4 % der max. TP."
-SKILL_DESC_91007513,"[Urteil fällen!] Skill-Schaden erhöht sich um 50 % und heilt Verbündete für +1,7 % der max. TP."
-SKILL_DESC_91007514,"[Urteil fällen!] Skill-Schaden erhöht sich um 50 % und heilt Verbündete für +2,1 % der max. TP."
-SKILL_DESC_91007515,"[Urteil fällen!] Skill-Schaden erhöht sich um 50 % und heilt Verbündete für +2,5 % der max. TP."
-SKILL_DESC_91007520,[Macht verleihen!] Skill-Cooldown verringert sich um 5 Sek. und Heilungsrate & MP-Regeneration erhöht sich um 20 %.
-SKILL_DESC_91007521,[Macht verleihen!] Skill-Cooldown verringert sich um 5 Sek. und Heilungsrate & MP-Regeneration erhöht sich um 24 %.
-SKILL_DESC_91007522,[Macht verleihen!] Skill-Cooldown verringert sich um 5 Sek. und Heilungsrate & MP-Regeneration erhöht sich um 29 %.
-SKILL_DESC_91007523,[Macht verleihen!] Skill-Cooldown verringert sich um 5 Sek. und Heilungsrate & MP-Regeneration erhöht sich um 35 %.
-SKILL_DESC_91007524,[Macht verleihen!] Skill-Cooldown verringert sich um 5 Sek. und Heilungsrate & MP-Regeneration erhöht sich um 42 %.
-SKILL_DESC_91007525,[Macht verleihen!] Skill-Cooldown verringert sich um 5 Sek. und Heilungsrate & MP-Regeneration erhöht sich um 50 %.
-SKILL_DESC_91007530,"[Schmerz stoppen!] Skill-Schaden erhöht sich um 20 %. Wenn du den Feind tötest, kannst du diesen Skill erneut einsetzen."
-SKILL_DESC_91007531,"[Schmerz stoppen!] Skill-Schaden erhöht sich um 24 %. Wenn du den Feind tötest, kannst du diesen Skill erneut einsetzen."
-SKILL_DESC_91007532,"[Schmerz stoppen!] Skill-Schaden erhöht sich um 29 %. Wenn du den Feind tötest, kannst du diesen Skill erneut einsetzen."
-SKILL_DESC_91007533,"[Schmerz stoppen!] Skill-Schaden erhöht sich um 35 %. Wenn du den Feind tötest, kannst du diesen Skill erneut einsetzen."
-SKILL_DESC_91007534,"[Schmerz stoppen!] Skill-Schaden erhöht sich um 42 %. Wenn du den Feind tötest, kannst du diesen Skill erneut einsetzen."
-SKILL_DESC_91007535,"[Schmerz stoppen!] Skill-Schaden erhöht sich um 50 %. Wenn du den Feind tötest, kannst du diesen Skill erneut einsetzen."
-SKILL_DESC_91007540,[Mächtige Vorfahren!!] Skill-Schild erhöht sich um 20 % und wird auf allen Verbündeten angewendet.
-SKILL_DESC_91007541,[Mächtige Vorfahren!!] Skill-Schild erhöht sich um 24 % und wird auf allen Verbündeten angewendet.
-SKILL_DESC_91007542,[Mächtige Vorfahren!!] Skill-Schild erhöht sich um 29 % und wird auf allen Verbündeten angewendet.
-SKILL_DESC_91007543,[Mächtige Vorfahren!!] Skill-Schild erhöht sich um 35 % und wird auf allen Verbündeten angewendet.
-SKILL_DESC_91007544,[Mächtige Vorfahren!!] Skill-Schild erhöht sich um 42 % und wird auf allen Verbündeten angewendet.
-SKILL_DESC_91007545,[Mächtige Vorfahren!!] Skill-Schild erhöht sich um 50 % und wird auf allen Verbündeten angewendet.
-SKILL_NAME_7110,Scharfe Urteilsklingen!
-SKILL_NAME_7111,Scharfe Urteilsklingen! II
-SKILL_NAME_7112,Scharfe Urteilsklingen! III
-SKILL_NAME_7113,Scharfe Urteilsklingen! IV
-SKILL_NAME_7120,Zerstreuter Kristallnebel!
-SKILL_NAME_7121,Zerstreuter Kristallnebel! II
-SKILL_NAME_7122,Zerstreuter Kristallnebel! III
-SKILL_NAME_7123,Zerstreuter Kristallnebel! IV
-SKILL_NAME_7130,Volles Erblühen!
-SKILL_NAME_7131,Volles Erblühen! II
-SKILL_NAME_7132,Volles Erblühen! III
-SKILL_NAME_7133,Volles Erblühen! IV
-SKILL_NAME_7140,Schluss mit den Verbrechen!
-SKILL_NAME_7141,Schluss mit den Verbrechen! II
-SKILL_NAME_7142,Schluss mit den Verbrechen! III
-SKILL_NAME_7143,Schluss mit den Verbrechen! IV
-SKILL_NAME_60007110,Scharfe Urteilsklingen! [Licht]
-SKILL_NAME_60007111,Scharfe Urteilsklingen! [Dunkelh.]
-SKILL_NAME_60007120,Zerstreuter Kristallnebel! [Licht]
-SKILL_NAME_60007121,Zerstreuter Kristallnebel! [Dunkelh.]
-SKILL_NAME_60007130,Volles Erblühen! [Licht]
-SKILL_NAME_60007131,Volles Erblühen! [Dunkelh.]
-SKILL_NAME_60007140,Schluss mit den Verbrechen! [Licht]
-SKILL_NAME_60007141,Schluss mit den Verbrechen! [Dunkelh.]
-SKILL_NAME_60007150,Kirze [Licht]
-SKILL_NAME_60007151,Kirze [Dunkelh.]
-SKILL_DESC_7110,Fügt nahen Feinden in ringförmiger Reichweite innerhalb von 7 Runden [ffc800]{1}[-] Mag. Schaden zu. Danach fügt es Feinden an der Front [ffc800]{2}[-] Mag. Schaden zu und wirft sie für [64ffff]{3}[-] Sek. zu Boden.
-SKILL_DESC_7111,Erhöht Schaden um [64ff64]{1}[-] %.
-SKILL_DESC_7112,Erhöht Schaden um [64ff64]{1}[-] %.
-SKILL_DESC_7113,Erhöht Schaden um [64ff64]{1}[-] %.
-SKILL_DESC_7120,"Lässt die Kristallkraft im Körper explodieren und fügt dabei den Gegnern [ffc800]{1}[-] Mag. Schaden zu und betäubt sie [64ffff]{2}[-] Sek. lang. Wenn bei Aktivierung dieses Skills du dich für [64ffff]{3}[-] Sek. im [fa96fa][Kristall-Erweckung][-] Zustand befindest, so erhöht sich die ANG-GESCHW aller Verbündeten um [64ff64]{4}[-] und nahen Feinden in Reichweite werden aller [64ffff]{5}[-] Sek. Schockwellen ausgestrahlt. Dabei wird den Feinden [ffc800]{6}[-] Mag. Schaden zugefügt und sie werden für [64ffff]{7}[-] Sek. zus. betäubt."
-SKILL_DESC_7121,Erhöht Schaden um [64ff64]{1}[-] %.
-SKILL_DESC_7122,Erhöht Schaden um [64ff64]{1}[-] %.
-SKILL_DESC_7123,Erhöht Schaden um [64ff64]{1}[-] %.
-SKILL_DESC_7130,"Beschwört die Kristalle und fügt den Feinden an der Frontlinie [ffc800]{1}[-] Mag. Schaden zu. Danach explodieren die Kristalle und den Feinden wird [ffc800]{2}[-] zus. Mag. Schaden zugefügt. Feinde werden für [64ffff]{3}[-] Sek. lang im [fa96fa][Fluch der Kristalle][-] Zustand gebracht und dabei die ANG-GESCHW um [ff6464]{4}[-] reduziert.\nDie im [fa96fa][Fluch der Kristalle][-] Zustand gebrachten Feinde, werden angegriffen und dabei die [fa96fa][Kristall-Energie][-] gestapelt. Der [fa96fa][Fluch der Kristalle][-] explodiert [64ffff]{5}[-] Sek. danach und den Feinden wird [ffc800]{6} + pro gestapelte Kristall-Energie {7}[-] Mag. Schaden zugefügt. "
-SKILL_DESC_7131,Erhöht Schaden um [64ff64]{1}[-] %.
-SKILL_DESC_7132,Erhöht Schaden um [64ff64]{1}[-] %.
-SKILL_DESC_7133,Erhöht Schaden um [64ff64]{1}[-] %.
-SKILL_DESC_7140,"Der eigene ANG erhöht sich um [64ff64]{1}[-] und die Krit. Chance um [64ff64]{2}[-]. Außerdem wird die Massenkontroll-Dauer für den Schaden, den alle Verbündete dem Bossmonster hinzufügen, um [64ff64]{3}[-] % erhöht."
-SKILL_DESC_7141,Erhöht ANG um [64ff64]{1}[-] %.
-SKILL_DESC_7142,Erhöht ANG um [64ff64]{1}[-] %.
-SKILL_DESC_7143,Erhöht ANG um [64ff64]{1}[-] %.
-SKILL_DESC_60007110,Reduziert Cooldown um {1} % für jeden Treffer.
-SKILL_DESC_60007111,"Wenn nur ein Feind verbleibt, erhöht sich der Schaden um 100 %."
-SKILL_DESC_60007120,"Erhöht {1} Sek. lang die Schockwelle-Betäubungsdauer für Feinde, die keine Helden sind."
-SKILL_DESC_60007121,"Im [Kristall-Erweckung] Zustand wird der Schaden für Feinde, die keine Helden sind, um {1} % erhöht."
-SKILL_DESC_60007130,Die ANG-GESCHW Reduzierungsmenge erhöht sich um {1}.
-SKILL_DESC_60007131,"Wenn nur ein Feind verbleibt, werden jeweils 2 Kristall-Energien gestapelt. "
-SKILL_DESC_60007140,"Mit jedem Kampfbeginn wird 20 Sek. lang der Schaden für Feinde, die keine Helden sind, um {1} % erhöht."
-SKILL_DESC_60007141,Dem Bossmonster zugefügter Schaden wird um {1} % erhöht.
-SKILL_DESC_60007150,"ANG, VERT, TP +15 %/ANG-GESCHW +100"
-SKILL_DESC_60007151,Der eigene ANG erhöht sich um {1} mit jedem Normal- & Skill-ANG. Dieser Effekt kann bis zu {2} Mal gestapelt werden.
-SKILL_DESC_90000710,Durch die Verstärkung der Kristallkraft wird die [Volles Erblühen!] Skill-Wirkungsreichweite erheblich erhöht. Außerdem wird mit jedem Normal- & Skill-ANG mit 4 %iger Chance zus. Mag. Schaden im Wert von 500 % ANG hinzugefügt. Der Bossmonster-Schaden verdoppelt sich dabei.
-SKILL_DESC_90000711,Durch die Verstärkung der Kristallkraft wird die [Volles Erblühen!] Skill-Wirkungsreichweite erheblich erhöht. Außerdem wird bei jedem Normal- & Skill-ANG mit 4 %iger Chance zus. Mag. Schaden im Wert von 600 % ANG hinzugefügt. Der Bossmonster-Schaden verdoppelt sich dabei.
-SKILL_DESC_90000712,Durch die Verstärkung der Kristallkraft wird die [Volles Erblühen!] Skill-Wirkungsreichweite erheblich erhöht. Außerdem wird bei jedem Normal- & Skill-ANG mit 4 %iger Chance zus. Mag. Schaden im Wert von 720 % ANG hinzugefügt. Der Bossmonster-Schaden verdoppelt sich dabei.
-SKILL_DESC_90000713,Durch die Verstärkung der Kristallkraft wird die [Volles Erblühen!] Skill-Wirkungsreichweite erheblich erhöht. Außerdem wird bei jedem Normal- & Skill-ANG mit 4 %iger Chance zus. Mag. Schaden im Wert von 860 % ANG hinzugefügt. Der Bossmonster-Schaden verdoppelt sich dabei.
-SKILL_DESC_90000714,Durch die Verstärkung der Kristallkraft wird die [Volles Erblühen!] Skill-Wirkungsreichweite erheblich erhöht. Außerdem wird bei jedem Normal- & Skill-ANG mit 4 %iger Chance zus. Mag. Schaden im Wert von 1.000 % ANG hinzugefügt. Der Bossmonster-Schaden verdoppelt sich dabei.
-SKILL_DESC_90000715,Durch die Verstärkung der Kristallkraft wird die [Volles Erblühen!] Skill-Wirkungsreichweite erheblich erhöht. Außerdem wird bei jedem Normal- & Skill-ANG mit 4 %iger Chance zus. Mag. Schaden im Wert von 1.250 % ANG hinzugefügt. Der Bossmonster-Schaden verdoppelt sich dabei.
-SKILL_DESC_91007110,[Scharfe Urteilsklingen!] Skill-Schaden erhöht sich um 20 % und Manakosten werden um 1 reduziert.
-SKILL_DESC_91007111,[Scharfe Urteilsklingen!] Skill-Schaden erhöht sich um 24 % und Manakosten werden um 1 reduziert.
-SKILL_DESC_91007112,[Scharfe Urteilsklingen!] Skill-Schaden erhöht sich um 29 % und Manakosten werden um 1 reduziert.
-SKILL_DESC_91007113,[Scharfe Urteilsklingen!] Skill-Schaden erhöht sich um 35 % und Manakosten werden um 1 reduziert.
-SKILL_DESC_91007114,[Scharfe Urteilsklingen!] Skill-Schaden erhöht sich um 42 % und Manakosten werden um 1 reduziert.
-SKILL_DESC_91007115,[Scharfe Urteilsklingen!] Skill-Schaden erhöht sich um 50 % und Manakosten werden um 1 reduziert.
-SKILL_DESC_91007120,[Zerstreuter Kristallnebel!] Skill-ANG-GESCHW erhöht sich zus. um 100 und [Kristall-Erweckung] Zustandsdauer wird auch um 7 Sek. erhöht.
-SKILL_DESC_91007121,[Zerstreuter Kristallnebel!] Skill-ANG-GESCHW erhöht sich zus. um 120 und [Kristall-Erweckung] Zustandsdauer wird auch um 7 Sek. erhöht.
-SKILL_DESC_91007122,[Zerstreuter Kristallnebel!] Skill-ANG-GESCHW erhöht sich zus. um 140 und [Kristall-Erweckung] Zustandsdauer wird auch um 7 Sek. erhöht.
-SKILL_DESC_91007123,[Zerstreuter Kristallnebel!] Skill-ANG-GESCHW erhöht sich zus. um 170 und [Kristall-Erweckung] Zustandsdauer wird auch um 7 Sek. erhöht.
-SKILL_DESC_91007124,[Zerstreuter Kristallnebel!] Skill-ANG-GESCHW erhöht sich zus. um 210 und [Kristall-Erweckung] Zustandsdauer wird auch um 7 Sek. erhöht.
-SKILL_DESC_91007125,[Zerstreuter Kristallnebel!] Skill-ANG-GESCHW erhöht sich zus. um 250 und [Kristall-Erweckung] Zustandsdauer wird auch um 7 Sek. erhöht.
-SKILL_DESC_91007130,[Volles Erblühen!] Skill-Cooldown reduziert sich um 30 % und beim Stapeln von [Kristall-Energie] wird dieser Effekt mit 40 %iger Chance bis zu 3-mal zus. gestapelt.
-SKILL_DESC_91007131,[Volles Erblühen!] Skill-Cooldown reduziert sich um 30 % und beim Stapeln von [Kristall-Energie] wird dieser Effekt mit 48 %iger Chance bis zu 3-mal zus. gestapelt.
-SKILL_DESC_91007132,[Volles Erblühen!] Skill-Cooldown reduziert sich um 30 % und beim Stapeln von [Kristall-Energie] wird dieser Effekt mit 58 %iger Chance bis zu 3-mal zus. gestapelt.
-SKILL_DESC_91007133,[Volles Erblühen!] Skill-Cooldown reduziert sich um 30 % und beim Stapeln von [Kristall-Energie] wird dieser Effekt mit 70 %iger Chance bis zu 3-mal zus. gestapelt.
-SKILL_DESC_91007134,[Volles Erblühen!] Skill-Cooldown reduziert sich um 30 % und beim Stapeln von [Kristall-Energie] wird dieser Effekt mit 84 %iger Chance bis zu 3-mal zus. gestapelt.
-SKILL_DESC_91007135,[Volles Erblühen!] Skill-Cooldown reduziert sich um 30 % und beim Stapeln von [Kristall-Energie] wird dieser Effekt mit 100 %iger Chance bis zu 3-mal zus. gestapelt.
-SKILL_DESC_91007140,[Schluss mit den Verbrechen!] Skill-Krit. Chance erhöht sich um zus. 250 und die Massekontroll-Dauer wird nun um 30 % erhöht.
-SKILL_DESC_91007141,[Schluss mit den Verbrechen!] Skill-Krit. Chance erhöht sich um zus. 250 und die Massekontroll-Dauer wird nun um 32 % erhöht.
-SKILL_DESC_91007142,[Schluss mit den Verbrechen!] Skill-Krit. Chance erhöht sich um zus. 250 und die Massekontroll-Dauer wird nun um 34 % erhöht.
-SKILL_DESC_91007143,[Schluss mit den Verbrechen!] Skill-Krit. Chance erhöht sich um zus. 250 und die Massekontroll-Dauer wird nun um 37 % erhöht.
-SKILL_DESC_91007144,[Schluss mit den Verbrechen!] Skill-Krit. Chance erhöht sich um zus. 250 und die Massekontroll-Dauer wird nun um 41 % erhöht.
-SKILL_DESC_91007145,[Schluss mit den Verbrechen!] Skill-Krit. Chance erhöht sich um zus. 250 und die Massekontroll-Dauer wird nun um 45 % erhöht.
-SKILL_NAME_9710,Alles durchbohren!
-SKILL_NAME_9711,Alles durchbohren! II
-SKILL_NAME_9712,Alles durchbohren! III
-SKILL_NAME_9713,Alles durchbohren! IV
-SKILL_NAME_9720,Löcher in den Bauch!
-SKILL_NAME_9721,Löcher in den Bauch! II
-SKILL_NAME_9722,Löcher in den Bauch! III
-SKILL_NAME_9723,Löcher in den Bauch! IV
-SKILL_NAME_9730,Ins Mauseloch kriechen!
-SKILL_NAME_9731,Ins Mauseloch kriechen! II
-SKILL_NAME_9732,Ins Mauseloch kriechen! III
-SKILL_NAME_9733,Ins Mauseloch kriechen! IV
-SKILL_NAME_9740,Unser Training kann beginnen!
-SKILL_NAME_9741,Unser Training kann beginnen! II
-SKILL_NAME_9742,Unser Training kann beginnen! III
-SKILL_NAME_9743,Unser Training kann beginnen! IV
-SKILL_NAME_60009710,Alles durchbohren! [Licht]
-SKILL_NAME_60009711,Alles durchbohren! [Dunkelh.]
-SKILL_NAME_60009720,Löcher in den Bauch! [Licht]
-SKILL_NAME_60009721,Löcher in den Bauch! [Dunkelh.]
-SKILL_NAME_60009730,Ins Mauseloch kriechen! [Licht]
-SKILL_NAME_60009731,Ins Mauseloch kriechen! [Dunkelh.]
-SKILL_NAME_60009740,Unser Training kann beginnen! [Licht]
-SKILL_NAME_60009741,Unser Training kann beginnen! [Dunkelh.]
-SKILL_NAME_60009750,Hanus [Licht]
-SKILL_NAME_60009751,Hanus [Dunkelh.]
-SKILL_DESC_9710,"Nachdem du eine Granate geworfen hast, feuere eine Maschinenpistole ab, um dem Ziel & nahegelegenen Gegnern [ffc800]{1}[-] Körp. Schaden zuzufügen und [64ffff]{2}[-] [fa96fa]Kugel[-] zu erhalten. Der erlittene gegn. Körp. Schaden erhöht sich für [64ffff]{3}[-] Sek. um [ff6464]{4}[-] % und der Gegner wird [64ffff]{5}[-] Sek. lang geblendet. Bis zu {6} Kugeln können gestapelt werden."
-SKILL_DESC_9711,Erhöht Schaden um [64ff64]{1}[-] %.
-SKILL_DESC_9712,Erhöht Schaden um [64ff64]{1}[-] %.
-SKILL_DESC_9713,Erhöht Schaden um [64ff64]{1}[-] %.
-SKILL_DESC_9720,"Feuere die Maschinenpistole {1}x ab und füge Gegnern in weiter Reichweite [ffc800]{2}[-] Körp. Schaden zu. Hast du danach noch [fa96fa]Kugeln[-] übrig, so werden mit dem Pistolenschuss [64ffff]{3}[-] Kugel(n) abgefeuert und wenn du weiter abfeuerst bis alle Kugeln verbraucht sind, wird dein Schaden um [ff6464]{4}[-] % erhöht. Jedes Mal, wenn die Maschinenpistole {5}x abgefeuert wird, erhöht sich der Schaden dieses Skills um [64ff64]{6}[-] %. Der Schadenerhöhungs-Effekt kann bis zu {7}x gestapelt werden."
-SKILL_DESC_9721,Erhöht Schaden um [64ff64]{1}[-] %.
-SKILL_DESC_9722,Erhöht Schaden um [64ff64]{1}[-] %.
-SKILL_DESC_9723,Erhöht Schaden um [64ff64]{1}[-] %.
-SKILL_DESC_9730,"Frontalstehenden Gegner, die sich in einer bestimmten Entfernung befinden, wird ein Grabenmörser abgefeuert und [ffc800]{1}[-] Körp. Schaden zugefügt. Du erhältst dabei [64ffff]{2}[-]x [fa96fa]Kugel[-]. Der getroffene Feind wird für [64ffff]{3}[-] Sek. betäubt. Dieser Skill ignoriert alle feindlichen Block-Effekte."
-SKILL_DESC_9731,Erhöht Schaden um [64ff64]{1}[-] %.
-SKILL_DESC_9732,Erhöht Schaden um [64ff64]{1}[-] %.
-SKILL_DESC_9733,Erhöht Schaden um [64ff64]{1}[-] %.
-SKILL_DESC_9740,"Hanus ist immun gegen ANG-GESCHW-Veränderungen und die Verbündeten-VERT wird um [64ff64]{1}+ Hanus-ANG {2} %[-] erhöht.\nWird dieser Effekt beim Gildenkampf angewendet, so wird es [64ff64]{3}[-]x so stark wirken.\n[Gildenkampf] - Gildenraid, Gildeneroberungen, Gildenkrieg"
-SKILL_DESC_9741,Erhöht ANG um [64ff64]{1}[-] %.
-SKILL_DESC_9742,Erhöht ANG um [64ff64]{1}[-] %.
-SKILL_DESC_9743,Erhöht ANG um [64ff64]{1}[-] %.
-SKILL_DESC_60009710,Entfernt positive Effekte des Ziels.
-SKILL_DESC_60009711,"Wenn du {1} Kugel(n) erhalten hast, erhöht sich {2} Sek. lang der eigene ANG um {3} %. Der ANG-Erhöhungseffekt kann bis zu {4}x gestapelt werden. "
-SKILL_DESC_60009720,"Erhöht die Kugel-Verbrauchsmenge um {1} Kugel, aber jedes Mal wenn du kontinuierlich Kugeln verbrauchst, erhöht sich Hanus-Krit. Schaden um {2} %."
-SKILL_DESC_60009721,Entfernt den von Feinden zugefügter Schadenerhöhungs-Effekt.
-SKILL_DESC_60009730,Bei Verwendung im Gildenkrieg werden gegn. Schadenverringerungs-Effekte ignoriert.
-SKILL_DESC_60009731,"Wenn du {1} Kugel(n) erhalten hast, erhöht sich {2} Sek. lang der eigene VERT-Durchbruch um {3}.Der VERT-Durchdr.-Effekt kann bis zu {4}x gestapelt werden. "
-SKILL_DESC_60009740,Verringert {1} Sek. lang den Schaden aller Verbündeten um {2} % beim Gildenkriegsbeginn.
-SKILL_DESC_60009741,Du erhältst aller {1} Sek. {2} Kugel(n).
-SKILL_DESC_60009750,"ANG, VERT, TP +15 %/Krit. Schaden +20 %"
-SKILL_DESC_60009751,Beim Gildenkriegsbeginn werden Manakosten aller Feinde um {1} verringert und {2} Sek. lang jeden erhaltenen Schaden um {3} % erhöht.
-SKILL_DESC_90000970,"Der Hanus-Krit. Schaden wird um 20 % erhöht, aller 20 Sek. wird [Kleiner Scherz, HN-Lenkfügkörper] abgefeuert und zufälligen Feinden Schaden im Wert von 200 % des ANG zugefügt. Zusätzlich wird dem Feind 3 Sek. lang eines der folgenden Effekten verleiht: Betäubung, Frost, Versteinerung, Umfallen oder ANG-GESCHW-Verringerung um 250."
-SKILL_DESC_90000971,"Der Hanus-Krit. Schaden wird um 24 % erhöht, aller 17 Sek. wird [Kleiner Scherz, HN-Lenkfügkörper] abgefeuert und zufälligen Feinden Schaden im Wert von 240 % des ANG zugefügt. Zusätzlich wird dem Feind 3 Sek. lang eines der folgenden Effekten verleiht: Betäubung, Frost, Versteinerung, Umfallen oder ANG-GESCHW-Verringerung um 250."
-SKILL_DESC_90000972,"Der Hanus-Krit. Schaden wird um 29 % erhöht, aller 14 Sek. wird [Kleiner Scherz, HN-Lenkfügkörper] abgefeuert und zufälligen Feinden Schaden im Wert von 290 % des ANG zugefügt. Zusätzlich wird dem Feind 3 Sek. lang eines der folgenden Effekten verleiht: Betäubung, Frost, Versteinerung, Umfallen oder ANG-GESCHW-Verringerung um 250."
-SKILL_DESC_90000973,"Der Hanus-Krit. Schaden wird um 35 % erhöht, aller 12 Sek. wird [Kleiner Scherz, HN-Lenkfügkörper] abgefeuert und zufälligen Feinden Schaden im Wert von 350 % des ANG zugefügt. Zusätzlich wird dem Feind 3 Sek. lang eines der folgenden Effekten verleiht: Betäubung, Frost, Versteinerung, Umfallen oder ANG-GESCHW-Verringerung um 250."
-SKILL_DESC_90000974,"Der Hanus-Krit. Schaden wird um 42 % erhöht, aller 10 Sek. wird [Kleiner Scherz, HN-Lenkfügkörper] abgefeuert und zufälligen Feinden Schaden im Wert von 420 % des ANG zugefügt. Zusätzlich wird dem Feind 3 Sek. lang eines der folgenden Effekten verleiht: Betäubung, Frost, Versteinerung, Umfallen oder ANG-GESCHW-Verringerung um 250."
-SKILL_DESC_90000975,"Der Hanus-Krit. Schaden wird um 50 % erhöht, aller 8 Sek. wird [Kleiner Scherz, HN-Lenkfügkörper] abgefeuert und zufälligen Feinden Schaden im Wert von 500 % des ANG zugefügt. Zusätzlich wird dem Feind 3 Sek. lang eines der folgenden Effekten verleiht: Betäubung, Frost, Versteinerung, Umfallen oder ANG-GESCHW-Verringerung um 250."
-SKILL_DESC_91009710,"[Alles durchbohren!] Skill-Manakosten verringern sich um 1 und Blendungsdauer wird um 0,8 Sek. erhöht."
-SKILL_DESC_91009711,[Alles durchbohren!] Skill-Manakosten verringern sich um 1 und Blendungsdauer wird um 1 Sek. erhöht.
-SKILL_DESC_91009712,"[Alles durchbohren!] Skill-Manakosten verringern sich um 1 und Blendungsdauer wird um 1,2 Sek. erhöht."
-SKILL_DESC_91009713,"[Alles durchbohren!] Skill-Manakosten verringern sich um 1 und Blendungsdauer wird um 1,4 Sek. erhöht."
-SKILL_DESC_91009714,"[Alles durchbohren!] Skill-Manakosten verringern sich um 1 und Blendungsdauer wird um 1,7 Sek. erhöht."
-SKILL_DESC_91009715,[Alles durchbohren!] Skill-Manakosten verringern sich um 1 und Blendungsdauer wird um 2 Sek. erhöht.
-SKILL_DESC_91009720,"[Löcher in den Bauch!] Skill verwenden und 20 Kugel erhalten. Jedes Mal, wenn die Maschinenpistole abgefeuert wird und du dabei Kugeln verbrauchst, erhöht sich der Hanus-ANG um {2} %. Dieser Effekt kann bis zu 100x gestapelt werden."
-SKILL_DESC_91009721,"[Löcher in den Bauch!] Skill verwenden und 20 Kugel erhalten. Jedes Mal, wenn die Maschinenpistole abgefeuert wird und du dabei Kugeln verbrauchst, erhöht sich der Hanus-ANG um {2} %. Dieser Effekt kann bis zu 100x gestapelt werden."
-SKILL_DESC_91009722,"[Löcher in den Bauch!] Skill verwenden und 20 Kugel erhalten. Jedes Mal, wenn die Maschinenpistole abgefeuert wird und du dabei Kugeln verbrauchst, erhöht sich der Hanus-ANG um {2} %. Dieser Effekt kann bis zu 100x gestapelt werden."
-SKILL_DESC_91009723,"[Löcher in den Bauch!] Skill verwenden und 20 Kugel erhalten. Jedes Mal, wenn die Maschinenpistole abgefeuert wird und du dabei Kugeln verbrauchst, erhöht sich der Hanus-ANG um {2} %. Dieser Effekt kann bis zu 100x gestapelt werden."
-SKILL_DESC_91009724,"[Löcher in den Bauch!] Skill verwenden und 20 Kugel erhalten. Jedes Mal, wenn die Maschinenpistole abgefeuert wird und du dabei Kugeln verbrauchst, erhöht sich der Hanus-ANG um {2} %. Dieser Effekt kann bis zu 100x gestapelt werden."
-SKILL_DESC_91009725,"[Löcher in den Bauch!] Skill verwenden und 20 Kugel erhalten. Jedes Mal, wenn die Maschinenpistole abgefeuert wird und du dabei Kugeln verbrauchst, erhöht sich der Hanus-ANG um {2} %. Dieser Effekt kann bis zu 100x gestapelt werden."
-SKILL_DESC_91009730,[Ins Mauseloch kriechen!] Skill verwenden und immun gegen Massekontrolle werden. Zusätzlich wird für 5 Sek. die Heilungsrate des geschädigten Ziels um 20 % verringert.
-SKILL_DESC_91009731,[Ins Mauseloch kriechen!] Skill verwenden und immun gegen Massekontrolle werden. Zusätzlich wird für 5 Sek. die Heilungsrate des geschädigten Ziels um 24 % verringert.
-SKILL_DESC_91009732,[Ins Mauseloch kriechen!] Skill verwenden und immun gegen Massekontrolle werden. Zusätzlich wird für 5 Sek. die Heilungsrate des geschädigten Ziels um 29 % verringert.
-SKILL_DESC_91009733,[Ins Mauseloch kriechen!] Skill verwenden und immun gegen Massekontrolle werden. Zusätzlich wird für 5 Sek. die Heilungsrate des geschädigten Ziels um 35 % verringert.
-SKILL_DESC_91009734,[Ins Mauseloch kriechen!] Skill verwenden und immun gegen Massekontrolle werden. Zusätzlich wird für 5 Sek. die Heilungsrate des geschädigten Ziels um 42 % verringert.
-SKILL_DESC_91009735,[Ins Mauseloch kriechen!] Skill verwenden und immun gegen Massekontrolle werden. Zusätzlich wird für 5 Sek. die Heilungsrate des geschädigten Ziels um 50 % verringert.
-SKILL_DESC_91009740,"[Unser Training kann beginnen!] Skill zu Beginn des Gildenkriegs 1x verwenden und dabei die Mana aller Skills, die selbst benutzt werden, um 1 verringern. Zusätzlich werden 10 Sek. lang der ANG und Krit. Schaden aller Verbündeten um jeweils 10 % und 20 % erhöht."
-SKILL_DESC_91009741,"[Unser Training kann beginnen!] Skill zu Beginn des Gildenkriegs 1x verwenden und dabei die Mana aller Skills, die selbst benutzt werden, um 1 verringern. Zusätzlich werden 10 Sek. lang der ANG und Krit. Schaden aller Verbündeten um jeweils 12 % und 24 % erhöht."
-SKILL_DESC_91009742,"[Unser Training kann beginnen!] Skill zu Beginn des Gildenkriegs 1x verwenden und dabei die Mana aller Skills, die selbst benutzt werden, um 1 verringern. Zusätzlich werden 10 Sek. lang der ANG und Krit. Schaden aller Verbündeten um jeweils 14 % und 29 % erhöht."
-SKILL_DESC_91009743,"[Unser Training kann beginnen!] Skill zu Beginn des Gildenkriegs 1x verwenden und dabei die Mana aller Skills, die selbst benutzt werden, um 1 verringern. Zusätzlich werden 10 Sek. lang der ANG und Krit. Schaden aller Verbündeten um jeweils 17 % und 35 % erhöht."
-SKILL_DESC_91009744,"[Unser Training kann beginnen!] Skill zu Beginn des Gildenkriegs 1x verwenden und dabei die Mana aller Skills, die selbst benutzt werden, um 1 verringern. Zusätzlich werden 10 Sek. lang der ANG und Krit. Schaden aller Verbündeten um jeweils 21 % und 42 % erhöht."
-SKILL_DESC_91009745,"[Unser Training kann beginnen!] Skill zu Beginn des Gildenkriegs 1x verwenden und dabei die Mana aller Skills, die selbst benutzt werden, um 1 verringern. Zusätzlich werden 10 Sek. lang der ANG und Krit. Schaden aller Verbündeten um jeweils 25 % und 50 % erhöht."
-SKILL_NAME_9810,Fühle die Angst!
-SKILL_NAME_9819,Auf die Knie.
-SKILL_NAME_9820,Spüre meine Kraft!
-SKILL_NAME_9825,Spüre meine Kraft!
-SKILL_NAME_9830,Meine allmächtige Macht!
-SKILL_NAME_9837,Nun stirb.
-SKILL_NAME_9840,Der König der Wüste bin Ich!
-SKILL_NAME_60009810,Fühle die Angst!/Auf die Knie. [Licht]
-SKILL_NAME_60009811,Fühle die Angst!/Auf die Knie. [Dunkelheit]
-SKILL_NAME_60009820,Spüre meine Kraft! [Licht]
-SKILL_NAME_60009821,Spüre meine Kraft! [Dunkelheit]
-SKILL_NAME_60009830,Meine allmächtige Macht!/Nun stirb. [Licht]
-SKILL_NAME_60009831,Meine allmächtige Macht!/Nun stirb. [Dunkelheit]
-SKILL_NAME_60009840,Der König der Wüste bin Ich! [Licht]
-SKILL_NAME_60009841,Der König der Wüste bin Ich! [Dunkelheit]
-SKILL_NAME_60009850,Cain [Licht]
-SKILL_NAME_60009851,Cain [Dunkelheit]
-SKILL_DESC_9810,"Cain heilt [ffc800]{1}[-] TP von den Verbündeten mit den wenigsten TP, gibt [Segen des Gottkönigs], verringert alle Schäden für [64ffff]{2}[-] Sek. um [64ff64]{3}[-] % und gewährt Massenkontroll-Immunität. Es entfernt die schlechten Effekte von Gegnern und Verbündeten nach [64ffff] {2} [-] Sek. und stellt [ffc800] {4} [-] TP wieder her. Du kannst den [Segen des Gottkönigs] nicht entfernen."
-SKILL_DESC_9819,"Cain erteilt [ffc800]{1}[-] Mag. Schaden an dem Gegner mit dem höchsten ANG: benutzt die [Siegelmagie des Tyrannen], um die gegn. ANG-GESCHW. für [ff6464]{2}[-] Sek. um [64ffff]{3}[-] zu verringern und keine negativen Effekte zu bekommen. Außerdem wird nach [64ffff]{2}[-] Sek. [ffc800]{4}[-] Körp. Schaden an Gegnern und Ziele in der Nähe zugefügt und sie werden {5} Sek. lang betäubt. Du kannst die [Siegelmagie des Tyrannen] nicht entfernen."
-SKILL_DESC_9811,Schadensrate und Heilungsrate steigen um [64ff64]{1}[-] %.
-SKILL_DESC_9812,Schadensrate und Heilungsrate steigen um [64ff64]{1}[-] %.
-SKILL_DESC_9813,Schadensrate und Heilungsrate steigen um [64ff64]{1}[-] %.
-SKILL_DESC_9820,"Wenn Cain zu [Tyrann] gewechselt ist, greift er ständig alle Feinde an und richtet [ffc800]{1}[-] Körp. Schaden bei jedem Treffer an. Cain im [Tyrann]-Modus wechselt die [Fühle die Angst!] und [Meine allmächtige Macht!] Skills zu [Auf die Knie.] und [Nun stirb.] Skills und wird immun gegen Massenkontrolle. Wenn du die Skills erneut einsetzt, kehrt er zum [Gottkönig]-Zustand zurück.\n[Gnade des Gottkönigs] Wenn Cain ein Gottkönig ist, verringern sich die Schäden der Verbündeten um [ffc800]{2}[-] %.\n[Würde des Tyrannen] Wenn Cain ein Tyrann ist, erhöhen sich die Schäden der Feinde um [ffc800]{3}[-] %."
-SKILL_DESC_9825,Cain geht zurück zum [Gottkönig]-Zustand.
-SKILL_DESC_9821,Schaden erhöht sich um [64ff64]{1}[-] %.
-SKILL_DESC_9822,Schaden erhöht sich um [64ff64]{1}[-] %.
-SKILL_DESC_9823,Schaden erhöht sich um [64ff64]{1}[-] %.
-SKILL_DESC_9830,"Es erhöht die VERT aller Verbündeten in der Nähe für [ffc800]{1}[-] Sek. um [64ffff]{2}[-] {3}-mal. VERT-Boost kann max. {3}-mal gestapelt werden. Der Verbündete, dessen VERT-Boost {3}-mal gestapelt wurde, erhöht den gegn. ANG für [64ffff]{4}[-] Sek. um [64ff64]{5}[-] und gewährt Massenkontroll-Immunität."
-SKILL_DESC_9837,Es installiert eine [Tür zur Hölle] an der Front für {1} Sek. und verursacht {2}-mal [ffc800]{3}[-] Körp. Schaden an Gegnern im Umfeld und zieht sie zum Mittelpunkt. Danach lässt es die [Tür zur Hölle] explodieren und verursacht [ffc800]{4}[-] Körp. Schaden und betäubt sie für [64ffff]{5}[-] Sek.
-SKILL_DESC_9831,ANG- und Schaden-Boost werden um [64ff64]{1}[-] % erhöht.
-SKILL_DESC_9832,ANG- und Schaden-Boost werden um [64ff64]{1}[-] % erhöht.
-SKILL_DESC_9833,ANG- und Schaden-Boost werden um [64ff64]{1}[-] % erhöht.
-SKILL_DESC_9840,"Du kannst eine Stapelung von [König der Wüste], das du nicht entfernen kannst, zu jedem Beginn des Kampfes erhalten. Pro [König der Wüste]-Stapel wird der Effekt von [Gnade des Gottkönigs] und [Würde des Tyrannen] um [64ff64]{1}[-] % erhöht und pro Sek. wird {2} } MP regeneriert und der ANG um [64ff64]{3}[-] erhöht. Wenn [König der Wüste] mehr als {4}-mal gestapelt wird, erhöht sich der Schaden, den du dem Boss zufügst, um [64ff64]{5}[-] %. [König der Wüste] kann max. {6}-mal gestapelt werden."
-SKILL_DESC_9841,Erhöht ANG-Boost um [64ff64]{1}[-] %.
-SKILL_DESC_9842,Erhöht ANG-Boost um [64ff64]{1}[-] %.
-SKILL_DESC_9843,Erhöht ANG-Boost um [64ff64]{1}[-] %.
-SKILL_DESC_60009810,"[Fühle die Angst!] Skill-Effekt wirkt sich auf 3 Verbündete aus und jeder Effekt, der nach {1} Sek. angewendet wird, funktioniert nicht."
-SKILL_DESC_60009811,"[Auf die Knie.] Skill-Effekt wirkt sich auf 3 Verbündete aus und jeder Effekt, der nach {1} Sek. angewendet wird, funktioniert nicht."
-SKILL_DESC_60009820,"Der Schaden dieses Skills erhöht sich um {1} %, je nach Anzahl der Stapelungen von [König der Wüste]."
-SKILL_DESC_60009821,"Der Skill-Cooldown verringert sich um {1} Sek. und verwandelt sich im Auto-Kampf in einen Tyrannen, um dann wieder zum Gottkönig-Zustand zurückzukehren."
-SKILL_DESC_60009830,[Meine allmächtige Macht!] Effekt-Wirkungsdauer erhöht sich um {1} Sek.
-SKILL_DESC_60009831,[Nun stirb.] Skill-Manakosten verringern sich um 1.
-SKILL_DESC_60009840,Dem Bossmonster zugefügter Schaden-Boost wird um {1} % erhöht.
-SKILL_DESC_60009841,Erholte MP pro Sek. werden zu {1} geändert.
-SKILL_DESC_60009850,"ANG, VERT, TP +15 %/ANG-GESCHW +10 %"
-SKILL_DESC_60009851,"Zu Beginn jedes Kampfs verbrauchst du {1} % der aktuellen MP und der ANG von allen Verbündeten wird für {2} Sek. um {3} % erhöht. Wenn es weniger als 3 Verbündete gibt, verringert sich der Schaden der Verbündeten um zus. {4} %. "
-SKILL_DESC_90000980,Je nach Zustand des Normalangriffs und des Skillangriffs wird ein zusätzlicher Effekt hinzugefügt.\n[Gottkönig] betäubt den Gegner {2} Sek. lang mit einer Chance von {1} %.\n[Tyrann] erhöht den gegn. Körp. Schaden um {4} % für {3} Sek.
-SKILL_DESC_91009810,[Fühle die Angst!] Schadenverringerungs-Effekt erhöht sich um zus. {1} %.\n[Auf die Knie.] Skill-Manakosten verringern sich um 1.
-SKILL_DESC_91009820,"[Spüre meine Kraft!] Skill-Schaden erhöht sich um {1} % und der Schaden, den du im Tyrann-Zustand verursachst, um {2} %."
-SKILL_DESC_91009830,"[Meine allmächtige Macht!] Skill-ANG-Boost erhöht sich um {1} %.\n[Nun stirb.] erhöht den Körp. Schaden, den das Ziel erleidet, für {2} Sek. um {3} %."
-SKILL_DESC_91009840,"[Der König der Wüste bin Ich!] Skill-ANG-Boost erhöht sich um {1} % und wenn die Stapelung von [König der Wüste] mehr als {2} beträgt, erhöht sich die Heilungsrate aller Verbündeten um {3} %."
+SKILL_DESC_60007550,"ANG, VERT, TP +15% / Krit. Chance +100"
+SKILL_DESC_60007551,"Zu Beginn des ersten Kampfes erhältst du [Ratschläge von Vorfahren], wodurch dein Statuseffekt-Widerstand 5 Sek. lang um 200 erhöht wird. Wenn du nach diesen 5 Sek. noch [Ratschläge von Vorfahren] hast, entferne die schlechten Effekte für 3 zufällige Verbündete, um die VERT. für 10 Sek. um 50 % zu erhöhen. Du kannst den VERT.-Erhöhungseffekt nicht entfernen."
+SKILL_DESC_90000750,"Dein Schaden wird um 10 % verringert und der Statuseffekt-Widerstand um 100 erhöht. Dieser Effekt wird 2 Sek. lang doppelt verstärkt, nachdem du diesen Skill verwendest."
+SKILL_DESC_90000751,"Dein Schaden wird um 12 % verringert und der Statuseffekt-Widerstand um 120 erhöht. Dieser Effekt wird 2 Sek. lang doppelt verstärkt, nachdem du diesen Skill verwendest."
+SKILL_DESC_90000752,"Dein Schaden wird um 14 % verringert und der Statuseffekt-Widerstand um 140 erhöht. Dieser Effekt wird 2 Sek. lang doppelt verstärkt, nachdem du diesen Skill verwendest."
+SKILL_DESC_90000753,"Dein Schaden wird um 17 % verringert und der Statuseffekt-Widerstand um 170 erhöht. Dieser Effekt wird 2 Sek. lang doppelt verstärkt, nachdem du diesen Skill verwendest."
+SKILL_DESC_90000754,"Dein Schaden wird um 21 % verringert und der Statuseffekt-Widerstand um 210 erhöht. Dieser Effekt wird 2 Sek. lang doppelt verstärkt, nachdem du diesen Skill verwendest."
+SKILL_DESC_90000755,"Dein Schaden wird um 25 % verringert und der Statuseffekt-Widerstand um 250 erhöht. Dieser Effekt wird 2 Sek. lang doppelt verstärkt, nachdem du diesen Skill verwendest."
+SKILL_DESC_91007510,"Der Schaden von [Urteil fällen!] wird um 50 % erhöht und die TP deiner Verbündeten wird zusätzlich um 1 % von max. TP wiederhergestellt."
+SKILL_DESC_91007511,"Der Schaden von [Urteil fällen!] wird um 50 % erhöht und die TP deiner Verbündeten wird zusätzlich um 1,2 % von max. TP wiederhergestellt."
+SKILL_DESC_91007512,"Der Schaden von [Urteil fällen!] wird um 50 % erhöht und die TP deiner Verbündeten wird zusätzlich um 1,4 % von max. TP wiederhergestellt."
+SKILL_DESC_91007513,"Der Schaden von [Urteil fällen!] wird um 50 % erhöht und die TP deiner Verbündeten wird zusätzlich um 1,7 % von max. TP wiederhergestellt."
+SKILL_DESC_91007514,"Der Schaden von [Urteil fällen!] wird um 50 % erhöht und die TP deiner Verbündeten wird zusätzlich um 2,1 % von max. TP wiederhergestellt."
+SKILL_DESC_91007515,"Der Schaden von [Urteil fällen!] wird um 50 % erhöht und die TP deiner Verbündeten wird zusätzlich um 2,5 % von max. TP wiederhergestellt."
+SKILL_DESC_91007520,"Das Cooldown für [Macht verleihen!!] wird um wird um 5 Sek. verringert und Heilungsrate und MP-Regeneration um 20 % erhöht."
+SKILL_DESC_91007521,"Das Cooldown für [Macht verleihen!!] wird um wird um 5 Sek. verringert und Heilungsrate und MP-Regeneration um 24 % erhöht."
+SKILL_DESC_91007522,"Das Cooldown für [Macht verleihen!!] wird um wird um 5 Sek. verringert und Heilungsrate und MP-Regeneration um 29 % erhöht."
+SKILL_DESC_91007523,"Das Cooldown für [Macht verleihen!!] wird um wird um 5 Sek. verringert und Heilungsrate und MP-Regeneration um 35 % erhöht."
+SKILL_DESC_91007524,"Das Cooldown für [Macht verleihen!!] wird um wird um 5 Sek. verringert und Heilungsrate und MP-Regeneration um 42 % erhöht."
+SKILL_DESC_91007525,"Das Cooldown für [Macht verleihen!!] wird um wird um 5 Sek. verringert und Heilungsrate und MP-Regeneration um 50 % erhöht."
+SKILL_DESC_91007530,"Der Schaden von [Schmerz stoppen!] wird um 20 % erhöht. Wenn du den Feind tötest, kannst du diesen Skill erneut einsetzen."
+SKILL_DESC_91007531,"Der Schaden von [Schmerz stoppen!] wird um 24 % erhöht. Wenn du den Feind tötest, kannst du diesen Skill erneut einsetzen."
+SKILL_DESC_91007532,"Der Schaden von [Schmerz stoppen!] wird um 29 % erhöht. Wenn du den Feind tötest, kannst du diesen Skill erneut einsetzen."
+SKILL_DESC_91007533,"Der Schaden von [Schmerz stoppen!] wird um 35 % erhöht. Wenn du den Feind tötest, kannst du diesen Skill erneut einsetzen."
+SKILL_DESC_91007534,"Der Schaden von [Schmerz stoppen!] wird um 42 % erhöht. Wenn du den Feind tötest, kannst du diesen Skill erneut einsetzen."
+SKILL_DESC_91007535,"Der Schaden von [Schmerz stoppen!] wird um 50 % erhöht. Wenn du den Feind tötest, kannst du diesen Skill erneut einsetzen."
+SKILL_DESC_91007540,"Der Schild von [Mächtige Vorfahren!!] wird um 20 % erhöht und auf alle Verbündeten angewendet."
+SKILL_DESC_91007541,"Der Schild von [Mächtige Vorfahren!!] wird um 24 % erhöht und auf alle Verbündeten angewendet."
+SKILL_DESC_91007542,"Der Schild von [Mächtige Vorfahren!!] wird um 29 % erhöht und auf alle Verbündeten angewendet."
+SKILL_DESC_91007543,"Der Schild von [Mächtige Vorfahren!!] wird um 35 % erhöht und auf alle Verbündeten angewendet."
+SKILL_DESC_91007544,"Der Schild von [Mächtige Vorfahren!!] wird um 42 % erhöht und auf alle Verbündeten angewendet."
+SKILL_DESC_91007545,"Der Schild von [Mächtige Vorfahren!!] wird um 50 % erhöht und auf alle Verbündeten angewendet."

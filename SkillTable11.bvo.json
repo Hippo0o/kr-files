@@ -2244,7 +2244,7 @@
     "TickTimeValue": [
       "0[1:7]",
       "2500[2:3]",
-      "3800[4:5]"
+      "3800[4:5:8]"
     ],
     "AttrType": "Physical",
     "TargetType": "Enemy",
@@ -2288,7 +2288,15 @@
     "OperationFlags7": [
       "WhileSkillUse",
       "Disabled"
-    ]
+    ],
+    "OperationType8": "ModSkillPowerR",
+    "OperationTargetType8": "Myself",
+    "OperationValue8": [
+      "93005211",
+      "1",
+      "1000"
+    ],
+    "OperationDurationMs8": 5000
   },
   {
     "Index": 5235,
@@ -19666,9 +19674,8 @@
       "2000[1:2:3:4:6]"
     ],
     "AttrType": "Physical",
-    "TargetType": "Enemy",
+    "TargetType": "MaxPhysicalPowerEnemy",
     "TargetCount": 1,
-    "MaxRangeMm": 9000,
     "DeadTarget": "False",
     "IgnoreBlock": "TRUE",
     "RetargetOnFire": "False",
@@ -20536,7 +20543,7 @@
     "OperationType2": "SuppressSkillCheck",
     "OperationTargetType2": "Myself",
     "OperationValue2": [
-      "9810|9830",
+      "93009800|9810|9830",
       "UsingSkillCheck"
     ],
     "OperationState2": "9845_2",

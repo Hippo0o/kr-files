@@ -1,903 +1,863 @@
-KEY,Vietnamese
+KEY,"Vietnamese"
 BASE_RESULT_TYPE.SUCCESS,"Yêu cầu của bạn đã được xử lý thành công. Mạng của bạn không ổn định, vui lòng thử lại sau."
-BASE_RESULT_TYPE.FAIL,Yêu cầu của bạn chưa được xử lý thành công do kết nối mạng không ổn định. Vui lòng thử lại sau.
-BASE_RESULT_TYPE.SESSION_ERROR,Bạn đã bị ngắt kết nối khỏi máy chủ do đứng yên quá lâu. Vui lòng khởi động lại trò chơi.
-BASE_RESULT_TYPE.ACCOUNT_ERROR,Tài khoản không đúng.
-BASE_RESULT_TYPE.UNHANDLED,Lệnh không thể xử lý được.
-BASE_RESULT_TYPE.EXCEPTION,Phát sinh lỗi nội bộ.
-BASE_RESULT_TYPE.HTTP_ERROR,Phát sinh lỗi trong lúc yêu cầu web
-BASE_RESULT_TYPE.PARSING_ERROR,Phân tích lệnh thất bại.
+BASE_RESULT_TYPE.FAIL,"Yêu cầu của bạn chưa được xử lý thành công do kết nối mạng không ổn định. Vui lòng thử lại sau."
+BASE_RESULT_TYPE.SESSION_ERROR,"Bạn đã bị ngắt kết nối khỏi máy chủ do đứng yên quá lâu. Vui lòng khởi động lại trò chơi."
+BASE_RESULT_TYPE.ACCOUNT_ERROR,"Tài khoản không đúng."
+BASE_RESULT_TYPE.UNHANDLED,"Lệnh không thể xử lý được."
+BASE_RESULT_TYPE.EXCEPTION,"Phát sinh lỗi nội bộ."
+BASE_RESULT_TYPE.HTTP_ERROR,"Phát sinh lỗi trong lúc yêu cầu web"
+BASE_RESULT_TYPE.PARSING_ERROR,"Phân tích lệnh thất bại."
 RESULT_TYPE.SUCCESS,"Yêu cầu của bạn đã được xử lý thành công. Mạng của bạn không ổn định, vui lòng thử lại sau."
-RESULT_TYPE.FAIL,Yêu cầu của bạn chưa được xử lý thành công do kết nối mạng không ổn định. Vui lòng thử lại sau.
-RESULT_TYPE.LEVEL_DATA_NOT_FOUND,Không thể tìm thấy thông tin cấp độ. 
-RESULT_TYPE.CANNOT_UPGRADE_MORE,Không thể cường hóa thêm được nữa.
-RESULT_TYPE.NOT_ENOUGH_GOLD,Thiếu vàng.
-RESULT_TYPE.NOT_ENOUGH_GEM,Thiếu Ruby.
-RESULT_TYPE.INSUFFICIENT_ITEM,Thiếu vật phẩm nguyên liệu.
-RESULT_TYPE.GRADE_DATA_NOT_FOUND,Không thể tìm thấy thông tin thứ hạng. 
-RESULT_TYPE.CANNOT_UPGRADE_YET,Chưa thể cường hóa được. 
-RESULT_TYPE.REQ_GOLD_NOT_FOUND,Không thể tìm thấy thông tin Vàng cần dùng.
-RESULT_TYPE.REQ_ITEM_DATA_NOT_FOUND,Không thể tìm thấy thông tin vật phẩm nguyên liệu cần dùng.
-RESULT_TYPE.SESSION_ERROR,Bạn đã bị ngắt kết nối khỏi máy chủ do đứng yên quá lâu. Vui lòng khởi động lại trò chơi.
-RESULT_TYPE.ACCOUNT_ERROR,Tài khoản không đúng.
-RESULT_TYPE.UNHANDLED,Chưa được xử lý.
-RESULT_TYPE.HTTP_ERROR,Yêu cầu web thất bại
-RESULT_TYPE.PARSING_ERROR,Lệnh đáp không đúng
-RESULT_TYPE.HERO_NOT_FOUND,Anh hùng không tồn tại.
-RESULT_TYPE.EQUIP_DATA_NOT_FOUND,Thông tin trang bị không tồn tại.
-RESULT_TYPE.EQUIP_NOT_OWNED,Bạn không sở hữu trang bị này.
-RESULT_TYPE.EQUIP_NOT_FOUND,Trang bị không tồn tại.
-RESULT_TYPE.EQUIPPED,Trang bị đã được mặc. 
-RESULT_TYPE.EQUIP_CODE_NOT_FOUND,Không thể tìm thấy mã trang bị.
-RESULT_TYPE.MAX_JOIN_REQUEST,Vượt quá số lần yêu cầu gia nhập. \n Hãy hủy một số yêu cầu trước và tiếp tục tiến hành.
-RESULT_TYPE.MAX_GUILD_MAX_JOIN_REQUEST,Vượt quá số yêu cầu của Guild mà bạn yêu cầu gia nhập.
-RESULT_TYPE.MATERIAL_EQUIP_ITEM_PRICE_ERROR,Giá cần dùng không đúng.
-RESULT_TYPE.NO_UPGRADABLE_MATERIAL_EQUIP_ITEM,Nguyên liệu trang bị không đúng.
-RESULT_TYPE.NOT_OWNED_MATERIAL_EQUIP_ITEM,Nguyên liệu trang bị không sở hữu.
-RESULT_TYPE.NOT_ENOUGH_TEAM_LEVEL,Cấp độ của đội thấp.
-RESULT_TYPE.MAX_MEMBER,Vượt quá số thành viên Guild.
-RESULT_TYPE.INVALID_RANK,Không đúng quyền hạn Guild.
-RESULT_TYPE.GUILD_JOIN_NOT_REQUESTED,Không thể tìm thấy thông tin yêu cầu gia nhập.
-RESULT_TYPE.NAME_DUPLICATED,Tên bị trùng.
-RESULT_TYPE.GUILD_MEMBER_EXIST,Thành viên Guild vẫn còn tồn tại.
-RESULT_TYPE.ALREADY_REGISTERED_MERCENARY,Anh hùng đã đăng kí làm lính thuê.
-RESULT_TYPE.MAX_MERCENARY,Vượt quá số đăng kí làm lính thuê tối đa.
-RESULT_TYPE.NOT_REGISTERED_MERCENARY,Lính thuê chưa được đăng kí.
-RESULT_TYPE.ALREADY_JOINED,Đã gia nhập vào Guild.
-RESULT_TYPE.LOG_NOT_FOUND,Kỉ lục trận đấu không tồn tại.
-RESULT_TYPE.INVALID_PLUNDER_RESULT,Kỉ lục trận đấu không đúng.
-RESULT_TYPE.ALREADY_CHASED,Đã đi truy kích.
-RESULT_TYPE.INVALID_CHAPTER_INDEX,Nơi làm nhiệm vụ không đúng.
-RESULT_TYPE.COLLECT_NODE_NOT_FOUND,Không thể tìm thấy địa điểm mục tiêu nhiệm vụ.
-RESULT_TYPE.COLLECT_ENDED,Đã kết thúc việc thu thập.
-RESULT_TYPE.DEAD_HERO_EXIST,Anh hùng đã tử mạng không thể cướp được.
-RESULT_TYPE.USER_CHASE_INFO_NOT_FOUND,Không thể tìm thấy thông tin truy kích.
-RESULT_TYPE.COLLECT_INFO_NOT_FOUND,Không thể tìm thấy thông tin nhiệm vụ viễn chinh. 
-RESULT_TYPE.INVALID_TEAM_SLOT,Thành viên nhóm nhiệm vụ viễn chinh không chính xác.
-RESULT_TYPE.ALREADY_HARVESTED,Nhiệm vụ đã hoàn thành.
-RESULT_TYPE.MAX_DAILY_QUICK_COMPLETE_COLLECT,Hôm nay bạn đã đạt được số lần hoàn thành nhanh nhất.
-RESULT_TYPE.COLLECT_NOT_ENDED,Nhiệm vụ vẫn chưa hết.
-RESULT_TYPE.RECORD_NOT_FOUND,Kỉ lục chơi lại không tồn tại.
-RESULT_TYPE.ALREADY_DEFEND_REWARDED,Đã nhận phần thưởng chống cướp đoạt.
-RESULT_TYPE.MAX_PLUNDER_DEFEND_REWARD,Bạn đã đạt đủ số phần thưởng chống cướp đoạt tối đa có thể nhận được.
-RESULT_TYPE.CHAPTER_NOT_COMPLETED,Chương này vẫn chưa hoàn thành.
-RESULT_TYPE.VIP_LEVEL_DATA_NOT_FOUND,Không thể tìm thấy dữ liệu cấp VIP.
-RESULT_TYPE.MAX_RES_COLLECT_TEAM,Hiện tại tất cả các đội đang làm nhiệm vụ.
-RESULT_TYPE.NOW_COLLECTING,Hiện nay đội đang làm nhiệm vụ.
-RESULT_TYPE.INVALID_HERO_INDEX,Anh hùng đang làm nhiệm vụ hoặc không có.
-RESULT_TYPE.CHAPTER_NOT_FOUND,Chương không tồn tại.
-RESULT_TYPE.DUNGEON_NOT_FOUND,Trận dungeon không tồn tại.
-RESULT_TYPE.EMPTY_HERO_INDICES,Anh hùng đang để trống.
-RESULT_TYPE.CANNOT_PLAY_DUNGEON,Không thể chơi trận này được. 
-RESULT_TYPE.NOT_ENOUGH_STAMINA,Thiếu Stamina.
-RESULT_TYPE.NOT_ENOUGH_PLAY_KEY,Thiếu chìa khóa.
-RESULT_TYPE.INVALID_DIFF,Mức độ khó không đúng.
-RESULT_TYPE.VERIFY_FAILED,Thất bại trong việc xác nhận.
-RESULT_TYPE.CHECK_FAILED,Thất bại trong việc kiểm tra.
-RESULT_TYPE.USER_CAMPAIGN_INFO_NOT_FOUND,Do có lỗi mạng nên máy chủ chậm trễ khi xử lý thông tin người dùng. Vui lòng thử lại sau.
-RESULT_TYPE.WRONG_CHAPTER_INDEX,Không thể sử dụng tính năng này.
-RESULT_TYPE.WRONG_DUNGEON_INDEX,Không thể sử dụng tính năng này.
-RESULT_TYPE.INVALID_STAR,Thông tin sao không đúng.
-RESULT_TYPE.ENCHANT_RESULT_NOT_FOUND,Thông tin đánh giá lại không tồn tại.
-RESULT_TYPE.EQUIP_ITEM_SLOT_INDEX_MISMATCH,Đối tượng đánh giá lại khác nhau.
-RESULT_TYPE.OPTION_SLOT_INDEX_MISMATCH,Ô trống tùy chọn để đánh giá lại khác nhau.
-RESULT_TYPE.OPTION_INDEX_MISMATCH,Kết quả tùy chọn để đánh giá lại khác nhau.
-RESULT_TYPE.PREV_OPTION_INDEX_MISMATCH,Tùy chọn đè lên khác với lần thử trước.
-RESULT_TYPE.INVALID_OPTION_SLOT,Ô trống tùy chọn không đúng.
-RESULT_TYPE.RANDOM_OPTION_DATA_ERROR,Thông tin tùy chọn ngẫu nhiên không đúng.
-RESULT_TYPE.NO_HERO,Anh hùng không tồn tại.
-RESULT_TYPE.HERO_DATA_NOT_FOUND,Không tồn tại thông tin anh hùng.
-RESULT_TYPE.ALREADY_OTHER_HERO_EQUIPPED,Bạn đã mặc cho anh hùng khác.
-RESULT_TYPE.ITEM_DATA_NOT_FOUND,Thông tin vật phẩm không tồn tại.
-RESULT_TYPE.EQUIP_ITEM_DATA_NOT_FOUND,Thông tin trang bị không tồn tại.
-RESULT_TYPE.EQUIP_TAG_ERROR,Việc gắn trang bị không đúng.
-RESULT_TYPE.TOO_LOW_GRADE,Thứ hạng quá thấp.
-RESULT_TYPE.TOO_LOW_LEVEL,Cấp độ quá thấp.
-RESULT_TYPE.LOCKED_PART_INDEX,Ô tróng trang bị đã khóa.
-RESULT_TYPE.EQUIP_PART_ERROR,Ô trống trang bị không thể đeo.
-RESULT_TYPE.REMOVE_FAILED,Thất bại trong việc gỡ bỏ.
-RESULT_TYPE.INVALID_HERO_PART_INDEX,Ô trống trang bị không đúng.
-RESULT_TYPE.ALREADY_UNLOCKED,Đã mở.
-RESULT_TYPE.UNLOCK_FAILED,Thất bại trong việc mở.
-RESULT_TYPE.EQUIP_ITEM_NOT_FOUND,Trang bị không tồn tại.
-RESULT_TYPE.UNEQUIP_FAILED,Thất bại trong việc gỡ trang bị.
-RESULT_TYPE.STAT_DATA_NOT_FOUND,Thông tin stat không tồn tại.
-RESULT_TYPE.EMPTY_MATERIAL_EQUIP_ITEM,Nguyên liệu còn trống.
-RESULT_TYPE.INVALID_MATERIAL_EQUIP_ITEM,Trang bị nguyên liệu không đúng.
-RESULT_TYPE.FRIEND_NOT_FOUND,Người chơi không tồn tại.
-RESULT_TYPE.REQUEST_MYSELF,Không thể yêu cầu với bản thân người chơi.
-RESULT_TYPE.CANNOT_SEARCH_MYSELF,Không thể tìm chính bản thân người chơi.
-RESULT_TYPE.GACHA_DATA_NOT_FOUND,Thông tin Gacha không tồn tại.
-RESULT_TYPE.WRONG_GACHA_INDEX,Số Gacha không đúng.
-RESULT_TYPE.WRONG_GACHA_COUNT,Số lượng Gacha không đúng.
-RESULT_TYPE.NO_MERCENARIES,Không có lính thuê.
-RESULT_TYPE.NO_GUILD,Không có Guild.
-RESULT_TYPE.INVAILID_RANK,Thứ tự xếp hạng không đúng.
-RESULT_TYPE.GUILD_MAX_JOIN_REQUEST,Vượt quá giới hạn về số lượng yêu cầu tối đa của Guild.
-RESULT_TYPE.TRIAL_DUNGEON_DATA_NOT_FOUND,Thông tin trận ở phòng thử thách không tồn tại. 
-RESULT_TYPE.NOT_PLAYER_HERO,Không phải trang bị bạn đang sở hữu.
-RESULT_TYPE.ITEM_NOT_OWNED,Không phải trang bị bạn đang sở hữu.
-RESULT_TYPE.ITEM_TYPE_MISMATCH,Chủng loại vật phẩm không giống nhau.
-RESULT_TYPE.POTION_DATA_NOT_FOUND,Thông tin nước phép không tồn tại.
-RESULT_TYPE.INVALID_ACTION,Động tác không đúng.
-RESULT_TYPE.RECIPE_DATA_NOT_FOUND,Thông tin công thức không tồn tại.
-RESULT_TYPE.MATERIAL_DATA_NOT_FOUND,Thông tin nguyên liệu không tồn tại.
-RESULT_TYPE.NOT_ENOUGH_MATERIAL,Nguyên liệu không đủ.
-RESULT_TYPE.MATCH_RESULT_NOT_FOUND,Kết quả trận đấu không tồn tại.
-RESULT_TYPE.MATCH_UID_MISMATCH,Số trận đấu không khớp.
-RESULT_TYPE.MATCHING_DISABLED,Đang tổng hợp kết quả trận đấu.
-RESULT_TYPE.NOT_ENOUGH_SWORD,Bạn đã dùng hết nguyên liệu vào trận nên không thể vào được nữa.
-RESULT_TYPE.MATCH_USER_NOT_FOUND,Không có thông tin người chơi tham gia.
-RESULT_TYPE.NPC_INFO_NOT_FOUND,Không có thông tin NPC.
-RESULT_TYPE.WAIT_MORE,Do có lỗi mạng nên máy chủ chậm trễ khi xử lý thông tin trận chiến. Vui lòng nhấn lại vào OK.
-RESULT_TYPE.NOT_ENOUGH_CHEESE,Thiếu phô mai.
-RESULT_TYPE.USER_PLUNDER_INFO_NOT_FOUND,Thông tin cướp đoạt không tồn tại.
-RESULT_TYPE.COLLECT_NODE_DATA_NOT_FOUND,Thông tin điểm vị trí thu thập không tồn tại.
-RESULT_TYPE.PLAYER_NOT_FOUND,Không tồn tại người chơi.
-RESULT_TYPE.V_I_P_LEVEL_DATA_NOT_FOUND,Thông tin cấp độ VIP không tồn tại.
-RESULT_TYPE.SHOP_DATA_NOT_FOUND,Thông tin cửa hàng không tồn tại.
-RESULT_TYPE.SHOP_ITEM_DATA_NOT_FOUND,Thông tin vật phẩm cửa hàng không tồn tại.
-RESULT_TYPE.PLAYER_SHOP_ITEM_NOT_FOUND,Không có thông tin vật phẩm cửa hàng của người chơi.
-RESULT_TYPE.SOLD_OUT,Đã bán.
-RESULT_TYPE.INVALID_COST,Giá không đúng.
-RESULT_TYPE.NO_ITEM_DATA,Thông tin vật phẩm không tồn tại.
-RESULT_TYPE.NOT_OWNED,Không sở hữu.
-RESULT_TYPE.INVALID_ITEM_COUNT,Số lượng vật phẩm không đúng.
-RESULT_TYPE.NOT_ENOUGH_STONE,Thiếu Tinh chất cường hóa.
-RESULT_TYPE.HERO_LEVEL_LIMIT,Cấp độ của anh hùng còn thiếu.
-RESULT_TYPE.SKILL_LEVEL_NOT_FOUND,Không có thông tin cấp độ kĩ năng.
-RESULT_TYPE.SKILL_PRICE_NOT_FOUND,Không có thông tin giá cả kĩ năng.
-RESULT_TYPE.TEAM_LEVEL_LIMIT,Cấp độ của anh hùng không thể vượt quá giới hạn.
-RESULT_TYPE.SKILL_NOT_FOUND,Kĩ năng không tồn tại.
-RESULT_TYPE.REQ_GOLD_ERROR,Số vàng cần dùng không đúng.
-RESULT_TYPE.STAR_DATA_NOT_FOUND,Thông tin sao không đúng.
-RESULT_TYPE.NO_TARGET_ACCOUNT_ID,Mã số của đối tượng người chơi không có.
-RESULT_TYPE.VERSION_ERROR,Phiên bản không đúng.
-RESULT_TYPE.MATCH_NOT_FOUND,Trận đấu không tồn tại.
-RESULT_TYPE.EQUIP_ITEM_FULL,Trang bị đầy.
-RESULT_TYPE.INVALID_GUILD_LEVEL,Cấp độ Guild không đúng.
-RESULT_TYPE.ALREADY_JOIN_REQUESTED,Đã yêu cầu tham gia.
-RESULT_TYPE.MIN_REGISTER_TIME_NOT_ELAPSED,Thời gian đăng kí tối thiểu chưa hết.
-RESULT_TYPE.RESULT_ITEM_DATA_NOT_FOUND,Thông tin vật phẩm kết quả không có.
-RESULT_TYPE.RESULT_EQUIP_ITEM_DATA_NOT_FOUND,Thông tin trang bị kết quả không có.
-RESULT_TYPE.MISSION_NOT_COMPLETED,Nhiệm vụ chưa hoàn thành.
-RESULT_TYPE.TYPE_ERROR,Nhập thông tin sai.
-RESULT_TYPE.INFO_ERROR,Thông tin không đúng.
-RESULT_TYPE.ACCOUNT_IDS_ERROR,Số tài khoản không đúng.
-RESULT_TYPE.NOT_ENOUGH_PVP_COIN,Thiếu điểm PVP.
-RESULT_TYPE.EMPTY_NICK,Tên còn để trống.
-RESULT_TYPE.INVALID_NICK,Tên không thể sử dụng được.
-RESULT_TYPE.ALREADY_EXIST,Tên đã tồn tại.
-RESULT_TYPE.TOO_SHORT_NICK,Tên quá ngắn.
-RESULT_TYPE.TOO_LONG_NICK,Tên quá dài.
-RESULT_TYPE.CENSORED_WORD,Tên có chứa từ lóng.
-RESULT_TYPE.NOT_ENOUGH_CHALLENGE_CHANCE,Không thể thử thêm được.
-RESULT_TYPE.NOT_ENOUGH_DUNGEON_KEY,Thiếu chìa khóa vào trận.
-RESULT_TYPE.NOT_OPENED_DUNGEON,Trận đấu đang không mở.
-RESULT_TYPE.REQ_GEM_ERROR,Không có ruby cần dùng.
-RESULT_TYPE.WAITER_NOT_FOUND,Không thể tìm thấy thông tin đang đợi.
-RESULT_TYPE.MISSION_NOT_CLEARED,Nhiệm vụ chưa hoàn thành.
-RESULT_TYPE.DUNGEON_DATA_NOT_FOUND,Thông tin trận đấu không tồn tại.
-RESULT_TYPE.NO_AVAILABLE_SERVER,Không có server nào có thể vào.
-RESULT_TYPE.UNEQUIP_OLD_FAILED,Không thể gỡ bỏ trang bị đang có.
-RESULT_TYPE.EQUIP_FAILED,Mặc trang bị thất bại.
-RESULT_TYPE.NO_SHOP_DATA,Không thể tìm thấy thông tin cửa hàng.
-BASE_RESULT_TYPE.TIMEOUT,Không có hồi đáp từ server.
-BASE_RESULT_TYPE.SEQUENCE_ERROR,Do có lỗi mạng nên máy chủ chậm trễ khi xử lý thông tin người dùng. Vui lòng thử lại sau.
-BASE_RESULT_TYPE.INTERNAL_ERROR,Lỗi nội bộ.
-BASE_RESULT_TYPE.EMPTY_HOST,Host không tồn tại.
-RESULT_TYPE.ACHIEVEMENT_NOT_CLEARED,Chưa hoàn thành Thành tựu.
-RESULT_TYPE.INVALID_STEP,Bạn đã nhận phần thưởng này.
-RESULT_TYPE.NO_PRIVILEGE,Không có quyền hạn.
-RESULT_TYPE.INVALID_HOST,Host không đúng.
-RESULT_TYPE.MASTER_NOT_FOUND,Chủ phòng không tồn tại.
-RESULT_TYPE.MULTIPLAY_INFO_NOT_FOUND,Thông tin chơi của thành viên không tồn tại.
-RESULT_TYPE.WRONG_MEMBER,Thành viên nhóm không đúng.
-RESULT_TYPE.ALREADY_REWARD_CALCULATED,Phần thưởng đã được quyết định.
-RESULT_TYPE.LINKED_DUNGEON_NOT_FOUND,Trận liên kết không tồn tại.
-RESULT_TYPE.ALREADY_COMPLETED,Đã hoàn thành.
-RESULT_TYPE.DUNGEON_TYPE_ERROR,Loại hình trận đấu không đúng.
-RESULT_TYPE.CANNOT_VISIT_DUNGEON,Trận đấu không thể vào xem được.
-RESULT_TYPE.INVALID_TRIAL_HERO,Anh hùng trận thử thách không đúng.
-RESULT_TYPE.WORLD_MAP_EVENT_NOT_FOUND,Sự kiện bản đồ thế giới không tồn tại.
-RESULT_TYPE.EVENT_DUNGEON_INDEX_MISMATCH,Số trận sự kiện không đúng.
-RESULT_TYPE.NOT_ENOUGH_MULTIPLAY_MEMBERS,Thiếu thành viên.
-RESULT_TYPE.NOT_CALCULATED,Chưa quyết định xong.
-RESULT_TYPE.ALREADY_REWARDED,Phần thưởng đã phát.
-RESULT_TYPE.NOT_SAME_DEVELOPER_PAYLOAD,Thông tin thanh toán (DeveloperPayload) không nhất trí nên đã bị hủy.
-RESULT_TYPE.NOT_SAME_PRODUCT_ID,Thông tinh thanh toán (ProductId) không nhất trí nên thanh toán đã bị hủy.
-RESULT_TYPE.WRONG_PURCHASE_STATUS,Thanh toán đã bị hủy vi thông tin thanh toán (PurchaseStatus) không đúng.
-RESULT_TYPE.VERIFICATION_FAILED,Thanh toán bị hủy vì thất bại trong việc kiểm chứng thanh toán.
-RESULT_TYPE.INVALID_CONSUMPTION_STATE,Thanh toán bị hủy vì thông tin thanh toán (ConsumptionState) không đúng.
-RESULT_TYPE.NOT_MONTHLY_ENDED,Chưa thể mua gói hàng tháng.
-RESULT_TYPE.HAVE_PLAY_CHANCE,Hiện tại vẫn còn cơ hội để thử nên không thể mua được.
-RESULT_TYPE.INVALID_DUNGEON_INDEX,Số trận không đúng.
-RESULT_TYPE.CANNOT_AWAKEN_YET,Chưa thể cường hóa được. 
-RESULT_TYPE.CANNOT_AWAKEN_MORE,Không thể cường hóa thêm.
-RESULT_TYPE.RUNE_ITEM_NOT_OWNED,Vật phẩm cổ tự không sở hữu.
-RESULT_TYPE.SAME_RUNE_EQUIPPED,Đang trang bị cổ tự đồng nhất.
-RESULT_TYPE.ALEADY_OCCUPIED,Đã phân chia.
-RESULT_TYPE.PRESERVE_PRICE_ERROR,Giá lưu trữ không đúng.
-RESULT_TYPE.RUNE_ITEM_DATA_NOT_FOUND,Thông tin vật phẩm cổ tự không tồn tại.
-RESULT_TYPE.RUNE_DATA_NOT_FOUND,Thông tin cổ tự không tồn tại.
-RESULT_TYPE.PART_TYPE_ERROR,Bộ phận không đúng.
-RESULT_TYPE.NO_EQUIPPED_RUNE,Cổ tự không được trang bị.
-RESULT_TYPE.HERO_ALREADY_EXIST,Anh hùng đã tồn tại.
-RESULT_TYPE.SKILL_NOT_LEARNED,Bạn chưa học kĩ năng này.
-RESULT_TYPE.INVALID_SKILL_EXTEND,Mở rộng kĩ năng không đúng.
-RESULT_TYPE.NOT_ENOUGH_ITEM,Thiếu vật phẩm.
-RESULT_TYPE.BOOK_ITEM_DATA_NOT_FOUND,Thông tin vật phẩm sách không tồn tại.
-RESULT_TYPE.SKILL_ALREADY_LEARNED,Kĩ năng đã học.
-RESULT_TYPE.MAX_PURIFIED,Bạn đã thanh tẩy tối đa.
-RESULT_TYPE.MAX_HERO_STAR,Anh hùng đang ở trạng thái cường hóa tối đa.
-RESULT_TYPE.NO_AWAKE_MATERIAL,Không có nguyên liệu cường hóa.
-RESULT_TYPE.PURIFY_DATA_NOT_FOUND,Thông tin thanh tẩy không tồn tại.
-RESULT_TYPE.INVALID_PURIFY_DATA,Dữ liệu thanh tẩy không đúng.
-RESULT_TYPE.TRANSCEND_SKILL_LEVEL_DATA_NOT_FOUND,Dữ liệu siêu việt kĩ năng không tồn tại.
-RESULT_TYPE.MAX_TRANSCEND_SKILL_LEVEL,Kĩ năng đã được siêu việt tối đa.
-RESULT_TYPE.TRANSCEND_SKILL_LEVEL_PRICE_DATA_NOT_FOUND,Giá siêu việt kĩ năng không tồn tại.
-RESULT_TYPE.NOT_MAX_HERO_STAR,Anh hùng chưa được cường hóa tới mức tối đa.
-RESULT_TYPE.INVALID_TRANSCEND_COUNT,Số lượng siêu việt không đúng.
-RESULT_TYPE.GRADE_TOO_LOW,Thứ hạng quá thấp.
-RESULT_TYPE.CREATURE_DATA_NOT_FOUND,Thông tin anh hùng không tồn tại.
-RESULT_TYPE.UPGRADE_BOOK_DATA_NOT_FOUND,Thông tin sách cường hóa không tồn tại.
-RESULT_TYPE.MATCH_PLAYER_NOT_FOUND,Đối tượng quyết đấu không tồn tại.
-RESULT_TYPE.INVALID_SHOP_DATA,Thông tin cửa hàng không đúng.
-RESULT_TYPE.NOT_GUILD_MEMBER,Không phải thành viên Guild.
-RESULT_TYPE.NOT_ENOUGH_GUILD_POINT,Thiếu điểm Guild.
-RESULT_TYPE.INVALID_SHOP_ITEM_LIST_INDEX,Số mục lục cửa hàng không đúng.
-RESULT_TYPE.INVALID_ITEM_TYPE,Chủng loại vật phẩm không đúng.
-RESULT_TYPE.HERO_SHOP_SLOT_EXCEEDED,Vị trí cửa hàng anh hùng vượt quá mức tối đa.
-RESULT_TYPE.INVALID_HERO_SHOP_SLOT,Vị trí cửa hàng anh hùng không đúng.
-RESULT_TYPE.NO_SHOP_ITEM_INFO,Thông tin vật phẩm cửa hàng không tồn tại.
-RESULT_TYPE.NO_SHOP_ITEM_DATA,Dữ liệu vật phẩm cửa hàng không tồn tại.
-RESULT_TYPE.NO_SELL_COUNT,Không có số lượng bán ra.
-RESULT_TYPE.ALREADY_OPENED_CLASS,Class đã được mở.
-RESULT_TYPE.NOT_OPENED_CLASS_DUNGEON,Trận đấu của class này chưa được mở.
-RESULT_TYPE.ALREADY_GET_CHALLENGE,Bạn đã thử thách rồi.
-RESULT_TYPE.ALREADY_HAVE_MATERIAL,Bạn đã có nguyên liệu này.
-RESULT_TYPE.INVALID_HERO_CLASS,Class không đúng.
-RESULT_TYPE.TUTORIAL_DATA_NOT_FOUND,Dữ liệu hướng dẫn không tồn tại.
-RESULT_TYPE.RETRY,Thử lại
-RESULT_TYPE.NOT_IMPLEMENTED_METHOD,Phương thức không thể thực hiện được.
-RESULT_TYPE.INVALID_QUEST_INDEX,Số nhiệm vụ không đúng.
-RESULT_TYPE.QUEST_INFO_NOT_FOUND,Không thể tìm thấy thông tin nhiệm vụ.
-RESULT_TYPE.QUEST_NOT_CLEARED,Bạn vẫn chưa hoàn thành nhiệm vụ.
-RESULT_TYPE.NOT_COMPLETED,Chưa hoàn thành.
-RESULT_TYPE.EMPTY_DUNGEON_INDICES,Số trận còn trống.
-RESULT_TYPE.EVENT_INDEX_COUNT_MISMATCH,Số lượng sự kiện không đồng nhất.
-RESULT_TYPE.MAX_DAILY_COUNT,Vượt quá số lần trong ngày.
-RESULT_TYPE.ALREADY_VISITED,Đã ghé thăm.
-RESULT_TYPE.INVALID_MATERIAL_ITEM,Vật phẩm nguyên vật liệu không đúng.
-RESULT_TYPE.INVALID_REQ_ITEM_EXP_DATA,Điểm kinh nghiệm vật phẩm cần dùng không đúng.
-RESULT_TYPE.SAME_BOOSTER_APPLIED,Hiệu quá bộ tăng đồng nhất có tồn tại.
-RESULT_TYPE.PACKAGE_DATA_NOT_FOUND,Dữ liệu sản phẩm Gói không tồn tại.
-RESULT_TYPE.INVALID_ITEM_INDEX,Số vật phẩm không đúng.
-RESULT_TYPE.INVALID_ITEM_DATA,Dữ liệu vật phẩm không đúng.
-RESULT_TYPE.INVALID_ACCOUNT_ID,Số tài khoản không đúng.
-RESULT_TYPE.REWARD_TIME_ENDED,Đã quá thời gian nhận phần thưởng.
-RESULT_TYPE.CHECKING_INTEGRITY,Kết quả trận chiến vẫn đang được xử lý. Vui lòng thử lại sau.
-RESULT_TYPE.BATTLE_SERVER_NOT_FOUND,Tình trạng mạng không ổn định. Vui lòng đến nơi có chất lượng tín hiệu tốt hơn và kết nối lại với trò chơi.
-RESULT_TYPE.TOWER_DATA_NOT_FOUND,Thông tin tháp không tồn tại.
-RESULT_TYPE.TOWER_FLOOR_DATA_NOT_FOUND,Thông tin của tầng này không tồn tại.
-RESULT_TYPE.CANNOT_ENTER_TOWER_FLOOR,Không thể vào tầng này.
-RESULT_TYPE.TOWER_CHAPTER_MISMATCH,Chương tháp không đồng nhất.
-RESULT_TYPE.TOWER_DUNGEON_MISMATCH,Trận tháp không tồn tại.
-RESULT_TYPE.TOWER_TEAM_LEVEL_LIMIT,Cấp độ nhóm còn thấp nên không thể vào tầng này.
-RESULT_TYPE.TOWER_REQ_DUNGEON_NOT_COMPLETED,Bạn vẫn chưa hoàn thành trận trước đó để vào tháp.
-RESULT_TYPE.NOT_ENOUGH_TOWER_COST,Thiếu hàng hóa để vào tháp.
-RESULT_TYPE.DIED_HERO_CACHE,Anh hùng đã tử mạng.
-RESULT_TYPE.MISSING_BATTLE_LOG,Kỉ lục trận đấu chưa được nhập vào.
-RESULT_TYPE.MISSING_CREATURE_INFO,Thông tin anh hùng chưa được cập nhật.
-RESULT_TYPE.REQUEST_INTEGRITY_CHECK_ERROR,Lỗi yêu cầu xác nhận toàn vẹn dữ liệu.
-RESULT_TYPE.MISSING_TOWER_CREATURE_INFO,Thông tin anh hùng ở tháp chưa được cập nhật.
-RESULT_TYPE.PARSING_TOWER_CREATURE_INFO_ERROR,Không thể giải nghĩa thông tin anh hùng ở tháp.
-RESULT_TYPE.EMPTY_TOWER_ENTER_HEROES,Thông tin anh hùng vào tháp chưa được nhập.
-RESULT_TYPE.TOWER_NOT_PLAYED,Tháp không hoạt động.
-RESULT_TYPE.PLAYER_TOWER_NOT_FOUND,Không thể tìm thấy thông tin tháp đang tiến hành.
-RESULT_TYPE.CANNOT_RESET_MORE,Không thể khởi tạo lại thêm được.
-RESULT_TYPE.NOT_ENOUGH_COST,Thiếu hàng hóa.
-RESULT_TYPE.CLOSED_DUNGEON,Trận đã đóng.
-RESULT_TYPE.OPENED_DUNGEON,Trận đã mở.
-RESULT_TYPE.QUEST_DATA_NOT_FOUND,Dữ liệu nhiệm vụ không tồn tại.
-RESULT_TYPE.NOT_ACCEPTABLE,Không thể đồng ý.
-RESULT_TYPE.CANNOT_GIVEUP,Không thể từ bỏ.
-RESULT_TYPE.NOT_REWARDABLE,Không thể nhận phần thưởng.
-RESULT_TYPE.EQUIP_FULL,Trang bị đã đầy.
-RESULT_TYPE.VIPLEVEL_DATA_NOT_FOUND,Dữ liệu VIP không tồn tại.
-RESULT_TYPE.MISSING_LANGUAGE,Chưa nhập ngôn ngữ.
-RESULT_TYPE.CANNOT_LINK_GUEST,Không thể liên kết tài khoản với khách.
-RESULT_TYPE.ALREADY_LINKED_ID,Tài khoản mạng xã hội hiện tại đang ở trạng thái liên kết với tài khoản King's Raid khác.
-RESULT_TYPE.SERVER_CLOSING,Đang trong quá trình chuẩn bị dịch vụ. Vui lòng đợi trong chốc lát.
-RESULT_TYPE.INVALID_SHOP_INDEX,Số cửa hàng không đúng.
-RESULT_TYPE.EXCEEDED_PURCHASABLE_COUNT,Vượt quá số lần mua.
-RESULT_TYPE.INVALID_REWARD_DATA,Dữ liệu phần thưởng không đúng.
-RESULT_TYPE.TOWER_NPC_NOT_FOUND,NPC của tháp không tồn tại.
-RESULT_TYPE.TOWER_NPC_SLOT_NOT_FOUND,NPC của tầng này không tồn tại.
-RESULT_TYPE.TOWER_NPC_INFO_NOT_FOUND,Thông tin NPC của tầng này không tốn tại.
-RESULT_TYPE.WRONG_TOWER_REWARD_NO,Số phần thưởng của tháp sai.
-RESULT_TYPE.WRONG_DIFFICULTY,Độ khó không đúng.
-RESULT_TYPE.DIFFICULTY_MISMATCH,Độ khó không đồng nhất.
-RESULT_TYPE.MISSING_BATTLE_TYPE,Chưa nhập hình thức trận đấu. 
-RESULT_TYPE.NOT_YET_CLEARED,Chưa hoàn thành.
-RESULT_TYPE.INVALID_DUNGEON_DIFFICULTY,Độ khó trận đấu không đúng.
-RESULT_TYPE.WRONG_DUNGEON_DIFFICULTY,Độ khó trận đấu không đúng.
-RESULT_TYPE.MAX_UNDERGROUND_PRISON_KEY,Đầy chìa khóa.
-RESULT_TYPE.EQUIP_GRADE_DATA_NOT_FOUND,Dữ liệu thứ hạng trang bị không tồn tại.
-RESULT_TYPE.NOT_FOR_SALE,Không thể bán.
-RESULT_TYPE.EQUIP_CREATURE_ERROR,Không có anh hùng trang bị được.
-RESULT_TYPE.UPGRADE_DATA_NOT_FOUND,Dữ liệu cường hóa không tồn tại.
-RESULT_TYPE.MATERIAL_ITEM_INDEX_MISMATCH,Số vật phẩm nguyên liệu không đồng nhất.
-RESULT_TYPE.MATERIAL_ITEM_COUNT_MISMATCH,Số lượng vật phẩm nguyên liệu không đồng nhất.
-RESULT_TYPE.NOT_ENOUGH_MATERIAL_ITEM,Thiếu nguyên vật liệu.
-RESULT_TYPE.INVALID_REQ_GOLD,Thiếu vàng cần dùng.
-RESULT_TYPE.NO_UPGRADABLE_OPTION_SLOT,Vị trí tùy chọn không thể cường hóa được.
-RESULT_TYPE.INVALID_ITEM_CODE,Mã số vật phẩm không đúng.
-RESULT_TYPE.INVALID_EQUIP_STAR_RATE,Tỉ lệ sao không đúng.
-RESULT_TYPE.MY_FRIEND_FULL,Danh sách bạn bè đã đầy.
-RESULT_TYPE.TARGET_FRIEND_FULL,Danh sách bạn bè của đối phương đã đầy.
-RESULT_TYPE.TARGET_FRIEND_WAIT_FULL,Danh sách yêu cầu của đối phương đã đầy.
-RESULT_TYPE.ENHANCE_ITEM_INDEX_ERROR,Số đá siêu việt không đúng.
-RESULT_TYPE.NOT_ENOUGH_ENHANCE_ITEM,Số lượng đá siêu việt không đúng.
-RESULT_TYPE.CANNOT_ENHANCE_MORE,Không thể siêu việt thêm.
-RESULT_TYPE.AWAKE_CHALLENGE_DATA_ERROR,Không thể tìm thấy thông tin đá cường hóa.
-RESULT_TYPE.AWAKE_ITEM_DATA_ERROR,Không thể tìm thấy dữ liệu vật phẩm đá cường hóa.
-RESULT_TYPE.NOT_ENOUGH_AWAKE_ITEM,Thiếu số đá cường hóa.
-RESULT_TYPE.HERO_SELECT_DATA_NOT_FOUND,Không thể tìm thấy dữ liệu chọn anh hùng.
-RESULT_TYPE.INVALID_HERO_EXP,Điểm kinh nghiệm của anh hùng không đúng.
-RESULT_TYPE.HERO_NOT_OWNED,Anh hùng không sở hữu.
-RESULT_TYPE.MAX_HERO_LEVEL,Cấp độ của anh hùng đạt mức tối đa.
-RESULT_TYPE.MAIL_NOT_FOUND,Thư không tồn tại.
-RESULT_TYPE.MISSING_COUPON_CODE,Chưa nhập mã số coupon.
-RESULT_TYPE.MISSING_COUNTRY_CODE,Chưa nhập mã số quốc gia.
-RESULT_TYPE.COUPON_NOT_FOUND,Số coupon không đúng.
-RESULT_TYPE.ALREADY_RECEIVED,Đã nhận thưởng.
-RESULT_TYPE.COUNTRY_CODE_MISMATCH,Mã số quốc gia không đồng nhất.
-RESULT_TYPE.COUPON_EXPIRED,Không thể sử dụng vì đã hết thời gian.
-RESULT_TYPE.PROMOTION_NOT_FOUND,Không thể tìm thấy thông tin quảng bá.
-RESULT_TYPE.ALREADY_USED_PROMOTION,Sự kiện quảng bá đã tham gia.
-RESULT_TYPE.REWARD_NOT_SELECTED,Chưa chọn phần thưởng.
-RESULT_TYPE.INVALID_REWARD_INDEX,Số phần thưởng không đúng.
-RESULT_TYPE.ALREADY_PURCHASED,Bạn đã mua.
-RESULT_TYPE.NOT_ENOUGH_MILEAGE,Thiếu milleage.
-RESULT_TYPE.NOT_ENOUGH_ROYAL_POINT,Thiếu điểm mộ cổ hoàng gia.
-RESULT_TYPE.NOT_ENCRYPTED,Chưa được mật mã hóa.
-RESULT_TYPE.SALT_ERROR,Tình trạng kết nối mạng không tốt nên không thể nhận mã số xác nhận.
-RESULT_TYPE.NO_SECURE_KEY,NO_SECURE_KEY
-RESULT_TYPE.SALT_NOT_DECRYPTED,SALT_NOT_DECRYPTED
-RESULT_TYPE.KEY_NOT_DECRYPTED,KEY_NOT_DECRYPTED
-RESULT_TYPE.SALT_MISMATCH,SALT_MISMATCH
-RESULT_TYPE.LOGIN_ID_NOT_DECRYPTED,LOGIN_ID_NOT_DECRYPTED
-RESULT_TYPE.DECRYPT_FAIL,DECRYPT_FAIL
-BASE_RESULT_TYPE.OFFLINE,Bạn chưa kết nối mạng.
-RESULT_TYPE.INVALID_GACHA_REQUEST,Xảy ra lỗi trong lúc triệu hồi trang bị.\n Xin mời thử lại.
+RESULT_TYPE.FAIL,"Yêu cầu của bạn chưa được xử lý thành công do kết nối mạng không ổn định. Vui lòng thử lại sau."
+RESULT_TYPE.LEVEL_DATA_NOT_FOUND,"Không thể tìm thấy thông tin cấp độ. "
+RESULT_TYPE.CANNOT_UPGRADE_MORE,"Không thể cường hóa thêm được nữa."
+RESULT_TYPE.NOT_ENOUGH_GOLD,"Thiếu vàng."
+RESULT_TYPE.NOT_ENOUGH_GEM,"Thiếu Ruby."
+RESULT_TYPE.INSUFFICIENT_ITEM,"Thiếu vật phẩm nguyên liệu."
+RESULT_TYPE.GRADE_DATA_NOT_FOUND,"Không thể tìm thấy thông tin thứ hạng. "
+RESULT_TYPE.CANNOT_UPGRADE_YET,"Chưa thể cường hóa được. "
+RESULT_TYPE.REQ_GOLD_NOT_FOUND,"Không thể tìm thấy thông tin Vàng cần dùng."
+RESULT_TYPE.REQ_ITEM_DATA_NOT_FOUND,"Không thể tìm thấy thông tin vật phẩm nguyên liệu cần dùng."
+RESULT_TYPE.SESSION_ERROR,"Bạn đã bị ngắt kết nối khỏi máy chủ do đứng yên quá lâu. Vui lòng khởi động lại trò chơi."
+RESULT_TYPE.ACCOUNT_ERROR,"Tài khoản không đúng."
+RESULT_TYPE.UNHANDLED,"Chưa được xử lý."
+RESULT_TYPE.HTTP_ERROR,"Yêu cầu web thất bại"
+RESULT_TYPE.PARSING_ERROR,"Lệnh đáp không đúng"
+RESULT_TYPE.HERO_NOT_FOUND,"Anh hùng không tồn tại."
+RESULT_TYPE.EQUIP_DATA_NOT_FOUND,"Thông tin trang bị không tồn tại."
+RESULT_TYPE.EQUIP_NOT_OWNED,"Bạn không sở hữu trang bị này."
+RESULT_TYPE.EQUIP_NOT_FOUND,"Trang bị không tồn tại."
+RESULT_TYPE.EQUIPPED,"Trang bị đã được mặc. "
+RESULT_TYPE.EQUIP_CODE_NOT_FOUND,"Không thể tìm thấy mã trang bị."
+RESULT_TYPE.MAX_JOIN_REQUEST,"Vượt quá số lần yêu cầu gia nhập. \n Hãy hủy một số yêu cầu trước và tiếp tục tiến hành."
+RESULT_TYPE.MAX_GUILD_MAX_JOIN_REQUEST,"Vượt quá số yêu cầu của Guild mà bạn yêu cầu gia nhập."
+RESULT_TYPE.MATERIAL_EQUIP_ITEM_PRICE_ERROR,"Giá cần dùng không đúng."
+RESULT_TYPE.NO_UPGRADABLE_MATERIAL_EQUIP_ITEM,"Nguyên liệu trang bị không đúng."
+RESULT_TYPE.NOT_OWNED_MATERIAL_EQUIP_ITEM,"Nguyên liệu trang bị không sở hữu."
+RESULT_TYPE.NOT_ENOUGH_TEAM_LEVEL,"Cấp độ của đội thấp."
+RESULT_TYPE.MAX_MEMBER,"Vượt quá số thành viên Guild."
+RESULT_TYPE.INVALID_RANK,"Không đúng quyền hạn Guild."
+RESULT_TYPE.GUILD_JOIN_NOT_REQUESTED,"Không thể tìm thấy thông tin yêu cầu gia nhập."
+RESULT_TYPE.NAME_DUPLICATED,"Tên bị trùng."
+RESULT_TYPE.GUILD_MEMBER_EXIST,"Thành viên Guild vẫn còn tồn tại."
+RESULT_TYPE.ALREADY_REGISTERED_MERCENARY,"Anh hùng đã đăng kí làm lính thuê."
+RESULT_TYPE.MAX_MERCENARY,"Vượt quá số đăng kí làm lính thuê tối đa."
+RESULT_TYPE.NOT_REGISTERED_MERCENARY,"Lính thuê chưa được đăng kí."
+RESULT_TYPE.ALREADY_JOINED,"Đã gia nhập vào Guild."
+RESULT_TYPE.LOG_NOT_FOUND,"Kỉ lục trận đấu không tồn tại."
+RESULT_TYPE.INVALID_PLUNDER_RESULT,"Kỉ lục trận đấu không đúng."
+RESULT_TYPE.ALREADY_CHASED,"Đã đi truy kích."
+RESULT_TYPE.INVALID_CHAPTER_INDEX,"Nơi làm nhiệm vụ không đúng."
+RESULT_TYPE.COLLECT_NODE_NOT_FOUND,"Không thể tìm thấy địa điểm mục tiêu nhiệm vụ."
+RESULT_TYPE.COLLECT_ENDED,"Đã kết thúc việc thu thập."
+RESULT_TYPE.DEAD_HERO_EXIST,"Anh hùng đã tử mạng không thể cướp được."
+RESULT_TYPE.USER_CHASE_INFO_NOT_FOUND,"Không thể tìm thấy thông tin truy kích."
+RESULT_TYPE.COLLECT_INFO_NOT_FOUND,"Không thể tìm thấy thông tin nhiệm vụ viễn chinh. "
+RESULT_TYPE.INVALID_TEAM_SLOT,"Thành viên nhóm nhiệm vụ viễn chinh không chính xác."
+RESULT_TYPE.ALREADY_HARVESTED,"Nhiệm vụ đã hoàn thành."
+RESULT_TYPE.MAX_DAILY_QUICK_COMPLETE_COLLECT,"Hôm nay bạn đã đạt được số lần hoàn thành nhanh nhất."
+RESULT_TYPE.COLLECT_NOT_ENDED,"Nhiệm vụ vẫn chưa hết."
+RESULT_TYPE.RECORD_NOT_FOUND,"Kỉ lục chơi lại không tồn tại."
+RESULT_TYPE.ALREADY_DEFEND_REWARDED,"Đã nhận phần thưởng chống cướp đoạt."
+RESULT_TYPE.MAX_PLUNDER_DEFEND_REWARD,"Bạn đã đạt đủ số phần thưởng chống cướp đoạt tối đa có thể nhận được."
+RESULT_TYPE.CHAPTER_NOT_COMPLETED,"Chương này vẫn chưa hoàn thành."
+RESULT_TYPE.VIP_LEVEL_DATA_NOT_FOUND,"Không thể tìm thấy dữ liệu cấp VIP."
+RESULT_TYPE.MAX_RES_COLLECT_TEAM,"Hiện tại tất cả các đội đang làm nhiệm vụ."
+RESULT_TYPE.NOW_COLLECTING,"Hiện nay đội đang làm nhiệm vụ."
+RESULT_TYPE.INVALID_HERO_INDEX,"Anh hùng đang làm nhiệm vụ hoặc không có."
+RESULT_TYPE.CHAPTER_NOT_FOUND,"Chương không tồn tại."
+RESULT_TYPE.DUNGEON_NOT_FOUND,"Trận dungeon không tồn tại."
+RESULT_TYPE.EMPTY_HERO_INDICES,"Anh hùng đang để trống."
+RESULT_TYPE.CANNOT_PLAY_DUNGEON,"Không thể chơi trận này được. "
+RESULT_TYPE.NOT_ENOUGH_STAMINA,"Thiếu Stamina."
+RESULT_TYPE.NOT_ENOUGH_PLAY_KEY,"Thiếu chìa khóa."
+RESULT_TYPE.INVALID_DIFF,"Mức độ khó không đúng."
+RESULT_TYPE.VERIFY_FAILED,"Thất bại trong việc xác nhận."
+RESULT_TYPE.CHECK_FAILED,"Thất bại trong việc kiểm tra."
+RESULT_TYPE.USER_CAMPAIGN_INFO_NOT_FOUND,"Do có lỗi mạng nên máy chủ chậm trễ khi xử lý thông tin người dùng. Vui lòng thử lại sau."
+RESULT_TYPE.WRONG_CHAPTER_INDEX,"Không thể sử dụng tính năng này."
+RESULT_TYPE.WRONG_DUNGEON_INDEX,"Không thể sử dụng tính năng này."
+RESULT_TYPE.INVALID_STAR,"Thông tin sao không đúng."
+RESULT_TYPE.ENCHANT_RESULT_NOT_FOUND,"Thông tin đánh giá lại không tồn tại."
+RESULT_TYPE.EQUIP_ITEM_SLOT_INDEX_MISMATCH,"Đối tượng đánh giá lại khác nhau."
+RESULT_TYPE.OPTION_SLOT_INDEX_MISMATCH,"Ô trống tùy chọn để đánh giá lại khác nhau."
+RESULT_TYPE.OPTION_INDEX_MISMATCH,"Kết quả tùy chọn để đánh giá lại khác nhau."
+RESULT_TYPE.PREV_OPTION_INDEX_MISMATCH,"Tùy chọn đè lên khác với lần thử trước."
+RESULT_TYPE.INVALID_OPTION_SLOT,"Ô trống tùy chọn không đúng."
+RESULT_TYPE.RANDOM_OPTION_DATA_ERROR,"Thông tin tùy chọn ngẫu nhiên không đúng."
+RESULT_TYPE.NO_HERO,"Anh hùng không tồn tại."
+RESULT_TYPE.HERO_DATA_NOT_FOUND,"Không tồn tại thông tin anh hùng."
+RESULT_TYPE.ALREADY_OTHER_HERO_EQUIPPED,"Bạn đã mặc cho anh hùng khác."
+RESULT_TYPE.ITEM_DATA_NOT_FOUND,"Thông tin vật phẩm không tồn tại."
+RESULT_TYPE.EQUIP_ITEM_DATA_NOT_FOUND,"Thông tin trang bị không tồn tại."
+RESULT_TYPE.EQUIP_TAG_ERROR,"Việc gắn trang bị không đúng."
+RESULT_TYPE.TOO_LOW_GRADE,"Thứ hạng quá thấp."
+RESULT_TYPE.TOO_LOW_LEVEL,"Cấp độ quá thấp."
+RESULT_TYPE.LOCKED_PART_INDEX,"Ô tróng trang bị đã khóa."
+RESULT_TYPE.EQUIP_PART_ERROR,"Ô trống trang bị không thể đeo."
+RESULT_TYPE.REMOVE_FAILED,"Thất bại trong việc gỡ bỏ."
+RESULT_TYPE.INVALID_HERO_PART_INDEX,"Ô trống trang bị không đúng."
+RESULT_TYPE.ALREADY_UNLOCKED,"Đã mở."
+RESULT_TYPE.UNLOCK_FAILED,"Thất bại trong việc mở."
+RESULT_TYPE.EQUIP_ITEM_NOT_FOUND,"Trang bị không tồn tại."
+RESULT_TYPE.UNEQUIP_FAILED,"Thất bại trong việc gỡ trang bị."
+RESULT_TYPE.STAT_DATA_NOT_FOUND,"Thông tin stat không tồn tại."
+RESULT_TYPE.EMPTY_MATERIAL_EQUIP_ITEM,"Nguyên liệu còn trống."
+RESULT_TYPE.INVALID_MATERIAL_EQUIP_ITEM,"Trang bị nguyên liệu không đúng."
+RESULT_TYPE.FRIEND_NOT_FOUND,"Người chơi không tồn tại."
+RESULT_TYPE.REQUEST_MYSELF,"Không thể yêu cầu với bản thân người chơi."
+RESULT_TYPE.CANNOT_SEARCH_MYSELF,"Không thể tìm chính bản thân người chơi."
+RESULT_TYPE.GACHA_DATA_NOT_FOUND,"Thông tin Gacha không tồn tại."
+RESULT_TYPE.WRONG_GACHA_INDEX,"Số Gacha không đúng."
+RESULT_TYPE.WRONG_GACHA_COUNT,"Số lượng Gacha không đúng."
+RESULT_TYPE.NO_MERCENARIES,"Không có lính thuê."
+RESULT_TYPE.NO_GUILD,"Không có Guild."
+RESULT_TYPE.INVAILID_RANK,"Thứ tự xếp hạng không đúng."
+RESULT_TYPE.GUILD_MAX_JOIN_REQUEST,"Vượt quá giới hạn về số lượng yêu cầu tối đa của Guild."
+RESULT_TYPE.TRIAL_DUNGEON_DATA_NOT_FOUND,"Thông tin trận ở phòng thử thách không tồn tại. "
+RESULT_TYPE.NOT_PLAYER_HERO,"Không phải trang bị bạn đang sở hữu."
+RESULT_TYPE.ITEM_NOT_OWNED,"Không phải trang bị bạn đang sở hữu."
+RESULT_TYPE.ITEM_TYPE_MISMATCH,"Chủng loại vật phẩm không giống nhau."
+RESULT_TYPE.POTION_DATA_NOT_FOUND,"Thông tin nước phép không tồn tại."
+RESULT_TYPE.INVALID_ACTION,"Động tác không đúng."
+RESULT_TYPE.RECIPE_DATA_NOT_FOUND,"Thông tin công thức không tồn tại."
+RESULT_TYPE.MATERIAL_DATA_NOT_FOUND,"Thông tin nguyên liệu không tồn tại."
+RESULT_TYPE.NOT_ENOUGH_MATERIAL,"Nguyên liệu không đủ."
+RESULT_TYPE.MATCH_RESULT_NOT_FOUND,"Kết quả trận đấu không tồn tại."
+RESULT_TYPE.MATCH_UID_MISMATCH,"Số trận đấu không khớp."
+RESULT_TYPE.MATCHING_DISABLED,"Đang tổng hợp kết quả trận đấu."
+RESULT_TYPE.NOT_ENOUGH_SWORD,"Bạn đã dùng hết nguyên liệu vào trận nên không thể vào được nữa."
+RESULT_TYPE.MATCH_USER_NOT_FOUND,"Không có thông tin người chơi tham gia."
+RESULT_TYPE.NPC_INFO_NOT_FOUND,"Không có thông tin NPC."
+RESULT_TYPE.WAIT_MORE,"Do có lỗi mạng nên máy chủ chậm trễ khi xử lý thông tin trận chiến. Vui lòng nhấn lại vào OK."
+RESULT_TYPE.NOT_ENOUGH_CHEESE,"Thiếu phô mai."
+RESULT_TYPE.USER_PLUNDER_INFO_NOT_FOUND,"Thông tin cướp đoạt không tồn tại."
+RESULT_TYPE.COLLECT_NODE_DATA_NOT_FOUND,"Thông tin điểm vị trí thu thập không tồn tại."
+RESULT_TYPE.PLAYER_NOT_FOUND,"Không tồn tại người chơi."
+RESULT_TYPE.V_I_P_LEVEL_DATA_NOT_FOUND,"Thông tin cấp độ VIP không tồn tại."
+RESULT_TYPE.SHOP_DATA_NOT_FOUND,"Thông tin cửa hàng không tồn tại."
+RESULT_TYPE.SHOP_ITEM_DATA_NOT_FOUND,"Thông tin vật phẩm cửa hàng không tồn tại."
+RESULT_TYPE.PLAYER_SHOP_ITEM_NOT_FOUND,"Không có thông tin vật phẩm cửa hàng của người chơi."
+RESULT_TYPE.SOLD_OUT,"Đã bán."
+RESULT_TYPE.INVALID_COST,"Giá không đúng."
+RESULT_TYPE.NO_ITEM_DATA,"Thông tin vật phẩm không tồn tại."
+RESULT_TYPE.NOT_OWNED,"Không sở hữu."
+RESULT_TYPE.INVALID_ITEM_COUNT,"Số lượng vật phẩm không đúng."
+RESULT_TYPE.NOT_ENOUGH_STONE,"Thiếu Tinh chất cường hóa."
+RESULT_TYPE.HERO_LEVEL_LIMIT,"Cấp độ của anh hùng còn thiếu."
+RESULT_TYPE.SKILL_LEVEL_NOT_FOUND,"Không có thông tin cấp độ kĩ năng."
+RESULT_TYPE.SKILL_PRICE_NOT_FOUND,"Không có thông tin giá cả kĩ năng."
+RESULT_TYPE.TEAM_LEVEL_LIMIT,"Cấp độ của anh hùng không thể vượt quá giới hạn."
+RESULT_TYPE.SKILL_NOT_FOUND,"Kĩ năng không tồn tại."
+RESULT_TYPE.REQ_GOLD_ERROR,"Số vàng cần dùng không đúng."
+RESULT_TYPE.STAR_DATA_NOT_FOUND,"Thông tin sao không đúng."
+RESULT_TYPE.NO_TARGET_ACCOUNT_ID,"Mã số của đối tượng người chơi không có."
+RESULT_TYPE.VERSION_ERROR,"Phiên bản không đúng."
+RESULT_TYPE.MATCH_NOT_FOUND,"Trận đấu không tồn tại."
+RESULT_TYPE.EQUIP_ITEM_FULL,"Trang bị đầy."
+RESULT_TYPE.INVALID_GUILD_LEVEL,"Cấp độ Guild không đúng."
+RESULT_TYPE.ALREADY_JOIN_REQUESTED,"Đã yêu cầu tham gia."
+RESULT_TYPE.MIN_REGISTER_TIME_NOT_ELAPSED,"Thời gian đăng kí tối thiểu chưa hết."
+RESULT_TYPE.RESULT_ITEM_DATA_NOT_FOUND,"Thông tin vật phẩm kết quả không có."
+RESULT_TYPE.RESULT_EQUIP_ITEM_DATA_NOT_FOUND,"Thông tin trang bị kết quả không có."
+RESULT_TYPE.MISSION_NOT_COMPLETED,"Nhiệm vụ chưa hoàn thành."
+RESULT_TYPE.TYPE_ERROR,"Nhập thông tin sai."
+RESULT_TYPE.INFO_ERROR,"Thông tin không đúng."
+RESULT_TYPE.ACCOUNT_IDS_ERROR,"Số tài khoản không đúng."
+RESULT_TYPE.NOT_ENOUGH_PVP_COIN,"Thiếu điểm PVP."
+RESULT_TYPE.EMPTY_NICK,"Tên còn để trống."
+RESULT_TYPE.INVALID_NICK,"Tên không thể sử dụng được."
+RESULT_TYPE.ALREADY_EXIST,"Tên đã tồn tại."
+RESULT_TYPE.TOO_SHORT_NICK,"Tên quá ngắn."
+RESULT_TYPE.TOO_LONG_NICK,"Tên quá dài."
+RESULT_TYPE.CENSORED_WORD,"Tên có chứa từ lóng."
+RESULT_TYPE.NOT_ENOUGH_CHALLENGE_CHANCE,"Không thể thử thêm được."
+RESULT_TYPE.NOT_ENOUGH_DUNGEON_KEY,"Thiếu chìa khóa vào trận."
+RESULT_TYPE.NOT_OPENED_DUNGEON,"Trận đấu đang không mở."
+RESULT_TYPE.REQ_GEM_ERROR,"Không có ruby cần dùng."
+RESULT_TYPE.WAITER_NOT_FOUND,"Không thể tìm thấy thông tin đang đợi."
+RESULT_TYPE.MISSION_NOT_CLEARED,"Nhiệm vụ chưa hoàn thành."
+RESULT_TYPE.DUNGEON_DATA_NOT_FOUND,"Thông tin trận đấu không tồn tại."
+RESULT_TYPE.NO_AVAILABLE_SERVER,"Không có server nào có thể vào."
+RESULT_TYPE.UNEQUIP_OLD_FAILED,"Không thể gỡ bỏ trang bị đang có."
+RESULT_TYPE.EQUIP_FAILED,"Mặc trang bị thất bại."
+RESULT_TYPE.NO_SHOP_DATA,"Không thể tìm thấy thông tin cửa hàng."
+BASE_RESULT_TYPE.TIMEOUT,"Không có hồi đáp từ server."
+BASE_RESULT_TYPE.SEQUENCE_ERROR,"Do có lỗi mạng nên máy chủ chậm trễ khi xử lý thông tin người dùng. Vui lòng thử lại sau."
+BASE_RESULT_TYPE.INTERNAL_ERROR,"Lỗi nội bộ."
+BASE_RESULT_TYPE.EMPTY_HOST,"Host không tồn tại."
+RESULT_TYPE.ACHIEVEMENT_NOT_CLEARED,"Chưa hoàn thành Thành tựu."
+RESULT_TYPE.INVALID_STEP,"Bạn đã nhận phần thưởng này."
+RESULT_TYPE.NO_PRIVILEGE,"Không có quyền hạn."
+RESULT_TYPE.INVALID_HOST,"Host không đúng."
+RESULT_TYPE.MASTER_NOT_FOUND,"Chủ phòng không tồn tại."
+RESULT_TYPE.MULTIPLAY_INFO_NOT_FOUND,"Thông tin chơi của thành viên không tồn tại."
+RESULT_TYPE.WRONG_MEMBER,"Thành viên nhóm không đúng."
+RESULT_TYPE.ALREADY_REWARD_CALCULATED,"Phần thưởng đã được quyết định."
+RESULT_TYPE.LINKED_DUNGEON_NOT_FOUND,"Trận liên kết không tồn tại."
+RESULT_TYPE.ALREADY_COMPLETED,"Đã hoàn thành."
+RESULT_TYPE.DUNGEON_TYPE_ERROR,"Loại hình trận đấu không đúng."
+RESULT_TYPE.CANNOT_VISIT_DUNGEON,"Trận đấu không thể vào xem được."
+RESULT_TYPE.INVALID_TRIAL_HERO,"Anh hùng trận thử thách không đúng."
+RESULT_TYPE.WORLD_MAP_EVENT_NOT_FOUND,"Sự kiện bản đồ thế giới không tồn tại."
+RESULT_TYPE.EVENT_DUNGEON_INDEX_MISMATCH,"Số trận sự kiện không đúng."
+RESULT_TYPE.NOT_ENOUGH_MULTIPLAY_MEMBERS,"Thiếu thành viên."
+RESULT_TYPE.NOT_CALCULATED,"Chưa quyết định xong."
+RESULT_TYPE.ALREADY_REWARDED,"Phần thưởng đã phát."
+RESULT_TYPE.NOT_SAME_DEVELOPER_PAYLOAD,"Thông tin thanh toán (DeveloperPayload) không nhất trí nên đã bị hủy."
+RESULT_TYPE.NOT_SAME_PRODUCT_ID,"Thông tinh thanh toán (ProductId) không nhất trí nên thanh toán đã bị hủy."
+RESULT_TYPE.WRONG_PURCHASE_STATUS,"Thanh toán đã bị hủy vi thông tin thanh toán (PurchaseStatus) không đúng."
+RESULT_TYPE.VERIFICATION_FAILED,"Thanh toán bị hủy vì thất bại trong việc kiểm chứng thanh toán."
+RESULT_TYPE.INVALID_CONSUMPTION_STATE,"Thanh toán bị hủy vì thông tin thanh toán (ConsumptionState) không đúng."
+RESULT_TYPE.NOT_MONTHLY_ENDED,"Chưa thể mua gói hàng tháng."
+RESULT_TYPE.HAVE_PLAY_CHANCE,"Hiện tại vẫn còn cơ hội để thử nên không thể mua được."
+RESULT_TYPE.INVALID_DUNGEON_INDEX,"Số trận không đúng."
+RESULT_TYPE.CANNOT_AWAKEN_YET,"Chưa thể cường hóa được. "
+RESULT_TYPE.CANNOT_AWAKEN_MORE,"Không thể cường hóa thêm."
+RESULT_TYPE.RUNE_ITEM_NOT_OWNED,"Vật phẩm cổ tự không sở hữu."
+RESULT_TYPE.SAME_RUNE_EQUIPPED,"Đang trang bị cổ tự đồng nhất."
+RESULT_TYPE.ALEADY_OCCUPIED,"Đã phân chia."
+RESULT_TYPE.PRESERVE_PRICE_ERROR,"Giá lưu trữ không đúng."
+RESULT_TYPE.RUNE_ITEM_DATA_NOT_FOUND,"Thông tin vật phẩm cổ tự không tồn tại."
+RESULT_TYPE.RUNE_DATA_NOT_FOUND,"Thông tin cổ tự không tồn tại."
+RESULT_TYPE.PART_TYPE_ERROR,"Bộ phận không đúng."
+RESULT_TYPE.NO_EQUIPPED_RUNE,"Cổ tự không được trang bị."
+RESULT_TYPE.HERO_ALREADY_EXIST,"Anh hùng đã tồn tại."
+RESULT_TYPE.SKILL_NOT_LEARNED,"Bạn chưa học kĩ năng này."
+RESULT_TYPE.INVALID_SKILL_EXTEND,"Mở rộng kĩ năng không đúng."
+RESULT_TYPE.NOT_ENOUGH_ITEM,"Thiếu vật phẩm."
+RESULT_TYPE.BOOK_ITEM_DATA_NOT_FOUND,"Thông tin vật phẩm sách không tồn tại."
+RESULT_TYPE.SKILL_ALREADY_LEARNED,"Kĩ năng đã học."
+RESULT_TYPE.MAX_PURIFIED,"Bạn đã thanh tẩy tối đa."
+RESULT_TYPE.MAX_HERO_STAR,"Anh hùng đang ở trạng thái cường hóa tối đa."
+RESULT_TYPE.NO_AWAKE_MATERIAL,"Không có nguyên liệu cường hóa."
+RESULT_TYPE.PURIFY_DATA_NOT_FOUND,"Thông tin thanh tẩy không tồn tại."
+RESULT_TYPE.INVALID_PURIFY_DATA,"Dữ liệu thanh tẩy không đúng."
+RESULT_TYPE.TRANSCEND_SKILL_LEVEL_DATA_NOT_FOUND,"Dữ liệu siêu việt kĩ năng không tồn tại."
+RESULT_TYPE.MAX_TRANSCEND_SKILL_LEVEL,"Kĩ năng đã được siêu việt tối đa."
+RESULT_TYPE.TRANSCEND_SKILL_LEVEL_PRICE_DATA_NOT_FOUND,"Giá siêu việt kĩ năng không tồn tại."
+RESULT_TYPE.NOT_MAX_HERO_STAR,"Anh hùng chưa được cường hóa tới mức tối đa."
+RESULT_TYPE.INVALID_TRANSCEND_COUNT,"Số lượng siêu việt không đúng."
+RESULT_TYPE.GRADE_TOO_LOW,"Thứ hạng quá thấp."
+RESULT_TYPE.CREATURE_DATA_NOT_FOUND,"Thông tin anh hùng không tồn tại."
+RESULT_TYPE.UPGRADE_BOOK_DATA_NOT_FOUND,"Thông tin sách cường hóa không tồn tại."
+RESULT_TYPE.MATCH_PLAYER_NOT_FOUND,"Đối tượng quyết đấu không tồn tại."
+RESULT_TYPE.INVALID_SHOP_DATA,"Thông tin cửa hàng không đúng."
+RESULT_TYPE.NOT_GUILD_MEMBER,"Không phải thành viên Guild."
+RESULT_TYPE.NOT_ENOUGH_GUILD_POINT,"Thiếu điểm Guild."
+RESULT_TYPE.INVALID_SHOP_ITEM_LIST_INDEX,"Số mục lục cửa hàng không đúng."
+RESULT_TYPE.INVALID_ITEM_TYPE,"Chủng loại vật phẩm không đúng."
+RESULT_TYPE.HERO_SHOP_SLOT_EXCEEDED,"Vị trí cửa hàng anh hùng vượt quá mức tối đa."
+RESULT_TYPE.INVALID_HERO_SHOP_SLOT,"Vị trí cửa hàng anh hùng không đúng."
+RESULT_TYPE.NO_SHOP_ITEM_INFO,"Thông tin vật phẩm cửa hàng không tồn tại."
+RESULT_TYPE.NO_SHOP_ITEM_DATA,"Dữ liệu vật phẩm cửa hàng không tồn tại."
+RESULT_TYPE.NO_SELL_COUNT,"Không có số lượng bán ra."
+RESULT_TYPE.ALREADY_OPENED_CLASS,"Class đã được mở."
+RESULT_TYPE.NOT_OPENED_CLASS_DUNGEON,"Trận đấu của class này chưa được mở."
+RESULT_TYPE.ALREADY_GET_CHALLENGE,"Bạn đã thử thách rồi."
+RESULT_TYPE.ALREADY_HAVE_MATERIAL,"Bạn đã có nguyên liệu này."
+RESULT_TYPE.INVALID_HERO_CLASS,"Class không đúng."
+RESULT_TYPE.TUTORIAL_DATA_NOT_FOUND,"Dữ liệu hướng dẫn không tồn tại."
+RESULT_TYPE.RETRY,"Thử lại"
+RESULT_TYPE.NOT_IMPLEMENTED_METHOD,"Phương thức không thể thực hiện được."
+RESULT_TYPE.INVALID_QUEST_INDEX,"Số nhiệm vụ không đúng."
+RESULT_TYPE.QUEST_INFO_NOT_FOUND,"Không thể tìm thấy thông tin nhiệm vụ."
+RESULT_TYPE.QUEST_NOT_CLEARED,"Bạn vẫn chưa hoàn thành nhiệm vụ."
+RESULT_TYPE.NOT_COMPLETED,"Chưa hoàn thành."
+RESULT_TYPE.EMPTY_DUNGEON_INDICES,"Số trận còn trống."
+RESULT_TYPE.EVENT_INDEX_COUNT_MISMATCH,"Số lượng sự kiện không đồng nhất."
+RESULT_TYPE.MAX_DAILY_COUNT,"Vượt quá số lần trong ngày."
+RESULT_TYPE.ALREADY_VISITED,"Đã ghé thăm."
+RESULT_TYPE.INVALID_MATERIAL_ITEM,"Vật phẩm nguyên vật liệu không đúng."
+RESULT_TYPE.INVALID_REQ_ITEM_EXP_DATA,"Điểm kinh nghiệm vật phẩm cần dùng không đúng."
+RESULT_TYPE.SAME_BOOSTER_APPLIED,"Hiệu quá bộ tăng đồng nhất có tồn tại."
+RESULT_TYPE.PACKAGE_DATA_NOT_FOUND,"Dữ liệu sản phẩm Gói không tồn tại."
+RESULT_TYPE.INVALID_ITEM_INDEX,"Số vật phẩm không đúng."
+RESULT_TYPE.INVALID_ITEM_DATA,"Dữ liệu vật phẩm không đúng."
+RESULT_TYPE.INVALID_ACCOUNT_ID,"Số tài khoản không đúng."
+RESULT_TYPE.REWARD_TIME_ENDED,"Đã quá thời gian nhận phần thưởng."
+RESULT_TYPE.CHECKING_INTEGRITY,"Kết quả trận chiến vẫn đang được xử lý. Vui lòng thử lại sau."
+RESULT_TYPE.BATTLE_SERVER_NOT_FOUND,"Tình trạng mạng không ổn định. Vui lòng đến nơi có chất lượng tín hiệu tốt hơn và kết nối lại với trò chơi."
+RESULT_TYPE.TOWER_DATA_NOT_FOUND,"Thông tin tháp không tồn tại."
+RESULT_TYPE.TOWER_FLOOR_DATA_NOT_FOUND,"Thông tin của tầng này không tồn tại."
+RESULT_TYPE.CANNOT_ENTER_TOWER_FLOOR,"Không thể vào tầng này."
+RESULT_TYPE.TOWER_CHAPTER_MISMATCH,"Chương tháp không đồng nhất."
+RESULT_TYPE.TOWER_DUNGEON_MISMATCH,"Trận tháp không tồn tại."
+RESULT_TYPE.TOWER_TEAM_LEVEL_LIMIT,"Cấp độ nhóm còn thấp nên không thể vào tầng này."
+RESULT_TYPE.TOWER_REQ_DUNGEON_NOT_COMPLETED,"Bạn vẫn chưa hoàn thành trận trước đó để vào tháp."
+RESULT_TYPE.NOT_ENOUGH_TOWER_COST,"Thiếu hàng hóa để vào tháp."
+RESULT_TYPE.DIED_HERO_CACHE,"Anh hùng đã tử mạng."
+RESULT_TYPE.MISSING_BATTLE_LOG,"Kỉ lục trận đấu chưa được nhập vào."
+RESULT_TYPE.MISSING_CREATURE_INFO,"Thông tin anh hùng chưa được cập nhật."
+RESULT_TYPE.REQUEST_INTEGRITY_CHECK_ERROR,"Lỗi yêu cầu xác nhận toàn vẹn dữ liệu."
+RESULT_TYPE.MISSING_TOWER_CREATURE_INFO,"Thông tin anh hùng ở tháp chưa được cập nhật."
+RESULT_TYPE.PARSING_TOWER_CREATURE_INFO_ERROR,"Không thể giải nghĩa thông tin anh hùng ở tháp."
+RESULT_TYPE.EMPTY_TOWER_ENTER_HEROES,"Thông tin anh hùng vào tháp chưa được nhập."
+RESULT_TYPE.TOWER_NOT_PLAYED,"Tháp không hoạt động."
+RESULT_TYPE.PLAYER_TOWER_NOT_FOUND,"Không thể tìm thấy thông tin tháp đang tiến hành."
+RESULT_TYPE.CANNOT_RESET_MORE,"Không thể khởi tạo lại thêm được."
+RESULT_TYPE.NOT_ENOUGH_COST,"Thiếu hàng hóa."
+RESULT_TYPE.CLOSED_DUNGEON,"Trận đã đóng."
+RESULT_TYPE.OPENED_DUNGEON,"Trận đã mở."
+RESULT_TYPE.QUEST_DATA_NOT_FOUND,"Dữ liệu nhiệm vụ không tồn tại."
+RESULT_TYPE.NOT_ACCEPTABLE,"Không thể đồng ý."
+RESULT_TYPE.CANNOT_GIVEUP,"Không thể từ bỏ."
+RESULT_TYPE.NOT_REWARDABLE,"Không thể nhận phần thưởng."
+RESULT_TYPE.EQUIP_FULL,"Trang bị đã đầy."
+RESULT_TYPE.VIPLEVEL_DATA_NOT_FOUND,"Dữ liệu VIP không tồn tại."
+RESULT_TYPE.MISSING_LANGUAGE,"Chưa nhập ngôn ngữ."
+RESULT_TYPE.CANNOT_LINK_GUEST,"Không thể liên kết tài khoản với khách."
+RESULT_TYPE.ALREADY_LINKED_ID,"Tài khoản đã được tạo liên kết."
+RESULT_TYPE.SERVER_CLOSING,"Đang trong quá trình chuẩn bị dịch vụ. Vui lòng đợi trong chốc lát."
+RESULT_TYPE.INVALID_SHOP_INDEX,"Số cửa hàng không đúng."
+RESULT_TYPE.EXCEEDED_PURCHASABLE_COUNT,"Vượt quá số lần mua."
+RESULT_TYPE.INVALID_REWARD_DATA,"Dữ liệu phần thưởng không đúng."
+RESULT_TYPE.TOWER_NPC_NOT_FOUND,"NPC của tháp không tồn tại."
+RESULT_TYPE.TOWER_NPC_SLOT_NOT_FOUND,"NPC của tầng này không tồn tại."
+RESULT_TYPE.TOWER_NPC_INFO_NOT_FOUND,"Thông tin NPC của tầng này không tốn tại."
+RESULT_TYPE.WRONG_TOWER_REWARD_NO,"Số phần thưởng của tháp sai."
+RESULT_TYPE.WRONG_DIFFICULTY,"Độ khó không đúng."
+RESULT_TYPE.DIFFICULTY_MISMATCH,"Độ khó không đồng nhất."
+RESULT_TYPE.MISSING_BATTLE_TYPE,"Chưa nhập hình thức trận đấu. "
+RESULT_TYPE.NOT_YET_CLEARED,"Chưa hoàn thành."
+RESULT_TYPE.INVALID_DUNGEON_DIFFICULTY,"Độ khó trận đấu không đúng."
+RESULT_TYPE.WRONG_DUNGEON_DIFFICULTY,"Độ khó trận đấu không đúng."
+RESULT_TYPE.MAX_UNDERGROUND_PRISON_KEY,"Đầy chìa khóa."
+RESULT_TYPE.EQUIP_GRADE_DATA_NOT_FOUND,"Dữ liệu thứ hạng trang bị không tồn tại."
+RESULT_TYPE.NOT_FOR_SALE,"Không thể bán."
+RESULT_TYPE.EQUIP_CREATURE_ERROR,"Không có anh hùng trang bị được."
+RESULT_TYPE.UPGRADE_DATA_NOT_FOUND,"Dữ liệu cường hóa không tồn tại."
+RESULT_TYPE.MATERIAL_ITEM_INDEX_MISMATCH,"Số vật phẩm nguyên liệu không đồng nhất."
+RESULT_TYPE.MATERIAL_ITEM_COUNT_MISMATCH,"Số lượng vật phẩm nguyên liệu không đồng nhất."
+RESULT_TYPE.NOT_ENOUGH_MATERIAL_ITEM,"Thiếu nguyên vật liệu."
+RESULT_TYPE.INVALID_REQ_GOLD,"Thiếu vàng cần dùng."
+RESULT_TYPE.NO_UPGRADABLE_OPTION_SLOT,"Vị trí tùy chọn không thể cường hóa được."
+RESULT_TYPE.INVALID_ITEM_CODE,"Mã số vật phẩm không đúng."
+RESULT_TYPE.INVALID_EQUIP_STAR_RATE,"Tỉ lệ sao không đúng."
+RESULT_TYPE.MY_FRIEND_FULL,"Danh sách bạn bè đã đầy."
+RESULT_TYPE.TARGET_FRIEND_FULL,"Danh sách bạn bè của đối phương đã đầy."
+RESULT_TYPE.TARGET_FRIEND_WAIT_FULL,"Danh sách yêu cầu của đối phương đã đầy."
+RESULT_TYPE.ENHANCE_ITEM_INDEX_ERROR,"Số đá siêu việt không đúng."
+RESULT_TYPE.NOT_ENOUGH_ENHANCE_ITEM,"Số lượng đá siêu việt không đúng."
+RESULT_TYPE.CANNOT_ENHANCE_MORE,"Không thể siêu việt thêm."
+RESULT_TYPE.AWAKE_CHALLENGE_DATA_ERROR,"Không thể tìm thấy thông tin đá cường hóa."
+RESULT_TYPE.AWAKE_ITEM_DATA_ERROR,"Không thể tìm thấy dữ liệu vật phẩm đá cường hóa."
+RESULT_TYPE.NOT_ENOUGH_AWAKE_ITEM,"Thiếu số đá cường hóa."
+RESULT_TYPE.HERO_SELECT_DATA_NOT_FOUND,"Không thể tìm thấy dữ liệu chọn anh hùng."
+RESULT_TYPE.INVALID_HERO_EXP,"Điểm kinh nghiệm của anh hùng không đúng."
+RESULT_TYPE.HERO_NOT_OWNED,"Anh hùng không sở hữu."
+RESULT_TYPE.MAX_HERO_LEVEL,"Cấp độ của anh hùng đạt mức tối đa."
+RESULT_TYPE.MAIL_NOT_FOUND,"Thư không tồn tại."
+RESULT_TYPE.MISSING_COUPON_CODE,"Chưa nhập mã số coupon."
+RESULT_TYPE.MISSING_COUNTRY_CODE,"Chưa nhập mã số quốc gia."
+RESULT_TYPE.COUPON_NOT_FOUND,"Số coupon không đúng."
+RESULT_TYPE.ALREADY_RECEIVED,"Đã nhận thưởng."
+RESULT_TYPE.COUNTRY_CODE_MISMATCH,"Mã số quốc gia không đồng nhất."
+RESULT_TYPE.COUPON_EXPIRED,"Không thể sử dụng vì đã hết thời gian."
+RESULT_TYPE.PROMOTION_NOT_FOUND,"Không thể tìm thấy thông tin quảng bá."
+RESULT_TYPE.ALREADY_USED_PROMOTION,"Sự kiện quảng bá đã tham gia."
+RESULT_TYPE.REWARD_NOT_SELECTED,"Chưa chọn phần thưởng."
+RESULT_TYPE.INVALID_REWARD_INDEX,"Số phần thưởng không đúng."
+RESULT_TYPE.ALREADY_PURCHASED,"Bạn đã mua."
+RESULT_TYPE.NOT_ENOUGH_MILEAGE,"Thiếu milleage."
+RESULT_TYPE.NOT_ENOUGH_ROYAL_POINT,"Thiếu điểm mộ cổ hoàng gia."
+RESULT_TYPE.NOT_ENCRYPTED,"Chưa được mật mã hóa."
+RESULT_TYPE.SALT_ERROR,"Tình trạng kết nối mạng không tốt nên không thể nhận mã số xác nhận."
+RESULT_TYPE.NO_SECURE_KEY,"NO_SECURE_KEY"
+RESULT_TYPE.SALT_NOT_DECRYPTED,"SALT_NOT_DECRYPTED"
+RESULT_TYPE.KEY_NOT_DECRYPTED,"KEY_NOT_DECRYPTED"
+RESULT_TYPE.SALT_MISMATCH,"SALT_MISMATCH"
+RESULT_TYPE.LOGIN_ID_NOT_DECRYPTED,"LOGIN_ID_NOT_DECRYPTED"
+RESULT_TYPE.DECRYPT_FAIL,"DECRYPT_FAIL"
+BASE_RESULT_TYPE.OFFLINE,"Bạn chưa kết nối mạng."
+RESULT_TYPE.INVALID_GACHA_REQUEST,"Xảy ra lỗi trong lúc triệu hồi trang bị.\n Xin mời thử lại."
 RESULT_TYPE.MATCHING_ABORTED,"Ghép trận đã bị hủy,"
-RESULT_TYPE.PROGRESSING,Đang tiến hành.
-RESULT_TYPE.BUY_DISABLED,Hiện tại không thể tiến hành thanh toán được.
-RESULT_TYPE.MAX_FRIENDSHIP_POINT,Điểm tình bạn đã đầy.
-RESULT_TYPE.NOT_ENOUGH_FRIENDSHIP_POINT,Thiếu điểm tình bạn.
-RESULT_TYPE.NOT_RAID_TYPE,Không phải loại hình đấu Raid.
-RESULT_TYPE.MISSING_RAID_INDEX,Do có lỗi mạng nên máy chủ chậm trễ khi xử lý thông tin người dùng. Vui lòng thử lại sau.
-RESULT_TYPE.RAID_DATA_NOT_FOUND,Không có dữ liệu Raid.
-RESULT_TYPE.RAID_NOT_STARTED,Raid chưa được bắt đầu.
-RESULT_TYPE.RAID_NOT_PROGRESSING,Raid đang không được tiến hành.
-RESULT_TYPE.RAID_MUST_MULTIPLAY,Không phải kiểu chơi nhiều người.
-RESULT_TYPE.RAID_CHAPTER_MISMATCH,Không đồng nhất chương.
-RESULT_TYPE.RAID_DUNGEON_MISMATCH,Không đồng nhất trận đấu.
-RESULT_TYPE.GUILD_RAID_ROOM_CREATED,Phòng Guild Raid đã được tạo.
-RESULT_TYPE.NOT_ENOUGH_ENTER_RAID_COUNT,Thiếu số lần vào trận Guild Raid.
-RESULT_TYPE.INVALID_GUILD_RAID_INDEX,Chỉ số Guild Raid không đúng.
-RESULT_TYPE.NOT_ENOUGH_ACTIVITY_POINT,Thiếu điểm hoạt động.
-RESULT_TYPE.PREVIOUS_RAID_NOT_COMPLETED,Đang tiến hành Raid trước đó.
-RESULT_TYPE.ALREADY_GUILD_RAID_OPENED,Guild Raid chưa mở cửa.
-RESULT_TYPE.PLAYER_RAID_NOT_FOUND,Không có thông tin Raid của người chơi.
-RESULT_TYPE.PLAYER_DUNGEON_NOT_FOUND,Không có thông tin trận đấu của người chơi.
-RESULT_TYPE.DUNGEON_NOT_PLAYED,Không có kỉ lục chơi trận đấu nào.
-RESULT_TYPE.DUNGEON_PLAY_ENABLE,Vẫn còn lượt có thể chơi.
-RESULT_TYPE.ALREADY_HAVE,Anh hùng đã sở hữu.
-RESULT_TYPE.HERO_NOT_EXIST,Anh hùng không tồn tại.
-RESULT_TYPE.CANNOT_RECRUIT,Anh hùng không thể thuê tại quán trọ.
-RESULT_TYPE.HERO_INDEX_MISMATCH,Thông tin anh hùng và thông tin này không khớp.
-RESULT_TYPE.ALREADY_RECRUITED,Anh hùng đã sở hữu.
-RESULT_TYPE.HERO_NOT_EXIST_IN_FRIENDLY_TABLE,Anh hùng không thể kết hữu.
-RESULT_TYPE.HERO_FRIENDLY_POINT_MAX,Trạng thái không thể kết hữu thêm.
-RESULT_TYPE.ACTION_NOT_READY,Vẫn chưa thể thực hiện hành động đó.
-RESULT_TYPE.ACTION_NOT_EXIST,Hành động không tồn tại.
-RESULT_TYPE.COST_MISMATCH,Thiếu hỗ trợ cho hành động này.
-RESULT_TYPE.FRIENDLY_POINT_MISMATCH,Vẫn còn thiếu mức thân hữu để có thể thu nhận.
-RESULT_TYPE.COOL_TIME_MISMATCH,Vẫn chưa đến lúc.
-RESULT_TYPE.CANNOT_RECRUIT_HERO,Không có anh hùng có thể thuê được.
-RESULT_TYPE.IN_FRIENDLY_STATE,Đang tích lũy điểm tình bạn.
-RESULT_TYPE.NO_FRIENDS,Không có bạn nào trong danh sách bạn bè.
-RESULT_TYPE.ALREADY_SENT_FRIENDSHIP_POINT,Điểm Tình Bạn đã được gửi.
-RESULT_TYPE.EMPTY_NAME,Tên trống.
-RESULT_TYPE.INVALID_NAME,Tên không hợp lệ.
-RESULT_TYPE.TOO_SHORT_NAME,Tên quá ngắn.
-RESULT_TYPE.TOO_LONG_NAME,Tên quá dài.
-RESULT_TYPE.INIT_COOL_TIME_NOT_ELAPSED,Đặt lại bộ đếm thời gian không được hoàn thành.
-RESULT_TYPE.ALREADY_GUILD_SKILL_INIT,Kỹ năng Guild đã được đặt lại.
-RESULT_TYPE.MAX_GUILD_LEVEL,Cấp độ Guild ở mức tối đa.
-RESULT_TYPE.MAX_SKILL_LEVEL,Đã đạt cấp độ kỹ năng tối đa
-RESULT_TYPE.LOW_TEAM_LEVEL,Cấp độ đội quá thấp.
-BASE_RESULT_TYPE.INTERNAL_SERVER_ERROR,Lỗi Máy chủ Nội bộ.
-BASE_RESULT_TYPE.DISABLED,Đang bị vô hiệu.
-RESULT_TYPE.NOT_ALLOWED,Đang không được phép.
-RESULT_TYPE.NO_ACCOUNT_ID,ID Tài khoản không tồn tại.
-RESULT_TYPE.NOT_FOUND,Không thể tìm thấy dữ liệu.
-RESULT_TYPE.MISSING_TOWER_INDEX,Không xác định được Tháp.
-RESULT_TYPE.NO_MAX_STAR_HERO,Anh hùng thức tỉnh tối đa không tồn tại.
-RESULT_TYPE.TOWER_REQ_CHAPTER_NOT_COMPLETED,Chương yêu cầu vào chưa hoàn thành.
-RESULT_TYPE.RAID_LEVEL_MISMATCH,Cấp độ Raid không khớp.
-RESULT_TYPE.CONTENTS_DISABLED,Nội dung không được mở khóa.
-RESULT_TYPE.GUILD_RAID_ROOM_NOT_FOUND,Sảnh Guild Raid không tồn tại.
-RESULT_TYPE.NOT_GUILD_RAID_ROOM_MEMBER,Không phải là một phần của Sảnh Guild Raid.
-RESULT_TYPE.INVALID_GULD_RAID_MEMBER_RANK,Các thành viên của Xếp hạng Guild này không thể tham gia Guild Raids.
-RESULT_TYPE.NOT_ENOUGH_ENTER_GUILD_RAID_COUNT,Không đủ vé tham dự Guild Raid.
-RESULT_TYPE.MISSING_WORLD_BOSS_INDEX,Chỉ số Boss Thế giới không tồn tại.
-RESULT_TYPE.WORLD_BOSS_NOT_EXIST,Boss Thế giới không tồn tại.
-RESULT_TYPE.WORLD_BOSS_NOT_ACTIVE,Boss Thế giới không hoạt động.
-RESULT_TYPE.WORLD_BOSS_NOT_FOUND,Không tìm thấy Boss Thế giới.
-RESULT_TYPE.MISSING_WORLD_BOSS_CREATURE_INFO,Thông tin Quái Boss Thế giới không tồn tại.
-RESULT_TYPE.PARSING_WORLD_BOSS_CREATURE_INFO_ERROR,Phân tích cú pháp thông tin Boss Thế giới không thành công.
-RESULT_TYPE.WORLD_BOSS_HP_ERROR,Đã xảy ra lỗi trong khi đăng ký điểm Boss thế giới. Khuyến cáo thử lại và vui lòng tư vấn CS nếu lỗi tiếp tục phát sinh.
-RESULT_TYPE.NOT_CLEARED,Không hoàn thành.ư
-RESULT_TYPE.PURCHASE_INFO_NOT_FOUND,Dữ liệu mua hàng không tồn tại.
-RESULT_TYPE.INTERNAL_SERVER_ERROR,Lỗi Máy chủ Nội bộ.
-RESULT_TYPE.NOT_DAILY_ENDED,Không thể mua vào ngày này.
-RESULT_TYPE.NEED_COMPLETE_IN_APP_PURCHASE,Cần hoàn thành mua hàng trong ứng dụng.
-RESULT_TYPE.OTHER_DAILY_EFFECTIVE,Một sản phẩm tương tự hiện đang có hiệu lực.
-RESULT_TYPE.RESTORE_DATA_NOT_FOUND,Khôi phục dữ liệu không tồn tại.
-RESULT_TYPE.MATERIAL_COUNT_ERROR,Lỗi bộ đếm Nguyên liệu
-RESULT_TYPE.LOW_HERO_LEVEL,Cấp độ anh hùng quá thấp.
-RESULT_TYPE.PRICE_ERROR,Lỗi giá
-RESULT_TYPE.COST_TYPE_ERROR,Lỗi Loại giá.
-RESULT_TYPE.EXCEEDED_MAX_MATERIAL_EQUIP_ITEMS,Kho đã vượt quá sức chứa tối đa
-RESULT_TYPE.HERO_EQUIPPED_MATERIAL_EQUIP_ITEM,Không thể sử dụng đồ đã trang bị làm vật liệu.
-RESULT_TYPE.INVALID_GACHA_DATA,Dữ liệu quay thưởng không hợp lệ.
-RESULT_TYPE.NO_RECV_FRIENDSHIP_POINT,Không có điểm bạn bè.
-RESULT_TYPE.MAX_DAILY_REMOVE_FRIENDS,Đã vượt quá số lần xóa bạn bè hàng ngày.
-RESULT_TYPE.GULLD_JOIN_REQUEST_PROCESSING,Đang xử lý yêu cầu tham gia Guild.
-RESULT_TYPE.INVALID_GUILD_RANK,Xếp hạng Guild Không hợp lệ.
-RESULT_TYPE.INVALID_GUILD_INTRODUCE,Giới thiệu Guild không hợp lệ.
-RESULT_TYPE.TOO_LONG_GUILD_INTRODUCE,Giới thiệu Guild quá dài.
-RESULT_TYPE.INVALID_GUILD_NOTICE,Thông báo Guild không hợp lệ.
-RESULT_TYPE.TOO_LONG_GUILD_NOTICE,Thông báo Guild quá dài.
-RESULT_TYPE.GUILD_JOIN_REQUEST_EXIST,Không thực hiện được do Yêu cầu tham gia Guild đang có.
-RESULT_TYPE.ALREADY_EXIST_NAME,Tên đã tồn tại.
-RESULT_TYPE.MAX_CONTRIBUTED_GEM,Đang đóng góp tối đa.
-RESULT_TYPE.NO_CONTRIBUTE_COUNT,Bộ đếm cống hiến Guild không tồn tại.
-RESULT_TYPE.INVALID_GUILD_ID,Số Guild không hợp lệ.
-RESULT_TYPE.INVALID_TARGET_RANK,Xếp hạng Guild không hợp lệ.
-RESULT_TYPE.INVALID_SKILL_LEVEL,Cấp độ kỹ năng của Guild Skill không hợp lệ
-RESULT_TYPE.GUILD_JOIN_REQUEST_PROCESSING,Đang xử lý Yêu cầu Tham gia Guild.
-RESULT_TYPE.NOT_ELAPSED_GUILD_REQUEST_COOL_TIME,Bạn không thể tạo/gia nhập guild trong {1} giờ sau khi rời guild trước.
-RESULT_TYPE.NO_GUILD_SKILL_LEVEL_UP_REQUEST,Dữ liệu cấp độ kỹ năng Guild yêu cầu không tồn tại.
-RESULT_TYPE.ALREADY_GUILD_SKILL_LEVEL_UP_REQUESTED,Đã yêu cầu Tăng cấp độ Kỹ năng Guild.
-RESULT_TYPE.ALREADY_BID,Vật phẩm đã được đặt giá thầu.
-RESULT_TYPE.ALREADY_CREATED_ROOM,Đã tạo Sảnh Guild.
-RESULT_TYPE.NOT_ROOM_MASTER,Bạn không phải là Người đứng đầu Sảnh
-RESULT_TYPE.ROOM_NOT_FOUND,Sảnh không tồn tại.
-RESULT_TYPE.NOT_ENOUGH_GUILD_ACTIVITY_POINT,Không đủ điểm hoạt động Guild.
-RESULT_TYPE.TRANSCEND_ITEM_INDEX_ERROR,Vật phẩm siêu việt không hợp lệ.
-RESULT_TYPE.NOT_ENOUGH_TRANSCEND_ITEM,Không đủ Vật phẩm siêu việt.
-RESULT_TYPE.CANNOT_TRANSCEND_MORE,Không thể Cường hóa siêu việt thêm.
-RESULT_TYPE.NOT_ENOUGH_PURIFIED,Chưa hoàn tất thanh lọc.
-RESULT_TYPE.WRONG_SLOT_INDEX,Số ô không hợp lệ.
-RESULT_TYPE.NOT_SELECTABLE_SLOT_INDEX,Không thể chọn ô.
-RESULT_TYPE.CRAFT_SLOT_PRICE_DATA_NOT_FOUND,Không tồn tại thông tin giá ô điều chế.
-RESULT_TYPE.INVALID_PRICE,Giá không hợp lệ.
-RESULT_TYPE.NO_FLASK_ITEM,Không tìm thấy bình rỗng.
-RESULT_TYPE.FLASK_DATA_NOT_FOUND,Không có dữ liệu điều chế.
-RESULT_TYPE.CRAFT_DATA_NOT_FOUND,Không tồn tại dữ liệu điều chế.
-RESULT_TYPE.NOT_CRAFT_SLOT_INDEX,Không phải số ô điều chế thích hợp.
-RESULT_TYPE.NOT_YET_CRAFTED,Điều chế chưa hoàn thành
-RESULT_TYPE.ALREADY_USING_FLASK,Bình rỗng đã được trang bị.
-RESULT_TYPE.HERO_NOT_SELECTABLE,Không thể chọn anh hùng.
-RESULT_TYPE.HERO_FRAGMENT_DATA_ERROR,Thông tin mảnh anh hùng không hợp lệ.
-RESULT_TYPE.NO_HEROES,Không có anh hùng tồn tại.
-RESULT_TYPE.INVALID_HERO,Anh hùng không hợp lệ.
-RESULT_TYPE.MATCHING_BLOCKED,Tạm thời không thể tham gia trận đấu.
-RESULT_TYPE.ALREADY_RESET,Đã hoàn thành thiết lập lại.
-RESULT_TYPE.INVALID_RESET_COST,Giá Đặt lại Không hợp lệ.
-RESULT_TYPE.NOT_ENOUGH_RESET_COST,Không đủ tài nguyên để thiết lập lại.
-RESULT_TYPE.SCENARIO_QUEST_DATA_NOT_FOUND,Dữ liệu kịch bản Nhiệm vụ không tồn tại.
-RESULT_TYPE.NOT_ENOUGH_PROGRESS,Không đủ tiến trình.
-RESULT_TYPE.NOT_CLIENT_ONLY,Khách hàng không hợp lệ.
-RESULT_TYPE.INVALID_PAY_SHOP_TYPE,Loại cửa hàng tiền mặt không hợp lệ.
-RESULT_TYPE.INVALID_SHOP_ITEM_DATA,Dữ liệu vật phẩm cửa hàng không hợp lệ.
-RESULT_TYPE.SHOP_RESTOCK_INFO_NOT_FOUND,Dữ liệu làm mới kho không hợp lệ.
-RESULT_TYPE.SIGNED_OUT,Đã đăng xuất.
-RESULT_TYPE.NO_CACHE,Không có bộ nhớ cache.
-RESULT_TYPE.BLOCKED,Hiện bị chặn.
-RESULT_TYPE.LOW_VERSION,Phiên bản quá thấp.
-RESULT_TYPE.INVALID_STAMINA_TYPE,Loại thể lực không hợp lệ.
-RESULT_TYPE.MAX_STAMINA,Đạt thể lực tối đa.
-RESULT_TYPE.GUILD_MASTER_CANNOT_SIGN_OUT,Người đứng đầu Guild không thể đăng xuất.
-RESULT_TYPE.DBSELECT_ERROR,Lỗi cơ sở dữ liệu.
-RESULT_TYPE.DBUPDATE_ERROR,Lỗi cơ sở dữ liệu.
-RESULT_TYPE.INVALID_GIVE_ITEM_RESULT,Không thể gửi vật phẩm.
-RESULT_TYPE.ALREADY_PASSED_ORDER_ID,Số Hóa đơn đã được gửi.
-RESULT_TYPE.SERVER_BUSY,Yêu cầu mua đang được xem xét.
-RESULT_TYPE.ALREADY_FINISHED,Số Nhận đã được gửi và xử lý.
-RESULT_TYPE.PRODUCT_ID_NOT_EXIST,ID mặt hàng không tồn tại.
-RESULT_TYPE.DBINSERT_ERROR,Lỗi cơ sở dữ liệu.
-RESULT_TYPE.IAPINFO_NOT_FOUND,Không thể tìm thấy dữ liệu mua hàng.
-RESULT_TYPE.AWAKE_DATA_NOT_FOUND,Không thể tìm thấy Dữ liệu siêu việt.
-RESULT_TYPE.ALREADY_COMPLETED_CRAFT_ITEM,Thủ công của mục này hoàn tất.
-RESULT_TYPE.DUPLICATED_HERO,Anh hùng chồng lên nhau.
-RESULT_TYPE.NOT_COMPLETED_DUNGEON,Dungeon chưa được hoàn thành.
-RESULT_TYPE.GOOGLE_RETRY_NEEDED,Google cần thử lại.
-RESULT_TYPE.APPLE_RETRY_NEEDED,IOS thử lại là cần thiết.
-RESULT_TYPE.NOT_HERO_TANSCENDED,Anh hùng đã không được vượt qua.
-RESULT_TYPE.NOT_ENOUGH_TRANSCEND,Anh hùng Siêu việt là không đủ.
-RESULT_TYPE.WRONG_REMAIN_TIME,Thời gian còn lại không hợp lệ.
-RESULT_TYPE.HERO_TRIAL_ALREADY_COMPLETED,Ordeal đã được hoàn thành.
-RESULT_TYPE.ALREADY_HAVE_COSTUME,Bạn đã sở hữu Trang phục này.
-RESULT_TYPE.COSTUME_DATA_NOT_FOUND,Không có dữ liệu trang phục.
-RESULT_TYPE.COSTUME_NOT_OPENED,Trang phục vẫn chưa được tiết lộ.
-RESULT_TYPE.HERO_AWAKE_DATA_NOT_FOUND,Không thể tìm thấy Dữ liệu siêu việt.
-RESULT_TYPE.COSTUME_IS_DEFAULT,Đây là trang phục mặc định.
-RESULT_TYPE.NOT_CORRECT_HERO,Anh hùng này không thể trang phục cho trang phục này.
-RESULT_TYPE.COSTUME_NOT_OWNED,Bạn không sở hữu trang phục này.
-RESULT_TYPE.CANNOT_SET_COSTUME,Không thể trang phục trang phục.
-RESULT_TYPE.ALREADY_COSTUMED,Trang phục đã được trang bị.
-RESULT_TYPE.NOT_EQUIP_COSTUME,Trang phục hiện không được trang bị.
-RESULT_TYPE.LOCKED_EQUIP_ITEM_EXISTS,Tồn tại Vật phẩm bị Khóa
-RESULT_TYPE.ALREADY_LOCKED,Vật phẩm này đã bị khóa
-RESULT_TYPE.ALREADY_UN_LOCKED,Vật phẩm này đã được mở khóa
-RESULT_TYPE.NOT_ENOUGH_RAID_POINT,Không đủ điểm Raid.
-RESULT_TYPE.MULTIPLAY_NOT_ENDED,Trận đấu chưa hoàn thành.
-RESULT_TYPE.NOT_BREAKABLE_ITEM_EXISTS,Có vật phẩm không thể mài.
-RESULT_TYPE.LOCKED_ITEM_EXISTS,Tồn tại vật phẩm bị khóa
+RESULT_TYPE.PROGRESSING,"Đang tiến hành."
+RESULT_TYPE.BUY_DISABLED,"Hiện tại không thể tiến hành thanh toán được."
+RESULT_TYPE.MAX_FRIENDSHIP_POINT,"Điểm tình bạn đã đầy."
+RESULT_TYPE.NOT_ENOUGH_FRIENDSHIP_POINT,"Thiếu điểm tình bạn."
+RESULT_TYPE.NOT_RAID_TYPE,"Không phải loại hình đấu Raid."
+RESULT_TYPE.MISSING_RAID_INDEX,"Do có lỗi mạng nên máy chủ chậm trễ khi xử lý thông tin người dùng. Vui lòng thử lại sau."
+RESULT_TYPE.RAID_DATA_NOT_FOUND,"Không có dữ liệu Raid."
+RESULT_TYPE.RAID_NOT_STARTED,"Raid chưa được bắt đầu."
+RESULT_TYPE.RAID_NOT_PROGRESSING,"Raid đang không được tiến hành."
+RESULT_TYPE.RAID_MUST_MULTIPLAY,"Không phải kiểu chơi nhiều người."
+RESULT_TYPE.RAID_CHAPTER_MISMATCH,"Không đồng nhất chương."
+RESULT_TYPE.RAID_DUNGEON_MISMATCH,"Không đồng nhất trận đấu."
+RESULT_TYPE.GUILD_RAID_ROOM_CREATED,"Phòng Guild Raid đã được tạo."
+RESULT_TYPE.NOT_ENOUGH_ENTER_RAID_COUNT,"Thiếu số lần vào trận Guild Raid."
+RESULT_TYPE.INVALID_GUILD_RAID_INDEX,"Chỉ số Guild Raid không đúng."
+RESULT_TYPE.NOT_ENOUGH_ACTIVITY_POINT,"Thiếu điểm hoạt động."
+RESULT_TYPE.PREVIOUS_RAID_NOT_COMPLETED,"Đang tiến hành Raid trước đó."
+RESULT_TYPE.ALREADY_GUILD_RAID_OPENED,"Guild Raid chưa mở cửa."
+RESULT_TYPE.PLAYER_RAID_NOT_FOUND,"Không có thông tin Raid của người chơi."
+RESULT_TYPE.PLAYER_DUNGEON_NOT_FOUND,"Không có thông tin trận đấu của người chơi."
+RESULT_TYPE.DUNGEON_NOT_PLAYED,"Không có kỉ lục chơi trận đấu nào."
+RESULT_TYPE.DUNGEON_PLAY_ENABLE,"Vẫn còn lượt có thể chơi."
+RESULT_TYPE.ALREADY_HAVE,"Anh hùng đã sở hữu."
+RESULT_TYPE.HERO_NOT_EXIST,"Anh hùng không tồn tại."
+RESULT_TYPE.CANNOT_RECRUIT,"Anh hùng không thể thuê tại quán trọ."
+RESULT_TYPE.HERO_INDEX_MISMATCH,"Thông tin anh hùng và thông tin này không khớp."
+RESULT_TYPE.ALREADY_RECRUITED,"Anh hùng đã sở hữu."
+RESULT_TYPE.HERO_NOT_EXIST_IN_FRIENDLY_TABLE,"Anh hùng không thể kết hữu."
+RESULT_TYPE.HERO_FRIENDLY_POINT_MAX,"Trạng thái không thể kết hữu thêm."
+RESULT_TYPE.ACTION_NOT_READY,"Vẫn chưa thể thực hiện hành động đó."
+RESULT_TYPE.ACTION_NOT_EXIST,"Hành động không tồn tại."
+RESULT_TYPE.COST_MISMATCH,"Thiếu hỗ trợ cho hành động này."
+RESULT_TYPE.FRIENDLY_POINT_MISMATCH,"Vẫn còn thiếu mức thân hữu để có thể thu nhận."
+RESULT_TYPE.COOL_TIME_MISMATCH,"Vẫn chưa đến lúc."
+RESULT_TYPE.CANNOT_RECRUIT_HERO,"Không có anh hùng có thể thuê được."
+RESULT_TYPE.IN_FRIENDLY_STATE,"Đang tích lũy điểm tình bạn."
+RESULT_TYPE.NO_FRIENDS,"Không có bạn nào trong danh sách bạn bè."
+RESULT_TYPE.ALREADY_SENT_FRIENDSHIP_POINT,"Điểm Tình Bạn đã được gửi."
+RESULT_TYPE.EMPTY_NAME,"Tên trống."
+RESULT_TYPE.INVALID_NAME,"Tên không hợp lệ."
+RESULT_TYPE.TOO_SHORT_NAME,"Tên quá ngắn."
+RESULT_TYPE.TOO_LONG_NAME,"Tên quá dài."
+RESULT_TYPE.INIT_COOL_TIME_NOT_ELAPSED,"Đặt lại bộ đếm thời gian không được hoàn thành."
+RESULT_TYPE.ALREADY_GUILD_SKILL_INIT,"Kỹ năng Guild đã được đặt lại."
+RESULT_TYPE.MAX_GUILD_LEVEL,"Cấp độ Guild ở mức tối đa."
+RESULT_TYPE.MAX_SKILL_LEVEL,"Đã đạt cấp độ kỹ năng tối đa"
+RESULT_TYPE.LOW_TEAM_LEVEL,"Cấp độ đội quá thấp."
+BASE_RESULT_TYPE.INTERNAL_SERVER_ERROR,"Lỗi Máy chủ Nội bộ."
+BASE_RESULT_TYPE.DISABLED,"Đang bị vô hiệu."
+RESULT_TYPE.NOT_ALLOWED,"Đang không được phép."
+RESULT_TYPE.NO_ACCOUNT_ID,"ID Tài khoản không tồn tại."
+RESULT_TYPE.NOT_FOUND,"Không thể tìm thấy dữ liệu."
+RESULT_TYPE.MISSING_TOWER_INDEX,"Không xác định được Tháp."
+RESULT_TYPE.NO_MAX_STAR_HERO,"Anh hùng thức tỉnh tối đa không tồn tại."
+RESULT_TYPE.TOWER_REQ_CHAPTER_NOT_COMPLETED,"Chương yêu cầu vào chưa hoàn thành."
+RESULT_TYPE.RAID_LEVEL_MISMATCH,"Cấp độ Raid không khớp."
+RESULT_TYPE.CONTENTS_DISABLED,"Nội dung không được mở khóa."
+RESULT_TYPE.GUILD_RAID_ROOM_NOT_FOUND,"Sảnh Guild Raid không tồn tại."
+RESULT_TYPE.NOT_GUILD_RAID_ROOM_MEMBER,"Không phải là một phần của Sảnh Guild Raid."
+RESULT_TYPE.INVALID_GULD_RAID_MEMBER_RANK,"Các thành viên của Xếp hạng Guild này không thể tham gia Guild Raids."
+RESULT_TYPE.NOT_ENOUGH_ENTER_GUILD_RAID_COUNT,"Không đủ vé tham dự Guild Raid."
+RESULT_TYPE.MISSING_WORLD_BOSS_INDEX,"Chỉ số Boss Thế giới không tồn tại."
+RESULT_TYPE.WORLD_BOSS_NOT_EXIST,"Boss Thế giới không tồn tại."
+RESULT_TYPE.WORLD_BOSS_NOT_ACTIVE,"Boss Thế giới không hoạt động."
+RESULT_TYPE.WORLD_BOSS_NOT_FOUND,"Không tìm thấy Boss Thế giới."
+RESULT_TYPE.MISSING_WORLD_BOSS_CREATURE_INFO,"Thông tin Quái Boss Thế giới không tồn tại."
+RESULT_TYPE.PARSING_WORLD_BOSS_CREATURE_INFO_ERROR,"Phân tích cú pháp thông tin Boss Thế giới không thành công."
+RESULT_TYPE.WORLD_BOSS_HP_ERROR,"Đã xảy ra lỗi trong khi tính toán điểm Boss thế giới. Vui lòng gửi cho thư cho bộ phận chăm sóc khách hàng nếu bạn thấy thông báo này."
+RESULT_TYPE.NOT_CLEARED,"Không hoàn thành.ư"
+RESULT_TYPE.PURCHASE_INFO_NOT_FOUND,"Dữ liệu mua hàng không tồn tại."
+RESULT_TYPE.INTERNAL_SERVER_ERROR,"Lỗi Máy chủ Nội bộ."
+RESULT_TYPE.NOT_DAILY_ENDED,"Không thể mua vào ngày này."
+RESULT_TYPE.NEED_COMPLETE_IN_APP_PURCHASE,"Cần hoàn thành mua hàng trong ứng dụng."
+RESULT_TYPE.OTHER_DAILY_EFFECTIVE,"Một sản phẩm tương tự hiện đang có hiệu lực."
+RESULT_TYPE.RESTORE_DATA_NOT_FOUND,"Khôi phục dữ liệu không tồn tại."
+RESULT_TYPE.MATERIAL_COUNT_ERROR,"Lỗi bộ đếm Nguyên liệu"
+RESULT_TYPE.LOW_HERO_LEVEL,"Cấp độ anh hùng quá thấp."
+RESULT_TYPE.PRICE_ERROR,"Lỗi giá"
+RESULT_TYPE.COST_TYPE_ERROR,"Lỗi Loại giá."
+RESULT_TYPE.EXCEEDED_MAX_MATERIAL_EQUIP_ITEMS,"Kho đã vượt quá sức chứa tối đa"
+RESULT_TYPE.HERO_EQUIPPED_MATERIAL_EQUIP_ITEM,"Không thể sử dụng đồ đã trang bị làm vật liệu."
+RESULT_TYPE.INVALID_GACHA_DATA,"Dữ liệu quay thưởng không hợp lệ."
+RESULT_TYPE.NO_RECV_FRIENDSHIP_POINT,"Không có điểm bạn bè."
+RESULT_TYPE.MAX_DAILY_REMOVE_FRIENDS,"Đã vượt quá số lần xóa bạn bè hàng ngày."
+RESULT_TYPE.GULLD_JOIN_REQUEST_PROCESSING,"Đang xử lý yêu cầu tham gia Guild."
+RESULT_TYPE.INVALID_GUILD_RANK,"Xếp hạng Guild Không hợp lệ."
+RESULT_TYPE.INVALID_GUILD_INTRODUCE,"Giới thiệu Guild không hợp lệ."
+RESULT_TYPE.TOO_LONG_GUILD_INTRODUCE,"Giới thiệu Guild quá dài."
+RESULT_TYPE.INVALID_GUILD_NOTICE,"Thông báo Guild không hợp lệ."
+RESULT_TYPE.TOO_LONG_GUILD_NOTICE,"Thông báo Guild quá dài."
+RESULT_TYPE.GUILD_JOIN_REQUEST_EXIST,"Không thực hiện được do Yêu cầu tham gia Guild đang có."
+RESULT_TYPE.ALREADY_EXIST_NAME,"Tên đã tồn tại."
+RESULT_TYPE.MAX_CONTRIBUTED_GEM,"Đang đóng góp tối đa."
+RESULT_TYPE.NO_CONTRIBUTE_COUNT,"Bộ đếm cống hiến Guild không tồn tại."
+RESULT_TYPE.INVALID_GUILD_ID,"Số Guild không hợp lệ."
+RESULT_TYPE.INVALID_TARGET_RANK,"Xếp hạng Guild không hợp lệ."
+RESULT_TYPE.INVALID_SKILL_LEVEL,"Cấp độ kỹ năng của Guild Skill không hợp lệ"
+RESULT_TYPE.GUILD_JOIN_REQUEST_PROCESSING,"Đang xử lý Yêu cầu Tham gia Guild."
+RESULT_TYPE.NOT_ELAPSED_GUILD_REQUEST_COOL_TIME,"Bạn không thể tạo/gia nhập guild trong {1} giờ sau khi rời guild trước."
+RESULT_TYPE.NO_GUILD_SKILL_LEVEL_UP_REQUEST,"Dữ liệu cấp độ kỹ năng Guild yêu cầu không tồn tại."
+RESULT_TYPE.ALREADY_GUILD_SKILL_LEVEL_UP_REQUESTED,"Đã yêu cầu Tăng cấp độ Kỹ năng Guild."
+RESULT_TYPE.ALREADY_BID,"Vật phẩm đã được đặt giá thầu."
+RESULT_TYPE.ALREADY_CREATED_ROOM,"Đã tạo Sảnh Guild."
+RESULT_TYPE.NOT_ROOM_MASTER,"Bạn không phải là Người đứng đầu Sảnh"
+RESULT_TYPE.ROOM_NOT_FOUND,"Sảnh không tồn tại."
+RESULT_TYPE.NOT_ENOUGH_GUILD_ACTIVITY_POINT,"Không đủ điểm hoạt động Guild."
+RESULT_TYPE.TRANSCEND_ITEM_INDEX_ERROR,"Vật phẩm siêu việt không hợp lệ."
+RESULT_TYPE.NOT_ENOUGH_TRANSCEND_ITEM,"Không đủ Vật phẩm siêu việt."
+RESULT_TYPE.CANNOT_TRANSCEND_MORE,"Không thể Cường hóa siêu việt thêm."
+RESULT_TYPE.NOT_ENOUGH_PURIFIED,"Chưa hoàn tất thanh lọc."
+RESULT_TYPE.WRONG_SLOT_INDEX,"Số ô không hợp lệ."
+RESULT_TYPE.NOT_SELECTABLE_SLOT_INDEX,"Không thể chọn ô."
+RESULT_TYPE.CRAFT_SLOT_PRICE_DATA_NOT_FOUND,"Không tồn tại thông tin giá ô điều chế."
+RESULT_TYPE.INVALID_PRICE,"Giá không hợp lệ."
+RESULT_TYPE.NO_FLASK_ITEM,"Không tìm thấy bình rỗng."
+RESULT_TYPE.FLASK_DATA_NOT_FOUND,"Không có dữ liệu điều chế."
+RESULT_TYPE.CRAFT_DATA_NOT_FOUND,"Không tồn tại dữ liệu điều chế."
+RESULT_TYPE.NOT_CRAFT_SLOT_INDEX,"Không phải số ô điều chế thích hợp."
+RESULT_TYPE.NOT_YET_CRAFTED,"Điều chế chưa hoàn thành"
+RESULT_TYPE.ALREADY_USING_FLASK,"Bình rỗng đã được trang bị."
+RESULT_TYPE.HERO_NOT_SELECTABLE,"Không thể chọn anh hùng."
+RESULT_TYPE.HERO_FRAGMENT_DATA_ERROR,"Thông tin mảnh anh hùng không hợp lệ."
+RESULT_TYPE.NO_HEROES,"Không có anh hùng tồn tại."
+RESULT_TYPE.INVALID_HERO,"Anh hùng không hợp lệ."
+RESULT_TYPE.MATCHING_BLOCKED,"Tạm thời không thể tham gia trận đấu."
+RESULT_TYPE.ALREADY_RESET,"Đã hoàn thành thiết lập lại."
+RESULT_TYPE.INVALID_RESET_COST,"Giá Đặt lại Không hợp lệ."
+RESULT_TYPE.NOT_ENOUGH_RESET_COST,"Không đủ tài nguyên để thiết lập lại."
+RESULT_TYPE.SCENARIO_QUEST_DATA_NOT_FOUND,"Dữ liệu kịch bản Nhiệm vụ không tồn tại."
+RESULT_TYPE.NOT_ENOUGH_PROGRESS,"Không đủ tiến trình."
+RESULT_TYPE.NOT_CLIENT_ONLY,"Khách hàng không hợp lệ."
+RESULT_TYPE.INVALID_PAY_SHOP_TYPE,"Loại cửa hàng tiền mặt không hợp lệ."
+RESULT_TYPE.INVALID_SHOP_ITEM_DATA,"Dữ liệu vật phẩm cửa hàng không hợp lệ."
+RESULT_TYPE.SHOP_RESTOCK_INFO_NOT_FOUND,"Dữ liệu làm mới kho không hợp lệ."
+RESULT_TYPE.SIGNED_OUT,"Đã đăng xuất."
+RESULT_TYPE.NO_CACHE,"Không có bộ nhớ cache."
+RESULT_TYPE.BLOCKED,"Hiện bị chặn."
+RESULT_TYPE.LOW_VERSION,"Phiên bản quá thấp."
+RESULT_TYPE.INVALID_STAMINA_TYPE,"Loại thể lực không hợp lệ."
+RESULT_TYPE.MAX_STAMINA,"Đạt thể lực tối đa."
+RESULT_TYPE.GUILD_MASTER_CANNOT_SIGN_OUT,"Người đứng đầu Guild không thể đăng xuất."
+RESULT_TYPE.DBSELECT_ERROR,"Lỗi cơ sở dữ liệu."
+RESULT_TYPE.DBUPDATE_ERROR,"Lỗi cơ sở dữ liệu."
+RESULT_TYPE.INVALID_GIVE_ITEM_RESULT,"Không thể gửi vật phẩm."
+RESULT_TYPE.ALREADY_PASSED_ORDER_ID,"Số Hóa đơn đã được gửi."
+RESULT_TYPE.SERVER_BUSY,"Yêu cầu mua đang được xem xét."
+RESULT_TYPE.ALREADY_FINISHED,"Số Nhận đã được gửi và xử lý."
+RESULT_TYPE.PRODUCT_ID_NOT_EXIST,"ID mặt hàng không tồn tại."
+RESULT_TYPE.DBINSERT_ERROR,"Lỗi cơ sở dữ liệu."
+RESULT_TYPE.IAPINFO_NOT_FOUND,"Không thể tìm thấy dữ liệu mua hàng."
+RESULT_TYPE.AWAKE_DATA_NOT_FOUND,"Không thể tìm thấy Dữ liệu siêu việt."
+RESULT_TYPE.ALREADY_COMPLETED_CRAFT_ITEM,"Thủ công của mục này hoàn tất."
+RESULT_TYPE.DUPLICATED_HERO,"Anh hùng chồng lên nhau."
+RESULT_TYPE.NOT_COMPLETED_DUNGEON,"Dungeon chưa được hoàn thành."
+RESULT_TYPE.GOOGLE_RETRY_NEEDED,"Google cần thử lại."
+RESULT_TYPE.APPLE_RETRY_NEEDED,"IOS thử lại là cần thiết."
+RESULT_TYPE.NOT_HERO_TANSCENDED,"Anh hùng đã không được vượt qua."
+RESULT_TYPE.NOT_ENOUGH_TRANSCEND,"Anh hùng Siêu việt là không đủ."
+RESULT_TYPE.WRONG_REMAIN_TIME,"Thời gian còn lại không hợp lệ."
+RESULT_TYPE.HERO_TRIAL_ALREADY_COMPLETED,"Ordeal đã được hoàn thành."
+RESULT_TYPE.ALREADY_HAVE_COSTUME,"Bạn đã sở hữu Trang phục này."
+RESULT_TYPE.COSTUME_DATA_NOT_FOUND,"Không có dữ liệu trang phục."
+RESULT_TYPE.COSTUME_NOT_OPENED,"Trang phục vẫn chưa được tiết lộ."
+RESULT_TYPE.HERO_AWAKE_DATA_NOT_FOUND,"Không thể tìm thấy Dữ liệu siêu việt."
+RESULT_TYPE.COSTUME_IS_DEFAULT,"Đây là trang phục mặc định."
+RESULT_TYPE.NOT_CORRECT_HERO,"Anh hùng này không thể trang phục cho trang phục này."
+RESULT_TYPE.COSTUME_NOT_OWNED,"Bạn không sở hữu trang phục này."
+RESULT_TYPE.CANNOT_SET_COSTUME,"Không thể trang phục trang phục."
+RESULT_TYPE.ALREADY_COSTUMED,"Trang phục đã được trang bị."
+RESULT_TYPE.NOT_EQUIP_COSTUME,"Trang phục hiện không được trang bị."
+RESULT_TYPE.LOCKED_EQUIP_ITEM_EXISTS,"Tồn tại Vật phẩm bị Khóa"
+RESULT_TYPE.ALREADY_LOCKED,"Vật phẩm này đã bị khóa"
+RESULT_TYPE.ALREADY_UN_LOCKED,"Vật phẩm này đã được mở khóa"
+RESULT_TYPE.NOT_ENOUGH_RAID_POINT,"Không đủ điểm Raid."
+RESULT_TYPE.MULTIPLAY_NOT_ENDED,"Trận đấu chưa hoàn thành."
+RESULT_TYPE.NOT_BREAKABLE_ITEM_EXISTS,"Có vật phẩm không thể mài."
+RESULT_TYPE.LOCKED_ITEM_EXISTS,"Tồn tại vật phẩm bị khóa"
 RESULT_TYPE.NOT_FREE_KEEP_RUNE,"Hiện giờ, cần tốn Ruby để bảo toàn Cổ tự."
 RESULT_TYPE.FREE_KEEP_RUNE,"Hiện giờ, không cần tốn Ruby để bảo toàn Cổ tự."
-RESULT_TYPE.CANNOT_RESTOCK,Không thể tải Danh sách Vật phẩm.
-RESULT_TYPE.ALREADY_COMPLETED_GUILD_RAID,Guild Raid này đã hoàn thành.
-RESULT_TYPE.NOT_CURRENT_GUILD_RAID_DUNGEON,Khu vực này đã hoàn thành.
-RESULT_TYPE.PLAYING_GUILD_RAID_EXIST,Một thành viên Guild khác đang trong trận chiến.
-RESULT_TYPE.GUILD_RAID_NOT_OPENED,Guild Raid này chưa được mở.
-RESULT_TYPE.GUILD_RAID_DUNGEON_DATA_NOT_FOUND,Không tìm thấy Ngục tối
-RESULT_TYPE.GUILD_RAID_INFO_NOT_FOUND,Trận chiến không diễn ra được bình thường. Vui lòng thử lại.
-RESULT_TYPE.GUILD_RAID_CANCELED,Guild Raid đã bị hủy.
-RESULT_TYPE.NOT_RENEW_EQUIP_ITEM,Chưa chọn vật phẩm nâng cấp
-RESULT_TYPE.NO_RENEW_OPTION_SLOT,Vật phẩm này không thể nâng cấp.
-RESULT_TYPE.GUILD_RAID_CHAPTER_DATA_NOT_FOUND,Không thể tìm thấy Chương Guild Raid.
-RESULT_TYPE.NOT_GUILD_MASTER,Bạn không phải là Chủ Guild.
-RESULT_TYPE.ALREADY_OPEN,Raid đã được mở.
-RESULT_TYPE.NOT_OPENABLE_TIME,Không có sẵn tại thời điểm này.
-RESULT_TYPE.INVALID_GUILD_RAID_OPEN_DURATION,Thời gian mở Raid không hợp lệ.
-RESULT_TYPE.PARSING_CREATURE_INFO_ERROR,Giải gói thông tin anh hùng thất bại.
-RESULT_TYPE.NOT_GUILD_RAID_PLAYING_ACCOUNT,Guild Raid không trong tiến trình.
-RESULT_TYPE.INVALID_CREATURE_WAVE_SLOT_INDEX,Chỗ anh hùng không khợp lệ
-RESULT_TYPE.ALIVE_ENEMY_EXIST,Kẻ địch còn lại.
-RESULT_TYPE.ALL_HEROES_DIED,Tất cả các anh hùng đã chết.
-RESULT_TYPE.ONE_STORE_RETRY_NEEDED,Cần thử lại OneStore
-RESULT_TYPE.NO_OLD_OPTION_INDEX,Tùy chọn gốc không tồn tại.
-RESULT_TYPE.NO_RENEW_OPTION_RESULT_INDEX,Kết quả Tùy chọn mới không tồn tại.
-RESULT_TYPE.INVALID_CONFIRM_OPTION_INDEX,Số tùy chọn sai.
-RESULT_TYPE.OPTION_SLOT_MISMATCH,Ô Tùy chọn Không phù hợp.
-RESULT_TYPE.EMPTY_PRICE,Giá không tồn tại.
-RESULT_TYPE.INVAID_PRICE,Giá không hợp lệ
-RESULT_TYPE.NO_AVAILABLE_OPTION,Không có Tùy chọn có sẵn.
-RESULT_TYPE.SAME_EVENT_CALENDAR,Cùng Lịch Sự Kiện.
-RESULT_TYPE.ITEM_DESTROYED,Vật phẩm đã bị phá hủy.
-RESULT_TYPE.ITEM_NOT_FOUND,Không tìm thấy vật phẩm.
-RESULT_TYPE.WRONG_ITEM_COUNT,Số vật phẩm sai.
-RESULT_TYPE.INVALID_OPEN_DURATION,Thời gian mở không hợp lệ.
-RESULT_TYPE.ADDED_GUILD_RAID_INFO_IS_NULL,Thông tin Guild Raid không tồn tại.
-RESULT_TYPE.INVALID_DIFFICULTY,Độ Khó không hợp lệ.
-RESULT_TYPE.CAMPAIGN_INFO_NOT_FOUND,Do có lỗi mạng nên máy chủ chậm trễ khi xử lý bản ghi trận đấu của người dùng. Vui lòng thử lại sau.
-RESULT_TYPE.NOT_GUILD_RAID,Đây không phải Guild Raid.
-RESULT_TYPE.NOT_PLAYING_ACCOUNT,Không phải tài khoản đang chơi.
-RESULT_TYPE.INVALID_ACTION_VALUE,Giá trị không hợp lệ.
-RESULT_TYPE.INVALID_CHAPTER_DUNGEON,Chỉ số trận hoặc chương không đúng.
-RESULT_TYPE.INVALID_SELECT_ITEM_COUNT,Số lượng vật phẩm đã chọn không đúng.
-RESULT_TYPE.ITEM_NOT_EXIST,Vật phẩm đã chọn không tồn tại.
-RESULT_TYPE.ITEM_NOT_SELECTED,Chưa chọn vật phẩm.
-RESULT_TYPE.ALREADY_HAS_HERO,Anh hùng đã sở hữu
-RESULT_TYPE.INVALID_ROOM_INFO,Thông tin phòng không đúng.
-RESULT_TYPE.ROOM_NOT_EXIST,Phòng không tồn tại.
-RESULT_TYPE.NOT_DELEGATE_ACCOUNT_ID,Không có người chơi ủy nhiệm.
-RESULT_TYPE.ROOM_FULL,Phòng đã đầy.
-RESULT_TYPE.ROOM_IN_BATTLE,Phòng đang đấu.
-RESULT_TYPE.NOT_JOINED_RAID_ROOM,Bạn đã không tham gia vào phòng.
-RESULT_TYPE.INVALID_ROOM_NO,Số phòng không chính xác.
-RESULT_TYPE.ALREADY_JOINED_BROADCAST_ROOM,Trận tường thuật đã tham gia.
-RESULT_TYPE.NOT_JOINED_BROADCAST_ROOM,Đang không xem tường thuật.
-RESULT_TYPE.WORLD_BOSS_RANK_ERROR,Lỗi xếp thứ hạng Boss Thế Giới.
-RESULT_TYPE.WORLD_BOSS_CANCELED,Trận chiến đã kết thúc do giá trị sát thương cao bất thường.
-RESULT_TYPE.WORLD_BOSS_SEASON_CHANGED,Boss Thế Giới khác đã xuất hiện.
-RESULT_TYPE.STARTED_WORLD_BOSS_NOT_FOUND,Không thể bắt đầu Boss Thế Giới.
-RESULT_TYPE.WORLD_BOSS_DATA_NOT_FOUND,Không thể tìm thấy thông tin của Boss Thế Giới.
-RESULT_TYPE.CANNOT_SEARCH_MY_FRIEND,Không thể tìm thấy bạn bè.
-RESULT_TYPE.BOOSTER_DATA_NOT_FOUND,Thông tin Bộ tăng không tồn tại.
-RESULT_TYPE.PATCH_NOTE_NOT_FOUND,Ghi chú cập nhật không tồn tại.
-RESULT_TYPE.SAME_PATCH_NOTE,Ghi chú cập nhật như nhau.
-RESULT_TYPE.HP_NOT_FOUND,Thất bại trong việc lấy máu của quái.
-RESULT_TYPE.KICKED_FROM_ROOM,Người chơi đã bị loại khỏi phòng đấu
-RESULT_TYPE.MASTER_BANNED,Người chơi đã bị chặn bởi Chủ phòng
-RESULT_TYPE.KICK_MEMBER_NOT_EXIST,Không có người chơi để loại
-RESULT_TYPE.INTERNAL_ERROR,Lỗi nội bộ
-RESULT_TYPE.BAN_ACCOUNT_FULL,Số người chơi bị chặn ở mức tối đa
-RESULT_TYPE.ALREADY_ADDED_ACCOUNT,Người chơi đã được thêm
-RESULT_TYPE.BAN_ACCOUNT_NOT_EXIST,Người chơi không tồn tại
-RESULT_TYPE.FAVORITE_ACCOUNT_FULL,Danh sách người chơi ưa thích đã đầy
-RESULT_TYPE.FAVORITE_ACCOUNT_NOT_EXIST,Người chơi không tồn tại
-RESULT_TYPE.NOT_ENOUGH_WORLD_BOSS_POINT,Không đủ điểm Boss Thế Giới
-RESULT_TYPE.NOT_ENOUGH_EVENT_POINT,Không đủ điểm sự kiện
-RESULT_TYPE.ROOM_SERVER_INTERNAL_ERROR,Lỗi nội bộ server.
-RESULT_TYPE.ALREADY_EXIST_GUILD_NAME,Tên Guild đã tồn tại.
-RESULT_TYPE.MAX_FRIENDLY_POINT,Độ thân hữu đã đầy.
-RESULT_TYPE.CANNOT_GIVE_GIFT_NPC,Bạn không thể tặng quà.
-RESULT_TYPE.FRIENDLY_POINT_INFO_NOT_FOUND,Không có thông tin độ thân hữu.
-RESULT_TYPE.FRIENDLY_POINT_DATA_NOT_FOUND,Không có dữ liệu độ thân hữu.
-RESULT_TYPE.INVALID_FRIENDLY_POINT_STEP,Giai đoạn độ thân hữu không đúng.
-RESULT_TYPE.NOT_ENOUGH_FRIENDLY_POINT,Độ thân hữu còn thiếu.
-RESULT_TYPE.NEXT_TIER_EQUIP_ITEM_NOT_FOUND,Không có thông tin vật phẩm thăng cấp.
-RESULT_TYPE.INVALID_NEXT_TIER_STEP,Thông tin vật phẩm thăng cấp sai.
-RESULT_TYPE.MAX_TIER_ITEM,Vật phẩm dự định thăng cấp hiện tại là bậc cao nhất.
-RESULT_TYPE.MATERIAL_ITEM_DATA_NOT_FOUND,Không có dữ liệu vật phẩm nguyên liệu cần dùng.
-RESULT_TYPE.UPGRADE_TIER_NOT_FOUND,Không có dữ liệu thăng cấp trang bị.
-RESULT_TYPE.NOT_EQUIP_MAX_STAR,Số sao của trang bị thăng cấp không phải là cao nhất.
-RESULT_TYPE.WORLD_BOSS_DAILY_REWARDING,Đang tổng kết trong ngày.
-RESULT_TYPE.CANNOT_BUY_NO_EVENT,Không trong sự kiện.
-RESULT_TYPE.CANNOT_RESTOCK_NO_EVENT,Không trong sự kiện.
-RESULT_TYPE.EVENT_DUNGEON_DATA_NOT_FOUND,Không tồn tại dữ liệu Ngục tối sự kiện.
-RESULT_TYPE.EVENT_DUNGEON_CLOSED,Ngục tối sự kiện đã kết thúc.
-RESULT_TYPE.WITHDRAW_PENALTY,Bạn không thể sử dụng nội dung này trong thời gian bị chặn Guild.
-RESULT_TYPE.EQUIP_ENCHANT_OPTION_ITEM_DATA_NOT_FOUND,Không có thông tin tùy chọn phù phép.
-RESULT_TYPE.NOT_ENOUGH_EVENT_DUNGEON_POINT,Thiếu điểm sự kiện.
-RESULT_TYPE.GUILD_CONTENTS_RESTRICTED,Bạn không thể mua sản phẩm này trong thời gian bị phạt Guild.
-RESULT_TYPE.ITEM_EXPIRED,Vật phẩm này đã hết hạn sử dụng.
-RESULT_TYPE.WRONG_WORLD_BOSS_CHAPTER,Hiện không có dữ liệu Boss Thế Giới.
-RESULT_TYPE.WRONG_WORLD_BOSS_DUNGEON,Hiện không có dữ liệu Boss Thế Giới.
-RESULT_TYPE.CREATURE_STAR_DATA_NOT_FOUND,Không có thông tin cường hóa của anh hùng.
-RESULT_TYPE.RANK_ERROR,Thứ hạng không đúng.
-RESULT_TYPE.CANCELED,Đã hủy.
-RESULT_TYPE.NOT_ENOUGH_EVENT_DUNGEON_POINT2,Thiếu điểm sự kiện.
-RESULT_TYPE.NOT_ENOUGH_EVENT_DUNGEON_POINT3,Thiếu điểm sự kiện.
-RESULT_TYPE.NOT_ENOUGH_GLORY_POINT,Không đủ Huy hiệu vinh quang.
-RESULT_TYPE.NOT_AVAILABLE_HERO,Anh hùng không thể sử dụng được.
-RESULT_TYPE.INVAILD_ACHIEVEMENT_INDEX,Phần thưởng không thể nhận.
+RESULT_TYPE.CANNOT_RESTOCK,"Không thể tải Danh sách Vật phẩm."
+RESULT_TYPE.ALREADY_COMPLETED_GUILD_RAID,"Guild Raid này đã hoàn thành."
+RESULT_TYPE.NOT_CURRENT_GUILD_RAID_DUNGEON,"Khu vực này đã hoàn thành."
+RESULT_TYPE.PLAYING_GUILD_RAID_EXIST,"Một thành viên Guild khác đang trong trận chiến."
+RESULT_TYPE.GUILD_RAID_NOT_OPENED,"Guild Raid này chưa được mở."
+RESULT_TYPE.GUILD_RAID_DUNGEON_DATA_NOT_FOUND,"Không tìm thấy Ngục tối"
+RESULT_TYPE.GUILD_RAID_INFO_NOT_FOUND,"Trận chiến không diễn ra được bình thường. Vui lòng thử lại."
+RESULT_TYPE.GUILD_RAID_CANCELED,"Guild Raid đã bị hủy."
+RESULT_TYPE.NOT_RENEW_EQUIP_ITEM,"Chưa chọn vật phẩm nâng cấp"
+RESULT_TYPE.NO_RENEW_OPTION_SLOT,"Vật phẩm này không thể nâng cấp."
+RESULT_TYPE.GUILD_RAID_CHAPTER_DATA_NOT_FOUND,"Không thể tìm thấy Chương Guild Raid."
+RESULT_TYPE.NOT_GUILD_MASTER,"Bạn không phải là Chủ Guild."
+RESULT_TYPE.ALREADY_OPEN,"Raid đã được mở."
+RESULT_TYPE.NOT_OPENABLE_TIME,"Không có sẵn tại thời điểm này."
+RESULT_TYPE.INVALID_GUILD_RAID_OPEN_DURATION,"Thời gian mở Raid không hợp lệ."
+RESULT_TYPE.PARSING_CREATURE_INFO_ERROR,"Giải gói thông tin anh hùng thất bại."
+RESULT_TYPE.NOT_GUILD_RAID_PLAYING_ACCOUNT,"Guild Raid không trong tiến trình."
+RESULT_TYPE.INVALID_CREATURE_WAVE_SLOT_INDEX,"Chỗ anh hùng không khợp lệ"
+RESULT_TYPE.ALIVE_ENEMY_EXIST,"Kẻ địch còn lại."
+RESULT_TYPE.ALL_HEROES_DIED,"Tất cả các anh hùng đã chết."
+RESULT_TYPE.ONE_STORE_RETRY_NEEDED,"Cần thử lại OneStore"
+RESULT_TYPE.NO_OLD_OPTION_INDEX,"Tùy chọn gốc không tồn tại."
+RESULT_TYPE.NO_RENEW_OPTION_RESULT_INDEX,"Kết quả Tùy chọn mới không tồn tại."
+RESULT_TYPE.INVALID_CONFIRM_OPTION_INDEX,"Số tùy chọn sai."
+RESULT_TYPE.OPTION_SLOT_MISMATCH,"Ô Tùy chọn Không phù hợp."
+RESULT_TYPE.EMPTY_PRICE,"Giá không tồn tại."
+RESULT_TYPE.INVAID_PRICE,"Giá không hợp lệ"
+RESULT_TYPE.NO_AVAILABLE_OPTION,"Không có Tùy chọn có sẵn."
+RESULT_TYPE.SAME_EVENT_CALENDAR,"Cùng Lịch Sự Kiện."
+RESULT_TYPE.ITEM_DESTROYED,"Vật phẩm đã bị phá hủy."
+RESULT_TYPE.ITEM_NOT_FOUND,"Không tìm thấy vật phẩm."
+RESULT_TYPE.WRONG_ITEM_COUNT,"Số vật phẩm sai."
+RESULT_TYPE.INVALID_OPEN_DURATION,"Thời gian mở không hợp lệ."
+RESULT_TYPE.ADDED_GUILD_RAID_INFO_IS_NULL,"Thông tin Guild Raid không tồn tại."
+RESULT_TYPE.INVALID_DIFFICULTY,"Độ Khó không hợp lệ."
+RESULT_TYPE.CAMPAIGN_INFO_NOT_FOUND,"Do có lỗi mạng nên máy chủ chậm trễ khi xử lý bản ghi trận đấu của người dùng. Vui lòng thử lại sau."
+RESULT_TYPE.NOT_GUILD_RAID,"Đây không phải Guild Raid."
+RESULT_TYPE.NOT_PLAYING_ACCOUNT,"Không phải tài khoản đang chơi."
+RESULT_TYPE.INVALID_ACTION_VALUE,"Giá trị không hợp lệ."
+RESULT_TYPE.INVALID_CHAPTER_DUNGEON,"Chỉ số trận hoặc chương không đúng."
+RESULT_TYPE.INVALID_SELECT_ITEM_COUNT,"Số lượng vật phẩm đã chọn không đúng."
+RESULT_TYPE.ITEM_NOT_EXIST,"Vật phẩm đã chọn không tồn tại."
+RESULT_TYPE.ITEM_NOT_SELECTED,"Chưa chọn vật phẩm."
+RESULT_TYPE.ALREADY_HAS_HERO,"Anh hùng đã sở hữu"
+RESULT_TYPE.INVALID_ROOM_INFO,"Thông tin phòng không đúng."
+RESULT_TYPE.ROOM_NOT_EXIST,"Phòng không tồn tại."
+RESULT_TYPE.NOT_DELEGATE_ACCOUNT_ID,"Không có người chơi ủy nhiệm."
+RESULT_TYPE.ROOM_FULL,"Phòng đã đầy."
+RESULT_TYPE.ROOM_IN_BATTLE,"Phòng đang đấu."
+RESULT_TYPE.NOT_JOINED_RAID_ROOM,"Bạn đã không tham gia vào phòng."
+RESULT_TYPE.INVALID_ROOM_NO,"Số phòng không chính xác."
+RESULT_TYPE.ALREADY_JOINED_BROADCAST_ROOM,"Trận tường thuật đã tham gia."
+RESULT_TYPE.NOT_JOINED_BROADCAST_ROOM,"Đang không xem tường thuật."
+RESULT_TYPE.WORLD_BOSS_RANK_ERROR,"Lỗi xếp thứ hạng Boss Thế Giới."
+RESULT_TYPE.WORLD_BOSS_CANCELED,"Trận chiến đã kết thúc do giá trị sát thương cao bất thường."
+RESULT_TYPE.WORLD_BOSS_SEASON_CHANGED,"Boss Thế Giới khác đã xuất hiện."
+RESULT_TYPE.STARTED_WORLD_BOSS_NOT_FOUND,"Không thể bắt đầu Boss Thế Giới."
+RESULT_TYPE.WORLD_BOSS_DATA_NOT_FOUND,"Không thể tìm thấy thông tin của Boss Thế Giới."
+RESULT_TYPE.CANNOT_SEARCH_MY_FRIEND,"Không thể tìm thấy bạn bè."
+RESULT_TYPE.BOOSTER_DATA_NOT_FOUND,"Thông tin Bộ tăng không tồn tại."
+RESULT_TYPE.PATCH_NOTE_NOT_FOUND,"Ghi chú cập nhật không tồn tại."
+RESULT_TYPE.SAME_PATCH_NOTE,"Ghi chú cập nhật như nhau."
+RESULT_TYPE.HP_NOT_FOUND,"Thất bại trong việc lấy máu của quái."
+RESULT_TYPE.KICKED_FROM_ROOM,"Người chơi đã bị loại khỏi phòng đấu"
+RESULT_TYPE.MASTER_BANNED,"Người chơi đã bị chặn bởi Chủ phòng"
+RESULT_TYPE.KICK_MEMBER_NOT_EXIST,"Không có người chơi để loại"
+RESULT_TYPE.INTERNAL_ERROR,"Lỗi nội bộ"
+RESULT_TYPE.BAN_ACCOUNT_FULL,"Số người chơi bị chặn ở mức tối đa"
+RESULT_TYPE.ALREADY_ADDED_ACCOUNT,"Người chơi đã được thêm"
+RESULT_TYPE.BAN_ACCOUNT_NOT_EXIST,"Người chơi không tồn tại"
+RESULT_TYPE.FAVORITE_ACCOUNT_FULL,"Danh sách người chơi ưa thích đã đầy"
+RESULT_TYPE.FAVORITE_ACCOUNT_NOT_EXIST,"Người chơi không tồn tại"
+RESULT_TYPE.NOT_ENOUGH_WORLD_BOSS_POINT,"Không đủ điểm Boss Thế Giới"
+RESULT_TYPE.NOT_ENOUGH_EVENT_POINT,"Không đủ điểm sự kiện"
+RESULT_TYPE.ROOM_SERVER_INTERNAL_ERROR,"Lỗi nội bộ server."
+RESULT_TYPE.ALREADY_EXIST_GUILD_NAME,"Tên Guild đã tồn tại."
+RESULT_TYPE.MAX_FRIENDLY_POINT,"Độ thân hữu đã đầy."
+RESULT_TYPE.CANNOT_GIVE_GIFT_NPC,"Bạn không thể tặng quà."
+RESULT_TYPE.FRIENDLY_POINT_INFO_NOT_FOUND,"Không có thông tin độ thân hữu."
+RESULT_TYPE.FRIENDLY_POINT_DATA_NOT_FOUND,"Không có dữ liệu độ thân hữu."
+RESULT_TYPE.INVALID_FRIENDLY_POINT_STEP,"Giai đoạn độ thân hữu không đúng."
+RESULT_TYPE.NOT_ENOUGH_FRIENDLY_POINT,"Độ thân hữu còn thiếu."
+RESULT_TYPE.NEXT_TIER_EQUIP_ITEM_NOT_FOUND,"Không có thông tin vật phẩm thăng cấp."
+RESULT_TYPE.INVALID_NEXT_TIER_STEP,"Thông tin vật phẩm thăng cấp sai."
+RESULT_TYPE.MAX_TIER_ITEM,"Vật phẩm dự định thăng cấp hiện tại là bậc cao nhất."
+RESULT_TYPE.MATERIAL_ITEM_DATA_NOT_FOUND,"Không có dữ liệu vật phẩm nguyên liệu cần dùng."
+RESULT_TYPE.UPGRADE_TIER_NOT_FOUND,"Không có dữ liệu thăng cấp trang bị."
+RESULT_TYPE.NOT_EQUIP_MAX_STAR,"Số sao của trang bị thăng cấp không phải là cao nhất."
+RESULT_TYPE.WORLD_BOSS_DAILY_REWARDING,"Đang tổng kết trong ngày."
+RESULT_TYPE.CANNOT_BUY_NO_EVENT,"Không trong sự kiện."
+RESULT_TYPE.CANNOT_RESTOCK_NO_EVENT,"Không trong sự kiện."
+RESULT_TYPE.EVENT_DUNGEON_DATA_NOT_FOUND,"Không tồn tại dữ liệu Ngục tối sự kiện."
+RESULT_TYPE.EVENT_DUNGEON_CLOSED,"Ngục tối sự kiện đã kết thúc."
+RESULT_TYPE.WITHDRAW_PENALTY,"Bạn không thể sử dụng nội dung này trong thời gian bị chặn Guild."
+RESULT_TYPE.EQUIP_ENCHANT_OPTION_ITEM_DATA_NOT_FOUND,"Không có thông tin tùy chọn phù phép."
+RESULT_TYPE.NOT_ENOUGH_EVENT_DUNGEON_POINT,"Thiếu điểm sự kiện."
+RESULT_TYPE.GUILD_CONTENTS_RESTRICTED,"Bạn không thể mua sản phẩm này trong thời gian bị phạt Guild."
+RESULT_TYPE.ITEM_EXPIRED,"Vật phẩm này đã hết hạn sử dụng."
+RESULT_TYPE.WRONG_WORLD_BOSS_CHAPTER,"Hiện không có dữ liệu Boss Thế Giới."
+RESULT_TYPE.WRONG_WORLD_BOSS_DUNGEON,"Hiện không có dữ liệu Boss Thế Giới."
+RESULT_TYPE.CREATURE_STAR_DATA_NOT_FOUND,"Không có thông tin cường hóa của anh hùng."
+RESULT_TYPE.RANK_ERROR,"Thứ hạng không đúng."
+RESULT_TYPE.CANCELED,"Đã hủy."
+RESULT_TYPE.NOT_ENOUGH_EVENT_DUNGEON_POINT2,"Thiếu điểm."
+RESULT_TYPE.NOT_ENOUGH_EVENT_DUNGEON_POINT3,"Thiếu điểm sự kiện."
+RESULT_TYPE.NOT_ENOUGH_GLORY_POINT,"Không đủ Huy hiệu vinh quang."
+RESULT_TYPE.NOT_AVAILABLE_HERO,"Anh hùng không thể sử dụng được."
+RESULT_TYPE.INVAILD_ACHIEVEMENT_INDEX,"Phần thưởng không thể nhận."
 RESULT_TYPE.CHALLENGE_RAID_NOT_OPENED,"Thời gian vào Raid Thử Thách đã kết thúc, bạn không thể tham gia được."
-RESULT_TYPE.CENSORED_WORD_NAME,Tên không thể sử dụng.
-RESULT_TYPE.NOT_OPENED_ROOM,Phòng không công khai nên không thể tham gia.
-RESULT_TYPE.ROOM_LEFT,Phòng bị vô hiệu quá do bị ngắt kết nối mạng
-RESULT_TYPE.CHALLENGE_RAID_DATA_NOT_FOUND,Dữ liệu Raid Thử Thách không tồn tại.
-RESULT_TYPE.NO_EVENT_DUNGEON_DATA,Dữ liệu trận đấu sự kiện không tồn tại.
-RESULT_TYPE.NO_RESET_COUNT,Số lần khởi động lại không tồn tại.
-RESULT_TYPE.NO_RESET_CURRENCY_TYPE,Hàng hóa khởi động lại không tồn tại.
-RESULT_TYPE.NO_RESET_AMOUNT,Chi phí khởi động lại không tồn tại.
-RESULT_TYPE.INVALID_ACHIEVEMENT_INDEX,Số thành tích không đúng.
-RESULT_TYPE.NOT_ENOUGH_EVENT_GIFT,Quà sự kiện không đủ.
-RESULT_TYPE.MISSING_EVENT_WORLD_BOSS_INDEX,Không có số Boss Thế Giới sự kiện.
-RESULT_TYPE.EVENT_WORLD_BOSS_NOT_EXIST,Boss Thế Giới sự kiện không tồn tại.
-RESULT_TYPE.EVENT_WORLD_BOSS_NOT_ACTIVE,Boss Thế Giới sự kiện đã đóng.
-RESULT_TYPE.EVENT_WORLD_BOSS_DATA_NOT_FOUND,Không có dữ liệu Boss Thế Giới sự kiện.
-RESULT_TYPE.WRONG_EVENT_WORLD_BOSS_CHAPTER,Ngoài thời gian có thể đấu Boss Thế Giới Sự kiện
-RESULT_TYPE.WRONG_EVENT_WORLD_BOSS_DUNGEON,Ngoài thời gian có thể đấu Boss Thế Giới Sự kiện
-RESULT_TYPE.EVENT_WORLD_BOSS_CANCELED,Boss Thế Giới sự kiện đã bị hủy.
-RESULT_TYPE.EVENT_WORLD_BOSS_SEASON_CHANGED,Mùa giải Boss Thế Giới sự kiện đã được thay đổi.
-RESULT_TYPE.STARTED_EVENT_WORLD_BOSS_NOT_FOUND,Không có thông tin Boss Thế Giới sự kiện sắp bắt đầu.
-RESULT_TYPE.EVENT_WORLD_BOSS_HP_ERROR,Thể lực của Boss Thế Giới sự kiện không đúng.
-RESULT_TYPE.EVENT_WORLD_BOSS_NOT_PLAYABLE_TIME,Ngoài thời gian có thể đấu Boss Thế Giới Sự kiện
-RESULT_TYPE.CHALLENGE_RAID_SCORE_ERROR,Điểm Raid Thử Thách không đúng.
-RESULT_TYPE.EVENT_WORLD_BOSS_LEVEL_CHANGED,Level của Boss Thế Giới Sự kiện đã được thay đổi.
-RESULT_TYPE.CRAFT_DATA_NOT_OPENED,Không tồn tại thông tin điều chế.
-RESULT_TYPE.NOT_ENOUGH_SKILL_POINT,Thiếu Điểm Siêu việt.
-RESULT_TYPE.IS_NOT_UNEQUIP_TYPE,Vật phẩm không thể gỡ bỏ.
-RESULT_TYPE.NOT_OPEN_PAGE,Trang kĩ năng không mở.
-RESULT_TYPE.PAGE_NOT_FOUND,Trang không tồn tại.
-RESULT_TYPE.ALREADY_HAVE_PAGE,Bạn đã mua trang này.
-RESULT_TYPE.SKILL_TYPE_ALREADY_LEARNED,Bạn đã học kĩ năng cùng loại.
-RESULT_TYPE.NOT_CORRECT_OPTION_COUNT,Số tùy chọn không đúng.
-RESULT_TYPE.NOT_ENOUGH_HIDEOUT_DUNGEON_COUNT,Không đủ chìa khóa vào Ngục tối trên cao
-RESULT_TYPE.CHAPTER_INDEX_NOT_FOUND,Chương không tồn tại.
-RESULT_TYPE.RESET_GEM_NOT_FOUND,Không thể tìm thấy thông tin phí thiết lập lại
-RESULT_TYPE.INVAID_RESET_GEM,Thông tin phí thiết lập lại không tồn tại.
-RESULT_TYPE.SELECT_ITEM_DATA_NOT_FOUND,Không thể tìm thấy thông tin Thẻ chọn.
-RESULT_TYPE.IMPOSSIBLE_SELECT_ITEM,Bạn đã chọn vật phẩm không tồn tại trong danh sách lựa chọn.
-RESULT_TYPE.PURCHASE_MARKETING_DATA_NOT_FOUND,Không thể tìm thấy thông tin sản phẩm cần mua.
-RESULT_TYPE.PURCHASE_MARKETING_NOT_OPENED,Sản phẩm cần mua hiện đang không bán.
-RESULT_TYPE.NOT_AVAILABLE_REPEAT_COOLTIME,Sản phẩm không thể bán lại.
-RESULT_TYPE.REMAIN_REPEAT_COOLTIME,Sản phẩm cần mua không nằm trong thời gian mở bán lại.
-RESULT_TYPE.NOT_ENOUGH_LUA_POINT,Dấu ấn của Lua không đủ.
-RESULT_TYPE.BAN_PICK_PENALTY_USER_BLOCKED,Bạn bị phạt vì mức độ tham đấu thấp khi tiến hành trận đấu.\n Bạn không thể ghép trận trong {1} phút.
-RESULT_TYPE.SENSITIVE_WORD,This name is already in use.
+RESULT_TYPE.CENSORED_WORD_NAME,"Tên không thể sử dụng."
+RESULT_TYPE.NOT_OPENED_ROOM,"Phòng không công khai nên không thể tham gia."
+RESULT_TYPE.ROOM_LEFT,"Phòng bị vô hiệu quá do bị ngắt kết nối mạng"
+RESULT_TYPE.CHALLENGE_RAID_DATA_NOT_FOUND,"Dữ liệu Raid Thử Thách không tồn tại."
+RESULT_TYPE.NO_EVENT_DUNGEON_DATA,"Dữ liệu trận đấu sự kiện không tồn tại."
+RESULT_TYPE.NO_RESET_COUNT,"Số lần khởi động lại không tồn tại."
+RESULT_TYPE.NO_RESET_CURRENCY_TYPE,"Hàng hóa khởi động lại không tồn tại."
+RESULT_TYPE.NO_RESET_AMOUNT,"Chi phí khởi động lại không tồn tại."
+RESULT_TYPE.INVALID_ACHIEVEMENT_INDEX,"Số thành tích không đúng."
+RESULT_TYPE.NOT_ENOUGH_EVENT_GIFT,"Quà sự kiện không đủ."
+RESULT_TYPE.MISSING_EVENT_WORLD_BOSS_INDEX,"Không có số Boss Thế Giới sự kiện."
+RESULT_TYPE.EVENT_WORLD_BOSS_NOT_EXIST,"Boss Thế Giới sự kiện không tồn tại."
+RESULT_TYPE.EVENT_WORLD_BOSS_NOT_ACTIVE,"Boss Thế Giới sự kiện đã đóng."
+RESULT_TYPE.EVENT_WORLD_BOSS_DATA_NOT_FOUND,"Không có dữ liệu Boss Thế Giới sự kiện."
+RESULT_TYPE.WRONG_EVENT_WORLD_BOSS_CHAPTER,"Ngoài thời gian có thể đấu Boss Thế Giới Sự kiện"
+RESULT_TYPE.WRONG_EVENT_WORLD_BOSS_DUNGEON,"Ngoài thời gian có thể đấu Boss Thế Giới Sự kiện"
+RESULT_TYPE.EVENT_WORLD_BOSS_CANCELED,"Boss Thế Giới sự kiện đã bị hủy."
+RESULT_TYPE.EVENT_WORLD_BOSS_SEASON_CHANGED,"Mùa giải Boss Thế Giới sự kiện đã được thay đổi."
+RESULT_TYPE.STARTED_EVENT_WORLD_BOSS_NOT_FOUND,"Không có thông tin Boss Thế Giới sự kiện sắp bắt đầu."
+RESULT_TYPE.EVENT_WORLD_BOSS_HP_ERROR,"Thể lực của Boss Thế Giới sự kiện không đúng."
+RESULT_TYPE.EVENT_WORLD_BOSS_NOT_PLAYABLE_TIME,"Ngoài thời gian có thể đấu Boss Thế Giới Sự kiện"
+RESULT_TYPE.CHALLENGE_RAID_SCORE_ERROR,"Điểm Raid Thử Thách không đúng."
+RESULT_TYPE.EVENT_WORLD_BOSS_LEVEL_CHANGED,"Level của Boss Thế Giới Sự kiện đã được thay đổi."
+RESULT_TYPE.CRAFT_DATA_NOT_OPENED,"Không tồn tại thông tin điều chế."
+RESULT_TYPE.NOT_ENOUGH_SKILL_POINT,"Thiếu Điểm Siêu việt."
+RESULT_TYPE.IS_NOT_UNEQUIP_TYPE,"Vật phẩm không thể gỡ bỏ."
+RESULT_TYPE.NOT_OPEN_PAGE,"Trang kĩ năng không mở."
+RESULT_TYPE.PAGE_NOT_FOUND,"Trang không tồn tại."
+RESULT_TYPE.ALREADY_HAVE_PAGE,"Bạn đã mua trang này."
+RESULT_TYPE.SKILL_TYPE_ALREADY_LEARNED,"Bạn đã học kĩ năng cùng loại."
+RESULT_TYPE.NOT_CORRECT_OPTION_COUNT,"Số tùy chọn không đúng."
+RESULT_TYPE.NOT_ENOUGH_HIDEOUT_DUNGEON_COUNT,"Không đủ chìa khóa vào Ngục tối trên cao"
+RESULT_TYPE.CHAPTER_INDEX_NOT_FOUND,"Chương không tồn tại."
+RESULT_TYPE.RESET_GEM_NOT_FOUND,"Không thể tìm thấy thông tin phí thiết lập lại"
+RESULT_TYPE.INVAID_RESET_GEM,"Thông tin phí thiết lập lại không tồn tại."
+RESULT_TYPE.SELECT_ITEM_DATA_NOT_FOUND,"Không thể tìm thấy thông tin Thẻ chọn."
+RESULT_TYPE.IMPOSSIBLE_SELECT_ITEM,"Bạn đã chọn vật phẩm không tồn tại trong danh sách lựa chọn."
+RESULT_TYPE.PURCHASE_MARKETING_DATA_NOT_FOUND,"Không thể tìm thấy thông tin sản phẩm cần mua."
+RESULT_TYPE.PURCHASE_MARKETING_NOT_OPENED,"Sản phẩm cần mua hiện đang không bán."
+RESULT_TYPE.NOT_AVAILABLE_REPEAT_COOLTIME,"Sản phẩm không thể bán lại."
+RESULT_TYPE.REMAIN_REPEAT_COOLTIME,"Sản phẩm cần mua không nằm trong thời gian mở bán lại."
+RESULT_TYPE.NOT_ENOUGH_LUA_POINT,"Dấu ấn của Lua không đủ."
+RESULT_TYPE.BAN_PICK_PENALTY_USER_BLOCKED,"Bạn bị phạt vì mức độ tham đấu thấp khi tiến hành trận đấu.\n Bạn không thể ghép trận trong {1} phút."
+RESULT_TYPE.SENSITIVE_WORD,"This name is already in use."
 RESULT_TYPE.INVALID_BROADCAST_NAME_IN_THIS_SERVER,"Bạn chỉ có thể sử dụng ngôn ngữ kí tự tiếng Nhật, kí tự La Mã, chữ số."
 RESULT_TYPE.INVALID_GUILD_NAME_IN_THIS_SERVER,"Bạn chỉ có thể sử dụng ngôn ngữ kí tự tiếng Nhật, kí tự La Mã, chữ số."
 RESULT_TYPE.INVALID_NICK_IN_THIS_SERVER,"Bạn chỉ có thể sử dụng ngôn ngữ kí tự tiếng Nhật, kí tự La Mã, chữ số."
-RESULT_TYPE.SENSITIVE_WORD_NAME,Tên này đã được sử dụng.
-RESULT_TYPE.NOT_JOINED_PARTY_DUNGEON_ROOM,Bạn chưa vào phòng chờ.
-RESULT_TYPE.SERVER_CLOSED,Server đang đóng.
-RESULT_TYPE.COUPON_MISMATCH,Bạn đã sử dụng coupon không đúng.
-RESULT_TYPE.NOT_ENOUGH_COUPON_ITEM,Số coupon không đủ.
-RESULT_TYPE.COUPON_ITEM_DATA_NOT_FOUND,Thông tin coupon không đúng.
-RESULT_TYPE.INVALID_COUPON_ITEM_TYPE,Thông tin coupon không đúng.
-RESULT_TYPE.INVAILD_PRICE_TYPE,Thông tin hàng hóa không đúng.
-RESULT_TYPE.PARTY_DUNGEON_LEVEL_MISMATCH,Trong đội hình có người chơi không thể tham gia vào trận đấu.
-RESULT_TYPE.CENSORED_GUILD_INTRODUCE,Có nội dung văng tục trong phần giới thiệu Guild.
-RESULT_TYPE.CENSORED_GUILD_NOTICE,Có nội dung văng tục trong phần thông báo của Guild.
-RESULT_TYPE.INVALID_NOTICE_IN_THIS_SERVER,Bạn không thể sử dụng ngôn ngữ khác.
-RESULT_TYPE.ACCUMULATE_LOGIN_REWARD_TABLEA_NOT_FOUND,Không thể tìm thấy dữ liệu về phần thưởng điểm danh tích lũy này.
-RESULT_TYPE.IS_NOT_CONDITION,Không phải là ngày nhận phần thưởng điểm danh này.
-RESULT_TYPE.TITLE_DATA_NOT_FOUND,Không có Dữ liệu về danh hiệu.
-RESULT_TYPE.TITLE_NOT_FOUND,Bạn không có Danh hiệu này.
-RESULT_TYPE.TITLE_EXPIRED,Danh hiệu này đã hết hạn.
-RESULT_TYPE.EQUIP_DETAIL_DATA_NOT_FOUND,Không tìm thấy chi tiết về trang bị.
-RESULT_TYPE.NO_MORE_ROULETTE,Bạn không thể quay vòng quay được nữa.
-RESULT_TYPE.REWARD_DATA_NOT_FOUND,Dữ liệu phần thưởng không đúng.
-RESULT_TYPE.NOT_COMPLETED_REQ_DUNGEON,Chương yêu cầu vào chưa hoàn thành.
-RESULT_TYPE.INVALID_PRICE_TYPE,Thông tin hàng hóa không đúng.
-RESULT_TYPE.LIMIT_OPEN_COUNT,Bạn đã vượt quá số lượng Đột kích Guild tối đa có thể mở.
-RESULT_TYPE.CHALLENGE_RAID_RANK_ERROR,Dữ liệu Raid Thử Thách không tồn tại.
-RESULT_TYPE.INVALID_BUILDING_LEVEL,Không thể tìm thấy thông tin cấp độ. 
-RESULT_TYPE.NOT_ENOUGH_TRAINING_CENTER_LEVEL,Mở rộng kĩ năng không đúng.
-RESULT_TYPE.ALREADY_APPLIED,Đã yêu cầu tham gia.
-RESULT_TYPE.GUILD_SUPPRESS_ALREADY_COMPLETED,Khu vực này đã hoàn thành.
-RESULT_TYPE.GUILD_SUPPRESS_NOT_BATTLE_STATE,Không có sẵn tại thời điểm này.
-RESULT_TYPE.GUILD_SUPPRESS_RAID_DATA_NOT_FOUND,Không thể tìm thấy Thông tin về Cuộc chinh phạt Guild trong Thông tin người chơi.
-RESULT_TYPE.GUILD_SUPPRESS_SESSION_NOT_FOUND,Trận dungeon không tồn tại.
-RESULT_TYPE.GUILD_SUPPRESS_BATTLE_RESULT_ERROR,Do có lỗi mạng nên máy chủ chậm trễ khi xử lý thông tin người dùng. Vui lòng thử lại sau.
-RESULT_TYPE.GUILD_SUPPRESS_NOT_COMPLETED_REQ_DUNGEON,Chương yêu cầu vào chưa hoàn thành.
-RESULT_TYPE.GUILD_SUPPRESS_SESSION_DATA_NOT_FOUND,Không thể tìm thấy chi tiết được yêu cầu.
-RESULT_TYPE.GUILD_SUPPRESS_PLAY_INFO_NOT_FOUND,Không thể tìm thấy dữ liệu.
-RESULT_TYPE.GUILD_SUPPRESS_NOT_APPLIED,Bạn chưa yêu cầu tham gia Cuộc chinh phạt Guild.
-RESULT_TYPE.GUILD_SUPPRESS_DUNGEON_DATA_NOT_FOUND,Thông tin về ngục tối này không tồn tại.
-RESULT_TYPE.NOT_APPLIABLE,Chưa đến Thời gian yêu cầu tham gia Cuộc chinh phạt Guild.
-RESULT_TYPE.GUILD_MEMBER_REWARD_DATA_NOT_FOUND,Thông tin về phần thưởng này không tồn tại.
-RESULT_TYPE.INVALID_BUILDING_INDEX,Dữ liệu không hợp lệ.
-RESULT_TYPE.GUILD_BUILDING_DATA_NOT_FOUND,Không thể tìm thấy chi tiết được yêu cầu.
-RESULT_TYPE.EXCEED_WOOD,Đã vượt quá giới hạn.
-RESULT_TYPE.EXCEED_STONE,Đã vượt quá giới hạn.
-RESULT_TYPE.EXCEED_METAL,Đã vượt quá giới hạn.
-RESULT_TYPE.NOT_ENOUGH_SUPPRESS_POINT,Không đủ Điểm chinh phạt.
-RESULT_TYPE.INVALID_ACTIVITY_POINT,Dữ liệu không hợp lệ.
-RESULT_TYPE.INVALID_SUPPRESS_POINT,Dữ liệu không hợp lệ.
-RESULT_TYPE.INVALID_TRAINING_CENTER_LEVEL,Dữ liệu không hợp lệ.
-RESULT_TYPE.NOT_ENOUGH_WOOD,Không đủ Gỗ.
-RESULT_TYPE.NOT_ENOUGH_METAL,Không đủ Kim loại.
-RESULT_TYPE.MAX_GUILD_BUILDING_LEVEL,Công trình không thể tăng cấp được nữa do đã đạt cấp tối đa.
-RESULT_TYPE.UNKNOWN_TYPE,Không thể tìm thấy dữ liệu.
-RESULT_TYPE.NOT_MATCH_TYPE,Nhập thông tin sai.
-RESULT_TYPE.SESSION_NOT_FOUND,Cuộc chinh phạt chưa diễn ra.
-RESULT_TYPE.INVALID_SESSION_INDEX,Cuộc chinh phạt chưa diễn ra.
-RESULT_TYPE.SESSION_DATA_NOT_FOUND,Dữ liệu của Cuộc chinh phạt không tồn tại.
-RESULT_TYPE.GUILD_ID_NOT_FOUND,Không có Guild.
-RESULT_TYPE.INVALID_PURCHASE_MARKETING_REQUEST_INFO,Dữ liệu không hợp lệ.
-RESULT_TYPE.NOT_ELAPSED_GUILD_MEMBER_REWARDED_TIME,Còn quá sớm để nhận thưởng từ các thành viên Guild. Vui lòng thử lại sau.
-RESULT_TYPE.PC_AVARTAR_DATA_NOT_FOUND,Thông tin về phần thưởng này không tồn tại.
-RESULT_TYPE.EQUIP_SLOT_DATA_NOT_FOUND,Không thể tìm thấy dữ liệu.
-RESULT_TYPE.NOT_MATCH_SUB_TYPE,Ô này không phù hợp với vật phẩm này.
-RESULT_TYPE.NOT_ENOUGH_RANKING_POINT,Không đủ Biểu tượng danh dự.
-RESULT_TYPE.NOT_ENOUGH_GLORY1_POINT,Thiếu điểm Vinh Quang.
-RESULT_TYPE.GUILD_INFO_NOT_FOUND,Thông tin về Guild không tồn tại.
-RESULT_TYPE.MISSING_BONUS_EVENT_CONDITION,Không thể tìm thấy dữ liệu.
-RESULT_TYPE.CAN_NOT_SELECTED_COSTUME,Không thể trang phục trang phục.
+RESULT_TYPE.SENSITIVE_WORD_NAME,"Tên này đã được sử dụng."
+RESULT_TYPE.NOT_JOINED_PARTY_DUNGEON_ROOM,"Bạn chưa vào phòng chờ."
+RESULT_TYPE.SERVER_CLOSED,"Server đang đóng."
+RESULT_TYPE.COUPON_MISMATCH,"Bạn đã sử dụng coupon không đúng."
+RESULT_TYPE.NOT_ENOUGH_COUPON_ITEM,"Số coupon không đủ."
+RESULT_TYPE.COUPON_ITEM_DATA_NOT_FOUND,"Thông tin coupon không đúng."
+RESULT_TYPE.INVALID_COUPON_ITEM_TYPE,"Thông tin coupon không đúng."
+RESULT_TYPE.INVAILD_PRICE_TYPE,"Thông tin hàng hóa không đúng."
+RESULT_TYPE.PARTY_DUNGEON_LEVEL_MISMATCH,"Trong đội hình có người chơi không thể tham gia vào trận đấu."
+RESULT_TYPE.CENSORED_GUILD_INTRODUCE,"Có nội dung văng tục trong phần giới thiệu Guild."
+RESULT_TYPE.CENSORED_GUILD_NOTICE,"Có nội dung văng tục trong phần thông báo của Guild."
+RESULT_TYPE.INVALID_NOTICE_IN_THIS_SERVER,"Bạn không thể sử dụng ngôn ngữ khác."
+RESULT_TYPE.ACCUMULATE_LOGIN_REWARD_TABLEA_NOT_FOUND,"Không thể tìm thấy dữ liệu về phần thưởng điểm danh tích lũy này."
+RESULT_TYPE.IS_NOT_CONDITION,"Không phải là ngày nhận phần thưởng điểm danh này."
+RESULT_TYPE.TITLE_DATA_NOT_FOUND,"Không có Dữ liệu về danh hiệu."
+RESULT_TYPE.TITLE_NOT_FOUND,"Bạn không có Danh hiệu này."
+RESULT_TYPE.TITLE_EXPIRED,"Danh hiệu này đã hết hạn."
+RESULT_TYPE.EQUIP_DETAIL_DATA_NOT_FOUND,"Không tìm thấy chi tiết về trang bị."
+RESULT_TYPE.NO_MORE_ROULETTE,"Bạn không thể quay vòng quay được nữa."
+RESULT_TYPE.REWARD_DATA_NOT_FOUND,"Dữ liệu phần thưởng không đúng."
+RESULT_TYPE.NOT_COMPLETED_REQ_DUNGEON,"Chương yêu cầu vào chưa hoàn thành."
+RESULT_TYPE.INVALID_PRICE_TYPE,"Thông tin hàng hóa không đúng."
+RESULT_TYPE.LIMIT_OPEN_COUNT,"Bạn đã vượt quá số lượng Đột kích Guild tối đa có thể mở."
+RESULT_TYPE.CHALLENGE_RAID_RANK_ERROR,"Dữ liệu Raid Thử Thách không tồn tại."
+RESULT_TYPE.INVALID_BUILDING_LEVEL,"Không thể tìm thấy thông tin cấp độ. "
+RESULT_TYPE.NOT_ENOUGH_TRAINING_CENTER_LEVEL,"Mở rộng kĩ năng không đúng."
+RESULT_TYPE.ALREADY_APPLIED,"Đã yêu cầu tham gia."
+RESULT_TYPE.GUILD_SUPPRESS_ALREADY_COMPLETED,"Khu vực này đã hoàn thành."
+RESULT_TYPE.GUILD_SUPPRESS_NOT_BATTLE_STATE,"Không có sẵn tại thời điểm này."
+RESULT_TYPE.GUILD_SUPPRESS_RAID_DATA_NOT_FOUND,"Không thể tìm thấy Thông tin về Cuộc chinh phạt Guild trong Thông tin người chơi."
+RESULT_TYPE.GUILD_SUPPRESS_SESSION_NOT_FOUND,"Trận dungeon không tồn tại."
+RESULT_TYPE.GUILD_SUPPRESS_BATTLE_RESULT_ERROR,"Do có lỗi mạng nên máy chủ chậm trễ khi xử lý thông tin người dùng. Vui lòng thử lại sau."
+RESULT_TYPE.GUILD_SUPPRESS_NOT_COMPLETED_REQ_DUNGEON,"Chương yêu cầu vào chưa hoàn thành."
+RESULT_TYPE.GUILD_SUPPRESS_SESSION_DATA_NOT_FOUND,"Không thể tìm thấy chi tiết được yêu cầu."
+RESULT_TYPE.GUILD_SUPPRESS_PLAY_INFO_NOT_FOUND,"Không thể tìm thấy dữ liệu."
+RESULT_TYPE.GUILD_SUPPRESS_NOT_APPLIED,"Bạn chưa yêu cầu tham gia Cuộc chinh phạt Guild."
+RESULT_TYPE.GUILD_SUPPRESS_DUNGEON_DATA_NOT_FOUND,"Thông tin về ngục tối này không tồn tại."
+RESULT_TYPE.NOT_APPLIABLE,"Chưa đến Thời gian yêu cầu tham gia Cuộc chinh phạt Guild."
+RESULT_TYPE.GUILD_MEMBER_REWARD_DATA_NOT_FOUND,"Thông tin về phần thưởng này không tồn tại."
+RESULT_TYPE.INVALID_BUILDING_INDEX,"Dữ liệu không hợp lệ."
+RESULT_TYPE.GUILD_BUILDING_DATA_NOT_FOUND,"Không thể tìm thấy chi tiết được yêu cầu."
+RESULT_TYPE.EXCEED_WOOD,"Đã vượt quá giới hạn."
+RESULT_TYPE.EXCEED_STONE,"Đã vượt quá giới hạn."
+RESULT_TYPE.EXCEED_METAL,"Đã vượt quá giới hạn."
+RESULT_TYPE.NOT_ENOUGH_SUPPRESS_POINT,"Không đủ Điểm chinh phạt."
+RESULT_TYPE.INVALID_ACTIVITY_POINT,"Dữ liệu không hợp lệ."
+RESULT_TYPE.INVALID_SUPPRESS_POINT,"Dữ liệu không hợp lệ."
+RESULT_TYPE.INVALID_TRAINING_CENTER_LEVEL,"Dữ liệu không hợp lệ."
+RESULT_TYPE.NOT_ENOUGH_WOOD,"Không đủ Gỗ."
+RESULT_TYPE.NOT_ENOUGH_METAL,"Không đủ Kim loại."
+RESULT_TYPE.MAX_GUILD_BUILDING_LEVEL,"Công trình không thể tăng cấp được nữa do đã đạt cấp tối đa."
+RESULT_TYPE.UNKNOWN_TYPE,"Không thể tìm thấy dữ liệu."
+RESULT_TYPE.NOT_MATCH_TYPE,"Nhập thông tin sai."
+RESULT_TYPE.SESSION_NOT_FOUND,"Cuộc chinh phạt chưa diễn ra."
+RESULT_TYPE.INVALID_SESSION_INDEX,"Cuộc chinh phạt chưa diễn ra."
+RESULT_TYPE.SESSION_DATA_NOT_FOUND,"Dữ liệu của Cuộc chinh phạt không tồn tại."
+RESULT_TYPE.GUILD_ID_NOT_FOUND,"Không có Guild."
+RESULT_TYPE.INVALID_PURCHASE_MARKETING_REQUEST_INFO,"Dữ liệu không hợp lệ."
+RESULT_TYPE.NOT_ELAPSED_GUILD_MEMBER_REWARDED_TIME,"Còn quá sớm để nhận thưởng từ các thành viên Guild. Vui lòng thử lại sau."
+RESULT_TYPE.PC_AVARTAR_DATA_NOT_FOUND,"Thông tin về phần thưởng này không tồn tại."
+RESULT_TYPE.EQUIP_SLOT_DATA_NOT_FOUND,"Không thể tìm thấy dữ liệu."
+RESULT_TYPE.NOT_MATCH_SUB_TYPE,"Ô này không phù hợp với vật phẩm này."
+RESULT_TYPE.NOT_ENOUGH_RANKING_POINT,"Không đủ Biểu tượng danh dự."
+RESULT_TYPE.NOT_ENOUGH_GLORY1_POINT,"Thiếu điểm Vinh Quang."
+RESULT_TYPE.GUILD_INFO_NOT_FOUND,"Thông tin về Guild không tồn tại."
+RESULT_TYPE.MISSING_BONUS_EVENT_CONDITION,"Không thể tìm thấy dữ liệu."
+RESULT_TYPE.CAN_NOT_SELECTED_COSTUME,"Không thể trang phục trang phục."
 RESULT_TYPE.COSTUME_INFO_REFUND,"Không có Trang phục nào. Bù lại, bạn có thể nhận được Biểu tượng danh dự."
-RESULT_TYPE.WORLDBOSS_NOT_FOUND,Không tìm thấy dữ liệu phù hợp cho Ô lắp trang bị.
-RESULT_TYPE.WORLD_BOSS_DAMAGED_BY_ZERO,Trận chiến không diễn ra được bình thường. Vui lòng thử lại.
-RESULT_TYPE.IS_SINGLE_ROOM,Boss thế giới không hề chịu sát thương. Hãy thách đấu lại.
-RESULT_TYPE.GUILD_GUILDRAID_ALREADY_COMPLETED,Đây là Phòng đấu Đột kích dành cho một người chơi. Bạn không thể tham gia vào trận chiến.
-RESULT_TYPE.GUILD_GUILD_RAID_ALREADY_COMPLETED,Quái vật đã bị đánh bại.\nThẻ tham gia đã dùng sẽ được trả lại.
-RESULT_TYPE.NAME_TOO_LONG,Quái vật đã bị đánh bại.\nThẻ tham gia đã dùng sẽ được trả lại.
-RESULT_TYPE.INVALID_INDEX_ARRAY_SIZE,Tên ô phải có ít hơn 10 ký tự.
-RESULT_TYPE.DUPLICATED_PART_INDEX,Số trang bị để lưu không hợp lệ.
-RESULT_TYPE.INVALID_EQUIP_ITEM_SLOT_INDEX,Bạn đã lắp trang bị này trong Ô lắp trang bị.
-RESULT_TYPE.INVALID_EQUIP_STORAGE_SLOT_INDEX,Bạn không có vật phẩm nào cất trữ trong Ô lưu trang bị.
-RESULT_TYPE.INVALID_PART_INDEX,Số Ô lưu trang bị không hợp lệ.
-RESULT_TYPE.MAX_EXTEND,Ô trang bị không hợp lệ.
-RESULT_TYPE.MISSING_PARAM_ERROR,Không tìm thấy thông tin cần thiết để mở rộng Ô lưu trang bị.
-RESULT_TYPE.ALL_COSTUME_NOT_OWNED,Giá trị nhập không hợp lệ.
-RESULT_TYPE.ALL_HERO_NOT_OWNED,Bạn chưa thu thập hết các trang phục.
-RESULT_TYPE.CHEST_FULL,Bạn chưa tuyển mộ hết các Anh hùng.
-RESULT_TYPE.MAX_CHEST,Hòm bảo quản đã đầy.
-RESULT_TYPE.INVENTORY_FULL,Ô tại Hòm bảo quản đã đạt mức tối đa.
-RESULT_TYPE.COUNTRY_CODE_CHANGE_IS_NOT_POSSIBLE,Kho đầy.
-RESULT_TYPE.GUILD_SUPPRESS_AUTO_APPLY_INFO_NOT_FOUND,Bạn không được phép thay đổi Mã quốc gia trong thời gian này.
-RESULT_TYPE.INVALID_COUNTRY_CODE_INDEX,Không thể tìm thấy thông tin đăng ký Tự động chinh phạt.
-RESULT_TYPE. EVENT_ITEM_NOT_SELLECT,Mã quốc gia không tồn tại.
-RESULT_TYPE.POINT_NOT_ENOUGH,Chưa chọn vật phẩm.
-RESULT_TYPE.MAX_HERO_TRANSCEND_POINT,Không đủ Điểm tham gia.
-RESULT_TYPE.INVALID_HERO_TRANSCEND_POINT,Điểm thuộc tính siêu việt của Anh hùng đã ở mức tối đa.
-RESULT_TYPE.RESOURCE_NOT_FOUND_ERROR,Điểm thuộc tính siêu việt của Anh hùng không hợp lệ.
-RESULT_TYPE.INCORRECT_GUILD_MEMBER,Không tìm thấy tài nguyên.
-RESULT_TYPE.GUILD_MEMBER_NOT_FOUND,Không tiến hành được. Thành viên Guild không hợp lệ.
-RESULT_TYPE.MAX_GUILD_ADMIN,Không tìm thấy thành viên Guild nào trùng khớp.
-RESULT_TYPE.NOT_CORRECT_GUILD_BUILDING_LEVEL,Đã đạt đến số lượng Quản lý tối đa.
-RESULT_TYPE.INVALID_TAG_TYPE,Mua không thành công. Cấp độ của sản phẩm và Cửa hàng Guild không khớp.
-RESULT_TYPE.INVALID_CURRENCY_DATA,Hệ không hợp lệ.
-RESULT_TYPE.NOT_ENOUGH_CURRENCY,Dữ liệu hàng hóa không hợp lệ.
-RESULT_TYPE.NOT_EXIST_CLASS_BUFF_DATA,Thiếu hàng hóa.
-RESULT_TYPE.ALREADY_CLASS_BUFF_INIT,Dữ liệu này không tồn tại.
-RESULT_TYPE.INVALID_CLASS_BUFF_INDEX,Đã thiết lập lại từ trước.
-RESULT_TYPE.INVALID_CLASS_BUFF_LEVEL,Thông tin Hỗ trợ cho hệ không hợp lệ đã được gửi đến máy chủ.
-RESULT_TYPE.NOT_ENOUGH_POINT,Thông tin Cấp độ hỗ trợ cho hệ không hợp lệ đã được gửi đến máy chủ.
-RESULT_TYPE.NOT_ENOUGH_CLASS_BUFF_INDEX,Không đủ Điểm hỗ trợ cho hệ.
-RESULT_TYPE.NOT_ENOUGH_CLASS_BUFF_LEVEL,Không đủ chỉ số để tăng cấp.
-RESULT_TYPE.NOT_ENOUGH_NEED_HERO_COUNT,Không đủ cấp độ Hỗ trợ cho hệ để tăng cấp.
-RESULT_TYPE.EXCEEDED_MAX_LEVEL,Bạn không có đủ Anh hùng.
-RESULT_TYPE.MONTHLY_HERO_NOT_FOUND,Không thể cường hóa thêm được nữa.
-RESULT_TYPE.CHECK_CONDITION_NOT_PASSED,Lệnh không thể xử lý được.
-RESULT_TYPE.NEWBIE_POPUP_TIME_ENDED,Đã quá thời gian nhận phần thưởng.
-RESULT_TYPE.NOT_OPENED_NEWBIE_POPUP,Sản phẩm cần mua hiện đang không bán.
-RESULT_TYPE.NOT_ENOUGH_GUILD_ARENA_POINT,Thiếu huy hiệu Chiến guild.
-RESULT_TYPE.NOT_ENOUGH_CONQUEST_DUNGEON_COUNT,Thiếu chìa khoá chinh phạt.
-RESULT_TYPE.ALREADY_ON_BATTLE_HERO,Anh hùng đang đi viễn.
-RESULT_TYPE.GUILD_SUPPRESS_GROUP_INFO_NOT_FOUND,Không tồn tại thông tin tham gia trận chinh phạt guild.
-RESULT_TYPE.MODULATED_DATA,Đã yêu cầu thông tin thông qua dữ liệu được chỉnh sửa.
-RESULT_TYPE.DISPATCH_BATTLE_NOT_FOUND,Không tìm thấy thông tin đoàn viễn chinh.
-RESULT_TYPE.ALREADY_FINISH_DISPATCH_BATTLE,Đang ở trạng thái đã hoàn thành.
-RESULT_TYPE.ALREADY_MAX_BATTLE_COUNT,Không thể phái thêm.
-RESULT_TYPE.NOT_ENOUGH_HERO_COUNT,Thiếu anh hùng.
-RESULT_TYPE.NOT_OWN_HERO,Không phải anh hùng đang sở hữu.
-RESULT_TYPE.NOT_CORRECT_EQUIP_SWAP_COUNT,Số trang bị cần thay đổi không phải là 2.
-RESULT_TYPE.HERO_NOT_EQUIPPED,Trang bị cần thay đổi là trang bị không mặc.
-RESULT_TYPE.CAN_NOT_UPGRADE_VALUE,Giá trị không thể tiến hành cường hoá.
-RESULT_TYPE.ALREADY_USED_EQUIP_STORAGE_SLOT_INDEX,EquipStorageSlotIndex đang sử dụng
-RESULT_TYPE.GUILD_ARENA_SESSION_NOT_FOUND,Chiến guild đã kết thúc.
-RESULT_TYPE.INVALID_GUILD_ARENA_SESSION_INDEX,Chiến guild đã kết thúc.
-RESULT_TYPE.NOT_GUILD_ARENA_APPLIABLE,Không thể tham gia.
-RESULT_TYPE.GUILD_ARENA_SESSION_DATA_NOT_FOUND,Không tồn tại dữ liệu Chiến guild.
-RESULT_TYPE.ALREADY_APPLIED_GUILD_ARENA,Bạn đã tham gia.
-RESULT_TYPE.GUILD_ARENA_SCORE_INFO_NOT_FOUND,Không tìm thấy lịch sử Chiến guild.
-RESULT_TYPE.GUILD_ARENA_AUTO_APPLY_INFO_NOT_FOUND,Không tìm thấy lịch sử đăng ký chiến guild tự động.
-RESULT_TYPE.SUB_STORY_DATA_NOT_FOUND,Không tồn tại dữ liệu game ngoại truyện.
-RESULT_TYPE.NEED_SUB_STORY,Có thể mua sau khi hoàn thành ngoại truyện.
-RESULT_TYPE.REQUIRED_VALUE_EMPTY,Không có kết quả theo yêu cầu.
-RESULT_TYPE.NOT_HAVE_HERO,Không sở hữu anh hùng cần thiết.
-RESULT_TYPE.WEAPON_COSTUME_DATA_NOT_FOUND,Không có dữ liệu vũ khí.
-RESULT_TYPE.HAIR_COSTUME_DATA_NOT_FOUND,Không có dữ liệu kiểu tóc.
-RESULT_TYPE.STAR_VALUE_NOT_FOUND,Không có thông tin cấp bậc anh hùng trong dữ liệu trang phục.
-RESULT_TYPE.NOT_HAVE_NEED_COSTUME,Không có trang phục cơ bản.
-RESULT_TYPE.ALREADY_HAVE_ACCESSORY_COSTUME,Đã có phụ kiện này.
-RESULT_TYPE.ACCESSORY_COSTUME_DATA_NOT_FOUND,Không có dữ liệu về phụ kiện.
-RESULT_TYPE.ACCESSORY_COSTUME_NOT_OPENED,Không phải là phụ kiện để bán.
-RESULT_TYPE.DUPLICATE_PART_TYPE,Không thể mua hoặc mặc sản phẩm trên cùng một bộ phận.
-RESULT_TYPE.UNSET_ACCESSORY_COSTUME_FAIL,Tháo trang phục và phụ kiện thất bại.
-RESULT_TYPE.NOT_HAVE_WEAPON_COSTUME,Chưa có vũ khí này.
-RESULT_TYPE.NOT_HAVE_ACCESSORY_COSTUME,Chưa có phụ kiện này.
-RESULT_TYPE.INVALID_VALUE,Đã yêu cầu với giá trị không hợp lệ.
-RESULT_TYPE.EMPTY_SORAGE_SLOT,Ô lưu trang phục muốn mặc đang trống.
-RESULT_TYPE.HOUSE_OBJECT_DATA_NOT_FOUND,Không tìm thấy vật phẩm.
-RESULT_TYPE.INVALID_EXTEND_SIZE,Size mở rộng không hợp lệ
-RESULT_TYPE.OVER_MAX_EXTEND_SIZE,Vượt quá size mở rộng tối đa
-RESULT_TYPE.EXTEND_DATA_NOT_FOUND,Không tồn tại dữ liệu mở rộng
-RESULT_TYPE.INVALID_SIZE,Size phòng trọ không hợp lệ
-RESULT_TYPE.INVALID_OPEN_HERO_COUNT,Số ô anh hùng không hợp lệ
-RESULT_TYPE.INVALID_FACILITY_COUNT,Số thiết bị sản xuất không hợp lệ
-RESULT_TYPE.INVALID_REQ_ITEM,Số vật phẩm cần để mở rộng không hợp lệ
-RESULT_TYPE.INVALID_HERO_COUNT,Vượt quá số anh hùng cần bố trí
-RESULT_TYPE.OVER_AVAIL_FACILITY_COUNT,Số thiết bị hiện tại nhiều hơn số thiết bị có thể lắp đặt
-RESULT_TYPE.FURNITURE_DATA_NOT_FOUND,Không có thông tin nội thất
-RESULT_TYPE.INVALID_AXIS,Dữ liệu trục không hợp lệ
-RESULT_TYPE.INVALID_LOCATION,Vị trí không hợp lệ
-RESULT_TYPE.NOT_FOUND_CHAPTER_DATA,Không tìm thấy dữ liệu game của chương.
-RESULT_TYPE.IS_NOT_OPEN_DUNGEON,Chưa hoàn thành ngục tối màn trước.
-RESULT_TYPE.INVALID_AVATAR_HERO_INDEX,Yêu cầu giá trị AvatarHeroIndex không hợp lệ.
-RESULT_TYPE.NICK_CHANGE_DISABLED,Không thể thay đổi tên.
-RESULT_TYPE.GUILD_ARENA_WRONG_SESSION_INDEX,Kỳ chưa được tiến hành.
-RESULT_TYPE.GUILD_ARENA_NOT_BATTLE_STATE,Trạng thái Chiến guild: không tham gia chiến đấu.
-RESULT_TYPE.NOT_ENOUGH_GUILD_ARENA_KEY,Không có vé tham gia chiến guild.
-RESULT_TYPE.ALREADY_USED_BATTLE_HERO,Anh hùng này đang tham chiến.
-RESULT_TYPE.CANNOT_PLAY_IN_BATTLE,Đối phương đang tham chiến. 
-RESULT_TYPE.GUILD_ARENA_SESSION_SCORE_NOT_FOUND,Không tìm thấy điểm tham gia kỳ chiến guild.
-RESULT_TYPE.GUILD_ARENA_ENEMY_NOT_FOUND,Không tìm thấy nhóm đối thủ đã từng ghép.
-RESULT_TYPE.GUILD_ARENA_ENEMY_NOT_CORRECT,Đối thủ sẽ tấn công không phải là đối thủ đã kết nối.
-RESULT_TYPE.MATCHED_GUILD_ARENA_ENEMY_NOT_FOUND,Không tìm thấy nhóm đối thủ đã từng ghép.
-RESULT_TYPE.MATCH_TIER_NOT_FOUND,Không tìm thấy thông tin nhóm tương đương. 
-RESULT_TYPE.GUILD_ARENA_ENEMY_DECK_NOT_FOUND,Không tìm thấy thông tin nhóm phòng thủ của đối phương.
-RESULT_TYPE.GUILD_ARENA_MEMBER_RECORD_NOT_FOUND,Không tìm thấy thông tin chiến tích.
-RESULT_TYPE.INVALID_GUILD_ARENA_SEASON_INDEX,Mùa Chiến guild chưa được mở.
-RESULT_TYPE.GUILD_ARENA_RANKER_INFO_NOT_FOUND,Không tìm thấy lịch sử Chiến guild.
-RESULT_TYPE.GUILD_ARENA_SESSION_RECORD_INFO_NOT_FOUND,Không tìm thấy kết quả xếp hạng Chiến guild.
-RESULT_TYPE.GUILD_ARENA_ENEMY_DECK_ALREADY_COMPLETED,Địch đã bị thất bại.
-RESULT_TYPE.GUILD_ARENA_MATCH_INFO_NOT_FOUND,Không tìm thấy thông tin nhóm phòng thủ của đối phương.
+RESULT_TYPE.WORLDBOSS_NOT_FOUND,"Không tìm thấy dữ liệu phù hợp cho Ô lắp trang bị."
+RESULT_TYPE.WORLD_BOSS_DAMAGED_BY_ZERO,"Trận chiến không diễn ra được bình thường. Vui lòng thử lại."
+RESULT_TYPE.IS_SINGLE_ROOM,"Boss thế giới không hề chịu sát thương. Hãy thách đấu lại."
+RESULT_TYPE.GUILD_GUILDRAID_ALREADY_COMPLETED,"Đây là Phòng đấu Đột kích dành cho một người chơi. Bạn không thể tham gia vào trận chiến."
+RESULT_TYPE.GUILD_GUILD_RAID_ALREADY_COMPLETED,"Quái vật đã bị đánh bại.\nThẻ tham gia đã dùng sẽ được trả lại."
+RESULT_TYPE.NAME_TOO_LONG,"Quái vật đã bị đánh bại.\nThẻ tham gia đã dùng sẽ được trả lại."
+RESULT_TYPE.INVALID_INDEX_ARRAY_SIZE,"Tên ô phải có ít hơn 10 ký tự."
+RESULT_TYPE.DUPLICATED_PART_INDEX,"Số trang bị để lưu không hợp lệ."
+RESULT_TYPE.INVALID_EQUIP_ITEM_SLOT_INDEX,"Bạn đã lắp trang bị này trong Ô lắp trang bị."
+RESULT_TYPE.INVALID_EQUIP_STORAGE_SLOT_INDEX,"Bạn không có vật phẩm nào cất trữ trong Ô lưu trang bị."
+RESULT_TYPE.INVALID_PART_INDEX,"Số Ô lưu trang bị không hợp lệ."
+RESULT_TYPE.MAX_EXTEND,"Ô trang bị không hợp lệ."
+RESULT_TYPE.MISSING_PARAM_ERROR,"Không tìm thấy thông tin cần thiết để mở rộng Ô lưu trang bị."
+RESULT_TYPE.ALL_COSTUME_NOT_OWNED,"Giá trị nhập không hợp lệ."
+RESULT_TYPE.ALL_HERO_NOT_OWNED,"Bạn chưa thu thập hết các trang phục."
+RESULT_TYPE.CHEST_FULL,"Bạn chưa tuyển mộ hết các Anh hùng."
+RESULT_TYPE.MAX_CHEST,"Hòm bảo quản đã đầy."
+RESULT_TYPE.INVENTORY_FULL,"Ô tại Hòm bảo quản đã đạt mức tối đa."
+RESULT_TYPE.COUNTRY_CODE_CHANGE_IS_NOT_POSSIBLE,"Kho đầy."
+RESULT_TYPE.GUILD_SUPPRESS_AUTO_APPLY_INFO_NOT_FOUND,"Bạn không được phép thay đổi Mã quốc gia trong thời gian này."
+RESULT_TYPE.INVALID_COUNTRY_CODE_INDEX,"Không thể tìm thấy thông tin đăng ký Tự động chinh phạt."
+RESULT_TYPE. EVENT_ITEM_NOT_SELLECT,"Mã quốc gia không tồn tại."
+RESULT_TYPE.POINT_NOT_ENOUGH,"Chưa chọn vật phẩm."
+RESULT_TYPE.MAX_HERO_TRANSCEND_POINT,"Không đủ Điểm tham gia."
+RESULT_TYPE.INVALID_HERO_TRANSCEND_POINT,"Điểm thuộc tính siêu việt của Anh hùng đã ở mức tối đa."
+RESULT_TYPE.RESOURCE_NOT_FOUND_ERROR,"Điểm thuộc tính siêu việt của Anh hùng không hợp lệ."
+RESULT_TYPE.INCORRECT_GUILD_MEMBER,"Không tìm thấy tài nguyên."
+RESULT_TYPE.GUILD_MEMBER_NOT_FOUND,"Không tiến hành được. Thành viên Guild không hợp lệ."
+RESULT_TYPE.MAX_GUILD_ADMIN,"Không tìm thấy thành viên Guild nào trùng khớp."
+RESULT_TYPE.NOT_CORRECT_GUILD_BUILDING_LEVEL,"Đã đạt đến số lượng Quản lý tối đa."
+RESULT_TYPE.INVALID_TAG_TYPE,"Mua không thành công. Cấp độ của sản phẩm và Cửa hàng Guild không khớp."
+RESULT_TYPE.INVALID_CURRENCY_DATA,"Hệ không hợp lệ."
+RESULT_TYPE.NOT_ENOUGH_CURRENCY,"Dữ liệu hàng hóa không hợp lệ."
+RESULT_TYPE.NOT_EXIST_CLASS_BUFF_DATA,"Thiếu hàng hóa."
+RESULT_TYPE.ALREADY_CLASS_BUFF_INIT,"Dữ liệu này không tồn tại."
+RESULT_TYPE.INVALID_CLASS_BUFF_INDEX,"Đã thiết lập lại từ trước."
+RESULT_TYPE.INVALID_CLASS_BUFF_LEVEL,"Thông tin Hỗ trợ cho hệ không hợp lệ đã được gửi đến máy chủ."
+RESULT_TYPE.NOT_ENOUGH_POINT,"Thông tin Cấp độ hỗ trợ cho hệ không hợp lệ đã được gửi đến máy chủ."
+RESULT_TYPE.NOT_ENOUGH_CLASS_BUFF_INDEX,"Không đủ Điểm hỗ trợ cho hệ."
+RESULT_TYPE.NOT_ENOUGH_CLASS_BUFF_LEVEL,"Không đủ chỉ số để tăng cấp."
+RESULT_TYPE.NOT_ENOUGH_NEED_HERO_COUNT,"Không đủ cấp độ Hỗ trợ cho hệ để tăng cấp."
+RESULT_TYPE.EXCEEDED_MAX_LEVEL,"Bạn không có đủ Anh hùng."
+RESULT_TYPE.MONTHLY_HERO_NOT_FOUND,"Không thể cường hóa thêm được nữa."
+RESULT_TYPE.CHECK_CONDITION_NOT_PASSED,"Lệnh không thể xử lý được."
+RESULT_TYPE.NEWBIE_POPUP_TIME_ENDED,"Đã quá thời gian nhận phần thưởng."
+RESULT_TYPE.NOT_OPENED_NEWBIE_POPUP,"Sản phẩm cần mua hiện đang không bán."
+RESULT_TYPE.NOT_ENOUGH_GUILD_ARENA_POINT,"Thiếu huy hiệu Chiến guild."
+RESULT_TYPE.GUILD_ARENA_SESSION_NOT_FOUND,"Chiến guild đã kết thúc."
+RESULT_TYPE.INVALID_GUILD_ARENA_SESSION_INDEX,"Chiến guild đã kết thúc."
+RESULT_TYPE.GUILD_ARENA_SESSION_DATA_NOT_FOUND,"Không tồn tại dữ liệu Chiến guild."
+RESULT_TYPE.ALREADY_APPLIED_GUILD_ARENA,"Bạn đã tham gia."
+RESULT_TYPE.GUILD_ARENA_SCORE_INFO_NOT_FOUND,"Không tìm thấy lịch sử Chiến guild."
+RESULT_TYPE.GUILD_ARENA_AUTO_APPLY_INFO_NOT_FOUND,"Không tìm thấy lịch sử đăng ký chiến guild tự động."
+RESULT_TYPE.REQUIRED_VALUE_EMPTY,"Không có kết quả theo yêu cầu."
+RESULT_TYPE.NOT_HAVE_HERO,"Không sở hữu anh hùng cần thiết."
+RESULT_TYPE.WEAPON_COSTUME_DATA_NOT_FOUND,"Không có dữ liệu vũ khí."
+RESULT_TYPE.HAIR_COSTUME_DATA_NOT_FOUND,"Không có dữ liệu kiểu tóc."
+RESULT_TYPE.STAR_VALUE_NOT_FOUND,"Không có thông tin cấp bậc anh hùng trong dữ liệu trang phục."
+RESULT_TYPE.NOT_HAVE_NEED_COSTUME,"Không có trang phục cơ bản."
+RESULT_TYPE.ALREADY_HAVE_ACCESSORY_COSTUME,"Đã có phụ kiện này."
+RESULT_TYPE.ACCESSORY_COSTUME_DATA_NOT_FOUND,"Không có dữ liệu về phụ kiện."
+RESULT_TYPE.ACCESSORY_COSTUME_NOT_OPENED,"Không phải là phụ kiện để bán."
+RESULT_TYPE.DUPLICATE_PART_TYPE,"Không thể mua hoặc mặc sản phẩm trên cùng một bộ phận."
+RESULT_TYPE.NOT_HAVE_WEAPON_COSTUME,"Chưa có vũ khí này."
+RESULT_TYPE.NOT_HAVE_ACCESSORY_COSTUME,"Chưa có phụ kiện này."
+RESULT_TYPE.GUILD_ARENA_WRONG_SESSION_INDEX,"Kỳ chưa được tiến hành."
+RESULT_TYPE.GUILD_ARENA_NOT_BATTLE_STATE,"Trạng thái Chiến guild: không tham gia chiến đấu."
+RESULT_TYPE.NOT_ENOUGH_GUILD_ARENA_KEY,"Không có vé tham gia chiến guild."
+RESULT_TYPE.ALREADY_USED_BATTLE_HERO,"Anh hùng này đang tham chiến."
+RESULT_TYPE.CANNOT_PLAY_IN_BATTLE,"Đối phương đang tham chiến. "
+RESULT_TYPE.GUILD_ARENA_SESSION_SCORE_NOT_FOUND,"Không tìm thấy điểm tham gia kỳ chiến guild."
+RESULT_TYPE.GUILD_ARENA_ENEMY_NOT_FOUND,"Không tìm thấy nhóm đối thủ đã từng ghép."
+RESULT_TYPE.GUILD_ARENA_ENEMY_NOT_CORRECT,"Đối thủ sẽ tấn công không phải là đối thủ đã kết nối."
+RESULT_TYPE.MATCHED_GUILD_ARENA_ENEMY_NOT_FOUND,"Không tìm thấy nhóm đối thủ đã từng ghép."
+RESULT_TYPE.MATCH_TIER_NOT_FOUND,"Không tìm thấy thông tin nhóm tương đương. "
+RESULT_TYPE.GUILD_ARENA_ENEMY_DECK_NOT_FOUND,"Không tìm thấy thông tin nhóm phòng thủ của đối phương."
+RESULT_TYPE.GUILD_ARENA_MEMBER_RECORD_NOT_FOUND,"Không tìm thấy thông tin chiến tích."
+RESULT_TYPE.INVALID_GUILD_ARENA_SEASON_INDEX,"Mùa Chiến guild chưa được mở."
+RESULT_TYPE.GUILD_ARENA_RANKER_INFO_NOT_FOUND,"Không tìm thấy lịch sử Chiến guild."
+RESULT_TYPE.GUILD_ARENA_SESSION_RECORD_INFO_NOT_FOUND,"Không tìm thấy kết quả xếp hạng Chiến guild."
+RESULT_TYPE.GUILD_ARENA_ENEMY_DECK_ALREADY_COMPLETED,"Địch đã bị thất bại."
+RESULT_TYPE.GUILD_ARENA_MATCH_INFO_NOT_FOUND,"Không tìm thấy thông tin nhóm phòng thủ của đối phương."
 RESULT_TYPE.GUILD_ARENA_NOT_APPLY_SET_DECK,"Thời gian đăng ký đã kết thúc, không thể thiết lập nhóm phòng thủ."
-RESULT_TYPE.GUILD_ARENA_DECK_HERO_NOT_FOUND,Không tìm thấy anh hùng.
-RESULT_TYPE.GUILD_ARENA_HERO_NOT_FOUND,Chưa sở hữu anh hùng này.
+RESULT_TYPE.GUILD_ARENA_DECK_HERO_NOT_FOUND,"Không tìm thấy anh hùng."
+RESULT_TYPE.GUILD_ARENA_HERO_NOT_FOUND,"Chưa sở hữu anh hùng này."
 RESULT_TYPE.GUILD_ARENA_NOT_APPLY_SET_DECK_SKILL,"Thời gian đăng kí đã kết thúc, không thể thiết lập kỹ năng."
-RESULT_TYPE.NOT_ENOUGH_ECLIPSE_KEY,Không có tinh thể Mặt trăng máu.\n\nCó thể thu được Tinh thể Mặt trăng máu sau khi tăng độ xâm thực bóng tối bằng mảnh ghép xâm thực nhận được khi điểm danh hoặc khi tiêu hao stamina.\nBạn sẽ thu được Tinh thể Mặt trăng máu khi độ xâm thực bóng tối đầy.
-RESULT_TYPE.IS_ALREADY_LIBERATION,Vũ khí chuyên dụng đã được giải phóng.
-RESULT_TYPE.NOT_AVAILABLE_RECHARGE,Có độ xâm thực của bóng tối bị bỏ đi trong trường hợp nạp thêm tinh thể Mặt trăng máu.\nVào Eclipse và thử lại sau khi sử dụng tinh thể Mặt trăng máu.
-RESULT_TYPE.ECLIPSE_BATTLE_TIME_OVER,"Thời gian của Eclipse kết thúc, không thể tiến hành trận đấu nữa."

@@ -47,7 +47,8 @@
     "ReinforceFail": [
       "Item/3dModel_SoulWeapon",
       "SOULWEAPON_KASEL_REINFORCEFAIL"
-    ]
+    ],
+    "LiberationResultSide": "Right"
   },
   {
     "ItemCode": "WEAPON_UNIQUE_FREY_1",
@@ -97,7 +98,8 @@
     "ReinforceFail": [
       "Item/3dModel_SoulWeapon",
       "SOULWEAPON_FREY_REINFORCEFAIL"
-    ]
+    ],
+    "LiberationResultSide": "Right"
   },
   {
     "ItemCode": "WEAPON_UNIQUE_CLEO_1",
@@ -147,7 +149,8 @@
     "ReinforceFail": [
       "Item/3dModel_SoulWeapon",
       "SOULWEAPON_CLEO_REINFORCEFAIL"
-    ]
+    ],
+    "LiberationResultSide": "Right"
   },
   {
     "ItemCode": "WEAPON_UNIQUE_ROI_1",
@@ -197,7 +200,8 @@
     "ReinforceFail": [
       "Item/3dModel_SoulWeapon",
       "SOULWEAPON_ROI_REINFORCEFAIL"
-    ]
+    ],
+    "LiberationResultSide": "Right"
   },
   {
     "ItemCode": "WEAPON_UNIQUE_GAU_1",
@@ -237,8 +241,7 @@
     ],
     "UpgradeResultWeaponScale": 3,
     "Liberation": [
-      "Hero",
-      "Gau",
+      "Hero/Gau",
       "GetSoulWeapon"
     ],
     "ReinforceSuccess": [
@@ -705,8 +708,8 @@
     "WeaponCreatureIndex": 901015,
     "SoulStoneCreatureIndex": 911015,
     "ManageWeaponPosition": [
-      "0",
-      "1",
+      "0.2",
+      "2.4",
       "0"
     ],
     "ManageWeaponRotation": [
@@ -714,10 +717,10 @@
       "90",
       "0"
     ],
-    "ManageWeaponScale": 3,
+    "ManageWeaponScale": 2,
     "UpgradeWeaponPosition": [
-      "0",
-      "1",
+      "0.2",
+      "2.4",
       "0"
     ],
     "UpgradeWeaponRotation": [
@@ -725,10 +728,10 @@
       "90",
       "0"
     ],
-    "UpgradeWeaponScale": 3,
+    "UpgradeWeaponScale": 2,
     "UpgradeResultWeaponPosition": [
-      "0",
-      "1",
+      "0.2",
+      "2.4",
       "0"
     ],
     "UpgradeResultWeaponRotation": [
@@ -736,7 +739,7 @@
       "90",
       "0"
     ],
-    "UpgradeResultWeaponScale": 3,
+    "UpgradeResultWeaponScale": 2,
     "Liberation": [
       "Hero/Clause",
       "GetSoulWeapon"
@@ -748,15 +751,16 @@
     "ReinforceFail": [
       "Item/3dModel_SoulWeapon",
       "SOULWEAPON_CLAUSE_REINFORCEFAIL"
-    ]
+    ],
+    "LiberationResultSide": "Right"
   },
   {
     "ItemCode": "WEAPON_UNIQUE_REPHY_1",
     "WeaponCreatureIndex": 901016,
     "SoulStoneCreatureIndex": 911016,
     "ManageWeaponPosition": [
-      "0",
-      "1",
+      "-0.2",
+      "0.9",
       "0"
     ],
     "ManageWeaponRotation": [
@@ -764,10 +768,10 @@
       "90",
       "0"
     ],
-    "ManageWeaponScale": 3,
+    "ManageWeaponScale": 1.1,
     "UpgradeWeaponPosition": [
-      "0",
-      "1",
+      "-0.2",
+      "0.9",
       "0"
     ],
     "UpgradeWeaponRotation": [
@@ -775,10 +779,10 @@
       "90",
       "0"
     ],
-    "UpgradeWeaponScale": 3,
+    "UpgradeWeaponScale": 1.1,
     "UpgradeResultWeaponPosition": [
-      "0",
-      "1",
+      "-0.2",
+      "0.9",
       "0"
     ],
     "UpgradeResultWeaponRotation": [
@@ -786,7 +790,7 @@
       "90",
       "0"
     ],
-    "UpgradeResultWeaponScale": 3,
+    "UpgradeResultWeaponScale": 1.1,
     "Liberation": [
       "Hero/Rephy",
       "GetSoulWeapon"
@@ -798,7 +802,8 @@
     "ReinforceFail": [
       "Item/3dModel_SoulWeapon",
       "SOULWEAPON_REPHY_REINFORCEFAIL"
-    ]
+    ],
+    "LiberationResultSide": "Right"
   },
   {
     "ItemCode": "WEAPON_UNIQUE_DIMAEL_1",
@@ -1148,7 +1153,8 @@
     "ReinforceFail": [
       "Item/3dModel_SoulWeapon",
       "SOULWEAPON_MORRAH_REINFORCEFAIL"
-    ]
+    ],
+    "LiberationResultSide": "Right"
   },
   {
     "ItemCode": "WEAPON_UNIQUE_BAUDOUIN_1",
@@ -1248,7 +1254,8 @@
     "ReinforceFail": [
       "Item/3dModel_SoulWeapon",
       "SOULWEAPON_JANE_REINFORCEFAIL"
-    ]
+    ],
+    "LiberationResultSide": "Right"
   },
   {
     "ItemCode": "WEAPON_UNIQUE_AISHA_1",
@@ -1256,7 +1263,7 @@
     "SoulStoneCreatureIndex": 911026,
     "ManageWeaponPosition": [
       "0",
-      "1",
+      "1.2",
       "0"
     ],
     "ManageWeaponRotation": [
@@ -1264,10 +1271,10 @@
       "90",
       "0"
     ],
-    "ManageWeaponScale": 3,
+    "ManageWeaponScale": 2.4,
     "UpgradeWeaponPosition": [
       "0",
-      "1",
+      "1.2",
       "0"
     ],
     "UpgradeWeaponRotation": [
@@ -1275,10 +1282,10 @@
       "90",
       "0"
     ],
-    "UpgradeWeaponScale": 3,
+    "UpgradeWeaponScale": 2.4,
     "UpgradeResultWeaponPosition": [
       "0",
-      "1",
+      "1.2",
       "0"
     ],
     "UpgradeResultWeaponRotation": [
@@ -1286,7 +1293,7 @@
       "90",
       "0"
     ],
-    "UpgradeResultWeaponScale": 3,
+    "UpgradeResultWeaponScale": 2.4,
     "Liberation": [
       "Hero/Aisha",
       "GetSoulWeapon"
@@ -1298,7 +1305,8 @@
     "ReinforceFail": [
       "Item/3dModel_SoulWeapon",
       "SOULWEAPON_AISHA_REINFORCEFAIL"
-    ]
+    ],
+    "LiberationResultSide": "Right"
   },
   {
     "ItemCode": "WEAPON_UNIQUE_LEO_1",
@@ -1498,7 +1506,8 @@
     "ReinforceFail": [
       "Item/3dModel_SoulWeapon",
       "SOULWEAPON_ELL_REINFORCEFAIL"
-    ]
+    ],
+    "LiberationResultSide": "Right"
   },
   {
     "ItemCode": "WEAPON_UNIQUE_ARCH_1",
@@ -1698,7 +1707,8 @@
     "ReinforceFail": [
       "Item/3dModel_SoulWeapon",
       "SOULWEAPON_ANNETTE_REINFORCEFAIL"
-    ]
+    ],
+    "LiberationResultSide": "Right"
   },
   {
     "ItemCode": "WEAPON_UNIQUE_MITRA_1",
@@ -1798,7 +1808,8 @@
     "ReinforceFail": [
       "Item/3dModel_SoulWeapon",
       "SOULWEAPON_RICARDO_REINFORCEFAIL"
-    ]
+    ],
+    "LiberationResultSide": "Right"
   },
   {
     "ItemCode": "WEAPON_UNIQUE_TANYA_1",
@@ -1998,7 +2009,8 @@
     "ReinforceFail": [
       "Item/3dModel_SoulWeapon",
       "SOULWEAPON_THEO_REINFORCEFAIL"
-    ]
+    ],
+    "LiberationResultSide": "Right"
   },
   {
     "ItemCode": "WEAPON_UNIQUE_MEDIANA_1",
@@ -2206,7 +2218,7 @@
     "SoulStoneCreatureIndex": 911045,
     "ManageWeaponPosition": [
       "0",
-      "1",
+      "2.5",
       "0"
     ],
     "ManageWeaponRotation": [
@@ -2214,10 +2226,10 @@
       "90",
       "0"
     ],
-    "ManageWeaponScale": 3,
+    "ManageWeaponScale": 1.2,
     "UpgradeWeaponPosition": [
       "0",
-      "1",
+      "2.5",
       "0"
     ],
     "UpgradeWeaponRotation": [
@@ -2225,10 +2237,10 @@
       "90",
       "0"
     ],
-    "UpgradeWeaponScale": 3,
+    "UpgradeWeaponScale": 1.2,
     "UpgradeResultWeaponPosition": [
       "0",
-      "1",
+      "2.5",
       "0"
     ],
     "UpgradeResultWeaponRotation": [
@@ -2236,7 +2248,7 @@
       "90",
       "0"
     ],
-    "UpgradeResultWeaponScale": 3,
+    "UpgradeResultWeaponScale": 1.2,
     "Liberation": [
       "Hero/Yanne",
       "GetSoulWeapon"
@@ -2248,7 +2260,8 @@
     "ReinforceFail": [
       "Item/3dModel_SoulWeapon",
       "SOULWEAPON_YANNE_REINFORCEFAIL"
-    ]
+    ],
+    "LiberationResultSide": "Right"
   },
   {
     "ItemCode": "WEAPON_UNIQUE_ZAFIR_1",
@@ -2298,7 +2311,8 @@
     "ReinforceFail": [
       "Item/3dModel_SoulWeapon",
       "SOULWEAPON_ZAFIR_REINFORCEFAIL"
-    ]
+    ],
+    "LiberationResultSide": "Right"
   },
   {
     "ItemCode": "WEAPON_UNIQUE_YURIA_1",
@@ -2356,7 +2370,7 @@
     "SoulStoneCreatureIndex": 911048,
     "ManageWeaponPosition": [
       "0",
-      "1",
+      "2.5",
       "0"
     ],
     "ManageWeaponRotation": [
@@ -2364,10 +2378,10 @@
       "90",
       "0"
     ],
-    "ManageWeaponScale": 3,
+    "ManageWeaponScale": 2.6,
     "UpgradeWeaponPosition": [
       "0",
-      "1",
+      "2.5",
       "0"
     ],
     "UpgradeWeaponRotation": [
@@ -2375,10 +2389,10 @@
       "90",
       "0"
     ],
-    "UpgradeWeaponScale": 3,
+    "UpgradeWeaponScale": 2.6,
     "UpgradeResultWeaponPosition": [
       "0",
-      "1",
+      "2.5",
       "0"
     ],
     "UpgradeResultWeaponRotation": [
@@ -2386,7 +2400,7 @@
       "90",
       "0"
     ],
-    "UpgradeResultWeaponScale": 3,
+    "UpgradeResultWeaponScale": 2.6,
     "Liberation": [
       "Hero/Rehartna",
       "GetSoulWeapon"
@@ -2555,8 +2569,8 @@
     "WeaponCreatureIndex": 901052,
     "SoulStoneCreatureIndex": 911052,
     "ManageWeaponPosition": [
-      "0",
-      "1",
+      "-0.1",
+      "2.4",
       "0"
     ],
     "ManageWeaponRotation": [
@@ -2564,10 +2578,10 @@
       "90",
       "0"
     ],
-    "ManageWeaponScale": 3,
+    "ManageWeaponScale": 1.2,
     "UpgradeWeaponPosition": [
-      "0",
-      "1",
+      "-0.1",
+      "2.4",
       "0"
     ],
     "UpgradeWeaponRotation": [
@@ -2575,10 +2589,10 @@
       "90",
       "0"
     ],
-    "UpgradeWeaponScale": 3,
+    "UpgradeWeaponScale": 1.2,
     "UpgradeResultWeaponPosition": [
-      "0",
-      "1",
+      "-0.1",
+      "2.4",
       "0"
     ],
     "UpgradeResultWeaponRotation": [
@@ -2586,7 +2600,7 @@
       "90",
       "0"
     ],
-    "UpgradeResultWeaponScale": 3,
+    "UpgradeResultWeaponScale": 1.2,
     "Liberation": [
       "Hero/Crow",
       "GetSoulWeapon"
@@ -2598,7 +2612,8 @@
     "ReinforceFail": [
       "Item/3dModel_SoulWeapon",
       "SOULWEAPON_CROW_REINFORCEFAIL"
-    ]
+    ],
+    "LiberationResultSide": "Right"
   },
   {
     "ItemCode": "WEAPON_UNIQUE_SHAMILLA_1",
@@ -2648,7 +2663,8 @@
     "ReinforceFail": [
       "Item/3dModel_SoulWeapon",
       "SOULWEAPON_SHAMILLA_REINFORCEFAIL"
-    ]
+    ],
+    "LiberationResultSide": "Right"
   },
   {
     "ItemCode": "WEAPON_UNIQUE_LAVRIL_1",
@@ -2706,7 +2722,7 @@
     "SoulStoneCreatureIndex": 911055,
     "ManageWeaponPosition": [
       "0",
-      "1",
+      "2.6",
       "0"
     ],
     "ManageWeaponRotation": [
@@ -2714,10 +2730,10 @@
       "90",
       "0"
     ],
-    "ManageWeaponScale": 3,
+    "ManageWeaponScale": 2.4,
     "UpgradeWeaponPosition": [
       "0",
-      "1",
+      "2.6",
       "0"
     ],
     "UpgradeWeaponRotation": [
@@ -2725,10 +2741,10 @@
       "90",
       "0"
     ],
-    "UpgradeWeaponScale": 3,
+    "UpgradeWeaponScale": 2.4,
     "UpgradeResultWeaponPosition": [
       "0",
-      "1",
+      "2.6",
       "0"
     ],
     "UpgradeResultWeaponRotation": [
@@ -2736,7 +2752,7 @@
       "90",
       "0"
     ],
-    "UpgradeResultWeaponScale": 3,
+    "UpgradeResultWeaponScale": 2.4,
     "Liberation": [
       "Hero/Seria",
       "GetSoulWeapon"
@@ -2756,7 +2772,7 @@
     "SoulStoneCreatureIndex": 911056,
     "ManageWeaponPosition": [
       "0",
-      "1",
+      "2.4",
       "0"
     ],
     "ManageWeaponRotation": [
@@ -2764,10 +2780,10 @@
       "90",
       "0"
     ],
-    "ManageWeaponScale": 3,
+    "ManageWeaponScale": 4,
     "UpgradeWeaponPosition": [
       "0",
-      "1",
+      "2.4",
       "0"
     ],
     "UpgradeWeaponRotation": [
@@ -2775,10 +2791,10 @@
       "90",
       "0"
     ],
-    "UpgradeWeaponScale": 3,
+    "UpgradeWeaponScale": 4,
     "UpgradeResultWeaponPosition": [
       "0",
-      "1",
+      "2.4",
       "0"
     ],
     "UpgradeResultWeaponRotation": [
@@ -2786,7 +2802,7 @@
       "90",
       "0"
     ],
-    "UpgradeResultWeaponScale": 3,
+    "UpgradeResultWeaponScale": 4,
     "Liberation": [
       "Hero/Erze",
       "GetSoulWeapon"
@@ -2798,7 +2814,8 @@
     "ReinforceFail": [
       "Item/3dModel_SoulWeapon",
       "SOULWEAPON_ERZE_REINFORCEFAIL"
-    ]
+    ],
+    "LiberationResultSide": "Right"
   },
   {
     "ItemCode": "WEAPON_UNIQUE_LILIA_1",
@@ -2848,7 +2865,8 @@
     "ReinforceFail": [
       "Item/3dModel_SoulWeapon",
       "SOULWEAPON_LILIA_REINFORCEFAIL"
-    ]
+    ],
+    "LiberationResultSide": "Right"
   },
   {
     "ItemCode": "WEAPON_UNIQUE_LAUDIA_1",
@@ -2898,7 +2916,8 @@
     "ReinforceFail": [
       "Item/3dModel_SoulWeapon",
       "SOULWEAPON_LAUDIA_REINFORCEFAIL"
-    ]
+    ],
+    "LiberationResultSide": "Right"
   },
   {
     "ItemCode": "WEAPON_UNIQUE_LUCIAS_1",
@@ -2948,7 +2967,8 @@
     "ReinforceFail": [
       "Item/3dModel_SoulWeapon",
       "SOULWEAPON_LUCIAS_REINFORCEFAIL"
-    ]
+    ],
+    "LiberationResultSide": "Right"
   },
   {
     "ItemCode": "WEAPON_UNIQUE_CHRISHA_1",
@@ -3198,7 +3218,8 @@
     "ReinforceFail": [
       "Item/3dModel_SoulWeapon",
       "SOULWEAPON_ARTEMIA_REINFORCEFAIL"
-    ]
+    ],
+    "LiberationResultSide": "Right"
   },
   {
     "ItemCode": "WEAPON_UNIQUE_MIRIANNE_1",
@@ -3248,7 +3269,8 @@
     "ReinforceFail": [
       "Item/3dModel_SoulWeapon",
       "SOULWEAPON_MIRIANNE_REINFORCEFAIL"
-    ]
+    ],
+    "LiberationResultSide": "Right"
   },
   {
     "ItemCode": "WEAPON_UNIQUE_SHEA_1",
@@ -3306,7 +3328,7 @@
     "SoulStoneCreatureIndex": 911067,
     "ManageWeaponPosition": [
       "0",
-      "1",
+      "2.4",
       "0"
     ],
     "ManageWeaponRotation": [
@@ -3314,10 +3336,10 @@
       "90",
       "0"
     ],
-    "ManageWeaponScale": 3,
+    "ManageWeaponScale": 2.4,
     "UpgradeWeaponPosition": [
       "0",
-      "1",
+      "2.4",
       "0"
     ],
     "UpgradeWeaponRotation": [
@@ -3325,10 +3347,10 @@
       "90",
       "0"
     ],
-    "UpgradeWeaponScale": 3,
+    "UpgradeWeaponScale": 2.4,
     "UpgradeResultWeaponPosition": [
       "0",
-      "1",
+      "2.4",
       "0"
     ],
     "UpgradeResultWeaponRotation": [
@@ -3336,7 +3358,7 @@
       "90",
       "0"
     ],
-    "UpgradeResultWeaponScale": 3,
+    "UpgradeResultWeaponScale": 2.4,
     "Liberation": [
       "Hero/Kara",
       "GetSoulWeapon"
@@ -3498,7 +3520,8 @@
     "ReinforceFail": [
       "Item/3dModel_SoulWeapon",
       "SOULWEAPON_CECILIA_REINFORCEFAIL"
-    ]
+    ],
+    "LiberationResultSide": "Right"
   },
   {
     "ItemCode": "WEAPON_UNIQUE_KIRZE_1",
@@ -3698,7 +3721,8 @@
     "ReinforceFail": [
       "Item/3dModel_SoulWeapon",
       "SOULWEAPON_BERNHEIM_REINFORCEFAIL"
-    ]
+    ],
+    "LiberationResultSide": "Right"
   },
   {
     "ItemCode": "WEAPON_UNIQUE_GLENWYS_1",
@@ -3706,7 +3730,7 @@
     "SoulStoneCreatureIndex": 911087,
     "ManageWeaponPosition": [
       "0",
-      "1",
+      "2.1",
       "0"
     ],
     "ManageWeaponRotation": [
@@ -3714,10 +3738,10 @@
       "90",
       "0"
     ],
-    "ManageWeaponScale": 3,
+    "ManageWeaponScale": 2,
     "UpgradeWeaponPosition": [
       "0",
-      "1",
+      "2.1",
       "0"
     ],
     "UpgradeWeaponRotation": [
@@ -3725,10 +3749,10 @@
       "90",
       "0"
     ],
-    "UpgradeWeaponScale": 3,
+    "UpgradeWeaponScale": 2,
     "UpgradeResultWeaponPosition": [
       "0",
-      "1",
+      "2.1",
       "0"
     ],
     "UpgradeResultWeaponRotation": [
@@ -3736,10 +3760,9 @@
       "90",
       "0"
     ],
-    "UpgradeResultWeaponScale": 3,
+    "UpgradeResultWeaponScale": 2,
     "Liberation": [
-      "Hero",
-      "Glenwys",
+      "Hero/Glenwys",
       "GetSoulWeapon"
     ],
     "ReinforceSuccess": [
@@ -3749,7 +3772,8 @@
     "ReinforceFail": [
       "Item/3dModel_SoulWeapon",
       "SOULWEAPON_GLENWYS_REINFORCEFAIL"
-    ]
+    ],
+    "LiberationResultSide": "Right"
   },
   {
     "ItemCode": "WEAPON_UNIQUE_MAY_1",
@@ -3839,8 +3863,7 @@
     ],
     "UpgradeResultWeaponScale": 3,
     "Liberation": [
-      "Hero",
-      "Gladi",
+      "Hero/Gladi",
       "GetSoulWeapon"
     ],
     "ReinforceSuccess": [
@@ -4200,6 +4223,7 @@
     "ReinforceFail": [
       "Item/3dModel_SoulWeapon",
       "SOULWEAPON_KAIN_REINFORCEFAIL"
-    ]
+    ],
+    "LiberationResultSide": "Right"
   }
 ]

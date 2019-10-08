@@ -618,6 +618,20 @@
     "IgnoreDropItem": "TRUE"
   },
   {
+    "Code": "Campaign_SubStory65_2",
+    "MaxTime": 300,
+    "ExtraTime": 240,
+    "AutoRepeatStarCount": 99,
+    "ApplyLevelPenalty": "FALSE",
+    "DamageMeterFlag": "ShowAllPlayer",
+    "RetryCondition": [
+      "Win",
+      "Lose"
+    ],
+    "BattleMenu": "TimeStatus, WaveStatus, LootingStatus, HeroParty, DamageMeter,Hud, BoosterStatus, QuestStatus, Chat, SystemButtonAutoSimple",
+    "IgnoreDropItem": "TRUE"
+  },
+  {
     "Code": "Campaign_SubStory95",
     "MaxTime": 300,
     "ExtraTime": 240,
