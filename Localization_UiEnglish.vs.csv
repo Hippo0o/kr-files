@@ -1694,7 +1694,7 @@ ITEM.NOT_LOCK,Lock
 HERO_FLASK.FLASK_EQUIP_COMPLETE,Flask was equipped to {1}.
 HERO_FLASK.FLASK_UNEQUIP_COMPLETE,Flask was removed.
 ITEM.EXPPOTION_DESELECT_POTION_MESSAGE,This hero has equipped a flask.
-ITEM_USE.USE_STAMINA_ITEM_CONFIRM,Using {2} {1}.\nYou will recover a total of {4} {3}.
+ITEM_USE.USE_STAMINA_ITEM_CONFIRM,Use {2} {1}? \nYou will recover a total of {3} {4}.
 ITEM_USE.USE_RUBYFLASK_ITEM_CONFIRM,Will you use {2} Ruby Flask(s)?\nYou will gain a total of {3} Ruby(Rubies).
 BATTLE.REPEAT_BATTLE_ASK_TITLE,Repeat
 BATTLE.REPEAT_BATTLE_ASK_CONTENT,Will you use Repeat Battle?
@@ -2350,7 +2350,7 @@ RESULT_TYPE.WORLD_BOSS_DAILY_REWARDING,Currently processing Daily Ranking.\nBatt
 BATTLE.HERO_ALREADY_EXIST_SUB,Hero already selected in Sub Team
 BATTLE.HERO_ALREADY_EXIST_MAIN,Hero already selected in Main Team
 VERONICA_DONT_MISS,Don't miss out on these two weeks of special benefits!!
-VERONICA_HERO_SELECT_ITEM_DESC,※3 Star Hero Ticket: You can select a Hero up to Cecilia (Heroes released in June 2019 or earlier.) \n※The range of obtainable Unique Weapons and Unique Treasures from (Random) Unique Weapon and (Random) Unique Treasure Tickets follows the in-game setup.
+VERONICA_HERO_SELECT_ITEM_DESC,※3 Star Hero Ticket: You can select a Hero up to 'Cecilia' (Heroes released in June 2019 or earlier.) \n※The range of obtainable Unique Weapons and Unique Treasures from (Random) Unique Weapon and (Random) Unique Treasure Tickets follows the in-game setup.
 PAYSHOP_VERONICA_TALKBOX,Click 'View Product' button
 PAYSHOP_VERONICA_LISTVIEW,View Product
 PAYSHOP_VERONICA_BUY_TEXT,"For 14 days, can acquire a 3 Star Hero or other items per each log-in."
@@ -4215,7 +4215,7 @@ ARENA_ABANDON_POPUP_MESSAGE,Forfeit will count as a loss.\nDo you still want to 
 ARENA_ABANDON_VICTORY_MESSAGE,The opponent has forfeited the duel.
 PROMOTION_REWARD_TITLE,Google Play Gift Card Promotion
 PROMOTION_REWARD_CONTENT,Do you want receive the reward(s) for the Google Play Gift Card Promotion?
-PROMOTION_REWARD_WARNING,Rewards can be used and claimed at the Cons. tab of inventory.
+PROMOTION_REWARD_WARNING,Claimed rewards can be used at the Consumables tab of Inventory.
 HERO_TRANSCEND.TRANSCEND_POINT_CONFIRM,"Do you want to apply {2} TP to {1}?\nOnce applied, Transcendence Attribute Point cannot be reverted."
 HERO_TRANSCEND.TRANSCEND_POINT_INFO_TITLE_1,Purchase Transcendence Attribute Point
 HERO_TRANSCEND.TRANSCEND_POINT_INFO_DESC_1,Transcendence Attribute Points can be purchased in the Special Shop or obtained through various Event rewards.
@@ -4282,7 +4282,7 @@ PURCHASE_MARKETING.PURCHASE_MARKETING_INFO,Item Information
 PURCHASE_MARKETING.CLOSE_PURCHASE_MARKETING_POPUP_MESSAGE,"This product is available for 7 days only.\nTo see this information again,\nopen the Special Shop or tap the icon at the top left."
 QUEST_AUTO_POPUP_OPTION,Automatic Quest Guide
 QUEST_POPUP_CHECK_MESSAGE,Do not open today
-PROBABILTY_ITEM_RATE_LINK,The following official cafe link contains the detailed list of draw percentage for chance based items:\nhttps://cafe.naver.com/kingsraid/578572
+PROBABILTY_ITEM_RATE_LINK,The following official cafe link contains the detailed list of draw percentage for probability-based items:\nhttps://cafe.naver.com/kingsraid/578572
 BOOSTER_STAMINA_SAVE_1H_SHOP,Stamina Booster (1 Hour)
 BOOSTER_STAMINA_MISSION,Stamina Hot Time!
 BOOSTER_STAMINA_SAVE_DESC2,Sets Stamina consumption to 0.
@@ -5324,6 +5324,8 @@ ECLIPSE_BATTLE_TIME_OVER_DESC,Battle time has been expired.\nRewards based on yo
 ECLIPSE_BATTLE_TIME_OVER_TIME_MSG,Eclipse Battle Expired
 ECLIPSE_BATTLE_TIME_OVER_BATTLE_BTN,Claim Reward
 ECLIPSE_TEAM_SLOT_FULL,You have assigned Heroes to every team. You cannot form any more teams.
+CONTENTS_ECLIPSE_TEAM_SETTING_TITLE,Team Setup
+ECLIPSE_TEAM_HERO_EQUIP_POPUP_DESC,This is the current Hero Setup.
 SOULWEAPON_INFO_AWAKE,Unleash
 SOULWEAPON_UI_QUICKMENU_DESC,Unlocked after clearing The Temple of the God King story.
 SOULWEAPON_UI_QUICKMENU_NAME,Soul Weapon
@@ -5398,7 +5400,7 @@ GODKING_TRIAL.NOT_ENTER,You have used all of your extra charges. You cannot ente
 GODKING_TRIAL.OTHER_DUNGEON_OPENED,There already is an opened dungeon. Clear the opened dungeon first.
 GODKING_TRIAL.BOSS_INFO,Boss Info
 GODKING_TRIAL.BATTLE_READY,Ready for Battle
-GODKING_TRIAL.DUNGEON_INFO_DESC_1,"You can use a Slate of Trial to enter the dungeon. Once you open a dungeon, you can challenge one of the 7 difficulties, and you cannot enter other dungeons."
+GODKING_TRIAL.DUNGEON_INFO_DESC_1,"You can use a Slate of Trial to enter the dungeon. Once you open a dungeon, you can challenge one of the 8 difficulties, and you cannot enter other dungeons."
 GODKING_TRIAL.DUNGEON_INFO_2,Available Hero Classes
 GODKING_TRIAL.DUNGEON_INFO_3,Obtainable Rewards
 SOULWEAPON_QUICKINFO_GODKINGTRIAL,"Fight against the three guardians that guard Cain's palace, and overcome trials to awaken the power of the soul! Clear a trial to obtain Soulstones and Mystical Soul Fragments of the corresponding Hero Class."
@@ -5467,3 +5469,53 @@ SOULWEAPON_INFO_AWAKE_FULL,There are no Unique Weapons to Unleash.
 SOULWEAPON_INFO_NEED_SOULSTONE,Cannot proceed. You do not have enough {1}.
 SOULWEAPON_INFO_NEED_SOULWEAPON,You can access the content after Unleashing Soul Weapon.
 SOULWEAPON_POPUP_SOULFRAGMENT,Insufficient {1}.\nWould you like to go to the Shop?
+19HALLOWEEN_EVENT_DUNGEONTICKET,Haunted Mansion Entry Ticket
+19HALLOWEEN_BUFF_TITLE,Halloween Haunted Mansion
+19HALLOWEEN_EVENT_NAME,Haunted Mansion Adventure
+19HALLOWEEN_EVENT_INFO_SUB_TITLE,Halloween Haunted Mansion Adventure
+19HALLOWEEN_EVENT_INFO_DESC,"-Event Guide\nClear the Haunted Mansion Adventure dungeon to acquire a Marble of Darkness.\nGive the Marbles to Lavril to acquire a variety of rewards.\n\n-Haunted Mansion Adventure\nTotal of 6 Story Dungeons and 4 Special Dungeons exist. Clear a dungeon to acquire a Marble of Darkness which can be given to Lavril as a gift.\nClear all the Story Dungeons to unlock the Special Dungeons.\nWhen entering a Special Dungeon, try touching the Notice button next to each dungeon to check tips which will help you clear the dungeon.\n\n-Present\nGather and give Marble of Darkness to Lavril to receive various rewards such as Halloween Accessory Box as well as Limited Artifact Items.\nLevel 7 rewards can be claimed repeatedly as long as the conditions are met.\nOnce you meet the Reward Requirements from Present, please touch the Item to receive the reward. Unclaimed items will disappear when the event ends."
+EVENT_NPC_GIFT_STEP,Present Level {1}
+EVENT_DUNGEON_19HALLOWEEN_NAME_1,Guests of the Haunted Mansion
+EVENT_DUNGEON_19HALLOWEEN_NAME_2,No Weapons Allowed in the Mansion
+EVENT_DUNGEON_19HALLOWEEN_NAME_3,Lurking Darkness
+EVENT_DUNGEON_19HALLOWEEN_NAME_4,Keen Eyes That Reveal All Secrets
+EVENT_DUNGEON_19HALLOWEEN_NAME_5,Exodus!
+EVENT_DUNGEON_19HALLOWEEN_NAME_6,Path of an Evil Spirit
+EVENT_DUNGEON_19HALLOWEEN_NAME_7,Halloween Special Dungeon 1
+EVENT_DUNGEON_19HALLOWEEN_NAME_8,Halloween Special Dungeon 2
+EVENT_DUNGEON_19HALLOWEEN_NAME_9,Halloween Special Dungeon 3
+EVENT_DUNGEON_19HALLOWEEN_NAME_10,Halloween Special Dungeon 4
+EVENT_19HALLOWEEN_DUNGEONNAME1,Mansion Corridor
+EVENT_19HALLOWEEN_DUNGEONNAME2,Living Room
+EVENT_19HALLOWEEN_DUNGEONNAME3,2nd Floor Room
+EVENT_19HALLOWEEN_DUNGEONNAME4,Study
+EVENT_19HALLOWEEN_DUNGEONNAME5,Secret Room
+EVENT_19HALLOWEEN_DUNGEONNAME6,Dark Forest
+ITEM_NAME_91337,Halloween Accessory Box
+ITEM_DESC2_91337,"A box that contains Halloween Accessories. Upon use, you can obtain limited Hero Customization Items."
+COSTUME_NAME_ACCESSORY_HEAD_3100701,Little Witch Hat
+COSTUME_DESC_ACCESSORY_HEAD_3100701,A small witch’s hat
+COSTUME_NAME_ACCESSORY_HEAD_3100801,Pumpkin Decoration Headband
+COSTUME_DESC_ACCESSORY_HEAD_3100801,A headband with a cute pumpkin decoration
+COSTUME_NAME_ACCESSORY_BODY_3400801,White Fox Tail
+COSTUME_DESC_ACCESSORY_BODY_3400801,An accessory that looks like the tail of a white fox.
+COSTUME_NAME_ACCESSORY_BODY_3400901,Bat Wings
+COSTUME_DESC_ACCESSORY_BODY_3400901,An accessory that looks like a bat's wings.
+ITEM_NAME_47020,Marble of Darkness
+ITEM_DESC2_47020,An item that can be given to Lavril as a gift.\nIncreases Contribution by 1.
+ITEM_NAME_91336,Lavril’s Present
+ITEM_DESC2_91336,"A present box Lavril prepared with a good amount of effort.\nUpon use, you can obtain Mystical Soul Fragment, Unique Weapon Fragment, Halloween Accessory Box, and Event Artifact."
+GUILD_ARENA_REMAIN_DAY_HOUR,Starts in {1}
+EVENT_REWARD_GET_NOTICE_MESSAGE,Please claim the rewards from the previous level first.
+GUILD_ARENA_MEMBER_DEFENCE_TEAM,Guild Member’s Defense Team
+PAYSHOP_PREPURCHASE_HALLOWEEN_2019_ARTIFACT,Provided upon 5th Purchase: ‘Pumpkin-Stuck Evil Spirit’
+GUILD_ARENA_MY_DEFENCE_TEAM,My Defense Team
+19HALLOWEEN_EVENT_SPECIAL_DUNGEON_DESC1_1,Getting hit by Mediana's Water Cannon makes it hard to move forward! Try to counter it so that you do not get pushed away.
+19HALLOWEEN_EVENT_SPECIAL_DUNGEON_DESC2_1,Yuria disables her enemy by wrapping them with her clothing! Remove it quickly and evade Yuria’s powerful attacks.
+19HALLOWEEN_EVENT_SPECIAL_DUNGEON_DESC3_1,Allies within Bernheim’s range will be exposed to his attacks! Try attacking Bernheim from afar.
+19HALLOWEEN_EVENT_SPECIAL_DUNGEON_DESC4_1,"While in her Siege Mode, Kara will continuously attack her enemies. Focus your attacks on the Siege Mode Kara of the 3 Karas and take her down quickly!"
+19HALLOWEEN_EVENT_SPECIAL_DUNGEON_SUB_TITLE1,Halloween Special Dungeon 1
+19HALLOWEEN_EVENT_SPECIAL_DUNGEON_SUB_TITLE2,Halloween Special Dungeon 2
+19HALLOWEEN_EVENT_SPECIAL_DUNGEON_SUB_TITLE3,Halloween Special Dungeon 3
+19HALLOWEEN_EVENT_SPECIAL_DUNGEON_SUB_TITLE4,Halloween Special Dungeon 4
+SELECT_ITEM_OPTION_SORT,Sort Option

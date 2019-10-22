@@ -47,12 +47,12 @@ SKILL_DESC_91000812,[Rayo] Reduce la Tasa de curación del objetivo en un 30 % 
 SKILL_DESC_91000813,[Rayo] Reduce la Tasa de curación del objetivo en un 30 % y el Mana del objetivo en 170 durante 10 seg.
 SKILL_DESC_91000814,[Rayo] Reduce la Tasa de curación del objetivo en un 30 % y el Mana del objetivo en 210 durante 10 seg.
 SKILL_DESC_91000815,[Rayo] Reduce la Tasa de curación del objetivo en un 30 % y el Mana del objetivo en 250 durante 10 seg.
-SKILL_DESC_91000910,[Golpe absorbente] Aumenta el Daño en un 20 % y aumenta el Ataque en un 20 % al matar a un enemigo durante 10 segundos. El aumento de Ataque se puede acumular hasta 3 veces.
-SKILL_DESC_91000911,[Golpe absorbente] Aumenta el Daño en un 24 % y aumenta el Ataque en un 20 % al matar a un enemigo durante 10 segundos. El aumento de Ataque se puede acumular hasta 3 veces.
-SKILL_DESC_91000912,[Golpe absorbente] Aumenta el Daño en un 29 % y aumenta el Ataque en un 20 % al matar a un enemigo durante 10 segundos. El aumento de Ataque se puede acumular hasta 3 veces.
-SKILL_DESC_91000913,[Golpe absorbente] Aumenta el Daño en un 35 % y aumenta el Ataque en un 20 % al matar a un enemigo durante 10 segundos. El aumento de Ataque se puede acumular hasta 3 veces.
-SKILL_DESC_91000914,[Golpe absorbente] Aumenta el Daño en un 42 % y aumenta el Ataque en un 20 % al matar a un enemigo durante 10 segundos. El aumento de Ataque se puede acumular hasta 3 veces.
-SKILL_DESC_91000915,[Golpe absorbente] Aumenta el Daño en un 50 % y aumenta el Ataque en un 20 % al matar a un enemigo durante 10 segundos. El aumento de Ataque se puede acumular hasta 3 veces.
+SKILL_DESC_91000910,[Golpe Absorbente] Aumenta el Daño en un 20 % y aumenta el Ataque en un 20 % al matar a un enemigo durante 10 segundos. El aumento de Ataque se puede acumular hasta 3 veces.
+SKILL_DESC_91000911,[Golpe Absorbente] Aumenta el Daño en un 24 % y aumenta el Ataque en un 20 % al matar a un enemigo durante 10 segundos. El aumento de Ataque se puede acumular hasta 3 veces.
+SKILL_DESC_91000912,[Golpe Absorbente] Aumenta el Daño en un 29 % y aumenta el Ataque en un 20 % al matar a un enemigo durante 10 segundos. El aumento de Ataque se puede acumular hasta 3 veces.
+SKILL_DESC_91000913,[Golpe Absorbente] Aumenta el Daño en un 35 % y aumenta el Ataque en un 20 % al matar a un enemigo durante 10 segundos. El aumento de Ataque se puede acumular hasta 3 veces.
+SKILL_DESC_91000914,[Golpe Absorbente] Aumenta el Daño en un 42 % y aumenta el Ataque en un 20 % al matar a un enemigo durante 10 segundos. El aumento de Ataque se puede acumular hasta 3 veces.
+SKILL_DESC_91000915,[Golpe Absorbente] Aumenta el Daño en un 50 % y aumenta el Ataque en un 20 % al matar a un enemigo durante 10 segundos. El aumento de Ataque se puede acumular hasta 3 veces.
 SKILL_DESC_91001010,[Lluvia de flechas] Reduce el Costo de Mana en 1 y el Tiempo de reutilización en 1 segundo.
 SKILL_DESC_91001011,"[Lluvia de flechas] Reduce el Costo de Mana en 1 y el Tiempo de reutilización en 1,2 segundo."
 SKILL_DESC_91001012,"[Lluvia de flechas] Reduce el Costo de Mana en 1 y el Tiempo de reutilización en 1,4 segundo."
@@ -1901,18 +1901,16 @@ SKILL_DESC_93000800,
 SKILL_DESC_93000801,
 SKILL_DESC_93000802,
 SKILL_DESC_93000810,
-SKILL_DESC_93000900,
-SKILL_DESC_93000901,
-SKILL_DESC_93000902,
-SKILL_DESC_93000910,
+SKILL_DESC_93000900,"Convoca el alma de Guillotine, La Encantadora. Durante [64ffff]{1}[-] segundos incrementa tu ataque un [64ff64]{2}[-]%. Durante el tiempo de activación, hay una probabilidad del [64ffff]{3}[-]% de causar un daño mágico de [ffc800]{4}[-] que ignore la defensa al usar ataques normales y habilidades. Este efecto tiene una probabilidad de activación del 100% al atacar con [Golpe Absorbente]."
+SKILL_DESC_93000901,"Modifica la probabilidad de activación a {1}%, e incrementa el daño un {2}%."
+SKILL_DESC_93000902,"Añade efecto de ignorar bloque al daño mágico, durante {1} segundos incrementa el daño mágico recibido por el enemigo un {2}%."
 SKILL_DESC_93001000,
 SKILL_DESC_93001001,
 SKILL_DESC_93001002,
 SKILL_DESC_93001010,
-SKILL_DESC_93001100,
-SKILL_DESC_93001101,
-SKILL_DESC_93001102,
-SKILL_DESC_93001110,
+SKILL_DESC_93001100,"Convoca el alma de Cocytus, Mensajero de Lea. Causa [ffc800]{1}[-] de daño mágico a los enemigos frontales en línea recta, durante [64ffff]{2}[-] segundos empuja lejos al objetivo, y durante [64ffff]{3}[-] segundos cambia al objetivo al modo 'Catástrofe de Cuervo'. En modo 'Catástrofe de Cuervo' el ataque del objetivo se reduce un [ff6464]{4}[-]%."
+SKILL_DESC_93001101,Reduce la recuperación del objetivo en modo 'Catástrofe de Cuervo' un {1}%.
+SKILL_DESC_93001102,Reduce las condiciones de uso a {1} veces.
 SKILL_DESC_93001200,
 SKILL_DESC_93001201,
 SKILL_DESC_93001202,
@@ -1977,10 +1975,9 @@ SKILL_DESC_93002800,
 SKILL_DESC_93002801,
 SKILL_DESC_93002802,
 SKILL_DESC_93002810,
-SKILL_DESC_93002900,
-SKILL_DESC_93002901,
-SKILL_DESC_93002902,
-SKILL_DESC_93002910,
+SKILL_DESC_93002900,"Convoca el alma de Hyacinth, Flor de la Eternidad. Causa [ffc800]{1}[-] de daño mágico a los enemigos dentro de tu rango circular cercano, y durante [64ffff]{2}[-] segundos congela al enemigo, y lo envía volando. El alma de Hyacinth causa un daño mágico adicional de [ffc800]{3}[-] a los enemigos congelados, y durante [64ffff]{4}[-] segundos incrementa tu daño de golpes críticos un [64ff64]{5}[-]%."
+SKILL_DESC_93002901,Durante {1} segundos incrementa el daño mágico recibido por el objetivo un {2}%.
+SKILL_DESC_93002902,"Durante el tiempo de activación incrementa el número de objetivos de ataques normales a {1} e incrementa la distancia un {2}%, empujando al objetivo con cada ataque."
 SKILL_DESC_93003000,"Convoca el alma de Eltoirre, Círculo Fluido por [64ffff]{1}[-] segundos y reestablece la salud de todos los aliados en [ffc800]{2}[-] y su mana en [64ff64]{3}[-] cada segundo."
 SKILL_DESC_93003001,Incrementa la defensa mágica de los aliados reestablecidos un {1}% y la probabilidad de bloqueo de magia en {2}. Este efecto se acumula un máximo de {3} veces.
 SKILL_DESC_93003002,Se vuelve inmune a todo tipo de daño y el tiempo de reutilización de todas sus habilidades se reduce en {1} segundo cada segundo.
@@ -1992,10 +1989,9 @@ SKILL_DESC_93003200,
 SKILL_DESC_93003201,
 SKILL_DESC_93003202,
 SKILL_DESC_93003210,
-SKILL_DESC_93003300,
-SKILL_DESC_93003301,
-SKILL_DESC_93003302,
-SKILL_DESC_93003310,
+SKILL_DESC_93003300,"Convoca el alma de Magnus Fille, Llave Dimensional durante [64ffff]{1}[-] segundos. Recupera {2} casillas de mana inmediatamente, y durante el tiempo de activación incrementa el daño de tus golpes críticos un [64ff64]{3}[-]%."
+SKILL_DESC_93003301,Reduce las condiciones de uso a {1} veces.
+SKILL_DESC_93003302,"Incrementa el tiempo de activación en {1} segundos, durante ese tiempo eres inmune a efectos de estado."
 SKILL_DESC_93003400,"Convoca el alma de Rascal, Tecnomagia Cristalizada y recupera el mana de todos los aliados en [64ff64]{2}[-] segundos por [64ffff]{1}[-] segundos. Entra en estado de sobrecarga y aumenta el daño recibido de todos los enemigos un [ff6464]{3}[-]%."
 SKILL_DESC_93003401,El tiempo de duración del efecto aumenta {1} segundos.
 SKILL_DESC_93003402,Aumenta el ataque de todos los aliados un {1}% y su daño crítico un {2}%.
@@ -2010,10 +2006,9 @@ SKILL_DESC_93003700,
 SKILL_DESC_93003701,
 SKILL_DESC_93003702,
 SKILL_DESC_93003710,
-SKILL_DESC_93003800,
-SKILL_DESC_93003801,
-SKILL_DESC_93003802,
-SKILL_DESC_93003810,
+SKILL_DESC_93003800,"Convoca el alma de Barbatos, Carcelero de la Desesperación durante [64ffff]{1}[-] segundos. Ataca a los enemigos dentro de tu rango circular cercano, causa [ffc800]{2}[-] de daño mágico, e incrementa tu ataque un [64ff64]{3}[-]%. Durante el tiempo de activación, si te encuentras en estado de furia, permite control y permite que la salud no sea consumida al usar la habilidad. Obtendrás {4} Maldiciones Sangrientas al terminar la habilidad. Es posible obtener Maldiciones Sangrientas con esta habilidad aún en estado de furia."
+SKILL_DESC_93003801,Obtendrás {1} Maldición Sangrienta adicional.
+SKILL_DESC_93003802,Durante el tiempo de activación incrementa el daño que causas a enemigos un {1}%.
 SKILL_DESC_93003900,
 SKILL_DESC_93003901,
 SKILL_DESC_93003902,
@@ -2022,18 +2017,16 @@ SKILL_DESC_93004000,"Convoca el alma de Legios, Golpe de Relámpago ataca 4 vece
 SKILL_DESC_93004001,El daño mágico recibido por el oponente afectado por la Furia de Legios aumenta un {2}% por {1} segundos.
 SKILL_DESC_93004002,"Se activa el efecto 'Legios, Golpe de Relámpago'."
 SKILL_DESC_93004010,"Si se causa daño [64ff64]{1}[-] veces, se acumulará y podrá ser usado."
-SKILL_DESC_93004100,
-SKILL_DESC_93004101,
-SKILL_DESC_93004102,
-SKILL_DESC_93004110,
+SKILL_DESC_93004100,"Convoca el alma de Phistonia, Amenaza Misericordiosa. Durante [64ffff]{1}[-] segundos incrementa el ataque del aliado con el ataque más alto un [64ff64]{2}[-]% del ataque de Mediana, y en [64ffff]{3}[-] segundos la salud de Mediana y el objetivo de esta habilidad son recuperadas un total de [ffc800]{4}[-]."
+SKILL_DESC_93004101,"Durante el tiempo de activación, cada {1} segundos recupera {2} de mana de Mediana y el objetivo."
+SKILL_DESC_93004102,Incrementa el aumento de ataque un {1}%.
 SKILL_DESC_93004200,
 SKILL_DESC_93004201,
 SKILL_DESC_93004202,
 SKILL_DESC_93004210,
-SKILL_DESC_93004300,
-SKILL_DESC_93004301,
-SKILL_DESC_93004302,
-SKILL_DESC_93004310,
+SKILL_DESC_93004300,"Convoca el alma de Kitrax, Pesadilla Dentada durante [64ffff]{1}[-] segundos. Por cada [64ffff]1[-] almas en posesión, reduce el daño recibido un [ff6464]{2}[-]%, y recupera un [ffc800]{3}[-]% de tu máxima salud y [ffc800]{4}[-] de mana cada segundo. Causa un daño mágico de [ffc800]{5}[-] a los enemigos frontales en un rango amplio, y petrifica durante [64ffff]{6}[-] segundos al objetivo que recibe daño. Si tienes [64ffff]{7}[-] almas en posesión, el tiempo de reutilización de las habilidades de Viska se reinicia."
+SKILL_DESC_93004301,"Incrementa el tiempo de petrificación en {1} segundos, e incrementa el daño mágico recibido por el objetivo un {3}% durante {2} segundos."
+SKILL_DESC_93004302,Durante el tiempo de activación incrementa un {1}% el daño de la habilidad ¡Te Haré Pedazos!.
 SKILL_DESC_93004400,
 SKILL_DESC_93004401,
 SKILL_DESC_93004402,
@@ -2071,7 +2064,7 @@ SKILL_DESC_93005401,
 SKILL_DESC_93005402,
 SKILL_DESC_93005410,
 SKILL_DESC_93005500,"Convoca el alma de Elsion, Verdugo de Dominios, causa un daño mágico de [ffc800]{1}[-] a los enemigos a los enemigos en las cercanías en rango circular, y durante [64ffff]{2}[-] segundos incrementa el daño mágico un [64ff64]{3}[-]%. Después absorbe le alma de Elsion, Verdugo de Dominios durante [64ffff]{4}[-] segundos, y cada [64ffff]{5}[-] segundos causa un daño mágico de [ffc800]{6}[-] a 1 enemigo aleatorio. Si el objetivo no es un héroe, esta habilidad incrementa el daño un [64ff64]{7}[-]%."
-SKILL_DESC_93005501,"Durante el tiempo de activación incrementa el ataque de Seria un {1}%, y su daño de golpes críticos un {2}%."
+SKILL_DESC_93005501,"Durante el tiempo de activación incrementa tu ataque un {1}%, y daño de golpes críticos un {2}%."
 SKILL_DESC_93005502,Hace que el daño causado a enemigos ignore su defensa cada {1} segundo.
 SKILL_DESC_93005600,"Convoca el alma de Perion, Esencia de la Avaricia durante [64ffff]{1}[-] segundos, y obtiene una acumulación de [fa96fa]'Esencia de la Avaricia'[-] cada vez que se causa daño al enemigo con la habilidad. Después de [64ffff]{2}[-] segundos, el alma explota y causa un daño físico de [ffc800]{3}[-] a todos los enemigos. Incrementa el daño de esta habilidad un [64ff64]{4}[-]% por cada acumulación obtenida de [fa96fa]'Esencia de la Avaricia'[-] durante el tiempo de activación. [fa96fa]'Esencia de la Avaricia'[-] tiene un máximo de {5} acumulaciones."
 SKILL_DESC_93005601,Hace que el daño causado cambie a {1}% por cada acumulación de Esencia de la Avaricia.
@@ -2085,22 +2078,19 @@ SKILL_DESC_93005802,Disipa los efectos positivos de los enemigos dentro de tu ra
 SKILL_DESC_93005900,"Convoca el alma de Benedicia, Bendición de Luz durante [64ffff]{1}[-] segundos, e incrementa la recuperación de todos los aliados un [64ff64]{2}[-]% y la velocidad de ataque en [64ff64]{3}[-]."
 SKILL_DESC_93005901,La condición de activación se modifica a {1} usos de la habilidad.
 SKILL_DESC_93005902,"Durante la activación de la habilidad, el tiempo de reutilización se reduce {2} segundo(s) cada {1} segundo(s)."
-SKILL_DESC_93006000,
-SKILL_DESC_93006001,
-SKILL_DESC_93006002,
-SKILL_DESC_93006010,
+SKILL_DESC_93006000,"Convoca el alma de Arc Lumineir, Nova Prisma durante {1} segundos. Durante el tiempo de activación, cada {2} segundos el alma ataca de acuerdo a la luz que posees. \n[ff6464]Luz Roja[-] - Ataca al objetivo enemigo, y causa un daño mágico de [ffc800]{3}[-] que ignora la defensa.\n[64ffff]Luz Azul[-] - Ataca a todos los enemigos, causa un daño mágico de [ffc800]{4}[-], y recupera [64ff64]{5}[-] casillas de mana de todos los aliados.\n[64ff64]Luz Verde[-] - Ataca a 2 enemigos, causa un daño mágico de [ffc800]{6}[-], y durante [64ffff]{7}[-] segundos reduce el ataque del objetivo un [ffff64]{8}[-]%."
+SKILL_DESC_93006001,Reduce las condiciones de uso a {1} veces.
+SKILL_DESC_93006002,Todos los efectos son reforzados adicionalmente.\n[Luz Roja] – Incrementa el daño un {1}%.\n[Luz Azul] - Incrementa la recuperación de mana un {2}%. \n[Luz Verde] – Modifica la reducción de ataque a {3}%.
 SKILL_DESC_93006100,
 SKILL_DESC_93006101,
 SKILL_DESC_93006102,
 SKILL_DESC_93006110,
-SKILL_DESC_93006200,
-SKILL_DESC_93006201,
-SKILL_DESC_93006202,
-SKILL_DESC_93006210,
-SKILL_DESC_93006300,
-SKILL_DESC_93006301,
-SKILL_DESC_93006302,
-SKILL_DESC_93006310,
+SKILL_DESC_93006200,"Convoca el alma de Belona Blanco, Corte de la Convicción. Durante [64ffff]{1}[-] segundos incrementa tu ataque un [64ff64]{2}[-]%, y causa un daño físico de [ffc800]{3}[-] al enemigo con mayor ataque."
+SKILL_DESC_93006201,Modifica las condiciones de uso a {1} veces.
+SKILL_DESC_93006202,"Incrementa el daño un {1}%, y cancela los efectos positivos del objetivo que recibe el daño."
+SKILL_DESC_93006300,"Convoca el alma de Yanadis, Ojo de la Tormenta. Causa un daño mágico de [ffc800]{1}[-] a los enemigos frontales en un amplio rango y los aturde durante [64ffff]{2}[-] segundos. Despliega [fa96fa]'Campo Magnético de la Tormenta'[-] durante [64ffff]{3}[-] segundos. Incrementa la duración de todos los efectos de estado recibidos por los enemigos en [fa96fa]'Campo Magnético de la Tormenta'[-] un [ff6464]{4}[-]%, e incrementa el daño mágico recibido un [ff6464]{5}[-]%."
+SKILL_DESC_93006301,Incrementa la duración de Campo Magnético de la Tormenta en {1} segundos.
+SKILL_DESC_93006302,Cada segundo causa un daño mágico del {1}% de la salud máxima de Sonia a los enemigos en Campo Magnético de la Tormenta.
 SKILL_DESC_93006400,"Convoca el alma de Brauxio, Alabanza Brillante durante [64ffff]{1}[-] segundos, e incrementa el ataque de todos tus aliados un [64ff64]{2}[-]%, y su defensa un [64ff64]{3}[-]%."
 SKILL_DESC_93006401,Reduce el daño recibido por todos tus aliados un {1}% durante el tiempo de activación.
 SKILL_DESC_93006402,Durante el tiempo de activación cancela los efectos negativos de todos tus aliados cada {1} segundos y disipa los efectos positivos de todos los enemigos.

@@ -317,10 +317,10 @@ SKILL_DESC_90000082,"Accorde 14% de chances d'infliger des DEG M à hauteur de 1
 SKILL_DESC_90000083,"Accorde 17% de chances d'infliger des DEG M à hauteur de 170% de l'ATQ et inflige Choc électrique avec une attaque normale à 2 ennemis choisis au hasard. Si la cible est déjà touchée par Choc électrique, elle sera étourdie pendant 2 sec."
 SKILL_DESC_90000084,"Accorde 21% de chances d'infliger des DEG M à hauteur de 210% de l'ATQ et inflige Choc électrique avec une attaque normale à 2 ennemis choisis au hasard. Si la cible est déjà touchée par Choc électrique, elle sera étourdie pendant 2 sec."
 SKILL_DESC_90000085,"Accorde 25% de chances d'infliger des DEG M à hauteur de 250% de l'ATQ et inflige Choc électrique avec une attaque normale à 2 ennemis choisis au hasard. Si la cible est déjà touchée par Choc électrique, elle sera étourdie pendant 2 sec."
-SKILL_NAME_940,Vol de Vie
-SKILL_NAME_941,Vol de Vie II
-SKILL_NAME_942,Vol de Vie III
-SKILL_NAME_943,Vol de Vie IV
+SKILL_NAME_940,Souffle absorbant
+SKILL_NAME_941,Souffle absorbant II
+SKILL_NAME_942,Souffle absorbant III
+SKILL_NAME_943,Souffle absorbant IV
 SKILL_NAME_910,Cauchemar
 SKILL_NAME_911,Cauchemar II
 SKILL_NAME_912,Cauchemar III
@@ -610,7 +610,7 @@ SKILL_DESC_1610,"Soigne 4 alliés ayant les PV les plus bas pour [ffc800]{3}[-]%
 SKILL_DESC_1611,Augmente la Récupération de [64ff64]{1}[-]%.
 SKILL_DESC_1612,Augmente la Récupération de [64ff64]{1}[-]%.
 SKILL_DESC_1613,Augmente la Régénération de MP de [64ff64]{1}[-]% par seconde.
-SKILL_DESC_1620,Supprime les effets négatifs de tous les alliés et augmente la DEF M. de [ffc800] {2} [-] pendant [64ffff] {1} [-] sec.
+SKILL_DESC_1620,Supprime les effets négatifs appliqués sur tous les alliés et augmente la DEF M de [64ff64]{2}[-] pendant [64ffff]{1}[-] sec.
 SKILL_DESC_1621,Augmente l'augmentation de DEF M de [64ff64]{1}[-]%.
 SKILL_DESC_1622,Augmente l'augmentation de DEF M de [64ff64]{1}[-]%.
 SKILL_DESC_1623,"Pendant [64ffff]{1}[-] sec, la Résistance aux Contrôles est augmentée de [64ff64]{2}[-]."
@@ -1633,10 +1633,10 @@ SKILL_NAME_4310,L'heure du Repas!!
 SKILL_NAME_4311,L'heure du Repas!! II
 SKILL_NAME_4312,L'heure du Repas!! III
 SKILL_NAME_4313,L'heure du Repas!! IV
-SKILL_NAME_4320,Démembrement!!
-SKILL_NAME_4321,Démembrement!! II
-SKILL_NAME_4322,Démembrement!! III
-SKILL_NAME_4323,Démembrement!! IV
+SKILL_NAME_4320,Je vais vous découper!!
+SKILL_NAME_4321,Je vais vous découper!! II
+SKILL_NAME_4322,Je vais vous découper!! III
+SKILL_NAME_4323,Je vais vous découper!! IV
 SKILL_NAME_4330,Je vais vous déchirer!!
 SKILL_NAME_4331,Je vais vous déchirer!! II
 SKILL_NAME_4332,Je vais vous déchirer!! III
@@ -4625,12 +4625,12 @@ SKILL_NAME_60004250,Oddy [Lumière]
 SKILL_NAME_60004251,Oddy [Ombre]
 SKILL_NAME_60004310,L'Heure du Repas!! [Lumière]
 SKILL_NAME_60004311,L'Heure du Repas!! [Ombre]
-SKILL_NAME_60004320,Je vais vous Découper!! [Lumière]
-SKILL_NAME_60004321,Je vais vous Découper!! [Ombre]
-SKILL_NAME_60004330,Mise en Pièces!! [Lumière]
-SKILL_NAME_60004331,Mise en Pièces!! [Ombre]
-SKILL_NAME_60004340,Âmes Miam! [Lumière]
-SKILL_NAME_60004341,Âmes Miam! [Ombre]
+SKILL_NAME_60004320,Je vais vous découper!! [Lumière]
+SKILL_NAME_60004321,Je vais vous découper!! [Ombre]
+SKILL_NAME_60004330,Je vais vous déchirer!! [Lumière]
+SKILL_NAME_60004331,Je vais vous déchirer!! [Ténèbres]
+SKILL_NAME_60004340,Âmes Délicieuses! [Lumière]
+SKILL_NAME_60004341,Âmes Délicieuses! [Ombre]
 SKILL_NAME_60004350,Viska [Lumière]
 SKILL_NAME_60004351,Viska [Ombre]
 SKILL_NAME_60004410,Frappe Vitale [Lumière]
@@ -5060,7 +5060,7 @@ SKILL_DESC_60000841,"Augmente la durée d'Étourdissement de 0,7 sec."
 SKILL_DESC_60000910,"S'il y a 1 ennemi, les DEG sont augmentés de 100%."
 SKILL_DESC_60000911,Ignore le blocage ennemi.
 SKILL_DESC_60000920,Le coût en Mana est réduit de 1.
-SKILL_DESC_60000921,La consommation de Mana est augmentée de 1 et utiliser cette compétence active 'Coup Absorbant'. Inutilisable lorsqu'il n'y a aucun ennemi à portée.
+SKILL_DESC_60000921,La consommation de Mana est augmentée de 1 et utiliser cette compétence active 'Souffle absorbant'. Inutilisable lorsqu'il n'y a aucun ennemi à portée.
 SKILL_DESC_60000930,Les DEG sont augmentés de 40%.
 SKILL_DESC_60000931,Le DEG reçus sont réduits de 50% lorsque cette compétence est utilisée.
 SKILL_DESC_60000940,Chaque charge augmente de 50% la récupération de Mana par sec.
@@ -5921,3 +5921,4 @@ SKILL_DESC_7100330,"Génère d'immenses flots marins, qui dissipent les effets p
 SKILL_NAME_7100340,Maîtrise des Flots
 SKILL_DESC_7100340,"Lorsque la jauge d'Étourdissement de Sekmaha est réduite à zéro, il modifie le cours des flots. S'il est à l'état de Cascade, il passe à l'état de Mer. S'il est à l'état de Mer, il passe à l'état de Cascade.\n[Mer] – Tous les Héros ne peuvent plus récupérer leurs PV et selon la quantité de PM en réserve, les DEG infligés par les Héros augmentent.\n[Cascade] – La récupération de PM de tous les Héros est réduite de manière considérable et selon la quantité de PM en réserve, les DEG reçus par les Héros diminuent."
 SKILL_DESC_7100341,"Le Gardien de Sekireinel, doté d'une grande force, est immunisé contre les effets négatifs qui réduisent la DEF et la Vitesse d'ATQ. Durant la bataille au niveau supérieur à 6, Sekmaha génère une bulle protectrice à intervalles réguliers."
+SKILL_DESC_80005140,"Augmente les PV max du Héros de {1}%. En présence d'un seul ennemi, augmente le taux d'ATQ de tous les alliés de {2}%. Cet effet ne peut pas être cumulé avec d'autres effets similaires produits par un autre allié."

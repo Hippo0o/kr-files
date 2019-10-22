@@ -551,12 +551,12 @@ SKILL_DESC_91001532,"[Guardian Shield] Upon activation, removes negative effects
 SKILL_DESC_91001533,"[Guardian Shield] Upon activation, removes negative effects on self, and DEF boost is increased by 35%."
 SKILL_DESC_91001534,"[Guardian Shield] Upon activation, removes negative effects on self, and DEF boost is increased by 42%."
 SKILL_DESC_91001535,"[Guardian Shield] Upon activation, removes negative effects on self, and DEF boost is increased by 50%."
-SKILL_DESC_91001630,[Soulrush] Mana cost is reduced by 1 and heals all allies' HP by 8% of DMG.
-SKILL_DESC_91001631,[Soulrush] Mana cost is reduced by 1 and heals all allies' HP by 10% of DMG.
-SKILL_DESC_91001632,[Soulrush] Mana cost is reduced by 1 and heals all allies' HP by 12% of DMG.
-SKILL_DESC_91001633,[Soulrush] Mana cost is reduced by 1 and heals all allies' HP by14% of DMG.
-SKILL_DESC_91001634,[Soulrush] Mana cost is reduced by 1 and heals all allies' HP by 17% of DMG.
-SKILL_DESC_91001635,[Soulrush] Mana cost is reduced by 1 and heals all allies' HP by 20% of DMG.
+SKILL_DESC_91001630,[Soulrush] Reduces Mana Cost by 1 and heals all allies' HP by 8% of DMG.
+SKILL_DESC_91001631,[Soulrush] Reduces Mana Cost by 1 and heals all allies' HP by 10% of DMG.
+SKILL_DESC_91001632,[Soulrush] Reduces Mana Cost by 1 and heals all allies' HP by 12% of DMG.
+SKILL_DESC_91001633,[Soulrush] Reduces Mana Cost by 1 and heals all allies' HP by 14% of DMG.
+SKILL_DESC_91001634,[Soulrush] Reduces Mana Cost by 1 and heals all allies' HP by 17% of DMG.
+SKILL_DESC_91001635,[Soulrush] Reduces Mana Cost by 1 and heals all allies' HP by 20% of DMG.
 SKILL_DESC_91001730,[Shadow Wave] DMG is increased by 50% and Blind duration is increased by 2 sec.
 SKILL_DESC_91001731,[Shadow Wave] DMG is increased by 50% and Blind duration is increased by 2.5 sec.
 SKILL_DESC_91001732,[Shadow Wave] DMG is increased by 50% and Blind duration is increased by 3 sec.
@@ -1901,18 +1901,16 @@ SKILL_DESC_93000800,
 SKILL_DESC_93000801,
 SKILL_DESC_93000802,
 SKILL_DESC_93000810,
-SKILL_DESC_93000900,
-SKILL_DESC_93000901,
-SKILL_DESC_93000902,
-SKILL_DESC_93000910,
+SKILL_DESC_93000900,"Summons the Soul of The Seductress, Guillotine, and increases own ATK by [64ff64]{2}[-]% for [64ffff]{1}[-] sec. For the duration of Skill, Normal and Skill attacks have a [64ffff]{3}[-]% chance to deal [ffc800]{4}[-] M.DMG that ignores DEF to a target. If [Absorbing Blow] hits a target, this effect will activate with a 100% chance."
+SKILL_DESC_93000901,"Activation chance changes to {1}%, and DMG increases by {2}%."
+SKILL_DESC_93000902,"The M.DMG now ignores Block, and hit enemy takes {2}% increased M.DMG for {1} sec."
 SKILL_DESC_93001000,
 SKILL_DESC_93001001,
 SKILL_DESC_93001002,
 SKILL_DESC_93001010,
-SKILL_DESC_93001100,
-SKILL_DESC_93001101,
-SKILL_DESC_93001102,
-SKILL_DESC_93001110,
+SKILL_DESC_93001100,"Summons the Soul of Lea’s Messenger, Cocytus, dealing [ffc800]{1}[-] M.DMG to frontal enemies in a straight line, knocking them back far away for [64ffff]{2}[-] sec, and inflicting ‘Raven Catastrophe’ for [64ffff]{3}[-] sec. Targets inflicted with ‘Raven Catastrophe’ have their ATK reduced by [ff6464]{4}[-]%."
+SKILL_DESC_93001101,Reduces Heal Rate of the target inflicted with Raven Catastrophe by {1}%.
+SKILL_DESC_93001102,Reduces Skill Activation Requirements to {1} times.
 SKILL_DESC_93001200,
 SKILL_DESC_93001201,
 SKILL_DESC_93001202,
@@ -1977,10 +1975,9 @@ SKILL_DESC_93002800,
 SKILL_DESC_93002801,
 SKILL_DESC_93002802,
 SKILL_DESC_93002810,
-SKILL_DESC_93002900,
-SKILL_DESC_93002901,
-SKILL_DESC_93002902,
-SKILL_DESC_93002910,
+SKILL_DESC_93002900,"Summons the Soul of Flower of Eternity, Hyacinth, dealing [ffc800]{1}[-] M.DMG to nearby enemies within a circular range of self, freezing them for [64ffff]{2}[-] sec, and knocking them back far away. Afterward, the Soul of Hyacinth deals [ffc800]{3}[-] additional M.DMG to frozen enemies and increases own Crit DMG by [64ff64]{5}[-]% for [64ffff]{4}[-] sec."
+SKILL_DESC_93002901,Hit targets take {2}% increased M.DMG for {1} sec.
+SKILL_DESC_93002902,"For the duration of Skill, Normal attacks hit {1} targets, and its range increases by {2}%. Hit targets will be knocked back."
 SKILL_DESC_93003000,"Summons the soul of Flowing Circle, Eltoirre for [64ffff]{1}[-] sec, healing all allies' HP by [ffc800]{2}[-] and Mana by [64ff64]{3}[-] every sec."
 SKILL_DESC_93003001,Increases the healed ally's M.DEF by {1}% and M.Block by {2}. This effect stacks up to {3} times.
 SKILL_DESC_93003002,"For the duration of Skill, self becomes immune to All DMG and Cooldown of all active Skills is reduced by {1} sec every sec."
@@ -1992,10 +1989,9 @@ SKILL_DESC_93003200,
 SKILL_DESC_93003201,
 SKILL_DESC_93003202,
 SKILL_DESC_93003210,
-SKILL_DESC_93003300,
-SKILL_DESC_93003301,
-SKILL_DESC_93003302,
-SKILL_DESC_93003310,
+SKILL_DESC_93003300,"Summons the Soul of Dimensional Key, Magnus Fille for [64ffff]{1}[-] sec and immediately recovers {2} orbs of Mana. For the duration of Skill, increases own Crit DMG by [64ff64]{3}[-]%."
+SKILL_DESC_93003301,Reduces Skill Activation Requirements to {1} times.
+SKILL_DESC_93003302,"Increases the duration by {1} sec, and self becomes immune to CC for the duration of Skill."
 SKILL_DESC_93003400,"Summons the soul of Crystallized Technomagic, Rascal, recovering Mana of all allies by [64ff64]{2}[-] every sec for [64ffff]{1}[-] sec. Self activates Overcharge and increases M.DMG all enemies take by [ff6464]{3}[-]% for the duration."
 SKILL_DESC_93003401,Increases the duration of the effect by {1} sec.
 SKILL_DESC_93003402,Increases all allies' ATK by {1}% and Crit DMG by {2}% for the duration of Skill.
@@ -2010,10 +2006,9 @@ SKILL_DESC_93003700,
 SKILL_DESC_93003701,
 SKILL_DESC_93003702,
 SKILL_DESC_93003710,
-SKILL_DESC_93003800,
-SKILL_DESC_93003801,
-SKILL_DESC_93003802,
-SKILL_DESC_93003810,
+SKILL_DESC_93003800,"Summons the Soul of Jailer of Despair, Barbatos for [64ffff]{1}[-] sec, dealing [ffc800]{2}[-] M.DMG to nearby enemies within a circular range of self and increasing own ATK by [64ff64]{3}[-]%. If Ezekiel is in Fury state for the duration of Skill, he can still be controlled and will not consume HP upon Skill use. After Skill use, gains {4} stack of Cursed Blood. Cursed Blood stacks gained from this Skill can also be gained during Fury state."
+SKILL_DESC_93003801,Gains {1} additional stack of Cursed Blood.
+SKILL_DESC_93003802,"For the duration of Skill, increases own DMG dealt to enemies by {1}%."
 SKILL_DESC_93003900,
 SKILL_DESC_93003901,
 SKILL_DESC_93003902,
@@ -2022,18 +2017,16 @@ SKILL_DESC_93004000,"Summons the soul of Lightning Bolt, Legios, attacking nearb
 SKILL_DESC_93004001,Target hit by Fury of Legios takes {2}% increased M.DMG for {1} sec.
 SKILL_DESC_93004002,"Upon activation, the effect of 'Lightning Bolt, Legios' will be activated."
 SKILL_DESC_93004010,Charges up upon dealing DMG [64ff64]{1}[-] times.
-SKILL_DESC_93004100,
-SKILL_DESC_93004101,
-SKILL_DESC_93004102,
-SKILL_DESC_93004110,
+SKILL_DESC_93004100,"Summons the Soul of Merciful Threat, Phistonia, increasing ATK of the ally with the highest ATK equal to [64ff64]{2}[-]% of Mediana's ATK for [64ffff]{1}[-] sec, and healing the target and Mediana by a total of [ffc800]{4}[-] HP over [64ffff]{3}[-] sec."
+SKILL_DESC_93004101,"For the duration of Skill, Mediana and the target recover {2} Mana every {1} sec."
+SKILL_DESC_93004102,ATK Boost is increased by {1}%.
 SKILL_DESC_93004200,
 SKILL_DESC_93004201,
 SKILL_DESC_93004202,
 SKILL_DESC_93004210,
-SKILL_DESC_93004300,
-SKILL_DESC_93004301,
-SKILL_DESC_93004302,
-SKILL_DESC_93004310,
+SKILL_DESC_93004300,"Summons the Soul of Nightmare Fang, Kitrax for [64ffff]{1}[-] sec. For every [64ffff]1[-] stack of Soul owned, takes [ff6464]{2}[-]% reduced DMG, recovering HP equal to [ffc800]{3}[-]% of own Max HP and [ffc800]{4}[-] Mana every sec. Afterward, deals [ffc800]{5}[-] M.DMG to enemies in a wide frontal range and petrifies the hit targets for [64ffff]{6}[-] sec. If Viska has [64ffff]{7}[-] Souls, Skill Cooldown will reset."
+SKILL_DESC_93004301,Increases the duration of Petrification by {1} sec and hit targets take {3}% increased M.DMG for {2} sec.
+SKILL_DESC_93004302,"For the duration of Skill, DMG of I’ll rip you to pieces!! increases by {1}%."
 SKILL_DESC_93004400,
 SKILL_DESC_93004401,
 SKILL_DESC_93004402,
@@ -2071,7 +2064,7 @@ SKILL_DESC_93005401,
 SKILL_DESC_93005402,
 SKILL_DESC_93005410,
 SKILL_DESC_93005500,"Summons the soul of Executioner of Domains, Elsion and deals [ffc800]{1}[-] M.DMG to nearby enemies within a circular range of self and increases M.DMG the enemies take by [64ff64]{3}[-]% for [64ffff]{2}[-] sec. Afterward, absorbs the soul of Executioner of Domains, Elsion for [64ffff]{4}[-] sec and deals [ffc800]{6}[-] M.DMG to one random enemy every [64ffff]{5}[-] sec. If the target is not a Hero, the DMG increases by [64ff64]{7}[-]%."
-SKILL_DESC_93005501,"For the duration of Skill, increases Seria's ATK by {1}% and Crit DMG by {2}%."
+SKILL_DESC_93005501,"For the duration of Skill, increases own ATK by {1}% and Crit DMG by {2}%."
 SKILL_DESC_93005502,DMG dealt every {1} sec ignores target's DEF.
 SKILL_DESC_93005600,"Summons the soul of Essence of Greed, Perion for [64ffff]{1}[-] sec. Every Skill attack grants a stack of [fa96fa]'Essence of Greed'[-]. After [64ffff]{2}[-] sec, the soul explodes and deals [ffc800]{3}[-] P.DMG to all enemies. The DMG of this Skill increases by [64ff64]{4}[-]% for every [fa96fa]'Essence of Greed'[-] stacks gained for the duration. [fa96fa]'Essence of Greed'[-] can be stacked up to max {5} times."
 SKILL_DESC_93005601,Each stack of Essence of Greed deals {1}% DMG.
@@ -2085,22 +2078,19 @@ SKILL_DESC_93005802,"For every sec, dispels positive effects from an enemy withi
 SKILL_DESC_93005900,"Summons the soul of Blessing of Light, Benedicia for [64ffff]{1}[-] sec, increasing all allies' Heal Rate by [64ff64]{2}[-]% and ATK Spd by [64ff64]{3}[-]."
 SKILL_DESC_93005901,Activation requirement is changed to {1} Skill use(s).
 SKILL_DESC_93005902,"Every {1} sec, Skill Cooldown of self is reduced by {2} sec for the duration of Skill."
-SKILL_DESC_93006000,
-SKILL_DESC_93006001,
-SKILL_DESC_93006002,
-SKILL_DESC_93006010,
+SKILL_DESC_93006000,"Summons the Soul of Prism Nova, Arc Lumineir for {1} sec. For the duration of Skill, the Soul attacks according to the Light Chrisha owns every {2} sec.\n[ff6464]Red Light[-] - Attacks the enemy and deals [ffc800]{3}[-] M.DMG that ignores DEF.\n[64ffff]Blue Light[-] - Attacks all enemies, dealing [ffc800]{4}[-] M.DMG and recovering all allies' [64ff64]{5}[-] orb of Mana.\n[64ff64]Green Light[-] - Attacks 2 enemies, dealing [ffc800]{6}[-] M.DMG and reducing target’s ATK by [ffff64]{8}[-]% for [64ffff]{7}[-] sec."
+SKILL_DESC_93006001,Reduces Skill Activation Requirements to {1} times.
+SKILL_DESC_93006002,All effects will be enhanced.\n[Red Light] - DMG increases by {1}%.\n[Blue Light] - Mana Recovery increases by {2}%.\n[Green Light] - ATK Reduction changes to {3}%.
 SKILL_DESC_93006100,
 SKILL_DESC_93006101,
 SKILL_DESC_93006102,
 SKILL_DESC_93006110,
-SKILL_DESC_93006200,
-SKILL_DESC_93006201,
-SKILL_DESC_93006202,
-SKILL_DESC_93006210,
-SKILL_DESC_93006300,
-SKILL_DESC_93006301,
-SKILL_DESC_93006302,
-SKILL_DESC_93006310,
+SKILL_DESC_93006200,"Summons the Soul of Blade of Conviction, White Belona, increasing own ATK by [64ff64]{2}[-]% for [64ffff]{1}[-] sec and dealing [ffc800]{3}[-] P.DMG to the enemy with the highest ATK."
+SKILL_DESC_93006201,Changes Skill Activation Requirements to {1} times.
+SKILL_DESC_93006202,"Increases DMG by {1}%, and dispels positive effects from the hit target."
+SKILL_DESC_93006300,"Summons the Soul of Eye of the Storm, Yanadis, and deals [ffc800]{1}[-] M.DMG to enemies in a wide frontal range and stuns them for [64ffff]{2}[-] sec. Afterward, places [fa96fa]'Raging Magnetic Field'[-] for [64ffff]{3}[-] sec. Enemies within the [fa96fa]'Raging Magnetic Field'[-] take [ff6464]{5}[-]% increased M.DMG, and the duration of all CC effects the enemies take increases by [ff6464]{4}[-]%."
+SKILL_DESC_93006301,Increases the duration of Raging Magnetic Field by {1} sec.
+SKILL_DESC_93006302,Deals M.DMG equal to {1}% of Sonia’s Max HP to enemies within Raging Magnetic Field every sec.
 SKILL_DESC_93006400,"Summons the soul of Brilliant Praise, Brauxio for [64ffff]{1}[-] sec, increasing all allies' ATK by [64ff64]{2}[-]% and DEF by [64ff64]{3}[-]%."
 SKILL_DESC_93006401,Reduces DMG all allies take from enemies by {1}% for the duration of Skill.
 SKILL_DESC_93006402,Dispels negative effects from all allies and dispels positive effects from all enemies every {1} sec for the duration of Skill.

@@ -1181,12 +1181,12 @@ SKILL_DESC_91004222,[Fragments du temps] A 25 % de chances de réinitialiser le
 SKILL_DESC_91004223,[Fragments du temps] A 25 % de chances de réinitialiser le temps de recharge et augmente les DEG de 35 %.
 SKILL_DESC_91004224,[Fragments du temps] A 25 % de chances de réinitialiser le temps de recharge et augmente les DEG de 42 %.
 SKILL_DESC_91004225,[Fragments du temps] A 25 % de chances de réinitialiser le temps de recharge et augmente les DEG de 50 %.
-SKILL_DESC_91004320,[Démembrement !] Réduit le temps de recharge de 30 % et ajoute 8 % de réduction de DEF M.
-SKILL_DESC_91004321,[Démembrement !] Réduit le temps de recharge de 30 % et ajoute 10 % de réduction de DEF M.
-SKILL_DESC_91004322,[Démembrement !] Réduit le temps de recharge de 30 % et ajoute 12 % de réduction de DEF M.
-SKILL_DESC_91004323,[Démembrement !] Réduit le temps de recharge de 30 % et ajoute 14 % de réduction de DEF M.
-SKILL_DESC_91004324,[Démembrement !] Réduit le temps de recharge de 30 % et ajoute 17 % de réduction de DEF M.
-SKILL_DESC_91004325,[Démembrement !] Réduit le temps de recharge de 30 % et ajoute 20 % de réduction de DEF M.
+SKILL_DESC_91004320,[Je vais vous découper!!] Réduit le temps de recharge de 30 % et ajoute 8 % de réduction de DEF M.
+SKILL_DESC_91004321,[Je vais vous découper!!] Réduit le temps de recharge de 30 % et ajoute 10 % de réduction de DEF M.
+SKILL_DESC_91004322,[Je vais vous découper!!] Réduit le temps de recharge de 30 % et ajoute 12 % de réduction de DEF M.
+SKILL_DESC_91004323,[Je vais vous découper!!] Réduit le temps de recharge de 30 % et ajoute 14 % de réduction de DEF M.
+SKILL_DESC_91004324,[Je vais vous découper!!] Réduit le temps de recharge de 30 % et ajoute 17 % de réduction de DEF M.
+SKILL_DESC_91004325,[Je vais vous découper!!] Réduit le temps de recharge de 30 % et ajoute 20 % de réduction de DEF M.
 SKILL_DESC_91004420,[Coordination] Augmente le boost d'ATQ de 20% et réduit le temps de recharge du héros avec l'ATQ la plus élevée de 30%.
 SKILL_DESC_91004421,[Coordination] Augmente le boost d'ATQ de 24% et réduit le temps de recharge du héros avec l'ATQ la plus élevée de 30%.
 SKILL_DESC_91004422,[Coordination] Augmente le boost d'ATQ de 29% et réduit le temps de recharge du héros avec l'ATQ la plus élevée de 30%.
@@ -1901,18 +1901,16 @@ SKILL_DESC_93000800,
 SKILL_DESC_93000801,
 SKILL_DESC_93000802,
 SKILL_DESC_93000810,
-SKILL_DESC_93000900,
-SKILL_DESC_93000901,
-SKILL_DESC_93000902,
-SKILL_DESC_93000910,
+SKILL_DESC_93000900,"Invoque l'âme de Guillotine fascinante, ce qui augmente le taux d'ATQ du Héros de [64ff64]{2}[-]% pendant [64ffff]{1}[-] sec. Pendant la durée de l'invocation, avec une probabilité de [64ffff]{3}[-]%, les attaques automatiques et celles de compétences infligent [ffc800]{4}[-] DEG M à l'ennemi, ignorant la DEF de la cible. Cet effet s'active avec une probabilité de 100% lors des DEG infligés avec la compétence [Souffle absorbant]."
+SKILL_DESC_93000901,Modifie la probabilité d'activation à {1}% et augmente les DEG de {2}%.
+SKILL_DESC_93000902,"Ajoute l'effet d'ignorer le Blocage aux DEG M, et augmente les DEG M reçus par l'ennemi touché de {2}% pendant {1} sec."
 SKILL_DESC_93001000,
 SKILL_DESC_93001001,
 SKILL_DESC_93001002,
 SKILL_DESC_93001010,
-SKILL_DESC_93001100,
-SKILL_DESC_93001101,
-SKILL_DESC_93001102,
-SKILL_DESC_93001110,
+SKILL_DESC_93001100,"Invoque l'âme de Cocytus, le Messager de Lea, ce qui inflige [ffc800]{1}[-] DEG M aux ennemis en face en ligne droite et les projette au loin pendant [64ffff]{2}[-] sec. Ceci leur inflige l'état de 'Calamité du Corbeau' pendant [64ffff]{3}[-] sec. Le taux d'ATQ de la cible à l'état de 'Calamité du Corbeau' est réduit de [ff6464]{4}[-]%."
+SKILL_DESC_93001101,Réduit la récupération des PV de la cible à l'état de Calamité du Corbeau de {1}%.
+SKILL_DESC_93001102,La condition d'utilisation passe à {1} fois.
 SKILL_DESC_93001200,
 SKILL_DESC_93001201,
 SKILL_DESC_93001202,
@@ -1977,10 +1975,9 @@ SKILL_DESC_93002800,
 SKILL_DESC_93002801,
 SKILL_DESC_93002802,
 SKILL_DESC_93002810,
-SKILL_DESC_93002900,
-SKILL_DESC_93002901,
-SKILL_DESC_93002902,
-SKILL_DESC_93002910,
+SKILL_DESC_93002900,"Invoque l'âme de Jacinthe, la Fleur d'Éternité, ce qui inflige [ffc800]{1}[-] DEG M aux ennemis proches dans une zone circulaire et leur applique le Gel pendant [64ffff]{2}[-] sec, avant de les projeter. Ensuite, l'âme de Jacinthe inflige [ffc800]{3}[-] DEG M supplémentaires aux ennemis gelés et augmente les DEG Crit du Héros de [64ff64]{5}[-]% pendant [64ffff]{4}[-] sec."
+SKILL_DESC_93002901,Augmente les DEG M reçus par la cible touchée de {2}% pendant {1} sec.
+SKILL_DESC_93002902,"Pendant la durée de l'invocation, augmente le nombre des ennemis visés par les attaques automatiques à {1}. Augmente également la portée des attaques de {2}% et repousse la cible touchée."
 SKILL_DESC_93003000,"Invoque l'âme d'Eltoirre, le Cercle flottant, pendant [64ffff]{1}[-] sec, ce qui restaure [ffc800]{2}[-] PV et [64ff64]{3}[-] PM de tous les alliés, toutes les secondes."
 SKILL_DESC_93003001,"Augmente la DEF M de l'allié soigné, de {1}%, et le Blocage M de {2}. Cet effet est cumulable jusqu'à {3} fois."
 SKILL_DESC_93003002,"Devient invulnérable pendant la durée de la compétence et réduit le temps de recharge de toutes les compétences utilisées de {1} sec, toutes les secondes."
@@ -1992,10 +1989,9 @@ SKILL_DESC_93003200,
 SKILL_DESC_93003201,
 SKILL_DESC_93003202,
 SKILL_DESC_93003210,
-SKILL_DESC_93003300,
-SKILL_DESC_93003301,
-SKILL_DESC_93003302,
-SKILL_DESC_93003310,
+SKILL_DESC_93003300,"Invoque l'âme de Magnus Fille, la Clé dimensionnelle pendant [64ffff]{1}[-] sec, ce qui restaure immédiatement {2} orbes de PM du Héros. Pendant la durée de l'invocation, augmente ses DEG Crit de [64ff64]{3}[-]%."
+SKILL_DESC_93003301,La condition d'utilisation passe à {1} reprises.
+SKILL_DESC_93003302,Augmente la durée de l'invocation de {1} sec et immunise le Héros contre les Contrôles pendant la durée de l'invocation.
 SKILL_DESC_93003400,"Invoque l'âme de Rascal, la Technomagie cristallisée, ce qui restaure les PM de tous les alliés de [64ff64]{2}[-] toutes les secondes, pendant [64ffff]{1}[-] secondes. De plus, elle se retrouve en mode Surcharge, ce qui augmente les DEG M reçus par tous les ennemis de [ff6464]{3}[-]%, pendant la durée de la compétence."
 SKILL_DESC_93003401,Augmente la durée de l'effet de {1} sec.
 SKILL_DESC_93003402,"Augmente le taux d'ATQ de tous les alliés de {1}%, les DEG Crit de {2}%, pendant la durée de la compétence."
@@ -2010,10 +2006,9 @@ SKILL_DESC_93003700,
 SKILL_DESC_93003701,
 SKILL_DESC_93003702,
 SKILL_DESC_93003710,
-SKILL_DESC_93003800,
-SKILL_DESC_93003801,
-SKILL_DESC_93003802,
-SKILL_DESC_93003810,
+SKILL_DESC_93003800,"Invoque l'âme de Barbatos, le Gardien du Désespoir pendant [64ffff]{1}[-] sec, ce qui inflige [ffc800]{2}[-] DEG M aux ennemis proches dans une zone circulaire et augmente le taux d'ATQ du Héros de [64ff64]{3}[-]%. Pendant la durée de l'invocation, vous pouvez contrôler le Héros en état Fureur et ses compétences ne dépensent pas de PV. À la fin de la compétence, le Héros obtient {4} charges de Sang Maudit. Le Sang Maudit obtenu lors de l'utilisation de cette compétence peut être obtenu même à l'état Fureur."
+SKILL_DESC_93003801,Permet d'obtenir {1} charges supplémentaires de Sang Maudit.
+SKILL_DESC_93003802,Augmente les DEG infligés par le Héros aux ennemis de {1}% pendant la durée de l'invocation.
 SKILL_DESC_93003900,
 SKILL_DESC_93003901,
 SKILL_DESC_93003902,
@@ -2022,18 +2017,16 @@ SKILL_DESC_93004000,"Invoque l'âme de Legios, l'Éclair, ce qui inflige [ffc800
 SKILL_DESC_93004001,"Augmente les DEG M reçus par la cible touchée par le Courroux de Legios de {2}%, pendant {1} sec."
 SKILL_DESC_93004002,L'effet de 'Legios l'Éclair' est activé lorsque la compétence est activée.
 SKILL_DESC_93004010,Vous devez infliger des DEG à [64ff64]{1}[-] reprises pour recharger l'âme et l'utiliser.
-SKILL_DESC_93004100,
-SKILL_DESC_93004101,
-SKILL_DESC_93004102,
-SKILL_DESC_93004110,
+SKILL_DESC_93004100,"Invoque l'âme de Phistonia, la Menace miséricordieuse, ce qui augmente le taux d'ATQ de l'allié à l'ATQ la plus élevée de [64ff64]{2}[-]% du taux d'ATQ de Mediana, pendant [64ffff]{1}[-] sec. Ensuite, restaure les PV de l'allié ciblé et de Mediana de [ffc800]{4}[-] au total pendant [64ffff]{3}[-] sec."
+SKILL_DESC_93004101,"Pendant la durée de l'invocation, restaure les PM de Mediana et de l'allié ciblé de {2} toutes les {1} sec."
+SKILL_DESC_93004102,Augmente le taux d'augmentation d'ATQ de {1}%.
 SKILL_DESC_93004200,
 SKILL_DESC_93004201,
 SKILL_DESC_93004202,
 SKILL_DESC_93004210,
-SKILL_DESC_93004300,
-SKILL_DESC_93004301,
-SKILL_DESC_93004302,
-SKILL_DESC_93004310,
+SKILL_DESC_93004300,"Invoque l'âme de Kitrax, le Croc cauchemardesque pendant [64ffff]{1}[-] sec, ce qui réduit les DEG reçus de [ff6464]{2}[-]% par [64ffff]1[-] charge d'Âme en possession. Restaure toutes les secondes les PV de [ffc800]{3}[-]% de PV max du Héros, et les PM de [ffc800]{4}[-]. Ensuite, inflige [ffc800]{5}[-] DEG M aux ennemis en face dans une large zone et applique la Pétrification aux ennemis touchés pendant [64ffff]{6}[-] sec. Réinitialise le temps de recharge de toutes les compétences de Viska, si les charges d'Âmes en possession est au nombre de [64ffff]{7}[-]."
+SKILL_DESC_93004301,Augmente la durée de la Pétrification de {1} sec et les DEG M reçus par la cible touchée de {3}% pendant {2} sec.
+SKILL_DESC_93004302,Augmente les DEG infligés par la compétence Je vais vous déchirer !! de {1}% pendant la durée de l'invocation.
 SKILL_DESC_93004400,
 SKILL_DESC_93004401,
 SKILL_DESC_93004402,
@@ -2085,22 +2078,19 @@ SKILL_DESC_93005802,"Dissipe les effets positifs des ennemis à portée, toutes 
 SKILL_DESC_93005900,"Invoque l'âme de Benedicia, la Délicatesse de la Lumière, pendant [64ffff]{1}[-] sec, ce qui augmente la récupération de PV de tous les alliés de [64ff64]{2}[-]%, et leur Vitesse d'ATQ de [64ff64]{3}[-]."
 SKILL_DESC_93005901,Modifie la condition d'activation en {1} utilisations de la compétence.
 SKILL_DESC_93005902,"Toutes les {1} sec, réduit le temps de recharge de la compétence de {2} sec, pendant la durée de la compétence."
-SKILL_DESC_93006000,
-SKILL_DESC_93006001,
-SKILL_DESC_93006002,
-SKILL_DESC_93006010,
+SKILL_DESC_93006000,"Invoque l'âme d'Arc Lumineir, la Nova prismatique pendant {1} sec. Pendant la durée de l'invocation, l'âme attaque toutes les {2} sec en fonction de la couleur de la lumière en possession.\n[ff6464]Lumière rouge[-] - Attaque l'ennemi pour lui infliger [ffc800]{3}[-] DEG M ignorant la DEF de la cible. \n[64ffff]Lumière bleue[-] - Attaque tous les ennemis pour leur infliger [ffc800]{4}[-] DEG M et restaure [64ff64]{5}[-] orbes de PM de tous les alliés. \n[64ff64]Lumière verte[-] - Attaque 2 ennemis pour leur infliger [ffc800]{6}[-] DEG M et réduit leur taux d'ATQ de [ffff64]{8}[-]% pendant [64ffff]{7}[-] sec."
+SKILL_DESC_93006001,La condition d'utilisation passe à {1} fois.
+SKILL_DESC_93006002,Renforce tous les effets de manière supplémentaire.\n[Lumière rouge] - Augmente les DEG infligés de {1}%.\n[Lumière bleue] - Augmente la récupération de PM de {2}%. \n[Lumière verte] - La réduction du taux d'ATQ passe à {3}%.
 SKILL_DESC_93006100,
 SKILL_DESC_93006101,
 SKILL_DESC_93006102,
 SKILL_DESC_93006110,
-SKILL_DESC_93006200,
-SKILL_DESC_93006201,
-SKILL_DESC_93006202,
-SKILL_DESC_93006210,
-SKILL_DESC_93006300,
-SKILL_DESC_93006301,
-SKILL_DESC_93006302,
-SKILL_DESC_93006310,
+SKILL_DESC_93006200,"Invoque l'âme de Belona blanc, la Lame de Conviction, ce qui augmente le taux d'ATQ du Héros de [64ff64]{2}[-]% pendant [64ffff]{1}[-] sec et inflige [ffc800]{3}[-] DEG P à l'ennemi à l'ATQ la plus élevée."
+SKILL_DESC_93006201,La condition d'utilisation passe à {1} fois.
+SKILL_DESC_93006202,Augmente les DEG infligés de {1}% et dissipe les effets positifs de la cible touchée.
+SKILL_DESC_93006300,"Invoque l'âme de Yanadis, l'Œil du Cyclone, ce qui inflige [ffc800]{1}[-] DEG M aux ennemis en face dans une large zone et les étourdit pendant [64ffff]{2}[-] sec. Ensuite, installe [fa96fa]'Champ magnétique déchaîné'[-] pendant [64ffff]{3}[-] sec. Ceci augmente la durée des Contrôles reçus par tous les ennemis situés dans le [fa96fa]'Champ magnétique déchaîné'[-] de [ff6464]{4}[-]% et les DEG M reçus par ces derniers de [ff6464]{5}[-]%."
+SKILL_DESC_93006301,Augmente la durée du Champ magnétique déchaîné de {1} sec.
+SKILL_DESC_93006302,"Inflige, aux ennemis situés dans le Champ magnétique déchaîné des DEG M à la hauteur de {1}% de PV max de Sonia, toutes les secondes."
 SKILL_DESC_93006400,"Invoque l'âme de Brauxio, la Gloire rayonnante, pendant [64ffff]{1}[-] sec, ce qui augmente le taux d'ATQ de tous les alliés de [64ff64]{2}[-]%, et leur DEF de [64ff64]{3}[-]%."
 SKILL_DESC_93006401,Réduit les DEG reçus par les alliés de {1}% pendant la durée de la compétence.
 SKILL_DESC_93006402,"Dissipe les effets négatifs sur tous les alliés et les effets positifs sur tous les ennemis toutes les {1} sec, pendant la durée de la compétence."

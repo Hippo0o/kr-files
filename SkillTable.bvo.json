@@ -31528,7 +31528,18 @@
       "20",
       "0"
     ],
-    "OperationConditionType1": "None"
+    "OperationConditionType1": "None",
+    "OperationType2": "Knockback",
+    "OperationTargetType2": "Parent",
+    "OperationValue2": [
+      "1500"
+    ],
+    "OperationDurationMs2": 1000,
+    "OperationParent2": 1,
+    "OperationFlags2": [
+      "HasParent",
+      "Disabled"
+    ]
   },
   {
     "Index": 2910,
@@ -52543,6 +52554,298 @@
     "OperationState1": "Artifact512",
     "OperationDurationMs1": 5000,
     "OperationFlags1": [
+      "OverrideAllState"
+    ]
+  },
+  {
+    "Index": 80005140,
+    "DescParam": [
+      "20",
+      "20"
+    ],
+    "TriggerType": "OnStart",
+    "TriggerRatio": 1000,
+    "IgnoreStateType": [
+      "CC"
+    ],
+    "TargetType": "Myself",
+    "TargetCount": 1,
+    "DeadTarget": "False",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "False",
+    "OperationType1": "UsePassiveSkill",
+    "OperationTargetType1": "Myself",
+    "OperationValue1": [
+      "80005146"
+    ],
+    "OperationType2": "ModMaxHpR",
+    "OperationTargetType2": "Myself",
+    "OperationValue2": [
+      "200"
+    ]
+  },
+  {
+    "Index": 80005141,
+    "ReplaceDescKey": "SKILL_DESC_80005140",
+    "DescParam": [
+      "24",
+      "24"
+    ],
+    "TriggerType": "OnStart",
+    "TriggerRatio": 1000,
+    "IgnoreStateType": [
+      "CC"
+    ],
+    "TargetType": "Myself",
+    "TargetCount": 1,
+    "DeadTarget": "False",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "False",
+    "OperationType1": "UsePassiveSkill",
+    "OperationTargetType1": "Myself",
+    "OperationValue1": [
+      "80005146"
+    ],
+    "OperationType2": "ModMaxHpR",
+    "OperationTargetType2": "Myself",
+    "OperationValue2": [
+      "240"
+    ]
+  },
+  {
+    "Index": 80005142,
+    "ReplaceDescKey": "SKILL_DESC_80005140",
+    "DescParam": [
+      "29",
+      "29"
+    ],
+    "TriggerType": "OnStart",
+    "TriggerRatio": 1000,
+    "IgnoreStateType": [
+      "CC"
+    ],
+    "TargetType": "Myself",
+    "TargetCount": 1,
+    "DeadTarget": "False",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "False",
+    "OperationType1": "UsePassiveSkill",
+    "OperationTargetType1": "Myself",
+    "OperationValue1": [
+      "80005146"
+    ],
+    "OperationType2": "ModMaxHpR",
+    "OperationTargetType2": "Myself",
+    "OperationValue2": [
+      "290"
+    ]
+  },
+  {
+    "Index": 80005143,
+    "ReplaceDescKey": "SKILL_DESC_80005140",
+    "DescParam": [
+      "35",
+      "35"
+    ],
+    "TriggerType": "OnStart",
+    "TriggerRatio": 1000,
+    "IgnoreStateType": [
+      "CC"
+    ],
+    "TargetType": "Myself",
+    "TargetCount": 1,
+    "DeadTarget": "False",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "False",
+    "OperationType1": "UsePassiveSkill",
+    "OperationTargetType1": "Myself",
+    "OperationValue1": [
+      "80005146"
+    ],
+    "OperationType2": "ModMaxHpR",
+    "OperationTargetType2": "Myself",
+    "OperationValue2": [
+      "350"
+    ]
+  },
+  {
+    "Index": 80005144,
+    "ReplaceDescKey": "SKILL_DESC_80005140",
+    "DescParam": [
+      "42",
+      "42"
+    ],
+    "TriggerType": "OnStart",
+    "TriggerRatio": 1000,
+    "IgnoreStateType": [
+      "CC"
+    ],
+    "TargetType": "Myself",
+    "TargetCount": 1,
+    "DeadTarget": "False",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "False",
+    "OperationType1": "UsePassiveSkill",
+    "OperationTargetType1": "Myself",
+    "OperationValue1": [
+      "80005146"
+    ],
+    "OperationType2": "ModMaxHpR",
+    "OperationTargetType2": "Myself",
+    "OperationValue2": [
+      "420"
+    ]
+  },
+  {
+    "Index": 80005145,
+    "ReplaceDescKey": "SKILL_DESC_80005140",
+    "DescParam": [
+      "50",
+      "50"
+    ],
+    "TriggerType": "OnStart",
+    "TriggerRatio": 1000,
+    "IgnoreStateType": [
+      "CC"
+    ],
+    "TargetType": "Myself",
+    "TargetCount": 1,
+    "DeadTarget": "False",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "False",
+    "OperationType1": "UsePassiveSkill",
+    "OperationTargetType1": "Myself",
+    "OperationValue1": [
+      "80005146"
+    ],
+    "OperationType2": "ModMaxHpR",
+    "OperationTargetType2": "Myself",
+    "OperationValue2": [
+      "500"
+    ]
+  },
+  {
+    "Index": 80005146,
+    "TriggerType": "OnStart",
+    "TriggerRatio": 1000,
+    "ActiveCondition": [
+      "$Me.EnemyCount<=1"
+    ],
+    "IgnoreStateType": [
+      "CC"
+    ],
+    "TargetType": "Myself",
+    "TargetCount": 1,
+    "DeadTarget": "False",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "False",
+    "OperationType1": "ModPowerR",
+    "OperationTargetType1": "Myself",
+    "OperationRadiusMm1": 50000,
+    "OperationValue1": [
+      "200"
+    ],
+    "OperationState1": "Artifact514_1",
+    "OperationConditionType1": "SkillLevel",
+    "OperationConditionValue1": [
+      "80005140"
+    ],
+    "OperationFlags1": [
+      "OverrideAllState"
+    ],
+    "OperationType2": "ModPowerR",
+    "OperationTargetType2": "Myself",
+    "OperationRadiusMm2": 50000,
+    "OperationValue2": [
+      "240"
+    ],
+    "OperationDelayMs2": [
+      "0",
+      "0",
+      "100"
+    ],
+    "OperationState2": "Artifact514_1",
+    "OperationConditionType2": "SkillLevel",
+    "OperationConditionValue2": [
+      "80005141"
+    ],
+    "OperationFlags2": [
+      "OverrideAllState"
+    ],
+    "OperationType3": "ModPowerR",
+    "OperationTargetType3": "Myself",
+    "OperationRadiusMm3": 50000,
+    "OperationValue3": [
+      "290"
+    ],
+    "OperationDelayMs3": [
+      "0",
+      "0",
+      "200"
+    ],
+    "OperationState3": "Artifact514_1",
+    "OperationConditionType3": "SkillLevel",
+    "OperationConditionValue3": [
+      "80005142"
+    ],
+    "OperationFlags3": [
+      "OverrideAllState"
+    ],
+    "OperationType4": "ModPowerR",
+    "OperationTargetType4": "Myself",
+    "OperationRadiusMm4": 50000,
+    "OperationValue4": [
+      "350"
+    ],
+    "OperationDelayMs4": [
+      "0",
+      "0",
+      "300"
+    ],
+    "OperationState4": "Artifact514_1",
+    "OperationConditionType4": "SkillLevel",
+    "OperationConditionValue4": [
+      "80005143"
+    ],
+    "OperationFlags4": [
+      "OverrideAllState"
+    ],
+    "OperationType5": "ModPowerR",
+    "OperationTargetType5": "Myself",
+    "OperationRadiusMm5": 50000,
+    "OperationValue5": [
+      "420"
+    ],
+    "OperationDelayMs5": [
+      "0",
+      "0",
+      "400"
+    ],
+    "OperationState5": "Artifact514_1",
+    "OperationConditionType5": "SkillLevel",
+    "OperationConditionValue5": [
+      "80005144"
+    ],
+    "OperationFlags5": [
+      "OverrideAllState"
+    ],
+    "OperationType6": "ModPowerR",
+    "OperationTargetType6": "Myself",
+    "OperationRadiusMm6": 50000,
+    "OperationValue6": [
+      "500"
+    ],
+    "OperationDelayMs6": [
+      "0",
+      "0",
+      "500"
+    ],
+    "OperationState6": "Artifact514_1",
+    "OperationConditionType6": "SkillLevel",
+    "OperationConditionValue6": [
+      "80005145"
+    ],
+    "OperationFlags6": [
       "OverrideAllState"
     ]
   },

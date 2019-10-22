@@ -736,22 +736,22 @@ RESULT_TYPE.NOT_ENOUGH_TRAINING_CENTER_LEVEL,Expansão de poder inválida.
 RESULT_TYPE.ALREADY_APPLIED,Solicitação para participar em andamento...
 RESULT_TYPE.GUILD_SUPPRESS_ALREADY_COMPLETED,Esta área já foi concluída.
 RESULT_TYPE.GUILD_SUPPRESS_NOT_BATTLE_STATE,Não está disponível neste horário.
-RESULT_TYPE.GUILD_SUPPRESS_RAID_DATA_NOT_FOUND,Impossível encontrar Informações de Conquista da Guilda nas Informações do Jogador.
+RESULT_TYPE.GUILD_SUPPRESS_RAID_DATA_NOT_FOUND,Não foi possível encontrar dados do Triunfo da Guilda nas informações do jogador.
 RESULT_TYPE.GUILD_SUPPRESS_SESSION_NOT_FOUND,A masmorra não existe.
 RESULT_TYPE.GUILD_SUPPRESS_BATTLE_RESULT_ERROR,"Devido a um erro de rede, há um atraso no servidor para processar as informações do usuário. Tente mais tarde."
 RESULT_TYPE.GUILD_SUPPRESS_NOT_COMPLETED_REQ_DUNGEON,O capítulo cuja entrada foi solicitada não foi concluído.
 RESULT_TYPE.GUILD_SUPPRESS_SESSION_DATA_NOT_FOUND,Não foi possível encontrar os detalhes solicitados.
 RESULT_TYPE.GUILD_SUPPRESS_PLAY_INFO_NOT_FOUND,Não foi possível encontrar os dados.
-RESULT_TYPE.GUILD_SUPPRESS_NOT_APPLIED,Você não solicitou participar de uma Conquista da Guilda.
+RESULT_TYPE.GUILD_SUPPRESS_NOT_APPLIED,Você não solicitou participação do Triunfo da Guilda.
 RESULT_TYPE.GUILD_SUPPRESS_DUNGEON_DATA_NOT_FOUND,As informações desta masmorra não existem.
-RESULT_TYPE.NOT_APPLIABLE,O Período de Solicitação de Conquista de Guilda ainda não começou.
+RESULT_TYPE.NOT_APPLIABLE,Aguarde o Período de Solicitação do Triunfo da Guilda.
 RESULT_TYPE.GUILD_MEMBER_REWARD_DATA_NOT_FOUND,Estas informações de recompensa não existem.
 RESULT_TYPE.INVALID_BUILDING_INDEX,Dados inválidos.
 RESULT_TYPE.GUILD_BUILDING_DATA_NOT_FOUND,Não foi possível encontrar os detalhes solicitados.
 RESULT_TYPE.EXCEED_WOOD,Excedeu o limite.
 RESULT_TYPE.EXCEED_STONE,Excedeu o limite.
 RESULT_TYPE.EXCEED_METAL,Excedeu o limite.
-RESULT_TYPE.NOT_ENOUGH_SUPPRESS_POINT,Pontos de Conquista insuficientes.
+RESULT_TYPE.NOT_ENOUGH_SUPPRESS_POINT,Pontos de Triunfo insuficientes.
 RESULT_TYPE.INVALID_ACTIVITY_POINT,Dados inválidos.
 RESULT_TYPE.INVALID_SUPPRESS_POINT,Dados inválidos.
 RESULT_TYPE.INVALID_TRAINING_CENTER_LEVEL,Dados inválidos.
@@ -760,9 +760,9 @@ RESULT_TYPE.NOT_ENOUGH_METAL,Não há Metal suficiente.
 RESULT_TYPE.MAX_GUILD_BUILDING_LEVEL,"Impossível aumentar o nível da construção, nível máximo já atingido."
 RESULT_TYPE.UNKNOWN_TYPE,Não foi possível encontrar os dados.
 RESULT_TYPE.NOT_MATCH_TYPE,Tipo inválido.
-RESULT_TYPE.SESSION_NOT_FOUND,A Conquista não está em progresso.
-RESULT_TYPE.INVALID_SESSION_INDEX,A Conquista não está em progresso.
-RESULT_TYPE.SESSION_DATA_NOT_FOUND,Dados de Conquista não existentes.
+RESULT_TYPE.SESSION_NOT_FOUND,O Triunfo não está em progresso.
+RESULT_TYPE.INVALID_SESSION_INDEX,Esse Triunfo não está em progresso.
+RESULT_TYPE.SESSION_DATA_NOT_FOUND,Dados sobre Triunfo inexistentes.
 RESULT_TYPE.GUILD_ID_NOT_FOUND,As guildas não existem.
 RESULT_TYPE.INVALID_PURCHASE_MARKETING_REQUEST_INFO,Dados inválidos.
 RESULT_TYPE.NOT_ELAPSED_GUILD_MEMBER_REWARDED_TIME,É muito cedo para resgatar recompensas dos membros da Guilda. Tente novamente mais tarde.
@@ -775,52 +775,52 @@ RESULT_TYPE.GUILD_INFO_NOT_FOUND,Informação de Guilda não existente.
 RESULT_TYPE.MISSING_BONUS_EVENT_CONDITION,Não foi possível encontrar os dados.
 RESULT_TYPE.CAN_NOT_SELECTED_COSTUME,Não é possível equipar o traje.
 RESULT_TYPE.COSTUME_INFO_REFUND,Não há Trajes disponíveis. Você pode ser compensado com Insígnia(s) de Honra.
-RESULT_TYPE.WORLDBOSS_NOT_FOUND,Dados corretos para Espaço de Equipamento não encontrados.
-RESULT_TYPE.WORLD_BOSS_DAMAGED_BY_ZERO,A batalha não prosseguiu normalmente. Tente novamente.
-RESULT_TYPE.IS_SINGLE_ROOM,O Chefe de Mundo não sofreu dano. Desafie-o novamente.
-RESULT_TYPE.GUILD_GUILDRAID_ALREADY_COMPLETED,Esta é uma Sala de Incursão de Jogo Solo. Você não pode participar em batalhas.
+RESULT_TYPE.WORLDBOSS_NOT_FOUND,A batalha não prosseguiu normalmente. Tente novamente.
+RESULT_TYPE.WORLD_BOSS_DAMAGED_BY_ZERO,O Chefe de Mundo não sofreu dano. Desafie-o novamente.
+RESULT_TYPE.IS_SINGLE_ROOM,Esta é uma Sala de Incursão de Jogo Solo. Você não pode participar em batalhas.
+RESULT_TYPE.GUILD_GUILDRAID_ALREADY_COMPLETED,O monstro já foi derrotado.\nQualquer bilhete de entrada usado será devolvido.
 RESULT_TYPE.GUILD_GUILD_RAID_ALREADY_COMPLETED,O monstro já foi derrotado.\nQualquer bilhete de entrada usado será devolvido.
-RESULT_TYPE.NAME_TOO_LONG,O monstro já foi derrotado.\nQualquer bilhete de entrada usado será devolvido.
-RESULT_TYPE.INVALID_INDEX_ARRAY_SIZE,O nome do espaço deve ter menos de 10 caracteres.
-RESULT_TYPE.DUPLICATED_PART_INDEX,Número inválido de equipamento a ser salvo.
-RESULT_TYPE.INVALID_EQUIP_ITEM_SLOT_INDEX,Você já possui o mesmo equipamento no Espaço de Equipamento.
-RESULT_TYPE.INVALID_EQUIP_STORAGE_SLOT_INDEX,O item não está armazenado no Espaço de Equipamento Personalizado.
-RESULT_TYPE.INVALID_PART_INDEX,Número inválido de Espaço de Equipamento Personalizado.
-RESULT_TYPE.MAX_EXTEND,Espaço de equipamento inválido.
-RESULT_TYPE.MISSING_PARAM_ERROR,Não foi possível encontrar as informações necessárias para a expansão do Espaço de Equipamento Personalizado.
-RESULT_TYPE.ALL_COSTUME_NOT_OWNED,Valor inserido inválido.
-RESULT_TYPE.ALL_HERO_NOT_OWNED,Você não coletou todos os trajes.
-RESULT_TYPE.CHEST_FULL,Você não recrutou todos os Heróis.
-RESULT_TYPE.MAX_CHEST,Sua Caixa de Armazenamento está cheia.
-RESULT_TYPE.INVENTORY_FULL,Max Storage Box slot reached.
-RESULT_TYPE.COUNTRY_CODE_CHANGE_IS_NOT_POSSIBLE,O inventário está cheio.
+RESULT_TYPE.NAME_TOO_LONG,O nome do espaço deve ter menos de 10 caracteres.
+RESULT_TYPE.INVALID_INDEX_ARRAY_SIZE,Número inválido de equipamento a ser salvo.
+RESULT_TYPE.DUPLICATED_PART_INDEX,Você já possui o mesmo equipamento no Espaço de Equipamento.
+RESULT_TYPE.INVALID_EQUIP_ITEM_SLOT_INDEX,O item não está armazenado no Espaço de Equipamento Personalizado.
+RESULT_TYPE.INVALID_EQUIP_STORAGE_SLOT_INDEX,Número inválido de Espaço de Equipamento Personalizado.
+RESULT_TYPE.INVALID_PART_INDEX,Espaço de equipamento inválido.
+RESULT_TYPE.MAX_EXTEND,Não foi possível encontrar as informações necessárias para a expansão do Espaço de Equipamento Personalizado.
+RESULT_TYPE.MISSING_PARAM_ERROR,Valor inserido inválido.
+RESULT_TYPE.ALL_COSTUME_NOT_OWNED,Você não coletou todos os trajes.
+RESULT_TYPE.ALL_HERO_NOT_OWNED,Você não recrutou todos os Heróis.
+RESULT_TYPE.CHEST_FULL,Sua Caixa de Armazenamento está cheia.
+RESULT_TYPE.MAX_CHEST,Max Storage Box slot reached.
+RESULT_TYPE.INVENTORY_FULL,O inventário está cheio.
+RESULT_TYPE.COUNTRY_CODE_CHANGE_IS_NOT_POSSIBLE,Não foi possível encontrar dados da solicitação automática do Triunfo.
 RESULT_TYPE.GUILD_SUPPRESS_AUTO_APPLY_INFO_NOT_FOUND,Você não tem permissão para alterar o Código do País durante este período.
-RESULT_TYPE.INVALID_COUNTRY_CODE_INDEX,Não foi possível encontrar Informações de aplicação automática de Conquista.
-RESULT_TYPE. EVENT_ITEM_NOT_SELLECT,O Código do País não existe.
-RESULT_TYPE.POINT_NOT_ENOUGH,Nenhum Item foi selecionado.
-RESULT_TYPE.MAX_HERO_TRANSCEND_POINT,Pontos de Participação insuficientes.
-RESULT_TYPE.INVALID_HERO_TRANSCEND_POINT,Os Pontos de Atributo de Transcendência do Herói estão no máximo.
-RESULT_TYPE.RESOURCE_NOT_FOUND_ERROR,Os Pontos de Atributo de Transcendência do Herói são inválidos.
-RESULT_TYPE.INCORRECT_GUILD_MEMBER,Não foi possível encontrar o recurso.
-RESULT_TYPE.GUILD_MEMBER_NOT_FOUND,Falha ao prosseguir. Membro da Guilda Inválido.
-RESULT_TYPE.MAX_GUILD_ADMIN,Nenhum membro correspondente da Guilda encontrado.
-RESULT_TYPE.NOT_CORRECT_GUILD_BUILDING_LEVEL,Número máximo de Administradores atingido.
-RESULT_TYPE.INVALID_TAG_TYPE,Falha na compra. Os níveis do produto e da Loja da Guilda não batem.
-RESULT_TYPE.INVALID_CURRENCY_DATA,Classe inválida.
-RESULT_TYPE.NOT_ENOUGH_CURRENCY,Dados de produtos inválidos.
-RESULT_TYPE.NOT_EXIST_CLASS_BUFF_DATA,Bens insuficientes.
-RESULT_TYPE.ALREADY_CLASS_BUFF_INIT,Estes dados não existem.
-RESULT_TYPE.INVALID_CLASS_BUFF_INDEX,Já foi redefinido.
-RESULT_TYPE.INVALID_CLASS_BUFF_LEVEL,Informações inválidas do índice do Bônus de Classe foram enviadas ao servidor.
-RESULT_TYPE.NOT_ENOUGH_POINT,Informações inválidas do Nível do Bônus de Classe foram enviadas ao servidor.
-RESULT_TYPE.NOT_ENOUGH_CLASS_BUFF_INDEX,Pontos de Bônus de Classe insuficientes.
-RESULT_TYPE.NOT_ENOUGH_CLASS_BUFF_LEVEL,Índice insuficiente para subir de nível.
-RESULT_TYPE.NOT_ENOUGH_NEED_HERO_COUNT,Nível de Bônus de Classe insuficiente para subir de nível.
-RESULT_TYPE.EXCEEDED_MAX_LEVEL,Você não tem Heróis suficientes.
-RESULT_TYPE.MONTHLY_HERO_NOT_FOUND,Não é mais possível atualizar.
-RESULT_TYPE.CHECK_CONDITION_NOT_PASSED,A solicitação não pode ser realizada.
-RESULT_TYPE.NEWBIE_POPUP_TIME_ENDED,O tempo de recompensa foi encerrado.
-RESULT_TYPE.NOT_OPENED_NEWBIE_POPUP,Este produto não está à venda.
+RESULT_TYPE.INVALID_COUNTRY_CODE_INDEX,O Código do País não existe.
+RESULT_TYPE. EVENT_ITEM_NOT_SELLECT,Nenhum Item foi selecionado.
+RESULT_TYPE.POINT_NOT_ENOUGH,Pontos de Participação insuficientes.
+RESULT_TYPE.MAX_HERO_TRANSCEND_POINT,Os Pontos de Atributo de Transcendência do Herói estão no máximo.
+RESULT_TYPE.INVALID_HERO_TRANSCEND_POINT,Os Pontos de Atributo de Transcendência do Herói são inválidos.
+RESULT_TYPE.RESOURCE_NOT_FOUND_ERROR,Não foi possível encontrar o recurso.
+RESULT_TYPE.INCORRECT_GUILD_MEMBER,Falha ao prosseguir. Membro da Guilda Inválido.
+RESULT_TYPE.GUILD_MEMBER_NOT_FOUND,Nenhum membro correspondente da Guilda encontrado.
+RESULT_TYPE.MAX_GUILD_ADMIN,Número máximo de Administradores atingido.
+RESULT_TYPE.NOT_CORRECT_GUILD_BUILDING_LEVEL,Falha na compra. Os níveis do produto e da Loja da Guilda não batem.
+RESULT_TYPE.INVALID_TAG_TYPE,Classe inválida.
+RESULT_TYPE.INVALID_CURRENCY_DATA,Dados de produtos inválidos.
+RESULT_TYPE.NOT_ENOUGH_CURRENCY,Bens insuficientes.
+RESULT_TYPE.NOT_EXIST_CLASS_BUFF_DATA,Estes dados não existem.
+RESULT_TYPE.ALREADY_CLASS_BUFF_INIT,Já foi redefinido.
+RESULT_TYPE.INVALID_CLASS_BUFF_INDEX,Informações inválidas do índice do Bônus de Classe foram enviadas ao servidor.
+RESULT_TYPE.INVALID_CLASS_BUFF_LEVEL,Informações inválidas do Nível do Bônus de Classe foram enviadas ao servidor.
+RESULT_TYPE.NOT_ENOUGH_POINT,Pontos de Bônus de Classe insuficientes.
+RESULT_TYPE.NOT_ENOUGH_CLASS_BUFF_INDEX,Índice insuficiente para subir de nível.
+RESULT_TYPE.NOT_ENOUGH_CLASS_BUFF_LEVEL,Nível de Bônus de Classe insuficiente para subir de nível.
+RESULT_TYPE.NOT_ENOUGH_NEED_HERO_COUNT,Você não tem Heróis suficientes.
+RESULT_TYPE.EXCEEDED_MAX_LEVEL,Não é mais possível atualizar.
+RESULT_TYPE.MONTHLY_HERO_NOT_FOUND,A solicitação não pode ser realizada.
+RESULT_TYPE.CHECK_CONDITION_NOT_PASSED,O tempo de recompensa foi encerrado.
+RESULT_TYPE.NEWBIE_POPUP_TIME_ENDED,Este produto não está à venda.
+RESULT_TYPE.NOT_OPENED_NEWBIE_POPUP,Dados incorretos.
 RESULT_TYPE.NOT_ENOUGH_GUILD_ARENA_POINT,Faltam selos da Batalha de Guildas.
 RESULT_TYPE.NOT_ENOUGH_CONQUEST_DUNGEON_COUNT,Chaves de Triunfo insuficientes.
 RESULT_TYPE.ALREADY_ON_BATTLE_HERO,Herói em expedição.
@@ -899,5 +899,5 @@ RESULT_TYPE.GUILD_ARENA_HERO_NOT_FOUND,Você não possui o herói.
 RESULT_TYPE.GUILD_ARENA_NOT_APPLY_SET_DECK_SKILL,As habilidades não podem ser configuradas pois o período de inscrição foi encerrado.
 RESULT_TYPE.NOT_ENOUGH_ECLIPSE_KEY,Não há Cristal da Lua de Sangue.\n\nO Cristal da Lua de Sangue é obtido ao completar a Taxa de Ocultação.\nÉ possível aumentar aTaxa de Ocultação com os Fragmentos da Ocultação recebidos ao realizar login e ao consumir Vigor.
 RESULT_TYPE.IS_ALREADY_LIBERATION,Esta Arma Única já foi liberada.
-RESULT_TYPE.NOT_AVAILABLE_RECHARGE,"Ao carregar Cristais de Lua de Sangue, pode haver desperdício de Taxa de Ocultação.\nGaste os Cristais de Lua de Sangue no modo Eclipse e tente novamente."
-RESULT_TYPE.ECLIPSE_BATTLE_TIME_OVER,"O tempo do Eclipse foi encerrado, portanto não é possível prosseguir."
+RESULT_TYPE.NOT_AVAILABLE_RECHARGE,"Ao carregar o Cristal da Lua de Sangue, haverá desperdício da Taxa de Ocultação.\nGaste o Cristal da Lua de Sangue no modo Eclipse e tente novamente."
+RESULT_TYPE.ECLIPSE_BATTLE_TIME_OVER,Não é possível continuar pois o tempo do Eclipse foi encerrado.

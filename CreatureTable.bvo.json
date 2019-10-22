@@ -9252,7 +9252,10 @@
       "6015",
       "6016",
       "6025",
-      "6035"
+      "6035",
+      "93006011",
+      "93006012",
+      "93006013"
     ],
     "GetTranscendSkillPoint": [
       "10",
@@ -23972,6 +23975,28 @@
     "Index": 824,
     "CodeName": "NPC.Ophelia",
     "ModelPrefix": "Cos19Summer",
+    "Race": "NPC",
+    "AttrType": [
+      "Physical"
+    ],
+    "AttackWeakType": [
+      "Fire"
+    ],
+    "PositionType": "Middle",
+    "PositionWeight": 3030,
+    "MoveSpeed": 5000,
+    "MinDamageRate": 204,
+    "IgnoreCc": [
+      "False"
+    ],
+    "SizeMm": 500,
+    "HeightMm": 1660,
+    "GradeStoneItemCode": "NO_ITEM",
+    "StarStoneItemCode": "NO_ITEM"
+  },
+  {
+    "Index": 825,
+    "CodeName": "NPC.Lavril",
     "Race": "NPC",
     "AttrType": [
       "Physical"
@@ -45131,7 +45156,6 @@
     "ExtraSkill": [
       "7100233",
       "7100201",
-      "880176",
       "7100241",
       "7100242",
       "7100244",
@@ -45141,7 +45165,8 @@
       "7100264",
       "7100265",
       "7100266",
-      "7100267"
+      "7100267",
+      "7100268"
     ],
     "ShowInfoSkill": [
       "7100231"
@@ -45253,6 +45278,22 @@
     "HeightMm": 1850
   },
   {
+    "Index": 901009,
+    "CodeName": "Object.UniqueWeapon.Epis",
+    "ModelCode": "Object.EpisUnique",
+    "Race": "NPC",
+    "SizeMm": 500,
+    "HeightMm": 1850
+  },
+  {
+    "Index": 901011,
+    "CodeName": "Object.UniqueWeapon.Maria",
+    "ModelCode": "Object.MariaUnique",
+    "Race": "NPC",
+    "SizeMm": 500,
+    "HeightMm": 1850
+  },
+  {
     "Index": 901015,
     "CodeName": "Object.UniqueWeapon.Clause",
     "ModelCode": "Object.ClauseUnique",
@@ -45293,9 +45334,25 @@
     "HeightMm": 1850
   },
   {
+    "Index": 901029,
+    "CodeName": "Object.UniqueWeapon.Luna",
+    "ModelCode": "Object.LunaUnique",
+    "Race": "NPC",
+    "SizeMm": 500,
+    "HeightMm": 1850
+  },
+  {
     "Index": 901030,
     "CodeName": "Object.UniqueWeapon.Ell",
     "ModelCode": "Object.EllUnique",
+    "Race": "NPC",
+    "SizeMm": 500,
+    "HeightMm": 1850
+  },
+  {
+    "Index": 901033,
+    "CodeName": "Object.UniqueWeapon.Nicx",
+    "ModelCode": "Object.NicxUnique",
     "Race": "NPC",
     "SizeMm": 500,
     "HeightMm": 1850
@@ -45317,9 +45374,33 @@
     "HeightMm": 1850
   },
   {
+    "Index": 901038,
+    "CodeName": "Object.UniqueWeapon.Ezekiel",
+    "ModelCode": "Object.EzekielUnique",
+    "Race": "NPC",
+    "SizeMm": 500,
+    "HeightMm": 1850
+  },
+  {
     "Index": 901040,
     "CodeName": "Object.UniqueWeapon.Theo",
     "ModelCode": "Object.TheoUnique",
+    "Race": "NPC",
+    "SizeMm": 500,
+    "HeightMm": 1850
+  },
+  {
+    "Index": 901041,
+    "CodeName": "Object.UniqueWeapon.Mediana",
+    "ModelCode": "Object.MedianaUnique",
+    "Race": "NPC",
+    "SizeMm": 500,
+    "HeightMm": 1850
+  },
+  {
+    "Index": 901043,
+    "CodeName": "Object.UniqueWeapon.Viska",
+    "ModelCode": "Object.ViskaUnique",
     "Race": "NPC",
     "SizeMm": 500,
     "HeightMm": 1850
@@ -45400,6 +45481,30 @@
     "Index": 901059,
     "CodeName": "Object.UniqueWeapon.Lucias",
     "ModelCode": "Object.LuciasUnique",
+    "Race": "NPC",
+    "SizeMm": 500,
+    "HeightMm": 1850
+  },
+  {
+    "Index": 901060,
+    "CodeName": "Object.UniqueWeapon.Chrisha",
+    "ModelCode": "Object.ChrishaUnique",
+    "Race": "NPC",
+    "SizeMm": 500,
+    "HeightMm": 1850
+  },
+  {
+    "Index": 901062,
+    "CodeName": "Object.UniqueWeapon.Scarlet",
+    "ModelCode": "Object.ScarletUnique",
+    "Race": "NPC",
+    "SizeMm": 500,
+    "HeightMm": 1850
+  },
+  {
+    "Index": 901063,
+    "CodeName": "Object.UniqueWeapon.Sonia",
+    "ModelCode": "Object.SoniaUnique",
     "Race": "NPC",
     "SizeMm": 500,
     "HeightMm": 1850
@@ -45497,6 +45602,24 @@
     "HeightMm": 1850
   },
   {
+    "Index": 911009,
+    "CodeName": "Object.SoulStone.Epis",
+    "ModelCode": "Object.SoulStone",
+    "ModelPrefix": "SoulStoneEpis",
+    "Race": "NPC",
+    "SizeMm": 500,
+    "HeightMm": 1850
+  },
+  {
+    "Index": 911011,
+    "CodeName": "Object.SoulStone.Maria",
+    "ModelCode": "Object.SoulStone",
+    "ModelPrefix": "SoulStoneMaria",
+    "Race": "NPC",
+    "SizeMm": 500,
+    "HeightMm": 1850
+  },
+  {
     "Index": 911015,
     "CodeName": "Object.SoulStone.Clause",
     "ModelCode": "Object.SoulStone",
@@ -45542,10 +45665,28 @@
     "HeightMm": 1850
   },
   {
+    "Index": 911029,
+    "CodeName": "Object.SoulStone.Luna",
+    "ModelCode": "Object.SoulStone",
+    "ModelPrefix": "SoulStoneLuna",
+    "Race": "NPC",
+    "SizeMm": 500,
+    "HeightMm": 1850
+  },
+  {
     "Index": 911030,
     "CodeName": "Object.SoulStone.Ell",
     "ModelCode": "Object.SoulStone",
     "ModelPrefix": "SoulStoneEll",
+    "Race": "NPC",
+    "SizeMm": 500,
+    "HeightMm": 1850
+  },
+  {
+    "Index": 911033,
+    "CodeName": "Object.SoulStone.Nicx",
+    "ModelCode": "Object.SoulStone",
+    "ModelPrefix": "SoulStoneNicx",
     "Race": "NPC",
     "SizeMm": 500,
     "HeightMm": 1850
@@ -45569,10 +45710,37 @@
     "HeightMm": 1850
   },
   {
+    "Index": 911038,
+    "CodeName": "Object.SoulStone.Ezekiel",
+    "ModelCode": "Object.SoulStone",
+    "ModelPrefix": "SoulStoneEzekiel",
+    "Race": "NPC",
+    "SizeMm": 500,
+    "HeightMm": 1850
+  },
+  {
     "Index": 911040,
     "CodeName": "Object.SoulStone.Theo",
     "ModelCode": "Object.SoulStone",
     "ModelPrefix": "SoulStoneTheo",
+    "Race": "NPC",
+    "SizeMm": 500,
+    "HeightMm": 1850
+  },
+  {
+    "Index": 911041,
+    "CodeName": "Object.SoulStone.Mediana",
+    "ModelCode": "Object.SoulStone",
+    "ModelPrefix": "SoulStoneMediana",
+    "Race": "NPC",
+    "SizeMm": 500,
+    "HeightMm": 1850
+  },
+  {
+    "Index": 911043,
+    "CodeName": "Object.SoulStone.Viska",
+    "ModelCode": "Object.SoulStone",
+    "ModelPrefix": "SoulStoneViska",
     "Race": "NPC",
     "SizeMm": 500,
     "HeightMm": 1850
@@ -45668,6 +45836,33 @@
     "HeightMm": 1850
   },
   {
+    "Index": 911060,
+    "CodeName": "Object.SoulStone.Chrisha",
+    "ModelCode": "Object.SoulStone",
+    "ModelPrefix": "SoulStoneChrisha",
+    "Race": "NPC",
+    "SizeMm": 500,
+    "HeightMm": 1850
+  },
+  {
+    "Index": 911062,
+    "CodeName": "Object.SoulStone.Scarlet",
+    "ModelCode": "Object.SoulStone",
+    "ModelPrefix": "SoulStoneScarlet",
+    "Race": "NPC",
+    "SizeMm": 500,
+    "HeightMm": 1850
+  },
+  {
+    "Index": 911063,
+    "CodeName": "Object.SoulStone.Sonia",
+    "ModelCode": "Object.SoulStone",
+    "ModelPrefix": "SoulStoneSonia",
+    "Race": "NPC",
+    "SizeMm": 500,
+    "HeightMm": 1850
+  },
+  {
     "Index": 911064,
     "CodeName": "Object.SoulStone.Artemia",
     "ModelCode": "Object.SoulStone",
@@ -45729,5 +45924,887 @@
     "Race": "NPC",
     "SizeMm": 500,
     "HeightMm": 1850
+  },
+  {
+    "Index": 40096,
+    "CodeName": "Monster.Event.2019_Halloween.Dosarta",
+    "ModelCode": "Hero.Dosarta",
+    "ModelPrefix": "Cos19Halloween",
+    "OpenStatus": "Normal",
+    "Race": "Hero",
+    "AttrType": [
+      "Magical"
+    ],
+    "AttackWeakType": [
+      "Fire"
+    ],
+    "PositionType": "Forward",
+    "PositionWeight": 700,
+    "MoveSpeed": 5000,
+    "MinDamageRate": 200,
+    "IgnoreCc": [
+      "False"
+    ],
+    "SizeMm": 500,
+    "HeightMm": 1900,
+    "GradeStoneItemCode": "SKILLBOOK_KNIGHT_1",
+    "StarStoneItemCode": "NO_ITEM",
+    "BaseSkillIndex": 9600,
+    "SkillIndex1": 9610,
+    "SkillExtend1": [
+      "9611",
+      "9612",
+      "9613"
+    ],
+    "SkillIndex2": 9620,
+    "SkillExtend2": [
+      "9621",
+      "9622",
+      "9623"
+    ],
+    "SkillIndex3": 9630,
+    "SkillExtend3": [
+      "9631",
+      "9632",
+      "9633"
+    ],
+    "SkillIndex4": 9640,
+    "SkillExtend4": [
+      "9641",
+      "9642",
+      "9643"
+    ],
+    "ExtraSkill": [
+      "9614",
+      "9634",
+      "9645"
+    ],
+    "GetTranscendSkillPoint": [
+      "10",
+      "15",
+      "15",
+      "15",
+      "25"
+    ],
+    "TranscendSkill1": [
+      "60000001",
+      "60000002",
+      "60000003",
+      "60000004",
+      "60000033"
+    ],
+    "ReqSkillPoint1": [
+      "10",
+      "10",
+      "10",
+      "10",
+      "10"
+    ],
+    "TranscendSkill2": [
+      "60000005",
+      "60000006",
+      "60000007",
+      "60000008",
+      "60000034"
+    ],
+    "ReqSkillPoint2": [
+      "15",
+      "15",
+      "15",
+      "15",
+      "15"
+    ],
+    "TranscendSkill3": [
+      "60009610",
+      "60009611",
+      "60009620",
+      "60009621",
+      "60009630",
+      "60009631",
+      "60009640",
+      "60009641"
+    ],
+    "ReqSkillPoint3": [
+      "15",
+      "15",
+      "15",
+      "15",
+      "15",
+      "15",
+      "15",
+      "15"
+    ],
+    "TranscendSkill5": [
+      "60009650",
+      "60009651"
+    ],
+    "ReqSkillPoint5": [
+      "15",
+      "15"
+    ],
+    "ReplaceNameKey": "COSTUME_NAME_9607"
+  },
+  {
+    "Index": 40097,
+    "CodeName": "Monster.Event.2019_Halloween.Mitra",
+    "ModelCode": "Hero.Mitra",
+    "ModelPrefix": "Cos19Halloween",
+    "OpenStatus": "Normal",
+    "Race": "Hero",
+    "AttrType": [
+      "Physical"
+    ],
+    "AttackWeakType": [
+      "Fire"
+    ],
+    "PositionType": "Middle",
+    "PositionWeight": 200,
+    "MoveSpeed": 5000,
+    "MinDamageRate": 200,
+    "IgnoreCc": [
+      "False"
+    ],
+    "SizeMm": 600,
+    "HeightMm": 2000,
+    "GradeStoneItemCode": "SKILLBOOK_MECHANIC_1",
+    "StarStoneItemCode": "NO_ITEM",
+    "BaseSkillIndex": 3500,
+    "SkillIndex1": 3510,
+    "SkillExtend1": [
+      "3511",
+      "3512",
+      "3513"
+    ],
+    "SkillIndex2": 3520,
+    "SkillExtend2": [
+      "3521",
+      "3522",
+      "3523"
+    ],
+    "SkillIndex3": 3530,
+    "SkillExtend3": [
+      "3531",
+      "3532",
+      "3533"
+    ],
+    "SkillIndex4": 3540,
+    "SkillExtend4": [
+      "3541",
+      "3542",
+      "3543"
+    ],
+    "ExtraSkill": [
+      "3514",
+      "3515",
+      "3516",
+      "3517",
+      "3544",
+      "3545"
+    ],
+    "GetTranscendSkillPoint": [
+      "10",
+      "15",
+      "15",
+      "15",
+      "25"
+    ],
+    "TranscendSkill1": [
+      "60000001",
+      "60000002",
+      "60000003",
+      "60000004",
+      "60000033"
+    ],
+    "ReqSkillPoint1": [
+      "10",
+      "10",
+      "10",
+      "10",
+      "10"
+    ],
+    "TranscendSkill2": [
+      "60000021",
+      "60000022",
+      "60000023",
+      "60000024",
+      "60000038"
+    ],
+    "ReqSkillPoint2": [
+      "15",
+      "15",
+      "15",
+      "15",
+      "15"
+    ],
+    "TranscendSkill3": [
+      "60003510",
+      "60003511",
+      "60003520",
+      "60003521",
+      "60003530",
+      "60003531",
+      "60003540",
+      "60003541"
+    ],
+    "ReqSkillPoint3": [
+      "15",
+      "15",
+      "15",
+      "15",
+      "15",
+      "15",
+      "15",
+      "15"
+    ],
+    "TranscendSkill5": [
+      "60003550",
+      "60003551"
+    ],
+    "ReqSkillPoint5": [
+      "15",
+      "15"
+    ],
+    "ReplaceNameKey": "COSTUME_NAME_3512"
+  },
+  {
+    "Index": 40098,
+    "CodeName": "Monster.Event.2019_Halloween.GiantSlime2",
+    "ModelCode": "Raid.GiantSlime",
+    "Race": "Slime",
+    "AttrType": [
+      "Magical"
+    ],
+    "AttackWeakType": [
+      "Fire"
+    ],
+    "PositionWeight": 20000,
+    "MoveSpeed": 5000,
+    "MinDamageRate": 200,
+    "IgnoreCc": [
+      "CC"
+    ],
+    "SizeMm": 4000,
+    "HeightMm": 7000,
+    "GradeStoneItemCode": "NO_ITEM",
+    "StarStoneItemCode": "NO_ITEM",
+    "BaseSkillIndex": 4009500,
+    "SkillIndex1": 4009510,
+    "SkillIndex2": 4009520,
+    "SkillIndex3": 4009530,
+    "ReplaceNameKey": "EVENT_DUNGEON_COOKINGLORD_DESC_SPECIAL"
+  },
+  {
+    "Index": 40099,
+    "CodeName": "Monster.Event.2019_Halloween.Lewsia",
+    "ModelCode": "Hero.Lewsia",
+    "OpenStatus": "Normal",
+    "Race": "Hero",
+    "AttrType": [
+      "Magical"
+    ],
+    "AttackWeakType": [
+      "Fire"
+    ],
+    "PositionType": "Rear",
+    "PositionWeight": 400,
+    "MoveSpeed": 5000,
+    "MinDamageRate": 200,
+    "IgnoreCc": [
+      "False"
+    ],
+    "SizeMm": 500,
+    "HeightMm": 2000,
+    "GradeStoneItemCode": "SKILLBOOK_WIZARD_1",
+    "StarStoneItemCode": "NO_ITEM",
+    "BaseSkillIndex": 3200,
+    "SkillIndex1": 3210,
+    "SkillExtend1": [
+      "3211",
+      "3212",
+      "3213"
+    ],
+    "SkillIndex2": 3220,
+    "SkillExtend2": [
+      "3221",
+      "3222",
+      "3223"
+    ],
+    "SkillIndex3": 3230,
+    "SkillExtend3": [
+      "3231",
+      "3232",
+      "3233"
+    ],
+    "SkillIndex4": 3240,
+    "SkillExtend4": [
+      "3241",
+      "3242",
+      "3243"
+    ],
+    "ExtraSkill": [
+      "3224",
+      "3234",
+      "3245",
+      "3246",
+      "3247",
+      "3248",
+      "3249"
+    ],
+    "GetTranscendSkillPoint": [
+      "10",
+      "15",
+      "15",
+      "15",
+      "25"
+    ],
+    "TranscendSkill1": [
+      "60000001",
+      "60000002",
+      "60000003",
+      "60000004",
+      "60000033"
+    ],
+    "ReqSkillPoint1": [
+      "10",
+      "10",
+      "10",
+      "10",
+      "10"
+    ],
+    "TranscendSkill2": [
+      "60000025",
+      "60000026",
+      "60000027",
+      "60000028",
+      "60000039"
+    ],
+    "ReqSkillPoint2": [
+      "15",
+      "15",
+      "15",
+      "15",
+      "15"
+    ],
+    "TranscendSkill3": [
+      "60003210",
+      "60003211",
+      "60003220",
+      "60003221",
+      "60003230",
+      "60003231",
+      "60003240",
+      "60003241"
+    ],
+    "ReqSkillPoint3": [
+      "15",
+      "15",
+      "15",
+      "15",
+      "15",
+      "15",
+      "15",
+      "15"
+    ],
+    "TranscendSkill5": [
+      "60003250",
+      "60003251"
+    ],
+    "ReqSkillPoint5": [
+      "15",
+      "15"
+    ],
+    "ReplaceNameKey": "CREATURE_NAME_32"
+  },
+  {
+    "Index": 40100,
+    "CodeName": "Monster.Event.2019_Halloween.RabbitHunter",
+    "ModelCode": "Monster.RabbitHunter",
+    "Race": "Devil",
+    "AttrType": [
+      "Magical"
+    ],
+    "AttackWeakType": [
+      "Fire"
+    ],
+    "PositionWeight": 1000,
+    "MoveSpeed": 5000,
+    "MinDamageRate": 200,
+    "IgnoreCc": [
+      "False"
+    ],
+    "SizeMm": 1000,
+    "HeightMm": 1500,
+    "GradeStoneItemCode": "NO_ITEM",
+    "StarStoneItemCode": "NO_ITEM",
+    "BaseSkillIndex": 4010000,
+    "SkillIndex1": 4010010,
+    "ReplaceNameKey": "CREATURE_NAME_40100"
+  },
+  {
+    "Index": 40101,
+    "CodeName": "Monster.Event.2019_Halloween.RabbitHunterElite",
+    "ModelCode": "Monster.RabbitHunterElite",
+    "Race": "Devil",
+    "AttrType": [
+      "Magical"
+    ],
+    "AttackWeakType": [
+      "Fire"
+    ],
+    "PositionWeight": 500,
+    "MoveSpeed": 5000,
+    "MinDamageRate": 200,
+    "IgnoreCc": [
+      "False"
+    ],
+    "SizeMm": 1000,
+    "HeightMm": 1500,
+    "GradeStoneItemCode": "NO_ITEM",
+    "StarStoneItemCode": "NO_ITEM",
+    "BaseSkillIndex": 4010000,
+    "SkillIndex1": 4010010,
+    "ReplaceNameKey": "CREATURE_NAME_40101"
+  },
+  {
+    "Index": 40102,
+    "CodeName": "Monster.Event.2019_Halloween.RabbitHunterSuperElite",
+    "ModelCode": "Monster.RabbitHunterSuperElite",
+    "Race": "Devil",
+    "AttrType": [
+      "Magical"
+    ],
+    "AttackWeakType": [
+      "Fire"
+    ],
+    "PositionWeight": 500,
+    "MoveSpeed": 5000,
+    "MinDamageRate": 200,
+    "IgnoreCc": [
+      "False"
+    ],
+    "SizeMm": 1000,
+    "HeightMm": 1500,
+    "GradeStoneItemCode": "NO_ITEM",
+    "StarStoneItemCode": "NO_ITEM",
+    "BaseSkillIndex": 4010000,
+    "SkillIndex1": 4010010,
+    "ReplaceNameKey": "CREATURE_NAME_40102"
+  },
+  {
+    "Index": 40103,
+    "CodeName": "Monster.Event.2019_Halloween.DunnNemicia",
+    "ModelCode": "Boss.DunnNemicia",
+    "Race": "Devil",
+    "AttrType": [
+      "Magical"
+    ],
+    "AttackWeakType": [
+      "Fire"
+    ],
+    "PositionWeight": 500,
+    "MoveSpeed": 5000,
+    "MinDamageRate": 200,
+    "IgnoreCc": [
+      "False"
+    ],
+    "SizeMm": 1000,
+    "HeightMm": 3500,
+    "GradeStoneItemCode": "NO_ITEM",
+    "StarStoneItemCode": "NO_ITEM",
+    "BaseSkillIndex": 4010300,
+    "SkillIndex1": 4010310,
+    "SkillIndex2": 4010320,
+    "SkillIndex3": 4010330,
+    "SkillIndex4": 4010340,
+    "ReplaceNameKey": "CREATURE_NAME_40103"
+  },
+  {
+    "Index": 40104,
+    "CodeName": "Monster.Event.2019_Halloween.Mediana",
+    "ModelCode": "Hero.Mediana",
+    "ModelPrefix": "Cos19Halloween",
+    "OpenStatus": "Normal",
+    "Race": "Hero",
+    "AttrType": [
+      "Physical"
+    ],
+    "AttackWeakType": [
+      "Fire"
+    ],
+    "BlockDash": "True",
+    "PositionType": "Rear",
+    "PositionWeight": 100,
+    "MoveSpeed": 5000,
+    "MinDamageRate": 200,
+    "IgnoreCc": [
+      "CC"
+    ],
+    "TransformType": "Wall,StaticPosition",
+    "SizeMm": 500,
+    "HeightMm": 2000,
+    "GradeStoneItemCode": "SKILLBOOK_PRIEST_1",
+    "StarStoneItemCode": "NO_ITEM",
+    "BaseSkillIndex": 4100,
+    "SkillIndex1": 4010400,
+    "SkillIndex2": 4010410,
+    "ExtraSkill": [
+      "4010420",
+      "4010421"
+    ],
+    "ReplaceNameKey": "COSTUME_NAME_4111"
+  },
+  {
+    "Index": 40105,
+    "CodeName": "Monster.Event.2019_Halloween.Yuria",
+    "ModelCode": "Hero.Yuria",
+    "ModelPrefix": "Cos19Halloween",
+    "OpenStatus": "Normal",
+    "Race": "Hero",
+    "AttrType": [
+      "Magical"
+    ],
+    "AttackWeakType": [
+      "Fire"
+    ],
+    "PositionType": "Rear",
+    "PositionWeight": 300,
+    "MoveSpeed": 5000,
+    "MinDamageRate": 200,
+    "IgnoreCc": [
+      "CC"
+    ],
+    "SizeMm": 500,
+    "HeightMm": 2100,
+    "GradeStoneItemCode": "SKILLBOOK_ARCHER_1",
+    "StarStoneItemCode": "NO_ITEM",
+    "BaseSkillIndex": 4010500,
+    "ExtraSkill": [
+      "4010511"
+    ],
+    "ReplaceNameKey": "COSTUME_NAME_4707"
+  },
+  {
+    "Index": 40106,
+    "CodeName": "Monster.Event.2019_Halloween.Bernheim",
+    "ModelCode": "Hero.Bernheim",
+    "ModelPrefix": "Cos19Halloween",
+    "OpenStatus": "Normal",
+    "Race": "Hero",
+    "AttrType": [
+      "Magical"
+    ],
+    "AttackWeakType": [
+      "Fire"
+    ],
+    "PositionType": "Forward",
+    "PositionWeight": 600,
+    "MoveSpeed": 5000,
+    "MinDamageRate": 200,
+    "IgnoreCc": [
+      "CC"
+    ],
+    "SizeMm": 800,
+    "HeightMm": 2000,
+    "GradeStoneItemCode": "SKILLBOOK_WARRIOR_1",
+    "StarStoneItemCode": "NO_ITEM",
+    "BaseSkillIndex": 4010600,
+    "ExtraSkill": [
+      "4010610",
+      "4010620"
+    ],
+    "GetTranscendSkillPoint": [
+      "10",
+      "15",
+      "15",
+      "15",
+      "25"
+    ],
+    "TranscendSkill1": [
+      "60000001",
+      "60000002",
+      "60000003",
+      "60000004",
+      "60000033"
+    ],
+    "ReqSkillPoint1": [
+      "10",
+      "10",
+      "10",
+      "10",
+      "10"
+    ],
+    "TranscendSkill2": [
+      "60000009",
+      "60000010",
+      "60000011",
+      "60000012",
+      "60000035"
+    ],
+    "ReqSkillPoint2": [
+      "15",
+      "15",
+      "15",
+      "15",
+      "15"
+    ],
+    "TranscendSkill3": [
+      "60007810",
+      "60007811",
+      "60007820",
+      "60007821",
+      "60007830",
+      "60007831",
+      "60007840",
+      "60007841"
+    ],
+    "ReqSkillPoint3": [
+      "15",
+      "15",
+      "15",
+      "15",
+      "15",
+      "15",
+      "15",
+      "15"
+    ],
+    "TranscendSkill5": [
+      "60007850",
+      "60007851"
+    ],
+    "ReqSkillPoint5": [
+      "15",
+      "15"
+    ],
+    "ReplaceNameKey": "COSTUME_NAME_7808"
+  },
+  {
+    "Index": 40107,
+    "CodeName": "Monster.Event.2019_Halloween.Kara",
+    "ModelCode": "Hero.Kara",
+    "ModelPrefix": "Cos19Halloween",
+    "OpenStatus": "Normal",
+    "Race": "Hero",
+    "AttrType": [
+      "Magical"
+    ],
+    "AttackWeakType": [
+      "Fire"
+    ],
+    "PositionType": "Middle",
+    "PositionWeight": 200,
+    "MoveSpeed": 5000,
+    "MinDamageRate": 200,
+    "IgnoreCc": [
+      "CC"
+    ],
+    "SizeMm": 600,
+    "HeightMm": 2200,
+    "GradeStoneItemCode": "SKILLBOOK_MECHANIC_1",
+    "StarStoneItemCode": "NO_ITEM",
+    "BaseSkillIndex": 6700,
+    "SkillIndex4": 6740,
+    "ExtraActiveSkill": [
+      "6719",
+      "6729"
+    ],
+    "ExtraSkill": [
+      "6719",
+      "6729",
+      "6734",
+      "6735",
+      "6744",
+      "6745",
+      "6736",
+      "6728",
+      "6746",
+      "6747",
+      "6715",
+      "6714",
+      "6716",
+      "6730",
+      "6710",
+      "6720",
+      "93006712"
+    ],
+    "GetTranscendSkillPoint": [
+      "10",
+      "15",
+      "15",
+      "15",
+      "25"
+    ],
+    "TranscendSkill1": [
+      "60000001",
+      "60000002",
+      "60000003",
+      "60000004",
+      "60000033"
+    ],
+    "ReqSkillPoint1": [
+      "10",
+      "10",
+      "10",
+      "10",
+      "10"
+    ],
+    "TranscendSkill2": [
+      "60000021",
+      "60000022",
+      "60000023",
+      "60000024",
+      "60000038"
+    ],
+    "ReqSkillPoint2": [
+      "15",
+      "15",
+      "15",
+      "15",
+      "15"
+    ],
+    "TranscendSkill3": [
+      "60006710",
+      "60006711",
+      "60006720",
+      "60006721",
+      "60006730",
+      "60006731",
+      "60006740",
+      "60006741"
+    ],
+    "ReqSkillPoint3": [
+      "15",
+      "15",
+      "15",
+      "15",
+      "15",
+      "15",
+      "15",
+      "15"
+    ],
+    "TranscendSkill5": [
+      "60006750",
+      "60006751"
+    ],
+    "ReqSkillPoint5": [
+      "15",
+      "15"
+    ],
+    "ReplaceNameKey": "COSTUME_NAME_6709"
+  },
+  {
+    "Index": 40108,
+    "CodeName": "Monster.Event.2019_Halloween.Kara",
+    "ModelCode": "Hero.Kara",
+    "ModelPrefix": "Cos19Halloween",
+    "OpenStatus": "Normal",
+    "Race": "Hero",
+    "AttrType": [
+      "Magical"
+    ],
+    "AttackWeakType": [
+      "Fire"
+    ],
+    "PositionType": "Middle",
+    "PositionWeight": 200,
+    "MoveSpeed": 5000,
+    "MinDamageRate": 200,
+    "IgnoreCc": [
+      "CC"
+    ],
+    "SizeMm": 600,
+    "HeightMm": 2200,
+    "GradeStoneItemCode": "SKILLBOOK_MECHANIC_1",
+    "StarStoneItemCode": "NO_ITEM",
+    "BaseSkillIndex": 6700,
+    "SkillIndex4": 6740,
+    "ExtraActiveSkill": [
+      "6719",
+      "6729"
+    ],
+    "ExtraSkill": [
+      "6719",
+      "6729",
+      "6734",
+      "6735",
+      "6744",
+      "6745",
+      "6736",
+      "6728",
+      "6746",
+      "6747",
+      "6715",
+      "6714",
+      "6716",
+      "6730",
+      "6710",
+      "6720",
+      "93006712",
+      "4010701",
+      "4010702"
+    ],
+    "GetTranscendSkillPoint": [
+      "10",
+      "15",
+      "15",
+      "15",
+      "25"
+    ],
+    "TranscendSkill1": [
+      "60000001",
+      "60000002",
+      "60000003",
+      "60000004",
+      "60000033"
+    ],
+    "ReqSkillPoint1": [
+      "10",
+      "10",
+      "10",
+      "10",
+      "10"
+    ],
+    "TranscendSkill2": [
+      "60000021",
+      "60000022",
+      "60000023",
+      "60000024",
+      "60000038"
+    ],
+    "ReqSkillPoint2": [
+      "15",
+      "15",
+      "15",
+      "15",
+      "15"
+    ],
+    "TranscendSkill3": [
+      "60006710",
+      "60006711",
+      "60006720",
+      "60006721",
+      "60006730",
+      "60006731",
+      "60006740",
+      "60006741"
+    ],
+    "ReqSkillPoint3": [
+      "15",
+      "15",
+      "15",
+      "15",
+      "15",
+      "15",
+      "15",
+      "15"
+    ],
+    "TranscendSkill5": [
+      "60006750",
+      "60006751"
+    ],
+    "ReqSkillPoint5": [
+      "15",
+      "15"
+    ],
+    "ReplaceNameKey": "COSTUME_NAME_6709"
   }
 ]

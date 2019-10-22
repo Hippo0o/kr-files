@@ -16669,6 +16669,9 @@
       "300"
     ],
     "CancelOnWaveEnd": "True",
+    "TickTimeValue": [
+      "1"
+    ],
     "AttrType": "Physical",
     "TargetType": "FarEnemy",
     "TargetCount": 1,
@@ -16693,6 +16696,12 @@
     "OperationValue3": [
       "7016",
       "4"
+    ],
+    "OperationType4": "ClearSkillOperation",
+    "OperationTargetType4": "Myself",
+    "OperationValue4": [
+      "7010",
+      "2"
     ]
   },
   {
@@ -20041,8 +20050,15 @@
     "CancelableSkillIndex": [
       "9824"
     ],
+    "CoolTimeMs": 1000,
+    "CoolTimeGroup": [
+      "9820"
+    ],
     "DurationTimeMs": [
       "1500"
+    ],
+    "TickTimeValue": [
+      "1"
     ],
     "AttrType": "Physical",
     "TargetType": "Myself",
@@ -20305,8 +20321,7 @@
     "MaxRangeMm": 9000,
     "DeadTarget": "False",
     "IgnoreBlock": "TRUE",
-    "RetargetOnFire": "TRUE",
-    "ViewTargetWhileUse": "TRUE",
+    "RetargetOnFire": "False",
     "OperationType1": "CreateProjectile",
     "OperationTargetType1": "Myself",
     "OperationValue1": [

@@ -1096,6 +1096,58 @@
     "MenuTitleKey": "SQUARE_NAME_NORMAL_SUB"
   },
   {
+    "Code": "Square_Halloween_2019",
+    "HeroIndex": 825,
+    "OnOpenEntryMenu": [
+      "NPC_LAVRIL_WELCOME01",
+      " InnReaction.Lavril01",
+      " Normal",
+      "\nNPC_LAVRIL_WELCOME02",
+      " InnReaction.Lavril01",
+      " Normal"
+    ],
+    "OnTouch": [
+      "NPC_LAVRIL_TOUCH01",
+      " InnReaction.Lavril01",
+      " InnReaction",
+      "\nNPC_LAVRIL_TOUCH02",
+      " InnReaction.Lavril01",
+      " InnReaction"
+    ],
+    "EntryMenuButton1": [
+      "19HALLOWEEN_EVENT_NAME",
+      "OpenEventDungeonSelect",
+      "True",
+      "30028",
+      "1",
+      "2"
+    ],
+    "EntryMenuCondition1": "EventExist,EventDungeon,30028",
+    "EntryMenuButton2": [
+      "HEROINN_GIFT",
+      "OpenEventStepRewardView",
+      "EventGiftItem",
+      "3"
+    ],
+    "EntryMenuCondition2": "EventExist,EventShop,2019_Halloween_Shop",
+    "EntryMenuButton3": [
+      "MENU_EVENT_HELP",
+      "OpenHelp",
+      "19HALLOWEEN_EVENT_INFO_SUB_TITLE",
+      "19HALLOWEEN_EVENT_INFO_DESC"
+    ],
+    "EntryMenuCondition3": "EventExist,EventShop,2019_Halloween_Shop",
+    "CreatureIndex": 825,
+    "NpcOffset": [
+      "-80",
+      "50"
+    ],
+    "NpcAngle": -50,
+    "NpcScale": 100,
+    "MenuIconType": "2018_halloween_title",
+    "MenuTitleKey": "SQUARE_NAME_NORMAL_SUB"
+  },
+  {
     "Code": "NormalShop",
     "HeroIndex": 90,
     "ShowHeroBuffIcon": "True",

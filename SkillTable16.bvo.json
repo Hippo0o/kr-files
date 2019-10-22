@@ -21,7 +21,7 @@
     "OperationType1": "GetPhysicalDamageR",
     "OperationTargetType1": "Target",
     "OperationValue1": [
-      "3200"
+      "2700"
     ],
     "OperationType2": "GetPhysicalDamageR",
     "OperationTargetType2": "Target",
@@ -59,7 +59,7 @@
     "OperationTargetType1": "Myself",
     "OperationRadiusMm1": 30000,
     "OperationValue1": [
-      "1200"
+      "1100"
     ],
     "OperationType2": "ModWeakness",
     "OperationTargetType2": "Parent",
@@ -120,7 +120,7 @@
     "NextIndex": 7100121,
     "TriggerType": "OnAuto",
     "TriggerRatio": 1000,
-    "CoolTimeMs": 25000,
+    "CoolTimeMs": 28000,
     "InitialCoolTimeMs": 20000,
     "DurationTimeMs": [
       "4100"
@@ -379,7 +379,7 @@
     "OperationRadiusMm1": 5000,
     "OperationAngle1": 90,
     "OperationValue1": [
-      "340"
+      "300"
     ],
     "OperationType3": "ModBlockChance",
     "OperationTargetType3": "Myself",
@@ -514,7 +514,7 @@
     "OperationType1": "GetPhysicalDotR",
     "OperationTargetType1": "Target",
     "OperationValue1": [
-      "20",
+      "25",
       "0",
       "NoCritical|Unavoidable|IgnoreBlock"
     ],
@@ -598,7 +598,7 @@
     "OperationType1": "GetMagicalDamageR",
     "OperationTargetType1": "Target",
     "OperationValue1": [
-      "2500"
+      "2600"
     ],
     "OperationDelayMs1": [
       "0",
@@ -610,7 +610,7 @@
     "Index": 7100310,
     "TriggerType": "OnAuto",
     "TriggerRatio": 1000,
-    "CoolTimeMs": 14000,
+    "CoolTimeMs": 12000,
     "InitialCoolTimeMs": 10000,
     "DurationTimeMs": [
       "3300"
@@ -704,7 +704,7 @@
     "TriggerType": "OnAuto",
     "TriggerRatio": 1000,
     "CoolTimeMs": 20000,
-    "InitialCoolTimeMs": 10000,
+    "InitialCoolTimeMs": 12000,
     "DurationTimeMs": [
       "3000"
     ],
@@ -742,7 +742,7 @@
     "OperationAreaOffsetMm1": 7000,
     "OperationRadiusMm1": 30000,
     "OperationValue1": [
-      "1400",
+      "1600",
       "0",
       "None"
     ],
@@ -783,7 +783,7 @@
     "OperationAreaOffsetMm5": 7000,
     "OperationRadiusMm5": 30000,
     "OperationValue5": [
-      "-6000"
+      "-8000"
     ],
     "OperationDelayMs5": [
       "800",
@@ -1059,7 +1059,7 @@
     "OperationType1": "ModAttackPower",
     "OperationTargetType1": "Target",
     "OperationValue1": [
-      "$ByTargetMpRatio2(250)"
+      "$ByTargetMpRatio2(300)"
     ],
     "OperationDurationMs1": 999999,
     "OperationRecalculateValueByStats1": [
@@ -1102,7 +1102,7 @@
     "OperationType1": "ModToughness",
     "OperationTargetType1": "Target",
     "OperationValue1": [
-      "$ByTargetMpRatio2(120)"
+      "$ByTargetMpRatio2(250)"
     ],
     "OperationDurationMs1": 999999,
     "OperationRecalculateValueByStats1": [
@@ -1127,7 +1127,7 @@
     "OperationType4": "ModToughness",
     "OperationTargetType4": "Target",
     "OperationValue4": [
-      "200"
+      "100"
     ],
     "OperationDurationMs4": 999999
   },
@@ -1204,7 +1204,7 @@
     "OperationType1": "GetPhysicalDamageR",
     "OperationTargetType1": "Target",
     "OperationValue1": [
-      "1200"
+      "1000"
     ],
     "OperationType2": "GetPhysicalDamageR",
     "OperationTargetType2": "Target",
@@ -1220,6 +1220,7 @@
     "Index": 7100201,
     "TriggerType": "OnAuto",
     "TriggerRatio": 1000,
+    "CoolTimeMs": 100,
     "DurationTimeMs": [
       "3000"
     ],
@@ -1272,7 +1273,7 @@
     "OperationWidth1": 10000,
     "OperationAngle1": 90,
     "OperationValue1": [
-      "600"
+      "550"
     ],
     "OperationType2": "GetMana",
     "OperationTargetType2": "Parent",
@@ -1361,12 +1362,12 @@
     "OperationTargetType1": "Myself",
     "OperationRadiusMm1": 4000,
     "OperationValue1": [
-      "730"
+      "570"
     ],
     "OperationType2": "ModDefenceR",
     "OperationTargetType2": "Parent",
     "OperationValue2": [
-      "-30"
+      "-20"
     ],
     "OperationState2": "Msama_DebuffStack",
     "OperationDurationMs2": 5000,
@@ -1378,7 +1379,7 @@
     "OperationTargetType3": "Myself",
     "OperationRadiusMm3": 30000,
     "OperationValue3": [
-      "-800"
+      "-600"
     ],
     "OperationState3": "MsamaAttackSpeed",
     "OperationDurationMs3": 40000,
@@ -2669,6 +2670,123 @@
     "OperationType4": "ModDefensePower",
     "OperationTargetType4": "Myself",
     "OperationValue4": [
+      "-80"
+    ],
+    "OperationState4": "Msama2",
+    "OperationDurationMs4": 9999999,
+    "OperationType5": "ModMaxHpR",
+    "OperationTargetType5": "Myself",
+    "OperationRadiusMm5": 100000,
+    "OperationValue5": [
+      "1"
+    ],
+    "OperationDelayMs5": [
+      "1500",
+      "0",
+      "0"
+    ],
+    "OperationDurationMs5": 999999,
+    "OperationFlags5": [
+      "ExcludeTarget"
+    ],
+    "OperationType6": "ModSkill",
+    "OperationTargetType6": "Myself",
+    "OperationValue6": [
+      "7100258",
+      "5",
+      "Value",
+      "250"
+    ],
+    "OperationDelayMs6": [
+      "1500",
+      "0",
+      "0"
+    ],
+    "OperationDurationMs6": 9999999,
+    "OperationType7": "ModSkill",
+    "OperationTargetType7": "Myself",
+    "OperationValue7": [
+      "7100230",
+      "7",
+      "Value",
+      "250",
+      "2"
+    ],
+    "OperationDelayMs7": [
+      "1500",
+      "0",
+      "0"
+    ],
+    "OperationDurationMs7": 9999999,
+    "OperationType8": "UseSkill",
+    "OperationTargetType8": "Myself",
+    "OperationValue8": [
+      "7100268"
+    ]
+  },
+  {
+    "Index": 7100299,
+    "TriggerType": "OnTimer",
+    "TriggerValue": [
+      "200",
+      "200"
+    ],
+    "TriggerRatio": 1000,
+    "TriggerFlag": [
+      "CancelUsingSkill"
+    ],
+    "CancelableSkillIndex": [
+      "7100200",
+      "7100201",
+      "7100240"
+    ],
+    "ActiveCondition": [
+      "$Me.AllyCount<2"
+    ],
+    "DurationTimeMs": [
+      "1600"
+    ],
+    "TickTimeValue": [
+      "600"
+    ],
+    "AttrType": "Physical",
+    "TargetType": "Myself",
+    "TargetCount": 1,
+    "DeadTarget": "False",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "False",
+    "OperationType1": "EnablePassiveSkill",
+    "OperationTargetType1": "Myself",
+    "OperationValue1": [
+      "7100241",
+      "True"
+    ],
+    "OperationState1": "Nothing2",
+    "OperationDurationMs1": 9999999,
+    "OperationType2": "ClearSkillOperation",
+    "OperationTargetType2": "Myself",
+    "OperationValue2": [
+      "7100230",
+      "2"
+    ],
+    "OperationFlags2": [
+      "CheckConditionOnBegin"
+    ],
+    "OperationType3": "FilterTargetByState",
+    "OperationTargetType3": "Myself",
+    "OperationTargetSelectType3": "Opponent",
+    "OperationRadiusMm3": 500000,
+    "OperationValue3": [
+      "0",
+      "MsamaAggro",
+      "False",
+      "BaseAttack"
+    ],
+    "OperationState3": "Nothing",
+    "OperationDurationMs3": 999999,
+    "OperationType4": "ModDefensePower",
+    "OperationTargetType4": "Myself",
+    "OperationValue4": [
       "-100"
     ],
     "OperationState4": "Msama2",
@@ -3084,6 +3202,61 @@
       "1",
       "1000",
       "1000010712",
+      "Ground",
+      "37500",
+      "2500"
+    ]
+  },
+  {
+    "Index": 7100268,
+    "TriggerType": "NextSkill",
+    "TriggerRatio": 1000,
+    "AttrType": "Physical",
+    "TargetType": "Myself",
+    "TargetCount": 1,
+    "DeadTarget": "False",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "False",
+    "OperationType1": "SpawnCreature",
+    "OperationTargetType1": "Myself",
+    "OperationValue1": [
+      "71004",
+      "1",
+      "1000",
+      "1000010812",
+      "Ground",
+      "32000",
+      "-2500"
+    ],
+    "OperationType2": "SpawnCreature",
+    "OperationTargetType2": "Myself",
+    "OperationValue2": [
+      "71004",
+      "1",
+      "1000",
+      "1000010812",
+      "Ground",
+      "32000",
+      "2500"
+    ],
+    "OperationType3": "SpawnCreature",
+    "OperationTargetType3": "Myself",
+    "OperationValue3": [
+      "71004",
+      "1",
+      "1000",
+      "1000010812",
+      "Ground",
+      "37500",
+      "-2500"
+    ],
+    "OperationType4": "SpawnCreature",
+    "OperationTargetType4": "Myself",
+    "OperationValue4": [
+      "71004",
+      "1",
+      "1000",
+      "1000010812",
       "Ground",
       "37500",
       "2500"

@@ -31943,6 +31943,51 @@
     "OperationConditionType3": "State",
     "OperationConditionValue3": [
       "GreenLight"
+    ],
+    "OperationType4": "EnablePassiveSkill",
+    "OperationTargetType4": "Myself",
+    "OperationValue4": [
+      "93006011",
+      "True"
+    ],
+    "OperationState4": "6044_4",
+    "OperationDurationMs4": 300,
+    "OperationConditionType4": "State",
+    "OperationConditionValue4": [
+      "RedLight"
+    ],
+    "OperationFlags4": [
+      "Disabled"
+    ],
+    "OperationType5": "EnablePassiveSkill",
+    "OperationTargetType5": "Myself",
+    "OperationValue5": [
+      "93006012",
+      "True"
+    ],
+    "OperationState5": "6044_5",
+    "OperationDurationMs5": 300,
+    "OperationConditionType5": "State",
+    "OperationConditionValue5": [
+      "BlueLight"
+    ],
+    "OperationFlags5": [
+      "Disabled"
+    ],
+    "OperationType6": "EnablePassiveSkill",
+    "OperationTargetType6": "Myself",
+    "OperationValue6": [
+      "93006013",
+      "True"
+    ],
+    "OperationState6": "6044_6",
+    "OperationDurationMs6": 300,
+    "OperationConditionType6": "State",
+    "OperationConditionValue6": [
+      "GreenLight"
+    ],
+    "OperationFlags6": [
+      "Disabled"
     ]
   },
   {
@@ -31965,7 +32010,19 @@
       "100"
     ],
     "OperationState1": "UniqueRedLight",
-    "OperationDurationMs1": 10000
+    "OperationDurationMs1": 10000,
+    "OperationType2": "ClearState",
+    "OperationTargetType2": "Myself",
+    "OperationValue2": [
+      "BlueLight",
+      "0"
+    ],
+    "OperationType3": "ClearState",
+    "OperationTargetType3": "Myself",
+    "OperationValue3": [
+      "GreenLight",
+      "0"
+    ]
   },
   {
     "Index": 6046,
@@ -31987,7 +32044,19 @@
       "100"
     ],
     "OperationState1": "UniqueBlueLight",
-    "OperationDurationMs1": 10000
+    "OperationDurationMs1": 10000,
+    "OperationType2": "ClearState",
+    "OperationTargetType2": "Myself",
+    "OperationValue2": [
+      "RedLight",
+      "0"
+    ],
+    "OperationType3": "ClearState",
+    "OperationTargetType3": "Myself",
+    "OperationValue3": [
+      "GreenLight",
+      "0"
+    ]
   },
   {
     "Index": 6047,
@@ -32007,6 +32076,18 @@
     "OperationTargetType1": "Target",
     "OperationValue1": [
       "300"
+    ],
+    "OperationType2": "ClearState",
+    "OperationTargetType2": "Myself",
+    "OperationValue2": [
+      "RedLight",
+      "0"
+    ],
+    "OperationType3": "ClearState",
+    "OperationTargetType3": "Myself",
+    "OperationValue3": [
+      "BlueLight",
+      "0"
     ]
   },
   {

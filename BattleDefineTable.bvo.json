@@ -894,7 +894,7 @@
     "DenyDuel": "TRUE",
     "DamageMeterFlag": "ShowAllPlayer",
     "DisableLastKill": "True",
-    "BattleMenu": "TimeStatus, HeroParty, DamageMeter, Hud, BoosterStatus, Chat, SystemButton, Retry, WaveStatus, ExitSmallButton, SystemButtonAutoSimple"
+    "BattleMenu": "TimeStatus, HeroParty, DamageMeter, Hud, BoosterStatus, Chat, SystemButton, Retry, WaveStatus, ExitSmallButton, SystemButtonAutoSimple, DeckStatus"
   },
   {
     "Code": "Ascension.Imet",
@@ -961,5 +961,21 @@
     "DisablePartySettingInResult": "TRUE",
     "DisableHeroListInResult": "TRUE",
     "ExInfoTypeOnPartySetting": "Hide"
+  },
+  {
+    "Code": "2019Halloween",
+    "MaxTime": 60,
+    "AutoPlayStarCount": 99,
+    "AutoRepeatStarCount": 99,
+    "ApplyLevelPenalty": "FALSE",
+    "DenyRaidInvite": "TRUE",
+    "DenyDuel": "TRUE",
+    "HPPercent": "TRUE",
+    "DamageMeterFlag": "ShowAllPlayer",
+    "RetryCondition": [
+      "Win",
+      "Lose"
+    ],
+    "BattleMenu": "TimeStatus, HeroParty, DamageMeter, Hud, BoosterStatus, Chat, SystemButton, Retry"
   }
 ]

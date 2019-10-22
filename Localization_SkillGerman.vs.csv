@@ -610,7 +610,7 @@ SKILL_DESC_1610,Heilt die 4 Verbündeten mit den wenigsten TP für [ffc800]{3}[-
 SKILL_DESC_1611,Erhöht Erholung um [64ff64]{1}[-] %.
 SKILL_DESC_1612,Erhöht Erholung um [64ff64]{1}[-] %.
 SKILL_DESC_1613,Erhöht MP-Reg./Sek. um [64ff64]{1}[-] %.
-SKILL_DESC_1620,Entfernt Debuffs von allen Verbündeten und erhöht die Mag. VERT um [ffc800]{2}[-] für [64ffff]{1}[-] Sek.
+SKILL_DESC_1620,Entfernt neg. Effekte von allen Verbündeten und erhöht [64ffff]{1}[-] Sek. lang die Mag. VERT um [64ff64]{2}[-].
 SKILL_DESC_1621,Erhöht Mag. VERT-Erhöhungsrate um [64ff64]{1}[-] %.
 SKILL_DESC_1622,Erhöht Mag. VERT-Erhöhungsrate um [64ff64]{1}[-] %.
 SKILL_DESC_1623,Erhöht Debuff-Widerstand um [64ff64]{2}[-] für [64ffff]{1}[-] Sek.
@@ -2240,7 +2240,7 @@ SKILL_DESC_5921,Erhöht Erholung und Schaden um [64ff64]{1}[-] %.
 SKILL_DESC_5922,Erhöht Erholung und Schaden um [64ff64]{1}[-] %.
 SKILL_DESC_5923,Erhöht Erholung und Schaden um [64ff64]{1}[-] %.
 SKILL_DESC_5930,"Erhöht für [64ffff]{1}[-] Sek. Körp. Ausweichen aller Verbündeter um [64ff64]{2}[-] und ihren ANG um [64ff64]{3}[-]. Effekte werden bei eigenem Tod aufgehoben. Normale Angriffe fügen den Zielen für [64ffff]{1}[-] Sek. zusätzlich Körp. Schaden von [ffc800]{4}[-] zu und erhöhen den Körp. Schaden, den das Ziel erleidet, für [64ffff]{5}[-] Sek. um [ff6464]{6}[-] %."
-SKILL_DESC_5934,"Während der Wirkungsdauer verursachen normale Angriffe zusätzlich [ffc800]{4}[-] Körp. Schaden und erhöhen den Körp. Schaden, den das Ziel erleidet, für [64ffff]{5}[-] Sek. um [ff6464]{6}[-] %."
+SKILL_DESC_5934,"Während der Wirkungsdauer verursachen normale Angriffe zusätzlich [ffc800]{4}[-] Körp. Schaden und erhöhen den Körp. Schaden, den das Ziel erleidet, für [64ffff]{5}[-] Sek. um [64ff64]{6}[-] %."
 SKILL_DESC_5936,"Der Effekt verschwindet, wenn der Beschwörer stirbt."
 SKILL_DESC_5937,Erhöht Körp. Ausw. Chance um [64ff64]{2}[-] % für [64ffff]{1}[-] Sek. und ANG um [64ff64]{3}[-].
 SKILL_DESC_5931,ANG-Boost und Schaden werden um [64ff64]{1}[-] % erhöht.
@@ -3769,7 +3769,7 @@ SKILL_DESC_441130,"Wirft explodierende Flammen in alle Richtungen und verursacht
 SKILL_NAME_441140,Rage des Drachen
 SKILL_DESC_441140,Fliegt in die Luft und setzt den gesamten Bereich in Brand. Alle Feinde erleiden massiven Mag. Schaden.
 SKILL_NAME_441193,Temeraires Haut
-SKILL_DESC_441193,"Temeraire ist immun gegenüber ANG-GESCHW.-Effekten und blockt allen Körp. Schaden und reduziert dadurch den erlittenen Schaden. Erhält alle 10 Sek. 150 Flammensegen-Stapel, die bei jedem erlittenen Treffer reduziert werden. Werden die Stapel nicht innerhalb von 5 Sek. entfernt, erleiden alle Feinde massiven Schaden."
+SKILL_DESC_441193,"Temeraire ist immun gegenüber ANG-GESCHW.-Effekten und blockt allen Körp. Schaden und reduziert dadurch den erlittenen Schaden. Erhält alle 10 Sek. 150 Segen der Flamme-Stapel, die bei jedem erlittenen Treffer reduziert werden. Werden die Stapel nicht innerhalb von 5 Sek. entfernt, erleiden alle Feinde massiven Schaden."
 SKILL_NAME_441197,Temeraires Krallen
 SKILL_DESC_441197,"Temeraires Attacken verursachen konstanten Schaden am Gegner, abhängig von dessen TP."
 SKILL_NAME_441210,Frostschlag
@@ -3823,7 +3823,7 @@ SKILL_DESC_442130,"Wirft explodierende Flammen in alle Richtungen und verursacht
 SKILL_NAME_442140,Rage des Drachen
 SKILL_DESC_442140,"Steigt in die Lüfte und setzt das gesamte Feld in Brand. Alle Feinde erleiden massiven Mag. Schaden, und Feinde, die bereits Feuerschaden erlitten haben, werden Krit.isch getroffen."
 SKILL_NAME_442193,Temeraires Haut
-SKILL_DESC_442193,"Temeraire ist immun gegenüber ANG-GESCHW.-Effekten und blockt allen Körp. Schaden und reduziert dadurch den erlittenen Schaden. Erhält alle 10 Sek. 150 Flammensegen-Stapel, die bei jedem erlittenen Treffer reduziert werden. Werden die Stapel nicht innerhalb von 5 Sek. entfernt, erleiden alle Feinde massiven Schaden."
+SKILL_DESC_442193,"Temeraire ist immun gegenüber ANG-GESCHW.-Effekten und blockt allen Körp. Schaden und reduziert dadurch den erlittenen Schaden. Erhält alle 10 Sek. 150 Segen der Flamme-Stapel, die bei jedem erlittenen Treffer reduziert werden. Werden die Stapel nicht innerhalb von 5 Sek. entfernt, erleiden alle Feinde massiven Schaden."
 SKILL_NAME_442197,Temeraires Krallen
 SKILL_DESC_442197,"Temeraires Attacken verursachen konstanten Schaden am Gegner, abhängig von dessen TP."
 SKILL_NAME_442210,Frostschlag
@@ -5148,7 +5148,7 @@ SKILL_DESC_60002041,Heilt beim erfolgreichen Block die eigene TP um 40 % der Kö
 SKILL_DESC_60002110,"Erhöht Schaden um 100 %, wenn nur 1 Feind auf dem Schlachtfeld ist."
 SKILL_DESC_60002111,Wechselt das Ziel zu dem Gegner mit dem höchsten ANG.
 SKILL_DESC_60002120,Reduziert Manakosten um 1.
-SKILL_DESC_60002121,"Erhöht Nailas den verursachten Schaden an Feinden, die keine Helden sind, um 30 % für die Wirkungsdauer."
+SKILL_DESC_60002121,"Erhöht den eigenen verursachten Schaden an Feinden, die keine Helden sind, um 30 % für die Wirkungsdauer."
 SKILL_DESC_60002130,Erhöht Schaden um 40 %.
 SKILL_DESC_60002131,Reduziert Cooldown um 10 % für jeden Krit.isch getroffenen Feind.
 SKILL_DESC_60002140,Aktivierungschance ändert sich auf 60 %.
@@ -5921,3 +5921,4 @@ SKILL_DESC_7100330,"Erzeugt einen gigantischen Fluss von Meeren, der alle positi
 SKILL_NAME_7100340,Flusskontrolle
 SKILL_DESC_7100340,"Wenn Sekmahas Massenkontroll-Leiste aufgebraucht ist, ändert sich der Fluss. Von Wasserfall- zu Meer-Zustand und umgekehrt.\n[Meer] – Alle Gegner können ihre TP nicht regenerieren und gemäß der übrigen Gegner-MP wird der Gegner mehr Schaden verursachen.\n[Wasserfall] – Die MP aller Gegner werden enorm verringert und gemäß der übrigen MP wird der erhaltene gegn. Schaden auch verringert."
 SKILL_DESC_7100341,Ein Wächter von Sekireinel wird stärker und seine VERT & ANG-GESCHW können nicht beeinflusst werden. Nach der 6. Kampf-Phase erzeugt Sekmaha zu einem bestimmten Zeitpunkt einen Tropfen-Schutzschild.
+SKILL_DESC_80005140,"Erhöht die eigenen max. TP um {1} % und erhöht den ANG aller Verbündeten um {2} %, wenn nur ein Feind übrig bleibt. Dieser Effekt ist nicht mit anderen ähnlichen Effekten, die von Verbündeten angewendet werden, stapelbar."

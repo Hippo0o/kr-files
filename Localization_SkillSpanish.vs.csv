@@ -317,10 +317,10 @@ SKILL_DESC_90000082,"Otorga un 14 % de posibilidad de infligir Daño mágico eq
 SKILL_DESC_90000083,"Otorga un 17 % de posibilidad de infligir Daño mágico equivalente al 170 % de Ataque e inflige choque eléctrico en 2 enemigos aleatorios a través de un ataque normal. Si el objetivo ya sufrió un choque eléctrico, lo aturde durante 2 segundos."
 SKILL_DESC_90000084,"Otorga un 21 % de posibilidad de infligir Daño mágico equivalente al 210 % de Ataque e inflige choque eléctrico en 2 enemigos aleatorios a través de un ataque normal. Si el objetivo ya sufrió un choque eléctrico, lo aturde durante 2 segundos."
 SKILL_DESC_90000085,"Otorga un 25 % de posibilidad de infligir Daño mágico equivalente al 250 % de Ataque e inflige choque eléctrico en 2 enemigos aleatorios a través de un ataque normal. Si el objetivo ya sufrió un choque eléctrico, lo aturde durante 2 segundos."
-SKILL_NAME_940,Golpe Absorvente
-SKILL_NAME_941,Golpe Absorvente II
-SKILL_NAME_942,Golpe Absorvente III
-SKILL_NAME_943,Golpe Absorvente IV
+SKILL_NAME_940,Golpe Absorbente
+SKILL_NAME_941,Golpe Absorbente II
+SKILL_NAME_942,Golpe Absorbente III
+SKILL_NAME_943,Golpe Absorbente IV
 SKILL_NAME_910,Pesadilla
 SKILL_NAME_911,Pesadilla II
 SKILL_NAME_912,Pesadilla III
@@ -610,7 +610,7 @@ SKILL_DESC_1610,Cura a 4 aliados con el % de la Salud más baja [ffc800]{3}[-] e
 SKILL_DESC_1611,Aumenta Recuperacion en [64ff64]{1}[-] %.
 SKILL_DESC_1612,Aumenta Recuperacion en [64ff64]{1}[-] %.
 SKILL_DESC_1613,Aumenta [64ff64]{1}[-] % de Recuperacion de PM por segundo.
-SKILL_DESC_1620,Elimina el debilitamiento de todos los aliados y aumenta la DEF Magica en [ffc800] {2} [-] por [64ffff] {1} [-] segundos.
+SKILL_DESC_1620,"Cancela los efectos negativos de todos los aliados, y durante [64ffff]{1}[-] segundos incrementa la defensa mágica en [64ff64]{2}[-]."
 SKILL_DESC_1621,Aumenta el crecimiento de DEF Magica en [64ff64]{1}[-] %.
 SKILL_DESC_1622,Aumenta el crecimiento de DEF Magica en [64ff64]{1}[-] %.
 SKILL_DESC_1623,Aumenta [64ff64]{2}[-] la Resistencia al Debilitamiento por [64ffff]{1}[-] seg.
@@ -4283,8 +4283,8 @@ SKILL_NAME_60000840,Relampago en Cadena [Luz]
 SKILL_NAME_60000841,Relampago en Cadena [Oscuridad]
 SKILL_NAME_60000850,Kaulah [Luz]
 SKILL_NAME_60000851,Kaulah [Oscuridad]
-SKILL_NAME_60000910,Golpe Absorvente [Luz]
-SKILL_NAME_60000911,Golpe Absorvente [Oscuridad]
+SKILL_NAME_60000910,Golpe Absorbente [Luz]
+SKILL_NAME_60000911,Golpe Absorbente [Oscuridad]
 SKILL_NAME_60000920,Pesadilla [Luz]
 SKILL_NAME_60000921,Pesadilla [Oscuridad]
 SKILL_NAME_60000930,Baile del Diablo [Luz]
@@ -5060,7 +5060,7 @@ SKILL_DESC_60000841,"Aumenta la duración de Aturdir en 0,7 segundos."
 SKILL_DESC_60000910,"Si hay 1 enemigo, el Daño se incrementa en un 100%."
 SKILL_DESC_60000911,Ignora el Bloqueo enemigo.
 SKILL_DESC_60000920,El costo de maná se reduce en 1.
-SKILL_DESC_60000921,"El consumo de maná se incrementa en 1, y al utilizar la habilidad, se activa 'Golpe de Absorción'. No se puede utilizar cuando no hay enemigos al alcance"
+SKILL_DESC_60000921,"El consumo de maná se incrementa en 1, y al utilizar la habilidad, se activa 'Golpe Absorbente'. No se puede utilizar cuando no hay enemigos al alcance"
 SKILL_DESC_60000930,El Daño se incrementa en un 40%.
 SKILL_DESC_60000931,El Daño recibido se reduce en un 50% mientras se usa la habilidad.
 SKILL_DESC_60000940,Cada pila aumenta la recuperación de Mana por segundo en un 50%.
@@ -5921,3 +5921,4 @@ SKILL_DESC_7100330,"Crea una corriente de mar gigante que elimina todos los efec
 SKILL_NAME_7100340,Control de Corriente
 SKILL_DESC_7100340,Cambia la corriente cuando todas las casillas de efectos de estado de Sekmaha se reducen. Cambia a estado Mar si está en estado Cascada y viceversa.\n[Mar] – Impide que los enemigos recuperen salud y hace que el daño que reciben aumente de acuerdo a la cantidad de mana que posean.\n[Cascada] – La tasa de recuperación de mana de todos los enemigos disminuye en grande y el daño recibido disminuye de acuerdo a la cantidad de mana poseida.
 SKILL_DESC_7100341,"Guardián de Sekireinel no es afectado por el cambio de defensa o velocidad de ataque porque fue otorgado con un gran poder. En batallas superiores al nivel 6, Sekmaha crea una gota de agua como escudo periódicamente."
+SKILL_DESC_80005140,"Incrementa tu salud máxima un {1}%, e incrementa el ataque de todos los aliados un {2}% cuando hay solamente 1 enemigo. Este efecto no se acumula con otros efectos similares lanzados por los aliados."

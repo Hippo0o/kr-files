@@ -2297,6 +2297,257 @@
     ]
   },
   {
+    "Index": 1001,
+    "Category": "Tutorial",
+    "EventType": "EnterEventDungeonSelect",
+    "EventCondition": [
+      "30028",
+      " 1"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "505"
+    ]
+  },
+  {
+    "Index": 1002,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "30028",
+      " 1",
+      " 1"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/Halloween2019/E_H2_Main_2_1"
+    ]
+  },
+  {
+    "Index": 1003,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "30028",
+      " 1",
+      " 2"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/Halloween2019/E_H2_Main_2_2"
+    ]
+  },
+  {
+    "Index": 1004,
+    "Category": "MainScenario",
+    "EventType": "ScenarioBattleEnd",
+    "EventCondition": [
+      "30028",
+      " 1",
+      " True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/Halloween2019/E_H2_Main_2_3"
+    ]
+  },
+  {
+    "Index": 1005,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "30028",
+      " 2",
+      " 1"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/Halloween2019/E_H2_Main_3_1"
+    ]
+  },
+  {
+    "Index": 1006,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "30028",
+      " 2",
+      " 2"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/Halloween2019/E_H2_Main_3_2"
+    ]
+  },
+  {
+    "Index": 1007,
+    "Category": "MainScenario",
+    "EventType": "ScenarioBattleEnd",
+    "EventCondition": [
+      "30028",
+      " 2",
+      " True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/Halloween2019/E_H2_Main_3_3"
+    ]
+  },
+  {
+    "Index": 1008,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "30028",
+      " 3",
+      " 1"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/Halloween2019/E_H2_Main_4_1"
+    ]
+  },
+  {
+    "Index": 1009,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "30028",
+      " 3",
+      " 2"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/Halloween2019/E_H2_Main_4_2"
+    ]
+  },
+  {
+    "Index": 1010,
+    "Category": "MainScenario",
+    "EventType": "ScenarioBattleEnd",
+    "EventCondition": [
+      "30028",
+      " 3",
+      " True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/Halloween2019/E_H2_Main_4_3"
+    ]
+  },
+  {
+    "Index": 1011,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "30028",
+      " 4",
+      " 1"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/Halloween2019/E_H2_Main_5_1"
+    ]
+  },
+  {
+    "Index": 1012,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "30028",
+      " 4",
+      " 2"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/Halloween2019/E_H2_Main_5_2"
+    ]
+  },
+  {
+    "Index": 1013,
+    "Category": "MainScenario",
+    "EventType": "ScenarioBattleEnd",
+    "EventCondition": [
+      "30028",
+      " 4",
+      " True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/Halloween2019/E_H2_Main_5_3"
+    ]
+  },
+  {
+    "Index": 1014,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "30028",
+      " 5",
+      " 1"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/Halloween2019/E_H2_Main_6_1"
+    ]
+  },
+  {
+    "Index": 1015,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "30028",
+      " 5",
+      " 2"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/Halloween2019/E_H2_Main_6_2"
+    ]
+  },
+  {
+    "Index": 1016,
+    "Category": "MainScenario",
+    "EventType": "ScenarioBattleEnd",
+    "EventCondition": [
+      "30028",
+      " 5",
+      " True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/Halloween2019/E_H2_Main_6_3"
+    ]
+  },
+  {
+    "Index": 1017,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "30028",
+      " 6",
+      " 1"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/Halloween2019/E_H2_Main_7_1"
+    ]
+  },
+  {
+    "Index": 1019,
+    "Category": "MainScenario",
+    "EventType": "ScenarioBattleEnd",
+    "EventCondition": [
+      "30028",
+      " 6",
+      " True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/Halloween2019/E_H2_Main_7_2"
+    ]
+  },
+  {
     "Index": 10000,
     "Category": "MainScenario",
     "EventType": "EnterLobby",
