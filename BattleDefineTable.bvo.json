@@ -977,5 +977,19 @@
       "Lose"
     ],
     "BattleMenu": "TimeStatus, HeroParty, DamageMeter, Hud, BoosterStatus, Chat, SystemButton, Retry"
+  },
+  {
+    "Code": "1000Days",
+    "MaxTime": 60,
+    "ApplyLevelPenalty": "FALSE",
+    "DenyRaidInvite": "TRUE",
+    "DenyDuel": "TRUE",
+    "HPPercent": "TRUE",
+    "DamageMeterFlag": "ShowAllPlayer",
+    "RetryCondition": [
+      "Win",
+      "Lose"
+    ],
+    "BattleMenu": "SystemButtonAuto, TimeStatus, HeroParty, DamageMeter, Hud, BoosterStatus, Chat, SystemButton, Retry"
   }
 ]

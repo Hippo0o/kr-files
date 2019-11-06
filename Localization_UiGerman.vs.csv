@@ -432,7 +432,7 @@ EQUIP_INVENTORY_SORTTYPE_GRADE_DOWN,Rang (-)
 EQUIP_INFO,Ausrüstung-Info
 EQUIP_INFO_GETLOCATION,Zu finden in
 EQUIP_INFO_GETLOCATION_INFO,[FF7F00]{1}
-EQUIP_INFO_LEVELLIMIT,Min.Level
+EQUIP_INFO_LEVELLIMIT,Min. Level
 EQUIP_INFO_LEVELUP,Verstärken
 EQUIP_INFO_SELL,Verkaufen
 EQUIP_INFO_SELL_CEHCK,[FF7F00]Zu diesem Preis verkaufen.
@@ -1192,8 +1192,8 @@ SMITHY_OPTION_CHOICE,Wähle eine Option zum Verstärken.
 SMITHY_OPTION_MAGICPOWDER,Magiepulver
 SMITHY_OPTION_MATERIAL_LACK,Nicht genug Magiepulver.
 SMITHY_STARUPGRADE_EMPTY,Keine Ausrüstung verfügbar für Sternen-Rang Verstärkung.
-SMITHY_STARUPGRADE_EQUIP,Angelegte Ausrüstung
-SMITHY_STARUPGRADE_UNEQUIP,Abgelegte Ausrüstung
+SMITHY_STARUPGRADE_EQUIP,Angelegte\nAusrüstung
+SMITHY_STARUPGRADE_UNEQUIP,Abgelegte\nAusrüstung
 SMITHY_STARUPGRADE_CHANCE,Erfolgsquote
 SMITHY_STARUPGRADE_FAIL_BONUS,Fehlschlag-Bonus
 HERO_TRANCEND,Transzendieren
@@ -1404,7 +1404,7 @@ HEROINN_MINIGAME,Mini-Spiel
 HEROINN_LUCKY_ROULETTE,Glücksrad!
 HEROINN_ROULETTE,Glücksrad drehen
 HEROINN_ROULETTE_START,Los
-HEROINN_ROULETTE_GUIDE,[Roulette Guide]
+HEROINN_ROULETTE_GUIDE,[Glücksrad Guide]
 ROULETTEGUIDE_DESC,"* Pro Tag kannst du 1x umsonst am Glücksrad drehen.\n\n* Für jeden Helden in der Schenke, der in deinem Besitz ist, darfst du einmal drehen.\n\n* Die Anzahl wird täglich um Mitternacht zurückgesetzt."
 CLOSENESS_TALK_UNLOCK,"Entfernen, wenn Verbundenheit {1} erreicht"
 HEROINN_CLOSENESS_COOLTIME,Wir sehen uns beim nächsten Mal!
@@ -1694,8 +1694,8 @@ ITEM.NOT_LOCK,Sperren
 HERO_FLASK.FLASK_EQUIP_COMPLETE,Flasche wurde {1} angelegt.
 HERO_FLASK.FLASK_UNEQUIP_COMPLETE,Flasche wurde entfernt.
 ITEM.EXPPOTION_DESELECT_POTION_MESSAGE,Dieser Held hat bereits eine Flasche angelegt.
-ITEM_USE.USE_STAMINA_ITEM_CONFIRM,Möchtest du {2}x {1} benutzen? \nInsgesamt {4}x {3} werden aufgeladen.
-ITEM_USE.USE_RUBYFLASK_ITEM_CONFIRM,Möchtest du {2}x {1} benutzen?\nDu erhältst {4}x {3}.
+ITEM_USE.USE_STAMINA_ITEM_CONFIRM,Möchtest du {2}x {1} benutzen? \nInsgesamt {3}x {4} werden aufgeladen.
+ITEM_USE.USE_RUBYFLASK_ITEM_CONFIRM,Möchtest du {2}x {1} benutzen?\nDu erhältst {3}x {4}.
 BATTLE.REPEAT_BATTLE_ASK_TITLE,Wiederholen
 BATTLE.REPEAT_BATTLE_ASK_CONTENT,Kampf wiederholen?
 BATTLE.REPEAT_BATTLE_SINGLETIME,Wiederholen
@@ -1935,9 +1935,9 @@ GUILD_RAID_FINISH_BLOW_INFO,"Wird der Boss nicht besiegt,\nerholt er sich bis au
 GUILD_RAID_OPEN_CHAPTER_INFO,Wird nach dem Sieg \nüber den vorherigen Boss freigeschaltet.
 GUILD_RAID_NOW_PERCENTAGE,Fortschritt
 GUILD_RAID_RANKING_NOBODY,Keine Spieler haben teilgenommen.
-GUILD_RAID_OPEN_DESC,Gildenraids können nur mit Gilden-Aktiv.punkten eröffnet werden.
+GUILD_RAID_OPEN_DESC,Gildenraids können nur mit Gilden-Aktivpunkten eröffnet werden.\n\nGildenraid eröffnen?
 GUILD_RAID_OPEN_POINT_INFO,Die erste Freischaltung eines Gildenraids in jeder Woche ist gratis und kann einmal pro Woche wieder geöffnet werden. \n Gildenraids werden jeden Montag um 00:00 zurückgesetzt.
-GUILD_RAID_OPEN_POINT,Verbrauchte Aktiv.punkte:
+GUILD_RAID_OPEN_POINT,Verbrauchte Aktivpunkte:
 GUILD_RAID_OPEN_POINT_BACK,Punkte
 GUILD_RAID_REOPEN_COUNT,Gildenraid-Wiedereröffnung verfügbar:
 GUILD_RAID_REOPEN_COUNT_BACK,Mal
@@ -2027,7 +2027,7 @@ WEEKLYMISSION_RAID_HARD_RED_CLEAR_DESC,Flammendrachen auf Schwer\nim Gruppen-Mod
 WEEKLYMISSION_RAID_HARD_BLUE_CLEAR_DESC,Frostdrachen auf Schwer\nim Gruppen-Modus 3x besiegt
 WEEKLYMISSION_RAID_HARD_GREEN_CLEAR_DESC,Giftdrachen auf Schwer\nim Gruppen-Modus  3x besiegt
 WEEKLYMISSION_RAID_HARD_BLACK_CLEAR_DESC,Schwarzdrachen auf Schwer\nim Gruppen-Modus 3x besiegt
-WEEKLYMISSION_RAID_HARD_CLEAR_NAME,Drachenraid auf Schwer im Einzel-/Gruppen-Modus {1} geklärt
+WEEKLYMISSION_RAID_HARD_CLEAR_NAME,Kläre Drachenraid auf Schwer im Einzel-/Gruppen-Modus {1}
 WEEKLYMISSION_RAID_HARD_CLEAR_DESC_3,Drachenraid auf Schwer im Einzel-/Gruppen-Modus 3x geklärt
 WEEKLYMISSION_RAID_HARD_CLEAR_DESC_6,Drachenraid auf Schwer im Einzel-/Gruppen-Modus 6x geklärt
 WEEKLYMISSION_RAID_HARD_CLEAR_DESC_9,Drachenraid auf Schwer im Einzel-/Gruppen-Modus 9x geklärt
@@ -2454,9 +2454,9 @@ HERO_INFO_BASE_TRANCE_FINISH,Hauptinfo
 ITEMGROUPNAME_FIXED,Liste garantierter Gegenstände
 ITEMGROUPNAME_RANDOM,Liste zufälliger Gegenstände {1}
 ITEMGROUPNAME_ADDED,Zusätzliche Gegenstands-Liste
-ITEMGROUPDESC_FIXED,Liste der garantiert erhätlichen Gegenstände.
+ITEMGROUPDESC_FIXED,Liste der garantiert erhätlichen Gegenständen.
 ITEMGROUPDESC_ADDED,Liste der zufällig erhältlichen Gegenständen.
-ITEMGROUPDESC_DEFAULT,Liste der zusätzlich erhältlichen Gegenstands.
+ITEMGROUPDESC_DEFAULT,Liste der zusätzlich erhältlichen Gegenständen.
 ITEMGROUPDESC_MULTI,Ein der folgenden Gegenständen kann ausgewählt werden. ({1} Mal erhalten)
 ITEMGROUPDESC_GUILD_RAID_RUNE_1,Erhalte entweder 5 heroische oder 1 antike Rune.
 ITEMGROUPDESC_GUILD_RAID_RUNE_2,Erhalte 1 oder 2 antike Rune(n).
@@ -2609,7 +2609,7 @@ TOOLTIP_INFO_TEXT_RAINBOWCOIN_ICON,Die Münzen findest du in Großdungeons währ
 SHOP_NAME_CHILDRENSRAINBOWSHOP,Shop
 EVENT_DUNGEON_SUMMER_NAME1,Fest des Wohlstands
 EVENT_DUNGEON_SUMMER_DESC1,Freudiges Grillfest mit Viska
-EVENT_DUNGEON_SUMMER_NAME2,Wasser-Schützenfest
+EVENT_DUNGEON_SUMMER_NAME2,Fest des Wasserschießens
 EVENT_DUNGEON_SUMMER_DESC2,Waghalsige Wasserpistolen-Kampf
 EVENT_DUNGEON_SUMMER_NAME3,Fest der Gesundheit
 EVENT_DUNGEON_SUMMER_DESC3,Woraus besteht dieser Trank?
@@ -2799,12 +2799,12 @@ TOOLTIP_INFO_NAME_FRIENDSHIPPOINT,Freundschaftspunkt
 TOOLTIP_INFO_NAME_MILEAGE,Mileage
 TOOLTIP_INFO_NAME_SWORD,Arena-Ticket
 TOOLTIP_INFO_NAME_UNDERGROUNDPRISONKEY,Kerker-Schlüssel
-TOOLTIP_INFO_NAME_UNDERGROUNDLABYRINTHKEY,Kaiserl. Schatzkammer-Schlüssel
+TOOLTIP_INFO_NAME_UNDERGROUNDLABYRINTHKEY,Königl. Schatzkammer-Schlüssel
 TOOLTIP_INFO_NAME_HIDEOUTKEY,Großdungeon-Schlüssel
 TOOLTIP_INFO_NAME_CHALLENGETOWERKEY,Würfel der Herausforderungen
-TOOLTIP_INFO_NAME_EVENTDUNGEONTICKET,Fluchfragmente
-TOOLTIP_INFO_NAME_EVENTDUNGEONPOINT,Böse Gedanken der Geister
-TOOLTIP_INFO_NAME_EVENTDUNGEONPOINT2,Königsschleim-Gelatine
+TOOLTIP_INFO_NAME_EVENTDUNGEONTICKET,Festböller
+TOOLTIP_INFO_NAME_EVENTDUNGEONPOINT,Festkuchen
+TOOLTIP_INFO_NAME_EVENTDUNGEONPOINT2,Festballons
 TOOLTIP_INFO_NAME_EVENTDUNGEONTICKET_BACKUP,Halloween-Dungeon-Schlüssel
 TOOLTIP_INFO_NAME_EVENTDUNGEONPOINT_BACKUP,Halloweenpunkt
 TOOLTIP_INFO_NAME_CONQUESTKEY,Eroberungsschlüssel
@@ -2822,12 +2822,12 @@ TOOLTIP_INFO_TEXT_FRIENDSHIPPOINT,Die von Freunden getauschen Punkte können in 
 TOOLTIP_INFO_TEXT_MILEAGE,Mileagepunkte können im Spezial-Shop verwendet werden.
 TOOLTIP_INFO_TEXT_SWORD,"Um Kämpfe in der Arena bestreiten zu können, werden Tickets benötigt."
 TOOLTIP_INFO_TEXT_UNDERGROUNDPRISONKEY,"Um den Kerker betreten zu können, werden Schlüssel gebraucht."
-TOOLTIP_INFO_TEXT_UNDERGROUNDLABYRINTHKEY,"Um die Kaiserl. Schatzkammer betreten zu können, werden Schlüssel gebraucht."
+TOOLTIP_INFO_TEXT_UNDERGROUNDLABYRINTHKEY,"Um die Königl. Schatzkammer betreten zu können, werden Schlüssel gebraucht."
 TOOLTIP_INFO_TEXT_HIDEOUTKEY,"Um den Großdungeon betreten zu können, werden Schlüssel gebraucht."
 TOOLTIP_INFO_TEXT_CHALLENGETOWERKEY,"Um den Turm der Herausforderungen betreten zu können, werden Würfel gebraucht."
 TOOLTIP_INFO_TEXT_EVENTDUNGEONTICKET,"Um Event-Dungeons betreten zu können, werden Schlüssel gebraucht."
-TOOLTIP_INFO_TEXT_EVENTDUNGEONPOINT,Können im Halloween-Event-Dungeon erhalten und im Halloween-Shop beim Kauf von Eventartikel verwendet werden.
-TOOLTIP_INFO_TEXT_EVENTDUNGEONPOINT2,"Du kannst sie erhalten, nachdem du Junos Kochausbildung Spezial-Dungeon erfolgreich beendet hast. Diese können beim Kauf von Artikel im Junos TOP-Gerichte-Shop verwendet werden."
+TOOLTIP_INFO_TEXT_EVENTDUNGEONPOINT,"Du kannst ihn erhalten, nachdem du 1.000 Tage Festanlass Geschichten-Dungeon erfolgreich beendet hast. Dieser kann beim Kauf von Artikel im 1.000 Tage Festanlass-Shop verwendet werden."
+TOOLTIP_INFO_TEXT_EVENTDUNGEONPOINT2,"Du kannst sie erhalten, nachdem du 1.000 Tage Festanlass Spezial-Dungeon erfolgreich beendet hast. Diese können beim Kauf von Artikel im 1.000 Tage Festanlass-Shop verwendet werden."
 TOOLTIP_INFO_NAME_GLORYPOINT,Ehrenmedaille
 TOOLTIP_INFO_TEXT_GLORYPOINT,In der Ehrenliga erspielbare Punkte. Können im Ehrenliga-Shop gegen Artikel getauscht werden.
 TOOLTIP_INFO_NAME_RANKINGPOINT,Ehrenabzeichen
@@ -3294,7 +3294,7 @@ PAY_SHOP_CATEGORY.GOODS,Verbrauchs-\ngüter
 PAY_SHOP_CATEGORY.HERO,Helden
 PAY_SHOP_CATEGORY.COSTUME,Kostüm
 PAY_SHOP_CATEGORY.EQUIP,Ausrüstung
-PAY_SHOP_CATEGORY.SPECIAL_RESOURCE,Sonder-\güter
+PAY_SHOP_CATEGORY.SPECIAL_RESOURCE,Sonder-\ngüter
 SHOP_TAB_SPECIAL,Event
 SHOP_TAB_PACKAGE,Paket
 SHOP_TAB_RUBY,Rubin
@@ -3505,7 +3505,7 @@ EVENT_BUFF_EXP_DOUBLE_DESC,Doppelt EP absahnen bei diesem Event!
 EVENT_BUFF_GOLD_DOUBLE_TITLE,Double Trouble Gold-Event!
 EVENT_BUFF_GOLD_DOUBLE_DESC,Doppelt Gold absahnen bei diesem Event!
 EVENT_BUFF_ROYAL_DOUBLE_TITLE,Königliche Schatzkammer: Doppelt hält besser!
-EVENT_BUFF_ROYAL_DOUBLE_DESC,Doppelt so viele Schlüssel für die Kaiserl. Schatzkammer!!!
+EVENT_BUFF_ROYAL_DOUBLE_DESC,Doppelt so viele Schlüssel für die Königl. Schatzkammer!!!
 EVENT_BUFF_PRISON_DOUBLE_TITLE,2x Kerker
 EVENT_BUFF_PRISON_DOUBLE_DESC,2x Kerker
 EVENT_BUFF_PURIFY_HALF_TITLE,Reinigungs-Rabatt-Event!
@@ -3918,6 +3918,7 @@ COSTUME_GROUP_HALLOWEEN2,Halloween II
 COSTUME_GROUP_MAID1,Ergebene Diener I
 COSTUME_GROUP_SPORTSWARE1,Sportbekleidung
 COSTUME_GROUP_CASAULFASHION1,Freizeitmode
+COSTUME_GROUP_HEROICCAREER1,Arbeitskleidung
 UI_SELECT_HERO_NONE,Es stehen keine Helden zur Auswahl.
 UI_SELECT_COSTUME_NONE,Es stehen keine Kostüme zur Auswahl.
 FILTER_SELECT.FILTER_SELECT_PART,Nach Teil sortieren
@@ -4152,8 +4153,8 @@ GLOBAL_WORLDBOSS_DAILY_REWARD_TITLE,{1} Tägliche Rangbelohnung
 GLOBAL_WORLDBOSS_DAILY_REWARD_CONTENT,Das ist die Tägliche Rangbelohnung für den Sieg gegen {1}.
 GLOBAL_WORLDBOSS_SERVER_RANK_REWARD_TITLE,{1} Serverranglistenbelohnung
 GLOBAL_WORLDBOSS_SERVER_RANK_REWARD_CONTENT,Das ist die Serverranglistenbelohnung für den Sieg gegen {1}.
-GLOBAL_WORLDBOSS_WORLD_RANK_REWARD_TITLE,{1} Serverranglistenbelohnung
-GLOBAL_WORLDBOSS_WORLD_RANK_REWARD_CONTENT,Das ist die Serverranglistenbelohnung für den Sieg gegen {1}.
+GLOBAL_WORLDBOSS_WORLD_RANK_REWARD_TITLE,{1} Weltranglistenbelohnung
+GLOBAL_WORLDBOSS_WORLD_RANK_REWARD_CONTENT,Das ist die Weltranglistenbelohnung für den Sieg gegen {1}.
 PUNITIVE_EXPEDITION_REPEAT_RANK_REWARD_TITLE_2,Wiederholter-Abschluss-Belohnung
 PUNITIVE_EXPEDITION_SEASON_SERVER_RANK_REWARD_TITLE,Server-Saison-Rangliste
 PUNITIVE_EXPEDITION_SEASON_WORLD_RANK_REWARD_TITLE,Welt-Saison-Rangliste
@@ -5505,11 +5506,66 @@ ITEM_NAME_47020,Perle der Dunkelheit
 ITEM_DESC2_47020,Diesen Gegenstand kannst du Lavril schenken.\nErhöht deinen Beitrag um 1.
 ITEM_NAME_91336,Lavrils Geschenk
 ITEM_DESC2_91336,"Eine Geschenkkiste von Lavril.\nBei Verwendung kannst du Mysteriöse Seelenfragmente, Einzigartige Waffenfragmente, eine Halloween-Accessoires Kiste oder ein Event-Artefakt erhalten."
+EVENT_REWARD_GET_NOTICE_MESSAGE,Du musst zuerst die vorherige Belohnung abholen.
 GUILD_ARENA_REMAIN_DAY_HOUR,{1} bis zum Start
+GUILD_ARENA_MEMBER_DEFENCE_TEAM,Gildenmitglied VERT-Team
+PAYSHOP_PREPURCHASE_HALLOWEEN_2019_ARTIFACT,Bonus für den 5. Kauf: Böse Geister im Kürbiskopf
+GUILD_ARENA_MY_DEFENCE_TEAM,Mein VERT-Team
+HERO_PROFILE,Profil
+SUBSTORY_SUB_BUTTON_NAME,Geburtstag anschauen
+19HALLOWEEN_EVENT_SPECIAL_DUNGEON_DESC1_1,"Wenn du von Medianas Wasserpistole getroffen wirst, wird es schwierig, vorwärts zu kommen! Lass dich nicht vom Weg bringen."
+19HALLOWEEN_EVENT_SPECIAL_DUNGEON_DESC2_1,Yuria wickelt ihre Feinde in ihren Kleidern und macht sie hilflos! Löse dich schnell los und weiche Yurias starken Angriffen aus!
+19HALLOWEEN_EVENT_SPECIAL_DUNGEON_DESC3_1,Verbündete in Bernheims ANG-Reichweite sind in Gefahr! Greife aus weiter Entfernung an.
+19HALLOWEEN_EVENT_SPECIAL_DUNGEON_DESC4_1,"Kara im Belagerungsmodus greift ihre Gegner dauerhaft an. Unter den drei ist die Kara mit der Belagerungswaffe am schwächsten, also greife sie durchgehend an und entscheide den Kampf für dich!"
+19HALLOWEEN_EVENT_SPECIAL_DUNGEON_SUB_TITLE1,Halloween Spezial-Dungeon I
+19HALLOWEEN_EVENT_SPECIAL_DUNGEON_SUB_TITLE2,Halloween Spezial-Dungeon II
+19HALLOWEEN_EVENT_SPECIAL_DUNGEON_SUB_TITLE3,Halloween Spezial-Dungeon III
+19HALLOWEEN_EVENT_SPECIAL_DUNGEON_SUB_TITLE4,Halloween Spezial-Dungeon IV
+SELECT_ITEM_OPTION_SORT,Optionen sortieren
+BOOKMARK.BOOKMARK_HERO,Markieren
+BOOKMARK.UNBOOKMARK_HERO,Markierung aufheben
+BOOKMARK.HERO_DEMOTED_TO_LAST,Dies ist das Ende der Helden-Markierungsliste.
+BOOKMARK.HERO_BOOKMARK_FAILED_SAVE,"Das Speichern schlug fehl,\nweil das Netzwerk instabil war.\nVersuche es später erneut."
+SYSTEM.LOW_MEMORY,Unzureichend Speicherplatz auf dem Gerät.
+USE_STAMINA_ITEM_CONFIRM_RESET_WARNING,* Vorsicht!! Die aufgeladenen {1} werden {2} zurückgesetzt.
+PUSH_REWARD_LUNCH,Mittagsbelohnung erhalten
+PUSH_REWARD_DINNER,Abendbelohnung erhalten
+1000TH_ANNIVERSARY_ATTENDANCE_ICON,Zur Feier von 1.000 Tage! Ein Dankeschön-Geschenk!
+1000TH_ANNIVERSARY_ATTENDANCE_ITEM_DESC,※ Anmeldungsgeschenke können bis zum 30. November entsprechend den Login-Tagen abgeholt werden.
+IMPROVE_RESETREMAININGDATE,{1} verbleiben
+RECOGNITION_DAY,Tag(e)
+RECOGNITION_HOUR,Std.
+ADVENTURE_NOTICE_STAMINA_REGENERATION,{1} : {2} : {3}
+ADVENTURE_NOTICE_RESET_REMAIN_DAY,{1} Tage verbleiben
+ADVENTURE_NOTICE_RESET_REMAIN_HOUR_1,{1} Std. verbleiben
+ADVENTURE_NOTICE_RESET_REMAIN_HOUR_2,Weniger als {1} Std. verbleiben
+ADVENTURE_NOTICE_STAMINA_END,Beendet
+ADVENTURE_NOTICE_STAMINA_ETC,Dauerhafter Eintritt
+HERO_PROFILE_SUBSTORY,Untergeschichte
+EVENT_DUNGEON_1000DAYS,1.000 Tage Festanlass-Dungeon
+EVENT_SHOP_1000DAYS,1.000 Tage Festanlass-Shop
+EVENT_DUNGEON_DESC_STORY_1000DAYS,Es ist das Event-Geschichten-Dungeon.\nHier kannst du mehr zu dem Fest erfahren.
+EVENT_DUNGEON_DESC_SPECIAL_1000DAYS,"Nachdem du alle Geschichten\ngeklärt hast, wird am 12. November\nein besonderer Gast eintreffen!"
+EVENT_1000DAYS_TICKET,Festböller
+TOOLTIP_INFO_NAME_EVENT_CAKE_1000DAYS,Festkuchen
+TOOLTIP_INFO_DESC_EVENT_CAKE_1000DAYS,"Du kannst ihn erhalten, nachdem du 1.000 Tage Festanlass Geschichten-Dungeon erfolgreich beendet hast. Dieser kann beim Kauf von Artikel im 1.000 Tage Festanlass-Shop verwendet werden."
+TOOLTIP_INFO_NAME_EVENT_BALLOON_1000DAYS,Festballons
+TOOLTIP_INFO_DESC_EVENT_BALLOON_1000DAYS,"Du kannst sie erhalten, nachdem du 1.000 Tage Festanlass Spezial-Dungeon erfolgreich beendet hast. Diese können beim Kauf von Artikel im 1.000 Tage Festanlass-Shop verwendet werden."
+EVENT_INFO_1000DAYS,Fest-Hinweis
+EVENT_NAME_1000DAYS,1.000 Tage Festanlass-Dungeon
+EVENT_DESC_1000DAYS,"- 1.000 Tage Festanlass-Dungeon\nDu erhältst Kuchen, wenn du den Geschichten-Dungeon klärst\nund Luftballons, wenn du den Spezial-Dungeon erfolgreich beendest.\n\n- NPC Danksagung\nBesuche die 7 NPC-Helden in Orvel\n(Gladi, May, Veronica, Loman, Nicky, Juno und Jin).\nDich erwarten ihre Danksagungen und ein paar Geschenke."
+EVENT_DUNGEON_1000DAYS_NAME1,1.000 Tage Danksagung
+1000DAYS_EVENT_NAME,1.000 Tage Festanlass
+EVENT_DUNGEON_1000DAYS_NAME2,10 Tage Danksagung
+EVENT_DUNGEON_1000DAYS_NAME3,100 Tage voller Emotionen
+EVENT_DUNGEON_1000DAYS_NAME4,1.000 Tage Begeisterung
+SHOP_NAME_1000DAYS_SHOP,1.000 Tage Festanlass-Shop
 EVENT_REWARD_GET_NOTICE_MESSAGE,Du musst zuerst die vorherige Belohnung abholen.
 GUILD_ARENA_MEMBER_DEFENCE_TEAM,Gildenmitglied VERT-Team
 PAYSHOP_PREPURCHASE_HALLOWEEN_2019_ARTIFACT,Bonus für den 5. Kauf: Böse Geister im Kürbiskopf
 GUILD_ARENA_MY_DEFENCE_TEAM,Mein VERT-Team
+HERO_PROFILE,Profil
+SUBSTORY_SUB_BUTTON_NAME,Geburtstag anschauen
 19HALLOWEEN_EVENT_SPECIAL_DUNGEON_DESC1_1,"Wenn du von Medianas Wasserpistole getroffen wirst, wird es schwierig, vorwärts zu kommen! Lass dich nicht vom Weg bringen."
 19HALLOWEEN_EVENT_SPECIAL_DUNGEON_DESC2_1,Yuria wickelt ihre Feinde in ihren Kleidern und macht sie hilflos! Löse dich schnell los und weiche Yurias starken Angriffen aus!
 19HALLOWEEN_EVENT_SPECIAL_DUNGEON_DESC3_1,Verbündete in Bernheims ANG-Reichweite sind in Gefahr! Greife aus weiter Entfernung an.

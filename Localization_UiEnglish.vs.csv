@@ -1694,7 +1694,7 @@ ITEM.NOT_LOCK,Lock
 HERO_FLASK.FLASK_EQUIP_COMPLETE,Flask was equipped to {1}.
 HERO_FLASK.FLASK_UNEQUIP_COMPLETE,Flask was removed.
 ITEM.EXPPOTION_DESELECT_POTION_MESSAGE,This hero has equipped a flask.
-ITEM_USE.USE_STAMINA_ITEM_CONFIRM,Use {2} {1}? \nYou will recover a total of {3} {4}.
+ITEM_USE.USE_STAMINA_ITEM_CONFIRM,Use {2} {1}? \nYou will recover a total of {4} {3}.
 ITEM_USE.USE_RUBYFLASK_ITEM_CONFIRM,Will you use {2} Ruby Flask(s)?\nYou will gain a total of {3} Ruby(Rubies).
 BATTLE.REPEAT_BATTLE_ASK_TITLE,Repeat
 BATTLE.REPEAT_BATTLE_ASK_CONTENT,Will you use Repeat Battle?
@@ -2802,9 +2802,9 @@ TOOLTIP_INFO_NAME_UNDERGROUNDPRISONKEY,Stockade Key
 TOOLTIP_INFO_NAME_UNDERGROUNDLABYRINTHKEY,Royal Vault Key
 TOOLTIP_INFO_NAME_HIDEOUTKEY,Upper Dungeon Key
 TOOLTIP_INFO_NAME_CHALLENGETOWERKEY,Cube of Challenge
-TOOLTIP_INFO_NAME_EVENTDUNGEONTICKET,Fragment of Curses
-TOOLTIP_INFO_NAME_EVENTDUNGEONPOINT,Evil Thought of Spirits
-TOOLTIP_INFO_NAME_EVENTDUNGEONPOINT2,King Slime Gelatin
+TOOLTIP_INFO_NAME_EVENTDUNGEONTICKET,Festival Firecracker
+TOOLTIP_INFO_NAME_EVENTDUNGEONPOINT,Festival Cake
+TOOLTIP_INFO_NAME_EVENTDUNGEONPOINT2,Festival Balloon
 TOOLTIP_INFO_NAME_EVENTDUNGEONTICKET_BACKUP,Halloween Dungeon Key
 TOOLTIP_INFO_NAME_EVENTDUNGEONPOINT_BACKUP,Halloween Point
 TOOLTIP_INFO_NAME_CONQUESTKEY,Conquest Entry Key
@@ -2826,8 +2826,8 @@ TOOLTIP_INFO_TEXT_UNDERGROUNDLABYRINTHKEY,Keys needed in order to enter the Roya
 TOOLTIP_INFO_TEXT_HIDEOUTKEY,Keys needed in order to enter the Upper Dungeon.
 TOOLTIP_INFO_TEXT_CHALLENGETOWERKEY,Cubes needed in order to enter the Tower of Challenge.
 TOOLTIP_INFO_TEXT_EVENTDUNGEONTICKET,Keys needed in order to enter Event Dungeons.
-TOOLTIP_INFO_TEXT_EVENTDUNGEONPOINT,"It can be obtained from the Halloween Event Dungeon, and is used to buy event items from the Halloween Shop."
-TOOLTIP_INFO_TEXT_EVENTDUNGEONPOINT2,A resource obtained by clearing Juno's Cooking Quest Special Dungeon. It is used to purchase items from Juno's Recommended Menu Shop.
+TOOLTIP_INFO_TEXT_EVENTDUNGEONPOINT,"An item obtained by clearing the 1,000 Days Anniversary Story Dungeon. It is used to purchase items from the 1,000 Days Anniversary Shop."
+TOOLTIP_INFO_TEXT_EVENTDUNGEONPOINT2,"An item obtained by clearing the 1,000 Days Anniversary Special Dungeon. It is used to purchase items from the 1,000 Days Anniversary Shop."
 TOOLTIP_INFO_NAME_GLORYPOINT,Honor Medal
 TOOLTIP_INFO_TEXT_GLORYPOINT,A type of point available at the League of Honor. Use to exchange for items in the League of Honor Shop.
 TOOLTIP_INFO_NAME_RANKINGPOINT,Insignia of Honor
@@ -3918,6 +3918,7 @@ COSTUME_GROUP_HALLOWEEN2,Halloween 2
 COSTUME_GROUP_MAID1,Butler and Maid
 COSTUME_GROUP_SPORTSWARE1,Sportswear
 COSTUME_GROUP_CASAULFASHION1,Casual Fashion
+COSTUME_GROUP_HEROICCAREER1,Uniform
 UI_SELECT_HERO_NONE,No heroes are available to select.
 UI_SELECT_COSTUME_NONE,No costumes are available to select.
 FILTER_SELECT.FILTER_SELECT_PART,View by Part
@@ -5505,11 +5506,13 @@ ITEM_NAME_47020,Marble of Darkness
 ITEM_DESC2_47020,An item that can be given to Lavril as a gift.\nIncreases Contribution by 1.
 ITEM_NAME_91336,Lavril’s Present
 ITEM_DESC2_91336,"A present box Lavril prepared with a good amount of effort.\nUpon use, you can obtain Mystical Soul Fragment, Unique Weapon Fragment, Halloween Accessory Box, and Event Artifact."
-GUILD_ARENA_REMAIN_DAY_HOUR,Starts in {1}
 EVENT_REWARD_GET_NOTICE_MESSAGE,Please claim the rewards from the previous level first.
+GUILD_ARENA_REMAIN_DAY_HOUR,Starts in {1}
 GUILD_ARENA_MEMBER_DEFENCE_TEAM,Guild Member’s Defense Team
-PAYSHOP_PREPURCHASE_HALLOWEEN_2019_ARTIFACT,Provided upon 5th Purchase: ‘Pumpkin-Stuck Evil Spirit’
+PAYSHOP_PREPURCHASE_HALLOWEEN_2019_ARTIFACT,Provided upon 5th Purchase: 'Pumpkin-Stuck Evil Spirit'
 GUILD_ARENA_MY_DEFENCE_TEAM,My Defense Team
+HERO_PROFILE,Profile
+SUBSTORY_SUB_BUTTON_NAME,View Birthday
 19HALLOWEEN_EVENT_SPECIAL_DUNGEON_DESC1_1,Getting hit by Mediana's Water Cannon makes it hard to move forward! Try to counter it so that you do not get pushed away.
 19HALLOWEEN_EVENT_SPECIAL_DUNGEON_DESC2_1,Yuria disables her enemy by wrapping them with her clothing! Remove it quickly and evade Yuria’s powerful attacks.
 19HALLOWEEN_EVENT_SPECIAL_DUNGEON_DESC3_1,Allies within Bernheim’s range will be exposed to his attacks! Try attacking Bernheim from afar.
@@ -5519,3 +5522,56 @@ GUILD_ARENA_MY_DEFENCE_TEAM,My Defense Team
 19HALLOWEEN_EVENT_SPECIAL_DUNGEON_SUB_TITLE3,Halloween Special Dungeon 3
 19HALLOWEEN_EVENT_SPECIAL_DUNGEON_SUB_TITLE4,Halloween Special Dungeon 4
 SELECT_ITEM_OPTION_SORT,Sort Option
+BOOKMARK.BOOKMARK_HERO,Preferred
+BOOKMARK.UNBOOKMARK_HERO,Remove Preferred
+BOOKMARK.HERO_DEMOTED_TO_LAST,This is the last Hero of the Preferred Heroes list.
+BOOKMARK.HERO_BOOKMARK_FAILED_SAVE,Unable to save due to unstable network status.\nPlease try again.
+SYSTEM.LOW_MEMORY,Not enough memory.
+USE_STAMINA_ITEM_CONFIRM_RESET_WARNING,*Warning!! Charged {1} will reset at {2} and disappear.
+PUSH_REWARD_LUNCH,Lunch Reward Claimed
+PUSH_REWARD_DINNER,Evening Reward Claimed
+1000TH_ANNIVERSARY_ATTENDANCE_ICON,"1,000 Days Anniversary! Appreciation Gift!"
+1000TH_ANNIVERSARY_ATTENDANCE_ITEM_DESC,※Attendance Gift rewards can be claimed only until 30th November.
+IMPROVE_RESETREMAININGDATE,{1} remaining
+RECOGNITION_DAY,d
+RECOGNITION_HOUR,h
+ADVENTURE_NOTICE_STAMINA_REGENERATION,{1} : {2} : {3}
+ADVENTURE_NOTICE_RESET_REMAIN_DAY,{1}d remaining
+ADVENTURE_NOTICE_RESET_REMAIN_HOUR_1,{1}h remaining
+ADVENTURE_NOTICE_RESET_REMAIN_HOUR_2,less than {1}h remaining
+ADVENTURE_NOTICE_STAMINA_END,Exit
+ADVENTURE_NOTICE_STAMINA_ETC,Always Available
+HERO_PROFILE_SUBSTORY,Substory
+EVENT_DUNGEON_1000DAYS,"1,000 Days Anniversary Festival Dungeon"
+EVENT_SHOP_1000DAYS,"1,000 Days Anniversary Festival Shop"
+EVENT_REWARD_GET_NOTICE_MESSAGE,Please claim the rewards from the previous level first.
+GUILD_ARENA_MEMBER_DEFENCE_TEAM,Guild Member’s Defense Team
+EVENT_1000DAYS_TICKET,Festival Firecracker
+EVENT_DUNGEON_DESC_STORY_1000DAYS,This is an Event Story Dungeon.\nYou can enjoy the story of the festival.
+TOOLTIP_INFO_NAME_EVENT_CAKE_1000DAYS,Festival Cake
+TOOLTIP_INFO_NAME_EVENT_BALLOON_1000DAYS,Festival Balloon
+PAYSHOP_PREPURCHASE_HALLOWEEN_2019_ARTIFACT,Provided upon 5th Purchase: ‘Pumpkin-Stuck Evil Spirit’
+TOOLTIP_INFO_DESC_EVENT_CAKE_1000DAYS,"An item obtained by clearing the 1,000 Days Anniversary Story Dungeon. It is used to buy event items from the 1,000 Days Anniversary Shop."
+GUILD_ARENA_MY_DEFENCE_TEAM,My Defense Team
+TOOLTIP_INFO_DESC_EVENT_BALLOON_1000DAYS,"An item obtained by clearing the 1,000 Days Anniversary Special Dungeon. It is used to buy event items from the 1,000 Days Anniversary Shop."
+EVENT_INFO_1000DAYS,Festival Guide
+EVENT_DUNGEON_DESC_SPECIAL_1000DAYS,"After completing all the stories,\nplease be ready to greet a very special guest on 12th November!"
+HERO_PROFILE,Profile
+SUBSTORY_SUB_BUTTON_NAME,View Birthday
+EVENT_DUNGEON_1000DAYS_NAME1,"Thank You All For 1,000 Days"
+19HALLOWEEN_EVENT_SPECIAL_DUNGEON_DESC1_1,Getting hit by Mediana's Water Cannon makes it hard to move forward! Try to counter it so that you do not get pushed away.
+EVENT_NAME_1000DAYS,"1,000 Days Anniversary Festival Dungeon"
+19HALLOWEEN_EVENT_SPECIAL_DUNGEON_DESC2_1,Yuria disables her enemy by wrapping them with her clothing! Remove it quickly and evade Yuria’s powerful attacks.
+19HALLOWEEN_EVENT_SPECIAL_DUNGEON_DESC3_1,Allies within Bernheim’s range will be exposed to his attacks! Try attacking Bernheim from afar.
+19HALLOWEEN_EVENT_SPECIAL_DUNGEON_DESC4_1,"While in her Siege Mode, Kara will continuously attack her enemies. Focus your attacks on the Siege Mode Kara of the 3 Karas and take her down quickly!"
+19HALLOWEEN_EVENT_SPECIAL_DUNGEON_SUB_TITLE1,Halloween Special Dungeon 1
+1000DAYS_EVENT_NAME,"1,000 Days Anniversary Festival"
+SHOP_NAME_1000DAYS_SHOP,"1,000 Days Anniversary Festival Shop"
+19HALLOWEEN_EVENT_SPECIAL_DUNGEON_SUB_TITLE2,Halloween Special Dungeon 2
+EVENT_DESC_1000DAYS,"- 1,000 Days Anniversary Festival Dungeon\nClear the Story Dungeon to obtain a Cake,\nand clear the Special Dungeon to obtain a Balloon.\n\n- Special Thanks From the NPCs\nGo and talk to the 7 NPCs of Orvel\n(Gladi, May, Veronica, Loman, Nicky, Juno, and Jin).\nThey have prepared a special word of thanks and a gift for you."
+19HALLOWEEN_EVENT_SPECIAL_DUNGEON_SUB_TITLE3,Halloween Special Dungeon 3
+19HALLOWEEN_EVENT_SPECIAL_DUNGEON_SUB_TITLE4,Halloween Special Dungeon 4
+EVENT_DUNGEON_1000DAYS_NAME2,10 Days of Gratitude
+SELECT_ITEM_OPTION_SORT,Sort Option
+EVENT_DUNGEON_1000DAYS_NAME3,100 Days of Delight
+EVENT_DUNGEON_1000DAYS_NAME4,"1,000 Days of Exhilaration"

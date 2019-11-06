@@ -1644,7 +1644,7 @@ INVENTORY.INVENTORY_CRAFT_EVENT_PERIOD_END_BUTTON,Rembourser
 COMMON_ATTRIBUTES,Bonus
 LEARN_TRANSCEND_SKILL_CONFIRM,"Si vous apprenez ce bonus, \nvous ne pourrez plus en apprendre d'autre du même niveau.\nVoulez-vous apprendre cette Caractéristique?"
 NEED_TRANSCEND_SKILL_POINT,{1} Points de Transcendance utilisés
-WARNING_TRANSCEND_SKILL_POINT,Vous pouvez seulement choisir entre\nTalent d'Ombre ou de Lumière pour cette compétence.
+WARNING_TRANSCEND_SKILL_POINT,Vous pouvez seulement choisir entre\nTalent de Ténèbres ou de Lumière pour cette compétence.
 ADDED_TRANSCEND_SKILL_POINT,{1} Points de Transcendance obtenus
 RAID_RAIDLEVELSELECT_LABEL,Sélectionnez Niveau
 TRANCEND_CHALLENGE_READY_CONFIRM,Êtes-vous prêt à affronter votre Lumière intérieure ?
@@ -2802,9 +2802,9 @@ TOOLTIP_INFO_NAME_UNDERGROUNDPRISONKEY,Clé de la Prison
 TOOLTIP_INFO_NAME_UNDERGROUNDLABYRINTHKEY,Clé de la Crypte Royale
 TOOLTIP_INFO_NAME_HIDEOUTKEY,Clé de Donjon Supérieur
 TOOLTIP_INFO_NAME_CHALLENGETOWERKEY,Cube des Challenges
-TOOLTIP_INFO_NAME_EVENTDUNGEONTICKET,Fragment de malédiction
-TOOLTIP_INFO_NAME_EVENTDUNGEONPOINT,Pensée d'esprit maléfique
-TOOLTIP_INFO_NAME_EVENTDUNGEONPOINT2,Gélatine du Roi-Limon
+TOOLTIP_INFO_NAME_EVENTDUNGEONTICKET,Feux d’Artifice de Célébration
+TOOLTIP_INFO_NAME_EVENTDUNGEONPOINT,Gâteau de Célébration
+TOOLTIP_INFO_NAME_EVENTDUNGEONPOINT2,Ballon de Célébration
 TOOLTIP_INFO_NAME_EVENTDUNGEONTICKET_BACKUP,Clé du Donjon d'Halloween
 TOOLTIP_INFO_NAME_EVENTDUNGEONPOINT_BACKUP,Point d'Halloween
 TOOLTIP_INFO_NAME_CONQUESTKEY,Clé de conquête
@@ -2826,8 +2826,8 @@ TOOLTIP_INFO_TEXT_UNDERGROUNDLABYRINTHKEY,Clés requises pour entrer dans la Cry
 TOOLTIP_INFO_TEXT_HIDEOUTKEY,Clés requises pour entrer dans les Donjons Supérieurs.
 TOOLTIP_INFO_TEXT_CHALLENGETOWERKEY,Cubes requis pour entrer dans la Tour du Défi.
 TOOLTIP_INFO_TEXT_EVENTDUNGEONTICKET,Clés requises pour entrer dans les Donjons Événements.
-TOOLTIP_INFO_TEXT_EVENTDUNGEONPOINT,Cet objet peut être obtenu dans les donjons d'événement de Halloween et vous pouvez l'utiliser dans la boutique de Halloween pour acheter les produits d'événement.
-TOOLTIP_INFO_TEXT_EVENTDUNGEONPOINT2,Vous pouvez obtenir cet objet lorsque vous accomplissez le donjon spécial de l'Aventure de Cuisine de Juno. Il est utilisé pour acheter divers objets dans la Boutique de Menus recommandés de Juno.
+TOOLTIP_INFO_TEXT_EVENTDUNGEONPOINT,Vous pouvez obtenir cette monnaie en accomplissant les donjons d’histoire de célébration de 1000 jours. Elle est utilisable dans la boutique de célébration de 1000 jours pour acheter des produits.
+TOOLTIP_INFO_TEXT_EVENTDUNGEONPOINT2,Vous pouvez obtenir cette monnaie en accomplissant les donjons spéciaux de célébration de 1000 jours. Elle est utilisable dans la boutique de célébration de 1000 jours pour acheter des produits.
 TOOLTIP_INFO_NAME_GLORYPOINT,Médaille de Gloire
 TOOLTIP_INFO_TEXT_GLORYPOINT,Une monnaie disponible dans la Ligue de Gloire. Utilisez-les en échange d'objets à la Boutique de la Ligue de Gloire.
 TOOLTIP_INFO_NAME_RANKINGPOINT,Insigne de Gloire
@@ -3176,7 +3176,7 @@ EVENT_NEW_YEAR_FIREWORKS,Gerbe d'Étincelles du Nouvel An
 SELECT_OPTION,Sélectionnez Option
 SELECT_OPTION_TITLE,Sélectionnez Option Équipement
 EQUIP_OPTION_SELECT_MASSAGE,Voulez-vous vraiment obtenir cet objet?
-EQUIP_GRADE_STAT_MASSAGE,Améliorer +{1}: 
+EQUIP_GRADE_STAT_MASSAGE,Améliorer +{1}:
 OPTION_RESET,Réinitialiser les options
 SELECT_OPTION_NOTIFICATION_TEXT,Aucune option à sélectionner.\nTouchez Réinitialiser les options pour modifier les options.
 MENU_ALL_NOTICE,Avis
@@ -3918,6 +3918,7 @@ COSTUME_GROUP_HALLOWEEN2,Halloween 2
 COSTUME_GROUP_MAID1,Majordome et servante
 COSTUME_GROUP_SPORTSWARE1,Vêtement de Sport
 COSTUME_GROUP_CASAULFASHION1,Tenue décontractée
+COSTUME_GROUP_HEROICCAREER1,Costume de Classe
 UI_SELECT_HERO_NONE,Aucun Héros disponible.
 UI_SELECT_COSTUME_NONE,Aucun costume disponible.
 FILTER_SELECT.FILTER_SELECT_PART,Afficher par partie
@@ -4403,10 +4404,10 @@ HONOR_RANK1_PVP2,Premier Rang de la Ligue de Gloire
 HONOR_RANK1_WORLDBOSS,Premier rang du boss mondial
 HONOR_RANK1_GUILD_PUNITIVE,Premier rang de la conquête de guildes
 HONOR_RANK_AFTER_SEASON,Le rang s'affichera à la fin de la saison en cours.
-HONOR_RANK_SCORE,Score : 
+HONOR_RANK_SCORE,Score :
 HONOR_RANK_SCORE_INFO,{1} point(s) (rang {2})
 HONOR_RANK_REPEATWIN,Série victorieuse : {1}
-HONOR_RANK_RECORD,Record : 
+HONOR_RANK_RECORD,Record :
 HONOR_RANK_RECORD_INFO,{1}Vic. {2}Déf.
 HONOR_RANK_WINNINGRATE,Taux de victoires : {1} %
 HONOR_WORLDBOSS_TITLE,Boss Mondial :
@@ -5505,11 +5506,66 @@ ITEM_NAME_47020,Bille ténébreuse
 ITEM_DESC2_47020,Vous pouvez offrir cet objet à Lavril.\nIl augmente les points de contribution d'un point.
 ITEM_NAME_91336,Cadeau de Lavril
 ITEM_DESC2_91336,"Coffret de cadeau contenant la sincérité de Lavril.\nPermet d'obtenir les Fragments d'Âme mystérieux, les Fragments d'Arme Unique, le Coffret d'accessoires de Halloween, la Relique limitée d'événement."
+EVENT_REWARD_GET_NOTICE_MESSAGE,Veuillez récupérer d'abord la récompense de l'étape précédente.
 GUILD_ARENA_REMAIN_DAY_HOUR,{1} restants jusqu'à l'ouverture
+GUILD_ARENA_MEMBER_DEFENCE_TEAM,Équipe de défense de membres de guilde
+PAYSHOP_PREPURCHASE_HALLOWEEN_2019_ARTIFACT,Offert après le 5e achat : 'Esprit maléfique coincé dans une citrouille'
+GUILD_ARENA_MY_DEFENCE_TEAM,Mon équipe de défense
+HERO_PROFILE,Profil
+SUBSTORY_SUB_BUTTON_NAME,Voir l'anniversaire
+19HALLOWEEN_EVENT_SPECIAL_DUNGEON_DESC1_1,"En recevant le Canon à eau de Mediana, il vous sera difficile d'avancer ! Alors préparez-vous à l'avance afin de ne pas être repoussé."
+19HALLOWEEN_EVENT_SPECIAL_DUNGEON_DESC2_1,"Yuria recouvre l'ennemi avec le vêtement pour le neutraliser ! Dissipez rapidement l'effet, afin d'éviter une puissante attaque de la part de Yuria."
+19HALLOWEEN_EVENT_SPECIAL_DUNGEON_DESC3_1,L'allié à portée de l'attaque de Bernheim sera en grand danger ! Il faut l'attaquer de plus loin possible.
+19HALLOWEEN_EVENT_SPECIAL_DUNGEON_DESC4_1,"Kara en mode arme de siège attaque continuellement l'ennemi. Parmi les 3 Kara présentes, focalisez-vous sur Kara en mode arme de siège afin de vous en débarrasser au plus vite !"
+19HALLOWEEN_EVENT_SPECIAL_DUNGEON_SUB_TITLE1,Donjon spécial de Halloween 1
+19HALLOWEEN_EVENT_SPECIAL_DUNGEON_SUB_TITLE2,Donjon spécial de Halloween 2
+19HALLOWEEN_EVENT_SPECIAL_DUNGEON_SUB_TITLE3,Donjon spécial de Halloween 3
+19HALLOWEEN_EVENT_SPECIAL_DUNGEON_SUB_TITLE4,Donjon spécial de Halloween 4
+SELECT_ITEM_OPTION_SORT,Aligner les options
+BOOKMARK.BOOKMARK_HERO,Favori
+BOOKMARK.UNBOOKMARK_HERO,Annuler favori
+BOOKMARK.HERO_DEMOTED_TO_LAST,Vous êtes à la fin de la liste des Héros favoris.
+BOOKMARK.HERO_BOOKMARK_FAILED_SAVE,L'enregistrement a échoué en raison d’une connexion internet instable.\nVeuillez réessayer.
+SYSTEM.LOW_MEMORY,La mémoire est insuffisante.
+USE_STAMINA_ITEM_CONFIRM_RESET_WARNING,*Attention !! {1} chargé sera réinitialisé et disparaitra {2}.
+PUSH_REWARD_LUNCH,Récupérer la récompense de midi
+PUSH_REWARD_DINNER,Récupérer la récompense du soir
+1000TH_ANNIVERSARY_ATTENDANCE_ICON,Cadeau de remerciement ! Pour célébrer les 1000 jours !
+1000TH_ANNIVERSARY_ATTENDANCE_ITEM_DESC,※ Les cadeaux de connexion ne sont disponibles que jusqu’au 30 novembre. Les récompenses non récupérées disparaissent au-delà de cette date.
+IMPROVE_RESETREMAININGDATE,{1} restant
+RECOGNITION_DAY,Jour
+RECOGNITION_HOUR,Heure
+ADVENTURE_NOTICE_STAMINA_REGENERATION,{1} : {2} : {3}
+ADVENTURE_NOTICE_RESET_REMAIN_DAY,{1}j restant
+ADVENTURE_NOTICE_RESET_REMAIN_HOUR_1,{1}h restant
+ADVENTURE_NOTICE_RESET_REMAIN_HOUR_2,Moins de {1}h restant
+ADVENTURE_NOTICE_STAMINA_END,Fin
+ADVENTURE_NOTICE_STAMINA_ETC,Entrée permanente
+HERO_PROFILE_SUBSTORY,Sous-Intrigue
+EVENT_DUNGEON_1000DAYS,Donjon de Célébration de 1000 jours
+EVENT_SHOP_1000DAYS,Boutique de Célébration de 1000 jours
+EVENT_DUNGEON_DESC_STORY_1000DAYS,Ce sont des donjons d’histoire d’événement.\nVous pouvez profiter des histoires de célébration.
+EVENT_DUNGEON_DESC_SPECIAL_1000DAYS,"Si vous avez accompli toutes les histoires,\nun invité spécial vous rendra visite le 12 novembre !"
+EVENT_1000DAYS_TICKET,Feux d’Artifice de Célébration
+TOOLTIP_INFO_NAME_EVENT_CAKE_1000DAYS,Gâteau de Célébration
+TOOLTIP_INFO_DESC_EVENT_CAKE_1000DAYS,Vous pouvez obtenir cette monnaie en accomplissant les donjons d’histoire de célébration de 1000 jours. Elle est utilisable dans la boutique de célébration de 1000 jours pour acheter des produits.
+TOOLTIP_INFO_NAME_EVENT_BALLOON_1000DAYS,Ballon de Célébration
+TOOLTIP_INFO_DESC_EVENT_BALLOON_1000DAYS,Vous pouvez obtenir cette monnaie en accomplissant les donjons spéciaux de célébration de 1000 jours. Elle est utilisable dans la boutique de célébration de 1000 jours pour acheter des produits.
+EVENT_INFO_1000DAYS,Guide de la Célébration
+EVENT_NAME_1000DAYS,Donjon de Célébration de 1000 jours
+EVENT_DESC_1000DAYS,"- Donjon de Célébration de 1000 jours\nVous pouvez obtenir le gâteau en accomplissant les donjons d’histoire,\net le ballon en accomplissant les donjons spéciaux.\n\n- Les remerciements des PNJ\nRendez visite aux 7 PNJ\n(Gladi, May, Veronica, Loman, Nicky, Juno, Jin) situés çà et là dans tout Orvel.\nIls vous attendent avec des remerciements et des cadeaux."
+EVENT_DUNGEON_1000DAYS_NAME1,Remerciement pour 1000 jours
+1000DAYS_EVENT_NAME,Fête de célébration de 1000 jours
+EVENT_DUNGEON_1000DAYS_NAME2,Remerciement pour 10 jours
+EVENT_DUNGEON_1000DAYS_NAME3,Meilleur Sentiment pour 100 jours
+EVENT_DUNGEON_1000DAYS_NAME4,Vive Émotion pour 1000 jours
+SHOP_NAME_1000DAYS_SHOP,Boutique de Célébration de 1000 jours
 EVENT_REWARD_GET_NOTICE_MESSAGE,Veuillez récupérer d'abord la récompense de l'étape précédente.
 GUILD_ARENA_MEMBER_DEFENCE_TEAM,Équipe de défense de membres de guilde
 PAYSHOP_PREPURCHASE_HALLOWEEN_2019_ARTIFACT,Offert après le 5e achat : 'Esprit maléfique coincé dans une citrouille'
 GUILD_ARENA_MY_DEFENCE_TEAM,Mon équipe de défense
+HERO_PROFILE,Profil
+SUBSTORY_SUB_BUTTON_NAME,Voir l'anniversaire
 19HALLOWEEN_EVENT_SPECIAL_DUNGEON_DESC1_1,"En recevant le Canon à eau de Mediana, il vous sera difficile d'avancer ! Alors préparez-vous à l'avance afin de ne pas être repoussé."
 19HALLOWEEN_EVENT_SPECIAL_DUNGEON_DESC2_1,"Yuria recouvre l'ennemi avec le vêtement afin de le neutraliser ! Dissipez rapidement l'effet, afin d'éviter une puissante attaque de la part de Yuria."
 19HALLOWEEN_EVENT_SPECIAL_DUNGEON_DESC3_1,L'allié à portée de l'attaque de Bernheim sera en grand danger ! Il faut l'attaquer de plus loin possible.

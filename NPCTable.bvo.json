@@ -1148,6 +1148,71 @@
     "MenuTitleKey": "SQUARE_NAME_NORMAL_SUB"
   },
   {
+    "Code": "Square_1000Days",
+    "OnOpenEntryMenu": [
+      "NPC_SOULGEMSHOP_WELCOME04",
+      " NPC.SoulGemShop.Welcome04",
+      " Buy",
+      " \nNPC_SOULGEMSHOP_WELCOME05",
+      " NPC.SoulGemShop.Welcome05",
+      " Buy",
+      " \nNPC_SOULGEMSHOP_WELCOME06",
+      " NPC.SoulGemShop.Welcome06",
+      " Buy"
+    ],
+    "OnTouch": [
+      "NPC_SOULGEMSHOP_TOUCH07",
+      " NPC.SoulGemShop.Touch07",
+      " Touch",
+      " \nNPC_SOULGEMSHOP_TOUCH08",
+      " NPC.SoulGemShop.Touch08",
+      " Touch",
+      " \nNPC_SOULGEMSHOP_TOUCH09",
+      " NPC.SoulGemShop.Touch09",
+      " Touch",
+      " \nNPC_SOULGEMSHOP_TOUCH10",
+      " NPC.SoulGemShop.Touch10",
+      " Touch",
+      " \nNPC_SOULGEMSHOP_TOUCH11",
+      " NPC.SoulGemShop.Touch11",
+      " Touch",
+      " \nNPC_SOULGEMSHOP_TOUCH12",
+      " NPC.SoulGemShop.Touch12",
+      " Touch"
+    ],
+    "EntryMenuButton1": [
+      "EVENT_DUNGEON_1000DAYS",
+      "OpenEventDungeonSelect",
+      "True",
+      "30029",
+      "1",
+      "2"
+    ],
+    "EntryMenuCondition1": "EventExist,EventDungeon,30029",
+    "EntryMenuButton2": [
+      "EVENT_SHOP_1000DAYS",
+      "OpenShop",
+      "1000Days_Shop"
+    ],
+    "EntryMenuCondition2": "EventExist,EventShop,1000Days_Shop",
+    "EntryMenuButton3": [
+      "EVENT_INFO_1000DAYS",
+      "OpenHelp",
+      "EVENT_NAME_1000DAYS",
+      "EVENT_DESC_1000DAYS"
+    ],
+    "EntryMenuCondition3": "EventExist,EventShop,1000Days_Shop",
+    "CreatureIndex": 805,
+    "NpcOffset": [
+      "-80",
+      "50"
+    ],
+    "NpcAngle": -50,
+    "NpcScale": 120,
+    "MenuIconType": "Event_1000Days_Button",
+    "MenuTitleKey": "SQUARE_NAME_NORMAL_SUB"
+  },
+  {
     "Code": "NormalShop",
     "HeroIndex": 90,
     "ShowHeroBuffIcon": "True",
@@ -1530,6 +1595,10 @@
       "OpenMazeTowerList"
     ],
     "EntryMenuCondition2": "ClearDungeon,7,12,Easy",
+    "EntryMenuEvent2": [
+      "ShowRemainTime",
+      "Maze;1001;10;RemainTimeWidget"
+    ],
     "EntryMenuButton3": [
       "MENU_USE_SHOP",
       "OpenShop",
@@ -2177,7 +2246,9 @@
     ],
     "EntryMenuEvent1": [
       "DropBonusEvent",
-      "EventShop;ChallengeTowerShop;EventWidget"
+      "EventShop;ChallengeTowerShop;EventWidget",
+      "ShowRemainTime",
+      "ChallengeTower;21;10;RemainTimeWidget"
     ],
     "EntryMenuButton2": [
       "CHALLENGETOWER_ENTRY_RELIC",

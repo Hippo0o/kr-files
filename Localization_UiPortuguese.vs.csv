@@ -281,9 +281,9 @@ COMMON_LACK_SLOT,Os espaços de inventário estão cheios.
 COMMON_INPUTTEXT,Insira o conteúdo.
 COMMON_GET,Adquirir
 COMMON_ENEMY,Inimigos
-COMMON_REWARDEXP,EXP Adquirida
-COMMON_GOLDGET,Ouro Adquirido
-COMMON_GOLDGET_LABYRINTH,Ouro Adquirido
+COMMON_REWARDEXP,EXP
+COMMON_GOLDGET,Ouro
+COMMON_GOLDGET_LABYRINTH,Ouro
 COMMON_CLEARTIME,Tempo Necessário {1}:{2}
 COMMON_RETRY,Repetir
 COMMON_LOSE_TEXT,Realçar seu herói e equipamentos e tentar novamente!
@@ -1042,7 +1042,7 @@ HERO_AWAKEN,{1} foi despertado!
 RECEIVED_ALL_MAILS,Você recebeu {1} anexos de todas as mensagens.
 INVENTORY_ADD_SLOT,Inventário aumentou em {1} espaco.
 USE_BOOSTER_MSG,Usado {1}. \nTempo restante: {2} d {3} h {4} m
-USE_POTION_MSG,{1} recuperou {2}
+USE_POTION_MSG,Você recuperou {1} {2}x.
 USE_BOOSTER_EFFECT_MSG,{2} é reforçado em {3}% por {1} min.
 USE_ITEM_EFFECT_MSG,{1} aumentou em {2}%. \nTempo Restante : {3} Dias {4} Horas {5} Min
 USE_EFFECT_GOLD_BUFF,Ganhos em Ouro
@@ -1404,7 +1404,7 @@ HEROINN_MINIGAME,Minijogo
 HEROINN_LUCKY_ROULETTE,Roleta da Sorte!
 HEROINN_ROULETTE,Girar Roleta
 HEROINN_ROULETTE_START,Iniciar
-HEROINN_ROULETTE_GUIDE,[Roulette Guide]
+HEROINN_ROULETTE_GUIDE,[Regras da Roleta]
 ROULETTEGUIDE_DESC,"* Você tem 1 giro da roleta grátis por dia.\n\n* Você ganha giros de acordo com a quantidade de heróis que você tem, tirando os que estão visitando a estalagem.\n\n* A contagem é restaurada todos os dias à meia-noite."
 CLOSENESS_TALK_UNLOCK,Remover quando a Afinidade estiver em {1}
 HEROINN_CLOSENESS_COOLTIME,Até a próxima!
@@ -2027,11 +2027,11 @@ WEEKLYMISSION_RAID_HARD_RED_CLEAR_DESC,Modo Difícil do Dragão de Fogo\nem Equi
 WEEKLYMISSION_RAID_HARD_BLUE_CLEAR_DESC,Modo Difícil do Dragão de Gelo\nem Equipe Concluído x3
 WEEKLYMISSION_RAID_HARD_GREEN_CLEAR_DESC,Modo Difícil do Dragão de Veneno\nem Equipe Concluído x3
 WEEKLYMISSION_RAID_HARD_BLACK_CLEAR_DESC,Modo Difícil do Dragão Negro\nem Equipe Concluído x3
-WEEKLYMISSION_RAID_HARD_CLEAR_NAME,Clear Dragon Hard Single/Party Mode
-WEEKLYMISSION_RAID_HARD_CLEAR_DESC_3,Clear Dragon Hard/Party Mode 3 Times
-WEEKLYMISSION_RAID_HARD_CLEAR_DESC_6,Clear Dragon Hard/Party Mode 6 Times
-WEEKLYMISSION_RAID_HARD_CLEAR_DESC_9,Clear Dragon Hard/Party Mode 9 Times
-WEEKLYMISSION_RAID_HARD_CLEAR_DESC_12,Clear Dragon Hard/Party Mode 12 Times
+WEEKLYMISSION_RAID_HARD_CLEAR_NAME,Conclua Incursão de Dragão Modo Difícil Individual/Equipe {1}
+WEEKLYMISSION_RAID_HARD_CLEAR_DESC_3,Conclua Incursão de Dragão Modo Difícil Individual/Equipe 3x
+WEEKLYMISSION_RAID_HARD_CLEAR_DESC_6,Conclua Incursão de Dragão Modo Difícil Individual/Equipe 6x
+WEEKLYMISSION_RAID_HARD_CLEAR_DESC_9,Conclua Incursão de Dragão Modo Difícil Individual/Equipe 9x
+WEEKLYMISSION_RAID_HARD_CLEAR_DESC_12,Conclua Incursão de Dragão Modo Difícil Individual/Equipe 12x
 RAID_MISSION,Missão de Incursão
 HARD_RAID_LIST,Lista de Incursão no Modo Difícil
 HARD_RAID_DESC,Derrote Dragões mais poderosos para obter novas recompensas.
@@ -2402,10 +2402,10 @@ NPC_RECRUIT_REWARD_NICKY_DESC01,Ter Nicky na lista de Heróis aumenta a recarga 
 NPC_RECRUIT_REWARD_NICKY_DESC02,Você pode obter a Arma Única de Nicky. A recompensa pode ser reivindicada várias vezes.
 NICKY_BONUS_NAME1,Bênção de Nicky
 NICKY_BONUS_DESC1,Aumenta a recarga diária da Chave da Prisão em 1.
-NPC_RECRUIT_REWARD_DOSARTA_DESC01,"Quando você tem a Dosarta, é possível obter mais 2 Peças de Artefato das recompensas recorrentes da Torre do Desafio.\nAs recompensas adicionais serão afetadas pelos efeitos do Impulsionador de Espólios."
+NPC_RECRUIT_REWARD_DOSARTA_DESC01,"Quando você tem a Dosarta, é possível obter mais 2 Fragmentos de Artefato das recompensas recorrentes da Torre do Desafio.\nAs recompensas adicionais serão afetadas pelos efeitos do Impulsionador de Espólios."
 NPC_RECRUIT_REWARD_DOSARTA_DESC02,Você pode obter a Arma Única de Dosarta. A recompensa pode ser reivindicada várias vezes.
 DOSARTA_BONUS_NAME2,Bênção de Dosarta
-DOSARTA_BONUS_DESC2,Você pode obter mais 2 Peças de Artefato das recompensas recorrentes da Torre do Desafio.\nAs recompensas adicionais serão afetadas pelos efeitos do Impulsionador de Espólios.
+DOSARTA_BONUS_DESC2,Você pode obter mais 2 Fragmentos de Artefato das recompensas recorrentes da Torre do Desafio.\nAs recompensas adicionais serão afetadas pelos efeitos do Impulsionador de Espólios.
 NPC_RECRUIT_REWARD_HANUS_DESC01,"Ao obter Hanus, aumenta a VEL de ATQ de todos os aliados em 100 na Batalha de Guildas."
 NPC_RECRUIT_REWARD_HANUS_DESC02,Receba a Arma Única de Hanus. Este prêmio pode ser recebido várias vezes.
 HANUS_BONUS_NAME100,Participação de Hanus
@@ -2433,7 +2433,7 @@ SMITHY_TIER_UPGRADE,Ascender Equipamento
 SMITHY_TIERUPGRADE_EMPTY,Não há equipamento viável para atualização de série.
 TIER_UPGRADE_USE_MATERIAL,Materiais Necessários
 RESULT_TYPE.NOT_EQUIP_MAX_STAR,Este equipamento não é de 5 Estrelas.
-UNIQUE_WEAPON_SLICE_MESSAGE,"Ao triturar este item, não será possível recuperá-lo.\nVocê receberá {1} Fragmentos Únicos.\nDeseja triturar {2}?"
+UNIQUE_WEAPON_SLICE_MESSAGE,"Ao triturar este item, não será possível recuperá-lo.\nVocê receberá Fragmento de Arma Única {1}x.\nDeseja triturar {2}?"
 OPTION_PUSH_ALL,Todas as Notificações
 OPTION_PUSH_SYSTEM,Notificação de Sistema
 OPTION_PUSH_STAMINA_ALL_CHARGE,Vigor Cheio
@@ -2802,9 +2802,9 @@ TOOLTIP_INFO_NAME_UNDERGROUNDPRISONKEY,Chave do Calabouço
 TOOLTIP_INFO_NAME_UNDERGROUNDLABYRINTHKEY,Chave do Cofre Real
 TOOLTIP_INFO_NAME_HIDEOUTKEY,Chave da Masmorra Superior
 TOOLTIP_INFO_NAME_CHALLENGETOWERKEY,Cubo do Desafio
-TOOLTIP_INFO_NAME_EVENTDUNGEONTICKET,Fragmento de Maldições
-TOOLTIP_INFO_NAME_EVENTDUNGEONPOINT,Maldade dos Espíritos 
-TOOLTIP_INFO_NAME_EVENTDUNGEONPOINT2,Gelatina de Visgo-Rei
+TOOLTIP_INFO_NAME_EVENTDUNGEONTICKET,Rojão Festivo
+TOOLTIP_INFO_NAME_EVENTDUNGEONPOINT,Bolo Festivo
+TOOLTIP_INFO_NAME_EVENTDUNGEONPOINT2,Balão Festivo
 TOOLTIP_INFO_NAME_EVENTDUNGEONTICKET_BACKUP,Chave de Masmorra do Halloween
 TOOLTIP_INFO_NAME_EVENTDUNGEONPOINT_BACKUP,Ponto de Halloween
 TOOLTIP_INFO_NAME_CONQUESTKEY,Chave da Batalha do Triunfo
@@ -2826,8 +2826,8 @@ TOOLTIP_INFO_TEXT_UNDERGROUNDLABYRINTHKEY,Chaves necessárias para entrar no Cof
 TOOLTIP_INFO_TEXT_HIDEOUTKEY,Chaves necessárias para entrar na Masmorra Superior.
 TOOLTIP_INFO_TEXT_CHALLENGETOWERKEY,Cubos necessários para entrar na Torre do Desafio.
 TOOLTIP_INFO_TEXT_EVENTDUNGEONTICKET,Chaves necessárias para entrar nas Masmorras de Evento.
-TOOLTIP_INFO_TEXT_EVENTDUNGEONPOINT,É possível obter nas Masmorras do Evento de Halloween. Pode ser usado para comprar produtos na Loja do Halloween.
-TOOLTIP_INFO_TEXT_EVENTDUNGEONPOINT2,Moeda de troca obtida ao concluir as masmorras especiais da história da Missão Culinária de Juno. Podem ser usadas para comprar itens na Loja Menu do Dia de Juno.
+TOOLTIP_INFO_TEXT_EVENTDUNGEONPOINT,Moeda de troca obtida ao concluir as masmorras da história do festival de comemoração de 1.000 dias. Podem ser usadas para comprar itens na Loja do Festival de 1.000 dias.
+TOOLTIP_INFO_TEXT_EVENTDUNGEONPOINT2,Moeda de troca obtida ao concluir as masmorras especiais do festival de comemoração de 1.000 dias. Podem ser usadas para comprar itens na Loja do Festival de 1.000 dias.
 TOOLTIP_INFO_NAME_GLORYPOINT,Medalha de Honra
 TOOLTIP_INFO_TEXT_GLORYPOINT,Um tipo de ponto disponível na Liga da Honra. Use para trocar os itens na Loja da Liga da Honra.
 TOOLTIP_INFO_NAME_RANKINGPOINT,Insígnia de Honra
@@ -3246,7 +3246,7 @@ NEWBIE_PROMOTION_POPUP_DESC,"[Notificações] - Heróis Selecionáveis: Selecion
 1ST_ANNIVERSARY_RAID_DAY_5_DESC,"Lamento informar que este é o último dia de celebração. Mas nós estaremos sempre apoiando você durante sua jornada. Nós estamos concedendo um bilhete de traje adicional para que seu herói aquela pizza. Você também receberá um Bilhete de Armadura Lendária, disponível para equipamento de nível 61 - selecione a classe e a opção de equipamento de sua escolha. O Cristal de Realce Especial ajudará você no seu realce de equipamento."
 1ST_ANNIVERSARY_VESPA_DAY_1_DESC,"Está faltando alguma arma única para o seu herói favorito? Use o bilhete de arma única para selecionar a arma de sua escolha. Se você decidir despertar sua arma única, você consolidará seu caminho."
 1ST_ANNIVERSARY_VESPA_DAY_2_DESC,"Seu equipamento foi imbuído com opções de encantamento? Adicione a opção de encantamento para seu equipamento com o pergaminho correspondente que você receberá hoje. Concederemos um total de 12 pergaminhos, 3 para cada elemento! Não esqueça: a pedra do infinito ajudará você com a transcendência de herói."
-1ST_ANNIVERSARY_VESPA_DAY_3_DESC,"Receba bilhetes de arma única aleatória por 3 dias seguidos, começando hoje! Você pode não ganhar a arma que você deseja, mas não fique desapontado. Você pode triturar armas únicas para receber fragmentos únicos. Colete 1.000 fragmentos únicos para fabricar um bilhete de arma única na aba fabricação. Não esqueça as 5 runas antigas que você também receberá hoje..."
+1ST_ANNIVERSARY_VESPA_DAY_3_DESC,"Receba Bilhetes de Arma Única aleatória por 3 dias seguidos, começando hoje! Você pode não ganhar a arma que você deseja, mas não fique desapontado. Você pode triturar Armas Únicas para receber Fragmentos de Arma Única. Colete 1.000 Fragmentos de Arma Única para fabricar um bilhete de arma única na aba fabricação. Não esqueça as 5 runas antigas que você também receberá hoje..."
 1ST_ANNIVERSARY_VESPA_DAY_4_DESC,"Um novo bilhete de arma única aleatória para um novo dia! Qual arma única cruzará o seu caminho? Lembre-se: um bilhete de preservação de runa pode ser usado sempre que você desejar. Preserve sua runa sem taxa extra por 24 horas, e altere as configurações de runa como achar melhor!"
 1ST_ANNIVERSARY_VESPA_DAY_5_DESC,"Lamento informar que este é o último dia de celebração. Mas nós estaremos sempre apoiando você durante sua jornada. Nós estamos concedendo um bilhete de arma única aleatória com mais 15 bilhetes de recriação. Se a opção equipamento atual não agradar a você, siga para a forja e use o bilhete de recriação em vez de rubis para substituir uma opção. (Você só pode recriar uma única opção da lista de opções.)"
 1ST_ANNIVERSARY_GET_REWARD,Resgatar Recompensa
@@ -3462,7 +3462,7 @@ STATUS_EQUIP_AVAILABLE,Equipável
 STATUS_HERO_DISPATCHED,Em expedição
 CHATTING.CHAT_UNDEFINED_LANGUAGE,"You can only enter Japanese/Roman Alphabet, and numbers."
 UNIQUE_TREASURE_SLICE_MESSAGE,"Ao triturar este item, não será possível recuperá-lo.\nVocê receberá {1} Fragmentos de Tesouro Único.\nDeseja triturar {2}?"
-CHAPTERCLEAR_STORY,Story Mode
+CHAPTERCLEAR_STORY,Modo História
 SHOP_PAY_GUEST_MESSAGE,"Contas de convidado são contas temporárias que não estão ligadas a contas sociais. Pode haver limites para a recuperação de dados de uma conta de convidado.\n\nPara garantir um pagamento seguro, acesse com sua conta social.\n(Pressione X para ativar compras no aplicativo com a conta de convidado)"
 EVENT_BONUS_EQUIPBREAKREWARD_TITLE,Bônus de Desmanche de Equipamento!
 EVENT_BONUS_EQUIPBREAKREWARD_MESSAGE,"Pó Mágico e Pó de Estrela Bônus ao desmanchar equipamentos Comuns, Incomuns, Raros, Heroicos, Antigos e Lendários ou Cristal Mágico."
@@ -3918,6 +3918,7 @@ COSTUME_GROUP_HALLOWEEN2,Halloween 2
 COSTUME_GROUP_MAID1,Mordomo e Criada
 COSTUME_GROUP_SPORTSWARE1,Roupa Esportiva
 COSTUME_GROUP_CASAULFASHION1,Traje Casual
+COSTUME_GROUP_HEROICCAREER1,Roupa de Trabalho
 UI_SELECT_HERO_NONE,Não há heróis disponíveis para selecionar.
 UI_SELECT_COSTUME_NONE,Não há trajes disponíveis para selecionar.
 FILTER_SELECT.FILTER_SELECT_PART,Ver por Parte
@@ -5476,11 +5477,11 @@ SOULWEAPON_POPUP_SOULFRAGMENT,{1} insuficientes.\nDeseja ir para a loja?
 19HALLOWEEN_EVENT_INFO_DESC,"-Como participar do evento\nAo concluir as masmorras da Mansão Fantasma é possível receber Orbes que contém Escuridão.\nTroque suas orbes por diversos prêmios falando com Lavril.\n\n-Explorando a Mansão Fantasma\nHá um total de 6 Masmorras de História e 4 Masmorras Especiais. Ao concluir uma masmorra é possível receber Orbes que contém Escuridão para dar a Lavril.\nAo concluir todas as Masmorras de História, as Masmorras Especiais se abrirão.\nAntes de entrar nas Masmorras Especiais, verifique qual é a melhor tática clicando no botão de informação ao lado de cada masmorra para facilitar o desafio.\n\n-Como presentear\nJunte Orbes que contém Escuridão e dê para Lavril de presente para receber diversos prêmios contidos na Caixa de Acessórios de Halloween e nos itens de Artefato de edição limitada.\nVocê pode receber o prêmio do 7º estágio repetidas vezes desde que as condições sejam cumpridas.\nUma vez cumprida as condições, vá à tela de presenteamento e receba o prêmio tocando no item. Prêmios não resgatados desaparecerão no fim do evento."
 EVENT_NPC_GIFT_STEP,{1}º estágio de Presenteamento
 EVENT_DUNGEON_19HALLOWEEN_NAME_1,Visitantes da Mansão Fantasma
-EVENT_DUNGEON_19HALLOWEEN_NAME_2,Perigo de Incêndio na Mansão
-EVENT_DUNGEON_19HALLOWEEN_NAME_3,Escuridão que se Contorce
-EVENT_DUNGEON_19HALLOWEEN_NAME_4,Olhos de Águia que Desvendam Segredos
+EVENT_DUNGEON_19HALLOWEEN_NAME_2,Perigo de incêndio na mansão
+EVENT_DUNGEON_19HALLOWEEN_NAME_3,Escuridão que se contorce
+EVENT_DUNGEON_19HALLOWEEN_NAME_4,Olhos de águia desvendam o segredo
 EVENT_DUNGEON_19HALLOWEEN_NAME_5,Exodus!
-EVENT_DUNGEON_19HALLOWEEN_NAME_6,Caminho que o Espírito Mau Trilha
+EVENT_DUNGEON_19HALLOWEEN_NAME_6,Caminho que o espírito mau trilha
 EVENT_DUNGEON_19HALLOWEEN_NAME_7,Masmorra Especial de Halloween 1
 EVENT_DUNGEON_19HALLOWEEN_NAME_8,Masmorra Especial de Halloween 2
 EVENT_DUNGEON_19HALLOWEEN_NAME_9,Masmorra Especial de Halloween 3
@@ -5505,11 +5506,66 @@ ITEM_NAME_47020,Orbe que contém Escuridão
 ITEM_DESC2_47020,Um item que pode ser dado a Lavril como presente.\nAumenta a Contribuição em 1.
 ITEM_NAME_91336,Presente de Lavril
 ITEM_DESC2_91336,"Caixa de presentes de Lavril.\nAo usar, você pode receber Fragmento Misterioso de Alma, Fragmento de Arma Única, Caixa de Acessórios de Halloween e Artefato de Evento."
+EVENT_REWARD_GET_NOTICE_MESSAGE,Resgate primeiro o prêmio do estágio anterior.
 GUILD_ARENA_REMAIN_DAY_HOUR,Resta(m) {1} para o início
+GUILD_ARENA_MEMBER_DEFENCE_TEAM,Equipe de defesa da Guilda
+PAYSHOP_PREPURCHASE_HALLOWEEN_2019_ARTIFACT,Brinde ao comprar 5 vezes: 'Espírito Mau Preso na Abóbora'
+GUILD_ARENA_MY_DEFENCE_TEAM,Minha equipe de defesa
+HERO_PROFILE,Perfil
+SUBSTORY_SUB_BUTTON_NAME,Ver aniversário
+19HALLOWEEN_EVENT_SPECIAL_DUNGEON_DESC1_1,"Se for atingido pelo canhão de água de Mediana, terá dificuldades para avançar! Resista para não ser empurrado."
+19HALLOWEEN_EVENT_SPECIAL_DUNGEON_DESC2_1,Yuria imobiliza os inimigos envolvendo-os com roupas! Remova rapidamente e desvie-se dos poderosos ataques de Yuria.
+19HALLOWEEN_EVENT_SPECIAL_DUNGEON_DESC3_1,Os aliados que estiverem ao redor de Bernheim correm perigo! Ataque-o mantendo o máximo de distância que conseguir.
+19HALLOWEEN_EVENT_SPECIAL_DUNGEON_DESC4_1,"A Kara com modo de cerco ataca continuamente o inimigo. Dentre as 3 Karas, concentre o ataque na Kara com modo de cerco, eliminando-a rapidamente!"
+19HALLOWEEN_EVENT_SPECIAL_DUNGEON_SUB_TITLE1,Masmorra Especial de Halloween 1
+19HALLOWEEN_EVENT_SPECIAL_DUNGEON_SUB_TITLE2,Masmorra Especial de Halloween 2
+19HALLOWEEN_EVENT_SPECIAL_DUNGEON_SUB_TITLE3,Masmorra Especial de Halloween 3
+19HALLOWEEN_EVENT_SPECIAL_DUNGEON_SUB_TITLE4,Masmorra Especial de Halloween 4
+SELECT_ITEM_OPTION_SORT,Ordenar por opção
+BOOKMARK.BOOKMARK_HERO,Marcar Favorito
+BOOKMARK.UNBOOKMARK_HERO,Desmarcar Favorito
+BOOKMARK.HERO_DEMOTED_TO_LAST,Este é o fim da sua lista de heróis favoritos.
+BOOKMARK.HERO_BOOKMARK_FAILED_SAVE,Não foi possível salvar devido a instabilidade da rede.\nTente novamente.
+SYSTEM.LOW_MEMORY,Memória insuficiente
+USE_STAMINA_ITEM_CONFIRM_RESET_WARNING,*Atenção!! O(a) {1} que você carregar desaparecerá {2}.
+PUSH_REWARD_LUNCH,Presente da hora do almoço
+PUSH_REWARD_DINNER,Presente da hora do jantar
+1000TH_ANNIVERSARY_ATTENDANCE_ICON,Presente de agradecimento de comemoração de 1.000 dias!
+1000TH_ANNIVERSARY_ATTENDANCE_ITEM_DESC,"※ Os presentes de login podem ser resgatados até 30 de novembro, independentemente de quantos tenham sobrado."
+IMPROVE_RESETREMAININGDATE,{1} restante(s)
+RECOGNITION_DAY,Dia(s)
+RECOGNITION_HOUR,Hora(s)
+ADVENTURE_NOTICE_STAMINA_REGENERATION,{1} : {2} : {3}
+ADVENTURE_NOTICE_RESET_REMAIN_DAY,Resta(m) {1} dia(s)
+ADVENTURE_NOTICE_RESET_REMAIN_HOUR_1,Resta(m) {1} hora(s)
+ADVENTURE_NOTICE_RESET_REMAIN_HOUR_2,Resta(m) menos de {1} hora(s)
+ADVENTURE_NOTICE_STAMINA_END,Sair
+ADVENTURE_NOTICE_STAMINA_ETC,Entrada Normal
+HERO_PROFILE_SUBSTORY,História Secundária
+EVENT_DUNGEON_1000DAYS,Masmorra de 1.000 dias
+EVENT_SHOP_1000DAYS,Loja dos 1.000 dias
+EVENT_DUNGEON_DESC_STORY_1000DAYS,Masmorras da história do evento.\nDivirta-se com a história do festival.
+EVENT_DUNGEON_DESC_SPECIAL_1000DAYS,"Depois das histórias, aguarde pelo\nconvidado especial em 12 de novembro!"
+EVENT_1000DAYS_TICKET,Rojão Festivo
+TOOLTIP_INFO_NAME_EVENT_CAKE_1000DAYS,Bolo Festivo
+TOOLTIP_INFO_DESC_EVENT_CAKE_1000DAYS,Moeda de troca obtida ao concluir as masmorras da história do festival de comemoração de 1.000 dias. Podem ser usadas para comprar itens na Loja do Festival de 1.000 dias.
+TOOLTIP_INFO_NAME_EVENT_BALLOON_1000DAYS,Balão Festivo
+TOOLTIP_INFO_DESC_EVENT_BALLOON_1000DAYS,Moeda de troca obtida ao concluir as masmorras especiais do festival de comemoração de 1.000 dias. Podem ser usadas para comprar itens na Loja do Festival de 1.000 dias.
+EVENT_INFO_1000DAYS,Guia do Festival
+EVENT_NAME_1000DAYS,Masmorra do Festival de Comemoração de 1.000 dias
+EVENT_DESC_1000DAYS,"- Masmorra do Festival de Comemoração de 1.000 dias\nÉ possível receber Bolo Festivo ao concluir uma masmorra da história\ne Balão Festivo ao concluir uma masmorra especial.\n\n- Sinal de agradecimento dos NPCs\nVisite os 7 NPCs espalhados por Orvel\n(Gladi, May, Veronica, Loman, Nicky, Juno e Jin).\nEles prepararam mensagens e presentes de agradecimento para você."
+EVENT_DUNGEON_1000DAYS_NAME1,Gratidão de 1.000 dias
+1000DAYS_EVENT_NAME,Festival dos 1.000 dias
+EVENT_DUNGEON_1000DAYS_NAME2,Gratidão de 10 dias
+EVENT_DUNGEON_1000DAYS_NAME3,Emoção de 100 dias
+EVENT_DUNGEON_1000DAYS_NAME4,Comoção de 1000 dias
+SHOP_NAME_1000DAYS_SHOP,Loja dos 1.000 dias
 EVENT_REWARD_GET_NOTICE_MESSAGE,Resgate primeiro o prêmio do estágio anterior.
 GUILD_ARENA_MEMBER_DEFENCE_TEAM,Equipe de defesa da Guilda
 PAYSHOP_PREPURCHASE_HALLOWEEN_2019_ARTIFACT,Brinde ao comprar 5 vezes: 'Espírito Mau Preso na Abóbora'
 GUILD_ARENA_MY_DEFENCE_TEAM,Minha equipe de defesa
+HERO_PROFILE,Perfil
+SUBSTORY_SUB_BUTTON_NAME,Ver aniversário
 19HALLOWEEN_EVENT_SPECIAL_DUNGEON_DESC1_1,"Se for atingido pelo canhão de água de Mediana, terá dificuldades para avançar! Resista para não ser empurrado."
 19HALLOWEEN_EVENT_SPECIAL_DUNGEON_DESC2_1,Yuria imobiliza os inimigos envolvendo-os com roupas! Remova rapidamente e desvie-se dos poderosos ataques de Yuria.
 19HALLOWEEN_EVENT_SPECIAL_DUNGEON_DESC3_1,Os aliados que estiverem ao redor de Bernheim correm perigo! Ataque-o mantendo o máximo de distância que conseguir.

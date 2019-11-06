@@ -1068,7 +1068,7 @@
     "Name": "TOWN_TEXT",
     "Type": "City",
     "IsOpen": "TRUE",
-    "Map": "Town_Halloween",
+    "Map": "Town_1000Days",
     "MapSizeX": 4096,
     "MapSizeY": 3085,
     "StartNodeIndex": 1,
@@ -1076,7 +1076,7 @@
       "Gold"
     ],
     "StaminaType": "Chicken",
-    "BgmCode": "Event.Halloween2019BGM",
+    "BgmCode": "Lobby.Town",
     "BasePortalImageName": "ChapterMap.Orvelia",
     "ShowMenuButtons": [
       "ScenarioQuest",
@@ -3538,6 +3538,21 @@
       "Gold"
     ],
     "StaminaType": "EventDungeonTicket"
+  },
+  {
+    "Index": 30029,
+    "Name": "1000DAYS_EVENT_NAME",
+    "Type": "Event",
+    "IsOpen": "TRUE",
+    "Map": "Map01",
+    "MapSizeX": 4096,
+    "MapSizeY": 4096,
+    "UserStatType": [
+      "EventDungeonPoint",
+      "EventDungeonPoint2"
+    ],
+    "StaminaType": "Chicken",
+    "SubStaminaType": "EventDungeonTicket"
   },
   {
     "Index": 100016,

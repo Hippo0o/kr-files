@@ -226,12 +226,12 @@ SKILL_DESC_621,DMG is increased by [64ff64]{1}[-] %.
 SKILL_DESC_622,DMG is increased by [64ff64]{1}[-] %.
 SKILL_DESC_623,Reduces target's ATK by [ff6464]{1}[-] %.
 SKILL_DESC_630,Increases P.DEF and M.DEF by [ffc800]{2}[-] for [64ffff]{1}[-] sec and heals [64ff64]{3}[-] % of HP. Gains CC immunity.
-SKILL_DESC_631,P.DEF boost is increased by [64ff64]{1}[-] %.
-SKILL_DESC_632,P.DEF boost is increased by [64ff64]{1}[-] %.
+SKILL_DESC_631,DEF Boost is increased by [64ff64]{1}[-]%.
+SKILL_DESC_632,DEF Boost is increased by [64ff64]{1}[-]%.
 SKILL_DESC_633,DMG Reduction is increased by [ff6464]{1}[-].
 SKILL_DESC_640,"Upon attacking, weakens enemy P.DEF by [ff6464]{2}[-] for [64ffff]{1}[-] sec. Can be stacked up to [64ffff]5[-] times max."
-SKILL_DESC_641,P.DEF reduction is increased by [64ff64]{1}[-] %.
-SKILL_DESC_642,P.DEF reduction is increased by [64ff64]{1}[-] %.
+SKILL_DESC_641,DEF Reduction is increased by [64ff64]{1}[-] %.
+SKILL_DESC_642,DEF Reduction is increased by [64ff64]{1}[-] %.
 SKILL_DESC_643,"Per every stack, enemy P. Dodge chance is reduced by [ff6464]{1}[-] %."
 SKILL_DESC_90000060,"Upon receiving DMG, stacks Dragon Rage for 10 sec. Per each stacked Dragon Rage, ATK and DEF are increased by 0.8 %. Can be stacked up to 100 times max."
 SKILL_DESC_90000061,"Upon receiving DMG, stacks Dragon Rage for 10 sec. Per each stacked Dragon Rage, ATK and DEF are increased by 1 %. Can be stacked up to 100 times max."
@@ -1342,11 +1342,11 @@ SKILL_DESC_3520,"For 20 sec, ATK is increased by [ffc800]{1}[-], and ACC is incr
 SKILL_DESC_3521,ATK boost is increased by [64ff64]{1}[-] %.
 SKILL_DESC_3522,ATK boost is increased by [64ff64]{1}[-] %.
 SKILL_DESC_3523,ATK boost is increased by [64ff64]{1}[-] %.
-SKILL_DESC_3530,"Rapidly shoots a random enemy 12 times, dealing a total of [ffc800]{1}[-] P.DMG, and additional [ffc800]{2}[-] P.DMG per Mark of Death stack. Each hit with this Skill inflicts an irremovable stack of Mark of Death on the enemy."
+SKILL_DESC_3530,"Rapidly shoots a random enemy 12 times, dealing a total of [ffc800]{1}[-] P.DMG, and additional [ffc800]{2}[-] P.DMG per Death Mark stack. Each hit with this Skill inflicts an irremovable stack of Death Mark on the enemy."
 SKILL_DESC_3531,DMG is increased by [64ff64]{1}[-] %.
 SKILL_DESC_3532,DMG is increased by [64ff64]{1}[-] %.
 SKILL_DESC_3533,DMG is increased by [64ff64]{1}[-] %.
-SKILL_DESC_3540,"Normal attacks inflict an irremovable stack of Mark of Death on the enemy. Whenever a normal attack or Bang! Bang! hits the target, deals [ffc800]{1}[-] additional P.DMG. Each stack of Mark of Death deals [ffc800]{2}[-] additional P.DMG. Mark of Death can be stacked up to max 150 times."
+SKILL_DESC_3540,"Normal attacks inflict an irremovable stack of Death Mark on the enemy. Whenever a normal attack or Bang! Bang! hits the target, deals [ffc800]{1}[-] additional P.DMG. Each stack of Death Mark deals [ffc800]{2}[-] additional P.DMG. Death Mark can be stacked up to max 150 times."
 SKILL_DESC_3541,DMG is increased by [64ff64]{1}[-] %.
 SKILL_DESC_3542,DMG is increased by [64ff64]{1}[-] %.
 SKILL_DESC_3543,DMG is increased by [64ff64]{1}[-] %.
@@ -5922,3 +5922,4 @@ SKILL_NAME_7100340,Flow Control
 SKILL_DESC_7100340,"When Sekmaha's CC gauge is depleted, the flow changes. If Sekmaha is in Waterfall state, changes the flow to Sea, and vice-versa.\n[Sea] - All enemies cannot heal HP, and increases DMG the enemies deal based on the amount of their Mana.\n[Waterfall] - Greatly reduces Mana Recovery of all enemies, and reduces DMG the enemies take based on the amount of their Mana."
 SKILL_DESC_7100341,"A Guardian of Sekireinel is blessed with a mighty power that prevents its DEF and ATK Spd from being affected. Additionally, in Stage 6 or above, Sekmaha generates a droplet barrier from time to time."
 SKILL_DESC_80005140,"Increases own Max HP by {1}%. When there is 1 enemy, increases ATK of all allies by {2}%. This effect will not stack with other similar effects cast by allies."
+SKILL_DESC_80005150,Normal attacks have a {1}% chance to increase ATK Spd by {3} for {2} sec.

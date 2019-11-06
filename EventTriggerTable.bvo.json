@@ -2548,6 +2548,334 @@
     ]
   },
   {
+    "Index": 1101,
+    "Category": "Tutorial",
+    "EventType": "EnterEntryMenu",
+    "EventCondition": [
+      "99",
+      "2"
+    ],
+    "CurrentCondition": [
+      "CompleteTutorial",
+      "2160",
+      "True"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "506"
+    ]
+  },
+  {
+    "Index": 1102,
+    "Category": "Tutorial",
+    "EventType": "EnterEntryMenu",
+    "EventCondition": [
+      "99",
+      "3"
+    ],
+    "CurrentCondition": [
+      "CompleteTutorial",
+      "2120",
+      "True"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "507"
+    ]
+  },
+  {
+    "Index": 1103,
+    "Category": "Tutorial",
+    "EventType": "EnterEntryMenu",
+    "EventCondition": [
+      "99",
+      "4"
+    ],
+    "CurrentCondition": [
+      "CompleteTutorial",
+      "2130",
+      "True"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "508"
+    ]
+  },
+  {
+    "Index": 1104,
+    "Category": "Tutorial",
+    "EventType": "EnterEntryMenu",
+    "EventCondition": [
+      "99",
+      "6"
+    ],
+    "CurrentCondition": [
+      "CompleteTutorial",
+      "13020",
+      "True"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "509"
+    ]
+  },
+  {
+    "Index": 1105,
+    "Category": "Tutorial",
+    "EventType": "EnterEntryMenu",
+    "EventCondition": [
+      "99",
+      "8"
+    ],
+    "CurrentCondition": [
+      "CompleteTutorial",
+      "2000",
+      "True"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "510"
+    ]
+  },
+  {
+    "Index": 1106,
+    "Category": "Tutorial",
+    "EventType": "EnterEntryMenu",
+    "EventCondition": [
+      "99",
+      "9"
+    ],
+    "CurrentCondition": [
+      "CompleteTutorial",
+      "2140",
+      "True"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "511"
+    ]
+  },
+  {
+    "Index": 1107,
+    "Category": "Tutorial",
+    "EventType": "EnterEntryMenu",
+    "EventCondition": [
+      "99",
+      "5"
+    ],
+    "CurrentCondition": [
+      "CompleteTutorial",
+      "2150",
+      "True"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "512"
+    ]
+  },
+  {
+    "Index": 1108,
+    "Category": "Tutorial",
+    "EventType": "EnterEntryMenu",
+    "EventCondition": [
+      "995",
+      "1"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "512"
+    ]
+  },
+  {
+    "Index": 1109,
+    "Category": "MainScenario",
+    "EventType": "EnterScenarioBattle",
+    "EventCondition": [
+      "30029",
+      " 1"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/1000Days/E_Thousand_Nicky_01"
+    ]
+  },
+  {
+    "Index": 1110,
+    "Category": "MainScenario",
+    "EventType": "ScenarioBattleEnd",
+    "EventCondition": [
+      "30029",
+      " 1",
+      " True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/1000Days/E_Thousand_Nicky_02"
+    ]
+  },
+  {
+    "Index": 1111,
+    "Category": "MainScenario",
+    "EventType": "EnterScenarioBattle",
+    "EventCondition": [
+      "30029",
+      " 2"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/1000Days/E_Thousand_Juno_01"
+    ]
+  },
+  {
+    "Index": 1112,
+    "Category": "MainScenario",
+    "EventType": "ScenarioBattleEnd",
+    "EventCondition": [
+      "30029",
+      " 2",
+      " True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/1000Days/E_Thousand_Juno_02"
+    ]
+  },
+  {
+    "Index": 1113,
+    "Category": "MainScenario",
+    "EventType": "EnterScenarioBattle",
+    "EventCondition": [
+      "30029",
+      " 3"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/1000Days/E_Thousand_Loman_01"
+    ]
+  },
+  {
+    "Index": 1114,
+    "Category": "MainScenario",
+    "EventType": "ScenarioBattleEnd",
+    "EventCondition": [
+      "30029",
+      " 3",
+      " True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/1000Days/E_Thousand_Loman_02"
+    ]
+  },
+  {
+    "Index": 1115,
+    "Category": "MainScenario",
+    "EventType": "EnterScenarioBattle",
+    "EventCondition": [
+      "30029",
+      " 4"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/1000Days/E_Thousand_Veronica_01"
+    ]
+  },
+  {
+    "Index": 1116,
+    "Category": "MainScenario",
+    "EventType": "ScenarioBattleEnd",
+    "EventCondition": [
+      "30029",
+      " 4",
+      " True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/1000Days/E_Thousand_Veronica_02"
+    ]
+  },
+  {
+    "Index": 1117,
+    "Category": "MainScenario",
+    "EventType": "EnterScenarioBattle",
+    "EventCondition": [
+      "30029",
+      " 5"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/1000Days/E_Thousand_Gladi_01"
+    ]
+  },
+  {
+    "Index": 1118,
+    "Category": "MainScenario",
+    "EventType": "ScenarioBattleEnd",
+    "EventCondition": [
+      "30029",
+      " 5",
+      " True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/1000Days/E_Thousand_Gladi_02"
+    ]
+  },
+  {
+    "Index": 1119,
+    "Category": "MainScenario",
+    "EventType": "EnterScenarioBattle",
+    "EventCondition": [
+      "30029",
+      " 6"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/1000Days/E_Thousand_May_01"
+    ]
+  },
+  {
+    "Index": 1120,
+    "Category": "MainScenario",
+    "EventType": "ScenarioBattleEnd",
+    "EventCondition": [
+      "30029",
+      " 6",
+      " True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/1000Days/E_Thousand_May_02"
+    ]
+  },
+  {
+    "Index": 1121,
+    "Category": "MainScenario",
+    "EventType": "EnterScenarioBattle",
+    "EventCondition": [
+      "30029",
+      " 7"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/1000Days/E_Thousand_Jin_01"
+    ]
+  },
+  {
+    "Index": 1122,
+    "Category": "MainScenario",
+    "EventType": "ScenarioBattleEnd",
+    "EventCondition": [
+      "30029",
+      " 7",
+      " True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/1000Days/E_Thousand_Jin_02"
+    ]
+  },
+  {
     "Index": 10000,
     "Category": "MainScenario",
     "EventType": "EnterLobby",

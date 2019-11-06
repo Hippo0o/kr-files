@@ -22211,6 +22211,17 @@
     "OperationConditionType5": "SkillLevel",
     "OperationConditionValue5": [
       "60004951"
+    ],
+    "OperationType6": "ClearState",
+    "OperationTargetType6": "Myself",
+    "OperationValue6": [
+      "StarCard",
+      "0"
+    ],
+    "OperationDelayMs6": [
+      "3600",
+      "0",
+      "0"
     ]
   },
   {
@@ -22530,6 +22541,17 @@
     "OperationConditionType5": "SkillLevel",
     "OperationConditionValue5": [
       "60004951"
+    ],
+    "OperationType6": "ClearState",
+    "OperationTargetType6": "Myself",
+    "OperationValue6": [
+      "StarCard",
+      "0"
+    ],
+    "OperationDelayMs6": [
+      "2600",
+      "0",
+      "0"
     ]
   },
   {
@@ -22544,19 +22566,18 @@
       "CC"
     ],
     "TargetType": "Myself",
-    "TargetCount": 1,
     "DeadTarget": "False",
     "IgnoreBlock": "TRUE",
     "RetargetOnFire": "False",
     "OperationType1": "ModPiercePower",
-    "OperationTargetType1": "Myself",
+    "OperationTargetType1": "Target",
     "OperationValue1": [
       "600"
     ],
     "OperationState1": "4920_3",
     "OperationDurationMs1": 12000,
     "OperationType2": "ModToughness",
-    "OperationTargetType2": "Myself",
+    "OperationTargetType2": "Target",
     "OperationState2": "4920_Immune",
     "OperationDurationMs2": 6000
   },
@@ -22849,6 +22870,17 @@
     "OperationConditionType5": "SkillLevel",
     "OperationConditionValue5": [
       "60004951"
+    ],
+    "OperationType6": "ClearState",
+    "OperationTargetType6": "Myself",
+    "OperationValue6": [
+      "StarCard",
+      "0"
+    ],
+    "OperationDelayMs6": [
+      "3600",
+      "0",
+      "0"
     ]
   },
   {
@@ -29702,11 +29734,11 @@
     "OperationType4": "ModDefence",
     "OperationTargetType4": "Parent",
     "OperationValue4": [
-      "53"
+      "38"
     ],
     "OperationValueFactor4": [
       "5",
-      "53"
+      "38"
     ],
     "OperationState4": "9410_3",
     "OperationDurationMs4": 7000,
@@ -29909,7 +29941,7 @@
     "OperationType4": "ModPhysicalWeakness",
     "OperationTargetType4": "Parent",
     "OperationValue4": [
-      "250"
+      "200"
     ],
     "OperationState4": "9419_3",
     "OperationDurationMs4": 10000,

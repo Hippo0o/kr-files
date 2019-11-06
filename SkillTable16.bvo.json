@@ -139,7 +139,7 @@
     "OperationTargetType1": "Target",
     "OperationRadiusMm1": 30000,
     "OperationState1": "Imet_Shackle",
-    "OperationDurationMs1": 9999999,
+    "OperationDurationMs1": 6000,
     "OperationFlags1": [
       "ExcludeTarget"
     ]
@@ -243,7 +243,7 @@
       "4000"
     ],
     "TickTimeValue": [
-      "0[2]",
+      "0[2:4]",
       "2300[1]",
       "2700[3]"
     ],
@@ -270,6 +270,14 @@
     "OperationTargetType3": "Myself",
     "OperationValue3": [
       "7100125"
+    ],
+    "OperationType4": "ModToughness",
+    "OperationTargetType4": "Target",
+    "OperationRadiusMm4": 30000,
+    "OperationState4": "Imet_Shackle",
+    "OperationDurationMs4": 6000,
+    "OperationFlags4": [
+      "ExcludeTarget"
     ]
   },
   {

@@ -6685,7 +6685,8 @@
       "4424",
       "4425",
       "4434",
-      "4435"
+      "4435",
+      "93004411"
     ],
     "GetTranscendSkillPoint": [
       "10",
@@ -7464,7 +7465,10 @@
       "4936",
       "4944",
       "4926",
-      "4916"
+      "4916",
+      "93004911",
+      "93004912",
+      "93004913"
     ],
     "GetTranscendSkillPoint": [
       "10",
@@ -12129,7 +12133,8 @@
       "9265",
       "9272",
       "9266",
-      "9214"
+      "9214",
+      "93009211"
     ],
     "GetTranscendSkillPoint": [
       "10",
@@ -13080,8 +13085,7 @@
     ],
     "ExtraActiveSkill": [
       "9819",
-      "9837",
-      "9825"
+      "9837"
     ],
     "ExtraSkill": [
       "9844",
@@ -23465,6 +23469,7 @@
   {
     "Index": 801,
     "CodeName": "NPC.NormalShop",
+    "ModelPrefix": "1000Days",
     "Race": "NPC",
     "AttrType": [
       "Physical"
@@ -23487,6 +23492,7 @@
   {
     "Index": 802,
     "CodeName": "NPC.ArenaShop",
+    "ModelPrefix": "1000Days",
     "Race": "NPC",
     "AttrType": [
       "Physical"
@@ -23553,6 +23559,7 @@
   {
     "Index": 805,
     "CodeName": "NPC.SoulGemShop",
+    "ModelPrefix": "1000Days",
     "Race": "NPC",
     "AttrType": [
       "Physical"
@@ -23575,6 +23582,7 @@
   {
     "Index": 806,
     "CodeName": "NPC.RoyalShop",
+    "ModelPrefix": "1000Days",
     "Race": "NPC",
     "AttrType": [
       "Physical"
@@ -23597,6 +23605,7 @@
   {
     "Index": 807,
     "CodeName": "NPC.GuildShop",
+    "ModelPrefix": "1000Days",
     "Race": "NPC",
     "AttrType": [
       "Physical"
@@ -23619,6 +23628,7 @@
   {
     "Index": 808,
     "CodeName": "NPC.Stockade",
+    "ModelPrefix": "1000Days",
     "Race": "NPC",
     "AttrType": [
       "Physical"
@@ -23732,6 +23742,7 @@
   {
     "Index": 813,
     "CodeName": "NPC.Blacksmith",
+    "ModelPrefix": "1000Days",
     "Race": "NPC",
     "AttrType": [
       "Physical"
@@ -23776,6 +23787,7 @@
   {
     "Index": 815,
     "CodeName": "NPC.Inn",
+    "ModelPrefix": "1000Days",
     "Race": "NPC",
     "AttrType": [
       "Physical"
@@ -45294,6 +45306,14 @@
     "HeightMm": 1850
   },
   {
+    "Index": 901012,
+    "CodeName": "Object.UniqueWeapon.Miruru",
+    "ModelCode": "Object.MiruruUnique",
+    "Race": "NPC",
+    "SizeMm": 500,
+    "HeightMm": 1850
+  },
+  {
     "Index": 901015,
     "CodeName": "Object.UniqueWeapon.Clause",
     "ModelCode": "Object.ClauseUnique",
@@ -45334,6 +45354,14 @@
     "HeightMm": 1850
   },
   {
+    "Index": 901028,
+    "CodeName": "Object.UniqueWeapon.Fluss",
+    "ModelCode": "Object.FlussUnique",
+    "Race": "NPC",
+    "SizeMm": 500,
+    "HeightMm": 1850
+  },
+  {
     "Index": 901029,
     "CodeName": "Object.UniqueWeapon.Luna",
     "ModelCode": "Object.LunaUnique",
@@ -45350,6 +45378,14 @@
     "HeightMm": 1850
   },
   {
+    "Index": 901031,
+    "CodeName": "Object.UniqueWeapon.Arch",
+    "ModelCode": "Object.ArchUnique",
+    "Race": "NPC",
+    "SizeMm": 500,
+    "HeightMm": 1850
+  },
+  {
     "Index": 901033,
     "CodeName": "Object.UniqueWeapon.Nicx",
     "ModelCode": "Object.NicxUnique",
@@ -45361,6 +45397,14 @@
     "Index": 901034,
     "CodeName": "Object.UniqueWeapon.Annette",
     "ModelCode": "Object.AnnetteUnique",
+    "Race": "NPC",
+    "SizeMm": 500,
+    "HeightMm": 1850
+  },
+  {
+    "Index": 901035,
+    "CodeName": "Object.UniqueWeapon.Mitra",
+    "ModelCode": "Object.MitraUnique",
     "Race": "NPC",
     "SizeMm": 500,
     "HeightMm": 1850
@@ -45406,6 +45450,14 @@
     "HeightMm": 1850
   },
   {
+    "Index": 901044,
+    "CodeName": "Object.UniqueWeapon.Priscilla",
+    "ModelCode": "Object.PriscillaUnique",
+    "Race": "NPC",
+    "SizeMm": 500,
+    "HeightMm": 1850
+  },
+  {
     "Index": 901045,
     "CodeName": "Object.UniqueWeapon.Yanne",
     "ModelCode": "Object.YanneUnique",
@@ -45422,9 +45474,33 @@
     "HeightMm": 1850
   },
   {
+    "Index": 901047,
+    "CodeName": "Object.UniqueWeapon.Yuria",
+    "ModelCode": "Object.YuriaUnique",
+    "Race": "NPC",
+    "SizeMm": 500,
+    "HeightMm": 1850
+  },
+  {
     "Index": 901048,
     "CodeName": "Object.UniqueWeapon.Rehartna",
     "ModelCode": "Object.RehartnaUnique",
+    "Race": "NPC",
+    "SizeMm": 500,
+    "HeightMm": 1850
+  },
+  {
+    "Index": 901049,
+    "CodeName": "Object.UniqueWeapon.Ophelia",
+    "ModelCode": "Object.OpheliaUnique",
+    "Race": "NPC",
+    "SizeMm": 500,
+    "HeightMm": 1850
+  },
+  {
+    "Index": 901051,
+    "CodeName": "Object.UniqueWeapon.Aselica",
+    "ModelCode": "Object.AselicaUnique",
     "Race": "NPC",
     "SizeMm": 500,
     "HeightMm": 1850
@@ -45494,6 +45570,14 @@
     "HeightMm": 1850
   },
   {
+    "Index": 901061,
+    "CodeName": "Object.UniqueWeapon.Neraxis",
+    "ModelCode": "Object.NeraxisUnique",
+    "Race": "NPC",
+    "SizeMm": 500,
+    "HeightMm": 1850
+  },
+  {
     "Index": 901062,
     "CodeName": "Object.UniqueWeapon.Scarlet",
     "ModelCode": "Object.ScarletUnique",
@@ -45526,6 +45610,14 @@
     "HeightMm": 1850
   },
   {
+    "Index": 901066,
+    "CodeName": "Object.UniqueWeapon.Shea",
+    "ModelCode": "Object.SheaUnique",
+    "Race": "NPC",
+    "SizeMm": 500,
+    "HeightMm": 1850
+  },
+  {
     "Index": 901067,
     "CodeName": "Object.UniqueWeapon.Kara",
     "ModelCode": "Object.KaraUnique",
@@ -45534,9 +45626,33 @@
     "HeightMm": 1850
   },
   {
+    "Index": 901068,
+    "CodeName": "Object.UniqueWeapon.Nia",
+    "ModelCode": "Object.NiaUnique",
+    "Race": "NPC",
+    "SizeMm": 500,
+    "HeightMm": 1850
+  },
+  {
     "Index": 901070,
     "CodeName": "Object.UniqueWeapon.Cecilia",
     "ModelCode": "Object.CeciliaUnique",
+    "Race": "NPC",
+    "SizeMm": 500,
+    "HeightMm": 1850
+  },
+  {
+    "Index": 901071,
+    "CodeName": "Object.UniqueWeapon.Kirze",
+    "ModelCode": "Object.KirzeUnique",
+    "Race": "NPC",
+    "SizeMm": 500,
+    "HeightMm": 1850
+  },
+  {
+    "Index": 901073,
+    "CodeName": "Object.UniqueWeapon.Chase",
+    "ModelCode": "Object.ChaseUnique",
     "Race": "NPC",
     "SizeMm": 500,
     "HeightMm": 1850
@@ -45553,6 +45669,22 @@
     "Index": 901087,
     "CodeName": "Object.UniqueWeapon.Glenwys",
     "ModelCode": "Object.GlenwysUnique",
+    "Race": "NPC",
+    "SizeMm": 500,
+    "HeightMm": 1850
+  },
+  {
+    "Index": 901092,
+    "CodeName": "Object.UniqueWeapon.Veronica",
+    "ModelCode": "Object.VeronicaUnique",
+    "Race": "NPC",
+    "SizeMm": 500,
+    "HeightMm": 1850
+  },
+  {
+    "Index": 901094,
+    "CodeName": "Object.UniqueWeapon.Juno",
+    "ModelCode": "Object.JunoUnique",
     "Race": "NPC",
     "SizeMm": 500,
     "HeightMm": 1850
@@ -45620,6 +45752,15 @@
     "HeightMm": 1850
   },
   {
+    "Index": 911012,
+    "CodeName": "Object.SoulStone.Miruru",
+    "ModelCode": "Object.SoulStone",
+    "ModelPrefix": "SoulStoneMiruru",
+    "Race": "NPC",
+    "SizeMm": 500,
+    "HeightMm": 1850
+  },
+  {
     "Index": 911015,
     "CodeName": "Object.SoulStone.Clause",
     "ModelCode": "Object.SoulStone",
@@ -45665,6 +45806,15 @@
     "HeightMm": 1850
   },
   {
+    "Index": 911028,
+    "CodeName": "Object.SoulStone.Fluss",
+    "ModelCode": "Object.SoulStone",
+    "ModelPrefix": "SoulStoneFluss",
+    "Race": "NPC",
+    "SizeMm": 500,
+    "HeightMm": 1850
+  },
+  {
     "Index": 911029,
     "CodeName": "Object.SoulStone.Luna",
     "ModelCode": "Object.SoulStone",
@@ -45683,6 +45833,15 @@
     "HeightMm": 1850
   },
   {
+    "Index": 911031,
+    "CodeName": "Object.SoulStone.Arch",
+    "ModelCode": "Object.SoulStone",
+    "ModelPrefix": "SoulStoneArch",
+    "Race": "NPC",
+    "SizeMm": 500,
+    "HeightMm": 1850
+  },
+  {
     "Index": 911033,
     "CodeName": "Object.SoulStone.Nicx",
     "ModelCode": "Object.SoulStone",
@@ -45696,6 +45855,15 @@
     "CodeName": "Object.SoulStone.Annette",
     "ModelCode": "Object.SoulStone",
     "ModelPrefix": "SoulStoneAnnette",
+    "Race": "NPC",
+    "SizeMm": 500,
+    "HeightMm": 1850
+  },
+  {
+    "Index": 911035,
+    "CodeName": "Object.SoulStone.Mitra",
+    "ModelCode": "Object.SoulStone",
+    "ModelPrefix": "SoulStoneMitra",
     "Race": "NPC",
     "SizeMm": 500,
     "HeightMm": 1850
@@ -45746,6 +45914,15 @@
     "HeightMm": 1850
   },
   {
+    "Index": 911044,
+    "CodeName": "Object.SoulStone.Priscilla",
+    "ModelCode": "Object.SoulStone",
+    "ModelPrefix": "SoulStonePriscilla",
+    "Race": "NPC",
+    "SizeMm": 500,
+    "HeightMm": 1850
+  },
+  {
     "Index": 911045,
     "CodeName": "Object.SoulStone.Yanne",
     "ModelCode": "Object.SoulStone",
@@ -45764,10 +45941,37 @@
     "HeightMm": 1850
   },
   {
+    "Index": 911047,
+    "CodeName": "Object.SoulStone.Yuria",
+    "ModelCode": "Object.SoulStone",
+    "ModelPrefix": "SoulStoneYuria",
+    "Race": "NPC",
+    "SizeMm": 500,
+    "HeightMm": 1850
+  },
+  {
     "Index": 911048,
     "CodeName": "Object.SoulStone.Rehartna",
     "ModelCode": "Object.SoulStone",
     "ModelPrefix": "SoulStoneRehartna",
+    "Race": "NPC",
+    "SizeMm": 500,
+    "HeightMm": 1850
+  },
+  {
+    "Index": 911049,
+    "CodeName": "Object.SoulStone.Ophelia",
+    "ModelCode": "Object.SoulStone",
+    "ModelPrefix": "SoulStoneOphelia",
+    "Race": "NPC",
+    "SizeMm": 500,
+    "HeightMm": 1850
+  },
+  {
+    "Index": 911051,
+    "CodeName": "Object.SoulStone.Aselica",
+    "ModelCode": "Object.SoulStone",
+    "ModelPrefix": "SoulStoneAselica",
     "Race": "NPC",
     "SizeMm": 500,
     "HeightMm": 1850
@@ -45845,6 +46049,15 @@
     "HeightMm": 1850
   },
   {
+    "Index": 911061,
+    "CodeName": "Object.SoulStone.Neraxis",
+    "ModelCode": "Object.SoulStone",
+    "ModelPrefix": "SoulStoneNeraxis",
+    "Race": "NPC",
+    "SizeMm": 500,
+    "HeightMm": 1850
+  },
+  {
     "Index": 911062,
     "CodeName": "Object.SoulStone.Scarlet",
     "ModelCode": "Object.SoulStone",
@@ -45881,6 +46094,15 @@
     "HeightMm": 1850
   },
   {
+    "Index": 911066,
+    "CodeName": "Object.SoulStone.Shea",
+    "ModelCode": "Object.SoulStone",
+    "ModelPrefix": "SoulStoneShea",
+    "Race": "NPC",
+    "SizeMm": 500,
+    "HeightMm": 1850
+  },
+  {
     "Index": 911067,
     "CodeName": "Object.SoulStone.Kara",
     "ModelCode": "Object.SoulStone",
@@ -45890,10 +46112,37 @@
     "HeightMm": 1850
   },
   {
+    "Index": 911068,
+    "CodeName": "Object.SoulStone.Nia",
+    "ModelCode": "Object.SoulStone",
+    "ModelPrefix": "SoulStoneNia",
+    "Race": "NPC",
+    "SizeMm": 500,
+    "HeightMm": 1850
+  },
+  {
     "Index": 911070,
     "CodeName": "Object.SoulStone.Cecilia",
     "ModelCode": "Object.SoulStone",
     "ModelPrefix": "SoulStoneCecilia",
+    "Race": "NPC",
+    "SizeMm": 500,
+    "HeightMm": 1850
+  },
+  {
+    "Index": 911071,
+    "CodeName": "Object.SoulStone.Kirze",
+    "ModelCode": "Object.SoulStone",
+    "ModelPrefix": "SoulStoneKirze",
+    "Race": "NPC",
+    "SizeMm": 500,
+    "HeightMm": 1850
+  },
+  {
+    "Index": 911073,
+    "CodeName": "Object.SoulStone.Chase",
+    "ModelCode": "Object.SoulStone",
+    "ModelPrefix": "SoulStoneChase",
     "Race": "NPC",
     "SizeMm": 500,
     "HeightMm": 1850
@@ -45912,6 +46161,24 @@
     "CodeName": "Object.SoulStone.Glenwys",
     "ModelCode": "Object.SoulStone",
     "ModelPrefix": "SoulStoneGlenwys",
+    "Race": "NPC",
+    "SizeMm": 500,
+    "HeightMm": 1850
+  },
+  {
+    "Index": 911092,
+    "CodeName": "Object.SoulStone.Veronica",
+    "ModelCode": "Object.SoulStone",
+    "ModelPrefix": "SoulStoneVeronica",
+    "Race": "NPC",
+    "SizeMm": 500,
+    "HeightMm": 1850
+  },
+  {
+    "Index": 911094,
+    "CodeName": "Object.SoulStone.Juno",
+    "ModelCode": "Object.SoulStone",
+    "ModelPrefix": "SoulStoneJuno",
     "Race": "NPC",
     "SizeMm": 500,
     "HeightMm": 1850
@@ -46806,5 +47073,260 @@
       "15"
     ],
     "ReplaceNameKey": "COSTUME_NAME_6709"
+  },
+  {
+    "Index": 40109,
+    "CodeName": "Boss.Jin",
+    "ModelCode": "NPC.Blacksmith",
+    "ModelPrefix": "1000Days_Boss",
+    "Race": "Hero",
+    "AttrType": [
+      "Magical"
+    ],
+    "AttackWeakType": [
+      "Fire"
+    ],
+    "PositionType": "Forward",
+    "PositionWeight": 700,
+    "MoveSpeed": 5000,
+    "MinDamageRate": 200,
+    "IgnoreCc": [
+      "CC"
+    ],
+    "SizeMm": 500,
+    "HeightMm": 1900,
+    "BaseSkillIndex": 4010900,
+    "SkillIndex1": 4010910,
+    "ExtraSkill": [
+      "4010920"
+    ],
+    "ReplaceNameKey": "CREATURE_NAME_813"
+  },
+  {
+    "Index": 40110,
+    "CodeName": "Monster.Event.2019_1000Days.Nicky",
+    "ModelCode": "Hero.Nicky",
+    "ModelPrefix": "1000Days",
+    "Race": "Hero",
+    "AttrType": [
+      "Physical"
+    ],
+    "AttackWeakType": [
+      "Fire"
+    ],
+    "PositionType": "Forward",
+    "PositionWeight": 600,
+    "MoveSpeed": 5000,
+    "MinDamageRate": 200,
+    "IgnoreCc": [
+      "False"
+    ],
+    "SizeMm": 600,
+    "HeightMm": 1820,
+    "BaseSkillIndex": 9500,
+    "SkillIndex1": 9510,
+    "SkillIndex2": 9520,
+    "SkillIndex3": 9530,
+    "SkillIndex4": 9540,
+    "ExtraSkill": [
+      "9524",
+      "9525",
+      "9534",
+      "9535",
+      "9544",
+      "9545",
+      "4010920"
+    ],
+    "ReplaceNameKey": "CREATURE_NAME_95"
+  },
+  {
+    "Index": 40111,
+    "CodeName": "Monster.Event.2019_1000Days.Juno",
+    "ModelCode": "Hero.Juno",
+    "ModelPrefix": "1000Days",
+    "Race": "Hero",
+    "AttrType": [
+      "Physical"
+    ],
+    "AttackWeakType": [
+      "Fire"
+    ],
+    "PositionType": "Middle",
+    "PositionWeight": 100,
+    "MoveSpeed": 5000,
+    "MinDamageRate": 200,
+    "IgnoreCc": [
+      "False"
+    ],
+    "SizeMm": 600,
+    "HeightMm": 1900,
+    "BaseSkillIndex": 9400,
+    "SkillIndex1": 9410,
+    "SkillIndex2": 9420,
+    "SkillIndex3": 9430,
+    "SkillIndex4": 9440,
+    "ExtraActiveSkill": [
+      "9419",
+      "9429",
+      "9439"
+    ],
+    "ExtraSkill": [
+      "9444",
+      "9434",
+      "9435",
+      "9445",
+      "9446",
+      "9447",
+      "4010920"
+    ],
+    "ReplaceNameKey": "CREATURE_NAME_94"
+  },
+  {
+    "Index": 40112,
+    "CodeName": "Monster.Event.2019_1000Days.Loman",
+    "ModelCode": "Hero.Loman",
+    "ModelPrefix": "1000Days",
+    "Race": "Hero",
+    "AttrType": [
+      "Physical"
+    ],
+    "AttackWeakType": [
+      "Fire"
+    ],
+    "PositionType": "Forward",
+    "PositionWeight": 700,
+    "MoveSpeed": 5000,
+    "MinDamageRate": 200,
+    "IgnoreCc": [
+      "False"
+    ],
+    "SizeMm": 600,
+    "HeightMm": 1900,
+    "BaseSkillIndex": 9300,
+    "SkillIndex1": 9310,
+    "SkillIndex2": 9320,
+    "SkillIndex3": 9330,
+    "SkillIndex4": 9340,
+    "ExtraSkill": [
+      "9334",
+      "9335",
+      "9336",
+      "9344",
+      "9345",
+      "9390",
+      "9391",
+      "4010920"
+    ],
+    "ReplaceNameKey": "CREATURE_NAME_93"
+  },
+  {
+    "Index": 40113,
+    "CodeName": "Monster.Event.2019_1000Days.Veronica",
+    "ModelCode": "Hero.Veronica",
+    "ModelPrefix": "1000Days",
+    "Race": "Hero",
+    "AttrType": [
+      "Magical"
+    ],
+    "AttackWeakType": [
+      "Fire"
+    ],
+    "PositionType": "Rear",
+    "PositionWeight": 500,
+    "MoveSpeed": 5000,
+    "MinDamageRate": 200,
+    "IgnoreCc": [
+      "False"
+    ],
+    "SizeMm": 500,
+    "HeightMm": 1800,
+    "BaseSkillIndex": 9200,
+    "SkillIndex1": 9210,
+    "SkillIndex2": 9220,
+    "SkillIndex3": 9230,
+    "SkillIndex4": 9240,
+    "ExtraSkill": [
+      "9244",
+      "9245",
+      "9246",
+      "9247",
+      "9249",
+      "9260",
+      "9261",
+      "9262",
+      "9263",
+      "9264",
+      "9265",
+      "9272",
+      "9266",
+      "9214",
+      "93009211",
+      "4010920"
+    ],
+    "ReplaceNameKey": "CREATURE_NAME_92"
+  },
+  {
+    "Index": 40114,
+    "CodeName": "Monster.Event.2019_1000Days.Gladi",
+    "ModelCode": "Hero.Gladi",
+    "ModelPrefix": "1000Days",
+    "Race": "Hero",
+    "AttrType": [
+      "Physical"
+    ],
+    "AttackWeakType": [
+      "Fire"
+    ],
+    "PositionType": "Forward",
+    "PositionWeight": 500,
+    "MoveSpeed": 5000,
+    "MinDamageRate": 200,
+    "IgnoreCc": [
+      "False"
+    ],
+    "SizeMm": 600,
+    "HeightMm": 1900,
+    "BaseSkillIndex": 9100,
+    "SkillIndex1": 9110,
+    "SkillIndex2": 9120,
+    "SkillIndex3": 9130,
+    "SkillIndex4": 9140,
+    "ExtraSkill": [
+      "9124",
+      "9125",
+      "4010920"
+    ],
+    "ReplaceNameKey": "CREATURE_NAME_91"
+  },
+  {
+    "Index": 40115,
+    "CodeName": "Monster.Event.2019_1000Days.May",
+    "ModelCode": "Hero.May",
+    "ModelPrefix": "1000Days",
+    "Race": "Hero",
+    "AttrType": [
+      "Magical"
+    ],
+    "AttackWeakType": [
+      "Fire"
+    ],
+    "PositionType": "Middle",
+    "PositionWeight": 100,
+    "MoveSpeed": 5000,
+    "MinDamageRate": 200,
+    "IgnoreCc": [
+      "False"
+    ],
+    "SizeMm": 500,
+    "HeightMm": 2200,
+    "BaseSkillIndex": 9000,
+    "SkillIndex1": 9010,
+    "SkillIndex2": 9020,
+    "SkillIndex3": 9030,
+    "SkillIndex4": 9040,
+    "ExtraSkill": [
+      "4010920"
+    ],
+    "ReplaceNameKey": "CREATURE_NAME_90"
   }
 ]

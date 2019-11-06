@@ -273,5 +273,10 @@
     "Index": 55,
     "Name": "ByTargeHpRatioM9",
     "Expression": "$1*(1000-$TC.HpRatioM*9/10)/1000"
+  },
+  {
+    "Index": 56,
+    "Name": "ByDefense",
+    "Expression": "$1*($Fc.MagicalDefense+$Fc.PhysicalDefense)/2"
   }
 ]

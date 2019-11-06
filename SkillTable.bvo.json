@@ -30666,7 +30666,17 @@
       "2820"
     ],
     "OperationDurationMs5": 10000,
-    "OperationConditionType5": "None"
+    "OperationConditionType5": "None",
+    "OperationType6": "ModCriticalPower",
+    "OperationTargetType6": "Myself",
+    "OperationValue6": [
+      "1000"
+    ],
+    "OperationState6": "Fluss_CriticalDamage",
+    "OperationDurationMs6": 10000,
+    "OperationFlags6": [
+      "Disabled"
+    ]
   },
   {
     "Index": 2821,
@@ -52906,5 +52916,161 @@
     "OperationState2": "Artifact999_1",
     "OperationDurationMs2": 30000,
     "OperationTickTimeMs2": 5000
+  },
+  {
+    "Index": 80005150,
+    "ReplaceDescKey": "SKILL_DESC_80005150",
+    "DescParam": [
+      "5",
+      "5",
+      "400"
+    ],
+    "TriggerType": "OnBaseAttack",
+    "TriggerRatio": 50,
+    "IgnoreStateType": [
+      "CC"
+    ],
+    "TargetType": "Myself",
+    "TargetCount": 1,
+    "DeadTarget": "False",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "False",
+    "OperationType1": "ModAttackSpeedR",
+    "OperationTargetType1": "Myself",
+    "OperationValue1": [
+      "400"
+    ],
+    "OperationState1": "Artifact515",
+    "OperationDurationMs1": 5000
+  },
+  {
+    "Index": 80005151,
+    "ReplaceDescKey": "SKILL_DESC_80005150",
+    "DescParam": [
+      "5",
+      "5",
+      "480"
+    ],
+    "TriggerType": "OnBaseAttack",
+    "TriggerRatio": 50,
+    "IgnoreStateType": [
+      "CC"
+    ],
+    "TargetType": "Myself",
+    "TargetCount": 1,
+    "DeadTarget": "False",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "False",
+    "OperationType1": "ModAttackSpeedR",
+    "OperationTargetType1": "Myself",
+    "OperationValue1": [
+      "480"
+    ],
+    "OperationState1": "Artifact515",
+    "OperationDurationMs1": 5000
+  },
+  {
+    "Index": 80005152,
+    "ReplaceDescKey": "SKILL_DESC_80005150",
+    "DescParam": [
+      "5",
+      "5",
+      "580"
+    ],
+    "TriggerType": "OnBaseAttack",
+    "TriggerRatio": 50,
+    "IgnoreStateType": [
+      "CC"
+    ],
+    "TargetType": "Myself",
+    "TargetCount": 1,
+    "DeadTarget": "False",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "False",
+    "OperationType1": "ModAttackSpeedR",
+    "OperationTargetType1": "Myself",
+    "OperationValue1": [
+      "580"
+    ],
+    "OperationState1": "Artifact515",
+    "OperationDurationMs1": 5000
+  },
+  {
+    "Index": 80005153,
+    "ReplaceDescKey": "SKILL_DESC_80005150",
+    "DescParam": [
+      "5",
+      "5",
+      "700"
+    ],
+    "TriggerType": "OnBaseAttack",
+    "TriggerRatio": 50,
+    "IgnoreStateType": [
+      "CC"
+    ],
+    "TargetType": "Myself",
+    "TargetCount": 1,
+    "DeadTarget": "False",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "False",
+    "OperationType1": "ModAttackSpeedR",
+    "OperationTargetType1": "Myself",
+    "OperationValue1": [
+      "700"
+    ],
+    "OperationState1": "Artifact515",
+    "OperationDurationMs1": 5000
+  },
+  {
+    "Index": 80005154,
+    "ReplaceDescKey": "SKILL_DESC_80005150",
+    "DescParam": [
+      "5",
+      "5",
+      "840"
+    ],
+    "TriggerType": "OnBaseAttack",
+    "TriggerRatio": 50,
+    "IgnoreStateType": [
+      "CC"
+    ],
+    "TargetType": "Myself",
+    "TargetCount": 1,
+    "DeadTarget": "False",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "False",
+    "OperationType1": "ModAttackSpeedR",
+    "OperationTargetType1": "Myself",
+    "OperationValue1": [
+      "840"
+    ],
+    "OperationState1": "Artifact515",
+    "OperationDurationMs1": 5000
+  },
+  {
+    "Index": 80005155,
+    "ReplaceDescKey": "SKILL_DESC_80005150",
+    "DescParam": [
+      "5",
+      "5",
+      "1000"
+    ],
+    "TriggerType": "OnBaseAttack",
+    "TriggerRatio": 50,
+    "IgnoreStateType": [
+      "CC"
+    ],
+    "TargetType": "Myself",
+    "TargetCount": 1,
+    "DeadTarget": "False",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "False",
+    "OperationType1": "ModAttackSpeedR",
+    "OperationTargetType1": "Myself",
+    "OperationValue1": [
+      "1000"
+    ],
+    "OperationState1": "Artifact515",
+    "OperationDurationMs1": 5000
   }
 ]

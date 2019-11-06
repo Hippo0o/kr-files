@@ -27009,5 +27009,123 @@
       "700"
     ],
     "OperationDurationMs1": 999999
+  },
+  {
+    "Index": 4010900,
+    "TriggerType": "None",
+    "TriggerRatio": 1000,
+    "DurationTimeMs": [
+      "3000"
+    ],
+    "CancelOnWaveEnd": "True",
+    "TickTimeValue": [
+      "1000",
+      "1700"
+    ],
+    "AttrType": "Magical",
+    "TargetType": "Enemy",
+    "TargetCount": 1,
+    "MaxRangeMm": 2000,
+    "DeadTarget": "False",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "False",
+    "OperationType1": "GetMagicalDamageR",
+    "OperationTargetType1": "Target",
+    "OperationValue1": [
+      "1",
+      "0",
+      "Unavoidable"
+    ]
+  },
+  {
+    "Index": 4010910,
+    "TriggerType": "OnAuto",
+    "TriggerRatio": 1000,
+    "CoolTimeMs": 8000,
+    "InitialCoolTimeMs": 8000,
+    "DurationTimeMs": [
+      "6500"
+    ],
+    "CancelOnWaveEnd": "True",
+    "TickTimeValue": [
+      "2200[1]",
+      "3000[1]",
+      "4000[2:3]"
+    ],
+    "AttrType": "Magical",
+    "TargetType": "Enemy",
+    "TargetCount": 1,
+    "MaxRangeMm": 2000,
+    "DeadTarget": "False",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "False",
+    "OperationType1": "GetMagicalDamageR",
+    "OperationTargetType1": "Target",
+    "OperationRadiusMm1": 1000,
+    "OperationValue1": [
+      "1",
+      "0",
+      "Unavoidable"
+    ],
+    "OperationType2": "GetMagicalDamageR",
+    "OperationTargetType2": "Target",
+    "OperationRadiusMm2": 1500,
+    "OperationValue2": [
+      "1",
+      "0",
+      "Unavoidable"
+    ],
+    "OperationType3": "Down",
+    "OperationTargetType3": "Parent",
+    "OperationValue3": [
+      "3000"
+    ],
+    "OperationState3": 4010910,
+    "OperationDurationMs3": 5000,
+    "OperationParent3": 2,
+    "OperationFlags3": [
+      "HasParent"
+    ]
+  },
+  {
+    "Index": 4010920,
+    "TriggerType": "OnWaveStart",
+    "TriggerRatio": 1000,
+    "CancelOnWaveEnd": "True",
+    "AttrType": "Magical",
+    "TargetType": "Myself",
+    "TargetCount": 1,
+    "DeadTarget": "False",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "False",
+    "OperationType1": "SetDamage",
+    "OperationTargetType1": "Myself",
+    "OperationValue1": [
+      "9999999",
+      "1000",
+      "None",
+      "None"
+    ],
+    "OperationState1": 4010920,
+    "OperationDurationMs1": 9999999,
+    "OperationType2": "SetDamage",
+    "OperationTargetType2": "Myself",
+    "OperationTargetSelectType2": "Opponent",
+    "OperationRadiusMm2": 50000,
+    "OperationValue2": [
+      "9999999",
+      "1000",
+      "None",
+      "None"
+    ],
+    "OperationState2": 4010921,
+    "OperationDurationMs2": 9999999,
+    "OperationType3": "ModRecoverPower",
+    "OperationTargetType3": "Myself",
+    "OperationValue3": [
+      "-990"
+    ],
+    "OperationState3": 4010922,
+    "OperationDurationMs3": 9999999
   }
 ]

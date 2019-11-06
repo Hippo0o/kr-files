@@ -1911,10 +1911,9 @@ SKILL_DESC_93001010,
 SKILL_DESC_93001100,"Beschwört die Seele von Leas Bote, Cocytus und fügt den Feinden an der Frontlinie [ffc800]{1}[-] Mag. Schaden zu. Der Feind wird [64ffff]{2}[-] Sek. lang weit zurückgestoßen und [64ffff]{3}[-] Sek. lang mit ‚Rabenunheil‘ belegt. Der ANG des Feindes, der mit ‚Rabenunheil‘ belegt wurde, wird um [ff6464]{4}[-] % verringert."
 SKILL_DESC_93001101,"Die Heilungsrate des Feindes, der mit ‚Rabenunheil‘ belegt wurde, wird um {1} % verringert."
 SKILL_DESC_93001102,Verwendungsbedingungen werden um {1} verringert.
-SKILL_DESC_93001200,
-SKILL_DESC_93001201,
-SKILL_DESC_93001202,
-SKILL_DESC_93001210,
+SKILL_DESC_93001200,"Beschwört die Seele von Ultimative Waffe, Leviathan und erhöht [64ffff]{1}[-] Sek. lang den eigenen ANG um [64ff64]{2}[-] %. Dabei wird dem Gegner aller [64ffff]{3}[-] Sek. [ffc800]{4}[-] Körp. Schaden zugefügt und pro Treffer wird [64ffff]{5}[-] Sek. lang der erhaltene Körp. Schaden um [ff6464]{6}[-] % erhöht."
+SKILL_DESC_93001201,Erhöht die erhaltene Körp. Schadenschwächung des Gegners um zus. {1} %.
+SKILL_DESC_93001202,Verringert den Cooldown um {1} Sek.
 SKILL_DESC_93001300,
 SKILL_DESC_93001301,
 SKILL_DESC_93001302,
@@ -1971,20 +1970,18 @@ SKILL_DESC_93002700,
 SKILL_DESC_93002701,
 SKILL_DESC_93002702,
 SKILL_DESC_93002710,
-SKILL_DESC_93002800,
-SKILL_DESC_93002801,
-SKILL_DESC_93002802,
-SKILL_DESC_93002810,
+SKILL_DESC_93002800,"Beschwört die Seele von Wütende Zwillingsschwerter, Veralta für [64ffff]{1}[-] Sek., wobei während der Wirkungsdauer der Schaden des Normal-ANG um [64ff64]{2}[-] % erhöht und der eigene genutzte Skill verstärkt wird.\n[Sturmklinge] greift das Ziel und Feinde in seiner Nähe [64ffff]3[-]-mal an, sodass dem Ziel insgesamt [ffc800]{3}[-] zus. Körp. Schaden zugefügt und seine Heilungsrate [64ffff]{4}[-] Sek. lang um [ff6464]{5}[-] % reduziert wird.\n[Blitzschritt] erhöht [64ffff]{6}[-] Sek. lang den eigenen Krit. Schaden um [64ff64]{7}[-] %.\n[Blutige Blüten] verursacht [64ffff]16[-]-mal [ffc800]{8}[-] zus. Körp. Schaden an einem Ziel.\nDer mit diesem Skill angerichtete Schaden wird von dem Mal-Effekt von [Blitzschritt] nicht getroffen."
+SKILL_DESC_93002801,Die Wirkungsdauer der Seelenwaffe wird auf {1} Sek. geändert.
+SKILL_DESC_93002802,Während der Wirkungsdauer wird mit jedem ANG mit einer {1} %-ige Chance der Cooldown aller eigenen Skills um {2} % verringert.
 SKILL_DESC_93002900,"Beschwört die Seele von Blume der Ewigkeit, Hyacinth und fügt nahen Feinden in ringförmiger Reichweite [ffc800]{1}[-] Mag. Schaden zu. Außerdem werden die Feinde [64ffff]{2}[-] Sek. lang eingefroren und weit zurückgestoßen. Danach fügt die Seele von Hyacinth den eingefrorenen Gegnern zus. [ffc800]{3}[-] Mag. Schaden zu und erhöht [64ffff]{4}[-] Sek. lang den eigenen Krit. Schaden um [64ff64]{5}[-] %."
 SKILL_DESC_93002901,Erhöht {1} Sek. lang den erhaltenen Mag. Schaden des getroffenen Gegners um {2} %.
 SKILL_DESC_93002902,"Während der Wirkungsdauer werden {1} Gegner vom Normal-ANG getroffen und die ANG-Reichweite wird um {2} % erhöht, wobei mit jedem Treffer die Gegner zurückgeworfen werden."
 SKILL_DESC_93003000,Beschwört die Seele von Fließender Kreis Eltoirre für [64ffff]{1}[-] Sek. und regeneriert jede Sek. [ffc800]{2}[-] TP und [64ff64]{3}[-] MP für alle Verbündete.
 SKILL_DESC_93003001,Erhöht die Mag. VERT geheilter Verbündete um {1} % und das Mag. Blockieren um {2}. Dieser Effekt ist bis zu {3}-mal stapelbar.
 SKILL_DESC_93003002,Für die Dauer des Skills wirst du immun gegen alle Schäden und jede Sek. wird das Cooldown der verwendeten Skills um {1} Sek. verringert.
-SKILL_DESC_93003100,
-SKILL_DESC_93003101,
-SKILL_DESC_93003102,
-SKILL_DESC_93003110,
+SKILL_DESC_93003100,"Beschwört die Seele von Klarer blauer Himmel, Sherrkyle, wobei allen Gegnern [ffc800]{1}[-] Mag. Schaden zugefügt und [64ffff]{2}[-] Sek. lang ein Urteilssiegel auf ihnen hinterlassen wird. Danach wird [64ffff]{3}[-] Sek. lang der eigene Krit. Schaden um [64ff64]{4}[-] % erhöht."
+SKILL_DESC_93003101,Während der Wirkungsdauer wird pro Sek. der Cooldown aller eigenen genutzten Skills um {1} Sek. verringert.
+SKILL_DESC_93003102,"Während der Wirkungsdauer wird aller {1} Sek. ein zufälliger Gegner angegriffen, ihm dabei [ffc800]{2}[-] Mag. Schaden zugefügt und {3} Sek. lang ein Urteilssiegel auf ihn hinterlassen. Falls der besagte Gegner bereits unter Urteilssiegel steht, wird ihm zus. [ffc800]{4}[-] VERT-ignorierender Mag. Schaden zugefügt."
 SKILL_DESC_93003200,
 SKILL_DESC_93003201,
 SKILL_DESC_93003202,
@@ -1995,10 +1992,9 @@ SKILL_DESC_93003302,Die Wirkungsdauer erhöht sich um {1} Sek. und verleiht eige
 SKILL_DESC_93003400,Beschwört die Seele von Kristallisierter Technomagier Rascal und regeneriert [64ffff]{1}[-] Sek. lang jede Sek. [64ff64]{2}[-] MP. Bei der Überladung wird für die Dauer des Skills der Mag. Schaden aller Gegner um [ff6464]{3}[-] % erhöht.
 SKILL_DESC_93003401,Die Skill-Dauer erhöht sich um {1} Sek.
 SKILL_DESC_93003402,Für die Dauer des Skills erhöht sich der ANG aller Verbündete um {1} % und der Krit. Schaden um {2} %.
-SKILL_DESC_93003500,
-SKILL_DESC_93003501,
-SKILL_DESC_93003502,
-SKILL_DESC_93003510,
+SKILL_DESC_93003500,"Beschwört die Seele von Schrei des Wahnsinns, Velkinoth für [64ffff]{1}[-] Sek. und erhöht den eigenen ANG um [64ff64]{2}[-] %. Diese Seele greift den Gegner [64ffff]{3}[-]-mal an und fügt ihm [ffc800]{4}[-] Körp. Schaden + zus. [ffc800]{5}[-] Körp. Schaden pro gegn. Todeszeichen zu."
+SKILL_DESC_93003501,"Der durch die Seele von Schrei des Wahnsinns, Velkinoth zugefügter Schaden erhöht sich um {1} %."
+SKILL_DESC_93003502,Erhöht den eigenen verursachten Schaden an Feinden um {1} % für die Wirkungsdauer.
 SKILL_DESC_93003600,"Beschwört die Seele von Licht des Gesetzes Theoria für [64ffff]{1}[-] Sek. und erhöht die eigene VERT um [64ff64]{2}[-] %. Wenn Ricardo für die Dauer des Skills Schaden erleidet, wird mit einer {3} % Chance dem Schaden zufügenden Gegnern [ffc800]{4}[-] Körp. Schaden zugefügt und dieser wird für [64ffff]{5}[-] Sek. betäubt."
 SKILL_DESC_93003601,Betäubungsdauer wird um {1} Sek. erhöht.
 SKILL_DESC_93003602,Aktivierungschance erhöht sich um {1} % und die MP des Schaden zufügenden Gegners werden um {2} verringert.
@@ -2027,32 +2023,28 @@ SKILL_DESC_93004210,
 SKILL_DESC_93004300,"Beschwört [64ffff]{1}[-] Sek. lang die Seele von Alptraumkralle, Kitrax und verringert den erhaltenen Schaden für [64ffff]1[-] Seele im Besitz um [ff6464]{2}[-] %. Pro Sek. werden TP in Höhe von [ffc800]{3}[-] % der max. TP und [ffc800]{4}[-] MP regeneriert. Danach wird den frontal stehenden Gegnern [ffc800]{5}[-] Mag. Schaden zugefügt und die getroffenen Ziele werden für [64ffff]{6}[-] Sek. versteinert. Wenn die Anzahl der Seelen [64ffff]{7}[-] beträgt, wird das Cooldown aller Viska-Skills zurückgesetzt."
 SKILL_DESC_93004301,Die Versteinerungsdauer wird um {1} Sek. erhöht und der erhaltene Mag. Schaden des getroffenen Ziels wird {2} Sek. lang um {3} % erhöht.
 SKILL_DESC_93004302,Für die Wirkungsdauer wird der Schaden des Ich reiß' dich in Stücke!-Skills um {1} % erhöht.
-SKILL_DESC_93004400,
-SKILL_DESC_93004401,
-SKILL_DESC_93004402,
-SKILL_DESC_93004410,
+SKILL_DESC_93004400,"Beschwört die Seele von Wirbeltanz, Excilius für [64ffff]{1}[-] Sek., wobei der eigene ANG & der ANG des Verbündeten mit dem höchsten ANG um [64ff64]{2}[-] % erhöht und der Krit. Schaden des Verbündeten um [64ff64]{3}[-]% erhöht wird. Zusätzlich wird dem Verbündeten mit dem höchsten ANG Massenkontroll-Immunität gewährt."
+SKILL_DESC_93004401,Verwendungsbedingungen werden um {1} Sek. verringert.
+SKILL_DESC_93004402,"Erhöht während der Wirkungsdauer den Schaden, den der Verbündete mit dem höchsten ANG dem Gegner zufügt, um {1} %."
 SKILL_DESC_93004500,"Beschwört {1} Sek. lang die Seele von Drachenfluch, Svelta, erhöht die ANG-GESCHW aller Verbündete um [64ff64]{2}[-] und regeneriert [64ff64]{3}[-] eigene MP/Sek. Erhöht den erhaltenen Schaden aller Gegner um [ffff64]{4}[-] % während der Wirkungsdauer und wenn es sich bei dem Ziel um einen Drachen handelt, wird der erhöhte Schaden-Effekt um [ffff64]{5}[-] % erhöht."
 SKILL_DESC_93004501,Effekt-Wirkungsdauer erhöht sich um {1} Sek.
 SKILL_DESC_93004502,Erhöht eigenen ANG um {1} % während der Wirkungsdauer.
 SKILL_DESC_93004600,Beschwöre die Seele von Ruhm des Gottkönigs Zaries für [64ffff]{1}[-] Sek. und für die Dauer des Skills wird der Körp. Schaden aller Gegner um [64ff64]{2}[-] % erhöht. Die eigene ANG-GESCHW wird um [64ff64]{3}[-] erhöht.
 SKILL_DESC_93004601,Für die Dauer des Skills wird die eigene VERT-Durchdr. um {1} erhöht.
 SKILL_DESC_93004602,Die Skill-Dauer wird um {1} Sek. erhöht und für die Dauer des Skills gilt massenkontroll-Immunität.
-SKILL_DESC_93004700,
-SKILL_DESC_93004701,
-SKILL_DESC_93004702,
-SKILL_DESC_93004710,
-SKILL_DESC_93004900,
-SKILL_DESC_93004901,
-SKILL_DESC_93004902,
-SKILL_DESC_93004910,
+SKILL_DESC_93004700,"Beschwört die Seele von Sternhimmelweber, Mellifluo und setzt den Cooldown des [Bindendes Karma]-Skills zurück. Danach greift es den Gegner an, fügt ihm [ffc800]{1}[-] Mag. Schaden zu, verringert [64ffff]{2}[-] Sek. lang seine Heilungsrate um [ff6464]{3}[-] % und setzt ihn [64ffff]{4}[-] Sek. lang unter ‘Schicksalsfaden‘. Handelt es sich um einen Boss wird ihm zus. [ffc800]{5}[-] VERT-ignorierender Mag. Schaden zugefügt."
+SKILL_DESC_93004701,Schaden erhöht sich um {1} %.
+SKILL_DESC_93004702,Verwendungsbedingungen werden um {1} Sek. verringert.
+SKILL_DESC_93004900,"Beschwört die Seele von Karten des Schicksals, Del Arcana, wobei die eigenen Karten im Besitz entfernt werden, die [Sterne]-Karte erhalten und [64ffff]{1}[-] Sek. lang der ANG um [64ff64]{2}[-] % erhöht wird. Wenn die [Sterne]-Karte im Besitz steht, wird bei Verwendung eines Skills der Effekt der Karten [Tod], [Liebe] und [Glück] aktiviert. Danach verschwindet die [Sterne]-Karte."
+SKILL_DESC_93004901,Füllt bei Aktivierung die eigene MP um {1} Kugel(n) auf.
+SKILL_DESC_93004902,Aktivierungsbedingungen werden auf {1} geändert.
 SKILL_DESC_93005000,
 SKILL_DESC_93005001,
 SKILL_DESC_93005002,
 SKILL_DESC_93005010,
-SKILL_DESC_93005100,
-SKILL_DESC_93005101,
-SKILL_DESC_93005102,
-SKILL_DESC_93005110,
+SKILL_DESC_93005100,"Beschwört die Seele von Sonnen-Heiligenschein, Ignisius und erhöht [64ffff]{1}[-] Sek. lang die eigene Körp. VERT um [64ff64]{2}[-] %. Danach wird der Gegner in kurzer Reichweite [64ffff]{3}[-]-mal angegriffen und ihm wird [ffc800]{4}[-] Mag. Schaden zugefügt. Zusätzlich wird dem getroffenen Gegner pro Treffer einen Verurteilung von Ignisius-Stapel auferlegt und [64ffff]{5}[-] Sek. lang der erhaltene Mag. Schaden des Gegners um [64ff64]{6}[-] % erhöht. Verurteilung von Ignisius kann max. [64ffff]{7}[-]-mal gestapelt werden."
+SKILL_DESC_93005101,Pro Verurteilung von Ignisius-Stapel wird der Mag. VERT ein Reduktionseffekt in Höhe von {1} % hinzugefügt.
+SKILL_DESC_93005102,Die Wirkungsdauer von Verurteilung von Ignisius wird um {1} Sek. erhöht und die max. Stapelanzahl auf {2} geändert.
 SKILL_DESC_93005200,"Beschwört {1} Sek. lang die Seele von Höllenhund, Akistra und erzeugt zus. [ffc800]{2}[-] Körp. Schaden, wenn Crow mit dem [Auch Götter sterben.]-Skill angreift. Wenn es voll aufgeladen ist, wird ein erhöhter [64ff64]{3}[-] % Schaden zugefügt. Wenn der Gegner Schaden erleidet, wird die Seele vernichtet."
 SKILL_DESC_93005201,Schaden erhöht sich um {1} %.
 SKILL_DESC_93005202,Erhöht eigenen ANG um {1} % während der Wirkungsdauer.
@@ -2081,10 +2073,9 @@ SKILL_DESC_93005902,Für die Dauer des Skills verringert sich aller {1} Sek. der
 SKILL_DESC_93006000,"Beschwört {1} Sek. lang die Seele von Prismanova, Arc Lumineir. Für die Wirkungsdauer greift die Seele aller {2} Sek. gemäß des Lichts im Besitz an. \n[ff6464]Rotes Licht[-] - Greift den Gegner an und fügt [ffc800]{3}[-] VERT-ignorierenden Mag. Schaden zu. \n[64ffff]Blaues Licht[-] - Greift alle Gegner an, fügt [ffc800]{4}[-] Mag. Schaden zu und regeneriert [64ff64]{5}[-] Kugel Mana. \n[64ff64]Grünes Licht[-] - Greift zwei Gegner an, fügt [ffc800]{6}[-] Mag. Schaden zu und verringert [64ffff]{7}[-] Sek. lang den gegn. ANG um [ffff64]{8}[-] %."
 SKILL_DESC_93006001,Verwendungsbedingungen werden um {1} verringert.
 SKILL_DESC_93006002,Alle Effekte werden zusätzlich verstärkt.\n[Rotes Licht] - Erhöht Schaden um {1} %.\n[Blaues Licht] - Erhöht MP-Regeneration um {2} %. \n[Grünes Licht] - Verändert die ANG-Reduktion auf {3} %.
-SKILL_DESC_93006100,
-SKILL_DESC_93006101,
-SKILL_DESC_93006102,
-SKILL_DESC_93006110,
+SKILL_DESC_93006100,"Beschwört die Seele von Tosender Drachenschlund, Acravita und fügt den Gegnern an der Front basierend auf die eigenen VERT [ffc800]{1}[-] Mag. Schaden zu. Zusätzlich werden die Gegner [64ffff]{2}[-] Sek. lang betäubt und für [64ffff]{3}[-] Sek. wird der gegn. ANG um [ff6464]{4}[-] % verringert."
+SKILL_DESC_93006101,Positive Effekte aller Gegner in Reichweite werden entfernt.
+SKILL_DESC_93006102,Verwendungsbedingungen werden auf {1} geändert und {2} Sek. lang wird der erhaltene Mag. Schaden getroffener Gegner um {3} % erhöht.
 SKILL_DESC_93006200,"Beschwört die Seele von Urteilsschwert, Weiße Belona und erhöht [64ffff]{1}[-] Sek. lang den eigenen ANG um [64ff64]{2}[-] %, wobei dem Gegner mit dem höchsten ANG [ffc800]{3}[-] Körp. Schaden zugefügt wird."
 SKILL_DESC_93006201,Verwendungsbedingungen werden auf {1} geändert..
 SKILL_DESC_93006202,Erhöht den Schaden um {1} % und entfernt die pos. Effekte des getroffenen Gegners.
@@ -2097,17 +2088,15 @@ SKILL_DESC_93006402,Für die Dauer des Skills werden alle neg. Effekte der Verb�
 SKILL_DESC_93006500,"Für [64ffff]{1}[-] Sek. wird Endlose Beschleunigung Riventina im Boden aufgestellt. Danach greift Riventina den Gegner mit der niedrigen Mag. VERT, fügt [ffc800]{2}[-] Mag. Schaden zu und setzt sie unter Zielerfassung. Anschließend wird der Gegner für {3} Sek. angegriffen, [ffc800]{4}[-] Mag. Schaden zugefügt und für [64ffff]{5}[-] Sek. betäubt. Alle Effekte werden als erstes auf dem Gegner im Zielerfassungszustand übertragen."
 SKILL_DESC_93006501,Bei Aktivierung erhöht sich {1} Sek. lang Miriannes Krit. Schaden um {2} % und die PRÄZ um {3}.
 SKILL_DESC_93006502,"Bei Aktivierung wird der [Auslöschung] Skill so geändert, dass es die gegn. VERT für {1} Sek. ignoriert und den Schaden um {2} % erhöht."
-SKILL_DESC_93006600,
-SKILL_DESC_93006601,
-SKILL_DESC_93006602,
-SKILL_DESC_93006610,
+SKILL_DESC_93006600,"Beschwört die Seele von Bezaubernde Melodie, Schwanheite und regeneriert [64ffff]{1}[-] Sek. lang [ffc800]{2}[-] MP/Sek. Während der Skill-Wirkungsdauer wird bei Verwendung von 3 Trance-Stapeln [64ffff]{3}[-] Sek. lang der ANG aller Verbündeten um [64ff64]{4}[-] % und die VERT um [64ff64]{5}[-] % erhöht."
+SKILL_DESC_93006601,Bei Verwendung von 3 Trance-Stapeln wird {1} % Krit. Schaden-Boost gewährt.
+SKILL_DESC_93006602,"ANG-, VERT- und Krit. Schaden-Boost werden auf jeweils {1} %, {2} % und {3} % geändert."
 SKILL_DESC_93006700,"Beschwört die Seele von 0-Form Immerwährende Bewegungskanone, Himmelszerstörer für {1} Sek. Die beschwörte Seele greift den Gegner kontinuierlich an und fügt alle {2} Sek. [ffc800]{3}[-] Mag. Schaden zu. Dieser Effekt wird verstärkt, wenn der gleiche Gegner über {4} Sek. lang angegriffen wird, sodass sich der Schaden um [64ff64]{5}[-] % erhöht."
 SKILL_DESC_93006701,Die Seelen-Wirkungsdauer erhöht sich um {1} Sek.
 SKILL_DESC_93006702,Verstärkte Angriffe betäuben das Ziel für {1} Sek. bei jedem ANG und der Schaden wird um zus. {2} % erhöht.
-SKILL_DESC_93006800,
-SKILL_DESC_93006801,
-SKILL_DESC_93006802,
-SKILL_DESC_93006810,
+SKILL_DESC_93006800,"Beschwört die Seele von Zerfleischendes Chaos, Zakadras und fügt allen Gegnern [ffc800]{1}[-] Körp. Schaden zu. Zusätzlich werden sie für [64ffff]{2}[-] Sek. betäubt und der erhaltene Körp. Schaden wird [64ffff]{3}[-] Sek. lang um [64ff64]{4}[-] % erhöht. Danach wird der eigene ANG [64ffff]{5}[-] Sek. lang um [64ff64]{6}[-] % und die ANG-GESCHW um [64ff64]{7}[-] erhöht."
+SKILL_DESC_93006801,Der Schaden erhöht sich um {1} % und die erhaltene Körp. Schadenschwächung um {2} %.
+SKILL_DESC_93006802,Der Cooldown wird um {1} Sek. verringert und bei Skill-Aktivierung kommen {2}x Dämonisches Blut im Besitz.
 SKILL_DESC_93006900,
 SKILL_DESC_93006901,
 SKILL_DESC_93006902,
@@ -2115,18 +2104,16 @@ SKILL_DESC_93006910,
 SKILL_DESC_93007000,Beschwort die Seele von Uberschallsturm Gigantix fur [64ffff]{1}[-] Sek. und bei einem Normal- und Skilltreffer greift es einen Gegner mit einer {2} %ige Chance an. Dabei wird dem Gegner und den anderen Zielen in der Nahe [ffc800]{3}[-] Korp. Schaden zugefugt und sie werden fur [64ffff]{4}[-] Sek. betaubt.
 SKILL_DESC_93007001,Für die Dauer des Skills wird der eigene ANG um {1} % erhöht.
 SKILL_DESC_93007002,Aktivierungschance wird um {1} % erhöht.
-SKILL_DESC_93007100,
-SKILL_DESC_93007101,
-SKILL_DESC_93007102,
-SKILL_DESC_93007110,
+SKILL_DESC_93007100,"Beschwört die Seele von Klinge der Verurteilung, Elicipira und [64ffff]{1}[-] Sek. lang wird die zus. Mag. Schaden-Aktivierungschance von Klinge der Verurteilung, Elicipira auf [64ff64]{2}[-] % geändert, wobei der erhaltene Gesamtschaden um [64ff64]{3}[-] % verringert wird."
+SKILL_DESC_93007101,Während der Wirkungsdauer wird der ANG um {1} % erhöht.
+SKILL_DESC_93007102,"Die Effektdauer wird um {1} Sek. erhöht und die Aktivierungschance von Klinge der Verurteilung, Elicipira wird auf {2} % geändert."
 SKILL_DESC_93007200,
 SKILL_DESC_93007201,
 SKILL_DESC_93007202,
 SKILL_DESC_93007210,
-SKILL_DESC_93007300,
-SKILL_DESC_93007301,
-SKILL_DESC_93007302,
-SKILL_DESC_93007310,
+SKILL_DESC_93007300,"Beschwört die Seele von Blutlancier, Monolith und fügt den Feinden in Reichweite [ffc800]{1}[-] Körp. Schaden zu und wirft sie für [64ffff]{2}[-] Sek. zu Boden. Danach werden die TP um [64ff64]{3}[-] % der max. TP regeneriert und [64ffff]{4}[-] Sek. lang wird der ANG um [64ff64]{5}[-] % und die Heilungsrate um [64ff64]{6}[-] % erhöht."
+SKILL_DESC_93007301,Die Effektdauer wird auf {1} Sek. geändert.
+SKILL_DESC_93007302,Während der Wirkungsdauer wird dem Gegner zugefügter Schaden um {1} % erhöht und bei einem Normal-ANG wird der Gegner mit {2} %-iger Chance für {3} Sek. betäubt.
 SKILL_DESC_93007400,
 SKILL_DESC_93007401,
 SKILL_DESC_93007402,
@@ -2197,18 +2184,16 @@ SKILL_DESC_93009100,
 SKILL_DESC_93009101,
 SKILL_DESC_93009102,
 SKILL_DESC_93009110,
-SKILL_DESC_93009200,
-SKILL_DESC_93009201,
-SKILL_DESC_93009202,
-SKILL_DESC_93009210,
+SKILL_DESC_93009200,"Beschwört die Seele von Unendlicher Aufzeichner, Accordio und erhält sofort [64ffff]{1}[-]x Wissen des Hauptgeldgebers. Außerdem wird [64ffff]{2}[-] Sek. lang der Krit. Schaden des Verbündeten mit dem höchsten ANG um [64ff64]{3}[-] % und dem Boss zugefügter Schaden um [64ff64]{4}[-] % erhöht."
+SKILL_DESC_93009201,Wirkungsdauer wird um {1} Sek. erhöht.
+SKILL_DESC_93009202,Der erhaltene Effekt des Verbündeten mit dem höchsten ANG wird um {1} % erhöht.
 SKILL_DESC_93009300,
 SKILL_DESC_93009301,
 SKILL_DESC_93009302,
 SKILL_DESC_93009310,
-SKILL_DESC_93009400,
-SKILL_DESC_93009401,
-SKILL_DESC_93009402,
-SKILL_DESC_93009410,
+SKILL_DESC_93009400,"Beschwört die Seele von Hundert-Aromen-Bankett, Tempora Fyrr für [64ffff]{1}[-] Sek. und je nach eigenem Zustand wird ein zusätzlicher Effekt hinzugefügt.\nAls [fa96fa][Himmlische Köchin][-] werden die VERT aller Verbündeten um [64ff64]{2} % + {3} % des Juno-ANG[-] erhöht. \nAls [fa96fa][Köchin aus der Hölle][-] wird der ANG aller Verbündeten um [64ff64]{4} % + {5} % des Juno-ANG[-] erhöht. Wenn [Ausgezeichnete Zutat] mehr als [64ffff]{6}[-]x gestapelt wird, werden bei Skill-Verwendung [64ffff]{7}[-]x davon aufgebraucht, um alle Effekte um [64ffff]{8}[-] % zu erhöhen und zu aktivieren."
+SKILL_DESC_93009401,Verwendungsbedingungen werden um {1} verringert.
+SKILL_DESC_93009402,Als [Himmlische Köchin] wird der erhaltene Gesamtschaden aller Verbündeten um {1} % verringert.\nAls [Köchin aus der Hölle] wird der erhaltene Gesamtschaden aller Gegner um {2} % erhöht. Ausgezeichnete Zutat Stapel-Effekt wird auf diese Effekte angewendet.
 SKILL_DESC_93009500,
 SKILL_DESC_93009501,
 SKILL_DESC_93009502,
