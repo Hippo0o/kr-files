@@ -3795,38 +3795,6 @@
     ]
   },
   {
-    "Index": 25004,
-    "CodeName": "Hero.Maya.Pet",
-    "OpenStatus": "Normal",
-    "OpenType": "None",
-    "Race": "Pet",
-    "TagType": "Warrior",
-    "AttrType": [
-      "Physical"
-    ],
-    "AttackWeakType": [
-      "Fire"
-    ],
-    "PositionType": "Forward",
-    "PositionWeight": 600,
-    "MoveSpeed": 5000,
-    "MinDamageRate": 200,
-    "IgnoreCc": [
-      "False"
-    ],
-    "SizeMm": 500,
-    "HeightMm": 2000,
-    "TranscendSkill5": [
-      "",
-      ""
-    ],
-    "ReqSkillPoint5": [
-      "15",
-      "15"
-    ],
-    "StartHeroStar": 3
-  },
-  {
     "Index": 26,
     "CodeName": "Hero.Aisha",
     "OpenStatus": "Normal",
@@ -4804,7 +4772,9 @@
       "3246",
       "3247",
       "3248",
-      "3249"
+      "3249",
+      "93003212",
+      "93003213"
     ],
     "GetTranscendSkillPoint": [
       "10",
@@ -10711,7 +10681,8 @@
       "6936",
       "6937",
       "6939",
-      "6925"
+      "6925",
+      "93006911"
     ],
     "GetTranscendSkillPoint": [
       "10",
@@ -11135,6 +11106,160 @@
       "STAT_TYPE.PHYSICAL_CRITICAL_CHANCE",
       "STAT_TYPE.ATTACK_SPEED",
       "STAT_TYPE.ADD_MAX_HP_R"
+    ]
+  },
+  {
+    "Index": 72,
+    "CodeName": "Hero.Pancironne",
+    "OpenStatus": "Normal",
+    "OpenType": "None",
+    "Race": "Hero",
+    "TagType": "Mechanic",
+    "AttrType": [
+      "Physical"
+    ],
+    "AttackWeakType": [
+      "Fire"
+    ],
+    "PositionType": "Middle",
+    "PositionWeight": 100,
+    "MoveSpeed": 5000,
+    "MinDamageRate": 200,
+    "IgnoreCc": [
+      "False"
+    ],
+    "SizeMm": 800,
+    "HeightMm": 2000,
+    "GradeStoneItemCode": "SKILLBOOK_MECHANIC_1",
+    "StarStoneItemCode": "NO_ITEM",
+    "BaseSkillIndex": 7200,
+    "SkillIndex1": 7210,
+    "SkillExtend1": [
+      "7211",
+      "7212",
+      "7213"
+    ],
+    "SkillIndex2": 7220,
+    "SkillExtend2": [
+      "7221",
+      "7222",
+      "7223"
+    ],
+    "SkillIndex3": 7230,
+    "SkillExtend3": [
+      "7231",
+      "7232",
+      "7233"
+    ],
+    "SkillIndex4": 7240,
+    "SkillExtend4": [
+      "7241",
+      "7242",
+      "7243"
+    ],
+    "ExtraSkill": [
+      "7224",
+      "7225",
+      "7244",
+      "7245",
+      "7246"
+    ],
+    "GetTranscendSkillPoint": [
+      "10",
+      "15",
+      "15",
+      "15",
+      "25"
+    ],
+    "TranscendSkill1": [
+      "60000001",
+      "60000002",
+      "60000003",
+      "60000004",
+      "60000033"
+    ],
+    "ReqSkillPoint1": [
+      "10",
+      "10",
+      "10",
+      "10",
+      "10"
+    ],
+    "TranscendSkill2": [
+      "60000021",
+      "60000022",
+      "60000023",
+      "60000024",
+      "60000038"
+    ],
+    "ReqSkillPoint2": [
+      "15",
+      "15",
+      "15",
+      "15",
+      "15"
+    ],
+    "TranscendSkill3": [
+      "60007210",
+      "60007211",
+      "60007220",
+      "60007221",
+      "60007230",
+      "60007231",
+      "60007240",
+      "60007241"
+    ],
+    "ReqSkillPoint3": [
+      "15",
+      "15",
+      "15",
+      "15",
+      "15",
+      "15",
+      "15",
+      "15"
+    ],
+    "TranscendSkill5": [
+      "60007250",
+      "60007251"
+    ],
+    "ReqSkillPoint5": [
+      "15",
+      "15"
+    ],
+    "SoulWeaponBasicSkillIndex": 93007200,
+    "StartHeroStar": 3,
+    "OpenDate": 191126,
+    "AddStamina": 1,
+    "HeroPositionIcon1": "icon_raidmacro_attack",
+    "HeroPositionText1": "HERO_POSITION_15",
+    "HeroPositionIcon2": "icon_raidmacro_attack",
+    "HeroPositionText2": "HERO_POSITION_33",
+    "TranscendRecommend1": [
+      "60000001",
+      "60000033",
+      "60007010",
+      "60007020",
+      "60007030",
+      "60007051"
+    ],
+    "TranscendRecommend3": [
+      "60000001",
+      "60000002",
+      "60000021",
+      "60007040",
+      "60007021",
+      "60007050"
+    ],
+    "EquipoptionRecommend1": [
+      "STAT_TYPE.PHYSICAL_ATTACK",
+      "STAT_TYPE.PHYSICAL_CRITICAL_POWER",
+      "STAT_TYPE.PHYSICAL_CRITICAL_CHANCE"
+    ],
+    "EquipoptionRecommend3": [
+      "STAT_TYPE.PHYSICAL_ATTACK",
+      "STAT_TYPE.PHYSICAL_CRITICAL_POWER",
+      "STAT_TYPE.PHYSICAL_CRITICAL_CHANCE"
     ]
   },
   {
@@ -12615,7 +12740,8 @@
       "9534",
       "9535",
       "9544",
-      "9545"
+      "9545",
+      "93009512"
     ],
     "GetTranscendSkillPoint": [
       "10",
@@ -17460,6 +17586,64 @@
       "7137",
       "7144",
       "7145"
+    ],
+    "StartHeroStar": 3
+  },
+  {
+    "Index": 572,
+    "CodeName": "Monster.Ordeal.DarkPancironne",
+    "ModelCode": "Hero.Pancironne",
+    "ModelPrefix": "Trial",
+    "Race": "Hero",
+    "TagType": "Mechanic",
+    "AttrType": [
+      "Physical"
+    ],
+    "AttackWeakType": [
+      "Fire"
+    ],
+    "PositionType": "Middle",
+    "PositionWeight": 100,
+    "MoveSpeed": 5000,
+    "MinDamageRate": 200,
+    "IgnoreCc": [
+      "False"
+    ],
+    "SizeMm": 800,
+    "HeightMm": 2000,
+    "GradeStoneItemCode": "SKILLBOOK_MECHANIC_1",
+    "StarStoneItemCode": "NO_ITEM",
+    "BaseSkillIndex": 7200,
+    "SkillIndex1": 7210,
+    "SkillExtend1": [
+      "7211",
+      "7212",
+      "7213"
+    ],
+    "SkillIndex2": 7220,
+    "SkillExtend2": [
+      "7221",
+      "7222",
+      "7223"
+    ],
+    "SkillIndex3": 7230,
+    "SkillExtend3": [
+      "7231",
+      "7232",
+      "7233"
+    ],
+    "SkillIndex4": 7240,
+    "SkillExtend4": [
+      "7241",
+      "7242",
+      "7243"
+    ],
+    "ExtraSkill": [
+      "7224",
+      "7225",
+      "7244",
+      "7245",
+      "7246"
     ],
     "StartHeroStar": 3
   },
@@ -22506,6 +22690,64 @@
     "StartHeroStar": 2
   },
   {
+    "Index": 672,
+    "CodeName": "Monster.Ordeal.LightPancironne",
+    "ModelCode": "Hero.Pancironne",
+    "ModelPrefix": "Trans",
+    "Race": "Hero",
+    "TagType": "Mechanic",
+    "AttrType": [
+      "Physical"
+    ],
+    "AttackWeakType": [
+      "Fire"
+    ],
+    "PositionType": "Middle",
+    "PositionWeight": 100,
+    "MoveSpeed": 5000,
+    "MinDamageRate": 200,
+    "IgnoreCc": [
+      "False"
+    ],
+    "SizeMm": 800,
+    "HeightMm": 2000,
+    "GradeStoneItemCode": "SKILLBOOK_MECHANIC_1",
+    "StarStoneItemCode": "NO_ITEM",
+    "BaseSkillIndex": 7200,
+    "SkillIndex1": 7210,
+    "SkillExtend1": [
+      "7211",
+      "7212",
+      "7213"
+    ],
+    "SkillIndex2": 7220,
+    "SkillExtend2": [
+      "7221",
+      "7222",
+      "7223"
+    ],
+    "SkillIndex3": 7230,
+    "SkillExtend3": [
+      "7231",
+      "7232",
+      "7233"
+    ],
+    "SkillIndex4": 7240,
+    "SkillExtend4": [
+      "7241",
+      "7242",
+      "7243"
+    ],
+    "ExtraSkill": [
+      "7224",
+      "7225",
+      "7244",
+      "7245",
+      "7246"
+    ],
+    "StartHeroStar": 3
+  },
+  {
     "Index": 673,
     "CodeName": "Monster.Ordeal.LightChase",
     "ModelCode": "Hero.Chase",
@@ -23469,7 +23711,6 @@
   {
     "Index": 801,
     "CodeName": "NPC.NormalShop",
-    "ModelPrefix": "1000Days",
     "Race": "NPC",
     "AttrType": [
       "Physical"
@@ -23492,7 +23733,6 @@
   {
     "Index": 802,
     "CodeName": "NPC.ArenaShop",
-    "ModelPrefix": "1000Days",
     "Race": "NPC",
     "AttrType": [
       "Physical"
@@ -23559,7 +23799,6 @@
   {
     "Index": 805,
     "CodeName": "NPC.SoulGemShop",
-    "ModelPrefix": "1000Days",
     "Race": "NPC",
     "AttrType": [
       "Physical"
@@ -23582,7 +23821,6 @@
   {
     "Index": 806,
     "CodeName": "NPC.RoyalShop",
-    "ModelPrefix": "1000Days",
     "Race": "NPC",
     "AttrType": [
       "Physical"
@@ -23605,7 +23843,6 @@
   {
     "Index": 807,
     "CodeName": "NPC.GuildShop",
-    "ModelPrefix": "1000Days",
     "Race": "NPC",
     "AttrType": [
       "Physical"
@@ -23628,7 +23865,6 @@
   {
     "Index": 808,
     "CodeName": "NPC.Stockade",
-    "ModelPrefix": "1000Days",
     "Race": "NPC",
     "AttrType": [
       "Physical"
@@ -23742,7 +23978,6 @@
   {
     "Index": 813,
     "CodeName": "NPC.Blacksmith",
-    "ModelPrefix": "1000Days",
     "Race": "NPC",
     "AttrType": [
       "Physical"
@@ -23787,7 +24022,6 @@
   {
     "Index": 815,
     "CodeName": "NPC.Inn",
-    "ModelPrefix": "1000Days",
     "Race": "NPC",
     "AttrType": [
       "Physical"
@@ -24009,6 +24243,28 @@
   {
     "Index": 825,
     "CodeName": "NPC.Lavril",
+    "Race": "NPC",
+    "AttrType": [
+      "Physical"
+    ],
+    "AttackWeakType": [
+      "Fire"
+    ],
+    "PositionType": "Middle",
+    "PositionWeight": 3030,
+    "MoveSpeed": 5000,
+    "MinDamageRate": 204,
+    "IgnoreCc": [
+      "False"
+    ],
+    "SizeMm": 500,
+    "HeightMm": 1660,
+    "GradeStoneItemCode": "NO_ITEM",
+    "StarStoneItemCode": "NO_ITEM"
+  },
+  {
+    "Index": 826,
+    "CodeName": "NPC.Yuria",
     "Race": "NPC",
     "AttrType": [
       "Physical"
@@ -29460,6 +29716,35 @@
     "SkillIndex3": 1040130
   },
   {
+    "Index": 10501,
+    "CodeName": "Boss.Dreadbringer",
+    "Race": "Undead",
+    "AttrType": [
+      "Magical"
+    ],
+    "ArchiveStory": "CREATURE_STORY_10501",
+    "AttackWeakType": [
+      "Fire"
+    ],
+    "BlockDash": "True",
+    "PositionWeight": 20000,
+    "MoveSpeed": 5000,
+    "MinDamageRate": 200,
+    "IgnoreCc": [
+      "CC"
+    ],
+    "SizeMm": 900,
+    "HeightMm": 2500,
+    "GradeStoneItemCode": "NO_ITEM",
+    "StarStoneItemCode": "NO_ITEM",
+    "BaseSkillIndex": 1050100,
+    "SkillIndex1": 1050110,
+    "SkillIndex2": 1050120,
+    "ExtraSkill": [
+      "1050111"
+    ]
+  },
+  {
     "Index": 100001,
     "CodeName": "Boss.Kasel.Fallen.Walk"
   },
@@ -30929,6 +31214,46 @@
     ]
   },
   {
+    "Index": 55097,
+    "CodeName": "WorldBoss.MountainFortress",
+    "Race": "Golem",
+    "AttrType": [
+      "Physical"
+    ],
+    "AttackWeakType": [
+      "Fire"
+    ],
+    "BlockDash": "True",
+    "PositionWeight": 20000,
+    "MinDamageRate": 200,
+    "IgnoreCc": [
+      "CC"
+    ],
+    "TransformType": "StaticPosition,Wall",
+    "SizeMm": 4000,
+    "HeightMm": 8000,
+    "GradeStoneItemCode": "NO_ITEM",
+    "StarStoneItemCode": "NO_ITEM",
+    "BaseSkillIndex": 550100,
+    "SkillIndex1": 550110,
+    "SkillIndex2": 550120,
+    "SkillIndex3": 550130,
+    "SkillIndex4": 550140,
+    "ExtraSkill": [
+      "550160",
+      "550122",
+      "550121",
+      "550123",
+      "550124",
+      "550125",
+      "550126"
+    ],
+    "ShowInfoSkill": [
+      "550124",
+      "550125"
+    ]
+  },
+  {
     "Index": 55011,
     "CodeName": "Monster.Golem.Mountain",
     "Race": "Golem",
@@ -30994,9 +31319,7 @@
       "550260",
       "550203",
       "550211",
-      "550221",
-      "550235",
-      "550241"
+      "550235"
     ],
     "ShowInfoSkill": [
       "550222",
@@ -31045,9 +31368,7 @@
       "550260",
       "550203",
       "550211",
-      "550221",
-      "550235",
-      "550241"
+      "550235"
     ],
     "ShowInfoSkill": [
       "550222",
@@ -45330,6 +45651,38 @@
     "HeightMm": 1850
   },
   {
+    "Index": 901017,
+    "CodeName": "Object.UniqueWeapon.Dimael",
+    "ModelCode": "Object.DimaelUnique",
+    "Race": "NPC",
+    "SizeMm": 500,
+    "HeightMm": 1850
+  },
+  {
+    "Index": 901018,
+    "CodeName": "Object.UniqueWeapon.Reina",
+    "ModelCode": "Object.ReinaUnique",
+    "Race": "NPC",
+    "SizeMm": 500,
+    "HeightMm": 1850
+  },
+  {
+    "Index": 901021,
+    "CodeName": "Object.UniqueWeapon.Naila",
+    "ModelCode": "Object.NailaUnique",
+    "Race": "NPC",
+    "SizeMm": 500,
+    "HeightMm": 1850
+  },
+  {
+    "Index": 901022,
+    "CodeName": "Object.UniqueWeapon.Rodina",
+    "ModelCode": "Object.RodinaUnique",
+    "Race": "NPC",
+    "SizeMm": 500,
+    "HeightMm": 1850
+  },
+  {
     "Index": 901023,
     "CodeName": "Object.UniqueWeapon.Morrah",
     "ModelCode": "Object.MorrahUnique",
@@ -45386,6 +45739,14 @@
     "HeightMm": 1850
   },
   {
+    "Index": 901032,
+    "CodeName": "Object.UniqueWeapon.Lewsia",
+    "ModelCode": "Object.LewsiaUnique",
+    "Race": "NPC",
+    "SizeMm": 500,
+    "HeightMm": 1850
+  },
+  {
     "Index": 901033,
     "CodeName": "Object.UniqueWeapon.Nicx",
     "ModelCode": "Object.NicxUnique",
@@ -45418,9 +45779,25 @@
     "HeightMm": 1850
   },
   {
+    "Index": 901037,
+    "CodeName": "Object.UniqueWeapon.Tanya",
+    "ModelCode": "Object.TanyaUnique",
+    "Race": "NPC",
+    "SizeMm": 500,
+    "HeightMm": 1850
+  },
+  {
     "Index": 901038,
     "CodeName": "Object.UniqueWeapon.Ezekiel",
     "ModelCode": "Object.EzekielUnique",
+    "Race": "NPC",
+    "SizeMm": 500,
+    "HeightMm": 1850
+  },
+  {
+    "Index": 901039,
+    "CodeName": "Object.UniqueWeapon.Cassandra",
+    "ModelCode": "Object.CassandraUnique",
     "Race": "NPC",
     "SizeMm": 500,
     "HeightMm": 1850
@@ -45437,6 +45814,14 @@
     "Index": 901041,
     "CodeName": "Object.UniqueWeapon.Mediana",
     "ModelCode": "Object.MedianaUnique",
+    "Race": "NPC",
+    "SizeMm": 500,
+    "HeightMm": 1850
+  },
+  {
+    "Index": 901042,
+    "CodeName": "Object.UniqueWeapon.Oddy",
+    "ModelCode": "Object.OddyUnique",
     "Race": "NPC",
     "SizeMm": 500,
     "HeightMm": 1850
@@ -45498,6 +45883,14 @@
     "HeightMm": 1850
   },
   {
+    "Index": 901050,
+    "CodeName": "Object.UniqueWeapon.Requina",
+    "ModelCode": "Object.RequinaUnique",
+    "Race": "NPC",
+    "SizeMm": 500,
+    "HeightMm": 1850
+  },
+  {
     "Index": 901051,
     "CodeName": "Object.UniqueWeapon.Aselica",
     "ModelCode": "Object.AselicaUnique",
@@ -45517,6 +45910,14 @@
     "Index": 901053,
     "CodeName": "Object.UniqueWeapon.Shamilla",
     "ModelCode": "Object.ShamillaUnique",
+    "Race": "NPC",
+    "SizeMm": 500,
+    "HeightMm": 1850
+  },
+  {
+    "Index": 901054,
+    "CodeName": "Object.UniqueWeapon.Lavril",
+    "ModelCode": "Object.LavrilUnique",
     "Race": "NPC",
     "SizeMm": 500,
     "HeightMm": 1850
@@ -45634,6 +46035,14 @@
     "HeightMm": 1850
   },
   {
+    "Index": 901069,
+    "CodeName": "Object.UniqueWeapon.Esker",
+    "ModelCode": "Object.EskerUnique",
+    "Race": "NPC",
+    "SizeMm": 500,
+    "HeightMm": 1850
+  },
+  {
     "Index": 901070,
     "CodeName": "Object.UniqueWeapon.Cecilia",
     "ModelCode": "Object.CeciliaUnique",
@@ -45674,6 +46083,14 @@
     "HeightMm": 1850
   },
   {
+    "Index": 901090,
+    "CodeName": "Object.UniqueWeapon.May",
+    "ModelCode": "Object.MayUnique",
+    "Race": "NPC",
+    "SizeMm": 500,
+    "HeightMm": 1850
+  },
+  {
     "Index": 901092,
     "CodeName": "Object.UniqueWeapon.Veronica",
     "ModelCode": "Object.VeronicaUnique",
@@ -45682,9 +46099,33 @@
     "HeightMm": 1850
   },
   {
+    "Index": 901093,
+    "CodeName": "Object.UniqueWeapon.Loman",
+    "ModelCode": "Object.LomanUnique",
+    "Race": "NPC",
+    "SizeMm": 500,
+    "HeightMm": 1850
+  },
+  {
     "Index": 901094,
     "CodeName": "Object.UniqueWeapon.Juno",
     "ModelCode": "Object.JunoUnique",
+    "Race": "NPC",
+    "SizeMm": 500,
+    "HeightMm": 1850
+  },
+  {
+    "Index": 901095,
+    "CodeName": "Object.UniqueWeapon.Nicky",
+    "ModelCode": "Object.NickyUnique",
+    "Race": "NPC",
+    "SizeMm": 500,
+    "HeightMm": 1850
+  },
+  {
+    "Index": 901096,
+    "CodeName": "Object.UniqueWeapon.Dosarta",
+    "ModelCode": "Object.DosartaUnique",
     "Race": "NPC",
     "SizeMm": 500,
     "HeightMm": 1850
@@ -45779,6 +46220,42 @@
     "HeightMm": 1850
   },
   {
+    "Index": 911017,
+    "CodeName": "Object.SoulStone.Dimael",
+    "ModelCode": "Object.SoulStone",
+    "ModelPrefix": "SoulStoneDimael",
+    "Race": "NPC",
+    "SizeMm": 500,
+    "HeightMm": 1850
+  },
+  {
+    "Index": 911018,
+    "CodeName": "Object.SoulStone.Reina",
+    "ModelCode": "Object.SoulStone",
+    "ModelPrefix": "SoulStoneReina",
+    "Race": "NPC",
+    "SizeMm": 500,
+    "HeightMm": 1850
+  },
+  {
+    "Index": 911021,
+    "CodeName": "Object.SoulStone.Naila",
+    "ModelCode": "Object.SoulStone",
+    "ModelPrefix": "SoulStoneNaila",
+    "Race": "NPC",
+    "SizeMm": 500,
+    "HeightMm": 1850
+  },
+  {
+    "Index": 911022,
+    "CodeName": "Object.SoulStone.Rodina",
+    "ModelCode": "Object.SoulStone",
+    "ModelPrefix": "SoulStoneRodina",
+    "Race": "NPC",
+    "SizeMm": 500,
+    "HeightMm": 1850
+  },
+  {
     "Index": 911023,
     "CodeName": "Object.SoulStone.Morrah",
     "ModelCode": "Object.SoulStone",
@@ -45842,6 +46319,15 @@
     "HeightMm": 1850
   },
   {
+    "Index": 911032,
+    "CodeName": "Object.SoulStone.Lewsia",
+    "ModelCode": "Object.SoulStone",
+    "ModelPrefix": "SoulStoneLewsia",
+    "Race": "NPC",
+    "SizeMm": 500,
+    "HeightMm": 1850
+  },
+  {
     "Index": 911033,
     "CodeName": "Object.SoulStone.Nicx",
     "ModelCode": "Object.SoulStone",
@@ -45878,10 +46364,28 @@
     "HeightMm": 1850
   },
   {
+    "Index": 911037,
+    "CodeName": "Object.SoulStone.Tanya",
+    "ModelCode": "Object.SoulStone",
+    "ModelPrefix": "SoulStoneTanya",
+    "Race": "NPC",
+    "SizeMm": 500,
+    "HeightMm": 1850
+  },
+  {
     "Index": 911038,
     "CodeName": "Object.SoulStone.Ezekiel",
     "ModelCode": "Object.SoulStone",
     "ModelPrefix": "SoulStoneEzekiel",
+    "Race": "NPC",
+    "SizeMm": 500,
+    "HeightMm": 1850
+  },
+  {
+    "Index": 911039,
+    "CodeName": "Object.SoulStone.Cassandra",
+    "ModelCode": "Object.SoulStone",
+    "ModelPrefix": "SoulStoneCassandra",
     "Race": "NPC",
     "SizeMm": 500,
     "HeightMm": 1850
@@ -45900,6 +46404,15 @@
     "CodeName": "Object.SoulStone.Mediana",
     "ModelCode": "Object.SoulStone",
     "ModelPrefix": "SoulStoneMediana",
+    "Race": "NPC",
+    "SizeMm": 500,
+    "HeightMm": 1850
+  },
+  {
+    "Index": 911042,
+    "CodeName": "Object.SoulStone.Oddy",
+    "ModelCode": "Object.SoulStone",
+    "ModelPrefix": "SoulStoneOddy",
     "Race": "NPC",
     "SizeMm": 500,
     "HeightMm": 1850
@@ -45968,6 +46481,15 @@
     "HeightMm": 1850
   },
   {
+    "Index": 911050,
+    "CodeName": "Object.SoulStone.Requina",
+    "ModelCode": "Object.SoulStone",
+    "ModelPrefix": "SoulStoneRequina",
+    "Race": "NPC",
+    "SizeMm": 500,
+    "HeightMm": 1850
+  },
+  {
     "Index": 911051,
     "CodeName": "Object.SoulStone.Aselica",
     "ModelCode": "Object.SoulStone",
@@ -45990,6 +46512,15 @@
     "CodeName": "Object.SoulStone.Shamilla",
     "ModelCode": "Object.SoulStone",
     "ModelPrefix": "SoulStoneShamilla",
+    "Race": "NPC",
+    "SizeMm": 500,
+    "HeightMm": 1850
+  },
+  {
+    "Index": 911054,
+    "CodeName": "Object.SoulStone.Lavril",
+    "ModelCode": "Object.SoulStone",
+    "ModelPrefix": "SoulStoneLavril",
     "Race": "NPC",
     "SizeMm": 500,
     "HeightMm": 1850
@@ -46121,6 +46652,15 @@
     "HeightMm": 1850
   },
   {
+    "Index": 911069,
+    "CodeName": "Object.SoulStone.Esker",
+    "ModelCode": "Object.SoulStone",
+    "ModelPrefix": "SoulStoneEsker",
+    "Race": "NPC",
+    "SizeMm": 500,
+    "HeightMm": 1850
+  },
+  {
     "Index": 911070,
     "CodeName": "Object.SoulStone.Cecilia",
     "ModelCode": "Object.SoulStone",
@@ -46166,6 +46706,15 @@
     "HeightMm": 1850
   },
   {
+    "Index": 911090,
+    "CodeName": "Object.SoulStone.May",
+    "ModelCode": "Object.SoulStone",
+    "ModelPrefix": "SoulStoneMay",
+    "Race": "NPC",
+    "SizeMm": 500,
+    "HeightMm": 1850
+  },
+  {
     "Index": 911092,
     "CodeName": "Object.SoulStone.Veronica",
     "ModelCode": "Object.SoulStone",
@@ -46175,10 +46724,37 @@
     "HeightMm": 1850
   },
   {
+    "Index": 911093,
+    "CodeName": "Object.SoulStone.Loman",
+    "ModelCode": "Object.SoulStone",
+    "ModelPrefix": "SoulStoneLoman",
+    "Race": "NPC",
+    "SizeMm": 500,
+    "HeightMm": 1850
+  },
+  {
     "Index": 911094,
     "CodeName": "Object.SoulStone.Juno",
     "ModelCode": "Object.SoulStone",
     "ModelPrefix": "SoulStoneJuno",
+    "Race": "NPC",
+    "SizeMm": 500,
+    "HeightMm": 1850
+  },
+  {
+    "Index": 911095,
+    "CodeName": "Object.SoulStone.Nicky",
+    "ModelCode": "Object.SoulStone",
+    "ModelPrefix": "SoulStoneNicky",
+    "Race": "NPC",
+    "SizeMm": 500,
+    "HeightMm": 1850
+  },
+  {
+    "Index": 911096,
+    "CodeName": "Object.SoulStone.Dosarta",
+    "ModelCode": "Object.SoulStone",
+    "ModelPrefix": "SoulStoneDosarta",
     "Race": "NPC",
     "SizeMm": 500,
     "HeightMm": 1850
@@ -47328,5 +47904,944 @@
       "4010920"
     ],
     "ReplaceNameKey": "CREATURE_NAME_90"
+  },
+  {
+    "Index": 40116,
+    "CodeName": "Monster.Event.2019_DestinyLight.Demia",
+    "ModelCode": "Hero.Demia",
+    "OpenStatus": "Normal",
+    "Race": "Hero",
+    "TagType": "Knight",
+    "AttrType": [
+      "Physical"
+    ],
+    "AttackWeakType": [
+      "Fire"
+    ],
+    "PositionType": "Forward",
+    "PositionWeight": 700,
+    "MoveSpeed": 5000,
+    "MinDamageRate": 200,
+    "IgnoreCc": [
+      "False"
+    ],
+    "SizeMm": 500,
+    "HeightMm": 2000,
+    "GradeStoneItemCode": "SKILLBOOK_KNIGHT_1",
+    "StarStoneItemCode": "NO_ITEM",
+    "BaseSkillIndex": 2000,
+    "SkillIndex1": 2010,
+    "SkillExtend1": [
+      "2011",
+      "2012",
+      "2013"
+    ],
+    "SkillIndex2": 2020,
+    "SkillExtend2": [
+      "2021",
+      "2022",
+      "2023"
+    ],
+    "SkillIndex3": 2030,
+    "SkillExtend3": [
+      "2031",
+      "2032",
+      "2033"
+    ],
+    "SkillIndex4": 2040,
+    "SkillExtend4": [
+      "2041",
+      "2042",
+      "2043"
+    ],
+    "ExtraSkill": [
+      "2024",
+      "2034",
+      "2035",
+      "2036",
+      "2044"
+    ],
+    "GetTranscendSkillPoint": [
+      "10",
+      "15",
+      "15",
+      "15",
+      "25"
+    ],
+    "TranscendSkill1": [
+      "60000001",
+      "60000002",
+      "60000003",
+      "60000004",
+      "60000033"
+    ],
+    "ReqSkillPoint1": [
+      "10",
+      "10",
+      "10",
+      "10",
+      "10"
+    ],
+    "TranscendSkill2": [
+      "60000005",
+      "60000006",
+      "60000007",
+      "60000008",
+      "60000034"
+    ],
+    "ReqSkillPoint2": [
+      "15",
+      "15",
+      "15",
+      "15",
+      "15"
+    ],
+    "TranscendSkill3": [
+      "60002010",
+      "60002011",
+      "60002020",
+      "60002021",
+      "60002030",
+      "60002031",
+      "60002040",
+      "60002041"
+    ],
+    "ReqSkillPoint3": [
+      "15",
+      "15",
+      "15",
+      "15",
+      "15",
+      "15",
+      "15",
+      "15"
+    ],
+    "TranscendSkill5": [
+      "60002050",
+      "60002051"
+    ],
+    "ReqSkillPoint5": [
+      "15",
+      "15"
+    ],
+    "ReplaceNameKey": "CREATURE_NAME_20"
+  },
+  {
+    "Index": 40117,
+    "CodeName": "Monster.Event.2019_DestinyLight.Clause",
+    "ModelCode": "Hero.Clause",
+    "OpenStatus": "Normal",
+    "Race": "Hero",
+    "TagType": "Knight",
+    "AttrType": [
+      "Physical"
+    ],
+    "AttackWeakType": [
+      "Fire"
+    ],
+    "PositionType": "Forward",
+    "PositionWeight": 700,
+    "MoveSpeed": 5000,
+    "MinDamageRate": 200,
+    "IgnoreCc": [
+      "False"
+    ],
+    "SizeMm": 500,
+    "HeightMm": 1950,
+    "GradeStoneItemCode": "SKILLBOOK_KNIGHT_1",
+    "StarStoneItemCode": "NO_ITEM",
+    "BaseSkillIndex": 1500,
+    "SkillIndex1": 1530,
+    "SkillExtend1": [
+      "1531",
+      "1532",
+      "1533"
+    ],
+    "SkillIndex2": 1520,
+    "SkillExtend2": [
+      "1521",
+      "1522",
+      "1523"
+    ],
+    "SkillIndex3": 1510,
+    "SkillExtend3": [
+      "1511",
+      "1512",
+      "1513"
+    ],
+    "SkillIndex4": 1540,
+    "SkillExtend4": [
+      "1541",
+      "1542",
+      "1543"
+    ],
+    "ExtraSkill": [
+      "1524",
+      "1526",
+      "1535",
+      "1544",
+      "1545"
+    ],
+    "GetTranscendSkillPoint": [
+      "10",
+      "15",
+      "15",
+      "15",
+      "25"
+    ],
+    "TranscendSkill1": [
+      "60000001",
+      "60000002",
+      "60000003",
+      "60000004",
+      "60000033"
+    ],
+    "ReqSkillPoint1": [
+      "10",
+      "10",
+      "10",
+      "10",
+      "10"
+    ],
+    "TranscendSkill2": [
+      "60000005",
+      "60000006",
+      "60000007",
+      "60000008",
+      "60000034"
+    ],
+    "ReqSkillPoint2": [
+      "15",
+      "15",
+      "15",
+      "15",
+      "15"
+    ],
+    "TranscendSkill3": [
+      "60001510",
+      "60001511",
+      "60001520",
+      "60001521",
+      "60001530",
+      "60001531",
+      "60001540",
+      "60001541"
+    ],
+    "ReqSkillPoint3": [
+      "15",
+      "15",
+      "15",
+      "15",
+      "15",
+      "15",
+      "15",
+      "15"
+    ],
+    "TranscendSkill5": [
+      "60001550",
+      "60001551"
+    ],
+    "ReqSkillPoint5": [
+      "15",
+      "15"
+    ],
+    "ReplaceNameKey": "CREATURE_NAME_15"
+  },
+  {
+    "Index": 40118,
+    "CodeName": "Monster.Event.2019_DestinyLight.Chase",
+    "ModelCode": "Hero.Chase",
+    "OpenStatus": "Normal",
+    "Race": "Hero",
+    "TagType": "Warrior",
+    "AttrType": [
+      "Physical"
+    ],
+    "AttackWeakType": [
+      "Fire"
+    ],
+    "PositionType": "Forward",
+    "PositionWeight": 600,
+    "MoveSpeed": 5000,
+    "MinDamageRate": 200,
+    "IgnoreCc": [
+      "False"
+    ],
+    "SizeMm": 800,
+    "HeightMm": 2000,
+    "GradeStoneItemCode": "SKILLBOOK_WARRIOR_1",
+    "StarStoneItemCode": "NO_ITEM",
+    "BaseSkillIndex": 7300,
+    "SkillIndex1": 7310,
+    "SkillExtend1": [
+      "7311",
+      "7312",
+      "7313"
+    ],
+    "SkillIndex2": 7320,
+    "SkillExtend2": [
+      "7321",
+      "7322",
+      "7323"
+    ],
+    "SkillIndex3": 7330,
+    "SkillExtend3": [
+      "7331",
+      "7332",
+      "7333"
+    ],
+    "SkillIndex4": 7340,
+    "SkillExtend4": [
+      "7341",
+      "7342",
+      "7343"
+    ],
+    "ExtraSkill": [
+      "7344",
+      "7334",
+      "7335",
+      "7325",
+      "7345",
+      "7305",
+      "7326",
+      "7304",
+      "7324",
+      "7328",
+      "7329",
+      "7327",
+      "7315"
+    ],
+    "GetTranscendSkillPoint": [
+      "10",
+      "15",
+      "15",
+      "15",
+      "25"
+    ],
+    "TranscendSkill1": [
+      "60000001",
+      "60000002",
+      "60000003",
+      "60000004",
+      "60000033"
+    ],
+    "ReqSkillPoint1": [
+      "10",
+      "10",
+      "10",
+      "10",
+      "10"
+    ],
+    "TranscendSkill2": [
+      "60000013",
+      "60000014",
+      "60000015",
+      "60000016",
+      "60000036"
+    ],
+    "ReqSkillPoint2": [
+      "15",
+      "15",
+      "15",
+      "15",
+      "15"
+    ],
+    "TranscendSkill3": [
+      "60002810",
+      "60002811",
+      "60002820",
+      "60002821",
+      "60002830",
+      "60002831",
+      "60002840",
+      "60002841"
+    ],
+    "ReqSkillPoint3": [
+      "15",
+      "15",
+      "15",
+      "15",
+      "15",
+      "15",
+      "15",
+      "15"
+    ],
+    "TranscendSkill5": [
+      "60002850",
+      "60002851"
+    ],
+    "ReqSkillPoint5": [
+      "15",
+      "15"
+    ],
+    "ReplaceNameKey": "CREATURE_NAME_73"
+  },
+  {
+    "Index": 40119,
+    "CodeName": "Monster.Event.2019_DestinyLight.Fluss",
+    "ModelCode": "Hero.Fluss",
+    "ModelPrefix": "Trial",
+    "OpenStatus": "Normal",
+    "Race": "Hero",
+    "TagType": "Assassin",
+    "AttrType": [
+      "Physical"
+    ],
+    "AttackWeakType": [
+      "Fire"
+    ],
+    "PositionType": "Forward",
+    "PositionWeight": 500,
+    "MoveSpeed": 5000,
+    "MinDamageRate": 200,
+    "IgnoreCc": [
+      "False"
+    ],
+    "SizeMm": 700,
+    "HeightMm": 1600,
+    "GradeStoneItemCode": "SKILLBOOK_ASSASSIN_1",
+    "StarStoneItemCode": "NO_ITEM",
+    "BaseSkillIndex": 2800,
+    "SkillIndex1": 2810,
+    "SkillExtend1": [
+      "2811",
+      "2812",
+      "2813"
+    ],
+    "SkillIndex2": 2820,
+    "SkillExtend2": [
+      "2821",
+      "2822",
+      "2823"
+    ],
+    "SkillIndex3": 2830,
+    "SkillExtend3": [
+      "2831",
+      "2832",
+      "2833"
+    ],
+    "SkillIndex4": 2840,
+    "SkillExtend4": [
+      "2841",
+      "2842",
+      "2843"
+    ],
+    "ExtraSkill": [
+      "2824",
+      "2825",
+      "2826",
+      "2827",
+      "2828",
+      "2829"
+    ],
+    "GetTranscendSkillPoint": [
+      "10",
+      "15",
+      "15",
+      "15",
+      "25"
+    ],
+    "TranscendSkill1": [
+      "60000001",
+      "60000002",
+      "60000003",
+      "60000004",
+      "60000033"
+    ],
+    "ReqSkillPoint1": [
+      "10",
+      "10",
+      "10",
+      "10",
+      "10"
+    ],
+    "TranscendSkill2": [
+      "60000013",
+      "60000014",
+      "60000015",
+      "60000016",
+      "60000036"
+    ],
+    "ReqSkillPoint2": [
+      "15",
+      "15",
+      "15",
+      "15",
+      "15"
+    ],
+    "TranscendSkill3": [
+      "60002810",
+      "60002811",
+      "60002820",
+      "60002821",
+      "60002830",
+      "60002831",
+      "60002840",
+      "60002841"
+    ],
+    "ReqSkillPoint3": [
+      "15",
+      "15",
+      "15",
+      "15",
+      "15",
+      "15",
+      "15",
+      "15"
+    ],
+    "TranscendSkill5": [
+      "60002850",
+      "60002851"
+    ],
+    "ReqSkillPoint5": [
+      "15",
+      "15"
+    ],
+    "ReplaceNameKey": "CREATURE_NAME_528"
+  },
+  {
+    "Index": 40120,
+    "CodeName": "Monster.Event.2019_DestinyLight.Chrisha",
+    "ModelCode": "Hero.Chrisha",
+    "ModelPrefix": "Trial",
+    "OpenStatus": "Normal",
+    "Race": "Hero",
+    "TagType": "Mechanic",
+    "AttrType": [
+      "Magical"
+    ],
+    "AttackWeakType": [
+      "Fire"
+    ],
+    "PositionType": "Rear",
+    "PositionWeight": 300,
+    "MoveSpeed": 5000,
+    "MinDamageRate": 200,
+    "IgnoreCc": [
+      "False"
+    ],
+    "SizeMm": 500,
+    "HeightMm": 1900,
+    "GradeStoneItemCode": "SKILLBOOK_MECHANIC_1",
+    "StarStoneItemCode": "NO_ITEM",
+    "BaseSkillIndex": 6000,
+    "SkillIndex1": 6010,
+    "SkillExtend1": [
+      "6011",
+      "6012",
+      "6013"
+    ],
+    "SkillIndex2": 6020,
+    "SkillExtend2": [
+      "6021",
+      "6022",
+      "6023"
+    ],
+    "SkillIndex3": 6030,
+    "SkillExtend3": [
+      "6031",
+      "6032",
+      "6033"
+    ],
+    "SkillIndex4": 6040,
+    "SkillExtend4": [
+      "6041",
+      "6042",
+      "6043"
+    ],
+    "ExtraSkill": [
+      "6044",
+      "6001",
+      "6002",
+      "6003",
+      "6014",
+      "6045",
+      "6046",
+      "6047",
+      "6024",
+      "6034",
+      "6015",
+      "6016",
+      "6025",
+      "6035",
+      "93006011",
+      "93006012",
+      "93006013"
+    ],
+    "GetTranscendSkillPoint": [
+      "10",
+      "15",
+      "15",
+      "15",
+      "25"
+    ],
+    "TranscendSkill1": [
+      "60000001",
+      "60000002",
+      "60000003",
+      "60000004",
+      "60000033"
+    ],
+    "ReqSkillPoint1": [
+      "10",
+      "10",
+      "10",
+      "10",
+      "10"
+    ],
+    "TranscendSkill2": [
+      "60000021",
+      "60000022",
+      "60000023",
+      "60000024",
+      "60000038"
+    ],
+    "ReqSkillPoint2": [
+      "15",
+      "15",
+      "15",
+      "15",
+      "15"
+    ],
+    "TranscendSkill3": [
+      "60006010",
+      "60006011",
+      "60006020",
+      "60006021",
+      "60006030",
+      "60006031",
+      "60006040",
+      "60006041"
+    ],
+    "ReqSkillPoint3": [
+      "15",
+      "15",
+      "15",
+      "15",
+      "15",
+      "15",
+      "15",
+      "15"
+    ],
+    "TranscendSkill5": [
+      "60006050",
+      "60006051"
+    ],
+    "ReqSkillPoint5": [
+      "15",
+      "15"
+    ],
+    "ReplaceNameKey": "CREATURE_NAME_560"
+  },
+  {
+    "Index": 40121,
+    "CodeName": "Monster.Event.2019_DestinyLight.GunnerSuperElite",
+    "ModelCode": "Monster.Empire.GunnerSuperElite",
+    "Race": "Human",
+    "AttrType": [
+      "Physical"
+    ],
+    "ArchiveType": "Normal",
+    "AttackWeakType": [
+      "Fire"
+    ],
+    "PositionWeight": 300,
+    "MoveSpeed": 5000,
+    "MinDamageRate": 200,
+    "IgnoreCc": [
+      "False"
+    ],
+    "SizeMm": 500,
+    "HeightMm": 2000,
+    "GradeStoneItemCode": "NO_ITEM",
+    "StarStoneItemCode": "NO_ITEM",
+    "BaseSkillIndex": 3301400,
+    "SkillIndex1": 3301410,
+    "SkillIndex2": 3301420,
+    "SkillIndex3": 3301430,
+    "ReplaceNameKey": "CREATURE_NAME_33214"
+  },
+  {
+    "Index": 40122,
+    "CodeName": "Monster.Event.2019_DestinyLight.WraithofRegrets",
+    "ModelCode": "Monster.WraithofRegrets.Elite",
+    "Race": "Undead",
+    "AttrType": [
+      "Physical"
+    ],
+    "AttackWeakType": [
+      "Fire"
+    ],
+    "PositionWeight": 400,
+    "MoveSpeed": 5000,
+    "MinDamageRate": 200,
+    "IgnoreCc": [
+      "CC"
+    ],
+    "SizeMm": 1600,
+    "HeightMm": 2000,
+    "GradeStoneItemCode": "NO_ITEM",
+    "StarStoneItemCode": "NO_ITEM",
+    "BaseSkillIndex": 3303700,
+    "SkillIndex1": 3303710,
+    "ExtraSkill": [
+      "3303713",
+      "3303714"
+    ],
+    "ReplaceNameKey": "CREATURE_NAME_33008"
+  },
+  {
+    "Index": 40123,
+    "CodeName": "Monster.Event.2019_DestinyLight.Demia",
+    "ModelCode": "Hero.Demia",
+    "OpenStatus": "Normal",
+    "Race": "Hero",
+    "TagType": "Knight",
+    "AttrType": [
+      "Physical"
+    ],
+    "AttackWeakType": [
+      "Fire"
+    ],
+    "PositionType": "Forward",
+    "PositionWeight": 700,
+    "MoveSpeed": 5000,
+    "MinDamageRate": 200,
+    "IgnoreCc": [
+      "CC"
+    ],
+    "SizeMm": 500,
+    "HeightMm": 2000,
+    "GradeStoneItemCode": "SKILLBOOK_KNIGHT_1",
+    "StarStoneItemCode": "NO_ITEM",
+    "BaseSkillIndex": 2000,
+    "SkillIndex1": 4012310,
+    "ExtraSkill": [
+      "2024",
+      "2034",
+      "2035",
+      "2036",
+      "2044"
+    ],
+    "GetTranscendSkillPoint": [
+      "10",
+      "15",
+      "15",
+      "15",
+      "25"
+    ],
+    "TranscendSkill1": [
+      "60000001",
+      "60000002",
+      "60000003",
+      "60000004",
+      "60000033"
+    ],
+    "ReqSkillPoint1": [
+      "10",
+      "10",
+      "10",
+      "10",
+      "10"
+    ],
+    "TranscendSkill2": [
+      "60000005",
+      "60000006",
+      "60000007",
+      "60000008",
+      "60000034"
+    ],
+    "ReqSkillPoint2": [
+      "15",
+      "15",
+      "15",
+      "15",
+      "15"
+    ],
+    "TranscendSkill3": [
+      "60002010",
+      "60002011",
+      "60002020",
+      "60002021",
+      "60002030",
+      "60002031",
+      "60002040",
+      "60002041"
+    ],
+    "ReqSkillPoint3": [
+      "15",
+      "15",
+      "15",
+      "15",
+      "15",
+      "15",
+      "15",
+      "15"
+    ],
+    "TranscendSkill5": [
+      "60002050",
+      "60002051"
+    ],
+    "ReqSkillPoint5": [
+      "15",
+      "15"
+    ],
+    "ReplaceNameKey": "CREATURE_NAME_20"
+  },
+  {
+    "Index": 40124,
+    "CodeName": "Monster.Event.2019_DestinyLight.Chase",
+    "ModelCode": "Hero.Chase",
+    "OpenStatus": "Normal",
+    "Race": "Hero",
+    "TagType": "Warrior",
+    "AttrType": [
+      "Physical"
+    ],
+    "AttackWeakType": [
+      "Fire"
+    ],
+    "PositionType": "Forward",
+    "PositionWeight": 500,
+    "MoveSpeed": 5000,
+    "MinDamageRate": 200,
+    "IgnoreCc": [
+      "CC"
+    ],
+    "SizeMm": 700,
+    "HeightMm": 1600,
+    "GradeStoneItemCode": "SKILLBOOK_ASSASSIN_1",
+    "StarStoneItemCode": "NO_ITEM",
+    "BaseSkillIndex": 7300,
+    "SkillIndex1": 4012410,
+    "SkillIndex2": 4012420,
+    "ExtraSkill": [
+      "7344",
+      "7334",
+      "7335",
+      "7325",
+      "7345",
+      "7305",
+      "7326",
+      "7304",
+      "7324",
+      "7328",
+      "7329",
+      "7327",
+      "7315"
+    ],
+    "ReplaceNameKey": "CREATURE_NAME_73"
+  },
+  {
+    "Index": 40125,
+    "CodeName": "Monster.Event.2019_DestinyLight.Chrisha",
+    "ModelCode": "Hero.Chrisha",
+    "ModelPrefix": "Trial",
+    "OpenStatus": "Normal",
+    "Race": "Hero",
+    "TagType": "Mechanic",
+    "AttrType": [
+      "Magical"
+    ],
+    "AttackWeakType": [
+      "Fire"
+    ],
+    "PositionType": "Rear",
+    "PositionWeight": 300,
+    "MoveSpeed": 5000,
+    "MinDamageRate": 200,
+    "IgnoreCc": [
+      "CC"
+    ],
+    "SizeMm": 500,
+    "HeightMm": 1900,
+    "GradeStoneItemCode": "SKILLBOOK_MECHANIC_1",
+    "StarStoneItemCode": "NO_ITEM",
+    "BaseSkillIndex": 6000,
+    "SkillIndex1": 4012510,
+    "SkillIndex4": 6040,
+    "ExtraSkill": [
+      "6044",
+      "6001",
+      "6002",
+      "6003",
+      "6014",
+      "6045",
+      "6046",
+      "6047",
+      "6024",
+      "6034",
+      "6015",
+      "6016",
+      "6025",
+      "6035",
+      "93006011",
+      "93006012",
+      "93006013"
+    ],
+    "GetTranscendSkillPoint": [
+      "10",
+      "15",
+      "15",
+      "15",
+      "25"
+    ],
+    "TranscendSkill1": [
+      "60000001",
+      "60000002",
+      "60000003",
+      "60000004",
+      "60000033"
+    ],
+    "ReqSkillPoint1": [
+      "10",
+      "10",
+      "10",
+      "10",
+      "10"
+    ],
+    "TranscendSkill2": [
+      "60000009",
+      "60000010",
+      "60000011",
+      "60000012",
+      "60000035"
+    ],
+    "ReqSkillPoint2": [
+      "15",
+      "15",
+      "15",
+      "15",
+      "15"
+    ],
+    "TranscendSkill3": [
+      "60007310",
+      "60007311",
+      "60007320",
+      "60007321",
+      "60007330",
+      "60007331",
+      "60007340",
+      "60007341"
+    ],
+    "ReqSkillPoint3": [
+      "15",
+      "15",
+      "15",
+      "15",
+      "15",
+      "15",
+      "15",
+      "15"
+    ],
+    "TranscendSkill5": [
+      "60007350",
+      "60007351"
+    ],
+    "ReqSkillPoint5": [
+      "15",
+      "15"
+    ],
+    "ReplaceNameKey": "CREATURE_NAME_560"
   }
 ]

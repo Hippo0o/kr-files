@@ -2548,145 +2548,6 @@
     ]
   },
   {
-    "Index": 1101,
-    "Category": "Tutorial",
-    "EventType": "EnterEntryMenu",
-    "EventCondition": [
-      "99",
-      "2"
-    ],
-    "CurrentCondition": [
-      "CompleteTutorial",
-      "2160",
-      "True"
-    ],
-    "Command": "StartTutorial",
-    "Argument": [
-      "506"
-    ]
-  },
-  {
-    "Index": 1102,
-    "Category": "Tutorial",
-    "EventType": "EnterEntryMenu",
-    "EventCondition": [
-      "99",
-      "3"
-    ],
-    "CurrentCondition": [
-      "CompleteTutorial",
-      "2120",
-      "True"
-    ],
-    "Command": "StartTutorial",
-    "Argument": [
-      "507"
-    ]
-  },
-  {
-    "Index": 1103,
-    "Category": "Tutorial",
-    "EventType": "EnterEntryMenu",
-    "EventCondition": [
-      "99",
-      "4"
-    ],
-    "CurrentCondition": [
-      "CompleteTutorial",
-      "2130",
-      "True"
-    ],
-    "Command": "StartTutorial",
-    "Argument": [
-      "508"
-    ]
-  },
-  {
-    "Index": 1104,
-    "Category": "Tutorial",
-    "EventType": "EnterEntryMenu",
-    "EventCondition": [
-      "99",
-      "6"
-    ],
-    "CurrentCondition": [
-      "CompleteTutorial",
-      "13020",
-      "True"
-    ],
-    "Command": "StartTutorial",
-    "Argument": [
-      "509"
-    ]
-  },
-  {
-    "Index": 1105,
-    "Category": "Tutorial",
-    "EventType": "EnterEntryMenu",
-    "EventCondition": [
-      "99",
-      "8"
-    ],
-    "CurrentCondition": [
-      "CompleteTutorial",
-      "2000",
-      "True"
-    ],
-    "Command": "StartTutorial",
-    "Argument": [
-      "510"
-    ]
-  },
-  {
-    "Index": 1106,
-    "Category": "Tutorial",
-    "EventType": "EnterEntryMenu",
-    "EventCondition": [
-      "99",
-      "9"
-    ],
-    "CurrentCondition": [
-      "CompleteTutorial",
-      "2140",
-      "True"
-    ],
-    "Command": "StartTutorial",
-    "Argument": [
-      "511"
-    ]
-  },
-  {
-    "Index": 1107,
-    "Category": "Tutorial",
-    "EventType": "EnterEntryMenu",
-    "EventCondition": [
-      "99",
-      "5"
-    ],
-    "CurrentCondition": [
-      "CompleteTutorial",
-      "2150",
-      "True"
-    ],
-    "Command": "StartTutorial",
-    "Argument": [
-      "512"
-    ]
-  },
-  {
-    "Index": 1108,
-    "Category": "Tutorial",
-    "EventType": "EnterEntryMenu",
-    "EventCondition": [
-      "995",
-      "1"
-    ],
-    "Command": "StartTutorial",
-    "Argument": [
-      "512"
-    ]
-  },
-  {
     "Index": 1109,
     "Category": "MainScenario",
     "EventType": "EnterScenarioBattle",
@@ -2873,6 +2734,229 @@
     "Command": "StartCutScene",
     "Argument": [
       "CutScene/Event/1000Days/E_Thousand_Jin_02"
+    ]
+  },
+  {
+    "Index": 1201,
+    "Category": "Tutorial",
+    "EventType": "EnterEventDungeonSelect",
+    "EventCondition": [
+      "30030",
+      " 1"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "513"
+    ]
+  },
+  {
+    "Index": 1202,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "30030",
+      " 1",
+      " 1"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/DestinyLight/TT02"
+    ]
+  },
+  {
+    "Index": 1203,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "30030",
+      " 1",
+      " 2"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/DestinyLight/TT03"
+    ]
+  },
+  {
+    "Index": 1204,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "30030",
+      " 1",
+      " 3"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/DestinyLight/TT04"
+    ]
+  },
+  {
+    "Index": 1205,
+    "Category": "MainScenario",
+    "EventType": "ScenarioBattleEnd",
+    "EventCondition": [
+      "30030",
+      " 1",
+      " True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/DestinyLight/TT05"
+    ]
+  },
+  {
+    "Index": 1206,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "30030",
+      " 2",
+      " 1"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/DestinyLight/TT06"
+    ]
+  },
+  {
+    "Index": 1207,
+    "Category": "MainScenario",
+    "EventType": "ScenarioBattleEnd",
+    "EventCondition": [
+      "30030",
+      " 2",
+      " True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/DestinyLight/TT07"
+    ]
+  },
+  {
+    "Index": 1208,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "30030",
+      " 3",
+      " 1"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/DestinyLight/TT08"
+    ]
+  },
+  {
+    "Index": 1209,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "30030",
+      " 3",
+      " 2"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/DestinyLight/TT09"
+    ]
+  },
+  {
+    "Index": 1210,
+    "Category": "MainScenario",
+    "EventType": "ScenarioBattleEnd",
+    "EventCondition": [
+      "30030",
+      " 3",
+      " True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/DestinyLight/TT10"
+    ]
+  },
+  {
+    "Index": 1211,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "30030",
+      " 4",
+      " 1"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/DestinyLight/TT11"
+    ]
+  },
+  {
+    "Index": 1212,
+    "Category": "MainScenario",
+    "EventType": "ScenarioBattleEnd",
+    "EventCondition": [
+      "30030",
+      " 4",
+      " True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/DestinyLight/TT12"
+    ]
+  },
+  {
+    "Index": 1213,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "30030",
+      " 5",
+      " 1"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/DestinyLight/TT13"
+    ]
+  },
+  {
+    "Index": 1214,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveEnd",
+    "EventCondition": [
+      "30030",
+      " 5",
+      " 1"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/DestinyLight/TT14"
+    ]
+  },
+  {
+    "Index": 1215,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "30030",
+      " 5",
+      " 2"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/DestinyLight/TT15"
+    ]
+  },
+  {
+    "Index": 1216,
+    "Category": "MainScenario",
+    "EventType": "ScenarioBattleEnd",
+    "EventCondition": [
+      "30030",
+      " 5",
+      " True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/DestinyLight/TT16"
     ]
   },
   {

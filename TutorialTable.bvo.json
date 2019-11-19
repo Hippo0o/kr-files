@@ -11149,7 +11149,7 @@
     "Index": 10200,
     "Command": "WaitObject",
     "Argument": [
-      "PayShop(Clone)/Root/CategoryPanel/ClippingPanel/PayShopCategoryComponent(Clone)",
+      "PayShop(Clone)/Root/CategoryPanel/ClippingPanel/Equip",
       " 0.3",
       " 0.2",
       " 3"
@@ -11160,8 +11160,8 @@
     "ReqIndex": "\uc7a5\ube44 \ud0ed \ud130\uce58",
     "Command": "FocusWidget",
     "Argument": [
-      "PayShop(Clone)/Root/CategoryPanel/ClippingPanel/PayShopCategoryComponent(Clone)",
-      " 5",
+      "PayShop(Clone)/Root/CategoryPanel/ClippingPanel/Equip",
+      " 0",
       " 0",
       " 0",
       " 0",
@@ -11172,8 +11172,8 @@
     "Index": 10200,
     "Command": "FocusWidgetEffect",
     "Argument": [
-      "PayShop(Clone)/Root/CategoryPanel/ClippingPanel/PayShopCategoryComponent(Clone)",
-      " 5",
+      "PayShop(Clone)/Root/CategoryPanel/ClippingPanel/Equip",
+      " 0",
       " UI.Common.Finger",
       " 0",
       " 0",
@@ -11186,8 +11186,8 @@
     "Index": 10200,
     "Command": "WaitWidgetTouch",
     "Argument": [
-      "PayShop(Clone)/Root/CategoryPanel/ClippingPanel/PayShopCategoryComponent(Clone)",
-      " 5",
+      "PayShop(Clone)/Root/CategoryPanel/ClippingPanel/Equip",
+      " 0",
       " 0",
       " 0",
       " 0",
@@ -27009,6 +27009,17 @@
     "Index": 512,
     "Command": "ClearTooltip",
     "RewardIndex": 900078
+  },
+  {
+    "Index": 513,
+    "Command": "PlayCutScene",
+    "Argument": [
+      "CutScene/Event/DestinyLight/TT01"
+    ]
+  },
+  {
+    "Index": 513,
+    "Command": "WaitCutScene"
   },
   {
     "Index": 7000,

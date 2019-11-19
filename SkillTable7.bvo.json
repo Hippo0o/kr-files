@@ -2243,6 +2243,38 @@
     "OperationDurationMs4": 99999999
   },
   {
+    "Index": 60007250,
+    "TriggerType": "OnStart",
+    "TriggerRatio": 1000,
+    "DeadTarget": "False",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "FALSE",
+    "OperationType1": "ModMaxHpR",
+    "OperationTargetType1": "Myself",
+    "OperationValue1": [
+      "150"
+    ],
+    "OperationDurationMs1": 999999,
+    "OperationType2": "ModDefenceR",
+    "OperationTargetType2": "Myself",
+    "OperationValue2": [
+      "150"
+    ],
+    "OperationDurationMs2": 9999999,
+    "OperationType3": "ModPowerR",
+    "OperationTargetType3": "Myself",
+    "OperationValue3": [
+      "150"
+    ],
+    "OperationDurationMs3": 99999999,
+    "OperationType4": "ModCriticalPower",
+    "OperationTargetType4": "Myself",
+    "OperationValue4": [
+      "200"
+    ],
+    "OperationDurationMs4": 99999999
+  },
+  {
     "Index": 60007350,
     "TriggerType": "OnStart",
     "TriggerRatio": 1000,
@@ -5480,5 +5512,48 @@
     ],
     "OperationState2": "60004851_2",
     "OperationDurationMs2": 999999
+  },
+  {
+    "Index": 60007251,
+    "TriggerType": "OnWaveStart",
+    "TriggerRatio": 1000,
+    "TargetType": "Myself",
+    "TargetCount": 1,
+    "DeadTarget": "False",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "FALSE",
+    "OperationType1": "ModPowerR",
+    "OperationTargetType1": "Myself",
+    "OperationRadiusMm1": 50000,
+    "OperationValue1": [
+      "200"
+    ],
+    "OperationState1": 60009851,
+    "OperationDurationMs1": 20000,
+    "OperationType2": "ModToughness",
+    "OperationTargetType2": "Myself",
+    "OperationRadiusMm2": 50000,
+    "OperationValue2": [
+      "300"
+    ],
+    "OperationDelayMs2": [
+      "100",
+      "0",
+      "0"
+    ],
+    "OperationState2": "60009851_3",
+    "OperationDurationMs2": 20000,
+    "OperationConditionType2": "State",
+    "OperationConditionValue2": [
+      "60009851_2"
+    ],
+    "OperationFlags2": [
+      "CheckConditionOnBegin"
+    ],
+    "OperationType3": "UseSkill",
+    "OperationTargetType3": "Myself",
+    "OperationValue3": [
+      "9849"
+    ]
   }
 ]

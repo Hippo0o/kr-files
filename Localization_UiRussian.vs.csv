@@ -187,7 +187,6 @@ CREATURE_TAG_TYPE.MECHANIC,Механик
 CLASS_TRIAL_REMAIN_TIME,Закрытие через {1}:{2}
 CLASS_TRIAL_SELECT,Выбор испытания
 CLASS_TRIAL_FORCE_OPEN,Принудит. открытие
-CLOSE,Закрыть
 CHALLENGE_TRIAL_HERO_SELECT,"Выберите героя, чтобы провести испытание для пробуждения."
 CHAT_ACTION_PARTY_CREATED,"{1} создает группу. (Коснитесь, чтобы присоединиться)"
 CHAT_ACTION_PARTY_ROOM_CREATED,"{1} начинает битву. (Коснитесь, чтобы присоединиться)"
@@ -2802,8 +2801,8 @@ TOOLTIP_INFO_NAME_UNDERGROUNDPRISONKEY,Ключ к Темнице
 TOOLTIP_INFO_NAME_UNDERGROUNDLABYRINTHKEY,Ключ от Тайника Древних Королей
 TOOLTIP_INFO_NAME_HIDEOUTKEY,Ключ от Высшего Подземелья
 TOOLTIP_INFO_NAME_CHALLENGETOWERKEY,Куб вызова
-TOOLTIP_INFO_NAME_EVENTDUNGEONTICKET,Праздничная хлопушка
-TOOLTIP_INFO_NAME_EVENTDUNGEONPOINT,Праздничный торт
+TOOLTIP_INFO_NAME_EVENTDUNGEONTICKET,Нити судьбы
+TOOLTIP_INFO_NAME_EVENTDUNGEONPOINT,Лоскут судьбы
 TOOLTIP_INFO_NAME_EVENTDUNGEONPOINT2,Праздничные шарики
 TOOLTIP_INFO_NAME_EVENTDUNGEONTICKET_BACKUP,Ключ Подземелья 'Хеллоуин'
 TOOLTIP_INFO_NAME_EVENTDUNGEONPOINT_BACKUP,'Хеллоуин' очки
@@ -2826,7 +2825,7 @@ TOOLTIP_INFO_TEXT_UNDERGROUNDLABYRINTHKEY,"Ключи, требуемые для
 TOOLTIP_INFO_TEXT_HIDEOUTKEY,"Ключи, требуемые для входа в Высшее Подземелье"
 TOOLTIP_INFO_TEXT_CHALLENGETOWERKEY,"Кубы, требуемые для входа в Башню Вызова."
 TOOLTIP_INFO_TEXT_EVENTDUNGEONTICKET,"Ключи, требуемые для входа в Подземелья События."
-TOOLTIP_INFO_TEXT_EVENTDUNGEONPOINT,"Валюта, получаемая при прохождении истории подземелья праздника в честь 1000 дней. Используется для покупки товаров в магазине в честь 1000 дней."
+TOOLTIP_INFO_TEXT_EVENTDUNGEONPOINT,"Валюта, получаемая при прохождении истории подземелья «Место направления Света судьбы». Используется для покупки товаров в магазине события."
 TOOLTIP_INFO_TEXT_EVENTDUNGEONPOINT2,"Валюта, получаемая при прохождении особого подземелья фестиваля в честь 1000 дней. Используется для покупки товаров в магазине в честь 1000 дней."
 TOOLTIP_INFO_NAME_GLORYPOINT,Медаль Чести
 TOOLTIP_INFO_TEXT_GLORYPOINT,"Очки, которые доступны в Лиге Чести. Можно использовать, чтобы обменять на предметы в Магазине Лиги Чести."
@@ -3918,6 +3917,7 @@ COSTUME_GROUP_HALLOWEEN2,Хэллоуин 2
 COSTUME_GROUP_MAID1,Дворецкий и служанка
 COSTUME_GROUP_SPORTSWARE1,Спортивная одежда
 COSTUME_GROUP_CASAULFASHION1,Повседневный стиль
+COSTUME_GROUP_CASUALFASHION1,Повседневный стиль
 COSTUME_GROUP_HEROICCAREER1,Спецодежда
 UI_SELECT_HERO_NONE,"Нет героев, доступных для выбора."
 UI_SELECT_COSTUME_NONE,"Нет костюмов, доступных для выбора."
@@ -4984,6 +4984,7 @@ BACK_GROUND_DOWNLOAD_TOP_TITLE,Скачивание заднего фона...
 BACK_GROUND_DOWNLOAD_TOP_DESC,Идёт скачивание текущего обновления.\n{1}% в процессе....
 BACK_GROUND_DOWNLOAD_END_NOW_TOOLTIP_TITLE,Запуск не возможен до окончания скачивания данных.\n Желаете остановить игру и скачать все данные?
 BACK_GROUND_DOWNLOAD_END_NOW_TOOLTIP_DESC,"*Важно: Во время скачивания всех данных, игра будет недоступна."
+BACK_GROUND_DOWNLOAD_RESELECT_DESC,"Время загрузки в фоновом режиме было превышено на {1} сек.\nДля удобства игры советуем воспользоваться массовой загрузкой. (После выбора загрузки, Вы вернётесь на главный экран.)"
 GATEWAY_TO_TRIAL.REWARD,Награда
 GATEWAY_TO_TRIAL.JOINING,Cоюз
 GATEWAY_TO_TRIAL.GRADE,Этап: {1}
@@ -5333,7 +5334,7 @@ SOULWEAPON_UI_QUICKMENU_NAME,Оружие души
 SOULWEAPON_AREA_SANCTUM_NAME,Святилище короля-бога
 SOULWEAPON_AREA_SANCTUM_DESC,Отправляйтесь в Святилище короля-бога и усовершенствуйте Оружие души!
 SOULWEAPON_AREA_GODKINGTRIAL_NAME,Испытания короля-бога
-SOULWEAPON_AREA_GODKINGTRIAL_DESC,"Получите камни души, пройдя испытания короля-бога, соответствующие тому или иному классу."
+SOULWEAPON_AREA_GODKINGTRIAL_DESC,"Получите камни души, соответствующие каждому классу, пройдя испытания короля-бога."
 SOULWEAPON_AREA_ECLIPSE_NAME,Режим Затмения
 SOULWEAPON_AREA_ECLIPSE_DESC,"Используйте всех имеющихся героев, предотвратите атаку нескончаемых врагов и получите эфиры."
 SOULWEAPON_UI_INFO,Управление Оружием души
@@ -5560,7 +5561,44 @@ EVENT_DUNGEON_1000DAYS_NAME2,10-дневное благодарение
 EVENT_DUNGEON_1000DAYS_NAME3,100-дневная трогательность
 EVENT_DUNGEON_1000DAYS_NAME4,1000-дневное умиление
 SHOP_NAME_1000DAYS_SHOP,Магазин фестиваля в честь 1000 дней
+TOOLTIP_INFO_NAME_SHOPEVENTPOINT,Чёрный жетон
+TOOLTIP_INFO_TEXT_SHOPEVENTPOINT,"Валюта, которая используется только во время проведения события. Приобретается при покупке товаров за наличные.\nМожно обменять на награды в Особом магазине, однако после окончания события приобретение и использование валюты будет недоступно."
+PAY_SHOP_CATEGORY.PAY_SHOP_EVENT,Чёрная пятница
+RESULT_TYPE.NOT_ENOUGH_SHOP_EVENT_POINT,Недостаточно чёрных жетонов
+SHOP_TAB_EVENT_BM,Особый товар
+SHOP_TAB_EVENT_POINT,Магазин чёрных жетонов
+COMMON.SHOP_EVENT_POINT_COUNT,{1} ч. ж.
+EVENT_BLACK_FRIDAY_POINT_DESC2_01,"Чёрные жетоны - валюта, которая используется только во время проведения события. Приобретается при покупке товаров за наличные."
+COMMON_EVENT_DAY_DESC2_01,※Период события: 17 декабря\n(до профилактики)
+EVENT_BLACK_FRIDAY_TICKET,Чёрный жетон
+EVENT_DUNGEON_DESTINYLIGHT,Место направления Света судьбы
+DESTINYLIGHT_EVENT_NAME,Место направления Света судьбы
+EVENT_NAME_DESTINYLIGHT,Информация о событии «Место направления Света судьбы»
+EVENT_DESC_DESTINYLIGHT,"- Место направления Света судьбы\nПри прохождении истории подземелья, Вы получите лоскут судьбы, а при прохождении особого подземелья - лоскут судьбы и особую награду.\n\n - Магазин подземелья.\nНакапливайте лоскуты судьбы и покупайте различные предметы в магазине события."
+EVENT_DUNGEON_DESTINYLIGHT_NAME1,Достоинство аристократа
+EVENT_DUNGEON_DESTINYLIGHT_NAME2,Поздравление принцессы
+EVENT_DUNGEON_DESTINYLIGHT_NAME3,Мужество Сопротивления
+EVENT_DUNGEON_DESTINYLIGHT_NAME4,Бал рыцарей
+EVENT_DUNGEON_DESTINYLIGHT_NAME5,Чёрный наёмник
+EVENT_DUNGEON_DESTINYLIGHT_NAME6,Особое подземелье Света судьбы 1
+EVENT_DUNGEON_DESTINYLIGHT_NAME7,Особое подземелье Света судьбы 2
+EVENT_DUNGEON_DESTINYLIGHT_NAME8,Особое подземелье Света судьбы 3
+EVENT_DUNGEON_DESTINYLIGHT_DESC1,Уничтожение потерявших разум монстров
+EVENT_DUNGEON_DESTINYLIGHT_DESC2,Тренировочный бой с охраной
+EVENT_DUNGEON_DESTINYLIGHT_DESC3,Ликвидация коррупции
+EVENT_DUNGEON_DESTINYLIGHT_DESC4,Маска и размышление
+EVENT_DUNGEON_DESTINYLIGHT_DESC5,"Близкая, но далёкая родина"
+DESTINYLIGHT_EVENT_SPECIAL_DUNGEON_SUB_TITLE1,Особое подземелье Света судьбы 1
+DESTINYLIGHT_EVENT_SPECIAL_DUNGEON_SUB_TITLE2,Особое подземелье Света судьбы 2
+DESTINYLIGHT_EVENT_SPECIAL_DUNGEON_SUB_TITLE3,Особое подземелье Света судьбы 3
+TOOLTIP_INFO_NAME_EVENT_DESTINYLIGHT_THREAD,Нити судьбы
+TOOLTIP_INFO_NAME_NAME_DESTINYLIGHT_PIRCEOFCLOTH,Лоскут судьбы
+TOOLTIP_INFO_NAME_TEXT_DESTINYLIGHT_PIRCEOFCLOTH,"Валюта, получаемая при прохождении истории подземелья «Место направления Света судьбы». Используется для покупки товаров в магазине события."
+SHOP_NAME_2019_DESTINYLIGHT_SHOP,Особый магазин события
 EVENT_REWARD_GET_NOTICE_MESSAGE,Необходимо получить предыдущие награды.
+DESTINYLIGHT_EVENT_SPECIAL_DUNGEON_DESC1_1,"Враги обладают могущественным эффектом восстановления! Используйте эффект сокращения восстановления, чтобы заблокировать восстановление противников! Будьте осторожны, Дэмия обладает способностью периодически притягивать врага, что находится позади!"
+DESTINYLIGHT_EVENT_SPECIAL_DUNGEON_DESC2_1,Каждый свет Криши имеет свой эффект! Дайте соответствующий отпор каждому используемому навыку Криши!\n[Красный свет] – АТК Криши значительно увеличивается.\n[Синий свет] – ЗЩТ Криши значительно увеличивается.\n[Зелёный свет] – Криша продолжительно отменяет все отриц. эффекты.
+DESTINYLIGHT_EVENT_SPECIAL_DUNGEON_DESC3_1,"Дрэд Бриньо обладает могущественным щитом, который периодически аннулирует урон! Более того, его могущественная мрачная сфера за один раз сносит всех врагов, так что используйте контроль для того, чтобы лешить его сил!"
 GUILD_ARENA_MEMBER_DEFENCE_TEAM,Группы защиты уч-ов гильдии
 PAYSHOP_PREPURCHASE_HALLOWEEN_2019_ARTIFACT,"Подарок при 5-ой покупке: «Злой дух, заточенный в тыкве»"
 GUILD_ARENA_MY_DEFENCE_TEAM,Моя группа защиты

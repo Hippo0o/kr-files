@@ -1928,14 +1928,12 @@ SKILL_DESC_93001502,"Ao ativá-lo, reduz o DANO F recebido pelo aliado com ATQ m
 SKILL_DESC_93001600,"Invoca a ama de Kurulati, a Lâmpada de Deus durante [64ffff]{1}[-]s, aumentando a VEL de ATQ de todos os aliados em [64ff64]{2}[-] e a RCP de PM por segundo em [64ff64]{3}[-]%. Em seguida, provoca alucinações em um inimigo aleatório a cada [64ffff]{4}[-]s, reduzindo sua PREC em [ff6464]{6}[-] por [64ffff]{5}[-]s."
 SKILL_DESC_93001601,"Causa alucinação em {1} inimigo(s), reduzindo o PM do inimigo atingido em {2}."
 SKILL_DESC_93001602,"Ao ativar, a habilidade Metamorfose Espiritual de Kurulati, a Lâmpada de Deus, é aplicada imediatamente em {1} aliado(s)."
-SKILL_DESC_93001700,
-SKILL_DESC_93001701,
-SKILL_DESC_93001702,
-SKILL_DESC_93001710,
-SKILL_DESC_93001800,
-SKILL_DESC_93001801,
-SKILL_DESC_93001802,
-SKILL_DESC_93001810,
+SKILL_DESC_93001700,"Invoca a alma de Nerius, Lágrimas da Lua, causando [ffc800]{1}[-] de DANO M aos inimigos na linha de frente e deixando-os em estado de [fa96fa][Maldição da Lua][-] por [64ffff]{2}[-]s. O adversário em estado de [fa96fa][Maldição da Lua][-] tem DANO M recebido aumentado em [64ff64]{3}[-]% e a RCP reduzida em [ff6464]{4}[-]%. Depois aumenta seu próprio DANO CRÍT em [64ff64]{5}[-]%."
+SKILL_DESC_93001701,Aumenta o DANO infligido em {1}% e altera a taxa de aumento de DANO M que o inimigo recebe para {2}%.
+SKILL_DESC_93001702,"Enquanto durar a habilidade, aumenta seu próprio ATQ em {1}%."
+SKILL_DESC_93001800,"Invoca a alma de Livatis, o Lampejo, aumentando seu ATQ em [64ff64]{2}[-]% por [64ffff]{1}[-]s. Enquanto durar a habilidade, usa Flutuar como uma Borboleta, aumentando o DANO causado pela habilidade em [64ff64]{3}[-]%."
+SKILL_DESC_93001801,"Enquanto durar a habilidade, aumenta sua própria PNT de DEF em {1}."
+SKILL_DESC_93001802,"Aumenta a duração da habilidade em {1}s e usa Flutuar como uma Borboleta, alterando a taxa de aumento de DANO causado pela habilidade para {2}%."
 SKILL_DESC_93001900,
 SKILL_DESC_93001901,
 SKILL_DESC_93001902,
@@ -1944,14 +1942,12 @@ SKILL_DESC_93002000,
 SKILL_DESC_93002001,
 SKILL_DESC_93002002,
 SKILL_DESC_93002010,
-SKILL_DESC_93002100,
-SKILL_DESC_93002101,
-SKILL_DESC_93002102,
-SKILL_DESC_93002110,
-SKILL_DESC_93002200,
-SKILL_DESC_93002201,
-SKILL_DESC_93002202,
-SKILL_DESC_93002210,
+SKILL_DESC_93002100,"Invoca a alma de Baroro, Garras Malditas, aumentando seu ATQ em [64ff64]{2}[-]% por [64ffff]{1}[-]s. Enquanto durar a habilidade, inflige [ffc800]{4}[-] de DANO F aos inimigos frontais a cada [64ffff]{3}[-]s, na qual os adversários infligidos recebem a Maldição de Baroro por [64ffff]{5}[-]s, aumentando o DANO F recebido em [ff6464]{6}[-]% e reduzindo a RCP em [ff6464]{7}[-]%. Caso o adversário seja chefe, o efeito da Maldição de Baroro aumenta em [64ff64]{8}[-] vezes."
+SKILL_DESC_93002101,Petrifica o inimigo atingido por {1}s.
+SKILL_DESC_93002102,Altera a condição de uso para {1}x e aumenta o tempo de duração da alma em {2}s.
+SKILL_DESC_93002200,"Invoca a alma do Rifle Personalizado Rodina Mod.0, aumentando seu próprio DANO CRÍT em [64ff64]{2}[-]% por [64ffff]{1}[-]s. Enquanto durar a habilidade, inflige no inimigo [ffc800]{4}[-] de DANO F que ignora a DEF por [64ffff]{3}[-]s e atordoa o adversário infligido por [64ffff]{5}[-]s. Caso o adversário seja chefe, a duração do DANO e do atordoamento aumenta em [64ff64]{6}[-] vezes."
+SKILL_DESC_93002201,Aumenta o DANO em {1}%.
+SKILL_DESC_93002202,Aumenta o DANO em {1}% e ganha imunidade a efeito de status enquanto durar a habilidade.
 SKILL_DESC_93002300,"Causa [ffc800]{1}[-] de DANO M aos inimigos à sua volta e os derruba por [64ffff]{2}[-]s. Depois invoca a alma de Carprain, Chama da Vitória, durante [64ffff]{3}[-]s e aumenta o seu próprio ATQ em [64ff64]{4}[-]%."
 SKILL_DESC_93002301,"Enquanto durar a habilidade, reduz o DANO M recebido pelos aliados em {1}%."
 SKILL_DESC_93002302,"Enquanto durar a habilidade, aumenta o DANO M infligido nos inimigos ao redor em {1}%. Se o alvo for chefe, aumenta em {2}%."
@@ -1982,10 +1978,9 @@ SKILL_DESC_93003002,"Enquanto durar a habilidade, ganha imunidade a todos os dan
 SKILL_DESC_93003100,"Invoca a alma de Sherrkyle, Céu Azul, infligindo [ffc800]{1}[-] de DANO M a todos os inimigos e marcando-os com o Selo do Julgamento por [64ffff]{2}[-]s. Depois, aumenta seu próprio DANO CRÍT em [64ff64]{4}[-]% por [64ffff]{3}[-]s."
 SKILL_DESC_93003101,"Enquanto durar a habilidade, reduz o tempo de resfriamento de todas as suas habilidades em {1}s a cada segundo."
 SKILL_DESC_93003102,"Enquanto durar a habilidade, ataca um inimigo aleatório a cada {1}s, infligindo [ffc800]{2}[-] de DANO M e marcando-o com o Selo do Julgamento durante {3}s. Caso o alvo já tenha sido marcado com o Selo do Julgamento, inflige [ffc800]{4}[-] de DANO M adicional que ignora a DEF."
-SKILL_DESC_93003200,
-SKILL_DESC_93003201,
-SKILL_DESC_93003202,
-SKILL_DESC_93003210,
+SKILL_DESC_93003200,"Invoca a alma de Dominique, o Regente Escarlate, aumentando o ATQ de Lewisia em [64ff64]{2}[-]% por {1}s e aumentando o DANO M que o adversário recebe em [ff6464]{3}[-]%. Depois, inflige {4} golpes no adversário, causando um total de [ffc800]{5}[-] de DANO M e recuperando o PV de todos os aliados em [64ff64]{6}[-]% do DANO M infligido. Depois de [64ffff]{7}[-]s, inflige [ffc800]{8}[-] de DANO M e [ffc800]{9}[-] de DANO M adicional caso o adversário seja chefe."
+SKILL_DESC_93003201,Reduz o tempo de resfriamento em {1}s.
+SKILL_DESC_93003202,Aumenta o DANO em {1}% e altera a taxa de aumento de ATQ para {2}%.
 SKILL_DESC_93003300,"Invoca a alma de Magnus Fille, Chave Dimensional, durante [64ffff]{1}[-]s, recuperando imediatamente {2} barras de PM e, enquanto durar a habilidade, aumenta seu próprio DANO CRÍT em [64ff64]{3}[-]%."
 SKILL_DESC_93003301,Reduz a condição de ativação para {1}x.
 SKILL_DESC_93003302,"Aumenta a duração em {1}s e, enquanto durar a habilidade, ganha imunidade a efeitos de status."
@@ -1998,17 +1993,15 @@ SKILL_DESC_93003502,"Enquanto durar a habilidade, aumenta o DANO que o herói in
 SKILL_DESC_93003600,"Invoca a alma de Theoria, a Luz do Julgamento, durante [64ffff]{1}[-]s, aumentando sua própria DEF em [64ff64]{2}[-]%. Enquanto durar a habilidade, caso Ricardo receba dano, tem {3}% de chance de causar [ffc800]{4}[-] de DANO F no alvo atingido e causar atordoamento por [64ffff]{5}[-]s."
 SKILL_DESC_93003601,Aumenta a duração do atordoamento em {1}s.
 SKILL_DESC_93003602,Aumenta a chance de ativação em {1}% e reduz o PM do alvo infligido em {2}.
-SKILL_DESC_93003700,
-SKILL_DESC_93003701,
-SKILL_DESC_93003702,
-SKILL_DESC_93003710,
-SKILL_DESC_93003800,"Invoca a alma de Barbatos, o Carcereiro do Desespero, durante [64ffff]{1}[-]s, atacando inimigos num raio próximo, causando [ffc800]{2}[-] de DANO M e aumentando seu próprio ATQ em [64ff64]{3}[-]%. Enquanto durar a habilidade, consegue se controlar caso esteja em Estado de Fúria. Ao usar a habilidade, passa a não consumir PV e, quando a habilidade terminar, recebe {4} de Sangue Amaldiçoado. Permite receber Sangue Amaldiçoado através desta habilidade mesmo em Estado de Fúria."
+SKILL_DESC_93003700,"Invoca a alma de Caethasis, Demônio da Calma, aumentando seu ATQ em [64ff64]{2}[-]% por [64ffff]{1}[-]s e infligindo [64ffff]{4}[-] golpes ao adversário com DANO F mais baixo a cada [64ffff]{3}[-]s, causando um total de [ffc800]{5}[-] de DANO F. Caso o alvo tenha mais que 50% de PV, tem sua DEF F reduzida em [ff6464]{7}[-]% por [64ffff]{6}[-]s e, caso tenha menos que 50% de PV, tem o DANO recebido aumentado em [64ff64]{8}[-] vezes e todos os golpes recebidos passam a ser CRÍT. O efeito de redução da DEF F pode ser acumulada no máx. [64ffff]{9}[-]x."
+SKILL_DESC_93003701,Altera a condição de uso para {1}s.
+SKILL_DESC_93003702,Altera o efeito de redução da DEF F para {1}% e o aumento de DANO recebido pelos adversários com PV menor que 50% é multiplicado em {2} vezes.
+SKILL_DESC_93003800,"Invoca a alma de Barbatos, o Carcereiro do Desespero, durante [64ffff]{1}[-]s, atacando inimigos num raio próximo, causando [ffc800]{2}[-] de DANO M e aumentando seu próprio ATQ em [64ff64]{3}[-]%. Enquanto durar a habilidade, consegue se controlar caso esteja em Estado de Fúria. Passa a não consumir PV ao usar a habilidade e, quando ela terminar, recebe {4} de Sangue Amaldiçoado. Permite receber Sangue Amaldiçoado através desta habilidade mesmo em Estado de Fúria."
 SKILL_DESC_93003801,Recebe adicionalmente {1}x de Sangue Amaldiçoado.
 SKILL_DESC_93003802,"Enquanto durar a habilidade, aumenta o DANO infligido em inimigos em {1}%."
-SKILL_DESC_93003900,
-SKILL_DESC_93003901,
-SKILL_DESC_93003902,
-SKILL_DESC_93003910,
+SKILL_DESC_93003900,"Invoca a alma de Brisa de Ouro, Sussuro Aureliano, durante [64ffff]{1}[-]s, aumentando a VEL de ATQ de todos os aliados em [64ff64]{2}[-], causando [ffc800]{3}[-] de DANO M em todos os inimigos e aumentando o DANO M que eles recebem em [ff6464]{5}[-]% por [64ffff]{4}[-]s. Se usada na Arena, deixa o adversário enfeitiçado por [64ffff]{6}[-]s."
+SKILL_DESC_93003901,Altera a condição de uso para {1}x.
+SKILL_DESC_93003902,"Ao ativar, recupera {1} de PM e aumenta o DANO CRÍT em {2}% de todos os aliados enquanto durar a habilidade."
 SKILL_DESC_93004000,"Invoca a alma de Legios, o Relâmpago, atacando 4x os inimigos ao redor, infligindo [ffc800]{1}[-] de DANO M a cada golpe e causando atordoamento por [64ffff]{2}[-]s. Depois, aumenta o ATQ em [64ff64]{4}[-]% por [64ffff]{3}[-]s e ativa a [fa96fa]'Ira de Legios'[-] a cada segundo, causando [ffc800]{5}[-] de DANO M a um alvo aleatório e aos inimigos ao redor e atordoamento por [64ffff]{6}[-]s."
 SKILL_DESC_93004001,O DANO M recebido pelo adversário alvo da Ira de Legios aumenta em {2}% por {1}s.
 SKILL_DESC_93004002,"Ao ativar, o efeito de ‘Raio de Luz, Legios’ é ativado."
@@ -2016,10 +2009,9 @@ SKILL_DESC_93004010,"Carrega-se ao causar dano [64ff64]{1}[-]x, possibilitando s
 SKILL_DESC_93004100,"Invoca a alma de Phistonia, a Ameaça Misericordiosa, aumenta o ATQ do aliado com ATQ mais forte deixando-o com o equivalente a [64ff64]{2}[-]% do ATQ de Mediana por [64ffff]{1}[-]s e recupera o PV de Mediana e do aliado alvo em um total de [ffc800]{4}[-] por [64ffff]{3}[-]s."
 SKILL_DESC_93004101,"Enquanto durar a habilidade, recupera seu PM e o do alvo em {2} a cada {1}s."
 SKILL_DESC_93004102,Aumenta o reforço de ATQ em {1}%.
-SKILL_DESC_93004200,
-SKILL_DESC_93004201,
-SKILL_DESC_93004202,
-SKILL_DESC_93004210,
+SKILL_DESC_93004200,"Invoca a alma de Tempodiana, Contagem da Sombra da Lua, aumentando o DANO CRÍT do aliado com o maior ATQ em [64ff64]{2}[-]% por [64ffff]{1}[-]s, reduzindo o tempo de resfriamento de todas as habilidades desse mesmo aliado em [64ffff]{3}[-]s a cada segundo."
+SKILL_DESC_93004201,Aumenta a PNT de DEF do alvo em {1} enquanto durar a habilidade.
+SKILL_DESC_93004202,Altera o número de alvos para {1}.
 SKILL_DESC_93004300,"Invoca a alma de Kitrax, Presas do Pesadelo, durante [64ffff]{1}[-]s, reduzindo o DANO que recebe em [ff6464]{2}[-]% para cada [64ffff]1[-] alma(s) que possui, recuperando [ffc800]{3}[-]% do PV Máx e [ffc800]{4}[-] de PM a cada segundo. Depois, inflige [ffc800]{5}[-] de DANO M a uma grande área de inimigos frontais, petrificando o adversário infligido por [64ffff]{6}[-]s. Caso a quantidade de almas que possui seja [64ffff]{7}[-], reinicia o tempo de resfriamento de todas as habilidades de Viska."
 SKILL_DESC_93004301,Aumenta o tempo de petrificação em {1}s e o DANO M que o adversário infligido recebe aumenta em {3}% durante {2}s.
 SKILL_DESC_93004302,"Enquanto durar a habilidade, aumenta o DANO da habilidade Farei Picadinhos de Você!! em {1}%."
@@ -2038,10 +2030,9 @@ SKILL_DESC_93004702,Reduz a condição de uso em {1}s.
 SKILL_DESC_93004900,"Invoca a alma de Del Arcana, as Cartas do Destino, removendo as cartas que possui e obtendo a carta [Estrela], aumentando seu próprio ataque em [64ff64]{2}[-]% por [64ffff]{1}[-]s. Ao usar a habilidade enquanto possuir a carta [Estrela], essa carta é consumida, gerando todos os efeitos das cartas [Morte], [Amor] e [Sorte]."
 SKILL_DESC_93004901,"Ao ativar, recupera seu próprio PM em {1} barra(s)."
 SKILL_DESC_93004902,Altera a condição de ativação para {1}x.
-SKILL_DESC_93005000,
-SKILL_DESC_93005001,
-SKILL_DESC_93005002,
-SKILL_DESC_93005010,
+SKILL_DESC_93005000,"Invoca a alma de Rakshathar, a Flauta dos Ventos Silenciosos, durante [64ffff]{1}[-]s. Enquanto durar a alma, causa [ffc800]{2}[-] + [ffc800]{3}[-] de DANO F para cada [64ffff]1[-] acúmulo(s) de Poção de Cócegas do alvo a cada segundo e, o adversário infligido fica petrificado por [64ffff]{4}[-]s."
+SKILL_DESC_93005001,Aumenta o DANO recebido de todos os adversários infligidos em {2}% por {1}s.
+SKILL_DESC_93005002,Aumenta o tempo de duração da alma em {1}s.
 SKILL_DESC_93005100,"Invoca a alma de Ignisius, a Aura Solar, aumentando a sua própria DEF F em [64ff64]{2}[-]% por [64ffff]{1}[-]s. Depois, ataca os inimigos num pequeno raio próximo [64ffff]{3}[-]x, causando um total de [ffc800]{4}[-] de DANO M e, a cada golpe infligido no adversário, acumula o estado de Julgamento de Ignisius, aumentando o DANO M que o adversário recebe em [64ff64]{6}[-]% por [64ffff]{5}[-]s. O acúmulo máximo do Julgamento de Ignisius é de [64ffff]{7}[-]x."
 SKILL_DESC_93005101,"Para cada acúmulo do Julgamento de Ignisius, adiciona-se um efeito de redução de DEF M em {1}%."
 SKILL_DESC_93005102,Aumenta o tempo de duração do Julgamento de Ignisius em {1}s e altera o acúmulo máximo para {2}x.
@@ -2051,10 +2042,9 @@ SKILL_DESC_93005202,"Enquanto durar a habilidade, aumenta o ATQ em {1}%."
 SKILL_DESC_93005300,"Invoca a alma de Apoliox, Asas da Corrupção, amaldiçoando todos os inimigos com a [fa96fa]'Maldição de Apoliox'[-] e recebendo [fa96fa]'Hospedeira de Maldições'[-] para si. A [fa96fa]'Maldição de Apoliox'[-] reduz a DEF M do inimigo em [ff6464]{2}[-]% e a RCP em [ff6464]{3}[-]% por [64ffff]{1}[-]s."
 SKILL_DESC_93005301,Reduz a condição de uso em {1}s e recupera o PM em {2} ao usá-la.
 SKILL_DESC_93005302,Reduz adicionalmente a condição de uso em {1}s e o PM do inimigo amaldiçoado pela ‘Maldição de Apoliox’ se reduz em {2} a cada segundo.
-SKILL_DESC_93005400,
-SKILL_DESC_93005401,
-SKILL_DESC_93005402,
-SKILL_DESC_93005410,
+SKILL_DESC_93005400,"Invoca a alma de Dunn Nemecia, a Alma do Vazio, infligindo [ffc800]{1}[-] de DANO M a todos os inimigos, atribuindo o estado [fa96fa]'Brincadeira da Alma'[-]. O inimigo com o estado [fa96fa]'Brincadeira da Alma'[-] tem o DANO M recebido aumentado em [ff6464]{3}[-]% e a RCP reduzida em [ff6464]{4}[-]% por [64ffff]{2}[-]s. Depois, durante {5}s, cada vez que a habilidade for usada, inflige [ffc800]{6}[-] de DANO M a todos os inimigos, atribuindo-lhes o estado [fa96fa]'Brincadeira da Alma'[-]. O estado [fa96fa]'Brincadeira da Alma'[-] pode ser acumulado no máx. até [64ffff]{7}[-]x."
+SKILL_DESC_93005401,Altera o acúmulo máx. da Brincadeira da Alma para {1}x.
+SKILL_DESC_93005402,Aumenta o efeito da Brincadeira da Alma em {1}%.
 SKILL_DESC_93005500,"Invoca a alma de Elsion, a Executora de Domínios, infligindo DANO M de [ffc800]{1}[-] em inimigos num raio próximo e aumentando o DANO M recebido em [64ff64]{3}[-]% por [64ffff]{2}[-]s. Em seguida, absorve a Alma de Elsion, a Executora de Domínios, por [64ffff]{4}[-]s, infligindo DANO M de [ffc800]{6}[-] em um inimigo aleatório a cada [64ffff]{5}[-]s. Se o alvo da habilidade não for um herói, o DANO aumenta [64ff64]{7}[-]%."
 SKILL_DESC_93005501,"Enquanto durar a habilidade, aumenta seu ATQ em {1}% e o DANO CRÍT em {2}%."
 SKILL_DESC_93005502,A cada {1}s o DANO causado pelo ATQ passa a ignorar a DEF do inimigo.
@@ -2097,10 +2087,9 @@ SKILL_DESC_93006702,"Cada vez que atacar o inimigo com o ATQ aumentado, causa at
 SKILL_DESC_93006800,"Invoca a alma de Zakadras, Caos Cortante, infligindo DANO F de [ffc800]{1}[-] a todos os inimigos, atordoando-os por [64ffff]{2}[-]s e aumentando o DANO F recebido em [64ff64]{4}[-]% por [64ffff]{3}[-]s. Depois, aumenta seu ATQ em [64ff64]{6}[-]% e sua VEL de ATQ em [64ff64]{7}[-] por [64ffff]{5}[-]s."
 SKILL_DESC_93006801,Aumenta o DANO em {1}% e a taxa de aumento de DANO F recebido em {2}%.
 SKILL_DESC_93006802,Reduz o tempo de resfriamento em {1}s e obtém Sangue Demoníaco {2}x ao ativar.
-SKILL_DESC_93006900,
-SKILL_DESC_93006901,
-SKILL_DESC_93006902,
-SKILL_DESC_93006910,
+SKILL_DESC_93006900,"Invoca a alma de Dados de Lu Etrona, o Prazer do Viajante, e joga o dado. Imediatamente reduz o tempo de resfriamento do próximo uso da Arma da Alma de Esker em [64ff64]{1}[-]% para cada 'casa' que sair das faces do dado e aumenta o ATQ de todos os aliados em [64ff64]{3}[-]% por [64ffff]{2}[-]s. O efeito de aumento de ATQ pode ser acumulado no máx. até [64ffff]{4}[-]x."
+SKILL_DESC_93006901,Altera o acúmulo máx. para {1}x.
+SKILL_DESC_93006902,Aumenta a PNT de DEF de todos os aliados em {1} para cada acúmulo.
 SKILL_DESC_93007000,"Invoca a alma de Gigantix, a Tempestade Supersônica, durante [64ffff]{1}[-]s e, ao executar ataques normais ou lançar habilidades, ataca o inimigo alvo e outros num raio pequeno com {2}% de chance, causando [ffc800]{3}[-] de DANO F e atordoando-os por [64ffff]{4}[-]s."
 SKILL_DESC_93007001,"Enquanto durar a habilidade, aumenta seu próprio ATQ em {1}%."
 SKILL_DESC_93007002,Aumenta chance de ativação em {1}%.
@@ -2176,10 +2165,9 @@ SKILL_DESC_93008900,
 SKILL_DESC_93008901,
 SKILL_DESC_93008902,
 SKILL_DESC_93008910,
-SKILL_DESC_93009000,
-SKILL_DESC_93009001,
-SKILL_DESC_93009002,
-SKILL_DESC_93009010,
+SKILL_DESC_93009000,"Invoca a alma de Etelia, a Caixa de Fragrâncias, recuperando um total de [ffc800]{2}[-] de PV de todos os aliados ao longo de [64ffff]{1}[-]s e aumentando o ATQ do aliado com o maior ATQ em [64ff64]{5}[-]% a cada [64ffff]{3}[-]s durante [64ff64]{4}[-]s. O efeito de aumento de ATQ pode ser acumulado no máx. até [64ffff]{6}[-]x e, ao ser ativado, tem {7}% de chance de acumular [64ffff]{8}[-]x de uma só vez."
+SKILL_DESC_93009001,Altera o número de acúmulo máx. para {1}x.
+SKILL_DESC_93009002,Aumenta a Taxa de Cura em {1}% e altera a chance de acumular {2}x de uma só vez para {3}%.
 SKILL_DESC_93009100,
 SKILL_DESC_93009101,
 SKILL_DESC_93009102,
@@ -2187,21 +2175,18 @@ SKILL_DESC_93009110,
 SKILL_DESC_93009200,"Invoca a alma de Accordio, o Marcador Infinito, obtendo imediatamente o Conhecimento da Maior Financista [64ffff]{1}[-]x, aumentando o DANO CRÍT do aliado com o ATQ mais elevado em [64ff64]{3}[-]% e o DANO infligido em chefes em [64ff64]{4}[-]% por [64ffff]{2}[-]s."
 SKILL_DESC_93009201,Aumenta o tempo de duração em {1}s.
 SKILL_DESC_93009202,Aumenta o efeito que o aliado com o maior ATQ recebe em {1}%.
-SKILL_DESC_93009300,
-SKILL_DESC_93009301,
-SKILL_DESC_93009302,
-SKILL_DESC_93009310,
+SKILL_DESC_93009300,"Invoca a alma de Gaiamenes, Onda de Proteção, infligindo DANO F de [ffc800]{1}[-] aos inimigos frontais e atordoando-os por [64ffff]{2}[-]s. Depois aumenta o ATQ de todos os aliados em [64ff64]{4}% + {5}[-]% do ATQ de Loman e a DEF M em [64ff64]{6}[-]% por [64ffff]{3}[-]s e recupera o PM de todos os aliados em [64ff64]{8}[-] a cada [64ffff]{7}[-]s."
+SKILL_DESC_93009301,Recupera o PV de todos os aliados em {2}% do PV Máx. a cada {1}s e remove efeitos negativos.
+SKILL_DESC_93009302,"Reduz a condição de uso em {1}s e ao infligir um golpe, aumenta o DANO F que o adversário recebe em {3}% por {2}s."
 SKILL_DESC_93009400,"Invoca a alma de Tempora Fyrr, o Banquete dos Cem Sabores, durante [64ffff]{1}[-]s, recebendo efeitos adicionais dependendo do estado em que estiver.\nQuando estiver no estado [fa96fa][Chef dos Céus][-], aumenta todas as DEFs de todos os aliados em [64ff64]{2}% + {3}[-]% do ATQ de Juno. \nQuando estiver no estado [fa96fa][Chef do Inferno][-], aumenta o ATQ de todos os aliados em [64ff64]{4}% + {5}[-]% do ATQ de Juno. Ao usar a habilidade quando o acúmulo de [Ingrediente Excelente] for acima de [64ffff]{6}[-]x, todos os efeitos são aplicados com aumento de [64ffff]{8}[-]%, consumindo [64ffff]{7}[-] acúmulos."
 SKILL_DESC_93009401,Reduz a condição de uso para {1}x.
 SKILL_DESC_93009402,"Quando estiver no estado [Chef dos Céus], reduz o DANO recebido por todos os aliados em {1}%.\nQuando estiver no estado [Chef do Inferno], aumenta o DANO recebido por todos os inimigos em {2}%. A todos estes efeitos aplica-se acúmulo de Ingrediente Excelente."
-SKILL_DESC_93009500,
-SKILL_DESC_93009501,
-SKILL_DESC_93009502,
-SKILL_DESC_93009510,
-SKILL_DESC_93009600,
-SKILL_DESC_93009601,
-SKILL_DESC_93009602,
-SKILL_DESC_93009610,
+SKILL_DESC_93009500,"Invoca a alma de Hartnon, a Clava da Reabilitação, causando [ffc800]{1}[-] de DANO F aos inimigos ao redor. Depois, durante [64ffff]{2}[-]s, ao infligir um ataque normal ou de habilidade, deixa o adversário em estado de [fa96fa]Rancor de Hartnon[-] que não pode ser removido, aumentando o DANO F que o adversário recebe em [ff6464]{4}[-]% e reduzindo o ATQ dele em [ff6464]{5}[-]% por [64ffff]{3}[-]s. Depois de [64ffff]{2}[-]s, ataca todos os inimigos, infligindo DAN F de [ffc800]{6}[-], causando atordoamento por [64ffff]{7}[-]s. O [fa96fa]Rancor de Hartnon[-] pode ser acumulado no máx. até [64ffff]{8}[-]x e, caso o adversário seja chefe, a duração de todos os efeitos aumenta em [64ff64]{9}[-] vezes."
+SKILL_DESC_93009501,Altera a condição de ativação para {1}x.
+SKILL_DESC_93009502,Altera o acúmulo máx. do Rancor de Hartnon para {1}.
+SKILL_DESC_93009600,"Invoca a alma de Seliere, a Valentia Antiga, aumentando a CHANCE de BLQ F de todos os aliados em [64ff64]{2}[-] por [64ffff]{1}[-]s. Depois, inflige DANO M de [ffc800]{4}[-] aos inimigos ao seu redor a cada [64ffff]{3}[-]s, silenciando os adversários por [64ffff]{5}[-]s e cria uma barreira de proteção por [64ffff]{6}[-]s que absorve o DANO recebido pelo aliado com menor PV equivalente a [64ff64]{7}[-]% do ATQ de Dosarta e que confere imunidade a efeitos de status."
+SKILL_DESC_93009601,Aumenta o DANO M recebido pelo adversário infligido em {2}% por {1}s.
+SKILL_DESC_93009602,A barreira de proteção passa a se aplicar a {1} pessoa(s).
 SKILL_DESC_93009700,
 SKILL_DESC_93009701,
 SKILL_DESC_93009702,

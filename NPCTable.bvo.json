@@ -1213,6 +1213,56 @@
     "MenuTitleKey": "SQUARE_NAME_NORMAL_SUB"
   },
   {
+    "Code": "Square_DestinyLight_2019",
+    "OnOpenEntryMenu": [
+      "NPC_YURIA_WELCOME01",
+      " InnReaction.Yuria01",
+      " InnReaction",
+      " \nNPC_YURIA_WELCOME02",
+      " InnReaction.Yuria01",
+      " InnReaction"
+    ],
+    "OnTouch": [
+      "NPC_YURIA_TOUCH01",
+      " InnReaction.Yuria01",
+      " InnReaction",
+      " \nNPC_YURIA_TOUCH02",
+      " InnReaction.Yuria01",
+      " InnReaction"
+    ],
+    "EntryMenuButton1": [
+      "EVENT_DUNGEON_DESTINYLIGHT",
+      "OpenEventDungeonSelect",
+      "True",
+      "30030",
+      "1",
+      "2"
+    ],
+    "EntryMenuCondition1": "EventExist,EventDungeon,30030",
+    "EntryMenuButton2": [
+      "MENU_EVENT_SHOP",
+      "OpenShop",
+      "2019_DestinyLight_Shop"
+    ],
+    "EntryMenuCondition2": "EventExist,EventShop,2019_DestinyLight_Shop",
+    "EntryMenuButton3": [
+      "MENU_EVENT_HELP",
+      "OpenHelp",
+      "EVENT_NAME_DESTINYLIGHT",
+      "EVENT_DESC_DESTINYLIGHT"
+    ],
+    "EntryMenuCondition3": "EventExist,EventShop,2019_DestinyLight_Shop",
+    "CreatureIndex": 826,
+    "NpcOffset": [
+      "-80",
+      "50"
+    ],
+    "NpcAngle": -50,
+    "NpcScale": 120,
+    "MenuIconType": "Event_DestinyLight",
+    "MenuTitleKey": "SQUARE_NAME_NORMAL_SUB"
+  },
+  {
     "Code": "NormalShop",
     "HeroIndex": 90,
     "ShowHeroBuffIcon": "True",

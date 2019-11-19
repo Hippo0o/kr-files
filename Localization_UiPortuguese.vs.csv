@@ -187,7 +187,6 @@ CREATURE_TAG_TYPE.MECHANIC,Maquinista
 CLASS_TRIAL_REMAIN_TIME,Vai fechar em {1}:{2}
 CLASS_TRIAL_SELECT,Selecionar Provação
 CLASS_TRIAL_FORCE_OPEN,Forçar para Abrir
-CLOSE,Fechar
 CHALLENGE_TRIAL_HERO_SELECT,Selecione um herói para realizar Provação para o Despertar.
 CHAT_ACTION_PARTY_CREATED,{1}Formou uma equipe. (Toque para entrar)
 CHAT_ACTION_PARTY_ROOM_CREATED,{1}Abriu uma batalha. (Toque para entrar)
@@ -2802,8 +2801,8 @@ TOOLTIP_INFO_NAME_UNDERGROUNDPRISONKEY,Chave do Calabouço
 TOOLTIP_INFO_NAME_UNDERGROUNDLABYRINTHKEY,Chave do Cofre Real
 TOOLTIP_INFO_NAME_HIDEOUTKEY,Chave da Masmorra Superior
 TOOLTIP_INFO_NAME_CHALLENGETOWERKEY,Cubo do Desafio
-TOOLTIP_INFO_NAME_EVENTDUNGEONTICKET,Rojão Festivo
-TOOLTIP_INFO_NAME_EVENTDUNGEONPOINT,Bolo Festivo
+TOOLTIP_INFO_NAME_EVENTDUNGEONTICKET,Fio do Destino
+TOOLTIP_INFO_NAME_EVENTDUNGEONPOINT,Retalho do Destino
 TOOLTIP_INFO_NAME_EVENTDUNGEONPOINT2,Balão Festivo
 TOOLTIP_INFO_NAME_EVENTDUNGEONTICKET_BACKUP,Chave de Masmorra do Halloween
 TOOLTIP_INFO_NAME_EVENTDUNGEONPOINT_BACKUP,Ponto de Halloween
@@ -2826,7 +2825,7 @@ TOOLTIP_INFO_TEXT_UNDERGROUNDLABYRINTHKEY,Chaves necessárias para entrar no Cof
 TOOLTIP_INFO_TEXT_HIDEOUTKEY,Chaves necessárias para entrar na Masmorra Superior.
 TOOLTIP_INFO_TEXT_CHALLENGETOWERKEY,Cubos necessários para entrar na Torre do Desafio.
 TOOLTIP_INFO_TEXT_EVENTDUNGEONTICKET,Chaves necessárias para entrar nas Masmorras de Evento.
-TOOLTIP_INFO_TEXT_EVENTDUNGEONPOINT,Moeda de troca obtida ao concluir as masmorras da história do festival de comemoração de 1.000 dias. Podem ser usadas para comprar itens na Loja do Festival de 1.000 dias.
+TOOLTIP_INFO_TEXT_EVENTDUNGEONPOINT,Moeda de troca obtida ao concluir as masmorras de 'Onde se dirige a luz do destino'. Pode ser usada para comprar itens na Loja do Evento.
 TOOLTIP_INFO_TEXT_EVENTDUNGEONPOINT2,Moeda de troca obtida ao concluir as masmorras especiais do festival de comemoração de 1.000 dias. Podem ser usadas para comprar itens na Loja do Festival de 1.000 dias.
 TOOLTIP_INFO_NAME_GLORYPOINT,Medalha de Honra
 TOOLTIP_INFO_TEXT_GLORYPOINT,Um tipo de ponto disponível na Liga da Honra. Use para trocar os itens na Loja da Liga da Honra.
@@ -3199,7 +3198,7 @@ MENU_SPECIFIC_COMMERCIAL_TRANSACTIONS_LAW,特定商取引法に\n基づく表記
 MENU_MONEY_SETTLEMENT_LAW,資金決法に基づく表記
 MENU_SERVICE_GUIDELINE,サービス通貨\nガイドライン
 MENU_ALL_PATCHNOTE,Notas de atualização
-PopupTitleString.001,Pacote Limitade de Vendedor Recomendado
+PopupTitleString.001,Pacote Limitado de Atacante Recomendado
 PopupTitleString.002,Arma Única de Epis
 PopupTitleString.003,Arma Única de Luna
 PopupTitleString.004,Arma Única de Arch
@@ -3918,6 +3917,7 @@ COSTUME_GROUP_HALLOWEEN2,Halloween 2
 COSTUME_GROUP_MAID1,Mordomo e Criada
 COSTUME_GROUP_SPORTSWARE1,Roupa Esportiva
 COSTUME_GROUP_CASAULFASHION1,Traje Casual
+COSTUME_GROUP_CASUALFASHION1,Traje Casual
 COSTUME_GROUP_HEROICCAREER1,Roupa de Trabalho
 UI_SELECT_HERO_NONE,Não há heróis disponíveis para selecionar.
 UI_SELECT_COSTUME_NONE,Não há trajes disponíveis para selecionar.
@@ -4984,6 +4984,7 @@ BACK_GROUND_DOWNLOAD_TOP_TITLE,Fazendo download em segundo plano...
 BACK_GROUND_DOWNLOAD_TOP_DESC,Baixando patch atual.\nEm progresso... {1}%
 BACK_GROUND_DOWNLOAD_END_NOW_TOOLTIP_TITLE,Não é possível executar porque o download de dados não foi finalizado.\nGostaria de interromper o jogo por um instante para baixar todos os dados?
 BACK_GROUND_DOWNLOAD_END_NOW_TOOLTIP_DESC,"*Atenção: Após selecionar a opção de download de todos os dados, não é possível retornar ao jogo antes do término do download."
+BACK_GROUND_DOWNLOAD_RESELECT_DESC,"O download em 2º plano passou {1} segundo(s).\n\nRecomenda-se baixar tudo para melhor jogabilidade.\n(Ao tocar em Escolher download, voltará para a tela de login.)"
 GATEWAY_TO_TRIAL.REWARD,Prêmio
 GATEWAY_TO_TRIAL.JOINING,Novo Herói
 GATEWAY_TO_TRIAL.GRADE,Estágio {1}
@@ -5333,7 +5334,7 @@ SOULWEAPON_UI_QUICKMENU_NAME,Arma da Alma
 SOULWEAPON_AREA_SANCTUM_NAME,Santuário do Rei
 SOULWEAPON_AREA_SANCTUM_DESC,Melhore sua Arma da Alma visitando o Santuário do Rei!
 SOULWEAPON_AREA_GODKINGTRIAL_NAME,Provação do Rei-Deus
-SOULWEAPON_AREA_GODKINGTRIAL_DESC,Obtenha a Pedra da Alma de cada classe na Provação do Rei-Deus.
+SOULWEAPON_AREA_GODKINGTRIAL_DESC,Obtenha a Pedra da Alma da classe desejada na Provação do Rei-Deus.
 SOULWEAPON_AREA_ECLIPSE_NAME,Modo Eclipse
 SOULWEAPON_AREA_ECLIPSE_DESC,Ganhe Éteres defendendo-se de inimigos sem fim usando todos seus heróis. 
 SOULWEAPON_UI_INFO,Gerenciar Arma da Alma
@@ -5560,7 +5561,44 @@ EVENT_DUNGEON_1000DAYS_NAME2,Gratidão de 10 dias
 EVENT_DUNGEON_1000DAYS_NAME3,Emoção de 100 dias
 EVENT_DUNGEON_1000DAYS_NAME4,Comoção de 1000 dias
 SHOP_NAME_1000DAYS_SHOP,Loja dos 1.000 dias
+TOOLTIP_INFO_NAME_SHOPEVENTPOINT,Black Token
+TOOLTIP_INFO_TEXT_SHOPEVENTPOINT,Moeda de troca de evento limitada obtida ao comprar produtos com dinheiro.\nÉ possível trocá-los por prêmios na Loja Especial e não é possível mais obter ou usá-los uma vez encerrado o evento.
+PAY_SHOP_CATEGORY.PAY_SHOP_EVENT,Black Friday
+RESULT_TYPE.NOT_ENOUGH_SHOP_EVENT_POINT,Black Tokens insuficientes.
+SHOP_TAB_EVENT_BM,Produtos
+SHOP_TAB_EVENT_POINT,Black Token
+COMMON.SHOP_EVENT_POINT_COUNT,Black Token x{1}
+EVENT_BLACK_FRIDAY_POINT_DESC2_01,O Black Token é uma moeda de troca de evento limitada que pode ser obtida ao comprar produtos com dinheiro.
+COMMON_EVENT_DAY_DESC2_01,※Duração do evento: até a manutenção de 17/12
+EVENT_BLACK_FRIDAY_TICKET,Black Token
+EVENT_DUNGEON_DESTINYLIGHT,Onde se dirige a luz do destino
+DESTINYLIGHT_EVENT_NAME,Onde se dirige a luz do destino
+EVENT_NAME_DESTINYLIGHT,Guia do Evento 'Onde se dirige a luz do destino'
+EVENT_DESC_DESTINYLIGHT,- Onde se dirige a luz do destino\nVocê pode receber Retalhos do Destino ao concluir uma Masmorra da História e Retalhos do Destino mais um prêmio especial ao concluir uma Masmorra Especial.\n\n- Loja do Evento\nVocê pode comprar diversos itens na Loja do Evento usando Retalhos do Destino obtidos nas masmorras.
+EVENT_DUNGEON_DESTINYLIGHT_NAME1,Dignidade da nobreza
+EVENT_DUNGEON_DESTINYLIGHT_NAME2,Felicitações da princesa
+EVENT_DUNGEON_DESTINYLIGHT_NAME3,A Resistência não se abala
+EVENT_DUNGEON_DESTINYLIGHT_NAME4,Baile da cavalaria
+EVENT_DUNGEON_DESTINYLIGHT_NAME5,Mercenário obsidiano
+EVENT_DUNGEON_DESTINYLIGHT_NAME6,Masmorra Especial 1 da Luz do Destino
+EVENT_DUNGEON_DESTINYLIGHT_NAME7,Masmorra Especial 2 da Luz do Destino
+EVENT_DUNGEON_DESTINYLIGHT_NAME8,Masmorra Especial 3 da Luz do Destino
+EVENT_DUNGEON_DESTINYLIGHT_DESC1,Monstros manipuladores
+EVENT_DUNGEON_DESTINYLIGHT_DESC2,Duelo com guarda-costas
+EVENT_DUNGEON_DESTINYLIGHT_DESC3,Erradicação da corrupção
+EVENT_DUNGEON_DESTINYLIGHT_DESC4,A máscara e a meditação
+EVENT_DUNGEON_DESTINYLIGHT_DESC5,O lar é próximo mas distante
+DESTINYLIGHT_EVENT_SPECIAL_DUNGEON_SUB_TITLE1,Masmorra Especial 1 da Luz do Destino
+DESTINYLIGHT_EVENT_SPECIAL_DUNGEON_SUB_TITLE2,Masmorra Especial 2 da Luz do Destino
+DESTINYLIGHT_EVENT_SPECIAL_DUNGEON_SUB_TITLE3,Masmorra Especial 3 da Luz do Destino
+TOOLTIP_INFO_NAME_EVENT_DESTINYLIGHT_THREAD,Fio do Destino
+TOOLTIP_INFO_NAME_NAME_DESTINYLIGHT_PIRCEOFCLOTH,Retalho do Destino
+TOOLTIP_INFO_NAME_TEXT_DESTINYLIGHT_PIRCEOFCLOTH,Moeda de troca obtida ao concluir as masmorras de 'Onde se dirige a luz do destino'. Pode ser usada para comprar itens na Loja do Evento.
+SHOP_NAME_2019_DESTINYLIGHT_SHOP,Loja Especial do Evento
 EVENT_REWARD_GET_NOTICE_MESSAGE,Resgate primeiro o prêmio do estágio anterior.
+DESTINYLIGHT_EVENT_SPECIAL_DUNGEON_DESC1_1,Os inimigos possuem grande capacidade para se recuperar! Impeça-os usando habilidades que reduzem a recuperação! Tome cuidado pois Demia puxa os adversários que estão longe a cada intervalo de tempo.
+DESTINYLIGHT_EVENT_SPECIAL_DUNGEON_DESC2_1,Cada uma das cores das luzes de Chrisha possuem efeitos diferentes! Reaja rapidamente de acordo com a habilidade que ela usar!\n[Luz Vermelha] – O ataque de Chrisha aumenta consideravelmente.\n[Luz Azul] – A defesa de Chrisha aumenta consideravelmente.\n[Luz Verde] – Chrisha remove efeitos negativos constantemente.
+DESTINYLIGHT_EVENT_SPECIAL_DUNGEON_DESC3_1,"Emissário Medonho possui uma forte barreira de proteção, neutralizando determinada quantidade de ataques! Adicionalmente, dizem que a Esfera Sombria causa destruição instantânea. Portanto, neutralize-o usando efeitos de status!"
 GUILD_ARENA_MEMBER_DEFENCE_TEAM,Equipe de defesa da Guilda
 PAYSHOP_PREPURCHASE_HALLOWEEN_2019_ARTIFACT,Brinde ao comprar 5 vezes: 'Espírito Mau Preso na Abóbora'
 GUILD_ARENA_MY_DEFENCE_TEAM,Minha equipe de defesa

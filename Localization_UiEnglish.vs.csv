@@ -187,7 +187,6 @@ CREATURE_TAG_TYPE.MECHANIC,Mechanic
 CLASS_TRIAL_REMAIN_TIME,Will close in {1}:{2}
 CLASS_TRIAL_SELECT,Select Ordeal
 CLASS_TRIAL_FORCE_OPEN,Force Open
-CLOSE,Close
 CHALLENGE_TRIAL_HERO_SELECT,Select a hero to undertake the ordeal for the Awakening.
 CHAT_ACTION_PARTY_CREATED,{1} has formed a party. (Tap to join.)
 CHAT_ACTION_PARTY_ROOM_CREATED,{1} has opened a battle. (Tap to join.)
@@ -1484,7 +1483,7 @@ USERINFO_ARENA_RECORD,Arena Win-Loss
 USERINFO_TITLE_FRIENDS,User Info
 USERINFO_FRIENDS_ACCESS,Latest Access
 USERINFO_FRIENDS_CHAPTER,Current Chapter
-USERINFO_FRIENDS_GETHERO,Possessed Heroes
+USERINFO_FRIENDS_GETHERO,Heroes Owned
 USERINFO_FRIENDS_HEROLEVEL,Highest Hero Lv
 USERINFO_GUILD_CLASS,Guild Class 
 USERINFO_WORLDBOSS_TOTALDAMAGE,Total Damage
@@ -1633,7 +1632,7 @@ CRAFT_POPUP_CRAFTITEM_LABEL,Crafted Item
 CRAFT_POPUP_MATERIAL_LABEL,Material Item
 CRAFT_POPUP_MATERIAL_TIME,Crafting Time
 CRAFT_POPUP_MATERIAL_COST,Crafting Cost
-CRAFT_POPUP_MATERIAL_CRAFT,Crafting
+CRAFT_POPUP_MATERIAL_CRAFT,Craft
 INVENTORY.INVENTORY_CRAFT_FINISHED,Crafting Complete
 INVENTORY.INVENTORY_GET_CRAFT_ITEM,Crafted Item Received!
 INVENTORY.INVENTORY_FINISH_CRAFT_MSG,Spend Rubies to immediately receive item.
@@ -2802,8 +2801,8 @@ TOOLTIP_INFO_NAME_UNDERGROUNDPRISONKEY,Stockade Key
 TOOLTIP_INFO_NAME_UNDERGROUNDLABYRINTHKEY,Royal Vault Key
 TOOLTIP_INFO_NAME_HIDEOUTKEY,Upper Dungeon Key
 TOOLTIP_INFO_NAME_CHALLENGETOWERKEY,Cube of Challenge
-TOOLTIP_INFO_NAME_EVENTDUNGEONTICKET,Festival Firecracker
-TOOLTIP_INFO_NAME_EVENTDUNGEONPOINT,Festival Cake
+TOOLTIP_INFO_NAME_EVENTDUNGEONTICKET,Threads of Fate
+TOOLTIP_INFO_NAME_EVENTDUNGEONPOINT,Cloth of Fate
 TOOLTIP_INFO_NAME_EVENTDUNGEONPOINT2,Festival Balloon
 TOOLTIP_INFO_NAME_EVENTDUNGEONTICKET_BACKUP,Halloween Dungeon Key
 TOOLTIP_INFO_NAME_EVENTDUNGEONPOINT_BACKUP,Halloween Point
@@ -2826,7 +2825,7 @@ TOOLTIP_INFO_TEXT_UNDERGROUNDLABYRINTHKEY,Keys needed in order to enter the Roya
 TOOLTIP_INFO_TEXT_HIDEOUTKEY,Keys needed in order to enter the Upper Dungeon.
 TOOLTIP_INFO_TEXT_CHALLENGETOWERKEY,Cubes needed in order to enter the Tower of Challenge.
 TOOLTIP_INFO_TEXT_EVENTDUNGEONTICKET,Keys needed in order to enter Event Dungeons.
-TOOLTIP_INFO_TEXT_EVENTDUNGEONPOINT,"An item obtained by clearing the 1,000 Days Anniversary Story Dungeon. It is used to purchase items from the 1,000 Days Anniversary Shop."
+TOOLTIP_INFO_TEXT_EVENTDUNGEONPOINT,An item obtained by clearing the Where the Light of Fate Shines Dungeon. It is used to purchase items from the event shop.
 TOOLTIP_INFO_TEXT_EVENTDUNGEONPOINT2,"An item obtained by clearing the 1,000 Days Anniversary Special Dungeon. It is used to purchase items from the 1,000 Days Anniversary Shop."
 TOOLTIP_INFO_NAME_GLORYPOINT,Honor Medal
 TOOLTIP_INFO_TEXT_GLORYPOINT,A type of point available at the League of Honor. Use to exchange for items in the League of Honor Shop.
@@ -3918,6 +3917,7 @@ COSTUME_GROUP_HALLOWEEN2,Halloween 2
 COSTUME_GROUP_MAID1,Butler and Maid
 COSTUME_GROUP_SPORTSWARE1,Sportswear
 COSTUME_GROUP_CASAULFASHION1,Casual Fashion
+COSTUME_GROUP_CASUALFASHION1,Casual Fashion
 COSTUME_GROUP_HEROICCAREER1,Uniform
 UI_SELECT_HERO_NONE,No heroes are available to select.
 UI_SELECT_COSTUME_NONE,No costumes are available to select.
@@ -4984,6 +4984,7 @@ BACK_GROUND_DOWNLOAD_TOP_TITLE,Downloading in Background…
 BACK_GROUND_DOWNLOAD_TOP_DESC,Downloading Latest Patch.\n{1}% downloaded….
 BACK_GROUND_DOWNLOAD_END_NOW_TOOLTIP_TITLE,Unable to proceed: Download incomplete.\nPause playing and download all the data?
 BACK_GROUND_DOWNLOAD_END_NOW_TOOLTIP_DESC,"*Warning: If you choose to download all the data, you cannot play the game until the download is complete."
+BACK_GROUND_DOWNLOAD_RESELECT_DESC,"Background download time has exceeded {1} second(s).\n\nFor optimized gameplay, Batch Download is recommended.\n(You will be moved to the login screen upon selecting Download.)"
 GATEWAY_TO_TRIAL.REWARD,Reward
 GATEWAY_TO_TRIAL.JOINING,Join
 GATEWAY_TO_TRIAL.GRADE,Stage {1}
@@ -5544,7 +5545,60 @@ ADVENTURE_NOTICE_STAMINA_ETC,Always Available
 HERO_PROFILE_SUBSTORY,Substory
 EVENT_DUNGEON_1000DAYS,"1,000 Days Anniversary Festival Dungeon"
 EVENT_SHOP_1000DAYS,"1,000 Days Anniversary Festival Shop"
+EVENT_DUNGEON_DESC_STORY_1000DAYS,This is an Event Story Dungeon.\nYou can enjoy the story of the festival.
+EVENT_DUNGEON_DESC_SPECIAL_1000DAYS,"After completing all the stories,\nplease be ready to greet a very special guest on 12th November!"
+EVENT_1000DAYS_TICKET,Festival Firecracker
+TOOLTIP_INFO_NAME_EVENT_CAKE_1000DAYS,Festival Cake
+TOOLTIP_INFO_DESC_EVENT_CAKE_1000DAYS,"An item obtained by clearing the 1,000 Days Anniversary Story Dungeon. It is used to purchase items from the 1,000 Days Anniversary Shop."
+TOOLTIP_INFO_NAME_EVENT_BALLOON_1000DAYS,Festival Balloon
+TOOLTIP_INFO_DESC_EVENT_BALLOON_1000DAYS,"An item obtained by clearing the 1,000 Days Anniversary Special Dungeon. It is used to purchase items from the 1,000 Days Anniversary Shop."
+EVENT_INFO_1000DAYS,Festival Guide
+EVENT_NAME_1000DAYS,"1,000 Days Anniversary Festival Dungeon"
+EVENT_DESC_1000DAYS,"- 1,000 Days Anniversary Festival Dungeon\nClear the Story Dungeon to obtain a Cake,\nand clear the Special Dungeon to obtain a Balloon.\n\n- Special Thanks From the NPCs\nGo and talk to the 7 NPCs of Orvel\n(Gladi, May, Veronica, Loman, Nicky, Juno, and Jin).\nThey have prepared a special word of thanks and a gift for you."
+EVENT_DUNGEON_1000DAYS_NAME1,"Thank You All For 1,000 Days"
+1000DAYS_EVENT_NAME,"1,000 Days Anniversary Festival"
+EVENT_DUNGEON_1000DAYS_NAME2,10 Days of Gratitude
+EVENT_DUNGEON_1000DAYS_NAME3,100 Days of Delight
+EVENT_DUNGEON_1000DAYS_NAME4,"1,000 Days of Exhilaration"
+SHOP_NAME_1000DAYS_SHOP,"1,000 Days Anniversary Festival Shop"
+TOOLTIP_INFO_NAME_SHOPEVENTPOINT,Black Token
+TOOLTIP_INFO_TEXT_SHOPEVENTPOINT,Limited Time Event Currency obtained upon purchasing a cash item.\nYou can exchange them with rewards at the Special Shop. Please note that you cannot obtain or use them once the event period is over.
+PAY_SHOP_CATEGORY.PAY_SHOP_EVENT,Black Friday
+RESULT_TYPE.NOT_ENOUGH_SHOP_EVENT_POINT,Insufficient Black Token(s).
+SHOP_TAB_EVENT_BM,Special Item
+SHOP_TAB_EVENT_POINT,Black Token Shop
+COMMON.SHOP_EVENT_POINT_COUNT,{1} Black Token
+EVENT_BLACK_FRIDAY_POINT_DESC2_01,Black Token is a Limited Time Event Currency that can be obtained upon purchasing a cash item.
+COMMON_EVENT_DAY_DESC2_01,※Event Period: Until 17th December Maintenance
+EVENT_BLACK_FRIDAY_TICKET,Black Token
+EVENT_DUNGEON_DESTINYLIGHT,Where the Light of Fate Shines
+DESTINYLIGHT_EVENT_NAME,Where the Light of Fate Shines
+EVENT_NAME_DESTINYLIGHT,Where the Light of Fate Shines Event Info
+EVENT_DESC_DESTINYLIGHT,"- Where the Light of Fate Shines\nClear the Story Dungeon to obtain a Cloth of Fate, and clear the Special Dungeon to obtain a Cloth of Fate and a special reward.\n\n- Event Shop\nClear the dungeons to acquire Cloth of Fate and purchase various items from the Event Shop."
+EVENT_DUNGEON_DESTINYLIGHT_NAME1,Dignity of a Noble
+EVENT_DUNGEON_DESTINYLIGHT_NAME2,Address of the Princess
+EVENT_DUNGEON_DESTINYLIGHT_NAME3,Relentless Resistance
+EVENT_DUNGEON_DESTINYLIGHT_NAME4,Ball of the Knight
+EVENT_DUNGEON_DESTINYLIGHT_NAME5,Mercenary of the Dark
+EVENT_DUNGEON_DESTINYLIGHT_NAME6,Light of Fate Special Dungeon 1
+EVENT_DUNGEON_DESTINYLIGHT_NAME7,Light of Fate Special Dungeon 2
+EVENT_DUNGEON_DESTINYLIGHT_NAME8,Light of Fate Special Dungeon 3
+EVENT_DUNGEON_DESTINYLIGHT_DESC1,Exterminating Mentally Corrupted Monsters
+EVENT_DUNGEON_DESTINYLIGHT_DESC2,Sparring With the Guards
+EVENT_DUNGEON_DESTINYLIGHT_DESC3,Eradicating Corruption
+EVENT_DUNGEON_DESTINYLIGHT_DESC4,Masks and Meditation
+EVENT_DUNGEON_DESTINYLIGHT_DESC5,Home Is So Far Yet So Close
+DESTINYLIGHT_EVENT_SPECIAL_DUNGEON_SUB_TITLE1,Light of Fate Special Dungeon 1
+DESTINYLIGHT_EVENT_SPECIAL_DUNGEON_SUB_TITLE2,Light of Fate Special Dungeon 2
+DESTINYLIGHT_EVENT_SPECIAL_DUNGEON_SUB_TITLE3,Light of Fate Special Dungeon 3
+TOOLTIP_INFO_NAME_EVENT_DESTINYLIGHT_THREAD,Threads of Fate
+TOOLTIP_INFO_NAME_NAME_DESTINYLIGHT_PIRCEOFCLOTH,Cloth of Fate
+TOOLTIP_INFO_NAME_TEXT_DESTINYLIGHT_PIRCEOFCLOTH,An item obtained by clearing the Where the Light of Fate Shines Dungeon. It is used to purchase items from the event shop.
+SHOP_NAME_2019_DESTINYLIGHT_SHOP,Event Special Shop
 EVENT_REWARD_GET_NOTICE_MESSAGE,Please claim the rewards from the previous level first.
+DESTINYLIGHT_EVENT_SPECIAL_DUNGEON_DESC1_1,"The enemies have powerful healing effects! Try using Heal Rate Reduction effects to prevent the enemies from healing themselves! Be careful, Demia draws in far away enemies from time to time!"
+DESTINYLIGHT_EVENT_SPECIAL_DUNGEON_DESC2_1,Each color of light that Chrisha owns has different effects depending on the color! You must quickly respond to her Skill usage!\n[Red Light] – Greatly increases Chrisha's ATK.\n[Blue Light] – Greatly increases Chrisha's DEF.\n[Green Light] – Chrisha constantly dispels negative effects.
+DESTINYLIGHT_EVENT_SPECIAL_DUNGEON_DESC3_1,"Dread Bringer has a powerful shield that nullifies DMG for a certain number of times! Moreover, the devastating Dark Orb can destroy all enemies at once! Use CC effects to neutralize it!"
 GUILD_ARENA_MEMBER_DEFENCE_TEAM,Guild Member’s Defense Team
 EVENT_1000DAYS_TICKET,Festival Firecracker
 EVENT_DUNGEON_DESC_STORY_1000DAYS,This is an Event Story Dungeon.\nYou can enjoy the story of the festival.

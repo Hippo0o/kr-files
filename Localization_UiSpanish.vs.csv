@@ -187,7 +187,6 @@ CREATURE_TAG_TYPE.MECHANIC,Mecanico
 CLASS_TRIAL_REMAIN_TIME,Se cerrara en {1}:{2}
 CLASS_TRIAL_SELECT,Seleccionar Prueba
 CLASS_TRIAL_FORCE_OPEN,Forzar Entrada
-CLOSE,Cerrar
 CHALLENGE_TRIAL_HERO_SELECT,Seleccionar un Heroe para emprender la prueba del Despertar
 CHAT_ACTION_PARTY_CREATED,{1} ha formado un grupo. (Pulsa para unirte.)
 CHAT_ACTION_PARTY_ROOM_CREATED,{1} ha abierto una batalla. (Pulsa para unirte.)
@@ -1367,7 +1366,7 @@ PVP_USER_LOSE,Perd
 QUEST_PROGRESS_CONDITION,Pre requisito
 QUEST_PROGRESS_CONDITION_MS,Terminar la mision anterior
 OPTIONSELL_TITLE_SELL,Vender Todo
-OPTIONSELL_TITLE_DISMANTLE,Destruir Todo
+OPTIONSELL_TITLE_DISMANTLE,Destruir\nTodo
 OPTIONSELL_INCLUDE_AWAKENITEM,Equipo del Despertar Incluido
 OPTIONSELL_INCLUDE_UPGRADEITEM,Equipo Mejorado No Incluido
 OPTIONSELL_COUNT_ITEM,Articulo Seleccionado
@@ -2433,25 +2432,25 @@ SMITHY_TIER_UPGRADE,Actualizac. Categ. Equip.
 SMITHY_TIERUPGRADE_EMPTY,No hay equipo viable para la mejora de nivel.
 TIER_UPGRADE_USE_MATERIAL,Los materiales requeridos
 RESULT_TYPE.NOT_EQUIP_MAX_STAR,Este Equipo no es de 5 Star Rank.
-UNIQUE_WEAPON_SLICE_MESSAGE,"Al moler este elemento, la recuperación es imposible, \ny {1} Fragmentos únicos caerán. \n ¿Moler {2}?"
+UNIQUE_WEAPON_SLICE_MESSAGE,Artículo no recuperable después de ser destruido.\nObtendrás {1} fragmentos de arma única.\n¿Destruir {2}?
 OPTION_PUSH_ALL,Todas las Notificaciones
-OPTION_PUSH_SYSTEM,Notificacion del Sistema
-OPTION_PUSH_STAMINA_ALL_CHARGE,Energia Llena
+OPTION_PUSH_SYSTEM,Notificación del Sistema
+OPTION_PUSH_STAMINA_ALL_CHARGE,Energía Llena
 OPTION_PUSH_CHALLENGE_ALL_CHARGE,Todos los Cubos de Desafío han sido restaurados.
 OPTION_PUSH_ARENA_ALL_CHARGE,Bolet.Aren.Lleno
 OPTION_PUSH_ITEM_CREATE_COMPLETE,Elab.Art.Completa
 OPTION_PUSH_GUILDRAID_OPEN,Raid Clan Abier
-OPTION_EVENT_PUSH,Notificacion de Evento
-OPTION_PUSH_NIGHT,Notificacion Nocturna
-OPTION_TAP_PUSH,Notificacion
+OPTION_EVENT_PUSH,Notificación de Evento
+OPTION_PUSH_NIGHT,Notificación Nocturna
+OPTION_TAP_PUSH,Notificación
 PUSH_STAMINA_ALL_CHARGE_MESSAGE,la Energia se ha recargado completamente. Inicia sesion ahora y continua tu aventura!
 PUSH_CHALLENGE_ALL_CHARGE_MESSAGE,Cubos de la Torre del Desafio se han recargado por completo. ¡Inicia sesión ahora para conquistar la Torre!
 PUSH_ARENA_ALL_CHARGE_MESSAGE,los Boletos de la Arena se han recargado completamente. Inicia sesion ahora y demuestra tus habilidades!
 PUSH_ITEM_CREATE_COMPLETE_MESSAGE,la Elaboracion de Articulos se ha completado. Inicia sesion ahora y verifica tu Inventario!
 PUSH_GUILDRAID_OPEN_MESSAGE,el Clan del Raid ha sido abierto. Inicia sesion ahora y derrota los Monstruos del Calabozo!
 PUSH_TITLE_MESSAGE,King's Raid
-HERO_INFO_BASE_TRANCE_FINISH,Informacion Basica
-ITEMGROUPNAME_FIXED,Lista de descuentos de artículos confirmados
+HERO_INFO_BASE_TRANCE_FINISH,Información Básica
+ITEMGROUPNAME_FIXED,Lista de artículos de obtención garantizada.
 ITEMGROUPNAME_RANDOM,Lista de elementos aleatorios {1}
 ITEMGROUPNAME_ADDED,Lista de descuentos de elementos adicionales
 ITEMGROUPDESC_FIXED,Esta es una lista de elementos que están confirmados
@@ -2662,7 +2661,7 @@ EVENTBOSS.EVENT_BOSS_REWARD_TITLE_02,Recompensa de matanzas diarias
 EVENTBOSS.EVENT_BOSS_REWARD_DECS_02,Se otorgan 100 rubíes diarios por matar al Conejo de la luna LuLu.\nPuedes recibir la recompensa al participar en al menos 1 batalla con el Conejo de la luna LuLu.
 EVENTBOSS.EVENT_BOSS_ENTER_COUNT,Derrotas: {1}
 EVENTBOSS.EVENT_BOSS_KILL_TIME,{1}hora(s): {2}minuto(s): {3}seg.
-EVENTBOSS.HELP_EVENT_BOSS_TITLE,Información del evento
+EVENTBOSS.HELP_EVENT_BOSS_TITLE,Información del Evento
 EVENTBOSS.HELP_EVENT_BOSS_NAME,Reglas de la batalla para el Conejo de la luna LuLu y recompensas
 EVENTBOSS.HELP_EVENT_BOSS_DECS,"1. Aparece el Conejo de la luna LuLu\nEl Conejo de la luna LuLu aparece dos veces por día.\nHora de aparición: 14:00 - 20:00 / 21:00 - 23:59\nEl primer Conejo de la luna LuLu se puede matar y se entregarán las recompensas.\nAún puedes participar en batallas con el segundo Conejo de la luna LuLu, pero no se puede matar.\n\n2. El Daño de batalla\nque se inflige al Conejo de la luna LuLu se arregla a 1.\nEl Conejo de la luna LuLu inflige Daño proporcional al total de los héroes del grupo.\nEl límite de tiempo de batalla es de 2 minutos.\n\n3. Recompensa\nRecompensa por muerte: 100 rubíes se entregan al matar al primer Conejo de la luna LuLu.\nLa recompensa por muerte se enviará a tu casilla de correo luego de los cálculos después de las 23:59.\nRecompensa de participación: Puedes recibir el bolso del conejo cada vez que participas en una batalla del Conejo de la luna LuLu.\nRecompensa de participación acumulada: las recompensas se te entregarán según el índice de participación acumulativa.\n1 Índice de participación (I. P.) → Fragmento misterioso x20\n5 I. P. → Esencia misteriosa x20\n10 I. P. → Boleto de fragmentos x50\n15 I. P. → Boleto de esencia x50\n20 P.C. → Colgante de LuLu x1\n25 I. P. → Amplificador de experiencia (1 hora) x3\n30 I. P. → Amplificador de oro (1 hora) x3\n35 I. P. → Amplificador de experiencia (1 día) x1\n40 I. P. → Amplificador de oro (1 día) x1"
 EVENT_BOSS_JOIN_TITLE,Recompensas del Conejo de la luna LuLu para el {1} Índice de participación
@@ -2716,9 +2715,9 @@ EVENT_MISSION_DESC_GETWEAPON5,Obtener 10 Puntos de Recolección de Equipo Único
 SEMESTER_EVENT_TITLE,Semestre nuevo de golpeteo
 SEMESTER_EVENT_DEC,Ha empezado el nuevo semestre lleno de alegría. ¿Podré obtener una buena nota en este semestre...?
 MENU_EVENT_DUNGEON,Calabozo de evento
-MENU_EVENT_SHOP,Tienda Especial de Evento
-MENU_EVENT_HELP,Información del evento
-SHOP_NAME_2019_SEMESTER_SHOP,Tienda especial de evento
+MENU_EVENT_SHOP,Tienda de Evento
+MENU_EVENT_HELP,Información del Evento
+SHOP_NAME_2019_SEMESTER_SHOP,Tienda de Evento
 SEMESTER_EVENT_NAME_1,Evento de semestre nuevo
 SEMESTER_EVENT_DECS_1,"Semestre nuevo de golpeteo\n\n: Ha comenzado un semestre nuevo. El director tiene un regalo especial para aquellos alumnos que se desempeñen muy bien en la escuela.\n\n\n\nDescripción del evento\n\n: Con un lápiz, puedes ingresar al Calabozo del Evento de semestre nuevo. Los lápices se recargan todos los días.\n\nPuedes sacarte un 10 en los exámenes en el Calabozo del Evento de semestre nuevo y usar esa calificación en la Tienda del evento.\n\nUna vez que hayas completado todos los Calabozos del evento, se revelará un Calabozo de evento oculto."
 SEMESTER_EVENTDUNGEONTICKET,Lápiz
@@ -2735,9 +2734,9 @@ PICNIC_EVENT_NAME,Evento de excursión
 PICNIC2_EVENT_NAME,Evento de Excursión
 SEMESTER_EVENT_NAME,Evento de excursión
 PICNIC_EVENT_DECS,"Excursión Primaveral\n\nInformación de Evento\nPodrás consumir sándwiches para ingresar al calabozo. Los sándwiches se recargan diariamente.\nPodrás obtener globos de corazón en el calabozo de primavera, puedes utilizarlos en la tienda del evento.\nSi terminas todos los calabozos de evento, aparecerá un calabozo de evento secreto."
-PICNIC_EVENTDUNGEONTICKET,Sándwich delicioso
-SHOP_NAME_2019_PICNIC_SHOP,Tienda especial de evento
-SHOP_NAME_2019_PICNIC2_SHOP,Tienda especial de evento
+PICNIC_EVENTDUNGEONTICKET,Sándwich Delicioso
+SHOP_NAME_2019_PICNIC_SHOP,Tienda de Evento
+SHOP_NAME_2019_PICNIC2_SHOP,Tienda de Evento
 TOOLTIP_INFO_TEXT_EVENTDUNGEONTICKET2,Objeto requerido para ingresar al Calabozo de evento.
 EVENT_DUNGEON_PICNIC_NAME1,Caminar con Arch
 EVENT_DUNGEON_PICNIC_DESC1,Arch propuesta celestial
@@ -2802,8 +2801,8 @@ TOOLTIP_INFO_NAME_UNDERGROUNDPRISONKEY,Llave de la Prisión Militar
 TOOLTIP_INFO_NAME_UNDERGROUNDLABYRINTHKEY,Llave de la Boveda Real
 TOOLTIP_INFO_NAME_HIDEOUTKEY,Llave del Calabozo Superior
 TOOLTIP_INFO_NAME_CHALLENGETOWERKEY,Cubo del Desafío
-TOOLTIP_INFO_NAME_EVENTDUNGEONTICKET,Fuegos Artificiales
-TOOLTIP_INFO_NAME_EVENTDUNGEONPOINT,Torta del Festival
+TOOLTIP_INFO_NAME_EVENTDUNGEONTICKET,Lazos del Destino
+TOOLTIP_INFO_NAME_EVENTDUNGEONPOINT,Pedazos de Tela del Destino
 TOOLTIP_INFO_NAME_EVENTDUNGEONPOINT2,Globos del Festival
 TOOLTIP_INFO_NAME_EVENTDUNGEONTICKET_BACKUP,Llave del Calabozo de Halloween
 TOOLTIP_INFO_NAME_EVENTDUNGEONPOINT_BACKUP,Punto de Halloween
@@ -2826,7 +2825,7 @@ TOOLTIP_INFO_TEXT_UNDERGROUNDLABYRINTHKEY,Claves necesarias para ingresar a la B
 TOOLTIP_INFO_TEXT_HIDEOUTKEY,Claves necesarias para ingresar al Calabozo Superior
 TOOLTIP_INFO_TEXT_CHALLENGETOWERKEY,Cubos necesarios para ingresar a la Torre del Desafío.
 TOOLTIP_INFO_TEXT_EVENTDUNGEONTICKET,Se necesitan claves para ingresar a los Calabozos de Evento
-TOOLTIP_INFO_TEXT_EVENTDUNGEONPOINT,Obtenible en los calabozos de historia del festival de los mil días. Se utiliza para comprar productos en la Tienda de los Mil Días.
+TOOLTIP_INFO_TEXT_EVENTDUNGEONPOINT,Obtenible al terminar los calabozos de Lugar Alumbrado por la Luz del Destino. Se utiliza para comprar productos en la Tienda de Evento.
 TOOLTIP_INFO_TEXT_EVENTDUNGEONPOINT2,Obtenible al terminar el calabozo especial del festival de los mil días. Se utiliza para comprar productos en la Tienda de los Mil Días.
 TOOLTIP_INFO_NAME_GLORYPOINT,Medalla de Honor
 TOOLTIP_INFO_TEXT_GLORYPOINT,Un tipo de punto disponible en la Liga de Honor. Se utiliza para cambiar artículos en la Tienda de la Liga de Honor.
@@ -3918,6 +3917,7 @@ COSTUME_GROUP_HALLOWEEN2,Halloween 2
 COSTUME_GROUP_MAID1,Mayordomo y doncella
 COSTUME_GROUP_SPORTSWARE1,Ropa Deportiva
 COSTUME_GROUP_CASAULFASHION1,Estilo Casual
+COSTUME_GROUP_CASUALFASHION1,Casual
 COSTUME_GROUP_HEROICCAREER1,Ropa de Trabajo
 UI_SELECT_HERO_NONE,No hay héroes disponibles para seleccionar.
 UI_SELECT_COSTUME_NONE,No hay trajes disponibles para seleccionar.
@@ -4086,7 +4086,7 @@ RECOMMEND_PARTY_DECK_DESC_TIME,Se muestran los grupos al día con tiempos breves
 STAT_TIME,Tiempo
 RECOMMEND_PARTY_DECK_NONE,No hay grupos para mostrar.
 RECOMMEND_PARTY_DECK_LIST,Número de grupo al día: {1}
-COMMON_CHEST,Caja de almacenamiento
+COMMON_CHEST,Almacenamiento
 ITEM_KEEP_CONFIRM,Almacenar equipo
 ITEM_BRING_CONFIRM,Retirar equipo
 EQUIP_CHEST_ACCEPT,Almacenar
@@ -4984,6 +4984,7 @@ BACK_GROUND_DOWNLOAD_TOP_TITLE,Descargando en Segundo Plano...
 BACK_GROUND_DOWNLOAD_TOP_DESC,Descargando parche.\n{1}% Descargado...
 BACK_GROUND_DOWNLOAD_END_NOW_TOOLTIP_TITLE,La acción no puede ser realizada hasta que se complete la descarga de datos.\n¿Desea detener el juego momentáneamente y descargar todos los datos?
 BACK_GROUND_DOWNLOAD_END_NOW_TOOLTIP_DESC,*Advertencia: Si decide descargar todos los datos no podrá continuar con el juego hasta que se complete la descarga.
+BACK_GROUND_DOWNLOAD_RESELECT_DESC,El tiempo de descarga de segundo plano ha pasado {1} segundos.\n\nSe recomienda la descarga en conjunto para un juego fluido.\n(Regresarás a la pantalla de inicio de sesión si seleccionas la descarga.)
 GATEWAY_TO_TRIAL.REWARD,Recompensas
 GATEWAY_TO_TRIAL.JOINING,Reclutar
 GATEWAY_TO_TRIAL.GRADE,{1} Etapa
@@ -5560,7 +5561,44 @@ EVENT_DUNGEON_1000DAYS_NAME2,10 Días de Agradecimiento
 EVENT_DUNGEON_1000DAYS_NAME3,100 Días de Conmoción
 EVENT_DUNGEON_1000DAYS_NAME4,"1,000 Días de Gratitud"
 SHOP_NAME_1000DAYS_SHOP,Tienda de los Mil Días
-EVENT_REWARD_GET_NOTICE_MESSAGE,Recibe la recompensa de la etapa pasada primero.
+TOOLTIP_INFO_NAME_SHOPEVENTPOINT,Ficha Negra
+TOOLTIP_INFO_TEXT_SHOPEVENTPOINT,Obtenible por tiempo limitado durante el período del evento al comprar productos en efectivo.\nIntercámbiala por recompensas en la Tienda Especial. Uso no disponible después de la conclusión del evento.
+PAY_SHOP_CATEGORY.PAY_SHOP_EVENT,Viernes Negro
+RESULT_TYPE.NOT_ENOUGH_SHOP_EVENT_POINT,Insuficientes fichas negras.
+SHOP_TAB_EVENT_BM,Productos Especial
+SHOP_TAB_EVENT_POINT,Tienda de Fichas Negras
+COMMON.SHOP_EVENT_POINT_COUNT,{1} Fichas Negras
+EVENT_BLACK_FRIDAY_POINT_DESC2_01,Monedas obtenibles por tiempo limitado durante el período del evento al comprar productos en efectivo.
+COMMON_EVENT_DAY_DESC2_01,※Período del Evento: Hasta antes de la inspección del 17 de diciembre.
+EVENT_BLACK_FRIDAY_TICKET,Ficha Negra
+EVENT_DUNGEON_DESTINYLIGHT,Lugar Alumbrado por la Luz del Destino
+DESTINYLIGHT_EVENT_NAME,Lugar Alumbrado por la Luz del Destino
+EVENT_NAME_DESTINYLIGHT,Información del Evento Lugar Alumbrado por la Luz del Destino
+EVENT_DESC_DESTINYLIGHT,"- Lugar Alumbrado por la Luz del Destino\nObtendrás pedazos de tela del destino al completar los calabozos de historia, y al completar los calabozos especiales, pedazos de tela del destino y recompensas especiales.\n\n- Tienda de Evento\nPodrás comprar distintos artículos en la tienda de evento con los pedazos de tela del destino obtenidos en los calabozos."
+EVENT_DUNGEON_DESTINYLIGHT_NAME1,Dignidad Noble
+EVENT_DUNGEON_DESTINYLIGHT_NAME2,Felicitación de la Princesa
+EVENT_DUNGEON_DESTINYLIGHT_NAME3,Indomabilidad de la Resistencia
+EVENT_DUNGEON_DESTINYLIGHT_NAME4,Baile de los Caballeros
+EVENT_DUNGEON_DESTINYLIGHT_NAME5,Mercenario Oscuro
+EVENT_DUNGEON_DESTINYLIGHT_NAME6,Calabozo Especial de Luz del Destino 1
+EVENT_DUNGEON_DESTINYLIGHT_NAME7,Calabozo Especial de Luz del Destino 2
+EVENT_DUNGEON_DESTINYLIGHT_NAME8,Calabozo Especial de Luz del Destino 3
+EVENT_DUNGEON_DESTINYLIGHT_DESC1,Pelea con monstruos enloquecidos.
+EVENT_DUNGEON_DESTINYLIGHT_DESC2,Combate con los escoltas.
+EVENT_DUNGEON_DESTINYLIGHT_DESC3,Enfrentamiento a la corrupción.
+EVENT_DUNGEON_DESTINYLIGHT_DESC4,Máscaras y meditación.
+EVENT_DUNGEON_DESTINYLIGHT_DESC5,"Cerca, aunque el hogar esté lejos."
+DESTINYLIGHT_EVENT_SPECIAL_DUNGEON_SUB_TITLE1,Calabozo Especial de Luz del Destino 1
+DESTINYLIGHT_EVENT_SPECIAL_DUNGEON_SUB_TITLE2,Calabozo Especial de Luz del Destino 2
+DESTINYLIGHT_EVENT_SPECIAL_DUNGEON_SUB_TITLE3,Calabozo Especial de Luz del Destino 3
+TOOLTIP_INFO_NAME_EVENT_DESTINYLIGHT_THREAD,Lazos del Destino
+TOOLTIP_INFO_NAME_NAME_DESTINYLIGHT_PIRCEOFCLOTH,Pedazos de Tela del Destino
+TOOLTIP_INFO_NAME_TEXT_DESTINYLIGHT_PIRCEOFCLOTH,Obtenible al terminar los calabozos de Lugar Alumbrado por la Luz del Destino. Se utiliza para comprar productos en la Tienda de Evento.
+SHOP_NAME_2019_DESTINYLIGHT_SHOP,Tienda de Evento
+EVENT_REWARD_GET_NOTICE_MESSAGE,Recibe la recompensa de la etapa anterior primero.
+DESTINYLIGHT_EVENT_SPECIAL_DUNGEON_DESC1_1,"¡Los enemigos cuentan con un poderoso efecto de recuperación! ¡Utiliza efectos de reducción de recuperación, y detén la recuperación del enemigo! ¡Demia tira de los enemigos que están lejos cada cierto tiempo así que ten cuidado!"
+DESTINYLIGHT_EVENT_SPECIAL_DUNGEON_DESC2_1,¡Todos los colores de la luz de Chrisha tienen distintos efectos! ¡Responde adecuadamente a las habilidades de Chrisha!\n[Luz Roja] – Incrementa drásticamente el ataque de Chrisha.\n[Luz Azul] – Incrementa drásticamente la defensa de Chrisha.\n[Luz Verde] – Chrisha cancela efectos negativos continuamente.
+DESTINYLIGHT_EVENT_SPECIAL_DUNGEON_DESC3_1,"¡Portador de Muerte posee una poderosa barrera protectora que niega el daño periódicamente! ¡Además sus poderosas esferas de oscuridad pueden destruir a sus enemigos en un solo ataque, utiliza efectos de estado e incapacítalo!"
 GUILD_ARENA_MEMBER_DEFENCE_TEAM,Equipo de Defensa de los Miembros del Clan
 PAYSHOP_PREPURCHASE_HALLOWEEN_2019_ARTIFACT,Al hacer 5 compras: 'Espíritu Maligno en Calabaza'
 GUILD_ARENA_MY_DEFENCE_TEAM,Mi Equipo de Defensa

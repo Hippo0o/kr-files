@@ -558,5 +558,28 @@
       "Buy"
     ],
     "EventOnly": 1
+  },
+  {
+    "Index": 31,
+    "Code": "2019_DestinyLight_Shop",
+    "BuyCostType": "EventDungeonPoint",
+    "BuyCostTypeUI": [
+      "EventDungeonPoint"
+    ],
+    "BuyCostTypeIconSprite": [
+      "Event_DestinyLight_PieceOfCloth_Icon"
+    ],
+    "Timeline": [
+      "SHOP_DEFAULT"
+    ],
+    "Buyline": [
+      "NPC_TALISHA_BUY01",
+      "InnReaction.Yuria01",
+      "InnReaction",
+      "NPC_TALISHA_BUY02",
+      "InnReaction.Yuria01",
+      "InnReaction"
+    ],
+    "EventOnly": 1
   }
 ]

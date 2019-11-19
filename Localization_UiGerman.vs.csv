@@ -93,7 +93,7 @@ PARTY_DUNGEON_CHAPTER3_NODE8,Tal der roten Erde 3-8
 PARTY_DUNGEON_CHAPTER4,Altar der Untoten
 PARTY_DUNGEON_CHAPTER4_NODE8,Altar der Untoten 4-8
 PARTY_DUNGEON_CHAPTER5,Eingang zur Scharzdornfestung
-PARTY_DUNGEON_CHAPTER5_NODE8,5-8 Eingang zur Scharzdornfestung
+PARTY_DUNGEON_CHAPTER5_NODE8,Eingang zur Schwarzdornfestung 5-8
 PARTY_DUNGEON_CHAPTER6,Vergessene Wüstenwind-Höhle
 PARTY_DUNGEON_CHAPTER7,Eiskristall-Höhle
 PARTY_DUNGEON_CHAPTER8,Temeraires-Höhle
@@ -187,7 +187,6 @@ CREATURE_TAG_TYPE.MECHANIC,Mechaniker
 CLASS_TRIAL_REMAIN_TIME,Schließt in {1}:{2}
 CLASS_TRIAL_SELECT,Prüfung wählen
 CLASS_TRIAL_FORCE_OPEN,Gewaltsam öffnen
-CLOSE,Schließen
 CHALLENGE_TRIAL_HERO_SELECT,Wähle einen Helden für die Prüfung der Erweckung.
 CHAT_ACTION_PARTY_CREATED,{1} hat eine Gruppe erstellt. (Zum beitreten berühren)
 CHAT_ACTION_PARTY_ROOM_CREATED,{1} hat einen Kampf eröffnet. (Zum beitreten berühren)
@@ -2802,8 +2801,8 @@ TOOLTIP_INFO_NAME_UNDERGROUNDPRISONKEY,Kerker-Schlüssel
 TOOLTIP_INFO_NAME_UNDERGROUNDLABYRINTHKEY,Königl. Schatzkammer-Schlüssel
 TOOLTIP_INFO_NAME_HIDEOUTKEY,Großdungeon-Schlüssel
 TOOLTIP_INFO_NAME_CHALLENGETOWERKEY,Würfel der Herausforderungen
-TOOLTIP_INFO_NAME_EVENTDUNGEONTICKET,Festböller
-TOOLTIP_INFO_NAME_EVENTDUNGEONPOINT,Festkuchen
+TOOLTIP_INFO_NAME_EVENTDUNGEONTICKET,Glückssträhne
+TOOLTIP_INFO_NAME_EVENTDUNGEONPOINT,Glückslappen
 TOOLTIP_INFO_NAME_EVENTDUNGEONPOINT2,Festballons
 TOOLTIP_INFO_NAME_EVENTDUNGEONTICKET_BACKUP,Halloween-Dungeon-Schlüssel
 TOOLTIP_INFO_NAME_EVENTDUNGEONPOINT_BACKUP,Halloweenpunkt
@@ -2826,7 +2825,7 @@ TOOLTIP_INFO_TEXT_UNDERGROUNDLABYRINTHKEY,"Um die Königl. Schatzkammer betreten
 TOOLTIP_INFO_TEXT_HIDEOUTKEY,"Um den Großdungeon betreten zu können, werden Schlüssel gebraucht."
 TOOLTIP_INFO_TEXT_CHALLENGETOWERKEY,"Um den Turm der Herausforderungen betreten zu können, werden Würfel gebraucht."
 TOOLTIP_INFO_TEXT_EVENTDUNGEONTICKET,"Um Event-Dungeons betreten zu können, werden Schlüssel gebraucht."
-TOOLTIP_INFO_TEXT_EVENTDUNGEONPOINT,"Du kannst ihn erhalten, nachdem du 1.000 Tage Festanlass Geschichten-Dungeon erfolgreich beendet hast. Dieser kann beim Kauf von Artikel im 1.000 Tage Festanlass-Shop verwendet werden."
+TOOLTIP_INFO_TEXT_EVENTDUNGEONPOINT,"Du kannst ihn erhalten, nachdem du Wohin das Licht des Schicksals uns führt-Dungeon erfolgreich beendet hast. Dieser kann beim Kauf von Artikel im Event-Shop verwendet werden."
 TOOLTIP_INFO_TEXT_EVENTDUNGEONPOINT2,"Du kannst sie erhalten, nachdem du 1.000 Tage Festanlass Spezial-Dungeon erfolgreich beendet hast. Diese können beim Kauf von Artikel im 1.000 Tage Festanlass-Shop verwendet werden."
 TOOLTIP_INFO_NAME_GLORYPOINT,Ehrenmedaille
 TOOLTIP_INFO_TEXT_GLORYPOINT,In der Ehrenliga erspielbare Punkte. Können im Ehrenliga-Shop gegen Artikel getauscht werden.
@@ -3918,6 +3917,7 @@ COSTUME_GROUP_HALLOWEEN2,Halloween II
 COSTUME_GROUP_MAID1,Ergebene Diener I
 COSTUME_GROUP_SPORTSWARE1,Sportbekleidung
 COSTUME_GROUP_CASAULFASHION1,Freizeitmode
+COSTUME_GROUP_CASUALFASHION1,Freizeitmode
 COSTUME_GROUP_HEROICCAREER1,Arbeitskleidung
 UI_SELECT_HERO_NONE,Es stehen keine Helden zur Auswahl.
 UI_SELECT_COSTUME_NONE,Es stehen keine Kostüme zur Auswahl.
@@ -4391,7 +4391,7 @@ FIELD_RAID_HELP_01,"Je höher die Raid-Phase, desto höher ist die Chance Ausrü
 FIELD_RAID_OPEN_CONDITION,"Öffnet sich, wenn du Kapitel {1} geklärt hast."
 NODE_FIELD_RAID_NAME_01,Lava Raid
 NODE_FIELD_RAID_NAME_02,Heldenbezw. Raid
-NODE_FIELD_RAID_NAME_03,Heldenschutz Raid
+NODE_FIELD_RAID_NAME_03,Heldenschützer Raid
 NODE_FIELD_RAID_NAME_04,Dunkle Macht Raid
 RAID_ROOM_TITLE_HELP_FIELD,Helft uns beim Feldgruppenraid!
 RAID.FILTER_RAID_GRADE_RANGE_FIELD,Phase {1}
@@ -4467,7 +4467,7 @@ EQUIP_FILTER_SORT_STORAGE,Registrierte Ausrüstung
 EQUIP_FILTER_SORT_NOSTORAGE,Nicht registrierte Ausrüstung
 EQUIP_INFO_SELL_DISMANTLE,Zerlegen/Verkaufen
 EQUIP_INFO_LEVELUP_RUNE,Verstärken/Rune
-EQUIP_FILTER_SORT_HERO_SUPPRESSION,Heldentöter
+EQUIP_FILTER_SORT_HERO_SUPPRESSION,Heldenbezwinger
 EQUIP_FILTER_SORT_HERO_PROTECTION,Heldenschützer
 EQUIP_FILTER_SORT_DARK_LEGION,Dunkle Macht
 ITEM.NOT_CHEST,Nicht lagerbar
@@ -4984,6 +4984,7 @@ BACK_GROUND_DOWNLOAD_TOP_TITLE,Herunterladen im Hintergrund ...
 BACK_GROUND_DOWNLOAD_TOP_DESC,Patch wird gerade heruntergeladen.\n{1} % ist in Bearbeitung
 BACK_GROUND_DOWNLOAD_END_NOW_TOOLTIP_TITLE,"Du kannst nicht weiterspielen, da noch nicht alle Daten heruntergeladen wurden.\nMöchtest du für eine Weile aufhören zu spielen und alle Daten herunterladen?"
 BACK_GROUND_DOWNLOAD_END_NOW_TOOLTIP_DESC,"* Achtung: Wenn du alle Daten herunterladen möchtest, kannst du das Spiel nicht spielen, bevor der Download beendet ist."
+BACK_GROUND_DOWNLOAD_RESELECT_DESC,Die Zeit des Herunterladens im Hintergrund\nwurde um {1} Sek. überschritten.\nDas vollständige Herunterladen aller Dateien wird für ein reibungsloses Spielen sorgen.\n(Alles herunterladen wählen und du wirst\nzum Hauptbildschirm weitergeleitet.)
 GATEWAY_TO_TRIAL.REWARD,Belohnung
 GATEWAY_TO_TRIAL.JOINING,Belohnung
 GATEWAY_TO_TRIAL.GRADE,Phase {1}
@@ -5560,7 +5561,44 @@ EVENT_DUNGEON_1000DAYS_NAME2,10 Tage Danksagung
 EVENT_DUNGEON_1000DAYS_NAME3,100 Tage voller Emotionen
 EVENT_DUNGEON_1000DAYS_NAME4,1.000 Tage Begeisterung
 SHOP_NAME_1000DAYS_SHOP,1.000 Tage Festanlass-Shop
+TOOLTIP_INFO_NAME_SHOPEVENTPOINT,Black-Token
+TOOLTIP_INFO_TEXT_SHOPEVENTPOINT,"Du kannst diese erhalten, wenn du während Limitierte Events Artikel im Shop kaufst.\nDiese können im Spezial-Shop gegen Belohnungen eingetauscht werden und sind nach dem Eventende nicht mehr erhältlich oder verwendbar."
+PAY_SHOP_CATEGORY.PAY_SHOP_EVENT,Black Friday
+RESULT_TYPE.NOT_ENOUGH_SHOP_EVENT_POINT,Nicht genug Black-Token.
+SHOP_TAB_EVENT_BM,Sonderartikel
+SHOP_TAB_EVENT_POINT,Black-Token-Shop
+COMMON.SHOP_EVENT_POINT_COUNT,{1} Black-Token
+EVENT_BLACK_FRIDAY_POINT_DESC2_01,"Black-Token können erhalten werden, wenn du während Limitierte Events Artikel im Shop kaufst."
+COMMON_EVENT_DAY_DESC2_01,※ Eventzeitraum: Bis zu den Wartungsarbeiten am 17. Dez.
+EVENT_BLACK_FRIDAY_TICKET,Black-Token
+EVENT_DUNGEON_DESTINYLIGHT,Wohin das Licht des Schicksals uns führt
+DESTINYLIGHT_EVENT_NAME,Wohin das Licht des Schicksals uns führt
+EVENT_NAME_DESTINYLIGHT,Wohin das Licht des Schicksals uns führt Eventinfo
+EVENT_DESC_DESTINYLIGHT,"- Wohin das Licht des Schicksals uns führt\nDu erhältst Glückslappen, wenn du den Geschichten-Dungeon klärst,\nund Glückslappen & besondere Belohnungen, wenn du den Spezial-Dungeon erfolgreich beendest.\n\n- Event-Shop\nMit den im Dungeon erhaltenen Glückslappen kannst du verschiedene Artikel im Event-Shop erwerben."
+EVENT_DUNGEON_DESTINYLIGHT_NAME1,Würde des Adels
+EVENT_DUNGEON_DESTINYLIGHT_NAME2,Glückwünsche der Prinzessin
+EVENT_DUNGEON_DESTINYLIGHT_NAME3,Unerbittliche Résistance
+EVENT_DUNGEON_DESTINYLIGHT_NAME4,Ritterball
+EVENT_DUNGEON_DESTINYLIGHT_NAME5,Dunkelsöldner
+EVENT_DUNGEON_DESTINYLIGHT_NAME6,Licht des Schicksals Spezial-Dungeon I
+EVENT_DUNGEON_DESTINYLIGHT_NAME7,Licht des Schicksals Spezial-Dungeon II
+EVENT_DUNGEON_DESTINYLIGHT_NAME8,Licht des Schicksals Spezial-Dungeon III
+EVENT_DUNGEON_DESTINYLIGHT_DESC1,Kampf gegen verdorbene Monster
+EVENT_DUNGEON_DESTINYLIGHT_DESC2,Kampf gegen die Kaiserl. Garde
+EVENT_DUNGEON_DESTINYLIGHT_DESC3,Bekämpfen der Korruption
+EVENT_DUNGEON_DESTINYLIGHT_DESC4,Maske und Meditation
+EVENT_DUNGEON_DESTINYLIGHT_DESC5,Heimweh
+DESTINYLIGHT_EVENT_SPECIAL_DUNGEON_SUB_TITLE1,Licht des Schicksals Spezial-Dungeon I
+DESTINYLIGHT_EVENT_SPECIAL_DUNGEON_SUB_TITLE2,Licht des Schicksals Spezial-Dungeon II
+DESTINYLIGHT_EVENT_SPECIAL_DUNGEON_SUB_TITLE3,Licht des Schicksals Spezial-Dungeon III
+TOOLTIP_INFO_NAME_EVENT_DESTINYLIGHT_THREAD,Glückssträhne
+TOOLTIP_INFO_NAME_NAME_DESTINYLIGHT_PIRCEOFCLOTH,Glückslappen
+TOOLTIP_INFO_NAME_TEXT_DESTINYLIGHT_PIRCEOFCLOTH,"Du kannst ihn erhalten, nachdem du Wohin das Licht des Schicksals uns führt-Dungeon erfolgreich beendet hast. Dieser kann beim Kauf von Artikel im Event-Shop verwendet werden."
+SHOP_NAME_2019_DESTINYLIGHT_SHOP,Event Spezial-Shop
 EVENT_REWARD_GET_NOTICE_MESSAGE,Du musst zuerst die vorherige Belohnung abholen.
+DESTINYLIGHT_EVENT_SPECIAL_DUNGEON_DESC1_1,"Die Gegner haben starke Heilungseffekte! Verwende Heilungsrate-Reduktionseffekte, um die gegn. Heilung zu stoppen! Demia kann weit entfernte Gegner zu sich ziehen, daher musst du Acht geben!"
+DESTINYLIGHT_EVENT_SPECIAL_DUNGEON_DESC2_1,Chrishas Farben des Lichts verfügen über verschiedene Effekte! Daher musst du gut auf ihre Skills kontern!\n[Rotes Licht] – Erhöht Chrisha-ANG enorm.\n[Blaues Licht] – Erhöht Chrisha-VERT ernorm.\n[Grünes Licht] – Chrisha entfernt kontinuierlich Negative Effekte.
+DESTINYLIGHT_EVENT_SPECIAL_DUNGEON_DESC3_1,"Schreckensbringer haben einen starken Schutzschild, der eine gewisse Menge an Schaden verhindert! Zusätzlich zerstören mächtige dunkle Kugeln alle Feinde auf einmal, also nutze deine Massenkontrolle, um sie zu neutralisieren!"
 GUILD_ARENA_MEMBER_DEFENCE_TEAM,Gildenmitglied VERT-Team
 PAYSHOP_PREPURCHASE_HALLOWEEN_2019_ARTIFACT,Bonus für den 5. Kauf: Böse Geister im Kürbiskopf
 GUILD_ARENA_MY_DEFENCE_TEAM,Mein VERT-Team

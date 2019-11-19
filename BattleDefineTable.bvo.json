@@ -991,5 +991,21 @@
       "Lose"
     ],
     "BattleMenu": "SystemButtonAuto, TimeStatus, HeroParty, DamageMeter, Hud, BoosterStatus, Chat, SystemButton, Retry"
+  },
+  {
+    "Code": "DestinyLight",
+    "MaxTime": 60,
+    "AutoPlayStarCount": 99,
+    "AutoRepeatStarCount": 99,
+    "ApplyLevelPenalty": "FALSE",
+    "DenyRaidInvite": "TRUE",
+    "DenyDuel": "TRUE",
+    "HPPercent": "TRUE",
+    "DamageMeterFlag": "ShowAllPlayer",
+    "RetryCondition": [
+      "Win",
+      "Lose"
+    ],
+    "BattleMenu": "TimeStatus, HeroParty, DamageMeter, Hud, BoosterStatus, Chat, SystemButton, Retry"
   }
 ]
