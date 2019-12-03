@@ -5475,6 +5475,81 @@
     ]
   },
   {
+    "HeroIndex": 72,
+    "BaseSpeak": [
+      "INN_PANCIRONNE_INNIDLE01"
+    ],
+    "Action1": "Greeting",
+    "ActionResponse1": [
+      "INN_PANCIRONNE_GREETING01",
+      "InnReaction.Pancironne01",
+      " InnReaction"
+    ],
+    "Action2": "Conversation",
+    "ActionResponse2": [
+      "INN_PANCIRONNE_CONVERSATION01",
+      "InnReaction.Pancironne01",
+      " InnReaction",
+      "\nINN_PANCIRONNE_CONVERSATION02",
+      "InnReaction.Pancironne01",
+      " InnReaction",
+      "\nINN_PANCIRONNE_CONVERSATION03",
+      "InnReaction.Pancironne01",
+      " InnReaction"
+    ],
+    "Action3": "Gift",
+    "ActionResponse3": [
+      "INN_PANCIRONNE_GIFT01",
+      "InnReaction.Pancironne01",
+      " InnReaction"
+    ],
+    "Action4": "Closeness_Greeting",
+    "ActionResponse4": [
+      "INN_PANCIRONNE_GREETING02",
+      "InnReaction.Pancironne01",
+      " InnReaction"
+    ],
+    "Action5": "Closeness_Conversation",
+    "ActionResponse5": [
+      "INN_PANCIRONNE_CONVERSATION04",
+      "InnReaction.Pancironne01",
+      " InnReaction",
+      "\nINN_PANCIRONNE_CONVERSATION05",
+      "InnReaction.Pancironne01",
+      " InnReaction"
+    ],
+    "Action6": "Closeness_Gift",
+    "ActionResponse6": [
+      "INN_PANCIRONNE_GIFT02",
+      "InnReaction.Pancironne01",
+      " InnReaction"
+    ],
+    "Action1_MAX": "Greeting_Max",
+    "Response1_MAX": [
+      "INN_PANCIRONNE_CONNECT_GREETING_MAX",
+      " InnReaction.Pancironne01",
+      " InnReaction"
+    ],
+    "MaxAction1": "Connect_Talk_1",
+    "MaxResponse1": [
+      "INN_PANCIRONNE_CONNECT_CONVERSATION01",
+      " InnReaction.Pancironne01",
+      " InnReaction"
+    ],
+    "MaxAction2": "Connect_Talk_2",
+    "MaxResponse2": [
+      "INN_PANCIRONNE_CONNECT_CONVERSATION02",
+      " InnReaction.Pancironne01",
+      " InnReaction"
+    ],
+    "MaxAction3": "Connect_Talk_3",
+    "MaxResponse3": [
+      "INN_PANCIRONNE_CONNECT_CONVERSATION03",
+      " InnReaction.Pancironne01",
+      " InnReaction"
+    ]
+  },
+  {
     "HeroIndex": 71,
     "BaseSpeak": [
       "INN_KIRZE_INNIDLE01"

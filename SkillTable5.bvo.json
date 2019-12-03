@@ -27849,5 +27849,209 @@
     "OperationValue1": [
       "2000"
     ]
+  },
+  {
+    "Index": 5006054,
+    "TriggerType": "OnHpRatio",
+    "TriggerValue": [
+      "0",
+      "500",
+      "905"
+    ],
+    "TriggerRatio": 1000,
+    "TriggerFlag": [
+      "CancelUsingSkill"
+    ],
+    "CoolTimeMs": 1800000,
+    "AttrType": "None",
+    "ClearStateType": [
+      "CC"
+    ],
+    "IgnoreStateType": [
+      "CC"
+    ],
+    "TargetType": "Myself",
+    "TargetCount": 1,
+    "DeadTarget": "FALSE",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "FALSE",
+    "OperationType1": "RaiseEventTrigger",
+    "OperationTargetType1": "Myself",
+    "OperationValue1": [
+      "EventTrigger",
+      "1306"
+    ],
+    "OperationConditionType1": "None"
+  },
+  {
+    "Index": 5006055,
+    "TriggerType": "OnHpRatio",
+    "TriggerValue": [
+      "0",
+      "300",
+      "405"
+    ],
+    "TriggerRatio": 1000,
+    "TriggerFlag": [
+      "CancelUsingSkill"
+    ],
+    "CoolTimeMs": 1800000,
+    "AttrType": "None",
+    "ClearStateType": [
+      "CC"
+    ],
+    "IgnoreStateType": [
+      "CC"
+    ],
+    "TargetType": "Myself",
+    "TargetCount": 1,
+    "DeadTarget": "FALSE",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "FALSE",
+    "OperationType1": "RaiseEventTrigger",
+    "OperationTargetType1": "Myself",
+    "OperationValue1": [
+      "EventTrigger",
+      "1307"
+    ],
+    "OperationConditionType1": "None"
+  },
+  {
+    "Index": 5006056,
+    "TriggerType": "OnHpRatio",
+    "TriggerValue": [
+      "0",
+      "0",
+      "205"
+    ],
+    "TriggerRatio": 1000,
+    "TriggerFlag": [
+      "CancelUsingSkill"
+    ],
+    "CoolTimeMs": 1800000,
+    "AttrType": "None",
+    "ClearStateType": [
+      "CC"
+    ],
+    "IgnoreStateType": [
+      "CC"
+    ],
+    "TargetType": "Myself",
+    "TargetCount": 1,
+    "DeadTarget": "FALSE",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "FALSE",
+    "OperationType1": "RaiseEventTrigger",
+    "OperationTargetType1": "Myself",
+    "OperationValue1": [
+      "EventTrigger",
+      "1308"
+    ],
+    "OperationConditionType1": "None"
+  },
+  {
+    "Index": 5006057,
+    "TriggerType": "OnHpRatio",
+    "TriggerValue": [
+      "0",
+      "300",
+      "605"
+    ],
+    "TriggerRatio": 1000,
+    "TriggerFlag": [
+      "CancelUsingSkill"
+    ],
+    "CoolTimeMs": 1800000,
+    "AttrType": "None",
+    "ClearStateType": [
+      "CC"
+    ],
+    "IgnoreStateType": [
+      "CC"
+    ],
+    "TargetType": "Myself",
+    "TargetCount": 1,
+    "DeadTarget": "FALSE",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "FALSE",
+    "OperationType1": "RaiseEventTrigger",
+    "OperationTargetType1": "Myself",
+    "OperationValue1": [
+      "EventTrigger",
+      "1313"
+    ],
+    "OperationConditionType1": "None"
+  },
+  {
+    "Index": 5006058,
+    "TriggerType": "OnHpRatio",
+    "TriggerValue": [
+      "0",
+      "0",
+      "205"
+    ],
+    "TriggerRatio": 1000,
+    "TriggerFlag": [
+      "CancelUsingSkill"
+    ],
+    "CoolTimeMs": 1800000,
+    "AttrType": "None",
+    "ClearStateType": [
+      "CC"
+    ],
+    "IgnoreStateType": [
+      "CC"
+    ],
+    "TargetType": "Myself",
+    "TargetCount": 1,
+    "DeadTarget": "FALSE",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "FALSE",
+    "OperationType1": "RaiseEventTrigger",
+    "OperationTargetType1": "Myself",
+    "OperationValue1": [
+      "EventTrigger",
+      "1314"
+    ],
+    "OperationConditionType1": "None"
+  },
+  {
+    "Index": 5006069,
+    "TriggerType": "OnWaveStart",
+    "TriggerRatio": 1000,
+    "CoolTimeMs": 1800000,
+    "AttrType": "None",
+    "ClearStateType": [
+      "CC"
+    ],
+    "IgnoreStateType": [
+      "CC"
+    ],
+    "TargetType": "Enemy",
+    "TargetCount": 1,
+    "DeadTarget": "False",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "False",
+    "OperationType1": "ModAntiCcChance",
+    "OperationTargetType1": "Target",
+    "OperationValue1": [
+      "900"
+    ],
+    "OperationState1": "Pancironne_AntiCC",
+    "OperationDurationMs1": 999999,
+    "OperationType2": "ModRecoverPower",
+    "OperationTargetType2": "Target",
+    "OperationValue2": [
+      "-500"
+    ],
+    "OperationState2": "Pancironne_Recover",
+    "OperationDurationMs2": 999999,
+    "OperationType3": "ModCcTimeR",
+    "OperationTargetType3": "Target",
+    "OperationValue3": [
+      "-500"
+    ],
+    "OperationState3": "Pancironne_Cctime",
+    "OperationDurationMs3": 9999999
   }
 ]

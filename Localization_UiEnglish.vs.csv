@@ -2553,7 +2553,7 @@ TOOLTIP_INFO_EVENT_REMIND1_TITLE,Christmas Dungeon and Ornament
 TOOLTIP_INFO_EVENT_REMIND2_TITLE,Christmas Tree Level and Progress
 TOOLTIP_INFO_EVENT_REMIND4_TITLE,Note
 TOOLTIP_INFO_EVENT_REMIND1,"By using Santa Cookie, you can enter the Christmas Event Dungeon. After completing all Story Modes of event dungeons, you can enter Special Dungeon by consuming stamina. \nEach dungeon drops Christmas Ornaments that can be used for decorating the Christmas Tree. \nYou can increase the Ornament Progress by using ornament items on the Christmas Tree."
-TOOLTIP_INFO_EVENT_REMIND2,"If the Christmas Tree Ornament Progress reaches the max limit, the Tree Level will increase.\nYou can aim for the next level's reward if you make a certain amount of progress.\nThe rewards vary according to each Tree Level. If you reach the max Tree Level, you can obtain Santa Support Boxes repeatedly."
+TOOLTIP_INFO_EVENT_REMIND2,"If the Christmas Tree Ornament Progress reaches the max limit, the Tree Level will increase.\nYou can aim for the next level's reward if you make a certain amount of progress.\nThe rewards vary according to each Tree Level. If you reach the max Tree Level, you can obtain Tree of Holy Night Boxes repeatedly."
 TOOLTIP_INFO_EVENT_REMIND4,Christmas Tree Level will reset once every 2 weeks. Don't forget to claim your rewards before it's reset!
 TOOLTIP_INFO_EVENT_REWARD_LIST,"You can increase Tree Level by decorating the tree with items acquired from the Event dungeon. For each Christmas Tree Level, you can obtain the following reward(s):"
 EVENTCHRISTMAS.TITLE_REWARD_EVENT_ITEM_LEVEL,Lv. {1}
@@ -3919,6 +3919,7 @@ COSTUME_GROUP_SPORTSWARE1,Sportswear
 COSTUME_GROUP_CASAULFASHION1,Casual Fashion
 COSTUME_GROUP_CASUALFASHION1,Casual Fashion
 COSTUME_GROUP_HEROICCAREER1,Uniform
+COSTUME_GROUP_FESTIVENOELS,Christmas 3
 UI_SELECT_HERO_NONE,No heroes are available to select.
 UI_SELECT_COSTUME_NONE,No costumes are available to select.
 FILTER_SELECT.FILTER_SELECT_PART,View by Part
@@ -4097,7 +4098,7 @@ RESULT_TYPE_EQUIP_CHEST_FULL,Your Storage Box is full.
 RESULT_TYPE_EQUIP_EXPEND_CHEST_FULL,Please expand the Storage Box.
 RESULT_TYPE_EQUIP_EXPEND_CHEST_FULL2,Please organize the Storage Box.
 EQUIP_ASK_EXTEND_MESSAGE_CHEST,Do you want to add {1} slots to your Storage Box?
-EQUIP_ASK_EXTEND_MESSAGE_CHEST2,(Storage Box: {1} / {2} )
+EQUIP_ASK_EXTEND_MESSAGE_CHEST2,[ Storage Box Slot: {1} / {2} ]
 INVENTORY.INVENTORY_ADD_CHEST_SLOT,Storage Box expanded by {1} slots.
 EQUIP_CHEST_ALL,All
 INVENTORY.INVENTORY_SET_CHEST,Item has been moved to the Storage Box.
@@ -5595,37 +5596,31 @@ TOOLTIP_INFO_NAME_EVENT_DESTINYLIGHT_THREAD,Threads of Fate
 TOOLTIP_INFO_NAME_NAME_DESTINYLIGHT_PIRCEOFCLOTH,Cloth of Fate
 TOOLTIP_INFO_NAME_TEXT_DESTINYLIGHT_PIRCEOFCLOTH,An item obtained by clearing the Where the Light of Fate Shines Dungeon. It is used to purchase items from the event shop.
 SHOP_NAME_2019_DESTINYLIGHT_SHOP,Event Special Shop
-EVENT_REWARD_GET_NOTICE_MESSAGE,Please claim the rewards from the previous level first.
 DESTINYLIGHT_EVENT_SPECIAL_DUNGEON_DESC1_1,"The enemies have powerful healing effects! Try using Heal Rate Reduction effects to prevent the enemies from healing themselves! Be careful, Demia draws in far away enemies from time to time!"
 DESTINYLIGHT_EVENT_SPECIAL_DUNGEON_DESC2_1,Each color of light that Chrisha owns has different effects depending on the color! You must quickly respond to her Skill usage!\n[Red Light] – Greatly increases Chrisha's ATK.\n[Blue Light] – Greatly increases Chrisha's DEF.\n[Green Light] – Chrisha constantly dispels negative effects.
 DESTINYLIGHT_EVENT_SPECIAL_DUNGEON_DESC3_1,"Dread Bringer has a powerful shield that nullifies DMG for a certain number of times! Moreover, the devastating Dark Orb can destroy all enemies at once! Use CC effects to neutralize it!"
-GUILD_ARENA_MEMBER_DEFENCE_TEAM,Guild Member’s Defense Team
-EVENT_1000DAYS_TICKET,Festival Firecracker
-EVENT_DUNGEON_DESC_STORY_1000DAYS,This is an Event Story Dungeon.\nYou can enjoy the story of the festival.
-TOOLTIP_INFO_NAME_EVENT_CAKE_1000DAYS,Festival Cake
-TOOLTIP_INFO_NAME_EVENT_BALLOON_1000DAYS,Festival Balloon
-PAYSHOP_PREPURCHASE_HALLOWEEN_2019_ARTIFACT,Provided upon 5th Purchase: ‘Pumpkin-Stuck Evil Spirit’
-TOOLTIP_INFO_DESC_EVENT_CAKE_1000DAYS,"An item obtained by clearing the 1,000 Days Anniversary Story Dungeon. It is used to buy event items from the 1,000 Days Anniversary Shop."
-GUILD_ARENA_MY_DEFENCE_TEAM,My Defense Team
-TOOLTIP_INFO_DESC_EVENT_BALLOON_1000DAYS,"An item obtained by clearing the 1,000 Days Anniversary Special Dungeon. It is used to buy event items from the 1,000 Days Anniversary Shop."
-EVENT_INFO_1000DAYS,Festival Guide
-EVENT_DUNGEON_DESC_SPECIAL_1000DAYS,"After completing all the stories,\nplease be ready to greet a very special guest on 12th November!"
-HERO_PROFILE,Profile
-SUBSTORY_SUB_BUTTON_NAME,View Birthday
-EVENT_DUNGEON_1000DAYS_NAME1,"Thank You All For 1,000 Days"
-19HALLOWEEN_EVENT_SPECIAL_DUNGEON_DESC1_1,Getting hit by Mediana's Water Cannon makes it hard to move forward! Try to counter it so that you do not get pushed away.
-EVENT_NAME_1000DAYS,"1,000 Days Anniversary Festival Dungeon"
-19HALLOWEEN_EVENT_SPECIAL_DUNGEON_DESC2_1,Yuria disables her enemy by wrapping them with her clothing! Remove it quickly and evade Yuria’s powerful attacks.
-19HALLOWEEN_EVENT_SPECIAL_DUNGEON_DESC3_1,Allies within Bernheim’s range will be exposed to his attacks! Try attacking Bernheim from afar.
-19HALLOWEEN_EVENT_SPECIAL_DUNGEON_DESC4_1,"While in her Siege Mode, Kara will continuously attack her enemies. Focus your attacks on the Siege Mode Kara of the 3 Karas and take her down quickly!"
-19HALLOWEEN_EVENT_SPECIAL_DUNGEON_SUB_TITLE1,Halloween Special Dungeon 1
-1000DAYS_EVENT_NAME,"1,000 Days Anniversary Festival"
-SHOP_NAME_1000DAYS_SHOP,"1,000 Days Anniversary Festival Shop"
-19HALLOWEEN_EVENT_SPECIAL_DUNGEON_SUB_TITLE2,Halloween Special Dungeon 2
-EVENT_DESC_1000DAYS,"- 1,000 Days Anniversary Festival Dungeon\nClear the Story Dungeon to obtain a Cake,\nand clear the Special Dungeon to obtain a Balloon.\n\n- Special Thanks From the NPCs\nGo and talk to the 7 NPCs of Orvel\n(Gladi, May, Veronica, Loman, Nicky, Juno, and Jin).\nThey have prepared a special word of thanks and a gift for you."
-19HALLOWEEN_EVENT_SPECIAL_DUNGEON_SUB_TITLE3,Halloween Special Dungeon 3
-19HALLOWEEN_EVENT_SPECIAL_DUNGEON_SUB_TITLE4,Halloween Special Dungeon 4
-EVENT_DUNGEON_1000DAYS_NAME2,10 Days of Gratitude
-SELECT_ITEM_OPTION_SORT,Sort Option
-EVENT_DUNGEON_1000DAYS_NAME3,100 Days of Delight
-EVENT_DUNGEON_1000DAYS_NAME4,"1,000 Days of Exhilaration"
+EQUIP_INVENTORY_EXPAND_COST1,Expansion costs 250 Rubies up to 800 slots.
+EQUIP_INVENTORY_EXPAND_COST2,Expansion costs 500 Rubies after 800 slots.
+EQUIP_INVENTORY_EXPAND_LINK,Go Purchase [Expansion Ticket]
+NODE_HERODUNGEON_NAME,Hero Special Dungeon
+EVENT_NAME_HERODUNGEON_PANCIRONNE,Episode: Pansirone
+HERO_DUNGEON_CONDITION,Must own Pansirone.\nUnlocks upon clearing the previous stage.
+EVENT_INFO_HERODUNGEON,Hero Special Dungeon Guide
+EVENT_INFO_NAME_HERODUNGEON_PANCIRONNE,Hero Special Dungeon: Pansirone
+EVENT_INFO_DESC_HERODUNGEON_PANCIRONNE,"The Hero Special Dungeon is an Event Dungeon where you can obtain more rewards if you own and progress the Hero of the Dungeon.\n\nUpon the first entry, you will receive 5 ‘Specialized Shovels’ as entry tickets. 1 Specialized Shovel will be recharged every day once you have consumed all of them.\nStarting from the 2nd dungeon, you must own ‘Pansirone’ to enter.\n\nGive items you obtained from the dungeon to Pansirone as a gift to receive various rewards.\nYou do not have to own Pansirone to Present.\n\nRecruit Pansirone to check out the special episode and obtain various rewards!"
+EVENT_HERODUNGEON_TICKET,Specialized Shovel
+EVENT_HERODUNGEON_PANCIRONNE_NAME1,Artifact Excavation Site
+EVENT_HERODUNGEON_PANCIRONNE_DESC1,Problematic Superior
+EVENT_HERODUNGEON_PANCIRONNE_NAME2,Dangerous Nuisance
+EVENT_HERODUNGEON_PANCIRONNE_DESC2,A Pity to Waste
+EVENT_HERODUNGEON_PANCIRONNE_NAME3,"Two Birds, One Stone"
+EVENT_HERODUNGEON_PANCIRONNE_DESC3,Not Interested!
+EVENT_HERODUNGEON_PANCIRONNE_NAME4,The Only One
+EVENT_HERODUNGEON_PANCIRONNE_DESC4,One Who Can Reach
+EVENT_HERODUNGEON_PANCIRONNE_NAME5,Excavation Report
+EVENT_HERODUNGEON_PANCIRONNE_DESC5,Realization
+EVENT_SERIA_FIGURE_PACKAGE_TITLE,Seria Package
+EVENT_SERIA_FIGURE_PACKAGE_CONTENT,Thank you for purchasing the Seria Package.
+SHOP_TAB_DAILY,Subscriptions
+NEWBIE_REWARD_MAIL_TITLE,Merry Christmas! Christmas Gift (New Players Only)
+NEWBIE_REWARD_MAIL_CONTENT,"To everyone who's new to King's Raid, we're offering a [5 Star Hero Ticket].\nUse the 5 Star Hero Ticket from the Consumables tab of your Inventory to obtain your favorite Hero.\nHope you enjoy playing King's Raid!\n\n※ This mail will be deleted on Tuesday 23:59, 31st December."

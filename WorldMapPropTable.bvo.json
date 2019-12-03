@@ -664,19 +664,6 @@
   },
   {
     "ChapterIndex": 99,
-    "PositionX": -990,
-    "PositionY": -90,
-    "Scale": 140,
-    "PropType": "Effect",
-    "PropName": "UI.EventPopup",
-    "ConditionType": "BonusEvent",
-    "ConditionArgs": [
-      "EventShop",
-      "ChristmasShop"
-    ]
-  },
-  {
-    "ChapterIndex": 99,
     "PositionX": 517,
     "PositionY": -507,
     "Scale": 140,
@@ -686,27 +673,6 @@
     "ConditionArgs": [
       "EventShop",
       "2019_CookingLord_Shop"
-    ]
-  },
-  {
-    "ChapterIndex": 99,
-    "PositionX": 176,
-    "PositionY": 93,
-    "Scale": 100,
-    "PropType": "Prefab",
-    "PropName": "DefaultLabel_1",
-    "PropAction": [
-      "SetText",
-      "LabelName",
-      "0",
-      "SQUARE_NAME_NORMAL_SUB",
-      "30",
-      "000000"
-    ],
-    "ConditionType": "BonusEvent",
-    "ConditionArgs": [
-      "EventShop",
-      "ChristmasShop"
     ]
   },
   {
@@ -827,6 +793,73 @@
     "ConditionArgs": [
       "EventShop",
       "2019_DestinyLight_Shop"
+    ]
+  },
+  {
+    "ChapterIndex": 99,
+    "PositionX": -225,
+    "PositionY": -395,
+    "Scale": 140,
+    "PropType": "Effect",
+    "PropName": "UI.EventPopupFire",
+    "ConditionType": "BonusEvent",
+    "ConditionArgs": [
+      "EventShop",
+      "HeroDungeon_Pancironne_Shop",
+      "EventHeroDungeonTicket"
+    ]
+  },
+  {
+    "ChapterIndex": 99,
+    "PositionX": -225,
+    "PositionY": -395,
+    "Scale": 140,
+    "PropType": "Effect",
+    "PropName": "UI.EventPopup3",
+    "ConditionType": "BonusEvent",
+    "ConditionArgs": [
+      "EventShop",
+      "HeroDungeon_Pancironne_Shop"
+    ]
+  },
+  {
+    "ChapterIndex": 99,
+    "PositionX": -232,
+    "PositionY": -719,
+    "Scale": 120,
+    "PropType": "Effect",
+    "PropName": "UI.Node.HeroDungeon",
+    "ConditionType": "BonusEvent",
+    "ConditionArgs": [
+      "EventShop",
+      "HeroDungeon_Pancironne_Shop"
+    ]
+  },
+  {
+    "ChapterIndex": 99,
+    "PositionX": 500,
+    "PositionY": -507,
+    "Scale": 140,
+    "PropType": "Effect",
+    "PropName": "UI.EventPopupFire",
+    "ConditionType": "BonusEvent",
+    "ConditionArgs": [
+      "EventShop",
+      "ChristmasShop",
+      "EventDungeonTicket"
+    ]
+  },
+  {
+    "ChapterIndex": 99,
+    "PositionX": 500,
+    "PositionY": -507,
+    "Scale": 140,
+    "PropType": "Effect",
+    "PropName": "UI.EventPopup3",
+    "ConditionType": "BonusEvent",
+    "ConditionArgs": [
+      "EventShop",
+      "ChristmasShop"
     ]
   },
   {

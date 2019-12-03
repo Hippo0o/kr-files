@@ -592,7 +592,7 @@ HERO_CLASS_BUFF,Held der Unterstützung
 HERO_CLASS_BUFF_DESCRIPTION,Verstärkt und hilft Verbündete.
 HERO_CLASS_DEBUFF,Held der Störung
 HERO_CLASS_DEBUFF_DESCRIPTION,Schwächt und behindert Feinde.
-HERO_TRIAL_STEP,Prüfung Stufe {1}
+HERO_TRIAL_STEP,Prüfung Phase {1}
 HERO_CUR_PURIFY_DESC,Reinige die versiegelte Dunkelheit... [FFFF00]{1} %[-] abgeschlossen.
 HERO_DOING_MERCENARY,Söldnermission
 HERO_DOING_EXPEDITION,Suchmission
@@ -1693,8 +1693,8 @@ ITEM.NOT_LOCK,Sperren
 HERO_FLASK.FLASK_EQUIP_COMPLETE,Flasche wurde {1} angelegt.
 HERO_FLASK.FLASK_UNEQUIP_COMPLETE,Flasche wurde entfernt.
 ITEM.EXPPOTION_DESELECT_POTION_MESSAGE,Dieser Held hat bereits eine Flasche angelegt.
-ITEM_USE.USE_STAMINA_ITEM_CONFIRM,Möchtest du {2}x {1} benutzen? \nInsgesamt {3}x {4} werden aufgeladen.
-ITEM_USE.USE_RUBYFLASK_ITEM_CONFIRM,Möchtest du {2}x {1} benutzen?\nDu erhältst {3}x {4}.
+ITEM_USE.USE_STAMINA_ITEM_CONFIRM,Möchtest du {2}x {1} benutzen? \nInsgesamt {4}x {3} werden aufgeladen.
+ITEM_USE.USE_RUBYFLASK_ITEM_CONFIRM,Möchtest du {2}x {1} benutzen?\nDu erhältst {4}x {3}.
 BATTLE.REPEAT_BATTLE_ASK_TITLE,Wiederholen
 BATTLE.REPEAT_BATTLE_ASK_CONTENT,Kampf wiederholen?
 BATTLE.REPEAT_BATTLE_SINGLETIME,Wiederholen
@@ -2002,7 +2002,7 @@ COMMON.ASCENDING_ORDER,Aufsteigend
 COMMON.DESCENDING_ORDER,Absteigend
 RAID.FILTER_RAID_LEVEL_ALL,Alle Levels
 RAID.FILTER_RAID_LEVEL_RANGE,Level {1}
-RAID.FILTER_RAID_GRADE_ALL,Alle Stufe
+RAID.FILTER_RAID_GRADE_ALL,Alle Phasen
 RAID.FILTER_RAID_GRADE_RANGE,T{1}
 RAID_SETTING,Einst. ändern
 RAID_ROOM_LIST_RESET_TIMER,Nach {1}Sek.\nerneuern
@@ -2491,18 +2491,18 @@ HALLOWEEN_DUNGEON_CONDITION,Freischaltung erfolgt nach Abschluss des vorherigen 
 SHOP_NAME_HALLOWEENSHOP,Halloween-Shop
 MENU_USE_SHOP_HALLOWEEN,Halloween-Shop
 PURCHASE_LIMIT,Einkaufslimit
-EVENT_DUNGEON_HALLOWEEN_NAME1,Halloween-Dungeon Lv. 1
-EVENT_DUNGEON_HALLOWEEN_NAME2,Halloween-Dungeon Lv. 2
-EVENT_DUNGEON_HALLOWEEN_NAME3,Halloween-Dungeon Lv. 3
-EVENT_DUNGEON_HALLOWEEN_NAME4,Halloween-Dungeon Lv. 4
-EVENT_DUNGEON_HALLOWEEN_NAME5,Halloween-Dungeon Lv. 5
-EVENT_DUNGEON_HALLOWEEN_NAME6,Halloween-Dungeon Lv. 6
-EVENT_DUNGEON_HALLOWEEN_BOSS1_TITLE,Halloween-Dungeon Lv. 1
-EVENT_DUNGEON_HALLOWEEN_BOSS2_TITLE,Halloween-Dungeon Lv. 2
-EVENT_DUNGEON_HALLOWEEN_BOSS3_TITLE,Halloween-Dungeon Lv. 3
-EVENT_DUNGEON_HALLOWEEN_BOSS4_TITLE,Halloween-Dungeon Lv. 4
-EVENT_DUNGEON_HALLOWEEN_BOSS5_TITLE,Halloween-Dungeon Lv. 5
-EVENT_DUNGEON_HALLOWEEN_BOSS6_TITLE,Halloween-Dungeon Lv. 6
+EVENT_DUNGEON_HALLOWEEN_NAME1,Halloween-Dungeon Phase 1
+EVENT_DUNGEON_HALLOWEEN_NAME2,Halloween-Dungeon Phase 2
+EVENT_DUNGEON_HALLOWEEN_NAME3,Halloween-Dungeon Phase 3
+EVENT_DUNGEON_HALLOWEEN_NAME4,Halloween-Dungeon Phase 4
+EVENT_DUNGEON_HALLOWEEN_NAME5,Halloween-Dungeon Phase 5
+EVENT_DUNGEON_HALLOWEEN_NAME6,Halloween-Dungeon Phase 6
+EVENT_DUNGEON_HALLOWEEN_BOSS1_TITLE,Halloween-Dungeon Phase 1
+EVENT_DUNGEON_HALLOWEEN_BOSS2_TITLE,Halloween-Dungeon Phase 2
+EVENT_DUNGEON_HALLOWEEN_BOSS3_TITLE,Halloween-Dungeon Phase 3
+EVENT_DUNGEON_HALLOWEEN_BOSS4_TITLE,Halloween-Dungeon Phase 4
+EVENT_DUNGEON_HALLOWEEN_BOSS5_TITLE,Halloween-Dungeon Phase 5
+EVENT_DUNGEON_HALLOWEEN_BOSS6_TITLE,Halloween-Dungeon Phase 6
 HALLOWEEN_SHOP_CONDITION,Nicht genug Halloween-Punkte.
 HALLOWEEN_MONSTER_ID,Halloween-Geist
 SHOP_NAME_THANKSGIVINGSHOP,Thanksgiving-Shop
@@ -2553,7 +2553,7 @@ TOOLTIP_INFO_EVENT_REMIND1_TITLE,Weihnachtsdungeon und Schmuck
 TOOLTIP_INFO_EVENT_REMIND2_TITLE,Über das Level und den Fortschritt des Weihnachtsbaums
 TOOLTIP_INFO_EVENT_REMIND4_TITLE,Hinweis
 TOOLTIP_INFO_EVENT_REMIND1,"Du kannst Weihnachtsmannkekse verwenden, um den Weihnachtseventdungeon zu betreten. Sobald du die Geschichte des Event-Dungeons abgeschlossen hast, kannst du Ausdauer verwenden, um den Spezialdungeon zu betreten. \nEs gibt in jedem Dungeon Baumschmuck, mit dem du deinen Weihnachtsbaum dekorieren kannst. \nHänge den Schmuck aus dem Weihnachtsdungeon auf deinen Weihnachtsbaum, um den Schmuckfortschritt voranzutreiben."
-TOOLTIP_INFO_EVENT_REMIND2,"Du kannst das Level deines Weihnachtsbaums erhöhen, indem du den Schmuckfortschritt maximierst.\nSobald du einen bestimmten Fortschritt erreicht hast, kannst du dich der Herausforderung für die Belohnungen des nächsten Levels stellen.\nDie Belohnungen hängen vom Level des Baums ab und wenn der Baum das Max. Lv. erreicht hat, kannst du Weihnachtsmann-Unterstützungskisten erhalten."
+TOOLTIP_INFO_EVENT_REMIND2,"Du kannst das Level deines Weihnachtsbaums erhöhen, indem du den Schmuckfortschritt maximierst.\nSobald du einen bestimmten Fortschritt erreicht hast, kannst du dich der Herausforderung für die Belohnungen des nächsten Levels stellen.\nDie Belohnungen hängen vom Level des Baums ab und wenn der Baum das Max. Lv. erreicht hat, kannst du Heiliger Weihnachtsbaum-Kisten erhalten."
 TOOLTIP_INFO_EVENT_REMIND4,"Das Weihnachtsbaumlevel wird einmal alle 2 Wochen zurückgesetzt. Vergiss nicht, deine Belohnungen vor der Zurücksetzung abzuholen!"
 TOOLTIP_INFO_EVENT_REWARD_LIST,"Du kannst das Baumlevel erhöhen, indem du Gegenständen aus dem Event-Dungeon als Dekoration benutzt. Für jedes Weihnachtsbaumlevel kannst du folgende(n) Belohnung(en) erhalten:"
 EVENTCHRISTMAS.TITLE_REWARD_EVENT_ITEM_LEVEL,Lv. {1}
@@ -2670,7 +2670,7 @@ EVENT_BOSS_KILL_TITLE,Mondhase LuLu-Tötungsbelohnung
 EVENT_BOSS_KILL_DESC,"Belohnungen werden an jene vergeben, die dabei geholfen haben, Mondhase LuLu zu töten."
 Event_WORLDBOSS2_TITLE,Mondhase
 WORLDBOSS_NAME_3,LuLu
-EVENTBOSS.EVENT_BOSS_OPEN_STEP,Stufe {1}
+EVENTBOSS.EVENT_BOSS_OPEN_STEP,Phase {1}
 EVENT_WORLDBOSS_2018_CRISTMAS_MISSION_REWARD_TITLE,Event-Missionsbelohnungen
 EVENT_WORLDBOSS_2018_CRISTMAS_MISSION_REWARD_DESC,"Durch die Event-Missionen kannst du täglich zusätzliche Belohnungen erhalten. Je mehr Schaden du dem Einsamen König zufügst, desto mehr Belohnungen kannst du erhalten."
 EVENT_WORLDBOSS_2018_CRISTMAS_INFORMATION_DESC,"1. Kampf\n\nDein Mana ist immer voll und der Cooldown deiner Skills wird alle 5 Sek. um 100 % verringert.\n\n\n2. Belohnungen\n\nDu erhältst für deine Teilnahme täglich Erinnerungsfragmente als Belohnung.\n\nAußerdem erhältst du durch die Event-Missionen zusätzliche Belohnungen, die auf dem Schaden basieren, den du dem Einsamen König zugefügt hast.\n\nJe mehr Schaden du ihm zugefügt hast, desto mehr Belohnungen bekommst du.\n\nVerwende die Erinnerungsfragmente, die du erhalten hast, um ein Zufällig Einzigartiges Schatzticket zu erhalten.\n"
@@ -3919,6 +3919,7 @@ COSTUME_GROUP_SPORTSWARE1,Sportbekleidung
 COSTUME_GROUP_CASAULFASHION1,Freizeitmode
 COSTUME_GROUP_CASUALFASHION1,Freizeitmode
 COSTUME_GROUP_HEROICCAREER1,Arbeitskleidung
+COSTUME_GROUP_FESTIVENOELS,Weihnachten III
 UI_SELECT_HERO_NONE,Es stehen keine Helden zur Auswahl.
 UI_SELECT_COSTUME_NONE,Es stehen keine Kostüme zur Auswahl.
 FILTER_SELECT.FILTER_SELECT_PART,Nach Teil sortieren
@@ -4075,9 +4076,9 @@ OPTION_GAME_PLAYGUIDE,Spielanleitung anzeigen
 TREASURE_HOUSE_TITLE,Repositorium
 GOLD_CUBE_TOOLTIP,"Erhältlich, indem du Goldene Königin-Goldstaub erwirbst"
 REPEATBATTLE_FAIL_TREASURE_HOUSE,Auto-Kampf wurde aufgrund fehlender Repositorium-Eintritte beendet.
-GOLD_CUBE_TITLE,Repositorium-Eintritte übrig:
-TREASURE_HOUSE_ENTER_COUNT,Repositorium-Eintritte übrig:
-STAMINA_TYPE.TREASURE_HOUSE_KEY,Repositorium-Eintritte übrig:
+GOLD_CUBE_TITLE,Repositorium-Eintritte
+TREASURE_HOUSE_ENTER_COUNT,Repositorium-Eintritte
+STAMINA_TYPE.TREASURE_HOUSE_KEY,Repositorium-Eintritte
 OPEN_TREASURE_HOUSE,Das Repositorium wurde geöffnet!
 RECOMMEND_PARTY_DECK,Abschlussgr.
 RECOMMEND_PARTY_DECK_DESC,Wähle einen Helden für mehr Informationen aus.
@@ -4097,7 +4098,7 @@ RESULT_TYPE_EQUIP_CHEST_FULL,Deine Aufbewahrungsbox ist voll.
 RESULT_TYPE_EQUIP_EXPEND_CHEST_FULL,Bitte erweitere die Aufbewahrungsbox.
 RESULT_TYPE_EQUIP_EXPEND_CHEST_FULL2,Bitte ordne die Aufbewahrungsbox.
 EQUIP_ASK_EXTEND_MESSAGE_CHEST,Willst du deine Aufbewahrungsbox um {1} Fächer erweitern?
-EQUIP_ASK_EXTEND_MESSAGE_CHEST2,(Aufbewahrungsbox: {1} / {2})
+EQUIP_ASK_EXTEND_MESSAGE_CHEST2,(Aufbewahrungs-Fächer: {1} / {2})
 INVENTORY.INVENTORY_ADD_CHEST_SLOT,Aufbewahrungsbox um {1} Fächer erweitert.
 EQUIP_CHEST_ALL,Alle
 INVENTORY.INVENTORY_SET_CHEST,Der Gegenstand wurde in die Aufbewahrungsbox verschoben.
@@ -5595,21 +5596,31 @@ TOOLTIP_INFO_NAME_EVENT_DESTINYLIGHT_THREAD,Glückssträhne
 TOOLTIP_INFO_NAME_NAME_DESTINYLIGHT_PIRCEOFCLOTH,Glückslappen
 TOOLTIP_INFO_NAME_TEXT_DESTINYLIGHT_PIRCEOFCLOTH,"Du kannst ihn erhalten, nachdem du Wohin das Licht des Schicksals uns führt-Dungeon erfolgreich beendet hast. Dieser kann beim Kauf von Artikel im Event-Shop verwendet werden."
 SHOP_NAME_2019_DESTINYLIGHT_SHOP,Event Spezial-Shop
-EVENT_REWARD_GET_NOTICE_MESSAGE,Du musst zuerst die vorherige Belohnung abholen.
 DESTINYLIGHT_EVENT_SPECIAL_DUNGEON_DESC1_1,"Die Gegner haben starke Heilungseffekte! Verwende Heilungsrate-Reduktionseffekte, um die gegn. Heilung zu stoppen! Demia kann weit entfernte Gegner zu sich ziehen, daher musst du Acht geben!"
 DESTINYLIGHT_EVENT_SPECIAL_DUNGEON_DESC2_1,Chrishas Farben des Lichts verfügen über verschiedene Effekte! Daher musst du gut auf ihre Skills kontern!\n[Rotes Licht] – Erhöht Chrisha-ANG enorm.\n[Blaues Licht] – Erhöht Chrisha-VERT ernorm.\n[Grünes Licht] – Chrisha entfernt kontinuierlich Negative Effekte.
 DESTINYLIGHT_EVENT_SPECIAL_DUNGEON_DESC3_1,"Schreckensbringer haben einen starken Schutzschild, der eine gewisse Menge an Schaden verhindert! Zusätzlich zerstören mächtige dunkle Kugeln alle Feinde auf einmal, also nutze deine Massenkontrolle, um sie zu neutralisieren!"
-GUILD_ARENA_MEMBER_DEFENCE_TEAM,Gildenmitglied VERT-Team
-PAYSHOP_PREPURCHASE_HALLOWEEN_2019_ARTIFACT,Bonus für den 5. Kauf: Böse Geister im Kürbiskopf
-GUILD_ARENA_MY_DEFENCE_TEAM,Mein VERT-Team
-HERO_PROFILE,Profil
-SUBSTORY_SUB_BUTTON_NAME,Geburtstag anschauen
-19HALLOWEEN_EVENT_SPECIAL_DUNGEON_DESC1_1,"Wenn du von Medianas Wasserpistole getroffen wirst, wird es schwierig, vorwärts zu kommen! Lass dich nicht vom Weg bringen."
-19HALLOWEEN_EVENT_SPECIAL_DUNGEON_DESC2_1,Yuria wickelt ihre Feinde in ihren Kleidern und macht sie hilflos! Löse dich schnell los und weiche Yurias starken Angriffen aus!
-19HALLOWEEN_EVENT_SPECIAL_DUNGEON_DESC3_1,Verbündete in Bernheims ANG-Reichweite sind in Gefahr! Greife aus weiter Entfernung an.
-19HALLOWEEN_EVENT_SPECIAL_DUNGEON_DESC4_1,"Kara im Belagerungsmodus greift ihre Gegner dauerhaft an. Unter den drei ist die Kara mit der Belagerungswaffe am schwächsten, also greife sie durchgehend an und entscheide den Kampf für dich!"
-19HALLOWEEN_EVENT_SPECIAL_DUNGEON_SUB_TITLE1,Halloween Spezial-Dungeon I
-19HALLOWEEN_EVENT_SPECIAL_DUNGEON_SUB_TITLE2,Halloween Spezial-Dungeon II
-19HALLOWEEN_EVENT_SPECIAL_DUNGEON_SUB_TITLE3,Halloween Spezial-Dungeon III
-19HALLOWEEN_EVENT_SPECIAL_DUNGEON_SUB_TITLE4,Halloween Spezial-Dungeon IV
-SELECT_ITEM_OPTION_SORT,Optionen sortieren
+EQUIP_INVENTORY_EXPAND_COST1,250 Rubine werden für weniger als 800 Fächer verbraucht.
+EQUIP_INVENTORY_EXPAND_COST2,500 Rubine werden für mehr als 800 Fächer verbraucht.
+EQUIP_INVENTORY_EXPAND_LINK,Zum [Erweiterungsticket]
+NODE_HERODUNGEON_NAME,Helden Spezial-Dungeon
+EVENT_NAME_HERODUNGEON_PANCIRONNE,Episode - Pansirone
+HERO_DUNGEON_CONDITION,"Wird freigeschaltet, wenn du Pansirone besitzt\nund die vorherige Phase abgeschlossen hast."
+EVENT_INFO_HERODUNGEON,Helden Spezial-Dungeon Hinweis
+EVENT_INFO_NAME_HERODUNGEON_PANCIRONNE,Helden Spezial-Dungeon - Pansirone
+EVENT_INFO_DESC_HERODUNGEON_PANCIRONNE,"Der Helden Spezial-Dungeon ist ein Event-Dungeon, in dem du den Helden im Besitz auf ein höheres Level bringst und dafür Belohnungen erhältst.\n\nBeim ersten Eingang in den Dungeon erhältst du 5x Arbeitsschaufel und wenn du alle verbraucht hast,\nwird jeden Tag eine Neue aufgeladen.\nAb dem 2. Dungeon musst du Pansirone besitzen, um den Dungeon zu betreten.\n\nDie Gegenstände, die du im Dungeon erhältst, kannst du Pansirone schenken\nund dabei verschiedene Belohnungen erhalten.\nDafür musst du Pansirone nicht im Besitz haben.\n\nHol dir jedoch Pansirone, um die Spezial-Episode freizuschalten und mehr Belohnungen zu erhalten!"
+EVENT_HERODUNGEON_TICKET,Arbeitsschaufel
+EVENT_HERODUNGEON_PANCIRONNE_NAME1,Artefakt Ausgrabungsstätte
+EVENT_HERODUNGEON_PANCIRONNE_DESC1,Problemreiche Vorgesetzte
+EVENT_HERODUNGEON_PANCIRONNE_NAME2,Gefährlicher Störenfried
+EVENT_HERODUNGEON_PANCIRONNE_DESC2,Schätzendes Talent
+EVENT_HERODUNGEON_PANCIRONNE_NAME3,Zwei Fliegen mit einer Klappe schlagen
+EVENT_HERODUNGEON_PANCIRONNE_DESC3,Kein Interesse!
+EVENT_HERODUNGEON_PANCIRONNE_NAME4,"Etwas, das nur du tun kannst."
+EVENT_HERODUNGEON_PANCIRONNE_DESC4,"Jemand, den ich berühren kann."
+EVENT_HERODUNGEON_PANCIRONNE_NAME5,Auf den Ausgrabungsbericht warten.
+EVENT_HERODUNGEON_PANCIRONNE_DESC5,Ich habe es begriffen.
+EVENT_SERIA_FIGURE_PACKAGE_TITLE,Seria Paket
+EVENT_SERIA_FIGURE_PACKAGE_CONTENT,"Vielen Dank, dass du dich für die Seria-Figur entschieden hast."
+SHOP_TAB_DAILY,Abo
+NEWBIE_REWARD_MAIL_TITLE,Frohe Weihnachten! Limitiertes Wiehnachtsgeschenk für Neuspieler
+NEWBIE_REWARD_MAIL_CONTENT,Die Neuspieler von King’s Raid erwartet ein [5★ Heldenticket] als Willkommensgeschenk.\nGeh zum Inventar unter ‘Verbrauch’ und verwende dieses Ticket für einen beliebigen Helden.\nViel Spaß beim Spielen.\n\n※ Diese Nachricht wird am 31. Dez. 23:59 Uhr gelöscht.

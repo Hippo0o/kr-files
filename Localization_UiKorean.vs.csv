@@ -2553,7 +2553,7 @@ TOOLTIP_INFO_EVENT_REMIND1_TITLE,크리스마스 던전과 장식에 대하여
 TOOLTIP_INFO_EVENT_REMIND2_TITLE,크리스마스 트리 레벨과 진척도에 대하여
 TOOLTIP_INFO_EVENT_REMIND4_TITLE,주의사항
 TOOLTIP_INFO_EVENT_REMIND1,"산타 쿠키를 사용하여 크리스마스 이벤트 던전에 입장 할 수 있습니다. 이벤트 던전의 스토리 모드를 모두 클리어하면 스태미나를 소모하여 스페셜 던전에 입장 할 수 있습니다. \n각 던전에서는 크리스마스 트리를 장식할 수 있는 트리 장식을 획득 할 수 있습니다. \n크리스마스 던전에서 획득한 장식 아이템을 크리스마스 트리에 사용하면, 장식 진척도가 올라갑니다."
-TOOLTIP_INFO_EVENT_REMIND2,"크리스마스 트리의 진척도를 만점까지 달성하면 트리의 레벨이 한단계 상승합니다.\n일정수치 이상의 진척도를 달성하면 다음 단계 보상에 도전할 수 있습니다.\n트리의 레벨 별로 획득 할 수 있는 보상이 다르며, 마지막 레벨에 도달한 경우 산타 응원 상자를 반복하여 획득 할 수 있습니다."
+TOOLTIP_INFO_EVENT_REMIND2,"크리스마스 트리의 진척도를 만점까지 달성하면 트리의 레벨이 한단계 상승합니다.\n일정수치 이상의 진척도를 달성하면 다음 단계 보상에 도전할 수 있습니다.\n트리의 레벨 별로 획득 할 수 있는 보상이 다르며, 마지막 레벨에 도달한 경우 성야의 트리 상자를 반복하여 획득 할 수 있습니다."
 TOOLTIP_INFO_EVENT_REMIND4,크리스마스 트리의 레벨은 2주에 한 번씩 초기화 되니 잊지 말고 꼭 보상을 수령해주세요!
 TOOLTIP_INFO_EVENT_REWARD_LIST,이벤트 던전에서 획득한 아이템을 장식하여 트리 레벨을 올릴 수 있습니다. 크리스마스 트리의 레벨 별로 다음과 같은 보상을 얻습니다.
 EVENTCHRISTMAS.TITLE_REWARD_EVENT_ITEM_LEVEL,Lv. {1}
@@ -3919,6 +3919,7 @@ COSTUME_GROUP_SPORTSWARE1,스포츠웨어
 COSTUME_GROUP_CASAULFASHION1,캐쥬얼패션
 COSTUME_GROUP_CASUALFASHION1,캐쥬얼패션
 COSTUME_GROUP_HEROICCAREER1,직업복
+COSTUME_GROUP_FESTIVENOELS,크리스마스3
 UI_SELECT_HERO_NONE,선택할 수 있는 영웅이 없습니다.
 UI_SELECT_COSTUME_NONE,선택할 수 있는 코스튬이 없습니다.
 FILTER_SELECT.FILTER_SELECT_PART,부위별로 보기
@@ -4097,7 +4098,7 @@ RESULT_TYPE_EQUIP_CHEST_FULL,보관함이 가득 찼습니다.
 RESULT_TYPE_EQUIP_EXPEND_CHEST_FULL,보관함을 확장해주세요.
 RESULT_TYPE_EQUIP_EXPEND_CHEST_FULL2,보관함을 정리해주세요.
 EQUIP_ASK_EXTEND_MESSAGE_CHEST,보관함을 {1}칸 확장하겠습니까?
-EQUIP_ASK_EXTEND_MESSAGE_CHEST2,(현재 보관함 : {1} / {2} )
+EQUIP_ASK_EXTEND_MESSAGE_CHEST2,[ 보관함 슬롯 : {1} / {2} ]
 INVENTORY.INVENTORY_ADD_CHEST_SLOT,보관함의 슬롯이 {1}칸 확장 되었습니다.
 EQUIP_CHEST_ALL,전체
 INVENTORY.INVENTORY_SET_CHEST,아이템을 보관함으로 이동하였습니다.
@@ -5598,3 +5599,28 @@ SHOP_NAME_2019_DESTINYLIGHT_SHOP,이벤트 특별상점
 DESTINYLIGHT_EVENT_SPECIAL_DUNGEON_DESC1_1,적들은 강력한 회복효과를 가지고 있어요! 회복력 감소 효과를 활용하여 적의 회복을 차단해야 해요! 데미아는 일정 시간마다 멀리 떨어진 적을 끌어오기 때문에 주의하세요!
 DESTINYLIGHT_EVENT_SPECIAL_DUNGEON_DESC2_1,크리샤가 보유하고 있는 빛의 색마다 다른 효과가 있어요! 크리샤의 스킬사용에 맞춰 빠르게 대응해야해요!\n[붉은 빛] – 크리샤의 공격력이 대폭 증가합니다.\n[푸른 빛] – 크리샤의 방어력이 대폭 증가합니다.\n[초록 빛] - 크리샤가 해로운 효과를 지속적으로 해제합니다.
 DESTINYLIGHT_EVENT_SPECIAL_DUNGEON_DESC3_1,드레드 브링어는 강력한 보호막을 보유하고 있어 일정 횟수의 피해를 무효화해요! 게다가 강력한 암흑구체는 한번에 모든 적들을 파괴한다고 하니 상태이상을 활용하여 무력화 시키세요!
+EQUIP_INVENTORY_EXPAND_COST1,800칸 미만은 소모되는 루비가 250 입니다.
+EQUIP_INVENTORY_EXPAND_COST2,800칸 부터는 소모되는 루비가 500으로 증가합니다.
+EQUIP_INVENTORY_EXPAND_LINK,[확장권] 바로가기
+NODE_HERODUNGEON_NAME,영웅 특별 던전
+EVENT_NAME_HERODUNGEON_PANCIRONNE,에피소드 - 판시로네
+HERO_DUNGEON_CONDITION,"영웅 판시로네 보유,\n앞 단계 클리어 시 개방"
+EVENT_INFO_HERODUNGEON,영웅 특별 던전 안내
+EVENT_INFO_NAME_HERODUNGEON_PANCIRONNE,영웅 특별 던전 – 판시로네
+EVENT_INFO_DESC_HERODUNGEON_PANCIRONNE,"영웅 특별 던전은 해당 영웅을 보유하고 성장시킬수록 더 많은 보상을 획득할 수 있는 이벤트 던전입니다.\n\n최초 입장 시 입장 재화 '작업용 삽'을 5개 획득하며, 모두 소모 시 매일 1개씩 충전됩니다.\n두번째 던전부터는 영웅 '판시로네'를 보유하여야 입장할 수 있습니다.\n\n던전에서 획득한 아이템을 판시로네에게 선물하여 다양한 보상을 얻을 수 있으며,\n선물하기는 판시로네를 보유하지 않아도 가능합니다.\n\n판시로네를 영입하여 특별한 에피소드를 확인하고 다양한 보상을 획득해보세요!"
+EVENT_HERODUNGEON_TICKET,작업용 삽
+EVENT_HERODUNGEON_PANCIRONNE_NAME1,유물 발굴 현장
+EVENT_HERODUNGEON_PANCIRONNE_DESC1,문제 많은 상관
+EVENT_HERODUNGEON_PANCIRONNE_NAME2,위험한 골칫덩이
+EVENT_HERODUNGEON_PANCIRONNE_DESC2,아까운 인재
+EVENT_HERODUNGEON_PANCIRONNE_NAME3,일석이조
+EVENT_HERODUNGEON_PANCIRONNE_DESC3,관심없다구!
+EVENT_HERODUNGEON_PANCIRONNE_NAME4,너만이 할 수 있는 일
+EVENT_HERODUNGEON_PANCIRONNE_DESC4,닿을 수 있는 자
+EVENT_HERODUNGEON_PANCIRONNE_NAME5,발굴 결과 보고
+EVENT_HERODUNGEON_PANCIRONNE_DESC5,깨달음
+EVENT_SERIA_FIGURE_PACKAGE_TITLE,세리아 패키지
+EVENT_SERIA_FIGURE_PACKAGE_CONTENT,세리아 피규어를 구매해 주셔서 감사합니다.
+SHOP_TAB_DAILY,정액제
+NEWBIE_REWARD_MAIL_TITLE,메리크리스마스! 신규 유저 한정 크리스마스 선물
+NEWBIE_REWARD_MAIL_CONTENT,"킹스레이드를 새롭게 시작해 주시는\n여러분에게 [5성 영웅 선택권]을 선물해 드립니다.\n가방의 소모품 탭을 통해, 5성 영웅 선택권을 사용하여\n여러분이 좋아하는 영웅을 선택해주세요.\n즐거운 킹스레이드 되시기 바랍니다.\n\n※ 이 메일은 12/31(화) 23:59에 삭제됩니다."

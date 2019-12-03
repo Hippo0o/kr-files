@@ -407,6 +407,7 @@ SKILL_DESC_91007012,[Hors de mon chemin !] Réduit le coût en mana de 1 et la
 SKILL_DESC_91007013,[Hors de mon chemin !] Réduit le coût en mana de 1 et la cible touchée reçoit 17 % de DEG P supplémentaires pendant 10 sec.
 SKILL_DESC_91007014,[Hors de mon chemin !] Réduit le coût en mana de 1 et la cible touchée reçoit 21 % de DEG P supplémentaires pendant 10 sec.
 SKILL_DESC_91007015,[Hors de mon chemin !] Réduit le coût en mana de 1 et la cible touchée reçoit 25 % de DEG P supplémentaires pendant 10 sec.
+SKILL_DESC_91007210,"[Un cadeau pour toi !] Réduit le coût en PM de 1.\n[Voilà, MEURS !] Augmente les DEG infligés de {1}%."
 SKILL_DESC_91007310,[Je vais te pulvériser !] Confère l'immunité contre les contrôles pendant la durée de la compétence et restaure 200 points de mana à chaque coup.
 SKILL_DESC_91007311,[Je vais te pulvériser !] Confère l'immunité contre les contrôles pendant la durée de la compétence et restaure 240 points de mana à chaque coup.
 SKILL_DESC_91007312,[Je vais te pulvériser !] Confère l'immunité contre les contrôles pendant la durée de la compétence et restaure 290 points de mana à chaque coup.
@@ -875,6 +876,7 @@ SKILL_DESC_91007032,"[WA-TAAAAAH !] Augmente les DEG infligés aux boss de 5,8�
 SKILL_DESC_91007033,[WA-TAAAAAH !] Augmente les DEG infligés aux boss de 7 % à chaque utilisation. Cet effet peut se cumuler 10 fois. Réduit le Coût en mana de [Mouvement spécial. Coup de pied météore !] de 1.
 SKILL_DESC_91007034,"[WA-TAAAAAH !] Augmente les DEG infligés aux boss de 8,4 % à chaque utilisation. Cet effet peut se cumuler 10 fois. Réduit le Coût en mana de [Mouvement spécial. Coup de pied météore !] de 1."
 SKILL_DESC_91007035,[WA-TAAAAAH !] Augmente les DEG infligés aux boss de 10 % à chaque utilisation. Cet effet peut se cumuler 10 fois. Réduit le Coût en mana de [Mouvement spécial. Coup de pied météore !] de 1.
+SKILL_DESC_91007230,"[Ne t'enfuis pas !] Augmente les DEG infligés de 50% et à chaque coup porté, augmente les DEG Crit de {2}% pendant {1} sec. Cet effet peut se cumuler jusqu'à {3} fois."
 SKILL_DESC_91007330,"[Brûle, lance de fureur] Réduit le coût en mana de 1 point et augmente les DEG de 20 %."
 SKILL_DESC_91007331,"[Brûle, lance de fureur] Réduit le coût en mana de 1 point et augmente les DEG de 24 %."
 SKILL_DESC_91007332,"[Brûle, lance de fureur] Réduit le coût en mana de 1 point et augmente les DEG de 29 %."
@@ -1343,6 +1345,7 @@ SKILL_DESC_91007022,[Potentiel infini] Dissipe les effets négatifs sur le lance
 SKILL_DESC_91007023,[Potentiel infini] Dissipe les effets négatifs sur le lanceur et augmente les DEG de 35 %.
 SKILL_DESC_91007024,[Potentiel infini] Dissipe les effets négatifs sur le lanceur et augmente les DEG de 42 %.
 SKILL_DESC_91007025,[Potentiel infini] Dissipe les effets négatifs sur le lanceur et augmente les DEG de 50 %.
+SKILL_DESC_91007220,"[Ah ! Grisant ! Excitant !!] Lors de l'utilisation de la compétence, dissipe les effets négatifs sur le Héros et l'immunise contre les Contrôles pendant {1} sec."
 SKILL_DESC_91007320,"[Dépassement de limite] Pendant la durée de la compétence, inflige des DEG P de 40 % de l'ATQ toutes les secondes aux ennemis proches et augmente la Récupération de 30 %."
 SKILL_DESC_91007321,"[Dépassement de limite] Pendant la durée de la compétence, inflige des DEG P de 48 % de l'ATQ toutes les secondes aux ennemis proches et augmente la Récupération de 30 %."
 SKILL_DESC_91007322,"[Dépassement de limite] Pendant la durée de la compétence, inflige des DEG P de 58 % de l'ATQ toutes les secondes aux ennemis proches et augmente la Récupération de 30 %."
@@ -1811,6 +1814,7 @@ SKILL_DESC_91007042,"[Talent inné] Au début de chaque bataille, inflige 14 % 
 SKILL_DESC_91007043,"[Talent inné] Au début de chaque bataille, inflige 17 % de DEG supplémentaires aux ennemis non-héros et réduit les DEG reçus de 25 % pendant 20 sec."
 SKILL_DESC_91007044,"[Talent inné] Au début de chaque bataille, inflige 21 % de DEG supplémentaires aux ennemis non-héros et réduit les DEG reçus de 25 % pendant 20 sec."
 SKILL_DESC_91007045,"[Talent inné] Au début de chaque bataille, inflige 25 % de DEG supplémentaires aux ennemis non-héros et réduit les DEG reçus de 25 % pendant 20 sec."
+SKILL_DESC_91007240,[Joie sadique] Augmente les DEG Crit de {1}% et réduit le temps de recharge de toutes les compétences du Héros de {2} sec.
 SKILL_DESC_91007340,[N'oublie pas ça en enfer] Augmente la durée de résurrection de 1 sec et accorde l'immunité contre les contrôles pendant 1 sec lors d'une résurrection.
 SKILL_DESC_91007341,"[N'oublie pas ça en enfer] Augmente la durée de résurrection de 1 sec et accorde l'immunité contre les contrôles pendant 1,5 sec lors d'une résurrection."
 SKILL_DESC_91007342,[N'oublie pas ça en enfer] Augmente la durée de résurrection de 1 sec et accorde l'immunité contre les contrôles pendant 2 sec lors d'une résurrection.
@@ -1885,39 +1889,33 @@ SKILL_DESC_93000302,Augmente les DEG infligés de {1}% et chaque charge cumulée
 SKILL_DESC_93000400,"Invoque l'âme de Redeal, le Souffle du Spectre, pendant [64ffff]{1}[-] sec, ce qui augmente les DEG Crit de [64ff64]{2}[-]%. L'âme de Redeal inflige [ffc800]{3}[-] DEG supplémentaires chaque fois que Roi utilise la compétence de GriffeLame."
 SKILL_DESC_93000401,Réduit le temps de recharge de {1} sec.
 SKILL_DESC_93000402,Cumule {1} charge de Saignement à l'ennemi touché.
-SKILL_DESC_93000500,
-SKILL_DESC_93000501,
-SKILL_DESC_93000502,
-SKILL_DESC_93000510,
-SKILL_DESC_93000600,
-SKILL_DESC_93000601,
-SKILL_DESC_93000602,
-SKILL_DESC_93000610,
-SKILL_DESC_93000700,
-SKILL_DESC_93000701,
-SKILL_DESC_93000702,
-SKILL_DESC_93000710,
-SKILL_DESC_93000800,
-SKILL_DESC_93000801,
-SKILL_DESC_93000802,
-SKILL_DESC_93000810,
+SKILL_DESC_93000500,"Invoque l'âme de Numinu, l'Oiseau sacré, ce qui augmente le taux d'ATQ du Héros de [64ff64]{2}[-]% pendant [64ffff]{1}[-] sec. Lors de l'activation, invoque à l'avant Tempête de Numinu pendant [64ffff]{3}[-] sec, pour infliger aux ennemis à portée [ffc800]{5}[-] DEG P toutes les [64ffff]{4}[-] sec et réduit la Vitesse d'ATQ de la cible de [ff6464]{7}[-] pendant [64ffff]{6}[-] sec. L'effet de la réduction de la Vitesse d'ATQ peut se cumuler jusqu'à [64ffff]{8}[-] fois. Augmente les DEG P reçus par l'ennemi avec [64ffff]{8}[-] effets cumulés, de [ff6464]{10}[-]% et lui applique l'effet Gel, pendant [64ffff]{9}[-] sec."
+SKILL_DESC_93000501,Augmente la durée de l'invocation de l'âme et de Tempête de Numinu de {1} sec.
+SKILL_DESC_93000502,Modifie l'augmentation des DEG P reçus à {1}% et dissipe les effets positifs sur l'ennemi à chaque coup porté.
+SKILL_DESC_93000600,"Invoque l'âme d'Atein, les Ruines du Dragon pendant [64ffff]{1}[-] sec, ce qui augmente la DEF du Héros de [64ff64]{2}[-]% et lors des attaques automatiques, inflige des DEG P supplémentaires à la hauteur de [ffc800]{3}[-]% de ses PV max pendant la durée de l'invocation. Renforce également ses compétences. \n[Collision] Inflige [ffc800]{4}[-] DEG P supplémentaires à la cible et augmente les DEG P reçus par la cible de [ff6464]{6}[-]% pendant [64ffff]{5}[-] sec.\n[Coup de Tête] Inflige des DEG P supplémentaires à la hauteur de [ffc800]{7}[-]% de ses PV max.\n[Incarnation Terrestre] Récupère [ffc800]{8}[-]% de ses PV max lors de son activation."
+SKILL_DESC_93000601,Augmente la durée de l'invocation de l'âme de {1} sec.
+SKILL_DESC_93000602,"Pendant la durée de l'invocation, modifie les DEG P supplémentaires infligés proportionnellement aux PV max du Héros à {1}% et augmente la réduction de la DEF P de {2}%."
+SKILL_DESC_93000700,"Invoque l'âme de MK-1 de Lakrak, ce qui augmente son taux d'ATQ de [64ff64]{2}[-]% pendant [64ffff]{1}[-] sec. Toutes les [64ffff]{3}[-] sec, attaque une cible aléatoire et les ennemis à portée de la cible à [64ffff]{4}[-] reprises, pour leur infliger un total de [ffc800]{5}[-] DEG P. Ensuite, les étourdit pendant [64ffff]{6}[-] sec et augmente les DEG P reçus de [ff6464]{8}[-]% pendant [64ffff]{7}[-] sec."
+SKILL_DESC_93000701,Réduit la condition d'utilisation de {1} sec et confère une immunité aux Contrôles pendant {2} sec.
+SKILL_DESC_93000702,"Réduit la condition d'utilisation de {1} sec supplémentaires et réduit le temps de recharge de toutes les compétences de {3} sec, toutes les {2} sec."
+SKILL_DESC_93000800,"Invoque l'âme de Coventina, le Vent bleu, ce qui restaure [ffc800]{1}[-] PM de tous les alliés. Ensuite, pendant [64ffff]{2}[-] sec, réduit la récupération de PV de tous les ennemis de [ff6464]{3}[-]% et augmente les DEG M reçus de [ff6464]{4}[-]%. Toutes les [64ffff]{5}[-] sec, inflige une attaque d'éclair à un ennemi aléatoire, ce qui dissipe les effets positifs sur la cible et lui inflige [ffc800]{6}[-] DEG M. Réduit également [ff6464]{7}[-] PM. [64ffff]{8}[-] sec plus tard, inflige [ffc800]{9}[-] DEG M à tous les ennemis et les étourdit pendant [64ffff]{10}[-] sec."
+SKILL_DESC_93000801,Modifie la réduction de la récupération de PV à {1}% et l'augmentation des DEG M reçus à {2}%.
+SKILL_DESC_93000802,"Pendant la durée de l'invocation, augmente la Pénétration DEF de tous les alliés de {1}."
 SKILL_DESC_93000900,"Invoque l'âme de Guillotine fascinante, ce qui augmente le taux d'ATQ du Héros de [64ff64]{2}[-]% pendant [64ffff]{1}[-] sec. Pendant la durée de l'invocation, avec une probabilité de [64ffff]{3}[-]%, les attaques automatiques et celles de compétences infligent [ffc800]{4}[-] DEG M à l'ennemi, ignorant la DEF de la cible. Cet effet s'active avec une probabilité de 100% lors des DEG infligés avec la compétence [Souffle absorbant]."
 SKILL_DESC_93000901,Modifie la probabilité d'activation à {1}% et augmente les DEG de {2}%.
 SKILL_DESC_93000902,"Ajoute l'effet d'ignorer le Blocage aux DEG M, et augmente les DEG M reçus par l'ennemi touché de {2}% pendant {1} sec."
-SKILL_DESC_93001000,
-SKILL_DESC_93001001,
-SKILL_DESC_93001002,
-SKILL_DESC_93001010,
+SKILL_DESC_93001000,"Invoque l'âme de Notos, le Vent vert, ce qui augmente le taux d'ATQ du Héros de [64ff64]{2}[-]% et ses DEG Crit de [64ff64]{3}[-]% pendant [64ffff]{1}[-] sec. Pendant la durée de l'invocation, inflige [ffc800]{5}[-] DEG P ignorant la DEF à la cible ennemie toutes les [64ffff]{4}[-] sec et la projette pendant [64ffff]{6}[-] sec. Ensuite, réduit immédiatement le temps de recharge de toutes les compétences du Héros de [64ffff]{7}[-] sec."
+SKILL_DESC_93001001,Augmente les DEG infligés de {1}% et récupère {2} PM à chaque attaque portée sur les ennemis par l'âme.
+SKILL_DESC_93001002,Augmente les DEG infligés de {1}% et réduit la condition d'utilisation à {2}.
 SKILL_DESC_93001100,"Invoque l'âme de Cocytus, le Messager de Lea, ce qui inflige [ffc800]{1}[-] DEG M aux ennemis en face en ligne droite et les projette au loin pendant [64ffff]{2}[-] sec. Ceci leur inflige l'état de 'Calamité du Corbeau' pendant [64ffff]{3}[-] sec. Le taux d'ATQ de la cible à l'état de 'Calamité du Corbeau' est réduit de [ff6464]{4}[-]%."
 SKILL_DESC_93001101,Réduit la récupération des PV de la cible à l'état de Calamité du Corbeau de {1}%.
 SKILL_DESC_93001102,La condition d'utilisation passe à {1} fois.
 SKILL_DESC_93001200,"Invoque l'âme de Leviathan, l'Arme ultime, ce qui augmente le taux d'ATQ du Héros de [64ff64]{2}[-]% pendant [64ffff]{1}[-] sec et inflige [ffc800]{4}[-] DEG P à tous les ennemis toutes les [64ffff]{3}[-] sec. Chaque coup porté augmente les DEG P reçus par l'ennemi de [ff6464]{6}[-]% pendant [64ffff]{5}[-] sec."
 SKILL_DESC_93001201,Augmente le taux d'augmentation des DEG P reçus par l'ennemi de {1}% supplémentaires.
 SKILL_DESC_93001202,Réduit le temps de recharge de {1} sec.
-SKILL_DESC_93001300,
-SKILL_DESC_93001301,
-SKILL_DESC_93001302,
-SKILL_DESC_93001310,
+SKILL_DESC_93001300,"Invoque l'âme de Roburu, la Volonté de l'Arbre-Monde pendant [64ffff]{1}[-] sec, ce qui inflige [ffc800]{3}[-] DEG M à un ennemi aléatoire toutes les [64ffff]{2}[-] sec. Augmente les DEG M reçus par la cible de [ff6464]{5}[-]% pendant [64ffff]{4}[-] sec et l'entrave pendant [64ffff]{6}[-] sec. Récupère [64ffff]{8}[-] PM du Héros toutes les [64ffff]{7}[-] sec et réduit le temps de recharge de toutes ses compétences de [64ffff]{9}[-] sec."
+SKILL_DESC_93001301,Augmente son taux d'ATQ de {1}% pendant la durée de l'invocation de l'âme.
+SKILL_DESC_93001302,"Pendant la durée de l'invocation de l'âme, augmente la durée des Contrôles sur tous les ennemis de {1}% et réduit leurs DEF M de {2}%."
 SKILL_DESC_93001400,
 SKILL_DESC_93001401,
 SKILL_DESC_93001402,
@@ -1934,14 +1932,12 @@ SKILL_DESC_93001702,Augmente le taux d'ATQ de {1}% pendant la durée de l'invoca
 SKILL_DESC_93001800,"Invoque l'âme de Livatis, la Foudre, ce qui augmente le taux d'ATQ du Héros de [64ff64]{2}[-]% pendant [64ffff]{1}[-] sec. Augmente les DEG infligés par la compétence Vol du Papillon de [64ff64]{3}[-]% pendant la durée de l'invocation."
 SKILL_DESC_93001801,Augmente la Pénétration DEF de {1} pendant la durée de l'invocation.
 SKILL_DESC_93001802,Augmente la durée de l'invocation de {1} sec et modifie l'augmentation des DEG infligés par la compétence Vol du Papillon à {2}%.
-SKILL_DESC_93001900,
-SKILL_DESC_93001901,
-SKILL_DESC_93001902,
-SKILL_DESC_93001910,
-SKILL_DESC_93002000,
-SKILL_DESC_93002001,
-SKILL_DESC_93002002,
-SKILL_DESC_93002010,
+SKILL_DESC_93001900,"Invoque l'âme d'Andarta et Andraste, les Cœurs de Dragons, ce qui augmente les DEG Crit du Héros de [64ff64]{2}[-]% pendant [64ffff]{1}[-] sec. Lors de son activation, inflige [ffc800]{3}[-] DEG M à l'ennemi en face en ligne droite et augmente des DEG M reçus par la cible de [ff6464]{5}[-]% pendant [64ffff]{4}[-] sec. Ensuite, lui applique l'effet Gel pendant [64ffff]{6}[-] sec. Chaque coup porté à l'ennemi en état de Gel inflige [ffc800]{7}[-] DEG M ignorant la DEF et restaure [64ff64]{8}[-] orbes de PM du Héros. Cela réduit également le temps de recharge de toutes ses compétences de [64ff64]{9}[-]%."
+SKILL_DESC_93001901,La condition d'utilisation passe à {1} fois.
+SKILL_DESC_93001902,Augmente les DEG infligés de {1}% et dissipe les effets positifs de l'ennemi touché.
+SKILL_DESC_93002000,"Invoque l'âme d'Arpheus de la Lumière bleue, ce qui augmente la Résistance Crit P de tous les alliés de [64ff64]{2}[-] et leur Blocage P de [64ff64]{3}[-], pendant [64ffff]{1}[-] sec. Ensuite, installe [fa96fa][Source de mana de la lumière bleue][-] autour de lui pendant [64ffff]{4}[-] sec. Pendant la durée de l'effet [fa96fa][Source de mana de la lumière bleue][-], attaque les ennemis à portée à [64ffff]{5}[-] reprises pour leur infliger un total de [ffc800]{6}[-] DEG P et réduit leurs PM de [ff6464]{7}[-]. Lorsque la durée de l'effet prend fin, la source explose pour infliger [ffc800]{8}[-] DEG P et réduit au Silence les ennemis à portée pendant [64ffff]{9}[-] sec."
+SKILL_DESC_93002001,Augmente la Vitesse d'ATQ de tous les alliés situés sur [Source de mana de la lumière bleue] de {1} et ils récupèrent {2} PM toutes les secondes.
+SKILL_DESC_93002002,Dissipe régulièrement les effets positifs sur les ennemis situés sur [Source de mana de la lumière bleue] et modifie la durée du Silence à {1} sec.
 SKILL_DESC_93002100,"Invoque l'âme de Baroro, les Griffes maudites, ce qui augmente le taux d'ATQ du Héros de [64ff64]{2}[-]% pendant [64ffff]{1}[-] sec. Pendant la durée de l'invocation, inflige aux ennemis situés en face et à portée [ffc800]{4}[-] DEG P toutes les [64ffff]{3}[-] sec et applique Malédiction de Baroro à la cible touchée pendant [64ffff]{5}[-] sec. Malédiction de Baroro augmente les DEG P reçus de [ff6464]{6}[-]%, et réduit la récupération de PV de [ff6464]{7}[-]%. Si la cible est un boss, augmente l'effet de la malédiction de [64ff64]{8}[-] fois."
 SKILL_DESC_93002101,Pétrifie l'ennemi touché pendant {1} sec.
 SKILL_DESC_93002102,Modifie la condition d'activation à {1} fois et et augmente la durée de l'invocation de l'âme de {2} sec.
@@ -1951,10 +1947,9 @@ SKILL_DESC_93002202,Augmente les DEG infligés de {1}% et immunise le Héros con
 SKILL_DESC_93002300,"Inflige [ffc800]{1}[-] DEG M dans une zone circulaire aux ennemis proches du Héros et les renverse pendant [64ffff]{2}[-] sec. Ensuite, invoque Carprain, la Flamme de Victoire, ce qui augmente son taux d'ATQ de [64ff64]{4}[-]% pendant [64ffff]{3}[-] sec."
 SKILL_DESC_93002301,Réduit les DEG reçus par tous les alliés de {1}% pendant la durée de la compétence.
 SKILL_DESC_93002302,Augmente les DEG M reçus par les ennemis à portée du Héros de {1}% pendant la durée de la compétence. Cet effet augmente de {2}% si la cible est un Boss.
-SKILL_DESC_93002400,
-SKILL_DESC_93002401,
-SKILL_DESC_93002402,
-SKILL_DESC_93002410,
+SKILL_DESC_93002400,"Invoque l'âme de Genesis, l'Ancien et le Nouveau, ce qui augmente le nombre de la cible visée par les attaques automatiques du Héros à [64ffff]{2}[-] pendant [64ffff]{1}[-] sec. Toutes les [64ffff]{3}[-] sec, restaure [ffc800]{4}[-] PV de tous les alliés et dissipe leurs effets négatifs."
+SKILL_DESC_93002401,Modifie la condition d'utilisation de l'Arme spirituelle à {1} fois.
+SKILL_DESC_93002402,"Pendant la durée de l'invocation, réduit les DEG reçus par tous les alliés de {1}% et augmente la récupération de PV de {2}%."
 SKILL_DESC_93002500,"Invoque l'âme d'Erekura, l'Esprit inchangé, pendant [64ffff]{1}[-] sec, ce qui augmente sa récupération de PV de [64ff64]{2}[-]%. De plus, augmente les DEG M reçus par 4 ennemis, choisis aléatoirement, de [ff6464]{5}[-]% pendant [64ffff]{4}[-] sec, toutes les {3} sec. Cet effet est cumulable jusqu'à {6} fois. Après {1} sec, dépense toutes les charges appliquées à la cible pour lui infliger [ffc800]{7}[-] DEG M par charge."
 SKILL_DESC_93002501,Réduit la condition d'activation à {1} fois.
 SKILL_DESC_93002502,Augmente le nombre max de charges cumulables à {1}.
@@ -1962,10 +1957,9 @@ SKILL_DESC_93002510,Elle est rechargée toutes les secondes et à chaque DEG re�
 SKILL_DESC_93002600,"Invoque l'âme de Mahitra, le Destin noble pendant {1} sec. Pendant la durée de l'invocation, augmente les DEG Crit de [64ff64]{2}[-]% et inflige aux ennemis [ffc800]{4}[-] DEG toutes les [64ffff]{3}[-] sec. Augmente également les DEG M reçus par les ennemis de [ff6464]{6}[-]% pendant [64ffff]{5}[-] sec."
 SKILL_DESC_93002601,"Pendant la durée de la compétence, restaure entièrement le mana."
 SKILL_DESC_93002602,Augmente la durée de la compétence de {1} sec et confère l'immunité aux Contrôles pendant la durée de la compétence.
-SKILL_DESC_93002700,
-SKILL_DESC_93002701,
-SKILL_DESC_93002702,
-SKILL_DESC_93002710,
+SKILL_DESC_93002700,"Invoque l'âme de Belisa, la Plume de Phénix, ce qui génère un bouclier protecteur sur l'allié à l'ATQ la plus élevée. Ce bouclier aspire [ffc800]{2}[-] DEG reçus et confère une immunité aux Contrôles pendant [64ffff]{1}[-] sec. Ceci augmente également les DEG infligés aux ennemis de [64ff64]{4}[-]% pendant [64ffff]{3}[-] sec. Ensuite, dissipe les effets positifs des ennemis situés à l'avant, en ligne droite et leur inflige [ffc800]{5}[-] DEG P."
+SKILL_DESC_93002701,Modifie la condition d'invocation à {1} utilisations de compétence.
+SKILL_DESC_93002702,Empêche l'ennemi touché de recevoir les effets positifs pendant {1} sec.
 SKILL_DESC_93002800,"Invoque l'âme de Veralta, les Épées jumelles de Fureur pendant [64ffff]{1}[-] sec, ce qui augmente les DEG infligés par les attaques automatiques de [64ff64]{2}[-]% pendant l'invocation et renforce les compétences utilisées par le Héros.\n[Lame-Tempête] Attaque la cible et ses alentours à [64ffff]3[-] reprises pour infliger un total de [ffc800]{3}[-] DEG P supplémentaires et réduit la récupération de PV de la cible touchée de [ff6464]{5}[-]% pendant [64ffff]{4}[-] sec.\n[Pas de l'Éclair] Augmente les DEG Crit du Héros de [64ff64]{7}[-]% pendant [64ffff]{6}[-] sec.\n[Pétales Sanglants] Attaque un ennemi à [64ffff]16[-] reprises pour lui infliger un total de [ffc800]{8}[-] DEG P supplémentaires.\nL'effet de marque de la compétence [Pas de l'Éclair] ne s'applique pas sur les DEG infligés par cette compétence."
 SKILL_DESC_93002801,Modifie la durée de l'invocation de l'Arme spirituelle à {1} sec.
 SKILL_DESC_93002802,"Pendant la durée de l'invocation, une attaque possède {1}% de chance de réduire le temps de recharge de toutes les compétences du Héros de {2}%."
@@ -2096,10 +2090,9 @@ SKILL_DESC_93007002,Augmente la probabilité d'activation de {1}%.
 SKILL_DESC_93007100,"Invoque l'âme d'Elicipira, la Lame de Supplice, ce qui modifie la probabilité d'activation des DEG M supplémentaires infligés par Elicipira, à [64ff64]{2}[-]%, et réduit tous les DEG reçus de [64ff64]{3}[-]%, pendant [64ffff]{1}[-] sec."
 SKILL_DESC_93007101,Augmente le taux d'ATQ de {1}% pendant la durée de l'invocation.
 SKILL_DESC_93007102,"Augmente la durée de l'effet de {1} sec et modifie la condition d'activation d'Elicipira, la Lame de Supplice, à {2}%."
-SKILL_DESC_93007200,
-SKILL_DESC_93007201,
-SKILL_DESC_93007202,
-SKILL_DESC_93007210,
+SKILL_DESC_93007200,"Invoque l'âme de Terresia, la Canicule fracassante, ce qui augmente la Vitesse d'ATQ de Pansirone de [64ff64]{2}[-] pendant [64ffff]{1}[-] sec, et attaque les ennemis situés à l'avant dans une large zone à [64ffff]3[-] reprises, pour leur infliger un total de [ffc800]{3}[-] DEG P. Au dernier coup porté, installe [fa96fa]'Caprice de Terresia'[-] à l'avant dans une large zone, pendant [64ffff]{4}[-] sec, ce qui inflige [ffc800]{6}[-] DEG P toutes les [64ffff]{5}[-] sec et augmente les DEG P reçus par les ennemis de [ff6464]{7}[-]%. Modifie l'augmentation des DEG P supplémentaires à [ff6464]{8}[-]% pour une cible touchée par Flamme perpétuelle."
+SKILL_DESC_93007201,Augmente les DEG infligés de {1}%.
+SKILL_DESC_93007202,Augmente l'effet d'augmentation de la Vitesse d'ATQ et la durée de 'Caprice de Terresia' de {1} sec.
 SKILL_DESC_93007300,"Invoque l'âme de Monolithe, le Lancier de Sang, ce qui inflige [ffc800]{1}[-] DEG P aux ennemis proches et les renverse pendant [64ffff]{2}[-] sec. Ensuite, restaure les PV du Héros à la hauteur de [64ff64]{3}[-]% de ses PV max. Augmente le taux d'ATQ de [64ff64]{5}[-]% et la récupération de PV de [64ff64]{6}[-]%, pendant [64ffff]{4}[-] sec."
 SKILL_DESC_93007301,Modifie la durée de l'effet à {1} sec.
 SKILL_DESC_93007302,"Pendant la durée de l'invocation, augmente les DEG infligés par le Héros aux ennemis de {1}%. Les attaques automatiques possèdent {2}% de chance d'étourdir la cible pendant {3} sec."
@@ -2107,9 +2100,9 @@ SKILL_DESC_93007400,
 SKILL_DESC_93007401,
 SKILL_DESC_93007402,
 SKILL_DESC_93007410,
-SKILL_DESC_93007500,
-SKILL_DESC_93007501,
-SKILL_DESC_93007502,
+SKILL_DESC_93007500,"Invoque l'âme d'Armekith, le Lac de Mémoire, ce qui provoque un déferlement de vague. Ceci inflige [ffc800]{1}[-] DEG M aux ennemis en face dans un large zone et les renverse pendant [64ffff]{2}[-] sec. Restaure également [ffc800]{3}[-] PV et [ffc800]{4}[-] orbes de PM des alliés à portée. Ensuite, absorbe l'âme d'Armekith, le Lac de Mémoire, ce qui augmente le taux d'ATQ du Héros de [64ff64]{6}[-]% pendant [64ffff]{5}[-] sec."
+SKILL_DESC_93007501,Dissipe les effets positifs sur des ennemis à portée et les effets négatifs sur des alliés.
+SKILL_DESC_93007502,Réduit la condition d'activation à {1} fois et augmente le nombre de la cible de la compétence [Que votre souffrance prenne fin !!] à {2} personnes.
 SKILL_DESC_93007510,
 SKILL_DESC_93007600,
 SKILL_DESC_93007601,
@@ -2168,16 +2161,15 @@ SKILL_DESC_93008910,
 SKILL_DESC_93009000,"Invoque l'âme d'Etelia, la Boîte de Parfum, ce qui restaure un total de [ffc800]{2}[-] PV de tous les alliés sur [64ffff]{1}[-] sec et toutes les [64ffff]{3}[-] sec, augmente le taux d'ATQ de l'allié à l'ATQ la plus élevée de [64ff64]{5}[-]% pendant [64ff64]{4}[-] sec. L'effet d'augmentation du taux d'ATQ peut se cumuler jusqu'à [64ffff]{6}[-] fois et possède {7}% de chance de se cumuler [64ffff]{8}[-] fois en une seule fois, lors de son activation."
 SKILL_DESC_93009001,Modifie le nombre maximum de l'effet cumulable à {1} fois.
 SKILL_DESC_93009002,Augmente la récupération de PV de {1}% et modifie à {3}% la chance de cumuler {2} effets en une seule fois.
-SKILL_DESC_93009100,
-SKILL_DESC_93009101,
-SKILL_DESC_93009102,
-SKILL_DESC_93009110,
+SKILL_DESC_93009100,"Invoque l'âme de Mastra, le Poing-de-Bête, ce qui inflige [ffc800]{1}[-] DEG P ignorant la DEF à l'ennemi à l'ATQ la plus élevée et augmente le taux d'ATQ du Héros de [64ff64]{3}[-]% pendant [64ffff]{2}[-] sec. Pendant la durée de l'invocation, augmente les DEG infligés par [Coup de poing ultime !] de [64ff64]{4}[-]% et lors de l'activation de la compétence [Ça va faire mal !], inflige [ffc800]{5}[-] DEG P supplémentaires ignorant la DEF à la cible."
+SKILL_DESC_93009101,"Pendant la durée de l'invocation, lors de l'utilisation de la compétence [Coup de poing ultime !], applique l'effet des DEG ignorant la DEF même à la cible qui n'est pas un boss."
+SKILL_DESC_93009102,Augmente les DEG infligés de {1}% et modifie l'augmentation des DEG infligés par la compétence [Coup de poing ultime !] à {2}%.
 SKILL_DESC_93009200,"Invoque l'âme d'Accordio, le Jalonneur infini, ce qui permet d'obtenir immédiatement [64ffff]{1}[-] charges de Savoir de la Directrice financière. Augmente les DEG Crit de l'allié à l'ATQ la plus élevée de [64ff64]{3}[-]% et ses DEG infligés aux boss de [64ff64]{4}[-]%, pendant [64ffff]{2}[-] sec."
 SKILL_DESC_93009201,Augmente la durée de l'invocation de {1} sec.
 SKILL_DESC_93009202,Augmente l'effet reçu par l'allié à l'ATQ la plus élevée de {1}%.
 SKILL_DESC_93009300,"Invoque l'âme de Gaiamenes, la Vague de Protection, ce qui inflige [ffc800]{1}[-] DEG P aux ennemis situés en face et les étourdit pendant [64ffff]{2}[-] sec. Ensuite, pendant [64ffff]{3}[-] sec, augmente le taux d'ATQ de tous les alliés de [64ff64]{4}% + à la hauteur de {5}[-]% du taux d'ATQ de Loman. Augmente également la DEF M de [64ff64]{6}[-]%. Restaure [64ff64]{8}[-] PM de tous les alliés toutes les [64ffff]{7}[-] sec."
 SKILL_DESC_93009301,"Toutes les {1}sec, restaure les PV de tous les alliés à la hauteur de {2}% de leurs PV max, et dissipe les effets négatifs."
-SKILL_DESC_93009302,"Réduit la condition d'utilisation de {1} sec et lors d'une attaque portée, augmente les DEG P reçus par la cible touchée de {3}%, pendant {2} sec."
+SKILL_DESC_93009302,"Réduit la condition d'utilisation de {1} sec et lors d'une attaque portée, augmente les DEG P reçus par la cible touchée de {2}%."
 SKILL_DESC_93009400,"Invoque l'âme de Tempora Fyrr, le Banquet aux Mille Saveurs pendant [64ffff]{1}[-] sec, ce qui permet au Héros de recevoir des effets supplémentaires selon son état.\nÀ l'état de [fa96fa][Chef du Paradis][-], augmente les DEF de tous les alliés de [64ff64]{2}% + à la hauteur de {3}[-]% du taux d'ATQ de Juno.\nÀ l'état de [fa96fa][Chef de l'Enfer][-], augmente le taux d'ATQ de tous les alliés de [64ff64]{4}% + à la hauteur de {5}[-]% du taux d'ATQ de Juno. Lorsque les charges cumulées de [Ingrédient succulent] sont plus de [64ffff]{6}[-], utilise [64ffff]{7}[-] charges lors de l'utilisation de la compétence, ce qui augmente tous les effets de [64ffff]{8}[-]% lors de l'application."
 SKILL_DESC_93009401,La condition d'utilisation passe à {1} fois.
 SKILL_DESC_93009402,"À l'état de [Chef du Paradis], réduit les DEG reçus de tous les alliés de {1}%.\nÀ l'état de [Chef de l'Enfer], augmente les DEG reçus par tous les ennemis de {2}%. Ces compétences bénéficient de l'effet d'Ingrédient succulent."
@@ -2187,10 +2179,9 @@ SKILL_DESC_93009502,Modifie le nombre maximum de Rancune de Hartnon cumulable à
 SKILL_DESC_93009600,"Invoque l'âme de Seliere, la Valeur ancestrale, ce qui augmente la chance de Blocage P de tous les alliés de [64ff64]{2}[-] pendant [64ffff]{1}[-] sec. Inflige [ffc800]{4}[-] DEG M aux ennemis proches toutes les [64ffff]{3}[-] sec et les réduit au silence pendant [64ffff]{5}[-] sec. De plus, génère un bouclier protecteur à l'allié aux PV les plus bas, ce qui absorbe les DEG reçus, à la hauteur de [64ff64]{7}[-]% du taux d'ATQ de Dosarta pendant [64ffff]{6}[-] sec. Le bouclier protecteur confère également l'immunité contre les Contrôles."
 SKILL_DESC_93009601,Augmente les DEG M reçus par les ennemis touchés de {2}% pendant {1} sec.
 SKILL_DESC_93009602,Le nombre d'alliés pouvant bénéficier du bouclier protecteur passe à {1} personnes.
-SKILL_DESC_93009700,
-SKILL_DESC_93009701,
-SKILL_DESC_93009702,
-SKILL_DESC_93009710,
+SKILL_DESC_93009700,"Invoque l'âme de HN-0, la Malice infiniment futile, ce qui augmente les DEG Crit de [64ff64]{2}[-]% pendant [64ffff]{1}[-] sec. Ensuite, applique [fa96fa]'Ordre d'Attaque'[-] à 3 reprises toutes les [64ffff]{3}[-] sec, ce qui inflige [ffc800]{4}[-] DEG P aux ennemis situés à l'avant en ligne droite et les étourdit pendant [64ffff]{5}[-] sec. Lorsque cette compétence est activée lors d'une bataille des Guildes, l'effet s'applique de manière supplémentaire et l'effet de l'augmentation des DEG Crit peut se cumuler jusqu'à [64ffff]{6}[-] fois. \n[Conquête de Guilde] - Lors de l'activation [fa96fa]'Ordre d'Attaque'[-], augmente les DEG P reçus par les ennemis de [64ff64]{7}[-]% pendant 5 sec.\n[Guerre des Guildes] - Réduit la condition d'utilisation à [64ffff]{8}[-] sec. \n[Raid de Guilde] - Lors de l'activation [fa96fa]'Ordre d'Attaque'[-], obtient [64ffff]{9}[-] balles."
+SKILL_DESC_93009701,Augmente les DEG infligés de {1}% et modifie le nombre d'effet cumulable à {2} fois.
+SKILL_DESC_93009702,Augmente les DEG infligés de {1}% et ajoute l'effet d'augmentation du taux d'ATQ de {2}% par effet cumulé.
 SKILL_DESC_93009800,"Invoque l'âme de Tyrannicus, l'Autorité du Dieu-Roi, ce qui inflige [ffc800]{1}[-] DEG P aux ennemis à portée dans une large zone et leur applique le Gel du Temps pendant [64ffff]{2}[-] sec. Ensuite, son taux d'ATQ augmente de [64ff64]{4}%[-] pendant [64ffff]{3}[-] sec. À l'état de Gel du Temps, les attaques automatiques et les compétences ne sont plus disponibles, et le temps de recharge en cours est également arrêté."
 SKILL_DESC_93009801,"Restaure, au total, [ffc800]{2}[-] PV des alliés à portée pendant {1} sec."
 SKILL_DESC_93009802,Augmente la durée de Gel du Temps de {1} sec et attire autour de lui les ennemis à portée.

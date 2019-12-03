@@ -407,6 +407,7 @@ SKILL_DESC_91007012,[Sai da Frente!] Reduz o Custo de Mana em 1 e faz o alvo ati
 SKILL_DESC_91007013,[Sai da Frente!] Reduz o Custo de Mana em 1 e faz o alvo atingido receber 17% a mais de DAN F. por 10 seg.
 SKILL_DESC_91007014,[Sai da Frente!] Reduz o Custo de Mana em 1 e faz o alvo atingido receber 21% a mais de DAN F. por 10 seg.
 SKILL_DESC_91007015,[Sai da Frente!] Reduz o Custo de Mana em 1 e faz o alvo atingido receber 25% a mais de DAN F. por 10 seg.
+SKILL_DESC_91007210,"Reduz o custo de PM de [Toma, é um presente!] em 1.\nAumenta o DANO de [Vo-cê-vai-mor-rer!] em {1}%."
 SKILL_DESC_91007310,[Vou Quebrar Você!] Concede Imunidade a CM enquanto durar a habilidade e recupera o Mana do alvo em 200 ao golpear.
 SKILL_DESC_91007311,[Vou Quebrar Você!] Concede Imunidade a CM enquanto durar a habilidade e recupera o Mana do alvo em 240 ao golpear.
 SKILL_DESC_91007312,[Vou Quebrar Você!] Concede Imunidade a CM enquanto durar a habilidade e recupera o Mana do alvo em 290 ao golpear.
@@ -875,6 +876,7 @@ SKILL_DESC_91007032,"[UA-TAAAAAH!] Aumenta o próprio DAN a Chefes em 5,8% após
 SKILL_DESC_91007033,[UA-TAAAAAH!] Aumenta o próprio DAN a Chefes em 7% após cada uso. Esse efeito pode ser acumulado no máximo 10 vezes. Reduz o Custo de Mana de [Técnica Especial. Chute Meteoro!] em 1.
 SKILL_DESC_91007034,"[UA-TAAAAAH!] Aumenta o próprio DAN a Chefes em 8,4% após cada uso. Esse efeito pode ser acumulado no máximo 10 vezes. Reduz o Custo de Mana de [Técnica Especial. Chute Meteoro!] em 1."
 SKILL_DESC_91007035,[UA-TAAAAAH!] Aumenta o próprio DAN a Chefes em 10% após cada uso. Esse efeito pode ser acumulado no máximo 10 vezes. Reduz o Custo de Mana de [Técnica Especial. Chute Meteoro!] em 1.
+SKILL_DESC_91007230,"[Nem Tente Fugir!] Aumenta o DANO em 50% e a cada DANO infligido no inimigo, aumenta o DANO CRÍT em {2}% por {1}s. Este efeito pode ser acumulado até {3}x."
 SKILL_DESC_91007330,"[Combustão, Lança da Fúria] Reduz o Custo de Mana em 1 e aumenta o DAN em 20%."
 SKILL_DESC_91007331,"[Combustão, Lança da Fúria] Reduz o Custo de Mana em 1 e aumenta o DAN em 24%."
 SKILL_DESC_91007332,"[Combustão, Lança da Fúria] Reduz o Custo de Mana em 1 e aumenta o DAN em 29%."
@@ -1343,6 +1345,7 @@ SKILL_DESC_91007022,[Potencial Infinito] Remove efeitos negativos de si e aument
 SKILL_DESC_91007023,[Potencial Infinito] Remove efeitos negativos de si e aumenta o DAN em 35%.
 SKILL_DESC_91007024,[Potencial Infinito] Remove efeitos negativos de si e aumenta o DAN em 42%.
 SKILL_DESC_91007025,[Potencial Infinito] Remove efeitos negativos de si e aumenta o DAN em 50%.
+SKILL_DESC_91007220,"[Uau! Que divertido!] Ao usar a habilidade, remove efeitos negativos aplicados sobre si e ao ativar a habilidade, torna-se imune a efeitos de status por {1}s."
 SKILL_DESC_91007320,"[Remover Limite] Enquanto a habilidade durar, concede DAN F. em 40% de ATQ por segundo nos inimigos próximos e aumenta a Recuperação em 30%."
 SKILL_DESC_91007321,"[Remover Limite] Enquanto a habilidade durar, concede DAN F. em 48% de ATQ por segundo nos inimigos próximos e aumenta a Recuperação em 30%."
 SKILL_DESC_91007322,"[Remover Limite] Enquanto a habilidade durar, concede DAN F. em 58% de ATQ por segundo nos inimigos próximos e aumenta a Recuperação em 30%."
@@ -1811,6 +1814,7 @@ SKILL_DESC_91007042,"[Talento Nato] No início de cada batalha, causa 14% a mais
 SKILL_DESC_91007043,"[Talento Nato] No início de cada batalha, causa 17% a mais de DAN a inimigos Não Heróis e recebe 25% a menos de DAN por 20 seg."
 SKILL_DESC_91007044,"[Talento Nato] No início de cada batalha, causa 21% a mais de DAN a inimigos Não Heróis e recebe 25% a menos de DAN por 20 seg."
 SKILL_DESC_91007045,"[Talento Nato] No início de cada batalha, causa 25% a mais de DAN a inimigos Não Heróis e recebe 25% a menos de DAN por 20 seg."
+SKILL_DESC_91007240,[Satisfação sarcástica] Aumenta o DANO CRÍT em {1}% e reduz o tempo de resfriamento de todas as suas habilidades em {2}s.
 SKILL_DESC_91007340,[Lembre-se Disso No Inferno] Aumenta a duração da ressurreição em 1 seg. e ganha imunidade a CM por 1 seg. ao ressuscitar.
 SKILL_DESC_91007341,"[Lembre-se Disso No Inferno] Aumenta a duração da ressurreição em 1 seg. e ganha imunidade a CM por 1,5 seg. ao ressuscitar."
 SKILL_DESC_91007342,[Lembre-se Disso No Inferno] Aumenta a duração da ressurreição em 1 seg. e ganha imunidade a CM por 2 seg. ao ressuscitar.
@@ -1885,39 +1889,33 @@ SKILL_DESC_93000302,"Aumenta o DANO em {1}% e a cada acúmulo, adiciona o efeito
 SKILL_DESC_93000400,"Invoca a alma de Redeal, o Sopro do Espectro, durante [64ffff]{1}[-]s, aumentando seu DANO CRÍT em [64ff64]{2}[-]%. A alma de Redeal, o Sopro do Espectro, causa DANO adicional de [ffc800]{3}[-] sempre que Roi usar a habilidade Garra de Lâminas."
 SKILL_DESC_93000401,Reduz o tempo de resfriamento em {1}s.
 SKILL_DESC_93000402,Acumula sangramento {1}x no inimigo que sofrer dano.
-SKILL_DESC_93000500,
-SKILL_DESC_93000501,
-SKILL_DESC_93000502,
-SKILL_DESC_93000510,
-SKILL_DESC_93000600,
-SKILL_DESC_93000601,
-SKILL_DESC_93000602,
-SKILL_DESC_93000610,
-SKILL_DESC_93000700,
-SKILL_DESC_93000701,
-SKILL_DESC_93000702,
-SKILL_DESC_93000710,
-SKILL_DESC_93000800,
-SKILL_DESC_93000801,
-SKILL_DESC_93000802,
-SKILL_DESC_93000810,
+SKILL_DESC_93000500,"Invoca a alma de Numinu, Pássaro Sagrado, aumentando seu próprio ATQ em [64ff64]{2}[-]% por [64ffff]{1}[-]s. Ao ativar, invoca o Vendaval de Numinu na sua linha de frente por [64ffff]{3}[-]s, causando [ffc800]{5}[-] de DANO F a inimigos ao alcance a cada [64ffff]{4}[-]s, reduzindo a VEL de ATQ do alvo em [ff6464]{7}[-] por [64ffff]{6}[-]s. O efeito de redução de VEL de ATQ pode ser acumulado até [64ffff]{8}[-]x e o inimigo com [64ffff]{8}[-] acúmulos tem o DANO F recebido aumentado em [ff6464]{10}[-]% e fica em estado de congelamento por [64ffff]{9}[-]s."
+SKILL_DESC_93000501,Aumenta o tempo de duração da alma e do Vendaval de Numinu em {1}s.
+SKILL_DESC_93000502,Altera a taxa de aumento de DANO F recebido para {1}% e a cada acerto remove efeitos positivos do inimigo.
+SKILL_DESC_93000600,"Invoca a alma de Atein, Ruínas do Dragão durante [64ffff]{1}[-]s e, enquanto durar a habilidade, aumenta sua própria DEF em [64ff64]{2}[-]%. Ao realizar um ataque normal, causa DANO F adicional equivalente a [ffc800]{3}[-]% do seu PV Máx. e torna suas habilidades mais fortes.\n[Colisão] Causa [ffc800]{4}[-] de DANO F adicional ao adversário e aumenta o DANO F recebido por ele em [ff6464]{6}[-]% por [64ffff]{5}[-]s.\n[Cabeçada] Causa DANO F adicional equivalente a [ffc800]{7}[-]% do seu PV Máx. \n[Terra Encarnada] Ao ativar, recupera imediatamente seu PV em [ffc800]{8}[-]% do seu PV Máx."
+SKILL_DESC_93000601,A duração da alma aumenta em {1}s.
+SKILL_DESC_93000602,"Enquanto durar a habilidade, ao realizar um ataque normal, o DANO F adicional infligido é alterado para {1}% do PV Máx. E, a redução da DEF F da habilidade [Destruir Armadura] aumenta em {2}%."
+SKILL_DESC_93000700,"Invoca a alma de Lakrak MK-1, aumentando seu próprio ATQ em [64ff64]{2}[-]% por [64ffff]{1}[-]s e a cada [64ffff]{3}[-]s, inflige [64ffff]{4}[-] golpes nos inimigos ao redor de um inimigo alvo aleatório, causando um total de [ffc800]{5}[-] de DANO F, atordoando-os por [64ffff]{6}[-]s e aumentando o DANO F recebido em [ff6464]{8}[-]% por [64ffff]{7}[-]s."
+SKILL_DESC_93000701,Reduz a condição de uso para {1}s e torna-se imune a efeitos de status por {2}s.
+SKILL_DESC_93000702,"Reduz adicionalmente a condição de uso em {1}s e a cada {2}s, reduz imediatamente o tempo de resfriamento de todas as habilidades em {3}s."
+SKILL_DESC_93000800,"Invoca a alma de Coventina, Vento Azul, recuperando o PM de todos os aliados em [ffc800]{1}[-]. Depois, reduz a RCP de todos os inimigos em [ff6464]{3}[-]% por [64ffff]{2}[-]s, aumentando o DANO M que o inimigo recebe em [ff6464]{4}[-]% e, a cada [64ffff]{5}[-]s, ataca um inimigo aleatório com o Ataque Relâmpago, removendo os efeitos positivos do alvo, infligindo [ffc800]{6}[-] de DANO M e reduzindo o PM em [ff6464]{7}[-]. Depois de [64ffff]{8}[-]s, ataca inimigos em uma grande área, infligindo [ffc800]{9}[-] de DANO M e atordoando-os por [64ffff]{10}[-]s."
+SKILL_DESC_93000801,A redução da RCP é alterada para {1}% e a taxa de aumento de DANO M que o inimigo recebe é alterada para {2}%.
+SKILL_DESC_93000802,"Enquanto durar a habilidade, aumenta a PNT de DEF de todos os aliados em {1}."
 SKILL_DESC_93000900,"Invoca a alma de Guilhotina, a Sedutora, durante [64ffff]{1}[-]s, aumentando seu próprio ATQ em [64ff64]{2}[-]%. Enquanto durar a habilidade, há [64ffff]{3}[-]% de chance de infligir [ffc800]{4}[-] de DANO M que ignora a DEF ao usar ataques comuns ou de habilidade. Este efeito é ativado com 100% de chance ao atingir com [Golpe de Absorção]."
 SKILL_DESC_93000901,Altera a chance de ativação para {1}% e aumenta o DANO CRÍT em {2}%.
 SKILL_DESC_93000902,"Adiciona efeito que ignora BLQ de DANO M e, aumenta o DANO M que o adversário recebe em {2}% por {1}s."
-SKILL_DESC_93001000,
-SKILL_DESC_93001001,
-SKILL_DESC_93001002,
-SKILL_DESC_93001010,
+SKILL_DESC_93001000,"Invoca a alma de Notos, Vento Verde durante [64ffff]{1}[-]s, aumentando seu próprio ATQ em [64ff64]{2}[-]% e seu próprio DANO CRÍT em [64ff64]{3}[-]%. Enquanto durar a habilidade, a cada [64ffff]{4}[-]s inflige no inimigo [ffc800]{5}[-] de DANO F que ignora a DEF, jogando-o para longe por [64ffff]{6}[-]s e reduz imediatamente o tempo de resfriamento de todas as suas habilidades em [64ffff]{7}[-]s."
+SKILL_DESC_93001001,"Aumenta o DANO infligido em {1}% e cada vez que a alma atacar o inimigo, recupera seu próprio PM em{2}."
+SKILL_DESC_93001002,Aumenta o DANO infligido em {1}% e reduz a condição de uso para {2}x.
 SKILL_DESC_93001100,"Invoca a alma de Cocytus, Mensageiro de Lea, infligindo [ffc800]{1}[-] de DANO M em linha reta aos inimigos frontais, afastando-os para longe durante [64ffff]{2}[-]s e transformando-os em estado de ‘Praga do Corvo’ por [64ffff]{3}[-]s. Adversários em estado ‘Praga do Corvo’ têm seu ATQ reduzido em [ff6464]{4}[-]%."
 SKILL_DESC_93001101,Reduz a RCP de PV dos adversários em estado de ‘Praga do Corvo’ em {1}%.
 SKILL_DESC_93001102,Reduz a condição de ativação para {1}x.
 SKILL_DESC_93001200,"Invoca a alma de Leviathan, Arma Suprema, aumentando seu próprio ATQ em [64ff64]{2}[-]% por [64ffff]{1}[-]s e infligindo [ffc800]{4}[-] de DANO F a todos os inimigos a cada [64ffff]{3}[-]s, sendo que a cada golpe infligido, aumenta o DANO F recebido em [ff6464]{6}[-]% por [64ffff]{5}[-]s."
 SKILL_DESC_93001201,Aumenta adicionalmente em {1}% o aumento de DANO F recebido pelo inimigo.
 SKILL_DESC_93001202,Reduz o tempo de resfriamento em {1}s.
-SKILL_DESC_93001300,
-SKILL_DESC_93001301,
-SKILL_DESC_93001302,
-SKILL_DESC_93001310,
+SKILL_DESC_93001300,"Invoca a alma de Roburu, Vontade da Árvore do Mundo durante [64ffff]{1}[-]s, infligindo [ffc800]{3}[-] de DANO M a um inimigo aleatório a cada [64ffff]{2}[-]s, aumentando o DANO M recebido pelo adversário infligido em [ff6464]{5}[-]% por [64ffff]{4}[-]s, deixando-o em estado de acorrentamento por [64ffff]{6}[-]s. E a cada [64ffff]{7}[-]s, recupera seu próprio PM em [64ffff]{8}[-] e reduz o tempo de resfriamento de todas as habilidades em [64ffff]{9}[-]s."
+SKILL_DESC_93001301,"Enquanto durar a alma, aumenta seu próprio ATQ em {1}%."
+SKILL_DESC_93001302,"Enquanto durar a alma, o tempo de duração do efeito de status infligido sobre todos os inimigos aumenta em {1}% e a DEF M reduz em {2}%."
 SKILL_DESC_93001400,
 SKILL_DESC_93001401,
 SKILL_DESC_93001402,
@@ -1934,14 +1932,12 @@ SKILL_DESC_93001702,"Enquanto durar a habilidade, aumenta seu próprio ATQ em {1
 SKILL_DESC_93001800,"Invoca a alma de Livatis, o Lampejo, aumentando seu ATQ em [64ff64]{2}[-]% por [64ffff]{1}[-]s. Enquanto durar a habilidade, usa Flutuar como uma Borboleta, aumentando o DANO causado pela habilidade em [64ff64]{3}[-]%."
 SKILL_DESC_93001801,"Enquanto durar a habilidade, aumenta sua própria PNT de DEF em {1}."
 SKILL_DESC_93001802,"Aumenta a duração da habilidade em {1}s e usa Flutuar como uma Borboleta, alterando a taxa de aumento de DANO causado pela habilidade para {2}%."
-SKILL_DESC_93001900,
-SKILL_DESC_93001901,
-SKILL_DESC_93001902,
-SKILL_DESC_93001910,
-SKILL_DESC_93002000,
-SKILL_DESC_93002001,
-SKILL_DESC_93002002,
-SKILL_DESC_93002010,
+SKILL_DESC_93001900,"Invoca a alma de Andarta e Andraste, os Corações de Dragão, aumentando seu próprio DANO CRÍT em [64ff64]{2}[-]% por [64ffff]{1}[-]s. Ao ativar, ataca os inimigos frontais em linha reta, infligindo [ffc800]{3}[-] de DANO M, aumentando o DANO M que o alvo recebe em [ff6464]{5}[-]% por [64ffff]{4}[-]s e congelando-os por [64ffff]{6}[-]s. Ao infligir DANO no adversário em estado de congelamento, causa [ffc800]{7}[-] de DANO M que ignora a DEF, recupera seu próprio PM em [64ff64]{8}[-] barra(s) e reduz o tempo de resfriamento de todas as suas habilidades em [64ff64]{9}[-]%."
+SKILL_DESC_93001901,Altera a condição de uso para {1}x.
+SKILL_DESC_93001902,Aumenta o DANO infligido em {1}% e remove efeitos positivos dos adversários infligidos.
+SKILL_DESC_93002000,"Invoca a alma de Arfeu, a Luz Azul, aumentando a RST CRÍT F de todos os aliados em [64ff64]{2}[-] e a CHANCE de BLQ F em [64ff64]{3}[-] por [64ffff]{1}[-]s e, durante [64ffff]{4}[-]s, aplica o [fa96fa][Feitiço Azulado][-] ao seu redor. Enquanto durar a habilidade [fa96fa][Feitiço Azulado][-], inflige [64ffff]{5}[-] golpes no adversário, causando um total de [ffc800]{6}[-] de DANO F aos inimigos ao redor, reduzindo o PM do adversário infligido em [ff6464]{7}[-] e, quando terminar a habilidade, causa uma explosão infligindo [ffc800]{8}[-] de DANO F, silenciando os adversários por [64ffff]{9}[-]s."
+SKILL_DESC_93002001,Os aliados sobre o [Feitiço Azulado] tem a VEL de ATQ aumentada em {1} e recupera o PM em {2} a cada segundo.
+SKILL_DESC_93002002,Os inimigos sobre o [Feitiço Azulado] tem os efeitos positivos removidos constantemente e a duração do silêncio é alterada para {1}s.
 SKILL_DESC_93002100,"Invoca a alma de Baroro, Garras Malditas, aumentando seu ATQ em [64ff64]{2}[-]% por [64ffff]{1}[-]s. Enquanto durar a habilidade, inflige [ffc800]{4}[-] de DANO F aos inimigos frontais a cada [64ffff]{3}[-]s, na qual os adversários infligidos recebem a Maldição de Baroro por [64ffff]{5}[-]s, aumentando o DANO F recebido em [ff6464]{6}[-]% e reduzindo a RCP em [ff6464]{7}[-]%. Caso o adversário seja chefe, o efeito da Maldição de Baroro aumenta em [64ff64]{8}[-] vezes."
 SKILL_DESC_93002101,Petrifica o inimigo atingido por {1}s.
 SKILL_DESC_93002102,Altera a condição de uso para {1}x e aumenta o tempo de duração da alma em {2}s.
@@ -1951,10 +1947,9 @@ SKILL_DESC_93002202,Aumenta o DANO em {1}% e ganha imunidade a efeito de status 
 SKILL_DESC_93002300,"Causa [ffc800]{1}[-] de DANO M aos inimigos à sua volta e os derruba por [64ffff]{2}[-]s. Depois invoca a alma de Carprain, Chama da Vitória, durante [64ffff]{3}[-]s e aumenta o seu próprio ATQ em [64ff64]{4}[-]%."
 SKILL_DESC_93002301,"Enquanto durar a habilidade, reduz o DANO M recebido pelos aliados em {1}%."
 SKILL_DESC_93002302,"Enquanto durar a habilidade, aumenta o DANO M infligido nos inimigos ao redor em {1}%. Se o alvo for chefe, aumenta em {2}%."
-SKILL_DESC_93002400,
-SKILL_DESC_93002401,
-SKILL_DESC_93002402,
-SKILL_DESC_93002410,
+SKILL_DESC_93002400,"Invoca a alma de Genesis, Livro de Deus, aumentando o alvo de seus ataques normais para [64ffff]{2}[-] pessoas por [64ffff]{1}[-]s e, a cada [64ffff]{3}[-]s, recupera o PV de todos os aliados em [ffc800]{4}[-], removendo efeitos negativos."
+SKILL_DESC_93002401,Altera a condição de uso da Arma da Alma para {1}x.
+SKILL_DESC_93002402,"Enquanto durar a habilidade, reduz o DANO recebido por todos os aliados em {1}% e aumenta a RCP em {2}%."
 SKILL_DESC_93002500,"Invoca a alma de Erekura, a Mente Imutável, durante [64ffff]{1}[-]s, aumentando a própria RCP em [64ff64]{2}[-]% e, a cada {3}s, aumenta o DANO M recebido por 4 inimigos aleatórios em [ff6464]{5}[-]% durante [64ffff]{4}[-]s. Este efeito pode ser acumulado no máx. {6}x e, após {1}s, consome o acúmulo no inimigo, causando DANO M de [ffc800]{7}[-] por cada acúmulo."
 SKILL_DESC_93002501,Reduz a condição de ativação em {1}x.
 SKILL_DESC_93002502,Aumenta o máx. de acúmulo em {1}x.
@@ -1962,10 +1957,9 @@ SKILL_DESC_93002510,Carrega-se a cada segundo e a toda vez que receber dano. Pod
 SKILL_DESC_93002600,"Invoca a alma de Mahitra, Destino Nobre, durante {1}s. Enquanto a alma estiver invocada, aumenta o DANO CRÍT em [64ff64]{2}[-]%, infligindo DANO de [ffc800]{4}[-] no inimigo a cada [64ffff]{3}[-]s e aumentando o DANO M recebido pelo inimigo atingido em [ff6464]{6}[-]% por [64ffff]{5}[-]s."
 SKILL_DESC_93002601,"Enquanto durar a habilidade, recupera totalmente o PM."
 SKILL_DESC_93002602,Aumenta a duração em {1}s e fica imune à efeitos de status enquanto durar a habilidade.
-SKILL_DESC_93002700,
-SKILL_DESC_93002701,
-SKILL_DESC_93002702,
-SKILL_DESC_93002710,
+SKILL_DESC_93002700,"Invoca a alma de Belisa, Pena de Fênix, absorvendo [ffc800]{2}[-] de DANO do aliado com o maior ATQ por [64ffff]{1}[-]s, criando uma barreira de imunidade a efeitos de status e aumentando o DANO infligido a inimigos em [64ff64]{4}[-]% por [64ffff]{3}[-]s. Depois remove os efeitos positivos dos adversários frontais em uma linha reta e inflige [ffc800]{5}[-] de DANO F."
+SKILL_DESC_93002701,Altera a condição de uso para uso da habilidade {1}x.
+SKILL_DESC_93002702,O adversário infligido não pode receber efeitos positivos por {1}s.
 SKILL_DESC_93002800,"Invoca a alma de Veralta, Espadas Gêmeas da Fúria, durante [64ffff]{1}[-]s e, enquanto durar a habilidade, aumenta o DANO de ataques normais em [64ff64]{2}[-]% e torna suas habilidades mais fortes.\n[Tempestade de Lâminas] Ataca o alvo e os inimigos ao seu redor [64ffff]3[-]x, causando [ffc800]{3}[-] de DANO F adicional e reduzindo a RCP de PV do adversário infligido em [ff6464]{5}[-]% durante [64ffff]{4}[-]s.\n[Passos Céleres] Aumenta seu próprio DANO CRÍT em [64ff64]{7}[-]% durante [64ffff]{6}[-]s.\n[Pétalas Sanguíneas] Inflige [64ffff]16[-] golpes num único inimigo, causando um total de [ffc800]{8}[-] de DANO F adicional.\nO DANO causado por esta habilidade não recebe o efeito da marca da habilidade [Passos Céleres]."
 SKILL_DESC_93002801,O tempo de duração da Arma da Alma é alterado para {1}s.
 SKILL_DESC_93002802,"Enquanto durar a habilidade, há {1}% de chance de reduzir o tempo de resfriamento de todas as habilidades em {2}%."
@@ -2096,10 +2090,9 @@ SKILL_DESC_93007002,Aumenta chance de ativação em {1}%.
 SKILL_DESC_93007100,"Invoca a alma de Elicipira, o Gume da Punição, alterando a chance de infligir DANO M adicional da Elicipira, o Gume da Punição para [64ff64]{2}[-]% durante [64ffff]{1}[-]s, reduzindo todo DANO recebido em [64ff64]{3}[-]%."
 SKILL_DESC_93007101,"Enquanto durar a habilidade, aumenta o ATQ em {1}%."
 SKILL_DESC_93007102,"Aumenta o tempo de duração do efeito em {1}s e altera a chance de ativação da Elicipira, o Gume da Punição para {2}%."
-SKILL_DESC_93007200,
-SKILL_DESC_93007201,
-SKILL_DESC_93007202,
-SKILL_DESC_93007210,
+SKILL_DESC_93007200,"Invoca a alma de Terresia, o Calor do Rugido, que após aumentar a VEL de ATQ de Pansirone em [64ff64]{2}[-] por [64ffff]{1}[-]s, ataca uma grande área de inimigos na linha de frente [64ffff]3[-]x, infligindo um total de [ffc800]{3}[-] de DANO F. O último golpe aplica [fa96fa]'Brincadeirinha da Terresia'[-] em uma grande área na linha de frente por [64ffff]{4}[-]s, infligindo [ffc800]{6}[-] de DANO F e aumentando o DANO F recebido em [ff6464]{7}[-]% a cada [64ffff]{5}[-]s. Se o adversário estiver em estado de Chama Eterna, altera o efeito de aumento de DANO F recebido para [ff6464]{8}[-]%."
+SKILL_DESC_93007201,Aumenta o DANO infligido em {1}%.
+SKILL_DESC_93007202,O efeito de aumento da VEL de ATQ e o tempo de duração de 'Brincadeirinha da Terresia' aumentam em {1}s.
 SKILL_DESC_93007300,"Invoca a alma de Monólito, Lanceiro de Sangue, infligindo [ffc800]{1}[-] de DANO F aos inimigos ao seu redor, derrubando-os por [64ffff]{2}[-]s. Depois, recupera seu PV em [64ff64]{3}[-]% do seu PV Máx. e aumenta o ATQ em [64ff64]{5}[-]% e a RCP de PV em [64ff64]{6}[-]% por [64ffff]{4}[-]s."
 SKILL_DESC_93007301,O tempo de duração do efeito é alterado para {1}s.
 SKILL_DESC_93007302,"Enquanto durar a habilidade, aumenta o DANO que o herói inflige no inimigo em {1}% e em ataque normais, com {2}% de chance, atordoa o adversário por {3}s."
@@ -2107,9 +2100,9 @@ SKILL_DESC_93007400,
 SKILL_DESC_93007401,
 SKILL_DESC_93007402,
 SKILL_DESC_93007410,
-SKILL_DESC_93007500,
-SKILL_DESC_93007501,
-SKILL_DESC_93007502,
+SKILL_DESC_93007500,"Invoca a alma de Armekith, o Lago da Lembrança, provocando um tsunami e causando [ffc800]{1}[-] de DANO M em uma grande área de inimigos na linha de frente, derrubando-os por [64ffff]{2}[-]s e recuperando [ffc800]{3}[-] de PV e [ffc800]{4}[-] barras de PM dos aliados num raio próximo. Depois, absorve a alma de Armekith, o Lago da Lembrança, aumentando seu próprio ATQ em [64ff64]{6}[-]% por [64ffff]{5}[-]s."
+SKILL_DESC_93007501,Remove os efeitos positivos de todos os inimigos e os efeitos negativos de todos os aliados ao alcance.
+SKILL_DESC_93007502,"Reduz a condição de ativação para {1}x e enquanto durar a habilidade, aumenta o número de alvos de [Acabe com o sofrimento!] para {2} pessoa(s)."
 SKILL_DESC_93007510,
 SKILL_DESC_93007600,
 SKILL_DESC_93007601,
@@ -2168,16 +2161,15 @@ SKILL_DESC_93008910,
 SKILL_DESC_93009000,"Invoca a alma de Etelia, a Caixa de Fragrâncias, recuperando um total de [ffc800]{2}[-] de PV de todos os aliados ao longo de [64ffff]{1}[-]s e aumentando o ATQ do aliado com o maior ATQ em [64ff64]{5}[-]% a cada [64ffff]{3}[-]s durante [64ff64]{4}[-]s. O efeito de aumento de ATQ pode ser acumulado no máx. até [64ffff]{6}[-]x e, ao ser ativado, tem {7}% de chance de acumular [64ffff]{8}[-]x de uma só vez."
 SKILL_DESC_93009001,Altera o número de acúmulo máx. para {1}x.
 SKILL_DESC_93009002,Aumenta a Taxa de Cura em {1}% e altera a chance de acumular {2}x de uma só vez para {3}%.
-SKILL_DESC_93009100,
-SKILL_DESC_93009101,
-SKILL_DESC_93009102,
-SKILL_DESC_93009110,
+SKILL_DESC_93009100,"Invoca a alma de Mastra, Punho de Fera, infligindo [ffc800]{1}[-] de DANO F que ignora a DEF do inimigo com o maior ATQ e aumentando seu próprio ATQ em [64ff64]{3}[-]% por [64ffff]{2}[-]s. Enquanto durar a habilidade, aumenta o DANO da habilidade [Soco Supremo!] em [64ff64]{4}[-]% e ao ativar a habilidade [Isso vai Doer!], inflige [ffc800]{5}[-] de DANO F adicional que ignora a DEF."
+SKILL_DESC_93009101,"Enquanto durar a habilidade, ao usar [Soco Supremo!] mesmo se o adversário não for chefe, aplica-se DANO que ignora a DEF."
+SKILL_DESC_93009102,Aumenta o DANO infligido em {1}% e a taxa de aumento de DANO da habilidade [Soco Supremo!] é alterada para {2}%.
 SKILL_DESC_93009200,"Invoca a alma de Accordio, o Marcador Infinito, obtendo imediatamente o Conhecimento da Maior Financista [64ffff]{1}[-]x, aumentando o DANO CRÍT do aliado com o ATQ mais elevado em [64ff64]{3}[-]% e o DANO infligido em chefes em [64ff64]{4}[-]% por [64ffff]{2}[-]s."
 SKILL_DESC_93009201,Aumenta o tempo de duração em {1}s.
 SKILL_DESC_93009202,Aumenta o efeito que o aliado com o maior ATQ recebe em {1}%.
 SKILL_DESC_93009300,"Invoca a alma de Gaiamenes, Onda de Proteção, infligindo DANO F de [ffc800]{1}[-] aos inimigos frontais e atordoando-os por [64ffff]{2}[-]s. Depois aumenta o ATQ de todos os aliados em [64ff64]{4}% + {5}[-]% do ATQ de Loman e a DEF M em [64ff64]{6}[-]% por [64ffff]{3}[-]s e recupera o PM de todos os aliados em [64ff64]{8}[-] a cada [64ffff]{7}[-]s."
 SKILL_DESC_93009301,Recupera o PV de todos os aliados em {2}% do PV Máx. a cada {1}s e remove efeitos negativos.
-SKILL_DESC_93009302,"Reduz a condição de uso em {1}s e ao infligir um golpe, aumenta o DANO F que o adversário recebe em {3}% por {2}s."
+SKILL_DESC_93009302,"Reduz a condição de uso em {1}s e ao infligir um golpe, aumenta o DANO F que o adversário atingido recebe em {2}%."
 SKILL_DESC_93009400,"Invoca a alma de Tempora Fyrr, o Banquete dos Cem Sabores, durante [64ffff]{1}[-]s, recebendo efeitos adicionais dependendo do estado em que estiver.\nQuando estiver no estado [fa96fa][Chef dos Céus][-], aumenta todas as DEFs de todos os aliados em [64ff64]{2}% + {3}[-]% do ATQ de Juno. \nQuando estiver no estado [fa96fa][Chef do Inferno][-], aumenta o ATQ de todos os aliados em [64ff64]{4}% + {5}[-]% do ATQ de Juno. Ao usar a habilidade quando o acúmulo de [Ingrediente Excelente] for acima de [64ffff]{6}[-]x, todos os efeitos são aplicados com aumento de [64ffff]{8}[-]%, consumindo [64ffff]{7}[-] acúmulos."
 SKILL_DESC_93009401,Reduz a condição de uso para {1}x.
 SKILL_DESC_93009402,"Quando estiver no estado [Chef dos Céus], reduz o DANO recebido por todos os aliados em {1}%.\nQuando estiver no estado [Chef do Inferno], aumenta o DANO recebido por todos os inimigos em {2}%. A todos estes efeitos aplica-se acúmulo de Ingrediente Excelente."
@@ -2187,10 +2179,9 @@ SKILL_DESC_93009502,Altera o acúmulo máx. do Rancor de Hartnon para {1}.
 SKILL_DESC_93009600,"Invoca a alma de Seliere, a Valentia Antiga, aumentando a CHANCE de BLQ F de todos os aliados em [64ff64]{2}[-] por [64ffff]{1}[-]s. Depois, inflige DANO M de [ffc800]{4}[-] aos inimigos ao seu redor a cada [64ffff]{3}[-]s, silenciando os adversários por [64ffff]{5}[-]s e cria uma barreira de proteção por [64ffff]{6}[-]s que absorve o DANO recebido pelo aliado com menor PV equivalente a [64ff64]{7}[-]% do ATQ de Dosarta e que confere imunidade a efeitos de status."
 SKILL_DESC_93009601,Aumenta o DANO M recebido pelo adversário infligido em {2}% por {1}s.
 SKILL_DESC_93009602,A barreira de proteção passa a se aplicar a {1} pessoa(s).
-SKILL_DESC_93009700,
-SKILL_DESC_93009701,
-SKILL_DESC_93009702,
-SKILL_DESC_93009710,
+SKILL_DESC_93009700,"Invoca a alma de HN-0, Brincadeirinha Super Banal, aumentando o DANO CRÍT em [64ff64]{2}[-]% por [64ffff]{1}[-]s. Depois dá 3 [fa96fa]'Ordens de Ataque'[-] a cada [64ffff]{3}[-]s, infligindo [ffc800]{4}[-] de DANO F aos inimigos frontais em uma linha reta, atordoando-os por [64ffff]{5}[-]s. Caso esta habilidade seja ativada em lutas de guilda, aplicam-se efeitos adicionais e o aumento de DANO CRÍT pode ser acumulado até [64ffff]{6}[-]x.\n[Triunfo da Guilda] – Toda vez que [fa96fa]'Ordens de Ataque'[-] for ativado, aumenta o DANO F que o inimigo recebe em [64ff64]{7}[-]% por 5s.\n[Batalha de Guildas] – Reduz a condição de ativação em [64ffff]{8}[-]s.\n[Incursão da Guilda] – Toda vez que [fa96fa]'Ordens de Ataque'[-] for ativado, obtém [64ffff]{9}[-] balas."
+SKILL_DESC_93009701,Aumenta o DANO infligido em {1}% e altera o número máx. de acúmulos para {2}x.
+SKILL_DESC_93009702,"Aumenta o DANO infligido em {1}% e a cada acúmulo, adiciona o efeito de aumento de ATQ em {2}%."
 SKILL_DESC_93009800,"Invoca a alma de Tyrannicus, a Autoridade do Rei Deus, para causar [ffc800]{1}[-] DANO F aos inimigos em uma vasta área ao seu redor, causando congelamento de tempo por [64ffff]{2}[-]s. Depois aumenta seu próprio ATQ em [64ff64]{4}%[-] por [64ffff]{3}[-]s. O status de congelamento de tempo não permite usar ataque comum nem habilidade, pausando o tempo de resfriamento das habilidades."
 SKILL_DESC_93009801,Recupera o PV dos aliados ao redor num total de [ffc800]{2}[-] por {1}s.
 SKILL_DESC_93009802,"Aumenta o tempo de duração do congelamento de tempo em {1}s, atraindo os inimigos para a sua volta."

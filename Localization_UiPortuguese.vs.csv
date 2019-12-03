@@ -2547,13 +2547,13 @@ TOOLTIP_INFO_EVENT_STORY1,"O Festival do Amigo Secreto chegou para trazer alegri
 TOOLTIP_INFO_EVENT_STORY2,"Há uma Árvore Lendária no centro de Orvel!\nA Árvore Lendária, no auge da temporada natalina,\nconcederá desejos com sua magia poderosa.\nPara encher a árvore com a energia da Noite Feliz,\nos Heróis do Natal começaram a agir!"
 MENU_EVENT_REWARD_LIST,Lista de Recompensa da Árvore de Natal
 TOOLTIP_INFO_EVENT_TUTORIAL1,Desafie a Masmorra de Evento com Chaves Diárias!
-TOOLTIP_INFO_EVENT_TUTORIAL2,Use os itens obtidos para decorar o Enfeite Natalino!
-TOOLTIP_INFO_EVENT_TUTORIAL3,Jogue uma missão especial para que Papais Noéis ganhem recompensas!
+TOOLTIP_INFO_EVENT_TUTORIAL2,Use os itens obtidos para enfeitar a Árvore de Natal!
+TOOLTIP_INFO_EVENT_TUTORIAL3,Execute missões de evento especial de Papai Noel para ganhar prêmios especiais!
 TOOLTIP_INFO_EVENT_REMIND1_TITLE,Enfeite e Masmorra de Natal
 TOOLTIP_INFO_EVENT_REMIND2_TITLE,Sobre o Nível e Progresso da Árvore de Natal
 TOOLTIP_INFO_EVENT_REMIND4_TITLE,Observação
-TOOLTIP_INFO_EVENT_REMIND1,"Você pode entrar na Masmorra de Evento de Natal utilizando Biscoitos Noel. Ao concluir o Modo História da Masmorra de Evento, você pode entrar na Masmorra Especial utilizando Vigor. \nCada Masmorra terá Enfeites de Árvore que podem ser usados para decorar a Árvore de Natal. \nUse os enfeites obtidos na Masmorra de Natal em sua Árvore de Natal para aumentar o Progresso dos Enfeites."
-TOOLTIP_INFO_EVENT_REMIND2,"Você pode aumentar o nível de sua Árvore de Natal maximizando o Progresso dos Enfeites.\nQuando você alcança uma certa quantidade de progresso, é possível aceitar o desafio para as recompensas do próximo nível.\nAs recompensas variam de acordo com o Nível da Árvore e, se o nível chegar no limite, você poderá obter Caixas de Apoio do Papai Noel repetidamente."
+TOOLTIP_INFO_EVENT_REMIND1,"Você pode entrar na Masmorra de Evento de Natal utilizando Biscoitos Noel. Ao concluir o Modo História da Masmorra de Evento, você pode entrar na Masmorra Especial utilizando Vigor. \nEm cada masmorra você pode obter Enfeites de Árvore que podem ser usados para decorar a Árvore de Natal. \nAumente o progresso da Árvore de Natal decorando-a com os itens obtidos nas Masmorras de Natal."
+TOOLTIP_INFO_EVENT_REMIND2,"Ao alcançar a pontuação máxima de progresso da Árvore de Natal, ela subirá um nível.\nUltrapasse determinados valores de progresso para tentar obter prêmios do nível seguinte.\nAs recompensas variam de acordo com o nível da Árvore e, ao alcançar o nível máximo, você pode obter Caixas de Árvore da Noite Feliz repetidamente."
 TOOLTIP_INFO_EVENT_REMIND4,O Nível da Árvore de Natal será redefinido uma vez a cada 2 semanas. Não esqueça de resgatar suas recompensas antes disso!
 TOOLTIP_INFO_EVENT_REWARD_LIST,"Você pode aumentar o Nível da Árvore decorando-a com itens obtidos na masmorra de Evento. Para cada Nível da Árvore de Natal, você pode obter as seguintes recompensas:"
 EVENTCHRISTMAS.TITLE_REWARD_EVENT_ITEM_LEVEL,Nv. {1}
@@ -3319,7 +3319,7 @@ PRODUCT_SELL_PERIOD_NEXT,... Até a próxima manutenção
 COMMON.LUA_POINT_COUNT,{1} Sinal de Lua
 COMMON_CONTENT_NOT_ENTER,Este conteúdo está em manutenção.
 PLAY_RECORDS_TITLE,Recorde de Jogo
-PLAY_RECORDS_NORMAL,Comum
+PLAY_RECORDS_NORMAL,Geral
 PLAY_RECORDS_HERO,Heróis
 PLAY_RECORDS_ITEM,Item
 PLAY_RECORDS_ARENA,Arena
@@ -3919,6 +3919,7 @@ COSTUME_GROUP_SPORTSWARE1,Roupa Esportiva
 COSTUME_GROUP_CASAULFASHION1,Traje Casual
 COSTUME_GROUP_CASUALFASHION1,Traje Casual
 COSTUME_GROUP_HEROICCAREER1,Roupa de Trabalho
+COSTUME_GROUP_FESTIVENOELS,Natal 3
 UI_SELECT_HERO_NONE,Não há heróis disponíveis para selecionar.
 UI_SELECT_COSTUME_NONE,Não há trajes disponíveis para selecionar.
 FILTER_SELECT.FILTER_SELECT_PART,Ver por Parte
@@ -4097,7 +4098,7 @@ RESULT_TYPE_EQUIP_CHEST_FULL,Sua Caixa de Armazenamento está cheia.
 RESULT_TYPE_EQUIP_EXPEND_CHEST_FULL,Aumente sua Caixa de Armazenamento.
 RESULT_TYPE_EQUIP_EXPEND_CHEST_FULL2,Organize sua Caixa de Armazenamento.
 EQUIP_ASK_EXTEND_MESSAGE_CHEST,Deseja adicionar {1} espaços à sua Caixa de Armazenamento?
-EQUIP_ASK_EXTEND_MESSAGE_CHEST2,(Caixa de Armazenamento: {1} / {2} )
+EQUIP_ASK_EXTEND_MESSAGE_CHEST2,(Espaços na Caixa de Armazenamento: {1}/{2})
 INVENTORY.INVENTORY_ADD_CHEST_SLOT,Foram criados {1} novos espaços na Caixa de Armazenamento.
 EQUIP_CHEST_ALL,Tudo
 INVENTORY.INVENTORY_SET_CHEST,O item foi movido para a Caixa de Armazenamento.
@@ -5595,21 +5596,31 @@ TOOLTIP_INFO_NAME_EVENT_DESTINYLIGHT_THREAD,Fio do Destino
 TOOLTIP_INFO_NAME_NAME_DESTINYLIGHT_PIRCEOFCLOTH,Retalho do Destino
 TOOLTIP_INFO_NAME_TEXT_DESTINYLIGHT_PIRCEOFCLOTH,Moeda de troca obtida ao concluir as masmorras de 'Onde se dirige a luz do destino'. Pode ser usada para comprar itens na Loja do Evento.
 SHOP_NAME_2019_DESTINYLIGHT_SHOP,Loja Especial do Evento
-EVENT_REWARD_GET_NOTICE_MESSAGE,Resgate primeiro o prêmio do estágio anterior.
 DESTINYLIGHT_EVENT_SPECIAL_DUNGEON_DESC1_1,Os inimigos possuem grande capacidade para se recuperar! Impeça-os usando habilidades que reduzem a recuperação! Tome cuidado pois Demia puxa os adversários que estão longe a cada intervalo de tempo.
 DESTINYLIGHT_EVENT_SPECIAL_DUNGEON_DESC2_1,Cada uma das cores das luzes de Chrisha possuem efeitos diferentes! Reaja rapidamente de acordo com a habilidade que ela usar!\n[Luz Vermelha] – O ataque de Chrisha aumenta consideravelmente.\n[Luz Azul] – A defesa de Chrisha aumenta consideravelmente.\n[Luz Verde] – Chrisha remove efeitos negativos constantemente.
-DESTINYLIGHT_EVENT_SPECIAL_DUNGEON_DESC3_1,"Emissário Medonho possui uma forte barreira de proteção, neutralizando determinada quantidade de ataques! Adicionalmente, dizem que a Esfera Sombria causa destruição instantânea. Portanto, neutralize-o usando efeitos de status!"
-GUILD_ARENA_MEMBER_DEFENCE_TEAM,Equipe de defesa da Guilda
-PAYSHOP_PREPURCHASE_HALLOWEEN_2019_ARTIFACT,Brinde ao comprar 5 vezes: 'Espírito Mau Preso na Abóbora'
-GUILD_ARENA_MY_DEFENCE_TEAM,Minha equipe de defesa
-HERO_PROFILE,Perfil
-SUBSTORY_SUB_BUTTON_NAME,Ver aniversário
-19HALLOWEEN_EVENT_SPECIAL_DUNGEON_DESC1_1,"Se for atingido pelo canhão de água de Mediana, terá dificuldades para avançar! Resista para não ser empurrado."
-19HALLOWEEN_EVENT_SPECIAL_DUNGEON_DESC2_1,Yuria imobiliza os inimigos envolvendo-os com roupas! Remova rapidamente e desvie-se dos poderosos ataques de Yuria.
-19HALLOWEEN_EVENT_SPECIAL_DUNGEON_DESC3_1,Os aliados que estiverem ao redor de Bernheim correm perigo! Ataque-o mantendo o máximo de distância que conseguir.
-19HALLOWEEN_EVENT_SPECIAL_DUNGEON_DESC4_1,"A Kara com modo de cerco ataca continuamente o inimigo. Dentre as 3 Karas, concentre o ataque na Kara com modo de cerco, eliminando-a rapidamente!"
-19HALLOWEEN_EVENT_SPECIAL_DUNGEON_SUB_TITLE1,Masmorra Especial de Halloween 1
-19HALLOWEEN_EVENT_SPECIAL_DUNGEON_SUB_TITLE2,Masmorra Especial de Halloween 2
-19HALLOWEEN_EVENT_SPECIAL_DUNGEON_SUB_TITLE3,Masmorra Especial de Halloween 3
-19HALLOWEEN_EVENT_SPECIAL_DUNGEON_SUB_TITLE4,Masmorra Especial de Halloween 4
-SELECT_ITEM_OPTION_SORT,Ordenar por opção
+DESTINYLIGHT_EVENT_SPECIAL_DUNGEON_DESC3_1,"O Emissário Medonho possui uma forte barreira de proteção, neutralizando determinada quantidade de ataques! Adicionalmente, dizem que a Esfera Sombria causa destruição instantânea. Portanto, neutralize-o usando efeitos de status!"
+EQUIP_INVENTORY_EXPAND_COST1,"Para expandir até 800 espaços, o custo é de 250 Rubis."
+EQUIP_INVENTORY_EXPAND_COST2,"Para expandir além de 800 espaços, o custo é de 500 Rubis."
+EQUIP_INVENTORY_EXPAND_LINK,Ir para [Bilhete de Expansão]
+NODE_HERODUNGEON_NAME,Masmorras Especiais de Herói
+EVENT_NAME_HERODUNGEON_PANCIRONNE,Episódio - Pansirone
+HERO_DUNGEON_CONDITION,"É necessário ter Pansirone,\ne concluir a fase anterior para abrir."
+EVENT_INFO_HERODUNGEON,Guia das Masmorras\nEspeciais de Herói
+EVENT_INFO_NAME_HERODUNGEON_PANCIRONNE,Masmorra Especial de Herói - Pansirone
+EVENT_INFO_DESC_HERODUNGEON_PANCIRONNE,"As Masmorras Especiais de Herói são masmorras de evento nas quais você pode receber mais prêmios para obter e evoluir o referente herói.\n\nAo entrar pela primeira vez, você recebe ‘Pá de escavação’ x5 para entrar nas masmorras e, uma vez que todas as entradas forem usadas, 1 nova entrada será recarregada cada dia.\nA partir da segunda masmorra, é necessário ter a heroína ‘Pansirone’ para entrar.\n\nEntregue os itens obtidos na masmorra de presente à Pansirone para ganhar diversos prêmios.\nÉ possível presenteá-la mesmo sem ter a heroína.\n\nObtenha Pansirone para ver episódios especiais e obter diversos prêmios!"
+EVENT_HERODUNGEON_TICKET,Pá de escavação
+EVENT_HERODUNGEON_PANCIRONNE_NAME1,Sítio Arqueológico de Artefatos
+EVENT_HERODUNGEON_PANCIRONNE_DESC1,Uma superior problemática
+EVENT_HERODUNGEON_PANCIRONNE_NAME2,Travessa e perigosa
+EVENT_HERODUNGEON_PANCIRONNE_DESC2,Talento desperdiçado
+EVENT_HERODUNGEON_PANCIRONNE_NAME3,"Dois coelhos, uma cajada"
+EVENT_HERODUNGEON_PANCIRONNE_DESC3,Não me interessa!
+EVENT_HERODUNGEON_PANCIRONNE_NAME4,Só você pode
+EVENT_HERODUNGEON_PANCIRONNE_DESC4,Aquele que pode alcançar
+EVENT_HERODUNGEON_PANCIRONNE_NAME5,Relatório da escavação
+EVENT_HERODUNGEON_PANCIRONNE_DESC5,Percepção
+EVENT_SERIA_FIGURE_PACKAGE_TITLE,Pacote de Seria
+EVENT_SERIA_FIGURE_PACKAGE_CONTENT,Obrigado por comprar o action figure de Seria.
+SHOP_TAB_DAILY,Assinatura
+NEWBIE_REWARD_MAIL_TITLE,Feliz Natal! Presente de Natal limitado para novos usuários!
+NEWBIE_REWARD_MAIL_CONTENT,"Você que está começando a jogar King's Raid, ganhe um [Bilhete de Herói de 5★] de presente.\nEntre na aba 'Consumíveis' do 'Inventário' para usar o Bilhete de Herói de 5★ e obter um herói de sua escolha.\nDesejamos a você um ""Feliz King's Raid""!\n\n※Esta mensagem será deletada às 23:59 de 31 de dezembro (terça-feira)."

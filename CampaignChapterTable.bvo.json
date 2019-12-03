@@ -1068,7 +1068,7 @@
     "Name": "TOWN_TEXT",
     "Type": "City",
     "IsOpen": "TRUE",
-    "Map": "Town2",
+    "Map": "Town_Christmas",
     "MapSizeX": 4096,
     "MapSizeY": 3085,
     "StartNodeIndex": 1,
@@ -3037,6 +3037,20 @@
     "Description": "TRIAL_HERO_KIRZE_TEXT"
   },
   {
+    "Index": 10072,
+    "Name": "HERO_PANCIRONNE",
+    "Type": "Trial",
+    "IsOpen": "TRUE",
+    "Map": "Map01",
+    "MapSizeX": 4096,
+    "MapSizeY": 4096,
+    "UserStatType": [
+      "Gold"
+    ],
+    "StaminaType": "None",
+    "Description": "TRIAL_HERO_PANCIRONNE_TEXT"
+  },
+  {
     "Index": 10073,
     "Name": "HERO_CHASE",
     "Type": "Trial",
@@ -3566,6 +3580,19 @@
       "Gold"
     ],
     "StaminaType": "EventDungeonTicket"
+  },
+  {
+    "Index": 30031,
+    "Name": "EVENT_NAME_HERODUNGEON_PANCIRONNE",
+    "Type": "Event",
+    "IsOpen": "TRUE",
+    "Map": "Map01",
+    "MapSizeX": 4096,
+    "MapSizeY": 4096,
+    "UserStatType": [
+      "Gold"
+    ],
+    "StaminaType": "EventHeroDungeonTicket"
   },
   {
     "Index": 100016,

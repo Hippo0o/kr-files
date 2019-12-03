@@ -2194,6 +2194,69 @@
             }
           ]
         }
+      },
+      {
+        "Key": "Hero.Pancironne",
+        "Value": {
+          "Code": "Hero.Pancironne",
+          "AnimationDic": [
+            {
+              "Key": {
+                "MotionType": "Down"
+              },
+              "Value": {
+                "FrameSoundList": [
+                  {
+                    "Frame": 0.0,
+                    "SoundCode": "Down.Hero.Pancironne"
+                  }
+                ]
+              }
+            },
+            {
+              "Key": {
+                "MotionType": "NamedAction",
+                "Name": "Victory"
+              },
+              "Value": {
+                "FrameSoundList": [
+                  {
+                    "Frame": 0.0,
+                    "SoundCode": "Victory.Hero.Pancironne"
+                  }
+                ]
+              }
+            },
+            {
+              "Key": {
+                "MotionType": "EmotiMotion",
+                "Name": "PurifyReaction1"
+              },
+              "Value": {
+                "FrameSoundList": [
+                  {
+                    "Frame": 0.0,
+                    "SoundCode": "PurifyReaction1.Hero.Pancironne"
+                  }
+                ]
+              }
+            },
+            {
+              "Key": {
+                "MotionType": "EmotiMotion",
+                "Name": "PurifyReaction2"
+              },
+              "Value": {
+                "FrameSoundList": [
+                  {
+                    "Frame": 0.0,
+                    "SoundCode": "PurifyReaction2.Hero.Pancironne"
+                  }
+                ]
+              }
+            }
+          ]
+        }
       }
     ]
   }

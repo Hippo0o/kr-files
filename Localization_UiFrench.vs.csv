@@ -2553,7 +2553,7 @@ TOOLTIP_INFO_EVENT_REMIND1_TITLE,Donjon et décorations de Noël
 TOOLTIP_INFO_EVENT_REMIND2_TITLE,Niveau et progression du sapin de Noël
 TOOLTIP_INFO_EVENT_REMIND4_TITLE,Remarque
 TOOLTIP_INFO_EVENT_REMIND1,"Utilisez des biscuits du père Noël pour accéder au donjon d'événement de Noël. Une fois que vous avez terminé le donjon d'événement en mode Histoire, vous avez accès au donjon spécial, à condition de dépenser de l'endurance.\nChaque donjon renferme des ornements qui serviront à décorer le sapin de Noël.\nPlacez les ornements obtenus dans le donjon de Noël sur le sapin de Noël pour augmenter la progression des décorations."
-TOOLTIP_INFO_EVENT_REMIND2,"Augmentez le niveau de votre sapin de Noël grâce aux décorations.\nLorsque leur progression franchit un certain seuil, vous pourrez prétendre aux récompenses du niveau supérieur.\nLes récompenses varient selon le niveau du sapin, et si vous avez atteint le maximum, vous obtiendrez des coffrets d'aide du père Noël à chaque fois."
+TOOLTIP_INFO_EVENT_REMIND2,"Augmentez le niveau de votre sapin de Noël grâce aux décorations.\nLorsque leur progression franchit un certain seuil, vous pourrez prétendre aux récompenses du niveau supérieur.\nLes récompenses varient selon le niveau du sapin, et si vous avez atteint le maximum, vous obtiendrez des Coffrets du sapin de la sainte nuit à répétition."
 TOOLTIP_INFO_EVENT_REMIND4,Le niveau du sapin de Noël est réinitialisé toutes les 2 semaines. Pensez à récupérer votre récompense avant ce délai !
 TOOLTIP_INFO_EVENT_REWARD_LIST,Augmentez le niveau de votre sapin de Noël en le décorant à l'aide des objets obtenus dans le donjon d'événement. Voici les récompenses que vous pourrez obtenir à chaque niveau du sapin de Noël :
 EVENTCHRISTMAS.TITLE_REWARD_EVENT_ITEM_LEVEL,Niveau {1}
@@ -3919,6 +3919,7 @@ COSTUME_GROUP_SPORTSWARE1,Vêtement de Sport
 COSTUME_GROUP_CASAULFASHION1,Tenue décontractée
 COSTUME_GROUP_CASUALFASHION1,Tenue décontractée
 COSTUME_GROUP_HEROICCAREER1,Costume de Métier
+COSTUME_GROUP_FESTIVENOELS,Noël 3
 UI_SELECT_HERO_NONE,Aucun Héros disponible.
 UI_SELECT_COSTUME_NONE,Aucun costume disponible.
 FILTER_SELECT.FILTER_SELECT_PART,Afficher par partie
@@ -4097,7 +4098,7 @@ RESULT_TYPE_EQUIP_CHEST_FULL,Votre boîte de rangement est pleine.
 RESULT_TYPE_EQUIP_EXPEND_CHEST_FULL,Veuillez agrandir votre boîte de rangement.
 RESULT_TYPE_EQUIP_EXPEND_CHEST_FULL2,Veuillez trier votre boîte de rangement.
 EQUIP_ASK_EXTEND_MESSAGE_CHEST,Voulez-vous ajouter {1} emplacements à votre boîte de rangement ?
-EQUIP_ASK_EXTEND_MESSAGE_CHEST2,(Boîte de rangement : {1}/{2})
+EQUIP_ASK_EXTEND_MESSAGE_CHEST2,[Emplacements de la Boîte de rangement : {1}/{2}]
 INVENTORY.INVENTORY_ADD_CHEST_SLOT,Boîte de rangement agrandie de {1} emplacements.
 EQUIP_CHEST_ALL,Intégralité
 INVENTORY.INVENTORY_SET_CHEST,L'objet a été déplacé dans la Boîte de Rangement.
@@ -5595,21 +5596,31 @@ TOOLTIP_INFO_NAME_EVENT_DESTINYLIGHT_THREAD,Écheveau du Destin
 TOOLTIP_INFO_NAME_NAME_DESTINYLIGHT_PIRCEOFCLOTH,Étoffe du Destin
 TOOLTIP_INFO_NAME_TEXT_DESTINYLIGHT_PIRCEOFCLOTH,Vous pouvez obtenir cet objet lorsque vous accomplissez le donjon Lieu où se dirige la lumière du destin. Il est utilisé pour acheter divers objets dans la boutique d'événement.
 SHOP_NAME_2019_DESTINYLIGHT_SHOP,Boutique spéciale d'événement
-EVENT_REWARD_GET_NOTICE_MESSAGE,Veuillez récupérer d'abord la récompense de l'étape précédente.
 DESTINYLIGHT_EVENT_SPECIAL_DUNGEON_DESC1_1,"Les ennemis possèdent une grande capacité de récupération ! Employez les effets de réduction de la récupération afin d'empêcher les ennemis de restaurer leurs PV ! Demia attire les ennemis éloignés par intervalle régulier, alors prenez garde !"
 DESTINYLIGHT_EVENT_SPECIAL_DUNGEON_DESC2_1,L'effet diffère selon la couleur de la lumière que Chrisha possède ! Vous devez réagir rapidement selon les compétences employées par Chrisha !\n[Lumière rouge] – Le taux d'ATQ de Chrisha augmente de manière considérable.\n[Lumière bleue] – La DEF de Chrisha augmente de manière considérable.\n[Lumière verte] – Les effets négatifs sur Chrisha sont dissipées de manière régulière.
 DESTINYLIGHT_EVENT_SPECIAL_DUNGEON_DESC3_1,"Porte-Frayeur possède une puissante barrière de protection, alors il est immunisé contre les DEG pendant un nombre d'attaques déterminé ! De plus, la sphère ténébreuse détruirait tous les ennemis en même temps, alors neutralisez-la en utilisant les compétences de contrôle !"
-GUILD_ARENA_MEMBER_DEFENCE_TEAM,Équipe de défense de membres de guilde
-PAYSHOP_PREPURCHASE_HALLOWEEN_2019_ARTIFACT,Offert après le 5e achat : 'Esprit maléfique coincé dans une citrouille'
-GUILD_ARENA_MY_DEFENCE_TEAM,Mon équipe de défense
-HERO_PROFILE,Profil
-SUBSTORY_SUB_BUTTON_NAME,Voir l'anniversaire
-19HALLOWEEN_EVENT_SPECIAL_DUNGEON_DESC1_1,"En recevant le Canon à eau de Mediana, il vous sera difficile d'avancer ! Alors préparez-vous à l'avance afin de ne pas être repoussé."
-19HALLOWEEN_EVENT_SPECIAL_DUNGEON_DESC2_1,"Yuria recouvre l'ennemi avec le vêtement afin de le neutraliser ! Dissipez rapidement l'effet, afin d'éviter une puissante attaque de la part de Yuria."
-19HALLOWEEN_EVENT_SPECIAL_DUNGEON_DESC3_1,L'allié à portée de l'attaque de Bernheim sera en grand danger ! Il faut l'attaquer de plus loin possible.
-19HALLOWEEN_EVENT_SPECIAL_DUNGEON_DESC4_1,"Kara en mode arme de siège attaque continuellement l'ennemi. Parmi les 3 Kara présentes, focalisez-vous sur Kara en mode arme de siège afin de vous en débarrasser au plus vite !"
-19HALLOWEEN_EVENT_SPECIAL_DUNGEON_SUB_TITLE1,Donjon spécial de Halloween 1
-19HALLOWEEN_EVENT_SPECIAL_DUNGEON_SUB_TITLE2,Donjon spécial de Halloween 2
-19HALLOWEEN_EVENT_SPECIAL_DUNGEON_SUB_TITLE3,Donjon spécial de Halloween 3
-19HALLOWEEN_EVENT_SPECIAL_DUNGEON_SUB_TITLE4,Donjon spécial de Halloween 4
-SELECT_ITEM_OPTION_SORT,Aligner les options
+EQUIP_INVENTORY_EXPAND_COST1,250 Rubis sont utilisés si les emplacements dans l'inventaire sont inférieurs à 800.
+EQUIP_INVENTORY_EXPAND_COST2,500 Rubis sont utilisés si les emplacements dans l'inventaire sont égaux ou supérieurs à 800.
+EQUIP_INVENTORY_EXPAND_LINK,Raccourci vers [Ticket d'extension]
+NODE_HERODUNGEON_NAME,Donjon spécial de Héros
+EVENT_NAME_HERODUNGEON_PANCIRONNE,Épisode – Pansirone
+HERO_DUNGEON_CONDITION,"Acquérez Pansirone,\net accomplissez le niveau précédent pour déverrouiller"
+EVENT_INFO_HERODUNGEON,Guide du Donjon spécial de Héros
+EVENT_INFO_NAME_HERODUNGEON_PANCIRONNE,Donjon spécial de Héros – Pansirone
+EVENT_INFO_DESC_HERODUNGEON_PANCIRONNE,"Le donjon spécial de Héros est un donjon d'événement où vous pouvez recevoir encore plus de récompenses si vous possédez et faites progresser le Héros correspondant.\n\nLors de la première entrée, vous recevez 'Pelle de travail' x5, et une fois que vous les avez toutes utilisées, 1 pelle est rechargée tous les jours.\nÀ partir du 2ème donjon, vous devez posséder le Héros 'Pansirone' pour y accéder.\n\nVous pouvez offrir les objets obtenus dans le donjon à Pansirone pour recevoir divers récompenses,\net Envoyer un cadeau est disponible même si vous ne possédez pas Pansirone.\n\nRecrutez Pansirone pour voir les épisodes spéciaux et recevoir de nombreuses récompenses !"
+EVENT_HERODUNGEON_TICKET,Pelle de travail
+EVENT_HERODUNGEON_PANCIRONNE_NAME1,Site de fouilles des reliques
+EVENT_HERODUNGEON_PANCIRONNE_DESC1,Officier supérieur pénible
+EVENT_HERODUNGEON_PANCIRONNE_NAME2,Casse-pieds redoutable
+EVENT_HERODUNGEON_PANCIRONNE_DESC2,Gâchis du membre talentueux
+EVENT_HERODUNGEON_PANCIRONNE_NAME3,D'une pierre deux coups
+EVENT_HERODUNGEON_PANCIRONNE_DESC3,Pas intéressée !
+EVENT_HERODUNGEON_PANCIRONNE_NAME4,Tu es la seule à pouvoir le faire
+EVENT_HERODUNGEON_PANCIRONNE_DESC4,Celle qui peut y atteindre
+EVENT_HERODUNGEON_PANCIRONNE_NAME5,Rapport du résultat de la fouille
+EVENT_HERODUNGEON_PANCIRONNE_DESC5,Illumination
+EVENT_SERIA_FIGURE_PACKAGE_TITLE,Pack de Seria
+EVENT_SERIA_FIGURE_PACKAGE_CONTENT,Nous vous remercions d'avoir acheté la Figurine de Seria.
+SHOP_TAB_DAILY,Abonnement
+NEWBIE_REWARD_MAIL_TITLE,Joyeux Noël ! Cadeau de Noël destiné aux nouveaux joueurs
+NEWBIE_REWARD_MAIL_CONTENT,Nous offrons [Ticket de Héros 5★] aux joueurs qui viennent de commencer King's Raid.\nUtilisez le Ticket de Héros 5★ dans l'onglet Consommation de l'Inventaire et choisissez le Héros qui vous plaît.\nNous vous souhaitons de profiter pleinement de King's Raid !\n\n※ Ce message sera supprimé le 31 décembre (mardi) à 23 h 59.

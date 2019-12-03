@@ -7571,7 +7571,7 @@
     "NextNodeIndex": [
       "101",
       " 30",
-      " 40 "
+      " 40"
     ],
     "Oneway": "False",
     "Opened": "False",
@@ -12566,6 +12566,28 @@
   },
   {
     "ChapterIndex": 99,
+    "DungeonIndex": 35,
+    "NodePrefab": "HeroDungeon_Pancironne",
+    "FunctionButton": "Event_HeroDungeon_Pancironne_Button",
+    "Function": "EntryMenu",
+    "Code": [
+      "NODE_HERODUNGEON_NAME"
+    ],
+    "UiPositionX": 1815,
+    "UiPositionY": 2255,
+    "NextNodeIndex": [
+      "115",
+      "119"
+    ],
+    "Oneway": "False",
+    "Opened": "True",
+    "Hidden": "True",
+    "EntryNPCCode": "Square_HeroDungeon_Pancironne",
+    "ContentsType": "Square",
+    "OpenBackgroundDownloading": "True"
+  },
+  {
+    "ChapterIndex": 99,
     "DungeonIndex": 101,
     "UiPositionX": 3221,
     "UiPositionY": 2537,
@@ -12734,7 +12756,8 @@
     "UiPositionY": 2135,
     "NextNodeIndex": [
       "116",
-      "118"
+      "118",
+      "35"
     ],
     "Oneway": "False",
     "Opened": "False"

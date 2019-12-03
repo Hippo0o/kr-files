@@ -1114,7 +1114,8 @@
     ],
     "ExtraSkill": [
       "801",
-      "844"
+      "844",
+      "93000812"
     ],
     "GetTranscendSkillPoint": [
       "10",
@@ -2770,7 +2771,8 @@
       "1914",
       "1924",
       "1901",
-      "1944"
+      "1944",
+      "93001911"
     ],
     "GetTranscendSkillPoint": [
       "10",
@@ -2926,7 +2928,8 @@
       "2034",
       "2035",
       "2036",
-      "2044"
+      "2044",
+      "93002012"
     ],
     "GetTranscendSkillPoint": [
       "10",
@@ -4001,7 +4004,8 @@
     ],
     "ExtraSkill": [
       "2744",
-      "2745"
+      "2745",
+      "93002711"
     ],
     "GetTranscendSkillPoint": [
       "10",
@@ -7226,7 +7230,7 @@
   {
     "Index": 48,
     "CodeName": "Hero.Rehartna",
-    "OpenStatus": "New",
+    "OpenStatus": "Normal",
     "OpenType": "Opened",
     "Race": "Hero",
     "TagType": "Priest",
@@ -11111,8 +11115,8 @@
   {
     "Index": 72,
     "CodeName": "Hero.Pancironne",
-    "OpenStatus": "Normal",
-    "OpenType": "None",
+    "OpenStatus": "New",
+    "OpenType": "Opened",
     "Race": "Hero",
     "TagType": "Mechanic",
     "AttrType": [
@@ -11139,6 +11143,9 @@
       "7212",
       "7213"
     ],
+    "LinkedSkillIndex1": [
+      "7244"
+    ],
     "SkillIndex2": 7220,
     "SkillExtend2": [
       "7221",
@@ -11157,12 +11164,15 @@
       "7242",
       "7243"
     ],
+    "ExtraActiveSkill": [
+      "7244"
+    ],
     "ExtraSkill": [
-      "7224",
-      "7225",
+      "7234",
       "7244",
       "7245",
-      "7246"
+      "7246",
+      "93007211"
     ],
     "GetTranscendSkillPoint": [
       "10",
@@ -11228,28 +11238,28 @@
       "15"
     ],
     "SoulWeaponBasicSkillIndex": 93007200,
-    "StartHeroStar": 3,
-    "OpenDate": 191126,
+    "StartHeroStar": 4,
+    "OpenDate": 191203,
     "AddStamina": 1,
     "HeroPositionIcon1": "icon_raidmacro_attack",
     "HeroPositionText1": "HERO_POSITION_15",
     "HeroPositionIcon2": "icon_raidmacro_attack",
-    "HeroPositionText2": "HERO_POSITION_33",
+    "HeroPositionText2": "HERO_POSITION_7",
     "TranscendRecommend1": [
       "60000001",
       "60000033",
-      "60007010",
-      "60007020",
-      "60007030",
-      "60007051"
+      "60000021",
+      "60007210",
+      "60007250",
+      "60007251"
     ],
     "TranscendRecommend3": [
       "60000001",
       "60000002",
       "60000021",
-      "60007040",
-      "60007021",
-      "60007050"
+      "60007230",
+      "60007240",
+      "60007250"
     ],
     "EquipoptionRecommend1": [
       "STAT_TYPE.PHYSICAL_ATTACK",
@@ -11257,8 +11267,8 @@
       "STAT_TYPE.PHYSICAL_CRITICAL_CHANCE"
     ],
     "EquipoptionRecommend3": [
-      "STAT_TYPE.PHYSICAL_ATTACK",
-      "STAT_TYPE.PHYSICAL_CRITICAL_POWER",
+      "STAT_TYPE.MP_ON_ATTACK",
+      "STAT_TYPE.PHYSICAL_ATTACK_SPEED",
       "STAT_TYPE.PHYSICAL_CRITICAL_CHANCE"
     ]
   },
@@ -11486,7 +11496,8 @@
       "7548",
       "7525",
       "7536",
-      "7537"
+      "7537",
+      "93007511"
     ],
     "GetTranscendSkillPoint": [
       "10",
@@ -13052,7 +13063,8 @@
       "9724",
       "9746",
       "9747",
-      "9748"
+      "9748",
+      "93009712"
     ],
     "GetTranscendSkillPoint": [
       "10",
@@ -17639,8 +17651,6 @@
       "7243"
     ],
     "ExtraSkill": [
-      "7224",
-      "7225",
       "7244",
       "7245",
       "7246"
@@ -22739,8 +22749,6 @@
       "7243"
     ],
     "ExtraSkill": [
-      "7224",
-      "7225",
       "7244",
       "7245",
       "7246"
@@ -24265,6 +24273,28 @@
   {
     "Index": 826,
     "CodeName": "NPC.Yuria",
+    "Race": "NPC",
+    "AttrType": [
+      "Physical"
+    ],
+    "AttackWeakType": [
+      "Fire"
+    ],
+    "PositionType": "Middle",
+    "PositionWeight": 3030,
+    "MoveSpeed": 5000,
+    "MinDamageRate": 204,
+    "IgnoreCc": [
+      "False"
+    ],
+    "SizeMm": 500,
+    "HeightMm": 1660,
+    "GradeStoneItemCode": "NO_ITEM",
+    "StarStoneItemCode": "NO_ITEM"
+  },
+  {
+    "Index": 827,
+    "CodeName": "NPC.Pancironne",
     "Race": "NPC",
     "AttrType": [
       "Physical"
@@ -45611,9 +45641,49 @@
     "HeightMm": 1850
   },
   {
+    "Index": 901005,
+    "CodeName": "Object.UniqueWeapon.Gau",
+    "ModelCode": "Object.GauUnique",
+    "Race": "NPC",
+    "SizeMm": 500,
+    "HeightMm": 1850
+  },
+  {
+    "Index": 901006,
+    "CodeName": "Object.UniqueWeapon.Phillop",
+    "ModelCode": "Object.PhillopUnique",
+    "Race": "NPC",
+    "SizeMm": 500,
+    "HeightMm": 1850
+  },
+  {
+    "Index": 901007,
+    "CodeName": "Object.UniqueWeapon.Lakrak",
+    "ModelCode": "Object.LakrakUnique",
+    "Race": "NPC",
+    "SizeMm": 500,
+    "HeightMm": 1850
+  },
+  {
+    "Index": 901008,
+    "CodeName": "Object.UniqueWeapon.Kaulah",
+    "ModelCode": "Object.KaulahUnique",
+    "Race": "NPC",
+    "SizeMm": 500,
+    "HeightMm": 1850
+  },
+  {
     "Index": 901009,
     "CodeName": "Object.UniqueWeapon.Epis",
     "ModelCode": "Object.EpisUnique",
+    "Race": "NPC",
+    "SizeMm": 500,
+    "HeightMm": 1850
+  },
+  {
+    "Index": 901010,
+    "CodeName": "Object.UniqueWeapon.Selene",
+    "ModelCode": "Object.SeleneUnique",
     "Race": "NPC",
     "SizeMm": 500,
     "HeightMm": 1850
@@ -45630,6 +45700,14 @@
     "Index": 901012,
     "CodeName": "Object.UniqueWeapon.Miruru",
     "ModelCode": "Object.MiruruUnique",
+    "Race": "NPC",
+    "SizeMm": 500,
+    "HeightMm": 1850
+  },
+  {
+    "Index": 901013,
+    "CodeName": "Object.UniqueWeapon.Lorraine",
+    "ModelCode": "Object.LorraineUnique",
     "Race": "NPC",
     "SizeMm": 500,
     "HeightMm": 1850
@@ -45667,6 +45745,22 @@
     "HeightMm": 1850
   },
   {
+    "Index": 901019,
+    "CodeName": "Object.UniqueWeapon.Pavel",
+    "ModelCode": "Object.PavelUnique",
+    "Race": "NPC",
+    "SizeMm": 500,
+    "HeightMm": 1850
+  },
+  {
+    "Index": 901020,
+    "CodeName": "Object.UniqueWeapon.Demia",
+    "ModelCode": "Object.DemiaUnique",
+    "Race": "NPC",
+    "SizeMm": 500,
+    "HeightMm": 1850
+  },
+  {
     "Index": 901021,
     "CodeName": "Object.UniqueWeapon.Naila",
     "ModelCode": "Object.NailaUnique",
@@ -45691,6 +45785,14 @@
     "HeightMm": 1850
   },
   {
+    "Index": 901024,
+    "CodeName": "Object.UniqueWeapon.Baudouin",
+    "ModelCode": "Object.BaudouinUnique",
+    "Race": "NPC",
+    "SizeMm": 500,
+    "HeightMm": 1850
+  },
+  {
     "Index": 901025,
     "CodeName": "Object.UniqueWeapon.Jane",
     "ModelCode": "Object.JaneUnique",
@@ -45702,6 +45804,14 @@
     "Index": 901026,
     "CodeName": "Object.UniqueWeapon.Aisha",
     "ModelCode": "Object.AishaUnique",
+    "Race": "NPC",
+    "SizeMm": 500,
+    "HeightMm": 1850
+  },
+  {
+    "Index": 901027,
+    "CodeName": "Object.UniqueWeapon.Leo",
+    "ModelCode": "Object.LeoUnique",
     "Race": "NPC",
     "SizeMm": 500,
     "HeightMm": 1850
@@ -46059,9 +46169,25 @@
     "HeightMm": 1850
   },
   {
+    "Index": 901072,
+    "CodeName": "Object.UniqueWeapon.Pancironne",
+    "ModelCode": "Object.PancironneUnique",
+    "Race": "NPC",
+    "SizeMm": 500,
+    "HeightMm": 1850
+  },
+  {
     "Index": 901073,
     "CodeName": "Object.UniqueWeapon.Chase",
     "ModelCode": "Object.ChaseUnique",
+    "Race": "NPC",
+    "SizeMm": 500,
+    "HeightMm": 1850
+  },
+  {
+    "Index": 901075,
+    "CodeName": "Object.UniqueWeapon.Dakaris",
+    "ModelCode": "Object.DakarisUnique",
     "Race": "NPC",
     "SizeMm": 500,
     "HeightMm": 1850
@@ -46086,6 +46212,14 @@
     "Index": 901090,
     "CodeName": "Object.UniqueWeapon.May",
     "ModelCode": "Object.MayUnique",
+    "Race": "NPC",
+    "SizeMm": 500,
+    "HeightMm": 1850
+  },
+  {
+    "Index": 901091,
+    "CodeName": "Object.UniqueWeapon.Gladi",
+    "ModelCode": "Object.GladiUnique",
     "Race": "NPC",
     "SizeMm": 500,
     "HeightMm": 1850
@@ -46126,6 +46260,14 @@
     "Index": 901096,
     "CodeName": "Object.UniqueWeapon.Dosarta",
     "ModelCode": "Object.DosartaUnique",
+    "Race": "NPC",
+    "SizeMm": 500,
+    "HeightMm": 1850
+  },
+  {
+    "Index": 901097,
+    "CodeName": "Object.UniqueWeapon.Hanus",
+    "ModelCode": "Object.HanusUnique",
     "Race": "NPC",
     "SizeMm": 500,
     "HeightMm": 1850
@@ -46175,10 +46317,55 @@
     "HeightMm": 1850
   },
   {
+    "Index": 911005,
+    "CodeName": "Object.SoulStone.Gau",
+    "ModelCode": "Object.SoulStone",
+    "ModelPrefix": "SoulStoneGau",
+    "Race": "NPC",
+    "SizeMm": 500,
+    "HeightMm": 1850
+  },
+  {
+    "Index": 911006,
+    "CodeName": "Object.SoulStone.Phillop",
+    "ModelCode": "Object.SoulStone",
+    "ModelPrefix": "SoulStonePhillop",
+    "Race": "NPC",
+    "SizeMm": 500,
+    "HeightMm": 1850
+  },
+  {
+    "Index": 911007,
+    "CodeName": "Object.SoulStone.Lakrak",
+    "ModelCode": "Object.SoulStone",
+    "ModelPrefix": "SoulStoneLakrak",
+    "Race": "NPC",
+    "SizeMm": 500,
+    "HeightMm": 1850
+  },
+  {
+    "Index": 911008,
+    "CodeName": "Object.SoulStone.Kaulah",
+    "ModelCode": "Object.SoulStone",
+    "ModelPrefix": "SoulStoneKaulah",
+    "Race": "NPC",
+    "SizeMm": 500,
+    "HeightMm": 1850
+  },
+  {
     "Index": 911009,
     "CodeName": "Object.SoulStone.Epis",
     "ModelCode": "Object.SoulStone",
     "ModelPrefix": "SoulStoneEpis",
+    "Race": "NPC",
+    "SizeMm": 500,
+    "HeightMm": 1850
+  },
+  {
+    "Index": 911010,
+    "CodeName": "Object.SoulStone.Selene",
+    "ModelCode": "Object.SoulStone",
+    "ModelPrefix": "SoulStoneSelene",
     "Race": "NPC",
     "SizeMm": 500,
     "HeightMm": 1850
@@ -46197,6 +46384,15 @@
     "CodeName": "Object.SoulStone.Miruru",
     "ModelCode": "Object.SoulStone",
     "ModelPrefix": "SoulStoneMiruru",
+    "Race": "NPC",
+    "SizeMm": 500,
+    "HeightMm": 1850
+  },
+  {
+    "Index": 911013,
+    "CodeName": "Object.SoulStone.Lorraine",
+    "ModelCode": "Object.SoulStone",
+    "ModelPrefix": "SoulStoneLorraine",
     "Race": "NPC",
     "SizeMm": 500,
     "HeightMm": 1850
@@ -46238,6 +46434,24 @@
     "HeightMm": 1850
   },
   {
+    "Index": 911019,
+    "CodeName": "Object.SoulStone.Pavel",
+    "ModelCode": "Object.SoulStone",
+    "ModelPrefix": "SoulStonePavel",
+    "Race": "NPC",
+    "SizeMm": 500,
+    "HeightMm": 1850
+  },
+  {
+    "Index": 911020,
+    "CodeName": "Object.SoulStone.Demia",
+    "ModelCode": "Object.SoulStone",
+    "ModelPrefix": "SoulStoneDemia",
+    "Race": "NPC",
+    "SizeMm": 500,
+    "HeightMm": 1850
+  },
+  {
     "Index": 911021,
     "CodeName": "Object.SoulStone.Naila",
     "ModelCode": "Object.SoulStone",
@@ -46265,6 +46479,15 @@
     "HeightMm": 1850
   },
   {
+    "Index": 911024,
+    "CodeName": "Object.SoulStone.Baudouin",
+    "ModelCode": "Object.SoulStone",
+    "ModelPrefix": "SoulStoneBaudouin",
+    "Race": "NPC",
+    "SizeMm": 500,
+    "HeightMm": 1850
+  },
+  {
     "Index": 911025,
     "CodeName": "Object.SoulStone.Jane",
     "ModelCode": "Object.SoulStone",
@@ -46278,6 +46501,15 @@
     "CodeName": "Object.SoulStone.Aisha",
     "ModelCode": "Object.SoulStone",
     "ModelPrefix": "SoulStoneAisha",
+    "Race": "NPC",
+    "SizeMm": 500,
+    "HeightMm": 1850
+  },
+  {
+    "Index": 911027,
+    "CodeName": "Object.SoulStone.Leo",
+    "ModelCode": "Object.SoulStone",
+    "ModelPrefix": "SoulStoneLeo",
     "Race": "NPC",
     "SizeMm": 500,
     "HeightMm": 1850
@@ -46679,10 +46911,28 @@
     "HeightMm": 1850
   },
   {
+    "Index": 911072,
+    "CodeName": "Object.SoulStone.Pancironne",
+    "ModelCode": "Object.SoulStone",
+    "ModelPrefix": "SoulStonePancironne",
+    "Race": "NPC",
+    "SizeMm": 500,
+    "HeightMm": 1850
+  },
+  {
     "Index": 911073,
     "CodeName": "Object.SoulStone.Chase",
     "ModelCode": "Object.SoulStone",
     "ModelPrefix": "SoulStoneChase",
+    "Race": "NPC",
+    "SizeMm": 500,
+    "HeightMm": 1850
+  },
+  {
+    "Index": 911075,
+    "CodeName": "Object.SoulStone.Dakaris",
+    "ModelCode": "Object.SoulStone",
+    "ModelPrefix": "SoulStoneDakaris",
     "Race": "NPC",
     "SizeMm": 500,
     "HeightMm": 1850
@@ -46710,6 +46960,15 @@
     "CodeName": "Object.SoulStone.May",
     "ModelCode": "Object.SoulStone",
     "ModelPrefix": "SoulStoneMay",
+    "Race": "NPC",
+    "SizeMm": 500,
+    "HeightMm": 1850
+  },
+  {
+    "Index": 911091,
+    "CodeName": "Object.SoulStone.Gladi",
+    "ModelCode": "Object.SoulStone",
+    "ModelPrefix": "SoulStoneGladi",
     "Race": "NPC",
     "SizeMm": 500,
     "HeightMm": 1850
@@ -46755,6 +47014,15 @@
     "CodeName": "Object.SoulStone.Dosarta",
     "ModelCode": "Object.SoulStone",
     "ModelPrefix": "SoulStoneDosarta",
+    "Race": "NPC",
+    "SizeMm": 500,
+    "HeightMm": 1850
+  },
+  {
+    "Index": 911097,
+    "CodeName": "Object.SoulStone.Hanus",
+    "ModelCode": "Object.SoulStone",
+    "ModelPrefix": "SoulStoneHanus",
     "Race": "NPC",
     "SizeMm": 500,
     "HeightMm": 1850
@@ -48843,5 +49111,128 @@
       "15"
     ],
     "ReplaceNameKey": "CREATURE_NAME_560"
+  },
+  {
+    "Index": 40126,
+    "CodeName": "Monster.Event.2019_SpecialDungeon.Fluss",
+    "ModelCode": "Hero.Fluss",
+    "ModelPrefix": "Vari03",
+    "Race": "Hero",
+    "AttrType": [
+      "Physical"
+    ],
+    "AttackWeakType": [
+      "Fire"
+    ],
+    "PositionType": "Forward",
+    "PositionWeight": 500,
+    "MoveSpeed": 5000,
+    "MinDamageRate": 200,
+    "IgnoreCc": [
+      "False"
+    ],
+    "SizeMm": 700,
+    "HeightMm": 1600,
+    "GradeStoneItemCode": "SKILLBOOK_ASSASSIN_1",
+    "StarStoneItemCode": "NO_ITEM",
+    "BaseSkillIndex": 2800,
+    "SkillIndex1": 2810,
+    "SkillExtend1": [
+      "2811",
+      "2812",
+      "2813"
+    ],
+    "SkillIndex2": 2820,
+    "SkillExtend2": [
+      "2821",
+      "2822",
+      "2823"
+    ],
+    "SkillIndex3": 2830,
+    "SkillExtend3": [
+      "2831",
+      "2832",
+      "2833"
+    ],
+    "SkillIndex4": 2840,
+    "SkillExtend4": [
+      "2841",
+      "2842",
+      "2843"
+    ],
+    "ExtraSkill": [
+      "2824",
+      "2825",
+      "2826",
+      "2827",
+      "2828",
+      "2829"
+    ],
+    "GetTranscendSkillPoint": [
+      "10",
+      "15",
+      "15",
+      "15",
+      "25"
+    ],
+    "TranscendSkill1": [
+      "60000001",
+      "60000002",
+      "60000003",
+      "60000004",
+      "60000033"
+    ],
+    "ReqSkillPoint1": [
+      "10",
+      "10",
+      "10",
+      "10",
+      "10"
+    ],
+    "TranscendSkill2": [
+      "60000013",
+      "60000014",
+      "60000015",
+      "60000016",
+      "60000036"
+    ],
+    "ReqSkillPoint2": [
+      "15",
+      "15",
+      "15",
+      "15",
+      "15"
+    ],
+    "TranscendSkill3": [
+      "60002810",
+      "60002811",
+      "60002820",
+      "60002821",
+      "60002830",
+      "60002831",
+      "60002840",
+      "60002841"
+    ],
+    "ReqSkillPoint3": [
+      "15",
+      "15",
+      "15",
+      "15",
+      "15",
+      "15",
+      "15",
+      "15"
+    ],
+    "TranscendSkill5": [
+      "60002850",
+      "60002851"
+    ],
+    "ReqSkillPoint5": [
+      "15",
+      "15"
+    ],
+    "SoulWeaponBasicSkillIndex": 93002800,
+    "StartHeroStar": 3,
+    "ReplaceNameKey": "CREATURE_NAME_28"
   }
 ]

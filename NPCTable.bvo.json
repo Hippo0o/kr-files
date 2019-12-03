@@ -1263,6 +1263,63 @@
     "MenuTitleKey": "SQUARE_NAME_NORMAL_SUB"
   },
   {
+    "Code": "Square_HeroDungeon_Pancironne",
+    "HeroIndex": 827,
+    "OnOpenEntryMenu": [
+      "NPC_PANCIRONNE_WELCOME02",
+      " Voice.Hero.Pancironne.Welcome01",
+      " InnReaction",
+      "\nNPC_PANCIRONNE_WELCOME03",
+      " Voice.Hero.Pancironne.Welcome01",
+      " InnReaction",
+      "\nNPC_PANCIRONNE_WELCOME04",
+      " Voice.Hero.Pancironne.Welcome01",
+      " InnReaction"
+    ],
+    "OnTouch": [
+      "NPC_PANCIRONNE_WELCOME01",
+      " Voice.Hero.Pancironne.Welcome01",
+      " InnReaction",
+      "\nNPC_PANCIRONNE_WELCOME02",
+      " Voice.Hero.Pancironne.Welcome01",
+      " InnReaction",
+      "\nNPC_PANCIRONNE_WELCOME03",
+      " Voice.Hero.Pancironne.Welcome01",
+      " InnReaction"
+    ],
+    "EntryMenuButton1": [
+      "EVENT_NAME_HERODUNGEON_PANCIRONNE",
+      "OpenEventDungeon",
+      "30031",
+      "1"
+    ],
+    "EntryMenuCondition1": "EventExist,EventDungeon,30031",
+    "EntryMenuButton2": [
+      "HEROINN_GIFT",
+      "OpenEventStepRewardView",
+      "EventGiftItem",
+      "3",
+      "Pancironne"
+    ],
+    "EntryMenuCondition2": "EventExist,EventShop,HeroDungeon_Pancironne_Shop",
+    "EntryMenuButton3": [
+      "EVENT_INFO_HERODUNGEON",
+      "OpenHelp",
+      "EVENT_INFO_NAME_HERODUNGEON_PANCIRONNE",
+      "EVENT_INFO_DESC_HERODUNGEON_PANCIRONNE"
+    ],
+    "EntryMenuCondition3": "EventExist,EventShop,HeroDungeon_Pancironne_Shop",
+    "CreatureIndex": 827,
+    "NpcOffset": [
+      "100",
+      "50"
+    ],
+    "NpcAngle": -90,
+    "NpcScale": 110,
+    "MenuIconType": "Event_HeroDungeon_Pancironne",
+    "MenuTitleKey": "NODE_HERODUNGEON_NAME"
+  },
+  {
     "Code": "NormalShop",
     "HeroIndex": 90,
     "ShowHeroBuffIcon": "True",

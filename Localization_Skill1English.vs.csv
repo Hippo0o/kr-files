@@ -407,6 +407,7 @@ SKILL_DESC_91007012,[Outta the Way!] Reduces Mana Cost by 1 and increases P.DMG 
 SKILL_DESC_91007013,[Outta the Way!] Reduces Mana Cost by 1 and increases P.DMG the target takes by 17% for 10 sec.
 SKILL_DESC_91007014,[Outta the Way!] Reduces Mana Cost by 1 and increases P.DMG the target takes by 21% for 10 sec.
 SKILL_DESC_91007015,[Outta the Way!] Reduces Mana Cost by 1 and increases P.DMG the target takes by 25% for 10 sec.
+SKILL_DESC_91007210,[A Present For You!] Reduces Mana Cost by 1.\n[Now D.I.E!] Increases DMG by {1}%.
 SKILL_DESC_91007310,"[I'll Break You!] Gains immunity to CC for the skill's duration, and recovers Mana by 200 upon hit."
 SKILL_DESC_91007311,"[I'll Break You!] Gains immunity to CC for the skill's duration, and recovers Mana by 240 upon hit."
 SKILL_DESC_91007312,"[I'll Break You!] Gains immunity to CC for the skill's duration, and recovers Mana by 290 upon hit."
@@ -875,6 +876,7 @@ SKILL_DESC_91007032,[WA-TAAAAAH!!!] Increases own DMG to Boss by 5.8% per every 
 SKILL_DESC_91007033,[WA-TAAAAAH!!!] Increases own DMG to Boss by 7% per every Skill use. This effect can be stacked up to max 10 times. Reduces Mana Cost of [Special Move. Meteor Kick!!!] by 1.
 SKILL_DESC_91007034,[WA-TAAAAAH!!!] Increases own DMG to Boss by 8.4% per every Skill use. This effect can be stacked up to max 10 times. Reduces Mana Cost of [Special Move. Meteor Kick!!!] by 1.
 SKILL_DESC_91007035,[WA-TAAAAAH!!!] Increases own DMG to Boss by 10% per every Skill use. This effect can be stacked up to max 10 times. Reduces Mana Cost of [Special Move. Meteor Kick!!!] by 1.
+SKILL_DESC_91007230,"[Don't You Dare Run!] Increases DMG by 50%, and each hit increases Crit DMG by {2}% for {1} sec. This effect can be stacked up to max {3} times."
 SKILL_DESC_91007330,"[Burn, Spear of Fury] Reduces Mana Cost by 1 and increases DMG by 20%."
 SKILL_DESC_91007331,"[Burn, Spear of Fury] Reduces Mana Cost by 1 and increases DMG by 24%."
 SKILL_DESC_91007332,"[Burn, Spear of Fury] Reduces Mana Cost by 1 and increases DMG by 29%."
@@ -1343,6 +1345,7 @@ SKILL_DESC_91007022,[Infinite Potential] Dispels negative effects from self and 
 SKILL_DESC_91007023,[Infinite Potential] Dispels negative effects from self and increases DMG by 35%.
 SKILL_DESC_91007024,[Infinite Potential] Dispels negative effects from self and increases DMG by 42%.
 SKILL_DESC_91007025,[Infinite Potential] Dispels negative effects from self and increases DMG by 50%.
+SKILL_DESC_91007220,"[The Thrill! How Exciting!!] Upon using the Skill, dispels negative effects from self and gains immunity to CC for {1} sec upon activation."
 SKILL_DESC_91007320,"[Remove Limit] For the skill's duration, deals P.DMG by 40% ATK every second to nearby enemies and increases Recovery by 30%."
 SKILL_DESC_91007321,"[Remove Limit] For the skill's duration, deals P.DMG by 48% ATK every second to nearby enemies and increases Recovery by 30%."
 SKILL_DESC_91007322,"[Remove Limit] For the skill's duration, deals P.DMG by 58% ATK every second to nearby enemies and increases Recovery by 30%."
@@ -1811,6 +1814,7 @@ SKILL_DESC_91007042,"[Inborn Talent] At the beginning of each battle, deals 14% 
 SKILL_DESC_91007043,"[Inborn Talent] At the beginning of each battle, deals 17% increased DMG to Non-Hero enemies and takes 25% reduced DMG for 20 sec."
 SKILL_DESC_91007044,"[Inborn Talent] At the beginning of each battle, deals 21% increased DMG to Non-Hero enemies and takes 25% reduced DMG for 20 sec."
 SKILL_DESC_91007045,"[Inborn Talent] At the beginning of each battle, deals 25% increased DMG to Non-Hero enemies and takes 25% reduced DMG for 20 sec."
+SKILL_DESC_91007240,"[Cruel Delight] Increases Crit DMG by {1}%, and reduces self's Cooldown of all Skills by {2} sec."
 SKILL_DESC_91007340,"[Remember This in Hell] Increases the duration of resurrection by 1 sec, and gains immunity to CC for 1 sec upon resurrection."
 SKILL_DESC_91007341,"[Remember This in Hell] Increases the duration of resurrection by 1 sec, and gains immunity to CC for 1.5 sec upon resurrection."
 SKILL_DESC_91007342,"[Remember This in Hell] Increases the duration of resurrection by 1 sec, and gains immunity to CC for 2 sec upon resurrection."
@@ -1885,39 +1889,33 @@ SKILL_DESC_93000302,Increases DMG by {1}%. Each stack grants {2}% ATK Boost effe
 SKILL_DESC_93000400,"Summons the soul of Specter's Breath, Redeal for [64ffff]{1}[-] sec, increasing own Crit DMG by [64ff64]{2}[-]%. Each time Roi casts Blade Claw, the soul of Specter's Breath, Redeal deals [ffc800]{3}[-] additional DMG."
 SKILL_DESC_93000401,Reduces Cooldown by {1} sec.
 SKILL_DESC_93000402,Inflicts {1} stack(s) of Bleed on the hit enemy.
-SKILL_DESC_93000500,
-SKILL_DESC_93000501,
-SKILL_DESC_93000502,
-SKILL_DESC_93000510,
-SKILL_DESC_93000600,
-SKILL_DESC_93000601,
-SKILL_DESC_93000602,
-SKILL_DESC_93000610,
-SKILL_DESC_93000700,
-SKILL_DESC_93000701,
-SKILL_DESC_93000702,
-SKILL_DESC_93000710,
-SKILL_DESC_93000800,
-SKILL_DESC_93000801,
-SKILL_DESC_93000802,
-SKILL_DESC_93000810,
+SKILL_DESC_93000500,"Summons the soul of Holy Bird, Numinu, increasing own ATK by [64ff64]{2}[-]% for [64ffff]{1}[-] sec. Upon activation, summons the Storm of Numinu in the front for [64ffff]{3}[-] sec, dealing [ffc800]{5}[-] P.DMG every [64ffff]{4}[-] sec to enemies within range and reducing the target's ATK Spd by [ff6464]{7}[-] for [64ffff]{6}[-] sec. The ATK Spd Reduction effect can be stacked up to max [64ffff]{8}[-] times. Enemies with [64ffff]{8}[-] stacks are inflicted with Freeze and take [ff6464]{10}[-]% increased P.DMG for [64ffff]{9}[-] sec."
+SKILL_DESC_93000501,Increases the duration of Storm of Numinu and soul by {1} sec.
+SKILL_DESC_93000502,"Changes the increased P.DMG the enemies take to {1}%, and every hit dispels positive effects from the enemy."
+SKILL_DESC_93000600,"Summons the soul of Dragon's Ruins, Atein for [64ffff]{1}[-] sec. For the duration of the soul, own DEF increases by [64ff64]{2}[-]%, normal attacks deal additional P.DMG equal to [ffc800]{3}[-]% of own Max HP, and enhances own Skills.\n[Collision] Deals [ffc800]{4}[-] additional P.DMG to the target and increases P.DMG the target takes by [ff6464]{6}[-]% for [64ffff]{5}[-] sec.\n[Headbutt] Deals additional P.DMG equal to [ffc800]{7}[-]% of own Max HP.\n[Earth Incarnate] Upon activation, immediately heals HP equal to [ffc800]{8}[-]% own Max HP."
+SKILL_DESC_93000601,Increases the duration of soul by {1} sec.
+SKILL_DESC_93000602,"Changes the additional P.DMG proportional to Max HP dealt by normal attacks to {1}%, and increases the P.DEF Reduction effect of [Destroy Armor] by {2}% for the duration of Skill."
+SKILL_DESC_93000700,"Summons the soul of Lakrak MK-1, increasing own ATK by [64ff64]{2}[-]% for [64ffff]{1}[-] sec. Afterward, deals a total of [ffc800]{5}[-] P.DMG to enemies within range of a random enemy over [64ffff]{4}[-] times every [64ffff]{3}[-] sec, inflicting Stun for [64ffff]{6}[-] sec and increasing P.DMG they take by [ff6464]{8}[-]% for [64ffff]{7}[-] sec."
+SKILL_DESC_93000701,Reduces Skill Activation Requirements by {1} sec and gains immunity to CC for {2} sec.
+SKILL_DESC_93000702,"Reduces Skill Activation Requirements by an additional {1} sec, and immediately reduces Cooldown of all Skills by {3} sec every {2} sec."
+SKILL_DESC_93000800,"Summons the soul of The Bluewind, Coventina, recovering Mana of all allies by [ffc800]{1}[-]. Afterward, reduces Heal Rate of all enemies by [ff6464]{3}[-]%, increases M.DMG the enemies take by [ff6464]{4}[-]% for [64ffff]{2}[-] sec, and attacks a random enemy with lightning every [64ffff]{5}[-] sec, dispelling positive effects, dealing [ffc800]{6}[-] M.DMG, and reducing the enemy's Mana by [ff6464]{7}[-]. After [64ffff]{8}[-] sec, deals [ffc800]{9}[-] M.DMG to all enemies and inflicts Stun for [64ffff]{10}[-] sec."
+SKILL_DESC_93000801,Changes Heal Rate Reduction effect to {1}% and increased M.DMG enemies take to {2}%.
+SKILL_DESC_93000802,Increases DEF Penetration of all allies by {1} for the duration of Skill.
 SKILL_DESC_93000900,"Summons the Soul of The Seductress, Guillotine, and increases own ATK by [64ff64]{2}[-]% for [64ffff]{1}[-] sec. For the duration of Skill, Normal and Skill attacks have a [64ffff]{3}[-]% chance to deal [ffc800]{4}[-] M.DMG that ignores DEF to a target. If [Absorbing Blow] hits a target, this effect will activate with a 100% chance."
 SKILL_DESC_93000901,"Activation chance changes to {1}%, and DMG increases by {2}%."
 SKILL_DESC_93000902,"The M.DMG now ignores Block, and hit enemy takes {2}% increased M.DMG for {1} sec."
-SKILL_DESC_93001000,
-SKILL_DESC_93001001,
-SKILL_DESC_93001002,
-SKILL_DESC_93001010,
+SKILL_DESC_93001000,"Summons the soul of Green Winds, Notos for [64ffff]{1}[-] sec, increasing own ATK by [64ff64]{2}[-]% and Crit DMG by [64ff64]{3}[-]%. For the duration of Skill, deals [ffc800]{5}[-] P.DMG that ignores DEF on an enemy every [64ffff]{4}[-] sec, knocks them back for [64ffff]{6}[-] sec, and immediately reduces self's Cooldown of all Skills by [64ffff]{7}[-] sec."
+SKILL_DESC_93001001,"Increases DMG by {1}%, and every time the soul attacks an enemy, recovers own Mana by {2}."
+SKILL_DESC_93001002,Increases DMG by {1}% and reduces Skill Activation Requirements to {2} times.
 SKILL_DESC_93001100,"Summons the Soul of Lea’s Messenger, Cocytus, dealing [ffc800]{1}[-] M.DMG to frontal enemies in a straight line, knocking them back far away for [64ffff]{2}[-] sec, and inflicting ‘Raven Catastrophe’ for [64ffff]{3}[-] sec. Targets inflicted with ‘Raven Catastrophe’ have their ATK reduced by [ff6464]{4}[-]%."
 SKILL_DESC_93001101,Reduces Heal Rate of the target inflicted with Raven Catastrophe by {1}%.
 SKILL_DESC_93001102,Reduces Skill Activation Requirements to {1} times.
 SKILL_DESC_93001200,"Summons the Soul of Ultimate Weapon, Leviathan, increasing own ATK by [64ff64]{2}[-]% for [64ffff]{1}[-] sec, and dealing [ffc800]{4}[-] P.DMG to all enemies every [64ffff]{3}[-] sec. Each hit increases P.DMG the enemies take by [ff6464]{6}[-]% for [64ffff]{5}[-] sec."
 SKILL_DESC_93001201,Increases the P.DMG Boost effect by an additional {1}%.
 SKILL_DESC_93001202,Reduces Cooldown by {1} sec.
-SKILL_DESC_93001300,
-SKILL_DESC_93001301,
-SKILL_DESC_93001302,
-SKILL_DESC_93001310,
+SKILL_DESC_93001300,"Summons the soul of World Tree's Will, Roburu for [64ffff]{1}[-] sec, dealing [ffc800]{3}[-] M.DMG on a random enemy every [64ffff]{2}[-] sec, increasing M.DMG it takes by [ff6464]{5}[-]% for [64ffff]{4}[-] sec, and inflicting Shackle for [64ffff]{6}[-] sec. Also recovers own Mana by [64ffff]{8}[-] and reduces Cooldown of all Skills by [64ffff]{9}[-] sec every [64ffff]{7}[-] sec."
+SKILL_DESC_93001301,Increases own ATK by {1}% for the duration of soul.
+SKILL_DESC_93001302,Increases the duration of CC effects applied upon all enemies by {1}% and reduces their M.DEF by {2}% for the duration of soul.
 SKILL_DESC_93001400,
 SKILL_DESC_93001401,
 SKILL_DESC_93001402,
@@ -1934,14 +1932,12 @@ SKILL_DESC_93001702,"For the duration of Skill, increases own ATK by {1}%."
 SKILL_DESC_93001800,"Summons the soul of Lightning Flash, Livatis, increasing own ATK by [64ff64]{2}[-]% for [64ffff]{1}[-] sec. For the duration of Skill, increases DMG of Float Like a Butterfly by [64ff64]{3}[-]%."
 SKILL_DESC_93001801,"For the duration of Skill, increases own DEF Penetration by {1}."
 SKILL_DESC_93001802,Increases the duration of Skill by {1} sec and changes the Skill DMG Boost of Float Like a Butterfly to {2}%.
-SKILL_DESC_93001900,
-SKILL_DESC_93001901,
-SKILL_DESC_93001902,
-SKILL_DESC_93001910,
-SKILL_DESC_93002000,
-SKILL_DESC_93002001,
-SKILL_DESC_93002002,
-SKILL_DESC_93002010,
+SKILL_DESC_93001900,"Summons the soul of Dragon Hearts, Andarta Andraste, increasing own Crit DMG by [64ff64]{2}[-]% for [64ffff]{1}[-] sec. Upon activation, deals [ffc800]{3}[-] M.DMG to enemies in a straight line, increasing M.DMG the target takes by [ff6464]{5}[-]% for [64ffff]{4}[-] sec, and inflicting Freeze for [64ffff]{6}[-] sec. Upon attacking the frozen enemy, deals [ffc800]{7}[-] M.DMG that ignores DEF, self recovers [64ff64]{8}[-] orbs of Mana, and reduces Cooldown of all Skills by [64ff64]{9}[-]%."
+SKILL_DESC_93001901,Changes Skill Activation Requirements to {1} times.
+SKILL_DESC_93001902,Increases DMG by {1}% and dispels positive effects from the hit enemy.
+SKILL_DESC_93002000,"Summons the soul of The Blue Light, Arpheus, increasing all allies' P.Crit Resistance by [64ff64]{2}[-] and P.Block by [64ff64]{3}[-] for [64ffff]{1}[-] sec. Afterward, places [fa96fa][Mana Source of Blue Light][-] around self for [64ffff]{4}[-] sec. For the duration of [fa96fa][Mana Source of Blue Light][-], deals a total of [ffc800]{6}[-] P.DMG to enemies within range over [64ffff]{5}[-] times and reduces their Mana by [ff6464]{7}[-]. At the end of duration, creates an explosion that deals [ffc800]{8}[-] P.DMG and silences enemies within range for [64ffff]{9}[-] sec."
+SKILL_DESC_93002001,Allies within [Mana Source of Blue Light] have their ATK Spd increased by {1} and recover {2} Mana every sec.
+SKILL_DESC_93002002,Continuously dispels positive effects from enemies within [Mana Source of Blue Light] and changes the duration of Silence to {1} sec.
 SKILL_DESC_93002100,"Summons the soul of Cursed Claws, Baroro, increasing own ATK by [64ff64]{2}[-]% for [64ffff]{1}[-] sec. For the duration of Skill, deals [ffc800]{4}[-] P.DMG to frontal enemies every [64ffff]{3}[-] sec. Hit enemies are inflicted with Curse of Baroro for [64ffff]{5}[-] sec, taking [ff6464]{6}[-]% increased P.DMG and having their Heal Rate reduced by [ff6464]{7}[-]%. If the target is a Boss, the Curse of Baroro effect increases by [64ff64]{8}[-] times."
 SKILL_DESC_93002101,Petrifies the hit enemy for {1} sec.
 SKILL_DESC_93002102,Changes Skill Activation Requirements to {1} times and increases the duration of the soul by {2} sec.
@@ -1951,10 +1947,9 @@ SKILL_DESC_93002202,Increases DMG by {1}% and gains immunity to CC for the durat
 SKILL_DESC_93002300,"Deals [ffc800]{1}[-] M.DMG to nearby enemies within a circular range of self and knocks them down for [64ffff]{2}[-] sec. Afterwards, summons Flame of Victory, Carprain for [64ffff]{3}[-] sec, increasing self's ATK by [64ff64]{4}[-]%."
 SKILL_DESC_93002301,"For the duration of Skill, reduces M.DMG all allies take by {1}%."
 SKILL_DESC_93002302,"For the duration of Skill, increases M.DMG all nearby enemies take by {1}%. The effect is increased by {2}% against Bosses."
-SKILL_DESC_93002400,
-SKILL_DESC_93002401,
-SKILL_DESC_93002402,
-SKILL_DESC_93002410,
+SKILL_DESC_93002400,"Summons the soul of God's Book, Genesis, increasing the number of targets of normal attacks to [64ffff]{2}[-] for [64ffff]{1}[-] sec, healing HP of all allies by [ffc800]{4}[-] and dispelling negative effects every [64ffff]{3}[-] sec."
+SKILL_DESC_93002401,Changes Skill Activation Requirements of the Soul Weapon to {1}.
+SKILL_DESC_93002402,Reduces All DMG that all allies take by {1}% and increases their Heal Rate by {2}% for the duration of Skill.
 SKILL_DESC_93002500,"Summons the soul of Unchanging Mind, Erekura for [64ffff]{1}[-] sec, increasing Heal Rate of self by [64ff64]{2}[-]%. Every {3} sec, causes 4 random enemies to take [ff6464]{5}[-]% increased M.DMG for [64ffff]{4}[-] sec. This effect stacks up to {6} times. After {1} sec, removes the stack from target, dealing [ffc800]{7}[-] M.DMG per stack."
 SKILL_DESC_93002501,Reduces activation requirement to {1}.
 SKILL_DESC_93002502,Increases the max number of stacks to {1}.
@@ -1962,10 +1957,9 @@ SKILL_DESC_93002510,Charges up every sec and every time self takes DMG. This Ski
 SKILL_DESC_93002600,"Summons the soul of Noble Fate, Mahitra for {1} sec. While the soul is summoned, increases own Crit DMG by [64ff64]{2}[-]%, deals [ffc800]{4}[-] DMG to the enemy every [64ffff]{3}[-] sec, and increases M.DMG the target takes by [ff6464]{6}[-]% for [64ffff]{5}[-] sec."
 SKILL_DESC_93002601,Fully recovers Mana for the duration of Skill.
 SKILL_DESC_93002602,"The duration of Skill increases by {1} sec, and self gains immunity to CC for the duration of Skill."
-SKILL_DESC_93002700,
-SKILL_DESC_93002701,
-SKILL_DESC_93002702,
-SKILL_DESC_93002710,
+SKILL_DESC_93002700,"Summons the soul of Phoenix Quill, Belisa, creating a shield on an ally with the highest ATK for [64ffff]{1}[-] sec that absorbs [ffc800]{2}[-] DMG, grants immunity to CC, and increases DMG dealt to enemies by [64ff64]{4}[-]% for [64ffff]{3}[-] sec. Afterward, dispels positive effects of frontal enemies in a straight line and deals [ffc800]{5}[-] P.DMG."
+SKILL_DESC_93002701,Changes Skill Activation Requirements to {1} times.
+SKILL_DESC_93002702,Prevents hit enemies from receiving positive effects for {1} sec.
 SKILL_DESC_93002800,"Summons the Soul of Twinswords of Fury, Veralta for [64ffff]{1}[-] sec. For the duration of Skill, increases DMG of Normal attacks by [64ff64]{2}[-]%, and enhances Fluss’ Skills.\n[Tempest Blade] Attacks the target and enemies nearby [64ffff]3[-] times, dealing a total of [ffc800]{3}[-] additional P.DMG and reducing the Heal Rate of the hit target by [ff6464]{5}[-]% for [64ffff]{4}[-] sec.\n[Flashstep] Increases own Crit DMG by [64ff64]{7}[-]% for [64ffff]{6}[-] sec.\n[Bloody Petals] Deals a total of [ffc800]{8}[-] P.DMG to one enemy over [64ffff]16[-] attacks.\nThe Mark effect of [Flashstep] will not be applied to this Skill."
 SKILL_DESC_93002801,Changes the duration of the Soul Weapon to {1} sec.
 SKILL_DESC_93002802,"For the duration of Skill, each attack has a {1}% chance to reduce self's Cooldown of all Skills by {2}%."
@@ -2096,10 +2090,9 @@ SKILL_DESC_93007002,Activation chance is increased to {1}%.
 SKILL_DESC_93007100,"Summons the Soul of Judgment Edge, Elicipira, changing the activation chance of the additional M.DMG effect of Judgment Edge, Elicipira to [64ff64]{2}[-]% and reducing All DMG taken by [64ff64]{3}[-]% for [64ffff]{1}[-] sec."
 SKILL_DESC_93007101,"For the duration of Skill, increases ATK by {1}%."
 SKILL_DESC_93007102,"Increases the duration of the effect by {1} sec and changes the activation chance of Judgment Edge, Elicipira to {2}%."
-SKILL_DESC_93007200,
-SKILL_DESC_93007201,
-SKILL_DESC_93007202,
-SKILL_DESC_93007210,
+SKILL_DESC_93007200,"Summons the soul of Roar of Raging Heat, Tersia, increasing Pansirone's ATK Spd by [64ff64]{2}[-] for [64ffff]{1}[-] sec. Afterward, attacks enemies in a wide frontal range [64ffff]3[-] times, dealing a total of [ffc800]{3}[-] P.DMG. The last hit places [fa96fa]'Tersia's Prank'[-] on a wide frontal range for [64ffff]{4}[-] sec, dealing [ffc800]{6}[-] P.DMG every [64ffff]{5}[-] sec and increasing P.DMG the targets take by [ff6464]{7}[-]%. If the target is inflicted with Eternal Blaze, the increased P.DMG the target takes changes to [ff6464]{8}[-]%."
+SKILL_DESC_93007201,Increases DMG by {1}%.
+SKILL_DESC_93007202,The duration of the ATK Spd Boost effect and 'Tersia's Prank' increases by {1} sec.
 SKILL_DESC_93007300,"Summons the Soul of Blood Lancer Monolith, dealing [ffc800]{1}[-] P.DMG to nearby enemies of self and knocking them down for [64ffff]{2}[-] sec. Afterward, recovers own HP equal to [64ff64]{3}[-]% of Max HP, increasing ATK by [64ff64]{5}[-]% and Heal Rate by [64ff64]{6}[-]% for [64ffff]{4}[-] sec."
 SKILL_DESC_93007301,Changes the duration of the effect to {1} sec.
 SKILL_DESC_93007302,"For the duration of Skill, increases own DMG dealt to enemies by {1}%. Normal attacks have a {2}% chance to stun the target for {3} sec."
@@ -2107,9 +2100,9 @@ SKILL_DESC_93007400,
 SKILL_DESC_93007401,
 SKILL_DESC_93007402,
 SKILL_DESC_93007410,
-SKILL_DESC_93007500,
-SKILL_DESC_93007501,
-SKILL_DESC_93007502,
+SKILL_DESC_93007500,"Summons the soul of Lake of Remembrance, Armekith and creates a tidal wave, dealing [ffc800]{1}[-] M.DMG on enemies within a wide frontal range of self and knocking them down for [64ffff]{2}[-] sec. Dakaris then heals [ffc800]{3}[-] HP and recovers [ffc800]{4}[-] orb of Mana of allies within range. Afterward, absorbs the soul of Lake of Remembrance, Armekith, increasing own ATK by [64ff64]{6}[-]% for [64ffff]{5}[-] sec."
+SKILL_DESC_93007501,Dispels positive effects of enemies and negative effects of allies within range.
+SKILL_DESC_93007502,"Reduces Skill Activation Requirements to {1} times, and increases the number of targets of [May Their Agony End!] to {2} for the duration of Skill."
 SKILL_DESC_93007510,
 SKILL_DESC_93007600,
 SKILL_DESC_93007601,
@@ -2168,16 +2161,15 @@ SKILL_DESC_93008910,
 SKILL_DESC_93009000,"Summons the soul of The Box of Fragrance, Etelia, healing a total of [ffc800]{2}[-] HP of all allies over [64ffff]{1}[-] sec and increasing ATK of the ally with the highest ATK by [64ff64]{5}[-]% for [64ff64]{4}[-] sec every [64ffff]{3}[-] sec. The ATK Boost effect can be stacked up to max [64ffff]{6}[-] times, and upon activation, there is a {7}% chance to stack [64ffff]{8}[-] times at once."
 SKILL_DESC_93009001,Changes the max number of stacks to {1} times.
 SKILL_DESC_93009002,"Increased Heal Rate by {1}%, and changes the chance to stack {2} times at once to {3}%."
-SKILL_DESC_93009100,
-SKILL_DESC_93009101,
-SKILL_DESC_93009102,
-SKILL_DESC_93009110,
+SKILL_DESC_93009100,"Summons the soul of Beast Fist, Mastra, dealing [ffc800]{1}[-] P.DMG that ignores DEF to the enemy with the highest ATK, and increasing own ATK by [64ff64]{3}[-]% for [64ffff]{2}[-] sec. For the duration of Skill, increases DMG of [Ultimate Punch!] by [64ff64]{4}[-]%. Upon activation of [This will hurt!], deals [ffc800]{5}[-] additional P.DMG that ignores DEF on the target."
+SKILL_DESC_93009101,"Upon using [Ultimate Punch!] for the duration of Skill, DMG that ignores DEF also applies to targets other than Bosses."
+SKILL_DESC_93009102,Increases DMG by {1}% and changes DMG Boost of [Ultimate Punch!] to {2}%.
 SKILL_DESC_93009200,"Summons the Soul of Infinite Charter, Accordio and immediately acquires [64ffff]{1}[-] stacks of Top Financier’s Knowledge, increasing Crit DMG of the ally with the highest ATK by [64ff64]{3}[-]% and DMG dealt to Bosses by [64ff64]{4}[-]% for [64ffff]{2}[-] sec."
 SKILL_DESC_93009201,Increases the duration of Skill by {1} sec.
 SKILL_DESC_93009202,Increases Boost effect that the ally with the highest ATK receives by {1}%.
 SKILL_DESC_93009300,"Summons the soul of Wave of Protection, Gaiamenes, dealing [ffc800]{1}[-] P.DMG to frontal enemies and inflicting Stun for [64ffff]{2}[-] sec. Afterward, for [64ffff]{3}[-] sec, increases all allies' ATK by [64ff64]{4}%+equal to {5}% of Loman's ATK[-], and increases M.DEF by [64ff64]{6}[-]%, while recovering [64ff64]{8}[-] Mana of all allies every [64ffff]{7}[-] sec."
 SKILL_DESC_93009301,Heals all allies equal to {2}% of Max HP and dispels negative effects every {1} sec.
-SKILL_DESC_93009302,"Reduces Skill Activation Requirements by {1} sec. Upon hit, increases P.DMG the hit target takes by {3}% for {2} sec."
+SKILL_DESC_93009302,"Reduces Skill Activation Requirements by {1} sec. Upon hit, increases P.DMG the hit target takes by {2}%."
 SKILL_DESC_93009400,"Summons the Soul of Hundred-Flavor Banquet, Tempora Fyrr for [64ffff]{1}[-] sec and gains additional effects according to Juno’s status.\nWhile in [fa96fa][Cook from Heaven][-], increases all allies' All DEF by [64ff64]{2}%+equal to {3}% of Juno’s ATK[-]. \nWhile in [fa96fa][Cook from Hell][-], increases all allies' ATK by [64ff64]{4}%+equal to {5}% of Juno’s ATK[-]. Upon using the Skill at [64ffff]{6}[-] or more stacks of [Excellent Ingredient], consumes [64ffff]{7}[-] stacks and increases all effects by [64ffff]{8}[-]%."
 SKILL_DESC_93009401,Reduces Skill Activation Requirements to {1} times.
 SKILL_DESC_93009402,"While in [Cook from Heaven], reduces All DMG all allies take by {1}%.\nWhile in [Cook from Hell], increases All DMG all enemies take by {2}%. The effect of Excellent Ingredient stacks applies to these effects."
@@ -2187,10 +2179,9 @@ SKILL_DESC_93009502,Changes the max number of stacks of Grudge of Hartnon to {1}
 SKILL_DESC_93009600,"Summons the soul of Ancient Valor, Seliere, increasing P.Block chance of all allies by [64ff64]{2}[-] for [64ffff]{1}[-] sec. Afterward, deals [ffc800]{4}[-] M.DMG near self every [64ffff]{3}[-] sec and inflicts the target with Silence for [64ffff]{5}[-] sec, creating a shield that grants immunity to CC and absorbs DMG equal to [64ff64]{7}[-]% of Dosarta's ATK for [64ffff]{6}[-] sec on an ally with the lowest HP."
 SKILL_DESC_93009601,Increases M.DMG the hit enemy takes by {2}% for {1} sec.
 SKILL_DESC_93009602,Changes the number of targets applied by the shield to {1}.
-SKILL_DESC_93009700,
-SKILL_DESC_93009701,
-SKILL_DESC_93009702,
-SKILL_DESC_93009710,
+SKILL_DESC_93009700,"Summons the soul of The Playtime, HN-0, increasing Crit DMG by [64ff64]{2}[-]% for [64ffff]{1}[-] sec. Afterward, commands [fa96fa]'Attack Order'[-] 3 times every [64ffff]{3}[-] sec, dealing [ffc800]{4}[-] P.DMG to frontal enemies in a straight line and inflicting Stun for [64ffff]{5}[-] sec. Upon activating this Skill in Guild Battles, additional effects apply, and Crit DMG Boost effect stacks up to [64ffff]{6}[-] times.\n[Guild Conquest] – Every time [fa96fa]'Attack Order'[-] activates, hit enemies take [64ff64]{7}[-]% increased P.DMG for 5 sec.\n[Guild War] – Reduces Skill Activation Requirements to [64ffff]{8}[-] sec.\n[Guild Raid] – Upon activation of [fa96fa]'Attack Order'[-], gains [64ffff]{9}[-] Ammo."
+SKILL_DESC_93009701,"Increases DMG by {1}%, and changes the max number of stacks to {2} times."
+SKILL_DESC_93009702,Increases DMG by {1}%. ATK increases by {2}% per each stack.
 SKILL_DESC_93009800,"Summons the soul of Might of the God King, Tyrannicus, dealing [ffc800]{1}[-] P.DMG to enemies within wide range of self, and inflicting time stop for [64ffff]{2}[-] sec. Afterwards, increases own ATK by [64ff64]{4}%[-] for [64ffff]{3}[-] sec. While time stop is active, Normal and Skill attacks cannot be used, and Cooldown is fixed."
 SKILL_DESC_93009801,Heals HP of allies within range by [ffc800]{2}[-] over {1} sec.
 SKILL_DESC_93009802,"Increases the duration of time stop by {1} sec, and draws in nearby enemies towards self."

@@ -5522,38 +5522,12 @@
     "DeadTarget": "False",
     "IgnoreBlock": "TRUE",
     "RetargetOnFire": "FALSE",
-    "OperationType1": "ModPowerR",
+    "OperationType1": "ModSkillEnabled",
     "OperationTargetType1": "Myself",
-    "OperationRadiusMm1": 50000,
     "OperationValue1": [
-      "200"
+      "7245",
+      "1"
     ],
-    "OperationState1": 60009851,
-    "OperationDurationMs1": 20000,
-    "OperationType2": "ModToughness",
-    "OperationTargetType2": "Myself",
-    "OperationRadiusMm2": 50000,
-    "OperationValue2": [
-      "300"
-    ],
-    "OperationDelayMs2": [
-      "100",
-      "0",
-      "0"
-    ],
-    "OperationState2": "60009851_3",
-    "OperationDurationMs2": 20000,
-    "OperationConditionType2": "State",
-    "OperationConditionValue2": [
-      "60009851_2"
-    ],
-    "OperationFlags2": [
-      "CheckConditionOnBegin"
-    ],
-    "OperationType3": "UseSkill",
-    "OperationTargetType3": "Myself",
-    "OperationValue3": [
-      "9849"
-    ]
+    "OperationDurationMs1": 200000
   }
 ]

@@ -247,6 +247,9 @@ CREATURE_DESC_70,Une fille dotée d'un profond sens de la justice. Elle veut tou
 CREATURE_NAME_71,Kirze
 CREATURE_TITLE_71,"Kirze, Chat au Cristal écarlate"
 CREATURE_DESC_71,"Héros Premier Prix de la Compétition de Concept-Style de Héros Global [87CEFA]Mochi00 (JPN)[-]\nJeune fille de Race Mi-Humain et Mi-Animal, dotée de puissance magique très rare.\nL'armée des ténèbres la captura quand elle était encore très jeune afin d'effectuer des expériences pour transformer son corps en cristal.\nAprès avoir acquis une force suffisante pour s'échapper, elle affronte ses ennemis avec les cristaux écarlates qui constituent son corps."
+CREATURE_NAME_72,Pansirone
+CREATURE_TITLE_72,"Pansirone, Flamme de Folie"
+CREATURE_DESC_72,"Une jeune fille fascinée par la folie de la guerre.\nOriginairement officier de la division mécanique, elle était membre de l'unité du Chien.\nElle enflamme toutes les créatures en vue avec la flamme incandescente."
 CREATURE_NAME_73,Chase
 CREATURE_TITLE_73,"Chase, Type. 0"
 CREATURE_DESC_73,Rat de laboratoire amnésique et guerrier incontrôlable qui déploie une puissance phénoménale au combat.\nCette arme redoutable détruit tout sur son passage.
@@ -357,6 +360,7 @@ GETHERO_DESC_68,Jeune chef d'une lointaine tribu barbare vivant dans la jungle a
 GETHERO_DESC_69,"Dans le milieu secret des jeux clandestins, il est l'individu le plus dangereux. Il possède la déroutante capacité de lire dans les pensées des gens. Rien qu'à le voir lancer ses dés, vous savez que vous avez perdu la partie."
 GETHERO_DESC_70,Une fille dotée d'un profond sens de la justice. Elle veut toujours être une source de force pour les autres. Elle punit les démons qui harcèlent les gens à l'aide de bottes technomagiques suffisamment puissantes pour pulvériser ses ennemis.
 GETHERO_DESC_71,"Héros Premier Prix de la Compétition de Concept-Style de Héros Global [87CEFA]Mochi00 (JPN)[-]\nJeune fille de Race Mi-Humain et Mi-Animal, dotée de puissance magique très rare.\nL'armée des ténèbres la captura quand elle était encore très jeune afin d'effectuer des expériences pour transformer son corps en cristal.\nAprès avoir acquis une force suffisante pour s'échapper, elle affronte ses ennemis avec les cristaux écarlates qui constituent son corps."
+GETHERO_DESC_72,"Une jeune fille fascinée par la folie de la guerre. Originairement officier de la division mécanique, elle était membre de l'unité du Chien. Elle enflamme toutes les créatures en vue avec la flamme incandescente."
 GETHERO_DESC_73,Rat de laboratoire amnésique et guerrier incontrôlable qui déploie une puissance phénoménale au combat. Cette arme redoutable détruit tout sur son passage.
 GETHERO_DESC_75,"Sage de la Tribu des Hommes-Lézards du Lac Eretana, occupé par l'Empire. Il a participé à la mise en place de la Résistance depuis que son pays a été envahi militairement, il y a 8 ans. Grâce à la magie traditionnelle de sa Tribu, il sème la confusion aux ennemis."
 GETHERO_DESC_78,"Chevalier du silence, Épéiste de l'ombre et Lame sismique. Voici les titres qui ont été attribués dans l'empire à ce mercenaire légendaire. Son épée géante absorbe toute énergie pour semer le chaos le plus total."
@@ -809,6 +813,12 @@ INN_REHARTNA_CONVERSATION01,Seriez-vous intéressé par un instrument de musique
 INN_REHARTNA_CONVERSATION02,Vous pouvez visiter mon atelier quand vous le souhaitez. Je vous monterai des instruments de musique de qualité.
 INN_REHARTNA_CONVERSATION03,"Moi, jouer à un instrument... ? J'y parviens, mais je ne suis pas aussi talentueuse que des bardes."
 INN_REHARTNA_GIFT01,"Waa, merci ! Je contribuerai cette somme à mes frais de voyage !"
+INN_PANCIRONNE_INNIDLE01,Tada ! Pansirone ! Entre en scène !
+INN_PANCIRONNE_GREETING01,Heein ? Qu'est-ce que tu regardes ?
+INN_PANCIRONNE_CONVERSATION01,"Waahm... Je m'ennuie, n'as-tu rien d'intéressant à me proposer ?"
+INN_PANCIRONNE_CONVERSATION02,"Si tu es en vie un mois plus tard, je ferai l'effort de me souvenir de ton nom !"
+INN_PANCIRONNE_CONVERSATION03,Heee-iiin ? Quoi ?
+INN_PANCIRONNE_GIFT01,"Un cadeau ? Si ce n'est pas intéressant, j'y mettrai le feu !"
 INN_KASEL_GREETING02,Je vous vois souvent dans le coin. Vous vous rendez à la capitale ?
 INN_KASEL_CONVERSATION04,"Si je trouve le pouvoir de l'épée sacrée, est-ce que tout ceci s'arrêtera enfin ?"
 INN_KASEL_CONVERSATION05,Je ne voudrais pas me faire influencer par quelqu'un d'autre. Je vais partir de mon côté.
@@ -1395,6 +1405,14 @@ INN_KIRZE_CONVERSATION05,Quand je vois une personne en danger… L'envie de voul
 INN_KIRZE_GIFT02,J'ai entendu dire que ces cristaux arcaniques écarlates qui constituent mon corps... sont d'excellents catalyseurs pour les réactifs magiques.
 INN_REHARTNA_CONNECT_GREETING_MAX,Aaah ! Bienvenue ! Nous parlions justement de vous.
 INN_REHARTNA_CONNECT_CONVERSATION01,"Cette chanson, j'ai l'impression de l'entendre pour la première fois... Pourriez-vous me l'apprendre, si vous la connaissez ?"
+INN_PANCIRONNE_CONNECT_GREETING_MAX,"C'est mon amie, Terresia ! Dis-lui bonjour ! Tu ne la vois pas ? La voici, ici !"
+INN_PANCIRONNE_CONNECT_CONVERSATION01,"Exceptionnellement, je vais te permettre de devenir mon subordonné !"
+INN_PANCIRONNE_CONNECT_CONVERSATION02,Tu sais quoi ? J'ai lu dans un livre qu'il existe plusieurs personnes exactement identiques dans le monde ! Je me demande combien il y en aurait pour moi. Une ? Deux ? Trois ? Cent !?
+INN_PANCIRONNE_CONNECT_CONVERSATION03,Ce que j'aime ? Terresia et moi ! Et tu en fais partie aussi !
+INN_PANCIRONNE_GREETING02,Kyahaha !!! Tu m'as attendue ?
+INN_PANCIRONNE_CONVERSATION04,Je n'écoute que les paroles du monsieur !
+INN_PANCIRONNE_CONVERSATION05,"Le monde serait d'une beauté inimaginable si tout était en feu, n'est-ce pas ?"
+INN_PANCIRONNE_GIFT02,C'est une édition limitée !? Tu es plus aimable que je ne le pensais !
 INN_REHARTNA_CONNECT_CONVERSATION02,Ce serait superbe si seulement je pouvais parler avec mes compagnons comme je le fais avec vous. Quel dommage.
 INN_REHARTNA_CONNECT_CONVERSATION03,La raison pour laquelle j'ai rejoint la Résistance ? C'est un secret pour le moment.
 INN_REHARTNA_GREETING02,"Oh, vous êtes là ? Je vous attendais ! Venez-vous asseoir à côté de moi !"
@@ -1646,6 +1664,8 @@ CREATURE_NAME_570,Ténèbres de Cecilia
 CREATURE_DESC_570,"Être condensé de ténèbres pures, possédant une puissance phénoménale."
 CREATURE_NAME_571,Ténèbres de Kirze
 CREATURE_DESC_571,"Être condensé de ténèbres pures, possédant une puissance phénoménale."
+CREATURE_NAME_572,Ténèbres de Pansirone
+CREATURE_DESC_572,"Être condensé de ténèbres pures, possédant une puissance phénoménale."
 CREATURE_NAME_573,Ténèbres de Chase
 CREATURE_DESC_573,"Être condensé de ténèbres pures, possédant une puissance phénoménale."
 CREATURE_NAME_575,Ténèbres de Dakaris
@@ -1814,6 +1834,8 @@ CREATURE_NAME_670,Lumière de Cecilia
 CREATURE_DESC_670,"Être condensé de lumière pure, possédant une puissance phénoménale."
 CREATURE_NAME_671,Lumière de Kirze
 CREATURE_DESC_671,"Être condensé de lumière pure, possédant une puissance phénoménale."
+CREATURE_NAME_672,Lumière de Pansirone
+CREATURE_DESC_672,"Être condensé de lumière pure, possédant une puissance phénoménale."
 CREATURE_NAME_673,Lumière de Chase
 CREATURE_DESC_673,"Être condensé de lumière pure, possédant une puissance phénoménale."
 CREATURE_NAME_675,Lumière de Dakaris
@@ -2681,7 +2703,22 @@ NPC_LAVRIL_WELCOME02,Nous nous sentons esseulées. Voudriez-vous rester avec nou
 NPC_LAVRIL_TOUCH01,"Puisque nous n'avons pas envie de nous séparer de l'autre nous... Nous ferons des efforts, héhé."
 NPC_LAVRIL_TOUCH02,"S-Si vous ne nous craignez pas, nous vous ferons une farce... !"
 NPC_LAVRIL_IDLE,Nous avons entendu dire que la purification des ténèbres était une chose nécessaire...
+NPC_PANCIRONNE_WELCOME01,"Eh bien moi, je rentre."
+NPC_PANCIRONNE_WELCOME02,"Brûle, toi aussi brûle !!"
+NPC_PANCIRONNE_WELCOME03,"Hihi, tu veux voir un feu d'artifice ?"
+NPC_PANCIRONNE_WELCOME04,"Toi aussi, voudrais-tu aller voir l'arc-en-ciel avec moi ?"
 NPC_LAVRIL_RECRUIT01,Est-ce pour nous... ?
+NPC_PANCIRONNE_IDLE,"C'est un cadeau ? Si ça ne me plaît pas, je le brûle !"
+NPC_PANCIRONNE_RECRUIT01,Huum ? Qu'est-ce que c'est donc ?
+NPC_PANCIRONNE_RECRUIT02,Tu penses que ça va me plaire ?
+NPC_PANCIRONNE_RECRUIT03,Ça devient intéressant !
+NPC_PANCIRONNE_RECRUIT04,C'est insuffisant ! Insuffisant ! Insuffisant !
+NPC_PANCIRONNE_RECRUIT05,"Héhé, ça, ça me plaît."
+NPC_PANCIRONNE_RECRUIT06,Kyaha ! C'est pour moi ?
+NPC_PANCIRONNE_RECRUIT07,"Hi. Le vaurien ne recevrait jamais ce genre de chose, pas vrai ?"
+NPC_PANCIRONNE_BUY01,Kyaaaa !! J'en veux plus !
+NPC_PANCIRONNE_BUY02,N'aurais-tu pas de nourriture à donner pour Terresia ?
+NPC_PANCIRONNE_BUY03,"Tu crois peut-être que je vais dire autre chose si tu continues à appuyer, hein ? Beeeuh !"
 NPC_LAVRIL_RECRUIT02,Merci d'avoir pensé à nous...
 NPC_LAVRIL_RECRUIT03,"Ce sont de petites ténèbres, minuscules même... Encore plus que nous..."
 NPC_LAVRIL_RECRUIT04,"Nous n'avons plus besoin de craindre pour notre disparition, à présent..."
