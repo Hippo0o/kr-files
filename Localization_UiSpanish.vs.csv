@@ -220,7 +220,7 @@ COLLECT_PLUNDER_REWARD,"Obtenido {1}, el cual es muy util, mediante el saqueo"
 COLLECT_ALL_REWARD,Reclamar Todo
 COMMON_YES,Sí
 COMMON_NO,No
-COMMON_CONFIRM,OK
+COMMON_CONFIRM,Confirmar
 COMMON_CANCEL,Cancelar
 COMMON_CHANGE,Cambiar
 COMMON_INPUT,Ingresar
@@ -236,12 +236,12 @@ COMMON_REQUESTCANCEL,Cancelar Solicitud
 COMMON_BATTLEREADY_BUTTON,Batalla
 COMMON_BATTLEREADY,Prep. Para la Batalla
 COMMON_BATTLESTART,Comenzar Batalla
-COMMON_RUBY_BATTLESTART,{1} Rubies para Comenzar la Batalla
+COMMON_RUBY_BATTLESTART,{1} Rubíes para Comenzar la Batalla
 COMMON_INFO,Info
 COMMON_LOOK,Ver
 COMMON_NAMECHECK,Verificar Duplicados
 COMMON_FIND,Encontrar
-COMMON_MAX,Max
+COMMON_MAX,MAX
 COMMON_BUY,Comprar
 COMMON_SELL,Vender
 COMMON_GOLD_BUY,Comprar {1} Oro
@@ -1405,7 +1405,7 @@ HEROINN_ROULETTE,Girar ruleta
 HEROINN_ROULETTE_START,Comenzar
 HEROINN_ROULETTE_GUIDE,[Instrucciones]
 ROULETTEGUIDE_DESC,* Puedes girar la ruleta 1 vez por día sin costo.\n\n* La cantidad de veces que puedes girar la ruleta depende del número de héroes que tienes de los que visitan la posada.\n\n* La cuenta se reinicia todos los días a la medianoche.
-CLOSENESS_TALK_UNLOCK,Eliminar cuando la Afinidad sea {1}
+CLOSENESS_TALK_UNLOCK,Se necesita {1} en afinidad.
 HEROINN_CLOSENESS_COOLTIME,¡Hasta la próxima!
 HEROINN_ROULETTE_REWARD,Recompensa de la ruleta
 HEROINN_ANOTHER_VISIT,"Ya iniciaste una relación con {1}.\nSi inicias una nueva relación, se reiniciará la tasa de parentesco con el Héroe existente."
@@ -1622,19 +1622,19 @@ NEW_USER_REWARD_MAIL_5_TEXT,Aquí esta tu Recompensa de Usuario Nuevo Día 5!
 NEW_USER_REWARD_MAIL_6_TEXT,Aquí esta tu Recompensa de Usuario Nuevo Día 6!
 NEW_USER_REWARD_MAIL_7_TEXT,Aquí esta tu Recompensa de Usuario Nuevo Día 7!
 SCENARIO_REPLAY_ANNOUNCE,"Al volver a ver la historia, no se utilizan recursos,\npero tampoco se dan recompensas."
-CRAFT_ITEMCOMPONENT_CAN_LABEL,Escoge el Articulo Elaborado
+CRAFT_ITEMCOMPONENT_CAN_LABEL,Artículo a Elaborar
 CRAFT_ITEMCOMPONENT_DOCRAFT_CANCEL,Cancelar
 CRAFT_ITEMCOMPONENT_DOCRAFT_FINISH,Completar Inmediatamente
-CRAFT_ITEMCOMPONENT_DOCRAFT_GET,Recibir Articulo
+CRAFT_ITEMCOMPONENT_DOCRAFT_GET,Recibir Artículo
 CRAFT_ITEMCOMPONENT_OPEN_OPEN,Abrir Espacio de Elaboracion
 CRAFT_POPUP_TITLE_LABEL,Selecciona los Articulos de Elaboracion
-CRAFT_POPUP_CRAFTITEM_LABEL,Articulo Elaborado
-CRAFT_POPUP_MATERIAL_LABEL,Articulo Material
-CRAFT_POPUP_MATERIAL_TIME,Tiempo de Elaboracion
-CRAFT_POPUP_MATERIAL_COST,Costo de Elaboracion
+CRAFT_POPUP_CRAFTITEM_LABEL,Artículo Elaborado
+CRAFT_POPUP_MATERIAL_LABEL,Materiales de Artículo
+CRAFT_POPUP_MATERIAL_TIME,Tiempo de Elaboración
+CRAFT_POPUP_MATERIAL_COST,Costo de Elaboración
 CRAFT_POPUP_MATERIAL_CRAFT,Elaboracion
 INVENTORY.INVENTORY_CRAFT_FINISHED,Elaboracion Completa
-INVENTORY.INVENTORY_GET_CRAFT_ITEM,Articulo Elaborado Recibido!
+INVENTORY.INVENTORY_GET_CRAFT_ITEM,¡Artículo Elaborado Recibido!
 INVENTORY.INVENTORY_FINISH_CRAFT_MSG,Consume Rubies para recibir inmediatamente el artículo.
 INVENTORY.INVENTORY_ADD_CRAFT_SLOT_MSG,Deseas utilizar oro para abrir otro espacio de elaboracion?
 INVENTORY.INVENTORY_CANCEL_CRAFT_MSG,Obten un reembolso en material de elaboracion usado y oro. \nNo recibiras un articulo elaborado cuando se cancele el progreso.\nDeseas cancelar la elaboracion?
@@ -2349,7 +2349,7 @@ RESULT_TYPE.WORLD_BOSS_DAILY_REWARDING,Actualmente se procesa el Ranking Diario.
 BATTLE.HERO_ALREADY_EXIST_SUB,Héroe ya seleccionado en el Sub Equipo
 BATTLE.HERO_ALREADY_EXIST_MAIN,Héroe ya seleccionado en el Equipo Principal
 VERONICA_DONT_MISS,¡No te pierdas estas dos semanas de beneficios especiales!
-VERONICA_HERO_SELECT_ITEM_DESC,※Boleto de Héroe de 3 Estrellas: Selección disponible hasta 'Cecilia' (héroes lanzados en junio de 2019).\n※El rango de selección para los boletos de arma y tesoros únicos de selección y aleatorios cambiará con cada actualización del juego.
+VERONICA_HERO_SELECT_ITEM_DESC,※ Boleto de Héroe de 5 Estrellas: Selección disponible hasta 'Rehartna'.\n※El rango de selección para los boletos de armas y tesoros únicos de selección y aleatorios cambiará con cada actualización del juego.
 PAYSHOP_VERONICA_TALKBOX,Presiona el boton 'Ver Producto'
 PAYSHOP_VERONICA_LISTVIEW,Ver Producto
 PAYSHOP_VERONICA_BUY_TEXT,"En un lapso de 14 días, podras adquirir artículos por cada inicio de sesion"
@@ -2802,7 +2802,7 @@ TOOLTIP_INFO_NAME_UNDERGROUNDLABYRINTHKEY,Llave de la Boveda Real
 TOOLTIP_INFO_NAME_HIDEOUTKEY,Llave del Calabozo Superior
 TOOLTIP_INFO_NAME_CHALLENGETOWERKEY,Cubo del Desafío
 TOOLTIP_INFO_NAME_EVENTDUNGEONTICKET,Lazos del Destino
-TOOLTIP_INFO_NAME_EVENTDUNGEONPOINT,Pedazos de Tela del Destino
+TOOLTIP_INFO_NAME_EVENTDUNGEONPOINT,Boletos de Sorteo
 TOOLTIP_INFO_NAME_EVENTDUNGEONPOINT2,Globos del Festival
 TOOLTIP_INFO_NAME_EVENTDUNGEONTICKET_BACKUP,Llave del Calabozo de Halloween
 TOOLTIP_INFO_NAME_EVENTDUNGEONPOINT_BACKUP,Punto de Halloween
@@ -2825,7 +2825,7 @@ TOOLTIP_INFO_TEXT_UNDERGROUNDLABYRINTHKEY,Claves necesarias para ingresar a la B
 TOOLTIP_INFO_TEXT_HIDEOUTKEY,Claves necesarias para ingresar al Calabozo Superior
 TOOLTIP_INFO_TEXT_CHALLENGETOWERKEY,Cubos necesarios para ingresar a la Torre del Desafío.
 TOOLTIP_INFO_TEXT_EVENTDUNGEONTICKET,Se necesitan claves para ingresar a los Calabozos de Evento
-TOOLTIP_INFO_TEXT_EVENTDUNGEONPOINT,Obtenible al terminar los calabozos de Lugar Alumbrado por la Luz del Destino. Se utiliza para comprar productos en la Tienda de Evento.
+TOOLTIP_INFO_TEXT_EVENTDUNGEONPOINT,Obtenible al terminar los calabozos de evento de Caja de Deseo Impulsivo. Se utiliza para comprar productos en la Tienda de Evento.
 TOOLTIP_INFO_TEXT_EVENTDUNGEONPOINT2,Obtenible al terminar el calabozo especial del festival de los mil días. Se utiliza para comprar productos en la Tienda de los Mil Días.
 TOOLTIP_INFO_NAME_GLORYPOINT,Medalla de Honor
 TOOLTIP_INFO_TEXT_GLORYPOINT,Un tipo de punto disponible en la Liga de Honor. Se utiliza para cambiar artículos en la Tienda de la Liga de Honor.
@@ -3904,6 +3904,7 @@ COSTUME_GROUP_HALLOWEEN,Halloween
 COSTUME_GROUP_SUPERSTAR,Idol
 COSTUME_GROUP_CHRISTMAS,Navidad
 COSTUME_GROUP_CHRISTMAS2,Navidad 2
+COSTUME_GROUP_CHRISTMAS3,Navidad 3
 COSTUME_GROUP_WORLDFAIR,Traje del mundo
 COSTUME_GROUP_WORLDFAIR2,Traje del mundo 2
 COSTUME_GROUP_FROZENFANTASY,Congelado
@@ -3960,10 +3961,10 @@ CHALLENGERAID_SINGLE_DESC_CLASS_HERO_TYPE_SMS,"En la batalla de {1} pueden parti
 CHALLENGERAID_SINGLE_DESC_CLASS_HERO_TYPE_MMS,"En la batalla de {1} pueden participar hasta {2} miembros. No se pueden usar héroes con atributo de tipo {5}, los de clase {3} ni {4}."
 COMMON_SELECT_ALL,Seleccionar todo
 COMMON_SELECT_NONE,Anular selección
-COMMON_FILTER_SORT,Filtrar y ordenar
+COMMON_FILTER_SORT,Filtrar y\nOrdenar
 SELECT_FILTER_SELL,Destrucción selectiva
 SELECT_FILTER_DISMANTLE,Venta selectiva
-EQUIP_FILTER_SORT,Filtrar y ordenar equipo
+EQUIP_FILTER_SORT,Filtrar y Ordenar Equipo
 EQUIP_SORT_TAB,Ordenar equipo
 EQUIP_FILTER_TAB,Filtrar equipo
 EQUIP_OPTION_TAB,Opciones detalladas
@@ -4089,7 +4090,7 @@ RECOMMEND_PARTY_DECK_NONE,No hay grupos para mostrar.
 RECOMMEND_PARTY_DECK_LIST,Número de grupo al día: {1}
 COMMON_CHEST,Almacenamiento
 ITEM_KEEP_CONFIRM,Almacenar equipo
-ITEM_BRING_CONFIRM,Retirar equipo
+ITEM_BRING_CONFIRM,Retirar Equipo
 EQUIP_CHEST_ACCEPT,Almacenar
 EQUIP_INVENTORY_ACCEPT,Comenzar a buscar
 RECOLLECT_KEEP_CHEST,Guarda los objetos seleccionados en la caja de almacenamiento.
@@ -4103,8 +4104,8 @@ INVENTORY.INVENTORY_ADD_CHEST_SLOT,Ampliaste la caja de almacenamiento con {1} c
 EQUIP_CHEST_ALL,Todo
 INVENTORY.INVENTORY_SET_CHEST,El artículo se movió a la caja de almacenamiento.
 INVENTORY.INVENTORY_UNSET_CHEST,El artículo se movió al Inventario.
-ITEM_KEEPCHEST,Almacenar equipo
-ITEM_BRINGINVENTORY,Retirar equipo
+ITEM_KEEPCHEST,Almacenar
+ITEM_BRINGINVENTORY,Retirar Equipo
 CHEST_EXTEND_DESC1,You can expand {1} more slots in the Storage Box.\nAre you sure to use {2}?
 CHEST_EXTEND_DESC2,"If the expandable slot total is smaller than the Ticket's capacity, the Storage Box will only expand up to the max number of slots. Are you sure to use the ticket?"
 COMMON_LACK_CHEST_SLOT,Max Storage Box slot reached.
@@ -4220,7 +4221,7 @@ PROMOTION_REWARD_CONTENT,¿Quieres obtener la(s) recompensa(s) de la promoción 
 PROMOTION_REWARD_WARNING,"Las recompensas obtenidas pueden ser utilizadas en Inventario, pestaña de Consumibles."
 HERO_TRANSCEND.TRANSCEND_POINT_CONFIRM,"¿Quieres aplicar {2} PT a {1}?\nUna vez aplicado, el Punto de atributo de trascendencia no se puede devolver."
 HERO_TRANSCEND.TRANSCEND_POINT_INFO_TITLE_1,Compra Punto de atributo de trascendencia
-HERO_TRANSCEND.TRANSCEND_POINT_INFO_DESC_1,Los Puntos de atributo de trascendencia pueden comprarse en una Tienda especial; también se pueden obtener a través de varias recompensas de Evento.
+HERO_TRANSCEND.TRANSCEND_POINT_INFO_DESC_1,"Los Puntos de atributo de trascendencia pueden comprarse en una Tienda especial, también se pueden obtener a través de varias recompensas de Evento."
 HERO_TRANSCEND.TRANSCEND_POINT_INFO_TITLE_2,Cómo aplicar el Punto de atributo de trascendencia
 HERO_TRANSCEND.TRANSCEND_POINT_INFO_DESC_2,Puedes aplicar Puntos de atributo de trascendencia a los héroes T5 únicamente.\nPuedes aplicar un máximo de 15 puntos adicionales por cada héroe.\nArrastra un Punto de atributo de trascendencia a un héroe y toca Aplicar para incrementar el PT del héroe.\nLos Puntos de atributo de trascendencia no se pueden regresar después de tocar Aplicar.
 HERO_TRANSCEND.TRANSCEND_POINT_SHOP_CONFIRM,¿Deseas pasar a la Tienda especial para comprar Punto de atributo de trascendencia?
@@ -4278,10 +4279,10 @@ NEWBIE_RECOMMEND_ARTIFACT_POPUP_TITLE,Paquete limitado de artefactos recomendado
 NEWBIE_RECOMMEND_ARTIFACT_POPUP_DESC,"Los artefactos especiales, elegidos cuidadosamente por Dosarta, te esperan."
 NEWBIE_PROMOTION_POPUP_DESC_2019,[Aviso] - Consulta los detalles en el lado derecho durante la compra de un rango de selección de héroe.\n- Los Boletos de arma única aleatoria y los Boletos de arma única no incluyen los héroes PNJ.
 2019_MAY_HERO_SELECT_ITEM_DESC,"※ Boleto de héroe de 3 estrellas: puedes seleccionar hasta Shea, Crow y Aselica (héroes lanzados en abril de 2018 o antes).\n※ El rango de armas únicas y tesoros únicos obtenidos de Boletos aleatorios/a elección sigue la configuración del juego."
-2019_PACKAGE_PAY_MAY_ATTENDANCE_DESC_DETAIL,"Aplica inmediatamente después de la compra, obtendrás artículos diarios durante 14 días al iniciar sesión. (Podrás escoger entre los héroes de 3 estrellas, incluyendo a Aselica, Crow y Shea (lanzamiento en abril de 2018), no incluye a los héroes NPC. El boleto de arma única aleatoria no incluye las armas únicas de héroes NPC.)\nDisponible únicamente durante el período de vigencia del anuncio de 'Beneficios para Principiantes'. (Al desaparecer el anuncio la venta se dará por concluida.)"
+2019_PACKAGE_PAY_MAY_ATTENDANCE_DESC_DETAIL,"Aplica inmediatamente después de la compra, obtendrás artículos diarios durante 14 días al iniciar sesión. (Con el Boleto de Héroe de 3 Estrellas podrás escoger héroes hasta Aselica, Crow, y Shea (lanzamiento en abril de 2018), no incluye a los héroes NPC. El Boleto de Arma Única Aleatoria no incluye las armas únicas de héroes NPC.)"
 2019_NEWBIE_PROMOTION_POPUP2_TITLE,<Paquete por tiempo limitado> para el crecimiento rápido de tu héroe!
 PURCHASE_MARKETING.PURCHASE_MARKETING_INFO,Información del producto
-PURCHASE_MARKETING.CLOSE_PURCHASE_MARKETING_POPUP_MESSAGE,Este producto está disponible solo por 7 días.\nPuedes ver esta información nuevamente en la\nTienda especial o al tocar el ícono en la parte superior izquierda.
+PURCHASE_MARKETING.CLOSE_PURCHASE_MARKETING_POPUP_MESSAGE,"Este producto está disponible únicamente por 7 días.\nAl cerrar la ventana de anuncio, podrás verificar la\ninformación nuevamente a través de la Tienda Especial."
 QUEST_AUTO_POPUP_OPTION,Guía de misión automática
 QUEST_POPUP_CHECK_MESSAGE,No abrir hoy
 PROBABILTY_ITEM_RATE_LINK,Más detalles sobre la probabilidad de obtención en el sitio oficial.\nhttps://cafe.naver.com/kingsraid/578572
@@ -5602,7 +5603,18 @@ DESTINYLIGHT_EVENT_SPECIAL_DUNGEON_DESC3_1,"¡Portador de Muerte posee una poder
 EQUIP_INVENTORY_EXPAND_COST1,Menos de 800 casillas consumen 250 rubíes.
 EQUIP_INVENTORY_EXPAND_COST2,A partir de 800 casillas el consumo de rubíes incrementa a 500.
 EQUIP_INVENTORY_EXPAND_LINK,[Boleto de Expansión]
+CLEARMISSION_PASSPOPUP_TITLE,Colección de Paquetes de Superación
+CLEARMISSION_PASSPOPUP_LEVELUP_I,Paquete de Superación de Subir Niveles I
+CLEARMISSION_PASSPOPUP_LEVELUP_II,Paquete de Superación de Subir Niveles II
+CLEARMISSION_PASSPOPUP_STAGECLEAR_I,Paquete de Superación de Capítulos I
+CLEARMISSION_PASSPOPUP_STAGECLEAR_II,Paquete de Superación de Capítulos II
+CLEARMISSION_PASSPOPUP_BONUS,Bonus
+CLEARMISSION_PASSPOPUP_INFO_1,¡Desbloquea misiones y obtén\nrubíes como bonus con la compra!
+CLEARMISSION_PASSPOPUP_CHARGE_TITLE,MISIONES
+CLEARMISSION_PASSPOPUP_STAGECLEAR_STAGEINFO,[db6a3e]{1}-{2}[-] [193543]Completado[-]
+CLEARMISSION_PASSPOPUP_STAGECLEAR_INFO,※ Obtendrás recompensas de acuerdo a tu completación de los escenarios de los capítulos 7~9.\n※ Toca el botón Recompensa para recibir tus premios.
 NODE_HERODUNGEON_NAME,Calabozo Especial de Héroes
+NODE_BUTTON_HERODUNGEON_NAME,Calabozo Especial\nde Héroes
 EVENT_NAME_HERODUNGEON_PANCIRONNE,Episodio - Pansirone
 HERO_DUNGEON_CONDITION,Desbloqueado al tener a Pansirone\ny terminar la etapa anterior.
 EVENT_INFO_HERODUNGEON,Información
@@ -5622,5 +5634,69 @@ EVENT_HERODUNGEON_PANCIRONNE_DESC5,El Entendimiento
 EVENT_SERIA_FIGURE_PACKAGE_TITLE,Paquete de Seria
 EVENT_SERIA_FIGURE_PACKAGE_CONTENT,Gracias por comprar la figura de Seria.
 SHOP_TAB_DAILY,Emisiones
+CLEARMISSION_PASSPOPUP_LEVELUP_LEVELUPINFO,[db6a3e]Niv.{1}[-] [193543]Alcanzado[-]
+CS_POPUP_NAME,Centro de Atención al Cliente (e-mail)
+CS_POPUP_AGREE,Acepto la recolección y uso de mis datos personales.
+CS_POPUP_MAIL,Enviar Correo
+CS_MAIL_INTRO,[Preguntas: Escriba su pregunta en el espacio inferior.]
+CS_POPUP_MESSAGE,"Recolectamos datos de tu dirección de correo electrónico e información\ndel juego para proveer un sistema de preguntas y respuestas más eficiente.\nDebes acceder a la recolección de datos presionando el botón Confirmar para que podamos hacernos cargo de tu pregunta.\n※ En caso de que no desees acceder a la recolección de información nos es imposible aceptar tu pregunta.\n\n[Información]\nLa información del usuario presentada a continuación es recolectada para usos de servicio al cliente,\nserá resguardada durante 3 años y posteriormente destruida de acuerdo con las leyes relacionadas.\n※ Correo electrónico, servidor, ID del juego, apodo, sistema operativo, versión del OS, y dispositivo."
 NEWBIE_REWARD_MAIL_TITLE,¡Feliz Navidad! Regalo Navideño Limitado para Nuevos Usuarios
-NEWBIE_REWARD_MAIL_CONTENT,"Regalamos a nuestros nuevos jugadores de King's Raid un [Boleto de Héroe de 5 Estrellas].\nPodrás utilizar el Boleto de Héroe de 5 Estrellas en la pestaña de Insumos, en el Inventario y escoger a un héroe de tu elección.\nEsperamos disfruten de King's Raid.\n\n※ El correo desaparecerá a las 23:59 del 31/12 (martes)."
+NEWBIE_REWARD_MAIL_CONTENT,"Regalamos a nuestros nuevos jugadores de\nKing's Raid un [Boleto de Héroe de 5 Estrellas].\nPodrás utilizar el Boleto de Héroe de 5 Estrellas en la pestaña de\nInsumos, en el Inventario y escoger a un héroe de tu elección.\nEsperamos que disfruten de King's Raid.\n\n※ El correo desaparecerá a las 23:59 del 31/12 (martes)."
+CLEARMISSION_PASSPOPUP_STAGECLEAR_INFO2,※ Obtendrás recompensas de acuerdo a tu completación de los escenarios de los capítulos 1~6.\n※ Toca el botón Recompensa para recibir tus premios.
+19CHRISTMAS_BUFF_TITLE,Caja de Deseo Impulsivo
+19CHRISTMAS_DUNGEON_TITLE,Caja de Deseo Impulsivo
+19CHRISTMAS_GIFT,Tienda de Evento
+19CHRISTMAS_STORY_TITLE,Calabozos de Historia
+19CHRISTMAS_STORY_DESC,Calabozos de historia de evento.\nAl terminar todos se abrirán los calabozos especiales.
+19CHRISTMAS_SPECIAL_TITLE,Calabozos Especiales
+19CHRISTMAS_SPECIAL_DESC,Calabozos especiales de evento.\nSe abrirán al terminar todos los calabozos de historia.
+19CHRISTMAS_LIMITENTRY,{1} {2}\n{3} / {4}
+19CHRISTMAS_PRESENT_DUNGEON,Calabozo de Regalo Sorpresa
+19CHRISTMAS_ENTER,Entrar
+NODE_PRESENT_DUNGEON_NAME,Calabozo de Regalo Sorpresa
+2019CHRISTMAS_GOLD_BOX,Caja de Luz Dorada
+2019CHRISTMAS_GOLD_BOX_DESC,Obtendrás un regalo sorpresa.\n¡¡No te asustes!!
+2019CHRISTMAS_GOLD_KEY,Llaves Doradas
+2019CHRISTMAS_GOLD_KEY_DESC,Llave que permite la entrada al [Calabozo de Regalo Sorpresa].\nPuedes ingresar desde 'Orvel'.
+2019CHRISTMAS_ACCESSORY_BOX,Caja de Accesorios Navideños (2019)
+2019CHRISTMAS_ACCESSORY_BOX_DESC,Caja con accesorios conmemorativos de Navidad. Obtendrás artículos limitados de personalización.
+2019CHRISTMAS_TICKET,Boleto de Sorteo
+2019CHRISTMAS_SOCKS,Caja de Deseos
+2019CHRISTMAS_HELP_TITLE,Información del Evento
+2019CHRISTMAS_HELP_DESC,- Caja de Deseo Impulsivo\nObtendrás [Boletos de Sorteo] al terminar los calabozos especiales y de historia.\n\n- Tienda de Evento\nPodrás comprar distintos artículos en la tienda de evento con los [Boletos de Sorteo] obtenidos en los calabozos.
+DUNGEON_19CHRISTMAS_BOSS_NAME_1,30 Horas Antes del Fin
+DUNGEON_19CHRISTMAS_BOSS_NAME_2,18 Horas Antes del Fin
+DUNGEON_19CHRISTMAS_BOSS_NAME_3,11 Horas Antes del Fin
+DUNGEON_19CHRISTMAS_BOSS_NAME_4,6 Horas Antes del Fin
+DUNGEON_19CHRISTMAS_BOSS_NAME_5,3 Horas Antes del Fin
+DUNGEON_19CHRISTMAS_BOSS_NAME_6,30 Minutos Antes del Fin
+DUNGEON_19CHRISTMAS_BOSS_NAME_7,Antes del Fin
+DUNGEON_19CHRISTMAS_BOSS_SUB_NAME_1,¡En Trineo a Orvel!
+DUNGEON_19CHRISTMAS_BOSS_SUB_NAME_2,Estropeada Fiesta de la Montaña Nevada
+DUNGEON_19CHRISTMAS_BOSS_SUB_NAME_3,Estropeada Fiesta del Desierto
+DUNGEON_19CHRISTMAS_BOSS_SUB_NAME_4,¡Aparece la Enviada de Justicia!
+DUNGEON_19CHRISTMAS_BOSS_SUB_NAME_5,Estropeada Fiesta del Bosque
+DUNGEON_19CHRISTMAS_BOSS_SUB_NAME_6,¡Los Atrapé Rufianes!
+DUNGEON_19CHRISTMAS_BOSS_SUB_NAME_7,Gran Multitud
+DUNGEON_19CHRISTMAS_BOSS_NAME_8,Crow
+DUNGEON_19CHRISTMAS_BOSS_NAME_9,Crow
+DUNGEON_19CHRISTMAS_BOSS_NAME_10,Crow
+DUNGEON_19CHRISTMAS_BOSS_SUB_NAME_8,Ligeramente Incómodo
+DUNGEON_19CHRISTMAS_BOSS_SUB_NAME_9,Bastante Molesto
+DUNGEON_19CHRISTMAS_BOSS_SUB_NAME_10,Totalmente Enfurecido
+DUNGEON_19CHRISTMAS_BOSS_NAME_11,Calabozo de Regalo Sorpresa
+DUNGEON_19CHRISTMAS_BOSS_SUB_NAME_11,Saco de Regalos Sorpresa
+2019CHRISTMAS_ACCESSORY_HEAD_01,Diadema Navideña
+2019CHRISTMAS_ACCESSORY_HEAD_02,Diadema de Rodolfo
+2019CHRISTMAS_ACCESSORY_HEAD_03,Diadema de Árbol
+2019CHRISTMAS_ACCESSORY_BODY_01,Bolsa de Paquetes de Regalo
+PACKAGE_FIRST_BUY_BENEFIT,¡Bonus de\nPrimera Compra!
+STAMINA_TYPE.EVENT_DUNGEON_GOLD_KEY,Llaves Doradas
+SHOP_NAME_2019_CHRISTMAS_SHOP,Tienda de Evento
+19CHRISTMAS_BOSS_BUFF_TITLE,Calabozo de Regalo Sorpresa
+19CHRISTMAS_BOSS_BUFF_TITLE_ENTER,Regalo\nSorpresa
+19CHRISTMAS_BUFF_TITLE_ENTER,Caja de\nDeseo
+RESULT_TYPE.INVALID_CLEAR_MISSION_INDEX,Número de misión de superación incorrecto.
+RESULT_TYPE.INVALID_CLEAR_MISSION_STEP,Etapa de recompensa de misión de superación incorrecta.
+RESULT_TYPE.CLEAR_MISSION_NOT_CLEARED,Misión de superación no completada.
+RESULT_TYPE.CHECK_CONDITION_NOT_PASSED,Condiciones para el reclamo de recompensa no satisfechas.

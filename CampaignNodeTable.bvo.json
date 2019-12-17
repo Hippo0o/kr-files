@@ -7571,7 +7571,7 @@
     "NextNodeIndex": [
       "101",
       " 30",
-      " 40"
+      " 40 "
     ],
     "Oneway": "False",
     "Opened": "False",
@@ -12588,6 +12588,49 @@
   },
   {
     "ChapterIndex": 99,
+    "DungeonIndex": 36,
+    "NodePrefab": "Square_Christmas19",
+    "FunctionButton": "Event_Christmas_Button_2019",
+    "Function": "EntryMenu",
+    "Code": [
+      "NODE_SQUARE_NAME"
+    ],
+    "UiPositionX": 2536,
+    "UiPositionY": 2380,
+    "NextNodeIndex": [
+      "129",
+      "103"
+    ],
+    "Oneway": "False",
+    "Opened": "True",
+    "Hidden": "True",
+    "EntryNPCCode": "Square_Christmas_2019",
+    "ContentsType": "Square",
+    "OpenBackgroundDownloading": "True"
+  },
+  {
+    "ChapterIndex": 99,
+    "DungeonIndex": 37,
+    "NodePrefab": "Square_Christmas",
+    "FunctionButton": "Event_2019Christmas_Present_Button",
+    "Function": "EntryMenu",
+    "Code": [
+      "NODE_SQUARE_NAME"
+    ],
+    "UiPositionX": 2144,
+    "UiPositionY": 2426,
+    "NextNodeIndex": [
+      "127",
+      "128"
+    ],
+    "Oneway": "False",
+    "Opened": "True",
+    "Hidden": "True",
+    "EntryNPCCode": "Square_Christmas_Present_2019",
+    "ContentsType": "Square"
+  },
+  {
+    "ChapterIndex": 99,
     "DungeonIndex": 101,
     "UiPositionX": 3221,
     "UiPositionY": 2537,
@@ -12883,7 +12926,8 @@
     "UiPositionY": 2380,
     "NextNodeIndex": [
       "127",
-      "120"
+      "120",
+      "35"
     ],
     "Oneway": "False",
     "Opened": "False"

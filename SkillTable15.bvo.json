@@ -782,7 +782,7 @@
       "MoreOrEqual"
     ],
     "OperationFlags3": [
-      "CheckConditionOnReady"
+      "CheckConditionOnBegin"
     ],
     "OperationType4": "ModPhysicalWeakness",
     "OperationTargetType4": "Target",
@@ -11206,7 +11206,7 @@
       "MoreOrEqual"
     ],
     "OperationFlags2": [
-      "CheckConditionOnReady"
+      "CheckConditionOnBegin"
     ],
     "OperationType3": "ModMagicalWeakness",
     "OperationTargetType3": "Myself",
@@ -15171,7 +15171,7 @@
     "TickTimeValue": [
       "1500"
     ],
-    "AttrType": "Magical",
+    "AttrType": "Physical",
     "TargetType": "Myself",
     "TargetCount": 1,
     "MaxRangeMm": 4000,
@@ -15179,7 +15179,7 @@
     "IgnoreBlock": "TRUE",
     "RetargetOnFire": "TRUE",
     "ViewTargetWhileUse": "TRUE",
-    "OperationType1": "GetMagicalDamageR",
+    "OperationType1": "GetPhysicalDamageR",
     "OperationTargetType1": "Myself",
     "OperationTargetSelectType1": "Opponent",
     "OperationRadiusMm1": 3000,
@@ -15271,7 +15271,7 @@
     "Index": 93009301,
     "TriggerType": "OnStart",
     "TriggerRatio": 1000,
-    "AttrType": "Magical",
+    "AttrType": "Physical",
     "IgnoreStateType": [
       "CC"
     ],
@@ -15297,7 +15297,7 @@
     "Index": 93009302,
     "TriggerType": "OnStart",
     "TriggerRatio": 1000,
-    "AttrType": "Magical",
+    "AttrType": "Physical",
     "IgnoreStateType": [
       "CC"
     ],
@@ -15328,7 +15328,7 @@
       "1000"
     ],
     "TriggerRatio": 1000,
-    "AttrType": "Magical",
+    "AttrType": "Physical",
     "IgnoreStateType": [
       "CC"
     ],
@@ -15350,7 +15350,7 @@
       "3000"
     ],
     "TriggerRatio": 1000,
-    "AttrType": "Magical",
+    "AttrType": "Physical",
     "IgnoreStateType": [
       "CC"
     ],

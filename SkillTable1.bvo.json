@@ -15807,7 +15807,7 @@
     "OperationType1": "GetMagicalDamageR",
     "OperationTargetType1": "Target",
     "OperationValue1": [
-      "750"
+      "650"
     ],
     "OperationDelayMs1": [
       "0",
@@ -15839,7 +15839,7 @@
       "5000"
     ],
     "OperationState1": "ImmuneShield",
-    "OperationDurationMs1": 10000,
+    "OperationDurationMs1": 7000,
     "OperationConditionType1": "None",
     "OperationType3": "GetMagicalDamageR",
     "OperationTargetType3": "Myself",
@@ -15894,7 +15894,7 @@
     "OperationWidth1": 5000,
     "OperationAngle1": 90,
     "OperationValue1": [
-      "600"
+      "450"
     ],
     "OperationConditionType1": "None",
     "OperationType2": "Knockback",
@@ -15940,7 +15940,7 @@
     "OperationTargetType1": "Target",
     "OperationRadiusMm1": 2000,
     "OperationValue1": [
-      "2000"
+      "1000"
     ],
     "OperationConditionType1": "None",
     "OperationType2": "Down",
@@ -16017,7 +16017,7 @@
     "OperationWidth1": 5000,
     "OperationAngle1": 90,
     "OperationValue1": [
-      "600"
+      "450"
     ],
     "OperationConditionType1": "None",
     "OperationType2": "Knockback",
@@ -16093,28 +16093,28 @@
     "OperationValue1": [
       "501",
       "1",
-      "150"
+      "80"
     ],
     "OperationType2": "SpawnCreature",
     "OperationTargetType2": "Target",
     "OperationValue2": [
       "502",
       "1",
-      "150"
+      "80"
     ],
     "OperationType3": "SpawnCreature",
     "OperationTargetType3": "Target",
     "OperationValue3": [
       "503",
       "1",
-      "150"
+      "80"
     ],
     "OperationType4": "SpawnCreature",
     "OperationTargetType4": "Target",
     "OperationValue4": [
       "504",
       "1",
-      "150"
+      "80"
     ],
     "OperationType5": "ModMagicalToughness",
     "OperationTargetType5": "Myself",
@@ -32026,13 +32026,12 @@
     "OperationType1": "SetDamage",
     "OperationTargetType1": "Myself",
     "OperationValue1": [
-      "204",
+      "101",
       "1",
       "None",
       "None"
     ],
     "OperationState1": "TreasureGob",
-    "OperationDurationMs1": 9999999,
     "OperationConditionType1": "None"
   },
   {
@@ -32047,15 +32046,16 @@
     "TargetCount": 1,
     "DeadTarget": "False",
     "RetargetOnFire": "False",
-    "OperationType1": "ModSkill",
+    "OperationType1": "SetDamage",
     "OperationTargetType1": "Myself",
     "OperationValue1": [
-      "3000740",
+      "157",
       "1",
-      "Value",
-      "-103",
-      "0"
-    ]
+      "None",
+      "None"
+    ],
+    "OperationState1": "TreasureGob",
+    "OperationConditionType1": "None"
   },
   {
     "Index": 3000742,
@@ -32069,15 +32069,16 @@
     "TargetCount": 1,
     "DeadTarget": "False",
     "RetargetOnFire": "False",
-    "OperationType1": "ModSkill",
+    "OperationType1": "SetDamage",
     "OperationTargetType1": "Myself",
     "OperationValue1": [
-      "3000740",
+      "204",
       "1",
-      "Value",
-      "-47",
-      "0"
-    ]
+      "None",
+      "None"
+    ],
+    "OperationState1": "TreasureGob",
+    "OperationConditionType1": "None"
   },
   {
     "Index": 6600100,

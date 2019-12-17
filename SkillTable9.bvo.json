@@ -9565,6 +9565,7 @@
   },
   {
     "Index": 770810,
+    "ReplaceNameKey": "SKILL_NAME_660810",
     "TriggerType": "OnAuto",
     "TriggerRatio": 1000,
     "CoolTimeMs": 16000,
@@ -9602,6 +9603,7 @@
   },
   {
     "Index": 770812,
+    "ReplaceNameKey": "SKILL_NAME_660812",
     "TriggerType": "NextSkill",
     "TriggerRatio": 1000,
     "SoloTimeMs": 1,
@@ -9643,7 +9645,7 @@
     ],
     "OperationState2": "Kallax_Disaster_2",
     "OperationDurationMs2": 9999999,
-    "OperationTickTimeMs2": 500,
+    "OperationTickTimeMs2": 1000,
     "OperationConditionType2": "State",
     "OperationConditionValue2": [
       "Kallax_Fire"
@@ -9736,6 +9738,7 @@
   },
   {
     "Index": 770820,
+    "ReplaceNameKey": "SKILL_NAME_660820",
     "NextIndex": 770821,
     "TriggerType": "OnAuto",
     "TriggerRatio": 1000,
@@ -9772,6 +9775,7 @@
   },
   {
     "Index": 770821,
+    "ReplaceNameKey": "SKILL_NAME_660821",
     "TriggerType": "NextSkill",
     "TriggerRatio": 1000,
     "DurationTimeMs": [
@@ -9864,7 +9868,7 @@
     "OperationType1": "GetHealByDamageR",
     "OperationTargetType1": "Myself",
     "OperationValue1": [
-      "30000",
+      "15000",
       "NoCritical"
     ],
     "OperationConditionType1": "None",
@@ -9880,6 +9884,7 @@
   },
   {
     "Index": 770830,
+    "ReplaceNameKey": "SKILL_NAME_660830",
     "NextIndex": 770833,
     "TriggerType": "OnAuto",
     "TriggerRatio": 1000,
@@ -9921,6 +9926,7 @@
   },
   {
     "Index": 770831,
+    "ReplaceNameKey": "SKILL_NAME_660831",
     "TriggerType": "NextSkill",
     "TriggerRatio": 1000,
     "AttrType": "Magical",
@@ -9932,11 +9938,11 @@
     "OperationType1": "ModWeakness",
     "OperationTargetType1": "Myself",
     "OperationState1": "Kallax_Mark",
-    "OperationDurationMs1": 2400,
+    "OperationDurationMs1": 4200,
     "OperationType2": "ModWeakness",
     "OperationTargetType2": "Myself",
     "OperationState2": "Kallax_Mark_2",
-    "OperationDurationMs2": 2400,
+    "OperationDurationMs2": 4200,
     "OperationConditionType2": "State",
     "OperationConditionValue2": [
       "Kallax_Burf1"
@@ -9944,7 +9950,7 @@
     "OperationType3": "ModWeakness",
     "OperationTargetType3": "Myself",
     "OperationState3": "Kallax_Mark_3",
-    "OperationDurationMs3": 2400,
+    "OperationDurationMs3": 4200,
     "OperationConditionType3": "State",
     "OperationConditionValue3": [
       "Kallax_Burf2"
@@ -9962,7 +9968,7 @@
     "OperationType1": "ModWeakness",
     "OperationTargetType1": "Target",
     "OperationState1": "Kallax_EnemyMark",
-    "OperationDurationMs1": 2400
+    "OperationDurationMs1": 4200
   },
   {
     "Index": 770833,
@@ -9970,7 +9976,7 @@
     "TriggerType": "NextSkill",
     "TriggerRatio": 1000,
     "DurationTimeMs": [
-      "1200"
+      "2400"
     ],
     "CancelOnWaveEnd": "True",
     "AttrType": "Magical",
@@ -10021,7 +10027,7 @@
     "OperationType4": "GetMana",
     "OperationTargetType4": "Parent",
     "OperationValue4": [
-      "-6000"
+      "-3000"
     ],
     "OperationParent4": 3,
     "OperationFlags4": [
@@ -10194,7 +10200,7 @@
     "OperationValue4": [
       "MpRegenRatioM",
       "Custom",
-      "500"
+      "750"
     ],
     "OperationState4": "Kallax_Fire_3",
     "OperationDurationMs4": 7000,
@@ -10222,7 +10228,7 @@
     "OperationType8": "GetMana",
     "OperationTargetType8": "Parent",
     "OperationValue8": [
-      "-6000"
+      "-3000"
     ],
     "OperationParent8": 1,
     "OperationFlags8": [
@@ -10363,7 +10369,7 @@
     "OperationValue4": [
       "MpRegenRatioM",
       "Custom",
-      "500"
+      "750"
     ],
     "OperationState4": "Kallax_Fire_3",
     "OperationDurationMs4": 7000,
@@ -10391,7 +10397,7 @@
     "OperationType8": "GetMana",
     "OperationTargetType8": "Parent",
     "OperationValue8": [
-      "-6000"
+      "-3000"
     ],
     "OperationParent8": 1,
     "OperationFlags8": [
@@ -10425,6 +10431,7 @@
   },
   {
     "Index": 770860,
+    "ReplaceNameKey": "SKILL_NAME_660860",
     "TriggerType": "OnStart",
     "TriggerRatio": 1000,
     "AttrType": "None",
@@ -10475,6 +10482,7 @@
   },
   {
     "Index": 770861,
+    "ReplaceNameKey": "SKILL_NAME_660861",
     "TriggerType": "OnStart",
     "TriggerRatio": 1000,
     "CancelOnWaveEnd": "TRUE",
@@ -10563,7 +10571,8 @@
     ]
   },
   {
-    "Index": 770811
+    "Index": 770811,
+    "ReplaceNameKey": "SKILL_NAME_660811"
   },
   {
     "Index": 770864,
@@ -10674,10 +10683,14 @@
   },
   {
     "Index": 770867,
-    "TriggerType": "OnStart",
+    "TriggerType": "OnTimer",
+    "TriggerValue": [
+      "12000",
+      "12000"
+    ],
     "TriggerRatio": 1000,
     "CancelOnWaveEnd": "TRUE",
-    "AttrType": "Magical",
+    "AttrType": "Physical",
     "IgnoreStateType": [
       "CC",
       "RaidDown"
@@ -10688,14 +10701,8 @@
     "OperationType1": "ModDefensePower",
     "OperationTargetType1": "Myself",
     "OperationValue1": [
-      "500"
+      "-200"
     ],
-    "OperationDurationMs1": 9999999,
-    "OperationType2": "ModPhysicalToughness",
-    "OperationTargetType2": "Myself",
-    "OperationValue2": [
-      "200"
-    ],
-    "OperationDurationMs2": 9999999
+    "OperationDurationMs1": 9999999
   }
 ]

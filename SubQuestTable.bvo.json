@@ -475,7 +475,7 @@
     "AutoComplete": "FALSE",
     "MoveTaskType": "MoveToLastDungeon",
     "MoveTaskValue": [
-      "True"
+      "TRUE"
     ],
     "RewardIndex": 600646
   },
@@ -5145,9 +5145,10 @@
     "ReqProgress": 1,
     "AutoComplete": "False",
     "ConditionKey1": "CraftIndex",
-    "ConditionCompare1": "Equal",
+    "ConditionCompare1": "In",
     "ConditionValue1": [
-      "15"
+      "15",
+      "102"
     ],
     "MoveTaskType": "OpenInventory",
     "MoveTaskValue": [

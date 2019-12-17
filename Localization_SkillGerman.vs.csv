@@ -4092,7 +4092,7 @@ SKILL_DESC_550222,Beschwört alle 20 Sek. 3 Geister. VERT erhöht sich um 25 % p
 SKILL_NAME_550225,Protanius-Haut
 SKILL_DESC_550225,"Protanius ist vor ANG-GESCHW. beeinflussenden Effekten geschützt. Verwundbarer durch P. Schaden und erleidet mehr Schaden, nachdem er zu Boden geworfen wurde. Wenn Protanius einen Gegner verletzt, erleidet dieser alle 5 Sek. Mag. Schaden."
 SKILL_NAME_550241,Wassergefängnis
-SKILL_DESC_550241,"Gegner, die im Wassergefägnis eingesperrt sind, können sich weder bewegen, noch Skills benutzen. Wenn das [Wassergefängnis] 10 Sek. nach Benutzung von [Wassergefängnis: Lockdown] noch existiert, verliert der Eingesperrte 1000 Mana und alle Skill-Cooldowns erhöhen sich um 70 %. Das Wassergefängnis wird aufgehoben, wenn Protianus 75 Mal Körp. Schaden erhalten hat."
+SKILL_DESC_550241,"Gegner, die im Wassergefägnis eingesperrt sind, können sich weder bewegen, noch Skills benutzen. 10 Sek. nach Benutzung von [Einschließendes Wassergefängnis] verliert der Eingesperrte 1.000 Mana und alle Skill-Cooldowns erhöhen sich um 70 %. Das Wassergefängnis wird aufgehoben, wenn Protianus 75 Mal Körp. Schaden erhalten hat."
 SKILL_NAME_550310,Einladung in den Abgrund
 SKILL_DESC_550310,"Bezaubert 1 Feind, fügt dem Ziel Mag. Schaden zu und zwingt es für 8 Sek. zum Rückzug. Zurückgezogene Ziele können keine Aktionen ausführen oder angegriffen werden. Der Schaden des getroffenen Feindes wird dauerhaft verringert."
 SKILL_NAME_550320,Vorhang der Dunkelheit
@@ -5761,7 +5761,7 @@ SKILL_DESC_60000951,Alle Angriffe von Epis verringern 10 Sek. lang die Mag. VERT
 SKILL_DESC_60001051,Reduziert eigene Krit. Chance um 300 und erhöht Krit. Schaden um 150 %.
 SKILL_DESC_60001151,"Die Massenkontroll-Widerstand des Ziels ist bei einem Krit. Treffer für 10 Sek. um 250 reduziert und alle Skill-Cooldowns, inklusive des genutzten Skills, sind um 2 % reduziert."
 SKILL_DESC_60001251,"Miruru erhält Dunkelheits-Stapel, basierend auf der Anzahl der Feinde, die sie trifft. Erreicht der Stapel 50, rastet Miruru aus und erhält 800 ANG-GESCHW. und 20 % erhöhten ANG für 10 Sek."
-SKILL_DESC_60001351,Visiert alle Feinde alle 5 Sek. an und greift jeden Feind mit einer Wahrscheinlichkeit von 30 % mit Dornenbuschwald an.
+SKILL_DESC_60001351,Visiert alle Feinde alle 5 Sek. an und greift jeden Feind mit einer Wahrscheinlichkeit von 30 % mit Dornenbusch-Wald an.
 SKILL_DESC_60001551,"Erhöht Körp. VERT und Körp. Krit.-Widerstand aller Verbündeten für 5 Sek. um 20 %, wenn ein Verbündeter des Helden getroffen wird (Cooldown: 10 Sek.)."
 SKILL_DESC_60001651,Beim Angriff besteht eine 10 % Chance die VERT des Ziels um 20 % und alle Helden-Cooldowns um 5 % zu reduzieren.
 SKILL_DESC_60001751,Normale Angriffe verursachen 80 % der ANG als zusätzlichen Mag. Schaden und geben dem Held 100 Mana zurück. 10 % Chance auf doppelten Schaden und Mana-Regeneration.
@@ -5839,7 +5839,7 @@ SKILL_DESC_850140,"Dieser Tsunami räumt frontal 50m weit auf und trifft Gegner 
 SKILL_NAME_850125,Protianus-Haut
 SKILL_DESC_850125,"Protianus ist vor ANG-GESCHW. beeinflussenden Effekten geschützt. Wenn Protianus einen Gegner verletzt, erleidet dieser für 5 Sek. Mag. Schaden proportional zu seiner max. TP."
 SKILL_NAME_850141,Wassergefängnis
-SKILL_DESC_850141,"Gegner, die im Wassergefägnis eingesperrt sind, können sich weder bewegen, noch Skills benutzen. Wenn das [Wassergefängnis] 20 Sek. nach Benutzung von [Wassergefängnis: Lockdown] noch existiert, verliert der Eingesperrte 3000 Mana und alle Skill-Cooldowns erhöhen sich um 100 %. Das Wassergefängnis wird aufgehoben, wenn Protianus 350 Mal Körp. Schaden erhalten hat."
+SKILL_DESC_850141,"Gegner, die im Wassergefägnis eingesperrt sind, können sich weder bewegen, noch Skills benutzen. 20 Sek. nach Benutzung von [Einschließendes Wassergefängnis] verliert der Eingesperrte 3.000 Mana und alle Skill-Cooldowns erhöhen sich um 100 %. Das Wassergefängnis wird aufgehoben, wenn Protianus 350 Mal Körp. Schaden erhalten hat."
 SKILL_NAME_90001,[Stärkung für Monster]
 SKILL_DESC_90001,Entfernt in regelmäßigen Abständen negative Effekte.
 SKILL_NAME_90002,[Stärkung für Monster]
@@ -5978,3 +5978,4 @@ SKILL_DESC_7100340,"Wenn Sekmahas Massenkontroll-Leiste aufgebraucht ist, änder
 SKILL_DESC_7100341,Ein Wächter von Sekireinel wird stärker und seine VERT & ANG-GESCHW können nicht beeinflusst werden. Nach der 6. Kampf-Phase erzeugt Sekmaha zu einem bestimmten Zeitpunkt einen Tropfen-Schutzschild.
 SKILL_DESC_80005140,"Erhöht die eigenen max. TP um {1} % und erhöht den ANG aller Verbündeten um {2} %, wenn nur ein Feind übrig bleibt. Dieser Effekt ist nicht mit anderen ähnlichen Effekten, die von Verbündeten angewendet werden, stapelbar."
 SKILL_DESC_80005150,Bei einem Normal-ANG wird mit {1} %iger Chance die ANG-GESCHW {2} Sek. lang um {3} erhöht.
+SKILL_DESC_80005160,"Wenn du unter Massenkontrolle stehst, wird der Cooldown aller aktivierten Eigen-Skills um {1} Sek. verringert und {2} Sek. lang werden aller Sek. {3} MP regeneriert. Ein Cooldown von {4} Sek. wird aktiv."

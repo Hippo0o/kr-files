@@ -11,8 +11,8 @@ RESULT_TYPE.SUCCESS,ประมวลผลคำขอของคุณเร
 RESULT_TYPE.FAIL,การประมวลผลคำขอของคุณล้มเหลวเนื่องจากการเชื่อมต่อเครือข่ายไม่เสถียร โปรดลองใหม่อีกครั้งในภายหลัง
 RESULT_TYPE.LEVEL_DATA_NOT_FOUND,ไม่พบข้อมูลเลเวล
 RESULT_TYPE.CANNOT_UPGRADE_MORE,ไม่สามารถอัพเกรดเพิ่มได้
-RESULT_TYPE.NOT_ENOUGH_GOLD,มี Gold ไม่เพียงพอ
-RESULT_TYPE.NOT_ENOUGH_GEM,มี Ruby ไม่เพียงพอ
+RESULT_TYPE.NOT_ENOUGH_GOLD,มีทองไม่เพียงพอ
+RESULT_TYPE.NOT_ENOUGH_GEM,มีรูบี้ไม่เพียงพอ
 RESULT_TYPE.INSUFFICIENT_ITEM,มีวัตถุดิบไม่เพียงพอ
 RESULT_TYPE.GRADE_DATA_NOT_FOUND,ไม่พบข้อมูล Rank
 RESULT_TYPE.CANNOT_UPGRADE_YET,ไม่สามารถอัพเกรดได้
@@ -174,7 +174,7 @@ RESULT_TYPE.CENSORED_WORD,รวมถึงคำสาปแช่ง
 RESULT_TYPE.NOT_ENOUGH_CHALLENGE_CHANCE,ไม่สามารถประลองได้มากกว่านี้
 RESULT_TYPE.NOT_ENOUGH_DUNGEON_KEY,มีกุญแจสำหรับลงดันเจี้ยนไม่เพียงพอ
 RESULT_TYPE.NOT_OPENED_DUNGEON,ดันเจี้ยนยังไม่เปิดให้เข้า
-RESULT_TYPE.REQ_GEM_ERROR,ไม่ต้องการ Ruby
+RESULT_TYPE.REQ_GEM_ERROR,ไม่ต้องการรูบี้
 RESULT_TYPE.WAITER_NOT_FOUND,ไม่พบข้อมูลการรอ
 RESULT_TYPE.MISSION_NOT_CLEARED,ภารกิจยังไม่สำเร็จ
 RESULT_TYPE.DUNGEON_DATA_NOT_FOUND,ไม่พบข้อมูลดันเจี้ยน
@@ -510,8 +510,8 @@ RESULT_TYPE.SIGNED_OUT,ออกเรียบร้อย
 RESULT_TYPE.NO_CACHE,ไม่มีแคช
 RESULT_TYPE.BLOCKED,บัญชีนี้ถูกแบน
 RESULT_TYPE.LOW_VERSION,เวอร์ชั่นต่ำ
-RESULT_TYPE.INVALID_STAMINA_TYPE,Stamina ไม่ถูกต้อง
-RESULT_TYPE.MAX_STAMINA,Stamina สูงสุด
+RESULT_TYPE.INVALID_STAMINA_TYPE,สเตมิน่าไม่ถูกต้อง
+RESULT_TYPE.MAX_STAMINA,สเตมิน่าสูงสุด
 RESULT_TYPE.GUILD_MASTER_CANNOT_SIGN_OUT,หัวหน้ากิลด์ไม่สามารถออกจากกิลด์ 
 RESULT_TYPE.DBSELECT_ERROR,ฐานข้อมูลผิดพลาด
 RESULT_TYPE.DBUPDATE_ERROR,ฐานข้อมูลผิดพลาด
@@ -901,3 +901,4 @@ RESULT_TYPE.NOT_ENOUGH_ECLIPSE_KEY,ไม่มีแก่นแท้แห่
 RESULT_TYPE.IS_ALREADY_LIBERATION,เป็นอาวุธเฉพาะที่ปลดปล่อยแล้ว
 RESULT_TYPE.NOT_AVAILABLE_RECHARGE,เมื่อเติมแก่นแท้แห่งพระจันทร์สีเลือด จะมีระดับความมืดกลืนกินที่ถูกทิ้ง\nเข้าไปยังอีคลิปส์และใช้แก่นแท้แห่งพระจันทร์สีเลือด หลังจากนั้นกรุณาลองใหม่อีกครั้ง
 RESULT_TYPE.ECLIPSE_BATTLE_TIME_OVER,ไม่สามารถประลองต่อได้หากจบเวลาอีคลิปส์
+RESULT_TYPE.EXCEEDED_DAILY_ENTRY_COUNT,เกินจำนวนที่เข้าได้ต่อวันแล้ว ไม่สามารถเข้าได้อีก

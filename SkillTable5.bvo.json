@@ -28053,5 +28053,202 @@
     ],
     "OperationState3": "Pancironne_Cctime",
     "OperationDurationMs3": 9999999
+  },
+  {
+    "Index": 5006059,
+    "NextIndex": 5006062,
+    "TriggerType": "OnHpRatio",
+    "TriggerValue": [
+      "0",
+      "0",
+      "105"
+    ],
+    "TriggerRatio": 1000,
+    "TriggerFlag": [
+      "CancelUsingSkill"
+    ],
+    "CoolTimeMs": 1800000,
+    "AttrType": "None",
+    "ClearStateType": [
+      "CC"
+    ],
+    "IgnoreStateType": [
+      "CC"
+    ],
+    "TargetType": "Myself",
+    "TargetCount": 1,
+    "DeadTarget": "FALSE",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "FALSE",
+    "OperationType1": "RaiseEventTrigger",
+    "OperationTargetType1": "Myself",
+    "OperationValue1": [
+      "EventTrigger",
+      "1402"
+    ],
+    "OperationConditionType1": "None",
+    "OperationType2": "ClearSkillOperation",
+    "OperationTargetType2": "Myself",
+    "OperationValue2": [
+      "50000013"
+    ],
+    "OperationDelayMs2": [
+      "500",
+      "0",
+      "0"
+    ]
+  },
+  {
+    "Index": 5006060,
+    "TriggerType": "OnHpRatio",
+    "TriggerValue": [
+      "0",
+      "0",
+      "305"
+    ],
+    "TriggerRatio": 1000,
+    "TriggerFlag": [
+      "CancelUsingSkill"
+    ],
+    "CoolTimeMs": 1800000,
+    "AttrType": "None",
+    "ClearStateType": [
+      "CC"
+    ],
+    "IgnoreStateType": [
+      "CC"
+    ],
+    "TargetType": "Myself",
+    "TargetCount": 1,
+    "DeadTarget": "FALSE",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "FALSE",
+    "OperationType1": "RaiseEventTrigger",
+    "OperationTargetType1": "Myself",
+    "OperationValue1": [
+      "EventTrigger",
+      "1410"
+    ],
+    "OperationConditionType1": "None",
+    "OperationType2": "ClearSkillOperation",
+    "OperationTargetType2": "Myself",
+    "OperationValue2": [
+      "50000012"
+    ],
+    "OperationDelayMs2": [
+      "500",
+      "0",
+      "0"
+    ]
+  },
+  {
+    "Index": 5006061,
+    "TriggerType": "OnHpRatio",
+    "TriggerValue": [
+      "0",
+      "0",
+      "305"
+    ],
+    "TriggerRatio": 1000,
+    "TriggerFlag": [
+      "CancelUsingSkill"
+    ],
+    "CoolTimeMs": 1800000,
+    "AttrType": "None",
+    "ClearStateType": [
+      "CC"
+    ],
+    "IgnoreStateType": [
+      "CC"
+    ],
+    "TargetType": "Myself",
+    "TargetCount": 1,
+    "DeadTarget": "FALSE",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "FALSE",
+    "OperationType1": "RaiseEventTrigger",
+    "OperationTargetType1": "Myself",
+    "OperationValue1": [
+      "EventTrigger",
+      "1415"
+    ],
+    "OperationConditionType1": "None",
+    "OperationType2": "ClearSkillOperation",
+    "OperationTargetType2": "Myself",
+    "OperationValue2": [
+      "50000012"
+    ],
+    "OperationDelayMs2": [
+      "500",
+      "0",
+      "0"
+    ]
+  },
+  {
+    "Index": 5006062,
+    "TriggerType": "OnStart",
+    "TriggerRatio": 1000,
+    "AttrType": "None",
+    "ClearStateType": [
+      "CC"
+    ],
+    "IgnoreStateType": [
+      "CC"
+    ],
+    "TargetType": "Myself",
+    "TargetCount": 1,
+    "DeadTarget": "FALSE",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "FALSE",
+    "OperationType1": "SetDamage",
+    "OperationTargetType1": "Myself",
+    "OperationValue1": [
+      "300",
+      "1225",
+      "None",
+      "None"
+    ],
+    "OperationState1": "ChristmasGifts",
+    "OperationDurationMs1": 9999999,
+    "OperationConditionType1": "None"
+  },
+  {
+    "Index": 5006063,
+    "TriggerType": "OnDamage",
+    "TriggerRatio": 1000,
+    "CoolTimeMs": 500,
+    "AttrType": "None",
+    "ClearStateType": [
+      "CC"
+    ],
+    "IgnoreStateType": [
+      "CC"
+    ],
+    "TargetType": "Myself",
+    "TargetCount": 1,
+    "DeadTarget": "FALSE",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "FALSE"
+  },
+  {
+    "Index": 5006064,
+    "TriggerType": "OnDie",
+    "TriggerRatio": 1000,
+    "TriggerFlag": [
+      "CanUseWhenDied"
+    ],
+    "AttrType": "None",
+    "ClearStateType": [
+      "CC"
+    ],
+    "IgnoreStateType": [
+      "CC"
+    ],
+    "TargetType": "Enemy",
+    "TargetCount": 1,
+    "DeadTarget": "FALSE",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "FALSE",
+    "OperationDurationMs1": "`"
   }
 ]

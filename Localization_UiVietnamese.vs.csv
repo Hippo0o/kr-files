@@ -1756,7 +1756,7 @@ RAID_MANAGE_INVENTORY,Quản lý Kho
 ITEM.PACKAGE_ITEM_TITLE,Kết quả sử dụng ({1} lần)
 PARTY.PARTY_DESTROYED,Chủ Phòng đã rời Nhóm. Phần thưởng vẫn còn.
 PARTY.PARTY_DESTROYED_WITHOUT_REWARD,Chủ Phòng đã rời Nhóm. Phần thưởng đã mất.
-PAY.SHOP.GEM_MILEAGE_OBTAIN_MSG,"※ Khi mua sẽ nhận {1} điểm tích lũy.\nVới vật phẩm được giảm giá, điểm tích lũy sẽ được tính lại dựa trên giá đã giảm."
+PAY.SHOP.GEM_MILEAGE_OBTAIN_MSG,"※ Khi mua sẽ nhận {1} Mileage.\nVới vật phẩm được giảm giá, sẽ được cấp dựa trên giá đã giảm."
 OPTIONSELL_TITLE_DISASSEMBLE,Phân giải tất cả
 STAT_PARTTYPE,Loại
 ITEM.BOOSTER_TITLE,Vật phẩm đã được tính giờ
@@ -1778,14 +1778,14 @@ SMITHY_OPTION_SELECT_OPTION,Chọn một tùy chọn mà bạn muốn thay đổ
 EQUIP.OPTION_CURRENT_STAT,Tùy chọn hiện tại
 EQUIP.OPTION_NEW_CHANGE,Thay đổi Tùy chọn
 EQUIP_OPTION_RENEW.CONFIRM_FIRST_RENEW_OPTION_MESSAGE,"Tùy chọn sẽ được thay đổi ngẫu nhiên. \nSau khi nâng cấp một lần, \nkhông thể thay đổi các tùy chọn khác. \nBạn sẽ nâng cấp Trang bị này?"
-EQUIP_OPTION_RENEW.ASK_RENEW_OPTION_WITH_COUPON_MESSAGE,Bạn có phiếu Nâng cấp. \nBạn sẽ sử dụng phiếu?
-EQUIP_OPTION_RENEW.ASK_RENEW_OPTION_TITLE,Đang trong quá trình Nâng cấp.
+EQUIP_OPTION_RENEW.ASK_RENEW_OPTION_WITH_COUPON_MESSAGE,Bạn có Vé luyện lại. \nBạn sẽ sử dụng Vé luyện lại?
+EQUIP_OPTION_RENEW.ASK_RENEW_OPTION_TITLE,Tiến hành luyện lại
 EQUIP_OPTION_RENEW.ASK_RENEW_OPTION_MESSAGE,Bạn có sử dụng Ruby để thay đổi tùy chọn? \nBạn có thể thay đổi {1} tùy chọn tối đa cho thiết bị này.
-EQUIP_OPTION_RENEW.ACTION,Nâng cấp
+EQUIP_OPTION_RENEW.ACTION,Luyện lại
 EQUIP.OPTION_SELECT_FINAL_SPEAK,Chọn tùy chọn bạn thích!
 EQUIP.OPTION_SELECT_PAST_OPTION,Tuỳ chọn Trước
 EQUIP.OPTION_SELECT_NEW_OPTION,Tùy chọn mới
-SMITHY_OPTION_RENEW,Nâng cấp Trang bị
+SMITHY_OPTION_RENEW,Luyện lại Trang bị
 EQUIP_OPTION_RENEW_FINAL_CONFIRM,Xác nhận Tùy chọn
 ITEM.BOOSTER_REMAIN_TIME,{1}
 ITEM.UNUSED_BOOSTER,Bộ tăng không được sử dụng
@@ -1798,9 +1798,9 @@ BOOSTER_EXP_7DAY_SHOP_DESC,Bộ tăng EXP 7 ngày\nĐược cộng dồn cùng n
 BOOSTER_GOLD_7DAY_SHOP_DESC,Bộ tăng Vàng 7 ngày\nĐược cộng dồn cùng những hiệu ứng khác cùng loại
 DAILY_RUBY_COUNT_DESC,Nhận 50 Ruby mỗi ngày trong 30 ngày liên tục. Được cộng dồn với gói Ruby từng ngày một 2.
 DAILY_RUBY_COUNT2_DESC,Nhận 150 Ruby mỗi ngày trong 30 ngày liên tục. Được cộng dồn với gói Ruby từng ngày một 1.
-EQUIP_OPTION_RENEW.CONFIRM_FIRST_RENEW_OPTION_TITLE,Đang trong quá trình Nâng cấp.
+EQUIP_OPTION_RENEW.CONFIRM_FIRST_RENEW_OPTION_TITLE,Tiến hành luyện lại
 OPTION_RENEW_ONE_MORE_BUTTON,Một lần nữa
-OPTION_RENEW_END_BUTTON,Kết thúc Nâng cấp
+OPTION_RENEW_END_BUTTON,Kết thúc luyện lại
 EVENT_RUNE_KEEP_MESSAGE,Bạn sẽ gỡ bỏ cổ tự khỏi trang bị và bảo toàn nó?\n(Miễn phí Bảo toàn Cổ tự trong thời gian diễn ra event)
 BOOSTER_BUTTON_USE,Sử dụng
 BOOSTER_BUTTON_NOW_USE,Đang sử dụng
@@ -2349,7 +2349,7 @@ RESULT_TYPE.WORLD_BOSS_DAILY_REWARDING,Đang kiểm tra thứ hạng trong ngày
 BATTLE.HERO_ALREADY_EXIST_SUB,Anh hùng đã ghi danh trong đội phụ.
 BATTLE.HERO_ALREADY_EXIST_MAIN,Anh hùng đã ghi danh trong đội chính.
 VERONICA_DONT_MISS,Đừng bỏ lỡ 14 ngày đầy sư kiện đặc biệt!
-VERONICA_HERO_SELECT_ITEM_DESC,"※Thẻ chọn anh hùng 3 sao: Cho phép chọn đến 'Cecilia' (đến các Anh hùng ra mắt từ tháng 6/2019 trở về trước.)\n※Phạm vi thẻ chọn và thẻ triệu hồi ngẫu nhiên vũ khí chuyên dụng, bảo vật chuyên dụng tuân theo cách thiết lập trong trò chơi."
+VERONICA_HERO_SELECT_ITEM_DESC,"※ Thẻ chọn anh hùng 5 sao: Có thể chọn đến 'Rehartna'\n※ Phạm vi Thẻ chọn Vũ khí chuyên dụng, Bảo vật chuyên dụng và Thẻ triệu hồi ngẫu nhiên đồng nhất với thiết lập của trò chơi."
 PAYSHOP_VERONICA_TALKBOX,Hãy nhấn vào nút 'Xem sản phẩm' để xác nhận~
 PAYSHOP_VERONICA_LISTVIEW,Xem sản phẩm
 PAYSHOP_VERONICA_BUY_TEXT,"Sau 14 ngày đăng nhập, bạn sẽ nhận được vật phẩm hoặc anh hùng 3 sao."
@@ -2802,13 +2802,13 @@ TOOLTIP_INFO_NAME_UNDERGROUNDLABYRINTHKEY,Khóa Mộ Cổ Hoàng Gia
 TOOLTIP_INFO_NAME_HIDEOUTKEY,Khóa Ngục Tối Trên Cao
 TOOLTIP_INFO_NAME_CHALLENGETOWERKEY,Khối Tháp Của Thách Thức
 TOOLTIP_INFO_NAME_EVENTDUNGEONTICKET,Cuộn chỉ vận mệnh
-TOOLTIP_INFO_NAME_EVENTDUNGEONPOINT,Mảnh vải vận mệnh
+TOOLTIP_INFO_NAME_EVENTDUNGEONPOINT,Phiếu tham gia
 TOOLTIP_INFO_NAME_EVENTDUNGEONPOINT2,Bong bóng lễ hội
 TOOLTIP_INFO_NAME_EVENTDUNGEONTICKET_BACKUP,Khóa Ngục Halloween
 TOOLTIP_INFO_NAME_EVENTDUNGEONPOINT_BACKUP,Điểm Halloween
 TOOLTIP_INFO_NAME_CONQUESTKEY,Chìa khóa chinh phạt
 TOOLTIP_INFO_TEXT_CONQUESTKEY,Chìa khóa cần thiết để tiến vào Chinh phạt.
-TOOLTIP_INFO_NAME_LUAPOINT,Dấu ấn của Lua
+TOOLTIP_INFO_NAME_LUAPOINT,Dấu chứng của Lua
 TOOLTIP_INFO_TEXT_GOLD,Có thể sử dụng với nhiều nội dung đa dạng như mua vật phẩm tại Cửa Hàng hoặc cường hóa trang bị.
 TOOLTIP_INFO_TEXT_GEM,Có thể sử dụng để mua các vật phẩm tại Cửa Hàng Đặc Biệt hoặc nhận những kĩ năng đặc biệt.
 TOOLTIP_INFO_TEXT_STAMINA,Sử dụng để tham gia vào nhiều trận đấu.
@@ -2825,7 +2825,7 @@ TOOLTIP_INFO_TEXT_UNDERGROUNDLABYRINTHKEY,Khóa sử dụng để vào Mộ Cổ
 TOOLTIP_INFO_TEXT_HIDEOUTKEY,Khóa sử dụng để vào Ngục Tối Trên Cao.
 TOOLTIP_INFO_TEXT_CHALLENGETOWERKEY,Khối sử dụng để vào tháp Thách Đấu.
 TOOLTIP_INFO_TEXT_EVENTDUNGEONTICKET,Khóa sử dụng để vào Ngục Sự Kiện.
-TOOLTIP_INFO_TEXT_EVENTDUNGEONPOINT,Hàng hóa thu được khi hoàn thành Ngục tối Nơi Ánh sáng vận mệnh hướng đến. Được sử dụng để mua sản phẩm ở Cửa hàng sự kiện.
+TOOLTIP_INFO_TEXT_EVENTDUNGEONPOINT,Hàng hóa thu được khi hoàn thành Ngục tối Sự kiện Hộp ước nguyện Tả xung hữu đột. Được sử dụng để mua sản phẩm ở Cửa hàng sự kiện.
 TOOLTIP_INFO_TEXT_EVENTDUNGEONPOINT2,Hàng hóa thu được khi hoàn thành Ngục tối đặc biệt Lễ hội Kỷ niệm 1000 ngày. Được sử dụng để mua sản phẩm ở Cửa hàng Kỷ niệm 1000 ngày.
 TOOLTIP_INFO_NAME_GLORYPOINT,Huy hiệu Vinh Quang
 TOOLTIP_INFO_TEXT_GLORYPOINT,Điểm có thể thu được tại Liên Minh Vinh Quang. Có thể sử dụng để trao đổi vật phẩm tại Cửa Hàng Liên Minh Vinh Quang.
@@ -3311,7 +3311,7 @@ SHOP_TAB_LIMIT_GATCHA,Triệu hồi hạn định
 SHOP_TAB_SPECIAL_GATCHA,Triệu hồi đặc biệt
 SHOP_TAB_NORMAL_GATCHA,Triệu hồi thường
 SHOP_TAB_MILEAGE,Mileage
-SHOP_TAB_LUAPOINT,Dấu ấn của Lua
+SHOP_TAB_LUAPOINT,Dấu chứng của Lua
 SHOP_TAB_FORWARD,Trước
 SHOP_TAB_MIDDLE,Giữa
 SHOP_TAB_REAR,Sau
@@ -3521,8 +3521,8 @@ EVENT_BUFF_EQUIPAWAKE_HALF_TITLE,Sự kiện Giảm giá thức tỉnh trang b�
 EVENT_BUFF_EQUIPAWAKE_HALF_DESC,Giảm 50% phí thức tỉnh trang bị
 EVENT_BUFF_ITEM_DOUBLE_TITLE,Tăng Chiến lợi phẩm trong 1 giờ mỗi ngày!
 EVENT_BUFF_ITEM_DOUBLE_DESC,"Tăng 100% chiến lợi phẩm trong 1 giờ, 21:00 ~ 22:00 mỗi ngày"
-EVENT_BUFF_OPTIONCHANGE_SALE_TITLE,Giảm 50% Ruby nâng cấp
-EVENT_BUFF_OPTIONCHANGE_SALE_DESC,Giảm 50% Ruby cần dùng khi nâng cấp trang bị
+EVENT_BUFF_OPTIONCHANGE_SALE_TITLE,Giảm 50% Ruby luyện lại
+EVENT_BUFF_OPTIONCHANGE_SALE_DESC,Giảm 50% Ruby cần dùng khi luyện lại trang bị
 EVENT_BUFF_OPTIONENCHANT_SALE_TITLE,Giảm 50% phí Cường hóa tùy chọn
 EVENT_BUFF_OPTIONENCHANT_SALE_DESC,Giảm 50% Bột phép thuật và Vàng cần dùng khi cường hóa tùy chọn
 EVENT_BUFF_DRCOIN_BONUS_TITLE,Thưởng Xu rồng
@@ -3904,6 +3904,7 @@ COSTUME_GROUP_HALLOWEEN,Halloween
 COSTUME_GROUP_SUPERSTAR,Thần tượng
 COSTUME_GROUP_CHRISTMAS,Giáng sinh
 COSTUME_GROUP_CHRISTMAS2,Giáng sinh 2
+COSTUME_GROUP_CHRISTMAS3,Giáng sinh 3
 COSTUME_GROUP_WORLDFAIR,Trang phục thế giới
 COSTUME_GROUP_WORLDFAIR2,Trang phục thế giới 2
 COSTUME_GROUP_FROZENFANTASY,Băng giá
@@ -4278,10 +4279,10 @@ NEWBIE_RECOMMEND_ARTIFACT_POPUP_TITLE,Gói tuyển chọn cổ vật khuyến ng
 NEWBIE_RECOMMEND_ARTIFACT_POPUP_DESC,Các Cổ vật đặc biệt mà Dosarta tự tay tuyển lựa đang đợi bạn.
 NEWBIE_PROMOTION_POPUP_DESC_2019,[Lưu ý] - Vui lòng xem thông tin ở bên phải trong khi mua để biết phạm vi lựa chọn Anh hùng.\n- Thẻ vũ khí chuyên dụng ngẫu nhiên và Thẻ chọn vũ khí chuyên dụng không bao gồm Anh hùng NPC.
 2019_MAY_HERO_SELECT_ITEM_DESC,"※ Thẻ chọn anh hùng 3 sao: Bạn có thể chọn đến Shea, Crow và Aselica. (Các Anh hùng ra mắt từ tháng 4/2018 trở về trước)\n※ Phạm vi Vũ khí chuyên dụng và Bảo vật chuyên dụng nhận được từ Thẻ ngẫu nhiên/tự chọn dựa theo thiết lập trong trò chơi."
-2019_PACKAGE_PAY_MAY_ATTENDANCE_DESC_DETAIL,"Áp dụng ngay khi mua, nhận vật phẩm khi điểm danh trong 14 ngày liên tiếp. (Thẻ chọn anh hùng 3 sao có thể chọn tới 'Aselica, Crow, Shea' (ra mắt tháng 4/2018), không bao gồm anh hùng NPC. Phiếu mua vũ khí chuyên dụng ngẫu nhiên không bao gồm vũ khí chuyên dụng của anh hùng NPC.)\nChỉ có thể mua sản phẩm này trong thời gian duy trì cửa sổ 'Bộ sưu tập lợi ích tân binh'. (Sản phẩm sẽ ngừng bán khi cửa sổ đóng.)"
+2019_PACKAGE_PAY_MAY_ATTENDANCE_DESC_DETAIL,"Áp dụng ngay khi mua, sẽ nhận được vật phẩm khi điểm danh trong 14 ngày liên tiếp. (Thẻ chọn anh hùng 3 sao có thể chọn đến 'Aselica, Crow, Shea' (ra mắt vào tháng 4/2018), không bao gồm anh hùng NPC. Coupon vũ khí chuyên dụng ngẫu nhiên không bao gồm vũ khí chuyên dụng của anh hùng NPC.)"
 2019_NEWBIE_PROMOTION_POPUP2_TITLE,<Gói giới hạn thời gian> để Anh hùng phát triển thần tốc!
 PURCHASE_MARKETING.PURCHASE_MARKETING_INFO,Thông tin sản phẩm
-PURCHASE_MARKETING.CLOSE_PURCHASE_MARKETING_POPUP_MESSAGE,"Sản phẩm này chỉ xuất hiện trong vòng 7 ngày.\nĐể xem lại thông tin này, hãy ghé\nCửa hàng đặc biệt hoặc nhấn vào biểu tượng ở trên cùng bên trái."
+PURCHASE_MARKETING.CLOSE_PURCHASE_MARKETING_POPUP_MESSAGE,"Sản phẩm này chỉ được bán trong 7 ngày.\nTrong trường hợp đã đóng Cửa sổ, có thể xem lại\nở Cửa hàng đặc biệt."
 QUEST_AUTO_POPUP_OPTION,Hướng dẫn nhiệm vụ tự động
 QUEST_POPUP_CHECK_MESSAGE,Không mở lại trong hôm nay
 PROBABILTY_ITEM_RATE_LINK,Bạn có thể xác nhận xác suất cụ thể của sản phẩm theo loại xác suất tại thông báo trên trang Cafe chính thức ở link bên dưới.\nhttps://cafe.naver.com/kingsraid/578572
@@ -4656,7 +4657,7 @@ BENEFIT_NEWBIE_HERO_INFO_1,※Bạn có thể nhận phần thưởng mỗi ngà
 BENEFIT_NEWBIE_HERO_MAINKEY_1,Danh sách anh hùng 2 sao
 BENEFIT_NEWBIE_SPECIALPRESENT_INFO_2,"※ Mỗi sản phẩm cho phép bạn nhận được Anh hùng trong Danh sách anh hùng 2 sao và vật phẩm liên quan đến các anh hùng đó.\n※ Bạn chỉ có thể mua sản phẩm một lần.\n※ Nếu bạn chọn một Anh hùng đã sở hữu bằng Thẻ chọn anh hùng 2 sao, thì bạn có thể nhận được Mảnh ghép thay thế."
 BENEFIT_NEWBIE_BUY,Đã mua xong
-COMMON.MILEAGE_COUNT,{1} điểm tích lũy
+COMMON.MILEAGE_COUNT,{1} Mileage
 BENEFIT_NEWBIE_TEAMLEVELUP_INFO_1,"※ Tùy vào Cấp độ đội đạt được, bạn có thể nhận được các phần thưởng sau.\n※ Sau khi đạt đến Cấp độ đội đã định, hãy nhấn vào Nhận thưởng để nhận các phần thưởng."
 BENEFIT_NEWBIE_ADDREWARD,Phần thưởng bổ sung
 BENEFIT_NEWBIE_ADDREWARD_INFO_1,"Khi bạn mua ngay, phần thưởng bổ sung sẽ được mở khóa."
@@ -4724,7 +4725,7 @@ CONTENT_CUSTOMIZE_DETAIL_RESET_BTN,Đặt lại
 CONTENT_CUSTOMIZE_DETAIL_SAVE_BTN,Lưu tạm thời
 CONTENT_CUSTOMIZE_BUY_ALL_INFO_TITLE,Mua tất cả
 CONTENT_CUSTOMIZE_BUY_ALL_INFO_DESC,Mua các sản phẩm chưa có:\n{1}\n\Bạn có muốn mua tất cả những sản phẩm trên không?
-CONTENT_CUSTOMIZE_BUY_ALL_INFO_DESC_MILEAGE,Nhận tổng {1} điểm tích lũy.
+CONTENT_CUSTOMIZE_BUY_ALL_INFO_DESC_MILEAGE,Nhận tổng {1} Mileage.
 SELECT_MAIN_HERO_POPUP_MOVE_COSTUMIZE,Thay đổi ngoại hình anh hùng
 CONTENT_CUSTOMIZE_EQUIP_BTN,Mặc
 CONTENT_CUSTOMIZE_EQUIP_NOW_BTN,Đang mặc
@@ -4781,8 +4782,8 @@ CONTENTS_CUSTOMIZE_MY_SET_SAVE_FAIL_NO_COSTUME,Không thể lưu trang phục n�
 PAY_SHOP.GEM_COSTUME_CONFIRM_TITLE,Xác nhận mua sản phẩm
 COSTUME.COSTUME_BUY_GEM_CONFIRM_MSG_RENEW,Bạn có muốn dùng ruby để mua:\n{1} không?
 COSTUME.COSTUME_BUY_GOLD_CONFIRM_MSG_RENEW,Bạn có muốn dùng vàng để mua:\n{1} không?
-COSTUME.COSTUME_BUY_MILEAGE_CONFIRM_MSG_RENEW,Bạn có muốn dùng điểm tích lũy để mua:\n{1} không?
-COSTUME_GEM_MILEAGE_OBTAIN_MSG,"※ Khi mua sẽ nhận {1} điểm tích lũy.\nVới sản phẩm giảm giá, điểm tích lũy sẽ được tính lại dựa trên giá đã giảm."
+COSTUME.COSTUME_BUY_MILEAGE_CONFIRM_MSG_RENEW,Bạn có muốn dùng Mileage để mua:\n{1} không?
+COSTUME_GEM_MILEAGE_OBTAIN_MSG,"※ Khi mua sẽ nhận {1} Mileage.\nVới sản phẩm giảm giá, sẽ được cấp dựa trên giá đã giảm."
 CONTENTS_CUSTOMIZE_UNABLE_APPLY_HAIR_COSTUME_HAIR_CENTER_MSG,Đang mặc trang phục không kèm kiểu tóc.
 CONTENTS_CUSTOMIZE_UNABLE_APPLY_HAIR_COSTUME_COSTUME_CENTER_MSG,Đã mặc trang phục không kèm kiểu tóc.
 CONTENTS_CUSTOMIZE_ACCESSORY_HAVE_NOW,Đã có
@@ -5602,10 +5603,21 @@ DESTINYLIGHT_EVENT_SPECIAL_DUNGEON_DESC3_1,"Dread Bringer đang sở hữu màng
 EQUIP_INVENTORY_EXPAND_COST1,Dưới 800 ô thì Ruby sẽ tiêu hao là 250.
 EQUIP_INVENTORY_EXPAND_COST2,Từ 800 ô trở lên thì Ruby sẽ tiêu hao tăng thành 500.
 EQUIP_INVENTORY_EXPAND_LINK,[Thẻ mở rộng] Đường tắt
+CLEARMISSION_PASSPOPUP_TITLE,Bộ sưu tập Gói đột phá
+CLEARMISSION_PASSPOPUP_LEVELUP_I,Gói đột phá Lên cấp I
+CLEARMISSION_PASSPOPUP_LEVELUP_II,Gói đột phá Lên cấp II
+CLEARMISSION_PASSPOPUP_STAGECLEAR_I,Gói đột phá Chương I
+CLEARMISSION_PASSPOPUP_STAGECLEAR_II,Gói đột phá Chương II
+CLEARMISSION_PASSPOPUP_BONUS,Bonus
+CLEARMISSION_PASSPOPUP_INFO_1,"Khi mua, sẽ mở nhiệm vụ và\ncấp thêm Ruby!!"
+CLEARMISSION_PASSPOPUP_CHARGE_TITLE,NHIỆM VỤ
+CLEARMISSION_PASSPOPUP_STAGECLEAR_STAGEINFO,[193543]Qua[-] [db6a3e]C{1} - {2}[-]
+CLEARMISSION_PASSPOPUP_STAGECLEAR_INFO,"※ Có thể nhận được phần thưởng tùy vào việc hoàn thành Chương VII - IX.\n※ Sau khi xử trí xong, phần thưởng sẽ được cấp khi nhấn vào nút Nhận thưởng."
 NODE_HERODUNGEON_NAME,Ngục tối anh hùng đặc biệt
+NODE_BUTTON_HERODUNGEON_NAME,Ngục tối anh\nhùng đặc biệt
 EVENT_NAME_HERODUNGEON_PANCIRONNE,Episode - Pansirone
 HERO_DUNGEON_CONDITION,"Sở hữu anh hùng Pansirone,\nmở khi hoàn thành màn trước."
-EVENT_INFO_HERODUNGEON,Hướng dẫn Ngục tối\nAnh hùng đặc biệt
+EVENT_INFO_HERODUNGEON,Thông tin Ngục tối\nAnh hùng đặc biệt
 EVENT_INFO_NAME_HERODUNGEON_PANCIRONNE,Ngục tối anh hùng đặc biệt - Pansirone
 EVENT_INFO_DESC_HERODUNGEON_PANCIRONNE,"Ngục tối anh hùng đặc biệt là ngục tối sự kiện nơi bạn có thể nhận được nhiều phần thưởng hơn khi sở hữu và tăng trưởng anh hùng tương ứng.\n\nKhi vào lần đầu, bạn sẽ nhận được 5 ‘Xẻng làm việc’ làm hàng hóa vào ngục và khi đã tiêu hao hết, mỗi ngày sẽ được nạp thêm 1 xẻng.\nKể từ ngục tối thứ hai, bạn phải sở hữu anh hùng ‘Pansirone’ mới có thể vào ngục.\n\nMang các vật phẩm nhận được ở ngục tối tặng cho Pansirone để có thể nhận được nhiều phần thưởng đa dạng,\nvẫn có thể Tặng quà dù không sở hữu Pansirone.\n\nHãy tuyển mộ Pansirone và xác nhận Episode đặc biệt để nhận được nhiều phần thưởng đa dạng!"
 EVENT_HERODUNGEON_TICKET,Xẻng làm việc
@@ -5622,5 +5634,69 @@ EVENT_HERODUNGEON_PANCIRONNE_DESC5,Nhận ra
 EVENT_SERIA_FIGURE_PACKAGE_TITLE,Gói Seria
 EVENT_SERIA_FIGURE_PACKAGE_CONTENT,Cảm ơn vì đã mua mô hình Seria.
 SHOP_TAB_DAILY,Định giá
+CLEARMISSION_PASSPOPUP_LEVELUP_LEVELUPINFO,[193543]Đạt[-] [db6a3e]LV.{1}[-]
+CS_POPUP_NAME,Trung tâm khách hàng (E-mail)
+CS_POPUP_AGREE,Cho phép thu thập và sử dụng thông tin cá nhân.
+CS_POPUP_MAIL,Gửi thư
+CS_MAIL_INTRO,[Nội dung tư vấn: Hãy ghi lại nội dung tư vấn ở phần trống phía dưới.]
+CS_POPUP_MESSAGE,"Đang thu thập thông tin game và địa chỉ E-mail\nđể tư vấn và trả lời nội dung tư vấn được thuận lợi.\nNếu bạn muốn nhận tư vấn thì sau khi cho phép thu thập thông tin cá nhân, hãy nhấn vào nút Xác nhận.\n※ Trường hợp không cho phép thu thập thông tin cá nhân thì không thể thực hiện tiếp nhận tư vấn.\n\n[Hướng dẫn thông tin thu thập]\nThu thập thông tin người dùng dưới đây với mục đích thực hiện dịch vụ hỗ trợ khách hàng\nvà sẽ hủy bỏ sau 3 năm bảo quản theo Luật liên quan.\n※ E-mail, máy chủ, ID game, Nick Name, hệ thống vận hành, phiên bản OS, Device"
 NEWBIE_REWARD_MAIL_TITLE,Merry Christmas! Quà Giáng Sinh số lượng có hạn dành cho người chơi mới
-NEWBIE_REWARD_MAIL_CONTENT,"Cảm ơn bạn đã khởi động cùng King's Raid, gửi tặng bạn 'Thẻ chọn anh hùng 5 sao'.\nBạn có thể sử dụng Thẻ chọn anh hùng 5 sao tại mục Hàng tiêu dùng trong Kho để chọn cho mình anh hùng yêu thích.\nChúc các bạn vui vẻ cùng King's Raid nhé!\n\n※ Mail này sẽ được xóa vào 23:59 31/12 (Thứ Ba)."
+NEWBIE_REWARD_MAIL_CONTENT,Cảm ơn bạn đã khởi động cùng King's Raid\ngửi tặng bạn 'Thẻ chọn anh hùng 5 sao'.\nBạn có thể sử dụng Thẻ chọn anh hùng 5 sao tại mục Hàng tiêu dùng trong Kho\nđể chọn cho mình anh hùng yêu thích.\nChúc các bạn vui vẻ cùng King's Raid.\n\n※ Mail này sẽ được xóa vào 23:59 ngày 31/12 (Thứ Ba).
+CLEARMISSION_PASSPOPUP_STAGECLEAR_INFO2,"※ Có thể nhận được phần thưởng tùy vào việc hoàn thành Chương I - VI.\n※ Sau khi xử trí xong, phần thưởng sẽ được cấp khi nhấn vào nút Nhận thưởng."
+19CHRISTMAS_BUFF_TITLE,Hộp ước nguyện Tả xung hữu đột
+19CHRISTMAS_DUNGEON_TITLE,Hộp ước nguyện\nTả xung hữu đột
+19CHRISTMAS_GIFT,Cửa hàng sự kiện
+19CHRISTMAS_STORY_TITLE,Ngục tối câu chuyện
+19CHRISTMAS_STORY_DESC,Đây là ngục tối mang câu chuyện sự kiện.\nKhi hoàn thành tất cả các ngục thì ngục tối đặc biệt sẽ được mở.
+19CHRISTMAS_SPECIAL_TITLE,Ngục tối đặc biệt
+19CHRISTMAS_SPECIAL_DESC,Đây là ngục tối đặc biệt sự kiện.\nSẽ được mở khi hoàn thành tất cả ngục tối ẩn chứa câu chuyện.
+19CHRISTMAS_LIMITENTRY,{1} {2}\n{3} / {4}
+19CHRISTMAS_PRESENT_DUNGEON,Ngục tối\nquà bất ngờ
+19CHRISTMAS_ENTER,Vào
+NODE_PRESENT_DUNGEON_NAME,Ngục tối quà bất ngờ
+2019CHRISTMAS_GOLD_BOX,Rương ánh vàng khả nghi
+2019CHRISTMAS_GOLD_BOX_DESC,Có thể nhận được món quà bất ngờ khi mở rương.\nĐừng giật mình nhé!!
+2019CHRISTMAS_GOLD_KEY,Chìa khóa vàng
+2019CHRISTMAS_GOLD_KEY_DESC,Chìa khóa để vào ‘Ngục tối quà bất ngờ’.\nCó thể vào ở ‘Thủ đô Orvel’.
+2019CHRISTMAS_ACCESSORY_BOX,Hộp phụ kiện Giáng Sinh (2019)
+2019CHRISTMAS_ACCESSORY_BOX_DESC,"Hộp đựng phụ kiện kỷ niệm Giáng sinh. Khi sử dụng, sẽ nhận được vật phẩm giới hạn theo yêu cầu."
+2019CHRISTMAS_TICKET,Phiếu tham gia
+2019CHRISTMAS_SOCKS,Hộp ước nguyện
+2019CHRISTMAS_HELP_TITLE,Hướng dẫn Sự kiện Hộp ước nguyện Tả xung hữu đột
+2019CHRISTMAS_HELP_DESC,- Hộp ước nguyện Tả xung hữu đột\nNếu hoàn thành Ngục tối câu chuyện và Ngục tối đặc biệt thì có thể nhận được 'Phiếu tham gia'.\n\n- Cửa hàng sự kiện\nCó thể mua nhiều vật phẩm đa dạng tại Cửa hàng sự kiện bằng 'Phiếu tham gia' nhận được ở Ngục tối.
+DUNGEON_19CHRISTMAS_BOSS_NAME_1,30 giờ trước khi chết
+DUNGEON_19CHRISTMAS_BOSS_NAME_2,18 giờ trước khi chết
+DUNGEON_19CHRISTMAS_BOSS_NAME_3,11 giờ trước khi chết
+DUNGEON_19CHRISTMAS_BOSS_NAME_4,6 giờ trước khi chết
+DUNGEON_19CHRISTMAS_BOSS_NAME_5,3 giờ trước khi chết
+DUNGEON_19CHRISTMAS_BOSS_NAME_6,30 phút trước khi chết
+DUNGEON_19CHRISTMAS_BOSS_NAME_7,Ngay trước khi chết
+DUNGEON_19CHRISTMAS_BOSS_SUB_NAME_1,Đi ván trượt đến Orvel!
+DUNGEON_19CHRISTMAS_BOSS_SUB_NAME_2,Bữa tiệc núi tuyết hỏng bét
+DUNGEON_19CHRISTMAS_BOSS_SUB_NAME_3,Bữa tiệc sa mạc hỏng bét
+DUNGEON_19CHRISTMAS_BOSS_SUB_NAME_4,Sứ giả chính nghĩa xuất hiện!
+DUNGEON_19CHRISTMAS_BOSS_SUB_NAME_5,Bữa tiệc khu rừng hỏng bét
+DUNGEON_19CHRISTMAS_BOSS_SUB_NAME_6,"Tóm được rồi, cái lũ này!"
+DUNGEON_19CHRISTMAS_BOSS_SUB_NAME_7,Dòng người nhộn nhịp
+DUNGEON_19CHRISTMAS_BOSS_NAME_8,Tâm trạng khó chịu
+DUNGEON_19CHRISTMAS_BOSS_NAME_9,Rất bực bội
+DUNGEON_19CHRISTMAS_BOSS_NAME_10,Giận cực độ
+DUNGEON_19CHRISTMAS_BOSS_SUB_NAME_8,Crow
+DUNGEON_19CHRISTMAS_BOSS_SUB_NAME_9,Crow
+DUNGEON_19CHRISTMAS_BOSS_SUB_NAME_10,Crow
+DUNGEON_19CHRISTMAS_BOSS_NAME_11,Ngục tối quà bất ngờ
+DUNGEON_19CHRISTMAS_BOSS_SUB_NAME_11,Túi quà bất ngờ
+2019CHRISTMAS_ACCESSORY_HEAD_01,Cài tóc Giáng sinh
+2019CHRISTMAS_ACCESSORY_HEAD_02,Cài tóc tuần lộc
+2019CHRISTMAS_ACCESSORY_HEAD_03,Cài tóc hình cây
+2019CHRISTMAS_ACCESSORY_BODY_01,Túi đựng quà
+PACKAGE_FIRST_BUY_BENEFIT,Bonus mua lần đầu
+STAMINA_TYPE.EVENT_DUNGEON_GOLD_KEY,Chìa khóa vàng
+SHOP_NAME_2019_CHRISTMAS_SHOP,Cửa hàng sự kiện
+19CHRISTMAS_BOSS_BUFF_TITLE,Ngục tối quà bất ngờ
+19CHRISTMAS_BOSS_BUFF_TITLE_ENTER,Ngục tối\nquà bất ngờ
+19CHRISTMAS_BUFF_TITLE_ENTER,Hộp\nước nguyện
+RESULT_TYPE.INVALID_CLEAR_MISSION_INDEX,Mã số nhiệm vụ đột phá không đúng.
+RESULT_TYPE.INVALID_CLEAR_MISSION_STEP,Bậc phần thưởng nhiệm vụ đột phá không đúng.
+RESULT_TYPE.CLEAR_MISSION_NOT_CLEARED,Nhiệm vụ đột phá chưa hoàn thành.
+RESULT_TYPE.CHECK_CONDITION_NOT_PASSED,Chưa thỏa mãn điều kiện nhận thưởng.

@@ -359,7 +359,7 @@ RESULT_TYPE.ALREADY_USED_PROMOTION,Sự kiện quảng bá đã tham gia.
 RESULT_TYPE.REWARD_NOT_SELECTED,Chưa chọn phần thưởng.
 RESULT_TYPE.INVALID_REWARD_INDEX,Số phần thưởng không đúng.
 RESULT_TYPE.ALREADY_PURCHASED,Bạn đã mua.
-RESULT_TYPE.NOT_ENOUGH_MILEAGE,Thiếu milleage.
+RESULT_TYPE.NOT_ENOUGH_MILEAGE,Thiếu Mileage.
 RESULT_TYPE.NOT_ENOUGH_ROYAL_POINT,Thiếu điểm mộ cổ hoàng gia.
 RESULT_TYPE.NOT_ENCRYPTED,Chưa được mật mã hóa.
 RESULT_TYPE.SALT_ERROR,Tình trạng kết nối mạng không tốt nên không thể nhận mã số xác nhận.
@@ -559,8 +559,8 @@ RESULT_TYPE.GUILD_RAID_NOT_OPENED,Guild Raid này chưa được mở.
 RESULT_TYPE.GUILD_RAID_DUNGEON_DATA_NOT_FOUND,Không tìm thấy Ngục tối
 RESULT_TYPE.GUILD_RAID_INFO_NOT_FOUND,Trận chiến không diễn ra được bình thường. Vui lòng thử lại.
 RESULT_TYPE.GUILD_RAID_CANCELED,Guild Raid đã bị hủy.
-RESULT_TYPE.NOT_RENEW_EQUIP_ITEM,Chưa chọn vật phẩm nâng cấp
-RESULT_TYPE.NO_RENEW_OPTION_SLOT,Vật phẩm này không thể nâng cấp.
+RESULT_TYPE.NOT_RENEW_EQUIP_ITEM,Chưa chọn vật phẩm để luyện lại.
+RESULT_TYPE.NO_RENEW_OPTION_SLOT,Vật phẩm này không thể luyện lại.
 RESULT_TYPE.GUILD_RAID_CHAPTER_DATA_NOT_FOUND,Không thể tìm thấy Chương Guild Raid.
 RESULT_TYPE.NOT_GUILD_MASTER,Bạn không phải là Chủ Guild.
 RESULT_TYPE.ALREADY_OPEN,Raid đã được mở.
@@ -701,7 +701,7 @@ RESULT_TYPE.PURCHASE_MARKETING_DATA_NOT_FOUND,Không thể tìm thấy thông ti
 RESULT_TYPE.PURCHASE_MARKETING_NOT_OPENED,Sản phẩm cần mua hiện đang không bán.
 RESULT_TYPE.NOT_AVAILABLE_REPEAT_COOLTIME,Sản phẩm không thể bán lại.
 RESULT_TYPE.REMAIN_REPEAT_COOLTIME,Sản phẩm cần mua không nằm trong thời gian mở bán lại.
-RESULT_TYPE.NOT_ENOUGH_LUA_POINT,Dấu ấn của Lua không đủ.
+RESULT_TYPE.NOT_ENOUGH_LUA_POINT,Thiếu Dấu chứng của Lua.
 RESULT_TYPE.BAN_PICK_PENALTY_USER_BLOCKED,Bạn bị phạt vì mức độ tham đấu thấp khi tiến hành trận đấu.\n Bạn không thể ghép trận trong {1} phút.
 RESULT_TYPE.SENSITIVE_WORD,This name is already in use.
 RESULT_TYPE.INVALID_BROADCAST_NAME_IN_THIS_SERVER,"Bạn chỉ có thể sử dụng ngôn ngữ kí tự tiếng Nhật, kí tự La Mã, chữ số."
@@ -901,3 +901,4 @@ RESULT_TYPE.NOT_ENOUGH_ECLIPSE_KEY,Không có tinh thể Mặt trăng máu.\n\nC
 RESULT_TYPE.IS_ALREADY_LIBERATION,Vũ khí chuyên dụng đã được giải phóng.
 RESULT_TYPE.NOT_AVAILABLE_RECHARGE,Có độ xâm thực của bóng tối bị bỏ đi trong trường hợp nạp thêm tinh thể Mặt trăng máu.\nVào Eclipse và thử lại sau khi sử dụng tinh thể Mặt trăng máu.
 RESULT_TYPE.ECLIPSE_BATTLE_TIME_OVER,"Thời gian của Eclipse kết thúc, không thể tiến hành trận đấu nữa."
+RESULT_TYPE.EXCEEDED_DAILY_ENTRY_COUNT,Không thể vào do đã quá giới hạn lượt vào mỗi ngày.

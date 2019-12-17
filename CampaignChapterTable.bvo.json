@@ -3595,6 +3595,34 @@
     "StaminaType": "EventHeroDungeonTicket"
   },
   {
+    "Index": 30032,
+    "Name": "19CHRISTMAS_DUNGEON_TITLE",
+    "Type": "Event",
+    "DailyEnterMaxCount": 20,
+    "IsOpen": "TRUE",
+    "Map": "Map01",
+    "MapSizeX": 4096,
+    "MapSizeY": 4096,
+    "UserStatType": [
+      "EventDungeonPoint"
+    ],
+    "StaminaType": "Chicken",
+    "SubStaminaType": "EventDungeonTicket"
+  },
+  {
+    "Index": 30033,
+    "Name": "19CHRISTMAS_PRESENT_DUNGEON",
+    "Type": "Event",
+    "IsOpen": "TRUE",
+    "Map": "Map01",
+    "MapSizeX": 4096,
+    "MapSizeY": 4096,
+    "UserStatType": [
+      "Gold"
+    ],
+    "StaminaType": "EventDungeonGoldKey"
+  },
+  {
     "Index": 100016,
     "Name": "SUBSTORY_DUNGEON_TITLE16",
     "Type": "WorldMap",

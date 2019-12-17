@@ -94702,19 +94702,18 @@
                 "ValuePath": "Decimal/Calculate/Divide",
                 "Body": [
                   {
-                    "ValuePath": "Data/ValueFromOperationData",
+                    "ValuePath": "Data/ValueFromSkillData",
                     "Body": {
                       "ArgumentContainer": null,
-                      "ValueType": "Value",
-                      "SkillIndex": 93003111,
-                      "OperationNo": 1,
-                      "ValueIndex": 1
+                      "ValueType": "TriggerValue",
+                      "SkillIndex": 93003112,
+                      "ValueIndex": 0
                     }
                   },
                   {
                     "ValuePath": "Decimal/Constant",
                     "Body": {
-                      "Derived": "-1000",
+                      "Derived": "1000",
                       "ArgumentContainer": null
                     }
                   }
@@ -104088,6 +104087,166 @@
                 }
               }
             ]
+          }
+        },
+        "EditorMemo": ""
+      }
+    },
+    {
+      "Key": 770861,
+      "Value": {
+        "SkillIndex": 770861,
+        "SkillDesc": {
+          "ValuePath": "String/Localize",
+          "Body": {
+            "LocalizeLink": {
+              "Key": "SKILL_DESC_660861"
+            },
+            "ArgumentContainer": null
+          }
+        },
+        "EditorMemo": ""
+      }
+    },
+    {
+      "Key": 770831,
+      "Value": {
+        "SkillIndex": 770831,
+        "SkillDesc": {
+          "ValuePath": "String/Localize",
+          "Body": {
+            "LocalizeLink": {
+              "Key": "SKILL_DESC_660831"
+            },
+            "ArgumentContainer": null
+          }
+        },
+        "EditorMemo": ""
+      }
+    },
+    {
+      "Key": 770860,
+      "Value": {
+        "SkillIndex": 770860,
+        "SkillDesc": {
+          "ValuePath": "String/Localize",
+          "Body": {
+            "LocalizeLink": {
+              "Key": "SKILL_DESC_660860"
+            },
+            "ArgumentContainer": null
+          }
+        },
+        "EditorMemo": ""
+      }
+    },
+    {
+      "Key": 770821,
+      "Value": {
+        "SkillIndex": 770821,
+        "SkillDesc": {
+          "ValuePath": "String/Localize",
+          "Body": {
+            "LocalizeLink": {
+              "Key": "SKILL_DESC_660821"
+            },
+            "ArgumentContainer": null
+          }
+        },
+        "EditorMemo": ""
+      }
+    },
+    {
+      "Key": 770812,
+      "Value": {
+        "SkillIndex": 770812,
+        "SkillDesc": {
+          "ValuePath": "String/Localize",
+          "Body": {
+            "LocalizeLink": {
+              "Key": "SKILL_DESC_660812"
+            },
+            "ArgumentContainer": null
+          }
+        },
+        "EditorMemo": ""
+      }
+    },
+    {
+      "Key": 770811,
+      "Value": {
+        "SkillIndex": 770811,
+        "SkillDesc": {
+          "ValuePath": "String/Localize",
+          "Body": {
+            "LocalizeLink": {
+              "Key": "SKILL_DESC_660811"
+            },
+            "ArgumentContainer": null
+          }
+        },
+        "EditorMemo": ""
+      }
+    },
+    {
+      "Key": 770850,
+      "Value": {
+        "SkillIndex": 770850,
+        "SkillDesc": {
+          "ValuePath": "String/Localize",
+          "Body": {
+            "LocalizeLink": {
+              "Key": "SKILL_DESC_660850"
+            },
+            "ArgumentContainer": null
+          }
+        },
+        "EditorMemo": ""
+      }
+    },
+    {
+      "Key": 770830,
+      "Value": {
+        "SkillIndex": 770830,
+        "SkillDesc": {
+          "ValuePath": "String/Localize",
+          "Body": {
+            "LocalizeLink": {
+              "Key": "SKILL_DESC_660830"
+            },
+            "ArgumentContainer": null
+          }
+        },
+        "EditorMemo": ""
+      }
+    },
+    {
+      "Key": 770820,
+      "Value": {
+        "SkillIndex": 770820,
+        "SkillDesc": {
+          "ValuePath": "String/Localize",
+          "Body": {
+            "LocalizeLink": {
+              "Key": "SKILL_DESC_660820"
+            },
+            "ArgumentContainer": null
+          }
+        },
+        "EditorMemo": ""
+      }
+    },
+    {
+      "Key": 770810,
+      "Value": {
+        "SkillIndex": 770810,
+        "SkillDesc": {
+          "ValuePath": "String/Localize",
+          "Body": {
+            "LocalizeLink": {
+              "Key": "SKILL_DESC_660810"
+            },
+            "ArgumentContainer": null
           }
         },
         "EditorMemo": ""

@@ -2691,7 +2691,8 @@
     "OperationTargetType1": "Myself",
     "OperationValue1": [
       "2000"
-    ]
+    ],
+    "OperationState1": "Nothing"
   },
   {
     "Index": 200032,
@@ -2713,7 +2714,8 @@
     "OperationTargetType1": "Myself",
     "OperationValue1": [
       "2000"
-    ]
+    ],
+    "OperationState1": "Nothing"
   },
   {
     "Index": 200033,
@@ -53081,5 +53083,245 @@
     ],
     "OperationState1": "Artifact515",
     "OperationDurationMs1": 5000
+  },
+  {
+    "Index": 80005160,
+    "ReplaceDescKey": "SKILL_DESC_80005160",
+    "DescParam": [
+      "5",
+      "3",
+      "500",
+      "20"
+    ],
+    "TriggerType": "OnState",
+    "TriggerValue": [
+      "0",
+      "CC"
+    ],
+    "TriggerRatio": 1000,
+    "CoolTimeMs": 20000,
+    "IgnoreStateType": [
+      "CC"
+    ],
+    "TargetType": "Myself",
+    "TargetCount": 1,
+    "DeadTarget": "False",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "False",
+    "OperationType1": "ModActiveCooltime",
+    "OperationTargetType1": "Myself",
+    "OperationValue1": [
+      "3",
+      "-5000",
+      "InCoolTime"
+    ],
+    "OperationType2": "GetMot",
+    "OperationTargetType2": "Myself",
+    "OperationValue2": [
+      "500"
+    ],
+    "OperationState2": "Artifact516",
+    "OperationDurationMs2": 3000,
+    "OperationTickTimeMs2": 1000
+  },
+  {
+    "Index": 80005161,
+    "ReplaceDescKey": "SKILL_DESC_80005160",
+    "DescParam": [
+      "6",
+      "3",
+      "600",
+      "20"
+    ],
+    "TriggerType": "OnState",
+    "TriggerValue": [
+      "0",
+      "CC"
+    ],
+    "TriggerRatio": 1000,
+    "CoolTimeMs": 20000,
+    "IgnoreStateType": [
+      "CC"
+    ],
+    "TargetType": "Myself",
+    "TargetCount": 1,
+    "DeadTarget": "False",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "False",
+    "OperationType1": "ModActiveCooltime",
+    "OperationTargetType1": "Myself",
+    "OperationValue1": [
+      "3",
+      "-6000",
+      "InCoolTime"
+    ],
+    "OperationType2": "GetMot",
+    "OperationTargetType2": "Myself",
+    "OperationValue2": [
+      "600"
+    ],
+    "OperationState2": "Artifact516",
+    "OperationDurationMs2": 3000,
+    "OperationTickTimeMs2": 1000
+  },
+  {
+    "Index": 80005162,
+    "ReplaceDescKey": "SKILL_DESC_80005160",
+    "DescParam": [
+      "7",
+      "3",
+      "700",
+      "20"
+    ],
+    "TriggerType": "OnState",
+    "TriggerValue": [
+      "0",
+      "CC"
+    ],
+    "TriggerRatio": 1000,
+    "CoolTimeMs": 20000,
+    "IgnoreStateType": [
+      "CC"
+    ],
+    "TargetType": "Myself",
+    "TargetCount": 1,
+    "DeadTarget": "False",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "False",
+    "OperationType1": "ModActiveCooltime",
+    "OperationTargetType1": "Myself",
+    "OperationValue1": [
+      "3",
+      "-7000",
+      "InCoolTime"
+    ],
+    "OperationType2": "GetMot",
+    "OperationTargetType2": "Myself",
+    "OperationValue2": [
+      "700"
+    ],
+    "OperationState2": "Artifact516",
+    "OperationDurationMs2": 3000,
+    "OperationTickTimeMs2": 1000
+  },
+  {
+    "Index": 80005163,
+    "ReplaceDescKey": "SKILL_DESC_80005160",
+    "DescParam": [
+      "8",
+      "3",
+      "800",
+      "20"
+    ],
+    "TriggerType": "OnState",
+    "TriggerValue": [
+      "0",
+      "CC"
+    ],
+    "TriggerRatio": 1000,
+    "CoolTimeMs": 20000,
+    "IgnoreStateType": [
+      "CC"
+    ],
+    "TargetType": "Myself",
+    "TargetCount": 1,
+    "DeadTarget": "False",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "False",
+    "OperationType1": "ModActiveCooltime",
+    "OperationTargetType1": "Myself",
+    "OperationValue1": [
+      "3",
+      "-8000",
+      "InCoolTime"
+    ],
+    "OperationType2": "GetMot",
+    "OperationTargetType2": "Myself",
+    "OperationValue2": [
+      "800"
+    ],
+    "OperationState2": "Artifact516",
+    "OperationDurationMs2": 3000,
+    "OperationTickTimeMs2": 1000
+  },
+  {
+    "Index": 80005164,
+    "ReplaceDescKey": "SKILL_DESC_80005160",
+    "DescParam": [
+      "9",
+      "3",
+      "900",
+      "20"
+    ],
+    "TriggerType": "OnState",
+    "TriggerValue": [
+      "0",
+      "CC"
+    ],
+    "TriggerRatio": 1000,
+    "CoolTimeMs": 20000,
+    "IgnoreStateType": [
+      "CC"
+    ],
+    "TargetType": "Myself",
+    "TargetCount": 1,
+    "DeadTarget": "False",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "False",
+    "OperationType1": "ModActiveCooltime",
+    "OperationTargetType1": "Myself",
+    "OperationValue1": [
+      "3",
+      "-9000",
+      "InCoolTime"
+    ],
+    "OperationType2": "GetMot",
+    "OperationTargetType2": "Myself",
+    "OperationValue2": [
+      "900"
+    ],
+    "OperationState2": "Artifact516",
+    "OperationDurationMs2": 3000,
+    "OperationTickTimeMs2": 1000
+  },
+  {
+    "Index": 80005165,
+    "ReplaceDescKey": "SKILL_DESC_80005160",
+    "DescParam": [
+      "10",
+      "3",
+      "1000",
+      "20"
+    ],
+    "TriggerType": "OnState",
+    "TriggerValue": [
+      "0",
+      "CC"
+    ],
+    "TriggerRatio": 1000,
+    "CoolTimeMs": 20000,
+    "IgnoreStateType": [
+      "CC"
+    ],
+    "TargetType": "Myself",
+    "TargetCount": 1,
+    "DeadTarget": "False",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "False",
+    "OperationType1": "ModActiveCooltime",
+    "OperationTargetType1": "Myself",
+    "OperationValue1": [
+      "3",
+      "-10000",
+      "InCoolTime"
+    ],
+    "OperationType2": "GetMot",
+    "OperationTargetType2": "Myself",
+    "OperationValue2": [
+      "1000"
+    ],
+    "OperationState2": "Artifact516",
+    "OperationDurationMs2": 3000,
+    "OperationTickTimeMs2": 1000
   }
 ]

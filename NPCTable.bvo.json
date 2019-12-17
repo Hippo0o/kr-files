@@ -1320,6 +1320,81 @@
     "MenuTitleKey": "NODE_HERODUNGEON_NAME"
   },
   {
+    "Code": "Square_Christmas_2019",
+    "OnOpenEntryMenu": [
+      "NPC_DRYAD_WELCOME01",
+      " FX.FunnySilence.FunnySilence01",
+      " Touch",
+      "\nNPC_DRYAD_TOUCH01",
+      " FX.FunnySilence.FunnySilence01",
+      " Touch",
+      "\nNPC_DRYAD_TOUCH02",
+      " FX.FunnySilence.FunnySilence01",
+      " Touch"
+    ],
+    "OnTouch": [
+      "NPC_DRYAD_WELCOME01",
+      " FX.FunnySilence.FunnySilence01",
+      " Touch",
+      "\nNPC_DRYAD_TOUCH01",
+      " FX.FunnySilence.FunnySilence01",
+      " Touch",
+      "\nNPC_DRYAD_TOUCH02",
+      " FX.FunnySilence.FunnySilence01",
+      " Touch"
+    ],
+    "EntryMenuButton1": [
+      "19CHRISTMAS_ENTER",
+      "OpenEventDungeonSelect",
+      "True",
+      "30032",
+      "1",
+      "2"
+    ],
+    "EntryMenuCondition1": "EventExist,EventDungeon,30032",
+    "EntryMenuButton2": [
+      "19CHRISTMAS_GIFT",
+      "OpenShop",
+      "2019_Christmas_Shop"
+    ],
+    "EntryMenuCondition2": "EventExist,EventShop,2019_Christmas_Shop",
+    "EntryMenuButton3": [
+      "MENU_EVENT_HELP",
+      "OpenHelp",
+      "2019CHRISTMAS_HELP_TITLE",
+      "2019CHRISTMAS_HELP_DESC"
+    ],
+    "EntryMenuCondition3": "EventExist,EventShop,2019_Christmas_Shop",
+    "CreatureIndex": 828,
+    "NpcOffset": [
+      "100",
+      "50"
+    ],
+    "NpcAngle": -90,
+    "NpcScale": 110,
+    "MenuIconType": "Event_2019Christmas_Button",
+    "MenuTitleKey": "19CHRISTMAS_DUNGEON_TITLE"
+  },
+  {
+    "Code": "Square_Christmas_Present_2019",
+    "EntryMenuButton1": [
+      "19CHRISTMAS_ENTER",
+      "OpenEventDungeon",
+      "30033",
+      "1"
+    ],
+    "EntryMenuCondition1": "EventExist,EventDungeon,30033",
+    "CreatureIndex": 829,
+    "NpcOffset": [
+      "60",
+      "50"
+    ],
+    "NpcAngle": -90,
+    "NpcScale": 66,
+    "MenuIconType": "Event_2019Christmas_Present_Button",
+    "MenuTitleKey": "NODE_PRESENT_DUNGEON_NAME"
+  },
+  {
     "Code": "NormalShop",
     "HeroIndex": 90,
     "ShowHeroBuffIcon": "True",

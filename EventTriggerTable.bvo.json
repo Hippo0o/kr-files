@@ -3181,6 +3181,305 @@
     ]
   },
   {
+    "Index": 1400,
+    "Category": "Tutorial",
+    "EventType": "EnterEventDungeonSelect",
+    "EventCondition": [
+      "30032",
+      " 1"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "514"
+    ]
+  },
+  {
+    "Index": 1401,
+    "Category": "MainScenario",
+    "EventType": "EnterScenarioBattle",
+    "EventCondition": [
+      "30032",
+      " 1"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/Christmas2019/E_C3_Main_1_1"
+    ]
+  },
+  {
+    "Index": 1402,
+    "Category": "MainScenario",
+    "EventType": "ScenarioBattleEnd",
+    "EventCondition": [
+      "30032",
+      " 1"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/Christmas2019/E_C3_Main_1_2"
+    ]
+  },
+  {
+    "Index": 1403,
+    "Category": "MainScenario",
+    "EventType": "EnterMenu",
+    "EventCondition": [
+      "EventDungeonList",
+      "1"
+    ],
+    "CurrentCondition": [
+      "LastDungeonResult",
+      "30032",
+      "1",
+      "True",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/Christmas2019/E_C3_Main_1_3"
+    ]
+  },
+  {
+    "Index": 1404,
+    "Category": "MainScenario",
+    "EventType": "EnterScenarioBattle",
+    "EventCondition": [
+      "30032",
+      " 2"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/Christmas2019/E_C3_Main_2_1"
+    ]
+  },
+  {
+    "Index": 1405,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "30032",
+      " 2",
+      " 2"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/Christmas2019/E_C3_Main_2_2"
+    ]
+  },
+  {
+    "Index": 1406,
+    "Category": "MainScenario",
+    "EventType": "ScenarioBattleEnd",
+    "EventCondition": [
+      "30032",
+      " 2"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/Christmas2019/E_C3_Main_2_3"
+    ]
+  },
+  {
+    "Index": 1407,
+    "Category": "MainScenario",
+    "EventType": "EnterScenarioBattle",
+    "EventCondition": [
+      "30032",
+      " 3"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/Christmas2019/E_C3_Main_3_1"
+    ]
+  },
+  {
+    "Index": 1408,
+    "Category": "MainScenario",
+    "EventType": "ScenarioBattleEnd",
+    "EventCondition": [
+      "30032",
+      " 3"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/Christmas2019/E_C3_Main_3_2"
+    ]
+  },
+  {
+    "Index": 1409,
+    "Category": "MainScenario",
+    "EventType": "EnterScenarioBattle",
+    "EventCondition": [
+      "30032",
+      " 4"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/Christmas2019/E_C3_Main_4_1"
+    ]
+  },
+  {
+    "Index": 1410,
+    "Category": "MainScenario",
+    "EventType": "ScenarioBattleEnd",
+    "EventCondition": [
+      "30032",
+      " 4"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/Christmas2019/E_C3_Main_4_2"
+    ]
+  },
+  {
+    "Index": 1411,
+    "Category": "MainScenario",
+    "EventType": "EnterMenu",
+    "EventCondition": [
+      "EventDungeonList",
+      "1"
+    ],
+    "CurrentCondition": [
+      "LastDungeonResult",
+      "30032",
+      "4",
+      "True",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/Christmas2019/E_C3_Main_4_3_4_4"
+    ]
+  },
+  {
+    "Index": 1413,
+    "Category": "MainScenario",
+    "EventType": "EnterScenarioBattle",
+    "EventCondition": [
+      "30032",
+      " 5"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/Christmas2019/E_C3_Main_5_1"
+    ]
+  },
+  {
+    "Index": 1414,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "30032",
+      " 5",
+      " 2"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/Christmas2019/E_C3_Main_5_2"
+    ]
+  },
+  {
+    "Index": 1415,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "999",
+      "999",
+      "999"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/Christmas2019/E_C3_Main_5_3"
+    ]
+  },
+  {
+    "Index": 1416,
+    "Category": "MainScenario",
+    "EventType": "EnterScenarioBattle",
+    "EventCondition": [
+      "30032",
+      " 6"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/Christmas2019/E_C3_Main_6_1"
+    ]
+  },
+  {
+    "Index": 1417,
+    "Category": "MainScenario",
+    "EventType": "ScenarioBattleEnd",
+    "EventCondition": [
+      "30032",
+      " 6"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/Christmas2019/E_C3_Main_6_2"
+    ]
+  },
+  {
+    "Index": 1418,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "30032",
+      " 7",
+      " 1"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/Christmas2019/E_C3_Main_7_1"
+    ],
+    "ImmediatelyLoadComplate": "True"
+  },
+  {
+    "Index": 1419,
+    "Category": "MainScenario",
+    "EventType": "ScenarioBattleEnd",
+    "EventCondition": [
+      "30032",
+      " 7"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/Christmas2019/E_C3_Main_7_2"
+    ]
+  },
+  {
+    "Index": 1420,
+    "Category": "MainScenario",
+    "EventType": "EnterMenu",
+    "EventCondition": [
+      "EventDungeonList",
+      "1"
+    ],
+    "CurrentCondition": [
+      "LastDungeonResult",
+      "30032",
+      "7",
+      "True",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/Christmas2019/E_C3_Main_Ending"
+    ]
+  },
+  {
+    "Index": 1421,
+    "Category": "MainScenario",
+    "EventType": "EnterEntryMenu",
+    "EventCondition": [
+      "30033",
+      " 1"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "515"
+    ]
+  },
+  {
     "Index": 10000,
     "Category": "MainScenario",
     "EventType": "EnterLobby",

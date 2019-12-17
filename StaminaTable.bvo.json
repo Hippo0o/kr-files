@@ -152,9 +152,9 @@
     "ResetType": "Init",
     "AttributeName": "EventDungeonTicket",
     "MaxCountType": "Fixed",
-    "MaxCountValue": 6,
+    "MaxCountValue": 2,
     "ResetCount": [
-      "6"
+      "2"
     ],
     "AllowOverflow": "True",
     "AllowRoundOff": "True",
@@ -337,6 +337,16 @@
     "ResetCount": [
       "1"
     ],
+    "AllowOverflow": "True",
+    "AllowRoundOff": "True",
+    "AutoRepeatStopMsgKey": "AUTO_REPEAT_BATTLE.AUTO_REPEAT_BATTLE_FAILED_EVENT_MAX_COUNT",
+    "HeroBonusTooltipDesc": "TooltipDesc_EventDungeonTicket"
+  },
+  {
+    "StaminaType": "EventDungeonGoldKey",
+    "UpdateType": "None",
+    "AttributeName": "EventDungeonGoldKey",
+    "MaxCountType": "Fixed",
     "AllowOverflow": "True",
     "AllowRoundOff": "True",
     "AutoRepeatStopMsgKey": "AUTO_REPEAT_BATTLE.AUTO_REPEAT_BATTLE_FAILED_EVENT_MAX_COUNT",

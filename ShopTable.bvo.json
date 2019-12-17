@@ -581,5 +581,28 @@
       "InnReaction"
     ],
     "EventOnly": 1
+  },
+  {
+    "Index": 32,
+    "Code": "2019_Christmas_Shop",
+    "BuyCostType": "EventDungeonPoint",
+    "BuyCostTypeUI": [
+      "EventDungeonPoint"
+    ],
+    "BuyCostTypeIconSprite": [
+      "EVENT_19CHRISTMAS_TICKET_ICON"
+    ],
+    "Timeline": [
+      "SHOP_DEFAULT"
+    ],
+    "Buyline": [
+      "NPC_DRYAD_BUY01",
+      "FX.FunnySilence.FunnySilence01",
+      "Touch",
+      "NPC_DRYAD_BUY02",
+      "FX.FunnySilence.FunnySilence01",
+      "Touch"
+    ],
+    "EventOnly": 1
   }
 ]

@@ -1022,5 +1022,18 @@
       "Lose"
     ],
     "BattleMenu": "SystemButtonAuto,TimeStatus, HeroParty, DamageMeter, Hud, BoosterStatus, Chat, SystemButton, Retry, WaveStatus"
+  },
+  {
+    "Code": "19Christmas",
+    "MaxTime": 90,
+    "AutoRepeatStarCount": 1,
+    "ApplyLevelPenalty": "FALSE",
+    "HPPercent": "TRUE",
+    "DamageMeterFlag": "ShowAllPlayer",
+    "RetryCondition": [
+      "Win",
+      "Lose"
+    ],
+    "BattleMenu": "TimeStatus, SystemButtonAuto, Retry, WaveStatus, LootingStatus, DamageMeter, HeroParty, Hud, BoosterStatus, QuestStatus, Chat, EmoticonPopup"
   }
 ]

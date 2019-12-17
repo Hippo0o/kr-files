@@ -16668,5 +16668,25 @@
     ],
     "OperationDurationMs3": 999999,
     "OperationMaxAccCount3": 1
+  },
+  {
+    "Index": 3304154,
+    "TriggerType": "OnWaveStart",
+    "TriggerRatio": 1000,
+    "AttrType": "Physical",
+    "IgnoreStateType": [
+      "KaselFreyDown"
+    ],
+    "TargetType": "Myself",
+    "TargetCount": 1,
+    "DeadTarget": "False",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "FALSE",
+    "OperationType1": "RaiseEventTrigger",
+    "OperationTargetType1": "Myself",
+    "OperationValue1": [
+      "EventTrigger",
+      "1421"
+    ]
   }
 ]
