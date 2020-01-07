@@ -11115,7 +11115,7 @@
   {
     "Index": 72,
     "CodeName": "Hero.Pancironne",
-    "OpenStatus": "New",
+    "OpenStatus": "Normal",
     "OpenType": "Opened",
     "Race": "Hero",
     "TagType": "Mechanic",
@@ -11439,8 +11439,8 @@
   {
     "Index": 74,
     "CodeName": "Hero.Kibera",
-    "OpenStatus": "Normal",
-    "OpenType": "None",
+    "OpenStatus": "New",
+    "OpenType": "Opened",
     "Race": "Hero",
     "TagType": "Assassin",
     "AttrType": [
@@ -11460,28 +11460,147 @@
     "HeightMm": 1900,
     "GradeStoneItemCode": "SKILLBOOK_ASSASSIN_1",
     "StarStoneItemCode": "NO_ITEM",
+    "BaseSkillIndex": 7400,
+    "SkillIndex1": 7410,
+    "SkillExtend1": [
+      "7411",
+      "7412",
+      "7413"
+    ],
+    "SkillIndex2": 7420,
+    "SkillExtend2": [
+      "7421",
+      "7422",
+      "7423"
+    ],
+    "LinkedSkillIndex2": [
+      "7424"
+    ],
+    "SkillIndex3": 7430,
+    "SkillExtend3": [
+      "7431",
+      "7432",
+      "7433"
+    ],
+    "SkillIndex4": 7440,
+    "SkillExtend4": [
+      "7441",
+      "7442",
+      "7443"
+    ],
+    "ExtraActiveSkill": [
+      "7424",
+      "7444",
+      "7446",
+      "7448"
+    ],
+    "ExtraSkill": [
+      "7414",
+      "7415",
+      "7425",
+      "7434",
+      "7435",
+      "7444",
+      "7448",
+      "7450",
+      "7451",
+      "7452",
+      "7453",
+      "7454",
+      "7455",
+      "7456",
+      "7457",
+      "93007412",
+      "93007414"
+    ],
+    "GetTranscendSkillPoint": [
+      "10",
+      "15",
+      "15",
+      "15",
+      "25"
+    ],
+    "TranscendSkill1": [
+      "60000001",
+      "60000002",
+      "60000003",
+      "60000004",
+      "60000033"
+    ],
+    "ReqSkillPoint1": [
+      "10",
+      "10",
+      "10",
+      "10",
+      "10"
+    ],
+    "TranscendSkill2": [
+      "60000013",
+      "60000014",
+      "60000015",
+      "60000016",
+      "60000036"
+    ],
+    "ReqSkillPoint2": [
+      "15",
+      "15",
+      "15",
+      "15",
+      "15"
+    ],
+    "TranscendSkill3": [
+      "60007410",
+      "60007411",
+      "60007420",
+      "60007421",
+      "60007430",
+      "60007431",
+      "60007440",
+      "60007441"
+    ],
+    "ReqSkillPoint3": [
+      "15",
+      "15",
+      "15",
+      "15",
+      "15",
+      "15",
+      "15",
+      "15"
+    ],
+    "TranscendSkill5": [
+      "60007450",
+      "60007451"
+    ],
+    "ReqSkillPoint5": [
+      "15",
+      "15"
+    ],
+    "SoulWeaponBasicSkillIndex": 93007400,
     "StartHeroStar": 5,
     "OpenDate": 200107,
     "AddStamina": 1,
     "HeroPositionIcon1": "icon_raidmacro_attack",
     "HeroPositionText1": "HERO_POSITION_2",
-    "HeroPositionIcon2": "icon_raidmacro_attack",
-    "HeroPositionText2": "HERO_POSITION_5",
+    "HeroPositionIcon2": "icon_raidmacro_attack_Debuffs",
+    "HeroPositionText2": "HERO_POSITION_40",
+    "HeroPositionIcon3": "icon_raidmacro_attack",
+    "HeroPositionText3": "HERO_POSITION_5",
     "TranscendRecommend1": [
       "60000001",
       "60000033",
       "60000013",
       "60000016",
-      "60009111",
-      "60009140"
+      "60007440",
+      "60007450"
     ],
     "TranscendRecommend3": [
       "60000001",
       "60000002",
-      "60009110",
-      "60009121",
-      "60009141",
-      "60009150"
+      "60000016",
+      "60007410",
+      "60007420",
+      "60007450"
     ],
     "EquipoptionRecommend1": [
       "STAT_TYPE.PHYSICAL_ATTACK",
@@ -17805,6 +17924,58 @@
     "HeightMm": 1900,
     "GradeStoneItemCode": "SKILLBOOK_ASSASSIN_1",
     "StarStoneItemCode": "NO_ITEM",
+    "BaseSkillIndex": 7400,
+    "SkillIndex1": 7410,
+    "SkillExtend1": [
+      "7411",
+      "7412",
+      "7413"
+    ],
+    "SkillIndex2": 7420,
+    "SkillExtend2": [
+      "7421",
+      "7422",
+      "7423"
+    ],
+    "LinkedSkillIndex2": [
+      "7424"
+    ],
+    "SkillIndex3": 7430,
+    "SkillExtend3": [
+      "7431",
+      "7432",
+      "7433"
+    ],
+    "SkillIndex4": 7440,
+    "SkillExtend4": [
+      "7441",
+      "7442",
+      "7443"
+    ],
+    "ExtraActiveSkill": [
+      "7424",
+      "7444",
+      "7446",
+      "7448"
+    ],
+    "ExtraSkill": [
+      "7414",
+      "7415",
+      "7425",
+      "7434",
+      "7435",
+      "7444",
+      "7448",
+      "7450",
+      "7451",
+      "7452",
+      "7453",
+      "7454",
+      "7455",
+      "7456",
+      "7457",
+      "93007412"
+    ],
     "StartHeroStar": 3
   },
   {
@@ -22929,6 +23100,58 @@
     "HeightMm": 1900,
     "GradeStoneItemCode": "SKILLBOOK_ASSASSIN_1",
     "StarStoneItemCode": "NO_ITEM",
+    "BaseSkillIndex": 7400,
+    "SkillIndex1": 7410,
+    "SkillExtend1": [
+      "7411",
+      "7412",
+      "7413"
+    ],
+    "SkillIndex2": 7420,
+    "SkillExtend2": [
+      "7421",
+      "7422",
+      "7423"
+    ],
+    "LinkedSkillIndex2": [
+      "7424"
+    ],
+    "SkillIndex3": 7430,
+    "SkillExtend3": [
+      "7431",
+      "7432",
+      "7433"
+    ],
+    "SkillIndex4": 7440,
+    "SkillExtend4": [
+      "7441",
+      "7442",
+      "7443"
+    ],
+    "ExtraActiveSkill": [
+      "7424",
+      "7444",
+      "7446",
+      "7448"
+    ],
+    "ExtraSkill": [
+      "7414",
+      "7415",
+      "7425",
+      "7434",
+      "7435",
+      "7444",
+      "7448",
+      "7450",
+      "7451",
+      "7452",
+      "7453",
+      "7454",
+      "7455",
+      "7456",
+      "7457",
+      "93007412"
+    ],
     "StartHeroStar": 3
   },
   {

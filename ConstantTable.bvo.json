@@ -105,6 +105,10 @@
     "Value": 999
   },
   {
+    "Key": "OnlinePlayPendingSkillExpireTime",
+    "Value": 2000
+  },
+  {
     "Key": "MatchingBanPickHeroStarMin",
     "Value": 1
   },
@@ -199,7 +203,7 @@
   },
   {
     "Key": "EquipItemMaxCount",
-    "Value": 80
+    "Value": 280
   },
   {
     "Key": "EquipItemExtendCount",
@@ -1710,5 +1714,28 @@
   {
     "Key": "EventDungeonGoldKeyToolTip",
     "Value": "[\"ITEM_NAME_120115\",\"ITEM_DESC2_120115\"]"
+  },
+  {
+    "Key": "TeamLevelupPopupOpenCondition",
+    "Value": "[\"CheckTeamLevel\",\"6\"]"
+  },
+  {
+    "Key": "MainQuestConfirmNotiPopupOpenCondition"
+  },
+  {
+    "Key": "SubQuestConfirmNotiPopupOpenCondition"
+  },
+  {
+    "Key": "AchievementClearedPopupOpenCondition"
+  },
+  {
+    "Key": "MainQuestLabelOpenCondition",
+    "Value": "[\"CompleteDungeon\",\"1\",\"2\",\"true\"]"
+  },
+  {
+    "Key": "PurchaseMarketingOpenCondition"
+  },
+  {
+    "Key": "WebViewPopupOpenCondition"
   }
 ]

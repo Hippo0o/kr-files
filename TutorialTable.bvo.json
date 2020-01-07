@@ -10196,10 +10196,10 @@
     "Index": 10110,
     "Command": "WaitObject",
     "Argument": [
-      "MapLayout(Clone)/Panel_WorldMap/NodeRoot/203_MainField",
+      "MainQuestGuideMenu(Clone)/LeftTopMenu/LeftTopMenuTable/Container",
       " 0",
-      " 0.3",
-      " 5"
+      " 0.2",
+      " 10"
     ]
   },
   {
@@ -10211,19 +10211,6 @@
   },
   {
     "Index": 10110,
-    "Command": "FocusWidgetEffect",
-    "Argument": [
-      "MapLayout(Clone)/Panel_WorldMap/NodeRoot/203_MainField",
-      " 0",
-      " UI.Common.Finger",
-      " 0",
-      " 0",
-      " 150",
-      " 100"
-    ]
-  },
-  {
-    "Index": 10110,
     "Command": "ShowTooltip2",
     "Argument": [
       "Center",
@@ -10231,32 +10218,24 @@
       " -200",
       " 2000",
       " 100",
-      " TUTORIAL_TEXT_53"
+      " TUTORIAL_TEXT_373"
     ]
   },
   {
     "Index": 10110,
-    "Command": "WaitWidgetTouch",
+    "Command": "FocusWidget",
     "Argument": [
-      "MapLayout(Clone)/Panel_WorldMap/NodeRoot/203_MainField",
+      "MainQuestGuideMenu(Clone)/LeftTopMenu/LeftTopMenuTable/Container",
       " 0",
       " 0",
       " 0",
       " 0",
-      " 0",
-      " False"
+      " 0"
     ]
   },
   {
     "Index": 10110,
-    "Command": "PlaySound",
-    "Argument": [
-      "UI2.Silkmove"
-    ]
-  },
-  {
-    "Index": 10110,
-    "Command": "ClearFocus"
+    "Command": "WaitTouch"
   },
   {
     "Index": 10110,
@@ -10264,27 +10243,12 @@
   },
   {
     "Index": 10110,
-    "Command": "WorldMapPlayerMove",
-    "Argument": [
-      "1",
-      " 3"
-    ]
-  },
-  {
-    "Index": 10110,
     "Command": "WaitObject",
     "Argument": [
-      "NodeFunctionMenu(Clone)/MainButton/Button_Battle",
+      "MainQuestGuideMenu(Clone)/LeftTopMenu/LeftTopMenuTable/Container",
       " 0",
       " 0.2",
       " 10"
-    ]
-  },
-  {
-    "Index": 10110,
-    "Command": "WaitTime",
-    "Argument": [
-      "0.2"
     ]
   },
   {
@@ -10296,27 +10260,41 @@
       " -200",
       " 2000",
       " 100",
-      " TUTORIAL_TEXT_4"
+      " TUTORIAL_TEXT_374"
+    ]
+  },
+  {
+    "Index": 10110,
+    "Command": "FocusWidget",
+    "Argument": [
+      "MainQuestGuideMenu(Clone)/LeftTopMenu/LeftTopMenuTable/Container",
+      " 0",
+      " 0",
+      " 0",
+      " 0",
+      " 0",
+      " True"
     ]
   },
   {
     "Index": 10110,
     "Command": "FocusWidgetEffect",
     "Argument": [
-      "NodeFunctionMenu(Clone)/MainButton/Button_Battle",
+      "MainQuestGuideMenu(Clone)/LeftTopMenu/LeftTopMenuTable/Container",
       " 0",
       " UI.Common.Finger",
-      " 0",
-      " 0",
-      " 150",
-      " 100"
+      " -130",
+      " -20",
+      " -27",
+      " 100",
+      " True"
     ]
   },
   {
     "Index": 10110,
     "Command": "WaitWidgetTouch",
     "Argument": [
-      "NodeFunctionMenu(Clone)/MainButton/Button_Battle",
+      "MainQuestGuideMenu(Clone)/LeftTopMenu/LeftTopMenuTable/Container",
       " 0",
       " 0",
       " -20",
@@ -10335,6 +10313,17 @@
   {
     "Index": 10110,
     "Command": "ClearTooltip"
+  },
+  {
+    "Index": 10110,
+    "Command": "WaitTime",
+    "Argument": [
+      "1"
+    ]
+  },
+  {
+    "Index": 10110,
+    "Command": "OpenCurrentNode"
   },
   {
     "Index": 10110,
@@ -10886,7 +10875,7 @@
     "Index": 10110,
     "Command": "NextTutorial",
     "Argument": [
-      "10200"
+      "10201"
     ],
     "RewardIndex": 80003,
     "RewardAction": [
@@ -10922,935 +10911,8 @@
     "Repeatable": "True"
   },
   {
-    "Index": 10200,
-    "ReqIndex": 10110,
-    "Command": "WaitTime",
-    "Argument": [
-      "0.5"
-    ]
-  },
-  {
-    "Index": 10200,
-    "Command": "PlayCutScene",
-    "Argument": [
-      "CutScene/Tutorial/Gacha"
-    ]
-  },
-  {
-    "Index": 10200,
-    "Command": "PlayBgm",
-    "Argument": [
-      "Cutscene.Bright"
-    ]
-  },
-  {
-    "Index": 10200,
-    "Command": "WaitCutScene"
-  },
-  {
-    "Index": 10200,
-    "Command": "PlayBgm",
-    "Argument": [
-      "Cutscene.Bright"
-    ]
-  },
-  {
-    "Index": 10200,
-    "Command": "OpenMenuOpenPopup",
-    "Argument": [
-      "514",
-      "441",
-      "160",
-      "0",
-      "0.5",
-      "1.5"
-    ]
-  },
-  {
-    "Index": 10200,
-    "Command": "PlaySound",
-    "Argument": [
-      "UI2.Event01"
-    ]
-  },
-  {
-    "Index": 10200,
-    "Command": "WaitObject",
-    "Argument": [
-      "MenuOpenWindow(Clone)/ButtonClose",
-      " 0",
-      " 0.3",
-      " 3"
-    ]
-  },
-  {
-    "Index": 10200,
-    "Command": "WaitWidgetTouch",
-    "Argument": [
-      "MenuOpenWindow(Clone)/ButtonClose",
-      " 0",
-      " 0",
-      " 0",
-      " 0",
-      " 0",
-      " True"
-    ]
-  },
-  {
-    "Index": 10200,
-    "Command": "PlaySound",
-    "Argument": [
-      "Attack.Spin05"
-    ]
-  },
-  {
-    "Index": 10200,
-    "Command": "WaitTime",
-    "Argument": [
-      "0.6"
-    ]
-  },
-  {
-    "Index": 10200,
-    "Command": "PlaySound",
-    "Argument": [
-      "UI2.TakeReward"
-    ]
-  },
-  {
-    "Index": 10200,
-    "Command": "WaitTime",
-    "Argument": [
-      "0.9"
-    ]
-  },
-  {
-    "Index": 10200,
-    "Command": "WaitObject",
-    "Argument": [
-      "RightMenu(Clone)/Button_PayShop",
-      " 0",
-      " 0.2",
-      " 3"
-    ]
-  },
-  {
-    "Index": 10200,
-    "ReqIndex": "\ud2b9\ubcc4 \uc0c1\uc810\uc744 \uc120\ud0dd\ud558\uc138\uc694.",
-    "Command": "ShowTooltip2",
-    "Argument": [
-      "Center",
-      " 0",
-      " 0",
-      " 2000",
-      " 100",
-      " TUTORIAL_TEXT_132"
-    ]
-  },
-  {
-    "Index": 10200,
-    "Command": "SkipStart",
-    "Argument": [
-      "Jump"
-    ]
-  },
-  {
-    "Index": 10200,
-    "Command": "FocusWidgetEffect",
-    "Argument": [
-      "RightMenu(Clone)/Button_PayShop",
-      " 0",
-      " UI.Common.Finger",
-      " 0",
-      " 0",
-      " 150",
-      " 110"
-    ]
-  },
-  {
-    "Index": 10200,
-    "Command": "WaitWidgetTouch",
-    "Argument": [
-      "RightMenu(Clone)/Button_PayShop",
-      " 0",
-      " 0",
-      " -20",
-      " 0",
-      " 10",
-      " True"
-    ]
-  },
-  {
-    "Index": 10200,
-    "Command": "ClearTooltip"
-  },
-  {
-    "Index": 10200,
-    "Command": "ClearFocus",
-    "Argument": [
-      "True"
-    ]
-  },
-  {
-    "Index": 10200,
-    "Command": "WaitTime",
-    "Argument": [
-      "0.5"
-    ]
-  },
-  {
-    "Index": 10200,
-    "ReqIndex": "\ub8e8\ube44\ub098 \uace8\ub4dc\ub97c \uc0ac\uc6a9\ud558\uc5ec",
-    "Command": "ShowTooltip2",
-    "Argument": [
-      "Center",
-      " 0",
-      " -200",
-      " 2000",
-      " 100",
-      " TUTORIAL_TEXT_133"
-    ]
-  },
-  {
-    "Index": 10200,
-    "Command": "FocusAreaEffect",
-    "Argument": [
-      "UI.Common.Finger",
-      " 750",
-      " -200",
-      " 0",
-      " 100",
-      " True"
-    ]
-  },
-  {
-    "Index": 10200,
-    "Command": "WaitTouch"
-  },
-  {
-    "Index": 10200,
-    "Command": "PlaySound",
-    "Argument": [
-      "UI2.Button5"
-    ]
-  },
-  {
-    "Index": 10200,
-    "Command": "ClearTooltip"
-  },
-  {
-    "Index": 10200,
-    "Command": "ClearFocus",
-    "Argument": [
-      "True"
-    ]
-  },
-  {
-    "Index": 10200,
-    "Command": "WaitObject",
-    "Argument": [
-      "PayShop(Clone)/Root/CategoryPanel/ClippingPanel/Equip",
-      " 0.3",
-      " 0.2",
-      " 3"
-    ]
-  },
-  {
-    "Index": 10200,
-    "ReqIndex": "\uc7a5\ube44 \ud0ed \ud130\uce58",
-    "Command": "FocusWidget",
-    "Argument": [
-      "PayShop(Clone)/Root/CategoryPanel/ClippingPanel/Equip",
-      " 0",
-      " 0",
-      " 0",
-      " 0",
-      " 0"
-    ]
-  },
-  {
-    "Index": 10200,
-    "Command": "FocusWidgetEffect",
-    "Argument": [
-      "PayShop(Clone)/Root/CategoryPanel/ClippingPanel/Equip",
-      " 0",
-      " UI.Common.Finger",
-      " 0",
-      " 0",
-      " 0",
-      " 100",
-      " True"
-    ]
-  },
-  {
-    "Index": 10200,
-    "Command": "WaitWidgetTouch",
-    "Argument": [
-      "PayShop(Clone)/Root/CategoryPanel/ClippingPanel/Equip",
-      " 0",
-      " 0",
-      " 0",
-      " 0",
-      " 0",
-      " True"
-    ]
-  },
-  {
-    "Index": 10200,
-    "Command": "ClearFocus",
-    "Argument": [
-      "True"
-    ]
-  },
-  {
-    "Index": 10200,
-    "Command": "WaitTime",
-    "Argument": [
-      "0.5"
-    ]
-  },
-  {
-    "Index": 10200,
-    "Command": "OpenShopCategory",
-    "Argument": [
-      "502"
-    ]
-  },
-  {
-    "Index": 10200,
-    "Command": "ShowTooltip2",
-    "Argument": [
-      "Center",
-      " 0",
-      " -200",
-      " 2000",
-      " 100",
-      " TUTORIAL_TEXT_134"
-    ]
-  },
-  {
-    "Index": 10200,
-    "Command": "FocusAreaEffect",
-    "Argument": [
-      "UI.Common.Finger",
-      " 750",
-      " -200",
-      " 0",
-      " 100",
-      " True"
-    ]
-  },
-  {
-    "Index": 10200,
-    "Command": "WaitTouch"
-  },
-  {
-    "Index": 10200,
-    "Command": "PlaySound",
-    "Argument": [
-      "UI2.Button5"
-    ]
-  },
-  {
-    "Index": 10200,
-    "Command": "ClearTooltip"
-  },
-  {
-    "Index": 10200,
-    "Command": "ClearFocus",
-    "Argument": [
-      "True"
-    ]
-  },
-  {
-    "Index": 10200,
-    "Command": "WaitObject",
-    "Argument": [
-      "PayShop(Clone)/Sprite_ShopItemListFrame/EquipGachaGrid/PayShopEquipGachaComponent(Clone)",
-      " 0.1",
-      " 0.1",
-      " 3"
-    ]
-  },
-  {
-    "Index": 10200,
-    "Command": "FocusWidget",
-    "Argument": [
-      "PayShop(Clone)/Sprite_ShopItemListFrame/EquipGachaGrid/PayShopEquipGachaComponent(Clone)",
-      " 0",
-      " 0",
-      " 0",
-      " 0",
-      " 0"
-    ]
-  },
-  {
-    "Index": 10200,
-    "Command": "FocusWidgetEffect",
-    "Argument": [
-      "PayShop(Clone)/Sprite_ShopItemListFrame/EquipGachaGrid/PayShopEquipGachaComponent(Clone)",
-      " 0",
-      " UI.Common.Finger",
-      " 0",
-      " -100",
-      " 0",
-      " 0",
-      " True"
-    ]
-  },
-  {
-    "Index": 10200,
-    "Command": "WaitWidgetTouch",
-    "Argument": [
-      "PayShop(Clone)/Sprite_ShopItemListFrame/EquipGachaGrid/PayShopEquipGachaComponent(Clone)",
-      " 0",
-      " 0",
-      " 0",
-      " 0",
-      " 0",
-      " False"
-    ]
-  },
-  {
-    "Index": 10200,
-    "Command": "PlaySound",
-    "Argument": [
-      "UI2.MainButton4"
-    ]
-  },
-  {
-    "Index": 10200,
-    "Command": "ClearFocus"
-  },
-  {
-    "Index": 10200,
-    "Command": "OpenGachaScene",
-    "Argument": [
-      "3"
-    ]
-  },
-  {
-    "Index": 10200,
-    "ReqIndex": "\ud2b9\ubcc4 \uc544\uc774\ud15c\uc740\u2026",
-    "Command": "ShowTooltip2",
-    "Argument": [
-      "Center",
-      " 0",
-      " -200",
-      " 2000",
-      " 100",
-      " TUTORIAL_TEXT_214"
-    ]
-  },
-  {
-    "Index": 10200,
-    "Command": "FocusAreaEffect",
-    "Argument": [
-      "UI.Common.Finger",
-      " 750",
-      " -200",
-      " 0",
-      " 100",
-      " True"
-    ]
-  },
-  {
-    "Index": 10200,
-    "Command": "WaitTouch"
-  },
-  {
-    "Index": 10200,
-    "Command": "PlaySound",
-    "Argument": [
-      "UI2.Button5"
-    ]
-  },
-  {
-    "Index": 10200,
-    "Command": "ClearTooltip"
-  },
-  {
-    "Index": 10200,
-    "Command": "ClearFocus",
-    "Argument": [
-      "True"
-    ]
-  },
-  {
-    "Index": 10200,
-    "ReqIndex": "\ub9c8\ubc95\uc0ac \ud0ed \ud130\uce58",
-    "Command": "WaitObject",
-    "Argument": [
-      "HighGachaCategorySelect(Clone)/Panel/Root/Container_CategoryButton/ButtonGrid/Grid/Toggle_Wizard",
-      " 0",
-      " 0.2",
-      " 3"
-    ]
-  },
-  {
-    "Index": 10200,
-    "Command": "FocusWidget",
-    "Argument": [
-      "HighGachaCategorySelect(Clone)/Panel/Root/Container_CategoryButton/ButtonGrid/Grid/Toggle_Wizard",
-      " 2",
-      " 0",
-      " 0",
-      " 0",
-      " 0"
-    ]
-  },
-  {
-    "Index": 10200,
-    "Command": "FocusWidgetEffect",
-    "Argument": [
-      "HighGachaCategorySelect(Clone)/Panel/Root/Container_CategoryButton/ButtonGrid/Grid/Toggle_Wizard",
-      " 2",
-      " UI.Common.Finger",
-      " 150",
-      " 0",
-      " 0",
-      " 0",
-      " True"
-    ]
-  },
-  {
-    "Index": 10200,
-    "Command": "WaitWidgetTouch",
-    "Argument": [
-      "HighGachaCategorySelect(Clone)/Panel/Root/Container_CategoryButton/ButtonGrid/Grid/Toggle_Wizard",
-      " 2",
-      " 0",
-      " 0",
-      " 0",
-      " 0",
-      " True"
-    ]
-  },
-  {
-    "Index": 10200,
-    "Command": "PlaySound",
-    "Argument": [
-      "UI2.MainButton4"
-    ]
-  },
-  {
-    "Index": 10200,
-    "Command": "ClearFocus"
-  },
-  {
-    "Index": 10200,
-    "ReqIndex": "\ud2b9\ubcc4 \uc18c\ud658 \uce74\ub4dc \ud130\uce58",
-    "Command": "WaitObject",
-    "Argument": [
-      "HighGachaCategorySelect(Clone)/Panel/Root/Container_CategoryDetail/SimpleGrid_EquipGachaComponent/Grid/PayShopEquipGachaComponent(Clone)",
-      " 0",
-      " 0.2",
-      " 3"
-    ]
-  },
-  {
-    "Index": 10200,
-    "Command": "FocusWidget",
-    "Argument": [
-      "HighGachaCategorySelect(Clone)/Panel/Root/Container_CategoryDetail/SimpleGrid_EquipGachaComponent/Grid/PayShopEquipGachaComponent(Clone)",
-      " 2",
-      " 0",
-      " 0",
-      " 0",
-      " 0"
-    ]
-  },
-  {
-    "Index": 10200,
-    "Command": "FocusWidgetEffect",
-    "Argument": [
-      "HighGachaCategorySelect(Clone)/Panel/Root/Container_CategoryDetail/SimpleGrid_EquipGachaComponent/Grid/PayShopEquipGachaComponent(Clone)",
-      " 2",
-      " UI.Common.Finger",
-      " 0",
-      " -100",
-      " 0",
-      " 0",
-      " True"
-    ]
-  },
-  {
-    "Index": 10200,
-    "Command": "WaitWidgetTouch",
-    "Argument": [
-      "HighGachaCategorySelect(Clone)/Panel/Root/Container_CategoryDetail/SimpleGrid_EquipGachaComponent/Grid/PayShopEquipGachaComponent(Clone)/Button_Special",
-      " 2",
-      " 0",
-      " 0",
-      " 0",
-      " 0",
-      " True"
-    ]
-  },
-  {
-    "Index": 10200,
-    "Command": "PlaySound",
-    "Argument": [
-      "UI2.MainButton4"
-    ]
-  },
-  {
-    "Index": 10200,
-    "Command": "ClearFocus"
-  },
-  {
-    "Index": 10200,
-    "Command": "WaitTime",
-    "Argument": [
-      "3"
-    ]
-  },
-  {
-    "Index": 10200,
-    "Command": "WaitObject",
-    "Argument": [
-      "EquipGachaScene(Clone)/GachaGrid/PayShopEquipGachaComponent(Clone)",
-      " 0",
-      " 0.2",
-      " 3"
-    ]
-  },
-  {
-    "Index": 10200,
-    "Command": "FocusWidget",
-    "Argument": [
-      "EquipGachaScene(Clone)/GachaGrid/PayShopEquipGachaComponent(Clone)",
-      " 0",
-      " 0",
-      " 0",
-      " 0",
-      " 0"
-    ]
-  },
-  {
-    "Index": 10200,
-    "Command": "FocusWidgetEffect",
-    "Argument": [
-      "EquipGachaScene(Clone)/GachaGrid/PayShopEquipGachaComponent(Clone)",
-      " 0",
-      " UI.Common.Finger",
-      " 0",
-      " 0",
-      " 0",
-      " 100",
-      " True"
-    ]
-  },
-  {
-    "Index": 10200,
-    "Command": "WaitWidgetTouch",
-    "Argument": [
-      "EquipGachaScene(Clone)/GachaGrid/PayShopEquipGachaComponent(Clone)",
-      " 0",
-      " 0",
-      " 0",
-      " 0",
-      " 0",
-      " False"
-    ]
-  },
-  {
-    "Index": 10200,
-    "Command": "PlaySound",
-    "Argument": [
-      "UI2.MainButton4"
-    ]
-  },
-  {
-    "Index": 10200,
-    "Command": "ClearTooltip"
-  },
-  {
-    "Index": 10200,
-    "Command": "ClearFocus"
-  },
-  {
-    "Index": 10200,
-    "Command": "ExecEquipGacha",
-    "Argument": [
-      "55004",
-      " 0",
-      " 0"
-    ]
-  },
-  {
-    "Index": 10200,
-    "Command": "WaitObject",
-    "Argument": [
-      "EquipGachaScene(Clone)/ItemGrid/ItemIconComponent(Clone)",
-      " 0",
-      " 0.5",
-      " 10"
-    ]
-  },
-  {
-    "Index": 10200,
-    "Command": "FocusWidget",
-    "Argument": [
-      "EquipGachaScene(Clone)/ItemGrid/ItemIconComponent(Clone)",
-      " 0",
-      " 0",
-      " 0",
-      " 0",
-      " 0"
-    ]
-  },
-  {
-    "Index": 10200,
-    "Command": "ShowTooltip2",
-    "Argument": [
-      "Center",
-      " 0",
-      " -200",
-      " 2000",
-      " 100",
-      " TUTORIAL_TEXT_137"
-    ]
-  },
-  {
-    "Index": 10200,
-    "Command": "FocusAreaEffect",
-    "Argument": [
-      "UI.Common.Finger",
-      " 750",
-      " -200",
-      " 0",
-      " 100",
-      " True"
-    ]
-  },
-  {
-    "Index": 10200,
-    "Command": "WaitTouch"
-  },
-  {
-    "Index": 10200,
-    "Command": "PlaySound",
-    "Argument": [
-      "UI2.Button5"
-    ]
-  },
-  {
-    "Index": 10200,
-    "Command": "ClearTooltip"
-  },
-  {
-    "Index": 10200,
-    "Command": "ClearFocus",
-    "Argument": [
-      "True"
-    ]
-  },
-  {
-    "Index": 10200,
-    "Command": "WaitTime"
-  },
-  {
-    "Index": 10200,
-    "Command": "WaitObject",
-    "Argument": [
-      "EquipGachaScene(Clone)/Button_Close",
-      " 0",
-      " 0.2",
-      " 3"
-    ]
-  },
-  {
-    "Index": 10200,
-    "Command": "FocusWidget",
-    "Argument": [
-      "EquipGachaScene(Clone)/Button_Close",
-      " 0",
-      " 0",
-      " 0",
-      " 0",
-      " 0"
-    ]
-  },
-  {
-    "Index": 10200,
-    "Command": "FocusWidgetEffect",
-    "Argument": [
-      "EquipGachaScene(Clone)/Button_Close",
-      " 0",
-      " UI.Common.Finger",
-      " 0",
-      " 0",
-      " 150",
-      " 100",
-      " True"
-    ]
-  },
-  {
-    "Index": 10200,
-    "Command": "WaitWidgetTouch",
-    "Argument": [
-      "EquipGachaScene(Clone)/Button_Close",
-      " 0",
-      " 0",
-      " 0",
-      " 0",
-      " 0",
-      " True"
-    ]
-  },
-  {
-    "Index": 10200,
-    "Command": "ClearFocus",
-    "Argument": [
-      "True"
-    ]
-  },
-  {
-    "Index": 10200,
-    "Command": "WaitTime",
-    "Argument": [
-      "2"
-    ]
-  },
-  {
-    "Index": 10200,
-    "Command": "WaitObject",
-    "Argument": [
-      "PayShop(Clone)/Root/Sprite_ShopItemListFrame/ScorllGrids/EquipGachaGrid/ClippingPanel/PayShopEquipGachaComponent(Clone)",
-      " 0",
-      " 0.2",
-      " 3"
-    ]
-  },
-  {
-    "Index": 10200,
-    "Command": "ShowTooltip2",
-    "Argument": [
-      "Center",
-      " 0",
-      " -200",
-      " 2000",
-      " 100",
-      " TUTORIAL_TEXT_138"
-    ]
-  },
-  {
-    "Index": 10200,
-    "Command": "FocusAreaEffect",
-    "Argument": [
-      "UI.Common.Finger",
-      " 750",
-      " -200",
-      " 0",
-      " 100",
-      " True"
-    ]
-  },
-  {
-    "Index": 10200,
-    "Command": "WaitTouch"
-  },
-  {
-    "Index": 10200,
-    "Command": "PlaySound",
-    "Argument": [
-      "UI2.Button5"
-    ]
-  },
-  {
-    "Index": 10200,
-    "Command": "ClearTooltip"
-  },
-  {
-    "Index": 10200,
-    "Command": "ClearFocus"
-  },
-  {
-    "Index": 10200,
-    "Command": "FocusWidget",
-    "Argument": [
-      "PayShop(Clone)/Button_Exit",
-      " 0",
-      " 0",
-      " 0",
-      " 0",
-      " 0"
-    ]
-  },
-  {
-    "Index": 10200,
-    "Command": "FocusWidgetEffect",
-    "Argument": [
-      "PayShop(Clone)/Button_Exit",
-      " 0",
-      " UI.Common.Finger",
-      " 0",
-      " 0",
-      " 0",
-      " 100",
-      " True"
-    ]
-  },
-  {
-    "Index": 10200,
-    "Command": "WaitWidgetTouch",
-    "Argument": [
-      "PayShop(Clone)/Button_Exit",
-      " 0",
-      " 0",
-      " 0",
-      " 0",
-      " 0",
-      " True",
-      " True"
-    ]
-  },
-  {
-    "Index": 10200,
-    "Command": "PlayBgm",
-    "Argument": [
-      "Lobby.WorldMap.Map01"
-    ]
-  },
-  {
-    "Index": 10200,
-    "Command": "ClearTooltip"
-  },
-  {
-    "Index": 10200,
-    "Command": "ClearFocus"
-  },
-  {
-    "Index": 10200,
-    "Command": "SkipEnd",
-    "Argument": [
-      "Resources/Prefab2/Window/MessagePopup/TutorialSkipPopup",
-      " TUTORIAL_SKIP_NAME_010",
-      " TUTORIAL_SKIP_DESC_010"
-    ]
-  },
-  {
-    "Index": 10200,
-    "Command": "CloseAllWindow"
-  },
-  {
-    "Index": 10200,
-    "ReqIndex": "\uc601\uc6c5 \ubc84\ud2bc \ub4f1\uc7a5",
-    "Command": "NextTutorial",
-    "Argument": [
-      "10201"
-    ],
-    "RewardIndex": 81004,
-    "RewardAction": [
-      "DecFreeEquipGachaCount",
-      " 3"
-    ],
-    "HideRewardPopup": "True"
-  },
-  {
     "Index": 10201,
-    "ReqIndex": 10200,
+    "ReqIndex": 10110,
     "Command": "OpenMenuOpenPopup",
     "Argument": [
       "514",
@@ -11922,7 +10984,6 @@
   },
   {
     "Index": 10201,
-    "ReqIndex": "\uac00\ubc29 \ubc84\ud2bc \ub4f1\uc7a5",
     "Command": "NextTutorial",
     "Argument": [
       "10202"
@@ -11995,6 +11056,84 @@
   },
   {
     "Index": 10202,
+    "Command": "WaitTime",
+    "Argument": [
+      "0.9"
+    ]
+  },
+  {
+    "Index": 10202,
+    "Command": "NextTutorial",
+    "Argument": [
+      "10200"
+    ]
+  },
+  {
+    "Index": 10200,
+    "ReqIndex": 10202,
+    "Command": "OpenMenuOpenPopup",
+    "Argument": [
+      "514",
+      "441",
+      "160",
+      "0",
+      "0.5",
+      "1.5"
+    ]
+  },
+  {
+    "Index": 10200,
+    "Command": "PlaySound",
+    "Argument": [
+      "UI2.Event01"
+    ]
+  },
+  {
+    "Index": 10200,
+    "Command": "WaitObject",
+    "Argument": [
+      "MenuOpenWindow(Clone)/ButtonClose",
+      " 0",
+      " 0.3",
+      " 3"
+    ]
+  },
+  {
+    "Index": 10200,
+    "Command": "WaitWidgetTouch",
+    "Argument": [
+      "MenuOpenWindow(Clone)/ButtonClose",
+      " 0",
+      " 0",
+      " 0",
+      " 0",
+      " 0",
+      " True"
+    ]
+  },
+  {
+    "Index": 10200,
+    "Command": "PlaySound",
+    "Argument": [
+      "Attack.Spin05"
+    ]
+  },
+  {
+    "Index": 10200,
+    "Command": "WaitTime",
+    "Argument": [
+      "0.6"
+    ]
+  },
+  {
+    "Index": 10200,
+    "Command": "PlaySound",
+    "Argument": [
+      "UI2.TakeReward"
+    ]
+  },
+  {
+    "Index": 10200,
     "Command": "WaitTime",
     "Argument": [
       "0.9"
@@ -12709,10 +11848,6 @@
   {
     "Index": 17050,
     "Command": "EnterLobby",
-    "RewardDungeonIndex": [
-      "1",
-      "5"
-    ],
     "Repeatable": "True"
   },
   {
@@ -13166,10 +12301,6 @@
   {
     "Index": 17060,
     "Command": "EnterLobby",
-    "RewardDungeonIndex": [
-      "1",
-      "6"
-    ],
     "Repeatable": "True"
   },
   {

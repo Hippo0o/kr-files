@@ -155,7 +155,7 @@ ACHIEVEMENT_TYPE_GUILD,Guild
 ACHIEVEMENT_TYPE_GAMEPLAY,Quá trình
 ACHIEVEMENT_SCENARIO,Kịch bản
 ALL_INCLUDE_TEXT,Tất cả {1}
-ALL_FRAGMENTS,Tất cả các mảnh vỡ
+ALL_FRAGMENTS,Tất cả mảnh ghép
 ASK_PACKAGE_ITEM_USE,Bạn có muốn sử dụng vật phẩm không?
 BILLING_CANCEL,Thanh toán đã bị huỷ.
 BOOSTER_DURATION_TIME,Kéo dài trong 1 giờ
@@ -1511,7 +1511,7 @@ PAYSHOP_EVENT_UNIQUEWEAPON_WIZARD,Magic kỳ diệu và kinh ngạc! Tăng đán
 PAYSHOP_EVENT_UNIQUEWEAPON_PRIEST,Các Supporter nhất bao giờ hết! Tăng đáng kể xác suất của Weapon Weapon cho Wizards!
 PAYSHOP_EVENT_UNIQUEWEAPON_HERO,Thêm tên anh hùng tăng tỉ lệ triệu hồi vũ khí chuyên dụng
 RUBY_MONTHLY_LIMIT,Chọn giữa Ruby hàng ngày I và II
-BOOSTER_MONTHLY_BENEFIT,Dùng hiệu ứng nhân đôi kinh nghiệm trong 30 ngày \n Có thể cộng dồn hiệu ứng đồng nhất
+BOOSTER_MONTHLY_BENEFIT,Áp dụng hiệu ứng Bộ tăng EXP trong 30 ngày\nCó thể cộng dồn hiệu ứng đồng nhất
 NODE_HEROINN_SCOUT,Ghé thăm quán trọ
 GUILD_RAID_PROGRESSING,Đang tiến hành tấn công
 GUILD_RAID_CAN_OPEN,Raid đóng cửa
@@ -1555,7 +1555,7 @@ RAID_INVITE_CANNOT_FIND,Người chơi không tồn tại.
 GUILDPOINT_NEEDED,Điểm cần có
 FIND_USERNAME,ID Tìm kiếm
 HERO_FLASK.SELECT_FLASK_TITLE,Chọn một bình trang bị rỗng.
-HERO_FLASK.SELECT_FLASK_MESSAGE,"Khi trang bị bình rỗng, mọi kinh nghiệm thu được sẽ được lưu trữ trong bình. Anh hùng sẽ không nhận được kinh nghiệm nào. Khi bình rỗng được lấp đầy sẽ tạo ra một bình kinh nghiệm mới."
+HERO_FLASK.SELECT_FLASK_MESSAGE,"Khi trang bị bình rỗng, mọi kinh nghiệm thu được sẽ được lưu trữ trong bình. Anh hùng sẽ không nhận được kinh nghiệm nào. Khi bình rỗng được lấp đầy sẽ tạo ra Bình XP."
 HERO_FLASK.CANCEL_FLASK_TITLE,Loại bỏ bình trang bị rỗng
 HERO_FLASK.CANCEL_FLASK_MESSAGE,Xóa bỏ bình chứa. \nTất cả kinh nghiệm lưu trữ sẽ bị loại bỏ.
 ITEM.FLASK_NOT_EXIST,Không có bình trang bị rỗng trong kho của bạn.
@@ -1685,7 +1685,7 @@ COSTUMESHOP_BUY_HERO,Mua anh hùng
 HERO_FLASK.FLASK_TITLE_MESSAGE,Chạm vào ô anh hùng cho phép trang bị hoặc gỡ bỏ Bình rỗng
 HERO_FLASK.ENABLE_FLASK_EQUIP,Có thể trang bị
 HERO_FLASK.NO_HAVE_USABLE_FLASK,Chưa chọn Bình rỗng nào.
-EXPPOTION_SELECT_POTION,Bình kinh nghiệm
+EXPPOTION_SELECT_POTION,Bình XP
 EXPPOTION_SELECT_EMPTYPOTION,Bình rỗng.
 ITEM.LOCK_MESSAGE_1,Khóa vật phẩm để bảo vệ.
 ITEM.LOCK_RELEASE_MESSAGE,Đã hủy khóa.
@@ -1762,7 +1762,7 @@ STAT_PARTTYPE,Loại
 ITEM.BOOSTER_TITLE,Vật phẩm đã được tính giờ
 BOOSTER_STATE_NONE,Không hiệu lực
 BOOSTER_CATEGORY_RUBY,Ruby từng ngày một
-BOOSTER_CATEGORY_EXP,Bộ tăng kinh nghiệm
+BOOSTER_CATEGORY_EXP,Bộ tăng EXP
 BOOSTER_CATEGORY_GOLD,Bộ tăng vàng
 BOOSTER_CATEGORY_REWARD,Bộ tăng chiến lợi phẩm
 BOOSTER_STATE_RUBY,/ Tổng cộng {1} Ruby
@@ -1772,20 +1772,20 @@ BOOSTER_STATE_REWARD,/ Tổng cộng {1}%
 BOOSTER_BONUS_DAILY_MISSION_NAME,Nhân ba phần thưởng nhiệm vụ hàng ngày!
 BOOSTER_BONUS_DAILY_MISSION_DESC,Nhân ba phần thưởng nhiệm vụ hàng ngày!
 ITEM_USE.BOOSTER_ITEM_COMFIRM,Bạn sẽ dùng {1}?\nThời gian tăng trong vòng {2} giờ.
-SMITHY_OPTION_NEW_TITLE,Nâng cấp Trang bị
-SMITHY_OPTION_CHANGE_CHOICE,Chọn vật phẩm để Nâng cấp
+SMITHY_OPTION_NEW_TITLE,Luyện lại trang bị
+SMITHY_OPTION_CHANGE_CHOICE,Chọn vật phẩm để Luyện lại
 SMITHY_OPTION_SELECT_OPTION,Chọn một tùy chọn mà bạn muốn thay đổi.
 EQUIP.OPTION_CURRENT_STAT,Tùy chọn hiện tại
 EQUIP.OPTION_NEW_CHANGE,Thay đổi Tùy chọn
-EQUIP_OPTION_RENEW.CONFIRM_FIRST_RENEW_OPTION_MESSAGE,"Tùy chọn sẽ được thay đổi ngẫu nhiên. \nSau khi nâng cấp một lần, \nkhông thể thay đổi các tùy chọn khác. \nBạn sẽ nâng cấp Trang bị này?"
-EQUIP_OPTION_RENEW.ASK_RENEW_OPTION_WITH_COUPON_MESSAGE,Bạn có Vé luyện lại. \nBạn sẽ sử dụng Vé luyện lại?
+EQUIP_OPTION_RENEW.CONFIRM_FIRST_RENEW_OPTION_MESSAGE,"Tùy chọn sẽ được thay đổi ngẫu nhiên.\nSau khi luyện lại một lần,\nkhông thể thay đổi các tùy chọn khác.\nBạn có chắc sẽ tiến hành Luyện lại?"
+EQUIP_OPTION_RENEW.ASK_RENEW_OPTION_WITH_COUPON_MESSAGE,Bạn có Vé luyện lại.\nBạn sẽ sử dụng Vé luyện lại?
 EQUIP_OPTION_RENEW.ASK_RENEW_OPTION_TITLE,Tiến hành luyện lại
 EQUIP_OPTION_RENEW.ASK_RENEW_OPTION_MESSAGE,Bạn có sử dụng Ruby để thay đổi tùy chọn? \nBạn có thể thay đổi {1} tùy chọn tối đa cho thiết bị này.
 EQUIP_OPTION_RENEW.ACTION,Luyện lại
 EQUIP.OPTION_SELECT_FINAL_SPEAK,Chọn tùy chọn bạn thích!
 EQUIP.OPTION_SELECT_PAST_OPTION,Tuỳ chọn Trước
 EQUIP.OPTION_SELECT_NEW_OPTION,Tùy chọn mới
-SMITHY_OPTION_RENEW,Luyện lại Trang bị
+SMITHY_OPTION_RENEW,Luyện lại trang bị
 EQUIP_OPTION_RENEW_FINAL_CONFIRM,Xác nhận Tùy chọn
 ITEM.BOOSTER_REMAIN_TIME,{1}
 ITEM.UNUSED_BOOSTER,Bộ tăng không được sử dụng
@@ -1800,7 +1800,7 @@ DAILY_RUBY_COUNT_DESC,Nhận 50 Ruby mỗi ngày trong 30 ngày liên tục. Đ�
 DAILY_RUBY_COUNT2_DESC,Nhận 150 Ruby mỗi ngày trong 30 ngày liên tục. Được cộng dồn với gói Ruby từng ngày một 1.
 EQUIP_OPTION_RENEW.CONFIRM_FIRST_RENEW_OPTION_TITLE,Tiến hành luyện lại
 OPTION_RENEW_ONE_MORE_BUTTON,Một lần nữa
-OPTION_RENEW_END_BUTTON,Kết thúc luyện lại
+OPTION_RENEW_END_BUTTON,Luyện lại hoàn tất
 EVENT_RUNE_KEEP_MESSAGE,Bạn sẽ gỡ bỏ cổ tự khỏi trang bị và bảo toàn nó?\n(Miễn phí Bảo toàn Cổ tự trong thời gian diễn ra event)
 BOOSTER_BUTTON_USE,Sử dụng
 BOOSTER_BUTTON_NOW_USE,Đang sử dụng
@@ -1864,7 +1864,7 @@ NOTY_FRIEND_ADD_FAIL_REQUEST_FULL,Danh sách lời mời kết bạn của {1} �
 COMMON_FREE_RUBY,Miễn phí
 COMMON_PAID_BUY,Có phí
 8CHAPTER_SPECIAL_ATTENDANCE,Thưởng đăng nhập
-CHAPTER8_ATTENDANCE_INFO,Thẻ vũ khí chuyên dụng ngẫu nhiên không bao gồm vũ khí của Anh hùng NPC. \nCuốn Sổ ghi danh sẽ hết hạn sau đợt bảo trì vào tuần thứ hai của tháng 7 và bạn sẽ không nhận được các phần thưởng còn lại.
+CHAPTER8_ATTENDANCE_INFO,Coupon vũ khí chuyên dụng ngẫu nhiên không bao gồm vũ khí của Anh hùng NPC. \nCuốn Sổ ghi danh sẽ hết hạn sau đợt bảo trì vào tuần thứ hai của tháng 7 và bạn sẽ không nhận được các phần thưởng còn lại.
 RECALL_EXPAND_ITEM_SURE,Mức tiêu thụ ruby tăng từ {1} ô lên {2} ô và còn có thể tăng thêm.
 RECOMMENDOPTION_TITLE,Tùy chọn được đề xuất
 ATTACKOPTION_TITLE,[Tùy chọn tấn công được đề xuất]
@@ -2293,7 +2293,7 @@ WORLDBOSS_INFO_PLAY_REWARD_DESC,Tất cả người chơi tham gia trận chiế
 WORLDBOSS_INFO_RANKING_REWARD_TITLE,Phần thưởng thứ hạng
 WORLDBOSS_INFO_RANKING_REWARD_DESC,"Phần thưởng sẽ được phát theo thứ hạng tính đến 24:00 khi Boss Thế Giới đang diễn ra.\n Đồng thời khi Boss Thế Giới kết thúc, phần thưởng thứ hạng hàng ngày và phần thưởng kì sẽ được cấp dựa theo thứ hạng"
 WORLDBOSS_INFO_KILL_REWARD_TITLE,Phần thưởng Cú Chót
-WORLDBOSS_INFO_KILL_REWARD_DESC,Phần thưởng dành cho người chơi duy nhất đã giết chết Boss Thế Giới.\n Phần thưởng xử lý này sẽ phát 1000 ruby và coupon vũ khí chuyên dụng ngẫu nhiên.
+WORLDBOSS_INFO_KILL_REWARD_DESC,Phần thưởng dành cho người chơi duy nhất đã giết chết Boss Thế Giới.\nPhần thưởng xử lý này sẽ phát 1000 Ruby và Coupon vũ khí chuyên dụng ngẫu nhiên.
 WORLDBOSS_KILL_REWARD_DESC,Xin chúc mừng! Bạn đã đánh gục Boss Thế Giới.\n Đây là phần thưởng duy nhất dành cho người đã đánh gục Boss Thế Giới.\n Phần thưởng đã được phát qua hộp thư.
 WORLDBOSS_SCORE_RANK_TITLE,Thứ hạng Boss Thế Giới
 WORLD_BOSS.WORLDBOSS_MY_RANKING,(Hạng {1})
@@ -2356,7 +2356,7 @@ PAYSHOP_VERONICA_BUY_TEXT,"Sau 14 ngày đăng nhập, bạn sẽ nhận đượ
 ATTENDANCE_7_DATE,  
 ATTENDANCE_REST_MESSAGE,· Xin lưu ý phải nhận quà trong vòng 14 ngày
 MAY_DONT_MISS,Đừng bỏ lỡ 14 ngày đầy sư kiện đặc biệt!
-MAY_HERO_SELECT_ITEM_DESC,"※ Thẻ chọn anh hùng 3 sao: Chọn đến cả Requina, Ezekiel và Ophelia.\n(Đến cả các anh hùng được giới thiệu từ tháng 2/2018 trở về trước)\n※ Thẻ vũ khí chuyên dụng ngẫu nhiên: Nhận một vũ khí chuyên dụng của bất kỳ anh hùng nào (trừ các anh hùng NPC)."
+MAY_HERO_SELECT_ITEM_DESC,"※ Thẻ chọn anh hùng 3 sao: Chọn đến cả Requina, Ezekiel và Ophelia.\n(Đến cả các anh hùng được giới thiệu từ tháng 2/2018 trở về trước)\n※ Coupon vũ khí chuyên dụng ngẫu nhiên: Nhận một vũ khí chuyên dụng của bất kỳ anh hùng nào (trừ các anh hùng NPC)."
 INVENTORY.INVENTORY_ENOUGH_CRAFT_MSG,Bạn có muốn di chuyển tới mục Điều chế không?
 INVENTORY.INVENTORY_NOT_ENOUGH_CRAFT_MSG,Bạn không thể điều chế khi thiếu mảnh vỡ.\nBạn có muốn di chuyển tớ Điều chế không? 
 INVENTORY.INVENTORY_CRAFT_MOVE_MSG,Di chuyển vào Kho (Điều chế)
@@ -2401,7 +2401,7 @@ NPC_RECRUIT_REWARD_NICKY_DESC01,"Nếu có Nicky trong danh sách Anh hùng, s�
 NPC_RECRUIT_REWARD_NICKY_DESC02,Bạn có thể nhận được Vũ khí chuyên dụng của Nicky. Có thể nhận phần thưởng nhiều lần.
 NICKY_BONUS_NAME1,Lời cầu chúc của Nicky
 NICKY_BONUS_DESC1,Tăng 1 lần nạp lại hàng ngày cho Khóa nhà ngục.
-NPC_RECRUIT_REWARD_DOSARTA_DESC01,"Khi có Dosarta, bạn có thể nhận được thêm 2 Mảnh cổ vật từ phần thưởng định kỳ ở Tháp thách thức.\nCác phần thưởng khác sẽ bị ảnh hưởng bởi hiệu ứng Bộ tăng chiến lợi phẩm."
+NPC_RECRUIT_REWARD_DOSARTA_DESC01,"Khi có Dosarta, bạn có thể nhận được thêm 2 Mảnh cổ vật từ phần thưởng định kỳ ở tháp Thách Thức.\nCác phần thưởng khác sẽ bị ảnh hưởng bởi hiệu ứng Bộ tăng chiến lợi phẩm."
 NPC_RECRUIT_REWARD_DOSARTA_DESC02,Bạn có thể nhận được Vũ khí chuyên dụng của Dosarta. Có thể nhận phần thưởng nhiều lần.
 DOSARTA_BONUS_NAME2,Lời cầu chúc của Dosarta
 DOSARTA_BONUS_DESC2,Bạn có thể nhận được thêm 2 Mảnh cổ vật từ phần thưởng định kỳ ở tháp Thách Đấu.\nCác phần thưởng khác sẽ bị ảnh hưởng bởi hiệu ứng Bộ tăng chiến lợi phẩm.
@@ -2432,7 +2432,7 @@ SMITHY_TIER_UPGRADE,Tăng cấp trang bị
 SMITHY_TIERUPGRADE_EMPTY,Trang bị không thể tăng cấp
 TIER_UPGRADE_USE_MATERIAL,Nguyên liệu cần dùng
 RESULT_TYPE.NOT_EQUIP_MAX_STAR,Không phải trang bị 5 sao.
-UNIQUE_WEAPON_SLICE_MESSAGE,"Không thể khôi phục lại sau khi phân giải,\n Có thể nhận được {1} mảnh ghép vũ khí chuyên dụng.\n Bạn sẽ phân giải {2}?"
+UNIQUE_WEAPON_SLICE_MESSAGE,"Không thể khôi phục lại sau khi phân giải,\nCó thể nhận được {1} Mảnh vũ khí chuyên dụng.\nBạn sẽ phân giải {2}?"
 OPTION_PUSH_ALL,Tất cả thông báo
 OPTION_PUSH_SYSTEM,Thông báo hệ thống
 OPTION_PUSH_STAMINA_ALL_CHARGE,Nạp tất cả Thể lực
@@ -2630,24 +2630,24 @@ TOOLTIP_INFO_TEXT_EVENT_SUMMER_FESTIVAL_COIN,"Một loại xu có được khi v
 SUMMER_EVENT_BUFF,Lễ hội mùa hè!!!
 SUMMER_EVENT_BUFF_DESC,Bạn chỉ cần mặc trang phục Bãi biển là phần thưởng của Ngục tối lễ hội mùa hè sẽ tăng lên.
 SQUARE_SIDEQUEST_NAME_GOLD,Hòm vàng rơi trên sa mạc
-SQUARE_SIDEQUEST_NAME_EXP,Bình kinh nghiệm thất lạc
+SQUARE_SIDEQUEST_NAME_EXP,Bình XP thất lạc
 SQUARE_SIDEQUEST_NAME_POWDER,Bột ma thuật của Vùng dung nham
 SQUARE_SIDEQUEST_NAME_RUNE,Cổ tự thịnh nộ
 SQUARE_SIDEQUEST_NAME_FRAGMENT,Mảnh ghép của Vùng đất bị nguyền rủa
 SQUARE_SIDEQUEST_INFO_BUTTON,Tin đồn
 SQUARE_SIDEQUEST_INFO_TITLE,Tin đồn mới nhất
 SQUARE_SIDEQUEST_INFO_SUBTITLE_GOLD,Tin đồn về Hòm vàng rơi trên sa mạc
-SQUARE_SIDEQUEST_INFO_SUBTITLE_EXP,Tin đồn về Bình kinh nghiệm thất lạc
+SQUARE_SIDEQUEST_INFO_SUBTITLE_EXP,Tin đồn về Bình XP thất lạc
 SQUARE_SIDEQUEST_INFO_SUBTITLE_POWDER,Tin đồn về Bột ma thuật của Vùng dung nham
 SQUARE_SIDEQUEST_INFO_SUBTITLE_RUNE,Tin đồn về Cổ tự thịnh nộ
 SQUARE_SIDEQUEST_INFO_SUBTITLE_FRAGMENT,Tin đồn về Mảnh ghép của Vùng đất bị nguyền rủa
 SQUARE_SIDEQUEST_DESC_GOLD,"- Hòm vàng rơi trên sa mạc\n\nCát lún nơi sa mạc nổi tiếng đáng sợ vì sẽ nuốt chửng bất kỳ thứ gì dám lại gần.\nNhưng gần đây, bỗng xuất hiện những hòm vàng kỳ lạ rải rác khắp sa mạc.\nTheo như tin đồn, khi miệng sâu của hố cát lún lấp đầy, một số hộp vàng này được đẩy ra ngoài sa mạc.\nNếu có thể đi tới nơi sâu thẳm của hố cát lún, các ngươi có thể tha hồ lụm những hòm vàng ở đó.\nHa ha, nhưng nhớ cẩn thận. Các ngươi chẳng bao giờ biết điều gì ẩn sâu dưới hố cát lún đâu."
-SQUARE_SIDEQUEST_DESC_EXP,"- Bình kinh nghiệm thất lạc\n\nKhi vận chuyển Bình kinh nghiệm qua những ngọn núi tuyết cho binh lính đang huấn luyện, một số thương nhân bị mắc kẹt trong một trận bão tuyết lớn.\nTệ hơn nữa, xe vận chuyển bị hỏng và bình kinh nghiệm rò rỉ khiến cho lũ quái vật gần đó đánh hơi được.\nTriều đình đang tuyển mộ các nhà phiêu lưu để giúp đội thương nhân trước khi điều động lực lượng giải cứu.\nNếu cứu giúp được họ, các ngươi sẽ được trao thưởng một số Bình kinh nghiệm đấy, ha ha."
+SQUARE_SIDEQUEST_DESC_EXP,"- Bình XP thất lạc\n\nKhi vận chuyển Bình XP qua những ngọn núi tuyết cho binh lính đang huấn luyện, một số thương nhân bị mắc kẹt trong một trận bão tuyết lớn.\nTệ hơn nữa, xe vận chuyển bị hỏng và Bình XP rò rỉ khiến cho lũ quái vật gần đó đánh hơi được.\nTriều đình đang tuyển mộ các nhà phiêu lưu để giúp đội thương nhân trước khi điều động lực lượng giải cứu.\nNếu cứu giúp được họ, các ngươi sẽ được trao thưởng một số Bình XP đấy, ha ha."
 SQUARE_SIDEQUEST_DESC_POWDER,"- Bột ma thuật của Vùng dung nham\n\nDường như trong vùng dung nham nhỏ bé ở phía đông nam Núi lửa Dragia tồn tại một mạch quặng ma thuật hiếm có.\nQuặng ma thuật thường được nghiền thành bột ma thuật chứa năng lượng huyền bí và Jin sử dụng bột này để tôi rèn nên những trang bị tốt nhất.\nNhiệt lượng tỏa ra từ mạch này nóng đến nỗi hầu như không ai dám lại gần. Thế nhưng gần đây, vì một vài lý do nào đó, có người đi ngang qua núi lửa này và phát hiện rằng sức nóng đã không còn nữa.\nCác ngươi không nên bỏ lỡ cơ hội này để kiếm thật nhiều Bột ma thuật, Jin sẽ chẳng bao giờ chê nhiều đâu."
 SQUARE_SIDEQUEST_DESC_RUNE,"- Cổ tự thịnh nộ\n\nGần đây rộ lên tin đồn rằng cổ tự đã trở nên quá mạnh tại khu rừng của các nàng tiên.\nSức mạnh của cổ tự vốn dùng để bảo vệ khu rừng, thế nhưng số lượng cổ tự ngày càng nhiều đang khiến cho cư dân của khu rừng nổi cơn thịnh nộ vì hấp thụ quá nhiều Mana.\nNếu năng lượng của cổ tự trong khu rừng yếu đi, cơn thịnh nộ có thể bị ngăn chặn.\nHả? Làm cách nào để năng lượng này yếu đi ấy hả? Ừm... Ta đoán rằng bỏ đi một ít cổ tự trong khu rừng là được thôi mà nhỉ? Ha ha ha."
 SQUARE_SIDEQUEST_DESC_FRAGMENT,"- Mảnh ghép của Vùng đất bị nguyền rủa\n\nCó một ngôi làng nhỏ nằm ở cuối Bình nguyên Galluah. Người ta gọi ngôi làng này là Vùng đất bị nguyền rủa vì nơi đây quanh năm bị bao phủ bởi màn sương dày và là nơi cư ngụ của những oán linh.\nGần đây, có tin đồn cho rằng nơi này thực chất là nghĩa trang của những anh hùng đã ngã xuống trong Cuộc chiến chống ác quỷ và được ếm màn sương ma thuật để bảo vệ sự yên bình vĩnh viễn của họ.\nHa ha ha, nghe có vẻ nguy hiểm đấy... nhưng nếu tin đồn là thực, các ngươi có thể xoa dịu oán khí của những anh hùng này để nhận các mảnh ghép linh hồn của họ."
 SQUARE_SIDEQUEST_INFO_TITLE_GOLD,Tin đồn về Hộp vàng
-SQUARE_SIDEQUEST_INFO_TITLE_EXP,Tin đồn về Bình kinh nghiệm
+SQUARE_SIDEQUEST_INFO_TITLE_EXP,Tin đồn về Bình XP
 SQUARE_SIDEQUEST_INFO_TITLE_POWDER,Tin đồn về Bột ma thuật
 SQUARE_SIDEQUEST_INFO_TITLE_RUNE,Tin đồn về Cổ tự
 SQUARE_SIDEQUEST_INFO_TITLE_FRAGMENT,Tin đồn về Mảnh ghép bí ẩn
@@ -2663,7 +2663,7 @@ EVENTBOSS.EVENT_BOSS_ENTER_COUNT,Lượt đánh bại: {1}
 EVENTBOSS.EVENT_BOSS_KILL_TIME,{1}giờ : {2}phút : {3}giây
 EVENTBOSS.HELP_EVENT_BOSS_TITLE,Thông tin sự kiện
 EVENTBOSS.HELP_EVENT_BOSS_NAME,Quy định trận đấu với Thỏ trăng khổng lồ Lulu & Phần thưởng
-EVENTBOSS.HELP_EVENT_BOSS_DECS,"1. Thỏ trăng khổng lồ Lulu\nThỏ trăng khổng lồ Lulu xuất hiện 2 lần/ngày.\nThời gian xuất hiện: 14:00 - 20:00 / 21:00 - 23:59\nHãy giết Thỏ trăng khổng lồ Lulu đầu tiên để nhận phần thưởng.\nBạn vẫn có thể tham gia các trận đấu với Thỏ trăng khổng lồ Lulu thứ hai, nhưng không thể giết chúng nữa.\n\n2. Trận đấu\nSát thương gây cho Thỏ trăng khổng lồ Lulu được đặt cố định là 1.\nThỏ trăng khổng lồ Lulu gây sát thương tương ứng với tổng HP của anh hùng trong nhóm.\nTrận đấu sẽ diễn ra trong vòng 2 phút.\n\n3. Phần thưởng\nPhần thưởng hạ gục: Trao thưởng 100 Ruby khi giết được Thỏ trăng khổng lồ Lulu đầu tiên.\nSau khi tính toán, Phần thưởng hạ gục sẽ được gửi đến Hòm thư của bạn sau 23:59.\nPhần thưởng tham gia: Bạn có thể nhận được Túi hình thỏ mỗi lần tham gia trận đấu với Thỏ trăng khổng lồ Lulu.\nPhần thưởng tham gia tích lũy: Các phần thưởng sẽ được trao theo số lần Tham gia cộng dồn.\n1 lần tham gia (P.C.) → Mảnh ghép bí ẩn x20\n5 P.C. → Tinh chất bí ẩn x20\n10 P.C. → Thẻ chọn mảnh ghép x50\n15 P.C. → Thẻ chọn tinh chất x50\n20 P.C. → Dây chuyền Lulu x1\n25 P.C. → Bộ tăng kinh nghiệm (1 giờ) x3\n30 P.C. → Bộ tăng vàng (1 giờ) x3\n35 P.C. → Bộ tăng kinh nghiệm (1 ngày) x1\n40 P.C. → Bộ tăng vàng (1 ngày) x1"
+EVENTBOSS.HELP_EVENT_BOSS_DECS,"1. Thỏ trăng khổng lồ Lulu\nThỏ trăng khổng lồ Lulu xuất hiện 2 lần/ngày.\nThời gian xuất hiện: 14:00 - 20:00 / 21:00 - 23:59\nHãy giết Thỏ trăng khổng lồ Lulu đầu tiên để nhận phần thưởng.\nBạn vẫn có thể tham gia các trận đấu với Thỏ trăng khổng lồ Lulu thứ hai, nhưng không thể giết chúng nữa.\n\n2. Trận đấu\nSát thương gây cho Thỏ trăng khổng lồ Lulu được đặt cố định là 1.\nThỏ trăng khổng lồ Lulu gây sát thương tương ứng với tổng HP của anh hùng trong nhóm.\nTrận đấu sẽ diễn ra trong vòng 2 phút.\n\n3. Phần thưởng\nPhần thưởng hạ gục: Trao thưởng 100 Ruby khi giết được Thỏ trăng khổng lồ Lulu đầu tiên.\nSau khi tính toán, Phần thưởng hạ gục sẽ được gửi đến Hòm thư của bạn sau 23:59.\nPhần thưởng tham gia: Bạn có thể nhận được Túi hình thỏ mỗi lần tham gia trận đấu với Thỏ trăng khổng lồ Lulu.\nPhần thưởng tham gia tích lũy: Các phần thưởng sẽ được trao theo số lần Tham gia cộng dồn.\n1 lần tham gia (P.C.) → Mảnh ghép bí ẩn x20\n5 P.C. → Tinh chất bí ẩn x20\n10 P.C. → Thẻ chọn mảnh ghép x50\n15 P.C. → Thẻ chọn tinh chất x50\n20 P.C. → Dây chuyền Lulu x1\n25 P.C. → Bộ tăng EXP (1 giờ) x3\n30 P.C. → Bộ tăng vàng (1 giờ) x3\n35 P.C. → Bộ tăng EXP (1 ngày) x1\n40 P.C. → Bộ tăng vàng (1 ngày) x1"
 EVENT_BOSS_JOIN_TITLE,Phần thưởng Thỏ trăng khổng lồ Lulu cho {1} lần tham gia
 EVENT_BOSS_JOIN_DESC,Các phần thưởng dành cho người tham gia trong trận đấu với Thỏ trăng khổng lồ Lulu.
 EVENT_BOSS_KILL_TITLE,Phần thưởng hạ gục Thỏ trăng khổng lồ Lulu
@@ -3219,7 +3219,7 @@ REVIEW_POPUP_TITLE,Thông báo
 REVIEW_POPUP_DESC,Bạn chơi vui chứ?\nDành chút thời gian đánh giá chúng tôi nhé!
 REVIEW_POPUP_BUTTON,Viết đánh giá
 NEWBIE_PROMOTION_POPUP_TITLE,<Khuyến mãi có thời hạn> dành cho các tân binh!!
-NEWBIE_PROMOTION_POPUP_DESC,"[Chú ý] – Các anh hùng có thể lựa chọn: Chọn đến cả Requina, Ezekiel và Ophelia.\n(Đến cả các anh hùng được giới thiệu từ tháng 2/2018 trở về trước)\n– Thẻ chọn anh hùng và Thẻ vũ khí chuyên dụng ngẫu nhiên không bao gồm các anh hùng NPC."
+NEWBIE_PROMOTION_POPUP_DESC,"[Chú ý] – Các anh hùng có thể lựa chọn: Chọn đến cả Requina, Ezekiel và Ophelia.\n(Đến cả các anh hùng được giới thiệu từ tháng 2/2018 trở về trước)\n– Thẻ chọn anh hùng và Coupon vũ khí chuyên dụng ngẫu nhiên không bao gồm các anh hùng NPC."
 1ST_ANNIVERSARY_KINGS_REWARD_DESC,Dành cho người chơi mới ưu tiên nuôi dưỡng anh hùng!! Thu nhận 2 anh hùng bằng Thẻ chọn anh hùng siêu việt 1!
 1ST_ANNIVERSARY_RAID_REWARD_DESC,Con đường thẳng dẫn đến siêu việt anh hùng mạnh mẽ hơn! Vũ khí chuyên dụng cùng 10 Đá vô cực!
 1ST_ANNIVERSARY_VESPA_REWARD_DESC,Anh hùng mạnh cần Vũ khí mạnh! Vũ khí chuyên dụng tổng 4 cái!!
@@ -3233,24 +3233,24 @@ NEWBIE_PROMOTION_POPUP_DESC,"[Chú ý] – Các anh hùng có thể lựa chọn
 1ST_ANNIVERSARY_KINGS_TITLE,Quà đặc biệt kỉ niệm 1 năm (King's)
 1ST_ANNIVERSARY_RAID_TITLE,Quà đặc biệt kỉ niệm 1 năm (Raid)
 1ST_ANNIVERSARY_VESPA_TITLE,Quà đặc biệt kỉ niệm 1 năm (Vespa)
-1ST_ANNIVERSARY_KINGS_DAY_1_DESC,Hãy lựa chọn anh hùng mà bạn muốn cùng đồng hành trên chặng chinh phạt dài phía trước. Sử dụng Thẻ chọn anh hùng để nhận anh hùng siêu việt 1 và Bình nước phép kinh nghiệm để nâng cấp tức thời level của anh hùng. Đừng quên cân nhắc một cách thận trọng trước khi lựa chọn vũ khí chuyên dụng - vũ khí đặc biệt quan trọng đối với sức mạnh của mỗi một anh hùng.
+1ST_ANNIVERSARY_KINGS_DAY_1_DESC,Hãy lựa chọn anh hùng mà bạn muốn cùng đồng hành trên chặng chinh phạt dài phía trước. Sử dụng Thẻ chọn anh hùng để nhận anh hùng siêu việt 1 và Bình XP để nâng cấp tức thời level của anh hùng. Đừng quên cân nhắc một cách thận trọng trước khi lựa chọn vũ khí chuyên dụng - vũ khí đặc biệt quan trọng đối với sức mạnh của mỗi một anh hùng.
 1ST_ANNIVERSARY_KINGS_DAY_2_DESC,"Bạn có hứng thú với anh hùng nào khác? Hãy sử dụng một lần nữa Thẻ chọn anh hùng được cấp thêm và chọn 1 anh hùng siêu việt 1. Đừng quên cân nhắc đến cân bằng đội hình với những anh hùng loại Vật lý/Phép thuật, Tank/Deal/Heal. Bình Stamina sẽ hỗ trợ cho những trận đấu được thực hiện liên tục. Bạn còn có thể nhận nguyên liệu thiết yếu cho thức tỉnh anh hùng - 500 Mảnh ghép thức tỉnh mỗi loại. Mỗi loại mảnh thức tỉnh cần thiết tùy mỗi class anh hùng cần thức tỉnh đều khác nhau nên đừng quên đọc thông tin hướng dẫn của mỗi loại nhé."
 1ST_ANNIVERSARY_KINGS_DAY_3_DESC,"Trong mỗi trận đấu, Trang bị và Kĩ năng là yếu tố cực kì quan trọng đúng không? Sách kĩ năng mà bạn nhận được hôm nay là nguyên liệu bắt buộc khi cường hóa đặc tính kĩ năng anh hùng. Bạn sẽ còn nhận được Thẻ chọn Giáp cấp Huyền thoại có thể trang bị từ level 61. Có thể trực tiếp lựa chọn Tùy chọn trang phụ và Giáp thích hợp với từng class. Tinh chất siêu cường hóa được gửi kèm theo là vật phẩm hỗ trợ cường hóa trang bị. Sau khi hoàn thành, hãy nâng thêm tính năng của trang bị đã nhận bằng 'Cổ tự'."
 1ST_ANNIVERSARY_KINGS_DAY_4_DESC,"Với Thẻ chọn Trang phục, bạn có thể lựa chọn cho anh hùng đang sở hữu những bộ trang phục thật cá tính và đẹp mắt. Rất nhiều trang phục đa dạng đã được chuẩn bị, bạn chỉ cần chọn lựa bộ trang phục nào bản thân ưng ý nhất. Tùy vào từng trang phục mà có thêm những tùy chọn bổ sung như tăng Kinh nghiệm hay Vàng. Đá vô cực là nguyên liệu cần thiết để thực hiện bước Siêu việt anh hùng 1~5 sau khi thức tỉnh anh hùng 5 sao. Nếu thiếu nguyên liệu này có thể thu Mảnh ghép vô cực tại Tháp Thử thách và điều chế."
-1ST_ANNIVERSARY_KINGS_DAY_5_DESC,"Thật tiếc, đây là ngày cuối cùng của phần quà đặc biệt rồi. Chúng tôi sẽ luôn bên bạn trong suốt cuộc hành trình tiếp theo. Bạn có thể nhận 1 trong những Vũ khí chuyên dụng đặc biệt của các anh hùng bằng Coupon Vũ khí chuyên dụng ngẫu nhiên. Kèm theo đó Bộ tăng Vàng/Kinh nghiệm được tặng có thể nâng Đôi số Vàng và Kinh nghiệm bạn có thể nhận được trong vòng 7 ngày. Ruby là hàng hóa thiết yếu của King's Raid có thể sử dụng ở nhiều nội dung vì vậy đương nhiên chúng tôi cũng đã chuẩn bị thật rủng rỉnh cho bạn rồi đây~"
+1ST_ANNIVERSARY_KINGS_DAY_5_DESC,"Thật tiếc, đây là ngày cuối cùng của phần quà đặc biệt rồi. Chúng tôi sẽ luôn bên bạn trong suốt cuộc hành trình tiếp theo. Bạn có thể nhận 1 trong những Vũ khí chuyên dụng đặc biệt của các anh hùng bằng Coupon vũ khí chuyên dụng ngẫu nhiên. Kèm theo đó Bộ tăng Vàng/EXP được tặng có thể nâng Đôi số Vàng và EXP bạn có thể nhận được trong vòng 7 ngày. Ruby là hàng hóa thiết yếu của King's Raid có thể sử dụng ở nhiều nội dung vì vậy đương nhiên chúng tôi cũng đã chuẩn bị thật rủng rỉnh cho bạn rồi đây~"
 1ST_ANNIVERSARY_RAID_DAY_1_DESC,"Bạn có anh hùng nào đang nuôi dưỡng nhưng lại thiếu Vũ khí chuyên dụng? Hãy sử dụng món quà Thẻ chọn vũ khí chuyên dụng mà chúng tôi mang tới đây để trang bị cho anh hùng mà bạn mong muốn. 30 Bình nước phép Stamina hỗ trợ cho trận đấu liên tục cùng với 30,000,000 Vàng khi cần có thể sử dụng cũng được mang tới đây!"
-1ST_ANNIVERSARY_RAID_DAY_2_DESC,"Bạn có hứng thú với anh hùng nào khác? Nếu vậy hãy sử dụng Thẻ chọn anh hùng chúng tôi mang tới đây để nhận về anh hùng mong muốn. Có thể chọn đến Scarlet/ Sonia/ Mirianne. Kèm theo đó là Bộ tăng Vàng/Kinh nghiệm có thể nâng Đôi số Vàng và Kinh nghiệm bạn có thể nhận được trong vòng 7 ngày. Còn nữa, 250 Mảnh ghép thức tỉnh mỗi loại để Thức tỉnh anh hùng. Bạn có thể sử dụng để thức tỉnh anh hùng hay điều chế Đá vô cực,Tinh chất tùy theo ý mình."
+1ST_ANNIVERSARY_RAID_DAY_2_DESC,"Bạn có hứng thú với anh hùng nào khác? Nếu vậy hãy sử dụng Thẻ chọn anh hùng chúng tôi mang tới đây để nhận về anh hùng mong muốn. Có thể chọn đến Scarlet/ Sonia/ Mirianne. Kèm theo đó là Bộ tăng Vàng/EXP có thể nhân đôi số Vàng và EXP bạn có thể nhận được trong vòng 7 ngày. Còn nữa, 250 Mảnh ghép thức tỉnh mỗi loại để Thức tỉnh anh hùng. Bạn có thể sử dụng để thức tỉnh anh hùng hay điều chế Đá vô cực,Tinh chất tùy theo ý mình."
 1ST_ANNIVERSARY_RAID_DAY_3_DESC,"Sức mạnh bí mật được bật mí! Chúng tôi đã chuẩn bị thật nhiều nguyên liệu thiết yếu đối với Siêu việt anh hùng đây. bao gồm 10 Đá vô cực, 7 loại Tinh chất mỗi loại 80. Ngoài ra còn kèm theo 4 loại Sách kĩ năng để cường hóa đặc tính kĩ năng anh hùng và Cổ tự sử dụng cho Tùy chọn Vũ khí và Giáp."
 1ST_ANNIVERSARY_RAID_DAY_4_DESC,"Với Thẻ chọn Trang phục, bạn có thể lựa chọn cho anh hùng đang sở hữu những bộ trang phục thật cá tính và đẹp mắt. Rất nhiều trang phục đa dạng đã được chuẩn bị, bạn chỉ cần chọn lựa bộ trang phục nào bản thân ưng ý nhất. Tùy vào từng trang phục mà có thêm những tùy chọn bổ sung như tăng Kinh nghiệm hay Vàng. Bộ tăng Chiến lợi phẩm nâng Đôi lượng vật phẩm có thể nhận được. Tùy từng nơi mà hiệu quả có được áp dụng hay không, vì vậy lưu ý đừng quên đọc thông tin hướng dẫn nhé."
 1ST_ANNIVERSARY_RAID_DAY_5_DESC,"Thật tiếc, đây là ngày cuối cùng của phần quà đặc biệt rồi. Chúng tôi sẽ luôn bên bạn trong suốt cuộc hành trình tiếp theo. Chúng tôi giành tặng bạn thêm 1 Thẻ chọn trang phục cho anh hùng của bạn một diện mạo thật xuất sắc. Kèm theo đó là Thẻ chọn Giáp cấp huyền thoại có thể trang bị lên anh hùng từ level 61. Bạn có thể trực tiếp lựa chọn tùy chọn trang bị và giáp phù hợp với class của mình. Tinh chất siêu cường hóa có thể giúp thêm cho việc cường hóa trang bị."
 1ST_ANNIVERSARY_VESPA_DAY_1_DESC,"Anh hùng bạn đang nuôi dưỡng vẫn chưa có Vũ khí chuyên dụng? Hãy sử dụng món quà Thẻ chọn vũ khí chuyên dụng mà chúng tôi mang tới đây để trang bị cho anh hùng mà bạn mong muốn. Nếu bạn chọn tiến hành thức tỉnh vũ khí chuyên dụng, chúc bạn có kết quả mãn nguyện."
 1ST_ANNIVERSARY_VESPA_DAY_2_DESC,Trang bị đang được đeo của bạn đã được thực hiện phù phép chưa? Hãy thử thêm tùy chọn phù phép vào trang bị bằng Cuộn phù phép chúng tôi mang đến hôm nay. Mỗi thuộc tính 3 cuộn tổng cộng 12 cuộn. Đá vô cực được gửi kèm sẽ thật sự hữu ích cho quá trình Siêu việt anh hùng của bạn.
-1ST_ANNIVERSARY_VESPA_DAY_3_DESC,"Từ hôm nay Coupon Vũ khí chuyên dụng ngẫu nhiên sẽ được gửi tặng trong vòng 3 ngày. Đương nhiên chúng tôi hi vọng bạn có thể nhận được Vũ khí chuyên dụng mong muốn, nhưng nếu lỡ không thể nhận được, cũng đừng quá thất vọng nhé. Mảnh ghép vũ khí chuyên dụng được thu về thông qua nghiền Vũ khí chuyên dụng khi đạt 1,000 mảnh có thể tạo Thẻ chọn Vũ khí chuyên dụng thông qua Điều chế. 5 Cổ tự cấp Cổ đại cũng được gửi tặng trong hôm nay~"
-1ST_ANNIVERSARY_VESPA_DAY_4_DESC,Vẫn là Coupon Vũ khí chuyên dụng ngẫu nhiên trong hôm nay. Liệu Vũ khí chuyên dụng tìm đến bạn hôm nay sẽ là gì đây. Thêm vào đó bạn có thể sử dụng Thẻ lưu trữ cổ tự bất kì lúc nào tùy ý. Sau khi sử dụng thật tuyệt vì bạn không phải lo lắng đến chi phí lưu giữ Cổ tự khi thực hiện thay đổi cài đặt Cổ tự đã được sử dụng trong 24h đúng không?
-1ST_ANNIVERSARY_VESPA_DAY_5_DESC,"Thật tiếc, đây là ngày cuối cùng của phần quà đặc biệt rồi. Chúng tôi sẽ luôn bên bạn trong suốt cuộc hành trình tiếp theo. Chúng tôi giành tặng bạn thêm 15 Vé nâng cấp trang bị. Bạn có thể sử dụng Vé nâng cấp thay cho Ruby tại Lò rèn khi muốn thay đổi tùy chọn không vừa ý bằng 1 trong những tùy chọn trang bị khác. (Vé nâng cấp chỉ có thể sử dụng tại 1 trong số những tùy chọn được áp dụng lên trang bị.)"
+1ST_ANNIVERSARY_VESPA_DAY_3_DESC,"Từ hôm nay Coupon vũ khí chuyên dụng ngẫu nhiên sẽ được gửi tặng trong vòng 3 ngày. Đương nhiên chúng tôi hi vọng bạn có thể nhận được Vũ khí chuyên dụng mong muốn, nhưng nếu lỡ không thể nhận được, cũng đừng quá thất vọng nhé. Mảnh vũ khí chuyên dụng được thu về thông qua nghiền Vũ khí chuyên dụng khi đạt 1,000 mảnh có thể tạo Thẻ chọn Vũ khí chuyên dụng thông qua Điều chế. 5 Cổ tự cấp Cổ đại cũng được gửi tặng trong hôm nay~"
+1ST_ANNIVERSARY_VESPA_DAY_4_DESC,Vẫn là Coupon vũ khí chuyên dụng ngẫu nhiên trong hôm nay. Liệu Vũ khí chuyên dụng tìm đến bạn hôm nay sẽ là gì đây. Thêm vào đó bạn có thể sử dụng Thẻ lưu trữ cổ tự bất kì lúc nào tùy ý. Sau khi sử dụng thật tuyệt vì bạn không phải lo lắng đến chi phí lưu giữ Cổ tự khi thực hiện thay đổi cài đặt Cổ tự đã được sử dụng trong 24h đúng không?
+1ST_ANNIVERSARY_VESPA_DAY_5_DESC,"Thật tiếc, đây là ngày cuối cùng của phần quà đặc biệt rồi. Chúng tôi sẽ luôn bên bạn trong suốt cuộc hành trình tiếp theo. Chúng tôi giành tặng bạn thêm Coupon vũ khí chuyên dụng ngẫu nhiên cùng 15 Vé luyện lại trang bị. Bạn có thể sử dụng Vé luyện lại thay cho Ruby tại Lò rèn khi muốn thay đổi tùy chọn không vừa ý bằng 1 trong những tùy chọn trang bị khác. (Vé luyện lại chỉ có thể sử dụng tại 1 trong số những tùy chọn được áp dụng lên trang bị.)"
 1ST_ANNIVERSARY_GET_REWARD,Nhận phần thưởng
 1ST_ANNIVERSARY_SHOW_REWARD,Xem phần thưởng
-ITEM_USE.EQUIP_EXTEND_DESC_ALERT,Kho trang bị chỉ có thể mở rộng đến 1200 ô. (Số ô còn lại không thể hoàn tiền)
+ITEM_USE.EQUIP_EXTEND_DESC_ALERT,Chỉ có thể mở rộng Kho lên đến 1400 ô. (Không hoàn tiền đối với ô thừa lại)
 ITEM_USE.EQUIP_EXTEND_DESC1,Số ô trang bị có thể mở rộng thêm là {1} ô. Bạn sẽ sử dụng {2}?
 ITEM_USE.EQUIP_EXTEND_DESC2,"Trong trường hợp số ô mở rộng còn lại ít hơn số ô nạp vào, Kho hàng sẽ được mở rộng đến mức tối đa. Bạn sẽ sử dụng Thẻ mở rộng?"
 INVENTORY.EQUIP_ASK_EXTEND_MESSAGE_HAS_ITEM,"Trong trường hợp số ô mở rộng còn lại ít hơn số ô nạp vào, Kho hàng sẽ được mở rộng đến mức tối đa. Bạn sẽ sử dụng Thẻ mở rộng?"
@@ -3531,8 +3531,8 @@ EVENT_BUFF_GOLDPOWDER_BONUS_TITLE,Thưởng vàng
 EVENT_BUFF_GOLDPOWDER_BONUS_DESC,Tăng 20% số lượng Bụi vàng của Nữ hoàng vàng thu được trong các trận chiến.
 EVENT_BUFF_FRAGMENT_DOUBLE_TITLE,Thưởng Mảnh ghép trong Ngục tối trên cao!
 EVENT_BUFF_FRAGMENT_DOUBLE_DESC,Tăng số lượng Mảnh ghép kiếm được trong Ngục tối trên cao.
-EVENT_BUFF_EXPPOTION_DOUBLE_TITLE,Thưởng Bình kinh nghiệm khi chinh phạt!
-EVENT_BUFF_EXPPOTION_DOUBLE_DESC,Tăng số lượng Bình kinh nghiệm kiếm được trong Cuộc chinh phạt.
+EVENT_BUFF_EXPPOTION_DOUBLE_TITLE,Thưởng Bình XP khi chinh phạt!
+EVENT_BUFF_EXPPOTION_DOUBLE_DESC,Tăng số lượng Bình XP kiếm được trong Cuộc chinh phạt.
 EVENT_BUFF_SUMMON_RATEUP_TITLE,Nhân đôi xác suất triệu hồi đặc biệt (10 lần)
 EVENT_BUFF_UNIQUE_RATEUP_NEWHERO_DESC,"Khi triệu hồi (10 lần) vật phẩm đặc biệt anh hùng mới, tỉ lệ nhận vũ khí chuyên dụng và cổ vật sẽ tăng gấp đôi."
 EVENT_BUFF_UNIQUE_RATEUP_KNIGHT_DESC,Khi triệu hồi vật phẩm đặc biệt (10 lần) nghề Hiệp sĩ tăng gấp đôi xác suất nhận Vũ khí chuyên dụng và Cổ vật.
@@ -3552,7 +3552,7 @@ EVENT_BUFF_TREASURE_RATEUP_WIZARD_DESC,"Khi sử dụng Triệu hồi vật ph�
 EVENT_BUFF_TREASURE_RATEUP_PREIST_DESC,"Khi sử dụng Triệu hồi vật phẩm đặc biệt của hệ Linh mục x10, xác suất nhận được Bảo vật chuyên dụng và Cổ vật sẽ được nhân đôi."
 EVENT_BUFF_EVENT_THANKSGIVING_2018_TITLE,Lễ hội ăn mừng ngày Lễ Tạ ơn!
 EVENT_BUFF_EVENT_THANKSGIVING_2018_DESC,"Nếu vượt qua các ngục tối cần tiêu hao Thể lực, bạn có thể nhận được nguyên liệu cho Món ăn Lễ Tạ ơn!\nBạn có thể nhận được rất nhiều quà khi đổi nguyên liệu thông qua Talisha tại Lâu đài Orvel."
-TITLE_PLAYRECORD_001_NAME,Ấu vương
+TITLE_PLAYRECORD_001_NAME,Nhi vương
 TITLE_PLAYRECORD_002_NAME,Tiểu vương
 TITLE_PLAYRECORD_003_NAME,Niên vương
 TITLE_PLAYRECORD_004_NAME,Lão vương
@@ -4277,12 +4277,12 @@ NEWBIE_RECOMMEND_SURPORTER_PACKAGE_POPUP_TITLE,Gói tướng phụ trợ đặc 
 NEWBIE_RECOMMEND_SURPORTER_PACKAGE_POPUP_DESC,"Chọn 1 tướng phụ trợ điêu luyện về đội bạn.\nMột gói đặc biệt chứa 1 Anh hùng, cùng Vũ khí chuyên dụng và Bảo vật chuyên dụng tương ứng."
 NEWBIE_RECOMMEND_ARTIFACT_POPUP_TITLE,Gói tuyển chọn cổ vật khuyến nghị
 NEWBIE_RECOMMEND_ARTIFACT_POPUP_DESC,Các Cổ vật đặc biệt mà Dosarta tự tay tuyển lựa đang đợi bạn.
-NEWBIE_PROMOTION_POPUP_DESC_2019,[Lưu ý] - Vui lòng xem thông tin ở bên phải trong khi mua để biết phạm vi lựa chọn Anh hùng.\n- Thẻ vũ khí chuyên dụng ngẫu nhiên và Thẻ chọn vũ khí chuyên dụng không bao gồm Anh hùng NPC.
+NEWBIE_PROMOTION_POPUP_DESC_2019,[Lưu ý] - Vui lòng xem thông tin ở bên phải trong khi mua để biết phạm vi lựa chọn Anh hùng.\n- Coupon vũ khí chuyên dụng ngẫu nhiên và Thẻ chọn vũ khí chuyên dụng không bao gồm Anh hùng NPC.
 2019_MAY_HERO_SELECT_ITEM_DESC,"※ Thẻ chọn anh hùng 3 sao: Bạn có thể chọn đến Shea, Crow và Aselica. (Các Anh hùng ra mắt từ tháng 4/2018 trở về trước)\n※ Phạm vi Vũ khí chuyên dụng và Bảo vật chuyên dụng nhận được từ Thẻ ngẫu nhiên/tự chọn dựa theo thiết lập trong trò chơi."
 2019_PACKAGE_PAY_MAY_ATTENDANCE_DESC_DETAIL,"Áp dụng ngay khi mua, sẽ nhận được vật phẩm khi điểm danh trong 14 ngày liên tiếp. (Thẻ chọn anh hùng 3 sao có thể chọn đến 'Aselica, Crow, Shea' (ra mắt vào tháng 4/2018), không bao gồm anh hùng NPC. Coupon vũ khí chuyên dụng ngẫu nhiên không bao gồm vũ khí chuyên dụng của anh hùng NPC.)"
 2019_NEWBIE_PROMOTION_POPUP2_TITLE,<Gói giới hạn thời gian> để Anh hùng phát triển thần tốc!
 PURCHASE_MARKETING.PURCHASE_MARKETING_INFO,Thông tin sản phẩm
-PURCHASE_MARKETING.CLOSE_PURCHASE_MARKETING_POPUP_MESSAGE,"Sản phẩm này chỉ được bán trong 7 ngày.\nTrong trường hợp đã đóng Cửa sổ, có thể xem lại\nở Cửa hàng đặc biệt."
+PURCHASE_MARKETING.CLOSE_PURCHASE_MARKETING_POPUP_MESSAGE,"Trong trường hợp đã đóng Cửa sổ, có thể xem lại\nở Cửa hàng đặc biệt."
 QUEST_AUTO_POPUP_OPTION,Hướng dẫn nhiệm vụ tự động
 QUEST_POPUP_CHECK_MESSAGE,Không mở lại trong hôm nay
 PROBABILTY_ITEM_RATE_LINK,Bạn có thể xác nhận xác suất cụ thể của sản phẩm theo loại xác suất tại thông báo trên trang Cafe chính thức ở link bên dưới.\nhttps://cafe.naver.com/kingsraid/578572
@@ -5218,17 +5218,17 @@ PICKUP_AWAKE_TREASURE_UNIQUE_6_4_3,Bảo vật chuyên dụng của Anh hùng 6 
 HERO_EQUIPOPTION.RECOMMEND_LABEL,TIP
 HERO_EQUIPOPTION.RECOMMEND_TITLE,Tùy chọn trang bị đề xuất
 HERO_EQUIPOPTION.RECOMMEND_INFO,Thứ hạng {0}: {1}
-HERO_EQUIPOPTION.RECOMMEND_GUIDE_01,Bạn đang băn khoăn không biết nên thêm tùy chọn trang bị nào đúng không?\nĐã thêm tính năng hướng dẫn đề xuất tùy chọn trang bị tùy theo từng tình huống.
-HERO_EQUIPOPTION.RECOMMEND_GUIDE_02,Có thể tham khảo tùy chọn trang bị thích hợp với nội dung của mỗi anh hùng.
+HERO_EQUIPOPTION.RECOMMEND_GUIDE_01,Bạn đang băn khoăn không biết nên thêm tùy chọn trang bị nào đúng không?\nĐã thêm tính năng hướng dẫn để
+HERO_EQUIPOPTION.RECOMMEND_GUIDE_02,Có thể tham khảo tùy chọn trang bị thích hợp với nội dung của mỗi anh hùng.
 HERO_TRANSCEND.RECOMMEND_TRANSCENDED_SKILL,Đặc tính đề xuất
-PVE_COMBAT_TEXT,Trận thường
-PVE_BOSS_TEXT,Trận Boss
+PVE_COMBAT_TEXT,Trận thường
+PVE_BOSS_TEXT,Trận Boss
 HERO_TRANSCEND.RECOMMEND_LABEL,Đặc tính đề xuất
-HERO_TRANSCEND.RESET_RECOMMEND_ALL_TRANSCENDED_SKILL_CONFIRM,Có thể áp dụng đặc tính đề xuất\nsau khi hủy tất cả đặc tính siêu việt đang áp dụng.
-HERO_TRANSCEND.RECOMMEND_ALL_TRANSCENDED_SKILL_CONFIRM,Bạn có muốn áp dụng tất cả đặc tính đề xuất {1} không?\n(Tiêu chuẩn sẽ cấp 80 điểm đặc tính.)
-HERO_TRANSCEND.RECOMMEND_GUIDE_01,Thật khó để chọn kỹ năng đặc tính đúng không?\nHiện tại đã thêm tính năng hướng dẫn đề xuất về kỹ năng đặc tính tùy theo từng tình huống.
-HERO_TRANSCEND.RECOMMEND_GUIDE_02,Có thể chọn và tham khảo kỹ năng đặc tính thích hợp với nội dung của mỗi anh hùng.
-HERO_TRANSCEND.RECOMMEND_GUIDE_03,Có cả tính năng áp dụng ngay kỹ năng đặc tính đề xuất.
+HERO_TRANSCEND.RESET_RECOMMEND_ALL_TRANSCENDED_SKILL_CONFIRM,Có thể áp dụng đặc tính đề xuất\n sau khi hủy tất cả đặc tính siêu việt đang áp dụng.
+HERO_TRANSCEND.RECOMMEND_ALL_TRANSCENDED_SKILL_CONFIRM,Bạn có muốn áp dụng tất cả đặc tính đề xuất {1} không?\n(Tiêu chuẩn sẽ cấp 80 điểm đặc tính.)
+HERO_TRANSCEND.RECOMMEND_GUIDE_01,Thật khó để chọn kỹ năng đặc tính đúng không?\nHiện tại đã thêm tính năng hướng dẫn đề xuất về kỹ năng đặc tính tùy theo từng tình huống.
+HERO_TRANSCEND.RECOMMEND_GUIDE_02,Có thể chọn và tham khảo kỹ năng đặc tính thích hợp với nội dung của mỗi anh hùng.
+HERO_TRANSCEND.RECOMMEND_GUIDE_03,Có cả tính năng áp dụng ngay kỹ năng đặc tính đề xuất.
 EVENT_NAME_COOKINGLORD,Juno tu luyện nấu ăn
 EVENT_SHOP_COOKINGLORD,Thực đơn theo gợi ý của Juno
 EVENT_INFO_COOKINGLORD,Thông tin tu luyện 
@@ -5240,27 +5240,27 @@ TOOLTIP_INFO_NAME_EVENT_COOKINGLORD_GELATIN,Giêlatin của chất nhờn khổ
 TOOLTIP_INFO_TEXT_EVENT_COOKINGLORD_GELATIN,Hàng hoá nhận được khi hoàn thành ngục tối đặc biệt tu luyện nấu ăn của Juno. Có thể dùng để mua sản phẩm tại cửa hàng có thực đơn theo gợi ý của Juno.
 EVENT_COOKINGLORD_TICKET,Thớt gỗ
 EVENT_COOKINGLORD_STORY_TITLE,Ngục tối câu chuyện
-EVENT_COOKINGLORD_STORY_DESC,Đây là ngục tối câu chuyện sự kiện.\nHãy đi tu luyện nấu ăn cùng Juno!
+EVENT_COOKINGLORD_STORY_DESC,Đây là ngục tối câu chuyện sự kiện.\nHãy đi tu luyện nấu ăn cùng Juno!
 EVENT_COOKINGLORD_SPECIAL_TITLE,Ngục tối đặc biệt
-EVENT_COOKINGLORD_SPECIAL_DESC,Ngục tối đặc biệt sẽ mở khi hoàn thành tất cả ngục tối câu chuyện.\nHãy cẩn thận với những chất nhờn mạnh dần khi kích thước của chúng lớn dần!
-EVENT_DUNGEON_COOKINGLORD_NAME1,Văn hóa ẩm thực Elidora
-EVENT_DUNGEON_COOKINGLORD_NAME2,Văn hóa ẩm thực Ogria
-EVENT_DUNGEON_COOKINGLORD_NAME3,Văn hóa ẩm thực Arrovina
-EVENT_DUNGEON_COOKINGLORD_NAME4,Chất nhờn khổng lồ 10 năm tuổi
-EVENT_DUNGEON_COOKINGLORD_NAME5,Chất nhờn khổng lồ 20 năm tuổi
-EVENT_DUNGEON_COOKINGLORD_NAME6,Chất nhờn khổng lồ 50 năm tuổi
-EVENT_DUNGEON_COOKINGLORD_TITLE_SPECIAL1,10 năm tuổi
-EVENT_DUNGEON_COOKINGLORD_TITLE_SPECIAL2,20 năm tuổi
-EVENT_DUNGEON_COOKINGLORD_TITLE_SPECIAL3,50 năm tuổi
+EVENT_COOKINGLORD_SPECIAL_DESC,Ngục tối đặc biệt sẽ mở khi hoàn thành tất cả ngục tối câu chuyện.\nHãy cẩn thận với những chất nhờn mạnh dần khi kích thước của chúng lớn dần!
+EVENT_DUNGEON_COOKINGLORD_NAME1,Văn hóa ẩm thực Elidora
+EVENT_DUNGEON_COOKINGLORD_NAME2,Văn hóa ẩm thực Ogria
+EVENT_DUNGEON_COOKINGLORD_NAME3,Văn hóa ẩm thực Arrovina
+EVENT_DUNGEON_COOKINGLORD_NAME4,Chất nhờn khổng lồ 10 năm tuổi
+EVENT_DUNGEON_COOKINGLORD_NAME5,Chất nhờn khổng lồ 20 năm tuổi
+EVENT_DUNGEON_COOKINGLORD_NAME6,Chất nhờn khổng lồ 50 năm tuổi
+EVENT_DUNGEON_COOKINGLORD_TITLE_SPECIAL1,10 năm tuổi
+EVENT_DUNGEON_COOKINGLORD_TITLE_SPECIAL2,20 năm tuổi
+EVENT_DUNGEON_COOKINGLORD_TITLE_SPECIAL3,50 năm tuổi
 EVENT_DUNGEON_COOKINGLORD_DESC_SPECIAL,Chất nhờn khổng lồ
-SHOP_NAME_2019_COOKINGLORD_SHOP,Thực đơn theo gợi ý của Juno
-HERO_TRANSCEND.RECOMMEND_FAIL_01,Không có đặc tính đề xuất nào có thể áp dụng.
+SHOP_NAME_2019_COOKINGLORD_SHOP,Thực đơn theo gợi ý của Juno
+HERO_TRANSCEND.RECOMMEND_FAIL_01,Không có đặc tính đề xuất nào có thể áp dụng.
 PVP_TEXT_01,Đấu trường
 HERO_TRANSCEND.RESET_ALL_TRANSCENDED_SKILL_01,Thiết lập lại đặc tính
 COMMON_CONFIRM_01,Xác nhận
 EVENT_MISSION_NOTICE_YET,Không phải là thời gian tiến hành sự kiện.
-MATCH_PICKBAN_SEASON_INFO_REAL_END,Mùa giải đã kết thúc nên không thể vào được.
-EVENT_MISSION_NOTICE_NOTPERIOD,Không trong thời gian tiến hành.
+MATCH_PICKBAN_SEASON_INFO_REAL_END,Mùa giải đã kết thúc nên không thể vào được.
+EVENT_MISSION_NOTICE_NOTPERIOD,Không trong thời gian tiến hành.
 CONTENT_ECLIPSE,Eclipse
 CONTENT_ECLIPSE_ENABLE_GET_REWARD_BASE,Phần thưởng cơ bản
 CONTENTS_ECLIPSE_WAVE_INFO_START_WAVE,Đợt mở đầu
@@ -5600,14 +5600,14 @@ SHOP_NAME_2019_DESTINYLIGHT_SHOP,Cửa hàng sự kiện đặc biệt
 DESTINYLIGHT_EVENT_SPECIAL_DUNGEON_DESC1_1,Kẻ địch đang có hiệu ứng hồi máu rất mạnh! Hãy tận dụng hiệu ứng giảm tỷ lệ hồi máu và phải chặn không cho địch hồi máu! Cứ mỗi khoảng thời gian nhất định Demia sẽ kéo địch đang tách ra xa về lại nên hãy chú ý cẩn thận!
 DESTINYLIGHT_EVENT_SPECIAL_DUNGEON_DESC2_1,Mỗi màu sắc của ánh sáng mà Chrisha đang sở hữu có các hiệu ứng khác nhau! Phải đối phó nhanh chóng phù hợp với kỹ năng mà Chrisha sử dụng!\n[Ánh sáng đỏ] – Lực tấn công của Chrisha tăng cực mạnh.\n[Ánh sáng xanh da trời] – Lực phòng thủ của Chrisha tăng cực mạnh.\n[Ánh sáng xanh lá] – Chrisha liên tục loại bỏ hiệu ứng xấu.
 DESTINYLIGHT_EVENT_SPECIAL_DUNGEON_DESC3_1,"Dread Bringer đang sở hữu màng bảo vệ rất mạnh, nên sẽ loại bỏ sát thương với số lần nhất định! Ngoài ra, Thể cầu u tối đầy sức mạnh sẽ hủy diệt tất cả kẻ địch trong một lần nên hãy tận dụng trạng thái chế ngự rồi vô hiệu hóa địch!"
-EQUIP_INVENTORY_EXPAND_COST1,Dưới 800 ô thì Ruby sẽ tiêu hao là 250.
-EQUIP_INVENTORY_EXPAND_COST2,Từ 800 ô trở lên thì Ruby sẽ tiêu hao tăng thành 500.
+EQUIP_INVENTORY_EXPAND_COST1,Dưới 1000 ô thì Ruby sẽ tiêu hao là 250.
+EQUIP_INVENTORY_EXPAND_COST2,Từ 1000 ô trở lên thì Ruby sẽ tiêu hao tăng thành 500.
 EQUIP_INVENTORY_EXPAND_LINK,[Thẻ mở rộng] Đường tắt
 CLEARMISSION_PASSPOPUP_TITLE,Bộ sưu tập Gói đột phá
-CLEARMISSION_PASSPOPUP_LEVELUP_I,Gói đột phá Lên cấp I
-CLEARMISSION_PASSPOPUP_LEVELUP_II,Gói đột phá Lên cấp II
-CLEARMISSION_PASSPOPUP_STAGECLEAR_I,Gói đột phá Chương I
-CLEARMISSION_PASSPOPUP_STAGECLEAR_II,Gói đột phá Chương II
+CLEARMISSION_PASSPOPUP_LEVELUP_I,Gói đột phá\nLên cấp I
+CLEARMISSION_PASSPOPUP_LEVELUP_II,Gói đột phá\nLên cấp II
+CLEARMISSION_PASSPOPUP_STAGECLEAR_I,Gói đột phá\nChương I
+CLEARMISSION_PASSPOPUP_STAGECLEAR_II,Gói đột phá\nChương II
 CLEARMISSION_PASSPOPUP_BONUS,Bonus
 CLEARMISSION_PASSPOPUP_INFO_1,"Khi mua, sẽ mở nhiệm vụ và\ncấp thêm Ruby!!"
 CLEARMISSION_PASSPOPUP_CHARGE_TITLE,NHIỆM VỤ
@@ -5692,6 +5692,7 @@ DUNGEON_19CHRISTMAS_BOSS_SUB_NAME_11,Túi quà bất ngờ
 2019CHRISTMAS_ACCESSORY_BODY_01,Túi đựng quà
 PACKAGE_FIRST_BUY_BENEFIT,Bonus mua lần đầu
 STAMINA_TYPE.EVENT_DUNGEON_GOLD_KEY,Chìa khóa vàng
+CONTENTS_ENTER_IMPOSSIBLE_DAILYENTER_MAX,Không thể vào thêm nếu vượt quá giới hạn lượt vào mỗi ngày.
 SHOP_NAME_2019_CHRISTMAS_SHOP,Cửa hàng sự kiện
 19CHRISTMAS_BOSS_BUFF_TITLE,Ngục tối quà bất ngờ
 19CHRISTMAS_BOSS_BUFF_TITLE_ENTER,Ngục tối\nquà bất ngờ
@@ -5700,3 +5701,24 @@ RESULT_TYPE.INVALID_CLEAR_MISSION_INDEX,Mã số nhiệm vụ đột phá không
 RESULT_TYPE.INVALID_CLEAR_MISSION_STEP,Bậc phần thưởng nhiệm vụ đột phá không đúng.
 RESULT_TYPE.CLEAR_MISSION_NOT_CLEARED,Nhiệm vụ đột phá chưa hoàn thành.
 RESULT_TYPE.CHECK_CONDITION_NOT_PASSED,Chưa thỏa mãn điều kiện nhận thưởng.
+CLEARMISSION_PASSPOPUP_HERO_I,Gói đột phá\nAnh hùng I
+CLEARMISSION_PASSPOPUP_HERO_II,Gói đột phá\nAnh hùng II
+CLEARMISSION_PASSPOPUP_HERO_INFO,"※ Nhận được phần thưởng theo mức hoàn thành nhiệm vụ.\n※ Sau khi hoàn thành nhiệm vụ, phần thưởng sẽ được cấp khi nhấn vào nút Nhận thưởng."
+CLEARMISSION_PASSPOPUP_HERO_COUNT,[193543]Nhận[-] [db6a3e]{1}[-] [193543]anh hùng[-]
+CLEARMISSION_PASSPOPUP_HERO_LEVEL_COUNT,[193543]Tạo[-] [db6a3e]{2}[-] [193543]anh hùng cấp {1}[-]
+CLEARMISSION_PASSPOPUP_HERO_TRANSCENDED_COUNT,[193543]Tạo[-] [db6a3e]{2}[-] [193543]anh hùng T{1}[-]
+CLEARMISSION_PASSPOPUP_HERO_UNIQUE_WEAPON_COUNT,[193543]Nhận[-] [db6a3e]{1}[-] [193543]vũ khí chuyên dụng của anh hùng[-]
+CLEARMISSION_PASSPOPUP_HERO_UNIQUE_TREASURE_COUNT,[193543]Nhận[-] [db6a3e]{1}[-] [193543]bảo vật chuyên dụng của anh hùng[-]
+CLEARMISSION_PASSPOPUP_HERO_UNIQUE_WEAPON_AWAKE_COUNT,[193543]Nhận vũ khí chuyên dụng[-] [db6a3e]{2} sao[-] [193543]của {1} anh hùng[-]
+CLEARMISSION_PASSPOPUP_HERO_UNIQUE_TREASURE_AWAKE_COUNT,[193543]Nhận bảo vật chuyên dụng[-] [db6a3e]{2} sao[-] [193543]của {1} anh hùng[-]
+CLEARMISSION_PASSPOPUP_HERO_SOULEWEAPON_COUNT,[193543]Tiến hành[-] [db6a3e]{1} lần[-] [193543]Giám định linh hồn[-]
+CLEARMISSION_PASSPOPUP_HERO_ALLINONE_COUNT,[193543]Tiến hành[-] [db6a3e]{1} lần[-] [193543]Triệu hồi đặc biệt tất cả trong một[-]
+CLEARMISSION_PASSPOPUP_HERO_SKILL_EXTEND_COUNT,[193543]Học[-] [db6a3e]{1}[-] [193543]Thuộc tính kỹ năng IV của anh hùng[-]
+CLEARMISSION_PASSPOPUP_HERO_CRAFTITEM_16,[193543]Điều chế[-] [db6a3e]{1}[-]\n[193543]Đá vô cực[-]
+CLEARMISSION_PASSPOPUP_HERO_STAR_COUNT,[193543]Tạo[-] [db6a3e]{2}[-] [193543]anh hùng {1} sao[-]
+2020_NEW_YEAR_ATTENDANCE_ITEM_DESC,※ Thẻ chọn anh hùng 5 sao: Có thể chọn đến Rehartna (Không thể chọn anh hùng NPC)
+PAYSHOP_PREPURCHASE_SOULWEAPON_ETHER_4,Tặng thêm khi mua 5 lần:\n20 Ether rực rỡ
+LEGEND_EQUIP_PAYBACK_REWARD_MAIL_TITLE,Tặng thưởng tăng kết cấu sản phẩm
+LEGEND_EQUIP_PAYBACK_REWARD_MAIL_CONTENT,"Với việc tăng kết cấu ‘Gói giáp huyền thoại’, sẽ tặng sản phẩm tăng lên theo số lần mua sản phẩm tương ứng."
+CLEARMISSION_PASSPOPUP_PROGRESS,[db6a3e] ({1}/{2})[-]
+PAYSHOP_RECOMMENDPOPUP_TITLE,Sản phẩm đề xuất

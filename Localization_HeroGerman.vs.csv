@@ -253,6 +253,9 @@ CREATURE_DESC_72,"Ein von Wahnsinn des Krieges fasziniertes Mädchen.\nSie ist e
 CREATURE_NAME_73,Chase
 CREATURE_TITLE_73,Typ. 0 Chase
 CREATURE_DESC_73,"Ein Testsubjekt, das sich nicht an seine Vergangenheit erinnern kann. Er ist ein Berserker, der sich mit seiner unbändigen Macht in die Schlacht stürzt.\nEine mächtige Waffe, die alles vernichtet, was sich ihm in den Weg stellt."
+CREATURE_NAME_74,Kibera
+CREATURE_TITLE_74,Gierige Klinge Kibera
+CREATURE_DESC_74,"Ein außergewöhnlicher Schwertmagier, der mit vielen Schwertarten umgehen kann.\nSobald er ein Dämonenschwert oder ein starkes Schwert sieht, ist er besessen davon und möchte es unbedingt in seinem Besitz bringen.\nMit dem Drei-Schwerter-Stil zerschneidet er seine Gegner."
 CREATURE_NAME_75,Dakaris
 CREATURE_TITLE_75,Weiser Mann vom See Dakaris
 CREATURE_DESC_75,"Weiser der Eidechsenmenschen, die Ureinwohner des in der Nähe des vom Reich besetzten Eretana-Sees.\nEr schloss sich vor 8 Jahren der Widerstandsbewegung (Résistance) an, um seine Heimatstadt zurückzuerobern, die gewaltsam unterdrückt wird.\nEr wirft seine Feinde mit traditioneller Magie seines Stammes ins Chaos."
@@ -362,6 +365,7 @@ GETHERO_DESC_70,"Ein Mädchen mit einem ausgeprägten Gerechtigkeitssinn. Sie m�
 GETHERO_DESC_71,"Besonderer Dank an unserem Gewinner des Globalen Konzept Design Wettbewerbs [87CEFA]Mochi00 (JPN)[-]\nEine Tierhybrid-Frau, die über übernatürliche Kräfte verfügt.\nAls kleines Mädchen wurde sie von Dämonen entführt und ihr Körper durch Experimente in Kristallen verwandelt.\nDas Mädchen, das entkommen konnte, bekämpft nun ihre Feinde mithilfe der Rotpurpuren Kristallen."
 GETHERO_DESC_72,"Ein von Wahnsinn des Krieges fasziniertes Mädchen. Sie ist ein ehemaliges Jagdhundeinheit-Mitglied, das zurzeit als Offizier der Kaiserlichen Maschinendivision arbeitet. Mit ihrer brennenden Flamme zerstört sie alle, die sich in ihren Weg stellen."
 GETHERO_DESC_73,"Ein Testsubjekt, das sich nicht an seine Vergangenheit erinnern kann. Er ist ein Berserker, der sich mit seiner unbändigen Macht in die Schlacht stürzt. Eine mächtige Waffe, die alles vernichtet, was sich ihm in den Weg stellt."
+GETHERO_DESC_74,"Ein außergewöhnlicher Schwertmagier, der mit vielen Schwertarten umgehen kann. Sobald er ein Dämonenschwert oder ein starkes Schwert sieht, ist er besessen davon und möchte es unbedingt in seinem besitz bringen. Mit dem Drei-Schwerter-Stil zerschneidet er seine Gegner."
 GETHERO_DESC_75,"Weiser der Eidechsenmenschen, die Ureinwohner des in der Nähe des vom Reich besetzten Eretana-Sees. Er schloss sich vor 8 Jahren der Widerstandsbewegung (Résistance) an, um seine Heimatstadt zurückzuerobern, die gewaltsam unterdrückt wird. Er wirft seine Feinde mit traditioneller Magie seines Stammes ins Chaos."
 GETHERO_DESC_78,"Ritter des Schweigens, Dunkler Schwertmeister und Bergeversetzende Klinge. Diese Namen verdiente sich dieser legendäre Söldner im Kaiserreich. Sein gewaltiges Schwert kann jede Macht absorbieren, um damit verheerende Verwüstungen anzurichten."
 GETHERO_DESC_87,"Eine Ritterin, die im Kaiserreich als Bürgerin zur Welt gekommen ist. Da sie ihre Position als stellvertretender Hauptmann der Wächterritter der Hauptstadt nur durch ihre Fähigkeiten erlangt hat, wird sie von zahllosen Bürgern verehrt. Sie hat geschworen, als schützendes Schild für die Bürger des Kaiserreichs zu dienen. Niemand fühlt sich dem Kaiserreich so verpflichtet wie sie."
@@ -819,6 +823,12 @@ INN_PANCIRONNE_CONVERSATION01,*Gähn* Das ist ja langweilig. Hast du nichts Bess
 INN_PANCIRONNE_CONVERSATION02,"Wenn du ein Monat später immer noch am Leben bist, werde ich mir wenigstens deinen Namen merken."
 INN_PANCIRONNE_CONVERSATION03,Hmmm? Was hast du gesagt?
 INN_PANCIRONNE_GIFT01,"Ein Geschenk? Ich werde dich verbrennen, wenn es etwas Komisches ist."
+INN_KIBERA_INNIDLE01,Das ist aber eine nette Schenke!
+INN_KIBERA_GREETING01,"Da sehen wir uns wieder! Vergiss nicht mir Bescheid zu geben, falls du jemandem mit einem Zauberschwert siehst!"
+INN_KIBERA_CONVERSATION01,"Langsam brauche ich neues Haarfärbemittel. Rote Haare stehen mir gut, oder?"
+INN_KIBERA_CONVERSATION02,In der Jagdhundeinheit gibt es unseren Kommandant und drei Truppführer.
+INN_KIBERA_CONVERSATION03,Der Berater ist ganz schön nervig.
+INN_KIBERA_GIFT01,"Das ist für mich?\nHmm ... Glaube nicht, dass es mir gefallen wird, nur weil es ein Schwert ist."
 INN_KASEL_GREETING02,Ich treffe dich hier recht häufig. Wirst du nun in die Hauptstadt gehen?
 INN_KASEL_CONVERSATION04,"Wird all das zu Ende gehen, wenn ich die Macht des heiligen Schwertes finde?"
 INN_KASEL_CONVERSATION05,Ich möchte nicht von jemandem beeinflusst werden. Ich gehe meinen eigenen Weg.
@@ -1419,6 +1429,14 @@ INN_REHARTNA_GREETING02,Da seid Ihr ja wieder! Ich habe auf Euch gewartet! Setzt
 INN_REHARTNA_CONVERSATION04,"Ehrlich gesagt, habe ich jedes Mal Angst, wenn ich einen Brief überbringen muss. Wenn ich erwischt werde, dann ..."
 INN_REHARTNA_CONVERSATION05,"Ich mache mir Sorgen, da ich meinen Gefährten nicht hilfreich bin ... Dann muss ich mich wohl mehr anstrengen, nicht wahr?"
 INN_REHARTNA_GIFT02,"Wie immer, vielen Dank! Was mögt Ihr denn? Ich möchte mich revanchieren."
+INN_KIBERA_CONNECT_GREETING_MAX,"Ich will nicht wie sie von dem Ding verschlungen werden ...\nAh, du hast ... zugehört?"
+INN_KIBERA_CONNECT_CONVERSATION01,"Wenn du ein gutes Schwert findest, handle zuerst. Wenn sie es doch nicht verkaufen wollen, dann ... Joa .. Ähm ... Haha"
+INN_KIBERA_CONNECT_CONVERSATION02,Das Schicksal unterscheidet nicht zwischen Glück und Unglück. Es passiert einfach.\nDaher ist es so nervig.
+INN_KIBERA_CONNECT_CONVERSATION03,"Der Ort, an dem ich zurückkehren kann ... ist jetzt das Zuhause eines anderen geworden."
+INN_KIBERA_GREETING02,Da bist du ja! Was willst du essen? Ich gebe heute aus.
+INN_KIBERA_CONVERSATION04,Unsere Dummköpfe? Sie sind ganz schön nett.\nEs macht Spaß ihnen zuzusehen.
+INN_KIBERA_CONVERSATION05,"Der alte Mann ist sehr angsteinflößend. Es ist besser sich zu entschuldigen,\nwenn man einen Fehler macht.\nIch? Nun ... kommt drauf an."
+INN_KIBERA_GIFT02,Du meine Güte. Sowas wertvolles habe ich nicht verdient ...
 INN_MAY_INNIDLE01,Hmm ... Junos Gerichte sind die Besten ...! Das wird sich verkaufen wie warme Semmeln!
 INN_MAY_CONNECT_GREETING_MAX,"Ich habe jeden Tag hart daran gearbeitet, das reichste Mädchen in Orvel zu werden!"
 INN_MAY_CONNECT_CONVERSATION01,"Ich denke, heute fahre ich ins Zentrum von Elidora, um ein paar Sachen zu besorgen!"
@@ -1668,6 +1686,7 @@ CREATURE_NAME_572,Dunkelheit von Pansirone
 CREATURE_DESC_572,"Ein mächtiges Wesen aus purer, kondensierter Dunkelheit."
 CREATURE_NAME_573,Dunkelheit von Chase
 CREATURE_DESC_573,"Ein mächtiges Wesen, bestehend aus purer kondensierter Dunkelheit."
+CREATURE_NAME_574,Dunkelheit von Kibera
 CREATURE_NAME_575,Dunkelheit von Dakaris
 CREATURE_DESC_575,"Ein mächtiges Wesen, bestehend aus purer kondensierter Dunkelheit."
 CREATURE_NAME_578,Dunkelheit von Bernheim
@@ -1838,6 +1857,7 @@ CREATURE_NAME_672,Licht von Pansirone
 CREATURE_DESC_672,"Ein mächtiges Wesen aus purem, kondensierten Licht."
 CREATURE_NAME_673,Licht von Chase
 CREATURE_DESC_673,"Ein mächtiges Wesen aus purem, kondensierten Licht."
+CREATURE_NAME_674,Licht von Kibera
 CREATURE_NAME_675,Licht von Dakaris
 CREATURE_DESC_675,"Ein mächtiges Wesen aus purem, kondensierten Licht."
 CREATURE_NAME_678,Licht von Bernheim

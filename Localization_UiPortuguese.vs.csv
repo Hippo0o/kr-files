@@ -843,7 +843,7 @@ PORTAL_TEMPORARYBASE_CHAPTER3,Campo Montanhas Drago
 PORTAL_TEMPORARYBASE_CHAPTER4,Campo Floresta Krad
 PURIFY_HERO_SELECT,Selecionar herói para entrar na Sala da Purificação
 PURIFY_PROGRESS,Purificando escuridão selada... {1}% concluída.
-PURIFY_HERO,Purificado:
+PURIFY_HERO,Purificar
 PRODUCT_BUY_COMPLETED_MAIL_CONFIRM,Compra realizada. Verifique sua caixa de correio.
 QUEST_SUPPRESSION_HAPPENED,Missão de Triunfo Disponível!
 QUEST_LIST,Lista de Missões
@@ -3250,7 +3250,7 @@ NEWBIE_PROMOTION_POPUP_DESC,"[Notificações] - Heróis Selecionáveis: Selecion
 1ST_ANNIVERSARY_VESPA_DAY_5_DESC,"Lamento informar que este é o último dia de celebração. Mas nós estaremos sempre apoiando você durante sua jornada. Nós estamos concedendo um bilhete de arma única aleatória com mais 15 bilhetes de recriação. Se a opção equipamento atual não agradar a você, siga para a forja e use o bilhete de recriação em vez de rubis para substituir uma opção. (Você só pode recriar uma única opção da lista de opções.)"
 1ST_ANNIVERSARY_GET_REWARD,Resgatar Recompensa
 1ST_ANNIVERSARY_SHOW_REWARD,Ver Recompensa
-ITEM_USE.EQUIP_EXTEND_DESC_ALERT,O Inventário só pode ser expandido até 1200 espaços (Espaços de bilhetes não usados não podem ser devolvidos)
+ITEM_USE.EQUIP_EXTEND_DESC_ALERT,O Inventário só pode ser expandido até 1400 espaços (Espaços de bilhetes não usados não podem ser devolvidos)
 ITEM_USE.EQUIP_EXTEND_DESC1,Você pode expandir mais {1} espaços no inventário.\nUsar {2}?
 ITEM_USE.EQUIP_EXTEND_DESC2,"Se o total de espaços expansíveis for menor que a capacidade do Bilhete de Expansão, só pode ser expandido ao espaço máximo. Deseja usar o Bilhete de Expansão?"
 INVENTORY.EQUIP_ASK_EXTEND_MESSAGE_HAS_ITEM,"Se o total de espaços expansíveis for menor que a capacidade do Bilhete de Expansão, só pode ser expandido ao espaço máximo. Deseja usar o Bilhete de Expansão?"
@@ -4282,7 +4282,7 @@ NEWBIE_PROMOTION_POPUP_DESC_2019,[Notificação] - Consulte os detalhes à direi
 2019_PACKAGE_PAY_MAY_ATTENDANCE_DESC_DETAIL,"Aplicado imediatamente após a compra. Você recebe 1 item por dia, a cada login, durante 14 dias. (Heróis selecionáveis no ‘Bilhete de Herói de 3★’: até Aselica, Crow e Shea (lançados em abril de 2018). Não inclui heróis NPC. No Bilhete de Arma Única Aleatória, Armas Únicas de Heróis NPC não estão incluídas)."
 2019_NEWBIE_PROMOTION_POPUP2_TITLE,<Pacote de Tempo Limitado> para o rápido crescimento de seu Herói!
 PURCHASE_MARKETING.PURCHASE_MARKETING_INFO,Informação do Produto
-PURCHASE_MARKETING.CLOSE_PURCHASE_MARKETING_POPUP_MESSAGE,Este produto ficará disponível por apenas 7 dias.\nVocê pode encontrá-lo na Loja Especial\ncaso feche este pop-up.
+PURCHASE_MARKETING.CLOSE_PURCHASE_MARKETING_POPUP_MESSAGE,Você pode encontrar este produto na Loja Especial\ncaso feche este pop-up.
 QUEST_AUTO_POPUP_OPTION,Guia de Missão Automática
 QUEST_POPUP_CHECK_MESSAGE,Não abrir hoje
 PROBABILTY_ITEM_RATE_LINK,É possível verificar os detalhes sobre a probabilidade dos produtos aleatórios através da nota no site da comunidade oficial:\nhttps://cafe.naver.com/kingsraid/578572
@@ -5600,8 +5600,8 @@ SHOP_NAME_2019_DESTINYLIGHT_SHOP,Loja Especial do Evento
 DESTINYLIGHT_EVENT_SPECIAL_DUNGEON_DESC1_1,Os inimigos possuem grande capacidade para se recuperar! Impeça-os usando habilidades que reduzem a recuperação! Tome cuidado pois Demia puxa os adversários que estão longe a cada intervalo de tempo.
 DESTINYLIGHT_EVENT_SPECIAL_DUNGEON_DESC2_1,Cada uma das cores das luzes de Chrisha possuem efeitos diferentes! Reaja rapidamente de acordo com a habilidade que ela usar!\n[Luz Vermelha] – O ataque de Chrisha aumenta consideravelmente.\n[Luz Azul] – A defesa de Chrisha aumenta consideravelmente.\n[Luz Verde] – Chrisha remove efeitos negativos constantemente.
 DESTINYLIGHT_EVENT_SPECIAL_DUNGEON_DESC3_1,"O Emissário Medonho possui uma forte barreira de proteção, neutralizando determinada quantidade de ataques! Adicionalmente, dizem que a Esfera Sombria causa destruição instantânea. Portanto, neutralize-o usando efeitos de status!"
-EQUIP_INVENTORY_EXPAND_COST1,"Para expandir até 800 espaços, o custo é de 250 Rubis."
-EQUIP_INVENTORY_EXPAND_COST2,"Para expandir além de 800 espaços, o custo é de 500 Rubis."
+EQUIP_INVENTORY_EXPAND_COST1,"Para expandir até 1.000 espaços, o custo é de 250 Rubis."
+EQUIP_INVENTORY_EXPAND_COST2,"Para expandir além de 1.000 espaços, o custo é de 500 Rubis."
 EQUIP_INVENTORY_EXPAND_LINK,Ir para [Bilhete de Expansão]
 CLEARMISSION_PASSPOPUP_TITLE,Pacotes de Superação
 CLEARMISSION_PASSPOPUP_LEVELUP_I,Pacote de Superação de Nível I
@@ -5692,6 +5692,7 @@ DUNGEON_19CHRISTMAS_BOSS_SUB_NAME_11,Saco de Presentes Inesperado
 2019CHRISTMAS_ACCESSORY_BODY_01,Saco de Presentes
 PACKAGE_FIRST_BUY_BENEFIT,Bônus de 1ª compra!
 STAMINA_TYPE.EVENT_DUNGEON_GOLD_KEY,Chave Dourada
+CONTENTS_ENTER_IMPOSSIBLE_DAILYENTER_MAX,"Não é possível mais entrar hoje, pois o limite diário de entrada foi atingido."
 SHOP_NAME_2019_CHRISTMAS_SHOP,Loja do Evento
 19CHRISTMAS_BOSS_BUFF_TITLE,Masmorra do Presente Inesperado
 19CHRISTMAS_BOSS_BUFF_TITLE_ENTER,Presente Inesperado
@@ -5700,3 +5701,24 @@ RESULT_TYPE.INVALID_CLEAR_MISSION_INDEX,Número da Missão de Superação invál
 RESULT_TYPE.INVALID_CLEAR_MISSION_STEP,Estágio de prêmio da Missão de Superação inválido.
 RESULT_TYPE.CLEAR_MISSION_NOT_CLEARED,Missão de Superação não concluída.
 RESULT_TYPE.CHECK_CONDITION_NOT_PASSED,Condições de recebimento do prêmio não cumpridas.
+CLEARMISSION_PASSPOPUP_HERO_I,Pacote de Superação do Herói I
+CLEARMISSION_PASSPOPUP_HERO_II,Pacote de Superação do Herói II
+CLEARMISSION_PASSPOPUP_HERO_INFO,"※ Você pode receber prêmios de acordo com a conclusão das missões. .\n※ Após completar a missão, toque no botão para receber o prêmio."
+CLEARMISSION_PASSPOPUP_HERO_COUNT,[193543]Obtenha[-] [db6a3e]{1}[-] [193543]herói(s)[-]
+CLEARMISSION_PASSPOPUP_HERO_LEVEL_COUNT,[193543]Suba[-] [db6a3e]{2} herói(s)[-] [193543]ao Nv.{1}[-]
+CLEARMISSION_PASSPOPUP_HERO_TRANSCENDED_COUNT,[193543]Eleve[-] [db6a3e]{2} herói(s)[-] [193543]a Transcendência {1}[-]
+CLEARMISSION_PASSPOPUP_HERO_UNIQUE_WEAPON_COUNT,[193543]Obtenha[-] [193543]Arma Única[-] [db6a3e]x{1}[-]
+CLEARMISSION_PASSPOPUP_HERO_UNIQUE_TREASURE_COUNT,[193543]Obtenha[-] [193543]Tesouro Único[-] [db6a3e]x{1}[-]
+CLEARMISSION_PASSPOPUP_HERO_UNIQUE_WEAPON_AWAKE_COUNT,[193543]Desperte[-] [db6a3e]para {2}★[-] [193543]a Arma Única de {1} herói(s)[-]
+CLEARMISSION_PASSPOPUP_HERO_UNIQUE_TREASURE_AWAKE_COUNT,[193543]Desperte[-] [db6a3e]para {2}★[-] [193543]o Tesouro Único de {1} herói(s)[-]
+CLEARMISSION_PASSPOPUP_HERO_SOULEWEAPON_COUNT,[193543]Faça[-] [193543]a Avaliação da Alma[-] [db6a3e]{1} vez(es)[-]
+CLEARMISSION_PASSPOPUP_HERO_ALLINONE_COUNT,[193543]Use[-] [193543]Invocação Especial Tudo-em-Um[-] [db6a3e]{1} vez(es)[-]
+CLEARMISSION_PASSPOPUP_HERO_SKILL_EXTEND_COUNT,[193543]Realce[-] [db6a3e]{1} habilidade(s)[-] [193543]até o atributo IV[-]
+CLEARMISSION_PASSPOPUP_HERO_CRAFTITEM_16,[193543]Fabrique[-] [193543]Pedra do Infinito[-] [db6a3e]x{1}[-]
+CLEARMISSION_PASSPOPUP_HERO_STAR_COUNT,[193543]Desperte[-] [db6a3e]{2} herói(s)[-] [193543]para {1}★[-]
+2020_NEW_YEAR_ATTENDANCE_ITEM_DESC,※Bilhete de Herói de 5★: selecionável até 'Rehartna’ (Não inclui Heróis NPC)
+PAYSHOP_PREPURCHASE_SOULWEAPON_ETHER_4,Brinde ao comprar 5 vezes: Éter Magistral x20
+LEGEND_EQUIP_PAYBACK_REWARD_MAIL_TITLE,Prêmio de Melhora do Produto
+LEGEND_EQUIP_PAYBACK_REWARD_MAIL_CONTENT,"A composição do Pacote de Armadura Lendária foi melhorada. Receba de uma vez os itens que foram adicionados, multiplicado pela quantidade de vezes que este produto foi comprado."
+CLEARMISSION_PASSPOPUP_PROGRESS,[db6a3e] ({1}/{2})[-]
+PAYSHOP_RECOMMENDPOPUP_TITLE,Produto Recomendado

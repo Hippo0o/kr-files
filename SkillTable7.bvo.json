@@ -2307,6 +2307,38 @@
     "OperationDurationMs4": 99999999
   },
   {
+    "Index": 60007450,
+    "TriggerType": "OnStart",
+    "TriggerRatio": 1000,
+    "DeadTarget": "False",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "FALSE",
+    "OperationType1": "ModMaxHpR",
+    "OperationTargetType1": "Myself",
+    "OperationValue1": [
+      "150"
+    ],
+    "OperationDurationMs1": 999999,
+    "OperationType2": "ModDefenceR",
+    "OperationTargetType2": "Myself",
+    "OperationValue2": [
+      "150"
+    ],
+    "OperationDurationMs2": 9999999,
+    "OperationType3": "ModPowerR",
+    "OperationTargetType3": "Myself",
+    "OperationValue3": [
+      "150"
+    ],
+    "OperationDurationMs3": 99999999,
+    "OperationType4": "ModCriticalPower",
+    "OperationTargetType4": "Myself",
+    "OperationValue4": [
+      "200"
+    ],
+    "OperationDurationMs4": 99999999
+  },
+  {
     "Index": 60007550,
     "TriggerType": "OnStart",
     "TriggerRatio": 1000,
@@ -5006,6 +5038,35 @@
     "OperationRecalculateValueByStats2": [
       "HpRatioM"
     ]
+  },
+  {
+    "Index": 60007451,
+    "TriggerType": "OnTimer",
+    "TriggerValue": [
+      "20000",
+      "20000"
+    ],
+    "TriggerRatio": 1000,
+    "AttrType": "None",
+    "IgnoreStateType": [
+      "CC"
+    ],
+    "TargetType": "Enemy",
+    "DeadTarget": "FALSE",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "FALSE",
+    "OperationType1": "ModMagicalWeakness",
+    "OperationTargetType1": "Target",
+    "OperationValue1": [
+      "300"
+    ],
+    "OperationDelayMs1": [
+      "0",
+      "0",
+      "200"
+    ],
+    "OperationState1": "Kibera_5Skill",
+    "OperationDurationMs1": 15000
   },
   {
     "Index": 60008751,

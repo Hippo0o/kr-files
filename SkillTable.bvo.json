@@ -2825,21 +2825,17 @@
     "DeadTarget": "False",
     "IgnoreBlock": "TRUE",
     "RetargetOnFire": "False",
-    "OperationType1": "ModActiveCooltime",
+    "OperationType1": "ChangeSkillByState",
     "OperationTargetType1": "Myself",
     "OperationValue1": [
-      "1",
-      "3000",
-      "None",
-      "1"
+      "9310",
+      "9320"
     ],
-    "OperationType2": "ModActiveCooltime",
+    "OperationType2": "ChangeSkillByState",
     "OperationTargetType2": "Myself",
     "OperationValue2": [
-      "1",
-      "10000",
-      "None",
-      "2"
+      "9330",
+      "9320"
     ],
     "OperationType3": "GetMot",
     "OperationTargetType3": "Myself",
@@ -2848,12 +2844,14 @@
     ],
     "OperationDurationMs3": 99999999,
     "OperationTickTimeMs3": 1000,
-    "OperationType5": "ModPowerR",
-    "OperationTargetType5": "Myself",
-    "OperationValue5": [
-      "-90000"
-    ],
-    "OperationDurationMs5": 999999
+    "OperationType4": "SetSkill",
+    "OperationTargetType4": "Myself",
+    "OperationValue4": [
+      "9320",
+      "0",
+      "SkillCoolTimeMs",
+      "3000"
+    ]
   },
   {
     "Index": 200036,

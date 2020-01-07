@@ -2257,6 +2257,69 @@
             }
           ]
         }
+      },
+      {
+        "Key": "Hero.Kibera",
+        "Value": {
+          "Code": "Hero.Kibera",
+          "AnimationDic": [
+            {
+              "Key": {
+                "MotionType": "Down"
+              },
+              "Value": {
+                "FrameSoundList": [
+                  {
+                    "Frame": 0.0,
+                    "SoundCode": "Down.Hero.Kibera"
+                  }
+                ]
+              }
+            },
+            {
+              "Key": {
+                "MotionType": "NamedAction",
+                "Name": "Victory"
+              },
+              "Value": {
+                "FrameSoundList": [
+                  {
+                    "Frame": 0.0,
+                    "SoundCode": "Victory.Hero.Kibera"
+                  }
+                ]
+              }
+            },
+            {
+              "Key": {
+                "MotionType": "EmotiMotion",
+                "Name": "PurifyReaction1"
+              },
+              "Value": {
+                "FrameSoundList": [
+                  {
+                    "Frame": 0.0,
+                    "SoundCode": "PurifyReaction1.Hero.Kibera"
+                  }
+                ]
+              }
+            },
+            {
+              "Key": {
+                "MotionType": "EmotiMotion",
+                "Name": "PurifyReaction2"
+              },
+              "Value": {
+                "FrameSoundList": [
+                  {
+                    "Frame": 0.0,
+                    "SoundCode": "PurifyReaction1.Hero.Kibera"
+                  }
+                ]
+              }
+            }
+          ]
+        }
       }
     ]
   }

@@ -253,6 +253,9 @@ CREATURE_DESC_72,전쟁의 광기에 매료된 소녀.\n제국 기계사단 장�
 CREATURE_NAME_73,체이스
 CREATURE_TITLE_73,Type. 0 체이스
 CREATURE_DESC_73,"과거를 잃은 실험체이자, 전투를 시작하면 주체할 수 없는 힘을 터트리는 광전사이다.\n앞길을 막는 것은 망설임 없이 모두 파괴하는 괴력의 전투병기."
+CREATURE_NAME_74,키베라
+CREATURE_TITLE_74,탐욕스러운 칼날 키베라
+CREATURE_DESC_74,여러 자루의 마검을 능수능란하게 다루는 희대의 마검사.\n마검이나 강력한 검을 보면 반드시 손에 넣어야 하는 병적인 집착이 있다.\n애용하는 세 자루의 마검으로 적을 화려하게 베어 넘긴다.
 CREATURE_NAME_75,다카리스
 CREATURE_TITLE_75,호수의 현자 다카리스
 CREATURE_DESC_75,"제국이 점령한 에레타나 호수 근방 원주민 리자드맨들의 현자.\n무력으로 제압당한 고향을 되찾기 위해, 8년 전 레지스탕스의 탄생에 가담했다.\n부족 전통의 마법으로 적들을 혼돈에 빠뜨린다."
@@ -362,6 +365,7 @@ GETHERO_DESC_70,"정의감이 남다른 소녀. 누군가에게 버팀목이 되
 GETHERO_DESC_71,"영웅 컨셉 디자인 공모전 당선작 [87CEFA]Mochi00 (JPN)[-]\n희귀한 마력을 가지고 태어난 수인족 소녀.\n어린 나이에 마왕군에게 붙잡혀, 몸을 수정으로 변환시키는 실험을 당했다.\n힘을 얻어 탈출한 그녀는, 자신의 몸을 구성하는 붉은 수정으로 적과 교전한다."
 GETHERO_DESC_72,전쟁의 광기에 매료된 소녀. 제국 기계사단 장교 출신으로 전 하운드 부대의 일원. 작열하는 화염으로 눈 앞의 모든 생명체를 불태워 버린다.
 GETHERO_DESC_73,"과거를 잃은 실험체이자, 전투를 시작하면 주체할 수 없는 힘을 터트리는 광전사이다. 앞길을 막는 것은 망설임 없이 모두 파괴하는 괴력의 전투병기."
+GETHERO_DESC_74,여러 자루의 마검을 능수능란하게 다루는 희대의 마검사. 마검이나 강력한 검을 보면 반드시 손에 넣어야 하는 병적인 집착이 있다. 애용하는 세 자루의 마검으로 적을 화려하게 베어 넘긴다.
 GETHERO_DESC_75,"제국이 점령한 에레타나 호수 근방 원주민 리자드맨들의 현자.무력으로 제압당한 고향을 되찾기 위해, 8년 전 레지스탕스의 탄생에 가담했다.부족 전통의 마법으로 적들을 혼돈에 빠뜨린다."
 GETHERO_DESC_78,"침묵의 기사. 흑빛의 검사. 산을 뒤흔드는 검. 다양한 이명을 지닌, 제국령에서 활동하고 있는 전설적인 용병. 그의 거대한 검은 세계의 모든 힘을 흡수하여, 단순히 파괴를 일삼는다."
 GETHERO_DESC_87,"제국의 평민 출신 여기사. 실력만으로 수도 방위 기사단의 부단장 자리에 까지 올라간, 수많은 평민들의 동경의 대상. 제국의 시민들을 지키는 강직한 방패가 되기를 맹세한, 누구보다도 충실한 기사."
@@ -819,6 +823,12 @@ INN_PANCIRONNE_CONVERSATION01,하우으…따분한데 뭐 재미있는 거 없�
 INN_PANCIRONNE_CONVERSATION02,한 달 뒤에도 살아있으면 이름 정도는 외워줄게~
 INN_PANCIRONNE_CONVERSATION03,흐~응? 뭐라구?
 INN_PANCIRONNE_GIFT01,선물이라고? 이상한 거면 불태운다?
+INN_KIBERA_INNIDLE01,그럭저럭 괜찮은 여관이네~
+INN_KIBERA_GREETING01,"또 보네? 괜찮은 마검을 가진 녀석을 발견하면 나한테 알려주는 거, 잊지마?"
+INN_KIBERA_CONVERSATION01,슬슬 염색약 사야하는데~ 빨간 머리 멋있잖아?
+INN_KIBERA_CONVERSATION02,"하운드 부대는 대장인 아저씨 아래에 세명이 있는데, 조장도 세명이야."
+INN_KIBERA_CONVERSATION03,보좌관 선생 참~ 귀찮아~
+INN_KIBERA_GIFT01,주는거야?\n흠… 검이라고 무조건 좋아하는 건 아니야~
 INN_KASEL_GREETING02,자주 뵙네요. 수도는 이제 익숙해지셨나요?
 INN_KASEL_CONVERSATION04,성검의 힘을 모두 찾으면…이 모든 게 끝날까요?
 INN_KASEL_CONVERSATION05,더 이상 누구에게도 휘둘리고 싶지 않아요. 오로지 내 의지로 길을 가겠어요.
@@ -1419,6 +1429,14 @@ INN_REHARTNA_GREETING02,왔어요? 기다리고 있었어요! 이쪽에 자리 �
 INN_REHARTNA_CONVERSATION04,사실 편지를 전하러 떠날 때 마다 많이 무서워요. 들키면 저 혼자만 잘못 되는 게 아니니까...
 INN_REHARTNA_CONVERSATION05,동료들한테 얼마나 도움이 되고 있을까 걱정되지만... 더 열심히 하면 괜찮겠죠?
 INN_REHARTNA_GIFT02,"매번 고마워요! 있죠, 당신은 뭘 좋아해요? 답례로 좋아하는 걸 주고 싶은데."
+INN_KIBERA_CONNECT_GREETING_MAX,"나는 누나처럼 놈에게 먹히지 않아… 어라, 너…\n들었어?"
+INN_KIBERA_CONNECT_CONVERSATION01,괜찮은 마검을 발견하면 일단 팔아보라고 흥정부터 해. 안 판다고 하면... 뭐… 음… 하하.
+INN_KIBERA_CONNECT_CONVERSATION02,"인연이라는 게, 악연이건 선연이건 자기 의지를 무시하고 이어져버려.\n그래서 귀찮지."
+INN_KIBERA_CONNECT_CONVERSATION03,돌아갈 곳은… 이제 다른 사람의 집이 되어버렸거든.
+INN_KIBERA_GREETING02,왔어? 뭐 먹을래? 내가 사줄게~
+INN_KIBERA_CONVERSATION04,우리 멍청이들 말야? 꽤 좋아하는 편이야.\n바보는 보고 있으면 재미있어.
+INN_KIBERA_CONVERSATION05,"아저씨는 꽤 무섭거든, 잘못한게 있으면 바로 사과하는게 좋아.\n나? 나는... 봐서."
+INN_KIBERA_GIFT02,어이쿠 이런 보잘것없는 걸 다…
 INN_MAY_INNIDLE01,음...역시 유노 언니의 음식은 일품...! 이건 잘 팔릴 각이야!
 INN_MAY_CONNECT_GREETING_MAX,"오르벨 최고의 부자가 되기 위해, 오늘도 노력 중입니다!"
 INN_MAY_CONNECT_CONVERSATION01,오늘은 엘리도라 숲 중반부까지 물건을 찾아 들어가 볼 생각이에요!
@@ -1668,6 +1686,7 @@ CREATURE_NAME_572,판시로네의 어둠
 CREATURE_DESC_572,순수한 어둠이 응집된 존재로써 강력한 힘을 지니고 있다.
 CREATURE_NAME_573,체이스의 어둠
 CREATURE_DESC_573,순수한 어둠이 응집된 존재로써 강력한 힘을 지니고 있다.
+CREATURE_NAME_574,키베라의 어둠
 CREATURE_NAME_575,다카리스의 어둠
 CREATURE_DESC_575,순수한 어둠이 응집된 존재로써 강력한 힘을 지니고 있다.
 CREATURE_NAME_578,베른헤임의 어둠
@@ -1838,6 +1857,7 @@ CREATURE_NAME_672,판시로네의 빛
 CREATURE_DESC_672,순수한 빛이 응집된 존재로써 강력한 힘을 지니고 있다.
 CREATURE_NAME_673,체이스의 빛
 CREATURE_DESC_673,순수한 빛이 응집된 존재로써 강력한 힘을 지니고 있다.
+CREATURE_NAME_674,키베라의 빛
 CREATURE_NAME_675,다카리스의 빛
 CREATURE_DESC_675,순수한 빛이 응집된 존재로써 강력한 힘을 지니고 있다.
 CREATURE_NAME_678,베른헤임의 빛

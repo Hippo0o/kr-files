@@ -1384,7 +1384,7 @@ HEROINN_GOLD_COUNT,{1} Oro
 HEROINN_GIFT,Enviar Regalo
 HEROINN_HERO_STAY,{1} Dias en la Posada
 HEROINN_FRIENDLY,Tasa de Parentezco
-HEROINN_HERO_SCOUT,Hacer Alianzas
+HEROINN_HERO_SCOUT,Reclutar
 HEROINN_GET_FRIENDSHIP,Obtener Puntos de Amistad!
 HEROINN_FRIENDSHIP_EACHOTHER,Intercambiar Puntos de Amistad
 HEROINN_VISIT_HERO,Visitar Héroes
@@ -3250,7 +3250,7 @@ NEWBIE_PROMOTION_POPUP_DESC,"[Notificación] - Héroes seleccionables: Seleccion
 1ST_ANNIVERSARY_VESPA_DAY_5_DESC,"Me temo que este es el último día de celebración. Pero siempre te apoyaremos a lo largo del camino. Estaremos entregando un boleto de arma única aleatoria junto con 15 boletos para reforjar. Si la opción de equipo actual no te conviene, debes ir a la herrería y utilizar el boleto para reforjar en lugar de los rubíes para reemplazar una opción. (Solo puedes reforjar una sola opción de la lista de opciones)."
 1ST_ANNIVERSARY_GET_REWARD,Reclamar Recompensa
 1ST_ANNIVERSARY_SHOW_REWARD,Ver Recompensa
-ITEM_USE.EQUIP_EXTEND_DESC_ALERT,El Inventario solo se puede expandir hasta 1200 espacios (los espacios no utilizados no pueden devolverse)
+ITEM_USE.EQUIP_EXTEND_DESC_ALERT,"La expansión del Inventario está limitada a 1,400 casillas. (No aplican devoluciones a casillas no utilizadas.)"
 ITEM_USE.EQUIP_EXTEND_DESC1,Puedes expandir {1} más espacios del inventario.\nDeseas utilizarlo {2}?
 ITEM_USE.EQUIP_EXTEND_DESC2,"Si el espacio total expandible es más pequeño que la capacidad del Boleto de Expansión, solo podrá expandirse hasta el espacio máximo. Estás seguro que deseas utilizar el Boleto de Expansión?"
 INVENTORY.EQUIP_ASK_EXTEND_MESSAGE_HAS_ITEM,"Si el espacio total expandible es más pequeño que la capacidad del Boleto de Expansión, solo podrá expandirse hasta el espacio máximo. Estás seguro que deseas utilizar el Boleto de Expansión?"
@@ -4282,7 +4282,7 @@ NEWBIE_PROMOTION_POPUP_DESC_2019,[Aviso] - Consulta los detalles en el lado dere
 2019_PACKAGE_PAY_MAY_ATTENDANCE_DESC_DETAIL,"Aplica inmediatamente después de la compra, obtendrás artículos diarios durante 14 días al iniciar sesión. (Con el Boleto de Héroe de 3 Estrellas podrás escoger héroes hasta Aselica, Crow, y Shea (lanzamiento en abril de 2018), no incluye a los héroes NPC. El Boleto de Arma Única Aleatoria no incluye las armas únicas de héroes NPC.)"
 2019_NEWBIE_PROMOTION_POPUP2_TITLE,<Paquete por tiempo limitado> para el crecimiento rápido de tu héroe!
 PURCHASE_MARKETING.PURCHASE_MARKETING_INFO,Información del producto
-PURCHASE_MARKETING.CLOSE_PURCHASE_MARKETING_POPUP_MESSAGE,"Este producto está disponible únicamente por 7 días.\nAl cerrar la ventana de anuncio, podrás verificar la\ninformación nuevamente a través de la Tienda Especial."
+PURCHASE_MARKETING.CLOSE_PURCHASE_MARKETING_POPUP_MESSAGE,"Al cerrar la ventana de anuncio, podrás verificar la\ninformación nuevamente a través de la Tienda Especial."
 QUEST_AUTO_POPUP_OPTION,Guía de misión automática
 QUEST_POPUP_CHECK_MESSAGE,No abrir hoy
 PROBABILTY_ITEM_RATE_LINK,Más detalles sobre la probabilidad de obtención en el sitio oficial.\nhttps://cafe.naver.com/kingsraid/578572
@@ -5600,8 +5600,8 @@ SHOP_NAME_2019_DESTINYLIGHT_SHOP,Tienda de Evento
 DESTINYLIGHT_EVENT_SPECIAL_DUNGEON_DESC1_1,"¡Los enemigos cuentan con un poderoso efecto de recuperación! ¡Utiliza efectos de reducción de recuperación, y bloquea la recuperación del enemigo! ¡Demia reune a los enemigos que están lejos cada tiempo determinado, así que ten cuidado!"
 DESTINYLIGHT_EVENT_SPECIAL_DUNGEON_DESC2_1,¡Todos los colores de la luz de Chrisha tienen distintos efectos! ¡Responde adecuadamente a las habilidades de Chrisha!\n[Luz Roja] – Incrementa drásticamente el ataque de Chrisha.\n[Luz Azul] – Incrementa drásticamente la defensa de Chrisha.\n[Luz Verde] – Chrisha cancela efectos negativos continuamente.
 DESTINYLIGHT_EVENT_SPECIAL_DUNGEON_DESC3_1,"¡Portador de Muerte posee una poderosa barrera protectora que niega el daño periódicamente! ¡Además sus poderosas esferas de oscuridad pueden destruir a sus enemigos en un solo ataque, utiliza efectos de estado e incapacítalo!"
-EQUIP_INVENTORY_EXPAND_COST1,Menos de 800 casillas consumen 250 rubíes.
-EQUIP_INVENTORY_EXPAND_COST2,A partir de 800 casillas el consumo de rubíes incrementa a 500.
+EQUIP_INVENTORY_EXPAND_COST1,"Menos de 1,000 casillas consumen 250 rubíes."
+EQUIP_INVENTORY_EXPAND_COST2,"A partir de 1,000 casillas el consumo de rubíes incrementa a 500."
 EQUIP_INVENTORY_EXPAND_LINK,[Boleto de Expansión]
 CLEARMISSION_PASSPOPUP_TITLE,Colección de Paquetes de Superación
 CLEARMISSION_PASSPOPUP_LEVELUP_I,Paquete de Superación de Subir Niveles I
@@ -5692,6 +5692,7 @@ DUNGEON_19CHRISTMAS_BOSS_SUB_NAME_11,Saco de Regalos Sorpresa
 2019CHRISTMAS_ACCESSORY_BODY_01,Bolsa de Paquetes de Regalo
 PACKAGE_FIRST_BUY_BENEFIT,¡Bonus de\nPrimera Compra!
 STAMINA_TYPE.EVENT_DUNGEON_GOLD_KEY,Llaves Doradas
+CONTENTS_ENTER_IMPOSSIBLE_DAILYENTER_MAX,Has excedido el número de entradas diarias permitidas.
 SHOP_NAME_2019_CHRISTMAS_SHOP,Tienda de Evento
 19CHRISTMAS_BOSS_BUFF_TITLE,Calabozo de Regalo Sorpresa
 19CHRISTMAS_BOSS_BUFF_TITLE_ENTER,Regalo\nSorpresa
@@ -5700,3 +5701,24 @@ RESULT_TYPE.INVALID_CLEAR_MISSION_INDEX,Número de misión de superación incorr
 RESULT_TYPE.INVALID_CLEAR_MISSION_STEP,Etapa de recompensa de misión de superación incorrecta.
 RESULT_TYPE.CLEAR_MISSION_NOT_CLEARED,Misión de superación no completada.
 RESULT_TYPE.CHECK_CONDITION_NOT_PASSED,Condiciones para el reclamo de recompensa no satisfechas.
+CLEARMISSION_PASSPOPUP_HERO_I,Paquete de Superación de Héroes I
+CLEARMISSION_PASSPOPUP_HERO_II,Paquete de Superación de Héroes II
+CLEARMISSION_PASSPOPUP_HERO_INFO,※ Obtendrás recompensas de acuerdo a tus misiones completadas.\n※ Toca el botón Recompensa después de completar las misiones para recibir tus recompensas.
+CLEARMISSION_PASSPOPUP_HERO_COUNT,[193543]Obtener[-] [db6a3e]{1}[-] [193543]Héroe(s)[-]
+CLEARMISSION_PASSPOPUP_HERO_LEVEL_COUNT,[193543]Crear[-] [db6a3e]{2}[-] [193543]Héroe(s) de Nivel {1}[-]
+CLEARMISSION_PASSPOPUP_HERO_TRANSCENDED_COUNT,[193543]Crear[-] [db6a3e]{2}[-] [193543]Héroe(s) de T{1}[-]
+CLEARMISSION_PASSPOPUP_HERO_UNIQUE_WEAPON_COUNT,[193543]Obtener[-] [db6a3e]{1}[-] [193543]Arma(s) Única(s)[-]
+CLEARMISSION_PASSPOPUP_HERO_UNIQUE_TREASURE_COUNT,[193543]Obtener[-] [db6a3e]{1}[-] [193543]Tesoro(s) Único(s)[-]
+CLEARMISSION_PASSPOPUP_HERO_UNIQUE_WEAPON_AWAKE_COUNT,[193543]Obtener[-] [db6a3e]Arma Única de {2} Estrella(s)[-] [193543]de {1} Héroe(s)[-]
+CLEARMISSION_PASSPOPUP_HERO_UNIQUE_TREASURE_AWAKE_COUNT,[193543]Obtener[-] [db6a3e]Tesoro(s) Único(s) de {2} Estrella(s)[-] [193543]de {1}Héroe(s)[-]
+CLEARMISSION_PASSPOPUP_HERO_SOULEWEAPON_COUNT,[193543]Llevar a Cabo[-] [db6a3e]{1}[-] [193543]Evaluación(es) del Alma[-]
+CLEARMISSION_PASSPOPUP_HERO_ALLINONE_COUNT,[193543]Llevar a Cabo[-] [db6a3e]{1}[-] [193543]Invocación(es) Especial(es) Todo en Uno[-]
+CLEARMISSION_PASSPOPUP_HERO_SKILL_EXTEND_COUNT,[193543]Aprender[-] [db6a3e]{1}[-] [193543]Atributo(s) de Habilidad IV[-]
+CLEARMISSION_PASSPOPUP_HERO_CRAFTITEM_16,[193543]Elaborar[-] [db6a3e]{1}[-] [193543]Piedra(s) del Infinito[-]
+CLEARMISSION_PASSPOPUP_HERO_STAR_COUNT,[193543]Crear[-] [db6a3e]{2}[-] [193543]Héroe(s) de {1} Estrella(s)[-]
+2020_NEW_YEAR_ATTENDANCE_ITEM_DESC,※ Boleto de Héroe de 5 Estrellas: Selección disponible hasta 'Rehartna'. (No incluye héroes NPC.)
+PAYSHOP_PREPURCHASE_SOULWEAPON_ETHER_4,Con 5 compras: 20 Éter Radiante
+LEGEND_EQUIP_PAYBACK_REWARD_MAIL_TITLE,Obtención de Recompensas Mejoradas
+LEGEND_EQUIP_PAYBACK_REWARD_MAIL_CONTENT,Debido a una mejora de 'Paquete de Armadura Legendaria' se ofrecen todos los artículos del paquete mejorado de acuerdo a la cantidad de compras de este producto.
+CLEARMISSION_PASSPOPUP_PROGRESS,[db6a3e] ({1}/{2})[-]
+PAYSHOP_RECOMMENDPOPUP_TITLE,Productos Recomendados

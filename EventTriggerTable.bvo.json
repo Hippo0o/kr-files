@@ -3655,43 +3655,45 @@
     ]
   },
   {
-    "Index": 10011,
+    "Index": 10013,
     "Category": "MainScenario",
-    "EventType": "OnClickStartBattle",
+    "EventType": "ScenarioWaveReady",
     "EventCondition": [
       "1",
-      "205",
-      "Normal"
+      "5",
+      "1"
     ],
-    "CurrentCondition": [
-      "CompleteDungeon",
-      "1",
-      "205",
-      "False"
-    ],
-    "Command": "StartTutorial",
+    "Command": "StartCutScene",
     "Argument": [
-      "10220"
+      "CutScene/CS1_5A"
     ]
   },
   {
-    "Index": 10012,
+    "Index": 10014,
     "Category": "MainScenario",
-    "EventType": "OnClickStartBattle",
+    "EventType": "ScenarioBattleEnd",
     "EventCondition": [
       "1",
-      "206",
-      "Normal"
+      "5",
+      "True"
     ],
-    "CurrentCondition": [
-      "CompleteDungeon",
-      "1",
-      "206",
-      "False"
-    ],
-    "Command": "StartTutorial",
+    "Command": "StartCutScene",
     "Argument": [
-      "10230"
+      "CutScene/CH1_7"
+    ]
+  },
+  {
+    "Index": 10015,
+    "Category": "MainScenario",
+    "EventType": "ScenarioWaveReady",
+    "EventCondition": [
+      "1",
+      "6",
+      "1"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/CS1_6A"
     ]
   },
   {

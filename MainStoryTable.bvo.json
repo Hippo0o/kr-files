@@ -5,6 +5,9 @@
     "Command": "StartCutScene",
     "Argument": [
       "CutScene/CH1_0"
+    ],
+    "NameParam": [
+      "1"
     ]
   },
   {
@@ -13,6 +16,9 @@
     "Command": "StartCutScene",
     "Argument": [
       "CutScene/CH1_1"
+    ],
+    "NameParam": [
+      "2"
     ]
   },
   {
@@ -21,6 +27,9 @@
     "Command": "StartTutorial",
     "Argument": [
       "17010"
+    ],
+    "NameParam": [
+      "3"
     ]
   },
   {
@@ -30,40 +39,45 @@
     "Argument": [
       "1",
       "2"
-    ]
-  },
-  {
-    "ChapterIndex": 1,
-    "Name": "STORY_RE_TITLE_10051",
-    "Command": "StartCutScene",
-    "Argument": [
-      "CutScene/Tutorial/Gacha"
+    ],
+    "NameParam": [
+      "4"
     ]
   },
   {
     "ChapterIndex": 1,
     "Name": "STORY_RE_TITLE_10070",
     "Condition": [
-      "CompleteTutorial",
-      "10220",
+      "CompleteDungeon",
+      "1",
+      "5",
       "True"
     ],
-    "Command": "StartTutorial",
+    "Command": "StartDungeon",
     "Argument": [
-      "17050"
+      "1",
+      "5"
+    ],
+    "NameParam": [
+      "5"
     ]
   },
   {
     "ChapterIndex": 1,
     "Name": "STORY_RE_TITLE_10080",
     "Condition": [
-      "CompleteTutorial",
-      "10230",
+      "CompleteDungeon",
+      "1",
+      "6",
       "True"
     ],
-    "Command": "StartTutorial",
+    "Command": "StartDungeon",
     "Argument": [
-      "17060"
+      "1",
+      "6"
+    ],
+    "NameParam": [
+      "6"
     ]
   },
   {
@@ -79,6 +93,9 @@
     "Argument": [
       "1",
       "7"
+    ],
+    "NameParam": [
+      "7"
     ]
   },
   {
@@ -93,6 +110,9 @@
     "Command": "StartCutScene",
     "Argument": [
       "CutScene/CH1_12"
+    ],
+    "NameParam": [
+      "8"
     ]
   },
   {
@@ -108,6 +128,9 @@
     "Argument": [
       "1",
       "8"
+    ],
+    "NameParam": [
+      "9"
     ]
   },
   {
@@ -123,6 +146,9 @@
     "Argument": [
       "1",
       "9"
+    ],
+    "NameParam": [
+      "10"
     ]
   },
   {
@@ -138,6 +164,9 @@
     "Argument": [
       "1",
       "10"
+    ],
+    "NameParam": [
+      "11"
     ]
   },
   {
@@ -153,6 +182,9 @@
     "Argument": [
       "1",
       "11"
+    ],
+    "NameParam": [
+      "12"
     ]
   },
   {
@@ -166,6 +198,9 @@
     "Command": "StartCutScene",
     "Argument": [
       "CutScene/Tutorial/Hall_1"
+    ],
+    "NameParam": [
+      "13"
     ]
   },
   {
@@ -179,6 +214,9 @@
     "Command": "StartCutScene",
     "Argument": [
       "CutScene/Tutorial/Hall_2"
+    ],
+    "NameParam": [
+      "14"
     ]
   },
   {
@@ -192,6 +230,9 @@
     "Command": "StartCutScene",
     "Argument": [
       "CutScene/Tutorial/Hall_3"
+    ],
+    "NameParam": [
+      "15"
     ]
   },
   {
@@ -205,6 +246,9 @@
     "Command": "StartCutScene",
     "Argument": [
       "CutScene/Tutorial/Hall_4"
+    ],
+    "NameParam": [
+      "16"
     ]
   },
   {
@@ -218,6 +262,9 @@
     "Command": "StartTutorial",
     "Argument": [
       "14001"
+    ],
+    "NameParam": [
+      "17"
     ]
   },
   {
@@ -231,6 +278,9 @@
     "Command": "StartCutScene",
     "Argument": [
       "CutScene/CH1_22"
+    ],
+    "NameParam": [
+      "18"
     ]
   },
   {
@@ -246,6 +296,9 @@
     "Argument": [
       "1",
       "18"
+    ],
+    "NameParam": [
+      "19"
     ]
   },
   {
@@ -260,6 +313,9 @@
     "Command": "StartCutScene",
     "Argument": [
       "CutScene/CH1_24"
+    ],
+    "NameParam": [
+      "20"
     ]
   },
   {
@@ -275,6 +331,9 @@
     "Argument": [
       "1",
       "20"
+    ],
+    "NameParam": [
+      "21"
     ]
   },
   {
@@ -289,6 +348,9 @@
     "Command": "StartCutScene",
     "Argument": [
       "CutScene/CH1_26"
+    ],
+    "NameParam": [
+      "22"
     ]
   },
   {
@@ -303,6 +365,9 @@
     "Command": "StartCutScene",
     "Argument": [
       "CutScene/CH1_27"
+    ],
+    "NameParam": [
+      "23"
     ]
   },
   {
@@ -317,6 +382,9 @@
     "Command": "StartCutScene",
     "Argument": [
       "CutScene/Tutorial/Portal1"
+    ],
+    "NameParam": [
+      "24"
     ]
   },
   {
@@ -330,6 +398,9 @@
     "Command": "StartCutScene",
     "Argument": [
       "CutScene/Tutorial/Castle_2017"
+    ],
+    "NameParam": [
+      "25"
     ]
   },
   {
