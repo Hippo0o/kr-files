@@ -1,25 +1,5 @@
 [
   {
-    "Index": 1,
-    "ContentsType": "WorldBoss",
-    "ChapterIndex": 7002,
-    "DungeonIndex": 1,
-    "PopupType": "GlobalStart",
-    "ContentsImagePath": "WorldBoss/BossInfo/WorldBoss_MountainFortress",
-    "TitleDescKey": "WORLDBOSS_MOUNTAINFORTRESS_START_TITLE",
-    "OpenCondition": [
-      "System",
-      " MenuOpenCheckManager",
-      " WorldBoss"
-    ],
-    "TutorialIndex": 6001,
-    "OpenAction": [
-      "OpenWorldBoss"
-    ],
-    "ContentsStatusType": "WorldBoss",
-    "ContentsStatusSubType": "None"
-  },
-  {
     "Index": 2,
     "ContentsType": "WorldBoss",
     "ChapterIndex": 7002,
@@ -28,26 +8,6 @@
     "ContentsImagePath": "WorldBoss/BossInfo/WorldBoss_MountainFortress",
     "TitleDescKey": "WORLDBOSS_MOUNTAINFORTRESS_END_TITLE",
     "UseRank": "True",
-    "OpenCondition": [
-      "System",
-      " MenuOpenCheckManager",
-      " WorldBoss"
-    ],
-    "TutorialIndex": 6001,
-    "OpenAction": [
-      "OpenWorldBoss"
-    ],
-    "ContentsStatusType": "WorldBoss",
-    "ContentsStatusSubType": "None"
-  },
-  {
-    "Index": 3,
-    "ContentsType": "WorldBoss",
-    "ChapterIndex": 7003,
-    "DungeonIndex": 1,
-    "PopupType": "GlobalStart",
-    "ContentsImagePath": "WorldBoss/BossInfo/WorldBoss_Poseidon",
-    "TitleDescKey": "WORLDBOSS_POSEIDON_START_TITLE",
     "OpenCondition": [
       "System",
       " MenuOpenCheckManager",
@@ -82,26 +42,6 @@
     "ContentsStatusSubType": "None"
   },
   {
-    "Index": 5,
-    "ContentsType": "WorldBoss",
-    "ChapterIndex": 7004,
-    "DungeonIndex": 1,
-    "PopupType": "GlobalStart",
-    "ContentsImagePath": "WorldBoss/BossInfo/WorldBoss_Xanadus",
-    "TitleDescKey": "WORLDBOSS_XANADUS_START_TITLE",
-    "OpenCondition": [
-      "System",
-      " MenuOpenCheckManager",
-      " WorldBoss"
-    ],
-    "TutorialIndex": 6001,
-    "OpenAction": [
-      "OpenWorldBoss"
-    ],
-    "ContentsStatusType": "WorldBoss",
-    "ContentsStatusSubType": "None"
-  },
-  {
     "Index": 6,
     "ContentsType": "WorldBoss",
     "ChapterIndex": 7004,
@@ -120,25 +60,6 @@
       "OpenWorldBoss"
     ],
     "ContentsStatusType": "WorldBoss",
-    "ContentsStatusSubType": "None"
-  },
-  {
-    "Index": 7,
-    "ContentsType": "GuildSuppress",
-    "PopupType": "GlobalStart",
-    "ContentsImagePath": "WorldBoss/BossInfo/GuildRaid_Valok",
-    "TitleDescKey": "GUILDSUPRESS_SEASON_START_TITLE",
-    "OpenCondition": [
-      "Table",
-      " NPCTable",
-      " GuildRaid",
-      " EntryMenuCondition1"
-    ],
-    "TutorialIndex": 9300,
-    "OpenAction": [
-      "OpenGuildSuppress"
-    ],
-    "ContentsStatusType": "GuildSuppress",
     "ContentsStatusSubType": "None"
   },
   {
@@ -164,7 +85,9 @@
   {
     "Index": 9,
     "ContentsType": "BanPick",
-    "PopupType": "GlobalStart",
+    "ChapterIndex": 99,
+    "DungeonIndex": 4,
+    "PopupType": "GlobalNodeStart",
     "ContentsImagePath": "WorldBoss/BossInfo/Match_BanPick",
     "TitleDescKey": "ARENA_MATCHBANPICK_START_TITLE",
     "OpenCondition": [

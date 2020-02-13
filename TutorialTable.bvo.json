@@ -9582,10 +9582,10 @@
   },
   {
     "Index": 10021,
-    "ReqIndex": "\uc7a5\ucc29/\uac15\ud654 \uac00\ub2a5",
+    "ReqIndex": "\uc7a5\ucc29 \uac00\ub2a5",
     "Command": "WaitObject",
     "Argument": [
-      "InvenEquipInfoUIContainer(Clone)/WidgetRightRoot/InvenEquipInfo(Clone)/Buttons",
+      "InvenEquipInfoUIContainer(Clone)/WidgetRightRoot/InvenEquipInfo(Clone)/Buttons/Button_Equip",
       " 0",
       " 0.2",
       " 3"
@@ -9595,10 +9595,10 @@
     "Index": 10021,
     "Command": "FocusWidget",
     "Argument": [
-      "InvenEquipInfoUIContainer(Clone)/WidgetRightRoot/InvenEquipInfo(Clone)/Buttons",
+      "InvenEquipInfoUIContainer(Clone)/WidgetRightRoot/InvenEquipInfo(Clone)/Buttons/Button_Equip",
       " 0",
       " 0",
-      " -80",
+      " 0",
       " 0",
       " 0"
     ]
@@ -9612,7 +9612,7 @@
       " 50",
       " 2000",
       " 100",
-      " TUTORIAL_TEXT_335"
+      " TUTORIAL_TEXT_387"
     ]
   },
   {
@@ -9812,7 +9812,7 @@
       " 0",
       " 2000",
       " 100",
-      " TUTORIAL_TEXT_337"
+      " TUTORIAL_TEXT_388"
     ]
   },
   {
@@ -19420,132 +19420,6 @@
   },
   {
     "Index": 17000,
-    "ReqIndex": "2\ucc55\ud130\ub85c \uc774\ub3d9",
-    "Command": "WaitTime",
-    "Argument": [
-      "0.5"
-    ]
-  },
-  {
-    "Index": 17000,
-    "Command": "ZoomMapNode",
-    "Argument": [
-      "29",
-      " 1"
-    ]
-  },
-  {
-    "Index": 17000,
-    "Command": "FocusWidget",
-    "Argument": [
-      "MapLayout(Clone)/Panel_WorldMap/NodeRoot/29_MoveChapter/EffectRoot/VisitableObject",
-      " 0",
-      " 0",
-      " 0",
-      " 0",
-      " 0"
-    ]
-  },
-  {
-    "Index": 17000,
-    "Command": "FocusWidgetEffect",
-    "Argument": [
-      "MapLayout(Clone)/Panel_WorldMap/NodeRoot/29_MoveChapter/EffectRoot/VisitableObject",
-      " 0",
-      " UI.Common.Finger",
-      " 0",
-      " 0",
-      " 150",
-      " 100",
-      " True"
-    ]
-  },
-  {
-    "Index": 17000,
-    "Command": "WaitWidgetTouch",
-    "Argument": [
-      "MapLayout(Clone)/Panel_WorldMap/NodeRoot/29_MoveChapter/EffectRoot/VisitableObject",
-      " 0",
-      " 0",
-      " 0",
-      " 0",
-      " 0",
-      " True"
-    ]
-  },
-  {
-    "Index": 17000,
-    "Command": "ClearFocus"
-  },
-  {
-    "Index": 17000,
-    "Command": "ClearTooltip"
-  },
-  {
-    "Index": 17000,
-    "Command": "WorldMapPlayerMove",
-    "Argument": [
-      "1",
-      " 29",
-      " False"
-    ]
-  },
-  {
-    "Index": 17000,
-    "Command": "WaitTime",
-    "Argument": [
-      "0.5"
-    ]
-  },
-  {
-    "Index": 17000,
-    "Command": "FocusWidget",
-    "Argument": [
-      "NodeFunctionMenu(Clone)/MainButton/Button_MoveChapter",
-      " 0",
-      " 0",
-      " 0",
-      " 0",
-      " 0"
-    ]
-  },
-  {
-    "Index": 17000,
-    "Command": "FocusWidgetEffect",
-    "Argument": [
-      "NodeFunctionMenu(Clone)/MainButton/Button_MoveChapter",
-      " 0",
-      " UI.Common.Finger",
-      " 0",
-      " 0",
-      " 150",
-      " 100",
-      " True"
-    ]
-  },
-  {
-    "Index": 17000,
-    "Command": "WaitWidgetTouch",
-    "Argument": [
-      "NodeFunctionMenu(Clone)/MainButton/Button_MoveChapter",
-      " 0",
-      " 0",
-      " 0",
-      " 0",
-      " 0",
-      " True"
-    ]
-  },
-  {
-    "Index": 17000,
-    "Command": "ClearFocus"
-  },
-  {
-    "Index": 17000,
-    "Command": "ClearTooltip"
-  },
-  {
-    "Index": 17000,
     "Command": "NextTutorial",
     "Argument": [
       "17001"
@@ -19558,18 +19432,6 @@
     "Argument": [
       "0.5"
     ]
-  },
-  {
-    "Index": 17001,
-    "ReqIndex": "\ucef7\uc52c",
-    "Command": "PlayCutScene",
-    "Argument": [
-      "CutScene/CH2_Main_1"
-    ]
-  },
-  {
-    "Index": 17001,
-    "Command": "WaitCutScene"
   },
   {
     "Index": 17001,
@@ -19728,7 +19590,7 @@
     "ReqIndex": "\uc6d4\ub4dc\ub9f5 \uc624\ud508",
     "Command": "WaitTime",
     "Argument": [
-      "2"
+      "1"
     ]
   },
   {
@@ -19747,7 +19609,7 @@
     "Argument": [
       "Center",
       " 0",
-      " 300",
+      " 0",
       " 2000",
       " 100",
       " TUTORIAL_TEXT_328"
@@ -19758,8 +19620,8 @@
     "Command": "FocusAreaEffect",
     "Argument": [
       "UI.Common.Finger",
-      " 750",
-      " 300",
+      " 800",
+      " -50",
       " 0",
       " 100",
       " True"
@@ -19797,6 +19659,17 @@
   },
   {
     "Index": 17001,
+    "Command": "MovePortalChapter",
+    "Argument": [
+      "0.3",
+      " 2",
+      " -568",
+      " -220",
+      " False"
+    ]
+  },
+  {
+    "Index": 17001,
     "Command": "FocusWidget",
     "Argument": [
       "PortalSelect3(Clone)/MapRoot/PortalComponentLarge(Clone)",
@@ -19813,7 +19686,7 @@
     "Argument": [
       "Center",
       " 0",
-      " 300",
+      " -300",
       " 2000",
       " 100",
       " TUTORIAL_TEXT_329"
@@ -19824,8 +19697,8 @@
     "Command": "FocusAreaEffect",
     "Argument": [
       "UI.Common.Finger",
-      " 750",
-      " 300",
+      " 800",
+      " -350",
       " 0",
       " 100",
       " True"
@@ -20005,6 +19878,319 @@
   },
   {
     "Index": 17001,
+    "ReqIndex": "\uc624\ub974\ubca8",
+    "Command": "FocusWidgetMove",
+    "Argument": [
+      "MapLayout(Clone)/Panel_WorldMap/PrefabPropRoot/DefaultLabel_1(Clone)",
+      "3",
+      "0",
+      "-300"
+    ]
+  },
+  {
+    "Index": 17001,
+    "Command": "FocusWidget",
+    "Argument": [
+      "MapLayout(Clone)/Panel_WorldMap/PrefabPropRoot/DefaultLabel_1(Clone)",
+      "3",
+      "0",
+      "0",
+      "0",
+      "-50"
+    ]
+  },
+  {
+    "Index": 17001,
+    "Command": "ShowTooltip2",
+    "Argument": [
+      "Center",
+      " 0",
+      " -300",
+      " 2000",
+      " 100",
+      " TUTORIAL_TEXT_381"
+    ]
+  },
+  {
+    "Index": 17001,
+    "Command": "FocusAreaEffect",
+    "Argument": [
+      "UI.Common.Finger",
+      " 800",
+      " -350",
+      " 0",
+      " 100",
+      " True"
+    ]
+  },
+  {
+    "Index": 17001,
+    "Command": "WaitTouch"
+  },
+  {
+    "Index": 17001,
+    "Command": "ClearFocus"
+  },
+  {
+    "Index": 17001,
+    "Command": "ClearTooltip"
+  },
+  {
+    "Index": 17001,
+    "ReqIndex": "\uc9c0\ud558\uac10\uc625",
+    "Command": "FocusWidgetMove",
+    "Argument": [
+      "MapLayout(Clone)/Panel_WorldMap/PrefabPropRoot/DefaultLabel_1(Clone)",
+      "4",
+      "0",
+      "-200"
+    ]
+  },
+  {
+    "Index": 17001,
+    "Command": "FocusWidget",
+    "Argument": [
+      "MapLayout(Clone)/Panel_WorldMap/PrefabPropRoot/DefaultLabel_1(Clone)",
+      "4",
+      "0",
+      "0",
+      "0",
+      "-50"
+    ]
+  },
+  {
+    "Index": 17001,
+    "Command": "ShowTooltip2",
+    "Argument": [
+      "Center",
+      " 0",
+      " -300",
+      " 2000",
+      " 100",
+      " TUTORIAL_TEXT_382"
+    ]
+  },
+  {
+    "Index": 17001,
+    "Command": "FocusAreaEffect",
+    "Argument": [
+      "UI.Common.Finger",
+      " 800",
+      " -350",
+      " 0",
+      " 100",
+      " True"
+    ]
+  },
+  {
+    "Index": 17001,
+    "Command": "WaitTouch"
+  },
+  {
+    "Index": 17001,
+    "Command": "ClearFocus"
+  },
+  {
+    "Index": 17001,
+    "Command": "ClearTooltip"
+  },
+  {
+    "Index": 17001,
+    "ReqIndex": "\uc601\uc6c5\uc758 \uc5ec\uad00",
+    "Command": "FocusWidgetMove",
+    "Argument": [
+      "MapLayout(Clone)/Panel_WorldMap/PrefabPropRoot/DefaultLabel_1(Clone)",
+      "6",
+      "0",
+      "-200"
+    ]
+  },
+  {
+    "Index": 17001,
+    "Command": "FocusWidget",
+    "Argument": [
+      "MapLayout(Clone)/Panel_WorldMap/PrefabPropRoot/DefaultLabel_1(Clone)",
+      "6",
+      "0",
+      "0",
+      "0",
+      "-50"
+    ]
+  },
+  {
+    "Index": 17001,
+    "Command": "ShowTooltip2",
+    "Argument": [
+      "Center",
+      " 0",
+      " -300",
+      " 2000",
+      " 100",
+      " TUTORIAL_TEXT_383"
+    ]
+  },
+  {
+    "Index": 17001,
+    "Command": "FocusAreaEffect",
+    "Argument": [
+      "UI.Common.Finger",
+      " 800",
+      " -350",
+      " 0",
+      " 100",
+      " True"
+    ]
+  },
+  {
+    "Index": 17001,
+    "Command": "WaitTouch"
+  },
+  {
+    "Index": 17001,
+    "Command": "ShowTooltip2",
+    "Argument": [
+      "Center",
+      " 0",
+      " -300",
+      " 2000",
+      " 100",
+      " TUTORIAL_TEXT_384"
+    ]
+  },
+  {
+    "Index": 17001,
+    "Command": "FocusAreaEffect",
+    "Argument": [
+      "UI.Common.Finger",
+      " 800",
+      " -350",
+      " 0",
+      " 100",
+      " True"
+    ]
+  },
+  {
+    "Index": 17001,
+    "Command": "WaitTouch"
+  },
+  {
+    "Index": 17001,
+    "Command": "ClearFocus"
+  },
+  {
+    "Index": 17001,
+    "Command": "ClearTooltip"
+  },
+  {
+    "Index": 17001,
+    "ReqIndex": "\uc885\ud569 \uc0c1\uc810",
+    "Command": "FocusWidgetMove",
+    "Argument": [
+      "MapLayout(Clone)/Panel_WorldMap/PrefabPropRoot/DefaultLabel_1(Clone)",
+      "7",
+      "0",
+      "-200"
+    ]
+  },
+  {
+    "Index": 17001,
+    "Command": "FocusWidget",
+    "Argument": [
+      "MapLayout(Clone)/Panel_WorldMap/PrefabPropRoot/DefaultLabel_1(Clone)",
+      "7",
+      "0",
+      "0",
+      "0",
+      "-50"
+    ]
+  },
+  {
+    "Index": 17001,
+    "Command": "ShowTooltip2",
+    "Argument": [
+      "Center",
+      " 0",
+      " -300",
+      " 2000",
+      " 100",
+      " TUTORIAL_TEXT_385"
+    ]
+  },
+  {
+    "Index": 17001,
+    "Command": "FocusAreaEffect",
+    "Argument": [
+      "UI.Common.Finger",
+      " 800",
+      " -350",
+      " 0",
+      " 100",
+      " True"
+    ]
+  },
+  {
+    "Index": 17001,
+    "Command": "WaitTouch"
+  },
+  {
+    "Index": 17001,
+    "Command": "ClearFocus"
+  },
+  {
+    "Index": 17001,
+    "Command": "ClearTooltip"
+  },
+  {
+    "Index": 17001,
+    "ReqIndex": "\uba54\uc778\ubbf8\uc158 \uac15\uc870",
+    "Command": "FocusWidget",
+    "Argument": [
+      "MainQuestGuideMenu(Clone)/Container",
+      " 0",
+      " 0",
+      " 0",
+      " 0",
+      " 0"
+    ]
+  },
+  {
+    "Index": 17001,
+    "Command": "ShowTooltip2",
+    "Argument": [
+      "Center",
+      " 0",
+      " 0",
+      " 2000",
+      " 100",
+      " TUTORIAL_TEXT_386"
+    ]
+  },
+  {
+    "Index": 17001,
+    "Command": "FocusAreaEffect",
+    "Argument": [
+      "UI.Common.Finger",
+      " 800",
+      " -50",
+      " 0",
+      " 100",
+      " True"
+    ]
+  },
+  {
+    "Index": 17001,
+    "Command": "WaitTouch"
+  },
+  {
+    "Index": 17001,
+    "Command": "ClearFocus"
+  },
+  {
+    "Index": 17001,
+    "Command": "ClearTooltip"
+  },
+  {
+    "Index": 17001,
     "Command": "NextTutorial",
     "Argument": [
       "20001"
@@ -20092,12 +20278,12 @@
     "Index": 20001,
     "Command": "NextTutorial",
     "Argument": [
-      "2161"
-    ]
+      "2162"
+    ],
+    "RewardIndex": 81006
   },
   {
     "Index": 2161,
-    "ReqIndex": 20001,
     "Command": "OpenMenuOpenPopup",
     "Argument": [
       "514",
@@ -20167,17 +20353,8 @@
     ]
   },
   {
-    "Index": 2161,
-    "Command": "NextTutorial",
-    "Argument": [
-      "2162"
-    ],
-    "RewardIndex": 81006,
-    "HideRewardPopup": "True"
-  },
-  {
     "Index": 2162,
-    "ReqIndex": 2161,
+    "ReqIndex": 20001,
     "Command": "ReserveLobbyPopup",
     "Argument": [
       "GetNewHero2"
@@ -20192,7 +20369,6 @@
   },
   {
     "Index": 20000,
-    "ReqIndex": "\uc0ac\uc6a9\uc548\ud568",
     "Command": "PlayCutScene",
     "Argument": [
       "CutScene/CH2_Main_1"
@@ -20200,7 +20376,6 @@
   },
   {
     "Index": 20000,
-    "ReqIndex": "\uc0ac\uc6a9\uc548\ud568",
     "Command": "WaitCutScene"
   },
   {
@@ -26173,6 +26348,161 @@
   {
     "Index": 515,
     "Command": "WaitCutScene"
+  },
+  {
+    "Index": 516,
+    "Command": "PlayCutScene",
+    "Argument": [
+      "CutScene/Event/Valentine2020/E_V1_Main_Pro"
+    ]
+  },
+  {
+    "Index": 516,
+    "Command": "WaitCutScene"
+  },
+  {
+    "Index": 517,
+    "Command": "PlayCutScene",
+    "Argument": [
+      "CutScene/Event/Valentine2020/E_V1_NPC_Juno_1"
+    ]
+  },
+  {
+    "Index": 517,
+    "Command": "WaitCutScene"
+  },
+  {
+    "Index": 517,
+    "Command": "ClearTooltip",
+    "RewardIndex": 900112
+  },
+  {
+    "Index": 518,
+    "Command": "PlayCutScene",
+    "Argument": [
+      "CutScene/Event/Valentine2020/E_V1_NPC_Nicky_1"
+    ]
+  },
+  {
+    "Index": 518,
+    "Command": "WaitCutScene"
+  },
+  {
+    "Index": 518,
+    "Command": "ClearTooltip",
+    "RewardIndex": 900112
+  },
+  {
+    "Index": 519,
+    "Command": "PlayCutScene",
+    "Argument": [
+      "CutScene/Event/Valentine2020/E_V1_NPC_Gladi_1"
+    ]
+  },
+  {
+    "Index": 519,
+    "Command": "WaitCutScene"
+  },
+  {
+    "Index": 519,
+    "Command": "ClearTooltip",
+    "RewardIndex": 900112
+  },
+  {
+    "Index": 520,
+    "Command": "PlayCutScene",
+    "Argument": [
+      "CutScene/Event/Valentine2020/E_V1_NPC_Roman_1"
+    ]
+  },
+  {
+    "Index": 520,
+    "Command": "WaitCutScene"
+  },
+  {
+    "Index": 520,
+    "Command": "ClearTooltip",
+    "RewardIndex": 900112
+  },
+  {
+    "Index": 521,
+    "Command": "PlayCutScene",
+    "Argument": [
+      "CutScene/Event/Valentine2020/E_V1_NPC_May_1"
+    ]
+  },
+  {
+    "Index": 521,
+    "Command": "WaitCutScene"
+  },
+  {
+    "Index": 521,
+    "Command": "ClearTooltip",
+    "RewardIndex": 900112
+  },
+  {
+    "Index": 522,
+    "Command": "PlayCutScene",
+    "Argument": [
+      "CutScene/Event/Valentine2020/E_V1_NPC_Veronica_1"
+    ]
+  },
+  {
+    "Index": 522,
+    "Command": "WaitCutScene"
+  },
+  {
+    "Index": 522,
+    "Command": "ClearTooltip",
+    "RewardIndex": 900112
+  },
+  {
+    "Index": 524,
+    "Command": "PlayCutScene",
+    "Argument": [
+      "CutScene/Event/Valentine2020/E_V1_NPC_Hanus_1"
+    ]
+  },
+  {
+    "Index": 524,
+    "Command": "WaitCutScene"
+  },
+  {
+    "Index": 524,
+    "Command": "ClearTooltip",
+    "RewardIndex": 900112
+  },
+  {
+    "Index": 525,
+    "Command": "PlayCutScene",
+    "Argument": [
+      "CutScene/Event/Valentine2020/E_V1_NPC_Dosarta_1"
+    ]
+  },
+  {
+    "Index": 525,
+    "Command": "WaitCutScene"
+  },
+  {
+    "Index": 525,
+    "Command": "ClearTooltip",
+    "RewardIndex": 900112
+  },
+  {
+    "Index": 526,
+    "Command": "PlayCutScene",
+    "Argument": [
+      "CutScene/Event/Valentine2020/E_V1_NPC_Kain_1"
+    ]
+  },
+  {
+    "Index": 526,
+    "Command": "WaitCutScene"
+  },
+  {
+    "Index": 526,
+    "Command": "ClearTooltip",
+    "RewardIndex": 900112
   },
   {
     "Index": 7000,

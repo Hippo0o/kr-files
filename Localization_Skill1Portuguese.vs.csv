@@ -35,7 +35,7 @@ SKILL_DESC_91000612,[Colisão] Reduz a Resistência a CM do alvo em 250 e o Bloq
 SKILL_DESC_91000613,[Colisão] Reduz a Resistência a CM do alvo em 250 e o Bloq. F. em 350 por 10 seg.
 SKILL_DESC_91000614,[Colisão] Reduz a Resistência a CM do alvo em 250 e o Bloq. F. em 420 por 10 seg.
 SKILL_DESC_91000615,[Colisão] Reduz a Resistência a CM do alvo em 250 e o Bloq. F. em 500 por 10 seg.
-SKILL_DESC_91000710,[Fogo Rápido] Aumenta o DAN em 50% e aumenta DAN F. recebido em 10% por 10 seg.
+SKILL_DESC_91000710,[Fogo Rápido] Aumenta o DANO em {1}% e recupera {2} de PM em caso de acerto crítico.
 SKILL_DESC_91000711,[Fogo Rápido] Aumenta o DAN em 50% e aumenta DAN F. recebido em 12% por 10 seg.
 SKILL_DESC_91000712,[Fogo Rápido] Aumenta o DAN em 50% e aumenta DAN F. recebido em 14% por 10 seg.
 SKILL_DESC_91000713,[Fogo Rápido] Aumenta o DAN em 50% e aumenta DAN F. recebido em 17% por 10 seg.
@@ -113,7 +113,7 @@ SKILL_DESC_91002012,[Penetração] Aumenta a PREC em 750 e a PREC CM em 430 enqu
 SKILL_DESC_91002013,[Penetração] Aumenta a PREC em 750 e a PREC CM em 520 enquanto a habilidade durar.
 SKILL_DESC_91002014,[Penetração] Aumenta a PREC em 750 e a PREC CM em 630 enquanto a habilidade durar.
 SKILL_DESC_91002015,[Penetração] Aumenta a PREC em 750 e a PREC CM em 750 enquanto a habilidade durar.
-SKILL_DESC_91002110,[Ventos Tenazes] Aumenta o DAN em 50% e reduz a Esquiva F. do alvo em 200 por 10 seg.
+SKILL_DESC_91002110,[Ventos Tenazes] Aumenta o DANO em 50% e reduz {1} de PM em caso de acerto crítico.
 SKILL_DESC_91002111,[Ventos Tenazes] Aumenta o DAN em 50% e reduz a Esquiva F. do alvo em 240 por 10 seg.
 SKILL_DESC_91002112,[Ventos Tenazes] Aumenta o DAN em 50% e reduz a Esquiva F. do alvo em 290 por 10 seg.
 SKILL_DESC_91002113,[Ventos Tenazes] Aumenta o DAN em 50% e reduz a Esquiva F. do alvo em 350 por 10 seg.
@@ -504,7 +504,7 @@ SKILL_DESC_91000632,"[Encarnado na Terra] Durante o efeito do poder, a Vel de AT
 SKILL_DESC_91000633,"[Encarnado na Terra] Durante o efeito do poder, a Vel de ATQ e Chance de Crit aumentam em 250, e o reforço de DEF aumenta em 35%."
 SKILL_DESC_91000634,"[Encarnado na Terra] Durante o efeito do poder, a Vel de ATQ e Chance de Crit aumentam em 250, e o reforço de DEF aumenta em 42%."
 SKILL_DESC_91000635,"[Encarnado na Terra] Durante o efeito do poder, a Vel de ATQ e Chance de Crit aumentam em 250, e o reforço de DEF aumenta em 50%."
-SKILL_DESC_91000730,"[Bomba de Cola] Aumenta o DAN em 50% e, após um Golpe Crit, recupera 200 de mana."
+SKILL_DESC_91000730,[Bomba de Cola] Aumenta o DANO em {1}% e reduz a RCP do alvo atingido em {3}% por {2}s.
 SKILL_DESC_91000731,"[Bomba de Cola] Aumenta o DAN em 50% e, após um Golpe Crit, recupera 240 de mana."
 SKILL_DESC_91000732,"[Bomba de Cola] Aumenta o DAN em 50% e, após um Golpe Crit, recupera 290 de mana."
 SKILL_DESC_91000733,"[Bomba de Cola] Aumenta o DAN em 50% e, após um Golpe Crit, recupera 350 de mana."
@@ -582,7 +582,7 @@ SKILL_DESC_91002032,[Fortaleza de Aço] Reduz o custo de mana em 1 e a duração
 SKILL_DESC_91002033,"[Fortaleza de Aço] Reduz o custo de mana em 1 e a duração do Atordoamento do ataque com salvo aumenta em 2,5 segundos."
 SKILL_DESC_91002034,[Fortaleza de Aço] Reduz o custo de mana em 1 e a duração do Atordoamento do ataque com salvo aumenta em 3 segundos.
 SKILL_DESC_91002035,"[Fortaleza de Aço] Reduz o custo de mana em 1 e a duração do Atordoamento do ataque com salvo aumenta em 3,5 segundos."
-SKILL_DESC_91002130,[Bomba Submersa] Reduz a recarga do poder em 30% e o alvo recebe mais 10% de DAN.F por 10 segundos.
+SKILL_DESC_91002130,[Bomba de Submersão] Reduz o custo de PM em 1 e aumenta o DANO em {1}%.
 SKILL_DESC_91002131,[Bomba Submersa] Reduz a recarga do poder em 30% e o alvo recebe mais 12% de DAN.F por 10 segundos.
 SKILL_DESC_91002132,[Bomba Submersa] Reduz a recarga do poder em 30% e o alvo recebe mais 14% de DAN.F por 10 segundos.
 SKILL_DESC_91002133,[Bomba Submersa] Reduz a recarga do poder em 30% e o alvo recebe mais 17% de DAN.F por 10 segundos.
@@ -1051,7 +1051,7 @@ SKILL_DESC_91002022,[Vontade de Vencer] Aumenta o DAN em 50% e a Vulnerabilidade
 SKILL_DESC_91002023,[Vontade de Vencer] Aumenta o DAN em 50% e a Vulnerabilidade F. do alvo em 17% por 10s.
 SKILL_DESC_91002024,[Vontade de Vencer] Aumenta o DAN em 50% e a Vulnerabilidade F. do alvo em 21% por 10s.
 SKILL_DESC_91002025,[Vontade de Vencer] Aumenta o DAN em 50% e a Vulnerabilidade F. do alvo em 25% por 10s.
-SKILL_DESC_91002120,[Leitura do Vento] Aumenta o Impulso de ATQ em 50% e a Esquiva M. em 100.
+SKILL_DESC_91002120,[Leitura do Vento] Torna todos os efeitos irremovíveis e recupera {1}% do seu PV Máx quando ativado.
 SKILL_DESC_91002121,[Leitura do Vento] Aumenta o Impulso de ATQ em 50% e a Esquiva M. em 120.
 SKILL_DESC_91002122,[Leitura do Vento] Aumenta o Impulso de ATQ em 50% e a Esquiva M. em 140.
 SKILL_DESC_91002123,[Leitura do Vento] Aumenta o Impulso de ATQ em 50% e a Esquiva M. em 170.
@@ -1520,7 +1520,7 @@ SKILL_DESC_91002042,[Ponta de Lança] Aumenta o impulso de DEF em 50%. Todos os 
 SKILL_DESC_91002043,[Ponta de Lança] Aumenta o impulso de DEF em 50%. Todos os aliados têm sua Resistência a Crít F. aumentada em 170.
 SKILL_DESC_91002044,[Ponta de Lança] Aumenta o impulso de DEF em 50%. Todos os aliados têm sua Resistência a Crít F. aumentada em 210.
 SKILL_DESC_91002045,[Ponta de Lança] Aumenta o impulso de DEF em 50%. Todos os aliados têm sua Resistência a Crít F. aumentada em 250.
-SKILL_DESC_91002140,[Ataque Giratório] Reduz o Bloq F. do alvo em 500 e a Esquiva F. em 200 por 10 seg.
+SKILL_DESC_91002140,"[Ataque Giratório] Aumenta a chance de causar DANO adicional em {1}% e, quando ativado em Batalha de Guilda, causa DANO F adicional equivalente a {2}% do PV Máx do adversário."
 SKILL_DESC_91002141,[Ataque Giratório] Reduz o Bloq F. do alvo em 500 e a Esquiva F. em 240 por 10 seg.
 SKILL_DESC_91002142,[Ataque Giratório] Reduz o Bloq F. do alvo em 500 e a Esquiva F. em 290 por 10 seg.
 SKILL_DESC_91002143,[Ataque Giratório] Reduz o Bloq F. do alvo em 500 e a Esquiva F. em 350 por 10 seg.

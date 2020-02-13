@@ -11,8 +11,8 @@ MATCH.RANK_POSTFIX_2,nd
 MATCH.RANK_POSTFIX_3,rd
 BUY,Buy
 NUMBER_COUNT,{1} time(s)
-NICK_VALID_MESSAGE,[00FF00]Can use this nickname.
-NICK_INVALID_MESSAGE,[FF0000]Cannot use this nickname.
+NICK_VALID_MESSAGE,[00FF00]This nickname is available.
+NICK_INVALID_MESSAGE,[FF0000]This nickname is unavailable.
 NICK_CONFIRM_TITLE,Use Nickname
 NICK_CONFIRM_MESSAGE,Do you want to use this nickname?\n[FFFF00]{1}[-]
 LOGIN_BY_GUEST,Log in as Guest
@@ -708,7 +708,7 @@ REWARD_CHOICE,Select one
 CLASS_TRIAL_FORCE_OPEN,Force Open
 CHALLENGE_TRIAL_HERO_SELECT,Select a hero to undertake the awakening ordeal.
 TRIAL_CONTINUE,Continue
-ENTER_DUNGEON_ITEM_DESC,Unseal the door to enter the Room of Ordeals.
+ENTER_DUNGEON_ITEM_DESC,Unseal the gate to enter the Room of Ordeals.
 HERO_PURIFY_DESC,Purify the inner darkness.\nTo become stronger...\n - Lua -
 CLASS_TRIAL_SELECT,Select Ordeal
 TOUCH_SCREEN_CLOSE_WINDOW,Tap anywhere on the screen to continue.

@@ -604,5 +604,30 @@
       "Touch"
     ],
     "EventOnly": 1
+  },
+  {
+    "Index": 33,
+    "Code": "2020_Valentine_Shop",
+    "BuyCostType": "EventDungeonPoint",
+    "BuyCostTypeUI": [
+      "EventDungeonPoint",
+      "EventDungeonPoint2"
+    ],
+    "BuyCostTypeIconSprite": [
+      "EVENT_20VALENTINE_REWARD_TOKEN_ICON",
+      "EVENT_20VALENTINE_REWARD_CHOCOLATE_ICON"
+    ],
+    "Timeline": [
+      "SHOP_DEFAULT"
+    ],
+    "Buyline": [
+      "NPC_ANNETTE_BUY01",
+      "Victory.Hero.Annette",
+      "InnReaction",
+      "NPC_ANNETTE_BUY02",
+      "Victory.Hero.Annette",
+      "InnReaction"
+    ],
+    "EventOnly": 1
   }
 ]

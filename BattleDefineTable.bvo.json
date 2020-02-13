@@ -1035,5 +1035,20 @@
       "Lose"
     ],
     "BattleMenu": "TimeStatus, SystemButtonAuto, Retry, WaveStatus, LootingStatus, DamageMeter, HeroParty, Hud, BoosterStatus, QuestStatus, Chat, EmoticonPopup"
+  },
+  {
+    "Code": "Campaign_SubStoryBoss_OP",
+    "MaxTime": 90,
+    "AutoRepeatStarCount": 1,
+    "ApplyLevelPenalty": "FALSE",
+    "HPPercent": "TRUE",
+    "DamageMeterFlag": "ShowAllPlayer",
+    "RetryCondition": [
+      "Win",
+      "Lose"
+    ],
+    "BattleMenu": "TimeStatus, SystemButton, SystemButtonAuto, WaveStatus, LootingStatus, Retry, DamageMeter, HeroParty, Hud, BoosterStatus, QuestStatus, Chat",
+    "IgnoreDropItem": "TRUE",
+    "SkillCameraOff": "TRUE"
   }
 ]

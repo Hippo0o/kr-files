@@ -1068,7 +1068,7 @@
     "Name": "TOWN_TEXT",
     "Type": "City",
     "IsOpen": "TRUE",
-    "Map": "Town2_NewYear2020",
+    "Map": "Town2",
     "MapSizeX": 4096,
     "MapSizeY": 3085,
     "StartNodeIndex": 1,
@@ -3637,6 +3637,21 @@
     "StaminaType": "EventDungeonGoldKey"
   },
   {
+    "Index": 30034,
+    "Name": "20SPRING_FESTIVAL_DUNGEON",
+    "Type": "Event",
+    "IsOpen": "TRUE",
+    "Map": "Map01",
+    "MapSizeX": 4096,
+    "MapSizeY": 4096,
+    "UserStatType": [
+      "EventDungeonPoint",
+      "EventDungeonPoint2"
+    ],
+    "StaminaType": "Chicken",
+    "SubStaminaType": "EventDungeonTicket"
+  },
+  {
     "Index": 100016,
     "Name": "SUBSTORY_DUNGEON_TITLE16",
     "Type": "WorldMap",
@@ -3714,6 +3729,22 @@
     ],
     "StaminaType": "None",
     "BgmCode": "Submain.Theme_Sad",
+    "AvatarScale": 80
+  },
+  {
+    "Index": 100049,
+    "Name": "SUBSTORY_DUNGEON_TITLE49",
+    "Type": "WorldMap",
+    "NodeOpenEffect": "TRUE",
+    "IsOpen": "TRUE",
+    "Map": "SubStory4",
+    "MapSizeX": 2048,
+    "MapSizeY": 2048,
+    "UserStatType": [
+      "Gold"
+    ],
+    "StaminaType": "None",
+    "BgmCode": "Submain.Theme_Nomal",
     "AvatarScale": 80
   },
   {

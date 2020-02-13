@@ -121,7 +121,7 @@
     "OperationType1": "ModDodgeChance",
     "OperationTargetType1": "Myself",
     "OperationValue1": [
-      "50"
+      "150"
     ],
     "OperationState1": "TanyaHide",
     "OperationDurationMs1": 10000,
@@ -129,7 +129,7 @@
     "OperationType2": "ModCriticalChance",
     "OperationTargetType2": "Parent",
     "OperationValue2": [
-      "50"
+      "150"
     ],
     "OperationState2": "TanyaHide_2",
     "OperationDurationMs2": 10000,
@@ -259,14 +259,12 @@
     "DeadTarget": "False",
     "IgnoreBlock": "TRUE",
     "RetargetOnFire": "False",
-    "OperationType1": "ModSkill",
+    "OperationType1": "ModSkillPowerR",
     "OperationTargetType1": "Myself",
     "OperationValue1": [
       "3715",
       "1",
-      "CriticalChance",
-      "250",
-      "0"
+      "250"
     ],
     "OperationConditionType1": "None"
   },
@@ -317,7 +315,8 @@
       "1000"
     ],
     "TickTimeValue": [
-      "100[1:2:3:4]"
+      "0[3]",
+      "100[1:2:4]"
     ],
     "AttrType": "Physical",
     "TargetType": "MinPhysicalDefenseEnemy",
@@ -350,13 +349,16 @@
     "OperationFlags2": [
       "HasParent"
     ],
-    "OperationType3": "Stun",
-    "OperationTargetType3": "Parent",
-    "OperationState3": "Stun",
-    "OperationDurationMs3": 6000,
-    "OperationParent3": 1,
+    "OperationType3": "ModSkill",
+    "OperationTargetType3": "Myself",
+    "OperationValue3": [
+      "3715",
+      "1",
+      "CriticalPower",
+      "1500"
+    ],
+    "OperationDurationMs3": 1000,
     "OperationFlags3": [
-      "HasParent",
       "Disabled"
     ],
     "OperationType4": "UseSkill",
@@ -380,7 +382,7 @@
     "OperationType1": "ModDodgeChance",
     "OperationTargetType1": "Myself",
     "OperationValue1": [
-      "50"
+      "150"
     ],
     "OperationState1": "TanyaHide",
     "OperationDurationMs1": 10000,
@@ -400,7 +402,7 @@
     "OperationType3": "ModCriticalChance",
     "OperationTargetType3": "Myself",
     "OperationValue3": [
-      "50"
+      "150"
     ],
     "OperationState3": "TanyaHide_2",
     "OperationDurationMs3": 10000,
@@ -743,14 +745,12 @@
     "DeadTarget": "False",
     "IgnoreBlock": "TRUE",
     "RetargetOnFire": "False",
-    "OperationType1": "ModSkill",
+    "OperationType1": "ModSkillPowerR",
     "OperationTargetType1": "Myself",
     "OperationValue1": [
       "3720",
       "1",
-      "CriticalChance",
-      "250",
-      "0"
+      "250"
     ],
     "OperationConditionType1": "None"
   },
@@ -801,7 +801,7 @@
     "OperationType3": "ModDodgeChance",
     "OperationTargetType3": "Myself",
     "OperationValue3": [
-      "50"
+      "150"
     ],
     "OperationState3": "TanyaHide",
     "OperationDurationMs3": 10000,
@@ -811,7 +811,7 @@
     "OperationType4": "ModCriticalChance",
     "OperationTargetType4": "Myself",
     "OperationValue4": [
-      "50"
+      "150"
     ],
     "OperationState4": "TanyaHide_2",
     "OperationDurationMs4": 10000,
@@ -881,14 +881,12 @@
     "DeadTarget": "False",
     "IgnoreBlock": "TRUE",
     "RetargetOnFire": "False",
-    "OperationType1": "ModSkill",
+    "OperationType1": "ModSkillPowerR",
     "OperationTargetType1": "Myself",
     "OperationValue1": [
       "3734",
       "1",
-      "CriticalChance",
-      "250",
-      "0"
+      "250"
     ],
     "OperationConditionType1": "None",
     "OperationType2": "ModSkillPowerR",
@@ -896,9 +894,7 @@
     "OperationValue2": [
       "3734",
       "5",
-      "CriticalChance",
-      "250",
-      "0"
+      "250"
     ],
     "OperationConditionType2": "None"
   },
@@ -1023,7 +1019,7 @@
     "OperationType1": "Silence",
     "OperationTargetType1": "Target",
     "OperationState1": "Silence",
-    "OperationDurationMs1": 1000,
+    "OperationDurationMs1": 1500,
     "OperationConditionType1": "None",
     "OperationType2": "GetPhysicalDamageR",
     "OperationTargetType2": "Target",
@@ -1202,36 +1198,54 @@
     "DeadTarget": "False",
     "IgnoreBlock": "TRUE",
     "RetargetOnFire": "False",
-    "OperationType1": "ModSkill",
+    "OperationType1": "ModSkillPowerR",
     "OperationTargetType1": "Myself",
     "OperationValue1": [
       "3740",
-      "1",
-      "DurationMs",
-      "500",
-      "0"
+      "2",
+      "250"
     ],
     "OperationConditionType1": "None",
-    "OperationType2": "ModSkill",
+    "OperationType2": "ModSkillPowerR",
     "OperationTargetType2": "Myself",
     "OperationValue2": [
       "3744",
-      "1",
-      "DurationMs",
-      "500",
-      "0"
+      "2",
+      "250"
     ],
     "OperationConditionType2": "None",
-    "OperationType3": "ModSkill",
+    "OperationType3": "ModSkillPowerR",
     "OperationTargetType3": "Myself",
     "OperationValue3": [
       "3745",
-      "1",
-      "DurationMs",
-      "500",
-      "0"
+      "2",
+      "250"
     ],
-    "OperationConditionType3": "None"
+    "OperationConditionType3": "None",
+    "OperationType4": "ModSkillPowerR",
+    "OperationTargetType4": "Myself",
+    "OperationValue4": [
+      "3740",
+      "3",
+      "250"
+    ],
+    "OperationConditionType4": "None",
+    "OperationType5": "ModSkillPowerR",
+    "OperationTargetType5": "Myself",
+    "OperationValue5": [
+      "3744",
+      "4",
+      "250"
+    ],
+    "OperationConditionType5": "None",
+    "OperationType6": "ModSkillPowerR",
+    "OperationTargetType6": "Myself",
+    "OperationValue6": [
+      "3745",
+      "4",
+      "250"
+    ],
+    "OperationConditionType6": "None"
   },
   {
     "Index": 3744,
@@ -1251,7 +1265,7 @@
     "OperationType1": "Silence",
     "OperationTargetType1": "Target",
     "OperationState1": "Silence",
-    "OperationDurationMs1": 1000,
+    "OperationDurationMs1": 1500,
     "OperationConditionType1": "None",
     "OperationType2": "GetPhysicalDamageR",
     "OperationTargetType2": "Target",
@@ -1331,7 +1345,7 @@
     "OperationType1": "Silence",
     "OperationTargetType1": "Target",
     "OperationState1": "Silence",
-    "OperationDurationMs1": 1000,
+    "OperationDurationMs1": 1500,
     "OperationConditionType1": "None",
     "OperationType2": "GetPhysicalDamageR",
     "OperationTargetType2": "Target",
@@ -1409,6 +1423,12 @@
   },
   {
     "Index": 90000370,
+    "DescParam": [
+      "10",
+      "2",
+      "10",
+      "30"
+    ],
     "TriggerType": "OnWaveStart",
     "TriggerRatio": 1000,
     "AttrType": "Physical",
@@ -1420,7 +1440,7 @@
     "OperationType1": "ModDodgeChance",
     "OperationTargetType1": "Myself",
     "OperationValue1": [
-      "50"
+      "150"
     ],
     "OperationDelayMs1": [
       "100",
@@ -1433,7 +1453,7 @@
     "OperationType2": "ModCriticalChance",
     "OperationTargetType2": "Myself",
     "OperationValue2": [
-      "50"
+      "150"
     ],
     "OperationDelayMs2": [
       "100",
@@ -1459,10 +1479,21 @@
       "3717",
       "6"
     ],
-    "OperationDurationMs4": 9999999
+    "OperationDurationMs4": 9999999,
+    "OperationType5": "ModDodgeChance",
+    "OperationTargetType5": "Myself",
+    "OperationState5": "UniqueTanya2",
+    "OperationDurationMs5": 2000
   },
   {
     "Index": 90000371,
+    "ReplaceDescKey": "SKILL_DESC_90000370",
+    "DescParam": [
+      "10",
+      "2.4",
+      "10",
+      "36"
+    ],
     "TriggerType": "OnWaveStart",
     "TriggerRatio": 1000,
     "AttrType": "Physical",
@@ -1474,7 +1505,7 @@
     "OperationType1": "ModDodgeChance",
     "OperationTargetType1": "Myself",
     "OperationValue1": [
-      "50"
+      "150"
     ],
     "OperationDelayMs1": [
       "100",
@@ -1487,7 +1518,7 @@
     "OperationType2": "ModCriticalChance",
     "OperationTargetType2": "Myself",
     "OperationValue2": [
-      "50"
+      "150"
     ],
     "OperationDelayMs2": [
       "100",
@@ -1513,10 +1544,21 @@
       "3717",
       "6"
     ],
-    "OperationDurationMs4": 9999999
+    "OperationDurationMs4": 9999999,
+    "OperationType5": "ModDodgeChance",
+    "OperationTargetType5": "Myself",
+    "OperationState5": "UniqueTanya2",
+    "OperationDurationMs5": 2400
   },
   {
     "Index": 90000372,
+    "ReplaceDescKey": "SKILL_DESC_90000370",
+    "DescParam": [
+      "10",
+      "2.9",
+      "10",
+      "43"
+    ],
     "TriggerType": "OnWaveStart",
     "TriggerRatio": 1000,
     "AttrType": "Physical",
@@ -1528,7 +1570,7 @@
     "OperationType1": "ModDodgeChance",
     "OperationTargetType1": "Myself",
     "OperationValue1": [
-      "50"
+      "150"
     ],
     "OperationDelayMs1": [
       "100",
@@ -1541,7 +1583,7 @@
     "OperationType2": "ModCriticalChance",
     "OperationTargetType2": "Myself",
     "OperationValue2": [
-      "50"
+      "150"
     ],
     "OperationDelayMs2": [
       "100",
@@ -1567,10 +1609,21 @@
       "3717",
       "6"
     ],
-    "OperationDurationMs4": 9999999
+    "OperationDurationMs4": 9999999,
+    "OperationType5": "ModDodgeChance",
+    "OperationTargetType5": "Myself",
+    "OperationState5": "UniqueTanya2",
+    "OperationDurationMs5": 2900
   },
   {
     "Index": 90000373,
+    "ReplaceDescKey": "SKILL_DESC_90000370",
+    "DescParam": [
+      "10",
+      "3.5",
+      "10",
+      "52"
+    ],
     "TriggerType": "OnWaveStart",
     "TriggerRatio": 1000,
     "AttrType": "Physical",
@@ -1582,7 +1635,7 @@
     "OperationType1": "ModDodgeChance",
     "OperationTargetType1": "Myself",
     "OperationValue1": [
-      "50"
+      "150"
     ],
     "OperationDelayMs1": [
       "100",
@@ -1595,7 +1648,7 @@
     "OperationType2": "ModCriticalChance",
     "OperationTargetType2": "Myself",
     "OperationValue2": [
-      "50"
+      "150"
     ],
     "OperationDelayMs2": [
       "100",
@@ -1621,10 +1674,21 @@
       "3717",
       "6"
     ],
-    "OperationDurationMs4": 9999999
+    "OperationDurationMs4": 9999999,
+    "OperationType5": "ModDodgeChance",
+    "OperationTargetType5": "Myself",
+    "OperationState5": "UniqueTanya2",
+    "OperationDurationMs5": 3500
   },
   {
     "Index": 90000374,
+    "ReplaceDescKey": "SKILL_DESC_90000370",
+    "DescParam": [
+      "10",
+      "4.2",
+      "10",
+      "62"
+    ],
     "TriggerType": "OnWaveStart",
     "TriggerRatio": 1000,
     "AttrType": "Physical",
@@ -1636,7 +1700,7 @@
     "OperationType1": "ModDodgeChance",
     "OperationTargetType1": "Myself",
     "OperationValue1": [
-      "50"
+      "150"
     ],
     "OperationDelayMs1": [
       "100",
@@ -1649,7 +1713,7 @@
     "OperationType2": "ModCriticalChance",
     "OperationTargetType2": "Myself",
     "OperationValue2": [
-      "50"
+      "150"
     ],
     "OperationDelayMs2": [
       "100",
@@ -1675,10 +1739,21 @@
       "3717",
       "6"
     ],
-    "OperationDurationMs4": 9999999
+    "OperationDurationMs4": 9999999,
+    "OperationType5": "ModDodgeChance",
+    "OperationTargetType5": "Myself",
+    "OperationState5": "UniqueTanya2",
+    "OperationDurationMs5": 4200
   },
   {
     "Index": 90000375,
+    "ReplaceDescKey": "SKILL_DESC_90000370",
+    "DescParam": [
+      "10",
+      "5",
+      "10",
+      "75"
+    ],
     "TriggerType": "OnWaveStart",
     "TriggerRatio": 1000,
     "AttrType": "Physical",
@@ -1690,7 +1765,7 @@
     "OperationType1": "ModDodgeChance",
     "OperationTargetType1": "Myself",
     "OperationValue1": [
-      "50"
+      "150"
     ],
     "OperationDelayMs1": [
       "100",
@@ -1703,7 +1778,7 @@
     "OperationType2": "ModCriticalChance",
     "OperationTargetType2": "Myself",
     "OperationValue2": [
-      "50"
+      "150"
     ],
     "OperationDelayMs2": [
       "100",
@@ -1729,7 +1804,11 @@
       "3717",
       "6"
     ],
-    "OperationDurationMs4": 9999999
+    "OperationDurationMs4": 9999999,
+    "OperationType5": "ModDodgeChance",
+    "OperationTargetType5": "Myself",
+    "OperationState5": "UniqueTanya2",
+    "OperationDurationMs5": 5000
   },
   {
     "Index": 3500,
@@ -11165,15 +11244,15 @@
     "OperationTargetType2": "Target",
     "OperationRadiusMm2": 3000,
     "OperationValue2": [
-      "2039",
-      "464",
+      "3058",
+      "696",
       "IgnoreDefence"
     ],
     "OperationValueFactor2": [
       "0",
       "0",
       "5",
-      "464"
+      "696"
     ],
     "OperationDelayMs2": [
       "0",
@@ -11191,15 +11270,15 @@
     "OperationTargetType3": "Target",
     "OperationRadiusMm3": 3000,
     "OperationValue3": [
-      "2039",
-      "464",
+      "3058",
+      "696",
       "IgnoreDefence"
     ],
     "OperationValueFactor3": [
       "0",
       "0",
       "5",
-      "464"
+      "696"
     ],
     "OperationDelayMs3": [
       "0",
@@ -11431,7 +11510,7 @@
       "100",
       "0"
     ],
-    "OperationState8": "Positive2",
+    "OperationState8": "Nothing",
     "OperationDurationMs8": 30000,
     "OperationFlags8": [
       "Disabled"
@@ -11668,7 +11747,7 @@
     "OperationTargetType1": "Myself",
     "OperationValue1": [
       "Dragon",
-      "500",
+      "1000",
       "0"
     ],
     "OperationDelayMs1": [
@@ -11681,7 +11760,7 @@
     "OperationTargetType2": "Myself",
     "OperationValue2": [
       "Draconian",
-      "500",
+      "1000",
       "0"
     ],
     "OperationDelayMs2": [
@@ -22939,6 +23018,7 @@
       "300",
       "0"
     ],
+    "OperationState1": 4940,
     "OperationDurationMs1": 9999999,
     "OperationType2": "SetSkill",
     "OperationTargetType2": "Myself",

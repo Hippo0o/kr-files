@@ -35,7 +35,7 @@ SKILL_DESC_91000612,[Zusammenstoß] verringert 10 Sek. lang den Massenkontrolle-
 SKILL_DESC_91000613,[Zusammenstoß] verringert 10 Sek. lang den Massenkontrolle-Widerstand des Ziels um 250 und Körp. Blockieren um 350.
 SKILL_DESC_91000614,[Zusammenstoß] verringert 10 Sek. lang den Massenkontrolle-Widerstand des Ziels um 250 und Körp. Blockieren um 420.
 SKILL_DESC_91000615,[Zusammenstoß] verringert 10 Sek. lang den Massenkontrolle-Widerstand des Ziels um 250 und Körp. Blockieren um 500.
-SKILL_DESC_91000710,[Schnellfeuer] erhöht den Schaden um 50 % und erhöht den vom Ziel erlittenen Körp. Schaden 10 Sek. lang um 10 %.
+SKILL_DESC_91000710,[Schnellfeuer] erhöht den Schaden um {1} % und regeneriert pro Treffer {2} MP.
 SKILL_DESC_91000711,[Schnellfeuer] erhöht den Schaden um 50 % und erhöht den vom Ziel erlittenen Körp. Schaden 10 Sek. lang um 12 %.
 SKILL_DESC_91000712,[Schnellfeuer] erhöht den Schaden um 50 % und erhöht den vom Ziel erlittenen Körp. Schaden 10 Sek. lang um 14 %.
 SKILL_DESC_91000713,[Schnellfeuer] erhöht den Schaden um 50 % und erhöht den vom Ziel erlittenen Körp. Schaden 10 Sek. lang um 17 %.
@@ -113,7 +113,7 @@ SKILL_DESC_91002012,[Durchdringung] erhöht PRÄZ um 750 und Massenkontrolle-PR�
 SKILL_DESC_91002013,[Durchdringung] erhöht PRÄZ um 750 und Massenkontrolle-PRÄZ für die Dauer des Skills um 520.
 SKILL_DESC_91002014,[Durchdringung] erhöht PRÄZ um 750 und Massenkontrolle-PRÄZ für die Dauer des Skills um 630.
 SKILL_DESC_91002015,[Durchdringung] erhöht PRÄZ um 750 und Massenkontrolle-PRÄZ für die Dauer des Skills um 750.
-SKILL_DESC_91002110,[Wilder Wind] erhöht den Schaden um 50 % und verringert Körp. Ausweichen des Ziels 10 Sek. lang um 200.
+SKILL_DESC_91002110,[Wilder Wind] erhöht den Schaden um 50 % und verringert MP pro Treffer um {1}.
 SKILL_DESC_91002111,[Wilder Wind] erhöht den Schaden um 50 % und verringert Körp. Ausweichen des Ziels 10 Sek. lang um 240.
 SKILL_DESC_91002112,[Wilder Wind] erhöht den Schaden um 50 % und verringert Körp. Ausweichen des Ziels 10 Sek. lang um 290.
 SKILL_DESC_91002113,[Wilder Wind] erhöht den Schaden um 50 % und verringert Körp. Ausweichen des Ziels 10 Sek. lang um 350.
@@ -504,7 +504,7 @@ SKILL_DESC_91000632,"[Eins mit der Erde] erhöht eigene ANG-GESCHW. und Krit. Ch
 SKILL_DESC_91000633,"[Eins mit der Erde] erhöht eigene ANG-GESCHW. und Krit. Chance um 250, Körp. VERT-Boost erhöht sich um 35 % während der Wirkungsdauer."
 SKILL_DESC_91000634,"[Eins mit der Erde] erhöht eigene ANG-GESCHW. und Krit. Chance um 250, Körp. VERT-Boost erhöht sich um 42 % während der Wirkungsdauer."
 SKILL_DESC_91000635,"[Eins mit der Erde] erhöht eigene ANG-GESCHW. und Krit. Chance um 250, Körp. VERT-Boost erhöht sich um 50 % während der Wirkungsdauer."
-SKILL_DESC_91000730,[Leim-Bombe] erhöht den Schaden um 50 % und stellt bei Krit. Treffern 200 Mana wieder her.
+SKILL_DESC_91000730,[Leim-Bombe] erhöht den Schaden um {1} % und verringert die Regenerationsrate des getroffenen Gegners {2} Sek. lang um {3} %.
 SKILL_DESC_91000731,[Leim-Bombe] erhöht den Schaden um 50 % und stellt bei Krit. Treffern 240 Mana wieder her.
 SKILL_DESC_91000732,[Leim-Bombe] erhöht den Schaden um 50 % und stellt bei Krit. Treffern 290 Mana wieder her.
 SKILL_DESC_91000733,[Leim-Bombe] erhöht den Schaden um 50 % und stellt bei Krit. Treffern 350 Mana wieder her.
@@ -582,7 +582,7 @@ SKILL_DESC_91002032,[Stählerne Festung] verringert die Manakosten um 1 und erh�
 SKILL_DESC_91002033,"[Stählerne Festung] verringert die Manakosten um 1 und erhöht Betäubungsdauer des Sprungangriffs um 2,5 Sek."
 SKILL_DESC_91002034,[Stählerne Festung] verringert die Manakosten um 1 und erhöht Betäubungsdauer des Sprungangriffs um 3 Sek.
 SKILL_DESC_91002035,"[Stählerne Festung] verringert die Manakosten um 1 und erhöht Betäubungsdauer des Sprungangriffs um 3,5 Sek."
-SKILL_DESC_91002130,[Sturzflug] verringert Skill-Cooldown um 30 % und Ziel erleidet 10 Sek. lang 10 % mehr Körp. Schaden.
+SKILL_DESC_91002130,[Sturzflug] verringert die Manakosten um 1 und erhöht den Schaden um {1} %.
 SKILL_DESC_91002131,[Sturzflug] verringert Skill-Cooldown um 30 % und Ziel erleidet 10 Sek. lang 12 % mehr Körp. Schaden.
 SKILL_DESC_91002132,[Sturzflug] verringert Skill-Cooldown um 30 % und Ziel erleidet 10 Sek. lang 14 % mehr Körp. Schaden.
 SKILL_DESC_91002133,[Sturzflug] verringert Skill-Cooldown um 30 % und Ziel erleidet 10 Sek. lang 17 % mehr Körp. Schaden.
@@ -1051,7 +1051,7 @@ SKILL_DESC_91002022,[Siegeswille] erhöht den Schaden um 50 % und die Körp. Sc
 SKILL_DESC_91002023,[Siegeswille] erhöht den Schaden um 50 % und die Körp. Schaden des Ziels 17 Sek. lang um 10 %.
 SKILL_DESC_91002024,[Siegeswille] erhöht den Schaden um 50 % und die Körp. Schaden des Ziels 21 Sek. lang um 10 %.
 SKILL_DESC_91002025,[Siegeswille] erhöht den Schaden um 50 % und die Körp. Schaden des Ziels 25 Sek. lang um 10 %.
-SKILL_DESC_91002120,[Wind lesen] erhöht den ANG-Boost um 50 % und Mag. Ausweichen um 100.
+SKILL_DESC_91002120,[Wind lesen] kann keine Effekte mehr entfernen und heilt bei Aktivierung die eigenen TP um {1} % der max. TP.
 SKILL_DESC_91002121,[Wind lesen] erhöht den ANG-Boost um 50 % und Mag. Ausweichen um 120.
 SKILL_DESC_91002122,[Wind lesen] erhöht den ANG-Boost um 50 % und Mag. Ausweichen um 140.
 SKILL_DESC_91002123,[Wind lesen] erhöht den ANG-Boost um 50 % und Mag. Ausweichen um 170.
@@ -1520,7 +1520,7 @@ SKILL_DESC_91002042,[Speerspitze] erhöht den VERT-Boost um 50 %. Der Körp. Kr
 SKILL_DESC_91002043,[Speerspitze] erhöht den VERT-Boost um 50 %. Der Körp. Krit. Widerstand von allen Verbündeten wird um 170 erhöht.
 SKILL_DESC_91002044,[Speerspitze] erhöht den VERT-Boost um 50 %. Der Körp. Krit. Widerstand von allen Verbündeten wird um 210 erhöht.
 SKILL_DESC_91002045,[Speerspitze] erhöht den VERT-Boost um 50 %. Der Körp. Krit. Widerstand von allen Verbündeten wird um 250 erhöht.
-SKILL_DESC_91002140,[Tornadoschlag] verringert für 10 Sek. Körp. Blockieren des Ziels um 500 und Körp. Ausweichen um 200.
+SKILL_DESC_91002140,[Tornadoschlag] erhöht die Aktivierungschance für Extra-Schaden um {1} %. Im Gildenkrieg wird dem Gegner zusätzlicher Körp. Schaden um {2} % der max. gegn. TP zugefügt.
 SKILL_DESC_91002141,[Tornadoschlag] verringert für 10 Sek. Körp. Blockieren des Ziels um 500 und Körp. Ausweichen um 240.
 SKILL_DESC_91002142,[Tornadoschlag] verringert für 10 Sek. Körp. Blockieren des Ziels um 500 und Körp. Ausweichen um 290.
 SKILL_DESC_91002143,[Tornadoschlag] verringert für 10 Sek. Körp. Blockieren des Ziels um 500 und Körp. Ausweichen um 350.

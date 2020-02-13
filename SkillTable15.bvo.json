@@ -13621,13 +13621,13 @@
     "TriggerType": "None",
     "TriggerRatio": 1000,
     "CoolTimeMs": 18000,
-    "ActingTimeMs": 2600,
+    "ActingTimeMs": 2500,
     "SoloTimeMs": 700,
     "DurationTimeMs": [
       "2700"
     ],
     "TickTimeValue": [
-      "2600"
+      "2500"
     ],
     "AttrType": "Physical",
     "TargetType": "Enemy",
@@ -13645,6 +13645,11 @@
     "OperationValue1": [
       "2000"
     ],
+    "OperationDelayMs1": [
+      "0",
+      "0",
+      "100"
+    ],
     "OperationType2": "GetPhysicalDamageR",
     "OperationTargetType2": "Myself",
     "OperationAreaOffsetMm2": 6000,
@@ -13655,12 +13660,17 @@
     "OperationDelayMs2": [
       "0",
       "0",
-      "1500"
+      "1600"
     ],
     "OperationType3": "ModAttackSpeedR",
     "OperationTargetType3": "Myself",
     "OperationValue3": [
       "500"
+    ],
+    "OperationDelayMs3": [
+      "0",
+      "0",
+      "100"
     ],
     "OperationState3": "Pancironne_Soulweapon_Buff",
     "OperationDurationMs3": 8000,
@@ -13673,7 +13683,7 @@
     "OperationDelayMs4": [
       "0",
       "0",
-      "1500"
+      "1600"
     ],
     "OperationDurationMs4": 8000,
     "OperationType5": "CreateProjectile",
@@ -13685,7 +13695,7 @@
     "OperationDelayMs5": [
       "0",
       "0",
-      "1500"
+      "1600"
     ],
     "OperationDurationMs5": 12000,
     "OperationFlags5": [
@@ -13703,7 +13713,7 @@
     "OperationDelayMs6": [
       "0",
       "0",
-      "400"
+      "500"
     ]
   },
   {

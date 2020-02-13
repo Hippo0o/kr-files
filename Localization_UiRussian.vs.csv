@@ -1331,8 +1331,8 @@ COUPON_INPUT_MESSAGE,Введите номер купона.
 COUPON_NOTICE_MESSAGE,※ Этот купон уже использован.\n※ Награды отправлены вам на почту и будут храниться в течение 3 д.
 PROMOTION.USE_COUPON_SUCCESS,Проверьте почту на наличии наград-купонов.
 PLAYPOINT_REWARD_TITLE,Google Play Points
-PLAYPOINT_REWARD_CONTENT,Do you want to receive Google Play Points reward?
-PLAYPOINT_REWARD_WARNING,You will receive the reward in your Inventory
+PLAYPOINT_REWARD_CONTENT,"Желаете получить награду Google Play Points, рубины?"
+PLAYPOINT_REWARD_WARNING,Приобретенные рубины сиюминутно будут добавлены к имеющимся.
 GUEST_LOGIN_MESSAGE,Вы вошли как гость.
 NICK_NAME_CHANGE_DESC,Только первое изменение имени\nпользователя является бесплатным.
 NICK_NAME_CHANGE_MESSAGE,У вас нет билетов смены имени пользователя.
@@ -2293,7 +2293,7 @@ WORLDBOSS_INFO_PLAY_REWARD_DESC,"Все пользователи, участву
 WORLDBOSS_INFO_RANKING_REWARD_TITLE,Награда за личный рейтинг
 WORLDBOSS_INFO_RANKING_REWARD_DESC,Во время битвы с мировым боссом каждые 24 ч. в соответствии с рейтингом выдаются ежедн. награды.\nТакже выдаются ежедн. рейтинговые награды и сезонные награды и после победы над боссом.
 WORLDBOSS_INFO_KILL_REWARD_TITLE,Награда за устранение
-WORLDBOSS_INFO_KILL_REWARD_DESC,"Награда только для пользователя, убившего мирового босса.\nЭто купон на случайное спецоружие и 1000 рубинов."
+WORLDBOSS_INFO_KILL_REWARD_DESC,"Награда только для пользователя, убившего мирового босса.\nЭто Билет на случайное спецоружие и 1000 рубинов."
 WORLDBOSS_KILL_REWARD_DESC,Поздравляем! Вы одолели мирового босса.\nТолько вы получите эту награду за устранение мирового босса.\nНаграды будут отправлены на почту.
 WORLDBOSS_SCORE_RANK_TITLE,Рейтинг мировых боссов
 WORLD_BOSS.WORLDBOSS_MY_RANKING,({1} место)
@@ -2803,7 +2803,7 @@ TOOLTIP_INFO_NAME_HIDEOUTKEY,Ключ от Высшего Подземелья
 TOOLTIP_INFO_NAME_CHALLENGETOWERKEY,Куб вызова
 TOOLTIP_INFO_NAME_EVENTDUNGEONTICKET,Нити судьбы
 TOOLTIP_INFO_NAME_EVENTDUNGEONPOINT,Купон
-TOOLTIP_INFO_NAME_EVENTDUNGEONPOINT2,Праздничные шарики
+TOOLTIP_INFO_NAME_EVENTDUNGEONPOINT2,Шоколадные шарики
 TOOLTIP_INFO_NAME_EVENTDUNGEONTICKET_BACKUP,Ключ Подземелья 'Хеллоуин'
 TOOLTIP_INFO_NAME_EVENTDUNGEONPOINT_BACKUP,'Хеллоуин' очки
 TOOLTIP_INFO_NAME_CONQUESTKEY,Ключ завоевания
@@ -2825,8 +2825,8 @@ TOOLTIP_INFO_TEXT_UNDERGROUNDLABYRINTHKEY,"Ключи, требуемые для
 TOOLTIP_INFO_TEXT_HIDEOUTKEY,"Ключи, требуемые для входа в Высшее Подземелье"
 TOOLTIP_INFO_TEXT_CHALLENGETOWERKEY,"Кубы, требуемые для входа в Башню Вызова."
 TOOLTIP_INFO_TEXT_EVENTDUNGEONTICKET,"Ключи, требуемые для входа в Подземелья События."
-TOOLTIP_INFO_TEXT_EVENTDUNGEONPOINT,"Валюта, получаемая при прохождении истории подземелья события «Сундука проблемного желания». Используется для покупки товаров в магазине события."
-TOOLTIP_INFO_TEXT_EVENTDUNGEONPOINT2,"Валюта, получаемая при прохождении особого подземелья фестиваля в честь 1000 дней. Используется для покупки товаров в магазине в честь 1000 дней."
+TOOLTIP_INFO_TEXT_EVENTDUNGEONPOINT,"Валюта, получаемая при прохождении истории подземелья события. Используется для покупки товаров в магазине события."
+TOOLTIP_INFO_TEXT_EVENTDUNGEONPOINT2,"Валюта, получаемая при прохождении особого подземелья фестиваля. Используется для покупки товаров в магазине события."
 TOOLTIP_INFO_NAME_GLORYPOINT,Медаль Чести
 TOOLTIP_INFO_TEXT_GLORYPOINT,"Очки, которые доступны в Лиге Чести. Можно использовать, чтобы обменять на предметы в Магазине Лиги Чести."
 TOOLTIP_INFO_NAME_RANKINGPOINT,Эмблема чести
@@ -2867,8 +2867,8 @@ MATCH_PICKBAN_INEXSTENT_HERO,Данного Героя не существует
 MATCH_PICKBAN_ALREADY_SELECT_HERO,Данный Герой уже был выбран.
 MATCH_PICKBAN_SEASON_INFO_FREE_TITLE,Бесплатный Сезонные Правила
 MATCH_PICKBAN_SEASON_INFO_REAL_TITLE,Правила Главного Сезона
-MATCH_PICKBAN_SEASON_INFO_FREE_DESC,"Лига чести (Свободный сезон) – режим, в котором игроки сражаются друг с другом. Каждый игрок создает отряд из 4 героев и вступает в схватку со своим противником.\nКаждый игрок может запретить 1 героя из списка героев противника и может выбрать 5 героев из своего списка для использования в бою.\nГерои, запрещенные вами и противником, в битве не участвуют.\nСформировав отряд, вы должны победить всех героев противника за ограниченный промежуток времени.\nПобеда присуждается игроку, чей отряд имеет большее количество ОЗ на момент истечения отведенного времени.\nДлительность сезона и дата его начала могут варьироваться от сезона к сезону.\nВ Свободном сезоне нет ограничений на уровень героев или их пробуждение. Участвовать в сезоне может любой игрок, имеющий более 12 героев."
-MATCH_PICKBAN_SEASON_INFO_REAL_DESC,"Лига чести (Главный сезон) – режим, в котором игроки сражаются друг с другом. Каждый игрок создает отряд из 4 героев и вступает в схватку со своим противником.\nКаждый игрок может запретить 1 героя из списка героев противника и может выбрать 5 героев из своего списка для использования в бою.\nГероев, запрещенных вами и противником, нельзя использовать в битве.\nПосле формирования отрядов, вы должны победить всех героев противника за ограниченный промежуток времени.\nПобеда присуждается игроку, чей отряд имеет большее количество ОЗ на момент истечения отведенного времени.\nДлительность сезона и дата его начала могут варьироваться от сезона к сезону.\nВ Главном сезоне нет ограничений на уровень героев или их пробуждение. Участвовать в сезоне может любой игрок, имеющий более 12 героев."
+MATCH_PICKBAN_SEASON_INFO_FREE_DESC,"Лига чести (Свободный сезон) – режим, в котором игроки сражаются друг с другом. Каждый игрок создает отряд из 4 героев и вступает в схватку со своим противником.\nКаждый игрок может запретить 1 героя из списка героев противника и может выбрать 5 героев из своего списка для использования в бою.\nГерои, запрещенные вами и противником, в битве не участвуют.\nСформировав отряд, вы должны победить всех героев противника за ограниченный промежуток времени.\nПобеда присуждается игроку, чей отряд имеет большее количество ОЗ на момент истечения отведенного времени.\nДлительность сезона и дата его начала могут варьироваться от сезона к сезону.\nВ Свободном сезоне нет ограничений на уровень героев или их пробуждение. Участвовать в сезоне может любой игрок, имеющий более 12 героев.\nПри участии в Лиге Чести всем игрокам будет вручено 45 очков чести дополнительно."
+MATCH_PICKBAN_SEASON_INFO_REAL_DESC,"Лига чести (Главный сезон) – режим, в котором игроки сражаются друг с другом. Каждый игрок создает отряд из 4 героев и вступает в схватку со своим противником.\nКаждый игрок может запретить 1 героя из списка героев противника и может выбрать 5 героев из своего списка для использования в бою.\nГероев, запрещенных вами и противником, нельзя использовать в битве.\nПосле формирования отрядов, вы должны победить всех героев противника за ограниченный промежуток времени.\nПобеда присуждается игроку, чей отряд имеет большее количество ОЗ на момент истечения отведенного времени.\nДлительность сезона и дата его начала могут варьироваться от сезона к сезону.\nВ Главном сезоне нет ограничений на уровень героев или их пробуждение. Участвовать в сезоне может любой игрок, имеющий более 12 героев.\nПри участии в Лиге Чести всем игрокам будет вручено 45 очков чести дополнительно."
 MATCH_PICKBAN_SEASON_REWARDINFO_FREE_TITLE,Информация о Наградах
 MATCH_PICKBAN_SEASON_REWARDINFO_FREE_DESC,"В теч. Открытого Сезона, не предусмотрено Сезонных или Еженедельных наград."
 MATCH_PICKBAN_JOIN_REWARD,Награда за Участие
@@ -3855,15 +3855,19 @@ SUBSTORY_MAIN_REQUIRE_CHARACTER,Условия доступа
 SUBSTORY_MAIN_REQUIRE_DUNGEON,Завершить {1}–{2}
 SUBSTORY_MAIN_FIRST_REWARD,Первая награда
 SUBSTORY_MAIN_COSTUME_REWARD,Приобретаемый костюм
+SUBSTORY_MAIN_TACTIC,Информация о бое
+SUBSTORY_MAIN_REQUIRE_CHARACTER_LEVEL,Достигнуть {1} {2} ур.
+SUBSTORY_CHAPTER_NOT_CLEAR_DUNGEON,Необподимо пройти {1}-{2}
 NODE_SUBSTORY_STORY,История
 REWARD_SUBSTORY_TITLE,Награда за первое прохождение
 UNLOCK_NEW_COSTUME_POPUP_TITLE,Доступен костюм
 COSTUME_OBTAIN_DESC_SUBSTORY,Можно приобрести\nпосле завершения второстепенной истории
 RESULT_TYPE.SUBSTORY_CLASS_STORY_EMPTY,Второстепенная история героя этого класса\nне обновлена.
 SUBSTORY_HERO_STAR_LOW_TITLE,Недостаточный уровень героя
-SUBSTORY_HERO_STAR_LOW_DESC,Недостаточный уровень пробуждения или превосходства для просмотра истории.
+SUBSTORY_HERO_STAR_LOW_DESC,Недостаточный уровень или уровень превосходства для прохождения данной главы.
 SUBSTORY_CHAPTER_NOT_CLEAR_TITLE,Недостаточный прогресс в главе
 SUBSTORY_CHAPTER_NOT_CLEAR_DESC,"Чтобы посмотреть историю, нужно продвинуться дальше по сюжету главы."
+SUBSTORY_MAIN_REQUIRE_CHARACTER_OWN,Имеется {1}
 SUBSTORY_MAIN_REQUIRE_CHARACTER_STAR,Получить звезд: {1}
 SUBSTORY_MAIN_REQUIRE_CHARACTER_TRANS,Получить П{1}
 SUBSTORY_MAIN_REQUIRE_CHAPTER,Глава {1}
@@ -3872,10 +3876,12 @@ SUBSTORY_DUNGEON_TITLE17,Второстепенная история: Тимаэ
 SUBSTORY_DUNGEON_TITLE40,Второстепенная история: Тэо
 SUBSTORY_DUNGEON_TITLE43,Второстепенная история: Виска
 SUBSTORY_DUNGEON_TITLE44,Второстепенная история: Присцилла
+SUBSTORY_DUNGEON_TITLE49,Второстепенная история: Офелия
 SUBSTORY_DUNGEON_TITLE52,Второстепенная история: Кроу
 COSTUMESHOP_SUBSTORY_VIEW_TEXT,Второстепенная история
 COSTUME_OBTAIN_DESC_DETAIL_SUBSTORY,покупка доступна после завершения второстепенной истории
 COSTUME_OBTAIN_DESC_SHOP_TAG,Завершить второстепенную историю
+REMINISCENCE_MIRROR_ENTER,Зеркало воспоминаний
 CHALLENGERAID_SEASON_RANKING_DESC,Поздравляем! Вы попали в сезонный рейтинг рейда вызова!
 CHALLENGERAID_SEASON_RANKING_TITLE,Сезонная награда за рейд вызова!
 CHALLENGERAID_SEASON_PLAY_DESC,Благодарим за участие в рейтинговых битвах рейда вызова!
@@ -3921,6 +3927,7 @@ COSTUME_GROUP_CASAULFASHION1,Повседневный стиль
 COSTUME_GROUP_CASUALFASHION1,Повседневный стиль
 COSTUME_GROUP_HEROICCAREER1,Спецодежда
 COSTUME_GROUP_FESTIVENOELS,Рождество 3
+COSTUME_GROUP_DESSERT,Десертный наряд
 UI_SELECT_HERO_NONE,"Нет героев, доступных для выбора."
 UI_SELECT_COSTUME_NONE,"Нет костюмов, доступных для выбора."
 FILTER_SELECT.FILTER_SELECT_PART,Просмотр по частям
@@ -5497,14 +5504,6 @@ EVENT_19HALLOWEEN_DUNGEONNAME5,Тайная комната
 EVENT_19HALLOWEEN_DUNGEONNAME6,Тёмный лес
 ITEM_NAME_91337,Сундук с украшениями на Хэллоуин
 ITEM_DESC2_91337,"Сундук с украшениями к Хэллоуину. При его открытии, Вы получите ограниченное украшение."
-COSTUME_NAME_ACCESSORY_HEAD_3100701,Шляпка колдуньи
-COSTUME_DESC_ACCESSORY_HEAD_3100701,Небольшая шляпка для колдуньи
-COSTUME_NAME_ACCESSORY_HEAD_3100801,Ободок с украшением-тыквой
-COSTUME_DESC_ACCESSORY_HEAD_3100801,Ободок с красивым украшением в виде тыквы
-COSTUME_NAME_ACCESSORY_BODY_3400801,Хвост белой лисы
-COSTUME_DESC_ACCESSORY_BODY_3400801,Украшение в виде хвостика белоснежной лисы
-COSTUME_NAME_ACCESSORY_BODY_3400901,Крылья летучей мыши
-COSTUME_DESC_ACCESSORY_BODY_3400901,Украшение в виде крыльев летучей мыши
 ITEM_NAME_47020,"Кристалл, заключающий тьму"
 ITEM_DESC2_47020,"Подарок, который можно подарить Лавриль.\nПоднимает шкалу дружбы на 1."
 ITEM_NAME_91336,Подарок Лавриль
@@ -5538,6 +5537,8 @@ PUSH_REWARD_DINNER,Получена вечерняя награда
 IMPROVE_RESETREMAININGDATE,Осталось {1}
 RECOGNITION_DAY,д.
 RECOGNITION_HOUR,ч.
+RECOGNITION_UNDERHOUR,Мин. время
+ADVENTURE_NOTICE_CONTENTS_NAME,Текст на корейском языке
 ADVENTURE_NOTICE_STAMINA_REGENERATION,{1} : {2} : {3}
 ADVENTURE_NOTICE_RESET_REMAIN_DAY,Осталось: {1} д.
 ADVENTURE_NOTICE_RESET_REMAIN_HOUR_1,Осталось: {1} ч.
@@ -5563,16 +5564,17 @@ EVENT_DUNGEON_1000DAYS_NAME2,10-дневное благодарение
 EVENT_DUNGEON_1000DAYS_NAME3,100-дневная трогательность
 EVENT_DUNGEON_1000DAYS_NAME4,1000-дневное умиление
 SHOP_NAME_1000DAYS_SHOP,Магазин фестиваля в честь 1000 дней
-TOOLTIP_INFO_NAME_SHOPEVENTPOINT,Чёрный жетон
+TOOLTIP_INFO_NAME_SHOPEVENTPOINT,Шоколадка
 TOOLTIP_INFO_TEXT_SHOPEVENTPOINT,"Валюта, которая используется только во время проведения события. Приобретается при покупке товаров за наличные.\nМожно обменять на награды в Особом магазине, однако после окончания события приобретение и использование валюты будет недоступно."
-PAY_SHOP_CATEGORY.PAY_SHOP_EVENT,Чёрная пятница
-RESULT_TYPE.NOT_ENOUGH_SHOP_EVENT_POINT,Недостаточно чёрных жетонов
+PAY_SHOP_CATEGORY.PAY_SHOP_EVENT,Св. Валентин
+RESULT_TYPE.NOT_ENOUGH_SHOP_EVENT_POINT,Недостаточно шоколада.
 SHOP_TAB_EVENT_BM,Особый товар
-SHOP_TAB_EVENT_POINT,Магазин чёрных жетонов
-COMMON.SHOP_EVENT_POINT_COUNT,{1} ч. ж.
-EVENT_BLACK_FRIDAY_POINT_DESC2_01,"Чёрные жетоны - валюта, которая используется только во время проведения события. Приобретается при покупке товаров за наличные."
-COMMON_EVENT_DAY_DESC2_01,※Период события: 17 декабря\n(до профилактики)
-EVENT_BLACK_FRIDAY_TICKET,Чёрный жетон
+SHOP_TAB_EVENT_POINT,Шоколадный магазин
+COMMON.SHOP_EVENT_POINT_COUNT,{1} шт.
+EVENT_BLACK_FRIDAY_POINT_DESC2_01,"Шоколадки - валюта, которая используется только во время проведения события. Приобретается при покупке товаров за наличные."
+COMMON_EVENT_DAY_DESC2_01,※Период проведения: до профилактики 10 марта
+COMMON_EVENT_DAY_DESC2_02,※Период действия шоколадок: до профилактики 24 марта
+EVENT_BLACK_FRIDAY_TICKET,Шоколадка
 EVENT_DUNGEON_DESTINYLIGHT,Место направления Света судьбы
 DESTINYLIGHT_EVENT_NAME,Место направления Света судьбы
 EVENT_NAME_DESTINYLIGHT,Информация о событии «Место направления Света судьбы»
@@ -5722,3 +5724,61 @@ LEGEND_EQUIP_PAYBACK_REWARD_MAIL_TITLE,Награда с улучшенными 
 LEGEND_EQUIP_PAYBACK_REWARD_MAIL_CONTENT,Улучшенный «Набор легендарной брони». Содержит улучшенные предметы в соответствии с количеством покупок данного товара.
 CLEARMISSION_PASSPOPUP_PROGRESS,[db6a3e] ({1}/{2})[-]
 PAYSHOP_RECOMMENDPOPUP_TITLE,Рекомендовано
+BENEFIT_NEWBIE_REWARD_MAIL_TITLE,"Вручаем неполученные награды для новичков, выполнивших миссии по повышению уровня и по завершению глав."
+BENEFIT_NEWBIE_REWARD_MAIL_CONTENT,Мы вручаем неполученные награды для новичков в связи с исчезновением 17 декабря «Миссий по повышению уровня» и «Миссий по завершению глав» для новых игроков во вкладке «Полезная коллекция для новичка».
+PACKAGE_DAILY_STAMINA_DESC2,1000 рубинов сразу после покупки!\nА также ежедневное вручение зелий выносливости по 40 шт. в течение 7 дней!
+PACKAGE_DAILY_FRIENDSHIP_DESC2,2000 рубинов сразу после покупки!\nА также ежедневное вручение кругов дружбы по 5 шт. в течение 7 дней!
+GLORY_REQUIREPOINT,Необходимые очки для достижения
+GLORY_VICTORY_REWARD,Награда за победу
+GLORY_WEEKLY_REWARD,Еженедельная награда
+GLORY_SEASON_LASTPLACE,Мин. 1300
+GLORY_REWARD_NAME,Награда сезона Лиги Чести
+GLORY_COSTUME_BUTTON,Подробнее
+GLORY_COSTUME_NAME,Свет ночного неба
+CLEARMISSION_PASSPOPUP_LEVELUP_III,Набор Повышение Уровня III
+HERO_INFO_GET_NEW_HERO_BUNDLE_BTN,План совместного захвата\nКлео и Рой
+HERO_ACTION_SIGNATURE,Роспись
+EQUIP_ITEM_FULL_DESC,"Использование предмета недоступно по причине наличия большого количества снаряжения.\nПовторите попытку, после реорганизации снаряжения."
+MOVE_EQUIP_BAG,Переместиться в снаряжения
+PACKAGE_DAILY_STAMINA_MAIL_TITLE,Ежедневная выносливость
+PACKAGE_DAILY_NPC_MAIL_TITLE,Ежедневная дружба с НИП
+PACKAGE_DAILY_STAMINA_MAIL_CONTENT,Прибыла награда за покупку товара «Ежедневная выносливость».
+PACKAGE_DAILY_NPC_MAIL_CONTENT,Прибыла награда за покупку товара «Ежедневная дружба с НИП».
+PACKAGE_DAILY_LUAPOINT_1000,11 знаков Луа
+PACKAGE_DAILY_LUAPOINT_2000,22 знаков Луа
+PACKAGE_DAILY_7DAYS_RUBY_MAIN_1,"450 рубинов (при ежедневном посещении, в течение 7д.)"
+PACKAGE_DAILY_7DAYS_RUBY_BONUS_1,1000 рубинов
+PACKAGE_DAILY_7DAYS_RUBY_DESC2,"При ежедневном посещении, в течение 7д, будут вручаться 450 рубинов\nОбщее число приобретаемых рубинов - 4150 (включая бонус)"
+ALL_IN_ONE_DAY_FIRST_SALE_TEXT,1 д.\n1 р.
+EVENT_LILIA_FIGURE_PACKAGE_TITLE,Набор Лилии
+EVENT_LILIA_FIGURE_PACKAGE_CONTENT,Благодарим за покупку фигурки Лилии.
+EVENT_DUNGEON_20VALENTINE,Подземелье «Весенний фестиваль»
+EVENT_SHOP_20VALENTINE,Магазин Весеннего фестиваля
+EVENT_DUNGEON_DESC_STORY_20VALENTINE,История подземелья события.\nВы сможете насладиться рассказами фестиваля.
+EVENT_DUNGEON_DESC_SPECIAL_20VALENTINE,Откроется после прохождения истории подземелья.
+EVENT_20VALENTINE_TICKET,Билет события
+TOOLTIP_INFO_NAME_EVENT_TOKEN_20VALENTINE,Купон на товар
+TOOLTIP_INFO_DESC_EVENT_TOKEN_20VALENTINE,"Валюта, приобретаемая при прохождении истории подземелья. Используется в магазине события для приобретения товара."
+TOOLTIP_INFO_NAME_EVENT_CHOCOLATE_20VALENTINE,Шоколадный шар
+TOOLTIP_INFO_DESC_EVENT_CHOCOLATE_20VALENTINE,"Валюта, приобретаемая при прохождении особого подземелья. Используется в магазине события для приобретения товара."
+EVENT_INFO_20VALENTINE,Информация о фестивале
+EVENT_NAME_20VALENTINE,Подземелье «Весенний фестиваль»
+EVENT_DESC_20VALENTINE,"- Подземелье «Весенний фестиваль»\nПосле прохождения истории подземелья Вам будут вручаться купоны.\nА пройдя особое подземелье, Вы сможете получить шоколадные шары.\n\n- Фестиваль вместе с героями-НИП\nНавестите 9 героев-НИП, которые находятся в разных уголках Орвела\n(Глада, Мэй, Дозарту, Веронику, Ломана, Ники, Ханэс, Джуно, Кэйна).\nОни приготовили для Вас особые поздравительные подарки.\n\n- Билет на фестиваль\nДля посещения фестиваля необходим билет.\nВ начале события выдаётся 2 шт., ежедневно в полночь они пополняются на 1 шт.\n(Максимальное количество билетов - 2 шт.)"
+20VALENTINE_EVENT_NAME,Весенний фестиваль
+EVENT_DUNGEON_20VALENTINE_NAME1,Не забирайте!
+EVENT_DUNGEON_20VALENTINE_DESC1,Это не для сбора!
+EVENT_DUNGEON_20VALENTINE_NAME2,Не ешьте!
+EVENT_DUNGEON_20VALENTINE_DESC2,Отнесите в торговую лавку!
+EVENT_DUNGEON_20VALENTINE_NAME3,Не воруйте!
+EVENT_DUNGEON_20VALENTINE_DESC3,Лучше попробуйте накопить!
+EVENT_DUNGEON_20VALENTINE_NAME4,Подземелье молочного шоколада
+EVENT_DUNGEON_20VALENTINE_DESC4,Сладкий шоколад для Вас
+EVENT_DUNGEON_20VALENTINE_NAME5,Подземелье тёмного шоколада
+EVENT_DUNGEON_20VALENTINE_DESC5,Горький шоколад для Вас
+SHOP_NAME_20VALENTINE_SHOP,Магазин Весеннего фестиваля
+REVIEW_POPUP_REVIEW,Отлично!
+REVIEW_POPUP_CS,Необходимо улучшить
+REVIEW_POPUP_EXIT,В следующий раз
+2020_MAY_HERO_SELECT_ITEM_DESC,※Билет выбора героя (5 зв.): доступ распространяется на всех героев до Рехатны.\n※Все условия получения предметов по билетам на спецоружия/спец. сокровища (выборочно/случайно) соответствуют условиям настроек игры.
+20SPRING_FESTIVAL_DUNGEON,Подземелье «Весенний фестиваль»
+SHOP_NAME_2020_VALENTINE_SHOP,Магазин Весеннего фестиваля

@@ -3494,7 +3494,7 @@
     "OperationType1": "ModWeakness",
     "OperationTargetType1": "Myself",
     "OperationValue1": [
-      "$ByDecBossCcGaugeR(1100)"
+      "$ByDecBossCcGaugeR(2000)"
     ],
     "OperationDurationMs1": 9999999,
     "OperationRecalculateValueByStats1": [
@@ -3643,7 +3643,7 @@
       "15"
     ],
     "OperationState1": "RaidDown",
-    "OperationDurationMs1": 7000,
+    "OperationDurationMs1": 6000,
     "OperationTickTimeMs1": 500,
     "OperationConditionType1": "NotState",
     "OperationConditionValue1": [
@@ -3735,7 +3735,7 @@
     "OperationType3": "ModRecoverPower",
     "OperationTargetType3": "Myself",
     "OperationValue3": [
-      "1000"
+      "500"
     ],
     "OperationDurationMs3": 9999999
   },
@@ -4839,6 +4839,26 @@
       "-150"
     ],
     "OperationDurationMs3": 9999999
+  },
+  {
+    "Index": 660592,
+    "TriggerType": "OnStart",
+    "TriggerRatio": 1000,
+    "CancelOnWaveEnd": "TRUE",
+    "AttrType": "Magical",
+    "IgnoreStateType": [
+      "CC",
+      "RaidDown"
+    ],
+    "TargetType": "Myself",
+    "TargetCount": 1,
+    "IgnoreBlock": "TRUE",
+    "OperationType1": "ModDefensePower",
+    "OperationTargetType1": "Myself",
+    "OperationValue1": [
+      "200"
+    ],
+    "OperationDurationMs1": 9999999
   },
   {
     "Index": 770500,

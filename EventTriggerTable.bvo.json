@@ -3480,6 +3480,258 @@
     ]
   },
   {
+    "Index": 1500,
+    "Category": "Tutorial",
+    "EventType": "EnterEventDungeonSelect",
+    "EventCondition": [
+      "30034",
+      " 1"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "516"
+    ]
+  },
+  {
+    "Index": 1501,
+    "Category": "MainScenario",
+    "EventType": "EnterScenarioBattle",
+    "EventCondition": [
+      "30034",
+      " 1"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/Valentine2020/E_V1_Main_1"
+    ]
+  },
+  {
+    "Index": 1502,
+    "Category": "MainScenario",
+    "EventType": "EnterScenarioBattle",
+    "EventCondition": [
+      "30034",
+      " 2"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/Valentine2020/E_V1_Main_2"
+    ]
+  },
+  {
+    "Index": 1503,
+    "Category": "MainScenario",
+    "EventType": "EnterScenarioBattle",
+    "EventCondition": [
+      "30034",
+      " 3"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/Valentine2020/E_V1_Main_3"
+    ]
+  },
+  {
+    "Index": 1504,
+    "Category": "MainScenario",
+    "EventType": "EnterMenu",
+    "EventCondition": [
+      "EventDungeonList",
+      "1"
+    ],
+    "CurrentCondition": [
+      "LastDungeonResult",
+      "30034",
+      "3",
+      "True",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Event/Valentine2020/E_V1_Main_Epi"
+    ]
+  },
+  {
+    "Index": 1505,
+    "Category": "Tutorial",
+    "EventType": "EnterEntryMenu",
+    "EventCondition": [
+      "99",
+      "2"
+    ],
+    "CurrentCondition": [
+      "CompleteTutorial",
+      "2160",
+      "True"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "517"
+    ]
+  },
+  {
+    "Index": 1506,
+    "Category": "Tutorial",
+    "EventType": "EnterEntryMenu",
+    "EventCondition": [
+      "99",
+      "3"
+    ],
+    "CurrentCondition": [
+      "CompleteTutorial",
+      "2120",
+      "True"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "518"
+    ]
+  },
+  {
+    "Index": 1507,
+    "Category": "Tutorial",
+    "EventType": "EnterEntryMenu",
+    "EventCondition": [
+      "99",
+      "4"
+    ],
+    "CurrentCondition": [
+      "CompleteTutorial",
+      "2130",
+      "True"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "519"
+    ]
+  },
+  {
+    "Index": 1508,
+    "Category": "Tutorial",
+    "EventType": "EnterEntryMenu",
+    "EventCondition": [
+      "99",
+      "6"
+    ],
+    "CurrentCondition": [
+      "CompleteTutorial",
+      "13020",
+      "True"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "520"
+    ]
+  },
+  {
+    "Index": 1509,
+    "Category": "Tutorial",
+    "EventType": "EnterEntryMenu",
+    "EventCondition": [
+      "99",
+      "8"
+    ],
+    "CurrentCondition": [
+      "CompleteTutorial",
+      "2000",
+      "True"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "521"
+    ]
+  },
+  {
+    "Index": 1510,
+    "Category": "Tutorial",
+    "EventType": "EnterEntryMenu",
+    "EventCondition": [
+      "99",
+      "5"
+    ],
+    "CurrentCondition": [
+      "CompleteTutorial",
+      "2150",
+      "True"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "522"
+    ]
+  },
+  {
+    "Index": 1511,
+    "Category": "Tutorial",
+    "EventType": "EnterEntryMenu",
+    "EventCondition": [
+      "995",
+      "1"
+    ],
+    "CurrentCondition": [
+      "CompleteTutorial",
+      "9100",
+      "True"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "522"
+    ]
+  },
+  {
+    "Index": 1512,
+    "Category": "Tutorial",
+    "EventType": "EnterEntryMenu",
+    "EventCondition": [
+      "995",
+      "2"
+    ],
+    "CurrentCondition": [
+      "CompleteTutorial",
+      "9200",
+      "True"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "524"
+    ]
+  },
+  {
+    "Index": 1513,
+    "Category": "Tutorial",
+    "EventType": "EnterEntryMenu",
+    "EventCondition": [
+      "2",
+      "27"
+    ],
+    "CurrentCondition": [
+      "CompleteTutorial",
+      "5000",
+      "True"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "525"
+    ]
+  },
+  {
+    "Index": 1514,
+    "Category": "Tutorial",
+    "EventType": "EnterEntryMenu",
+    "EventCondition": [
+      "6",
+      "31"
+    ],
+    "CurrentCondition": [
+      "CompleteTutorial",
+      "65027",
+      "True"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "526"
+    ]
+  },
+  {
     "Index": 10000,
     "Category": "MainScenario",
     "EventType": "EnterLobby",
@@ -3818,10 +4070,10 @@
     "CurrentCondition": [
       "CompleteDungeon",
       "1",
-      "20",
+      "4",
       "True",
-      "2",
       "1",
+      "5",
       "False"
     ],
     "Command": "StartTutorial",
@@ -4197,6 +4449,24 @@
     "Command": "StartCutScene",
     "Argument": [
       "CutScene/CS1_11C"
+    ]
+  },
+  {
+    "Index": 20000,
+    "Category": "MainScenario",
+    "EventType": "ChapterMove",
+    "EventCondition": [
+      "2"
+    ],
+    "CurrentCondition": [
+      "CompleteDungeon",
+      "1",
+      "20",
+      "True"
+    ],
+    "Command": "StartTutorial",
+    "Argument": [
+      "20000"
     ]
   },
   {
@@ -11301,6 +11571,250 @@
     "Command": "StartCutScene",
     "Argument": [
       "CutScene/Substory/Crow/Sub1_Crow_5_3_2"
+    ]
+  },
+  {
+    "Index": 100049001,
+    "Category": "SubStory",
+    "EventType": "EnterBattle",
+    "EventCondition": [
+      "100049",
+      "4"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Ophelia/Sub1_Ophelia_4"
+    ]
+  },
+  {
+    "Index": 100049002,
+    "Category": "SubStory",
+    "EventType": "WaveReady",
+    "EventCondition": [
+      "100049",
+      "4",
+      "1"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Ophelia/Sub1_Ophelia_4_1"
+    ]
+  },
+  {
+    "Index": 100049003,
+    "Category": "SubStory",
+    "EventType": "BattleEnd",
+    "EventCondition": [
+      "100049",
+      "4",
+      "Left"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Ophelia/Sub1_Ophelia_5"
+    ]
+  },
+  {
+    "Index": 100049004,
+    "Category": "SubStory",
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Ophelia/Sub1_Ophelia_6_2"
+    ]
+  },
+  {
+    "Index": 100049005,
+    "Category": "SubStory",
+    "EventType": "WaveReady",
+    "EventCondition": [
+      "100049",
+      "6",
+      "2"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Ophelia/Sub1_Ophelia_6_4_1"
+    ]
+  },
+  {
+    "Index": 100049006,
+    "Category": "SubStory",
+    "EventType": "BattleEnd",
+    "EventCondition": [
+      "100049",
+      "6",
+      "Left"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Ophelia/Sub1_Ophelia_6_4_2"
+    ]
+  },
+  {
+    "Index": 100049007,
+    "Category": "SubStory",
+    "EventType": "EnterBattle",
+    "EventCondition": [
+      "100049",
+      "7"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Ophelia/Sub1_Ophelia_7_1"
+    ]
+  },
+  {
+    "Index": 100049008,
+    "Category": "SubStory",
+    "EventType": "WaveEnd",
+    "EventCondition": [
+      "100049",
+      "7",
+      "1"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Ophelia/Sub1_Ophelia_7_1_1"
+    ]
+  },
+  {
+    "Index": 100049009,
+    "Category": "SubStory",
+    "EventType": "WaveReady",
+    "EventCondition": [
+      "100049",
+      "7",
+      "3"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Ophelia/Sub1_Ophelia_7_1_2"
+    ]
+  },
+  {
+    "Index": 100049010,
+    "Category": "SubStory",
+    "EventType": "BattleEnd",
+    "EventCondition": [
+      "100049",
+      "7",
+      "Left"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Ophelia/Sub1_Ophelia_7_2_2"
+    ]
+  },
+  {
+    "Index": 100049011,
+    "Category": "SubStory",
+    "EventType": "EnterLobby",
+    "CurrentCondition": [
+      "LastDungeonResult",
+      "100049",
+      "7",
+      "False",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Ophelia/Sub1_Ophelia_7_3"
+    ]
+  },
+  {
+    "Index": 100049012,
+    "Category": "SubStory",
+    "EventType": "EnterBattle",
+    "EventCondition": [
+      "100049",
+      "10"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Ophelia/Sub1_Ophelia_10_1"
+    ]
+  },
+  {
+    "Index": 100049013,
+    "Category": "SubStory",
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Ophelia/Sub1_Ophelia_10_2"
+    ]
+  },
+  {
+    "Index": 100049014,
+    "Category": "SubStory",
+    "EventType": "BattleEnd",
+    "EventCondition": [
+      "100049",
+      "10",
+      "Left"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Ophelia/Sub1_Ophelia_10_3"
+    ]
+  },
+  {
+    "Index": 100049015,
+    "Category": "SubStory",
+    "EventType": "EnterBattle",
+    "EventCondition": [
+      "100049",
+      "14"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Ophelia/Sub1_Ophelia_14_1"
+    ]
+  },
+  {
+    "Index": 100049016,
+    "Category": "SubStory",
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Ophelia/Sub1_Ophelia_14_2"
+    ]
+  },
+  {
+    "Index": 100049017,
+    "Category": "SubStory",
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Ophelia/Sub1_Ophelia_14_3"
+    ]
+  },
+  {
+    "Index": 100049018,
+    "Category": "SubStory",
+    "EventType": "EnterLobby",
+    "CurrentCondition": [
+      "LastDungeonResult",
+      "100049",
+      "14",
+      "False",
+      "True"
+    ],
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Ophelia/Sub1_Ophelia_14_4"
+    ]
+  },
+  {
+    "Index": 100049019,
+    "Category": "SubStory",
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Ophelia/Sub1_Ophelia_7_2_1"
+    ]
+  },
+  {
+    "Index": 100049020,
+    "Category": "SubStory",
+    "Command": "StartCutScene",
+    "Argument": [
+      "CutScene/Substory/Ophelia/Sub1_Ophelia_6_3"
     ]
   }
 ]

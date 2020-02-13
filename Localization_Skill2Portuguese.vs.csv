@@ -125,15 +125,15 @@ SKILL_DESC_7142,Aumenta o reforço de ATQ em [64ff64]{1}[-]%.
 SKILL_DESC_7143,Aumenta o reforço de ATQ em [64ff64]{1}[-]%.
 SKILL_DESC_60007110,Reduz o tempo de recarga em {1}% para cada inimigo atingido.
 SKILL_DESC_60007111,"Quando há 1 inimigo, aumenta o DANO em 100%."
-SKILL_DESC_60007120,Aumenta a duração do atordoamento causado pela onda de choque a inimigos não heróis por {1} seg.
+SKILL_DESC_60007120,Reduz o custo de PM em 1.
 SKILL_DESC_60007121,Quanto estiver no modo [Despertar do Cristal Escarlate] aumenta o DANO infligido em inimigos não heróis em {1}%.
 SKILL_DESC_60007130,Aumenta a redução da VEL de ATQ em {1}.
-SKILL_DESC_60007131,"Quando há 1 inimigo, a Energia do Cristal Escarlate é acumulada em 2."
+SKILL_DESC_60007131,A Energia do Cristal Escarlate é acumulada em múltiplos de 2.
 SKILL_DESC_60007140,"Todo início de batalha, aumenta o DANO a inimigos não heróis em {1}% por 20 seg."
 SKILL_DESC_60007141,Aumenta o DANO infligido em chefes em {1}%.
 SKILL_DESC_60007150,"ATQ, DEF, PV+15% / VEL de ATQ +100"
-SKILL_DESC_60007151,A VEL de ATQ aumenta em {1} a cada ataque normal ou de habilidade. Este efeito pode ser acumulado no máx. {2} vezes.
-SKILL_DESC_90000710,"Amplifica a força dos cristais escarlates, aumentando grandemente o alcance do [Desabroche, Flor Escarlate!]. Ademais, há 4% de chance de infligir DANO M adicional de 500% do ATQ a cada ataque normal ou de habilidade. O DANO infligido em chefes é dobrado."
+SKILL_DESC_60007151,Aumenta o DANO CRÍT em {1}% e a PNT de DEF em {2}. Este efeito aumenta {4}x depois que Kirze inflige {3} ataques no inimigo.
+SKILL_DESC_90000710,"Amplifica a força dos cristais escarlates, aumentando grandemente o alcance do [Desabroche, Flor Escarlate!]. Ademais, há {1}% de chance de infligir DANO M adicional de {2}% do ATQ a cada ataque normal ou de habilidade. O DANO infligido em chefes aumenta {3}x."
 SKILL_DESC_90000711,"Amplifica a força dos cristais escarlates, aumentando grandemente o alcance do [Desabroche, Flor Escarlate!]. Ademais, há 4% de chance de infligir DANO M adicional de 600% do ATQ a cada ataque normal ou de habilidade. O DANO infligido em chefes é dobrado."
 SKILL_DESC_90000712,"Amplifica a força dos cristais escarlates, aumentando grandemente o alcance do [Desabroche, Flor Escarlate!]. Ademais, há 4% de chance de infligir DANO M adicional de 720% do ATQ a cada ataque normal ou de habilidade. O DANO infligido em chefes é dobrado."
 SKILL_DESC_90000713,"Amplifica a força dos cristais escarlates, aumentando grandemente o alcance do [Desabroche, Flor Escarlate!]. Ademais, há 4% de chance de infligir DANO M adicional de 860% do ATQ a cada ataque normal ou de habilidade. O DANO infligido em chefes é dobrado."
@@ -145,7 +145,7 @@ SKILL_DESC_91007112,"[Corte, Lâmina da Justiça!] Aumenta o DANO em 29% e reduz
 SKILL_DESC_91007113,"[Corte, Lâmina da Justiça!] Aumenta o DANO em 35% e reduz o custo de PM em 1."
 SKILL_DESC_91007114,"[Corte, Lâmina da Justiça!] Aumenta o DANO em 42% e reduz o custo de PM em 1."
 SKILL_DESC_91007115,"[Corte, Lâmina da Justiça!] Aumenta o DANO em 50% e reduz o custo de PM em 1."
-SKILL_DESC_91007120,"[Disperse, Neblina de Cristal!] Aumenta a VEL de ATQ adicional em 100 e aumenta a duração do [Despertar do Cristal Escarlate] em 7 seg."
+SKILL_DESC_91007120,"[Disperse, Neblina de Cristal!] Aumenta a VEL de ATQ adicional em {1} e enquanto durar a habilidade, aumenta a PNT de DEF de todos os aliados em {2}."
 SKILL_DESC_91007121,"[Disperse, Neblina de Cristal!] Aumenta a VEL de ATQ adicional em 120 e aumenta a duração do [Despertar do Cristal Escarlate] em 7 seg."
 SKILL_DESC_91007122,"[Disperse, Neblina de Cristal!] Aumenta a VEL de ATQ adicional em 140 e aumenta a duração do [Despertar do Cristal Escarlate] em 7 seg."
 SKILL_DESC_91007123,"[Disperse, Neblina de Cristal!] Aumenta a VEL de ATQ adicional em 170 e aumenta a duração do [Despertar do Cristal Escarlate] em 7 seg."
@@ -291,7 +291,7 @@ SKILL_DESC_60009840,O reforço de DANO infligido em chefes passa a ser {1}%.
 SKILL_DESC_60009841,A RCP de PM passa a ser de {1} por segundo.
 SKILL_DESC_60009850,"ATQ, DEF, PV+15% / PV +10%"
 SKILL_DESC_60009851,"Todo início de batalha, ao gastar {1}% do seu PV atual, aumenta o ATQ de todos os aliados em {3}% por {2}s. Se tiver menos de 3 aliados, adicionalmente, reduz o DANO recebido de todos os aliados em {4}%."
-SKILL_DESC_90000980,"Pode ser aplicado efeito adicional a cada ataque normal ou de habilidade, dependendo do estado em que estiver.\n[Rei-Deus] Com uma chance de {1}%, causa atordoamento no adversário por {2}s.\n[Tirano] Aumenta o DANO F recebido pelo adversário em {4}% por {3}s."
+SKILL_DESC_90000980,"Um efeito adicional pode ser aplicado a cada ataque normal ou de habilidade, dependendo do estado em que estiver.\n[Rei-Deus] Tem {1}% de chance de causar atordoamento no adversário por {2}s.\n[Tirano] Aumenta o DANO F recebido pelo adversário em {4}% por {3}s. O alvo que receber este efeito não pode recebê-lo novamente durante {5}s."
 SKILL_DESC_91009810,[Apavore-se!] Aumenta o efeito de redução de DANO de todas as habilidades em {1}%.\n[Ajoelhe-se.] Reduz o custo de PM em 1.
 SKILL_DESC_91009820,"[Mostrarei meu poder.] Aumenta o DANO em {1}% e quando está no estado de Tirano, aumenta o DANO infligido em {2}%."
 SKILL_DESC_91009830,[Veja minha imensurável força!] Aumenta o reforço de ATQ em {1}%.\n[Agora morra.] Aumenta o DANO F recebido pelo adversário em {3}% por {2}s.
@@ -377,7 +377,7 @@ SKILL_DESC_60007441,"Recupera seu próprio PM em {1} a cada segundo e a [Espada 
 SKILL_DESC_60007450,"ATQ, DEF, PV + 15%/DANO CRÍT + 20%"
 SKILL_DESC_60007451,Aumenta em {3}% o DANO M recebido por todos os inimigos infligidos durante {2}s a cada {1}s.
 SKILL_DESC_90000740,"Após escolher uma dentre as três Lâminas da Noite Profunda: Céu Noturno, Sombra Obscura ou Véu, recebe o efeito correspondente.\n[Espada sombria do firmamento noturno, Céu Noturno] aumenta a VEL de ATQ em {1}, PREC em {2} e DANO causado por ataques normais em {3}%.\n[Espada sombria de silhueta densa, Sombra Obscura] recupera {4} de PM a cada segundo.\n[Espada sombria que corta a escuridão, Véu] aumenta o seu próprio ATQ em {6}% e o DANO CRÍT em {7}% a cada {5}s. Este efeito pode ser acumulado até {8}x e não pode ser removido."
-SKILL_DESC_91007410,"Aumenta o ATQ de [Huhu! Vacilou, morreu!] em {1}% e aumenta o DANO CRÍT em {2}% cada vez que infligir um ataque normal ou da habilidade [Huhu! Vacilou, morreu!]. Este efeito pode ser acumulado até {3}x."
+SKILL_DESC_91007410,"Aumenta o DANO de [Huhu! Vacilou, morreu!] em {1}% e aumenta o seu próprio DANO CRÍT em {2}% a cada acerto com ataque normal ou com a habilidade [Huhu! Vacilou, morreu!]. Este efeito pode ser acumulado até {3}x."
 SKILL_DESC_91007420,[A brincadeira está só começando!] tem o custo de PM reduzido em 1.\n[Haha! Tá dando mole?] ganha imunidade a efeitos de status por {1}s após se mover.
 SKILL_DESC_91007430,[Deixa eu te matar agora!!] tem o DANO infligido aumentado em {1}% e ganha imunidade a efeitos de status durante o uso.
 SKILL_DESC_91007440,"Efeitos são aplicados de acordo com a escolha de uma dentre as [Três espadas sombrias].\nA Espada sombria do firmamento noturno, [Céu Noturno] aumenta a VEL de ATQ de todos os aliados em {2} por {1}s.\nA Espada sombria de silhueta densa, [Sombra Obscura] reduz o DANO recebido por todos os aliados em {4}% por {3}s.\nA Espada sombria que corta a escuridão, [Véu] aumenta o ATQ de todos os aliados em {6}% por {5}s.\nTodos os efeitos são multiplicados por {8}x caso o número de aliados seja {7} ou menos."

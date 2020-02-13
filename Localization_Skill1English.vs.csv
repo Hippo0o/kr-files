@@ -35,7 +35,7 @@ SKILL_DESC_91000612,[Collision] Reduces the target's CC Resist by 250 and P.Bloc
 SKILL_DESC_91000613,[Collision] Reduces the target's CC Resist by 250 and P.Block chance by 350 for 10 sec.
 SKILL_DESC_91000614,[Collision] Reduces the target's CC Resist by 250 and P.Block chance by 420 for 10 sec.
 SKILL_DESC_91000615,[Collision] Reduces the target's CC Resist by 250 and P.Block chance by 500 for 10 sec.
-SKILL_DESC_91000710,"[Rapid Fire] Increases DMG by 50%, and increases P.DMG target receives by 10% for 10 sec."
+SKILL_DESC_91000710,"[Rapid Fire] Increases DMG by {1}%, and recovers {2} Mana upon a Critical Hit."
 SKILL_DESC_91000711,"[Rapid Fire] Increases DMG by 50%, and increases P.DMG target receives by 12% for 10 sec."
 SKILL_DESC_91000712,"[Rapid Fire] Increases DMG by 50%, and increases P.DMG target receives by 14% for 10 sec."
 SKILL_DESC_91000713,"[Rapid Fire] Increases DMG by 50%, and increases P.DMG target receives by 17% for 10 sec."
@@ -113,7 +113,7 @@ SKILL_DESC_91002012,"[Penetration] Increases ACC by 750, and CC ACC by 430 for t
 SKILL_DESC_91002013,"[Penetration] Increases ACC by 750, and CC ACC by 520 for the duration of skill."
 SKILL_DESC_91002014,"[Penetration] Increases ACC by 750, and CC ACC by 630 for the duration of skill."
 SKILL_DESC_91002015,"[Penetration] Increases ACC by 750, and CC ACC by 750 for the duration of skill."
-SKILL_DESC_91002110,"[Fierce Winds] Increases DMG by 50%, and reduces the target's P.Dodge chance by 200 for 10 sec."
+SKILL_DESC_91002110,"[Fierce Winds] Increases DMG by 50% and upon a Critical Hit, reduces Mana by {1}."
 SKILL_DESC_91002111,"[Fierce Winds] Increases DMG by 50%, and reduces the target's P.Dodge chance by 240 for 10 sec."
 SKILL_DESC_91002112,"[Fierce Winds] Increases DMG by 50%, and reduces the target's P.Dodge chance by 290 for 10 sec."
 SKILL_DESC_91002113,"[Fierce Winds] Increases DMG by 50%, and reduces the target's P.Dodge chance by 350 for 10 sec."
@@ -504,7 +504,7 @@ SKILL_DESC_91000632,"[Earth Incarnate] For the duration of skill, ATK Spd and Cr
 SKILL_DESC_91000633,"[Earth Incarnate] For the duration of skill, ATK Spd and Crit chance is increased by 250, and DEF boost is increased by 35%."
 SKILL_DESC_91000634,"[Earth Incarnate] For the duration of skill, ATK Spd and Crit chance is increased by 250, and DEF boost is increased by 42%."
 SKILL_DESC_91000635,"[Earth Incarnate] For the duration of skill, ATK Spd and Crit chance is increased by 250, and DEF boost is increased by 50%."
-SKILL_DESC_91000730,"[Glue Bomb] DMG is increased by 50%, and upon Crit Hit, recovers 200 mana."
+SKILL_DESC_91000730,[Glue Bomb] Increases DMG by {1}% and reduces the Heal Rate of the hit target by {3}% for {2} sec.
 SKILL_DESC_91000731,"[Glue Bomb] DMG is increased by 50%, and upon Crit Hit, recovers 240 mana."
 SKILL_DESC_91000732,"[Glue Bomb] DMG is increased by 50%, and upon Crit Hit, recovers 290 mana."
 SKILL_DESC_91000733,"[Glue Bomb] DMG is increased by 50%, and upon Crit Hit, recovers 350 mana."
@@ -582,7 +582,7 @@ SKILL_DESC_91002032,[Steel Fortress] Mana cost is reduced by 1 and jump attack's
 SKILL_DESC_91002033,[Steel Fortress] Mana cost is reduced by 1 and jump attack's Stun duration is increased by 2.5 sec.
 SKILL_DESC_91002034,[Steel Fortress] Mana cost is reduced by 1 and jump attack's Stun duration is increased by 3 sec.
 SKILL_DESC_91002035,[Steel Fortress] Mana cost is reduced by 1 and jump attack's Stun duration is increased by 3.5 sec.
-SKILL_DESC_91002130,[Dive Bomb] Skill cooldown is reduced by 30% and target takes 10% more P.DMG for 10 sec.
+SKILL_DESC_91002130,[Dive Bomb] Reduces Mana Cost by 1 and increases DMG by {1}%.
 SKILL_DESC_91002131,[Dive Bomb] Skill cooldown is reduced by 30% and target takes 12% more P.DMG for 10 sec.
 SKILL_DESC_91002132,[Dive Bomb] Skill cooldown is reduced by 30% and target takes 14% more P.DMG for 10 sec.
 SKILL_DESC_91002133,[Dive Bomb] Skill cooldown is reduced by 30% and target takes 17% more P.DMG for 10 sec.
@@ -714,12 +714,12 @@ SKILL_DESC_91004232,[Time Distortion] DMG is increased by 29% and all allies' ne
 SKILL_DESC_91004233,[Time Distortion] DMG is increased by 35% and all allies' negative effects are dispelled.
 SKILL_DESC_91004234,[Time Distortion] DMG is increased by 42% and all allies' negative effects are dispelled.
 SKILL_DESC_91004235,[Time Distortion] DMG is increased by 50% and all allies' negative effects are dispelled.
-SKILL_DESC_91004330,"[I'll rip you to pieces!!] Gain immunity to CC during skill activation and upon every use, DMG is increased by 4%. This effect is stacked max 10 times."
-SKILL_DESC_91004331,"[I'll rip you to pieces!!] Gain immunity to CC during skill activation and upon every use, DMG is increased by 4.8%. This effect is stacked max 10 times."
-SKILL_DESC_91004332,"[I'll rip you to pieces!!] Gain immunity to CC during skill activation and upon every use, DMG is increased by 5.8%. This effect is stacked max 10 times."
-SKILL_DESC_91004333,"[I'll rip you to pieces!!] Gain immunity to CC during skill activation and upon every use, DMG is increased by 7%. This effect is stacked max 10 times."
-SKILL_DESC_91004334,"[I'll rip you to pieces!!] Gain immunity to CC during skill activation and upon every use, DMG is increased by 8.4%. This effect is stacked max 10 times."
-SKILL_DESC_91004335,"[I'll rip you to pieces!!] Gain immunity to CC during skill activation and upon every use, DMG is increased by 10%. This effect is stacked max 10 times."
+SKILL_DESC_91004330,"[I'll Rip You to Pieces!!] Gain immunity to CC during skill activation and upon every use, DMG is increased by 4%. This effect is stacked max 10 times."
+SKILL_DESC_91004331,"[I'll Rip You to Pieces!!] Gain immunity to CC during skill activation and upon every use, DMG is increased by 4.8%. This effect is stacked max 10 times."
+SKILL_DESC_91004332,"[I'll Rip You to Pieces!!] Gain immunity to CC during skill activation and upon every use, DMG is increased by 5.8%. This effect is stacked max 10 times."
+SKILL_DESC_91004333,"[I'll Rip You to Pieces!!] Gain immunity to CC during skill activation and upon every use, DMG is increased by 7%. This effect is stacked max 10 times."
+SKILL_DESC_91004334,"[I'll Rip You to Pieces!!] Gain immunity to CC during skill activation and upon every use, DMG is increased by 8.4%. This effect is stacked max 10 times."
+SKILL_DESC_91004335,"[I'll Rip You to Pieces!!] Gain immunity to CC during skill activation and upon every use, DMG is increased by 10%. This effect is stacked max 10 times."
 SKILL_DESC_91004430,[Turbulent Dance] DMG is increased by 20% and target is inflicted by Stun for 3 sec.
 SKILL_DESC_91004431,[Turbulent Dance] DMG is increased by 24% and target is inflicted by Stun for 3 sec.
 SKILL_DESC_91004432,[Turbulent Dance] DMG is increased by 29% and target is inflicted by Stun for 3 sec.
@@ -1051,7 +1051,7 @@ SKILL_DESC_91002022,[Will to Win] Increases DMG by 50% and P.Weakness of the tar
 SKILL_DESC_91002023,[Will to Win] Increases DMG by 50% and P.Weakness of the target by 17% for 10 sec.
 SKILL_DESC_91002024,[Will to Win] Increases DMG by 50% and P.Weakness of the target by 21% for 10 sec.
 SKILL_DESC_91002025,[Will to Win] Increases DMG by 50% and P.Weakness of the target by 25% for 10 sec.
-SKILL_DESC_91002120,[Wind Reading] Increases ATK Boost by 50% and M.Dodge by 100.
+SKILL_DESC_91002120,"[Wind Reading] All effects become irremovable and upon activation, heals own HP equal to {1}% of Max HP."
 SKILL_DESC_91002121,[Wind Reading] Increases ATK Boost by 50% and M.Dodge by 120.
 SKILL_DESC_91002122,[Wind Reading] Increases ATK Boost by 50% and M.Dodge by 140.
 SKILL_DESC_91002123,[Wind Reading] Increases ATK Boost by 50% and M.Dodge by 170.
@@ -1520,7 +1520,7 @@ SKILL_DESC_91002042,[Spearhead] Increases DEF boost by 50%. All allies have thei
 SKILL_DESC_91002043,[Spearhead] Increases DEF boost by 50%. All allies have their P.Crit Resistance increased by 170.
 SKILL_DESC_91002044,[Spearhead] Increases DEF boost by 50%. All allies have their P.Crit Resistance increased by 210.
 SKILL_DESC_91002045,[Spearhead] Increases DEF boost by 50%. All allies have their P.Crit Resistance increased by 250.
-SKILL_DESC_91002140,[Tornado Strike] Reduces the target's P.Block by 500 and P.Dodge by 200 for 10 sec.
+SKILL_DESC_91002140,"[Tornado Strike] Increases the chance of dealing additional DMG by {1}% and upon activation during Guild War, deals additional P.DMG equal to {2}% of target's Max HP."
 SKILL_DESC_91002141,[Tornado Strike] Reduces the target's P.Block by 500 and P.Dodge by 240 for 10 sec.
 SKILL_DESC_91002142,[Tornado Strike] Reduces the target's P.Block by 500 and P.Dodge by 290 for 10 sec.
 SKILL_DESC_91002143,[Tornado Strike] Reduces the target's P.Block by 500 and P.Dodge by 350 for 10 sec.

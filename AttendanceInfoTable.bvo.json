@@ -127,7 +127,9 @@
       "Progress"
     ],
     "IconPath": "Booster/PACKAGE_DAILY_FULL_STAMINA",
-    "SendMail": "True"
+    "SendMail": "True",
+    "MailTitle": "PACKAGE_DAILY_STAMINA_MAIL_TITLE",
+    "MailContent": "PACKAGE_DAILY_STAMINA_MAIL_CONTENT"
   },
   {
     "Index": 1002,
@@ -136,6 +138,34 @@
       "Progress"
     ],
     "IconPath": "Booster/PACKAGE_DAILY_NPC_FRIENDSHIP",
-    "SendMail": "True"
+    "SendMail": "True",
+    "MailTitle": "PACKAGE_DAILY_NPC_MAIL_TITLE",
+    "MailContent": "PACKAGE_DAILY_NPC_MAIL_CONTENT"
+  },
+  {
+    "Index": 1003,
+    "TitleKey": "DAILY_RUBY_COUNT3",
+    "IconStatus": [
+      "Progress"
+    ],
+    "IconPath": "Booster/dailyRuby3",
+    "SendMail": "True",
+    "MailTitle": "PACKAGE_DAILY_STAMINA_MAIL_TITLE"
+  },
+  {
+    "Index": 24,
+    "TitleKey": "MAY_SPECIAL_PACKAGE_2020",
+    "IconStatus": [
+      "Progress"
+    ],
+    "IconPath": "Booster/Calendar_May_02"
+  },
+  {
+    "Index": 25,
+    "TitleKey": "2020_NEWBIE_MARCH_ATTENDANCE_TEXT"
+  },
+  {
+    "Index": 26,
+    "TitleKey": "2020_COMEBACK_MARCH_ATTENDANCE_TEXT"
   }
 ]

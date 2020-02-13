@@ -963,7 +963,11 @@
     "ExtraSkill": [
       "734",
       "714",
-      "744"
+      "744",
+      "93000712",
+      "745",
+      "746",
+      "747"
     ],
     "GetTranscendSkillPoint": [
       "10",
@@ -1040,17 +1044,17 @@
       "60000001",
       "60000033",
       "60000021",
-      "60000750",
+      "60000023",
       "60000730",
-      "60000741"
+      "60000710"
     ],
     "TranscendRecommend3": [
       "60000001",
       "60000002",
       "60000021",
-      "60000022",
-      "60000750",
-      "60000730"
+      "60000720",
+      "60000730",
+      "60000751"
     ],
     "EquipoptionRecommend1": [
       "STAT_TYPE.PHYSICAL_ATTACK",
@@ -3082,7 +3086,8 @@
     ],
     "ExtraSkill": [
       "2114",
-      "2115"
+      "2115",
+      "2144"
     ],
     "GetTranscendSkillPoint": [
       "10",
@@ -3159,17 +3164,17 @@
       "60000001",
       "60000033",
       "60000009",
-      "60002110",
-      "60002121",
+      "60002111",
+      "60002140",
       "60002130"
     ],
     "TranscendRecommend3": [
       "60000001",
       "60000002",
       "60000010",
-      "60002150",
-      "60002111",
-      "60002140"
+      "60002120",
+      "60002110",
+      "60002131"
     ],
     "EquipoptionRecommend1": [
       "STAT_TYPE.PHYSICAL_CRITICAL_CHANCE",
@@ -4402,7 +4407,7 @@
       "60000017",
       "60000020",
       "60002921",
-      "60002950"
+      "60002910"
     ],
     "EquipoptionRecommend1": [
       "STAT_TYPE.PHYSICAL_ATTACK",
@@ -11091,15 +11096,15 @@
       "60007140",
       "60007110",
       "60007121",
-      "60007130"
+      "60007131"
     ],
     "TranscendRecommend3": [
       "60000001",
       "60000002",
-      "60000003",
-      "60000011",
+      "60000010",
+      "60007120",
       "60000035",
-      "60007150"
+      "60007130"
     ],
     "EquipoptionRecommend1": [
       "STAT_TYPE.PHYSICAL_CRITICAL_CHANCE",
@@ -11511,7 +11516,13 @@
       "7456",
       "7457",
       "93007412",
-      "93007414"
+      "93007414",
+      "7458",
+      "7459",
+      "7460",
+      "7461",
+      "7462",
+      "7463"
     ],
     "GetTranscendSkillPoint": [
       "10",
@@ -12447,7 +12458,8 @@
       "9272",
       "9266",
       "9214",
-      "93009211"
+      "93009211",
+      "9224"
     ],
     "GetTranscendSkillPoint": [
       "10",
@@ -13409,7 +13421,8 @@
       "9834",
       "9847",
       "9848",
-      "9849"
+      "9849",
+      "9850"
     ],
     "GetTranscendSkillPoint": [
       "10",
@@ -24693,6 +24706,28 @@
     "StarStoneItemCode": "NO_ITEM"
   },
   {
+    "Index": 830,
+    "CodeName": "NPC.Annette",
+    "Race": "NPC",
+    "AttrType": [
+      "Physical"
+    ],
+    "AttackWeakType": [
+      "Fire"
+    ],
+    "PositionType": "Middle",
+    "PositionWeight": 3030,
+    "MoveSpeed": 5000,
+    "MinDamageRate": 204,
+    "IgnoreCc": [
+      "False"
+    ],
+    "SizeMm": 500,
+    "HeightMm": 1660,
+    "GradeStoneItemCode": "NO_ITEM",
+    "StarStoneItemCode": "NO_ITEM"
+  },
+  {
     "Index": 1001,
     "CodeName": "Monster.Goblin.Shield",
     "Race": "Goblin",
@@ -33043,7 +33078,9 @@
     "GradeStoneItemCode": "NO_ITEM",
     "StarStoneItemCode": "NO_ITEM",
     "SkillIndex1": 880410,
-    "SkillIndex5": 880450
+    "SkillIndex5": 880450,
+    "ReplaceNameKey": "CREATURE_NAME_8802",
+    "ReplaceDescKey": "CREATURE_DESC_8802"
   },
   {
     "Index": 900001,
@@ -36358,6 +36395,49 @@
       "3304246"
     ],
     "ReplaceNameKey": "CREATURE_NAME_55032"
+  },
+  {
+    "Index": 34001,
+    "CodeName": "Mysterious.Book.Normal",
+    "Race": "Spirit",
+    "AttrType": [
+      "Magical"
+    ],
+    "AttackWeakType": [
+      "Fire"
+    ],
+    "PositionWeight": 3000,
+    "MoveSpeed": 5000,
+    "MinDamageRate": 200,
+    "IgnoreCc": [
+      "False"
+    ],
+    "SizeMm": 1100,
+    "HeightMm": 5000,
+    "GradeStoneItemCode": "NO_ITEM",
+    "StarStoneItemCode": "NO_ITEM",
+    "ReplaceNameKey": "CREATURE_NAME_4301"
+  },
+  {
+    "Index": 34002,
+    "CodeName": "Mysterious.Book.SuperElite",
+    "Race": "Spirit",
+    "AttrType": [
+      "Magical"
+    ],
+    "AttackWeakType": [
+      "Fire"
+    ],
+    "PositionWeight": 3000,
+    "MoveSpeed": 5000,
+    "MinDamageRate": 200,
+    "IgnoreCc": [
+      "False"
+    ],
+    "SizeMm": 1100,
+    "HeightMm": 5000,
+    "GradeStoneItemCode": "NO_ITEM",
+    "StarStoneItemCode": "NO_ITEM"
   },
   {
     "Index": 500140,
@@ -41749,6 +41829,251 @@
     "HeightMm": 2000,
     "GradeStoneItemCode": "NO_ITEM",
     "StarStoneItemCode": "NO_ITEM"
+  },
+  {
+    "Index": 50063,
+    "CodeName": "Substory.MysteriousBook.SuperElite",
+    "ModelCode": "Mysterious.Book.SuperElite",
+    "Race": "SummonedConstructs",
+    "AttrType": [
+      "Physical"
+    ],
+    "AttackWeakType": [
+      "Fire"
+    ],
+    "PositionType": "Forward",
+    "PositionWeight": 20000,
+    "MoveSpeed": 5000,
+    "MinDamageRate": 200,
+    "IgnoreCc": [
+      "CC"
+    ],
+    "SizeMm": 700,
+    "HeightMm": 2500,
+    "GradeStoneItemCode": "NO_ITEM",
+    "StarStoneItemCode": "NO_ITEM",
+    "BaseSkillIndex": 5006300
+  },
+  {
+    "Index": 50064,
+    "CodeName": "NPC.Ophelia.Card.Death",
+    "Race": "NPC",
+    "AttrType": [
+      "Physical"
+    ],
+    "AttackWeakType": [
+      "Fire"
+    ],
+    "PositionType": "Forward",
+    "PositionWeight": 20000,
+    "MoveSpeed": 5000,
+    "MinDamageRate": 200,
+    "IgnoreCc": [
+      "False"
+    ],
+    "SizeMm": 500,
+    "HeightMm": 2000,
+    "GradeStoneItemCode": "NO_ITEM",
+    "StarStoneItemCode": "NO_ITEM"
+  },
+  {
+    "Index": 50065,
+    "CodeName": "NPC.Ophelia.Card.Love",
+    "Race": "NPC",
+    "AttrType": [
+      "Physical"
+    ],
+    "AttackWeakType": [
+      "Fire"
+    ],
+    "PositionType": "Forward",
+    "PositionWeight": 20000,
+    "MoveSpeed": 5000,
+    "MinDamageRate": 200,
+    "IgnoreCc": [
+      "False"
+    ],
+    "SizeMm": 500,
+    "HeightMm": 2000,
+    "GradeStoneItemCode": "NO_ITEM",
+    "StarStoneItemCode": "NO_ITEM"
+  },
+  {
+    "Index": 50066,
+    "CodeName": "NPC.Ophelia.Card.Lucky",
+    "Race": "NPC",
+    "AttrType": [
+      "Physical"
+    ],
+    "AttackWeakType": [
+      "Fire"
+    ],
+    "PositionType": "Forward",
+    "PositionWeight": 20000,
+    "MoveSpeed": 5000,
+    "MinDamageRate": 200,
+    "IgnoreCc": [
+      "False"
+    ],
+    "SizeMm": 500,
+    "HeightMm": 2000,
+    "GradeStoneItemCode": "NO_ITEM",
+    "StarStoneItemCode": "NO_ITEM"
+  },
+  {
+    "Index": 50067,
+    "CodeName": "Substory.Ophelia",
+    "ModelCode": "Hero.Ophelia",
+    "ModelPrefix": "Substory01_Light",
+    "Race": "Hero",
+    "AttrType": [
+      "Magical"
+    ],
+    "AttackWeakType": [
+      "Fire"
+    ],
+    "PositionType": "Rear",
+    "PositionWeight": 500,
+    "MoveSpeed": 5000,
+    "MinDamageRate": 200,
+    "IgnoreCc": [
+      "CC"
+    ],
+    "SizeMm": 1000,
+    "HeightMm": 3000,
+    "GradeStoneItemCode": "NO_ITEM",
+    "StarStoneItemCode": "NO_ITEM",
+    "BaseSkillIndex": 4900,
+    "SkillIndex1": 4910,
+    "SkillIndex4": 4940,
+    "ExtraSkill": [
+      "4914",
+      "4924",
+      "4934",
+      "4935",
+      "4936",
+      "4944",
+      "4926",
+      "4916",
+      "4920",
+      "4930"
+    ],
+    "GetTranscendSkillPoint": [
+      "10",
+      "15",
+      "15",
+      "15",
+      "25"
+    ],
+    "TranscendSkill1": [
+      "60000001",
+      "60000002",
+      "60000003",
+      "60000004",
+      "60000033"
+    ],
+    "ReqSkillPoint1": [
+      "10",
+      "10",
+      "10",
+      "10",
+      "10"
+    ],
+    "TranscendSkill2": [
+      "60000025",
+      "60000026",
+      "60000027",
+      "60000028",
+      "60000039"
+    ],
+    "ReqSkillPoint2": [
+      "15",
+      "15",
+      "15",
+      "15",
+      "15"
+    ],
+    "TranscendSkill3": [
+      "60004910",
+      "60004911",
+      "60004920",
+      "60004921",
+      "60004930",
+      "60004931",
+      "60004940",
+      "60004941"
+    ],
+    "ReqSkillPoint3": [
+      "15",
+      "15",
+      "15",
+      "15",
+      "15",
+      "15",
+      "15",
+      "15"
+    ],
+    "TranscendSkill5": [
+      "60004950",
+      "60004951"
+    ],
+    "ReqSkillPoint5": [
+      "15",
+      "15"
+    ],
+    "SoulWeaponBasicSkillIndex": 93004900
+  },
+  {
+    "Index": 50068,
+    "CodeName": "Substory.MysteriousBook.Normal",
+    "ModelCode": "Mysterious.Book.Normal",
+    "Race": "SummonedConstructs",
+    "AttrType": [
+      "Physical"
+    ],
+    "AttackWeakType": [
+      "Fire"
+    ],
+    "PositionType": "Forward",
+    "PositionWeight": 20000,
+    "MoveSpeed": 5000,
+    "MinDamageRate": 200,
+    "IgnoreCc": [
+      "False"
+    ],
+    "SizeMm": 700,
+    "HeightMm": 2500,
+    "GradeStoneItemCode": "NO_ITEM",
+    "StarStoneItemCode": "NO_ITEM",
+    "BaseSkillIndex": 5006800
+  },
+  {
+    "Index": 50069,
+    "CodeName": "NPC.Reminiscence.Mirror"
+  },
+  {
+    "Index": 50070,
+    "CodeName": "Substory.Rephy",
+    "ModelCode": "Hero.Rephy",
+    "ModelPrefix": "Substory01"
+  },
+  {
+    "Index": 50071,
+    "CodeName": "Substory.Viska",
+    "ModelCode": "Hero.Viska",
+    "ModelPrefix": "Substory01"
+  },
+  {
+    "Index": 50072,
+    "CodeName": "Substory.Ophelia2",
+    "ModelCode": "Hero.Ophelia",
+    "ModelPrefix": "Substory01"
+  },
+  {
+    "Index": 50073,
+    "CodeName": "Substory.Theo",
+    "ModelCode": "Hero.Theo",
+    "ModelPrefix": "Substory01"
   },
   {
     "Index": 99999,
@@ -51752,5 +52077,117 @@
     "SkillIndex1": 3301310,
     "SkillIndex2": 3301320,
     "ReplaceNameKey": "CREATURE_NAME_33113"
+  },
+  {
+    "Index": 40145,
+    "CodeName": "Monster.Event.2020_SpringFestival.GolemGuard",
+    "ModelCode": "Monster.Golem.Guard",
+    "OpenStatus": "Normal",
+    "Race": "Golem",
+    "AttrType": [
+      "Physical"
+    ],
+    "ArchiveType": "Normal",
+    "AttackWeakType": [
+      "Fire"
+    ],
+    "PositionWeight": 3000,
+    "MoveSpeed": 5000,
+    "MinDamageRate": 200,
+    "IgnoreCc": [
+      "False"
+    ],
+    "SizeMm": 900,
+    "HeightMm": 2800,
+    "GradeStoneItemCode": "NO_ITEM",
+    "StarStoneItemCode": "NO_ITEM",
+    "BaseSkillIndex": 400100,
+    "SkillIndex1": 400110
+  },
+  {
+    "Index": 40146,
+    "CodeName": "Monster.Event.2020_SpringFestival.EntNut",
+    "ModelCode": "Monster.Ent.Thorn",
+    "OpenStatus": "Normal",
+    "Race": "Spirit",
+    "AttrType": [
+      "Physical"
+    ],
+    "ArchiveType": "Normal",
+    "AttackWeakType": [
+      "Fire"
+    ],
+    "PositionWeight": 2000,
+    "MoveSpeed": 5000,
+    "MinDamageRate": 200,
+    "IgnoreCc": [
+      "False"
+    ],
+    "SizeMm": 800,
+    "HeightMm": 3200,
+    "GradeStoneItemCode": "NO_ITEM",
+    "StarStoneItemCode": "NO_ITEM",
+    "BaseSkillIndex": 900100,
+    "SkillIndex1": 900110
+  },
+  {
+    "Index": 40147,
+    "CodeName": "Monster.Event.2020_SpringFestival.GolemGuard2",
+    "ModelCode": "Monster.Golem.Guard",
+    "OpenStatus": "Normal",
+    "Race": "Golem",
+    "AttrType": [
+      "Physical"
+    ],
+    "ArchiveType": "Normal",
+    "AttackWeakType": [
+      "Fire"
+    ],
+    "PositionWeight": 3000,
+    "MoveSpeed": 5000,
+    "MinDamageRate": 200,
+    "IgnoreCc": [
+      "CC"
+    ],
+    "SizeMm": 900,
+    "HeightMm": 2800,
+    "GradeStoneItemCode": "NO_ITEM",
+    "StarStoneItemCode": "NO_ITEM",
+    "BaseSkillIndex": 400100,
+    "SkillIndex1": 400110,
+    "ExtraSkill": [
+      "5006070"
+    ],
+    "ReplaceNameKey": "CREATURE_NAME_40145"
+  },
+  {
+    "Index": 40148,
+    "CodeName": "Monster.Event.2020_SpringFestival.EntNut2",
+    "ModelCode": "Monster.Ent.Thorn",
+    "OpenStatus": "Normal",
+    "Race": "Spirit",
+    "AttrType": [
+      "Physical"
+    ],
+    "ArchiveType": "Normal",
+    "AttackWeakType": [
+      "Fire"
+    ],
+    "PositionWeight": 2000,
+    "MoveSpeed": 5000,
+    "MinDamageRate": 200,
+    "IgnoreCc": [
+      "CC"
+    ],
+    "SizeMm": 800,
+    "HeightMm": 3200,
+    "GradeStoneItemCode": "NO_ITEM",
+    "StarStoneItemCode": "NO_ITEM",
+    "BaseSkillIndex": 900100,
+    "SkillIndex1": 900110,
+    "ExtraSkill": [
+      "5006070"
+    ],
+    "ReplaceNameKey": "CREATURE_NAME_40146"
   }
 ]

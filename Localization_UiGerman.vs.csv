@@ -1331,8 +1331,8 @@ COUPON_INPUT_MESSAGE,Gib die Coupon-Nummer ein.
 COUPON_NOTICE_MESSAGE,※ Coupon kann nicht mehrmals benutzt werden.\n※ Belohnungen werden an dein Postfach gesendet und 3 Tage lang aufbewahrt.
 PROMOTION.USE_COUPON_SUCCESS,Bitte schau in dein Postfach für Coupons.
 PLAYPOINT_REWARD_TITLE,Google Play Points
-PLAYPOINT_REWARD_CONTENT,Do you want to receive Google Play Points reward?
-PLAYPOINT_REWARD_WARNING,You will receive the reward in your Inventory
+PLAYPOINT_REWARD_CONTENT,Möchtest du Rubinen als Belohnung für deine Google Play-Punkte erhalten?
+PLAYPOINT_REWARD_WARNING,Die erhaltenen Rubine werden dir zu der Gesamtanzahl an Rubine sofort angerechnet.
 GUEST_LOGIN_MESSAGE,Eingeloggt als Gast.
 NICK_NAME_CHANGE_DESC,Nur die erste Änderung des Nutzernamens ist gratis.
 NICK_NAME_CHANGE_MESSAGE,Du hast keine Nutzername-Änderungstickets.
@@ -2802,8 +2802,8 @@ TOOLTIP_INFO_NAME_UNDERGROUNDLABYRINTHKEY,Königl. Schatzkammer-Schlüssel
 TOOLTIP_INFO_NAME_HIDEOUTKEY,Großdungeon-Schlüssel
 TOOLTIP_INFO_NAME_CHALLENGETOWERKEY,Würfel der Herausforderungen
 TOOLTIP_INFO_NAME_EVENTDUNGEONTICKET,Glückssträhne
-TOOLTIP_INFO_NAME_EVENTDUNGEONPOINT,Ticket
-TOOLTIP_INFO_NAME_EVENTDUNGEONPOINT2,Festballons
+TOOLTIP_INFO_NAME_EVENTDUNGEONPOINT,Geschenkgutschein
+TOOLTIP_INFO_NAME_EVENTDUNGEONPOINT2,Schokoladenbällchen
 TOOLTIP_INFO_NAME_EVENTDUNGEONTICKET_BACKUP,Halloween-Dungeon-Schlüssel
 TOOLTIP_INFO_NAME_EVENTDUNGEONPOINT_BACKUP,Halloweenpunkt
 TOOLTIP_INFO_NAME_CONQUESTKEY,Eroberungsschlüssel
@@ -2825,8 +2825,8 @@ TOOLTIP_INFO_TEXT_UNDERGROUNDLABYRINTHKEY,"Um die Königl. Schatzkammer betreten
 TOOLTIP_INFO_TEXT_HIDEOUTKEY,"Um den Großdungeon betreten zu können, werden Schlüssel gebraucht."
 TOOLTIP_INFO_TEXT_CHALLENGETOWERKEY,"Um den Turm der Herausforderungen betreten zu können, werden Würfel gebraucht."
 TOOLTIP_INFO_TEXT_EVENTDUNGEONTICKET,"Um Event-Dungeons betreten zu können, werden Schlüssel gebraucht."
-TOOLTIP_INFO_TEXT_EVENTDUNGEONPOINT,"Du kannst es erhalten, nachdem du Chaotische Wunschkiste Event-Dungeon erfolgreich beendet hast. Dieses kann beim Kauf von Artikel im Event-Shop verwendet werden."
-TOOLTIP_INFO_TEXT_EVENTDUNGEONPOINT2,"Du kannst sie erhalten, nachdem du 1.000 Tage Festanlass Spezial-Dungeon erfolgreich beendet hast. Diese können beim Kauf von Artikel im 1.000 Tage Festanlass-Shop verwendet werden."
+TOOLTIP_INFO_TEXT_EVENTDUNGEONPOINT,"Du kannst es erhalten, nachdem du den Geschichten-Dungeon erfolgreich beendet hast. Dieser kann beim Kauf von Artikel im Event-Shop verwendet werden."
+TOOLTIP_INFO_TEXT_EVENTDUNGEONPOINT2,"Du kannst sie erhalten, nachdem du Spezial-Dungeon erfolgreich beendet hast. Diese können beim Kauf von Artikel im Event-Shop verwendet werden."
 TOOLTIP_INFO_NAME_GLORYPOINT,Ehrenmedaille
 TOOLTIP_INFO_TEXT_GLORYPOINT,In der Ehrenliga erspielbare Punkte. Können im Ehrenliga-Shop gegen Artikel getauscht werden.
 TOOLTIP_INFO_NAME_RANKINGPOINT,Ehrenabzeichen
@@ -2865,10 +2865,10 @@ MATCH_PICKBAN_CONDITION_FAIL_PRE,"Nur verfügbar, wenn du mehr als {1} Helden be
 MATCH_WEEKEND_BONUS_HERO,Wöchentlicher Bonus-Held
 MATCH_PICKBAN_INEXSTENT_HERO,Dieser Held existiert nicht.
 MATCH_PICKBAN_ALREADY_SELECT_HERO,Dieser Held wurde bereits ausgewählt.
-MATCH_PICKBAN_SEASON_INFO_FREE_TITLE,Frei Saisonregeln
+MATCH_PICKBAN_SEASON_INFO_FREE_TITLE,Freie Saisonregeln
 MATCH_PICKBAN_SEASON_INFO_REAL_TITLE,Hauptsaison-Regeln
-MATCH_PICKBAN_SEASON_INFO_FREE_DESC,"Die Ehrenliga-Freisaison ist ein PvP-System, in dem Spieler ihr eigenes 4er-Team zusammenstellen und eine Runde lang kämpfen.\nJeder Spieler kann 1 gegnerischen Helden bannen und aus seiner eigenen Liste 5 auswählen, die für ihn antreten sollen. Zu guter Letzt bannt jeder Spieler 1 Helden aus den vom Gegner ausgewählten 5 Helden.\nAlle gebannten und vom Gegner gewählten Helden können nicht Teil deiner Gruppe sein.\nBesiege das Gegnerteam nach der Teamauswahl innerhalb des Zeitlimits, um zu gewinnen.\nWenn die Zeit abgelaufen ist, gewinnt das Team mit den meisten TP.\nSaisonlänge und Anfangsdatum können je nach Saison abweichen.\nWährend der Freisaison gibt es keine Einschränkungen beim Level der Helden oder der Erweckung, und jeder, der mehr als 12 Helden besitzt, kann teilnehmen."
-MATCH_PICKBAN_SEASON_INFO_REAL_DESC,"Die Ehrenliga-Hauptsaison ist ein PvP-System, in dem Spieler ihr eigenes 4er-Team zusammenstellen und eine Runde lang kämpfen.\nJeder Spieler kann 1 gegnerischen Helden bannen und aus seiner eigenen Liste 5 auswählen, die für ihn antreten sollen. Zu guter Letzt bannt jeder Spieler 1 Helden aus den vom Gegner ausgewählten 5 Helden.\nAlle gebannten und vom Gegner gewählten Helden können nicht Teil deiner Gruppe sein.\nBesiege das Gegnerteam nach der Teamauswahl innerhalb des Zeitlimits, um zu gewinnen.\nWenn die Zeit abgelaufen ist, gewinnt das Team mit den meisten TP.\nSaisonlänge und Anfangsdatum können pro Saison abweichen.\nWährend der Hauptsaison gibt es keine Einschränkungen beim Level der Helden oder der Erweckung, und jeder, der mehr als 12 Helden besitzt, kann teilnehmen."
+MATCH_PICKBAN_SEASON_INFO_FREE_DESC,"Die Ehrenliga-Hauptsaison ist ein PvP-System, in dem Spieler ihr eigenes 4er-Team zusammenstellen\nund eine Runde lang kämpfen.\nJeder Spieler kann 1 gegnerischen Helden bannen und aus seiner eigenen Liste 5 auswählen, die für ihn antreten sollen.\nZu guter Letzt bannt jeder Spieler 1 Helden aus den vom Gegner ausgewählten 5 Helden.\nAlle gebannten und vom Gegner gewählten Helden können nicht Teil deiner Gruppe sein.\nBesiege das Gegnerteam nach der Teamauswahl innerhalb des Zeitlimits, um zu gewinnen.\nWenn die Zeit abgelaufen ist, gewinnt das Team mit den meisten TP.\nSaisonlänge und Anfangsdatum können pro Saison abweichen.\nWährend der Freisaison gibt es keine Einschränkungen beim Level der Helden oder der Erweckung,\nund jeder, der mehr als 12 Helden besitzt, kann teilnehmen.\nBei Teilnahme in der Ehrenliga werden allen Spieler 45 zusätzliche Ehrenpunkte zugesprochen."
+MATCH_PICKBAN_SEASON_INFO_REAL_DESC,"Die Ehrenliga-Hauptsaison ist ein PvP-System, in dem Spieler ihr eigenes 4er-Team zusammenstellen\nund eine Runde lang kämpfen.\nJeder Spieler kann 1 gegnerischen Helden bannen und aus seiner eigenen Liste 5 auswählen, die für ihn antreten sollen.\nZu guter Letzt bannt jeder Spieler 1 Helden aus den vom Gegner ausgewählten 5 Helden.\nAlle gebannten und vom Gegner gewählten Helden können nicht Teil deiner Gruppe sein.\nBesiege das Gegnerteam nach der Teamauswahl innerhalb des Zeitlimits, um zu gewinnen.\nWenn die Zeit abgelaufen ist, gewinnt das Team mit den meisten TP.\nSaisonlänge und Anfangsdatum können pro Saison abweichen.\nWährend der Hauptsaison gibt es keine Einschränkungen beim Level der Helden oder der Erweckung,\nund jeder, der mehr als 12 Helden besitzt, kann teilnehmen.\nBei Teilnahme in der Ehrenliga werden allen Spieler 45 zusätzliche Ehrenpunkte zugesprochen."
 MATCH_PICKBAN_SEASON_REWARDINFO_FREE_TITLE,Belohnungsinfo
 MATCH_PICKBAN_SEASON_REWARDINFO_FREE_DESC,Es gibt keine Saison-/wöchentlichen Belohnungen während der freien Saison.
 MATCH_PICKBAN_JOIN_REWARD,Teilnahmebelohnung
@@ -3855,27 +3855,33 @@ SUBSTORY_MAIN_REQUIRE_CHARACTER,Spielbedingungen
 SUBSTORY_MAIN_REQUIRE_DUNGEON,Schließe {1}-{2} ab
 SUBSTORY_MAIN_FIRST_REWARD,Erste Belohnung
 SUBSTORY_MAIN_COSTUME_REWARD,Verfügbares Kostüm
+SUBSTORY_MAIN_TACTIC,Eroberungs-Infos
+SUBSTORY_MAIN_REQUIRE_CHARACTER_LEVEL,Level {2} {1} nötig
+SUBSTORY_CHAPTER_NOT_CLEAR_DUNGEON,Abschließen von Kapitel {1}-{2} nötig
 NODE_SUBSTORY_STORY,Geschichte
 REWARD_SUBSTORY_TITLE,Erstes Abschließen Belohnung
 UNLOCK_NEW_COSTUME_POPUP_TITLE,Kostüm kann gekauft werden.
 COSTUME_OBTAIN_DESC_SUBSTORY,Verfügbar nach\nAbschluss der Untergeschichte.
 RESULT_TYPE.SUBSTORY_CLASS_STORY_EMPTY,Die Untergeschichte für den Helden dieser\nKlasse wurde noch nicht aktualisiert.
 SUBSTORY_HERO_STAR_LOW_TITLE,Heldenlevel zu niedrig
-SUBSTORY_HERO_STAR_LOW_DESC,Die Erweckungs- oder Transzendenz-Phase des Helden reicht zum Ansehen der Geschichte nicht aus.
+SUBSTORY_HERO_STAR_LOW_DESC,Die Transzendenz-Phase oder der Level des Helden reicht zum Ansehen der Geschichte nicht aus.
 SUBSTORY_CHAPTER_NOT_CLEAR_TITLE,Unzureichender Kapitelfortschritt
 SUBSTORY_CHAPTER_NOT_CLEAR_DESC,"Du musst weiter im Kapitel vorankommen, um dir die Geschichte ansehen zu können."
-SUBSTORY_MAIN_REQUIRE_CHARACTER_STAR,Erreiche {1}★
-SUBSTORY_MAIN_REQUIRE_CHARACTER_TRANS,Erreiche Tr-{1}
+SUBSTORY_MAIN_REQUIRE_CHARACTER_OWN,{1} im Besitz
+SUBSTORY_MAIN_REQUIRE_CHARACTER_STAR,{1}★
+SUBSTORY_MAIN_REQUIRE_CHARACTER_TRANS,Tr-{1}
 SUBSTORY_MAIN_REQUIRE_CHAPTER,Kapitel {1}
 SUBSTORY_DUNGEON_TITLE16,Untergeschichte: Rephy
 SUBSTORY_DUNGEON_TITLE17,Untergeschichte: Dimael
 SUBSTORY_DUNGEON_TITLE40,Untergeschichte: Theo
 SUBSTORY_DUNGEON_TITLE43,Untergeschichte: Viska
 SUBSTORY_DUNGEON_TITLE44,Untergeschichte: Priscilla
+SUBSTORY_DUNGEON_TITLE49,Untergeschichte: Ophelia
 SUBSTORY_DUNGEON_TITLE52,Untergeschichte: Crow
 COSTUMESHOP_SUBSTORY_VIEW_TEXT,Untergeschichte
 COSTUME_OBTAIN_DESC_DETAIL_SUBSTORY,Kann nach Abschluss der Untergeschichte gekauft werden.
 COSTUME_OBTAIN_DESC_SHOP_TAG,Schließe Untergeschichte ab.
+REMINISCENCE_MIRROR_ENTER,Spiegel der\nErinnerung
 CHALLENGERAID_SEASON_RANKING_DESC,"Herzlichen Glückwunsch, du bist jetzt in der Saisonrangliste des Herausforderungsraid!"
 CHALLENGERAID_SEASON_RANKING_TITLE,Saisonbelohnung für Herausforderungsraid!
 CHALLENGERAID_SEASON_PLAY_DESC,Vielen Danke für deine Teilnahme an den Ranglistenkämpfen des Herausforderungsraid!
@@ -3921,6 +3927,7 @@ COSTUME_GROUP_CASAULFASHION1,Freizeitmode
 COSTUME_GROUP_CASUALFASHION1,Freizeitmode
 COSTUME_GROUP_HEROICCAREER1,Arbeitskleidung
 COSTUME_GROUP_FESTIVENOELS,Weihnachten III
+COSTUME_GROUP_DESSERT,Nachtisch
 UI_SELECT_HERO_NONE,Es stehen keine Helden zur Auswahl.
 UI_SELECT_COSTUME_NONE,Es stehen keine Kostüme zur Auswahl.
 FILTER_SELECT.FILTER_SELECT_PART,Nach Teil sortieren
@@ -4639,8 +4646,8 @@ BENEFIT_NEWBIE_MAINTITLE,Anfänger-Vorteilskollektion
 BENEFIT_NEWBIE_TIMEATTACK,Das Angebote endet in: \n{1} T. {2} Std. {3} Min.
 BENEFIT_NEWBIE_SPECIALPRESENT,Spezial 15 Tage-Geschenk
 BENEFIT_NEWBIE_HERO,Tagesrubin und Sonderangebot
-BENEFIT_NEWBIE_TEAMLEVELUP,Level-Up-Mission für neue Spieler
-BENEFIT_NEWBIE_STAGEPASS,Kapitel-Mission für neue Spieler
+BENEFIT_NEWBIE_TEAMLEVELUP,Neuspieler Level-Up-Mission
+BENEFIT_NEWBIE_STAGEPASS,Neuspieler Kapitel-Mission
 BENEFIT_NEWBIE_MAYRECOMMEND,Mays Empfehlung
 BENEFIT_NEWBIE_1DOLLARSHOP,Ein-Dollar-Glück
 BENEFIT_NEWBIE_END_MAINKEY_1,Nicht erhaltene Belohnungen
@@ -5497,14 +5504,6 @@ EVENT_19HALLOWEEN_DUNGEONNAME5,Raum des Geheimnisses
 EVENT_19HALLOWEEN_DUNGEONNAME6,Dunkler Wald
 ITEM_NAME_91337,Halloween-Accessoires Kiste
 ITEM_DESC2_91337,Eine Kiste voll mit Halloween-Accessoires. Bei Verwendung erhältst du limitierte Individualisierung-Gegenstände.
-COSTUME_NAME_ACCESSORY_HEAD_3100701,Kleiner Hexenhut
-COSTUME_DESC_ACCESSORY_HEAD_3100701,Ein kleiner Hexenhut.
-COSTUME_NAME_ACCESSORY_HEAD_3100801,Kürbis Stirnband
-COSTUME_DESC_ACCESSORY_HEAD_3100801,Ein süßes Kürbis Stirnband.
-COSTUME_NAME_ACCESSORY_BODY_3400801,Weißer Fuchsschweif
-COSTUME_DESC_ACCESSORY_BODY_3400801,Ein Accessoire in Form eines weißen Fuchsschweifs.
-COSTUME_NAME_ACCESSORY_BODY_3400901,Fledermausflügel
-COSTUME_DESC_ACCESSORY_BODY_3400901,Ein Accessoire in Form von Fledermausflügeln.
 ITEM_NAME_47020,Perle der Dunkelheit
 ITEM_DESC2_47020,Diesen Gegenstand kannst du Lavril schenken.\nErhöht deinen Beitrag um 1.
 ITEM_NAME_91336,Lavrils Geschenk
@@ -5538,6 +5537,8 @@ PUSH_REWARD_DINNER,Abendbelohnung erhalten
 IMPROVE_RESETREMAININGDATE,{1} verbleiben
 RECOGNITION_DAY,Tag(e)
 RECOGNITION_HOUR,Std.
+RECOGNITION_UNDERHOUR,Weniger als Std.
+ADVENTURE_NOTICE_CONTENTS_NAME,Koreanischen Text eingeben.
 ADVENTURE_NOTICE_STAMINA_REGENERATION,{1} : {2} : {3}
 ADVENTURE_NOTICE_RESET_REMAIN_DAY,{1} Tage verbleiben
 ADVENTURE_NOTICE_RESET_REMAIN_HOUR_1,{1} Std. verbleiben
@@ -5563,16 +5564,17 @@ EVENT_DUNGEON_1000DAYS_NAME2,10 Tage Danksagung
 EVENT_DUNGEON_1000DAYS_NAME3,100 Tage voller Emotionen
 EVENT_DUNGEON_1000DAYS_NAME4,1.000 Tage Begeisterung
 SHOP_NAME_1000DAYS_SHOP,1.000 Tage Festanlass-Shop
-TOOLTIP_INFO_NAME_SHOPEVENTPOINT,Black-Token
+TOOLTIP_INFO_NAME_SHOPEVENTPOINT,Schokolade
 TOOLTIP_INFO_TEXT_SHOPEVENTPOINT,"Du kannst diese erhalten, wenn du während Limitierte Events Artikel im Shop kaufst.\nDiese können im Spezial-Shop gegen Belohnungen eingetauscht werden und sind nach dem Eventende nicht mehr erhältlich oder verwendbar."
-PAY_SHOP_CATEGORY.PAY_SHOP_EVENT,Black Friday
-RESULT_TYPE.NOT_ENOUGH_SHOP_EVENT_POINT,Nicht genug Black-Token.
+PAY_SHOP_CATEGORY.PAY_SHOP_EVENT,Valentinstag
+RESULT_TYPE.NOT_ENOUGH_SHOP_EVENT_POINT,Nicht genug Schokolade.
 SHOP_TAB_EVENT_BM,Sonderartikel
-SHOP_TAB_EVENT_POINT,Black-Token-Shop
-COMMON.SHOP_EVENT_POINT_COUNT,{1} Black-Token
-EVENT_BLACK_FRIDAY_POINT_DESC2_01,"Black-Token können erhalten werden, wenn du während Limitierte Events Artikel im Shop kaufst."
-COMMON_EVENT_DAY_DESC2_01,※ Eventzeitraum: Bis zu den Wartungsarbeiten am 17. Dez.
-EVENT_BLACK_FRIDAY_TICKET,Black-Token
+SHOP_TAB_EVENT_POINT,Schokoladen-Shop
+COMMON.SHOP_EVENT_POINT_COUNT,{1} Schokolade
+EVENT_BLACK_FRIDAY_POINT_DESC2_01,"Schokolade kann erhalten werden, wenn du während Limitierte Events Artikel im Shop kaufst."
+COMMON_EVENT_DAY_DESC2_01,※ Eventzeitraum: Bis zu den Wartungsarbeiten am 10. März
+COMMON_EVENT_DAY_DESC2_02,※ Schokolade-Nutzungszeitraum: Bis zu den Wartungsarbeiten am 24. März
+EVENT_BLACK_FRIDAY_TICKET,Schokolade
 EVENT_DUNGEON_DESTINYLIGHT,Wohin das Licht des Schicksals uns führt
 DESTINYLIGHT_EVENT_NAME,Wohin das Licht des Schicksals uns führt
 EVENT_NAME_DESTINYLIGHT,Wohin das Licht des Schicksals uns führt Eventinfo
@@ -5722,3 +5724,61 @@ LEGEND_EQUIP_PAYBACK_REWARD_MAIL_TITLE,Paketinhalt Upgrade-Belohnung
 LEGEND_EQUIP_PAYBACK_REWARD_MAIL_CONTENT,"Die Inhalte des Legendären Rüstungspakets wurden verbessert, weshalb dir nun die fehlenden Gegenstände anhand deiner Einkäufe zugeschickt werden."
 CLEARMISSION_PASSPOPUP_PROGRESS,[db6a3e]({1}/{2})[-]
 PAYSHOP_RECOMMENDPOPUP_TITLE,Empfehlungen
+BENEFIT_NEWBIE_REWARD_MAIL_TITLE,Nicht erhaltene Belohnungen für Neuspieler Levelup- & Vollendungs-Missionen
+BENEFIT_NEWBIE_REWARD_MAIL_CONTENT,"Hiermit erhältst du die Belohnungen für den Spielfehler am 17. Dezember, als die Neuspieler Levelup- & Neuspieler Kapitel-Missionen gelöscht wurden."
+PACKAGE_DAILY_STAMINA_DESC2,1.000 Rubine sofort beim Kauf\n7 Tage lang täglich 40x Ausdauertrank erhältlich
+PACKAGE_DAILY_FRIENDSHIP_DESC2,2.000 Rubine sofort beim Kauf\n7 Tage lang täglich 5x Freundschaftskreis erhältlich
+GLORY_REQUIREPOINT,Erforderliche Pkt.
+GLORY_VICTORY_REWARD,Siegesbelohnung
+GLORY_WEEKLY_REWARD,Wochenbelohnung
+GLORY_SEASON_LASTPLACE,Unter 1.300
+GLORY_REWARD_NAME,Ehrenliga-Saisonbelohnung
+GLORY_COSTUME_BUTTON,Details
+GLORY_COSTUME_NAME,Licht des Blauen Nachthimmels
+CLEARMISSION_PASSPOPUP_LEVELUP_III,Level-Up Vollendungspaket III
+HERO_INFO_GET_NEW_HERO_BUNDLE_BTN,Gemeinsamer Auftritt\nCleo & Roi
+HERO_ACTION_SIGNATURE,Eigenbewegung
+EQUIP_ITEM_FULL_DESC,"Dieser Gegenstand kann nicht verwendet werden,\nda du zu viel Ausrüstung hast.\nOrdne deine Ausrüstung und versuche es später erneut."
+MOVE_EQUIP_BAG,Zur Ausrüstung
+PACKAGE_DAILY_STAMINA_MAIL_TITLE,Täglich Ausdauer
+PACKAGE_DAILY_NPC_MAIL_TITLE,Täglich NPC-Freundschaftslevel
+PACKAGE_DAILY_STAMINA_MAIL_CONTENT,Dein gekaufter Täglich Ausdauer-Artikel ist angekommen.
+PACKAGE_DAILY_NPC_MAIL_CONTENT,Dein gekaufter Täglich NPC-Freundschaftslevel-Artikel ist angekommen.
+PACKAGE_DAILY_LUAPOINT_1000,11x Luas Token
+PACKAGE_DAILY_LUAPOINT_2000,22x Luas Token
+PACKAGE_DAILY_7DAYS_RUBY_MAIN_1,450 Rubine (Täglich 7 Tage lang beim Anmelden)
+PACKAGE_DAILY_7DAYS_RUBY_BONUS_1,1.000 Rubine
+PACKAGE_DAILY_7DAYS_RUBY_DESC2,7 Tage lang täglich 450x Rubine\nIngesamt 4.150 Rubine (inkl. Bonus)
+ALL_IN_ONE_DAY_FIRST_SALE_TEXT,1-mal am Tag
+EVENT_LILIA_FIGURE_PACKAGE_TITLE,Lilia Paket
+EVENT_LILIA_FIGURE_PACKAGE_CONTENT,"Vielen Dank, dass du dich für die Lilia-Figur entschieden hast."
+EVENT_DUNGEON_20VALENTINE,Frühlingsfest-Dungeon
+EVENT_SHOP_20VALENTINE,Frühlingsfest-Shop
+EVENT_DUNGEON_DESC_STORY_20VALENTINE,Es ist das Event-Geschichten-Dungeon.\nHier kannst du mehr zu dem Fest erfahren.
+EVENT_DUNGEON_DESC_SPECIAL_20VALENTINE,Wird nach Klären des Geschichten-Dungeons freigeschaltet.
+EVENT_20VALENTINE_TICKET,Event-Ticket
+TOOLTIP_INFO_NAME_EVENT_TOKEN_20VALENTINE,Geschenkgutschein
+TOOLTIP_INFO_DESC_EVENT_TOKEN_20VALENTINE,"Du kannst ihn erhalten, nachdem du Geschichten-Dungeon erfolgreich beendet hast. Dieser kann beim Kauf von Artikel im Event-Shop verwendet werden."
+TOOLTIP_INFO_NAME_EVENT_CHOCOLATE_20VALENTINE,Schokoladenbällchen
+TOOLTIP_INFO_DESC_EVENT_CHOCOLATE_20VALENTINE,"Du kannst diese erhalten, nachdem du Spezial-Dungeon erfolgreich beendet hast. Dieser kann beim Kauf von Artikel im Event-Shop verwendet werden."
+EVENT_INFO_20VALENTINE,Fest-Hinweis
+EVENT_NAME_20VALENTINE,Frühlingsfest-Dungeon
+EVENT_DESC_20VALENTINE,"- Frühlingsfest-Dungeon\nDu erhältst Geschenkgutscheine, wenn du den Geschichten-Dungeon klärst\nund Schokoladenbällchen, wenn du den Spezial-Dungeon erfolgreich beendest.\n\n- Ein Fest zusammen mit NPC-Helden\nBesuche die 9 NPC-Helden in Orvel (Gladi, May, Veronica, Loman, Nicky, Juno, Dosarta, Hanus und Cain).\nDich erwarten ein paar besondere Geschenke.\n\n- Event-Ticket\nDu brauchst Event-Tickets, um den Event-Dungeon zu betreten.\nBeim Beginn des Events erhältst du 2 Tickets. Jeden Tag um Mitternacht wird dir ein zusätzliches Ticket zugeschickt.\n(Max. Ticketanzahl darf 2 Tickets nicht überschreiten.)"
+20VALENTINE_EVENT_NAME,Frühlingsfest
+EVENT_DUNGEON_20VALENTINE_NAME1,Nicht mitnehmen!
+EVENT_DUNGEON_20VALENTINE_DESC1,Nicht zum Einsammeln!
+EVENT_DUNGEON_20VALENTINE_NAME2,Nicht essen!
+EVENT_DUNGEON_20VALENTINE_DESC2,Bringe es zum Shop!
+EVENT_DUNGEON_20VALENTINE_NAME3,Nicht stehlen!
+EVENT_DUNGEON_20VALENTINE_DESC3,Sammle fleißig!
+EVENT_DUNGEON_20VALENTINE_NAME4,Milchschokoladen-Dungeon
+EVENT_DUNGEON_20VALENTINE_DESC4,Süße Schokolade für dich!
+EVENT_DUNGEON_20VALENTINE_NAME5,Bitterschokoladen-Dungeon
+EVENT_DUNGEON_20VALENTINE_DESC5,Bittere Schokolade für dich!
+SHOP_NAME_20VALENTINE_SHOP,Frühlingsfest-Shop
+REVIEW_POPUP_REVIEW,Gut
+REVIEW_POPUP_CS,Verbesserungen nötig
+REVIEW_POPUP_EXIT,Beim nächsten Mal
+2020_MAY_HERO_SELECT_ITEM_DESC,"※ 5★ Heldenticket: wählbar bis Rehartna\n※ Die verfügbaren Einzigartigen Waffen- und Einzigartigen Schatztickets, sowie Zufällig Einzigartigen Schatz-/Waffentickets orientieren sich an der Auswahl im Spiel."
+20SPRING_FESTIVAL_DUNGEON,Frühlingsfest-Dungeon
+SHOP_NAME_2020_VALENTINE_SHOP,Frühlingsfest-Shop

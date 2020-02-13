@@ -256,23 +256,23 @@ SKILL_NAME_741,Carregar Canhão II
 SKILL_NAME_742,Carregar Canhão III
 SKILL_NAME_743,Carregar Canhão IV
 SKILL_NAME_750,Remodelagem de Arma
-SKILL_DESC_710,"Ataca todos os inimigos frontais em uma linha reta, causando [ffc800]{1}[-] de DAN F. e afastando-os. Se o alvo não for um Herói, causa [ffc800]{2}[-] de DAN F. adicional e atordoa-o por {3} seg."
+SKILL_DESC_710,"Ataca os inimigos frontais em uma linha reta, causando [ffc800]{1}[-] de DANO F e atordoamento por [64ffff]{2}[-]s. Se o alvo atingido não for um herói, causa [ffc800]{3}[-] de DANO F adicional.\n[fa96fa][O experimento foi um sucesso!][-] Não ocorre tempo de resfriamento."
 SKILL_DESC_711,Aumenta o DAN em [64ff64]{1}[-] %.
 SKILL_DESC_712,Aumenta o DAN em [64ff64]{1}[-] %.
 SKILL_DESC_713,Aumenta o DAN em [64ff64]{1}[-] %.
-SKILL_DESC_720,"Inflige [ffc800]{1}[-] de DANO F a inimigos dentro de uma área, aumentando o DANO F que os adversários recebem em [ff6464]{3}[-]% por [64ffff]{2}[-]s e causando cegueira por [64ffff]{4}[-]s."
+SKILL_DESC_720,"Inflige [ffc800]{1}[-] de DANO F ao alvo e aos inimigos ao redor, e deixa o adversário em estado de [fa96fa][Substância explosiva][-] por [64ffff]{2}[-]s, aumentando o DANO F que o adversário recebe em [64ff64]{3}[-]% e adicionalmente causando cegueira por [64ffff]{4}[-]s.\n[fa96fa][O experimento foi um sucesso!][-] Remove os efeitos positivos dos inimigos infligidos."
 SKILL_DESC_721,Aumenta o DAN em [64ff64]{1}[-] %.
 SKILL_DESC_722,Aumenta o DAN em [64ff64]{1}[-] %.
 SKILL_DESC_723,Aumenta o DAN e atordoa os inimigos durante 1 segundo.
-SKILL_DESC_730,"Prende uma [fa96fa]Bomba de Cola[-] que explode em [64ffff]{1}[-] segundos a um inimigo aleatório. A explosão causa no máximo [ffc800]{2}[-] de DAN.F proporcional ao PV atual do inimigo para inimigos em área, e inflige atordoamento por [64ffff]3[-] segundos. Após prender a Bomba, o alvo é infligido com atordoamento por [64ffff]2[-] segundos."
+SKILL_DESC_730,"Gruda uma bomba em um inimigo aleatório que explode em [64ffff]{1}[-]s, causando [ffc800]{2}[-] de DANO F ao alvo e aos inimigos ao redor e atordoamento por [64ffff]{3}[-]s. Se o alvo estiver em estado de [fa96fa][Substância explosiva][-], inflige [ffc800]{4}[-] de DANO F adicional.\n[fa96fa][O experimento foi um sucesso!][-] A bomba explode imediatamente após grudar no inimigo."
 SKILL_DESC_731,Aumenta o DAN em [64ff64]{1}[-] %.
 SKILL_DESC_732,Aumenta o DAN em [64ff64]{1}[-] %.
 SKILL_DESC_733,Aumenta o DAN em [64ff64]{1}[-] %.
-SKILL_DESC_740,Ataques automáticos têm [64ff64]15[-]% de chance de explodir uma bomba que causa [ffc800]{2}[-] de DAN.F para alvos na área e os atordoa por [64ffff]2[-] segundos.
+SKILL_DESC_740,"Ao realizar um ataque normal, tem [64ff64]{1}[-]% de chance de explodir uma bomba que causa [ffc800]{2}[-] de DANO F nos inimigos na área, atordoando-os por [64ffff]{3}[-]s. Lakrak tenta um experimento toda vez que termina uma habilidade. O experimento tem [64ff64]{4}[-]% de chance de sucesso e, caso funcione, melhora o efeito da sua habilidade seguinte. Ao usar uma habilidade melhorada, não realiza um experimento adicional."
 SKILL_DESC_741,Aumenta o DAN em [64ff64]{1}[-] %.
 SKILL_DESC_742,Aumenta o DAN em [64ff64]{1}[-] %.
 SKILL_DESC_743,Aumenta o DAN em [64ff64]{1}[-] %.
-SKILL_DESC_90000070,"Ao atacar, ganha 25% de chance de receber um acúmulo de Pólvora. Cada acúmulo de Pólvora aumenta seu ATQ em {1}%, a VEL de ATQ em  {2} e DANO infligido em inimigos não heróis em {3}%. A Pólvora pode ser acumulada no máximo {4} vezes e não pode ser removida."
+SKILL_DESC_90000070,"Aumenta a chance de sucesso do experimento em {1}% e, toda vez que funcionar, aumenta seu ATQ em {2}%, a VEL de ATQ em {3} e DANO infligido em inimigos não heróis em {4}%. Este efeito pode ser acumulado no máximo {5} vezes e não pode ser removido."
 SKILL_DESC_90000071,"Ganha 25% de chance de obter um acúmulo de Pólvora ao atacar. Cada acúmulo de Pólvora aumenta o ATQ em 3,6%, a Vel. de ATQ em 36 e o DAN a inimigos não Heróis em 3,6%. Pólvora acumula até 7 vezes e não pode ser removida."
 SKILL_DESC_90000072,"Ganha 25% de chance de obter um acúmulo de Pólvora ao atacar. Cada acúmulo de Pólvora aumenta o ATQ em 4,3%, a Vel. de ATQ em 43 e o DAN a inimigos não Heróis em 4,3%. Pólvora acumula até 7 vezes e não pode ser removida."
 SKILL_DESC_90000073,"Ganha 25% de chance de obter um acúmulo de Pólvora ao atacar. Cada acúmulo de Pólvora aumenta o ATQ em 5,1%, a Vel. de ATQ em 51 e o DAN a inimigos não Heróis em 5,1%. Pólvora acumula até 7 vezes e não pode ser removida."
@@ -800,23 +800,23 @@ SKILL_NAME_2140,Ataque Giratório
 SKILL_NAME_2141,Ataque Giratório II
 SKILL_NAME_2142,Ataque Giratório III
 SKILL_NAME_2143,Ataque Giratório IV
-SKILL_DESC_2110,"Investe duas vezes contra o inimigo, causando [ffc800]{1}[-] de DAN.F aos inimigos no alcance, derrubando-os durante [64ffff]{2}[-] sec. Se o alvo não for um Herói, causa [ffc800]{3}[-] de DAN F. adicional."
+SKILL_DESC_2110,"Naila avança {1} vez(es) contra o inimigo para atacar. No primeiro ataque, desloca-se para trás do inimigo para atacar, causando [ffc800]{2}[-] de DANO F e derrubando-o por [64ffff]{3}[-]s. No segundo ataque, desloca-se para trás do inimigo com maior ATQ, causando [ffc800]{4}[-] de DANO F, derrubando-o por [64ffff]{5}[-]s e aumentando o DANO F recebido em [64ff64]{7}[-]% por [64ffff]{6}[-]s."
 SKILL_DESC_2111,Aumenta o DAN em [64ff64]{1}[-] %.
 SKILL_DESC_2112,Aumenta o DAN em [64ff64]{1}[-] %.
 SKILL_DESC_2113,Aumenta o DAN em [64ff64]{1}[-] %.
-SKILL_DESC_2120,"Chance de ESQ.F aumenta em [64ff64]{2}[-], durante [64ffff]{1}[-] segundos e o ATQ em [ffc800]{3}[-]."
+SKILL_DESC_2120,"Remove efeitos negativos de si e deixa todos os aliados em estado de [Leitura do Vento] aumentando o ATQ em [64ff64]{2}[-] e aumentando a ESQV F em [64ff64]{3}[-] por [64ffff]{1}[-]s. Se o aliado em estado de [Leitura do Vento] esquivar de um ataque, tem o DANO CRÍT aumentado em [64ff64]{5}[-]% por [64ffff]{4}[-]s. O aumento de DANO CRÍT pode ser acumulado até {6}x."
 SKILL_DESC_2121,Aumenta a Taxa de Aumento de ATQ em [64ff64]{1}[-] %.
 SKILL_DESC_2122,Aumenta a Taxa de Aumento de ATQ em [64ff64]{1}[-] %.
 SKILL_DESC_2123,Aumenta a Taxa de Aumento de ATQ em [64ff64]{1}[-] %.
-SKILL_DESC_2130,"Voa para o alto e ataca o inimigo abaixo. Causa [ffc800]{1}[-] de DAN.F aos inimigos. Aumenta em [64ff64]{2}[-] % o DAN aos inimigos que foram derrubados. Se o alvo não for um Herói, causa [ffc800]{3}[-] de DAN F. adicional."
+SKILL_DESC_2130,"Ataca os inimigos num raio próximo, causando [ffc800]{1}[-] de DANO F e atordoando-os por [64ffff]{2}[-]s. Aplica-se a esta habilidade um aumento de [64ff64]{3}[-] na PNT de DEF."
 SKILL_DESC_2131,Aumenta o DAN em [64ff64]{1}[-] %.
 SKILL_DESC_2132,Aumenta o DAN em [64ff64]{1}[-] %.
 SKILL_DESC_2133,Causa DAN ao inimigo e o atordoa durante 3 segundos.
-SKILL_DESC_2140,"Cada 5º ataque normal tem 40% de chance de causar [ffc800]{1}[-] de DAN F. adicional ao alvo, fazendo com que ele receba mais [64ff64]{3}[-]% de DAN F. por [64ffff]{2}[-] segundos, derrubando-o por [64ffff]{4}[-] segundos."
+SKILL_DESC_2140,"Aumenta a PNT de DEF de Naila em [64ff64]{1}[-] e a DEF em [64ff64]{2}[-], e ataques normais e de habilidade passam a ignorar efeitos de redução de DANO do adversário. Além disso, ao realizar um ataque normal tem [64ff64]{3}[-]% de chance de causar [ffc800]{4}[-] de DANO F adicional e atordoar por [64ffff]{5}[-]s."
 SKILL_DESC_2141,Aumenta o DAN em [64ff64]{1}[-] %.
 SKILL_DESC_2142,Aumenta o DAN em [64ff64]{1}[-] %.
 SKILL_DESC_2143,Aumenta o DAN em [64ff64]{1}[-] %.
-SKILL_DESC_90000210,"Ao realizar um Acerto Crít., causa DAN.F (150 % do ATQ) constante durante de 10 segundos. Os inimigos recebem DAN aumentado em 20% enquanto o poder durar."
+SKILL_DESC_90000210,"Ao realizar um acerto crítico, aumenta o DANO F que o adversário recebe em {2}% e reduz a RST a Efeitos de Status em {3} por {1}s. Caso o adversário seja chefe, aumenta o próprio DANO causado a chefes em {4}%. O aumento de DANO a chefes pode ser acumulado até {5}x."
 SKILL_DESC_90000211,"Ao realizar um Acerto Crít., causa DAN.F (180 % do ATQ) constante durante de 10 segundos. Os inimigos recebem DAN aumentado em 24% enquanto o poder durar."
 SKILL_DESC_90000212,"Ao realizar um Acerto Crít., causa DAN.F (216 % do ATQ) constante durante de 10 segundos. Os inimigos recebem DAN aumentado em 28% enquanto o poder durar."
 SKILL_DESC_90000213,"Ao realizar um Acerto Crít., causa DAN.F (258 % do ATQ) constante durante de 10 segundos. Os inimigos recebem DAN aumentado em 34% enquanto o poder durar."
@@ -1118,11 +1118,11 @@ SKILL_DESC_2930,"Causa [ffc800]{1}[-] de DAN.M aos alvos no alcance e reduz a Ch
 SKILL_DESC_2931,Aumenta o dano em [64ff64]{1}[-] %.
 SKILL_DESC_2932,Aumenta o dano em [64ff64]{1}[-] %.
 SKILL_DESC_2933,Aumenta o dano em [64ff64]{1}[-] %.
-SKILL_DESC_2940,"Ao receber um efeito de status, remove o efeito negativo de si e ataca o inimigo mais distante, infligindo DANO M de [ffc800]{1}[-] e lançando-o para longe por [64ff64]{2}[-]s."
+SKILL_DESC_2940,"Ao receber um efeito de status, remove o efeito negativo de si e ataca o inimigo mais distante, infligindo DANO M de [ffc800]{1}[-] e lançando-o para longe por [64ff64]{2}[-]s. Depois recupera {3} barra(s) de PM."
 SKILL_DESC_2941,Aumenta o dano em [64ff64]{1}[-] %.
 SKILL_DESC_2942,Aumenta o dano em [64ff64]{1}[-] %.
 SKILL_DESC_2943,Aumenta o dano em [64ff64]{1}[-] %.
-SKILL_DESC_90000290,Aumenta o DAN de ataques normais em 20% e o Alcance em 6%.
+SKILL_DESC_90000290,"Aumenta o DANO CRÍT em {1}%, o DANO de ataques normais em {2}% e o Alcance em {3}%."
 SKILL_DESC_90000291,Aumenta o DAN de ataques normais em 24% e o Alcance em 7.2%.
 SKILL_DESC_90000292,Aumenta o DAN de ataques normais em 29% e o Alcance em 8.6%.
 SKILL_DESC_90000293,Aumenta o DAN de ataques normais em 35% e o Alcance em 10.5%.
@@ -1346,7 +1346,7 @@ SKILL_DESC_3530,"Dispara 12 rajadas de arma num alvo aleatório, infligindo DANO
 SKILL_DESC_3531,Aumenta o DAN em [64ff64]{1}[-] %.
 SKILL_DESC_3532,Aumenta o DAN em [64ff64]{1}[-] %.
 SKILL_DESC_3533,Aumenta o DAN em [64ff64]{1}[-] %.
-SKILL_DESC_3540,"Ao atacar, deixa uma 'marca da morte' no inimigo que não pode ser removida. Se um ataque normal ou Bang! Bang! acertar o inimigo, inflige DANO F adicional de [ffc800]{1}[-] e DANO F adicional de [ffc800]{2}[-] por cada 'marca da morte' deixada nele. 'Marcas da morte' podem ser acumuladas em até 150."
+SKILL_DESC_3540,"Ao atacar, deixa uma 'marca da morte' no inimigo que não pode ser removida. Se um ataque normal ou Bang! Bang! acertar o inimigo, inflige DANO F adicional de [ffc800]{1}[-] e DANO F adicional de [ffc800]{2}[-] por cada 'marca da morte' deixada nele. 'Marcas da morte' podem ser acumuladas em até 200."
 SKILL_DESC_3541,Aumenta o DAN em [64ff64]{1}[-] %.
 SKILL_DESC_3542,Aumenta o DAN em [64ff64]{1}[-] %.
 SKILL_DESC_3543,Aumenta o DAN em [64ff64]{1}[-] %.
@@ -1410,23 +1410,23 @@ SKILL_NAME_3740,Emboscada Silenciosa
 SKILL_NAME_3741,Emboscada Silenciosa II
 SKILL_NAME_3742,Emboscada Silenciosa III
 SKILL_NAME_3743,Emboscada Silenciosa IV
-SKILL_DESC_3710,"Desloca-se para trás do inimigo com menor DEF.F, aumenta o DAN.F recebido por ele em [ff6464]{1}[-]% por 10s, e o derruba causando [ffc800]{2}[-] de DAN.F. Enquanto estiver em Furtividade, atordoa o alvo inimigo durante 6 segundos. Caso contrário, ganha Furtividade durante 10s. [64ffff]Enquanto estiver em [Furtividade], a Taxa de Crít. e a Taxa de Esquiva aumentam em 50.[-]"
+SKILL_DESC_3710,"Aumenta o DANO F recebido pelo inimigo com menor DEF F em [ff6464]{1}[-]% por 10s, e depois de deslocar-se para trás do inimigo, causa [ffc800]{2}[-] de DANO F e derruba-o por [64ffff]{3}[-]s. Se usado em estado de Furtividade, aplica-se um aumento de [64ff64]{4}[-]% no DANO CRÍT e perde a Furtividade. Se não estiver em estado de Furtividade, ganha Furtividade por 10s."
 SKILL_DESC_3711,Aumenta o dano em [64ff64]{1}[-] %.
 SKILL_DESC_3712,Aumenta o dano em [64ff64]{1}[-] %.
 SKILL_DESC_3713,Aumenta a Chance Crít. em [64ff64]{1}[-].
-SKILL_DESC_3720,"Ataca 3 vezes os inimigos próximos para causar no total [ffc800]{1}[-] de DAN.F e Sangramento em cada ataque. Se estiver em Furtividade, reduz a Taxa de Recuperação em 70%. Caso contrário, ganha Furtividade durante 10s. [64ffff]Enquanto estiver em [Furtividade], a Taxa de Crít. e a Taxa de Esquiva aumentam em 50.[-]"
+SKILL_DESC_3720,"Ataca os inimigos próximos 3 vezes, causando um total de [ffc800]{1}[-] de DANO F e acumulando 1 Sangramento por vez nos inimigos atingidos. Se usado em estado de Furtividade, reduz a RCP do alvo em 70% e perde a Furtividade. Se não estiver em estado de Furtividade, ganha Furtividade por 10s."
 SKILL_DESC_3721,Aumenta o dano em [64ff64]{1}[-] %.
 SKILL_DESC_3722,Aumenta o dano em [64ff64]{1}[-] %.
 SKILL_DESC_3723,Aumenta a Chance Crít. em [64ff64]{1}[-].
-SKILL_DESC_3730,"Ataca 6 inimigos aleatórios e causa no total [ffc800]{1}[-] de DAN.F. Ataca uma última vez causando [ffc800]{2}[-] de DAN.F. Se estiver em Furtividade, remove todos os bônus do inimigo. Caso contrário, ganha Furtividade. Aumenta a Chance Crít. durante 10s. [64ffff]Enquanto estiver em [Furtividade], a Taxa de Crít. e a Taxa de Esquiva aumentam em 50.[-]"
+SKILL_DESC_3730,"Ataca 6 vezes em inimigos aleatórios, causando um total de [ffc800]{1}[-] de DANO F. Depois, inflige um ataque adicional que causa [ffc800]{2}[-] de DANO F. Se usado em estado de Furtividade, remove os efeitos positivos do inimigo e perde a Furtividade. Se não estiver em estado de Furtividade, ganha Furtividade por 10s."
 SKILL_DESC_3731,Aumenta o dano em [64ff64]{1}[-] %.
 SKILL_DESC_3732,Aumenta o dano em [64ff64]{1}[-] %.
 SKILL_DESC_3733,Aumenta a Chance Crít. em [64ff64]{1}[-].
-SKILL_DESC_3740,"Causa [ffc800]{1}[-] de DAN F. adicional ao inimigo e silencia-o por [64ffff]{2}[-] seg. quando uma habilidade causa Acerto Crítico. Se o alvo não for um Herói, causa [ffc800]{3}[-] de DAN F. adicional que ignora a DEF e reduz a Vel. de ATQ do alvo em {5} por {4} seg."
+SKILL_DESC_3740,"Se estiver estado de Furtividade, aumenta a CHANCE CRÍT em [64ff64]150[-] e a CHANCE de ESQV em [64ff64]150[-]. Se a habilidade causar Acerto CRÍT, causa [ffc800]{1}[-] de DANO F adicional ao inimigo e silencia-o por [64ffff]{2}[-]s. Se o alvo não for um herói, causa [ffc800]{3}[-] de DANO F adicional que ignora a DEF e reduz a VEL de ATQ do alvo em {5} por {4}s."
 SKILL_DESC_3741,Aumenta o dano em [64ff64]{1}[-] %.
 SKILL_DESC_3742,Aumenta o dano em [64ff64]{1}[-] %.
 SKILL_DESC_3743,Aumenta a duração do Silêncio em [64ff64]{1}[-] segundos.
-SKILL_DESC_90000370,"Entra no modo furtivo por 10 segs no início de cada batalha. Quando está no modo furtivo, o DAN crítico aumenta em 30% por 10 segs."
+SKILL_DESC_90000370,"Entra no modo furtivo por {1}s no início de cada batalha e esquiva de todos os ataques por {2}s. Toda vez que entrar no modo furtivo, aumenta o DANO CRÍT em {4}% por {3}s."
 SKILL_DESC_90000371,"Entra no modo furtivo por 10 segs no início de cada batalha. Quando está no modo furtivo, o DAN crítico aumenta em 36% por 10 segs."
 SKILL_DESC_90000372,"Entra no modo furtivo por 10 segs no início de cada batalha. Quando está no modo furtivo, o DAN crítico aumenta em 43% por 10 segs."
 SKILL_DESC_90000373,"Entra no modo furtivo por 10 segs no início de cada batalha. Quando está no modo furtivo, o DAN crítico aumenta em 52% por 10 segs."
@@ -1731,7 +1731,7 @@ SKILL_DESC_4520,"Causa [ffc800]{1}[-] DAN.F a um inimigo e outros inimigos próx
 SKILL_DESC_4521,DAN aumenta em [64ff64]{1}[-] %.
 SKILL_DESC_4522,DAN aumenta em [64ff64]{1}[-] %.
 SKILL_DESC_4523,DAN Crít aumenta em [64ff64]{1}[-]%.
-SKILL_DESC_4530,"Remove todos os efeitos nocivos de si mesmo por 30 segundos, aumenta o ATQ em [64ff64]{1}[-] e Penalidades de DEF em [64ff64]{2}[-]. Akém disso, durante o efeito, ataques automáticos são alterados. Eles consomem 3% de mana em troca da capacidade de causar DAN a todos os inimigos em linha reta. Além disso, causa [ffc800]{3}[-] DAN.F adicional que ignora DEF a de Dragões."
+SKILL_DESC_4530,"Remove todos os efeitos negativos de si por 30s, aumenta o ATQ em [64ff64]{1}[-] e a PNT de DEF em [64ff64]{2}[-]. Além disso, enquanto durar a habilidade, ataques normais passam a consumir 3% de PM para causar DANO a diversos inimigos em linha reta e adicionalmente causar [ffc800]{3}[-] de DANO F que ignora a DEF em dragões. Este efeito não pode ser removido."
 SKILL_DESC_4531,Aumento de ATQ reforçado em [64ff64]{1}[-] %.
 SKILL_DESC_4532,Aumento de ATQ reforçado em [64ff64]{1}[-] %.
 SKILL_DESC_4533,Aumento de ATQ reforçado em [64ff64]{1}[-] %.
@@ -2941,7 +2941,7 @@ SKILL_DESC_9210,"Causa [ffc800]{1}[-] de DAN M. no inimigo e em inimigos dentro 
 SKILL_DESC_9211,DAN aumenta em [64ff64]{1}[-] %.
 SKILL_DESC_9212,DAN aumenta em [64ff64]{1}[-] %.
 SKILL_DESC_9213,DAN aumenta em [64ff64]{1}[-] %.
-SKILL_DESC_9220,Concede uma Runa para todos os aliados que aumenta seus ATQ em [64ff64]{1}[-] e qualquer DAN a chefes em 15% por 10 seg.
+SKILL_DESC_9220,Concede uma Runa para todos os aliados que aumenta o ATQ em [64ff64]{2}[-] e o DANO a chefes em [64ff64]{3}[-]% por {1}s.
 SKILL_DESC_9221,Aumenta a Taxa de Aumento de ATQ em [64ff64]{1}[-] %.
 SKILL_DESC_9222,Aumenta a Taxa de Aumento de ATQ em [64ff64]{1}[-] %.
 SKILL_DESC_9223,Aumenta a Taxa de Aumento de ATQ em [64ff64]{1}[-] %.
@@ -5086,14 +5086,14 @@ SKILL_DESC_60000630,Causa DAN por segundo igual 1% do PV Máx. aos inimigos pró
 SKILL_DESC_60000631,Transforma o efeito num Atordoamento de 3 segundos aos inimigos próximos.
 SKILL_DESC_60000640,Inimigos com 5 acúmulos recebem 1% adicional por ataque de DAN.F baseado no PV Máx.
 SKILL_DESC_60000641,"Ao atacar, remove todos os efeitos positivos e o alvo recebe 20% a mais de DAN.F por 20 segundos. Recarga: 20 segundos."
-SKILL_DESC_60000710,Aumenta o DAN em 40%.
-SKILL_DESC_60000711,Atordoa o inimigo durante 3 segundos.
+SKILL_DESC_60000710,Aumenta o DANO em {1}%.
+SKILL_DESC_60000711,Reduz o PM do inimigo atingido em {1}.
 SKILL_DESC_60000720,Reduz o custo de mana em 1.
-SKILL_DESC_60000721,Aumenta em 2 segundos a duração da Cegueira.
+SKILL_DESC_60000721,Aumenta a duração da Cegueira em {1}s.
 SKILL_DESC_60000730,"O custo de mana aumenta em 1, e ataca um alvo aleatório 2 vezes."
-SKILL_DESC_60000731,Reduz em 1 o custo de mana.
-SKILL_DESC_60000740,Reforça em 10% a chance de ativação.
-SKILL_DESC_60000741,O alvo recebe mais 25% de DAN.F durante 10 segundos.
+SKILL_DESC_60000731,Altera o alvo para o inimigo com maior ATQ.
+SKILL_DESC_60000740,A chance de ativação do canhão aumenta em {1}% e a duração do atordoamento aumenta {2}s.
+SKILL_DESC_60000741,Recupera {1} de PM se o experimento for bem-sucedido.
 SKILL_DESC_60000810,Reduz o custo de mana em 1.
 SKILL_DESC_60000811,O alvo recebe mais 25% de DAN.M durante 10 segundos.
 SKILL_DESC_60000820,Aliados recebem menos 25% de DAN enquanto estiverem sob este efeito.
@@ -5190,14 +5190,14 @@ SKILL_DESC_60002030,"Ao pular para o ar, avança contra o alvo com o maior ATQ."
 SKILL_DESC_60002031,"Enquanto realiza uma conjuração, todos os aliados recebem 20% de DAN.F reduzido."
 SKILL_DESC_60002040,Aumenta a DEF.F em 20% e a DEF.M em 50.
 SKILL_DESC_60002041,"Ao bloquear, recupera quantidade de PV equivalente a 40% da DEF.F."
-SKILL_DESC_60002110,"Ser houver 1 inimigo, aumenta o dano em 100%."
-SKILL_DESC_60002111,O alvo muda para o inimigo com o ATQ mais alto.
-SKILL_DESC_60002120,Reduz o custo de mana em 1.
-SKILL_DESC_60002121,Aumenta DAN de Naila causado em inimigos não Heróis em 30% durante o efeito do poder.
-SKILL_DESC_60002130,Aumenta o DAN em 40%.
-SKILL_DESC_60002131,Reduz o tempo de recarga em 10% por cada inimigo que receber DAN Crít.
-SKILL_DESC_60002140,A chance de ativação muda para 60%.
-SKILL_DESC_60002141,Reforça a VEL. ATQ em 300 quando ativar este poder.
+SKILL_DESC_60002110,Ganha imunidade a efeitos de status durante o uso.
+SKILL_DESC_60002111,Aumenta o DANO F recebido pelo alvo atingido em {2}% por {1}s.
+SKILL_DESC_60002120,Aumenta o custo de PM em 1 e remove todos os efeitos positivos do inimigo quando ativado.
+SKILL_DESC_60002121,Aumenta o acúmulo máximo do aumento de DANO CRÍT para {1}x.
+SKILL_DESC_60002130,Aumenta o DANO em {1}%.
+SKILL_DESC_60002131,Reduz a RCP do alvo atingido em {2}% por {1}s.
+SKILL_DESC_60002140,Aumenta o DANO de ataques normais em {1}% e reduz o tempo de resfriamento de todas as habilidades em {2}s.
+SKILL_DESC_60002141,Aumenta sua PNT de DEF em {2} por {1}s no início de cada batalha. Se usado na Batalha de Guildas ganha imunidade a efeitos de status por {3}s. O aumento da PNT de DEF não pode ser removido.
 SKILL_DESC_60002210,Aumenta o DAN em 40%.
 SKILL_DESC_60002211,Ganha imunidade a CM enquanto usar este poder.
 SKILL_DESC_60002220,Vel de ATQ é reforçada em 250 durante o efeito.
@@ -5254,7 +5254,7 @@ SKILL_DESC_60002830,Cada Acerto Crít. aumenta em 10% do DAN do último acerto.
 SKILL_DESC_60002831,"Enquanto estiver em tempo de recarga, aumenta em 50% o DAN do ataque automático."
 SKILL_DESC_60002840,"Ao esquivar-se, aumenta o próprio ATQ em 3%. Acumula-se até 10 vezes."
 SKILL_DESC_60002841,Há 30% de chance de atordoar os inimigos durante 3 segundos.
-SKILL_DESC_60002910,"Se houver 1 inimigo, aumenta o DAN em 100%."
+SKILL_DESC_60002910,Ganha imunidade a efeitos de status durante o uso.
 SKILL_DESC_60002911,Atordoa o inimigo atingido por 2s.
 SKILL_DESC_60002920,"Em troca de 2 Custos de Mana adicionais, ataca 3 vezes inimigos aleatórios."
 SKILL_DESC_60002921,Ignora o Bloqueio inimigo.
@@ -5305,10 +5305,10 @@ SKILL_DESC_60003441,Aumenta a duração da Sobrecarga em 3 segundos.
 SKILL_DESC_60003510,Aumenta o DAN em 100% quando houver 1 inimigo.
 SKILL_DESC_60003511,Acumula a Marca duas vezes.
 SKILL_DESC_60003520,"Ao ser ativado, o PV não cai para abaixo de 5% por 3s."
-SKILL_DESC_60003521,Aumenta o DANO CRÍT em 50% enquanto durar a habilidade.
+SKILL_DESC_60003521,Aumenta o DANO CRÍT em {1}% enquanto durar a habilidade.
 SKILL_DESC_60003530,Aumenta o DAN em 40%.
 SKILL_DESC_60003531,Acumula mais 2 marcar por golpe.
-SKILL_DESC_60003540,Altera a quantidade máx. de marcas para 200.
+SKILL_DESC_60003540,Aumenta o acúmulo máximo de marcas para {1}.
 SKILL_DESC_60003541,"Todas os tempos de recarga diminuem 0,3 segundo ao acertar um alvo com 100 acúmulos."
 SKILL_DESC_60003610,O alvo recebe mais 25% de DAN.F durante 10 segundos.
 SKILL_DESC_60003611,Causa DAN.F adicional equivalente a 200% da DEF.M.
@@ -5320,10 +5320,10 @@ SKILL_DESC_60003640,Reforça em 40% a taxa de aumento de DEF.M.
 SKILL_DESC_60003641,Reforça para 8 a contagem máxima de acúmulos.
 SKILL_DESC_60003710,Reduz a Taxa de Cura do alvo em 30%.
 SKILL_DESC_60003711,"Por 10 segundos, a resistência a Crit.F é reduzida em 250."
-SKILL_DESC_60003720,"Se houve 1 inimigo, aumenta o dano em 100%."
+SKILL_DESC_60003720,Reduz o PM do alvo em {1} a cada golpe.
 SKILL_DESC_60003721,Recupera 200 de mana ao realizar um acerto Crít.
 SKILL_DESC_60003730,"O custo de mana aumenta em 1 orbe, mas o DAN é reforçado em 100%."
-SKILL_DESC_60003731,Reduz em 5 segundos o tempo de recarga.
+SKILL_DESC_60003731,Reduz o custo de PM em 1.
 SKILL_DESC_60003740,Aumenta o DAN adicional contra inimigos não Heróis em 100%.
 SKILL_DESC_60003741,"Aumenta a duração de Silenciar em 0,5s."
 SKILL_DESC_60003810,O DAN aumenta em 40%.
@@ -5389,7 +5389,7 @@ SKILL_DESC_60004521,Inimigos atingidos são atordoados por 2 segundos.
 SKILL_DESC_60004530,Vel de ATQ é reforçada em 250 durante o efeito.
 SKILL_DESC_60004531,"Durante o efeito, todo o DAN recebido é reduzido em 25%."
 SKILL_DESC_60004540,Reduz o DANO que todos os aliados recebem de dragões em 20%.
-SKILL_DESC_60004541,Altera o aumento de DANO infligido em dragões para 80%.
+SKILL_DESC_60004541,Altera o aumento de DANO infligido em dragões para {1}%.
 SKILL_DESC_60004610,O impulso de DAN Crít por cada uso muda para 10%.
 SKILL_DESC_60004611,Atordoa o inimigo atingido por 1s.
 SKILL_DESC_60004620,"Quando houver menos de 3 aliados, cria um escudo protetor em todos os aliados. Tempestade de areia não é formada nessa hora."
@@ -5632,7 +5632,7 @@ SKILL_DESC_60009140,"Quando houver 1 inimigo, reforça o DAN em 100%."
 SKILL_DESC_60009141,"Quando ativado na Arena, causa 15% do PV atual do alvo como DAN.F adicional que ignora DEF."
 SKILL_DESC_60009210,Aumenta o DAN em 100% quando houver 1 inimigo.
 SKILL_DESC_60009211,Altera a quantidade de alvos para 2.
-SKILL_DESC_60009220,Aumenta o Impulso de ATQ em 40%.
+SKILL_DESC_60009220,"Altera o aumento do DANO infligido em chefes para {2}%, limitado a {1} vez(es) que a habilidade for usada desde o início da primeira batalha."
 SKILL_DESC_60009221,Reduz o tempo de recarga em 5 seg.
 SKILL_DESC_60009230,Aumenta o Custo de Mana em 1 e o DAN em 100%.
 SKILL_DESC_60009231,O alvo recebe mais DAN M. e DAN F.
@@ -5689,7 +5689,7 @@ SKILL_DESC_60001750,"ATQ, DEF, PV+15% / VEL. ATQ +100"
 SKILL_DESC_60001850,"ATQ, DEF, PV+15% / DAN Crít. +20%"
 SKILL_DESC_60001950,"ATQ, DEF, PV+15% / DAN Crít. +20%"
 SKILL_DESC_60002050,"ATQ, DEF, PV+15% / BLQ.F +200"
-SKILL_DESC_60002150,"ATQ, DEF, PV+15% / ESQ.F +100"
+SKILL_DESC_60002150,"ATQ, DEF, PV+15% / CHANCE CRÍT +100"
 SKILL_DESC_60002250,"ATQ, DEF, PV+15% / Chance Crít. +100"
 SKILL_DESC_60002350,"ATQ, DEF, PV+15% / BLQ.M +200"
 SKILL_DESC_60002450,"ATQ, DEF, PV+15% / BLQ.M +200"
@@ -5755,7 +5755,7 @@ SKILL_DESC_60000351,Aumenta o DAN M. do alvo com acúmulo de 10 Brasas ou mais e
 SKILL_DESC_60000451,"Após um Golpe Crit, há 10% de chance de aumentar a Vel de ATQ em 300 e o DAN Crit em 60% por 5 segundos. Não ativa novamente durante a ativação."
 SKILL_DESC_60000551,"Cura PV equivalente a 10% do ATQ por segundo. Cada 1% do PV perdido reduz em 0,6% o DAN recebido."
 SKILL_DESC_60000651,"Enquanto estiver em ataque automático, há 10% de chance de Atordoar o alvo durante 2 segundos e causar DAN adicional igual a 10% do próprio PV."
-SKILL_DESC_60000751,"Ao acertar um Golpe Crítico, ganha 5% de DAN Crít e 30 de Percisão de CM. Acumula até 10 vezes."
+SKILL_DESC_60000751,"Toda vez que o experimento for bem-sucedido, aumenta sua própria VEL de ATQ em {2} e a PREC de efeito de status em {3} por {1}s."
 SKILL_DESC_60000851,"Ao tomar DAN, diminui Vel de ATQ do inimigo atacante em 300 por 5s. O efeito é ativado apenas uma vez a cada 5s."
 SKILL_DESC_60000951,"Todos os ataques de Epis diminuem a DEF.M dos inimigos atingidos em 20%, durante 10 segundos. Aumenta o ATQ em 2% por cada inimigo atingido. Quantidade máxima de acúmulos: 10."
 SKILL_DESC_60001051,Reduz sua CHANCE CRÍT em 300 e aumenta seu DANO CRÍT em 150%.
@@ -5768,7 +5768,7 @@ SKILL_DESC_60001751,"Enquanto estiver em ataque automático, causa DAN.M adicion
 SKILL_DESC_60001851,"Enquanto estiver em ataque automático, há 10% de chance de aumentar em 100% do DAN Crít. durante 5 segundos."
 SKILL_DESC_60001951,"A cada 3 segundos, ataca todos os inimigos e causa 50% de ATQ como DAN.M, infligindo Congelar com 50% de chance. Inimigos já atingidos com Congelar recebem 300% de ATQ como DAN.M ao longo de 3 segundos."
 SKILL_DESC_60002051,"No início de cada batalha, reduz o ATQ de todos os inimigos em 20% por 6 segundos. Este efeito não pode ser removido."
-SKILL_DESC_60002151,"Ao esquivar-se, o tempo de recarga de todos os poderes é reduzido em 2%. Reforça em 3% o ATQ e em 30 a VEL. ATQ. O ATQ e a VEL. ATQ podem se acumular 10 vezes."
+SKILL_DESC_60002151,"Ao realizar um acerto crítico, aumenta seu próprio ATQ em {2}% e a ESQV F em {3} por {1}s. Este efeito pode ser acumulado até {4}x."
 SKILL_DESC_60002251,Aumenta o ATQ em 20% por 10 segundos e designa 3 inimigos aleatórios para serem alvos de Rodina no início de cada batalha.
 SKILL_DESC_60002351,O DAN de acúmulo de Fogo aumenta em 100% e o número máximo de acúmulos aumenta para 120.
 SKILL_DESC_60002451,"Ao atacar com Nova Sagrada e Lança de Luz, causa DAN.M adicional igual a 100% do ATQ e reduz em 20% o tempo de recarga do poder usado."
@@ -5776,13 +5776,13 @@ SKILL_DESC_60002551,Cada acerto dos ataques de Jane aumenta seu ATQ e Taxa de Re
 SKILL_DESC_60002651,"Ao usar poderes, recupera 10% do PM e aumenta o DAN crítico em 7% a cada seg. Este efeito pode ser acumulado até 20 vezes e não pode ser desfeito."
 SKILL_DESC_60002751,"Ao atacar, há 10% de chance de causar a um inimigo aleatório DAN.F igual a 120% do ATQ. Remove 300 de mana e causa Silêncio durante 1 segundos."
 SKILL_DESC_60002851,"Ao atacar, causa DAN.F adicional igual a 20% do ATQ. Há 10% de chance de causar o dobro de DAN.F e remover bônus."
-SKILL_DESC_60002951,"Recebe a bênção da cenoura por 20s no início de cada batalha, aumentando o DANO infligido a inimigos não heróis em {1}% e reduzindo o DANO recebido em {2}%."
+SKILL_DESC_60002951,"Recebe a bênção da cenoura, aumentando o DANO infligido a inimigos não heróis em {1}% e reduzindo o DANO recebido em {2}%."
 SKILL_DESC_60003051,Recupera 350 de Mana de todos os aliados a cada 3 seg.
 SKILL_DESC_60003151,Fica imune a DANO M por 5s no início de cada batalha.
 SKILL_DESC_60003251,"Todo o consumo de PV com poderes aumenta em 50%, mas as recargas são reduzidas em 20%."
 SKILL_DESC_60003351,"Enquanto estiver em ataque automático, há 10% de chance de acumular 1 Lâmina. Reforça o ataque de Nyx em 10% por acúmulo de Lâmina."
 SKILL_DESC_60003451,"Ao ativar a Sobrecarga, aumenta em a VEL. ATQ em 200 e o ATQ de todos os aliados aumenta em uma quantidade igual a 5% do ATQ de Annette."
-SKILL_DESC_60003551,"Após um Acerto Crítico, aumenta o próprio DAN Crít em 0,5% e a Vel de ATQ em 5. Esse efeito não pode ser removido e pode ser acumulado até 100 vezes."
+SKILL_DESC_60003551,"Ao realizar um acerto crítico, aumenta o próprio DANO CRÍT em {1}% e a VEL de ATQ em {2}. Este efeito não pode ser removido e pode ser acumulado até {3}x."
 SKILL_DESC_60003651,"Quando o próprio PV estiver abaixo de 40%, o PV não poderá ficar menor que 10% por 6 segundos, e o ATQ de todos os aliados aumenta em 50% da própria DEF.M. Esse efeito é ativado apenas uma vez a cada 60 segundos."
 SKILL_DESC_60003751,"Ao realizar um ataque normal, tem 15% de chance de entrar no modo furtivo por 10 segs. Quando está no modo furtivo, o DAN de ataques normais aumenta em 50%."
 SKILL_DESC_60003851,"Quando estiver no estado de Fúria, o ataque automático causa DAN que ignora DEF."
@@ -5979,3 +5979,9 @@ SKILL_DESC_7100341,"O Guardião do Sekireinel possui uma força poderosa, portan
 SKILL_DESC_80005140,"Aumenta seu PV Máx em {1}% e, aumenta o ATQ de todos os aliados em {2}% quando houver 1 inimigo. Este efeito não se acumula com outro efeito igual usado por um aliado."
 SKILL_DESC_80005150,"Ao realizar um ataque normal, há {1}% de chance de aumentar a VEL de ATQ em {3} por {2}s."
 SKILL_DESC_80005160,"Ao receber um efeito de status, reduz o tempo de resfriamento de todas as suas habilidades em {1}s e recupera {3} de PM por segundo durante {2}s. Possui um tempo de resfriamento de {4}s."
+SKILL_NAME_50000277,Carta da Morte
+SKILL_NAME_50000278,Carta do Amor
+SKILL_NAME_50000279,Carta da Fortuna
+SKILL_DESC_50000277,Carta da Morte que ela carrega como precaução.\nÉ fraca por não ter o poder de Carta.
+SKILL_DESC_50000278,Carta do Amor que ela carrega como precaução.\nÉ fraca por não ter o poder de Elliciad.
+SKILL_DESC_50000279,Carta da Fortuna que ela carrega como precaução.\nÉ fraca por não ter o poder de Vellekia.

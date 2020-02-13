@@ -4414,32 +4414,6 @@
                 }
               },
               {
-                "ValuePath": "Data/OperationData/CalcDamage",
-                "Body": {
-                  "ArgumentContainer": [
-                    {
-                      "ValuePath": "Object/Variable",
-                      "Body": {
-                        "Name": "MyselfStat",
-                        "ArgumentContainer": null
-                      }
-                    },
-                    {
-                      "ValuePath": "Decimal/Constant",
-                      "Body": {
-                        "Derived": "0",
-                        "ArgumentContainer": null
-                      }
-                    }
-                  ],
-                  "SkillIndex": 714,
-                  "RawOperationNo": "1",
-                  "OperationNoList": [
-                    1
-                  ]
-                }
-              },
-              {
                 "ValuePath": "Decimal/Calculate/Divide",
                 "Body": [
                   {
@@ -4447,7 +4421,7 @@
                     "Body": {
                       "ArgumentContainer": null,
                       "ValueType": "Duration",
-                      "SkillIndex": 714,
+                      "SkillIndex": 710,
                       "OperationNo": 2,
                       "ValueIndex": 0
                     }
@@ -4460,6 +4434,25 @@
                     }
                   }
                 ]
+              },
+              {
+                "ValuePath": "Data/OperationData/CalcDamage",
+                "Body": {
+                  "ArgumentContainer": [
+                    {
+                      "ValuePath": "Object/Variable",
+                      "Body": {
+                        "Name": "MyselfStat",
+                        "ArgumentContainer": null
+                      }
+                    }
+                  ],
+                  "SkillIndex": 710,
+                  "RawOperationNo": "3",
+                  "OperationNoList": [
+                    3
+                  ]
+                }
               }
             ]
           }
@@ -4615,6 +4608,47 @@
                     }
                   ],
                   "SkillIndex": 730,
+                  "RawOperationNo": "1",
+                  "OperationNoList": [
+                    1
+                  ]
+                }
+              },
+              {
+                "ValuePath": "Decimal/Calculate/Divide",
+                "Body": [
+                  {
+                    "ValuePath": "Data/ValueFromOperationData",
+                    "Body": {
+                      "ArgumentContainer": null,
+                      "ValueType": "Duration",
+                      "SkillIndex": 730,
+                      "OperationNo": 2,
+                      "ValueIndex": 0
+                    }
+                  },
+                  {
+                    "ValuePath": "Decimal/Constant",
+                    "Body": {
+                      "Derived": "1000",
+                      "ArgumentContainer": null
+                    }
+                  }
+                ]
+              },
+              {
+                "ValuePath": "Data/OperationData/CalcDamage",
+                "Body": {
+                  "ArgumentContainer": [
+                    {
+                      "ValuePath": "Object/Variable",
+                      "Body": {
+                        "Name": "MyselfStat",
+                        "ArgumentContainer": null
+                      }
+                    }
+                  ],
+                  "SkillIndex": 734,
                   "RawOperationNo": "1",
                   "OperationNoList": [
                     1
@@ -4952,11 +4986,25 @@
             },
             "ArgumentContainer": [
               {
-                "ValuePath": "Decimal/Constant",
-                "Body": {
-                  "Derived": "15",
-                  "ArgumentContainer": null
-                }
+                "ValuePath": "Decimal/Calculate/Divide",
+                "Body": [
+                  {
+                    "ValuePath": "Data/ValueFromSkillData",
+                    "Body": {
+                      "ArgumentContainer": null,
+                      "ValueType": "TriggerRatio",
+                      "SkillIndex": 740,
+                      "ValueIndex": 0
+                    }
+                  },
+                  {
+                    "ValuePath": "Decimal/Constant",
+                    "Body": {
+                      "Derived": "10",
+                      "ArgumentContainer": null
+                    }
+                  }
+                ]
               },
               {
                 "ValuePath": "Data/OperationData/CalcDamage",
@@ -4976,6 +5024,50 @@
                     1
                   ]
                 }
+              },
+              {
+                "ValuePath": "Decimal/Calculate/Divide",
+                "Body": [
+                  {
+                    "ValuePath": "Data/ValueFromOperationData",
+                    "Body": {
+                      "ArgumentContainer": null,
+                      "ValueType": "Duration",
+                      "SkillIndex": 740,
+                      "OperationNo": 2,
+                      "ValueIndex": 0
+                    }
+                  },
+                  {
+                    "ValuePath": "Decimal/Constant",
+                    "Body": {
+                      "Derived": "1000",
+                      "ArgumentContainer": null
+                    }
+                  }
+                ]
+              },
+              {
+                "ValuePath": "Decimal/Calculate/Divide",
+                "Body": [
+                  {
+                    "ValuePath": "Data/ValueFromOperationData",
+                    "Body": {
+                      "ArgumentContainer": null,
+                      "ValueType": "ConditionValue",
+                      "SkillIndex": 745,
+                      "OperationNo": 1,
+                      "ValueIndex": 0
+                    }
+                  },
+                  {
+                    "ValuePath": "Decimal/Constant",
+                    "Body": {
+                      "Derived": "10",
+                      "ArgumentContainer": null
+                    }
+                  }
+                ]
               }
             ]
           }
@@ -13616,47 +13708,69 @@
             },
             "ArgumentContainer": [
               {
-                "ValuePath": "Decimal/Calculate/Add",
-                "Body": [
-                  {
-                    "ValuePath": "Data/OperationData/CalcDamage",
-                    "Body": {
-                      "ArgumentContainer": [
-                        {
-                          "ValuePath": "Object/Variable",
-                          "Body": {
-                            "Name": "MyselfStat",
-                            "ArgumentContainer": null
+                "ValuePath": "Decimal/Constant",
+                "Body": {
+                  "Derived": "2",
+                  "ArgumentContainer": [
+                    {
+                      "ValuePath": "Data/OperationData/CalcDamage",
+                      "Body": {
+                        "ArgumentContainer": [
+                          {
+                            "ValuePath": "Object/Variable",
+                            "Body": {
+                              "Name": "MyselfStat",
+                              "ArgumentContainer": null
+                            }
                           }
-                        }
-                      ],
-                      "SkillIndex": 2110,
-                      "RawOperationNo": "1",
-                      "OperationNoList": [
-                        1
-                      ]
-                    }
-                  },
-                  {
-                    "ValuePath": "Data/OperationData/CalcDamage",
-                    "Body": {
-                      "ArgumentContainer": [
-                        {
-                          "ValuePath": "Object/Variable",
-                          "Body": {
-                            "Name": "MyselfStat",
-                            "ArgumentContainer": null
+                        ],
+                        "SkillIndex": 2110,
+                        "RawOperationNo": "1",
+                        "OperationNoList": [
+                          1
+                        ]
+                      }
+                    },
+                    {
+                      "ValuePath": "Data/OperationData/CalcDamage",
+                      "Body": {
+                        "ArgumentContainer": [
+                          {
+                            "ValuePath": "Object/Variable",
+                            "Body": {
+                              "Name": "MyselfStat",
+                              "ArgumentContainer": null
+                            }
                           }
-                        }
-                      ],
-                      "SkillIndex": 2114,
-                      "RawOperationNo": "1",
-                      "OperationNoList": [
-                        1
-                      ]
+                        ],
+                        "SkillIndex": 2114,
+                        "RawOperationNo": "1",
+                        "OperationNoList": [
+                          1
+                        ]
+                      }
                     }
-                  }
-                ]
+                  ]
+                }
+              },
+              {
+                "ValuePath": "Data/OperationData/CalcDamage",
+                "Body": {
+                  "ArgumentContainer": [
+                    {
+                      "ValuePath": "Object/Variable",
+                      "Body": {
+                        "Name": "MyselfStat",
+                        "ArgumentContainer": null
+                      }
+                    }
+                  ],
+                  "SkillIndex": 2110,
+                  "RawOperationNo": "1",
+                  "OperationNoList": [
+                    1
+                  ]
+                }
               },
               {
                 "ValuePath": "Decimal/Calculate/Divide",
@@ -13666,7 +13780,7 @@
                     "Body": {
                       "ArgumentContainer": null,
                       "ValueType": "Duration",
-                      "SkillIndex": 2114,
+                      "SkillIndex": 2110,
                       "OperationNo": 3,
                       "ValueIndex": 0
                     }
@@ -13692,12 +13806,78 @@
                       }
                     }
                   ],
-                  "SkillIndex": 2110,
-                  "RawOperationNo": "5",
+                  "SkillIndex": 2114,
+                  "RawOperationNo": "1",
                   "OperationNoList": [
-                    5
+                    1
                   ]
                 }
+              },
+              {
+                "ValuePath": "Decimal/Calculate/Divide",
+                "Body": [
+                  {
+                    "ValuePath": "Data/ValueFromOperationData",
+                    "Body": {
+                      "ArgumentContainer": null,
+                      "ValueType": "Duration",
+                      "SkillIndex": 2114,
+                      "OperationNo": 3,
+                      "ValueIndex": 0
+                    }
+                  },
+                  {
+                    "ValuePath": "Decimal/Constant",
+                    "Body": {
+                      "Derived": "1000",
+                      "ArgumentContainer": null
+                    }
+                  }
+                ]
+              },
+              {
+                "ValuePath": "Decimal/Calculate/Divide",
+                "Body": [
+                  {
+                    "ValuePath": "Data/ValueFromOperationData",
+                    "Body": {
+                      "ArgumentContainer": null,
+                      "ValueType": "Duration",
+                      "SkillIndex": 2114,
+                      "OperationNo": 4,
+                      "ValueIndex": 0
+                    }
+                  },
+                  {
+                    "ValuePath": "Decimal/Constant",
+                    "Body": {
+                      "Derived": "1000",
+                      "ArgumentContainer": null
+                    }
+                  }
+                ]
+              },
+              {
+                "ValuePath": "Decimal/Calculate/Divide",
+                "Body": [
+                  {
+                    "ValuePath": "Data/ValueFromOperationData",
+                    "Body": {
+                      "ArgumentContainer": null,
+                      "ValueType": "Value",
+                      "SkillIndex": 2114,
+                      "OperationNo": 4,
+                      "ValueIndex": 0
+                    }
+                  },
+                  {
+                    "ValuePath": "Decimal/Constant",
+                    "Body": {
+                      "Derived": "10",
+                      "ArgumentContainer": null
+                    }
+                  }
+                ]
               }
             ]
           }
@@ -13856,28 +14036,6 @@
                 ]
               },
               {
-                "ValuePath": "Decimal/Calculate/Divide",
-                "Body": [
-                  {
-                    "ValuePath": "Data/ValueFromOperationData",
-                    "Body": {
-                      "ArgumentContainer": null,
-                      "ValueType": "Value",
-                      "SkillIndex": 2120,
-                      "OperationNo": 3,
-                      "ValueIndex": 0
-                    }
-                  },
-                  {
-                    "ValuePath": "Decimal/Constant",
-                    "Body": {
-                      "Derived": "1",
-                      "ArgumentContainer": null
-                    }
-                  }
-                ]
-              },
-              {
                 "ValuePath": "Data/ValueFromOperationData",
                 "Body": {
                   "ArgumentContainer": null,
@@ -13885,6 +14043,67 @@
                   "SkillIndex": 2120,
                   "OperationNo": 1,
                   "ValueIndex": 0
+                }
+              },
+              {
+                "ValuePath": "Data/ValueFromOperationData",
+                "Body": {
+                  "ArgumentContainer": null,
+                  "ValueType": "Value",
+                  "SkillIndex": 2120,
+                  "OperationNo": 3,
+                  "ValueIndex": 0
+                }
+              },
+              {
+                "ValuePath": "Decimal/Calculate/Divide",
+                "Body": [
+                  {
+                    "ValuePath": "Data/ValueFromOperationData",
+                    "Body": {
+                      "ArgumentContainer": null,
+                      "ValueType": "Duration",
+                      "SkillIndex": 2124,
+                      "OperationNo": 1,
+                      "ValueIndex": 0
+                    }
+                  },
+                  {
+                    "ValuePath": "Decimal/Constant",
+                    "Body": {
+                      "Derived": "1000",
+                      "ArgumentContainer": null
+                    }
+                  }
+                ]
+              },
+              {
+                "ValuePath": "Decimal/Calculate/Divide",
+                "Body": [
+                  {
+                    "ValuePath": "Data/ValueFromOperationData",
+                    "Body": {
+                      "ArgumentContainer": null,
+                      "ValueType": "Value",
+                      "SkillIndex": 2124,
+                      "OperationNo": 1,
+                      "ValueIndex": 0
+                    }
+                  },
+                  {
+                    "ValuePath": "Decimal/Constant",
+                    "Body": {
+                      "Derived": "10",
+                      "ArgumentContainer": null
+                    }
+                  }
+                ]
+              },
+              {
+                "ValuePath": "Decimal/Constant",
+                "Body": {
+                  "Derived": "10",
+                  "ArgumentContainer": null
                 }
               }
             ]
@@ -14041,29 +14260,35 @@
                 }
               },
               {
-                "ValuePath": "Decimal/Constant",
-                "Body": {
-                  "Derived": "50",
-                  "ArgumentContainer": null
-                }
+                "ValuePath": "Decimal/Calculate/Divide",
+                "Body": [
+                  {
+                    "ValuePath": "Data/ValueFromOperationData",
+                    "Body": {
+                      "ArgumentContainer": null,
+                      "ValueType": "Duration",
+                      "SkillIndex": 2130,
+                      "OperationNo": 2,
+                      "ValueIndex": 0
+                    }
+                  },
+                  {
+                    "ValuePath": "Decimal/Constant",
+                    "Body": {
+                      "Derived": "1000",
+                      "ArgumentContainer": null
+                    }
+                  }
+                ]
               },
               {
-                "ValuePath": "Data/OperationData/CalcDamage",
+                "ValuePath": "Data/ValueFromOperationData",
                 "Body": {
-                  "ArgumentContainer": [
-                    {
-                      "ValuePath": "Object/Variable",
-                      "Body": {
-                        "Name": "MyselfStat",
-                        "ArgumentContainer": null
-                      }
-                    }
-                  ],
+                  "ArgumentContainer": null,
+                  "ValueType": "Value",
                   "SkillIndex": 2130,
-                  "RawOperationNo": "6",
-                  "OperationNoList": [
-                    6
-                  ]
+                  "OperationNo": 4,
+                  "ValueIndex": 3
                 }
               }
             ]
@@ -14158,7 +14383,7 @@
           "ValuePath": "String/Localize",
           "Body": {
             "LocalizeLink": {
-              "Key": "SKILL_DESC_2133"
+              "Key": "SKILL_DESC_2132"
             },
             "ArgumentContainer": [
               {
@@ -14201,6 +14426,47 @@
             },
             "ArgumentContainer": [
               {
+                "ValuePath": "Data/ValueFromOperationData",
+                "Body": {
+                  "ArgumentContainer": null,
+                  "ValueType": "Value",
+                  "SkillIndex": 2140,
+                  "OperationNo": 1,
+                  "ValueIndex": 0
+                }
+              },
+              {
+                "ValuePath": "Data/ValueFromOperationData",
+                "Body": {
+                  "ArgumentContainer": null,
+                  "ValueType": "Value",
+                  "SkillIndex": 2140,
+                  "OperationNo": 2,
+                  "ValueIndex": 0
+                }
+              },
+              {
+                "ValuePath": "Decimal/Calculate/Divide",
+                "Body": [
+                  {
+                    "ValuePath": "Data/ValueFromSkillData",
+                    "Body": {
+                      "ArgumentContainer": null,
+                      "ValueType": "TriggerRatio",
+                      "SkillIndex": 2144,
+                      "ValueIndex": 0
+                    }
+                  },
+                  {
+                    "ValuePath": "Decimal/Constant",
+                    "Body": {
+                      "Derived": "10",
+                      "ArgumentContainer": null
+                    }
+                  }
+                ]
+              },
+              {
                 "ValuePath": "Data/OperationData/CalcDamage",
                 "Body": {
                   "ArgumentContainer": [
@@ -14212,7 +14478,7 @@
                       }
                     }
                   ],
-                  "SkillIndex": 2140,
+                  "SkillIndex": 2144,
                   "RawOperationNo": "1",
                   "OperationNoList": [
                     1
@@ -14227,51 +14493,7 @@
                     "Body": {
                       "ArgumentContainer": null,
                       "ValueType": "Duration",
-                      "SkillIndex": 2140,
-                      "OperationNo": 4,
-                      "ValueIndex": 0
-                    }
-                  },
-                  {
-                    "ValuePath": "Decimal/Constant",
-                    "Body": {
-                      "Derived": "1000",
-                      "ArgumentContainer": null
-                    }
-                  }
-                ]
-              },
-              {
-                "ValuePath": "Decimal/Calculate/Divide",
-                "Body": [
-                  {
-                    "ValuePath": "Data/ValueFromOperationData",
-                    "Body": {
-                      "ArgumentContainer": null,
-                      "ValueType": "Value",
-                      "SkillIndex": 2140,
-                      "OperationNo": 4,
-                      "ValueIndex": 0
-                    }
-                  },
-                  {
-                    "ValuePath": "Decimal/Constant",
-                    "Body": {
-                      "Derived": "10",
-                      "ArgumentContainer": null
-                    }
-                  }
-                ]
-              },
-              {
-                "ValuePath": "Decimal/Calculate/Divide",
-                "Body": [
-                  {
-                    "ValuePath": "Data/ValueFromOperationData",
-                    "Body": {
-                      "ArgumentContainer": null,
-                      "ValueType": "Duration",
-                      "SkillIndex": 2140,
+                      "SkillIndex": 2144,
                       "OperationNo": 2,
                       "ValueIndex": 0
                     }
@@ -20152,6 +20374,28 @@
                     }
                   }
                 ]
+              },
+              {
+                "ValuePath": "Decimal/Calculate/Divide",
+                "Body": [
+                  {
+                    "ValuePath": "Data/ValueFromOperationData",
+                    "Body": {
+                      "ArgumentContainer": null,
+                      "ValueType": "Value",
+                      "SkillIndex": 2940,
+                      "OperationNo": 5,
+                      "ValueIndex": 0
+                    }
+                  },
+                  {
+                    "ValuePath": "Decimal/Constant",
+                    "Body": {
+                      "Derived": "1000",
+                      "ArgumentContainer": null
+                    }
+                  }
+                ]
               }
             ]
           }
@@ -24671,6 +24915,50 @@
                     1
                   ]
                 }
+              },
+              {
+                "ValuePath": "Decimal/Calculate/Divide",
+                "Body": [
+                  {
+                    "ValuePath": "Data/ValueFromOperationData",
+                    "Body": {
+                      "ArgumentContainer": null,
+                      "ValueType": "Duration",
+                      "SkillIndex": 3715,
+                      "OperationNo": 2,
+                      "ValueIndex": 0
+                    }
+                  },
+                  {
+                    "ValuePath": "Decimal/Constant",
+                    "Body": {
+                      "Derived": "1000",
+                      "ArgumentContainer": null
+                    }
+                  }
+                ]
+              },
+              {
+                "ValuePath": "Decimal/Calculate/Divide",
+                "Body": [
+                  {
+                    "ValuePath": "Data/ValueFromOperationData",
+                    "Body": {
+                      "ArgumentContainer": null,
+                      "ValueType": "Value",
+                      "SkillIndex": 3715,
+                      "OperationNo": 3,
+                      "ValueIndex": 3
+                    }
+                  },
+                  {
+                    "ValuePath": "Decimal/Constant",
+                    "Body": {
+                      "Derived": "10",
+                      "ArgumentContainer": null
+                    }
+                  }
+                ]
               }
             ]
           }
@@ -24764,7 +25052,7 @@
           "ValuePath": "String/Localize",
           "Body": {
             "LocalizeLink": {
-              "Key": "SKILL_DESC_3713"
+              "Key": "SKILL_DESC_3712"
             },
             "ArgumentContainer": [
               {
@@ -24777,13 +25065,13 @@
                       "ValueType": "Value",
                       "SkillIndex": 3713,
                       "OperationNo": 1,
-                      "ValueIndex": 3
+                      "ValueIndex": 2
                     }
                   },
                   {
                     "ValuePath": "Decimal/Constant",
                     "Body": {
-                      "Derived": "1",
+                      "Derived": "10",
                       "ArgumentContainer": null
                     }
                   }
@@ -24919,7 +25207,7 @@
           "ValuePath": "String/Localize",
           "Body": {
             "LocalizeLink": {
-              "Key": "SKILL_DESC_3723"
+              "Key": "SKILL_DESC_3722"
             },
             "ArgumentContainer": [
               {
@@ -24932,13 +25220,13 @@
                       "ValueType": "Value",
                       "SkillIndex": 3723,
                       "OperationNo": 1,
-                      "ValueIndex": 3
+                      "ValueIndex": 2
                     }
                   },
                   {
                     "ValuePath": "Decimal/Constant",
                     "Body": {
-                      "Derived": "1",
+                      "Derived": "10",
                       "ArgumentContainer": null
                     }
                   }
@@ -25096,7 +25384,7 @@
           "ValuePath": "String/Localize",
           "Body": {
             "LocalizeLink": {
-              "Key": "SKILL_DESC_3733"
+              "Key": "SKILL_DESC_3732"
             },
             "ArgumentContainer": [
               {
@@ -25109,13 +25397,13 @@
                       "ValueType": "Value",
                       "SkillIndex": 3733,
                       "OperationNo": 1,
-                      "ValueIndex": 3
+                      "ValueIndex": 2
                     }
                   },
                   {
                     "ValuePath": "Decimal/Constant",
                     "Body": {
-                      "Derived": "1",
+                      "Derived": "10",
                       "ArgumentContainer": null
                     }
                   }
@@ -25334,7 +25622,7 @@
           "ValuePath": "String/Localize",
           "Body": {
             "LocalizeLink": {
-              "Key": "SKILL_DESC_3743"
+              "Key": "SKILL_DESC_3742"
             },
             "ArgumentContainer": [
               {
@@ -25347,13 +25635,13 @@
                       "ValueType": "Value",
                       "SkillIndex": 3743,
                       "OperationNo": 1,
-                      "ValueIndex": 3
+                      "ValueIndex": 2
                     }
                   },
                   {
                     "ValuePath": "Decimal/Constant",
                     "Body": {
-                      "Derived": "1000",
+                      "Derived": "10",
                       "ArgumentContainer": null
                     }
                   }
@@ -31145,7 +31433,30 @@
             "LocalizeLink": {
               "Key": "SKILL_DESC_60000710"
             },
-            "ArgumentContainer": null
+            "ArgumentContainer": [
+              {
+                "ValuePath": "Decimal/Calculate/Divide",
+                "Body": [
+                  {
+                    "ValuePath": "Data/ValueFromOperationData",
+                    "Body": {
+                      "ArgumentContainer": null,
+                      "ValueType": "Value",
+                      "SkillIndex": 60000710,
+                      "OperationNo": 1,
+                      "ValueIndex": 2
+                    }
+                  },
+                  {
+                    "ValuePath": "Decimal/Constant",
+                    "Body": {
+                      "Derived": "10",
+                      "ArgumentContainer": null
+                    }
+                  }
+                ]
+              }
+            ]
           }
         },
         "EditorMemo": ""
@@ -31161,7 +31472,30 @@
             "LocalizeLink": {
               "Key": "SKILL_DESC_60000711"
             },
-            "ArgumentContainer": null
+            "ArgumentContainer": [
+              {
+                "ValuePath": "Decimal/Calculate/Divide",
+                "Body": [
+                  {
+                    "ValuePath": "Data/ValueFromOperationData",
+                    "Body": {
+                      "ArgumentContainer": null,
+                      "ValueType": "Value",
+                      "SkillIndex": 60000711,
+                      "OperationNo": 1,
+                      "ValueIndex": 0
+                    }
+                  },
+                  {
+                    "ValuePath": "Decimal/Constant",
+                    "Body": {
+                      "Derived": "-1",
+                      "ArgumentContainer": null
+                    }
+                  }
+                ]
+              }
+            ]
           }
         },
         "EditorMemo": ""
@@ -31193,7 +31527,30 @@
             "LocalizeLink": {
               "Key": "SKILL_DESC_60000721"
             },
-            "ArgumentContainer": null
+            "ArgumentContainer": [
+              {
+                "ValuePath": "Decimal/Calculate/Divide",
+                "Body": [
+                  {
+                    "ValuePath": "Data/ValueFromOperationData",
+                    "Body": {
+                      "ArgumentContainer": null,
+                      "ValueType": "Value",
+                      "SkillIndex": 60000721,
+                      "OperationNo": 1,
+                      "ValueIndex": 3
+                    }
+                  },
+                  {
+                    "ValuePath": "Decimal/Constant",
+                    "Body": {
+                      "Derived": "1000",
+                      "ArgumentContainer": null
+                    }
+                  }
+                ]
+              }
+            ]
           }
         },
         "EditorMemo": ""
@@ -31241,7 +31598,52 @@
             "LocalizeLink": {
               "Key": "SKILL_DESC_60000740"
             },
-            "ArgumentContainer": null
+            "ArgumentContainer": [
+              {
+                "ValuePath": "Decimal/Calculate/Divide",
+                "Body": [
+                  {
+                    "ValuePath": "Data/ValueFromOperationData",
+                    "Body": {
+                      "ArgumentContainer": null,
+                      "ValueType": "Value",
+                      "SkillIndex": 60000740,
+                      "OperationNo": 1,
+                      "ValueIndex": 3
+                    }
+                  },
+                  {
+                    "ValuePath": "Decimal/Constant",
+                    "Body": {
+                      "Derived": "10",
+                      "ArgumentContainer": null
+                    }
+                  }
+                ]
+              },
+              {
+                "ValuePath": "Decimal/Calculate/Divide",
+                "Body": [
+                  {
+                    "ValuePath": "Data/ValueFromOperationData",
+                    "Body": {
+                      "ArgumentContainer": null,
+                      "ValueType": "Value",
+                      "SkillIndex": 60000740,
+                      "OperationNo": 3,
+                      "ValueIndex": 3
+                    }
+                  },
+                  {
+                    "ValuePath": "Decimal/Constant",
+                    "Body": {
+                      "Derived": "1000",
+                      "ArgumentContainer": null
+                    }
+                  }
+                ]
+              }
+            ]
           }
         },
         "EditorMemo": ""
@@ -31257,7 +31659,18 @@
             "LocalizeLink": {
               "Key": "SKILL_DESC_60000741"
             },
-            "ArgumentContainer": null
+            "ArgumentContainer": [
+              {
+                "ValuePath": "Data/ValueFromOperationData",
+                "Body": {
+                  "ArgumentContainer": null,
+                  "ValueType": "Value",
+                  "SkillIndex": 60000741,
+                  "OperationNo": 1,
+                  "ValueIndex": 0
+                }
+              }
+            ]
           }
         },
         "EditorMemo": ""
@@ -32953,7 +33366,52 @@
             "LocalizeLink": {
               "Key": "SKILL_DESC_60002111"
             },
-            "ArgumentContainer": null
+            "ArgumentContainer": [
+              {
+                "ValuePath": "Decimal/Calculate/Divide",
+                "Body": [
+                  {
+                    "ValuePath": "Data/ValueFromOperationData",
+                    "Body": {
+                      "ArgumentContainer": null,
+                      "ValueType": "Duration",
+                      "SkillIndex": 60002111,
+                      "OperationNo": 1,
+                      "ValueIndex": 0
+                    }
+                  },
+                  {
+                    "ValuePath": "Decimal/Constant",
+                    "Body": {
+                      "Derived": "1000",
+                      "ArgumentContainer": null
+                    }
+                  }
+                ]
+              },
+              {
+                "ValuePath": "Decimal/Calculate/Divide",
+                "Body": [
+                  {
+                    "ValuePath": "Data/ValueFromOperationData",
+                    "Body": {
+                      "ArgumentContainer": null,
+                      "ValueType": "Value",
+                      "SkillIndex": 60002111,
+                      "OperationNo": 1,
+                      "ValueIndex": 0
+                    }
+                  },
+                  {
+                    "ValuePath": "Decimal/Constant",
+                    "Body": {
+                      "Derived": "10",
+                      "ArgumentContainer": null
+                    }
+                  }
+                ]
+              }
+            ]
           }
         },
         "EditorMemo": ""
@@ -32985,7 +33443,18 @@
             "LocalizeLink": {
               "Key": "SKILL_DESC_60002121"
             },
-            "ArgumentContainer": null
+            "ArgumentContainer": [
+              {
+                "ValuePath": "Data/ValueFromOperationData",
+                "Body": {
+                  "ArgumentContainer": null,
+                  "ValueType": "Value",
+                  "SkillIndex": 60002121,
+                  "OperationNo": 1,
+                  "ValueIndex": 2
+                }
+              }
+            ]
           }
         },
         "EditorMemo": ""
@@ -33001,7 +33470,30 @@
             "LocalizeLink": {
               "Key": "SKILL_DESC_60002130"
             },
-            "ArgumentContainer": null
+            "ArgumentContainer": [
+              {
+                "ValuePath": "Decimal/Calculate/Divide",
+                "Body": [
+                  {
+                    "ValuePath": "Data/ValueFromOperationData",
+                    "Body": {
+                      "ArgumentContainer": null,
+                      "ValueType": "Value",
+                      "SkillIndex": 60002130,
+                      "OperationNo": 1,
+                      "ValueIndex": 2
+                    }
+                  },
+                  {
+                    "ValuePath": "Decimal/Constant",
+                    "Body": {
+                      "Derived": "10",
+                      "ArgumentContainer": null
+                    }
+                  }
+                ]
+              }
+            ]
           }
         },
         "EditorMemo": ""
@@ -33017,7 +33509,52 @@
             "LocalizeLink": {
               "Key": "SKILL_DESC_60002131"
             },
-            "ArgumentContainer": null
+            "ArgumentContainer": [
+              {
+                "ValuePath": "Decimal/Calculate/Divide",
+                "Body": [
+                  {
+                    "ValuePath": "Data/ValueFromOperationData",
+                    "Body": {
+                      "ArgumentContainer": null,
+                      "ValueType": "Duration",
+                      "SkillIndex": 60002131,
+                      "OperationNo": 1,
+                      "ValueIndex": 0
+                    }
+                  },
+                  {
+                    "ValuePath": "Decimal/Constant",
+                    "Body": {
+                      "Derived": "1000",
+                      "ArgumentContainer": null
+                    }
+                  }
+                ]
+              },
+              {
+                "ValuePath": "Decimal/Calculate/Divide",
+                "Body": [
+                  {
+                    "ValuePath": "Data/ValueFromOperationData",
+                    "Body": {
+                      "ArgumentContainer": null,
+                      "ValueType": "Value",
+                      "SkillIndex": 60002131,
+                      "OperationNo": 1,
+                      "ValueIndex": 0
+                    }
+                  },
+                  {
+                    "ValuePath": "Decimal/Constant",
+                    "Body": {
+                      "Derived": "-10",
+                      "ArgumentContainer": null
+                    }
+                  }
+                ]
+              }
+            ]
           }
         },
         "EditorMemo": ""
@@ -33033,7 +33570,52 @@
             "LocalizeLink": {
               "Key": "SKILL_DESC_60002140"
             },
-            "ArgumentContainer": null
+            "ArgumentContainer": [
+              {
+                "ValuePath": "Decimal/Calculate/Divide",
+                "Body": [
+                  {
+                    "ValuePath": "Data/ValueFromOperationData",
+                    "Body": {
+                      "ArgumentContainer": null,
+                      "ValueType": "Value",
+                      "SkillIndex": 60002140,
+                      "OperationNo": 1,
+                      "ValueIndex": 2
+                    }
+                  },
+                  {
+                    "ValuePath": "Decimal/Constant",
+                    "Body": {
+                      "Derived": "10",
+                      "ArgumentContainer": null
+                    }
+                  }
+                ]
+              },
+              {
+                "ValuePath": "Decimal/Calculate/Divide",
+                "Body": [
+                  {
+                    "ValuePath": "Data/ValueFromOperationData",
+                    "Body": {
+                      "ArgumentContainer": null,
+                      "ValueType": "Value",
+                      "SkillIndex": 60002140,
+                      "OperationNo": 5,
+                      "ValueIndex": 3
+                    }
+                  },
+                  {
+                    "ValuePath": "Decimal/Constant",
+                    "Body": {
+                      "Derived": "-1000",
+                      "ArgumentContainer": null
+                    }
+                  }
+                ]
+              }
+            ]
           }
         },
         "EditorMemo": ""
@@ -33049,7 +33631,62 @@
             "LocalizeLink": {
               "Key": "SKILL_DESC_60002141"
             },
-            "ArgumentContainer": null
+            "ArgumentContainer": [
+              {
+                "ValuePath": "Decimal/Calculate/Divide",
+                "Body": [
+                  {
+                    "ValuePath": "Data/ValueFromOperationData",
+                    "Body": {
+                      "ArgumentContainer": null,
+                      "ValueType": "Duration",
+                      "SkillIndex": 60002141,
+                      "OperationNo": 1,
+                      "ValueIndex": 0
+                    }
+                  },
+                  {
+                    "ValuePath": "Decimal/Constant",
+                    "Body": {
+                      "Derived": "1000",
+                      "ArgumentContainer": null
+                    }
+                  }
+                ]
+              },
+              {
+                "ValuePath": "Data/ValueFromOperationData",
+                "Body": {
+                  "ArgumentContainer": null,
+                  "ValueType": "Value",
+                  "SkillIndex": 60002141,
+                  "OperationNo": 1,
+                  "ValueIndex": 0
+                }
+              },
+              {
+                "ValuePath": "Decimal/Calculate/Divide",
+                "Body": [
+                  {
+                    "ValuePath": "Data/ValueFromOperationData",
+                    "Body": {
+                      "ArgumentContainer": null,
+                      "ValueType": "Duration",
+                      "SkillIndex": 60002141,
+                      "OperationNo": 2,
+                      "ValueIndex": 0
+                    }
+                  },
+                  {
+                    "ValuePath": "Decimal/Constant",
+                    "Body": {
+                      "Derived": "1000",
+                      "ArgumentContainer": null
+                    }
+                  }
+                ]
+              }
+            ]
           }
         },
         "EditorMemo": ""
@@ -34777,7 +35414,30 @@
             "LocalizeLink": {
               "Key": "SKILL_DESC_60003521"
             },
-            "ArgumentContainer": null
+            "ArgumentContainer": [
+              {
+                "ValuePath": "Decimal/Calculate/Divide",
+                "Body": [
+                  {
+                    "ValuePath": "Data/ValueFromOperationData",
+                    "Body": {
+                      "ArgumentContainer": null,
+                      "ValueType": "Value",
+                      "SkillIndex": 3520,
+                      "OperationNo": 5,
+                      "ValueIndex": 0
+                    }
+                  },
+                  {
+                    "ValuePath": "Decimal/Constant",
+                    "Body": {
+                      "Derived": "10",
+                      "ArgumentContainer": null
+                    }
+                  }
+                ]
+              }
+            ]
           }
         },
         "EditorMemo": ""
@@ -34825,7 +35485,18 @@
             "LocalizeLink": {
               "Key": "SKILL_DESC_60003540"
             },
-            "ArgumentContainer": null
+            "ArgumentContainer": [
+              {
+                "ValuePath": "Data/ValueFromOperationData",
+                "Body": {
+                  "ArgumentContainer": null,
+                  "ValueType": "Value",
+                  "SkillIndex": 60003540,
+                  "OperationNo": 1,
+                  "ValueIndex": 2
+                }
+              }
+            ]
           }
         },
         "EditorMemo": ""
@@ -35017,7 +35688,30 @@
             "LocalizeLink": {
               "Key": "SKILL_DESC_60003720"
             },
-            "ArgumentContainer": null
+            "ArgumentContainer": [
+              {
+                "ValuePath": "Decimal/Calculate/Multiply",
+                "Body": [
+                  {
+                    "ValuePath": "Data/ValueFromOperationData",
+                    "Body": {
+                      "ArgumentContainer": null,
+                      "ValueType": "Value",
+                      "SkillIndex": 60003720,
+                      "OperationNo": 1,
+                      "ValueIndex": 0
+                    }
+                  },
+                  {
+                    "ValuePath": "Decimal/Constant",
+                    "Body": {
+                      "Derived": "-1",
+                      "ArgumentContainer": null
+                    }
+                  }
+                ]
+              }
+            ]
           }
         },
         "EditorMemo": ""
@@ -35961,7 +36655,74 @@
             "LocalizeLink": {
               "Key": "SKILL_DESC_60000751"
             },
-            "ArgumentContainer": null
+            "ArgumentContainer": [
+              {
+                "ValuePath": "Decimal/Calculate/Divide",
+                "Body": [
+                  {
+                    "ValuePath": "Data/ValueFromOperationData",
+                    "Body": {
+                      "ArgumentContainer": null,
+                      "ValueType": "Duration",
+                      "SkillIndex": 60000751,
+                      "OperationNo": 1,
+                      "ValueIndex": 0
+                    }
+                  },
+                  {
+                    "ValuePath": "Decimal/Constant",
+                    "Body": {
+                      "Derived": "1000",
+                      "ArgumentContainer": null
+                    }
+                  }
+                ]
+              },
+              {
+                "ValuePath": "Decimal/Calculate/Divide",
+                "Body": [
+                  {
+                    "ValuePath": "Data/ValueFromOperationData",
+                    "Body": {
+                      "ArgumentContainer": null,
+                      "ValueType": "Value",
+                      "SkillIndex": 60000751,
+                      "OperationNo": 1,
+                      "ValueIndex": 0
+                    }
+                  },
+                  {
+                    "ValuePath": "Decimal/Constant",
+                    "Body": {
+                      "Derived": "1",
+                      "ArgumentContainer": null
+                    }
+                  }
+                ]
+              },
+              {
+                "ValuePath": "Decimal/Calculate/Divide",
+                "Body": [
+                  {
+                    "ValuePath": "Data/ValueFromOperationData",
+                    "Body": {
+                      "ArgumentContainer": null,
+                      "ValueType": "Value",
+                      "SkillIndex": 60000751,
+                      "OperationNo": 2,
+                      "ValueIndex": 0
+                    }
+                  },
+                  {
+                    "ValuePath": "Decimal/Constant",
+                    "Body": {
+                      "Derived": "1",
+                      "ArgumentContainer": null
+                    }
+                  }
+                ]
+              }
+            ]
           }
         },
         "EditorMemo": ""
@@ -36409,7 +37170,81 @@
             "LocalizeLink": {
               "Key": "SKILL_DESC_60002151"
             },
-            "ArgumentContainer": null
+            "ArgumentContainer": [
+              {
+                "ValuePath": "Decimal/Calculate/Divide",
+                "Body": [
+                  {
+                    "ValuePath": "Data/ValueFromOperationData",
+                    "Body": {
+                      "ArgumentContainer": null,
+                      "ValueType": "Duration",
+                      "SkillIndex": 60002151,
+                      "OperationNo": 1,
+                      "ValueIndex": 0
+                    }
+                  },
+                  {
+                    "ValuePath": "Decimal/Constant",
+                    "Body": {
+                      "Derived": "1000",
+                      "ArgumentContainer": null
+                    }
+                  }
+                ]
+              },
+              {
+                "ValuePath": "Decimal/Calculate/Divide",
+                "Body": [
+                  {
+                    "ValuePath": "Data/ValueFromOperationData",
+                    "Body": {
+                      "ArgumentContainer": null,
+                      "ValueType": "Value",
+                      "SkillIndex": 60002151,
+                      "OperationNo": 1,
+                      "ValueIndex": 0
+                    }
+                  },
+                  {
+                    "ValuePath": "Decimal/Constant",
+                    "Body": {
+                      "Derived": "10",
+                      "ArgumentContainer": null
+                    }
+                  }
+                ]
+              },
+              {
+                "ValuePath": "Decimal/Calculate/Divide",
+                "Body": [
+                  {
+                    "ValuePath": "Data/ValueFromOperationData",
+                    "Body": {
+                      "ArgumentContainer": null,
+                      "ValueType": "Value",
+                      "SkillIndex": 60002151,
+                      "OperationNo": 2,
+                      "ValueIndex": 0
+                    }
+                  },
+                  {
+                    "ValuePath": "Decimal/Constant",
+                    "Body": {
+                      "Derived": "1",
+                      "ArgumentContainer": null
+                    }
+                  }
+                ]
+              },
+              {
+                "ValuePath": "Decimal/Constant",
+                "Body": {
+                  "Derived": "10",
+                  "ArgumentContainer": null
+                }
+              }
+            ]
           }
         },
         "EditorMemo": ""
@@ -36902,7 +37737,47 @@
             "LocalizeLink": {
               "Key": "SKILL_DESC_60003551"
             },
-            "ArgumentContainer": null
+            "ArgumentContainer": [
+              {
+                "ValuePath": "Decimal/Calculate/Divide",
+                "Body": [
+                  {
+                    "ValuePath": "Data/ValueFromOperationData",
+                    "Body": {
+                      "ArgumentContainer": null,
+                      "ValueType": "Value",
+                      "SkillIndex": 60003551,
+                      "OperationNo": 1,
+                      "ValueIndex": 0
+                    }
+                  },
+                  {
+                    "ValuePath": "Decimal/Constant",
+                    "Body": {
+                      "Derived": "10",
+                      "ArgumentContainer": null
+                    }
+                  }
+                ]
+              },
+              {
+                "ValuePath": "Data/ValueFromOperationData",
+                "Body": {
+                  "ArgumentContainer": null,
+                  "ValueType": "Value",
+                  "SkillIndex": 60003551,
+                  "OperationNo": 1,
+                  "ValueIndex": 0
+                }
+              },
+              {
+                "ValuePath": "Decimal/Constant",
+                "Body": {
+                  "Derived": "120",
+                  "ArgumentContainer": null
+                }
+              }
+            ]
           }
         },
         "EditorMemo": ""
@@ -39554,7 +40429,45 @@
             "LocalizeLink": {
               "Key": "SKILL_DESC_60004541"
             },
-            "ArgumentContainer": null
+            "ArgumentContainer": [
+              {
+                "ValuePath": "Decimal/Calculate/Divide",
+                "Body": [
+                  {
+                    "ValuePath": "Decimal/Calculate/Add",
+                    "Body": [
+                      {
+                        "ValuePath": "Data/ValueFromOperationData",
+                        "Body": {
+                          "ArgumentContainer": null,
+                          "ValueType": "Value",
+                          "SkillIndex": 4544,
+                          "OperationNo": 1,
+                          "ValueIndex": 1
+                        }
+                      },
+                      {
+                        "ValuePath": "Data/ValueFromOperationData",
+                        "Body": {
+                          "ArgumentContainer": null,
+                          "ValueType": "Value",
+                          "SkillIndex": 60004541,
+                          "OperationNo": 1,
+                          "ValueIndex": 3
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "ValuePath": "Decimal/Constant",
+                    "Body": {
+                      "Derived": "10",
+                      "ArgumentContainer": null
+                    }
+                  }
+                ]
+              }
+            ]
           }
         },
         "EditorMemo": ""
@@ -50925,6 +51838,36 @@
             },
             "ArgumentContainer": [
               {
+                "ValuePath": "Decimal/Calculate/Divide",
+                "Body": [
+                  {
+                    "ValuePath": "Data/ValueFromOperationData",
+                    "Body": {
+                      "ArgumentContainer": [
+                        {
+                          "ValuePath": "Object/Variable",
+                          "Body": {
+                            "Name": "MyselfStat",
+                            "ArgumentContainer": null
+                          }
+                        }
+                      ],
+                      "ValueType": "Duration",
+                      "SkillIndex": 9220,
+                      "OperationNo": 1,
+                      "ValueIndex": 0
+                    }
+                  },
+                  {
+                    "ValuePath": "Decimal/Constant",
+                    "Body": {
+                      "Derived": "1000",
+                      "ArgumentContainer": null
+                    }
+                  }
+                ]
+              },
+              {
                 "ValuePath": "Data/ValueFromOperationData",
                 "Body": {
                   "ArgumentContainer": [
@@ -50941,6 +51884,36 @@
                   "OperationNo": 1,
                   "ValueIndex": 0
                 }
+              },
+              {
+                "ValuePath": "Decimal/Calculate/Divide",
+                "Body": [
+                  {
+                    "ValuePath": "Data/ValueFromOperationData",
+                    "Body": {
+                      "ArgumentContainer": [
+                        {
+                          "ValuePath": "Object/Variable",
+                          "Body": {
+                            "Name": "MyselfStat",
+                            "ArgumentContainer": null
+                          }
+                        }
+                      ],
+                      "ValueType": "Value",
+                      "SkillIndex": 9220,
+                      "OperationNo": 2,
+                      "ValueIndex": 1
+                    }
+                  },
+                  {
+                    "ValuePath": "Decimal/Constant",
+                    "Body": {
+                      "Derived": "10",
+                      "ArgumentContainer": null
+                    }
+                  }
+                ]
               }
             ]
           }
@@ -52875,7 +53848,37 @@
             "LocalizeLink": {
               "Key": "SKILL_DESC_60009220"
             },
-            "ArgumentContainer": null
+            "ArgumentContainer": [
+              {
+                "ValuePath": "Decimal/Constant",
+                "Body": {
+                  "Derived": "3",
+                  "ArgumentContainer": null
+                }
+              },
+              {
+                "ValuePath": "Decimal/Calculate/Divide",
+                "Body": [
+                  {
+                    "ValuePath": "Data/ValueFromOperationData",
+                    "Body": {
+                      "ArgumentContainer": null,
+                      "ValueType": "Value",
+                      "SkillIndex": 9224,
+                      "OperationNo": 1,
+                      "ValueIndex": 3
+                    }
+                  },
+                  {
+                    "ValuePath": "Decimal/Constant",
+                    "Body": {
+                      "Derived": "10",
+                      "ArgumentContainer": null
+                    }
+                  }
+                ]
+              }
+            ]
           }
         },
         "EditorMemo": ""
@@ -78453,7 +79456,7 @@
                   {
                     "ValuePath": "Decimal/Constant",
                     "Body": {
-                      "Derived": "1020",
+                      "Derived": "1040",
                       "ArgumentContainer": null
                     }
                   }
@@ -78497,7 +79500,7 @@
                   {
                     "ValuePath": "Decimal/Constant",
                     "Body": {
-                      "Derived": "1020",
+                      "Derived": "1040",
                       "ArgumentContainer": null
                     }
                   }
@@ -79044,21 +80047,80 @@
             },
             "ArgumentContainer": [
               {
+                "ValuePath": "Decimal/Calculate/Divide",
+                "Body": [
+                  {
+                    "ValuePath": "Data/ValueFromOperationData",
+                    "Body": {
+                      "ArgumentContainer": null,
+                      "ValueType": "Value",
+                      "SkillIndex": 60007151,
+                      "OperationNo": 1,
+                      "ValueIndex": 0
+                    }
+                  },
+                  {
+                    "ValuePath": "Decimal/Constant",
+                    "Body": {
+                      "Derived": "10",
+                      "ArgumentContainer": null
+                    }
+                  }
+                ]
+              },
+              {
                 "ValuePath": "Data/ValueFromOperationData",
                 "Body": {
                   "ArgumentContainer": null,
                   "ValueType": "Value",
                   "SkillIndex": 60007151,
-                  "OperationNo": 1,
+                  "OperationNo": 2,
                   "ValueIndex": 0
                 }
               },
               {
-                "ValuePath": "Decimal/Constant",
+                "ValuePath": "Data/ValueFromOperationData",
                 "Body": {
-                  "Derived": "100",
-                  "ArgumentContainer": null
+                  "ArgumentContainer": null,
+                  "ValueType": "ConditionValue",
+                  "SkillIndex": 7146,
+                  "OperationNo": 2,
+                  "ValueIndex": 1
                 }
+              },
+              {
+                "ValuePath": "Decimal/Calculate/Divide",
+                "Body": [
+                  {
+                    "ValuePath": "Decimal/Calculate/Add",
+                    "Body": [
+                      {
+                        "ValuePath": "Data/ValueFromOperationData",
+                        "Body": {
+                          "ArgumentContainer": null,
+                          "ValueType": "Value",
+                          "SkillIndex": 7146,
+                          "OperationNo": 2,
+                          "ValueIndex": 2
+                        }
+                      },
+                      {
+                        "ValuePath": "Decimal/Constant",
+                        "Body": {
+                          "Derived": "1000",
+                          "ArgumentContainer": null
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "ValuePath": "Decimal/Constant",
+                    "Body": {
+                      "Derived": "1000",
+                      "ArgumentContainer": null
+                    }
+                  }
+                ]
               }
             ]
           }
@@ -105923,6 +106985,54 @@
                 }
               }
             ]
+          }
+        },
+        "EditorMemo": ""
+      }
+    },
+    {
+      "Key": 50000277,
+      "Value": {
+        "SkillIndex": 50000277,
+        "SkillDesc": {
+          "ValuePath": "String/Localize",
+          "Body": {
+            "LocalizeLink": {
+              "Key": "SKILL_DESC_50000277"
+            },
+            "ArgumentContainer": null
+          }
+        },
+        "EditorMemo": ""
+      }
+    },
+    {
+      "Key": 50000278,
+      "Value": {
+        "SkillIndex": 50000278,
+        "SkillDesc": {
+          "ValuePath": "String/Localize",
+          "Body": {
+            "LocalizeLink": {
+              "Key": "SKILL_DESC_50000278"
+            },
+            "ArgumentContainer": null
+          }
+        },
+        "EditorMemo": ""
+      }
+    },
+    {
+      "Key": 50000279,
+      "Value": {
+        "SkillIndex": 50000279,
+        "SkillDesc": {
+          "ValuePath": "String/Localize",
+          "Body": {
+            "LocalizeLink": {
+              "Key": "SKILL_DESC_50000279"
+            },
+            "ArgumentContainer": null
           }
         },
         "EditorMemo": ""

@@ -35,7 +35,7 @@ SKILL_DESC_91000612,[Colisión] Reduce la Resistencia al control de multitudes d
 SKILL_DESC_91000613,[Colisión] Reduce la Resistencia al control de multitudes del objetivo en 250 y el Bloqueo físico en 350 durante 10 seg.
 SKILL_DESC_91000614,[Colisión] Reduce la Resistencia al control de multitudes del objetivo en 250 y el Bloqueo físico en 420 durante 10 seg.
 SKILL_DESC_91000615,[Colisión] Reduce la Resistencia al control de multitudes del objetivo en 250 y el Bloqueo físico en 500 durante 10 seg.
-SKILL_DESC_91000710,[Disparo rápido] Aumenta el Daño en un 50 % y aumenta el Daño físico que recibe en un 10 % durante 10 segundos.
+SKILL_DESC_91000710,[Disparo Rápido] incrementa el daño un {1}% y recupera {2} de mana al causar un golpe crítico.
 SKILL_DESC_91000711,[Disparo rápido] Aumenta el Daño en un 50 % y aumenta el Daño físico que recibe en un 12 % durante 10 segundos.
 SKILL_DESC_91000712,[Disparo rápido] Aumenta el Daño en un 50 % y aumenta el Daño físico que recibe en un 14 % durante 10 segundos.
 SKILL_DESC_91000713,[Disparo rápido] Aumenta el Daño en un 50 % y aumenta el Daño físico que recibe en un 17 % durante 10 segundos.
@@ -113,7 +113,7 @@ SKILL_DESC_91002012,[Penetración] Aumenta la Precisión en 750 y la Precisión 
 SKILL_DESC_91002013,[Penetración] Aumenta la Precisión en 750 y la Precisión de Control de multitudes en 520 mientras dura la habilidad.
 SKILL_DESC_91002014,[Penetración] Aumenta la Precisión en 750 y la Precisión de Control de multitudes en 630 mientras dura la habilidad.
 SKILL_DESC_91002015,[Penetración] Aumenta la Precisión en 750 y la Precisión de Control de multitudes en 750 mientras dura la habilidad.
-SKILL_DESC_91002110,[Vientos feroces] Aumenta el Daño en un 50 % y reduce la Evasión física del objetivo en 200 durante 10 segundos.
+SKILL_DESC_91002110,"[Vientos Feroces] incrementa el daño un 50%, y reduce el mana en {1} al causar un golpe crítico."
 SKILL_DESC_91002111,[Vientos feroces] Aumenta el Daño en un 50 % y reduce la Evasión física del objetivo en 240 durante 10 segundos.
 SKILL_DESC_91002112,[Vientos feroces] Aumenta el Daño en un 50 % y reduce la Evasión física del objetivo en 290 durante 10 segundos.
 SKILL_DESC_91002113,[Vientos feroces] Aumenta el Daño en un 50 % y reduce la Evasión física del objetivo en 350 durante 10 segundos.
@@ -197,12 +197,12 @@ SKILL_DESC_91003412,[Rayo de aniquilación] Reduce la Probabilidad de crítico d
 SKILL_DESC_91003413,[Rayo de aniquilación] Reduce la Probabilidad de crítico del objetivo en un 250 y el Mana del objetivo en 700 durante 10 seg.
 SKILL_DESC_91003414,[Rayo de aniquilación] Reduce la Probabilidad de crítico del objetivo en un 250 y el Mana del objetivo en 840 durante 10 seg.
 SKILL_DESC_91003415,[Rayo de aniquilación] Reduce la Probabilidad de crítico del objetivo en un 250 y el Mana del objetivo en 1000 durante 10 seg.
-SKILL_DESC_91003510,"[¡Explosión! ¡Explosión!] Aumenta el Daño en un 50 % y reduce el Tiempo de reutilización en un 0,8 %."
-SKILL_DESC_91003511,[¡Explosión! ¡Explosión!] Aumenta el Daño en un 50 % y reduce el Tiempo de reutilización en un 1 %.
-SKILL_DESC_91003512,"[¡Explosión! ¡Explosión!] Aumenta el Daño en un 50 % y reduce el Tiempo de reutilización en un 1,2 %."
-SKILL_DESC_91003513,"[¡Explosión! ¡Explosión!] Aumenta el Daño en un 50 % y reduce el Tiempo de reutilización en un 1,4 %."
-SKILL_DESC_91003514,"[¡Explosión! ¡Explosión!] Aumenta el Daño en un 50 % y reduce el Tiempo de reutilización en un 1,7 %."
-SKILL_DESC_91003515,[¡Explosión! ¡Explosión!] Aumenta el Daño en un 50 % y reduce el Tiempo de reutilización en un 2 %.
+SKILL_DESC_91003510,[¡Bang! ¡Bang!] Incrementa el daño un 50% y reduce el tiempo de reutilización en 0.8 segundos.
+SKILL_DESC_91003511,[¡Bang! ¡Bang!] Incrementa el daño un 50% y reduce el tiempo de reutilización en 1 segundo.
+SKILL_DESC_91003512,[¡Bang! ¡Bang!] Incrementa el daño un 50% y reduce el tiempo de reutilización en 1.2 segundos.
+SKILL_DESC_91003513,[¡Bang! ¡Bang!] Incrementa el daño un 50% y reduce el tiempo de reutilización en 1.4 segundos.
+SKILL_DESC_91003514,[¡Bang! ¡Bang!] Incrementa el daño un 50% y reduce el tiempo de reutilización en 1.7 segundos.
+SKILL_DESC_91003515,[¡Bang! ¡Bang!] Incrementa el daño un 50% y reduce el tiempo de reutilización en 2 segundos.
 SKILL_DESC_91003610,[Destrucción] Reduce el Ataque del objetivo en un 20 % y aumenta el Daño físico y el Daño mágico que recibe en un 5 % durante 10 segundos.
 SKILL_DESC_91003611,[Destrucción] Reduce el Ataque del objetivo en un 20 % y aumenta el Daño físico y el Daño mágico que recibe en un 6 % durante 10 segundos.
 SKILL_DESC_91003612,[Destrucción] Reduce el Ataque del objetivo en un 20 % y aumenta el Daño físico y el Daño mágico que recibe en un 7 % durante 10 segundos.
@@ -293,12 +293,12 @@ SKILL_DESC_91005112,[Espada del sol] Disipa todos los efectos positivos de enemi
 SKILL_DESC_91005113,[Espada del sol] Disipa todos los efectos positivos de enemigos al alcance y recupera Mana propio en 350 al atacar.
 SKILL_DESC_91005114,[Espada del sol] Disipa todos los efectos positivos de enemigos al alcance y recupera Mana propio en 420 al atacar.
 SKILL_DESC_91005115,[Espada del sol] Disipa todos los efectos positivos de enemigos al alcance y recupera Mana propio en 500 al atacar.
-SKILL_DESC_91005210,"[El objetivo será eliminado] Reduce el tiempo de reutilización en 3 segundos, y reduce el Mana del objetivo en 20 en cada ataque."
-SKILL_DESC_91005211,"[El objetivo será eliminado] Reduce el tiempo de reutilización en 3 segundos, y reduce el Mana del objetivo en 24 en cada ataque."
-SKILL_DESC_91005212,"[El objetivo será eliminado] Reduce el tiempo de reutilización en 3 segundos, y reduce el Mana del objetivo en 29 en cada ataque."
-SKILL_DESC_91005213,"[El objetivo será eliminado] Reduce el tiempo de reutilización en 3 segundos, y reduce el Mana del objetivo en 35 en cada ataque."
-SKILL_DESC_91005214,"[El objetivo será eliminado] Reduce el tiempo de reutilización en 3 segundos, y reduce el Mana del objetivo en 42 en cada ataque."
-SKILL_DESC_91005215,"[El objetivo será eliminado] Reduce el tiempo de reutilización en 3 segundos, y reduce el Mana del objetivo en 50 en cada ataque."
+SKILL_DESC_91005210,"[Eliminar Objetivo] Reduce el tiempo de reutilización en 3 segundos, y reduce el mana del objetivo en 20 en cada ataque."
+SKILL_DESC_91005211,"[Eliminar Objetivo] Reduce el tiempo de reutilización en 3 segundos, y reduce el mana del objetivo en 24 en cada ataque."
+SKILL_DESC_91005212,"[Eliminar Objetivo] Reduce el tiempo de reutilización en 3 segundos, y reduce el mana del objetivo en 29 en cada ataque."
+SKILL_DESC_91005213,"[Eliminar Objetivo] Reduce el tiempo de reutilización en 3 segundos, y reduce el mana del objetivo en 35 en cada ataque."
+SKILL_DESC_91005214,"[Eliminar Objetivo] Reduce el tiempo de reutilización en 3 segundos, y reduce el mana del objetivo en 42 en cada ataque."
+SKILL_DESC_91005215,"[Eliminar Objetivo] Reduce el tiempo de reutilización en 3 segundos, y reduce el mana del objetivo en 50 en cada ataque."
 SKILL_DESC_91005310,[Maldición de la petrificación] Aumenta el número de objetivos en un 1 y reduce la Evasión mágica del objetivo en 120 durante 10 seg.
 SKILL_DESC_91005311,[Maldición de la petrificación] Aumenta el número de objetivos en un 1 y reduce la Evasión mágica del objetivo en 140 durante 10 seg.
 SKILL_DESC_91005312,[Maldición de la petrificación] Aumenta el número de objetivos en un 1 y reduce la Evasión mágica del objetivo en 170 durante 10 seg.
@@ -504,7 +504,7 @@ SKILL_DESC_91000632,"[Encarnación de la Tierra] Al activarse la habilidad, la V
 SKILL_DESC_91000633,"[Encarnación de la Tierra] Al activarse la habilidad, la Veloc. de ATQ y la Oportunidad Crít. aumentan en 250, y la DEF en un 35%."
 SKILL_DESC_91000634,"[Encarnación de la Tierra] Al activarse la habilidad, la Veloc. de ATQ y la Oportunidad Crít. aumentan en 250, y la DEF en un 42%."
 SKILL_DESC_91000635,"[Encarnación de la Tierra] Al activarse la habilidad, la Veloc. de ATQ y la Oportunidad Crít. aumentan en 250, y la DEF en un 50%."
-SKILL_DESC_91000730,"[Bomba de Pegamento] El Daño aumenta en un 50%, y luego del Golpe Crít., el maná se recupera en 200"
+SKILL_DESC_91000730,"[Bomba de Pegamento] incrementa el daño un {1}%, y durante {2} segundos reduce la recuperación del objetivo que recibe daño un {3}%."
 SKILL_DESC_91000731,"[Bomba de Pegamento] El Daño aumenta en un 50%, y luego del Golpe Crít., el maná se recupera en 240"
 SKILL_DESC_91000732,"[Bomba de Pegamento] El Daño aumenta en un 50%, y luego del Golpe Crít., el maná se recupera en 290"
 SKILL_DESC_91000733,"[Bomba de Pegamento] El Daño aumenta en un 50%, y luego del Golpe Crít., el maná se recupera en 350"
@@ -582,7 +582,7 @@ SKILL_DESC_91002032,[Fortaleza de Acero] El costo de maná se reduce en 1 y la d
 SKILL_DESC_91002033,[Fortaleza de Acero] El costo de maná se reduce en 1 y la duración del Aturdimiento del ataque de asalto aumenta en 2.5 segundos.
 SKILL_DESC_91002034,[Fortaleza de Acero] El costo de maná se reduce en 1 y la duración del Aturdimiento del ataque de asalto aumenta en 3 segundos.
 SKILL_DESC_91002035,[Fortaleza de Acero] El costo de maná se reduce en 1 y la duración del Aturdimiento del ataque de asalto aumenta en 3.5 segundos.
-SKILL_DESC_91002130,[Bomba de Inmersión] El tiempo de reutilización de la habilidad se reduce en un 30% y el objetivo recibe un 10% de Daño Fís. adicional durante 10 segundos.
+SKILL_DESC_91002130,"[Bomba en Picada] reduce el consumo de mana en 1, e incrementa el daño un {1}%."
 SKILL_DESC_91002131,[Bomba de Inmersión] El tiempo de reutilización de la habilidad se reduce en un 30% y el objetivo recibe un 12% de Daño Fís. adicional durante 10 segundos.
 SKILL_DESC_91002132,[Bomba de Inmersión] El tiempo de reutilización de la habilidad se reduce en un 30% y el objetivo recibe un 14% de Daño Fís. adicional durante 10 segundos.
 SKILL_DESC_91002133,[Bomba de Inmersión] El tiempo de reutilización de la habilidad se reduce en un 30% y el objetivo recibe un 17% de Daño Fís. adicional durante 10 segundos.
@@ -666,12 +666,12 @@ SKILL_DESC_91003432,"[Proceso de Eliminación] El Daño aumenta en un 29% y lueg
 SKILL_DESC_91003433,"[Proceso de Eliminación] El Daño aumenta en un 35% y luego del ATQ, obtiene 2 pilas de Carga. Esta pila se puede obtener en estado de Sobrecarga."
 SKILL_DESC_91003434,"[Proceso de Eliminación] El Daño aumenta en un 42% y luego del ATQ, obtiene 2 pilas de Carga. Esta pila se puede obtener en estado de Sobrecarga."
 SKILL_DESC_91003435,"[Proceso de Eliminación] El Daño aumenta en un 50% y luego del ATQ, obtiene 2 pilas de Carga. Esta pila se puede obtener en estado de Sobrecarga."
-SKILL_DESC_91003530,"[Baila Conmigo!] El Daño aumenta en un 20% y en cada activación, el tiempo de reutilización de la habilidad se reduce en un 5%. Este efecto se puede acumular un máximo de 8 veces."
-SKILL_DESC_91003531,"[Baila Conmigo!] El Daño aumenta en un 24% y en cada activación, el tiempo de reutilización de la habilidad se reduce en un 5%. Este efecto se puede acumular un máximo de 8 veces."
-SKILL_DESC_91003532,"[Baila Conmigo!] El Daño aumenta en un 29% y en cada activación, el tiempo de reutilización de la habilidad se reduce en un 5%. Este efecto se puede acumular un máximo de 8 veces."
-SKILL_DESC_91003533,"[Baila Conmigo!] El Daño aumenta en un 35% y en cada activación, el tiempo de reutilización de la habilidad se reduce en un 5%. Este efecto se puede acumular un máximo de 8 veces."
-SKILL_DESC_91003534,"[Baila Conmigo!] El Daño aumenta en un 42% y en cada activación, el tiempo de reutilización de la habilidad se reduce en un 5%. Este efecto se puede acumular un máximo de 8 veces."
-SKILL_DESC_91003535,"[Baila Conmigo!] El Daño aumenta en un 50% y en cada activación, el tiempo de reutilización de la habilidad se reduce en un 5%. Este efecto se puede acumular un máximo de 8 veces."
+SKILL_DESC_91003530,[¡Baila Conmigo!] Incrementa el daño un 20% y con cada uso reduce el tiempo de reutilización de la habilidad un 5%. Este efecto puede ser acumulado un máximo de 8 veces.
+SKILL_DESC_91003531,[¡Baila Conmigo!] Incrementa el daño un 24% y con cada uso reduce el tiempo de reutilización de la habilidad un 5%. Este efecto puede ser acumulado un máximo de 8 veces.
+SKILL_DESC_91003532,[¡Baila Conmigo!] Incrementa el daño un 29% y con cada uso reduce el tiempo de reutilización de la habilidad un 5%. Este efecto puede ser acumulado un máximo de 8 veces.
+SKILL_DESC_91003533,[¡Baila Conmigo!] Incrementa el daño un 35% y con cada uso reduce el tiempo de reutilización de la habilidad un 5%. Este efecto puede ser acumulado un máximo de 8 veces.
+SKILL_DESC_91003534,[¡Baila Conmigo!] Incrementa el daño un 42% y con cada uso reduce el tiempo de reutilización de la habilidad un 5%. Este efecto puede ser acumulado un máximo de 8 veces.
+SKILL_DESC_91003535,[¡Baila Conmigo!] Incrementa el daño un 50% y con cada uso reduce el tiempo de reutilización de la habilidad un 5%. Este efecto puede ser acumulado un máximo de 8 veces.
 SKILL_DESC_91003630,"[Juicio Divino] Disipa los efectos positivos de los enemigos con un 75% de probabilidades, y reduce la Veloc. de ATQ del objetivo en 100 por 10 segundos."
 SKILL_DESC_91003631,"[Juicio Divino] Disipa los efectos positivos de los enemigos con un 75% de probabilidades, y reduce la Veloc. de ATQ del objetivo en 120 por 10 segundos."
 SKILL_DESC_91003632,"[Juicio Divino] Disipa los efectos positivos de los enemigos con un 75% de probabilidades, y reduce la Veloc. de ATQ del objetivo en 140 por 10 segundos."
@@ -714,12 +714,12 @@ SKILL_DESC_91004232,[Distorsión del Tiempo] El daño aumenta en un 29% y los ef
 SKILL_DESC_91004233,[Distorsión del Tiempo] El daño aumenta en un 35% y los efectos negativos de todos los aliados se disipan.
 SKILL_DESC_91004234,[Distorsión del Tiempo] El daño aumenta en un 42% y los efectos negativos de todos los aliados se disipan.
 SKILL_DESC_91004235,[Distorsión del Tiempo] El daño aumenta en un 50% y los efectos negativos de todos los aliados se disipan.
-SKILL_DESC_91004330,"[Te haré pedazos!] Obtiene inmunidad al Ctrl de Masas al activarse la habilidad y en cada uso, el Daño aumenta en un 4%. Este efecto se acumula un máximo de 10 veces."
-SKILL_DESC_91004331,"[Te haré pedazos!] Obtiene inmunidad al Ctrl de Masas al activarse la habilidad y en cada uso, el Daño aumenta en un 4.8%. Este efecto se acumula un máximo de 10 veces."
-SKILL_DESC_91004332,"[Te haré pedazos!] Obtiene inmunidad al Ctrl de Masas al activarse la habilidad y en cada uso, el Daño aumenta en un 5.8%. Este efecto se acumula un máximo de 10 veces."
-SKILL_DESC_91004333,"[Te haré pedazos!] Obtiene inmunidad al Ctrl de Masas al activarse la habilidad y en cada uso, el Daño aumenta en un 7%. Este efecto se acumula un máximo de 10 veces."
-SKILL_DESC_91004334,"[Te haré pedazos!] Obtiene inmunidad al Ctrl de Masas al activarse la habilidad y en cada uso, el Daño aumenta en un 8.4%. Este efecto se acumula un máximo de 10 veces."
-SKILL_DESC_91004335,"[Te haré pedazos!] Obtiene inmunidad al Ctrl de Masas al activarse la habilidad y en cada uso, el Daño aumenta en un 10%. Este efecto se acumula un máximo de 10 veces."
+SKILL_DESC_91004330,"[¡Te Haré Pedazos!] Otorga inmunidad a efectos de estado durante el uso de la habilidad, y con cada uso incrementa el daño un 4%. Este efecto puede ser acumulado un máximo de 10 veces."
+SKILL_DESC_91004331,"[¡Te Haré Pedazos!] Otorga inmunidad a efectos de estado durante el uso de la habilidad, y con cada uso incrementa el daño un 4.8%. Este efecto puede ser acumulado un máximo de 10 veces."
+SKILL_DESC_91004332,"[¡Te Haré Pedazos!] Otorga inmunidad a efectos de estado durante el uso de la habilidad, y con cada uso incrementa el daño un 5.8%. Este efecto puede ser acumulado un máximo de 10 veces."
+SKILL_DESC_91004333,"[¡Te Haré Pedazos!] Otorga inmunidad a efectos de estado durante el uso de la habilidad, y con cada uso incrementa el daño un 7%. Este efecto puede ser acumulado un máximo de 10 veces."
+SKILL_DESC_91004334,"[¡Te Haré Pedazos!] Otorga inmunidad a efectos de estado durante el uso de la habilidad, y con cada uso incrementa el daño un 8.4%. Este efecto puede ser acumulado un máximo de 10 veces."
+SKILL_DESC_91004335,"[¡Te Haré Pedazos!] Otorga inmunidad a efectos de estado durante el uso de la habilidad, y con cada uso incrementa el daño un 10%. Este efecto puede ser acumulado un máximo de 10 veces."
 SKILL_DESC_91004430,[Danza Turbulenta] El Daño aumenta en un 20% y Aturde al objetivo durante 3 segundos.
 SKILL_DESC_91004431,[Danza Turbulenta] El Daño aumenta en un 24% y Aturde al objetivo durante 3 segundos.
 SKILL_DESC_91004432,[Danza Turbulenta] El Daño aumenta en un 29% y Aturde al objetivo durante 3 segundos.
@@ -1027,12 +1027,12 @@ SKILL_DESC_91001622,[Salvación] Incrementa el Aumento de Defensa mágica en un 
 SKILL_DESC_91001623,[Salvación] Incrementa el Aumento de Defensa mágica en un 50 % y reduce el Tiempo de reutilización en un 21 %.
 SKILL_DESC_91001624,[Salvación] Incrementa el Aumento de Defensa mágica en un 50 % y reduce el Tiempo de reutilización en un 25 %.
 SKILL_DESC_91001625,[Salvación] Incrementa el Aumento de Defensa mágica en un 50 % y reduce el Tiempo de reutilización en un 30 %.
-SKILL_DESC_91001720,[Grillete negro] Aumenta el Daño en un 50 % y aumenta la Debilidad mágica del objetivo en un 10 % durante 10 segundos.
-SKILL_DESC_91001721,[Grillete negro] Aumenta el Daño en un 50 % y aumenta la Debilidad mágica del objetivo en un 12 % durante 10 segundos.
-SKILL_DESC_91001722,[Grillete negro] Aumenta el Daño en un 50 % y aumenta la Debilidad mágica del objetivo en un 14 % durante 10 segundos.
-SKILL_DESC_91001723,[Grillete negro] Aumenta el Daño en un 50 % y aumenta la Debilidad mágica del objetivo en un 17 % durante 10 segundos.
-SKILL_DESC_91001724,[Grillete negro] Aumenta el Daño en un 50 % y aumenta la Debilidad mágica del objetivo en un 21 % durante 10 segundos.
-SKILL_DESC_91001725,[Grillete negro] Aumenta el Daño en un 50 % y aumenta la Debilidad mágica del objetivo en un 25 % durante 10 segundos.
+SKILL_DESC_91001720,[Cadenas Negras] Incrementa el daño en un 50% y durante 10 segundos incrementa el daño mágico recibido por el objetivo un 10%.
+SKILL_DESC_91001721,[Cadenas Negras] Incrementa el daño en un 50% y durante 10 segundos incrementa el daño mágico recibido por el objetivo un 12%.
+SKILL_DESC_91001722,[Cadenas Negras] Incrementa el daño en un 50% y durante 10 segundos incrementa el daño mágico recibido por el objetivo un 14%.
+SKILL_DESC_91001723,[Cadenas Negras] Incrementa el daño en un 50% y durante 10 segundos incrementa el daño mágico recibido por el objetivo un 17%.
+SKILL_DESC_91001724,[Cadenas Negras] Incrementa el daño en un 50% y durante 10 segundos incrementa el daño mágico recibido por el objetivo un 21%.
+SKILL_DESC_91001725,[Cadenas Negras] Incrementa el daño en un 50% y durante 10 segundos incrementa el daño mágico recibido por el objetivo un 25%.
 SKILL_DESC_91001820,[Extremo filoso] Incrementa el Aumento del ataque en un 50 % y recupera 40 PM adicionales ante un Golpe crítico mientras dura la habilidad.
 SKILL_DESC_91001821,[Extremo filoso] Incrementa el Aumento del ataque en un 50 % y recupera 48 PM adicionales ante un Golpe crítico mientras dura la habilidad.
 SKILL_DESC_91001822,[Extremo filoso] Incrementa el Aumento del ataque en un 50 % y recupera 58 PM adicionales ante un Golpe crítico mientras dura la habilidad.
@@ -1051,7 +1051,7 @@ SKILL_DESC_91002022,[Voluntad para ganar] Aumenta el Daño en un 50 % y aumenta
 SKILL_DESC_91002023,[Voluntad para ganar] Aumenta el Daño en un 50 % y aumenta la Debilidad física del objetivo en un 17 % durante 10 segundos.
 SKILL_DESC_91002024,[Voluntad para ganar] Aumenta el Daño en un 50 % y aumenta la Debilidad física del objetivo en un 21 % durante 10 segundos.
 SKILL_DESC_91002025,[Voluntad para ganar] Aumenta el Daño en un 50 % y aumenta la Debilidad física del objetivo en un 25 % durante 10 segundos.
-SKILL_DESC_91002120,[Lectura del viento] Incrementa el Aumento del ataque en un 50 % y la Evasión mágica en 100.
+SKILL_DESC_91002120,"[Lectura del Viento] hace que todos los efectos no puedan ser disipados, y otorga recuperación de salud equivalente al {1}% de tu salud máxima."
 SKILL_DESC_91002121,[Lectura del viento] Incrementa el Aumento del ataque en un 50 % y la Evasión mágica en 120.
 SKILL_DESC_91002122,[Lectura del viento] Incrementa el Aumento del ataque en un 50 % y la Evasión mágica en 140.
 SKILL_DESC_91002123,[Lectura del viento] Incrementa el Aumento del ataque en un 50 % y la Evasión mágica en 170.
@@ -1183,12 +1183,12 @@ SKILL_DESC_91004222,[Fragmentos temporales] Tiene un 25 % de probabilidades de 
 SKILL_DESC_91004223,[Fragmentos temporales] Tiene un 25 % de probabilidades de restablecer el Tiempo de reutilización y aumenta el Daño en un 35 %.
 SKILL_DESC_91004224,[Fragmentos temporales] Tiene un 25 % de probabilidades de restablecer el Tiempo de reutilización y aumenta el Daño en un 42 %.
 SKILL_DESC_91004225,[Fragmentos temporales] Tiene un 25 % de probabilidades de restablecer el Tiempo de reutilización y aumenta el Daño en un 50 %.
-SKILL_DESC_91004320,[¡Te cortaré en pedacitos!] Reduce el Tiempo de reutilización en un 30 % y agrega un 8 % de reducción de Defensa mágica.
-SKILL_DESC_91004321,[¡Te cortaré en pedacitos!] Reduce el Tiempo de reutilización en un 30 % y agrega un 10 % de reducción de Defensa mágica.
-SKILL_DESC_91004322,[¡Te cortaré en pedacitos!] Reduce el Tiempo de reutilización en un 30 % y agrega un 12 % de reducción de Defensa mágica.
-SKILL_DESC_91004323,[¡Te cortaré en pedacitos!] Reduce el Tiempo de reutilización en un 30 % y agrega un 14 % de reducción de Defensa mágica.
-SKILL_DESC_91004324,[¡Te cortaré en pedacitos!] Reduce el Tiempo de reutilización en un 30 % y agrega un 17 % de reducción de Defensa mágica.
-SKILL_DESC_91004325,[¡Te cortaré en pedacitos!] Reduce el Tiempo de reutilización en un 30 % y agrega un 20 % de reducción de Defensa mágica.
+SKILL_DESC_91004320,[¡Te Cortaré!] Reduce el tiempo de reutilización un 30% y agrega un 8% de reducción de defensa mágica.
+SKILL_DESC_91004321,[¡Te Cortaré!] Reduce el tiempo de reutilización un 30% y agrega un 10% de reducción de defensa mágica.
+SKILL_DESC_91004322,[¡Te Cortaré!] Reduce el tiempo de reutilización un 30% y agrega un 12% de reducción de defensa mágica.
+SKILL_DESC_91004323,[¡Te Cortaré!] Reduce el tiempo de reutilización un 30% y agrega un 14% de reducción de defensa mágica.
+SKILL_DESC_91004324,[¡Te Cortaré!] Reduce el tiempo de reutilización un 30% y agrega un 17% de reducción de defensa mágica.
+SKILL_DESC_91004325,[¡Te Cortaré!] Reduce el tiempo de reutilización un 30% y agrega un 20% de reducción de defensa mágica.
 SKILL_DESC_91004420,[Coordinación] Incrementa el Aumento del ataque en un 20 % y reduce el tiempo de reutilización del héroe con el Ataque más alto en un 30 %.
 SKILL_DESC_91004421,[Coordinación] Incrementa el Aumento del ataque en un 24 % y reduce el tiempo de reutilización del héroe con el Ataque más alto en un 30 %.
 SKILL_DESC_91004422,[Coordinación] Incrementa el Aumento del ataque en un 29 % y reduce el tiempo de reutilización del héroe con el Ataque más alto en un 30 %.
@@ -1231,12 +1231,12 @@ SKILL_DESC_91005122,[Bendición del sol] Reduce el Costo de Mana en 1 y el objet
 SKILL_DESC_91005123,[Bendición del sol] Reduce el Costo de Mana en 1 y el objetivo recibe 17 % de Daño físico reducido durante 10 segundos.
 SKILL_DESC_91005124,[Bendición del sol] Reduce el Costo de Mana en 1 y el objetivo recibe 21 % de Daño físico reducido durante 10 segundos.
 SKILL_DESC_91005125,[Bendición del sol] Reduce el Costo de Mana en 1 y el objetivo recibe 25 % de Daño físico reducido durante 10 segundos.
-SKILL_DESC_91005220,[Luchar no tiene sentido] Reduce el Costo de Mana en 1 y tiene un 10 % de posibilidades de congelar el objetivo durante 3 segundos al momento de cada golpe.
-SKILL_DESC_91005221,[Luchar no tiene sentido] Reduce el Costo de Mana en 1 y tiene un 12 % de posibilidades de congelar el objetivo durante 3 segundos al momento de cada golpe.
-SKILL_DESC_91005222,[Luchar no tiene sentido] Reduce el Costo de Mana en 1 y tiene un 14 % de posibilidades de congelar el objetivo durante 3 segundos al momento de cada golpe.
-SKILL_DESC_91005223,[Luchar no tiene sentido] Reduce el Costo de Mana en 1 y tiene un 17 % de posibilidades de congelar el objetivo durante 3 segundos al momento de cada golpe.
-SKILL_DESC_91005224,[Luchar no tiene sentido] Reduce el Costo de Mana en 1 y tiene un 21 % de posibilidades de congelar el objetivo durante 3 segundos al momento de cada golpe.
-SKILL_DESC_91005225,[Luchar no tiene sentido] Reduce el Costo de Mana en 1 y tiene un 25 % de posibilidades de congelar el objetivo durante 3 segundos al momento de cada golpe.
+SKILL_DESC_91005220,[Luchar No Tiene Sentido] Reduce el consumo de mana en 1 y con cada ataque tiene una probabilidad del 10% de congelar al enemigo durante 3 segundos.
+SKILL_DESC_91005221,[Luchar No Tiene Sentido] Reduce el consumo de mana en 1 y con cada ataque tiene una probabilidad del 12% de congelar al enemigo durante 3 segundos.
+SKILL_DESC_91005222,[Luchar No Tiene Sentido] Reduce el consumo de mana en 1 y con cada ataque tiene una probabilidad del 14% de congelar al enemigo durante 3 segundos.
+SKILL_DESC_91005223,[Luchar No Tiene Sentido] Reduce el consumo de mana en 1 y con cada ataque tiene una probabilidad del 17% de congelar al enemigo durante 3 segundos.
+SKILL_DESC_91005224,[Luchar No Tiene Sentido] Reduce el consumo de mana en 1 y con cada ataque tiene una probabilidad del 21% de congelar al enemigo durante 3 segundos.
+SKILL_DESC_91005225,[Luchar No Tiene Sentido] Reduce el consumo de mana en 1 y con cada ataque tiene una probabilidad del 25% de congelar al enemigo durante 3 segundos.
 SKILL_DESC_91005320,"[Maldición del tiempo] Aumenta adicionalmente el Tiempo de reutilización en 0,7 segundo y reduce la Defensa mágica del objetivo en un 10 % durante 10 segundos."
 SKILL_DESC_91005321,"[Maldición del tiempo] Aumenta adicionalmente el Tiempo de reutilización en 0,7 segundo y reduce la Defensa mágica del objetivo en un 12 % durante 10 segundos."
 SKILL_DESC_91005322,"[Maldición del tiempo] Aumenta adicionalmente el Tiempo de reutilización en 0,7 segundo y reduce la Defensa mágica del objetivo en un 14 % durante 10 segundos."
@@ -1520,7 +1520,7 @@ SKILL_DESC_91002042,[Punta de lanza] Incrementa el amplificador de Defensa en un
 SKILL_DESC_91002043,[Punta de lanza] Incrementa el amplificador de Defensa en un 50 %. La Resistencia al golpe crítico físico de todos los aliados se incrementa en 170.
 SKILL_DESC_91002044,[Punta de lanza] Incrementa el amplificador de Defensa en un 50 %. La Resistencia al golpe crítico físico de todos los aliados se incrementa en 210.
 SKILL_DESC_91002045,[Punta de lanza] Incrementa el amplificador de Defensa en un 50 %. La Resistencia al golpe crítico físico de todos los aliados se incrementa en 250.
-SKILL_DESC_91002140,[Golpe de tornado] Disminuye el Bloqueo físico del objetivo en 500 y la Evasión física en 200 durante 10 segundos.
+SKILL_DESC_91002140,[Golpe de Tornado] incrementa la probabilidad de daño adicional un {1}% y al ser utilizado en la Arena del Clan causa al objetivo un daño físico adicional equivalente al {2}% de su salud máxima.
 SKILL_DESC_91002141,[Golpe de tornado] Disminuye el Bloqueo físico del objetivo en 500 y la Evasión física en 240 durante 10 segundos.
 SKILL_DESC_91002142,[Golpe de tornado] Disminuye el Bloqueo físico del objetivo en 500 y la Evasión física en 290 durante 10 segundos.
 SKILL_DESC_91002143,[Golpe de tornado] Disminuye el Bloqueo físico del objetivo en 500 y la Evasión física en 350 durante 10 segundos.

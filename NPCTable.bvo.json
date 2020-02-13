@@ -1395,6 +1395,56 @@
     "MenuTitleKey": "NODE_PRESENT_DUNGEON_NAME"
   },
   {
+    "Code": "Square_Valentine_2020",
+    "OnOpenEntryMenu": [
+      "NPC_ANNETTE_WELCOME01",
+      " Voice.Hero.Annette.Aff1",
+      " InnReaction",
+      " \nNPC_ANNETTE_WELCOME02",
+      " Voice.Hero.Annette.Aff2",
+      " InnReaction"
+    ],
+    "OnTouch": [
+      "NPC_ANNETTE_TOUCH01",
+      " Voice.Hero.Annette.Happy1",
+      " InnReaction",
+      " \nNPC_ANNETTE_TOUCH02",
+      " Voice.Hero.Annette.Happy2",
+      " InnReaction"
+    ],
+    "EntryMenuButton1": [
+      "EVENT_DUNGEON_20VALENTINE",
+      "OpenEventDungeonSelect",
+      "True",
+      "30034",
+      "1",
+      "2"
+    ],
+    "EntryMenuCondition1": "EventExist,EventDungeon,30034",
+    "EntryMenuButton2": [
+      "EVENT_SHOP_20VALENTINE",
+      "OpenShop",
+      "2020_Valentine_Shop"
+    ],
+    "EntryMenuCondition2": "EventExist,EventShop,2020_Valentine_Shop",
+    "EntryMenuButton3": [
+      "EVENT_INFO_20VALENTINE",
+      "OpenHelp",
+      "EVENT_NAME_20VALENTINE",
+      "EVENT_DESC_20VALENTINE"
+    ],
+    "EntryMenuCondition3": "EventExist,EventShop,2020_Valentine_Shop",
+    "CreatureIndex": 830,
+    "NpcOffset": [
+      "-80",
+      "50"
+    ],
+    "NpcAngle": -50,
+    "NpcScale": 120,
+    "MenuIconType": "Event_2020Valentine_Button",
+    "MenuTitleKey": "SQUARE_NAME_NORMAL_SUB"
+  },
+  {
     "Code": "NormalShop",
     "HeroIndex": 90,
     "ShowHeroBuffIcon": "True",
@@ -3285,13 +3335,153 @@
     "NpcScale": 50
   },
   {
+    "Code": "SubStoryMirror01",
+    "CreatureIndex": 50069,
+    "NpcOffset": [
+      "120",
+      "100"
+    ],
+    "NpcAngle": -120,
+    "NpcScale": 70
+  },
+  {
+    "Code": "SubStoryMirror02",
+    "CreatureIndex": 50069,
+    "NpcOffset": [
+      "-120",
+      "80"
+    ],
+    "NpcAngle": -40,
+    "NpcScale": 70
+  },
+  {
+    "Code": "SubStoryMirror03",
+    "CreatureIndex": 50069,
+    "NpcOffset": [
+      "-120",
+      "80"
+    ],
+    "NpcAngle": -40,
+    "NpcScale": 70
+  },
+  {
+    "Code": "SubStoryMirror04",
+    "CreatureIndex": 50069,
+    "NpcOffset": [
+      "-130",
+      "120"
+    ],
+    "NpcAngle": -40,
+    "NpcScale": 70
+  },
+  {
+    "Code": "SubStoryMirror05",
+    "CreatureIndex": 50069,
+    "NpcOffset": [
+      "-120",
+      "80"
+    ],
+    "NpcAngle": -40,
+    "NpcScale": 70
+  },
+  {
+    "Code": "SubStoryMirror06",
+    "CreatureIndex": 50069,
+    "NpcOffset": [
+      "120",
+      "130"
+    ],
+    "NpcAngle": -120,
+    "NpcScale": 100
+  },
+  {
+    "Code": "SubStoryMirror07",
+    "CreatureIndex": 50069,
+    "NpcOffset": [
+      "120",
+      "120"
+    ],
+    "NpcAngle": -120,
+    "NpcScale": 70
+  },
+  {
+    "Code": "SubStory01",
+    "CreatureIndex": 50073,
+    "NpcOffset": [
+      "-170",
+      "-20"
+    ],
+    "NpcAngle": -60,
+    "NpcScale": 100
+  },
+  {
+    "Code": "SubStory02",
+    "CreatureIndex": 50071,
+    "NpcOffset": [
+      "160",
+      "-20"
+    ],
+    "NpcAngle": 160,
+    "NpcScale": 100
+  },
+  {
+    "Code": "SubStory03",
+    "CreatureIndex": 50062,
+    "NpcOffset": [
+      "160",
+      "-20"
+    ],
+    "NpcAngle": -120,
+    "NpcScale": 100
+  },
+  {
+    "Code": "SubStory04",
+    "CreatureIndex": 50036,
+    "NpcOffset": [
+      "120",
+      "-65"
+    ],
+    "NpcAngle": 160,
+    "NpcScale": 100
+  },
+  {
+    "Code": "SubStory05",
+    "CreatureIndex": 50070,
+    "NpcOffset": [
+      "170",
+      "0"
+    ],
+    "NpcAngle": -160,
+    "NpcScale": 100
+  },
+  {
+    "Code": "SubStory06",
+    "CreatureIndex": 50061,
+    "NpcOffset": [
+      "-170",
+      "30"
+    ],
+    "NpcAngle": 30,
+    "NpcScale": 120
+  },
+  {
+    "Code": "SubStory07",
+    "CreatureIndex": 50072,
+    "NpcOffset": [
+      "-170",
+      "0"
+    ],
+    "NpcAngle": -25,
+    "NpcScale": 100
+  },
+  {
     "Code": "SubStoryBoss01",
     "CreatureIndex": 4301,
     "NpcOffset": [
-      "-200",
+      "-170",
       "0"
     ],
-    "NpcAngle": 40,
+    "NpcAngle": -60,
     "NpcScale": 60
   },
   {
@@ -3492,6 +3682,37 @@
     "NpcScale": 120
   },
   {
+    "Code": "SubStoryBoss21",
+    "CreatureIndex": 50063,
+    "NpcOffset": [
+      "-130",
+      "70"
+    ],
+    "NpcAngle": -135,
+    "NpcScale": 85
+  },
+  {
+    "Code": "SubStoryBoss22",
+    "CreatureIndex": 17001,
+    "NpcOffset": [
+      "60",
+      "100"
+    ],
+    "NpcAngle": -135,
+    "NpcScale": 95
+  },
+  {
+    "Code": "SubStoryBoss23",
+    "CreatureIndex": 50067,
+    "CreatureStar": 5,
+    "NpcOffset": [
+      "110",
+      "-40"
+    ],
+    "NpcAngle": -190,
+    "NpcScale": 87
+  },
+  {
     "Code": "SubStoryHero01",
     "CreatureIndex": 50061,
     "NpcOffset": [
@@ -3556,6 +3777,61 @@
     "NpcScale": 120
   },
   {
+    "Code": "SubStoryHero07",
+    "CreatureIndex": 49,
+    "CreatureStar": 4,
+    "NpcOffset": [
+      "-160",
+      "0"
+    ],
+    "NpcAngle": -60,
+    "NpcScale": 120
+  },
+  {
+    "Code": "SubStoryHero08",
+    "CreatureIndex": 27,
+    "CreatureStar": 3,
+    "NpcOffset": [
+      "-100",
+      "0"
+    ],
+    "NpcAngle": -60,
+    "NpcScale": 90
+  },
+  {
+    "Code": "SubStoryHero09",
+    "CreatureIndex": 66,
+    "CreatureStar": 4,
+    "NpcOffset": [
+      "-110",
+      "0"
+    ],
+    "NpcAngle": -20,
+    "NpcScale": 85
+  },
+  {
+    "Code": "SubStoryHero10",
+    "CreatureIndex": 62,
+    "CreatureStar": 5,
+    "NpcOffset": [
+      "0",
+      "80"
+    ],
+    "NpcAngle": -90,
+    "NpcScale": 90
+  },
+  {
+    "Code": "SubStoryHero11",
+    "CreatureIndex": 35,
+    "CreatureStar": 4,
+    "NpcOffset": [
+      "0",
+      "80"
+    ],
+    "NpcAngle": -90,
+    "NpcScale": 80
+  },
+  {
     "Code": "SubStoryNPC01",
     "CreatureIndex": 50060,
     "NpcOffset": [
@@ -3594,6 +3870,36 @@
     ],
     "NpcAngle": -135,
     "NpcScale": 300
+  },
+  {
+    "Code": "SubStoryNPC05",
+    "CreatureIndex": 50064,
+    "NpcOffset": [
+      "-20",
+      "150"
+    ],
+    "NpcAngle": -75,
+    "NpcScale": 800
+  },
+  {
+    "Code": "SubStoryNPC06",
+    "CreatureIndex": 50065,
+    "NpcOffset": [
+      "-90",
+      "100"
+    ],
+    "NpcAngle": -45,
+    "NpcScale": 800
+  },
+  {
+    "Code": "SubStoryNPC07",
+    "CreatureIndex": 50066,
+    "NpcOffset": [
+      "100",
+      "100"
+    ],
+    "NpcAngle": -135,
+    "NpcScale": 800
   },
   {
     "Code": "GuildSuppress",

@@ -635,7 +635,7 @@
       "150"
     ],
     "OperationDurationMs3": 99999999,
-    "OperationType4": "ModPhysicalDodgeChance",
+    "OperationType4": "ModCriticalChance",
     "OperationTargetType4": "Myself",
     "OperationValue4": [
       "100"
@@ -2913,32 +2913,31 @@
   },
   {
     "Index": 60000751,
-    "TriggerType": "OnCriticalSkill",
+    "TriggerType": "OnState",
     "TriggerValue": [
-      "None",
-      "None",
-      "Dot"
+      "0",
+      "745"
     ],
     "TriggerRatio": 1000,
     "AttrType": "Physical",
-    "TargetType": "TriggerTarget",
+    "TargetType": "Myself",
     "TargetCount": 1,
     "DeadTarget": "False",
     "IgnoreBlock": "TRUE",
     "RetargetOnFire": "FALSE",
-    "OperationType1": "ModCriticalPower",
+    "OperationType1": "ModAttackSpeedR",
     "OperationTargetType1": "Myself",
     "OperationValue1": [
-      "50"
+      "300"
     ],
     "OperationState1": 60000751,
     "OperationDurationMs1": 10000,
     "OperationType2": "ModHitCcChance",
     "OperationTargetType2": "Myself",
     "OperationValue2": [
-      "30"
+      "300"
     ],
-    "OperationState2": "Positive10",
+    "OperationState2": "60000751_2",
     "OperationDurationMs2": 10000
   },
   {
@@ -3407,9 +3406,13 @@
   },
   {
     "Index": 60002151,
-    "TriggerType": "OnDodge",
+    "TriggerType": "OnCriticalSkill",
+    "TriggerValue": [
+      "None",
+      "None",
+      "Dot"
+    ],
     "TriggerRatio": 1000,
-    "CoolTimeMs": 100,
     "AttrType": "None",
     "IgnoreStateType": [
       "CC"
@@ -3425,40 +3428,14 @@
       "30"
     ],
     "OperationState1": 60002151,
-    "OperationAddStateCount1": 1,
     "OperationDurationMs1": 10000,
-    "OperationType2": "ModAttackSpeedR",
+    "OperationType2": "ModPhysicalDodgeChance",
     "OperationTargetType2": "Myself",
     "OperationValue2": [
       "30"
     ],
     "OperationState2": "60002151_1",
-    "OperationAddStateCount2": 1,
-    "OperationDurationMs2": 10000,
-    "OperationType3": "ModNextCooltimeR",
-    "OperationTargetType3": "Myself",
-    "OperationValue3": [
-      "2110",
-      "-20",
-      "1",
-      "False"
-    ],
-    "OperationType4": "ModNextCooltimeR",
-    "OperationTargetType4": "Myself",
-    "OperationValue4": [
-      "2120",
-      "-20",
-      "1",
-      "False"
-    ],
-    "OperationType5": "ModNextCooltimeR",
-    "OperationTargetType5": "Myself",
-    "OperationValue5": [
-      "2130",
-      "-20",
-      "1",
-      "False"
-    ]
+    "OperationDurationMs2": 10000
   },
   {
     "Index": 60002251,
@@ -3716,7 +3693,7 @@
   },
   {
     "Index": 60002951,
-    "TriggerType": "OnWaveStart",
+    "TriggerType": "OnStart",
     "TriggerRatio": 1000,
     "AttrType": "Magical",
     "TargetType": "Myself",
@@ -3732,8 +3709,7 @@
       "-300",
       "True"
     ],
-    "OperationState1": 60002951,
-    "OperationDurationMs1": 20000
+    "OperationDurationMs1": 999999
   },
   {
     "Index": 60003051,
@@ -5449,25 +5425,31 @@
   },
   {
     "Index": 60007151,
-    "TriggerType": "OnAttack",
-    "TriggerValue": [
-      "7100;7101;7102;7110;7120;7124;7130",
-      "None",
-      "Dot"
-    ],
+    "TriggerType": "OnStart",
     "TriggerRatio": 1000,
     "TargetType": "Myself",
     "TargetCount": 1,
     "DeadTarget": "False",
     "IgnoreBlock": "TRUE",
     "RetargetOnFire": "FALSE",
-    "OperationType1": "ModAttackSpeedR",
+    "OperationType1": "ModCriticalPower",
     "OperationTargetType1": "Myself",
     "OperationValue1": [
-      "5"
+      "400"
     ],
-    "OperationState1": 60007151,
-    "OperationDurationMs1": 9999999
+    "OperationDurationMs1": 9999999,
+    "OperationType2": "ModPiercePower",
+    "OperationTargetType2": "Myself",
+    "OperationValue2": [
+      "150"
+    ],
+    "OperationDurationMs2": 9999999,
+    "OperationType3": "EnablePassiveSkill",
+    "OperationTargetType3": "Myself",
+    "OperationValue3": [
+      "7146",
+      "True"
+    ]
   },
   {
     "Index": 60009751,

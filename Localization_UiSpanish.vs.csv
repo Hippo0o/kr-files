@@ -1331,8 +1331,8 @@ COUPON_INPUT_MESSAGE,Ingresa el numero del cupon
 COUPON_NOTICE_MESSAGE,※ Cupón Duplicado. No se puede utilizar.\n※ Las Recompensas se envían a tu correo y se mantendrán durante 3 días.
 PROMOTION.USE_COUPON_SUCCESS,Por favor verifica tu correo por los cupones
 PLAYPOINT_REWARD_TITLE,Google Play Points
-PLAYPOINT_REWARD_CONTENT,Do you want to receive Google Play Points reward?
-PLAYPOINT_REWARD_WARNING,You will receive the reward in your Inventory
+PLAYPOINT_REWARD_CONTENT,¿Recibir recompensa de rubíes de Google Play Points?
+PLAYPOINT_REWARD_WARNING,Los rubíes emitidos serán adquiridos inmediatamente.
 GUEST_LOGIN_MESSAGE,Conectado como Invitado
 NICK_NAME_CHANGE_DESC,Solo el primer cambio de nombre de usuario es gratuito.
 NICK_NAME_CHANGE_MESSAGE,No tienes Boletos de cambio de nombre de usuario.
@@ -1864,7 +1864,7 @@ NOTY_FRIEND_ADD_FAIL_REQUEST_FULL,La lista de solicitudes de amistad de {1} est�
 COMMON_FREE_RUBY,Gratis
 COMMON_PAID_BUY,Pagado
 8CHAPTER_SPECIAL_ATTENDANCE,Recompensas de Inicio de sesion
-CHAPTER8_ATTENDANCE_INFO,"Los Boletos de arma única aleatoria no incluyen las armas de los héroes PNJ. \nEl Libro de registros vence después del mantenimiento de la segunda semana de julio, y no se pueden obtener las recompensas restantes."
+CHAPTER8_ATTENDANCE_INFO,"Los cupones de arma única aleatoria no incluyen las armas de los héroes NPC. \nEl Libro de registros vence después del mantenimiento de la segunda semana de julio, y no se pueden obtener las recompensas restantes."
 RECALL_EXPAND_ITEM_SURE,El consumo de Rubíes aumenta a {2} desde la casilla {1} y superiores.
 RECOMMENDOPTION_TITLE,Opción recomendada
 ATTACKOPTION_TITLE,[Opción de ataque recomendada]
@@ -2293,7 +2293,7 @@ WORLDBOSS_INFO_PLAY_REWARD_DESC,Todos los usuarios que participan en la pelea de
 WORLDBOSS_INFO_RANKING_REWARD_TITLE,Recompensa de Clasificacion
 WORLDBOSS_INFO_RANKING_REWARD_DESC,"Las Recompensas de Rango se distribuyen cuando muere el Jefe del Mundo, o si el tiempo llega hasta el domingo 00:00.\nLas clasificaciones se calculan en base al Daño Total causado de lunes a sábado."
 WORLDBOSS_INFO_KILL_REWARD_TITLE,Recompensa de Ultimo Impacto
-WORLDBOSS_INFO_KILL_REWARD_DESC,Esta recompensa se da sólo al Cazador del Jefe del Mundo.\nEsta recompensa incluye 1000 rubíes y un Cupón de Armas Único Aleatorio.
+WORLDBOSS_INFO_KILL_REWARD_DESC,Esta recompensa se da sólo al Cazador del Jefe del Mundo.\nEsta recompensa incluye 1000 rubíes y un Cupón de Arma Única Aleatoria.
 WORLDBOSS_KILL_REWARD_DESC,"¡Felicitaciones! Has derrotado al Jefe del Mundo.\n Esta recompensa es solo para ti, el Cazador del Jefe del Mundo.\nLa recompensa será enviada a tu correo."
 WORLDBOSS_SCORE_RANK_TITLE,Clasificacion del Jefe del Mundo
 WORLD_BOSS.WORLDBOSS_MY_RANKING,(Rango {1})
@@ -2356,7 +2356,7 @@ PAYSHOP_VERONICA_BUY_TEXT,"En un lapso de 14 días, podras adquirir artículos p
 ATTENDANCE_7_DATE,  
 ATTENDANCE_REST_MESSAGE,Todos los regalos deben ser recibidos dentro de 14 días.
 MAY_DONT_MISS,¡No te pierdas estas dos semanas de beneficios especiales!
-MAY_HERO_SELECT_ITEM_DESC,"※ Boleto de héroe de 3 estrellas: Selecciona hasta a Requina, Ezekiel y Ophelia\n(hasta héroes lanzados en febrero de 2018 o anteriores)\n※ Boleto de arma única aleatoria: obtén un arma única de cualquier héroe (héroes PNJ no incluidos)."
+MAY_HERO_SELECT_ITEM_DESC,"※ Boleto de héroe de 3 estrellas: Selecciona hasta a Requina, Ezekiel y Ophelia\n(hasta héroes lanzados en febrero de 2018 o anteriores)\n※ Cupón de Arma Única Aleatoria: obtén un arma única de cualquier héroe (héroes NPC no incluidos)."
 INVENTORY.INVENTORY_ENOUGH_CRAFT_MSG,Deseas ir a la Etiqueta de Elaboracion?
 INVENTORY.INVENTORY_NOT_ENOUGH_CRAFT_MSG,No hay suficientes Fragmentos para elaborar.\nDeseas ir a la Etiqueta de Elaboracion de todos modos?
 INVENTORY.INVENTORY_CRAFT_MOVE_MSG,Ir a la Etiqueta de Elaboracion
@@ -2802,8 +2802,8 @@ TOOLTIP_INFO_NAME_UNDERGROUNDLABYRINTHKEY,Llave de la Boveda Real
 TOOLTIP_INFO_NAME_HIDEOUTKEY,Llave del Calabozo Superior
 TOOLTIP_INFO_NAME_CHALLENGETOWERKEY,Cubo del Desafío
 TOOLTIP_INFO_NAME_EVENTDUNGEONTICKET,Lazos del Destino
-TOOLTIP_INFO_NAME_EVENTDUNGEONPOINT,Boletos de Sorteo
-TOOLTIP_INFO_NAME_EVENTDUNGEONPOINT2,Globos del Festival
+TOOLTIP_INFO_NAME_EVENTDUNGEONPOINT,Boleto de Intercambio de Productos
+TOOLTIP_INFO_NAME_EVENTDUNGEONPOINT2,Bola de Chocolate
 TOOLTIP_INFO_NAME_EVENTDUNGEONTICKET_BACKUP,Llave del Calabozo de Halloween
 TOOLTIP_INFO_NAME_EVENTDUNGEONPOINT_BACKUP,Punto de Halloween
 TOOLTIP_INFO_NAME_CONQUESTKEY,Llave de la conquista
@@ -2825,8 +2825,8 @@ TOOLTIP_INFO_TEXT_UNDERGROUNDLABYRINTHKEY,Claves necesarias para ingresar a la B
 TOOLTIP_INFO_TEXT_HIDEOUTKEY,Claves necesarias para ingresar al Calabozo Superior
 TOOLTIP_INFO_TEXT_CHALLENGETOWERKEY,Cubos necesarios para ingresar a la Torre del Desafío.
 TOOLTIP_INFO_TEXT_EVENTDUNGEONTICKET,Se necesitan claves para ingresar a los Calabozos de Evento
-TOOLTIP_INFO_TEXT_EVENTDUNGEONPOINT,Obtenible al terminar los calabozos de evento de Caja de Deseo Impulsivo. Se utiliza para comprar productos en la Tienda de Evento.
-TOOLTIP_INFO_TEXT_EVENTDUNGEONPOINT2,Obtenible al terminar el calabozo especial del festival de los mil días. Se utiliza para comprar productos en la Tienda de los Mil Días.
+TOOLTIP_INFO_TEXT_EVENTDUNGEONPOINT,Obtenible al terminar los calabozos de historia. Se utiliza para comprar productos en la Tienda de Evento.
+TOOLTIP_INFO_TEXT_EVENTDUNGEONPOINT2,Obtenible al terminar los calabozos especiales. Se utiliza para comprar productos en la Tienda de Evento.
 TOOLTIP_INFO_NAME_GLORYPOINT,Medalla de Honor
 TOOLTIP_INFO_TEXT_GLORYPOINT,Un tipo de punto disponible en la Liga de Honor. Se utiliza para cambiar artículos en la Tienda de la Liga de Honor.
 TOOLTIP_INFO_NAME_RANKINGPOINT,Insignia de Honor
@@ -2867,8 +2867,8 @@ MATCH_PICKBAN_INEXSTENT_HERO,Este Heroe no existe
 MATCH_PICKBAN_ALREADY_SELECT_HERO,Este Heroe ya ha sido escogido
 MATCH_PICKBAN_SEASON_INFO_FREE_TITLE,Gratis Reglas de Temporada
 MATCH_PICKBAN_SEASON_INFO_REAL_TITLE,Reglas de la Temporada Principal
-MATCH_PICKBAN_SEASON_INFO_FREE_DESC,"La Temporada libre de la Liga de honor es un sistema de JvJ donde los jugadores crean equipos de 4 y luchan durante una sola ronda.\nCada jugador puede prohibir a 1 héroe de la lista del oponente y puede elegir a 5 héroes de su propia lista para usar en la partida. Por último, cada jugador luego prohíbe a 1 héroe de los 5 que eligió el oponente.\nTanto los héroes que prohibieron los grupos como los que eligió el oponente no pueden formar parte de tu grupo.\nLuego de la selección de equipos, debes vencer a todos los héroes del equipo enemigo dentro del límite de tiempo para ganar.\nLlegado el límite de tiempo, el equipo con el mayor número de Salud gana.\nLa duración de la temporada y la fecha de inicio pueden diferir según cada temporada.\nNo hay límites para el nivel de héroe o el despertar durante la Temporada libre, y cualquiera que posea más de 12 héroes puede participar."
-MATCH_PICKBAN_SEASON_INFO_REAL_DESC,"La Temporada principal de la Liga de honor es un sistema de JvJ donde los jugadores crean equipos de 4 y luchan durante una sola ronda.\nCada jugador puede prohibir a 1 héroe de la lista del oponente y puede elegir a 5 héroes de su propia lista para usar en la partida. Por último, cada jugador luego prohíbe a 1 héroe de los 5 que eligió el oponente.\nTanto los héroes que prohibieron los grupos como los que eligió el oponente no pueden formar parte de tu grupo.\nLuego de la selección de equipos, debes vencer a todos los héroes del equipo enemigo dentro del límite de tiempo para ganar.\nLlegado el límite de tiempo, el equipo con el mayor número de Salud gana.\nLa duración de la temporada y la fecha de inicio pueden diferir según cada temporada.\nNo hay límites para el nivel de héroe o el despertar durante la Temporada principal, y cualquiera que posea más de 12 héroes puede participar."
+MATCH_PICKBAN_SEASON_INFO_FREE_DESC,"La Temporada libre de la Liga de Honor es un sistema de JvJ donde los jugadores crean equipos de 4 y luchan durante una sola ronda.\nCada jugador puede prohibir a 1 héroe de la lista del oponente y puede elegir a 5 héroes de su propia lista para usar en la partida. Por último, cada jugador luego prohíbe a 1 héroe de los 5 que eligió el oponente.\nTanto los héroes que prohibieron los grupos como los que eligió el oponente no pueden formar parte de tu grupo.\nLuego de la selección de equipos, debes vencer a todos los héroes del equipo enemigo dentro del límite de tiempo para ganar.\nLlegado el límite de tiempo, el equipo con el mayor número de Salud gana.\nLa duración de la temporada y la fecha de inicio pueden diferir según cada temporada.\nNo hay límites para el nivel de héroe o el despertar durante la Temporada libre, y cualquiera que posea más de 12 héroes puede participar. Al participar en la Liga de Honor, se entregarán 45 Puntos de Honor adicionales a todos los usuarios."
+MATCH_PICKBAN_SEASON_INFO_REAL_DESC,"La Temporada principal de la Liga de Honor es un sistema de JvJ donde los jugadores crean equipos de 4 y luchan durante una sola ronda.\nCada jugador puede prohibir a 1 héroe de la lista del oponente y puede elegir a 5 héroes de su propia lista para usar en la partida. Por último, cada jugador luego prohíbe a 1 héroe de los 5 que eligió el oponente.\nTanto los héroes que prohibieron los grupos como los que eligió el oponente no pueden formar parte de tu grupo.\nLuego de la selección de equipos, debes vencer a todos los héroes del equipo enemigo dentro del límite de tiempo para ganar.\nLlegado el límite de tiempo, el equipo con el mayor número de Salud gana.\nLa duración de la temporada y la fecha de inicio pueden diferir según cada temporada.\nNo hay límites para el nivel de héroe o el despertar durante la Temporada principal, y cualquiera que posea más de 12 héroes puede participar. Al participar en la Liga de Honor, se entregarán 45 Puntos de Honor adicionales a todos los usuarios."
 MATCH_PICKBAN_SEASON_REWARDINFO_FREE_TITLE,Info de Recompensa
 MATCH_PICKBAN_SEASON_REWARDINFO_FREE_DESC,"Durante la Temporada Libre, no hay recompensas de temporada/semanales."
 MATCH_PICKBAN_JOIN_REWARD,Recompensa de Participación
@@ -3219,7 +3219,7 @@ REVIEW_POPUP_TITLE,Anuncio
 REVIEW_POPUP_DESC,¿Te estás divirtiendo jugando a este juego?\n¿Qué tal si nos dejas un comentario?
 REVIEW_POPUP_BUTTON,Escribir comentario
 NEWBIE_PROMOTION_POPUP_TITLE,¡<Promoción por tiempo limitado> para principiantes!
-NEWBIE_PROMOTION_POPUP_DESC,"[Notificación] - Héroes seleccionables: Selecciona hasta a Requina, Ezekiel y Ophelia\n(hasta los héroes lanzados en febrero de 2018 o anteriores)\n- Los Boletos de héroe y los Boletos de arma única aleatoria no incluyen héroes PNJ."
+NEWBIE_PROMOTION_POPUP_DESC,"[Notificación] - Héroes seleccionables: Selecciona hasta a Requina, Ezekiel y Ophelia\n(hasta los héroes lanzados en febrero de 2018 o anteriores)\n- Los Boletos de héroe y los cupones de arma única aleatoria no incluyen héroes NPC."
 1ST_ANNIVERSARY_KINGS_REWARD_DESC,Recomendado para nuevos jugadores que priorizan el crecimiento del héroe! Recluta a 2 héroes con el Boleto para Seleccionar Héroe T1!.
 1ST_ANNIVERSARY_RAID_REWARD_DESC,La Trascendencia está un paso más cerca! Obtén un arma única y 10 piedras del infinito!.
 1ST_ANNIVERSARY_VESPA_REWARD_DESC,Los héroes fuertes necesitan un arma más poderosa! 4 armas únicas en total!!.
@@ -3237,7 +3237,7 @@ NEWBIE_PROMOTION_POPUP_DESC,"[Notificación] - Héroes seleccionables: Seleccion
 1ST_ANNIVERSARY_KINGS_DAY_2_DESC,"Estás interesado en un héroe diferente? Utiliza el boleto de héroe adicional para reclutar a un héroe T1 a tu elección. Recuerda mantener tu plataforma en equilibrio reclutando uniformemente los héroes con diferentes características Física/Mágica, Proteger/Causar/Curar. Las pociones de Energía te ayudarán a luchar sin detenerte. También obtendrás 500 fragmentos de todo tipo, que son esenciales para el despertar del héroe. No te olvides de leer primero la descripción del artículo, ya que cada clase de héroe requiere diferentes tipos de fragmentos."
 1ST_ANNIVERSARY_KINGS_DAY_3_DESC,"El Equipo y las Habilidades son cruciales para la batalla. Los Libros de Habilidades son el material principal cuando se trata de mejorar los beneficios de las habilidades. También recibirás un Boleto de Armadura Legendaria, disponible para equipos a partir del nivel 61: selecciona la clase y opción de equipo que desees. El Cristal Especial de Mejoras ayudará a mejorar tu equipo. Cuando todo esté listo, equipa una 'Runa' en el equipo para que tu héroe se fortalezca aún más."
 1ST_ANNIVERSARY_KINGS_DAY_4_DESC,"Con un boleto de trajes, puedes vestir a tus héroes con trajes elegantes. Hay un armario lleno de trajes para que elijas tu look favorito. Cada traje viene con opciones de bonificación como amplificador de EXP u Oro. La Piedra del Infinito es un material necesario para la trascendencia del nivel 1~5, el paso siguiente para el crecimiento del héroe luego del despertar del nivel 5. Termina la Torre de Pruebas y obtén fragmentos de la piedra del infinito"
-1ST_ANNIVERSARY_KINGS_DAY_5_DESC,"Me temo que este es el último día de celebración. Pero siempre te apoyaremos a lo largo del camino. Utiliza el Boleto de Arma Unica Aleatoria para obtener un arma única. Y junto con el amplificador de EXP y Oro, podrás obtener el doble de Oro/EXP durante 7 días. No olvides la gran cantidad de rubíes que hemos preparado para ti, es el producto principal dentro de King's Raid."
+1ST_ANNIVERSARY_KINGS_DAY_5_DESC,"Me temo que este es el último día de celebración. Pero siempre te apoyaremos a lo largo del camino. Utiliza el Cupón de Arma Única Aleatoria para obtener un arma única. Y junto con el amplificador de EXP y Oro, podrás obtener el doble de Oro/EXP durante 7 días. No olvides la gran cantidad de rubíes que hemos preparado para ti, es el producto principal dentro de King's Raid."
 1ST_ANNIVERSARY_RAID_DAY_1_DESC,"Le falta a tu héroe favorito un arma única? Utiliza el boleto de arma única para seleccionar el arma que deseas. No te olvides de nuestro regalo adicional de 30 pociones de energía para utilizar en la batalla, y 30,000,000 de oro para cuando lo necesites."
 1ST_ANNIVERSARY_RAID_DAY_2_DESC,"Te interesa un héroe diferente? Utiliza el boleto de héroe para reclutar uno nuevo que te guste. Puedes seleccionar cualquier héroe hasta Scarlet, Sonia o Mirianne. Y con el amplificador de Oro y EXP, podrás obtener el doble de Oro/ EXP durante 7 días. También recibirás 250 fragmentos de todos los tipos. Depende de ti elegir entre el despertar del héroe o elaborar una piedra del infinito/esencia."
 1ST_ANNIVERSARY_RAID_DAY_3_DESC,Despierta tu fuerza interior! El material esencial para la trascendencia del héroe está aquí. Obtén 10 piedras del infinito y 80 de cada uno de los 7 tipos de fragmentos. También obtendrás 4 tipos de libros de habilidades junto con runas heroicas que pueden proporcionar opciones de bonificación en armas y armaduras.
@@ -3245,9 +3245,9 @@ NEWBIE_PROMOTION_POPUP_DESC,"[Notificación] - Héroes seleccionables: Seleccion
 1ST_ANNIVERSARY_RAID_DAY_5_DESC,"Me temo que este es el último día de celebración. Pero siempre te apoyaremos a lo largo del camino. Estaremos entregando un boleto de traje adicional para darle a tu héroe un toque de diversión. También recibirás un Boleto de Armadura Legendaria, disponible para equipos del nivel 61- selecciona la clase y opción de equipo que desees. El Cristal Especial de Mejoras ayudará a mejorar tu equipo."
 1ST_ANNIVERSARY_VESPA_DAY_1_DESC,"Le falta a tu héroe favorito un arma única? Utiliza el boleto de arma única para seleccionar el arma que deseas. Si decides despertar tu arma única, te apoyaremos durante todo el camino."
 1ST_ANNIVERSARY_VESPA_DAY_2_DESC,"Posee tu equipo opciones de hechizos? Agrega esta opción con el pergamino de hechizos que recibirás hoy. Estamos otorgando un total de 12 pergaminos, 3 por cada elemento! No te olvides,que la piedra del infinito te ayudará con la trascendencia del héroe."
-1ST_ANNIVERSARY_VESPA_DAY_3_DESC,"Recibe los Boletos de Armas Unicas Aleatorias durante 3 días seguidos, a partir de hoy! Puede ser que no obtengas el arma que deseas, pero no te desalientes. Puedes triturar armas únicas para obtener fragmentos únicos. Acumula 1.000 fragmentos únicos para elaborar un boleto de arma única desde la pestaña de elaboración. No te olvides de las 5 runas antiguas que también recibirás hoy ~"
-1ST_ANNIVERSARY_VESPA_DAY_4_DESC,"Un nuevo boleto de arma única aleatoria para un nuevo día! Qué arma única obtendrás? Recuerda, puedes utilizar un boleto de protección de runa cuando lo desees. Proteje tu runa sin cargo extra durante 24 horas y cambia las configuraciones de las runas las veces que quieras!"
-1ST_ANNIVERSARY_VESPA_DAY_5_DESC,"Me temo que este es el último día de celebración. Pero siempre te apoyaremos a lo largo del camino. Estaremos entregando un boleto de arma única aleatoria junto con 15 boletos para reforjar. Si la opción de equipo actual no te conviene, debes ir a la herrería y utilizar el boleto para reforjar en lugar de los rubíes para reemplazar una opción. (Solo puedes reforjar una sola opción de la lista de opciones)."
+1ST_ANNIVERSARY_VESPA_DAY_3_DESC,"Recibe los Cupones de Arma Única Aleatoria durante 3 días seguidos, a partir de hoy. Puede ser que no obtengas el arma que deseas, pero no te desalientes. Puedes destruir armas únicas para obtener fragmentos únicos. Acumula 1,000 fragmentos únicos para elaborar un boleto de arma única desde la pestaña de elaboración. No te olvides de las 5 runas antiguas que también recibirás hoy ~"
+1ST_ANNIVERSARY_VESPA_DAY_4_DESC,"Un nuevo Cupón de Arma Única Aleatoria para un nuevo día. ¿Qué arma única obtendrás? Recuerda, puedes utilizar un boleto de protección de runa cuando lo desees. Proteje tu runa sin cargo extra durante 24 horas y cambia las configuraciones de las runas las veces que quieras!"
+1ST_ANNIVERSARY_VESPA_DAY_5_DESC,"Me temo que este es el último día de celebración. Pero siempre te apoyaremos a lo largo del camino. Estaremos entregando un cupón de arma única aleatoria junto con 15 cupones para reforjar. Si la opción de equipo actual no te conviene, debes ir a la herrería y utilizar el boleto para reforjar en lugar de los rubíes para reemplazar una opción. (Solo puedes reforjar una sola opción de la lista de opciones)."
 1ST_ANNIVERSARY_GET_REWARD,Reclamar Recompensa
 1ST_ANNIVERSARY_SHOW_REWARD,Ver Recompensa
 ITEM_USE.EQUIP_EXTEND_DESC_ALERT,"La expansión del Inventario está limitada a 1,400 casillas. (No aplican devoluciones a casillas no utilizadas.)"
@@ -3287,7 +3287,7 @@ ATTENDANCE_NEWBIE_TODAY,Regalo de Hoy
 ATTENDANCE_NEWBIE_TOMORROW,El Regalo del Mañana
 ATTENDANCE_NEWBIE_DETAIL,Info del Regalo
 ATTENDANCE_NEWBIE_TRAIL,Viaje de 15 Días
-AUTUMN_LOVE_ROLL_BOOK_WARNING,※ NPC hero Unique Wepon is not included in the Random Unique Weapon Ticket.
+AUTUMN_LOVE_ROLL_BOOK_WARNING,※ El Cupón de Arma Única Aleatoria no incluye armas únicas de héroes NPC.
 PAY_SHOP_CATEGORY.SPECIAL,Especial
 PAY_SHOP_CATEGORY.GOODS,Bienes e Insumos
 PAY_SHOP_CATEGORY.HERO,Héroes
@@ -3855,27 +3855,33 @@ SUBSTORY_MAIN_REQUIRE_CHARACTER,Condiciones de juego
 SUBSTORY_MAIN_REQUIRE_DUNGEON,Terminar {1}-{2}
 SUBSTORY_MAIN_FIRST_REWARD,Primera recompensa
 SUBSTORY_MAIN_COSTUME_REWARD,Traje adquirible
+SUBSTORY_MAIN_TACTIC,Estrategia de Ataque
+SUBSTORY_MAIN_REQUIRE_CHARACTER_LEVEL,{1} Alcanza Nivel {2}
+SUBSTORY_CHAPTER_NOT_CLEAR_DUNGEON,Se necesita terminar {1}-{2}
 NODE_SUBSTORY_STORY,Historia
 REWARD_SUBSTORY_TITLE,Recompensa por Primera Finalización
 UNLOCK_NEW_COSTUME_POPUP_TITLE,Traje adquirible
 COSTUME_OBTAIN_DESC_SUBSTORY,Adquirible\ndespués de terminar la historia secundaria
 RESULT_TYPE.SUBSTORY_CLASS_STORY_EMPTY,La historia secundaria del héroe de la clase\naún no se actualizó.
 SUBSTORY_HERO_STAR_LOW_TITLE,Nivel del héroe insuficiente
-SUBSTORY_HERO_STAR_LOW_DESC,El nivel de despertar o de trascendencia del héroe debe ser más alto para ver la historia.
+SUBSTORY_HERO_STAR_LOW_DESC,El nivel de trascendencia o del héroe debe ser más alto para ver el esceneario.
 SUBSTORY_CHAPTER_NOT_CLEAR_TITLE,El progreso del capítulo no es suficiente
 SUBSTORY_CHAPTER_NOT_CLEAR_DESC,Debes avanzar más en el capítulo para ver la historia.
+SUBSTORY_MAIN_REQUIRE_CHARACTER_OWN,Tener a {1}
 SUBSTORY_MAIN_REQUIRE_CHARACTER_STAR,Alcanza {1} estrellas
-SUBSTORY_MAIN_REQUIRE_CHARACTER_TRANS,Alcanza {1} de Trascendencia
+SUBSTORY_MAIN_REQUIRE_CHARACTER_TRANS,Alcanza T{1}
 SUBSTORY_MAIN_REQUIRE_CHAPTER,Capítulo {1}
 SUBSTORY_DUNGEON_TITLE16,Historia secundaria: Rephy
 SUBSTORY_DUNGEON_TITLE17,Historia secundaria: Dimael
 SUBSTORY_DUNGEON_TITLE40,Historia secundaria: Theo
 SUBSTORY_DUNGEON_TITLE43,Historia secundaria: Viska
 SUBSTORY_DUNGEON_TITLE44,Historia secundaria: Priscilla
+SUBSTORY_DUNGEON_TITLE49,Historia Secundaria: Ophelia
 SUBSTORY_DUNGEON_TITLE52,Historia secundaria: Crow
 COSTUMESHOP_SUBSTORY_VIEW_TEXT,Historia secundaria
 COSTUME_OBTAIN_DESC_DETAIL_SUBSTORY,Puede adquirirse tras completar la historia secundaria.
 COSTUME_OBTAIN_DESC_SHOP_TAG,Completar historia secundaria
+REMINISCENCE_MIRROR_ENTER,Espejo de\nRecuerdos
 CHALLENGERAID_SEASON_RANKING_DESC,¡Felicitaciones! ¡Ahora estás en las clasificaciones de la temporada para el Raid del desafío!
 CHALLENGERAID_SEASON_RANKING_TITLE,¡Recompensa del Raid del desafío de la temporada!
 CHALLENGERAID_SEASON_PLAY_DESC,¡Gracias por participar en las batallas de clasificación del Raid del desafío!
@@ -3921,6 +3927,7 @@ COSTUME_GROUP_CASAULFASHION1,Estilo Casual
 COSTUME_GROUP_CASUALFASHION1,Casual
 COSTUME_GROUP_HEROICCAREER1,Ropa de Trabajo
 COSTUME_GROUP_FESTIVENOELS,Navidad 3
+COSTUME_GROUP_DESSERT,Postres
 UI_SELECT_HERO_NONE,No hay héroes disponibles para seleccionar.
 UI_SELECT_COSTUME_NONE,No hay trajes disponibles para seleccionar.
 FILTER_SELECT.FILTER_SELECT_PART,Ver por parte
@@ -4277,9 +4284,9 @@ NEWBIE_RECOMMEND_SURPORTER_PACKAGE_POPUP_TITLE,Paquete de apoyo especial recomen
 NEWBIE_RECOMMEND_SURPORTER_PACKAGE_POPUP_DESC,Selecciona 1 apoyo habilidoso para ti.\nUn paquete especial contiene 1 héroe y un arma única y un tesoro único que se pueden combinar.
 NEWBIE_RECOMMEND_ARTIFACT_POPUP_TITLE,Paquete limitado de artefactos recomendados
 NEWBIE_RECOMMEND_ARTIFACT_POPUP_DESC,"Los artefactos especiales, elegidos cuidadosamente por Dosarta, te esperan."
-NEWBIE_PROMOTION_POPUP_DESC_2019,[Aviso] - Consulta los detalles en el lado derecho durante la compra de un rango de selección de héroe.\n- Los Boletos de arma única aleatoria y los Boletos de arma única no incluyen los héroes PNJ.
+NEWBIE_PROMOTION_POPUP_DESC_2019,[Aviso] - Consulta los detalles en el lado derecho durante la compra de un rango de selección de héroe.\n- Los cupones de arma única aleatoria y los boletos de arma única no incluyen los héroes NPC.
 2019_MAY_HERO_SELECT_ITEM_DESC,"※ Boleto de héroe de 3 estrellas: puedes seleccionar hasta Shea, Crow y Aselica (héroes lanzados en abril de 2018 o antes).\n※ El rango de armas únicas y tesoros únicos obtenidos de Boletos aleatorios/a elección sigue la configuración del juego."
-2019_PACKAGE_PAY_MAY_ATTENDANCE_DESC_DETAIL,"Aplica inmediatamente después de la compra, obtendrás artículos diarios durante 14 días al iniciar sesión. (Con el Boleto de Héroe de 3 Estrellas podrás escoger héroes hasta Aselica, Crow, y Shea (lanzamiento en abril de 2018), no incluye a los héroes NPC. El Boleto de Arma Única Aleatoria no incluye las armas únicas de héroes NPC.)"
+2019_PACKAGE_PAY_MAY_ATTENDANCE_DESC_DETAIL,"Aplica inmediatamente después de la compra, obtendrás artículos diarios durante 14 días al iniciar sesión. (Con el Boleto de Héroe de 3 Estrellas podrás escoger héroes hasta Aselica, Crow, y Shea (lanzamiento en abril de 2018), no incluye a los héroes NPC. El Cupón de Arma Única Aleatoria no incluye las armas únicas de héroes NPC.)"
 2019_NEWBIE_PROMOTION_POPUP2_TITLE,<Paquete por tiempo limitado> para el crecimiento rápido de tu héroe!
 PURCHASE_MARKETING.PURCHASE_MARKETING_INFO,Información del producto
 PURCHASE_MARKETING.CLOSE_PURCHASE_MARKETING_POPUP_MESSAGE,"Al cerrar la ventana de anuncio, podrás verificar la\ninformación nuevamente a través de la Tienda Especial."
@@ -5497,14 +5504,6 @@ EVENT_19HALLOWEEN_DUNGEONNAME5,Cuarto Secreto
 EVENT_19HALLOWEEN_DUNGEONNAME6,Bosque Oscuro
 ITEM_NAME_91337,Caja de Accesorios de Halloween
 ITEM_DESC2_91337,Caja con accesorios conmemorativos de Halloween. Obtendrás artículos de personalización limitados.
-COSTUME_NAME_ACCESSORY_HEAD_3100701,Gorra de Bruja Pequeña
-COSTUME_DESC_ACCESSORY_HEAD_3100701,Gorra de una bruja de tamaño pequeño.
-COSTUME_NAME_ACCESSORY_HEAD_3100801,Diadema de Calabaza
-COSTUME_DESC_ACCESSORY_HEAD_3100801,Diadema adornada con lindas calabazas.
-COSTUME_NAME_ACCESSORY_BODY_3400801,Colas de Zorro Blanco
-COSTUME_DESC_ACCESSORY_BODY_3400801,Accesorio en forma de colas de un zorro blanco.
-COSTUME_NAME_ACCESSORY_BODY_3400901,Alas de Murciélago
-COSTUME_DESC_ACCESSORY_BODY_3400901,Accesorio en forma de alas de murciélago.
 ITEM_NAME_47020,Esfera Oscura
 ITEM_DESC2_47020,Artículo que puede ser obsequiado a Lavril.\nAumenta la contribución en 1.
 ITEM_NAME_91336,Regalo de Lavril
@@ -5538,6 +5537,8 @@ PUSH_REWARD_DINNER,Recompensa de Cena
 IMPROVE_RESETREMAININGDATE,Quedan {1}
 RECOGNITION_DAY,d
 RECOGNITION_HOUR,h
+RECOGNITION_UNDERHOUR,Bajo Tiempo
+ADVENTURE_NOTICE_CONTENTS_NAME,Introducción de texto en coreano
 ADVENTURE_NOTICE_STAMINA_REGENERATION,{1} : {2} : {3}
 ADVENTURE_NOTICE_RESET_REMAIN_DAY,Quedan {1} d
 ADVENTURE_NOTICE_RESET_REMAIN_HOUR_1,Quedan {1} h
@@ -5563,16 +5564,17 @@ EVENT_DUNGEON_1000DAYS_NAME2,10 Días de Agradecimiento
 EVENT_DUNGEON_1000DAYS_NAME3,100 Días de Conmoción
 EVENT_DUNGEON_1000DAYS_NAME4,"1,000 Días de Gratitud"
 SHOP_NAME_1000DAYS_SHOP,Tienda de los Mil Días
-TOOLTIP_INFO_NAME_SHOPEVENTPOINT,Ficha Negra
+TOOLTIP_INFO_NAME_SHOPEVENTPOINT,Chocolates
 TOOLTIP_INFO_TEXT_SHOPEVENTPOINT,Obtenible por tiempo limitado durante el período del evento al comprar productos en efectivo.\nIntercámbiala por recompensas en la Tienda Especial. Uso no disponible después de la conclusión del evento.
-PAY_SHOP_CATEGORY.PAY_SHOP_EVENT,Viernes Negro
-RESULT_TYPE.NOT_ENOUGH_SHOP_EVENT_POINT,Insuficientes fichas negras.
+PAY_SHOP_CATEGORY.PAY_SHOP_EVENT,San Valentín
+RESULT_TYPE.NOT_ENOUGH_SHOP_EVENT_POINT,No hay suficientes chocolates.
 SHOP_TAB_EVENT_BM,Productos Especial
-SHOP_TAB_EVENT_POINT,Tienda de Fichas Negras
-COMMON.SHOP_EVENT_POINT_COUNT,{1} Fichas Negras
-EVENT_BLACK_FRIDAY_POINT_DESC2_01,Monedas obtenibles por tiempo limitado durante el período del evento al comprar productos en efectivo.
-COMMON_EVENT_DAY_DESC2_01,※Período del Evento: Hasta antes de la inspección del 17 de diciembre.
-EVENT_BLACK_FRIDAY_TICKET,Ficha Negra
+SHOP_TAB_EVENT_POINT,Tienda de Chocolates
+COMMON.SHOP_EVENT_POINT_COUNT,{1} Chocolates
+EVENT_BLACK_FRIDAY_POINT_DESC2_01,Los chocolates son una moneda de evento de tiempo limitado adquiribles al realizar compras en efectivo.
+COMMON_EVENT_DAY_DESC2_01,※Período de Evento: Hasta antes de la inspección del 10 de marzo.
+COMMON_EVENT_DAY_DESC2_02,※Validez de los Chocolates: Hasta antes de la inspección del 24 de marzo.
+EVENT_BLACK_FRIDAY_TICKET,Chocolate
 EVENT_DUNGEON_DESTINYLIGHT,Lugar Alumbrado por la Luz del Destino
 DESTINYLIGHT_EVENT_NAME,Lugar Alumbrado por la Luz del Destino
 EVENT_NAME_DESTINYLIGHT,Información del Evento Lugar Alumbrado por la Luz del Destino
@@ -5722,3 +5724,61 @@ LEGEND_EQUIP_PAYBACK_REWARD_MAIL_TITLE,Obtención de Recompensas Mejoradas
 LEGEND_EQUIP_PAYBACK_REWARD_MAIL_CONTENT,Debido a una mejora de 'Paquete de Armadura Legendaria' se ofrecen todos los artículos del paquete mejorado de acuerdo a la cantidad de compras de este producto.
 CLEARMISSION_PASSPOPUP_PROGRESS,[db6a3e] ({1}/{2})[-]
 PAYSHOP_RECOMMENDPOPUP_TITLE,Productos Recomendados
+BENEFIT_NEWBIE_REWARD_MAIL_TITLE,Misiones de Subir Nivel para Nuevos Jugadores y Misiones de Superación para Nuevos Jugadores
+BENEFIT_NEWBIE_REWARD_MAIL_CONTENT,El 17 de diciembre ofreceremos todas las recompensas aún no emitidas debido a la eliminación de las ventanas emergentes de 'Misiones de Subir Nivel para Nuevos Jugadores' y 'Misiones de Superación para Nuevos Jugadores'.
+PACKAGE_DAILY_STAMINA_DESC2,"Con la compra obtendrás 1,000 rubíes inmediatamente.\nDurante 7 días al iniciar sesión obtendrás 40 Pociones de Energía."
+PACKAGE_DAILY_FRIENDSHIP_DESC2,"Con la compra obtendrás 2,000 rubíes inmediatamente.\nDurante 7 días al iniciar sesión obtendrás 5 Círculos de Amistad."
+GLORY_REQUIREPOINT,Puntos Requeridos
+GLORY_VICTORY_REWARD,Recompensa de Victoria
+GLORY_WEEKLY_REWARD,Recompensa Semanal
+GLORY_SEASON_LASTPLACE,Menos de 1300
+GLORY_REWARD_NAME,Recompensa de Temporada de la Liga de Honor
+GLORY_COSTUME_BUTTON,Detalles
+GLORY_COSTUME_NAME,Luz de Cielo Nocturno
+CLEARMISSION_PASSPOPUP_LEVELUP_III,Paquete de Superación de Subir Niveles III
+HERO_INFO_GET_NEW_HERO_BUNDLE_BTN,Obtención Conjunta\nCleo y Roi
+HERO_ACTION_SIGNATURE,Animación Característica
+EQUIP_ITEM_FULL_DESC,Tienes demasiado equipo para usar el artículo.\nOrganiza tu equipo e intenta nuevamente.
+MOVE_EQUIP_BAG,Ir a Equipo
+PACKAGE_DAILY_STAMINA_MAIL_TITLE,Energía Diaria
+PACKAGE_DAILY_NPC_MAIL_TITLE,Amistad de NPCs Diaria
+PACKAGE_DAILY_STAMINA_MAIL_CONTENT,¡Recibe tu recompensa de compra de Energía Diaria!
+PACKAGE_DAILY_NPC_MAIL_CONTENT,¡Recibe tu recompensa de compra de Amistad de NPCs Diaria!
+PACKAGE_DAILY_LUAPOINT_1000,11 Tokens de Lua
+PACKAGE_DAILY_LUAPOINT_2000,22 Tokens de Lua
+PACKAGE_DAILY_7DAYS_RUBY_MAIN_1,450 Rubíes (Durante 7 días al iniciar sesión.)
+PACKAGE_DAILY_7DAYS_RUBY_BONUS_1,"1,000 Rubíes"
+PACKAGE_DAILY_7DAYS_RUBY_DESC2,"Obtendrás 450 rubíes al iniciar sesión durante 7 días.\nTotal de 4,150 rubíes, incluyendo bonus."
+ALL_IN_ONE_DAY_FIRST_SALE_TEXT,1 Vez al Día
+EVENT_LILIA_FIGURE_PACKAGE_TITLE,Paquete de Lilia
+EVENT_LILIA_FIGURE_PACKAGE_CONTENT,Gracias por comprar la figura de Lilia.
+EVENT_DUNGEON_20VALENTINE,Calabozos de Festival de Primavera
+EVENT_SHOP_20VALENTINE,Tienda de Festival de Primavera
+EVENT_DUNGEON_DESC_STORY_20VALENTINE,Calabozos de historia de evento.\nDisfruta de la historia del festival.
+EVENT_DUNGEON_DESC_SPECIAL_20VALENTINE,Desbloqueable al terminar los calabozos de historia.
+EVENT_20VALENTINE_TICKET,Boleto de Evento
+TOOLTIP_INFO_NAME_EVENT_TOKEN_20VALENTINE,Boleto de Intercambio de Productos
+TOOLTIP_INFO_DESC_EVENT_TOKEN_20VALENTINE,Obtenible al terminar los calabozos de historia. Se utiliza para comprar productos en la tienda de evento.
+TOOLTIP_INFO_NAME_EVENT_CHOCOLATE_20VALENTINE,Bola de Chocolate
+TOOLTIP_INFO_DESC_EVENT_CHOCOLATE_20VALENTINE,Obtenible al terminar los calabozos especiales. Se utiliza para comprar productos en la tienda de evento.
+EVENT_INFO_20VALENTINE,Información
+EVENT_NAME_20VALENTINE,Calabozos de Festival de Primavera
+EVENT_DESC_20VALENTINE,"- Calabozos de Festival de Primavera\nObtendrás boletos de intercambio de productos al terminar los calabozos\ny bolas de chocolate al terminar los calabozos especiales.\n\n- Festival Junto a los NPCs\nVisita a los 9 NPCs asignados en distintos lugares (Gladi, May, Veronica, Loman, Nicky, Juno, Dosarta, Hanus y Cain).\nEllos tienen un regalo sorpresa preparado para todos.\n\n- Boleto de Evento\nSe necesitan boletos de evento para ingresar a los calabozos de evento.\nObtendrás 2 al inicio del evento y se recargará 1 a media noche todos los días.\n(Puedes poseer un máximo de 2 boletos.)"
+20VALENTINE_EVENT_NAME,Festival de Primavera
+EVENT_DUNGEON_20VALENTINE_NAME1,¡No te lo Lleves!
+EVENT_DUNGEON_20VALENTINE_DESC1,¡No es para Colección!
+EVENT_DUNGEON_20VALENTINE_NAME2,¡No te lo Comas!
+EVENT_DUNGEON_20VALENTINE_DESC2,¡Llevalo al Distrito de Compras!
+EVENT_DUNGEON_20VALENTINE_NAME3,¡No te lo Robes!
+EVENT_DUNGEON_20VALENTINE_DESC3,¡Júntalos con Honestidad!
+EVENT_DUNGEON_20VALENTINE_NAME4,Calabozo de Chocolate de Leche
+EVENT_DUNGEON_20VALENTINE_DESC4,Un dulce chocolate para ti.
+EVENT_DUNGEON_20VALENTINE_NAME5,Calabozo de Chocolate Negro
+EVENT_DUNGEON_20VALENTINE_DESC5,Un amargo chocolate para ti.
+SHOP_NAME_20VALENTINE_SHOP,Tienda de Festival de Primavera
+REVIEW_POPUP_REVIEW,Me gusta
+REVIEW_POPUP_CS,Necesita mejorar
+REVIEW_POPUP_EXIT,A la próxima
+2020_MAY_HERO_SELECT_ITEM_DESC,※ Boleto de Héroe de 5 Estrellas: Selección disponible hasta 'Rehartna'.\n※ El rango de selección para los boletos de armas y tesoros únicos de selección y aleatorios cambiará con cada actualización del juego.
+20SPRING_FESTIVAL_DUNGEON,Calabozo de Festival de Primavera
+SHOP_NAME_2020_VALENTINE_SHOP,Tienda de Festival de Primavera

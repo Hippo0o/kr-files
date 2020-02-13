@@ -125,15 +125,15 @@ SKILL_DESC_7142,Erhöht ANG-Boost um [64ff64]{1}[-] %.
 SKILL_DESC_7143,Erhöht ANG-Boost um [64ff64]{1}[-] %.
 SKILL_DESC_60007110,Reduziert Cooldown um {1} % für jeden Treffer.
 SKILL_DESC_60007111,"Wenn nur ein Feind verbleibt, erhöht sich der Schaden um 100 %."
-SKILL_DESC_60007120,"Erhöht {1} Sek. lang die Schockwelle-Betäubungsdauer für Feinde, die keine Helden sind."
+SKILL_DESC_60007120,Verringert die Manakosten um 1.
 SKILL_DESC_60007121,"Im [Kristall-Erweckung] Zustand wird der Schaden für Feinde, die keine Helden sind, um {1} % erhöht."
 SKILL_DESC_60007130,Die ANG-GESCHW Reduzierungsmenge erhöht sich um {1}.
-SKILL_DESC_60007131,"Wenn nur ein Feind verbleibt, werden jeweils 2 Kristall-Energien gestapelt. "
+SKILL_DESC_60007131,Jeweils 2 Kristall-Energien werden gestapelt.
 SKILL_DESC_60007140,"Mit jedem Kampfbeginn wird 20 Sek. lang der Schaden für Feinde, die keine Helden sind, um {1} % erhöht."
 SKILL_DESC_60007141,Dem Bossmonster zugefügter Schaden wird um {1} % erhöht.
 SKILL_DESC_60007150,"ANG, VERT, TP +15 %/ANG-GESCHW +100"
-SKILL_DESC_60007151,Der eigene ANG erhöht sich um {1} mit jedem Normal- & Skill-ANG. Dieser Effekt kann bis zu {2} Mal gestapelt werden.
-SKILL_DESC_90000710,Durch die Verstärkung der Kristallkraft wird die [Volles Erblühen!] Skill-Wirkungsreichweite erheblich erhöht. Außerdem wird mit jedem Normal- & Skill-ANG mit 4 %iger Chance zus. Mag. Schaden im Wert von 500 % ANG hinzugefügt. Der Bossmonster-Schaden verdoppelt sich dabei.
+SKILL_DESC_60007151,"Erhöht den Krit. Schaden um {1} % und die VERT-Durchdringung um {2}. Nachdem Kirze ihre Gegner {3}-mal angegriffen hat, erhöht sich dieser Effekt um das {4}-fache."
+SKILL_DESC_90000710,Durch die Verstärkung der Kristallkraft wird die [Volles Erblühen!] Skill-Wirkungsreichweite erheblich erhöht. Außerdem wird mit jedem Normal- & Skill-ANG mit {1} %iger Chance zus. Mag. Schaden für {2} % des ANG hinzugefügt. Der Bossmonster-Schaden erhöht sich um das {3}-fache.
 SKILL_DESC_90000711,Durch die Verstärkung der Kristallkraft wird die [Volles Erblühen!] Skill-Wirkungsreichweite erheblich erhöht. Außerdem wird bei jedem Normal- & Skill-ANG mit 4 %iger Chance zus. Mag. Schaden im Wert von 600 % ANG hinzugefügt. Der Bossmonster-Schaden verdoppelt sich dabei.
 SKILL_DESC_90000712,Durch die Verstärkung der Kristallkraft wird die [Volles Erblühen!] Skill-Wirkungsreichweite erheblich erhöht. Außerdem wird bei jedem Normal- & Skill-ANG mit 4 %iger Chance zus. Mag. Schaden im Wert von 720 % ANG hinzugefügt. Der Bossmonster-Schaden verdoppelt sich dabei.
 SKILL_DESC_90000713,Durch die Verstärkung der Kristallkraft wird die [Volles Erblühen!] Skill-Wirkungsreichweite erheblich erhöht. Außerdem wird bei jedem Normal- & Skill-ANG mit 4 %iger Chance zus. Mag. Schaden im Wert von 860 % ANG hinzugefügt. Der Bossmonster-Schaden verdoppelt sich dabei.
@@ -145,7 +145,7 @@ SKILL_DESC_91007112,[Scharfe Urteilsklingen!] Skill-Schaden erhöht sich um 29 %
 SKILL_DESC_91007113,[Scharfe Urteilsklingen!] Skill-Schaden erhöht sich um 35 % und Manakosten werden um 1 reduziert.
 SKILL_DESC_91007114,[Scharfe Urteilsklingen!] Skill-Schaden erhöht sich um 42 % und Manakosten werden um 1 reduziert.
 SKILL_DESC_91007115,[Scharfe Urteilsklingen!] Skill-Schaden erhöht sich um 50 % und Manakosten werden um 1 reduziert.
-SKILL_DESC_91007120,[Zerstreuter Kristallnebel!] Skill-ANG-GESCHW erhöht sich zus. um 100 und [Kristall-Erweckung] Zustandsdauer wird auch um 7 Sek. erhöht.
+SKILL_DESC_91007120,[Zerstreuter Kristallnebel!] Skill-ANG-GESCHW erhöht sich zus. um {1} und die VERT-Durchdringung aller Verbündeten erhöht sich um {2} während der Wirkungsdauer.
 SKILL_DESC_91007121,[Zerstreuter Kristallnebel!] Skill-ANG-GESCHW erhöht sich zus. um 120 und [Kristall-Erweckung] Zustandsdauer wird auch um 7 Sek. erhöht.
 SKILL_DESC_91007122,[Zerstreuter Kristallnebel!] Skill-ANG-GESCHW erhöht sich zus. um 140 und [Kristall-Erweckung] Zustandsdauer wird auch um 7 Sek. erhöht.
 SKILL_DESC_91007123,[Zerstreuter Kristallnebel!] Skill-ANG-GESCHW erhöht sich zus. um 170 und [Kristall-Erweckung] Zustandsdauer wird auch um 7 Sek. erhöht.
@@ -291,7 +291,7 @@ SKILL_DESC_60009840,Dem Bossmonster zugefügter Schaden-Boost wird um {1} % erh�
 SKILL_DESC_60009841,Erholte MP pro Sek. werden zu {1} geändert.
 SKILL_DESC_60009850,"ANG, VERT, TP +15 %/ANG-GESCHW +10 %"
 SKILL_DESC_60009851,"Zu Beginn jedes Kampfs verbrauchst du {1} % der aktuellen MP und der ANG von allen Verbündeten wird für {2} Sek. um {3} % erhöht. Wenn es weniger als 3 Verbündete gibt, verringert sich der Schaden der Verbündeten um zus. {4} %. "
-SKILL_DESC_90000980,Je nach Zustand des Normalangriffs und des Skillangriffs wird ein zusätzlicher Effekt hinzugefügt.\n[Gottkönig] betäubt den Gegner {2} Sek. lang mit einer Chance von {1} %.\n[Tyrann] erhöht den gegn. Körp. Schaden um {4} % für {3} Sek.
+SKILL_DESC_90000980,"Je nach Zustand des Normalangriffs und des Skillangriffs wird ein zusätzlicher Effekt hinzugefügt.\n[Gottkönig] betäubt den Gegner {2} Sek. lang mit einer Chance von {1} %.\n[Tyrann] erhöht den gegn. Körp. Schaden für {3} Sek. um {4} %. Das Ziel, welches diesen Effekt erhält, kann {5} Sek. lang den gleichen Effekt nicht erneut bekommen."
 SKILL_DESC_91009810,[Fühle die Angst!] Schadenverringerungs-Effekt erhöht sich um zus. {1} %.\n[Auf die Knie.] Skill-Manakosten verringern sich um 1.
 SKILL_DESC_91009820,"[Spüre meine Kraft!] Skill-Schaden erhöht sich um {1} % und der Schaden, den du im Tyrann-Zustand verursachst, um {2} %."
 SKILL_DESC_91009830,"[Meine allmächtige Macht!] Skill-ANG-Boost erhöht sich um {1} %.\n[Nun stirb.] erhöht den Körp. Schaden, den das Ziel erleidet, für {2} Sek. um {3} %."

@@ -125,15 +125,15 @@ SKILL_DESC_7142,Augmente le taux d'augmentation d'ATQ de [64ff64]{1}[-] %.
 SKILL_DESC_7143,Augmente le taux d'augmentation d'ATQ de [64ff64]{1}[-] %.
 SKILL_DESC_60007110,Réduit le Temps de Recharge de {1}% pour chaque ennemi touché.
 SKILL_DESC_60007111,Augmente les DEG infligés de 100% lorsqu'il n'y a qu'un seul ennemi.
-SKILL_DESC_60007120,Augmente la durée de l'étourdissement par l'onde de choc aux ennemis non-Héros de {1} sec.
+SKILL_DESC_60007120,Réduit le coût en PM de 1.
 SKILL_DESC_60007121,Augmente les DEG infligés aux ennemis non-Héros de {1}% lorsque le Héros est en mode [Cristal Arcanique Éveillé].
 SKILL_DESC_60007130,Augmente la Réduction de Vitesse d'ATQ de {1}.
-SKILL_DESC_60007131,Applique 2 charges d'Énergie de Cristal Arcanique par attaque lorsqu'il n'y a qu'un seul ennemi.
+SKILL_DESC_60007131,Applique 2 charges d'Énergie de Cristal Arcanique.
 SKILL_DESC_60007140,"Au début de chaque bataille, inflige {1}% de DEG supplémentaires aux ennemis non-Héros pendant 20 sec."
 SKILL_DESC_60007141,Augmente les DEG infligés aux Boss de {1}%.
 SKILL_DESC_60007150,"ATQ, DEF, PV +15% / Vitesse d'ATQ +100"
-SKILL_DESC_60007151,Augmente la Vitesse d'ATQ du Héros de {1} pour chaque attaque et compétence. Cet effet peut se cumuler jusqu'à {2} fois.
-SKILL_DESC_90000710,"Amplifie la puissance des cristaux arcaniques afin d'augmenter considérablement la portée de l'effet de [Épanouis-toi, Fleur Écarlate !]. De plus, chaque attaque et compétence ont 4% de chance d'infliger 500% du taux d'attaque en DEG M supplémentaires. Les DEG infligés aux Boss sont doublés."
+SKILL_DESC_60007151,Augmente les DEG Crit de {1}% et la Pénétration DEF de {2}. Cet effet augmente {4} fois après que Kirze ait attaqué l'ennemi à {3} reprises.
+SKILL_DESC_90000710,"Amplifie la puissance des cristaux arcaniques afin d'augmenter considérablement la portée de l'effet de [Épanouis-toi, Fleur Écarlate !]. De plus, chaque attaque et compétence ont {1}% de chances d'infliger {2}% du taux d'ATQ en DEG M supplémentaires. Les DEG infligés aux Boss augmentent de {3} fois."
 SKILL_DESC_90000711,"Amplifie la puissance des cristaux arcaniques afin d'augmenter considérablement la portée de l'effet de [Épanouis-toi, Fleur Écarlate !]. De plus, chaque attaque et compétence ont 4% de chance d'infliger 600% du taux d'attaque en DEG M supplémentaires. Les DEG infligés aux Boss sont doublés."
 SKILL_DESC_90000712,"Amplifie la puissance des cristaux arcaniques afin d'augmenter considérablement la portée de l'effet de [Épanouis-toi, Fleur Écarlate !]. De plus, chaque attaque et compétence ont 4% de chance d'infliger 720% du taux d'attaque en DEG M supplémentaires. Les DEG infligés aux Boss sont doublés."
 SKILL_DESC_90000713,"Amplifie la puissance des cristaux arcaniques afin d'augmenter considérablement la portée de l'effet de [Épanouis-toi, Fleur Écarlate !]. De plus, chaque attaque et compétence ont 4% de chance d'infliger 860% du taux d'attaque en DEG M supplémentaires. Les DEG infligés aux Boss sont doublés."
@@ -145,7 +145,7 @@ SKILL_DESC_91007112,"Augmente les DEG infligés de 29% et réduit le coût en ma
 SKILL_DESC_91007113,"Augmente les DEG infligés de 35% et réduit le coût en mana de 1 de [Tranche-le, Lame de Jugement !]"
 SKILL_DESC_91007114,"Augmente les DEG infligés de 42% et réduit le coût en mana de 1 de [Tranche-le, Lame de Jugement !]"
 SKILL_DESC_91007115,"Augmente les DEG infligés de 50% et réduit le coût en mana de 1 de [Tranche-le, Lame de Jugement !]"
-SKILL_DESC_91007120,"Augmente la Vitesse d'ATQ de [Répands-toi, Brouillard Cristallisé !] de 100 et la durée de [Cristal Arcanique Éveillé] de 7 sec."
+SKILL_DESC_91007120,"[Répands-toi, Brouillard Cristallisé !] Augmente de manière supplémentaire la Vitesse d'ATQ de {1} et la Pénétration DEF de tous les alliés de {2} pendant la durée de la compétence."
 SKILL_DESC_91007121,"Augmente la Vitesse d'ATQ de [Répands-toi, Brouillard Cristallisé !] de 120 et la durée de [Cristal Arcanique Éveillé] de 7 sec."
 SKILL_DESC_91007122,"Augmente la Vitesse d'ATQ de [Répands-toi, Brouillard Cristallisé !] de 140 et la durée de [Cristal Arcanique Éveillé] de 7 sec."
 SKILL_DESC_91007123,"Augmente la Vitesse d'ATQ de [Répands-toi, Brouillard Cristallisé !] de 170 et la durée de [Cristal Arcanique Éveillé] de 7 sec."
@@ -291,7 +291,7 @@ SKILL_DESC_60009840,L'augmentation des DEG infligés au Boss passe à {1}%.
 SKILL_DESC_60009841,La récupération des PM par sec passe à {1}.
 SKILL_DESC_60009850,"ATQ, DEF, PV +15% / PV +10%"
 SKILL_DESC_60009851,"Au début de chaque combat, consomme {1}% de ses PV actuels pour augmenter les ATQ de tous les alliés de {3}% pendant {2} sec. Si les alliés sont moins de 3, réduit aussi les DEG reçus de tous les alliés de {4}%."
-SKILL_DESC_90000980,"Les attaques automatiques et les compétences accordent des effets supplémentaires selon l'état du Héros.\nÀ l'état de [Dieu-Roi], applique l'Étourdissement à la cible pendant {2} sec, avec une probabilité de {1}%.\nÀ l'état de [Tyran], augmente les DEG P reçus par la cible de {4}%, pendant {3} sec."
+SKILL_DESC_90000980,"Les attaques automatiques et celles des compétences accordent des effets supplémentaires selon l'état du Héros.\nÀ l'état de [Dieu-Roi], applique l'Étourdissement à la cible pendant {2} sec, avec {1}% de chances.\nÀ l'état de [Tyran], augmente les DEG P reçus par la cible de {4}%, pendant {3} sec. La cible ayant subi cet effet est immunisée contre le même effet pendant {5} sec."
 SKILL_DESC_91009810,[Frémissez !] Augmente l'effet de la réduction de DEG reçus de {1}% supplémentaires. \n[Agenouille-toi.] Réduit le coût en mana de 1 orbe de PM.
 SKILL_DESC_91009820,"[Affronte ma puissance.] Augmente les DEG infligés de {1}% et à l'état de Tyran, augmente les DEG infligés de {2}%."
 SKILL_DESC_91009830,"[Contemple mon pouvoir omnipotent !] Augmente le taux d'augmentation d'ATQ de {1}%.\n[Meurs, maintenant.] Augmente les DEG reçus de la cible touchée par la compétence de {3}% pendant {2} sec."
@@ -377,7 +377,7 @@ SKILL_DESC_60007441,"Récupère {1} PM toutes les sec, et choisit automatiquemen
 SKILL_DESC_60007450,"ATQ, DEF, PV +15% / DEG Crit +20%"
 SKILL_DESC_60007451,"Augmente toutes les {1} sec les DEG M reçus par tous les ennemis de {3}%, pendant {2} sec."
 SKILL_DESC_90000740,"Choisit l'une des Ciel nocturne&Ombre noire&Veil, les Épées de Nuit profonde et obtient l'effet correspondant.\n[Ciel nocturne, l'Épée de nuit céleste] Augmente la Vitesse d'ATQ de {1}, la Précision de {2} et les DEG infligés par les attaques automatiques de {3}%.\n[Ombre noire, l'Épée à l'ombre sans fond] Récupère {4} PM toutes les sec.\n[Veil, l'Épée fendant l'obscurité] Augmente le taux d'ATQ de {6}% et les DEG Crit de {7}%, toutes les {5} sec. Cet effet peut se cumuler jusqu'à {8} fois et ne peut être dissipé."
-SKILL_DESC_91007410,"[Huhu, tu mourras si tu ne te concentres pas !] Augmente les DEG infligés de {1}% et les DEG Crit de {2}% lors des coups portés par les attaques automatiques et de la compétence [Huhu, tu mourras si tu ne te concentres pas !]. Cet effet peut se cumuler jusqu'à {3} fois."
+SKILL_DESC_91007410,"[Huhu, tu mourras si tu ne te concentres pas !] Augmente les DEG infligés de {1}%, et lors des coups portés par les attaques automatiques et par la compétence [Huhu, tu mourras si tu ne te concentres pas !], augmente les DEG Crit de {2}%. Cet effet peut se cumuler jusqu'à {3} fois."
 SKILL_DESC_91007420,"[Kuku, amusons-nous encore un peu.] Réduit le coût en PM de 1.\n[Haha ! Tes points faibles sont visibles !] Confère une immunité contre les Contrôles pedant {1} sec, après le déplacement."
 SKILL_DESC_91007430,"[Meurs, il est temps !!] Augmente les DEG infligés de {1}% et confère une immunité contre les Contrôles pendant l'utilisation de la compétence."
 SKILL_DESC_91007440,"[Trois Épées démoniaques] Confère à tous les alliés des effets selon l'épée choisie.\n[Ciel nocturne], l'Épée de nuit céleste : Augmente la Vitesse d'ATQ de tous les alliés de {2} pendant {1} sec.\n[Ombre noire], l'Épée à l'ombre sans fond : Réduit les DEG reçus par tous les alliés de {4}% pendant {3} sec.\n[Veil], l'Épée fendant l'obscurité : Augmente l'ATQ de tous les alliés de {6}% pendant {5} sec.\nTous les effets augmentent {8} fois si les alliés sont moins de {7}."

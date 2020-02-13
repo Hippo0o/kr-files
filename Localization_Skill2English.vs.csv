@@ -125,15 +125,15 @@ SKILL_DESC_7142,Increases ATK Boost by [64ff64]{1}[-]%.
 SKILL_DESC_7143,Increases ATK Boost by [64ff64]{1}[-]%.
 SKILL_DESC_60007110,Reduces Cooldown by {1}% per each enemy hit.
 SKILL_DESC_60007111,"If there is only 1 enemy, DMG is increased by 100%."
-SKILL_DESC_60007120,The duration of stun from the shockwave increases by {1} sec against Non-Hero enemies.
+SKILL_DESC_60007120,Reduces Mana Cost by 1.
 SKILL_DESC_60007121,"While under [Arcane Crystal Awakening], self deals {1}% increased DMG to Non-Hero enemies."
 SKILL_DESC_60007130,Increases ATK Spd reduction by {1}.
-SKILL_DESC_60007131,"If there is only 1 enemy, inflicts 2 stacks of Arcane Crystal Energy."
+SKILL_DESC_60007131,Inflicts 2 stacks of Arcane Crystal Energy.
 SKILL_DESC_60007140,"At the beginning of each battle, self deals {1}% increased DMG to Non-Hero enemies for 20 sec."
 SKILL_DESC_60007141,Deals {1}% increased DMG to Bosses.
 SKILL_DESC_60007150,"ATK, DEF, HP+15% / ATK Spd +100"
-SKILL_DESC_60007151,Every normal and Skill attack increases ATK Spd by {1}. This effect can be stacked up to max {2} times.
-SKILL_DESC_90000710,"Amplifies the power of Arcane Crystals and greatly increases the effect range of [Bloom, Crimson Flower!]. Normal and Skill attacks have a 4% chance to deal additional M.DMG equal to 500% of ATK. DMG is doubled against Bosses."
+SKILL_DESC_60007151,Increases Crit DMG by {1}% and DEF Penetration by {2}. This effect increases by {4} times after Kirze attacks the enemy {3} times.
+SKILL_DESC_90000710,"Amplifies the power of Arcane Crystals and greatly increases the effect range of [Bloom, Crimson Flower!]. Normal and Skill attacks have a {1}% chance to deal additional M.DMG equal to {2}% of ATK. DMG is increased by {3} times against Bosses."
 SKILL_DESC_90000711,"Amplifies the power of Arcane Crystals and greatly increases the effect range of [Bloom, Crimson Flower!]. Normal and Skill attacks have a 4% chance to deal additional M.DMG equal to 600% of ATK. DMG is doubled against Bosses."
 SKILL_DESC_90000712,"Amplifies the power of Arcane Crystals and greatly increases the effect range of [Bloom, Crimson Flower!]. Normal and Skill attacks have a 4% chance to deal additional M.DMG equal to 720% of ATK. DMG is doubled against Bosses."
 SKILL_DESC_90000713,"Amplifies the power of Arcane Crystals and greatly increases the effect range of [Bloom, Crimson Flower!]. Normal and Skill attacks have a 4% chance to deal additional M.DMG equal to 860% of ATK. DMG is doubled against Bosses."
@@ -145,7 +145,7 @@ SKILL_DESC_91007112,"[Slash, Blade of Judgment!] Increases DMG by 29% and reduce
 SKILL_DESC_91007113,"[Slash, Blade of Judgment!] Increases DMG by 35% and reduces Mana Cost by 1."
 SKILL_DESC_91007114,"[Slash, Blade of Judgment!] Increases DMG by 42% and reduces Mana Cost by 1."
 SKILL_DESC_91007115,"[Slash, Blade of Judgment!] Increases DMG by 50% and reduces Mana Cost by 1."
-SKILL_DESC_91007120,"[Disperse, Crystal Haze!] Increases ATK Spd by an additional 100 and the duration of [Arcane Crystal Awakening] by 7 sec."
+SKILL_DESC_91007120,"[Disperse, Crystal Haze!] Increases ATK Spd by an additional {1} and increases DEF Penetration of all allies by {2} for the duration of Skill."
 SKILL_DESC_91007121,"[Disperse, Crystal Haze!] Increases ATK Spd by an additional 120 and the duration of [Arcane Crystal Awakening] by 7 sec."
 SKILL_DESC_91007122,"[Disperse, Crystal Haze!] Increases ATK Spd by an additional 140 and the duration of [Arcane Crystal Awakening] by 7 sec."
 SKILL_DESC_91007123,"[Disperse, Crystal Haze!] Increases ATK Spd by an additional 170 and the duration of [Arcane Crystal Awakening] by 7 sec."
@@ -291,7 +291,7 @@ SKILL_DESC_60009840,DMG Boost against Bosses changes to {1}%.
 SKILL_DESC_60009841,Mana Recovery per sec changes to {1}.
 SKILL_DESC_60009850,"ATK, DEF, HP +15% / HP +10%"
 SKILL_DESC_60009851,"At the beginning of each battle, consumes {1}% of self's current HP and increases ATK of all allies by {3}% for {2} sec. If there are 3 or less allies, reduces DMG that all allies take by {4}%."
-SKILL_DESC_90000980,"Depending on which form Cain is in, Normal and Skill attacks grant additional effects.\n[God King] - Stuns the target for {2} sec with a {1}% chance.\n[Tyrant] - Increases P.DMG the target takes by {4}% for {3} sec."
+SKILL_DESC_90000980,"Depending on which form Cain is in, normal and Skill attacks grant additional effects.\n[God King] Stuns the target for {2} sec with a {1}% chance.\n[Tyrant] Increases P.DMG the target takes by {4}% for {3} sec. The target inflicted with this effect will not receive this effect again for {5} sec."
 SKILL_DESC_91009810,[Tremble!] Increases All DMG Reduction effect of the Skill by an additional {1}%.\n[Kneel.] Reduces Mana Cost by 1.
 SKILL_DESC_91009820,"[Behold My Might.] Increases DMG by {1}% and when Cain is in Tyrant form, increases DMG by {2}%."
 SKILL_DESC_91009830,[Gaze Upon My Almighty Power!] Increases ATK Boost by {1}%. \n[Now Die.] Increases P.DMG the hit target takes by {3}% for {2} sec.

@@ -994,11 +994,11 @@ TRIAL_ALERT_TEXT,[FF7F00] Insufficient keys to enter.\nDo you want to buy keys t
 TRIAL_ENTER_RUBY,Enter with {1} Rubies
 TRIAL_CLOSE_TIME,Closing in {1} minute(s)
 TRIAL_INFO,You can acquire Awakening opportunities for {1}\nclass heroes.
-TRIAL_SEAL_GATE_OPEN_TITLE,Unseal the door and prepare for battle.
+TRIAL_SEAL_GATE_OPEN_TITLE,Unseal the gate and prepare for battle.
 TRIAL_SEAL_GATE_OPEN_DESC,Undertake the ordeal\nto get stronger.
 UI_BAN_USER,Kick
 UI_INVITE_USER,Invite
-UNLOCK_SEAL_ITEM_USE_CONFIRM,Do you want to use the item(s) to unseal the door?
+UNLOCK_SEAL_ITEM_USE_CONFIRM,Do you want to use the item(s) to unseal the gate?
 VISIT_REWARD_TITLE,Visit Reward
 WALL_TEXT,Castle Wall Defense
 WALL_DESCRIPTION,Protects Orvelia from powerful invasions by the Dark Legion!\nYou can receive rewards if you hold off an ongoing invasion for a long time.
@@ -1331,8 +1331,8 @@ COUPON_INPUT_MESSAGE,Enter the coupon number.
 COUPON_NOTICE_MESSAGE,※ Duplicate coupon. Cannot be used.\n※ Rewards are sent to your mailbox and will be kept for 3 days.
 PROMOTION.USE_COUPON_SUCCESS,Please check your mailbox for coupons.
 PLAYPOINT_REWARD_TITLE,Google Play Points
-PLAYPOINT_REWARD_CONTENT,Do you want to receive Google Play Points reward?
-PLAYPOINT_REWARD_WARNING,You will receive the reward in your Inventory
+PLAYPOINT_REWARD_CONTENT,Do you want to receive the Google Play Points Ruby reward?
+PLAYPOINT_REWARD_WARNING,The received Rubies will be immediately added to your current Rubies.
 GUEST_LOGIN_MESSAGE,Logged on as Guest.
 NICK_NAME_CHANGE_DESC,Only the first User Name Change is free of charge.
 NICK_NAME_CHANGE_MESSAGE,You do not have any User Name Change Ticket.
@@ -1753,7 +1753,7 @@ PARTY.PARTY_ASK_BAN_USER,Will you really kick {1}?\nKicked users cannot rejoin t
 PARTY.PARTY_ASK_BAN_USER_2,Will you really kick {1}?
 RAID_PARTY_BLOCK,You cannot rejoin a room after being kicked.
 RAID_MANAGE_INVENTORY,Manage Inventory
-ITEM.PACKAGE_ITEM_TITLE,Result({1}Items)
+ITEM.PACKAGE_ITEM_TITLE,Result ({1} Items)
 PARTY.PARTY_DESTROYED,Room Leader has left the Party. Rewards are still available.
 PARTY.PARTY_DESTROYED_WITHOUT_REWARD,Room Leader has left the Party and rewards have become unavailable.
 PAY.SHOP.GEM_MILEAGE_OBTAIN_MSG,"※ Upon purchase, receive {1} mileage\nDiscounted item mileage will be readjusted based on price"
@@ -2802,8 +2802,8 @@ TOOLTIP_INFO_NAME_UNDERGROUNDLABYRINTHKEY,Royal Vault Key
 TOOLTIP_INFO_NAME_HIDEOUTKEY,Upper Dungeon Key
 TOOLTIP_INFO_NAME_CHALLENGETOWERKEY,Cube of Challenge
 TOOLTIP_INFO_NAME_EVENTDUNGEONTICKET,Threads of Fate
-TOOLTIP_INFO_NAME_EVENTDUNGEONPOINT,Wish Coupon
-TOOLTIP_INFO_NAME_EVENTDUNGEONPOINT2,Festival Balloon
+TOOLTIP_INFO_NAME_EVENTDUNGEONPOINT,Item Exchange Ticket
+TOOLTIP_INFO_NAME_EVENTDUNGEONPOINT2,Chocolate Ball
 TOOLTIP_INFO_NAME_EVENTDUNGEONTICKET_BACKUP,Halloween Dungeon Key
 TOOLTIP_INFO_NAME_EVENTDUNGEONPOINT_BACKUP,Halloween Point
 TOOLTIP_INFO_NAME_CONQUESTKEY,Conquest Entry Key
@@ -2825,8 +2825,8 @@ TOOLTIP_INFO_TEXT_UNDERGROUNDLABYRINTHKEY,Keys needed in order to enter the Roya
 TOOLTIP_INFO_TEXT_HIDEOUTKEY,Keys needed in order to enter the Upper Dungeon.
 TOOLTIP_INFO_TEXT_CHALLENGETOWERKEY,Cubes needed in order to enter the Tower of Challenge.
 TOOLTIP_INFO_TEXT_EVENTDUNGEONTICKET,Keys needed in order to enter Event Dungeons.
-TOOLTIP_INFO_TEXT_EVENTDUNGEONPOINT,An item obtained by clearing the Troublesome Wish Box Event Dungeon. It is used to purchase items from the Event Shop.
-TOOLTIP_INFO_TEXT_EVENTDUNGEONPOINT2,"An item obtained by clearing the 1,000 Days Anniversary Special Dungeon. It is used to purchase items from the 1,000 Days Anniversary Shop."
+TOOLTIP_INFO_TEXT_EVENTDUNGEONPOINT,An item obtained by clearing the Story Dungeon. It is used to purchase items from the Event Shop.
+TOOLTIP_INFO_TEXT_EVENTDUNGEONPOINT2,An item obtained by clearing the Special Dungeon. It is used to purchase items from the Event Shop.
 TOOLTIP_INFO_NAME_GLORYPOINT,Honor Medal
 TOOLTIP_INFO_TEXT_GLORYPOINT,A type of point available at the League of Honor. Use to exchange for items in the League of Honor Shop.
 TOOLTIP_INFO_NAME_RANKINGPOINT,Insignia of Honor
@@ -2867,8 +2867,8 @@ MATCH_PICKBAN_INEXSTENT_HERO,This hero does not exist.
 MATCH_PICKBAN_ALREADY_SELECT_HERO,This hero has already been picked.
 MATCH_PICKBAN_SEASON_INFO_FREE_TITLE,Free Season Rules
 MATCH_PICKBAN_SEASON_INFO_REAL_TITLE,Main Season Rules
-MATCH_PICKBAN_SEASON_INFO_FREE_DESC,"The League of Honor Free Season is a PvP system where players create teams of 4 and battle for a single round.\nEach player can ban 1 Hero from the opponent's Hero list, and can pick 5 from their own Hero list to use in the match. Lastly each player then bans 1 Hero from the 5 Heroes picked by the opponent.\nBoth parties' banned Heroes and Heroes picked by the opponent cannot be part of your party.\nAfter Team selection, defeat all enemy team heroes within the time limit to win.\nUpon reaching the time limit, the team with the higher HP count wins.\nSeason length and starting date may differ across seasons.\nThere are no limits to Hero level or awakening during the Free Season, and anyone who owns more than 12 Heroes can participate."
-MATCH_PICKBAN_SEASON_INFO_REAL_DESC,"The League of Honor Main Season is a PvP system where players create teams of 4 and battle for a single round.\nEach player can ban 1 Hero from the opponent's Hero list, and can pick 5 from their own Hero list to use in the match. Lastly each player then bans 1 of the 5 Heroes picked by the opponent.\nBoth parties' banned Heroes and Heroes picked by the opponent cannot be part of your party.\nAfter Team selection, defeat all enemy team heroes within the time limit.\nUpon reaching the time limit, the team with the higher HP count wins.\nSeason length and beginning date may differ per season.\nThere are no limits to Hero level or awakening during the Main Season, and anyone who owns more than 12 Heroes can participate."
+MATCH_PICKBAN_SEASON_INFO_FREE_DESC,"The League of Honor Free Season is a PvP system where players create teams of 4 and battle for a single round.\nEach player can ban 1 Hero from the opponent's Hero list, and can pick 5 from their own Hero list to use in the match. Lastly, each player then bans 1 Hero from the 5 Heroes picked by the opponent.\nBoth parties' banned Heroes and Heroes picked by the opponent cannot be part of your party.\nAfter Team selection, defeat all enemy team Heroes within the time limit to win.\nUpon reaching the time limit, the team with the higher HP count wins.\nSeason length and starting date may differ by season.\nThere are no limits to Hero level or Awakening during the Free Season, and anyone who owns more than 12 Heroes can participate.\nAll players participating in the League of Honor will earn an additional 45 Honor Points."
+MATCH_PICKBAN_SEASON_INFO_REAL_DESC,"The League of Honor Main Season is a PvP system where players create teams of 4 and battle for a single round.\nEach player can ban 1 Hero from the opponent's Hero list, and can pick 5 from their own Hero list to use in the match. Lastly, each player then bans 1 of the 5 Heroes picked by the opponent.\nBoth parties' banned Heroes and Heroes picked by the opponent cannot be part of your party.\nAfter Team selection, defeat all enemy team Heroes within the time limit to win.\nUpon reaching the time limit, the team with the higher HP count wins.\nSeason length and beginning date may differ by season.\nThere are no limits to Hero level or Awakening during the Main Season, and anyone who owns more than 12 Heroes can participate.\nAll players participating in the League of Honor will earn an additional 45 Honor Points."
 MATCH_PICKBAN_SEASON_REWARDINFO_FREE_TITLE,Reward Info
 MATCH_PICKBAN_SEASON_REWARDINFO_FREE_DESC,"During the Free Season, there are no Season/Weekly rewards."
 MATCH_PICKBAN_JOIN_REWARD,Participation Reward
@@ -3855,15 +3855,19 @@ SUBSTORY_MAIN_REQUIRE_CHARACTER,Play Conditions
 SUBSTORY_MAIN_REQUIRE_DUNGEON,Clear {1}-{2}
 SUBSTORY_MAIN_FIRST_REWARD,First Reward
 SUBSTORY_MAIN_COSTUME_REWARD,Purchasable Costume
+SUBSTORY_MAIN_TACTIC,Guide
+SUBSTORY_MAIN_REQUIRE_CHARACTER_LEVEL,Reach Lv.{2} with {1}
+SUBSTORY_CHAPTER_NOT_CLEAR_DUNGEON,{1}-{2} needs to be cleared.
 NODE_SUBSTORY_STORY,Story
 REWARD_SUBSTORY_TITLE,First Clear Reward
 UNLOCK_NEW_COSTUME_POPUP_TITLE,Costume Purchasable
 COSTUME_OBTAIN_DESC_SUBSTORY,Purchasable\nafter clearing the substory
 RESULT_TYPE.SUBSTORY_CLASS_STORY_EMPTY,The substory for the hero of the class\nhasn't been updated yet.
 SUBSTORY_HERO_STAR_LOW_TITLE,Insufficient Hero Level
-SUBSTORY_HERO_STAR_LOW_DESC,The hero's awakening or transcendence level is not high enough to see the story.
+SUBSTORY_HERO_STAR_LOW_DESC,The Hero's Transcendence phase or level is not high enough to proceed with this stage.
 SUBSTORY_CHAPTER_NOT_CLEAR_TITLE,Not Enough Chapter Progress
 SUBSTORY_CHAPTER_NOT_CLEAR_DESC,You need to progress through the chapter to see the story.
+SUBSTORY_MAIN_REQUIRE_CHARACTER_OWN,Own {1}
 SUBSTORY_MAIN_REQUIRE_CHARACTER_STAR,Reach {1} Stars
 SUBSTORY_MAIN_REQUIRE_CHARACTER_TRANS,Reach T{1}
 SUBSTORY_MAIN_REQUIRE_CHAPTER,Chapter {1}
@@ -3872,10 +3876,12 @@ SUBSTORY_DUNGEON_TITLE17,Substory: Dimael
 SUBSTORY_DUNGEON_TITLE40,Substory : Theo
 SUBSTORY_DUNGEON_TITLE43,Substory : Viska
 SUBSTORY_DUNGEON_TITLE44,Substory: Priscilla
+SUBSTORY_DUNGEON_TITLE49,Substory: Ophelia
 SUBSTORY_DUNGEON_TITLE52,Substory: Crow
 COSTUMESHOP_SUBSTORY_VIEW_TEXT,Substory
 COSTUME_OBTAIN_DESC_DETAIL_SUBSTORY,Can be purchased after clearing substory
 COSTUME_OBTAIN_DESC_SHOP_TAG,Clear substory
+REMINISCENCE_MIRROR_ENTER,Mirror of\nReminiscence
 CHALLENGERAID_SEASON_RANKING_DESC,"Congratulations, you are now in the season rankings for the Challenge Raid!"
 CHALLENGERAID_SEASON_RANKING_TITLE,Challenge Raid Season Reward!
 CHALLENGERAID_SEASON_PLAY_DESC,Thank you for participating in the Challenge Raid ranking battles!
@@ -3921,6 +3927,7 @@ COSTUME_GROUP_CASAULFASHION1,Casual Fashion
 COSTUME_GROUP_CASUALFASHION1,Casual Fashion
 COSTUME_GROUP_HEROICCAREER1,Uniform
 COSTUME_GROUP_FESTIVENOELS,Christmas 3
+COSTUME_GROUP_DESSERT,Dessert Outfit
 UI_SELECT_HERO_NONE,No heroes are available to select.
 UI_SELECT_COSTUME_NONE,No costumes are available to select.
 FILTER_SELECT.FILTER_SELECT_PART,View by Part
@@ -4679,8 +4686,8 @@ BENEFIT_NEWBIE_1DOLLARSHOP_CUMULATIVE,Upon Completion:
 SHOP_TAB_EYE,Eyes
 SHOP_TAB_NOSE,Nose
 SHOP_TAB_BODY,Body
-CONTENT_CUSTOMIZE_ACCESSORY_EQUIP_HERO_POPUP_TITLE,Select a Hero
-CONTENT_CUSTOMIZE_ACCESSORY_EQUIP_HERO_POPUP_DESC,Select a Hero to equip the accessory
+CONTENT_CUSTOMIZE_ACCESSORY_EQUIP_HERO_POPUP_TITLE,Select a Hero.
+CONTENT_CUSTOMIZE_ACCESSORY_EQUIP_HERO_POPUP_DESC,Select a Hero to equip the Accessory.
 CONTENT_CUSTOMIZE_HERO,Dressing Room
 CONTENT_CUSTOMIZE_BUY_ALL,Buy All
 CONTENT_CUSTOMIZE_EQUIP_ALL,Equip All
@@ -5497,14 +5504,6 @@ EVENT_19HALLOWEEN_DUNGEONNAME5,Secret Room
 EVENT_19HALLOWEEN_DUNGEONNAME6,Dark Forest
 ITEM_NAME_91337,Halloween Accessory Box
 ITEM_DESC2_91337,"A box that contains Halloween Accessories. Upon use, you can obtain limited Hero Customization Items."
-COSTUME_NAME_ACCESSORY_HEAD_3100701,Little Witch Hat
-COSTUME_DESC_ACCESSORY_HEAD_3100701,A small witch’s hat
-COSTUME_NAME_ACCESSORY_HEAD_3100801,Pumpkin Decoration Headband
-COSTUME_DESC_ACCESSORY_HEAD_3100801,A headband with a cute pumpkin decoration
-COSTUME_NAME_ACCESSORY_BODY_3400801,White Fox Tail
-COSTUME_DESC_ACCESSORY_BODY_3400801,An accessory that looks like the tail of a white fox.
-COSTUME_NAME_ACCESSORY_BODY_3400901,Bat Wings
-COSTUME_DESC_ACCESSORY_BODY_3400901,An accessory that looks like a bat's wings.
 ITEM_NAME_47020,Marble of Darkness
 ITEM_DESC2_47020,An item that can be given to Lavril as a gift.\nIncreases Contribution by 1.
 ITEM_NAME_91336,Lavril’s Present
@@ -5538,6 +5537,8 @@ PUSH_REWARD_DINNER,Evening Reward Claimed
 IMPROVE_RESETREMAININGDATE,{1} remaining
 RECOGNITION_DAY,d
 RECOGNITION_HOUR,h
+RECOGNITION_UNDERHOUR,less than
+ADVENTURE_NOTICE_CONTENTS_NAME,Enter Korean Text
 ADVENTURE_NOTICE_STAMINA_REGENERATION,{1} : {2} : {3}
 ADVENTURE_NOTICE_RESET_REMAIN_DAY,{1}d remaining
 ADVENTURE_NOTICE_RESET_REMAIN_HOUR_1,{1}h remaining
@@ -5563,16 +5564,17 @@ EVENT_DUNGEON_1000DAYS_NAME2,10 Days of Gratitude
 EVENT_DUNGEON_1000DAYS_NAME3,100 Days of Delight
 EVENT_DUNGEON_1000DAYS_NAME4,"1,000 Days of Exhilaration"
 SHOP_NAME_1000DAYS_SHOP,"1,000 Days Anniversary Festival Shop"
-TOOLTIP_INFO_NAME_SHOPEVENTPOINT,Black Token
+TOOLTIP_INFO_NAME_SHOPEVENTPOINT,Chocolate
 TOOLTIP_INFO_TEXT_SHOPEVENTPOINT,Limited Time Event Currency obtained upon purchasing a cash item.\nYou can exchange them with rewards at the Special Shop. Please note that you cannot obtain or use them once the event period is over.
-PAY_SHOP_CATEGORY.PAY_SHOP_EVENT,Black Friday
-RESULT_TYPE.NOT_ENOUGH_SHOP_EVENT_POINT,Insufficient Black Token(s).
+PAY_SHOP_CATEGORY.PAY_SHOP_EVENT,Valentine
+RESULT_TYPE.NOT_ENOUGH_SHOP_EVENT_POINT,Insufficient Chocolate(s).
 SHOP_TAB_EVENT_BM,Special Item
-SHOP_TAB_EVENT_POINT,Black Token Shop
-COMMON.SHOP_EVENT_POINT_COUNT,{1} Black Token
-EVENT_BLACK_FRIDAY_POINT_DESC2_01,Black Token is a Limited Time Event Currency that can be obtained upon purchasing a cash item.
-COMMON_EVENT_DAY_DESC2_01,※Event Period: Until 17th December Maintenance
-EVENT_BLACK_FRIDAY_TICKET,Black Token
+SHOP_TAB_EVENT_POINT,Chocolate Shop
+COMMON.SHOP_EVENT_POINT_COUNT,{1} Chocolate
+EVENT_BLACK_FRIDAY_POINT_DESC2_01,A Chocolate is a Limited Time Event Currency that can be obtained upon purchasing a cash item.
+COMMON_EVENT_DAY_DESC2_01,※Event Period: Until 10th March Maintenance
+COMMON_EVENT_DAY_DESC2_02,※Effective Period of Chocolates: Until 24th March Maintenance
+EVENT_BLACK_FRIDAY_TICKET,Chocolate
 EVENT_DUNGEON_DESTINYLIGHT,Where the Light of Fate Shines
 DESTINYLIGHT_EVENT_NAME,Where the Light of Fate Shines
 EVENT_NAME_DESTINYLIGHT,Where the Light of Fate Shines Event Info
@@ -5721,4 +5723,62 @@ PAYSHOP_PREPURCHASE_SOULWEAPON_ETHER_4,Provided upon 5th purchase: Brilliant Eth
 LEGEND_EQUIP_PAYBACK_REWARD_MAIL_TITLE,Item Component Upgrade Reward
 LEGEND_EQUIP_PAYBACK_REWARD_MAIL_CONTENT,"Due to the upgrade in ‘Legendary Armor Package,’ we are offering the upgraded items all at once according to the number of purchases made on the item."
 CLEARMISSION_PASSPOPUP_PROGRESS,[db6a3e] ({1}/{2})[-]
-PAYSHOP_RECOMMENDPOPUP_TITLE,Recommended Items
+PAYSHOP_RECOMMENDPOPUP_TITLE,Recommended Item
+BENEFIT_NEWBIE_REWARD_MAIL_TITLE,Unclaimed Rewards for New Player Level Up Mission and New Player Chapter Clear Mission
+BENEFIT_NEWBIE_REWARD_MAIL_CONTENT,We are offering unclaimed rewards all at once for removing 'New Player Level Up Mission' and 'New Player Chapter Clear Mission' from the 17th December Beginner Benefits Collection pop-up.
+PACKAGE_DAILY_STAMINA_DESC2,"Obtain 1,000 Rubies upon purchase.\nLog in for 7 days to obtain 40 Stamina Potions every day."
+PACKAGE_DAILY_FRIENDSHIP_DESC2,"Obtain 2,000 Rubies upon purchase.\nLog in for 7 days to obtain 5 Circles of Friendship every day."
+GLORY_REQUIREPOINT,Attained Points
+GLORY_VICTORY_REWARD,Victory Reward
+GLORY_WEEKLY_REWARD,Weekly Reward
+GLORY_SEASON_LASTPLACE,Less than 1300
+GLORY_REWARD_NAME,League of Honor Season Reward
+GLORY_COSTUME_BUTTON,Details
+GLORY_COSTUME_NAME,Light of the Blue Night Sky
+CLEARMISSION_PASSPOPUP_LEVELUP_III,Level Up Breakthrough Package III
+HERO_INFO_GET_NEW_HERO_BUNDLE_BTN,Joint Recruit Scene\nCleo & Roi
+HERO_ACTION_SIGNATURE,Signature Motion
+EQUIP_ITEM_FULL_DESC,You cannot use this item since you're carrying too many Gear.\nPlease try again after you organize your Gear.
+MOVE_EQUIP_BAG,Move to Gear
+PACKAGE_DAILY_STAMINA_MAIL_TITLE,Daily Stamina
+PACKAGE_DAILY_NPC_MAIL_TITLE,Daily NPC Kinship Rate
+PACKAGE_DAILY_STAMINA_MAIL_CONTENT,The reward for the Daily Stamina purchase has arrived!
+PACKAGE_DAILY_NPC_MAIL_CONTENT,The reward for the Daily NPC Kinship Rate purchase has arrived!
+PACKAGE_DAILY_LUAPOINT_1000,11 Lua's Tokens
+PACKAGE_DAILY_LUAPOINT_2000,22 Lua's Tokens
+PACKAGE_DAILY_7DAYS_RUBY_MAIN_1,"450 Rubies (Upon login, for 7 days)"
+PACKAGE_DAILY_7DAYS_RUBY_BONUS_1,"1,000 Rubies"
+PACKAGE_DAILY_7DAYS_RUBY_DESC2,"Log in for 7 days to obtain 450 Rubies every day.\nObtain a total of 4,150 Rubies including Bonus."
+ALL_IN_ONE_DAY_FIRST_SALE_TEXT,Once a Day
+EVENT_LILIA_FIGURE_PACKAGE_TITLE,Lilia Package
+EVENT_LILIA_FIGURE_PACKAGE_CONTENT,Thank you for purchasing the Lilia Figure.
+EVENT_DUNGEON_20VALENTINE,Spring Festival Dungeon
+EVENT_SHOP_20VALENTINE,Spring Festival Shop
+EVENT_DUNGEON_DESC_STORY_20VALENTINE,This is an Event Story Dungeon.\nYou can enjoy the story of the festival.
+EVENT_DUNGEON_DESC_SPECIAL_20VALENTINE,Unlocked after clearing the Story Dungeon.
+EVENT_20VALENTINE_TICKET,Event Entry Ticket
+TOOLTIP_INFO_NAME_EVENT_TOKEN_20VALENTINE,Item Exchange Ticket
+TOOLTIP_INFO_DESC_EVENT_TOKEN_20VALENTINE,An item obtained by clearing the Story Dungeon. It is used to purchase items from the Event Shop.
+TOOLTIP_INFO_NAME_EVENT_CHOCOLATE_20VALENTINE,Chocolate Ball
+TOOLTIP_INFO_DESC_EVENT_CHOCOLATE_20VALENTINE,An item obtained by clearing the Special Dungeon. It is used to purchase items from the Event Shop.
+EVENT_INFO_20VALENTINE,Festival Guide
+EVENT_NAME_20VALENTINE,Spring Festival Dungeon
+EVENT_DESC_20VALENTINE,"- Spring Festival Dungeon\nClear the Story Dungeon to obtain an Item Exchange Ticket,\nand clear the Special Dungeon to obtain a Chocolate Ball.\n\n-Celebrate the Festival with NPCs\nVisit the 9 NPCs (Gladi, May, Veronica, Loman, Nicky, Juno, Dosarta, Hanus, and Cain) located in various areas.\nSurprise gifts are waiting for you.\n\n-Event Entry Ticket\nTo enter the Event Dungeon, you need Event Entry Tickets.\nYou will be provided with 2 of them at the start of the event, and will be charged with 1 every midnight.\n(You cannot own more than 2 tickets.)"
+20VALENTINE_EVENT_NAME,Spring Festival
+EVENT_DUNGEON_20VALENTINE_NAME1,Please Don't Take Them!
+EVENT_DUNGEON_20VALENTINE_DESC1,They're Not Collectibles!
+EVENT_DUNGEON_20VALENTINE_NAME2,Please Don't Eat Them!
+EVENT_DUNGEON_20VALENTINE_DESC2,Bring Them to the Shops!
+EVENT_DUNGEON_20VALENTINE_NAME3,Please Don't Steal Them!
+EVENT_DUNGEON_20VALENTINE_DESC3,No Cheating Please!
+EVENT_DUNGEON_20VALENTINE_NAME4,Milk Chocolate Dungeon
+EVENT_DUNGEON_20VALENTINE_DESC4,Sweet Chocolate for Thee
+EVENT_DUNGEON_20VALENTINE_NAME5,Dark Chocolate Dungeon
+EVENT_DUNGEON_20VALENTINE_DESC5,Bitter Sweet Chocolate for Thee
+SHOP_NAME_20VALENTINE_SHOP,Spring Festival Shop
+REVIEW_POPUP_REVIEW,Of Course!
+REVIEW_POPUP_CS,Needs Improvement
+REVIEW_POPUP_EXIT,Next Time
+2020_MAY_HERO_SELECT_ITEM_DESC,※5 Star Hero Ticket: You can select up to 'Rehartna.'\nThe range of selectable Unique Weapons and Unique Treasures from (Random) Unique Weapon Tickets and (Random) Unique Treasure Tickets follows the in-game setup.
+20SPRING_FESTIVAL_DUNGEON,Spring Festival Dungeon
+SHOP_NAME_2020_VALENTINE_SHOP,Spring Festival Shop

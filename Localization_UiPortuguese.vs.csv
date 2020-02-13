@@ -1331,8 +1331,8 @@ COUPON_INPUT_MESSAGE,Digite o número de cupom.
 COUPON_NOTICE_MESSAGE,※ Cupom duplicado. Não pode ser usado.\n※ Recompensas são enviadas para sua caixa de correio e serão mantidos por 3 dias.
 PROMOTION.USE_COUPON_SUCCESS,Verifique se há cupons na sua caixa de correio.
 PLAYPOINT_REWARD_TITLE,Google Play Points
-PLAYPOINT_REWARD_CONTENT,Do you want to receive Google Play Points reward?
-PLAYPOINT_REWARD_WARNING,You will receive the reward in your Inventory
+PLAYPOINT_REWARD_CONTENT,Gostaria de receber Rubis como prêmio de pontos acumulados do Google Play?
+PLAYPOINT_REWARD_WARNING,Os Rubis resgatados serão imediatamente adicionados aos Rubis que já possui.
 GUEST_LOGIN_MESSAGE,Acessando como convidado.
 NICK_NAME_CHANGE_DESC,Somente a primeira Alteração de Nome de Usuário é gratuita.
 NICK_NAME_CHANGE_MESSAGE,Você não possui nenhum Bilhete de Mudança de Nome (Usuário).
@@ -2293,7 +2293,7 @@ WORLDBOSS_INFO_PLAY_REWARD_DESC,Todos os usuários que participam da batalha de 
 WORLDBOSS_INFO_RANKING_REWARD_TITLE,Recompensa de Classificação
 WORLDBOSS_INFO_RANKING_REWARD_DESC,"Recompensas de Classificação Diárias são dadas às 00:00 quando o Chefe de Mundo estiver em progresso.\nQuando o Chefe de Mundo for derrotado, Recompensas de Classificação de Temporada e Recompensas de Classificação Diárias serão emitidas."
 WORLDBOSS_INFO_KILL_REWARD_TITLE,Recompensa de Último Golpe
-WORLDBOSS_INFO_KILL_REWARD_DESC,Esta recompensa é concedida apenas ao Assassino do Chefe de Mundo.\nEsta recompensa inclui 1.000 rubis e um Cupom Aleatório de Arma Única.
+WORLDBOSS_INFO_KILL_REWARD_DESC,Esta recompensa é concedida apenas ao Assassino do Chefe de Mundo.\nEsta recompensa inclui 1.000 rubis e um Bilhete de Arma Única Aleatória.
 WORLDBOSS_KILL_REWARD_DESC,"Parabéns! Você derrotou o Chefe de Mundo. \nEsta recompensa é apenas para você, o Assassino do Chefe de Mundo. \nEsta recompensa será enviada para sua caixa de correio."
 WORLDBOSS_SCORE_RANK_TITLE,Classificação do Chefe de Mundo
 WORLD_BOSS.WORLDBOSS_MY_RANKING,(Classificação {1})
@@ -2802,8 +2802,8 @@ TOOLTIP_INFO_NAME_UNDERGROUNDLABYRINTHKEY,Chave do Cofre Real
 TOOLTIP_INFO_NAME_HIDEOUTKEY,Chave da Masmorra Superior
 TOOLTIP_INFO_NAME_CHALLENGETOWERKEY,Cubo do Desafio
 TOOLTIP_INFO_NAME_EVENTDUNGEONTICKET,Fio do Destino
-TOOLTIP_INFO_NAME_EVENTDUNGEONPOINT,Cupom de Participação
-TOOLTIP_INFO_NAME_EVENTDUNGEONPOINT2,Balão Festivo
+TOOLTIP_INFO_NAME_EVENTDUNGEONPOINT,Cupom de Produtos
+TOOLTIP_INFO_NAME_EVENTDUNGEONPOINT2,Bolinha de Chocolate
 TOOLTIP_INFO_NAME_EVENTDUNGEONTICKET_BACKUP,Chave de Masmorra do Halloween
 TOOLTIP_INFO_NAME_EVENTDUNGEONPOINT_BACKUP,Ponto de Halloween
 TOOLTIP_INFO_NAME_CONQUESTKEY,Chave da Batalha do Triunfo
@@ -2825,8 +2825,8 @@ TOOLTIP_INFO_TEXT_UNDERGROUNDLABYRINTHKEY,Chaves necessárias para entrar no Cof
 TOOLTIP_INFO_TEXT_HIDEOUTKEY,Chaves necessárias para entrar na Masmorra Superior.
 TOOLTIP_INFO_TEXT_CHALLENGETOWERKEY,Cubos necessários para entrar na Torre do Desafio.
 TOOLTIP_INFO_TEXT_EVENTDUNGEONTICKET,Chaves necessárias para entrar nas Masmorras de Evento.
-TOOLTIP_INFO_TEXT_EVENTDUNGEONPOINT,Moeda de troca obtida ao concluir as masmorras do evento Caixa do Desejo Descontrolado. Pode ser usada para comprar itens na Loja do Evento.
-TOOLTIP_INFO_TEXT_EVENTDUNGEONPOINT2,Moeda de troca obtida ao concluir as masmorras especiais do festival de comemoração de 1.000 dias. Podem ser usadas para comprar itens na Loja do Festival de 1.000 dias.
+TOOLTIP_INFO_TEXT_EVENTDUNGEONPOINT,Moeda de troca obtida ao concluir as Masmorras de História. Pode ser usada para comprar itens na Loja do Evento.
+TOOLTIP_INFO_TEXT_EVENTDUNGEONPOINT2,Moeda de troca obtida ao concluir as Masmorras Especiais. Podem ser usadas para comprar itens na Loja do Evento.
 TOOLTIP_INFO_NAME_GLORYPOINT,Medalha de Honra
 TOOLTIP_INFO_TEXT_GLORYPOINT,Um tipo de ponto disponível na Liga da Honra. Use para trocar os itens na Loja da Liga da Honra.
 TOOLTIP_INFO_NAME_RANKINGPOINT,Insígnia de Honra
@@ -2853,7 +2853,7 @@ MATCH_PICKBAN _MATCH_CANCEL_WIN_MSG,"O oponente desistiu e, portanto, você é o
 PVP_PVP2_DESCRIPTION,Banir Heróis oponentes e Escolher Heróis próprios nesta arena. \nGrandes recompensas estão disponíveis.
 PVP_PVP2_MATCH_TIME,Horário de Início: 12:00 ~ 24:00
 MATCH_PICKBAN_INFO,Informações da Arena
-MATCH_PICKBAN_WIN_REWARD,Recompensas da Vitória
+MATCH_PICKBAN_WIN_REWARD,Recompensa de Vitória
 MATCH_PICKBAN_CONTINUE_WIN,Recompensa por Vitória Consecutiva
 MATCH_PICKBAN_CONTINUE_WIN_REWARD_2,Recompensa de 2 Vitórias Consecutivas
 MATCH_PICKBAN_CONTINUE_WIN_REWARD_3,Recompensa de 3 Vitórias Consecutivas
@@ -2865,10 +2865,10 @@ MATCH_PICKBAN_CONDITION_FAIL_PRE,Disponível apenas quando você tiver mais que 
 MATCH_WEEKEND_BONUS_HERO,Herói Bônus Semanal
 MATCH_PICKBAN_INEXSTENT_HERO,Este herói não existe.
 MATCH_PICKBAN_ALREADY_SELECT_HERO,Este herói já foi escolhido.
-MATCH_PICKBAN_SEASON_INFO_FREE_TITLE,Regras Grátis da Temporada
+MATCH_PICKBAN_SEASON_INFO_FREE_TITLE,Regras da Temporada Gratuita
 MATCH_PICKBAN_SEASON_INFO_REAL_TITLE,Regras da Temporada Principal
-MATCH_PICKBAN_SEASON_INFO_FREE_DESC,"A Temporada Gratuita da Liga da Honra é um sistema JxJ no qual os jogadores criam equipes com 4 membros e batalham por uma única rodada.\nCada jogador pode banir 1 herói da lista de heróis do oponente, e pode escolher 5 de sua própria lista de heróis para usar na partida. Por fim, cada jogador então bane 1 herói dos 5 heróis escolhidos pelo oponente.\nTanto os heróis banidos da equipe quanto os heróis escolhidos do oponente não podem fazer parte da sua equipe.\nDepois de selecionar a Equipe, derrote todos os heróis da equipe inimiga dentro do tempo limite para vencer.\nAo atingir o tempo limite, vence a equipe com a maior contagem de PV.\nA duração e a data inicial da temporada podem diferir de acordo com a temporada.\nNão há limites de nível ou despertar durante a Temporada Gratuita, e qualquer um que possua mais que 12 heróis pode participar."
-MATCH_PICKBAN_SEASON_INFO_REAL_DESC,"A Temporada Principal da Liga da Honra é um sistema JxJ no qual os jogadores criam equipes com 4 membros e batalham por uma única rodada.\nCada jogador pode banir 1 herói da lista de heróis do oponente, e pode escolher 5 de sua própria lista de heróis para usar na partida. Por fim, cada jogador então bane 1 dos 5 heróis escolhidos pelo oponente.\nTanto os heróis banidos da equipe quanto os heróis escolhidos do oponente não podem fazer parte da sua equipe.\nDepois de selecionar a Equipe, derrote todos os heróis da equipe inimiga dentro do tempo limite.\nAo atingir o tempo limite, vence a equipe com a maior contagem de PV.\nA duração e a data inicial da temporada podem variar de acordo com a temporada.\nNão há limites de nível ou despertar durante a Temporada Principal, e qualquer um que possua mais que 12 heróis pode participar."
+MATCH_PICKBAN_SEASON_INFO_FREE_DESC,"A Temporada Gratuita da Liga da Honra é um sistema PvP, no qual os jogadores criam equipes com 4 membros e batalham por uma única rodada.\nCada jogador pode banir 1 herói da lista de heróis do oponente, e pode escolher 5 de sua própria lista de heróis para usar na partida. Por fim, cada jogador então bane 1 herói dos 5 heróis escolhidos pelo oponente.\nTanto os heróis banidos da equipe quanto os heróis escolhidos do oponente não podem fazer parte da sua equipe.\nDepois de selecionar a equipe, derrote todos os heróis da equipe inimiga dentro do tempo limite para vencer.\nAo atingir o tempo limite, vence a equipe com a maior contagem de PV.\nA duração e a data inicial da temporada podem diferir de acordo com a temporada.\nNão há limites de nível ou despertar durante a Temporada Gratuita, e qualquer um que possua mais que 12 heróis pode participar.\nTodos os usuários que participarem da Liga da Honra receberão adicionalmente 45 Pontos de Honra."
+MATCH_PICKBAN_SEASON_INFO_REAL_DESC,"A Temporada Principal da Liga da Honra é um sistema PvP, no qual os jogadores criam equipes com 4 membros e batalham por uma única rodada.\nCada jogador pode banir 1 herói da lista de heróis do oponente, e pode escolher 5 de sua própria lista de heróis para usar na partida. Por fim, cada jogador então bane 1 herói dos 5 heróis escolhidos pelo oponente.\nTanto os heróis banidos da equipe quanto os heróis escolhidos do oponente não podem fazer parte da sua equipe.\nDepois de selecionar a equipe, derrote todos os heróis da equipe inimiga dentro do tempo limite para vencer.\nAo atingir o tempo limite, vence a equipe com a maior contagem de PV.\nA duração e a data inicial da temporada podem diferir de acordo com a temporada.\nNão há limites de nível ou despertar durante a Temporada Principal, e qualquer um que possua mais que 12 heróis pode participar.\nTodos os usuários que participarem da Liga da Honra receberão adicionalmente 45 Pontos de Honra."
 MATCH_PICKBAN_SEASON_REWARDINFO_FREE_TITLE,Informações de Recompensa
 MATCH_PICKBAN_SEASON_REWARDINFO_FREE_DESC,"Durante a Temporada Grátis, não há recompensas de Temporada/Semanais."
 MATCH_PICKBAN_JOIN_REWARD,Recompensa de Participação
@@ -3245,9 +3245,9 @@ NEWBIE_PROMOTION_POPUP_DESC,"[Notificações] - Heróis Selecionáveis: Selecion
 1ST_ANNIVERSARY_RAID_DAY_5_DESC,"Lamento informar que este é o último dia de celebração. Mas nós estaremos sempre apoiando você durante sua jornada. Nós estamos concedendo um bilhete de traje adicional para que seu herói aquela pizza. Você também receberá um Bilhete de Armadura Lendária, disponível para equipamento de nível 61 - selecione a classe e a opção de equipamento de sua escolha. O Cristal de Realce Especial ajudará você no seu realce de equipamento."
 1ST_ANNIVERSARY_VESPA_DAY_1_DESC,"Está faltando alguma arma única para o seu herói favorito? Use o bilhete de arma única para selecionar a arma de sua escolha. Se você decidir despertar sua arma única, você consolidará seu caminho."
 1ST_ANNIVERSARY_VESPA_DAY_2_DESC,"Seu equipamento foi imbuído com opções de encantamento? Adicione a opção de encantamento para seu equipamento com o pergaminho correspondente que você receberá hoje. Concederemos um total de 12 pergaminhos, 3 para cada elemento! Não esqueça: a pedra do infinito ajudará você com a transcendência de herói."
-1ST_ANNIVERSARY_VESPA_DAY_3_DESC,"Receba Bilhetes de Arma Única aleatória por 3 dias seguidos, começando hoje! Você pode não ganhar a arma que você deseja, mas não fique desapontado. Você pode triturar Armas Únicas para receber Fragmentos de Arma Única. Colete 1.000 Fragmentos de Arma Única para fabricar um bilhete de arma única na aba fabricação. Não esqueça as 5 runas antigas que você também receberá hoje..."
-1ST_ANNIVERSARY_VESPA_DAY_4_DESC,"Um novo bilhete de arma única aleatória para um novo dia! Qual arma única cruzará o seu caminho? Lembre-se: um bilhete de preservação de runa pode ser usado sempre que você desejar. Preserve sua runa sem taxa extra por 24 horas, e altere as configurações de runa como achar melhor!"
-1ST_ANNIVERSARY_VESPA_DAY_5_DESC,"Lamento informar que este é o último dia de celebração. Mas nós estaremos sempre apoiando você durante sua jornada. Nós estamos concedendo um bilhete de arma única aleatória com mais 15 bilhetes de recriação. Se a opção equipamento atual não agradar a você, siga para a forja e use o bilhete de recriação em vez de rubis para substituir uma opção. (Você só pode recriar uma única opção da lista de opções.)"
+1ST_ANNIVERSARY_VESPA_DAY_3_DESC,"Receba Bilhetes de Arma Única Aleatória por 3 dias seguidos, começando hoje! Você pode não ganhar a arma que você deseja, mas não fique desapontado. Você pode triturar Armas Únicas para receber Fragmentos de Arma Única. Colete 1.000 Fragmentos de Arma Única para fabricar um Bilhete de Arma Unica na aba fabricação. Não esqueça as 5 runas antigas que você também receberá hoje..."
+1ST_ANNIVERSARY_VESPA_DAY_4_DESC,"Um novo Bilhete de Arma Única Aleatória para um novo dia! Qual Arma Única cruzará o seu caminho? Lembre-se: um bilhete de preservação de runa pode ser usado sempre que você desejar. Preserve sua runa sem taxa extra por 24 horas, e altere as configurações de runa como achar melhor!"
+1ST_ANNIVERSARY_VESPA_DAY_5_DESC,"Lamento informar que este é o último dia de celebração. Mas nós estaremos sempre apoiando você durante sua jornada. Nós estamos concedendo um Bilhete de Arma Única Aleatória com mais 15 bilhetes de recriação. Se a opção equipamento atual não agradar a você, siga para a forja e use o bilhete de recriação em vez de Rubis para substituir uma opção. (Você só pode recriar uma única opção da lista de opções.)"
 1ST_ANNIVERSARY_GET_REWARD,Resgatar Recompensa
 1ST_ANNIVERSARY_SHOW_REWARD,Ver Recompensa
 ITEM_USE.EQUIP_EXTEND_DESC_ALERT,O Inventário só pode ser expandido até 1400 espaços (Espaços de bilhetes não usados não podem ser devolvidos)
@@ -3287,7 +3287,7 @@ ATTENDANCE_NEWBIE_TODAY,Presente de Hoje
 ATTENDANCE_NEWBIE_TOMORROW,Presente de Amanhã
 ATTENDANCE_NEWBIE_DETAIL,Informações de Presente
 ATTENDANCE_NEWBIE_TRAIL,Jornada de 15 dias
-AUTUMN_LOVE_ROLL_BOOK_WARNING,※ NPC hero Unique Wepon is not included in the Random Unique Weapon Ticket.
+AUTUMN_LOVE_ROLL_BOOK_WARNING,※ Armas Únicas de Heóis NPC não estão incluídas no Bilhete de Arma Única Aleatória.
 PAY_SHOP_CATEGORY.SPECIAL,Especial
 PAY_SHOP_CATEGORY.GOODS,Bens e Consumíveis
 PAY_SHOP_CATEGORY.HERO,Heróis
@@ -3855,27 +3855,33 @@ SUBSTORY_MAIN_REQUIRE_CHARACTER,Condições de Jogo
 SUBSTORY_MAIN_REQUIRE_DUNGEON,Concluir {1}-{2}
 SUBSTORY_MAIN_FIRST_REWARD,Primeira Recompensa
 SUBSTORY_MAIN_COSTUME_REWARD,Traje Comprável
+SUBSTORY_MAIN_TACTIC,Táticas
+SUBSTORY_MAIN_REQUIRE_CHARACTER_LEVEL,Atingir {1} nível {2}
+SUBSTORY_CHAPTER_NOT_CLEAR_DUNGEON,Conclua {1}-{2} primeiro
 NODE_SUBSTORY_STORY,História
 REWARD_SUBSTORY_TITLE,Prêmio de 1ª Conclusão
 UNLOCK_NEW_COSTUME_POPUP_TITLE,Traje Comprável
 COSTUME_OBTAIN_DESC_SUBSTORY,Comprável\napós concluir a história secundária
 RESULT_TYPE.SUBSTORY_CLASS_STORY_EMPTY,A história secundária do herói da classe\nainda não foi atualizada.
 SUBSTORY_HERO_STAR_LOW_TITLE,Nível de Herói Insuficiente
-SUBSTORY_HERO_STAR_LOW_DESC,O nível de despertar ou de transcendência do herói não é alto o suficiente para ver a história.
+SUBSTORY_HERO_STAR_LOW_DESC,O nível de transcendência do herói ou o nível do próprio herói não é alto o suficiente para esta fase.
 SUBSTORY_CHAPTER_NOT_CLEAR_TITLE,Progresso no Capítulo Insuficiente
 SUBSTORY_CHAPTER_NOT_CLEAR_DESC,Você precisa obter progresso no capítulo para ver a história.
+SUBSTORY_MAIN_REQUIRE_CHARACTER_OWN,Ter {1}
 SUBSTORY_MAIN_REQUIRE_CHARACTER_STAR,Atingir {1} Estrelas
-SUBSTORY_MAIN_REQUIRE_CHARACTER_TRANS,Atingir T{1}
+SUBSTORY_MAIN_REQUIRE_CHARACTER_TRANS,Atingir Transcendência{1}
 SUBSTORY_MAIN_REQUIRE_CHAPTER,Capítulo {1}
 SUBSTORY_DUNGEON_TITLE16,História Secundária: Rephy
 SUBSTORY_DUNGEON_TITLE17,História Secundária: Dimael
 SUBSTORY_DUNGEON_TITLE40,História Secundária : Theo
 SUBSTORY_DUNGEON_TITLE43,História Secundária : Viska
 SUBSTORY_DUNGEON_TITLE44,História Secundária: Priscilla
+SUBSTORY_DUNGEON_TITLE49,História Secundária: Ophelia
 SUBSTORY_DUNGEON_TITLE52,História Secundária: Crow
 COSTUMESHOP_SUBSTORY_VIEW_TEXT,História Secundária
 COSTUME_OBTAIN_DESC_DETAIL_SUBSTORY,Pode ser comprado após concluir história secundária
 COSTUME_OBTAIN_DESC_SHOP_TAG,Concluir história secundária
+REMINISCENCE_MIRROR_ENTER,Espelho da\nReminiscência
 CHALLENGERAID_SEASON_RANKING_DESC,"Parabéns, agora você está nas classificações de temporada da Incursão de Desafio!"
 CHALLENGERAID_SEASON_RANKING_TITLE,Recompensa de Temporada de Incursão de Desafio!
 CHALLENGERAID_SEASON_PLAY_DESC,Obrigado por participar das batalhas classificatórias da Incursão de Desafio!
@@ -3921,6 +3927,7 @@ COSTUME_GROUP_CASAULFASHION1,Traje Casual
 COSTUME_GROUP_CASUALFASHION1,Traje Casual
 COSTUME_GROUP_HEROICCAREER1,Roupa de Trabalho
 COSTUME_GROUP_FESTIVENOELS,Natal 3
+COSTUME_GROUP_DESSERT,Traje de Sobremesa
 UI_SELECT_HERO_NONE,Não há heróis disponíveis para selecionar.
 UI_SELECT_COSTUME_NONE,Não há trajes disponíveis para selecionar.
 FILTER_SELECT.FILTER_SELECT_PART,Ver por Parte
@@ -5497,14 +5504,6 @@ EVENT_19HALLOWEEN_DUNGEONNAME5,Quarto Secreto
 EVENT_19HALLOWEEN_DUNGEONNAME6,Floresta Escura
 ITEM_NAME_91337,Caixa de Acessórios de Halloween
 ITEM_DESC2_91337,"Caixa que contém acessórios de comemoração do Dia das Bruxas. Ao usar, você recebe um item de customização."
-COSTUME_NAME_ACCESSORY_HEAD_3100701,Chapeuzinho de bruxa
-COSTUME_DESC_ACCESSORY_HEAD_3100701,Pequeno chapéu de bruxa
-COSTUME_NAME_ACCESSORY_HEAD_3100801,Tiara de abóbora
-COSTUME_DESC_ACCESSORY_HEAD_3100801,Tiara enfeitada com abóboras
-COSTUME_NAME_ACCESSORY_BODY_3400801,Rabo de Lobo Branco
-COSTUME_DESC_ACCESSORY_BODY_3400801,Acessório com formato de rabo de lobo branco
-COSTUME_NAME_ACCESSORY_BODY_3400901,Asas de Morcego
-COSTUME_DESC_ACCESSORY_BODY_3400901,Acessório com formato de asas de morcego
 ITEM_NAME_47020,Orbe que contém Escuridão
 ITEM_DESC2_47020,Um item que pode ser dado a Lavril como presente.\nAumenta a Contribuição em 1.
 ITEM_NAME_91336,Presente de Lavril
@@ -5538,6 +5537,8 @@ PUSH_REWARD_DINNER,Presente da hora do jantar
 IMPROVE_RESETREMAININGDATE,{1} restante(s)
 RECOGNITION_DAY,Dia(s)
 RECOGNITION_HOUR,Hora(s)
+RECOGNITION_UNDERHOUR,Menos de
+ADVENTURE_NOTICE_CONTENTS_NAME,Texto digitado em coreano
 ADVENTURE_NOTICE_STAMINA_REGENERATION,{1} : {2} : {3}
 ADVENTURE_NOTICE_RESET_REMAIN_DAY,Resta(m) {1} dia(s)
 ADVENTURE_NOTICE_RESET_REMAIN_HOUR_1,Resta(m) {1} hora(s)
@@ -5563,16 +5564,17 @@ EVENT_DUNGEON_1000DAYS_NAME2,Gratidão de 10 dias
 EVENT_DUNGEON_1000DAYS_NAME3,Emoção de 100 dias
 EVENT_DUNGEON_1000DAYS_NAME4,Comoção de 1000 dias
 SHOP_NAME_1000DAYS_SHOP,Loja dos 1.000 dias
-TOOLTIP_INFO_NAME_SHOPEVENTPOINT,Black Token
+TOOLTIP_INFO_NAME_SHOPEVENTPOINT,Chocolate
 TOOLTIP_INFO_TEXT_SHOPEVENTPOINT,Moeda de troca de evento limitada obtida ao comprar produtos com dinheiro.\nÉ possível trocá-los por prêmios na Loja Especial e não é possível mais obter ou usá-los uma vez encerrado o evento.
-PAY_SHOP_CATEGORY.PAY_SHOP_EVENT,Black Friday
-RESULT_TYPE.NOT_ENOUGH_SHOP_EVENT_POINT,Black Tokens insuficientes.
-SHOP_TAB_EVENT_BM,Produtos
-SHOP_TAB_EVENT_POINT,Black Token
-COMMON.SHOP_EVENT_POINT_COUNT,Black Token x{1}
-EVENT_BLACK_FRIDAY_POINT_DESC2_01,O Black Token é uma moeda de troca de evento limitada que pode ser obtida ao comprar produtos com dinheiro.
-COMMON_EVENT_DAY_DESC2_01,※Duração do evento: até a manutenção de 17/12
-EVENT_BLACK_FRIDAY_TICKET,Black Token
+PAY_SHOP_CATEGORY.PAY_SHOP_EVENT,São Valentim
+RESULT_TYPE.NOT_ENOUGH_SHOP_EVENT_POINT,Você não tem Chocolates suficientes
+SHOP_TAB_EVENT_BM,Produtos Especiais
+SHOP_TAB_EVENT_POINT,Loja de Chocolate
+COMMON.SHOP_EVENT_POINT_COUNT,Chocolate x{1}
+EVENT_BLACK_FRIDAY_POINT_DESC2_01,O Chocolate é uma moeda de troca de evento limitada que pode ser obtida ao comprar produtos com dinheiro.
+COMMON_EVENT_DAY_DESC2_01,※Duração do evento: até a manutenção de 10/03
+COMMON_EVENT_DAY_DESC2_02,※Período de uso do Chocolate: até a manutenção de 24/03
+EVENT_BLACK_FRIDAY_TICKET,Chocolate
 EVENT_DUNGEON_DESTINYLIGHT,Onde se dirige a luz do destino
 DESTINYLIGHT_EVENT_NAME,Onde se dirige a luz do destino
 EVENT_NAME_DESTINYLIGHT,Guia do Evento 'Onde se dirige a luz do destino'
@@ -5722,3 +5724,61 @@ LEGEND_EQUIP_PAYBACK_REWARD_MAIL_TITLE,Prêmio de Melhora do Produto
 LEGEND_EQUIP_PAYBACK_REWARD_MAIL_CONTENT,"A composição do Pacote de Armadura Lendária foi melhorada. Receba de uma vez os itens que foram adicionados, multiplicado pela quantidade de vezes que este produto foi comprado."
 CLEARMISSION_PASSPOPUP_PROGRESS,[db6a3e] ({1}/{2})[-]
 PAYSHOP_RECOMMENDPOPUP_TITLE,Produto Recomendado
+BENEFIT_NEWBIE_REWARD_MAIL_TITLE,Prêmio não resgatado da Missão de Aumento de Nível de Novo Jogador e Missão de Conclusão de Capítulo de Novo Jogador
+BENEFIT_NEWBIE_REWARD_MAIL_CONTENT,Receba de uma vez todos os prêmios da 'Missão de Aumento de Nível de Novo Jogador' e 'Missão de Conclusão de Capítulo de Novo Jogador' que não foram resgatados devido à retirada do pop-up da Coleção de Benefícios para Iniciantes de 17 de dezembro de 2019.
+PACKAGE_DAILY_STAMINA_DESC2,Você recebe 1.000 Rubis logo após a compra\ne recebe Poção de Vigor x40 a cada dia de login por 7 dias.
+PACKAGE_DAILY_FRIENDSHIP_DESC2,Você recebe 2.000 Rubis logo após a compra\ne recebe Círculo de Amizade x5 a cada dia de login por 7 dias.
+GLORY_REQUIREPOINT,Pontos Requeridos
+GLORY_VICTORY_REWARD,Recompensa de Vitória
+GLORY_WEEKLY_REWARD,Recompensa Semanal
+GLORY_SEASON_LASTPLACE,Menos de 1.300
+GLORY_REWARD_NAME,Recompensa da temporada da Liga da Honra
+GLORY_COSTUME_BUTTON,Informações detalhadas
+GLORY_COSTUME_NAME,Luz do Céu Noturno Azul
+CLEARMISSION_PASSPOPUP_LEVELUP_III,Pacote de Superação de Nível III
+HERO_INFO_GET_NEW_HERO_BUNDLE_BTN,Cutscene de\nObtenção Conjunta\nCleo e Roi
+HERO_ACTION_SIGNATURE,Animação Exclusiva\ndo herói
+EQUIP_ITEM_FULL_DESC,Não é possível usar o item pois possui muitos equipamentos.\nOrganize os equipamentos que possui e tente novamente.
+MOVE_EQUIP_BAG,Ir para Equipamentos
+PACKAGE_DAILY_STAMINA_MAIL_TITLE,Poção de Vigor Diários
+PACKAGE_DAILY_NPC_MAIL_TITLE,Taxa de Afinidade com NPC Diários
+PACKAGE_DAILY_STAMINA_MAIL_CONTENT,Você recebeu o prêmio do produto 'Poção de Vigor Diários' que você comprou.
+PACKAGE_DAILY_NPC_MAIL_CONTENT,Você recebeu o prêmio do produto 'Taxa de Afinidade com NPC Diários' que você comprou.
+PACKAGE_DAILY_LUAPOINT_1000,Sinal de Lua x11
+PACKAGE_DAILY_LUAPOINT_2000,Sinal de Lua x22
+PACKAGE_DAILY_7DAYS_RUBY_MAIN_1,"450 Rubis (por dia, durante 7 dias, ao efetuar login)"
+PACKAGE_DAILY_7DAYS_RUBY_BONUS_1,1.000 Rubis
+PACKAGE_DAILY_7DAYS_RUBY_DESC2,"Ganhe 450 Rubis por dia de login,\ndurante 7 dias e receba um total de 4.150 Rubis\nincluindo bônus."
+ALL_IN_ONE_DAY_FIRST_SALE_TEXT,1 vez por dia
+EVENT_LILIA_FIGURE_PACKAGE_TITLE,Pacote de Lilia
+EVENT_LILIA_FIGURE_PACKAGE_CONTENT,Obrigado por comprar o action figure de Lilia.
+EVENT_DUNGEON_20VALENTINE,Masmorra do Festival de Primavera
+EVENT_SHOP_20VALENTINE,Loja do Festival de Primavera
+EVENT_DUNGEON_DESC_STORY_20VALENTINE,Masmorras da história do evento.\nDivirta-se com a história do festival.
+EVENT_DUNGEON_DESC_SPECIAL_20VALENTINE,Conclua as Masmorras da História para desbloquear.
+EVENT_20VALENTINE_TICKET,Tíquete do Evento
+TOOLTIP_INFO_NAME_EVENT_TOKEN_20VALENTINE,Cupons de Produtos
+TOOLTIP_INFO_DESC_EVENT_TOKEN_20VALENTINE,Moeda de troca obtida ao concluir as Masmorras da História. Pode ser usada para comprar itens na Loja do Evento.
+TOOLTIP_INFO_NAME_EVENT_CHOCOLATE_20VALENTINE,Bolinha de Chocolate
+TOOLTIP_INFO_DESC_EVENT_CHOCOLATE_20VALENTINE,Moeda de troca obtida ao concluir as Masmorras Especiais. Pode ser usada para comprar itens na Loja do Evento.
+EVENT_INFO_20VALENTINE,Guia do Festival
+EVENT_NAME_20VALENTINE,Masmorra do Festival de Primavera
+EVENT_DESC_20VALENTINE,"- Masmorra do Festival de Primavera\nÉ possível obter Cupons de Produtos ao concluir as Masmorras da História e\nBolinhas de Chocolate ao concluir as Masmorras Especiais.\n\n- Um festival que você curte junto com NPCs.\nVisite os 9 NPCs distribuídos por todos os lugares (Gladi, May, Veronica, Loman, Nicky, Juno, Dosarta, Hanus, Cain).\nPresentes especiais aguardam por você.\n\n- Ingressos do Evento\nPara entrar nas masmorras do evento, são necessários Ingressos do Evento.\nVocê ganha 2 ingressos no início do evento e, recebe 1 novo ingresso a cada dia.\n(Não é possível acumular mais do que 2 ingressos.)"
+20VALENTINE_EVENT_NAME,Festival de Primavera
+EVENT_DUNGEON_20VALENTINE_NAME1,Não leve!
+EVENT_DUNGEON_20VALENTINE_DESC1,Não é um item colecionável!
+EVENT_DUNGEON_20VALENTINE_NAME2,Não coma!
+EVENT_DUNGEON_20VALENTINE_DESC2,"Por favor, entregue nas Lojas!"
+EVENT_DUNGEON_20VALENTINE_NAME3,Não roube!
+EVENT_DUNGEON_20VALENTINE_DESC3,Junte de maneira honesta!
+EVENT_DUNGEON_20VALENTINE_NAME4,Masmorra de Chocolate ao Leite
+EVENT_DUNGEON_20VALENTINE_DESC4,Um chocolate docinho para você
+EVENT_DUNGEON_20VALENTINE_NAME5,Masmorra de Chocolate Amargo
+EVENT_DUNGEON_20VALENTINE_DESC5,Um chocolate amargo para você
+SHOP_NAME_20VALENTINE_SHOP,Loja do Festival de Primavera
+REVIEW_POPUP_REVIEW,Avaliar o jogo
+REVIEW_POPUP_CS,Sugerir melhoras
+REVIEW_POPUP_EXIT,Na próxima vez
+2020_MAY_HERO_SELECT_ITEM_DESC,"※Bilhete de Herói de 5★: selecionável até 'Rehartna'\n※Bilhetes de Arma Única, Bilhetes de Tesouro Único e Invocação Aleatória seguem a configuração do jogo."
+20SPRING_FESTIVAL_DUNGEON,Masmorra do Festival de Primavera
+SHOP_NAME_2020_VALENTINE_SHOP,Loja do Festival de Primavera

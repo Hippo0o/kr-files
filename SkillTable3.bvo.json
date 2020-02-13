@@ -12249,7 +12249,6 @@
       "Pancironne_Burn"
     ],
     "OperationFlags3": [
-      "Disabled",
       "CheckConditionOnBegin"
     ]
   },
@@ -14111,7 +14110,7 @@
     "OperationType1": "ModSkill",
     "OperationTargetType1": "Myself",
     "OperationValue1": [
-      "7410|7420|7430",
+      "7410",
       "0",
       "SkillMp",
       "1000"
@@ -14182,7 +14181,25 @@
       "Value",
       "IgnoreDefence",
       "2"
-    ]
+    ],
+    "OperationType2": "ModSkill",
+    "OperationTargetType2": "Myself",
+    "OperationValue2": [
+      "7420",
+      "0",
+      "SkillMp",
+      "1000"
+    ],
+    "OperationDurationMs2": 999999999,
+    "OperationType3": "ModSkill",
+    "OperationTargetType3": "Myself",
+    "OperationValue3": [
+      "7430",
+      "0",
+      "SkillMp",
+      "1000"
+    ],
+    "OperationDurationMs3": 999999999
   },
   {
     "Index": 7450,
@@ -14507,6 +14524,504 @@
     ]
   },
   {
+    "Index": 7458,
+    "TriggerType": "OnStart",
+    "TriggerRatio": 1000,
+    "TriggerDisabled": "True",
+    "AttrType": "Magical",
+    "IgnoreStateType": [
+      "CC"
+    ],
+    "TargetType": "Myself",
+    "TargetCount": 1,
+    "DeadTarget": "False",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "False",
+    "OperationType1": "SetSkill",
+    "OperationTargetType1": "Myself",
+    "OperationValue1": [
+      "7451",
+      "1",
+      "Value",
+      "200",
+      "2"
+    ],
+    "OperationType2": "SetSkill",
+    "OperationTargetType2": "Myself",
+    "OperationValue2": [
+      "7451",
+      "2",
+      "Value",
+      "200",
+      "2"
+    ],
+    "OperationType3": "SetSkill",
+    "OperationTargetType3": "Myself",
+    "OperationValue3": [
+      "7451",
+      "3",
+      "Value",
+      "200",
+      "2"
+    ],
+    "OperationType4": "SetSkill",
+    "OperationTargetType4": "Myself",
+    "OperationValue4": [
+      "7451",
+      "4",
+      "Value",
+      "200",
+      "2"
+    ],
+    "OperationType5": "SetSkill",
+    "OperationTargetType5": "Myself",
+    "OperationValue5": [
+      "7451",
+      "5",
+      "Value",
+      "200"
+    ],
+    "OperationType6": "SetSkill",
+    "OperationTargetType6": "Myself",
+    "OperationValue6": [
+      "7451",
+      "6",
+      "Value",
+      "200"
+    ],
+    "OperationType7": "SetSkill",
+    "OperationTargetType7": "Myself",
+    "OperationValue7": [
+      "7453",
+      "1",
+      "Value",
+      "100"
+    ],
+    "OperationType8": "SetSkill",
+    "OperationTargetType8": "Myself",
+    "OperationValue8": [
+      "7453",
+      "2",
+      "Value",
+      "100"
+    ]
+  },
+  {
+    "Index": 7459,
+    "TriggerType": "OnStart",
+    "TriggerRatio": 1000,
+    "TriggerDisabled": "True",
+    "AttrType": "Magical",
+    "IgnoreStateType": [
+      "CC"
+    ],
+    "TargetType": "Myself",
+    "TargetCount": 1,
+    "DeadTarget": "False",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "False",
+    "OperationType1": "SetSkill",
+    "OperationTargetType1": "Myself",
+    "OperationValue1": [
+      "7451",
+      "1",
+      "Value",
+      "240",
+      "2"
+    ],
+    "OperationType2": "SetSkill",
+    "OperationTargetType2": "Myself",
+    "OperationValue2": [
+      "7451",
+      "2",
+      "Value",
+      "240",
+      "2"
+    ],
+    "OperationType3": "SetSkill",
+    "OperationTargetType3": "Myself",
+    "OperationValue3": [
+      "7451",
+      "3",
+      "Value",
+      "240",
+      "2"
+    ],
+    "OperationType4": "SetSkill",
+    "OperationTargetType4": "Myself",
+    "OperationValue4": [
+      "7451",
+      "4",
+      "Value",
+      "240",
+      "2"
+    ],
+    "OperationType5": "SetSkill",
+    "OperationTargetType5": "Myself",
+    "OperationValue5": [
+      "7451",
+      "5",
+      "Value",
+      "240"
+    ],
+    "OperationType6": "SetSkill",
+    "OperationTargetType6": "Myself",
+    "OperationValue6": [
+      "7451",
+      "6",
+      "Value",
+      "240"
+    ],
+    "OperationType7": "SetSkill",
+    "OperationTargetType7": "Myself",
+    "OperationValue7": [
+      "7453",
+      "1",
+      "Value",
+      "120"
+    ],
+    "OperationType8": "SetSkill",
+    "OperationTargetType8": "Myself",
+    "OperationValue8": [
+      "7453",
+      "2",
+      "Value",
+      "120"
+    ]
+  },
+  {
+    "Index": 7460,
+    "TriggerType": "OnStart",
+    "TriggerRatio": 1000,
+    "TriggerDisabled": "True",
+    "AttrType": "Magical",
+    "IgnoreStateType": [
+      "CC"
+    ],
+    "TargetType": "Myself",
+    "TargetCount": 1,
+    "DeadTarget": "False",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "False",
+    "OperationType1": "SetSkill",
+    "OperationTargetType1": "Myself",
+    "OperationValue1": [
+      "7451",
+      "1",
+      "Value",
+      "290",
+      "2"
+    ],
+    "OperationType2": "SetSkill",
+    "OperationTargetType2": "Myself",
+    "OperationValue2": [
+      "7451",
+      "2",
+      "Value",
+      "290",
+      "2"
+    ],
+    "OperationType3": "SetSkill",
+    "OperationTargetType3": "Myself",
+    "OperationValue3": [
+      "7451",
+      "3",
+      "Value",
+      "290",
+      "2"
+    ],
+    "OperationType4": "SetSkill",
+    "OperationTargetType4": "Myself",
+    "OperationValue4": [
+      "7451",
+      "4",
+      "Value",
+      "290",
+      "2"
+    ],
+    "OperationType5": "SetSkill",
+    "OperationTargetType5": "Myself",
+    "OperationValue5": [
+      "7451",
+      "5",
+      "Value",
+      "290"
+    ],
+    "OperationType6": "SetSkill",
+    "OperationTargetType6": "Myself",
+    "OperationValue6": [
+      "7451",
+      "6",
+      "Value",
+      "290"
+    ],
+    "OperationType7": "SetSkill",
+    "OperationTargetType7": "Myself",
+    "OperationValue7": [
+      "7453",
+      "1",
+      "Value",
+      "140"
+    ],
+    "OperationType8": "SetSkill",
+    "OperationTargetType8": "Myself",
+    "OperationValue8": [
+      "7453",
+      "2",
+      "Value",
+      "140"
+    ]
+  },
+  {
+    "Index": 7461,
+    "TriggerType": "OnStart",
+    "TriggerRatio": 1000,
+    "TriggerDisabled": "True",
+    "AttrType": "Magical",
+    "IgnoreStateType": [
+      "CC"
+    ],
+    "TargetType": "Myself",
+    "TargetCount": 1,
+    "DeadTarget": "False",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "False",
+    "OperationType1": "SetSkill",
+    "OperationTargetType1": "Myself",
+    "OperationValue1": [
+      "7451",
+      "1",
+      "Value",
+      "350",
+      "2"
+    ],
+    "OperationType2": "SetSkill",
+    "OperationTargetType2": "Myself",
+    "OperationValue2": [
+      "7451",
+      "2",
+      "Value",
+      "350",
+      "2"
+    ],
+    "OperationType3": "SetSkill",
+    "OperationTargetType3": "Myself",
+    "OperationValue3": [
+      "7451",
+      "3",
+      "Value",
+      "350",
+      "2"
+    ],
+    "OperationType4": "SetSkill",
+    "OperationTargetType4": "Myself",
+    "OperationValue4": [
+      "7451",
+      "4",
+      "Value",
+      "350",
+      "2"
+    ],
+    "OperationType5": "SetSkill",
+    "OperationTargetType5": "Myself",
+    "OperationValue5": [
+      "7451",
+      "5",
+      "Value",
+      "350"
+    ],
+    "OperationType6": "SetSkill",
+    "OperationTargetType6": "Myself",
+    "OperationValue6": [
+      "7451",
+      "6",
+      "Value",
+      "350"
+    ],
+    "OperationType7": "SetSkill",
+    "OperationTargetType7": "Myself",
+    "OperationValue7": [
+      "7453",
+      "1",
+      "Value",
+      "170"
+    ],
+    "OperationType8": "SetSkill",
+    "OperationTargetType8": "Myself",
+    "OperationValue8": [
+      "7453",
+      "2",
+      "Value",
+      "170"
+    ]
+  },
+  {
+    "Index": 7462,
+    "TriggerType": "OnStart",
+    "TriggerRatio": 1000,
+    "TriggerDisabled": "True",
+    "AttrType": "Magical",
+    "IgnoreStateType": [
+      "CC"
+    ],
+    "TargetType": "Myself",
+    "TargetCount": 1,
+    "DeadTarget": "False",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "False",
+    "OperationType1": "SetSkill",
+    "OperationTargetType1": "Myself",
+    "OperationValue1": [
+      "7451",
+      "1",
+      "Value",
+      "420",
+      "2"
+    ],
+    "OperationType2": "SetSkill",
+    "OperationTargetType2": "Myself",
+    "OperationValue2": [
+      "7451",
+      "2",
+      "Value",
+      "420",
+      "2"
+    ],
+    "OperationType3": "SetSkill",
+    "OperationTargetType3": "Myself",
+    "OperationValue3": [
+      "7451",
+      "3",
+      "Value",
+      "420",
+      "2"
+    ],
+    "OperationType4": "SetSkill",
+    "OperationTargetType4": "Myself",
+    "OperationValue4": [
+      "7451",
+      "4",
+      "Value",
+      "420",
+      "2"
+    ],
+    "OperationType5": "SetSkill",
+    "OperationTargetType5": "Myself",
+    "OperationValue5": [
+      "7451",
+      "5",
+      "Value",
+      "420"
+    ],
+    "OperationType6": "SetSkill",
+    "OperationTargetType6": "Myself",
+    "OperationValue6": [
+      "7451",
+      "6",
+      "Value",
+      "420"
+    ],
+    "OperationType7": "SetSkill",
+    "OperationTargetType7": "Myself",
+    "OperationValue7": [
+      "7453",
+      "1",
+      "Value",
+      "210"
+    ],
+    "OperationType8": "SetSkill",
+    "OperationTargetType8": "Myself",
+    "OperationValue8": [
+      "7453",
+      "2",
+      "Value",
+      "210"
+    ]
+  },
+  {
+    "Index": 7463,
+    "TriggerType": "OnStart",
+    "TriggerRatio": 1000,
+    "TriggerDisabled": "True",
+    "AttrType": "Magical",
+    "IgnoreStateType": [
+      "CC"
+    ],
+    "TargetType": "Myself",
+    "TargetCount": 1,
+    "DeadTarget": "False",
+    "IgnoreBlock": "TRUE",
+    "RetargetOnFire": "False",
+    "OperationType1": "SetSkill",
+    "OperationTargetType1": "Myself",
+    "OperationValue1": [
+      "7451",
+      "1",
+      "Value",
+      "500",
+      "2"
+    ],
+    "OperationType2": "SetSkill",
+    "OperationTargetType2": "Myself",
+    "OperationValue2": [
+      "7451",
+      "2",
+      "Value",
+      "500",
+      "2"
+    ],
+    "OperationType3": "SetSkill",
+    "OperationTargetType3": "Myself",
+    "OperationValue3": [
+      "7451",
+      "3",
+      "Value",
+      "500",
+      "2"
+    ],
+    "OperationType4": "SetSkill",
+    "OperationTargetType4": "Myself",
+    "OperationValue4": [
+      "7451",
+      "4",
+      "Value",
+      "500",
+      "2"
+    ],
+    "OperationType5": "SetSkill",
+    "OperationTargetType5": "Myself",
+    "OperationValue5": [
+      "7451",
+      "5",
+      "Value",
+      "500"
+    ],
+    "OperationType6": "SetSkill",
+    "OperationTargetType6": "Myself",
+    "OperationValue6": [
+      "7451",
+      "6",
+      "Value",
+      "500"
+    ],
+    "OperationType7": "SetSkill",
+    "OperationTargetType7": "Myself",
+    "OperationValue7": [
+      "7453",
+      "1",
+      "Value",
+      "250"
+    ],
+    "OperationType8": "SetSkill",
+    "OperationTargetType8": "Myself",
+    "OperationValue8": [
+      "7453",
+      "2",
+      "Value",
+      "250"
+    ]
+  },
+  {
     "Index": 90000740,
     "ReplaceDescKey": "SKILL_DESC_90000740",
     "DescParam": [
@@ -14551,35 +15066,16 @@
     "OperationType4": "SetSkill",
     "OperationTargetType4": "Myself",
     "OperationValue4": [
-      "7451",
-      "1|2|3|4",
-      "Value",
-      "200",
-      "2"
-    ],
-    "OperationType5": "SetSkill",
-    "OperationTargetType5": "Myself",
-    "OperationValue5": [
-      "7451",
-      "5|6",
-      "Value",
-      "200"
-    ],
-    "OperationType6": "SetSkill",
-    "OperationTargetType6": "Myself",
-    "OperationValue6": [
       "7452",
       "1",
       "Value",
       "80"
     ],
-    "OperationType7": "SetSkill",
-    "OperationTargetType7": "Myself",
-    "OperationValue7": [
-      "7453",
-      "1|2",
-      "Value",
-      "100"
+    "OperationType5": "EnablePassiveSkill",
+    "OperationTargetType5": "Myself",
+    "OperationValue5": [
+      "7458",
+      "True"
     ]
   },
   {
@@ -14627,35 +15123,16 @@
     "OperationType4": "SetSkill",
     "OperationTargetType4": "Myself",
     "OperationValue4": [
-      "7451",
-      "1|2|3|4",
-      "Value",
-      "240",
-      "2"
-    ],
-    "OperationType5": "SetSkill",
-    "OperationTargetType5": "Myself",
-    "OperationValue5": [
-      "7451",
-      "5|6",
-      "Value",
-      "240"
-    ],
-    "OperationType6": "SetSkill",
-    "OperationTargetType6": "Myself",
-    "OperationValue6": [
       "7452",
       "1",
       "Value",
       "96"
     ],
-    "OperationType7": "SetSkill",
-    "OperationTargetType7": "Myself",
-    "OperationValue7": [
-      "7453",
-      "1|2",
-      "Value",
-      "120"
+    "OperationType5": "EnablePassiveSkill",
+    "OperationTargetType5": "Myself",
+    "OperationValue5": [
+      "7459",
+      "True"
     ]
   },
   {
@@ -14703,35 +15180,16 @@
     "OperationType4": "SetSkill",
     "OperationTargetType4": "Myself",
     "OperationValue4": [
-      "7451",
-      "1|2|3|4",
-      "Value",
-      "290",
-      "2"
-    ],
-    "OperationType5": "SetSkill",
-    "OperationTargetType5": "Myself",
-    "OperationValue5": [
-      "7451",
-      "5|6",
-      "Value",
-      "290"
-    ],
-    "OperationType6": "SetSkill",
-    "OperationTargetType6": "Myself",
-    "OperationValue6": [
       "7452",
       "1",
       "Value",
       "115"
     ],
-    "OperationType7": "SetSkill",
-    "OperationTargetType7": "Myself",
-    "OperationValue7": [
-      "7453",
-      "1|2",
-      "Value",
-      "140"
+    "OperationType5": "EnablePassiveSkill",
+    "OperationTargetType5": "Myself",
+    "OperationValue5": [
+      "7460",
+      "True"
     ]
   },
   {
@@ -14779,35 +15237,16 @@
     "OperationType4": "SetSkill",
     "OperationTargetType4": "Myself",
     "OperationValue4": [
-      "7451",
-      "1|2|3|4",
-      "Value",
-      "350",
-      "2"
-    ],
-    "OperationType5": "SetSkill",
-    "OperationTargetType5": "Myself",
-    "OperationValue5": [
-      "7451",
-      "5|6",
-      "Value",
-      "350"
-    ],
-    "OperationType6": "SetSkill",
-    "OperationTargetType6": "Myself",
-    "OperationValue6": [
       "7452",
       "1",
       "Value",
       "138"
     ],
-    "OperationType7": "SetSkill",
-    "OperationTargetType7": "Myself",
-    "OperationValue7": [
-      "7453",
-      "1|2",
-      "Value",
-      "170"
+    "OperationType5": "EnablePassiveSkill",
+    "OperationTargetType5": "Myself",
+    "OperationValue5": [
+      "7461",
+      "True"
     ]
   },
   {
@@ -14855,35 +15294,16 @@
     "OperationType4": "SetSkill",
     "OperationTargetType4": "Myself",
     "OperationValue4": [
-      "7451",
-      "1|2|3|4",
-      "Value",
-      "420",
-      "2"
-    ],
-    "OperationType5": "SetSkill",
-    "OperationTargetType5": "Myself",
-    "OperationValue5": [
-      "7451",
-      "5|6",
-      "Value",
-      "420"
-    ],
-    "OperationType6": "SetSkill",
-    "OperationTargetType6": "Myself",
-    "OperationValue6": [
       "7452",
       "1",
       "Value",
       "165"
     ],
-    "OperationType7": "SetSkill",
-    "OperationTargetType7": "Myself",
-    "OperationValue7": [
-      "7453",
-      "1|2",
-      "Value",
-      "210"
+    "OperationType5": "EnablePassiveSkill",
+    "OperationTargetType5": "Myself",
+    "OperationValue5": [
+      "7462",
+      "True"
     ]
   },
   {
@@ -14931,35 +15351,16 @@
     "OperationType4": "SetSkill",
     "OperationTargetType4": "Myself",
     "OperationValue4": [
-      "7451",
-      "1|2|3|4",
-      "Value",
-      "500",
-      "2"
-    ],
-    "OperationType5": "SetSkill",
-    "OperationTargetType5": "Myself",
-    "OperationValue5": [
-      "7451",
-      "5|6",
-      "Value",
-      "500"
-    ],
-    "OperationType6": "SetSkill",
-    "OperationTargetType6": "Myself",
-    "OperationValue6": [
       "7452",
       "1",
       "Value",
       "200"
     ],
-    "OperationType7": "SetSkill",
-    "OperationTargetType7": "Myself",
-    "OperationValue7": [
-      "7453",
-      "1|2",
-      "Value",
-      "250"
+    "OperationType5": "EnablePassiveSkill",
+    "OperationTargetType5": "Myself",
+    "OperationValue5": [
+      "7463",
+      "True"
     ]
   }
 ]

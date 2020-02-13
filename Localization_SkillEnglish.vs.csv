@@ -256,23 +256,23 @@ SKILL_NAME_741,Load Cannon II
 SKILL_NAME_742,Load Cannon III
 SKILL_NAME_743,Load Cannon IV
 SKILL_NAME_750,Weapon Remodeling
-SKILL_DESC_710,"Attacks all frontal enemies in a straight line, dealing [ffc800]{1}[-] P.DMG and pushing them back. If the target is not a Hero, deals [ffc800]{2}[-] additional P.DMG and stuns them for {3} sec."
+SKILL_DESC_710,"Attacks frontal enemies in a straight line, dealing [ffc800]{1}[-] P.DMG and inflicting Stun for [64ffff]{2}[-] sec. If the target is not a Hero, deals [ffc800]{3}[-] additional P.DMG.\n[fa96fa][Experiment Success!][-] Removes Cooldown."
 SKILL_DESC_711,DMG is increased by [64ff64]{1}[-] %.
 SKILL_DESC_712,DMG is increased by [64ff64]{1}[-] %.
 SKILL_DESC_713,DMG is increased by [64ff64]{1}[-] %.
-SKILL_DESC_720,Deals [ffc800]{1}[-] P.DMG to enemies in range. Target takes [ff6464]{3}[-]% increased P.DMG for [64ffff]{2}[-] sec and is inflicted with Blind for [64ffff]4[-] sec.
+SKILL_DESC_720,"Deals [ffc800]{1}[-] P.DMG to target and nearby enemies within range and inflicts them with [fa96fa][Explosive Material][-] for [64ffff]{2}[-] sec, causing them to take [64ff64]{3}[-]% increased P.DMG and additionally inflicting Blind for [64ffff]{4}[-] sec.\n[fa96fa][Experiment Success!][-] Dispels positive effects from enemies within range."
 SKILL_DESC_721,DMG is increased by [64ff64]{1}[-] %.
 SKILL_DESC_722,DMG is increased by [64ff64]{1}[-] %.
 SKILL_DESC_723,Deals DMG and Stuns the enemy for 1 sec.
-SKILL_DESC_730,"Attaches a Glue Bomb to a random enemy that explodes in [64ffff]{1}[-] sec. The explosion deals max [ffc800]{2}[-] P.DMG proportional to enemy's current HP to enemies in range, and inflicts Stun for [64ffff]3[-] sec. Upon attaching the Glue Bomb, target is inflicted with Stun for [64ffff]2[-] sec."
+SKILL_DESC_730,"Attaches a Glue Bomb that explodes in [64ffff]{1}[-] sec to a random enemy, dealing [ffc800]{2}[-] P.DMG to the target and nearby enemies and inflicting Stun for [64ffff]{3}[-] sec. If the target is inflicted with [fa96fa][Explosive Material][-], deals [ffc800]{4}[-] additional P.DMG.\n[fa96fa][Experiment Success!][-] Glue Bomb explodes immediately after attachment."
 SKILL_DESC_731,DMG is increased by [64ff64]{1}[-] %.
 SKILL_DESC_732,DMG is increased by [64ff64]{1}[-] %.
 SKILL_DESC_733,DMG is increased by [64ff64]{1}[-] %.
-SKILL_DESC_740,Each auto attack has a [64ff64]15[-]% chance of firing a bomb that deals [ffc800]{2}[-] P.DMG to enemies in range and stuns them for [64ffff]2[-] sec.
+SKILL_DESC_740,"Normal attacks have a [64ff64]{1}[-]% chance of firing a bomb that deals [ffc800]{2}[-] P.DMG to enemies within range and inflicting Stun for [64ffff]{3}[-] sec. After each Skill use, Lakrak conducts an experiment. The experiment has a [64ff64]{4}[-]% success rate. Upon success, enhances the effects of the next Skill use. Experiment does not occur when Lakrak uses the enhanced Skill."
 SKILL_DESC_741,DMG is increased by [64ff64]{1}[-] %.
 SKILL_DESC_742,DMG is increased by [64ff64]{1}[-] %.
 SKILL_DESC_743,DMG is increased by [64ff64]{1}[-] %.
-SKILL_DESC_90000070,"Gains a 25% chance to obtain a stack of Gunpowder upon attacking. Each stack of Gunpowder increases own ATK by {1}%, ATK Spd by {2}, and DMG to Non-Hero enemies by {3}%. Gunpowder stacks up to {4} times and is irremovable."
+SKILL_DESC_90000070,"Increases the success rate of an experiment by {1}%, and every time Lakrak has a successful experiment, increases ATK by {2}%, ATK Spd by {3}, and DMG to Non-Hero enemies by {4}%. This effect can be stacked up to max {5} times and is irremovable."
 SKILL_DESC_90000071,"Gains a 25% chance to obtain a stack of Gunpowder upon attacking. Each stack of Gunpowder increases ATK by 3.6%, ATK Spd by 36, and DMG to non-Hero enemies by 3.6%. Gunpowder stacks up to 7 times and cannot be removed."
 SKILL_DESC_90000072,"Gains a 25% chance to obtain a stack of Gunpowder upon attacking. Each stack of Gunpowder increases ATK by 4.3%, ATK Spd by 43, and DMG to non-Hero enemies by 4.3%. Gunpowder stacks up to 7 times and cannot be removed."
 SKILL_DESC_90000073,"Gains a 25% chance to obtain a stack of Gunpowder upon attacking. Each stack of Gunpowder increases ATK by 5.1%, ATK Spd by 51, and DMG to non-Hero enemies by 5.1%. Gunpowder stacks up to 7 times and cannot be removed."
@@ -800,23 +800,23 @@ SKILL_NAME_2140,Tornado Strike
 SKILL_NAME_2141,Tornado Strike II
 SKILL_NAME_2142,Tornado Strike III
 SKILL_NAME_2143,Tornado Strike IV
-SKILL_DESC_2110,"Dashes toward the enemy 2 times, dealing [ffc800]{1}[-] P.DMG to enemies in range, knocking them down for [64ffff]{2}[-] sec. If the target is not a Hero, deals [ffc800]{3}[-] additional P.DMG."
+SKILL_DESC_2110,"Naila dashes toward the enemy {1} times. For her first attack, she moves behind the target, dealing [ffc800]{2}[-] P.DMG and knocking it down for [64ffff]{3}[-] sec. For her second attack, she moves behind the enemy with the highest ATK, dealing [ffc800]{4}[-] P.DMG, knocking it down for [64ffff]{5}[-] sec, and increasing P.DMG it takes by [64ff64]{7}[-]% for [64ffff]{6}[-] sec."
 SKILL_DESC_2111,DMG is increased by [64ff64]{1}[-] %.
 SKILL_DESC_2112,DMG is increased by [64ff64]{1}[-] %.
 SKILL_DESC_2113,DMG is increased by [64ff64]{1}[-] %.
-SKILL_DESC_2120,"All allies' P.Dodge Chance is increased by [64ff64]{2}[-] for [64ffff]{1}[-] sec, and ATK is increased by [ffc800]{3}[-]."
+SKILL_DESC_2120,"Dispels negative effects from self, and casts [Wind Reading] to all allies for [64ffff]{1}[-] sec, increasing their ATK by [64ff64]{2}[-] and P.Dodge by [64ff64]{3}[-]. If an ally under [Wind Reading] successfully dodges an attack, their Crit DMG increases by [64ff64]{5}[-]% for [64ffff]{4}[-] sec. The Crit DMG Boost effect can be stacked up to max {6} times."
 SKILL_DESC_2121,ATK boost is increased by [64ff64]{1}[-] %.
 SKILL_DESC_2122,ATK boost is increased by [64ff64]{1}[-] %.
 SKILL_DESC_2123,ATK boost is increased by [64ff64]{1}[-] %.
-SKILL_DESC_2130,"Flies up and strikes [ffc800]{1}[-] P.DMG to enemies in range. Knocked down enemies take [64ff64]{2}[-] % increased DMG. If the target is not a Hero, deals [ffc800]{3}[-] additional P.DMG."
+SKILL_DESC_2130,"Attacks nearby enemies in a circular range of self, dealing [ffc800]{1}[-] P.DMG and inflicting Stun for [64ffff]{2}[-] sec. [64ff64]{3}[-] DEF Penetration applies to this Skill."
 SKILL_DESC_2131,DMG is increased by [64ff64]{1}[-] %.
 SKILL_DESC_2132,DMG is increased by [64ff64]{1}[-] %.
 SKILL_DESC_2133,Hit enemies are stunned for 3 sec.
-SKILL_DESC_2140,Every 5th normal attack has a 40% chance to deal [ffc800]{1}[-] additional P.DMG to the target. The target takes [64ff64]{3}[-]% increased P.DMG for [64ffff]{2}[-] sec and is knocked down for [64ffff]{4}[-] sec.
+SKILL_DESC_2140,"Increases Naila's DEF Penetration by [64ff64]{1}[-] and DEF by [64ff64]{2}[-]. Naila's normal attacks and Skill attacks ignore target's DMG Reduction effect. Also, her normal attacks have a [64ff64]{3}[-]% chance to deal [ffc800]{4}[-] additional P.DMG and inflict Stun for [64ffff]{5}[-] sec."
 SKILL_DESC_2141,DMG is increased by [64ff64]{1}[-] %.
 SKILL_DESC_2142,DMG is increased by [64ff64]{1}[-] %.
 SKILL_DESC_2143,DMG is increased by [64ff64]{1}[-] %.
-SKILL_DESC_90000210,"Upon a Crit Hit, deals 150 % of ATK as P.DMG over time for 10sec. Target takes 20% increased P.DMG for the duration of skill."
+SKILL_DESC_90000210,"Upon a Critical Hit, increases P.DMG the target takes by {2}% for {1} sec, and reduces its CC Resist by {3}. If the target is a Boss, Naila deals {4}% increased DMG. The DMG Boost effect against Bosses can be stacked up to max {5} times."
 SKILL_DESC_90000211,"Upon a Crit Hit, deals 180 % of ATK as P.DMG over time for 10sec. Target takes 24% increased P.DMG for the duration of skill."
 SKILL_DESC_90000212,"Upon a Crit Hit, deals 216 % of ATK as P.DMG over time for 10sec. Target takes 28% increased P.DMG for the duration of skill."
 SKILL_DESC_90000213,"Upon a Crit Hit, deals 258 % of ATK as P.DMG over time for 10sec. Target takes 34% increased P.DMG for the duration of skill."
@@ -1118,11 +1118,11 @@ SKILL_DESC_2930,"Deals [ffc800]{1}[-] M.DMG to target enemies in range, and redu
 SKILL_DESC_2931,DMG is increased by [64ff64]{1}[-] %.
 SKILL_DESC_2932,DMG is increased by [64ff64]{1}[-] %.
 SKILL_DESC_2933,DMG is increased by [64ff64]{1}[-] %.
-SKILL_DESC_2940,"When inflicted by CC, dispels negative effects from self and attacks the farthest enemy, dealing [ffc800]{1}[-] M.DMG and knocking it away for [64ff64]{2}[-] sec."
+SKILL_DESC_2940,"When inflicted by CC, dispels negative effects from self and attacks the farthest enemy, dealing [ffc800]{1}[-] M.DMG and knocking it away for [64ff64]{2}[-] sec. Afterward, recovers {3} orb of Mana."
 SKILL_DESC_2941,DMG is increased by [64ff64]{1}[-] %.
 SKILL_DESC_2942,DMG is increased by [64ff64]{1}[-] %.
 SKILL_DESC_2943,DMG is increased by [64ff64]{1}[-] %.
-SKILL_DESC_90000290,Increases DMG of normal attacks by 20% and the Range by 6%.
+SKILL_DESC_90000290,"Increases Crit DMG by {1}%, DMG of normal attacks by {2}%, and the Range by {3}%."
 SKILL_DESC_90000291,Increases DMG of normal attacks by 24% and the Range by 7.2%.
 SKILL_DESC_90000292,]Increases DMG of normal attacks by 29% and the Range by 8.6%.
 SKILL_DESC_90000293,Increases DMG of normal attacks by 35% and the Range by 10.5%.
@@ -1346,7 +1346,7 @@ SKILL_DESC_3530,"Rapidly shoots a random enemy 12 times, dealing a total of [ffc
 SKILL_DESC_3531,DMG is increased by [64ff64]{1}[-] %.
 SKILL_DESC_3532,DMG is increased by [64ff64]{1}[-] %.
 SKILL_DESC_3533,DMG is increased by [64ff64]{1}[-] %.
-SKILL_DESC_3540,"Normal attacks inflict an irremovable stack of Death Mark on the enemy. Whenever a normal attack or Bang! Bang! hits the target, deals [ffc800]{1}[-] additional P.DMG. Each stack of Death Mark deals [ffc800]{2}[-] additional P.DMG. Death Mark can be stacked up to max 150 times."
+SKILL_DESC_3540,"Normal attacks inflict an irremovable stack of Death Mark on the enemy. Whenever a normal attack or Bang! Bang! hits the target, deals [ffc800]{1}[-] additional P.DMG. Each stack of Death Mark deals [ffc800]{2}[-] additional P.DMG. Death Mark can be stacked up to max 200 times."
 SKILL_DESC_3541,DMG is increased by [64ff64]{1}[-] %.
 SKILL_DESC_3542,DMG is increased by [64ff64]{1}[-] %.
 SKILL_DESC_3543,DMG is increased by [64ff64]{1}[-] %.
@@ -1410,23 +1410,23 @@ SKILL_NAME_3740,Silent Ambush
 SKILL_NAME_3741,Silent Ambush II
 SKILL_NAME_3742,Silent Ambush III
 SKILL_NAME_3743,Silent Ambush IV
-SKILL_DESC_3710,"Moves behind the enemy with the lowest P.DEF and increase their P.DMG taken by [ff6464]{1}[-]%, while knocking them down and inflicting [ffc800]{2}[-] P.DMG. If in a Stealth state, stun said enemy for 6 sec. If not, gain Stealth for 10 sec. While in a Stealth State, Crit Rate and Dodge Rate rises by 50."
+SKILL_DESC_3710,"Increases P.DMG the enemy with the lowest P.DEF takes by [ff6464]{1}[-]% for 10 sec, and moves behind the target, dealing [ffc800]{2}[-] P.DMG and knocking it down for [64ffff]{3}[-] sec. If used during Stealth, [64ff64]{4}[-]% increased Crit DMG applies, and Stealth is dispelled. If Skill is used while not in Stealth, becomes Stealth for 10 sec."
 SKILL_DESC_3711,DMG is increased by [64ff64]{1}[-] %.
 SKILL_DESC_3712,DMG is increased by [64ff64]{1}[-] %.
 SKILL_DESC_3713,Crit Chance is increased by [64ff64]{1}[-].
-SKILL_DESC_3720,"Attacks nearby enemies 3 times and deals a total of [ffc800]{1}[-] P.DMG, inflicting 1 stack of Bleed per each hit. If used in a Stealth state, target's heal rate is reduced by 70%, and Stealth is dispelled. If not, turns into Stealth mode for 10 sec. [64ffff][Stealth] Crit Rate and Dodge Rate are increased by 50.[-]"
+SKILL_DESC_3720,"Attacks nearby enemies 3 times and deals a total of [ffc800]{1}[-] P.DMG, inflicting 1 stack of Bleed each hit. If used during Stealth, reduces the target's Heal Rate by 70%, and Stealth is dispelled. If Skill is used while not in Stealth, becomes Stealth for 10 sec."
 SKILL_DESC_3721,DMG is increased by [64ff64]{1}[-] %.
 SKILL_DESC_3722,DMG is increased by [64ff64]{1}[-] %.
 SKILL_DESC_3723,Crit Chance is increased by [64ff64]{1}[-].
-SKILL_DESC_3730,"Attacks random enemies 6 times and deals a total of [ffc800]{1}[-] P.DMG, then deals one additional attack of [ffc800]{2}[-] extra P.DMG. If used in Stealth state, dispels all enemies' buffs. If not, turns into Stealth mode for 10 sec. [64ffff][Stealth] Crit Rate and Dodge Rate are increased by 50.[-]"
+SKILL_DESC_3730,"Attacks a random enemy 6 times and deals a total of [ffc800]{1}[-] P.DMG, then deals an extra attack that deals [ffc800]{2}[-] P.DMG. If used during Stealth, dispels positive effects from the target, and Stealth is dispelled. If Skill is used while not in Stealth, becomes Stealth for 10 sec."
 SKILL_DESC_3731,DMG is increased by [64ff64]{1}[-] %.
 SKILL_DESC_3732,DMG is increased by [64ff64]{1}[-] %.
 SKILL_DESC_3733,Crit Chance is increased by [64ff64]{1}[-].
-SKILL_DESC_3740,"Deals [ffc800]{1}[-] additional P.DMG to the enemy and silences them for [64ffff]{2}[-] sec upon a Critical Hit with the skill. If the target is not a Hero, deals [ffc800]{3}[-] additional P.DMG that ignores DEF and reduces the target's ATK Spd by {5} for {4} sec."
+SKILL_DESC_3740,"Increases Crit Chance by [64ff64]150[-] and Dodge by [64ff64]150[-] during Stealth. Upon a Critical Skill Hit, deals [ffc800]{1}[-] additional P.DMG to the enemy and inflicts Silence for [64ffff]{2}[-] sec. If the target is not a Hero, deals [ffc800]{3}[-] additional P.DMG that ignores DEF and reduces the target's ATK Spd by {5} for {4} sec."
 SKILL_DESC_3741,DMG is increased by [64ff64]{1}[-] %.
 SKILL_DESC_3742,DMG is increased by [64ff64]{1}[-] %.
 SKILL_DESC_3743,Silence duration is increased by [64ff64]{1}[-] sec.
-SKILL_DESC_90000370,"Turns into Stealth mode for 10 sec at the beginning of each battle. While in Stealth mode, own Crit DMG will be increased by 30% for 10 sec."
+SKILL_DESC_90000370,"At the beginning of each battle, becomes Stealth for {1} sec and dodges all attacks for {2} sec. Every time Tanya becomes Stealth, her Crit DMG increases by {4}% for {3} sec."
 SKILL_DESC_90000371,"Turns into Stealth mode for 10 sec at the beginning of each battle. While in Stealth mode, own Crit DMG will be increased by 36% for 10 sec."
 SKILL_DESC_90000372,"Turns into Stealth mode for 10 sec at the beginning of each battle. While in Stealth mode, own Crit DMG will be increased by 43% for 10 sec."
 SKILL_DESC_90000373,"Turns into Stealth mode for 10 sec at the beginning of each battle. While in Stealth mode, own Crit DMG will be increased by 52% for 10 sec."
@@ -1633,14 +1633,14 @@ SKILL_NAME_4310,Meal Time!!
 SKILL_NAME_4311,Meal Time!! II
 SKILL_NAME_4312,Meal Time!! III
 SKILL_NAME_4313,Meal Time!! IV
-SKILL_NAME_4320,I'll slice you up!!
-SKILL_NAME_4321,I'll slice you up!! II
-SKILL_NAME_4322,I'll slice you up!! III
-SKILL_NAME_4323,I'll slice you up!! IV
-SKILL_NAME_4330,I'll rip you to pieces!!
-SKILL_NAME_4331,I'll rip you to pieces!! II
-SKILL_NAME_4332,I'll rip you to pieces!! III
-SKILL_NAME_4333,I'll rip you to pieces!! IV
+SKILL_NAME_4320,I'll Slice You Up!!
+SKILL_NAME_4321,I'll Slice You Up!! II
+SKILL_NAME_4322,I'll Slice You Up!! III
+SKILL_NAME_4323,I'll Slice You Up!! IV
+SKILL_NAME_4330,I'll Rip You to Pieces!!
+SKILL_NAME_4331,I'll Rip You to Pieces!! II
+SKILL_NAME_4332,I'll Rip You to Pieces!! III
+SKILL_NAME_4333,I'll Rip You to Pieces!! IV
 SKILL_NAME_4340,Yummy Souls!
 SKILL_NAME_4341,Yummy Souls! II
 SKILL_NAME_4342,Yummy Souls! III
@@ -1731,7 +1731,7 @@ SKILL_DESC_4520,"Deals [ffc800]{1}[-] P.DMG to target enemy and other enemies in
 SKILL_DESC_4521,DMG is increased by [64ff64]{1}[-] %.
 SKILL_DESC_4522,DMG is increased by [64ff64]{1}[-] %.
 SKILL_DESC_4523,Crit DMG is increased by [64ff64]{1}[-] %.
-SKILL_DESC_4530,"Removes all negative effects on self. For 30 sec, ATK is increased by [64ff64]{1}[-] and Penetration is increased by [64ff64]{2}[-]. For the duration of skill, auto attacks are changed to consuming 3% mana to deal DMG to all enemies in a straight line and deals [ffc800]{3}[-] extra P.DMG to Dragons ignoring DEF."
+SKILL_DESC_4530,"Dispels all negative effects from self. For 30 sec, increases ATK by [64ff64]{1}[-] and DEF Penetration by [64ff64]{2}[-]. For the duration of Skill, normal attacks consume 3% Mana to deal DMG to all enemies in a straight line and deals [ffc800]{3}[-] additional P.DMG that ignores DEF to Dragons. This effect is irremovable."
 SKILL_DESC_4531,ATK boost is increased by [64ff64]{1}[-] %.
 SKILL_DESC_4532,ATK boost is increased by [64ff64]{1}[-] %.
 SKILL_DESC_4533,ATK boost is increased by [64ff64]{1}[-] %.
@@ -2941,7 +2941,7 @@ SKILL_DESC_9210,"Deals [ffc800]{1}[-] M.DMG to enemy and surrounding enemies wit
 SKILL_DESC_9211,DMG is increased by [64ff64]{1}[-] %.
 SKILL_DESC_9212,DMG is increased by [64ff64]{1}[-] %.
 SKILL_DESC_9213,DMG is increased by [64ff64]{1}[-] %.
-SKILL_DESC_9220,Grants a Rune to all allies to increase their ATK by [64ff64]{1}[-] and any DMG to bosses by 15% for 10 sec.
+SKILL_DESC_9220,Grants a Rune to all allies to increase their ATK by [64ff64]{2}[-] and DMG dealt to Bosses by [64ff64]{3}[-]% for {1} sec.
 SKILL_DESC_9221,ATK boost is increased by [64ff64]{1}[-] %.
 SKILL_DESC_9222,ATK boost is increased by [64ff64]{1}[-] %.
 SKILL_DESC_9223,ATK boost is increased by [64ff64]{1}[-] %.
@@ -3636,12 +3636,12 @@ SKILL_DESC_80005042,Increases own Max HP by 14% and All Block Chance by 140.
 SKILL_DESC_80005043,Increases own Max HP by 17% and All Block Chance by 170.
 SKILL_DESC_80005044,Increases own Max HP by 21% and All Block Chance by 210.
 SKILL_DESC_80005045,Increases own Max HP by 25% and All Block Chance by 250.
-SKILL_DESC_80005050,Crit DMG is increased by 50%.
-SKILL_DESC_80005051,Crit DMG is increased by 60%.
-SKILL_DESC_80005052,Crit DMG is increased by 72%.
-SKILL_DESC_80005053,Crit DMG is increased by 87%.
-SKILL_DESC_80005054,Crit DMG is increased by 105%.
-SKILL_DESC_80005055,Crit DMG is increased by 125%.
+SKILL_DESC_80005050,Increases Crit DMG by 50%.
+SKILL_DESC_80005051,Increases Crit DMG by 60%.
+SKILL_DESC_80005052,Increases Crit DMG by 72%.
+SKILL_DESC_80005053,Increases Crit DMG by 87%.
+SKILL_DESC_80005054,Increases Crit DMG by 105%.
+SKILL_DESC_80005055,Increases Crit DMG by 125%.
 SKILL_DESC_80005060,Increases ATK of 4 allies by 5% for 20 sec at the beginning of every battle. This effect will not stack with other similar effects cast by allies.
 SKILL_DESC_80005061,Increases ATK of 4 allies by 6% for 20 sec at the beginning of every battle. This effect will not stack with other similar effects cast by allies.
 SKILL_DESC_80005062,Increases ATK of 4 allies by 7.2% for 20 sec at the beginning of every battle. This effect will not stack with other similar effects cast by allies.
@@ -3666,12 +3666,12 @@ SKILL_DESC_80005092,Increases ATK and Crit DMG by 29%.
 SKILL_DESC_80005093,Increases ATK and Crit DMG by 35%.
 SKILL_DESC_80005094,Increases ATK and Crit DMG by 42%.
 SKILL_DESC_80005095,Increases ATK and Crit DMG by 50%.
-SKILL_DESC_80005100,"At the beginning of each battle, ATK is permanently increased by 10%. This effect stacks up to max 5 times, and is irremovable."
-SKILL_DESC_80005101,"At the beginning of each battle, ATK is permanently increased by 12%. This effect stacks up to max 5 times, and is irremovable."
-SKILL_DESC_80005102,"At the beginning of each battle, ATK is permanently increased by 14%. This effect stacks up to max 5 times, and is irremovable."
-SKILL_DESC_80005103,"At the beginning of each battle, ATK is permanently increased by 17%. This effect stacks up to max 5 times, and is irremovable."
-SKILL_DESC_80005104,"At the beginning of each battle, ATK is permanently increased by 21%. This effect stacks up to max 5 times, and is irremovable."
-SKILL_DESC_80005105,"At the beginning of each battle, ATK is permanently increased by 25%. This effect stacks up to max 5 times, and is irremovable."
+SKILL_DESC_80005100,"At the beginning of each battle, permanently increases ATK by 10%. This effect stacks up to max 5 times, and is irremovable."
+SKILL_DESC_80005101,"At the beginning of each battle, permanently increases ATK by 12%. This effect stacks up to max 5 times, and is irremovable."
+SKILL_DESC_80005102,"At the beginning of each battle, permanently increases ATK by 14%. This effect stacks up to max 5 times, and is irremovable."
+SKILL_DESC_80005103,"At the beginning of each battle, permanently increases ATK by 17%. This effect stacks up to max 5 times, and is irremovable."
+SKILL_DESC_80005104,"At the beginning of each battle, permanently increases ATK by 21%. This effect stacks up to max 5 times, and is irremovable."
+SKILL_DESC_80005105,"At the beginning of each battle, permanently increases ATK by 25%. This effect stacks up to max 5 times, and is irremovable."
 SKILL_DESC_80005110,"Increases self's All DEF by {1}%, and Heal Rate by {2}%."
 SKILL_DESC_80005111,"Increases self's All DEF by {1}%, and Heal Rate by {2}%."
 SKILL_DESC_80005112,"Increases self's All DEF by {1}%, and Heal Rate by {2}%."
@@ -4660,10 +4660,10 @@ SKILL_NAME_60004250,Oddy[Light]
 SKILL_NAME_60004251,Oddy[Dark]
 SKILL_NAME_60004310,Meal Time!![Light]
 SKILL_NAME_60004311,Meal Time!![Dark]
-SKILL_NAME_60004320,I'll slice you up!![Light]
-SKILL_NAME_60004321,I'll slice you up!![Dark]
-SKILL_NAME_60004330,I'll rip you to pieces!![Light]
-SKILL_NAME_60004331,I'll rip you to pieces!![Dark]
+SKILL_NAME_60004320,I'll Slice You Up!! [Light]
+SKILL_NAME_60004321,I'll Slice You Up!! [Dark]
+SKILL_NAME_60004330,I'll Rip You to Pieces!! [Light]
+SKILL_NAME_60004331,I'll Rip You to Pieces!! [Dark]
 SKILL_NAME_60004340,Yummy Souls![Light]
 SKILL_NAME_60004341,Yummy Souls![Dark]
 SKILL_NAME_60004350,Viska[Light]
@@ -5086,14 +5086,14 @@ SKILL_DESC_60000630,Deals 1% of Max HP as DMG per sec to nearby enemies.
 SKILL_DESC_60000631,Stuns nearby enemies for 3 sec.
 SKILL_DESC_60000640,Enemies with 5 stacks take 1% extra P.DMG based off Max HP per attack.
 SKILL_DESC_60000641,"Upon attack, dispel all positive effects and target receives 20% increased P.DMG for 20 sec. Has a cooldown of 20 sec."
-SKILL_DESC_60000710,DMG is increased by 40%.
-SKILL_DESC_60000711,Stuns the enemy for 3 sec.
-SKILL_DESC_60000720,Mana cost is reduced by 1.
-SKILL_DESC_60000721,Blind duration is increased by 2 sec.
-SKILL_DESC_60000730,"Mana cost is increased by 1, and attacks a random target 2 times."
-SKILL_DESC_60000731,Mana cost is reduced by 1.
-SKILL_DESC_60000740,Activation chance is boosted by 10%.
-SKILL_DESC_60000741,Target takes 25% increased P.DMG for 10 sec.
+SKILL_DESC_60000710,Increases DMG by {1}%.
+SKILL_DESC_60000711,Reduces the Mana of hit target by {1}.
+SKILL_DESC_60000720,Reduces Mana Cost by 1.
+SKILL_DESC_60000721,Increases the duration of Blind by {1} sec.
+SKILL_DESC_60000730,"Increases Mana Cost by 1, and attaches the bomb on a random enemy twice."
+SKILL_DESC_60000731,Changes the target to the enemy with the highest ATK.
+SKILL_DESC_60000740,Increases the activation chance of the bomb by {1}% and the duration of Stun by {2} sec.
+SKILL_DESC_60000741,"Upon a successful experiment, recovers {1} Mana."
 SKILL_DESC_60000810,Mana cost is reduced by 1.
 SKILL_DESC_60000811,Target takes 25% increased M.DMG for 10 sec.
 SKILL_DESC_60000820,Allies take 25% less DMG while skill is in effect.
@@ -5190,14 +5190,14 @@ SKILL_DESC_60002030,"Upon jumping into the air, charge at the target with the hi
 SKILL_DESC_60002031,"While casting, all allies take 20% reduced P.DMG."
 SKILL_DESC_60002040,P.DEF is increased by 20% and P. Block is boosted by 50%.
 SKILL_DESC_60002041,Recovers HP equal to 40% of P.DEF upon blocking.
-SKILL_DESC_60002110,"If there is 1 enemy, DMG is increased by 100%."
-SKILL_DESC_60002111,Target changes to the enemy with the highest ATK.
-SKILL_DESC_60002120,Mana cost is reduced by 1.
-SKILL_DESC_60002121,Increases Naila's DMG dealt on non-Hero enemies by 30% for the duration of skill.
-SKILL_DESC_60002130,DMG is increased by 40%.
-SKILL_DESC_60002131,Reduces cooldown by 10% per each enemy that takes Critical DMG.
-SKILL_DESC_60002140,Activation chance changes to 60%.
-SKILL_DESC_60002141,Atk Spd is boosted by 300 when effect takes place.
+SKILL_DESC_60002110,Gains immunity to CC for the duration of Skill.
+SKILL_DESC_60002111,Increases P.DMG the hit target takes by {2}% for {1} sec.
+SKILL_DESC_60002120,Increases Mana Cost by 1 and dispels positive effects from all enemies upon activation.
+SKILL_DESC_60002121,Increases the max number of stacks for Crit DMG Boost effect to {1}.
+SKILL_DESC_60002130,Increases DMG by {1}%.
+SKILL_DESC_60002131,Reduces the Heal Rate of the hit target by {2}% for {1} sec.
+SKILL_DESC_60002140,"Increases DMG of normal attacks by {1}%, and reduces Cooldown of all Skills by {2} sec."
+SKILL_DESC_60002141,"At the beginning of each battle, increases own DEF Penetration by {2} for {1} sec. Upon activation during Guild War, gains immunity to CC for {3} sec. The DEF Penetration Boost effect is irremovable."
 SKILL_DESC_60002210,DMG is increased by 40%.
 SKILL_DESC_60002211,Gain CC immunity while using said skill.
 SKILL_DESC_60002220,ATK Spd is boosted by 250 for the duration.
@@ -5254,7 +5254,7 @@ SKILL_DESC_60002830,Each Critical Hit increases the last hit's DMG by 10%.
 SKILL_DESC_60002831,"While in cooldown, auto attack DMG is boosted by 50%."
 SKILL_DESC_60002840,"Upon dodging, raise own ATK by 3%. Stacks up to 10 times."
 SKILL_DESC_60002841,Has a 30% chance to stun enemies for 3 sec.
-SKILL_DESC_60002910,"If there is 1 enemy, DMG is increased by 100%."
+SKILL_DESC_60002910,Gains immunity to CC for the duration of Skill.
 SKILL_DESC_60002911,Stuns the hit enemy for 2 sec.
 SKILL_DESC_60002920,"In exchange for 2 additional Mana Cost, attacks random enemies 3 times."
 SKILL_DESC_60002921,Ignores enemy Block.
@@ -5305,10 +5305,10 @@ SKILL_DESC_60003441,Overcharge duration is increased by 3 sec.
 SKILL_DESC_60003510,DMG is increased by 100% when there is 1 enemy.
 SKILL_DESC_60003511,Mark stacks 2 times.
 SKILL_DESC_60003520,"Upon activation, HP will not be reduced below 5% for 3 sec."
-SKILL_DESC_60003521,Crit DMG is increased by 50% for the duration of Skill.
+SKILL_DESC_60003521,Increases Crit DMG by {1}% for the duration of Skill.
 SKILL_DESC_60003530,DMG is increased by 40%.
 SKILL_DESC_60003531,Stacks 2 more mark per hit.
-SKILL_DESC_60003540,Mark maximum is changed to 200.
+SKILL_DESC_60003540,Increases the max stack of Death Mark to {1}.
 SKILL_DESC_60003541,All cooldowns are reduced by 0.3 when hitting a target with 100 stacks.
 SKILL_DESC_60003610,Target receives 25% increased P.DMG for 10 sec.
 SKILL_DESC_60003611,Deals extra P.DMG equal to 200% of M.DEF.
@@ -5320,10 +5320,10 @@ SKILL_DESC_60003640,M.DEF increase rate is boosted by 40%.
 SKILL_DESC_60003641,Max stack count is boosted to 8.
 SKILL_DESC_60003710,Reduces the target's Heal Rate by 30%.
 SKILL_DESC_60003711,"For 10 sec, target's P.Crit resistance is reduced by 250."
-SKILL_DESC_60003720,"If there is 1 enemy, DMG is increased by 100%."
+SKILL_DESC_60003720,Each hit reduces the target's Mana by {1}.
 SKILL_DESC_60003721,Recovers 200 mana upon a Crit hit.
 SKILL_DESC_60003730,Mana cost is increased by 1 orb but DMG is boosted by 100%.
-SKILL_DESC_60003731,Cooldown is reduced by 5 sec.
+SKILL_DESC_60003731,Reduces Mana Cost by 1.
 SKILL_DESC_60003740,Increases additional DMG against non-Hero enemies by 100%.
 SKILL_DESC_60003741,Increases Silence duration by 0.5 sec.
 SKILL_DESC_60003810,DMG is increased by 40%.
@@ -5389,7 +5389,7 @@ SKILL_DESC_60004521,Enemies hit are stunned for 2 sec.
 SKILL_DESC_60004530,ATK Spd is boosted by 250 for the duration.
 SKILL_DESC_60004531,"For the duration, all DMG taken is reduced by 25%."
 SKILL_DESC_60004540,Reduces DMG that all allies take from Dragons by 20%.
-SKILL_DESC_60004541,Changes own DMG Boost against Dragons to 80%.
+SKILL_DESC_60004541,Changes self's DMG Boost against Dragons to {1}%.
 SKILL_DESC_60004610,Crit DMG boost per use changes to 10%.
 SKILL_DESC_60004611,Stuns the hit enemy for 1 sec.
 SKILL_DESC_60004620,"If there are 3 or less allies, applies shield to all allies. Sand Storm does not activate during this time."
@@ -5632,7 +5632,7 @@ SKILL_DESC_60009140,"When there is 1 enemy, DMG is boosted by 100%."
 SKILL_DESC_60009141,"When activated in the Arena, deal 15% of the target's current HP as additional P.DMG that ignores DEF."
 SKILL_DESC_60009210,DMG is increased by 100% when there is 1 enemy.
 SKILL_DESC_60009211,Number of targets changes to 2.
-SKILL_DESC_60009220,ATK Boost is increased by 40%.
+SKILL_DESC_60009220,"After the beginning of the first battle, changes the DMG Boost effect against Bosses to {2}% for {1} Skill uses."
 SKILL_DESC_60009221,Reduces cooldown by 5 sec.
 SKILL_DESC_60009230,Increases Mana Cost by 1 and DMG by 100%.
 SKILL_DESC_60009231,Target takes increased M.DMG and P.DMG.
@@ -5689,7 +5689,7 @@ SKILL_DESC_60001750,"ATK, DEF, HP+15% / ATK.Spd +100"
 SKILL_DESC_60001850,"ATK, DEF, HP+15% / Crit DMG +20%"
 SKILL_DESC_60001950,"ATK, DEF, HP+15% / Crit DMG +20%"
 SKILL_DESC_60002050,"ATK, DEF, HP+15% / P. Block +200"
-SKILL_DESC_60002150,"ATK, DEF, HP+15% / P.Dodge +100"
+SKILL_DESC_60002150,"ATK, DEF, HP +15% / Crit Chance +100"
 SKILL_DESC_60002250,"ATK, DEF, HP+15% / Crit Chance +100"
 SKILL_DESC_60002350,"ATK, DEF, HP+15% / M. Block +200"
 SKILL_DESC_60002450,"ATK, DEF, HP+15% / M. Block +200"
@@ -5755,7 +5755,7 @@ SKILL_DESC_60000351,"If a target has 10 stacks of Ember, increases the M.DMG the
 SKILL_DESC_60000451,"Upon a Crit Hit, there is a 10% chance of ATK Spd increasing by 300 and Crit DMG increasing by 60% for 5 sec. Does not activate again during activation."
 SKILL_DESC_60000551,"Heals HP worth 10% of ATK every second, and every 1% of HP lost reduces received DMG by 0.6%."
 SKILL_DESC_60000651,"When auto attacking, there is a 10% chance to Stun the target for 2 sec and deal extra DMG worth 10% of own HP."
-SKILL_DESC_60000751,"Upon a Critical Hit, gain 5% Crit DMG and 30 CC Accuracy. Stacks up to 10 times."
+SKILL_DESC_60000751,Each successful experiment increases own ATK Spd by {2} and CC ACC by {3} for {1} sec.
 SKILL_DESC_60000851,"When taking DMG, decreases ATK Spd of the attacking enemy by 300 for 5 sec. This effect is activated only once every 5 sec."
 SKILL_DESC_60000951,All of Epis's attacks decrease the M.DEF of hit enemies by 20% for 10 sec. ATK rises by 2% per each enemy hit. Maximum stack number is 10.
 SKILL_DESC_60001051,Reduces own Crit Chance by 300 and increases Crit DMG by 150%.
@@ -5768,7 +5768,7 @@ SKILL_DESC_60001751,"Upon auto attacking, deal extra M.DMG worth 80% of ATK and 
 SKILL_DESC_60001851,"When auto attacking, there is a 10% chance to increase Crit DMG by 100% for 5 sec."
 SKILL_DESC_60001951,"Every 3 sec, attacks all enemies and deals 50% of ATK as M.DMG, inflicting Frost with 50% chance. Enemies already inflicted with Frost takes 300% of ATK as M.DMG over time for 3 sec."
 SKILL_DESC_60002051,"At the beginning of every battle, decrease the ATK of all enemies by 20% for 6 sec. This effect cannot be dispelled."
-SKILL_DESC_60002151,"Upon dodging, all skill cooldowns are reduced by 2%. Also, ATK is boosted by 3%, and Atk Spd is boosted by 30. The ATK and Atk Spd Boosts can stack up to 10 times."
+SKILL_DESC_60002151,"Upon a Critical Hit, increases own ATK by {2}% and P.Dodge by {3} for {1} sec. This effect can be stacked up to max {4} times."
 SKILL_DESC_60002251,Increases ATK by 20% for 10 seconds and sets 3 random enemies as Rodina's target at the start of every battle.
 SKILL_DESC_60002351,"Flame stack DMG is increased by 100%, and max stack number is changed to 120"
 SKILL_DESC_60002451,"When attacking with Holy Nova and Spear of Light, deal extra M.DMG equal to 100% of ATK and reduce the used skill's cooldown by 20%."
@@ -5776,13 +5776,13 @@ SKILL_DESC_60002551,Each hit of Jane's attacks increase her ATK and Recovery Rat
 SKILL_DESC_60002651,"Upon using a Skill, increases Mana Recovery/Sec by 10% and Crit DMG by 7%. This effect stacks up to 20 times and is irremovable."
 SKILL_DESC_60002751,"Upon attacking, there is a 10% chance of dealing 120% of ATK as P.DMG to a random enemy, while also removing 300 mana and inflicting Silence for 1 sec."
 SKILL_DESC_60002851,"Upon attacking, deal extra P.DMG equal to 20% of ATK to the enemy. There is also a 10% chance of dealing double P.DMG and dispelling positive effects."
-SKILL_DESC_60002951,"At the beginning of each battle, grants Blessing of the Carrot for 20 sec. Blessing of the Carrot increases DMG dealt to Non-Hero enemies by {1}%, and reduces DMG received by {2}%."
+SKILL_DESC_60002951,"Being granted with blessing of the carrot, Luna increases DMG dealt to Non-Hero enemies by {1}%, and takes {2}% reduced DMG."
 SKILL_DESC_60003051,Recovers 350 Mana of all allies every 3 sec.
 SKILL_DESC_60003151,"At the beginning of each battle, self gains immunity to M.DMG for 5 sec."
 SKILL_DESC_60003251,All skill HP consumption is increased by 50% but cooldowns are reduced by 20%.
 SKILL_DESC_60003351,"When auto attacking, there is a 10% chance of stacking 1 stack of Blade. Nyx's ATK is boosted by 10% per each Blade Stack he holds."
 SKILL_DESC_60003451,"When Overcharge activates, increase all allies Atk Spd by 200, and increase the ATK of all allies by 5% of Annette's ATK."
-SKILL_DESC_60003551,"Upon a Critical Hit, increases own Crit DMG by 0.5% and ATK Spd by 5. This effect cannot be dispelled, and can be stacked up to max 100 times."
+SKILL_DESC_60003551,"Upon a Critical Hit, increases own Crit DMG by {1}% and ATK Spd by {2}. This effect can be stacked up to max {3} times and is irremovable."
 SKILL_DESC_60003651,"When own HP goes below 40%, HP does not go under 10% for 6 sec, and all allies' ATK is increased by 50% of own M.DEF. This effect is activated once every 60 sec."
 SKILL_DESC_60003751,"Normal attacks have a 15% chance to activate Stealth mode that lasts for 10 sec. While in Stealth mode, normal attacks deal 50% increased DMG."
 SKILL_DESC_60003851,"When in Fury state, auto attack deals DMG that ignores DEF."
@@ -5979,3 +5979,9 @@ SKILL_DESC_7100341,"A Guardian of Sekireinel is blessed with a mighty power that
 SKILL_DESC_80005140,"Increases own Max HP by {1}%. When there is 1 enemy, increases ATK of all allies by {2}%. This effect will not stack with other similar effects cast by allies."
 SKILL_DESC_80005150,Normal attacks have a {1}% chance to increase ATK Spd by {3} for {2} sec.
 SKILL_DESC_80005160,"When inflicted by CC, reduces self's Cooldown of all Skills by {1} sec and recovers {3} Mana every sec for {2} sec. Has a Cooldown of {4} sec."
+SKILL_NAME_50000277,Card of Death
+SKILL_NAME_50000278,Card of Love
+SKILL_NAME_50000279,Card of Fortune
+SKILL_DESC_50000277,The backup Card of Death Ophelia carries around just in case.\nIt's not as strong since Carta is not with it.
+SKILL_DESC_50000278,The backup Card of Love Ophelia carries around just in case.\nIt's not as strong since Elliciad is not with it.
+SKILL_DESC_50000279,The backup Card of Fortune Ophelia carries around just in case.\nIt's not as strong since Vellekia is not with it.
